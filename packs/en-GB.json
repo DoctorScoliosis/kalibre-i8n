@@ -2888,7 +2888,9 @@
         "about": "about {size} on disk",
         "small": "{about}.",
         "large_no_limit": "no limit keeps every passage: {about} for these texts. That's a lot of space, and it takes a while to build.",
-        "large": "{about}. That's a lot of space, and it takes a while to build."
+        "large": "{about}. That's a lot of space, and it takes a while to build.",
+        "flow_pass_label": "cross-paragraph passages (flow extraction)",
+        "flow_pass_hint": "Finds extra passages that cross paragraph boundaries, such as dialogue exchanges and conversational turns. Increases passage choices and variety at the cost of additional disk space."
       },
       "dataset_cards": {
         "rebuild": "rebuild",

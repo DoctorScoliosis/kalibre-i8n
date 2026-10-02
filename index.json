@@ -18,8 +18,8 @@
       "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "1148398ed73e8c2ef87ab9806146d04fc1165245c1474076994782faa2816838",
-      "bytes": 288559
+      "sha256": "66c40337b779d5090ca82c57ea79c3c23ae993d2526784473bba557665e321d7",
+      "bytes": 288844
     },
     {
       "id": "fr-FR",
