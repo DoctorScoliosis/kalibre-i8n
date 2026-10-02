@@ -1,0 +1,42 @@
+{
+  "storage": {
+    "heading": "storage",
+    "persistent": "The browser keeps kalibre's data until you clear it yourself.",
+    "best_effort": "The browser may clear kalibre's data if the disk runs low.",
+    "unsupported": "This browser can't promise to keep kalibre's data, so keep a backup.",
+    "keep_my_data": "keep my data"
+  },
+  "backup": {
+    "automatic_heading": "automatic backup",
+    "choose_folder": "choose a folder",
+    "back_up_now": "back up now",
+    "change_folder": "change folder",
+    "stop": "stop",
+    "restore": "restore",
+    "manual_heading": "back up by hand",
+    "export_profile": "export this profile",
+    "share_profile": "share this profile",
+    "exported_summary": "exported {sessions} tests, {mistakes} mistakes and {texts} texts",
+    "restore_folder": "restore from a kalibre folder",
+    "update_copies": "copies from before updates",
+    "restore_warning": "this replaces everything kalibre keeps in this browser with that copy. sure?",
+    "confirm_restore": "yes, put it back",
+    "cancel": "cancel"
+  },
+  "guest": {
+    "banner_title": "You're trying Kalibre as a guest.",
+    "banner_body": "Your tests, mistakes, stats and XP are kept in this browser, but not backed up, and the profile can't be locked. Save your progress to keep it as your own profile.",
+    "save_progress": "save my progress",
+    "ephemeral_warning": "guest session: this browser isn't keeping anything, so nothing is saved when this window closes. to keep what you do, download your profile and load it in a normal window.",
+    "download_profile": "download my profile",
+    "name_profile": "name your profile",
+    "nickname_placeholder": "a nickname",
+    "save": "save"
+  },
+  "progress": {
+    "backing_up": "backing up",
+    "preparing_export": "preparing export",
+    "saved": "saved",
+    "couldnt_save": "couldn't save (see settings → data)"
+  }
+}

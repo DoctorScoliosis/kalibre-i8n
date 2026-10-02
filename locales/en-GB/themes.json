@@ -1,0 +1,34 @@
+{
+  "editor": {
+    "save_theme": "save theme",
+    "name": "name",
+    "light_or_dark": "light or dark",
+    "readability": "readability",
+    "page": "page",
+    "background": "background",
+    "panels": "panels",
+    "lines_borders": "lines and borders",
+    "selection": "selection",
+    "text": "text",
+    "dim_text": "dim text",
+    "accent": "accent",
+    "typed_text": "typed text",
+    "mistakes": "mistakes",
+    "extra_letters": "extra letters",
+    "caret": "caret"
+  },
+  "actions": {
+    "use": "use",
+    "edit": "edit",
+    "decorate": "decorate",
+    "export": "export",
+    "delete": "delete",
+    "customise_current": "customise current theme",
+    "import_theme": "import a theme"
+  },
+  "picker": {
+    "preview": "preview",
+    "instructions": "hover to preview · click or enter to apply · esc to close",
+    "close": "close"
+  }
+}

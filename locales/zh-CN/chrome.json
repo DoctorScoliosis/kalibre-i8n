@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "skip_to_content": "跳到主要内容",
+    "type": "打字",
+    "learn": "学习",
+    "drill": "训练",
+    "games": "游戏",
+    "mistakes": "错误",
+    "settings": "设置",
+    "today": "今日",
+    "about": "关于"
+  },
+  "curtain": {
+    "fetching": "正在获取书籍和词典，仅此一次",
+    "taking_longer": "这比平时更久……",
+    "reload": "重新加载",
+    "books_downloading": "书籍仍在下载。你可以现在开始使用，它们会在后台完成下载。",
+    "start_without_waiting": "立即开始，无需等待",
+    "still_loading": "仍在加载。请检查你的网络连接，然后重新加载。kalibre 在此处加载完成后，即可离线使用。",
+    "older_tab": "kalibre 在另一个标签页中打开，版本较旧。关闭该标签页，此标签页将继续运行。",
+    "couldnt_load": "kalibre 无法加载。请检查你的网络连接，然后重新加载。",
+    "browser_too_old": "此浏览器太旧，无法运行 kalibre。请使用最新版本的 Chrome、Edge、Firefox 或 Safari。"
+  },
+  "footer": {
+    "shortcuts": "键盘快捷键",
+    "privacy": "隐私",
+    "terms": "条款",
+    "security": "安全",
+    "announcements": "公告"
+  },
+  "meta": {
+    "tagline": "kalibre，自适应打字训练器",
+    "description": "你的打字。你的错误。你的进步。一个在你的浏览器中学习你的重复错误并加以训练的打字训练器。",
+    "alt_wordmark": "kalibre 标志位于 Cal 和 Libby 之间，附有文字：你的打字，你的错误，你的进步。"
+  },
+  "pwa": {
+    "ios": "在 iPhone 和 iPad 上，将 kalibre 添加到主屏幕（在 Safari 中：分享 → 添加到主屏幕）。它将全屏打开并保留数据，而 Safari 标签页在 7 天未访问后可能会丢失数据。",
+    "generic": "将 kalibre 添加到主屏幕（浏览器菜单 → 添加到主屏幕，或安装）。安装后，它将全屏打开，浏览器也更可能保留其数据。"
+  },
+  "misc": {
+    "kalibre_about": "kalibre，关于",
+    "backup_due": "设置，备份到期",
+    "new_badge": "新",
+    "backup_progress": "备份进度",
+    "todays_quests": "今日任务",
+    "new_quests_midnight": "午夜时分获得新任务",
+    "difficulty": "难度",
+    "getting_quests": "正在获取今日任务……"
+  }
+}

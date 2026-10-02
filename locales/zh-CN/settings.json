@@ -1,0 +1,145 @@
+{
+  "schema": {
+    "mistakeSensitivity": {
+      "label": "建议加入训练的错误",
+      "option": {
+        "relaxed": "仅限明显规律"
+      }
+    },
+    "autoAcceptMistakes": {
+      "label": "自动将错误加入训练库"
+    },
+    "adaptiveMix": {
+      "label": "在单词测试中练习单词",
+      "option": {
+        "light": "少量",
+        "strong": "更多"
+      }
+    },
+    "goalType": {
+      "label": "每日目标",
+      "option": {
+        "off": "无",
+        "minutes": "分钟",
+        "words": "单词"
+      }
+    },
+    "goalMinutes": {
+      "label": "每日分钟数"
+    },
+    "goalWords": {
+      "label": "每日单词数"
+    },
+    "questDifficulty": {
+      "label": "每日任务难度",
+      "option": {
+        "easy": "简单",
+        "normal": "普通",
+        "hard": "困难"
+      }
+    },
+    "lessonCompanion": {
+      "label": "课程伙伴"
+    },
+    "commonCapitals": {
+      "label": "常用单词中的大写字母"
+    },
+    "paragraphBreaks": {
+      "label": "段落换行"
+    },
+    "wordPool": {
+      "label": "单词列表",
+      "option": {
+        "200": "200个常用单词"
+      }
+    },
+    "wordLength": {
+      "label": "单词长度",
+      "option": {
+        "everyday": "日常",
+        "some_long": "一些长单词",
+        "long": "长单词"
+      }
+    },
+    "wordSpelling": {
+      "label": "单词测试中的拼写",
+      "option": {
+        "both": "两者（按原样）",
+        "uk": "英式英语（colour, centre）",
+        "us": "美式英语（color, center）"
+      }
+    },
+    "textSize": {
+      "label": "打字文本大小"
+    },
+    "fontFamily": {
+      "label": "打字字体"
+    },
+    "fontWeight": {
+      "label": "打字字体粗细"
+    },
+    "lineHeight": {
+      "label": "打字行高"
+    },
+    "letterSpacing": {
+      "label": "打字字间距"
+    },
+    "caretStyle": {
+      "label": "光标样式",
+      "option": {
+        "line": "竖线",
+        "block": "方块",
+        "underline": "下划线"
+      }
+    },
+    "smoothCaret": {
+      "label": "平滑光标"
+    },
+    "focusMode": {
+      "label": "焦点",
+      "option": {
+        "line": "当前行",
+        "sentence": "句子"
+      }
+    },
+    "liveMetrics": {
+      "label": "实时 WPM 和准确率"
+    },
+    "mistakeDisplay": {
+      "label": "错误显示为",
+      "option": {
+        "expected": "预期字母",
+        "typed": "已输入的字母"
+      }
+    },
+    "restartKey": {
+      "label": "重新开始键"
+    },
+    "layout": {
+      "label": "键盘布局"
+    },
+    "stenoMode": {
+      "label": "我使用的输入方式",
+      "option": {
+        "keyboard": "键盘",
+        "steno": "速录机"
+      }
+    },
+    "defaultDuration": {
+      "label": "默认测试时长"
+    },
+    "defaultWordCount": {
+      "label": "默认单词数"
+    }
+  },
+  "actions": {
+    "export": "导出设置",
+    "import": "导入设置"
+  },
+  "tip": {
+    "esc_change": "Esc：输入即可更改任何设置"
+  },
+  "notice": {
+    "imported_count": "已导入 {count} 项设置"
+  }
+}

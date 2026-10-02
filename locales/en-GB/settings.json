@@ -1,0 +1,145 @@
+{
+  "schema": {
+    "mistakeSensitivity": {
+      "label": "suggest mistakes to train",
+      "option": {
+        "relaxed": "only clear patterns"
+      }
+    },
+    "autoAcceptMistakes": {
+      "label": "auto-add mistakes to training"
+    },
+    "adaptiveMix": {
+      "label": "practice words in word tests",
+      "option": {
+        "light": "a few",
+        "strong": "more"
+      }
+    },
+    "goalType": {
+      "label": "daily goal",
+      "option": {
+        "off": "none",
+        "minutes": "minutes",
+        "words": "words"
+      }
+    },
+    "goalMinutes": {
+      "label": "minutes a day"
+    },
+    "goalWords": {
+      "label": "words a day"
+    },
+    "questDifficulty": {
+      "label": "daily quest difficulty",
+      "option": {
+        "easy": "easy",
+        "normal": "normal",
+        "hard": "hard"
+      }
+    },
+    "lessonCompanion": {
+      "label": "lesson companion"
+    },
+    "commonCapitals": {
+      "label": "capitals in common words"
+    },
+    "paragraphBreaks": {
+      "label": "paragraph breaks"
+    },
+    "wordPool": {
+      "label": "word list",
+      "option": {
+        "200": "200 common words"
+      }
+    },
+    "wordLength": {
+      "label": "word length",
+      "option": {
+        "everyday": "everyday",
+        "some_long": "some long words",
+        "long": "long words"
+      }
+    },
+    "wordSpelling": {
+      "label": "spelling in word tests",
+      "option": {
+        "both": "both (as written)",
+        "uk": "UK English (colour, centre)",
+        "us": "US English (color, center)"
+      }
+    },
+    "textSize": {
+      "label": "typing text size"
+    },
+    "fontFamily": {
+      "label": "typing font"
+    },
+    "fontWeight": {
+      "label": "typing font weight"
+    },
+    "lineHeight": {
+      "label": "typing line height"
+    },
+    "letterSpacing": {
+      "label": "typing letter spacing"
+    },
+    "caretStyle": {
+      "label": "caret style",
+      "option": {
+        "line": "line",
+        "block": "block",
+        "underline": "underline"
+      }
+    },
+    "smoothCaret": {
+      "label": "smooth caret"
+    },
+    "focusMode": {
+      "label": "focus",
+      "option": {
+        "line": "current line",
+        "sentence": "sentence"
+      }
+    },
+    "liveMetrics": {
+      "label": "live wpm and accuracy"
+    },
+    "mistakeDisplay": {
+      "label": "show mistakes as",
+      "option": {
+        "expected": "expected letter",
+        "typed": "typed letter"
+      }
+    },
+    "restartKey": {
+      "label": "restart key"
+    },
+    "layout": {
+      "label": "keyboard layout"
+    },
+    "stenoMode": {
+      "label": "I type with",
+      "option": {
+        "keyboard": "a keyboard",
+        "steno": "a steno machine"
+      }
+    },
+    "defaultDuration": {
+      "label": "default test duration"
+    },
+    "defaultWordCount": {
+      "label": "default word count"
+    }
+  },
+  "actions": {
+    "export": "export settings",
+    "import": "import settings"
+  },
+  "tip": {
+    "esc_change": "esc: change any setting by typing"
+  },
+  "notice": {
+    "imported_count": "imported {count} setting(s)"
+  }
+}

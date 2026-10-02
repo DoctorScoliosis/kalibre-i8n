@@ -1,0 +1,40 @@
+{
+  "kalibreI18nIndex": 1,
+  "repository": {
+    "name": "kalibre-i8n",
+    "description": "Independent, versioned localisation packs for Kalibre.",
+    "url": "https://github.com/DoctorScoliosis/kalibre-i8n"
+  },
+  "locales": [
+    {
+      "id": "en-GB",
+      "name": "English (UK)",
+      "englishName": "English (UK)",
+      "dir": "ltr",
+      "fallback": null,
+      "revision": 1,
+      "version": "2026-10-02",
+      "reviewed": "native",
+      "changes": "Canonical source locale extracted from Kalibre",
+      "path": "locales/en-GB/manifest.json",
+      "pack": "packs/en-GB.json",
+      "sha256": "59ed903b8b46b86706b8906134cbcc997881c9753d2bacca538f527b87404ee5",
+      "bytes": 13813
+    },
+    {
+      "id": "zh-CN",
+      "name": "简体中文",
+      "englishName": "Chinese (Simplified)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 1,
+      "version": "2026-10-02",
+      "reviewed": "community",
+      "changes": "Initial Chinese (Simplified) candidate from Qwen with DeepSeek review (248 UI strings)",
+      "path": "locales/zh-CN/manifest.json",
+      "pack": "packs/zh-CN.json",
+      "sha256": "26a1ccaf788bb92bfd49daaf9fef4a740b4247d625d7609f6756c0207a415019",
+      "bytes": 14225
+    }
+  ]
+}

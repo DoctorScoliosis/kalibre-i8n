@@ -1,0 +1,13 @@
+{
+  "name": "kalibre-i8n",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent, versioned localisation packs for Kalibre.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-packs.mjs",
+    "check": "node scripts/check-i18n.mjs",
+    "test": "npm run build && npm run check"
+  },
+  "license": "MIT"
+}

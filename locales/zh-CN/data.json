@@ -1,0 +1,42 @@
+{
+  "storage": {
+    "heading": "存储",
+    "persistent": "浏览器会保留 kalibre 的数据，直到你手动清除。",
+    "best_effort": "如果磁盘空间不足，浏览器可能会清除 kalibre 的数据。",
+    "unsupported": "此浏览器无法保证保留 kalibre 的数据，因此请做好备份。",
+    "keep_my_data": "保留我的数据"
+  },
+  "backup": {
+    "automatic_heading": "自动备份",
+    "choose_folder": "选择文件夹",
+    "back_up_now": "立即备份",
+    "change_folder": "更改文件夹",
+    "stop": "停止",
+    "restore": "恢复",
+    "manual_heading": "手动备份",
+    "export_profile": "导出此个人资料",
+    "share_profile": "分享此个人资料",
+    "exported_summary": "已导出 {sessions} 次测试、{mistakes} 个错误和 {texts} 篇文本",
+    "restore_folder": "从 kalibre 文件夹恢复",
+    "update_copies": "更新前的副本",
+    "restore_warning": "这将用该副本替换 kalibre 在此浏览器中保留的所有内容。确定吗？",
+    "confirm_restore": "是的，恢复它",
+    "cancel": "取消"
+  },
+  "guest": {
+    "banner_title": "你正在以访客身份试用 Kalibre。",
+    "banner_body": "你的测试、错误、统计数据和经验值保存在此浏览器中，但不会备份，且无法锁定个人资料。保存进度以将其保留为你自己的个人资料。",
+    "save_progress": "保存我的进度",
+    "ephemeral_warning": "访客会话：此浏览器不会保留任何内容，因此关闭此窗口后不会保存任何内容。要保留你的进度，请下载你的个人资料并在普通窗口中加载。",
+    "download_profile": "下载我的个人资料",
+    "name_profile": "为你的个人资料命名",
+    "nickname_placeholder": "昵称",
+    "save": "保存"
+  },
+  "progress": {
+    "backing_up": "正在备份",
+    "preparing_export": "正在准备导出",
+    "saved": "已保存",
+    "couldnt_save": "无法保存（请参阅设置 → 数据）"
+  }
+}

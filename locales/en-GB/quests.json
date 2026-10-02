@@ -1,0 +1,22 @@
+{
+  "kinds": {
+    "type_words": "type {count} word(s)",
+    "type_minutes": "type for {count} minute(s)",
+    "finish_tests": "finish {count} test(s)",
+    "play_game": "play {game} {count} time(s)",
+    "score_game": "score {score} in {game}",
+    "find_mistakes": "find {count} mistake(s) in one {game} run",
+    "touch_typing_lesson": "do a touch typing lesson"
+  },
+  "status": {
+    "done": "done"
+  },
+  "actions": {
+    "swap": "swap",
+    "go": "go"
+  },
+  "labels": {
+    "challenge": "challenge",
+    "daily_goal": "daily goal"
+  }
+}

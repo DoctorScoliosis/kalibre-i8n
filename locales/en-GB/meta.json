@@ -1,0 +1,12 @@
+{
+  "id": "en-GB",
+  "name": "English (UK)",
+  "englishName": "English (UK)",
+  "dir": "ltr",
+  "fallback": null,
+  "lowercaseDates": true,
+  "reviewed": "native",
+  "revision": 1,
+  "version": "2026-10-02",
+  "changes": "Canonical source locale extracted from Kalibre"
+}

@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "skip_to_content": "skip to content",
+    "type": "type",
+    "learn": "learn",
+    "drill": "drill",
+    "games": "games",
+    "mistakes": "mistakes",
+    "settings": "settings",
+    "today": "today",
+    "about": "about"
+  },
+  "curtain": {
+    "fetching": "fetching the books and dictionary, just this once",
+    "taking_longer": "this is taking longer than usual…",
+    "reload": "reload",
+    "books_downloading": "the books are still downloading. you can start now, and they'll finish in the background.",
+    "start_without_waiting": "start without waiting",
+    "still_loading": "still loading. check your connection, then reload. once kalibre has loaded here, it works offline.",
+    "older_tab": "kalibre is open in another tab, on an older version. close that tab and this one will carry on.",
+    "couldnt_load": "kalibre couldn't load. check your connection, then reload.",
+    "browser_too_old": "this browser is too old for kalibre. a recent Chrome, Edge, Firefox or Safari will run it."
+  },
+  "footer": {
+    "shortcuts": "keyboard shortcuts",
+    "privacy": "privacy",
+    "terms": "terms",
+    "security": "security",
+    "announcements": "announcements"
+  },
+  "meta": {
+    "tagline": "kalibre, an adaptive typing trainer",
+    "description": "Your typing. Your mistakes. Your progress. A typing trainer that learns your recurring mistakes and drills them, right in your browser.",
+    "alt_wordmark": "The kalibre wordmark between Cal and Libby, with the line: your typing, your mistakes, your progress."
+  },
+  "pwa": {
+    "ios": "On iPhone and iPad, add kalibre to your home screen (in Safari: share → add to home screen). It opens full screen and keeps its data, where a Safari tab can lose it after 7 days without a visit.",
+    "generic": "Add kalibre to your home screen (the browser's menu → add to home screen, or install). Installed, it opens full screen, and the browser is readier to keep its data."
+  },
+  "misc": {
+    "kalibre_about": "kalibre, about",
+    "backup_due": "settings, backup due",
+    "new_badge": "new",
+    "backup_progress": "backup progress",
+    "todays_quests": "today's quests",
+    "new_quests_midnight": "new quests at midnight",
+    "difficulty": "difficulty",
+    "getting_quests": "Getting today's quests…"
+  }
+}

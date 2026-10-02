@@ -1,0 +1,23 @@
+{
+  "kalibreLocale": 1,
+  "id": "en-GB",
+  "name": "English (UK)",
+  "englishName": "English (UK)",
+  "dir": "ltr",
+  "fallback": null,
+  "lowercaseDates": true,
+  "reviewed": "native",
+  "revision": 1,
+  "version": "2026-10-02",
+  "changes": "Canonical source locale extracted from Kalibre",
+  "files": {
+    "about.json": "415706e0ffb2148e9fdc72aa2dffddbeb13cbc6a3dafbfe01728becad1567fdf",
+    "achievements.json": "4e6169dcd06da0a6d176e8282e66d69e5923eea5bc8b82db5a1b58f63610b19e",
+    "chrome.json": "a12406d19afeb9eeef5ab4bcc02510ed186afaa92273579e6a0425618e664c9b",
+    "companions.json": "bc7d441a460722510ae166990807067734e03e3e5d7f9f4d59e2257b6e9e3c98",
+    "data.json": "00cd21fdeb7ad59da4f96db0f3864b7d089d9072b4c444b6b633ed07bcb823d8",
+    "quests.json": "a30e1c31f2d8bd98bdd0c15b9bff03b6aacbc9aa05b81abae1fb91c862cc2b7f",
+    "settings.json": "0dec0e7438a3469f64c2e697cf1f658173e6a6eae13b0eaeb23269bc88911bc6",
+    "themes.json": "4465a78e342d0c4084efc35555876814005e44b5ac03afc814a42027781c435b"
+  }
+}

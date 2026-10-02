@@ -1,0 +1,19 @@
+{
+  "id": "zh-CN",
+  "name": "简体中文",
+  "englishName": "Chinese (Simplified)",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": false,
+  "fonts": [
+    "system-ui",
+    "-apple-system",
+    "PingFang SC",
+    "Microsoft YaHei",
+    "sans-serif"
+  ],
+  "reviewed": "community",
+  "revision": 1,
+  "version": "2026-10-02",
+  "changes": "Initial Chinese (Simplified) candidate from Qwen with DeepSeek review (248 UI strings)"
+}
