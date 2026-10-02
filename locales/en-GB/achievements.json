@@ -3,77 +3,614 @@
     "typing": "typing",
     "sustained": "sustained",
     "mistakes": "mistakes",
-    "touch_typing": "touch typing",
+    "learn": "touch typing",
     "numpad": "number pad",
+    "games": "games",
     "habits": "habits",
-    "daily_quests": "daily quests",
-    "your_texts": "your texts",
+    "quests": "daily quests",
+    "texts": "your texts",
     "companion": "companion",
-    "theme_decorations": "theme decorations",
+    "decorations": "theme decorations",
     "secrets": "secrets"
-  },
-  "items": {
-    "first_steps": "first steps",
-    "warming_up": "warming up",
-    "hundred_in": "a hundred in",
-    "steady_hands": "steady hands",
-    "finding_rhythm": "finding a rhythm",
-    "quick_fingers": "quick fingers",
-    "swift": "swift",
-    "triple_digits": "triple digits",
-    "a_blur": "a blur",
-    "lightning": "lightning",
-    "thirty_clean_seconds": "thirty clean seconds",
-    "spotless_minute": "a spotless minute",
-    "first_hour": "the first hour",
-    "keeping_it_up": "keeping it up",
-    "stamina": "stamina",
-    "endurance": "endurance",
-    "fixed_it": "fixed it",
-    "mended": "mended",
-    "good_as_new": "good as new",
-    "home_row": "home row",
-    "top_row": "top row",
-    "capitals": "capitals",
-    "fluent": "fluent",
-    "touch_typist": "touch typist",
-    "tried_them_all": "tried them all",
-    "ace_pilot": "ace pilot",
-    "castle_keeper": "castle keeper",
-    "eagle_eye": "eagle eye",
-    "three_in_a_row": "three in a row",
-    "week_of_it": "a week of it",
-    "month_of_it": "a month of it",
-    "night_owl": "night owl",
-    "early_bird": "early bird",
-    "flawless": "flawless",
-    "marathon": "marathon",
-    "groundhog_day": "groundhog day",
-    "deja_vu": "déjà vu",
-    "going_nuclear": "going nuclear",
-    "first_tape": "first tape",
-    "ledger_keeper": "ledger keeper",
-    "quick_on_the_pad": "quick on the pad",
-    "ten_thousand_an_hour": "ten thousand an hour",
-    "balanced_books": "balanced books",
-    "chartered": "chartered",
-    "queue_never_ends": "the queue never ends",
-    "little_flair": "a little flair",
-    "decorator": "decorator",
-    "interior_designer": "interior designer",
-    "every_trimming": "every trimming",
-    "made_it_mine": "made it mine",
-    "all_the_trimmings": "all the trimmings",
-    "your_own_words": "your own words",
-    "small_library": "a small library",
-    "long_read": "a long read",
-    "epic": "an epic",
-    "on_your_marks": "on your marks",
-    "first_to_the_line": "first to the line",
-    "fastest_in_the_room": "fastest in the room",
-    "last_one_standing": "last one standing"
   },
   "hints": {
     "secret_keep_playing": "a secret: keep playing"
+  },
+  "rules": {
+    "level": "reach level {at}",
+    "tests": "finish {count, plural, one {# test} other {# tests}}",
+    "bestWpm": "type a test at {wpm} wpm",
+    "typingTime_hours": "type for {count, plural, one {# hour} other {# hours}}, all told",
+    "typingTime_minutes": "type for {count, plural, one {# minute} other {# minutes}}, all told",
+    "perfectTest_seconds": "finish a test of {seconds} seconds or more at 100% accuracy",
+    "perfectTest_words": "finish a test of {words} words or more at 100% accuracy",
+    "nightTests": "finish {count, plural, one {# test} other {# tests}} between midnight and 4 am",
+    "sustainedSurvived": "keep a sustained test going for {count, plural, one {# minute} other {# minutes}}",
+    "sustainedTotal": "spend {count, plural, one {# minute} other {# minutes}} in sustained tests, all told",
+    "stageMastered": "master every lesson in stage {stage}",
+    "stageStarted": "start a lesson in stage {stage}",
+    "allLessons": "master every lesson",
+    "lastLessonDone": "finish the last lesson in the curriculum",
+    "stepsFinished": "finish {count, plural, one {# lesson step} other {# lesson steps}}",
+    "lessonsStepped": "step into {count, plural, one {# lesson} other {# lessons}} before the test",
+    "stepsAllDoneLessons": "{count, plural, one {go through every step of a lesson} other {go through every step of # lessons}}",
+    "warmupsFinished": "finish {count, plural, one {# warm-up} other {# warm-ups}}",
+    "warmupThenMastered": "master a lesson on the test right after a warm-up",
+    "stepsRetriedReady": "try a step again until it’s ready",
+    "gameScore": "score {score} in {game}",
+    "gameRuns": "play {game} {count, plural, one {# time} other {# times}}",
+    "gameTime": "play {game} for {count, plural, one {# minute} other {# minutes}}, all told",
+    "gameLongest": "last {count, plural, one {# minute} other {# minutes}} in one {game} run{difficulty, select, easy { on easy} normal { on normal} hard { on hard} other {}}",
+    "gameWin": "win {game}{difficulty, select, easy { on easy} normal { on normal} hard { on hard} other {}}",
+    "spotFound": "find {count, plural, one {# mistake} other {# mistakes}} in one Spot run",
+    "texts": "save {count, plural, one {# text} other {# texts}} of your own",
+    "textWords": "save a text of your own of {words} words or more",
+    "datasetWords": "make a dataset with a text of your own of {words}+ words",
+    "quotes": "add {count, plural, one {# quote} other {# quotes}} of your own",
+    "bankMastered": "master {count, plural, one {# mistake} other {# mistakes}}",
+    "goalStreak": "meet your daily goal {days} days in a row",
+    "questsDone": "finish {count, plural, one {# daily quest} other {# daily quests}}",
+    "challengesDone": "finish {count, plural, one {# daily challenge} other {# daily challenges}}",
+    "questFullDays": "finish all three daily quests on {days, plural, one {# day} other {# days}} (not necessarily in a row)",
+    "padTests": "finish {count, plural, one {# ten-key test} other {# ten-key tests}}",
+    "padKsph": "finish a ten-key test at {ksph} keystrokes an hour with 95% accuracy or better",
+    "padPerfect": "finish a ten-key test of {entries} entries or more with every entry right",
+    "padLessons": "master {count, plural, one {# number pad lesson} other {# number pad lessons}}",
+    "allPadLessons": "master every number pad lesson",
+    "padSums": "get {count, plural, one {# sum} other {# sums}} right",
+    "padSumsPerfect": "answer {answers} sums in one run with every answer right",
+    "padSumsLevel": "reach level {level} in sums",
+    "padTill": "serve {served} customers in one run of the till",
+    "padKeys": "press {count, plural, one {# number pad key} other {# number pad keys}}, all told",
+    "engaged": "a secret",
+    "wordsTyped": "type {count, plural, one {# word} other {# words}}, all told",
+    "daysTyped": "type on {days, plural, one {# day} other {# days}} (not necessarily in a row)",
+    "drillsDone": "finish {count, plural, one {# drill} other {# drills}} of your mistakes",
+    "earlyTests": "finish {count, plural, one {# test} other {# tests}} between 5 and 6 am",
+    "lessons": "master {count, plural, one {# lesson} other {# lessons}}",
+    "allGameRuns": "play {count, plural, one {# game} other {# games}}, all told",
+    "perfectFirstLesson": "{count, plural, one {type a lesson at 100% accuracy on your first try} other {type {count} lessons at 100% accuracy on your first try}}",
+    "wardrobeUnlocked": "unlock {count, plural, one {# wardrobe item} other {# wardrobe items}}",
+    "wardrobeSlots": "wear something in every wardrobe slot",
+    "decorationsUnlocked": "unlock {count, plural, one {# theme decoration} other {# theme decorations}}",
+    "decorationSlots": "unlock a theme decoration of every kind",
+    "decorationsWorn": "{count, plural, one {decorate one of your themes} other {give your theme {count} decorations at once}}",
+    "petted": "pet your companion {count, plural, one {# time} other {# times}}",
+    "poked": "poke your companion {count, plural, one {# time} other {# times}}",
+    "tickled": "tickle your companion {count, plural, one {# time} other {# times}}",
+    "pokedTooMuch": "poke your companion eight times in quick succession",
+    "armLifted": "lift the hanging arm on the about page",
+    "quickRestarts": "restart Kalibre {count, plural, one {# time} other {# times}} in quick succession, poking or tickling your companion in between",
+    "racesDone": "finish {count, plural, one {# race} other {# races}}",
+    "raceWins": "win a {difficulty, select, easy {easy } normal {normal } hard {hard } other {}}{mode, select, sprint {sprint } endurance {endurance } grand_prix {grand prix } other {}}race {solo, select, true {on your own} false {on your network} other {}}",
+    "raceModesWon": "{count, select, 4 {win a network race in every mode} other {win a network race in {count, plural, one {# mode} other {# modes}}}}",
+    "booksFinished": "{count, plural, one {finish a whole book in sustained mode} other {finish # whole books in sustained mode}}",
+    "spotTotalFound": "find {count, plural, one {# mistake} other {# mistakes}} in Spot, all told",
+    "spaceWordBombs": "{count, plural, one {fire the word bomb in Space once} other {fire the word bomb in Space {count} times}}"
+  },
+  "first-test": {
+    "name": "first steps"
+  },
+  "tests-10": {
+    "name": "warming up"
+  },
+  "tests-100": {
+    "name": "a hundred in"
+  },
+  "tests-500": {
+    "name": "five hundred"
+  },
+  "tests-1000": {
+    "name": "a thousand in"
+  },
+  "wpm-40": {
+    "name": "steady hands"
+  },
+  "wpm-50": {
+    "name": "finding a rhythm"
+  },
+  "wpm-60": {
+    "name": "quick fingers"
+  },
+  "wpm-70": {
+    "name": "brisk"
+  },
+  "wpm-80": {
+    "name": "swift"
+  },
+  "wpm-100": {
+    "name": "triple digits"
+  },
+  "wpm-120": {
+    "name": "a blur"
+  },
+  "wpm-150": {
+    "name": "lightning"
+  },
+  "perfect-30": {
+    "name": "thirty clean seconds"
+  },
+  "perfect-minute": {
+    "name": "a spotless minute"
+  },
+  "perfect-2min": {
+    "name": "two spotless minutes"
+  },
+  "hours-1": {
+    "name": "the first hour"
+  },
+  "hours-10": {
+    "name": "ten hours"
+  },
+  "hours-50": {
+    "name": "fifty hours"
+  },
+  "hours-100": {
+    "name": "a hundred hours"
+  },
+  "words-10k": {
+    "name": "ten thousand words"
+  },
+  "words-100k": {
+    "name": "a hundred thousand words"
+  },
+  "words-1m": {
+    "name": "a million words"
+  },
+  "days-10": {
+    "name": "ten days in"
+  },
+  "days-50": {
+    "name": "fifty days in"
+  },
+  "days-100": {
+    "name": "a hundred days in"
+  },
+  "days-365": {
+    "name": "a year of days"
+  },
+  "sustained-1": {
+    "name": "keeping it up"
+  },
+  "sustained-3": {
+    "name": "holding on"
+  },
+  "sustained-10": {
+    "name": "stamina"
+  },
+  "sustained-20": {
+    "name": "the long haul"
+  },
+  "sustained-30": {
+    "name": "endurance"
+  },
+  "sustained-total-60": {
+    "name": "an hour, sustained"
+  },
+  "sustained-total-300": {
+    "name": "five hours, sustained"
+  },
+  "book-finished": {
+    "name": "to the last page"
+  },
+  "books-5": {
+    "name": "never put it down"
+  },
+  "mastered-1": {
+    "name": "fixed it"
+  },
+  "mastered-5": {
+    "name": "patched up"
+  },
+  "mastered-25": {
+    "name": "mended"
+  },
+  "mastered-100": {
+    "name": "good as new"
+  },
+  "mastered-250": {
+    "name": "nothing left to fix"
+  },
+  "drills-1": {
+    "name": "first drill"
+  },
+  "drills-10": {
+    "name": "drilled"
+  },
+  "drills-100": {
+    "name": "practice makes"
+  },
+  "first-lesson": {
+    "name": "first lesson"
+  },
+  "lessons-10": {
+    "name": "ten lessons"
+  },
+  "stage-1": {
+    "name": "home row"
+  },
+  "stage-2": {
+    "name": "top row"
+  },
+  "stage-3": {
+    "name": "three rows"
+  },
+  "stage-4": {
+    "name": "capitals"
+  },
+  "stage-5": {
+    "name": "by the numbers"
+  },
+  "stage-6": {
+    "name": "fluent"
+  },
+  "all-lessons": {
+    "name": "touch typist"
+  },
+  "stage-1-started": {
+    "name": "starting home row"
+  },
+  "stage-2-started": {
+    "name": "starting top row"
+  },
+  "stage-3-started": {
+    "name": "starting bottom row"
+  },
+  "stage-4-started": {
+    "name": "starting capitals"
+  },
+  "stage-5-started": {
+    "name": "starting numbers"
+  },
+  "stage-6-started": {
+    "name": "starting fluency"
+  },
+  "last-lesson": {
+    "name": "to the last lesson"
+  },
+  "first-step": {
+    "name": "easing in"
+  },
+  "stepped-lesson": {
+    "name": "every step of the way"
+  },
+  "stepped-10": {
+    "name": "well eased in"
+  },
+  "first-warmup": {
+    "name": "warmed up"
+  },
+  "warmup-mastery": {
+    "name": "straight through"
+  },
+  "step-again": {
+    "name": "getting there"
+  },
+  "every-game": {
+    "name": "tried them all"
+  },
+  "every-game-10": {
+    "name": "a regular"
+  },
+  "every-game-50": {
+    "name": "a devotee"
+  },
+  "games-100": {
+    "name": "game night"
+  },
+  "space-2000": {
+    "name": "ace pilot"
+  },
+  "space-5000": {
+    "name": "top gun"
+  },
+  "castle-normal": {
+    "name": "holding the walls"
+  },
+  "castle-hard": {
+    "name": "castle keeper"
+  },
+  "spot-20": {
+    "name": "eagle eye"
+  },
+  "spot-50": {
+    "name": "hawk eye"
+  },
+  "feed-30": {
+    "name": "well fed"
+  },
+  "feed-10min": {
+    "name": "a long lunch"
+  },
+  "hard-win": {
+    "name": "the hard way"
+  },
+  "castle-easy": {
+    "name": "first breach"
+  },
+  "space-win": {
+    "name": "hull intact"
+  },
+  "space-hard-win": {
+    "name": "iron hull"
+  },
+  "spot-total-100": {
+    "name": "corrections, all told"
+  },
+  "spot-chief": {
+    "name": "chief proofreader"
+  },
+  "buffet-host": {
+    "name": "buffet host"
+  },
+  "full-house": {
+    "name": "full house"
+  },
+  "no-hints": {
+    "name": "no hints needed"
+  },
+  "station-down": {
+    "name": "station down"
+  },
+  "shrapnel-storm": {
+    "name": "shrapnel storm"
+  },
+  "stacked": {
+    "name": "stacked"
+  },
+  "autopilot-ace": {
+    "name": "autopilot ace"
+  },
+  "dazed": {
+    "name": "dazed and confused"
+  },
+  "spoils-of-war": {
+    "name": "spoils of war"
+  },
+  "clean-sweep": {
+    "name": "clean sweep"
+  },
+  "race-first": {
+    "name": "on your marks"
+  },
+  "race-solo-win": {
+    "name": "first to the line"
+  },
+  "race-hard-win": {
+    "name": "outpaced them both"
+  },
+  "race-network-win": {
+    "name": "fastest in the room"
+  },
+  "race-last-standing": {
+    "name": "last one standing"
+  },
+  "race-every-mode": {
+    "name": "a win in every lane"
+  },
+  "streak-3": {
+    "name": "three in a row"
+  },
+  "streak-7": {
+    "name": "a week of it"
+  },
+  "streak-14": {
+    "name": "a fortnight of it"
+  },
+  "streak-30": {
+    "name": "a month of it"
+  },
+  "streak-100": {
+    "name": "a hundred days of it"
+  },
+  "streak-365": {
+    "name": "a year of it"
+  },
+  "level-5": {
+    "name": "level 5"
+  },
+  "level-10": {
+    "name": "level 10"
+  },
+  "level-15": {
+    "name": "level 15"
+  },
+  "level-20": {
+    "name": "level 20"
+  },
+  "level-30": {
+    "name": "level 30"
+  },
+  "level-40": {
+    "name": "level 40"
+  },
+  "level-50": {
+    "name": "level 50"
+  },
+  "quests-10": {
+    "name": "on a quest"
+  },
+  "quests-25": {
+    "name": "quest-minded"
+  },
+  "quests-100": {
+    "name": "questing"
+  },
+  "quests-500": {
+    "name": "a life of quests"
+  },
+  "challenges-10": {
+    "name": "up for it"
+  },
+  "challenges-50": {
+    "name": "challenger"
+  },
+  "challenges-100": {
+    "name": "never backs down"
+  },
+  "full-days-7": {
+    "name": "a full set"
+  },
+  "full-days-30": {
+    "name": "thirty full days"
+  },
+  "first-text": {
+    "name": "your own words"
+  },
+  "texts-3": {
+    "name": "a few of your own"
+  },
+  "texts-10": {
+    "name": "a small library"
+  },
+  "texts-25": {
+    "name": "a bookshelf"
+  },
+  "page-text": {
+    "name": "a page of your own"
+  },
+  "long-text": {
+    "name": "a long read"
+  },
+  "epic-text": {
+    "name": "an epic"
+  },
+  "pets-1": {
+    "name": "hello there"
+  },
+  "pets-25": {
+    "name": "good keycap"
+  },
+  "pets-100": {
+    "name": "best friends"
+  },
+  "pets-500": {
+    "name": "inseparable"
+  },
+  "pokes-1": {
+    "name": "boop"
+  },
+  "pokes-100": {
+    "name": "poke, poke, poke"
+  },
+  "tickles-1": {
+    "name": "ticklish"
+  },
+  "tickles-25": {
+    "name": "giggle fit"
+  },
+  "tickles-250": {
+    "name": "no mercy"
+  },
+  "wardrobe-10": {
+    "name": "dressing up"
+  },
+  "wardrobe-25": {
+    "name": "a full closet"
+  },
+  "all-slots": {
+    "name": "dressed to the nines"
+  },
+  "decorations-1": {
+    "name": "a little flair"
+  },
+  "decorations-5": {
+    "name": "decorator"
+  },
+  "decorations-10": {
+    "name": "interior designer"
+  },
+  "decorations-all": {
+    "name": "every trimming"
+  },
+  "decoration-kinds": {
+    "name": "one of each"
+  },
+  "decorated": {
+    "name": "made it mine"
+  },
+  "fully-decorated": {
+    "name": "all the trimmings"
+  },
+  "pad-first": {
+    "name": "first tape"
+  },
+  "pad-tests-25": {
+    "name": "ledger keeper"
+  },
+  "pad-speed-5000": {
+    "name": "steady hands"
+  },
+  "pad-speed-8000": {
+    "name": "quick on the pad"
+  },
+  "pad-speed-10000": {
+    "name": "ten thousand an hour"
+  },
+  "pad-perfect": {
+    "name": "balanced books"
+  },
+  "pad-lesson-1": {
+    "name": "home keys"
+  },
+  "pad-lessons-all": {
+    "name": "the whole pad"
+  },
+  "pad-sums-100": {
+    "name": "good with numbers"
+  },
+  "pad-sums-perfect": {
+    "name": "no calculator needed"
+  },
+  "pad-sums-level-5": {
+    "name": "chartered"
+  },
+  "pad-till-25": {
+    "name": "regular customers"
+  },
+  "pad-till-60": {
+    "name": "the queue never ends"
+  },
+  "pad-keys-10000": {
+    "name": "ten thousand keys"
+  },
+  "night-owl": {
+    "name": "night owl"
+  },
+  "moonlighter": {
+    "name": "moonlighter"
+  },
+  "early-bird": {
+    "name": "early bird"
+  },
+  "flawless": {
+    "name": "flawless"
+  },
+  "marathon": {
+    "name": "marathon"
+  },
+  "first-try": {
+    "name": "first try"
+  },
+  "pets-1000": {
+    "name": "devoted"
+  },
+  "poke-fit": {
+    "name": "that’s enough"
+  },
+  "restarts-3": {
+    "name": "déjà vu"
+  },
+  "restarts-7": {
+    "name": "groundhog day"
+  },
+  "restarts-15": {
+    "name": "off and on again"
+  },
+  "arm-lift": {
+    "name": "a helping hand"
+  },
+  "word-bomb": {
+    "name": "going nuclear"
   }
 }

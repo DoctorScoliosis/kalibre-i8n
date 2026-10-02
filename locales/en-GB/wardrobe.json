@@ -1,0 +1,288 @@
+{
+  "slots": {
+    "hat": {
+      "label": "hat",
+      "none": "no hat"
+    },
+    "face": {
+      "label": "face",
+      "none": "classic face"
+    },
+    "necklace": {
+      "label": "necklace",
+      "none": "no necklace"
+    },
+    "braceletLeft": {
+      "label": "left wrist",
+      "none": "bare wrist"
+    },
+    "braceletRight": {
+      "label": "right wrist",
+      "none": "bare wrist"
+    },
+    "pants": {
+      "label": "pants",
+      "none": "no pants"
+    },
+    "background": {
+      "label": "background",
+      "none": "no background"
+    },
+    "heart": {
+      "label": "heart",
+      "none": "plain heart"
+    },
+    "ring": {
+      "label": "ring",
+      "none": "no ring"
+    }
+  },
+  "party-hat": {
+    "name": "party hat"
+  },
+  "beanie": {
+    "name": "beanie"
+  },
+  "cap": {
+    "name": "cap"
+  },
+  "headphones": {
+    "name": "headphones"
+  },
+  "top-hat": {
+    "name": "top hat"
+  },
+  "wizard-hat": {
+    "name": "wizard hat"
+  },
+  "space-helmet": {
+    "name": "space helmet"
+  },
+  "hard-hat": {
+    "name": "hard hat"
+  },
+  "explorer-hat": {
+    "name": "explorer hat"
+  },
+  "hair-bow": {
+    "name": "hair bow"
+  },
+  "flat-cap": {
+    "name": "flat cap"
+  },
+  "beret": {
+    "name": "beret"
+  },
+  "sun-hat": {
+    "name": "sun hat"
+  },
+  "bucket-hat": {
+    "name": "bucket hat"
+  },
+  "chef-hat": {
+    "name": "chef’s hat"
+  },
+  "graduation-cap": {
+    "name": "graduation cap"
+  },
+  "crown": {
+    "name": "crown"
+  },
+  "round-eyes": {
+    "name": "round eyes"
+  },
+  "sparkly": {
+    "name": "sparkly eyes"
+  },
+  "pixel-eyes": {
+    "name": "pixel eyes"
+  },
+  "blush": {
+    "name": "blush"
+  },
+  "freckles": {
+    "name": "freckles"
+  },
+  "round-glasses": {
+    "name": "round glasses"
+  },
+  "monocle": {
+    "name": "monocle"
+  },
+  "star-eyes": {
+    "name": "star eyes"
+  },
+  "heart-eyes": {
+    "name": "heart eyes"
+  },
+  "sleepy-lids": {
+    "name": "sleepy lids"
+  },
+  "beads": {
+    "name": "bead string"
+  },
+  "bow-tie": {
+    "name": "bow tie"
+  },
+  "scarf": {
+    "name": "scarf"
+  },
+  "medal": {
+    "name": "medal"
+  },
+  "keycap-pendant": {
+    "name": "keycap pendant"
+  },
+  "compass": {
+    "name": "compass"
+  },
+  "pearls": {
+    "name": "pearls"
+  },
+  "tie": {
+    "name": "tie"
+  },
+  "locket": {
+    "name": "locket"
+  },
+  "quill-pendant": {
+    "name": "quill pendant"
+  },
+  "friendship-band": {
+    "name": "friendship band"
+  },
+  "gold-band": {
+    "name": "gold band"
+  },
+  "watch": {
+    "name": "watch"
+  },
+  "key-chain": {
+    "name": "key-link chain"
+  },
+  "spiked-band": {
+    "name": "spiked band"
+  },
+  "trail-band": {
+    "name": "trail band"
+  },
+  "charm-bracelet": {
+    "name": "charm bracelet"
+  },
+  "sweatband": {
+    "name": "sweatband"
+  },
+  "beaded-band": {
+    "name": "beaded band"
+  },
+  "shorts": {
+    "name": "shorts"
+  },
+  "jeans": {
+    "name": "jeans"
+  },
+  "dungarees": {
+    "name": "dungarees"
+  },
+  "kilt": {
+    "name": "kilt"
+  },
+  "skirt": {
+    "name": "skirt"
+  },
+  "cargo-pants": {
+    "name": "cargo pants"
+  },
+  "pyjama-bottoms": {
+    "name": "pyjama bottoms"
+  },
+  "space-trousers": {
+    "name": "space trousers"
+  },
+  "theme-tile": {
+    "name": "theme tile"
+  },
+  "stars": {
+    "name": "stars"
+  },
+  "bricks": {
+    "name": "bricks"
+  },
+  "leaves": {
+    "name": "leaves"
+  },
+  "paper": {
+    "name": "paper"
+  },
+  "keyboard": {
+    "name": "keyboard"
+  },
+  "rain": {
+    "name": "rain"
+  },
+  "waves": {
+    "name": "waves"
+  },
+  "typewriter": {
+    "name": "typewriter"
+  },
+  "bookshelf": {
+    "name": "bookshelf"
+  },
+  "sunrise": {
+    "name": "sunrise"
+  },
+  "heart-star": {
+    "name": "star"
+  },
+  "heart-note": {
+    "name": "note"
+  },
+  "heart-key": {
+    "name": "key"
+  },
+  "heart-paw": {
+    "name": "paw"
+  },
+  "heart-flag": {
+    "name": "flag"
+  },
+  "heart-bolt": {
+    "name": "bolt"
+  },
+  "heart-moon": {
+    "name": "moon"
+  },
+  "heart-leaf": {
+    "name": "leaf"
+  },
+  "heart-sun": {
+    "name": "sun"
+  },
+  "heart-amp": {
+    "name": "the ampersand"
+  },
+  "heart-k": {
+    "name": "the letter k"
+  },
+  "ring": {
+    "name": "ring"
+  },
+  "ui": {
+    "default_hint": "the default",
+    "locked": "locked",
+    "new_badge": "new",
+    "wearing_it": "wearing it",
+    "ring_worn": "the ring: worn for good",
+    "title": "{companion}’s wardrobe",
+    "tab_aria": "{label}, {unlocked} of {total} unlocked",
+    "item_worn_aria": "{name}, wearing",
+    "item_locked_aria": "{name}, locked: {hint}",
+    "remove_all": "remove every cosmetic",
+    "news_new_item": "a new {name}",
+    "news_new_items": "{count, plural, one {a new thing} other {# new things}}",
+    "news_earned": "ooh, you earned {what} for my wardrobe!",
+    "try_it_on": "try it on"
+  }
+}
+

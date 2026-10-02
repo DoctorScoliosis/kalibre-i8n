@@ -13,7 +13,7 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 1,
+  "revision": 2,
   "version": "2026-10-02",
-  "changes": "Initial Chinese (Simplified) candidate from Qwen with DeepSeek review (248 UI strings)"
+  "changes": "Achievement and group keys moved onto the current key layout"
 }

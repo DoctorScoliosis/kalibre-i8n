@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "suggested": "suggested",
+    "training": "training",
+    "improving": "improving",
+    "mastered": "mastered",
+    "dismissed": "dismissed",
+    "watching": "watching",
+    "overview": "overview",
+    "all": "all"
+  },
+  "blurbs": {
+    "suggested": "Mistakes that keep coming back. Train them, or dismiss the ones you don't care about.",
+    "training": "Drills focus on these.",
+    "improving": "The error rate has halved since training began.",
+    "mastered": "Down to a quarter of where they started. They return to training if they come back.",
+    "dismissed": "Not suggested again unless you restore them.",
+    "watching": "Seen, but not often enough to suggest yet. “train now” starts training one anyway.",
+    "overview": "Where your fingers go wrong, drawn on the keyboard, with the words and spaces beside it. Each line shows the error rate over recent tests.",
+    "all": "Every mistake Kalibre has noted, whatever its status."
+  },
+  "empty": {
+    "suggested": "No mistakes here yet. You're doing good!",
+    "training": "No mistakes in training yet. Add some from the 'suggested' tab.",
+    "improving": "Nothing improving yet. Keep drilling your training mistakes.",
+    "mastered": "Nothing mastered yet. Training takes time — keep at it.",
+    "dismissed": "Nothing dismissed.",
+    "watching": "Nothing here yet. Keep typing and patterns will show up.",
+    "all": "No mistakes noted yet. As you type, Kalibre records recurring patterns here."
+  },
+  "kinds": {
+    "key": "key",
+    "shift": "shift",
+    "swap": "letter pair",
+    "omit": "missed",
+    "extra": "extra",
+    "word": "word",
+    "space": "space",
+    "insert": "extra word",
+    "skip": "skipped word",
+    "hesitation": "hesitation",
+    "tricky": "tricky word"
+  },
+  "columns": {
+    "mistake": "mistake",
+    "kind": "kind",
+    "status": "status",
+    "left_in": "left in",
+    "fixed": "fixed",
+    "tests": "tests",
+    "trend": "trend",
+    "rate": "rate",
+    "seen": "seen"
+  },
+  "actions": {
+    "train": "train",
+    "train_aria": "train {mistake}",
+    "train_now": "train now",
+    "train_now_aria": "train {mistake} now",
+    "train_again": "train again",
+    "train_again_aria": "train {mistake} again",
+    "dismiss": "dismiss",
+    "dismiss_aria": "dismiss {mistake}",
+    "restore": "restore",
+    "restore_aria": "restore {mistake}",
+    "drill": "drill",
+    "drill_aria": "drill {mistake}",
+    "drill_all": "drill my training mistakes",
+    "stop": "stop",
+    "stop_aria": "stop training {mistake}",
+    "export": "export ",
+    "csv": "csv",
+    "json": "json"
+  },
+  "filters": {
+    "all": "all",
+    "uncorrected": "uncorrected",
+    "corrected": "corrected"
+  },
+  "layouts": {
+    "list": "list",
+    "table": "table"
+  },
+  "labels": {
+    "by_status": "mistakes by status",
+    "show_on_map": "show on the map",
+    "show_mistakes": "show mistakes",
+    "show_as": "show as",
+    "kind_of_mistake": "kind of mistake",
+    "all_kinds": "all kinds",
+    "keyboard_layout": "keyboard layout",
+    "sessions_count": "{count, plural, one {# session} other {# sessions}}",
+    "corrected_count": "{count} corrected",
+    "pager_aria": "mistake table pages",
+    "no_qualifiers_mistakes": "No {qualifiers} mistakes{inSection, select, true { in {section}} other {}} yet.",
+    "no_in_section": "No mistakes in {section} yet.",
+    "training_words_note": "{count, plural, one {# word} other {# words}} with consistent mistakes in training."
+  }
+}

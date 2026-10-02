@@ -1,0 +1,192 @@
+{
+  "restart": {
+    "label": "restart",
+    "keywords": "again reset redo new test",
+    "meta": "test · same kind, new text"
+  },
+  "next_text": {
+    "label": "next text",
+    "keywords": "skip another",
+    "meta": "test · move on"
+  },
+  "time_test": {
+    "label": "time {duration}",
+    "keywords": "timed seconds {duration}s test",
+    "meta": "test · {duration} second test"
+  },
+  "words_test": {
+    "label": "words {count}",
+    "keywords": "count test {count}",
+    "meta": "test · {count} words"
+  },
+  "play_game": {
+    "label": "play {game}",
+    "keywords": "game games play fun {game}",
+    "meta": "game · {blurb}"
+  },
+  "go_to": {
+    "label": "go to {view}",
+    "keywords": "open view page show {view}",
+    "meta": "go · page"
+  },
+  "achievements": {
+    "label": "achievements",
+    "keywords": "badges trophies milestones done earned secrets stats achievements",
+    "meta": "open · achievements"
+  },
+  "your_card": {
+    "label": "your card",
+    "keywords": "profile card stickers border frame aura backdrop showcase cosmetics customise decorate",
+    "meta": "open · profile"
+  },
+  "today": {
+    "label": "today",
+    "keywords": "daily quests quest challenge tasks goals",
+    "meta": "go · today’s quests and challenge"
+  },
+  "quote_category": {
+    "label": "quote {category}",
+    "keywords": "passage book text {category}",
+    "meta": "test · one quote"
+  },
+  "mixed_quotes": {
+    "label": "mixed quotes",
+    "keywords": "random length quote",
+    "meta": "test · a random length each time"
+  },
+  "sustained_pace": {
+    "label": "sustained {wpm}",
+    "keywords": "endless endurance pace hold keep target {wpm} wpm",
+    "meta": "test · keep {wpm} wpm for as long as you can"
+  },
+  "sustained_accuracy": {
+    "label": "sustained accuracy {accuracy}",
+    "keywords": "endless endurance accurate precise hold keep target {accuracy} percent",
+    "meta": "test · keep {accuracy}% accuracy for as long as you can"
+  },
+  "keep_reading": {
+    "label": "keep reading",
+    "keywords": "book continue resume sustained novel read on bookmark",
+    "meta": "test · read on through your books, sustained"
+  },
+  "section": {
+    "label": "{view} {section}",
+    "keywords": "go open show {words}",
+    "meta": "go · {view} section"
+  },
+  "continue_touch_typing": {
+    "label": "continue touch typing",
+    "keywords": "learn lesson lessons touch typing fingers home row next",
+    "meta": "learn · the next lesson to master"
+  },
+  "learn_stage": {
+    "label": "learn stage {stage}: {name}",
+    "keywords": "learn lesson lessons touch typing stage {stage} {name}",
+    "meta": "learn · lessons {first}–{last}"
+  },
+  "drill_mistakes": {
+    "label": "drill my mistakes",
+    "keywords": "train practise practice training errors",
+    "meta": "test · drills from your mistakes"
+  },
+  "wardrobe": {
+    "label": "{companion}’s wardrobe",
+    "keywords": "cal libby companion mascot wardrobe dress clothes hat cosmetics outfit look customise",
+    "meta": "learn · dress {companion} in what you’ve earned"
+  },
+  "try_guest": {
+    "label": "try as a guest",
+    "keywords": "guest try trial temporary new profile demo",
+    "meta": "profile · a new guest profile; save its progress later to keep it"
+  },
+  "sign_out": {
+    "label": "sign out",
+    "keywords": "lock log out logout sign out forget device",
+    "meta": "profile · lock it until the password is given again"
+  },
+  "profiles": {
+    "label": "profiles",
+    "keywords": "profile account switch user password passkey picture avatar",
+    "meta": "open · who is typing"
+  },
+  "backup_now": {
+    "label": "back up now",
+    "keywords": "backup export profile save history download file",
+    "meta": "file · this profile"
+  },
+  "load_profile": {
+    "label": "load a profile file",
+    "keywords": "import restore profile open file backup",
+    "meta": "file · added alongside your profiles"
+  },
+  "export_settings": {
+    "label": "export settings",
+    "keywords": "download backup save json",
+    "meta": "file · settings as json"
+  },
+  "keyboard_shortcuts": {
+    "label": "keyboard shortcuts",
+    "keywords": "shortcuts hotkeys keys bindings help guide ?",
+    "meta": "help · keyboard shortcuts guide"
+  },
+  "race": {
+    "label": "race",
+    "keywords": "race lan network multiplayer friends versus against room code host join",
+    "meta": "play · race people on your network"
+  },
+  "race_ghost": {
+    "label": "race a ghost",
+    "keywords": "race ghost ghosts shelf saved replay versus against",
+    "meta": "play · race your saved ghosts"
+  },
+  "import_ghost": {
+    "label": "import ghost",
+    "keywords": "import ghost file open load kalibre-ghost shelf",
+    "meta": "play · put a .kalibre-ghost file on your ghost shelf"
+  },
+  "race_solo": {
+    "label": "race on my own",
+    "keywords": "race solo rivals computer ghost versus against alone",
+    "meta": "play · race the computer, with your last choices"
+  },
+  "privacy": {
+    "label": "privacy",
+    "keywords": "privacy policy data personal information stored",
+    "meta": "help · what kalibre keeps, and where"
+  },
+  "terms": {
+    "label": "terms",
+    "keywords": "terms of use conditions licence license rules",
+    "meta": "help · the terms of use"
+  },
+  "security": {
+    "label": "security",
+    "keywords": "security vulnerability report bug disclosure",
+    "meta": "help · reporting a security problem"
+  },
+  "whats_new": {
+    "label": "what's new",
+    "keywords": "whats new changelog updates release notes history",
+    "meta": "help · what’s new in this version"
+  },
+  "changelog": {
+    "label": "changelog",
+    "keywords": "changelog whats new updates release notes history versions",
+    "meta": "help · changelog and past updates"
+  },
+  "check_for_updates": {
+    "label": "check for updates",
+    "keywords": "update updates upgrade new version refresh check now latest",
+    "meta": "help · look for a new version now"
+  },
+  "announcements": {
+    "label": "announcements",
+    "keywords": "announcements updates devlog journey news stackinfolio release kanary",
+    "meta": "links · project journey & announcements"
+  },
+  "kanary_notice": {
+    "label": "kanary notice",
+    "keywords": "kanary beta preview warning backup compatibility test build notice",
+    "meta": "help · kanary preview build notice & backups"
+  }
+}

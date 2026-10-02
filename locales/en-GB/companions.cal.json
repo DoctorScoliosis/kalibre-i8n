@@ -1,0 +1,477 @@
+{
+  "lines": {
+    "intro": [
+      "New today: {keys}. Your {finger} does the work.",
+      "{keys} are yours after this one. Eyes on the text, not your hands.",
+      "Rest your fingers on the home row, then off we go.",
+      "Slow and right beats fast and wrong. Speed comes on its own.",
+      "Ooh, {keys}! I love these. I love all keys, really. I am one.",
+      "Fresh keys today: {keys}. Don’t peek at your hands. I’ll know."
+    ],
+    "tip": [
+      "Heads up, {tip}.",
+      "Psst, {tip}.",
+      "Little thing I noticed, {tip}.",
+      "Coach Cal here: {tip}.",
+      "Tiny tip, {tip}.",
+      "Don’t tell anyone I told you, but {tip}."
+    ],
+    "encourage": [
+      "Shake it off. Your {finger} knows the way.",
+      "Wobbly is fine. Ease off the speed a touch.",
+      "Deep breath. Accuracy first, then speed.",
+      "Every slip teaches your fingers something.",
+      "I tripped over the spacebar once. We all wobble.",
+      "Oops happens! Slow it down and it’ll click.",
+      "Your {finger} is still waking up. Give it a sec."
+    ],
+    "round": [
+      "Nice round: {wpm} wpm.",
+      "Clean! Keep that rhythm.",
+      "That one flowed.",
+      "{wpm} wpm! My keycap is tingling.",
+      "Ooh, smooth. Do that again!",
+      "Tap tap tap, perfect. That’s my favourite sound."
+    ],
+    "mastered": [
+      "{lesson}: mastered! {next} is open now.",
+      "You did it! On to {next}.",
+      "Mastered! Your fingers remember this now.",
+      "YES! {lesson} is yours. I’m doing a little dance.",
+      "Mastered! I’d hug you, but my arms are tiny.",
+      "That’s a lesson in the bag. {next} next!"
+    ],
+    "again": [
+      "Close. One more go?",
+      "Not quite yet, but you’re getting there.",
+      "Practice is the whole trick. Again?",
+      "Almost! Your fingers just need one more lap.",
+      "So close I could taste it. Again?",
+      "No rush. Again, a little slower this time?"
+    ],
+    "warmup": [
+      "Warm-up first: {keys}. Easy does it.",
+      "A quick stretch on {keys}, then the lesson.",
+      "Stretchy time! {keys}, nice and slow.",
+      "Let’s wake those fingers up on {keys}.",
+      "Warm-up on {keys}. Wiggle your fingers first, it helps!",
+      "Easy laps on {keys} before the real thing."
+    ],
+    "keyboard": [
+      "Lessons need a real keyboard. Connect one and press any key!",
+      "Psst: I teach fingers, not thumbs. Plug in a keyboard and tap a key.",
+      "A keyboard makes all the difference here. Press a key on one and I’ll know.",
+      "Home row needs a real row! Connect a keyboard and we’re off.",
+      "Glass is slippery for this. A bluetooth keyboard, one key press, and we’re set!",
+      "Thumbs are fine for games! Lessons want a keyboard. Press a key on one."
+    ],
+    "numpad": [
+      "Psst! That was a number pad. Ten-key practice is waiting below, if you like.",
+      "I heard a number pad! There’s a tape to type and lessons to go with it.",
+      "Number pad spotted! Ten-key tests and lessons are just below.",
+      "Is that a number pad I hear? I have practice for it!",
+      "Fast fingers on the pad! Want a tape to type? It’s down there.",
+      "A number pad! Have a look below; there’s something for it."
+    ],
+    "locked": [
+      "This one opens after {next}. Let’s get that done first.",
+      "Not yet! Master {next} and I’ll let you in.",
+      "Locked tight! {next} is the key. Get it? Key?",
+      "Ooh, eager! Finish {next} first.",
+      "Nope, not yet. {next} comes before this one.",
+      "{next} first, then this door swings open."
+    ],
+    "sleepy": [
+      "Zzz… press a key when you’re ready.",
+      "Still there? I’ll wait.",
+      "I’ll just… rest my keycap… zzz…",
+      "Take your time. I’m not going anywhere. Tiny legs.",
+      "Hello? Any keys out there?",
+      "Tap anything and I’m back!"
+    ],
+    "welcome": [
+      "Hi, I’m Cal! Lesson 1.1 is where it all starts.",
+      "Hi! I’m Cal, the kal in kalibre. Shall we start with the home row?",
+      "Hey hey! I’m Cal, the K key. Let’s learn this keyboard together.",
+      "Oh, a new friend! I’m Cal. Lesson 1.1 is waiting for us."
+    ],
+    "progress": [
+      "Next up: {next}. That’s {count} of {total} mastered!",
+      "{count} down, {left} to go. {next} is waiting.",
+      "Welcome back! {next} is next.",
+      "{count} lessons in the bag! {next} looks fun.",
+      "Ready for {next}? I sure am.",
+      "Only {left} left! Onwards to {next}."
+    ],
+    "newStage": [
+      "Stage {stage} done! Next up: {name}.",
+      "That’s stage {stage} mastered. On to {name}!",
+      "Stage {stage}: conquered! Now for {name}.",
+      "A whole stage! {name} is next. Eek, exciting."
+    ],
+    "graduate": [
+      "Every lesson mastered. I’m so proud I could bounce.",
+      "You know every key now. Go show the typing tests!",
+      "Every key, every finger. You don’t need me now. Keep me anyway?",
+      "Graduate! I made you a hat. I didn’t, but imagine it."
+    ],
+    "drowsy": [
+      "Mm… quiet in here. I’m getting sleepy.",
+      "*yawn* Still there? My eyes are getting heavy.",
+      "So still… I could nod off right here.",
+      "Was I supposed to be doing something? Yawn.",
+      "Ohh… the home row is so cosy at this hour.",
+      "My keycap’s drooping. Just a little."
+    ],
+    "nod": [
+      "Zzz… home row… zzz…",
+      "Just resting my eyes… zzz…",
+      "Zzz… one more lap… zzz…",
+      "Mm… spacebars… zzz…",
+      "Zzz… I’m awake… zzz…",
+      "…zzz… j… k… zzz…"
+    ],
+    "napWake": [
+      "Huh? I was just resting my eyes!",
+      "Mm! Awake. Totally. What did I miss?",
+      "Oh! You’re back. I was only dozing.",
+      "Zz—! Hi. Hello. Ready when you are.",
+      "Wha—? Oh, hey. Nice to see you moving.",
+      "Five more… oh! Right. Let’s type."
+    ],
+    "wake": [
+      "Huh? Oh! Hi, I’m Cal. The kal in kalibre.",
+      "Mmf… five more minutes… okay, I’m up! I’m Cal.",
+      "Zz—! I wasn’t asleep. I’m Cal, hello!",
+      "Wha—? I was dreaming about spacebars. Hi, I’m Cal!",
+      "Oh hey! Cal here. Bright-eyed and keycapped.",
+      "Awake! Awake. Totally awake. Hi, I’m Cal."
+    ],
+    "pet": [
+      "Prrrr…",
+      "Mmm, right there.",
+      "Prrr. Don’t stop.",
+      "Hehe. That tickles my keycap.",
+      "Prrr… best… day…",
+      "Ooh, the good spot."
+    ],
+    "poke": [
+      "Boop! That’s my keycap.",
+      "Hey! I’m pressed. Registered. Thank you.",
+      "Eep! You found my actuation point.",
+      "Poke received. Processing… still Cal.",
+      "Hi! Yes? You rang?",
+      "Oof. That’s a light touch. Good typing form."
+    ],
+    "pokeFit": [
+      "Okay, okay! I’m not a spacebar!",
+      "That’s enough poking! I’ll start repeating like a stuck key.",
+      "Hey! Do I look like a caps lock to you?",
+      "Poke me once more and I’m going to bounce. Oh. I am bouncing."
+    ],
+    "tickle": [
+      "Hehehe! Not the keycap! Hahaha!",
+      "Ahaha! Stop! No, don’t stop! Hahaha!",
+      "Eeheehee! That’s cheating!",
+      "Haha! I’m… hehe… not ticklish!",
+      "Hahaha! My stabilisers can’t take it!",
+      "Heehee! I’m going to double-type!"
+    ],
+    "armLift": [
+      "Mm… thanks… zzz",
+      "Zzz… was that… my arm… zzz",
+      "Mmf… keep it… on the line… zzz",
+      "Zzz… nobody saw that… zzz"
+    ],
+    "tickleAsleep": [
+      "Zzz… hehe… zzz",
+      "Mmf… hehe… no… zzz",
+      "Snrk… hehehe… zzz",
+      "Zzz… not the… hehe… keycap… zzz"
+    ],
+    "updateReady": [
+      "Psst: v{version} is ready. The reload’s in the footer, whenever you like.",
+      "Ooh, v{version} just arrived! Reload from the footer when you’re ready. No rush.",
+      "New version alert: v{version}! The footer has the reload, whenever suits.",
+      "v{version} is waiting in the wings. Reload from the footer when you fancy."
+    ],
+    "whatsNew": [
+      "New in v{version}: {news}!",
+      "Guess what’s new in v{version}? {news}!",
+      "Fresh in v{version}: {news}. Ooh.",
+      "v{version} is here, and {news}!"
+    ],
+    "newItem": [
+      "Ooh, a new {item}! Right-click me to try it on.",
+      "Look! I can wear the {item} now. Right-click me.",
+      "A {item}? For me? Right-click me!",
+      "The {item}! I’m going to look SO good. Right-click me.",
+      "New in my wardrobe: the {item}. Right-click me, quick!",
+      "Is that a {item}? Can I? Right-click me!"
+    ],
+    "newItems": [
+      "Ooh, {count} new things to try on! Right-click me.",
+      "{count} new things in my wardrobe! Right-click me to see."
+    ],
+    "newDecoration": [
+      "A new decoration: “{name}”. Settings → theme, then decorate one of your own.",
+      "You earned the “{name}” decoration! Try it on one of your themes."
+    ],
+    "newDecorations": [
+      "{count} new theme decorations! Settings → theme, then decorate one of your own.",
+      "{count} decorations for your themes. Go on, dress one up."
+    ],
+    "newCardItem": [
+      "New for your card: the {name}! Your profile → your card.",
+      "Ooh, the {name}, for your profile card. Go on, try it!"
+    ],
+    "newCardItems": [
+      "{count} new things for your card! Your profile → your card.",
+      "Your card has {count} new things to wear. I’d wear them all."
+    ],
+    "raceWon": [
+      "First across the line! Nicely done.",
+      "You won! I was cheering the whole way.",
+      "Whoa, you were quick that time. Well done!",
+      "Beat {count} of them! Want to go again?"
+    ],
+    "raceLost": [
+      "{winner} got there first. Again? You’ve got this.",
+      "So close! {winner} won that one. Another go?",
+      "Beaten by {winner} this time. You had a fair race, though!",
+      "Good race! {winner} edged it. Want to go again?"
+    ],
+    "newCarPart": [
+      "Something new for your race car: the {name}! Your profile → your card → garage.",
+      "Ooh, {name} for your car. Go on, try it in the garage!"
+    ],
+    "newCarParts": [
+      "{count} new parts for your race car! Your profile → your card → garage.",
+      "Your car has {count} new things to try. Vroom!"
+    ],
+    "achievement": [
+      "You earned “{name}”! It’s under your profile → achievements.",
+      "“{name}”! I saw that. Your profile → achievements has it.",
+      "Achievement: “{name}”. Look at you go.",
+      "“{name}”! I’m telling everyone. Your profile → achievements.",
+      "Look what you did: “{name}”. It’s under your profile → achievements.",
+      "Ding! “{name}”. Your profile → achievements has the proof."
+    ],
+    "achievements": [
+      "{count} new achievements! Have a look: your profile → achievements.",
+      "Whoa, {count} achievements at once. Your profile → achievements!"
+    ],
+    "complete": [
+      "Every single achievement. All of them! I’m so proud of you.",
+      "That’s all of them. Every achievement, done. I don’t know what to say…",
+      "100%! You did everything there is to do. I’m beaming."
+    ],
+    "wakeFirst": [
+      "Zzz… wake me first… zzz",
+      "Mmf… five more minutes…",
+      "Zzz… (poke me awake first)",
+      "Zzz… snrk… wha… zzz"
+    ],
+    "highfive": [
+      "High five!",
+      "Up top! Nice one.",
+      "Yes! Good run.",
+      "Smack! Ow. Worth it.",
+      "Tiny paw, big high five!",
+      "Woo! That one was great."
+    ],
+    "honeymoon": [
+      "{partner} and I are away on honeymoon! Back tomorrow.",
+      "Off on our honeymoon with {partner}! Back tomorrow.",
+      "{partner} and I are taking a little trip. Back tomorrow!"
+    ],
+    "challenge": [
+      "Today’s challenge: {challenge}. Up for it?",
+      "Have you seen today’s challenge? {challenge}.",
+      "Today’s challenge is waiting: {challenge}.",
+      "Psst, today’s challenge: {challenge}. I believe in you.",
+      "Challenge time! {challenge}. Go on, you can.",
+      "Today’s challenge: {challenge}. I’ll cheer from here."
+    ],
+    "partner": [
+      "{partner} and I make a great team.",
+      "{partner} says hello!",
+      "{partner} was saying how nice your rhythm is.",
+      "{partner} taught me that tip, you know.",
+      "Don’t tell {partner}, but you’re my favourite typist.",
+      "{partner} and I watched your last run. Very nice."
+    ],
+    "morning": [
+      "Morning! Fingers stretched? Let’s go.",
+      "Good morning! A little typing with breakfast?",
+      "Rise and type! Morning!",
+      "Morning! I’ve been up for ages. Well, seconds.",
+      "Oh, good morning! {next} is ready when you are.",
+      "Morning, sunshine. My keycap’s all warm."
+    ],
+    "afternoon": [
+      "Afternoon! Perfect time for a few keys.",
+      "Hey, good afternoon! Ready to type?",
+      "Afternoon break? Let’s make it a typing break.",
+      "Oh hi! Afternoon already? Let’s go.",
+      "Good afternoon! {next} has been waiting.",
+      "Afternoon! I saved you a spot on the home row."
+    ],
+    "evening": [
+      "Evening! A few keys before dinner?",
+      "Good evening! Let’s wind down with some typing.",
+      "Hey, evening! Nice to see you.",
+      "Evening already? Time flies when you’re a keycap.",
+      "Good evening! {next}, then feet up?",
+      "Evening! Slow and steady tonight, okay?"
+    ],
+    "night": [
+      "Up late? Me too. Quiet keys only.",
+      "Night owl! Let’s type softly.",
+      "Ooh, midnight typing. Very mysterious.",
+      "It’s late! A short one, then bed?",
+      "Shh, everyone’s asleep. Just us and the keys.",
+      "Night shift! {next}, then sleep. Deal?"
+    ],
+    "welcomeBack": [
+      "You’re back! It’s been {days} days. I kept the keys warm.",
+      "{days} days! I missed you. Let’s ease back in.",
+      "Hey, welcome back! Take it slow, fingers forget a little.",
+      "There you are! {days} days is nothing. Let’s go.",
+      "Welcome back! Your fingers remember more than you think.",
+      "You’re here! I did nothing but nap for {days} days."
+    ],
+    "personalBest": [
+      "New best: {wpm} wpm! I saw it. I SAW it.",
+      "{wpm} wpm! That’s your fastest ever!",
+      "Personal best! {wpm} wpm. I’m bouncing.",
+      "Whoa, {wpm} wpm. Your new record!",
+      "Did you feel that? {wpm} wpm. A new best!",
+      "New record: {wpm} wpm. I’m framing it. In my head."
+    ],
+    "streak": [
+      "{days} days in a row! You’re on a roll.",
+      "That’s {days} days straight of your goal. Wow!",
+      "{days}-day streak! I’m keeping count, don’t worry.",
+      "{days} days running! Your fingers must be so happy.",
+      "Goal met {days} days in a row. Legend.",
+      "{days} days! Look at you, being all consistent."
+    ],
+    "themeUnreadable": [
+      "Squint… squint… I can’t read {what}. Can you?",
+      "{what} is hiding from me. More contrast, please!",
+      "Oof, {what} blends right in. My eyes!",
+      "I’m a key and even I can’t see {what}."
+    ],
+    "themeScheme": [
+      "That page looks {page} to me, but it says {scheme}. Flip “light or dark”?",
+      "A {page} page in a {scheme} theme? I’ll get dressed for the wrong weather!"
+    ],
+    "themeMistakes": [
+      "Wait, mistakes and typed text look the same. How will I tell?",
+      "Your mistakes are in disguise! Give them their own colour."
+    ],
+    "themeAccent": [
+      "The accent looks just like mistakes. Every link will feel like a typo!",
+      "Links the colour of errors? I keep thinking I did something wrong."
+    ],
+    "themeLoud": [
+      "WHOA, that background is bright! My eyes are doing a little dance.",
+      "That page is loud! Lovely for a minute, tiring for a long test."
+    ],
+    "themeHeat": [
+      "Key heat goes up and down! It should get stronger from 1 to 4.",
+      "Hot, cold, hot? The key heat steps are out of order."
+    ],
+    "themeSameAsBase": [
+      "Fresh canvas! Hover a colour to see where it goes.",
+      "Go on, change something. I’ll tell you what I think!"
+    ],
+    "themeLovely": [
+      "Ooh, I like this one. Very you.",
+      "Readable AND pretty. Save it, save it!",
+      "I’d wear that. Actually, I sort of am.",
+      "Everything passes. Lovely work!"
+    ],
+    "wake@morning": [
+      "Mmf… is it morning already? Hi, I’m Cal!",
+      "Morning! I was still dreaming of breakfast. Cal, hello!",
+      "Oh! Sun’s up. So am I. I’m Cal."
+    ],
+    "wake@afternoon": [
+      "Huh? Just a little afternoon nap! Cal, here.",
+      "Afternoon nap, interrupted. Worth it. Hi, I’m Cal!",
+      "Oh hey! Was that a snooze? Afternoon! I’m Cal."
+    ],
+    "wake@evening": [
+      "Evening already? I dozed off! Hi, I’m Cal.",
+      "Mm, the light’s gone gold. Hello, I’m Cal.",
+      "Oh! Good evening. I’m Cal, and I’m awake. Mostly."
+    ],
+    "wake@night": [
+      "Whoa, it’s dark out! Hi, I’m Cal. Quietly.",
+      "Shh… it’s the middle of the night. Hi, I’m Cal.",
+      "Night owl! Me too, apparently. Cal, hello."
+    ],
+    "intro@morning": [
+      "A morning lesson. Fresh fingers learn fastest.",
+      "Morning practice! Your brain’s all tidy and ready.",
+      "Good morning. Let’s do this one before the day gets loud."
+    ],
+    "intro@afternoon": [
+      "Afternoon lesson! Nice and steady.",
+      "Perfect afternoon for a few new keys.",
+      "A lesson after lunch. Bold. I respect it."
+    ],
+    "intro@evening": [
+      "Evening lesson. Slow is fine tonight.",
+      "A little practice before the day winds down.",
+      "Evening keys! Cosy ones, I hope."
+    ],
+    "intro@night": [
+      "A late lesson? Go gently. Tired fingers slip more.",
+      "Night practice. Quiet keys, careful fingers.",
+      "It’s late, so no pressure. One good try, then rest."
+    ],
+    "warmup@morning": [
+      "Morning fingers are stiff. Perfect for a warm-up.",
+      "A warm-up in the morning? Textbook.",
+      "Stretch first, it’s still early."
+    ],
+    "warmup@afternoon": [
+      "Warm-up! A little wiggle to shake off the afternoon.",
+      "Afternoon slump? Warm-up will fix it.",
+      "Quick warm-up, then the real thing."
+    ],
+    "warmup@evening": [
+      "Evening warm-up. Loosen up after the day.",
+      "Long day? Easy laps first.",
+      "A gentle warm-up for evening fingers."
+    ],
+    "warmup@night": [
+      "A late warm-up. Nice and soft, please.",
+      "Sleepy fingers need a stretch. Warm-up time.",
+      "Warm-up first. It’s late, no rush."
+    ],
+    "sleepy@morning": [
+      "Morning yawns. Have some water?",
+      "Zzz… too early, even for me.",
+      "Still waking up too, I think."
+    ],
+    "sleepy@afternoon": [
+      "Afternoon dip. Stretch a little?",
+      "Mm, the after-lunch sleepies. Me too.",
+      "A short pause is fine. I’ll wait."
+    ],
+    "sleepy@evening": [
+      "Long day, huh? A break is allowed.",
+      "Evening yawns. I’ll be right here.",
+      "Take five. The keys aren’t going anywhere."
+    ],
+    "sleepy@night": [
+      "It’s late… bed might beat one more lap.",
+      "Zzz… oh, sorry. Night-time is my nap time.",
+      "Rest your eyes. We’ll pick this up tomorrow."
+    ]
+  }
+}

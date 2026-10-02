@@ -15,7 +15,7 @@
     "sans-serif"
   ],
   "reviewed": "machine",
-  "revision": 1,
+  "revision": 2,
   "version": "2026-10-02",
-  "changes": "Initial French (France) candidate translation"
+  "changes": "Achievement and group keys moved onto the current key layout"
 }

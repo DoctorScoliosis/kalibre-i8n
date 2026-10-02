@@ -23,12 +23,154 @@
     "decorate": "decorate",
     "export": "export",
     "delete": "delete",
+    "done": "done",
     "customise_current": "customise current theme",
-    "import_theme": "import a theme"
+    "import_theme": "import a theme",
+    "decorations_for": "decorations for {name}",
+    "use_theme": "use {name}",
+    "edit_theme": "edit {name}",
+    "decorate_theme": "decorate {name}",
+    "export_theme": "export {name}",
+    "delete_theme": "delete {name}",
+    "copy_and_decorate": "copy this theme and decorate it",
+    "decorations_earned_zero": "Theme decorations, earned by playing, go on themes of your own.",
+    "decorations_earned_notice": "You’ve earned {count, plural, one {a theme decoration} other {# theme decorations}}. They go on themes of your own, so make a copy of this one to wear {count, plural, one {it} other {them}}.",
+    "decorations_earned_info": "Earned by playing. They stay with this theme on this profile, and aren’t included when you export the theme."
   },
   "picker": {
     "preview": "preview",
     "instructions": "hover to preview · click or enter to apply · esc to close",
     "close": "close"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "caret",
+      "hint": "around the cursor (its shape is a typing setting)"
+    },
+    "backdrop": {
+      "title": "backdrop",
+      "hint": "a faint pattern behind the page"
+    },
+    "frame": {
+      "title": "frame",
+      "hint": "around the text you type"
+    },
+    "keystroke": {
+      "title": "keystroke",
+      "hint": "how each typed letter settles"
+    },
+    "flourish": {
+      "title": "flourish",
+      "hint": "a small mark beside the wordmark"
+    }
+  },
+  "decorations": {
+    "caret-glow": {
+      "name": "soft glow"
+    },
+    "caret-halo": {
+      "name": "halo"
+    },
+    "caret-drop": {
+      "name": "ink drop"
+    },
+    "caret-trail": {
+      "name": "comet tail"
+    },
+    "backdrop-dots": {
+      "name": "dot grid"
+    },
+    "backdrop-ruled": {
+      "name": "ruled paper"
+    },
+    "backdrop-graph": {
+      "name": "graph paper"
+    },
+    "backdrop-grain": {
+      "name": "grain"
+    },
+    "backdrop-checks": {
+      "name": "soft checks"
+    },
+    "frame-corners": {
+      "name": "corner ticks"
+    },
+    "frame-bookplate": {
+      "name": "bookplate"
+    },
+    "frame-tab": {
+      "name": "folder tab"
+    },
+    "frame-brackets": {
+      "name": "brackets"
+    },
+    "keystroke-ink": {
+      "name": "ink fade"
+    },
+    "keystroke-rise": {
+      "name": "gentle rise"
+    },
+    "keystroke-bloom": {
+      "name": "bloom"
+    },
+    "flourish-leaf": {
+      "name": "leaf"
+    },
+    "flourish-star": {
+      "name": "star"
+    },
+    "flourish-key": {
+      "name": "key"
+    },
+    "flourish-letter": {
+      "name": "your companion’s letter"
+    },
+    "flourish-moon": {
+      "name": "moon"
+    }
+  },
+  "presets": {
+    "paper": {
+      "name": "paper"
+    },
+    "ink": {
+      "name": "ink"
+    },
+    "dusk": {
+      "name": "dusk"
+    },
+    "eink": {
+      "name": "e-ink"
+    },
+    "eink-night": {
+      "name": "e-ink night"
+    },
+    "cream": {
+      "name": "cream"
+    },
+    "rose": {
+      "name": "rose"
+    },
+    "harbour": {
+      "name": "harbour"
+    },
+    "forest": {
+      "name": "forest"
+    },
+    "plum": {
+      "name": "plum"
+    },
+    "slate": {
+      "name": "slate"
+    },
+    "terminal": {
+      "name": "terminal"
+    },
+    "contrast": {
+      "name": "high contrast"
+    },
+    "contrast-night": {
+      "name": "high contrast night"
+    }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "filter": {
+    "warning": "Kalibre's word lists come from old books and large dictionaries, which include slurs and other offensive words. With the filter off, they can appear in tests, drills, lessons and games. By turning it off you accept that you may see them, and that the author of Kalibre is not liable for any offence caused.",
+    "turn_off": "turn the filter off",
+    "keep_on": "keep it on",
+    "confirm_title": "turn off the offensive-word filter?",
+    "filter_on": "filter on",
+    "filter_off": "filter off",
+    "placeholder": "one per line, or separated by commas; end with * for every word starting with it",
+    "filtered_count": "{count, plural, one {# word} other {# words}} of your own filtered",
+    "no_words": "no words of your own",
+    "heading": "offensive words",
+    "toggle_label": "filter offensive words",
+    "own_label": "words of your own to filter",
+    "explanation": "On: slurs and the strongest profanity are kept out of word lists, and passages that contain them are skipped. Your own texts and quotes are never changed.",
+    "own_explanation": "Kept with this profile only, never shared. They apply while the filter is on."
+  }
+}

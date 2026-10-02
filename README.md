@@ -86,6 +86,16 @@ npm run build
 # Validate JSON syntax, placeholder consistency, and key parity against en-GB
 npm run check
 
+# Refresh locales/en-GB from the Kalibre application checkout (../Kalibre-r1, or KALIBRE_CORE_DIR)
+npm run sync
+
 # Run full test suite
 npm test
 ```
+
+### What the check enforces
+
+`locales/en-GB/` is a snapshot of the application's canonical English (the application owns it; `npm run sync` refreshes it, and the check fails if the two drift).
+
+- **Hard errors:** an empty or malformed English message; in any other language, a key English doesn't have (an orphan), a malformed message, a missing, added or renamed `{slot}`, a plural or select whose structure differs from English, a plural lacking `other` or a category the language needs.
+- **Allowed:** leaving a message untranslated. Kalibre falls back to English for it.

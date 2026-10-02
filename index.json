@@ -12,14 +12,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 1,
+      "revision": 2,
       "version": "2026-10-02",
       "reviewed": "native",
-      "changes": "Canonical source locale extracted from Kalibre",
+      "changes": "Synced with the application: all 29 areas, current key layout",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "59ed903b8b46b86706b8906134cbcc997881c9753d2bacca538f527b87404ee5",
-      "bytes": 13813
+      "sha256": "4cafa87612d27e40a5933f630847b4c1d97abd423eec86ef31bdb7ed72e90065",
+      "bytes": 136536
     },
     {
       "id": "fr-FR",
@@ -27,14 +27,14 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 1,
+      "revision": 2,
       "version": "2026-10-02",
       "reviewed": "machine",
-      "changes": "Initial French (France) candidate translation",
+      "changes": "Achievement and group keys moved onto the current key layout",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "c77f815084630090cb171eb52663d44bf448f7d6e14411475ed5f1a21b2e3ad1",
-      "bytes": 15417
+      "sha256": "d501d3d76c66d9d3c29843cac98033d910ac04f7aeee8b8dd62924d56927f5d4",
+      "bytes": 16720
     },
     {
       "id": "zh-CN",
@@ -42,14 +42,14 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 1,
+      "revision": 2,
       "version": "2026-10-02",
       "reviewed": "community",
-      "changes": "Initial Chinese (Simplified) candidate from Qwen with DeepSeek review (248 UI strings)",
+      "changes": "Achievement and group keys moved onto the current key layout",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "26a1ccaf788bb92bfd49daaf9fef4a740b4247d625d7609f6756c0207a415019",
-      "bytes": 14225
+      "sha256": "acfdbd9feb146b1aa43d38cbdfa89fd7cd9fc60fc3c15fddff3c9e5418f61f7d",
+      "bytes": 15487
     }
   ]
 }

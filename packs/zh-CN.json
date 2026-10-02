@@ -14,9 +14,9 @@
       "sans-serif"
     ],
     "reviewed": "community",
-    "revision": 1,
+    "revision": 2,
     "version": "2026-10-02",
-    "changes": "Initial Chinese (Simplified) candidate from Qwen with DeepSeek review (248 UI strings)"
+    "changes": "Achievement and group keys moved onto the current key layout"
   },
   "strings": {
     "about": {
@@ -33,78 +33,194 @@
         "typing": "打字",
         "sustained": "持续打字",
         "mistakes": "错误",
-        "touch_typing": "盲打",
+        "learn": "盲打",
         "numpad": "数字小键盘",
         "habits": "习惯",
-        "daily_quests": "每日任务",
-        "your_texts": "你的文本",
+        "quests": "每日任务",
+        "texts": "你的文本",
         "companion": "伙伴",
-        "theme_decorations": "主题装饰",
+        "decorations": "主题装饰",
         "secrets": "隐藏成就"
-      },
-      "items": {
-        "first_steps": "第一步",
-        "warming_up": "热身",
-        "hundred_in": "一百次",
-        "steady_hands": "稳定的双手",
-        "finding_rhythm": "找到节奏",
-        "quick_fingers": "快速的手指",
-        "swift": "敏捷",
-        "triple_digits": "三位数",
-        "a_blur": "快成残影",
-        "lightning": "闪电",
-        "thirty_clean_seconds": "三十秒完美",
-        "spotless_minute": "完美一分钟",
-        "first_hour": "第一个小时",
-        "keeping_it_up": "坚持不懈",
-        "stamina": "耐力",
-        "endurance": "持久力",
-        "fixed_it": "修好了",
-        "mended": "修补好了",
-        "good_as_new": "焕然一新",
-        "home_row": "基准行",
-        "top_row": "上排",
-        "capitals": "大写字母",
-        "fluent": "流畅",
-        "touch_typist": "盲打达人",
-        "tried_them_all": "全部试过了",
-        "ace_pilot": "王牌飞行员",
-        "castle_keeper": "城堡守护者",
-        "eagle_eye": "鹰眼",
-        "three_in_a_row": "连续三天",
-        "week_of_it": "一周坚持",
-        "month_of_it": "一个月坚持",
-        "night_owl": "夜猫子",
-        "early_bird": "早起鸟",
-        "flawless": "完美无瑕",
-        "marathon": "马拉松",
-        "groundhog_day": "土拨鼠之日",
-        "deja_vu": "似曾相识",
-        "going_nuclear": "核爆",
-        "first_tape": "第一条纸带",
-        "ledger_keeper": "账本管理员",
-        "quick_on_the_pad": "小键盘快手",
-        "ten_thousand_an_hour": "每小时一万",
-        "balanced_books": "账目平衡",
-        "chartered": "特许会计师",
-        "queue_never_ends": "队伍永不停歇",
-        "little_flair": "一点风采",
-        "decorator": "装饰师",
-        "interior_designer": "室内设计师",
-        "every_trimming": "所有装饰",
-        "made_it_mine": "我的专属",
-        "all_the_trimmings": "全套装饰",
-        "your_own_words": "你自己的文字",
-        "small_library": "小型图书馆",
-        "long_read": "长篇阅读",
-        "epic": "史诗",
-        "on_your_marks": "各就各位",
-        "first_to_the_line": "率先冲线",
-        "fastest_in_the_room": "房间最快",
-        "last_one_standing": "坚持到最后"
       },
       "hints": {
         "secret_keep_playing": "隐藏成就：继续玩下去"
+      },
+      "first-test": {
+        "name": "第一步"
+      },
+      "tests-10": {
+        "name": "热身"
+      },
+      "tests-100": {
+        "name": "一百次"
+      },
+      "wpm-40": {
+        "name": "稳定的双手"
+      },
+      "wpm-50": {
+        "name": "找到节奏"
+      },
+      "wpm-60": {
+        "name": "快速的手指"
+      },
+      "wpm-80": {
+        "name": "敏捷"
+      },
+      "wpm-100": {
+        "name": "三位数"
+      },
+      "wpm-120": {
+        "name": "快成残影"
+      },
+      "wpm-150": {
+        "name": "闪电"
+      },
+      "perfect-30": {
+        "name": "三十秒完美"
+      },
+      "perfect-minute": {
+        "name": "完美一分钟"
+      },
+      "hours-1": {
+        "name": "第一个小时"
+      },
+      "sustained-1": {
+        "name": "坚持不懈"
+      },
+      "sustained-10": {
+        "name": "耐力"
+      },
+      "sustained-30": {
+        "name": "持久力"
+      },
+      "mastered-1": {
+        "name": "修好了"
+      },
+      "mastered-25": {
+        "name": "修补好了"
+      },
+      "mastered-100": {
+        "name": "焕然一新"
+      },
+      "stage-1": {
+        "name": "基准行"
+      },
+      "stage-2": {
+        "name": "上排"
+      },
+      "stage-4": {
+        "name": "大写字母"
+      },
+      "stage-6": {
+        "name": "流畅"
+      },
+      "all-lessons": {
+        "name": "盲打达人"
+      },
+      "every-game": {
+        "name": "全部试过了"
+      },
+      "space-2000": {
+        "name": "王牌飞行员"
+      },
+      "castle-hard": {
+        "name": "城堡守护者"
+      },
+      "spot-20": {
+        "name": "鹰眼"
+      },
+      "streak-3": {
+        "name": "连续三天"
+      },
+      "streak-7": {
+        "name": "一周坚持"
+      },
+      "streak-30": {
+        "name": "一个月坚持"
+      },
+      "night-owl": {
+        "name": "夜猫子"
+      },
+      "early-bird": {
+        "name": "早起鸟"
+      },
+      "flawless": {
+        "name": "完美无瑕"
+      },
+      "marathon": {
+        "name": "马拉松"
+      },
+      "restarts-7": {
+        "name": "土拨鼠之日"
+      },
+      "restarts-3": {
+        "name": "似曾相识"
+      },
+      "word-bomb": {
+        "name": "核爆"
+      },
+      "pad-first": {
+        "name": "第一条纸带"
+      },
+      "pad-tests-25": {
+        "name": "账本管理员"
+      },
+      "pad-speed-8000": {
+        "name": "小键盘快手"
+      },
+      "pad-speed-10000": {
+        "name": "每小时一万"
+      },
+      "pad-perfect": {
+        "name": "账目平衡"
+      },
+      "pad-sums-level-5": {
+        "name": "特许会计师"
+      },
+      "pad-till-60": {
+        "name": "队伍永不停歇"
+      },
+      "decorations-1": {
+        "name": "一点风采"
+      },
+      "decorations-5": {
+        "name": "装饰师"
+      },
+      "decorations-10": {
+        "name": "室内设计师"
+      },
+      "decorations-all": {
+        "name": "所有装饰"
+      },
+      "decorated": {
+        "name": "我的专属"
+      },
+      "fully-decorated": {
+        "name": "全套装饰"
+      },
+      "first-text": {
+        "name": "你自己的文字"
+      },
+      "texts-10": {
+        "name": "小型图书馆"
+      },
+      "long-text": {
+        "name": "长篇阅读"
+      },
+      "epic-text": {
+        "name": "史诗"
+      },
+      "race-first": {
+        "name": "各就各位"
+      },
+      "race-solo-win": {
+        "name": "率先冲线"
+      },
+      "race-network-win": {
+        "name": "房间最快"
+      },
+      "race-last-standing": {
+        "name": "坚持到最后"
       }
     },
     "chrome": {

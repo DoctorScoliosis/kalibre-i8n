@@ -46,5 +46,36 @@
     "new_quests_midnight": "new quests at midnight",
     "difficulty": "difficulty",
     "getting_quests": "Getting today's quests…"
+  },
+  "backup": {
+    "error": "couldn’t save it: {error}",
+    "nothing": "there’s nothing to back up yet",
+    "saved_to_folder": "saved {count, plural, one {# profile file} other {# profile files}} to the kalibre folder “{folder}”",
+    "downloaded": "downloaded {count, plural, one {# profile file} other {# profile files}}"
+  },
+  "updates": {
+    "whats_new_title": "what’s new",
+    "status_up_to_date": "kalibre v{version} · up to date",
+    "update_ready": "v{version} is ready",
+    "update_ready_read_first": "v{version} is ready · read first",
+    "update_meta": "you can update now, or stay on your current version (v{current}).",
+    "update_meta_size": "download size: ~{size} · you can update now, or stay on your current version (v{current}).",
+    "update_to": "update to v{version}",
+    "stay_on": "stay on v{current}",
+    "updating": "updating…",
+    "check_button": "check for updates",
+    "checking": "checking…",
+    "check_checking": "looking…",
+    "check_current": "you’re on the newest version",
+    "check_offline": "couldn’t reach the server just now",
+    "check_unavailable": "updates only work in the installed or hosted app",
+    "breaking_intro": "this update changes how kalibre keeps your data:",
+    "breaking_note": "once it’s done, older versions of kalibre can’t open your data, so save a backup first: a profile file for every profile on this device.",
+    "breaking_older_at": "v{version} stays at",
+    "save_backup": "save a backup",
+    "saving": "saving…",
+    "badge_in_update": "in this update",
+    "badge_current": "current",
+    "notes_not_yet": "the notes for this version show once it’s installed."
   }
 }

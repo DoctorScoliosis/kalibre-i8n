@@ -1,0 +1,22 @@
+{
+  "lobby": {
+    "title": "race",
+    "ready": "ready",
+    "waiting": "waiting for players",
+    "host": "host",
+    "join": "join",
+    "leave": "leave",
+    "start": "start race"
+  },
+  "places": {
+    "first": "1st place",
+    "second": "2nd place",
+    "third": "3rd place",
+    "finished": "finished"
+  },
+  "news": {
+    "overtake": "{racer} overtook {target}",
+    "lap": "{racer} finished lap {lap}",
+    "finish": "{racer} finished the race"
+  }
+}

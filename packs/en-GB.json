@@ -7,9 +7,9 @@
     "fallback": null,
     "lowercaseDates": true,
     "reviewed": "native",
-    "revision": 1,
+    "revision": 2,
     "version": "2026-10-02",
-    "changes": "Canonical source locale extracted from Kalibre"
+    "changes": "Synced with the application: all 29 areas, current key layout"
   },
   "strings": {
     "about": {
@@ -26,78 +26,760 @@
         "typing": "typing",
         "sustained": "sustained",
         "mistakes": "mistakes",
-        "touch_typing": "touch typing",
+        "learn": "touch typing",
         "numpad": "number pad",
+        "games": "games",
         "habits": "habits",
-        "daily_quests": "daily quests",
-        "your_texts": "your texts",
+        "quests": "daily quests",
+        "texts": "your texts",
         "companion": "companion",
-        "theme_decorations": "theme decorations",
+        "decorations": "theme decorations",
         "secrets": "secrets"
-      },
-      "items": {
-        "first_steps": "first steps",
-        "warming_up": "warming up",
-        "hundred_in": "a hundred in",
-        "steady_hands": "steady hands",
-        "finding_rhythm": "finding a rhythm",
-        "quick_fingers": "quick fingers",
-        "swift": "swift",
-        "triple_digits": "triple digits",
-        "a_blur": "a blur",
-        "lightning": "lightning",
-        "thirty_clean_seconds": "thirty clean seconds",
-        "spotless_minute": "a spotless minute",
-        "first_hour": "the first hour",
-        "keeping_it_up": "keeping it up",
-        "stamina": "stamina",
-        "endurance": "endurance",
-        "fixed_it": "fixed it",
-        "mended": "mended",
-        "good_as_new": "good as new",
-        "home_row": "home row",
-        "top_row": "top row",
-        "capitals": "capitals",
-        "fluent": "fluent",
-        "touch_typist": "touch typist",
-        "tried_them_all": "tried them all",
-        "ace_pilot": "ace pilot",
-        "castle_keeper": "castle keeper",
-        "eagle_eye": "eagle eye",
-        "three_in_a_row": "three in a row",
-        "week_of_it": "a week of it",
-        "month_of_it": "a month of it",
-        "night_owl": "night owl",
-        "early_bird": "early bird",
-        "flawless": "flawless",
-        "marathon": "marathon",
-        "groundhog_day": "groundhog day",
-        "deja_vu": "déjà vu",
-        "going_nuclear": "going nuclear",
-        "first_tape": "first tape",
-        "ledger_keeper": "ledger keeper",
-        "quick_on_the_pad": "quick on the pad",
-        "ten_thousand_an_hour": "ten thousand an hour",
-        "balanced_books": "balanced books",
-        "chartered": "chartered",
-        "queue_never_ends": "the queue never ends",
-        "little_flair": "a little flair",
-        "decorator": "decorator",
-        "interior_designer": "interior designer",
-        "every_trimming": "every trimming",
-        "made_it_mine": "made it mine",
-        "all_the_trimmings": "all the trimmings",
-        "your_own_words": "your own words",
-        "small_library": "a small library",
-        "long_read": "a long read",
-        "epic": "an epic",
-        "on_your_marks": "on your marks",
-        "first_to_the_line": "first to the line",
-        "fastest_in_the_room": "fastest in the room",
-        "last_one_standing": "last one standing"
       },
       "hints": {
         "secret_keep_playing": "a secret: keep playing"
+      },
+      "rules": {
+        "level": "reach level {at}",
+        "tests": "finish {count, plural, one {# test} other {# tests}}",
+        "bestWpm": "type a test at {wpm} wpm",
+        "typingTime_hours": "type for {count, plural, one {# hour} other {# hours}}, all told",
+        "typingTime_minutes": "type for {count, plural, one {# minute} other {# minutes}}, all told",
+        "perfectTest_seconds": "finish a test of {seconds} seconds or more at 100% accuracy",
+        "perfectTest_words": "finish a test of {words} words or more at 100% accuracy",
+        "nightTests": "finish {count, plural, one {# test} other {# tests}} between midnight and 4 am",
+        "sustainedSurvived": "keep a sustained test going for {count, plural, one {# minute} other {# minutes}}",
+        "sustainedTotal": "spend {count, plural, one {# minute} other {# minutes}} in sustained tests, all told",
+        "stageMastered": "master every lesson in stage {stage}",
+        "stageStarted": "start a lesson in stage {stage}",
+        "allLessons": "master every lesson",
+        "lastLessonDone": "finish the last lesson in the curriculum",
+        "stepsFinished": "finish {count, plural, one {# lesson step} other {# lesson steps}}",
+        "lessonsStepped": "step into {count, plural, one {# lesson} other {# lessons}} before the test",
+        "stepsAllDoneLessons": "{count, plural, one {go through every step of a lesson} other {go through every step of # lessons}}",
+        "warmupsFinished": "finish {count, plural, one {# warm-up} other {# warm-ups}}",
+        "warmupThenMastered": "master a lesson on the test right after a warm-up",
+        "stepsRetriedReady": "try a step again until it’s ready",
+        "gameScore": "score {score} in {game}",
+        "gameRuns": "play {game} {count, plural, one {# time} other {# times}}",
+        "gameTime": "play {game} for {count, plural, one {# minute} other {# minutes}}, all told",
+        "gameLongest": "last {count, plural, one {# minute} other {# minutes}} in one {game} run{difficulty, select, easy { on easy} normal { on normal} hard { on hard} other {}}",
+        "gameWin": "win {game}{difficulty, select, easy { on easy} normal { on normal} hard { on hard} other {}}",
+        "spotFound": "find {count, plural, one {# mistake} other {# mistakes}} in one Spot run",
+        "texts": "save {count, plural, one {# text} other {# texts}} of your own",
+        "textWords": "save a text of your own of {words} words or more",
+        "datasetWords": "make a dataset with a text of your own of {words}+ words",
+        "quotes": "add {count, plural, one {# quote} other {# quotes}} of your own",
+        "bankMastered": "master {count, plural, one {# mistake} other {# mistakes}}",
+        "goalStreak": "meet your daily goal {days} days in a row",
+        "questsDone": "finish {count, plural, one {# daily quest} other {# daily quests}}",
+        "challengesDone": "finish {count, plural, one {# daily challenge} other {# daily challenges}}",
+        "questFullDays": "finish all three daily quests on {days, plural, one {# day} other {# days}} (not necessarily in a row)",
+        "padTests": "finish {count, plural, one {# ten-key test} other {# ten-key tests}}",
+        "padKsph": "finish a ten-key test at {ksph} keystrokes an hour with 95% accuracy or better",
+        "padPerfect": "finish a ten-key test of {entries} entries or more with every entry right",
+        "padLessons": "master {count, plural, one {# number pad lesson} other {# number pad lessons}}",
+        "allPadLessons": "master every number pad lesson",
+        "padSums": "get {count, plural, one {# sum} other {# sums}} right",
+        "padSumsPerfect": "answer {answers} sums in one run with every answer right",
+        "padSumsLevel": "reach level {level} in sums",
+        "padTill": "serve {served} customers in one run of the till",
+        "padKeys": "press {count, plural, one {# number pad key} other {# number pad keys}}, all told",
+        "engaged": "a secret",
+        "wordsTyped": "type {count, plural, one {# word} other {# words}}, all told",
+        "daysTyped": "type on {days, plural, one {# day} other {# days}} (not necessarily in a row)",
+        "drillsDone": "finish {count, plural, one {# drill} other {# drills}} of your mistakes",
+        "earlyTests": "finish {count, plural, one {# test} other {# tests}} between 5 and 6 am",
+        "lessons": "master {count, plural, one {# lesson} other {# lessons}}",
+        "allGameRuns": "play {count, plural, one {# game} other {# games}}, all told",
+        "perfectFirstLesson": "{count, plural, one {type a lesson at 100% accuracy on your first try} other {type {count} lessons at 100% accuracy on your first try}}",
+        "wardrobeUnlocked": "unlock {count, plural, one {# wardrobe item} other {# wardrobe items}}",
+        "wardrobeSlots": "wear something in every wardrobe slot",
+        "decorationsUnlocked": "unlock {count, plural, one {# theme decoration} other {# theme decorations}}",
+        "decorationSlots": "unlock a theme decoration of every kind",
+        "decorationsWorn": "{count, plural, one {decorate one of your themes} other {give your theme {count} decorations at once}}",
+        "petted": "pet your companion {count, plural, one {# time} other {# times}}",
+        "poked": "poke your companion {count, plural, one {# time} other {# times}}",
+        "tickled": "tickle your companion {count, plural, one {# time} other {# times}}",
+        "pokedTooMuch": "poke your companion eight times in quick succession",
+        "armLifted": "lift the hanging arm on the about page",
+        "quickRestarts": "restart Kalibre {count, plural, one {# time} other {# times}} in quick succession, poking or tickling your companion in between",
+        "racesDone": "finish {count, plural, one {# race} other {# races}}",
+        "raceWins": "win a {difficulty, select, easy {easy } normal {normal } hard {hard } other {}}{mode, select, sprint {sprint } endurance {endurance } grand_prix {grand prix } other {}}race {solo, select, true {on your own} false {on your network} other {}}",
+        "raceModesWon": "{count, select, 4 {win a network race in every mode} other {win a network race in {count, plural, one {# mode} other {# modes}}}}",
+        "booksFinished": "{count, plural, one {finish a whole book in sustained mode} other {finish # whole books in sustained mode}}",
+        "spotTotalFound": "find {count, plural, one {# mistake} other {# mistakes}} in Spot, all told",
+        "spaceWordBombs": "{count, plural, one {fire the word bomb in Space once} other {fire the word bomb in Space {count} times}}"
+      },
+      "first-test": {
+        "name": "first steps"
+      },
+      "tests-10": {
+        "name": "warming up"
+      },
+      "tests-100": {
+        "name": "a hundred in"
+      },
+      "tests-500": {
+        "name": "five hundred"
+      },
+      "tests-1000": {
+        "name": "a thousand in"
+      },
+      "wpm-40": {
+        "name": "steady hands"
+      },
+      "wpm-50": {
+        "name": "finding a rhythm"
+      },
+      "wpm-60": {
+        "name": "quick fingers"
+      },
+      "wpm-70": {
+        "name": "brisk"
+      },
+      "wpm-80": {
+        "name": "swift"
+      },
+      "wpm-100": {
+        "name": "triple digits"
+      },
+      "wpm-120": {
+        "name": "a blur"
+      },
+      "wpm-150": {
+        "name": "lightning"
+      },
+      "perfect-30": {
+        "name": "thirty clean seconds"
+      },
+      "perfect-minute": {
+        "name": "a spotless minute"
+      },
+      "perfect-2min": {
+        "name": "two spotless minutes"
+      },
+      "hours-1": {
+        "name": "the first hour"
+      },
+      "hours-10": {
+        "name": "ten hours"
+      },
+      "hours-50": {
+        "name": "fifty hours"
+      },
+      "hours-100": {
+        "name": "a hundred hours"
+      },
+      "words-10k": {
+        "name": "ten thousand words"
+      },
+      "words-100k": {
+        "name": "a hundred thousand words"
+      },
+      "words-1m": {
+        "name": "a million words"
+      },
+      "days-10": {
+        "name": "ten days in"
+      },
+      "days-50": {
+        "name": "fifty days in"
+      },
+      "days-100": {
+        "name": "a hundred days in"
+      },
+      "days-365": {
+        "name": "a year of days"
+      },
+      "sustained-1": {
+        "name": "keeping it up"
+      },
+      "sustained-3": {
+        "name": "holding on"
+      },
+      "sustained-10": {
+        "name": "stamina"
+      },
+      "sustained-20": {
+        "name": "the long haul"
+      },
+      "sustained-30": {
+        "name": "endurance"
+      },
+      "sustained-total-60": {
+        "name": "an hour, sustained"
+      },
+      "sustained-total-300": {
+        "name": "five hours, sustained"
+      },
+      "book-finished": {
+        "name": "to the last page"
+      },
+      "books-5": {
+        "name": "never put it down"
+      },
+      "mastered-1": {
+        "name": "fixed it"
+      },
+      "mastered-5": {
+        "name": "patched up"
+      },
+      "mastered-25": {
+        "name": "mended"
+      },
+      "mastered-100": {
+        "name": "good as new"
+      },
+      "mastered-250": {
+        "name": "nothing left to fix"
+      },
+      "drills-1": {
+        "name": "first drill"
+      },
+      "drills-10": {
+        "name": "drilled"
+      },
+      "drills-100": {
+        "name": "practice makes"
+      },
+      "first-lesson": {
+        "name": "first lesson"
+      },
+      "lessons-10": {
+        "name": "ten lessons"
+      },
+      "stage-1": {
+        "name": "home row"
+      },
+      "stage-2": {
+        "name": "top row"
+      },
+      "stage-3": {
+        "name": "three rows"
+      },
+      "stage-4": {
+        "name": "capitals"
+      },
+      "stage-5": {
+        "name": "by the numbers"
+      },
+      "stage-6": {
+        "name": "fluent"
+      },
+      "all-lessons": {
+        "name": "touch typist"
+      },
+      "stage-1-started": {
+        "name": "starting home row"
+      },
+      "stage-2-started": {
+        "name": "starting top row"
+      },
+      "stage-3-started": {
+        "name": "starting bottom row"
+      },
+      "stage-4-started": {
+        "name": "starting capitals"
+      },
+      "stage-5-started": {
+        "name": "starting numbers"
+      },
+      "stage-6-started": {
+        "name": "starting fluency"
+      },
+      "last-lesson": {
+        "name": "to the last lesson"
+      },
+      "first-step": {
+        "name": "easing in"
+      },
+      "stepped-lesson": {
+        "name": "every step of the way"
+      },
+      "stepped-10": {
+        "name": "well eased in"
+      },
+      "first-warmup": {
+        "name": "warmed up"
+      },
+      "warmup-mastery": {
+        "name": "straight through"
+      },
+      "step-again": {
+        "name": "getting there"
+      },
+      "every-game": {
+        "name": "tried them all"
+      },
+      "every-game-10": {
+        "name": "a regular"
+      },
+      "every-game-50": {
+        "name": "a devotee"
+      },
+      "games-100": {
+        "name": "game night"
+      },
+      "space-2000": {
+        "name": "ace pilot"
+      },
+      "space-5000": {
+        "name": "top gun"
+      },
+      "castle-normal": {
+        "name": "holding the walls"
+      },
+      "castle-hard": {
+        "name": "castle keeper"
+      },
+      "spot-20": {
+        "name": "eagle eye"
+      },
+      "spot-50": {
+        "name": "hawk eye"
+      },
+      "feed-30": {
+        "name": "well fed"
+      },
+      "feed-10min": {
+        "name": "a long lunch"
+      },
+      "hard-win": {
+        "name": "the hard way"
+      },
+      "castle-easy": {
+        "name": "first breach"
+      },
+      "space-win": {
+        "name": "hull intact"
+      },
+      "space-hard-win": {
+        "name": "iron hull"
+      },
+      "spot-total-100": {
+        "name": "corrections, all told"
+      },
+      "spot-chief": {
+        "name": "chief proofreader"
+      },
+      "buffet-host": {
+        "name": "buffet host"
+      },
+      "full-house": {
+        "name": "full house"
+      },
+      "no-hints": {
+        "name": "no hints needed"
+      },
+      "station-down": {
+        "name": "station down"
+      },
+      "shrapnel-storm": {
+        "name": "shrapnel storm"
+      },
+      "stacked": {
+        "name": "stacked"
+      },
+      "autopilot-ace": {
+        "name": "autopilot ace"
+      },
+      "dazed": {
+        "name": "dazed and confused"
+      },
+      "spoils-of-war": {
+        "name": "spoils of war"
+      },
+      "clean-sweep": {
+        "name": "clean sweep"
+      },
+      "race-first": {
+        "name": "on your marks"
+      },
+      "race-solo-win": {
+        "name": "first to the line"
+      },
+      "race-hard-win": {
+        "name": "outpaced them both"
+      },
+      "race-network-win": {
+        "name": "fastest in the room"
+      },
+      "race-last-standing": {
+        "name": "last one standing"
+      },
+      "race-every-mode": {
+        "name": "a win in every lane"
+      },
+      "streak-3": {
+        "name": "three in a row"
+      },
+      "streak-7": {
+        "name": "a week of it"
+      },
+      "streak-14": {
+        "name": "a fortnight of it"
+      },
+      "streak-30": {
+        "name": "a month of it"
+      },
+      "streak-100": {
+        "name": "a hundred days of it"
+      },
+      "streak-365": {
+        "name": "a year of it"
+      },
+      "level-5": {
+        "name": "level 5"
+      },
+      "level-10": {
+        "name": "level 10"
+      },
+      "level-15": {
+        "name": "level 15"
+      },
+      "level-20": {
+        "name": "level 20"
+      },
+      "level-30": {
+        "name": "level 30"
+      },
+      "level-40": {
+        "name": "level 40"
+      },
+      "level-50": {
+        "name": "level 50"
+      },
+      "quests-10": {
+        "name": "on a quest"
+      },
+      "quests-25": {
+        "name": "quest-minded"
+      },
+      "quests-100": {
+        "name": "questing"
+      },
+      "quests-500": {
+        "name": "a life of quests"
+      },
+      "challenges-10": {
+        "name": "up for it"
+      },
+      "challenges-50": {
+        "name": "challenger"
+      },
+      "challenges-100": {
+        "name": "never backs down"
+      },
+      "full-days-7": {
+        "name": "a full set"
+      },
+      "full-days-30": {
+        "name": "thirty full days"
+      },
+      "first-text": {
+        "name": "your own words"
+      },
+      "texts-3": {
+        "name": "a few of your own"
+      },
+      "texts-10": {
+        "name": "a small library"
+      },
+      "texts-25": {
+        "name": "a bookshelf"
+      },
+      "page-text": {
+        "name": "a page of your own"
+      },
+      "long-text": {
+        "name": "a long read"
+      },
+      "epic-text": {
+        "name": "an epic"
+      },
+      "pets-1": {
+        "name": "hello there"
+      },
+      "pets-25": {
+        "name": "good keycap"
+      },
+      "pets-100": {
+        "name": "best friends"
+      },
+      "pets-500": {
+        "name": "inseparable"
+      },
+      "pokes-1": {
+        "name": "boop"
+      },
+      "pokes-100": {
+        "name": "poke, poke, poke"
+      },
+      "tickles-1": {
+        "name": "ticklish"
+      },
+      "tickles-25": {
+        "name": "giggle fit"
+      },
+      "tickles-250": {
+        "name": "no mercy"
+      },
+      "wardrobe-10": {
+        "name": "dressing up"
+      },
+      "wardrobe-25": {
+        "name": "a full closet"
+      },
+      "all-slots": {
+        "name": "dressed to the nines"
+      },
+      "decorations-1": {
+        "name": "a little flair"
+      },
+      "decorations-5": {
+        "name": "decorator"
+      },
+      "decorations-10": {
+        "name": "interior designer"
+      },
+      "decorations-all": {
+        "name": "every trimming"
+      },
+      "decoration-kinds": {
+        "name": "one of each"
+      },
+      "decorated": {
+        "name": "made it mine"
+      },
+      "fully-decorated": {
+        "name": "all the trimmings"
+      },
+      "pad-first": {
+        "name": "first tape"
+      },
+      "pad-tests-25": {
+        "name": "ledger keeper"
+      },
+      "pad-speed-5000": {
+        "name": "steady hands"
+      },
+      "pad-speed-8000": {
+        "name": "quick on the pad"
+      },
+      "pad-speed-10000": {
+        "name": "ten thousand an hour"
+      },
+      "pad-perfect": {
+        "name": "balanced books"
+      },
+      "pad-lesson-1": {
+        "name": "home keys"
+      },
+      "pad-lessons-all": {
+        "name": "the whole pad"
+      },
+      "pad-sums-100": {
+        "name": "good with numbers"
+      },
+      "pad-sums-perfect": {
+        "name": "no calculator needed"
+      },
+      "pad-sums-level-5": {
+        "name": "chartered"
+      },
+      "pad-till-25": {
+        "name": "regular customers"
+      },
+      "pad-till-60": {
+        "name": "the queue never ends"
+      },
+      "pad-keys-10000": {
+        "name": "ten thousand keys"
+      },
+      "night-owl": {
+        "name": "night owl"
+      },
+      "moonlighter": {
+        "name": "moonlighter"
+      },
+      "early-bird": {
+        "name": "early bird"
+      },
+      "flawless": {
+        "name": "flawless"
+      },
+      "marathon": {
+        "name": "marathon"
+      },
+      "first-try": {
+        "name": "first try"
+      },
+      "pets-1000": {
+        "name": "devoted"
+      },
+      "poke-fit": {
+        "name": "that’s enough"
+      },
+      "restarts-3": {
+        "name": "déjà vu"
+      },
+      "restarts-7": {
+        "name": "groundhog day"
+      },
+      "restarts-15": {
+        "name": "off and on again"
+      },
+      "arm-lift": {
+        "name": "a helping hand"
+      },
+      "word-bomb": {
+        "name": "going nuclear"
+      }
+    },
+    "cards": {
+      "view": {
+        "card_aria": "{name}’s card: {described}"
+      },
+      "window": {
+        "your_card": "your card",
+        "card_title": "card",
+        "cosmetics": "cosmetics",
+        "stickers": "stickers",
+        "garage": "garage",
+        "done": "done"
+      }
+    },
+    "cars": {
+      "slots": {
+        "body": {
+          "title": "body",
+          "hint": "the shape of your car"
+        },
+        "paint": {
+          "title": "paint",
+          "hint": "its colour, from your theme’s colours"
+        },
+        "livery": {
+          "title": "livery",
+          "hint": "a pattern over the paint (with a colour of its own)"
+        },
+        "wheels": {
+          "title": "wheels",
+          "hint": "what it rolls on"
+        },
+        "trail": {
+          "title": "trail",
+          "hint": "what it leaves behind"
+        }
+      },
+      "parts": {
+        "body-hatch": {
+          "name": "hatchback"
+        },
+        "body-coupe": {
+          "name": "coupé"
+        },
+        "body-beetle": {
+          "name": "beetle"
+        },
+        "body-pickup": {
+          "name": "pickup"
+        },
+        "body-van": {
+          "name": "van"
+        },
+        "body-racer": {
+          "name": "open-wheeler"
+        },
+        "body-bubble": {
+          "name": "bubble car"
+        },
+        "paint-accent": {
+          "name": "accent"
+        },
+        "paint-heat-1": {
+          "name": "ember"
+        },
+        "paint-heat-2": {
+          "name": "amber"
+        },
+        "paint-heat-3": {
+          "name": "sunrise"
+        },
+        "paint-heat-4": {
+          "name": "scarlet"
+        },
+        "paint-chart-wpm": {
+          "name": "racing line"
+        },
+        "paint-text-dim": {
+          "name": "graphite"
+        },
+        "livery-stripe": {
+          "name": "racing stripe"
+        },
+        "livery-checker": {
+          "name": "chequered"
+        },
+        "livery-dots": {
+          "name": "polka dots"
+        },
+        "livery-chevrons": {
+          "name": "chevrons"
+        },
+        "livery-flames": {
+          "name": "flames"
+        },
+        "livery-split": {
+          "name": "two-tone"
+        },
+        "livery-number": {
+          "name": "race number"
+        },
+        "livery-midnight": {
+          "name": "midnight stars"
+        },
+        "wheels-plain": {
+          "name": "plain"
+        },
+        "wheels-sport": {
+          "name": "sport"
+        },
+        "wheels-chunky": {
+          "name": "chunky"
+        },
+        "wheels-spoked": {
+          "name": "spoked"
+        },
+        "wheels-whitewall": {
+          "name": "whitewall"
+        },
+        "wheels-gilt": {
+          "name": "gilt"
+        },
+        "trail-dust": {
+          "name": "dust"
+        },
+        "trail-sparks": {
+          "name": "sparks"
+        },
+        "trail-bubbles": {
+          "name": "bubbles"
+        },
+        "trail-ribbon": {
+          "name": "ribbon"
+        },
+        "trail-stars": {
+          "name": "stardust"
+        }
+      },
+      "garage": {
+        "title": "garage",
+        "tab_title": "garage",
+        "tab_hint": "dress your race car: it’s what you drive on the track, and what everyone racing you sees",
+        "choose_slot": "choose {slot}",
+        "paint_swatch": "{name} paint"
       }
     },
     "chrome": {
@@ -148,6 +830,745 @@
         "new_quests_midnight": "new quests at midnight",
         "difficulty": "difficulty",
         "getting_quests": "Getting today's quests…"
+      },
+      "backup": {
+        "error": "couldn’t save it: {error}",
+        "nothing": "there’s nothing to back up yet",
+        "saved_to_folder": "saved {count, plural, one {# profile file} other {# profile files}} to the kalibre folder “{folder}”",
+        "downloaded": "downloaded {count, plural, one {# profile file} other {# profile files}}"
+      },
+      "updates": {
+        "whats_new_title": "what’s new",
+        "status_up_to_date": "kalibre v{version} · up to date",
+        "update_ready": "v{version} is ready",
+        "update_ready_read_first": "v{version} is ready · read first",
+        "update_meta": "you can update now, or stay on your current version (v{current}).",
+        "update_meta_size": "download size: ~{size} · you can update now, or stay on your current version (v{current}).",
+        "update_to": "update to v{version}",
+        "stay_on": "stay on v{current}",
+        "updating": "updating…",
+        "check_button": "check for updates",
+        "checking": "checking…",
+        "check_checking": "looking…",
+        "check_current": "you’re on the newest version",
+        "check_offline": "couldn’t reach the server just now",
+        "check_unavailable": "updates only work in the installed or hosted app",
+        "breaking_intro": "this update changes how kalibre keeps your data:",
+        "breaking_note": "once it’s done, older versions of kalibre can’t open your data, so save a backup first: a profile file for every profile on this device.",
+        "breaking_older_at": "v{version} stays at",
+        "save_backup": "save a backup",
+        "saving": "saving…",
+        "badge_in_update": "in this update",
+        "badge_current": "current",
+        "notes_not_yet": "the notes for this version show once it’s installed."
+      }
+    },
+    "commands": {
+      "restart": {
+        "label": "restart",
+        "keywords": "again reset redo new test",
+        "meta": "test · same kind, new text"
+      },
+      "next_text": {
+        "label": "next text",
+        "keywords": "skip another",
+        "meta": "test · move on"
+      },
+      "time_test": {
+        "label": "time {duration}",
+        "keywords": "timed seconds {duration}s test",
+        "meta": "test · {duration} second test"
+      },
+      "words_test": {
+        "label": "words {count}",
+        "keywords": "count test {count}",
+        "meta": "test · {count} words"
+      },
+      "play_game": {
+        "label": "play {game}",
+        "keywords": "game games play fun {game}",
+        "meta": "game · {blurb}"
+      },
+      "go_to": {
+        "label": "go to {view}",
+        "keywords": "open view page show {view}",
+        "meta": "go · page"
+      },
+      "achievements": {
+        "label": "achievements",
+        "keywords": "badges trophies milestones done earned secrets stats achievements",
+        "meta": "open · achievements"
+      },
+      "your_card": {
+        "label": "your card",
+        "keywords": "profile card stickers border frame aura backdrop showcase cosmetics customise decorate",
+        "meta": "open · profile"
+      },
+      "today": {
+        "label": "today",
+        "keywords": "daily quests quest challenge tasks goals",
+        "meta": "go · today’s quests and challenge"
+      },
+      "quote_category": {
+        "label": "quote {category}",
+        "keywords": "passage book text {category}",
+        "meta": "test · one quote"
+      },
+      "mixed_quotes": {
+        "label": "mixed quotes",
+        "keywords": "random length quote",
+        "meta": "test · a random length each time"
+      },
+      "sustained_pace": {
+        "label": "sustained {wpm}",
+        "keywords": "endless endurance pace hold keep target {wpm} wpm",
+        "meta": "test · keep {wpm} wpm for as long as you can"
+      },
+      "sustained_accuracy": {
+        "label": "sustained accuracy {accuracy}",
+        "keywords": "endless endurance accurate precise hold keep target {accuracy} percent",
+        "meta": "test · keep {accuracy}% accuracy for as long as you can"
+      },
+      "keep_reading": {
+        "label": "keep reading",
+        "keywords": "book continue resume sustained novel read on bookmark",
+        "meta": "test · read on through your books, sustained"
+      },
+      "section": {
+        "label": "{view} {section}",
+        "keywords": "go open show {words}",
+        "meta": "go · {view} section"
+      },
+      "continue_touch_typing": {
+        "label": "continue touch typing",
+        "keywords": "learn lesson lessons touch typing fingers home row next",
+        "meta": "learn · the next lesson to master"
+      },
+      "learn_stage": {
+        "label": "learn stage {stage}: {name}",
+        "keywords": "learn lesson lessons touch typing stage {stage} {name}",
+        "meta": "learn · lessons {first}–{last}"
+      },
+      "drill_mistakes": {
+        "label": "drill my mistakes",
+        "keywords": "train practise practice training errors",
+        "meta": "test · drills from your mistakes"
+      },
+      "wardrobe": {
+        "label": "{companion}’s wardrobe",
+        "keywords": "cal libby companion mascot wardrobe dress clothes hat cosmetics outfit look customise",
+        "meta": "learn · dress {companion} in what you’ve earned"
+      },
+      "try_guest": {
+        "label": "try as a guest",
+        "keywords": "guest try trial temporary new profile demo",
+        "meta": "profile · a new guest profile; save its progress later to keep it"
+      },
+      "sign_out": {
+        "label": "sign out",
+        "keywords": "lock log out logout sign out forget device",
+        "meta": "profile · lock it until the password is given again"
+      },
+      "profiles": {
+        "label": "profiles",
+        "keywords": "profile account switch user password passkey picture avatar",
+        "meta": "open · who is typing"
+      },
+      "backup_now": {
+        "label": "back up now",
+        "keywords": "backup export profile save history download file",
+        "meta": "file · this profile"
+      },
+      "load_profile": {
+        "label": "load a profile file",
+        "keywords": "import restore profile open file backup",
+        "meta": "file · added alongside your profiles"
+      },
+      "export_settings": {
+        "label": "export settings",
+        "keywords": "download backup save json",
+        "meta": "file · settings as json"
+      },
+      "keyboard_shortcuts": {
+        "label": "keyboard shortcuts",
+        "keywords": "shortcuts hotkeys keys bindings help guide ?",
+        "meta": "help · keyboard shortcuts guide"
+      },
+      "race": {
+        "label": "race",
+        "keywords": "race lan network multiplayer friends versus against room code host join",
+        "meta": "play · race people on your network"
+      },
+      "race_ghost": {
+        "label": "race a ghost",
+        "keywords": "race ghost ghosts shelf saved replay versus against",
+        "meta": "play · race your saved ghosts"
+      },
+      "import_ghost": {
+        "label": "import ghost",
+        "keywords": "import ghost file open load kalibre-ghost shelf",
+        "meta": "play · put a .kalibre-ghost file on your ghost shelf"
+      },
+      "race_solo": {
+        "label": "race on my own",
+        "keywords": "race solo rivals computer ghost versus against alone",
+        "meta": "play · race the computer, with your last choices"
+      },
+      "privacy": {
+        "label": "privacy",
+        "keywords": "privacy policy data personal information stored",
+        "meta": "help · what kalibre keeps, and where"
+      },
+      "terms": {
+        "label": "terms",
+        "keywords": "terms of use conditions licence license rules",
+        "meta": "help · the terms of use"
+      },
+      "security": {
+        "label": "security",
+        "keywords": "security vulnerability report bug disclosure",
+        "meta": "help · reporting a security problem"
+      },
+      "whats_new": {
+        "label": "what's new",
+        "keywords": "whats new changelog updates release notes history",
+        "meta": "help · what’s new in this version"
+      },
+      "changelog": {
+        "label": "changelog",
+        "keywords": "changelog whats new updates release notes history versions",
+        "meta": "help · changelog and past updates"
+      },
+      "check_for_updates": {
+        "label": "check for updates",
+        "keywords": "update updates upgrade new version refresh check now latest",
+        "meta": "help · look for a new version now"
+      },
+      "announcements": {
+        "label": "announcements",
+        "keywords": "announcements updates devlog journey news stackinfolio release kanary",
+        "meta": "links · project journey & announcements"
+      },
+      "kanary_notice": {
+        "label": "kanary notice",
+        "keywords": "kanary beta preview warning backup compatibility test build notice",
+        "meta": "help · kanary preview build notice & backups"
+      }
+    },
+    "common": {
+      "actions": {
+        "save": "save",
+        "cancel": "cancel",
+        "close": "close",
+        "dismiss": "dismiss",
+        "done": "done",
+        "delete": "delete",
+        "edit": "edit",
+        "continue": "continue",
+        "skip": "skip",
+        "reload_now": "reload now",
+        "not_now": "not now",
+        "yes": "yes",
+        "no": "no"
+      },
+      "plural": {
+        "test": "{count, plural, one {# test} other {# tests}}",
+        "minute": "{count, plural, one {# minute} other {# minutes}}",
+        "hour": "{count, plural, one {# hour} other {# hours}}",
+        "word": "{count, plural, one {# word} other {# words}}",
+        "lesson": "{count, plural, one {# lesson} other {# lessons}}",
+        "lesson_step": "{count, plural, one {# lesson step} other {# lesson steps}}",
+        "warmup": "{count, plural, one {# warm-up} other {# warm-ups}}",
+        "drill": "{count, plural, one {# drill} other {# drills}}",
+        "time": "{count, plural, one {# time} other {# times}}",
+        "quote": "{count, plural, one {# quote} other {# quotes}}",
+        "book_reading": "{count, plural, one {# book reading} other {# book readings}}",
+        "sustained_test": "{count, plural, one {# sustained test} other {# sustained tests}}"
+      },
+      "modal": {
+        "language_reload_title": "change language?",
+        "language_reload_body": "kalibre reloads to change language. save anything you're working on first: a test in progress, a text you're writing or theme edits that aren't saved will be lost."
+      },
+      "translation": {
+        "unreviewed_note": "this translation wasn't written or checked by a native speaker, so some of it may read oddly. you can help improve it on github.",
+        "not_checked_yet": "(not checked by a native speaker yet)"
+      }
+    },
+    "companions.cal": {
+      "lines": {
+        "intro": [
+          "New today: {keys}. Your {finger} does the work.",
+          "{keys} are yours after this one. Eyes on the text, not your hands.",
+          "Rest your fingers on the home row, then off we go.",
+          "Slow and right beats fast and wrong. Speed comes on its own.",
+          "Ooh, {keys}! I love these. I love all keys, really. I am one.",
+          "Fresh keys today: {keys}. Don’t peek at your hands. I’ll know."
+        ],
+        "tip": [
+          "Heads up, {tip}.",
+          "Psst, {tip}.",
+          "Little thing I noticed, {tip}.",
+          "Coach Cal here: {tip}.",
+          "Tiny tip, {tip}.",
+          "Don’t tell anyone I told you, but {tip}."
+        ],
+        "encourage": [
+          "Shake it off. Your {finger} knows the way.",
+          "Wobbly is fine. Ease off the speed a touch.",
+          "Deep breath. Accuracy first, then speed.",
+          "Every slip teaches your fingers something.",
+          "I tripped over the spacebar once. We all wobble.",
+          "Oops happens! Slow it down and it’ll click.",
+          "Your {finger} is still waking up. Give it a sec."
+        ],
+        "round": [
+          "Nice round: {wpm} wpm.",
+          "Clean! Keep that rhythm.",
+          "That one flowed.",
+          "{wpm} wpm! My keycap is tingling.",
+          "Ooh, smooth. Do that again!",
+          "Tap tap tap, perfect. That’s my favourite sound."
+        ],
+        "mastered": [
+          "{lesson}: mastered! {next} is open now.",
+          "You did it! On to {next}.",
+          "Mastered! Your fingers remember this now.",
+          "YES! {lesson} is yours. I’m doing a little dance.",
+          "Mastered! I’d hug you, but my arms are tiny.",
+          "That’s a lesson in the bag. {next} next!"
+        ],
+        "again": [
+          "Close. One more go?",
+          "Not quite yet, but you’re getting there.",
+          "Practice is the whole trick. Again?",
+          "Almost! Your fingers just need one more lap.",
+          "So close I could taste it. Again?",
+          "No rush. Again, a little slower this time?"
+        ],
+        "warmup": [
+          "Warm-up first: {keys}. Easy does it.",
+          "A quick stretch on {keys}, then the lesson.",
+          "Stretchy time! {keys}, nice and slow.",
+          "Let’s wake those fingers up on {keys}.",
+          "Warm-up on {keys}. Wiggle your fingers first, it helps!",
+          "Easy laps on {keys} before the real thing."
+        ],
+        "keyboard": [
+          "Lessons need a real keyboard. Connect one and press any key!",
+          "Psst: I teach fingers, not thumbs. Plug in a keyboard and tap a key.",
+          "A keyboard makes all the difference here. Press a key on one and I’ll know.",
+          "Home row needs a real row! Connect a keyboard and we’re off.",
+          "Glass is slippery for this. A bluetooth keyboard, one key press, and we’re set!",
+          "Thumbs are fine for games! Lessons want a keyboard. Press a key on one."
+        ],
+        "numpad": [
+          "Psst! That was a number pad. Ten-key practice is waiting below, if you like.",
+          "I heard a number pad! There’s a tape to type and lessons to go with it.",
+          "Number pad spotted! Ten-key tests and lessons are just below.",
+          "Is that a number pad I hear? I have practice for it!",
+          "Fast fingers on the pad! Want a tape to type? It’s down there.",
+          "A number pad! Have a look below; there’s something for it."
+        ],
+        "locked": [
+          "This one opens after {next}. Let’s get that done first.",
+          "Not yet! Master {next} and I’ll let you in.",
+          "Locked tight! {next} is the key. Get it? Key?",
+          "Ooh, eager! Finish {next} first.",
+          "Nope, not yet. {next} comes before this one.",
+          "{next} first, then this door swings open."
+        ],
+        "sleepy": [
+          "Zzz… press a key when you’re ready.",
+          "Still there? I’ll wait.",
+          "I’ll just… rest my keycap… zzz…",
+          "Take your time. I’m not going anywhere. Tiny legs.",
+          "Hello? Any keys out there?",
+          "Tap anything and I’m back!"
+        ],
+        "welcome": [
+          "Hi, I’m Cal! Lesson 1.1 is where it all starts.",
+          "Hi! I’m Cal, the kal in kalibre. Shall we start with the home row?",
+          "Hey hey! I’m Cal, the K key. Let’s learn this keyboard together.",
+          "Oh, a new friend! I’m Cal. Lesson 1.1 is waiting for us."
+        ],
+        "progress": [
+          "Next up: {next}. That’s {count} of {total} mastered!",
+          "{count} down, {left} to go. {next} is waiting.",
+          "Welcome back! {next} is next.",
+          "{count} lessons in the bag! {next} looks fun.",
+          "Ready for {next}? I sure am.",
+          "Only {left} left! Onwards to {next}."
+        ],
+        "newStage": [
+          "Stage {stage} done! Next up: {name}.",
+          "That’s stage {stage} mastered. On to {name}!",
+          "Stage {stage}: conquered! Now for {name}.",
+          "A whole stage! {name} is next. Eek, exciting."
+        ],
+        "graduate": [
+          "Every lesson mastered. I’m so proud I could bounce.",
+          "You know every key now. Go show the typing tests!",
+          "Every key, every finger. You don’t need me now. Keep me anyway?",
+          "Graduate! I made you a hat. I didn’t, but imagine it."
+        ],
+        "drowsy": [
+          "Mm… quiet in here. I’m getting sleepy.",
+          "*yawn* Still there? My eyes are getting heavy.",
+          "So still… I could nod off right here.",
+          "Was I supposed to be doing something? Yawn.",
+          "Ohh… the home row is so cosy at this hour.",
+          "My keycap’s drooping. Just a little."
+        ],
+        "nod": [
+          "Zzz… home row… zzz…",
+          "Just resting my eyes… zzz…",
+          "Zzz… one more lap… zzz…",
+          "Mm… spacebars… zzz…",
+          "Zzz… I’m awake… zzz…",
+          "…zzz… j… k… zzz…"
+        ],
+        "napWake": [
+          "Huh? I was just resting my eyes!",
+          "Mm! Awake. Totally. What did I miss?",
+          "Oh! You’re back. I was only dozing.",
+          "Zz—! Hi. Hello. Ready when you are.",
+          "Wha—? Oh, hey. Nice to see you moving.",
+          "Five more… oh! Right. Let’s type."
+        ],
+        "wake": [
+          "Huh? Oh! Hi, I’m Cal. The kal in kalibre.",
+          "Mmf… five more minutes… okay, I’m up! I’m Cal.",
+          "Zz—! I wasn’t asleep. I’m Cal, hello!",
+          "Wha—? I was dreaming about spacebars. Hi, I’m Cal!",
+          "Oh hey! Cal here. Bright-eyed and keycapped.",
+          "Awake! Awake. Totally awake. Hi, I’m Cal."
+        ],
+        "pet": [
+          "Prrrr…",
+          "Mmm, right there.",
+          "Prrr. Don’t stop.",
+          "Hehe. That tickles my keycap.",
+          "Prrr… best… day…",
+          "Ooh, the good spot."
+        ],
+        "poke": [
+          "Boop! That’s my keycap.",
+          "Hey! I’m pressed. Registered. Thank you.",
+          "Eep! You found my actuation point.",
+          "Poke received. Processing… still Cal.",
+          "Hi! Yes? You rang?",
+          "Oof. That’s a light touch. Good typing form."
+        ],
+        "pokeFit": [
+          "Okay, okay! I’m not a spacebar!",
+          "That’s enough poking! I’ll start repeating like a stuck key.",
+          "Hey! Do I look like a caps lock to you?",
+          "Poke me once more and I’m going to bounce. Oh. I am bouncing."
+        ],
+        "tickle": [
+          "Hehehe! Not the keycap! Hahaha!",
+          "Ahaha! Stop! No, don’t stop! Hahaha!",
+          "Eeheehee! That’s cheating!",
+          "Haha! I’m… hehe… not ticklish!",
+          "Hahaha! My stabilisers can’t take it!",
+          "Heehee! I’m going to double-type!"
+        ],
+        "armLift": [
+          "Mm… thanks… zzz",
+          "Zzz… was that… my arm… zzz",
+          "Mmf… keep it… on the line… zzz",
+          "Zzz… nobody saw that… zzz"
+        ],
+        "tickleAsleep": [
+          "Zzz… hehe… zzz",
+          "Mmf… hehe… no… zzz",
+          "Snrk… hehehe… zzz",
+          "Zzz… not the… hehe… keycap… zzz"
+        ],
+        "updateReady": [
+          "Psst: v{version} is ready. The reload’s in the footer, whenever you like.",
+          "Ooh, v{version} just arrived! Reload from the footer when you’re ready. No rush.",
+          "New version alert: v{version}! The footer has the reload, whenever suits.",
+          "v{version} is waiting in the wings. Reload from the footer when you fancy."
+        ],
+        "whatsNew": [
+          "New in v{version}: {news}!",
+          "Guess what’s new in v{version}? {news}!",
+          "Fresh in v{version}: {news}. Ooh.",
+          "v{version} is here, and {news}!"
+        ],
+        "newItem": [
+          "Ooh, a new {item}! Right-click me to try it on.",
+          "Look! I can wear the {item} now. Right-click me.",
+          "A {item}? For me? Right-click me!",
+          "The {item}! I’m going to look SO good. Right-click me.",
+          "New in my wardrobe: the {item}. Right-click me, quick!",
+          "Is that a {item}? Can I? Right-click me!"
+        ],
+        "newItems": [
+          "Ooh, {count} new things to try on! Right-click me.",
+          "{count} new things in my wardrobe! Right-click me to see."
+        ],
+        "newDecoration": [
+          "A new decoration: “{name}”. Settings → theme, then decorate one of your own.",
+          "You earned the “{name}” decoration! Try it on one of your themes."
+        ],
+        "newDecorations": [
+          "{count} new theme decorations! Settings → theme, then decorate one of your own.",
+          "{count} decorations for your themes. Go on, dress one up."
+        ],
+        "newCardItem": [
+          "New for your card: the {name}! Your profile → your card.",
+          "Ooh, the {name}, for your profile card. Go on, try it!"
+        ],
+        "newCardItems": [
+          "{count} new things for your card! Your profile → your card.",
+          "Your card has {count} new things to wear. I’d wear them all."
+        ],
+        "raceWon": [
+          "First across the line! Nicely done.",
+          "You won! I was cheering the whole way.",
+          "Whoa, you were quick that time. Well done!",
+          "Beat {count} of them! Want to go again?"
+        ],
+        "raceLost": [
+          "{winner} got there first. Again? You’ve got this.",
+          "So close! {winner} won that one. Another go?",
+          "Beaten by {winner} this time. You had a fair race, though!",
+          "Good race! {winner} edged it. Want to go again?"
+        ],
+        "newCarPart": [
+          "Something new for your race car: the {name}! Your profile → your card → garage.",
+          "Ooh, {name} for your car. Go on, try it in the garage!"
+        ],
+        "newCarParts": [
+          "{count} new parts for your race car! Your profile → your card → garage.",
+          "Your car has {count} new things to try. Vroom!"
+        ],
+        "achievement": [
+          "You earned “{name}”! It’s under your profile → achievements.",
+          "“{name}”! I saw that. Your profile → achievements has it.",
+          "Achievement: “{name}”. Look at you go.",
+          "“{name}”! I’m telling everyone. Your profile → achievements.",
+          "Look what you did: “{name}”. It’s under your profile → achievements.",
+          "Ding! “{name}”. Your profile → achievements has the proof."
+        ],
+        "achievements": [
+          "{count} new achievements! Have a look: your profile → achievements.",
+          "Whoa, {count} achievements at once. Your profile → achievements!"
+        ],
+        "complete": [
+          "Every single achievement. All of them! I’m so proud of you.",
+          "That’s all of them. Every achievement, done. I don’t know what to say…",
+          "100%! You did everything there is to do. I’m beaming."
+        ],
+        "wakeFirst": [
+          "Zzz… wake me first… zzz",
+          "Mmf… five more minutes…",
+          "Zzz… (poke me awake first)",
+          "Zzz… snrk… wha… zzz"
+        ],
+        "highfive": [
+          "High five!",
+          "Up top! Nice one.",
+          "Yes! Good run.",
+          "Smack! Ow. Worth it.",
+          "Tiny paw, big high five!",
+          "Woo! That one was great."
+        ],
+        "honeymoon": [
+          "{partner} and I are away on honeymoon! Back tomorrow.",
+          "Off on our honeymoon with {partner}! Back tomorrow.",
+          "{partner} and I are taking a little trip. Back tomorrow!"
+        ],
+        "challenge": [
+          "Today’s challenge: {challenge}. Up for it?",
+          "Have you seen today’s challenge? {challenge}.",
+          "Today’s challenge is waiting: {challenge}.",
+          "Psst, today’s challenge: {challenge}. I believe in you.",
+          "Challenge time! {challenge}. Go on, you can.",
+          "Today’s challenge: {challenge}. I’ll cheer from here."
+        ],
+        "partner": [
+          "{partner} and I make a great team.",
+          "{partner} says hello!",
+          "{partner} was saying how nice your rhythm is.",
+          "{partner} taught me that tip, you know.",
+          "Don’t tell {partner}, but you’re my favourite typist.",
+          "{partner} and I watched your last run. Very nice."
+        ],
+        "morning": [
+          "Morning! Fingers stretched? Let’s go.",
+          "Good morning! A little typing with breakfast?",
+          "Rise and type! Morning!",
+          "Morning! I’ve been up for ages. Well, seconds.",
+          "Oh, good morning! {next} is ready when you are.",
+          "Morning, sunshine. My keycap’s all warm."
+        ],
+        "afternoon": [
+          "Afternoon! Perfect time for a few keys.",
+          "Hey, good afternoon! Ready to type?",
+          "Afternoon break? Let’s make it a typing break.",
+          "Oh hi! Afternoon already? Let’s go.",
+          "Good afternoon! {next} has been waiting.",
+          "Afternoon! I saved you a spot on the home row."
+        ],
+        "evening": [
+          "Evening! A few keys before dinner?",
+          "Good evening! Let’s wind down with some typing.",
+          "Hey, evening! Nice to see you.",
+          "Evening already? Time flies when you’re a keycap.",
+          "Good evening! {next}, then feet up?",
+          "Evening! Slow and steady tonight, okay?"
+        ],
+        "night": [
+          "Up late? Me too. Quiet keys only.",
+          "Night owl! Let’s type softly.",
+          "Ooh, midnight typing. Very mysterious.",
+          "It’s late! A short one, then bed?",
+          "Shh, everyone’s asleep. Just us and the keys.",
+          "Night shift! {next}, then sleep. Deal?"
+        ],
+        "welcomeBack": [
+          "You’re back! It’s been {days} days. I kept the keys warm.",
+          "{days} days! I missed you. Let’s ease back in.",
+          "Hey, welcome back! Take it slow, fingers forget a little.",
+          "There you are! {days} days is nothing. Let’s go.",
+          "Welcome back! Your fingers remember more than you think.",
+          "You’re here! I did nothing but nap for {days} days."
+        ],
+        "personalBest": [
+          "New best: {wpm} wpm! I saw it. I SAW it.",
+          "{wpm} wpm! That’s your fastest ever!",
+          "Personal best! {wpm} wpm. I’m bouncing.",
+          "Whoa, {wpm} wpm. Your new record!",
+          "Did you feel that? {wpm} wpm. A new best!",
+          "New record: {wpm} wpm. I’m framing it. In my head."
+        ],
+        "streak": [
+          "{days} days in a row! You’re on a roll.",
+          "That’s {days} days straight of your goal. Wow!",
+          "{days}-day streak! I’m keeping count, don’t worry.",
+          "{days} days running! Your fingers must be so happy.",
+          "Goal met {days} days in a row. Legend.",
+          "{days} days! Look at you, being all consistent."
+        ],
+        "themeUnreadable": [
+          "Squint… squint… I can’t read {what}. Can you?",
+          "{what} is hiding from me. More contrast, please!",
+          "Oof, {what} blends right in. My eyes!",
+          "I’m a key and even I can’t see {what}."
+        ],
+        "themeScheme": [
+          "That page looks {page} to me, but it says {scheme}. Flip “light or dark”?",
+          "A {page} page in a {scheme} theme? I’ll get dressed for the wrong weather!"
+        ],
+        "themeMistakes": [
+          "Wait, mistakes and typed text look the same. How will I tell?",
+          "Your mistakes are in disguise! Give them their own colour."
+        ],
+        "themeAccent": [
+          "The accent looks just like mistakes. Every link will feel like a typo!",
+          "Links the colour of errors? I keep thinking I did something wrong."
+        ],
+        "themeLoud": [
+          "WHOA, that background is bright! My eyes are doing a little dance.",
+          "That page is loud! Lovely for a minute, tiring for a long test."
+        ],
+        "themeHeat": [
+          "Key heat goes up and down! It should get stronger from 1 to 4.",
+          "Hot, cold, hot? The key heat steps are out of order."
+        ],
+        "themeSameAsBase": [
+          "Fresh canvas! Hover a colour to see where it goes.",
+          "Go on, change something. I’ll tell you what I think!"
+        ],
+        "themeLovely": [
+          "Ooh, I like this one. Very you.",
+          "Readable AND pretty. Save it, save it!",
+          "I’d wear that. Actually, I sort of am.",
+          "Everything passes. Lovely work!"
+        ],
+        "wake@morning": [
+          "Mmf… is it morning already? Hi, I’m Cal!",
+          "Morning! I was still dreaming of breakfast. Cal, hello!",
+          "Oh! Sun’s up. So am I. I’m Cal."
+        ],
+        "wake@afternoon": [
+          "Huh? Just a little afternoon nap! Cal, here.",
+          "Afternoon nap, interrupted. Worth it. Hi, I’m Cal!",
+          "Oh hey! Was that a snooze? Afternoon! I’m Cal."
+        ],
+        "wake@evening": [
+          "Evening already? I dozed off! Hi, I’m Cal.",
+          "Mm, the light’s gone gold. Hello, I’m Cal.",
+          "Oh! Good evening. I’m Cal, and I’m awake. Mostly."
+        ],
+        "wake@night": [
+          "Whoa, it’s dark out! Hi, I’m Cal. Quietly.",
+          "Shh… it’s the middle of the night. Hi, I’m Cal.",
+          "Night owl! Me too, apparently. Cal, hello."
+        ],
+        "intro@morning": [
+          "A morning lesson. Fresh fingers learn fastest.",
+          "Morning practice! Your brain’s all tidy and ready.",
+          "Good morning. Let’s do this one before the day gets loud."
+        ],
+        "intro@afternoon": [
+          "Afternoon lesson! Nice and steady.",
+          "Perfect afternoon for a few new keys.",
+          "A lesson after lunch. Bold. I respect it."
+        ],
+        "intro@evening": [
+          "Evening lesson. Slow is fine tonight.",
+          "A little practice before the day winds down.",
+          "Evening keys! Cosy ones, I hope."
+        ],
+        "intro@night": [
+          "A late lesson? Go gently. Tired fingers slip more.",
+          "Night practice. Quiet keys, careful fingers.",
+          "It’s late, so no pressure. One good try, then rest."
+        ],
+        "warmup@morning": [
+          "Morning fingers are stiff. Perfect for a warm-up.",
+          "A warm-up in the morning? Textbook.",
+          "Stretch first, it’s still early."
+        ],
+        "warmup@afternoon": [
+          "Warm-up! A little wiggle to shake off the afternoon.",
+          "Afternoon slump? Warm-up will fix it.",
+          "Quick warm-up, then the real thing."
+        ],
+        "warmup@evening": [
+          "Evening warm-up. Loosen up after the day.",
+          "Long day? Easy laps first.",
+          "A gentle warm-up for evening fingers."
+        ],
+        "warmup@night": [
+          "A late warm-up. Nice and soft, please.",
+          "Sleepy fingers need a stretch. Warm-up time.",
+          "Warm-up first. It’s late, no rush."
+        ],
+        "sleepy@morning": [
+          "Morning yawns. Have some water?",
+          "Zzz… too early, even for me.",
+          "Still waking up too, I think."
+        ],
+        "sleepy@afternoon": [
+          "Afternoon dip. Stretch a little?",
+          "Mm, the after-lunch sleepies. Me too.",
+          "A short pause is fine. I’ll wait."
+        ],
+        "sleepy@evening": [
+          "Long day, huh? A break is allowed.",
+          "Evening yawns. I’ll be right here.",
+          "Take five. The keys aren’t going anywhere."
+        ],
+        "sleepy@night": [
+          "It’s late… bed might beat one more lap.",
+          "Zzz… oh, sorry. Night-time is my nap time.",
+          "Rest your eyes. We’ll pick this up tomorrow."
+        ]
       }
     },
     "companions": {
@@ -161,6 +1582,673 @@
         "giggle_fit": "giggle fit",
         "thats_enough": "that's enough",
         "devoted": "devoted"
+      },
+      "menu": {
+        "wardrobe": "wardrobe",
+        "get_ring": "get {them} a ring",
+        "options_aria": "{companion}’s options"
+      },
+      "engagement": {
+        "title": "this is a rather important decision…",
+        "confirm_give": "give {companion} the ring",
+        "confirm_cancel": "i’m not sure…",
+        "confirm_message": "are you sure?"
+      },
+      "away": {
+        "note_hint": "a note",
+        "with_love_aria": "with love",
+        "back_tomorrow": "{partner} and I are away on honeymoon! Back tomorrow."
+      },
+      "ending": {
+        "aria_label": "thank you for playing kalibre",
+        "thanks": "thank you for playing kalibre.",
+        "cal_script": [
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "Huh? There’s something on my paw."
+          },
+          {
+            "reply": "it’s a ring."
+          },
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "A ring? It’s so shiny. But… what’s it for?"
+          },
+          {
+            "reply": "it’s for someone you love."
+          },
+          {
+            "say": "proposer",
+            "mood": "watching",
+            "text": "Someone I… oh. OH. I know exactly who."
+          },
+          {
+            "reply": "call {partner}"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "{partner}! Could you come here a sec?"
+          },
+          {
+            "cue": "partnerEnters"
+          },
+          {
+            "say": "partner",
+            "mood": "idle",
+            "text": "You called? You’re all fidgety. What is it?"
+          },
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "It’s a ring. For you. I mean, if you want it. Do you?"
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Oh, {proposer}. Of course I do."
+          },
+          {
+            "cue": "partnerRing"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "It fits! It FITS!"
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Two keys, side by side. Just like always."
+          },
+          {
+            "cue": "heart"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "Shall we go?"
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Let’s."
+          },
+          {
+            "cue": "walkOut"
+          }
+        ],
+        "libby_script": [
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "Oh. There’s something on my paw."
+          },
+          {
+            "reply": "it’s a ring."
+          },
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "A ring. It’s lovely… but it isn’t really mine, is it?"
+          },
+          {
+            "reply": "it’s for someone special."
+          },
+          {
+            "say": "proposer",
+            "mood": "watching",
+            "text": "Someone special. Mm. I think I know who."
+          },
+          {
+            "reply": "call {partner}"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "{partner}? Would you come here for a moment?"
+          },
+          {
+            "cue": "partnerEnters"
+          },
+          {
+            "say": "partner",
+            "mood": "idle",
+            "text": "I’m here! What’s up? Ooh, what’s that? It’s shiny!"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "It’s a ring, {partner}. It’s for you."
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "For ME? Yes! Yes yes yes!"
+          },
+          {
+            "cue": "partnerRing"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "Hold still, then."
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "I’m holding! Mostly."
+          },
+          {
+            "cue": "heart"
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Where to now?"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "Somewhere lovely."
+          },
+          {
+            "cue": "walkOut"
+          }
+        ],
+        "cal_letter": [
+          "dear you,",
+          "{partner} and I have gone away for a little while. it’s our honeymoon! I still can’t believe I get to say that.",
+          "the keys are all yours until tomorrow. lessons still work, you just won’t have me cheering. so cheer for yourself, okay? loudly.",
+          "back before you know it. probably with sand in our keycaps.",
+          "{proposer} & {partner}"
+        ],
+        "libby_letter": [
+          "dear you,",
+          "{partner} and I are away for a day. a honeymoon, apparently. he hasn’t stopped bouncing since the ring.",
+          "the lessons are open while we’re gone. go gently, take breaks, and keep your fingers on the home row. it’ll see you right.",
+          "back tomorrow. I’ll bring him home in one piece.",
+          "{proposer} & {partner}"
+        ]
+      }
+    },
+    "companions.libby": {
+      "lines": {
+        "intro": [
+          "Today’s keys: {keys}. Let your {finger} lead.",
+          "{keys} join the team today. Watch the text, trust your hands.",
+          "Fingers home, shoulders down. Ready when you are.",
+          "Right first, quick later. The speed always turns up.",
+          "Meet {keys}. They’re shy at first. Be patient with them.",
+          "New keys: {keys}. No peeking. I’ll pretend I didn’t see."
+        ],
+        "tip": [
+          "Quick tip, {tip}.",
+          "One thing, {tip}.",
+          "Between us, {tip}.",
+          "Gently: {tip}.",
+          "Small thought, {tip}.",
+          "If I may, {tip}."
+        ],
+        "encourage": [
+          "Easy. Your {finger} has this.",
+          "Slips happen. Slow down a hair.",
+          "Breathe. Get it right, then get it quick.",
+          "That’s just your fingers learning.",
+          "Find the bumps on F and J. Home is always there.",
+          "No harm done. Reset, and go again.",
+          "Your {finger} is thinking too hard. Let it drift."
+        ],
+        "round": [
+          "Lovely round: {wpm} wpm.",
+          "Smooth. Keep that going.",
+          "That one sang.",
+          "{wpm} wpm, and not a wobble. Lovely.",
+          "Mm. That sounded like rain on a window.",
+          "Tidy. Very tidy."
+        ],
+        "mastered": [
+          "{lesson}: mastered! {next} is open.",
+          "Done and done. {next} next.",
+          "Mastered. Your hands have it now.",
+          "{lesson}, mastered. I knew you would.",
+          "There it is. {next} is yours to open.",
+          "Mastered, and gracefully too."
+        ],
+        "again": [
+          "So close. Again?",
+          "Nearly there. One more?",
+          "Another go and you’ll have it.",
+          "Not this time. Maybe the next. No rush.",
+          "Almost there. Breathe, then again?",
+          "It’s coming. I can hear it in the rhythm."
+        ],
+        "warmup": [
+          "Warm-up: {keys}. Nice and easy.",
+          "Loosen up on {keys} first.",
+          "Let’s limber up on {keys}.",
+          "Gentle laps on {keys} first.",
+          "A slow warm-up on {keys}. Hands soft.",
+          "{keys} to start. No hurry at all."
+        ],
+        "keyboard": [
+          "Lessons need a real keyboard. Connect one and press any key.",
+          "I teach fingers, not thumbs. A keyboard, then one key press.",
+          "A keyboard makes this work. Press a key on one and I’ll notice.",
+          "The home row needs a real row. Connect a keyboard when you can.",
+          "Screens are hard to touch type on. A bluetooth keyboard fixes that.",
+          "Games work by thumb; lessons want a keyboard. Press a key when it’s ready."
+        ],
+        "numpad": [
+          "I noticed a number pad. Ten-key practice is below, whenever you like.",
+          "A number pad. If you’d like to practise it, the option is just below.",
+          "That sounded like a number pad. Ten-key lessons are there if you want them.",
+          "Number pad noticed. A quiet offer: tests and lessons for it, below.",
+          "If you use the pad a lot, there’s practice for it below. No hurry.",
+          "Ten-key practice is on offer for your number pad. Take it or leave it."
+        ],
+        "locked": [
+          "Finish {next} first, then this one’s yours.",
+          "Not yet. {next} opens it.",
+          "Patience. {next} comes first.",
+          "This one’s waiting for {next}. So am I.",
+          "Locked, for now. {next} holds the key.",
+          "One step at a time: {next}, then here."
+        ],
+        "sleepy": [
+          "Mm… press a key when you’re ready.",
+          "Take your time. I’m here.",
+          "I’ll be right here, resting my lashes.",
+          "No hurry. The keys will keep.",
+          "Mm… quiet in here. Press a key whenever.",
+          "Resting is part of practice too."
+        ],
+        "welcome": [
+          "Hi, I’m Libby! Lesson 1.1 is the place to start.",
+          "Hi! I’m Libby, the libre in kalibre. Home row first?",
+          "Hello! I’m Libby, the L key. I’ll help your fingers find home.",
+          "Hi, I’m Libby. Lesson 1.1 is a good place to begin."
+        ],
+        "progress": [
+          "Next: {next}. {count} of {total} mastered!",
+          "{count} done, {left} left. {next} awaits.",
+          "You’re back! {next} is up.",
+          "{count} mastered. You’re quietly getting very good.",
+          "Only {left} to go. {next} is waiting patiently.",
+          "Shall we? {next} is next."
+        ],
+        "newStage": [
+          "Stage {stage}: done! Now for {name}.",
+          "Stage {stage} mastered. {name} next!",
+          "Stage {stage}, complete. {name} is next, and you’re ready.",
+          "{name} next. Stage {stage} was lovely work."
+        ],
+        "graduate": [
+          "Every lesson, mastered. I’m glowing.",
+          "All the keys are yours now. Go enjoy them.",
+          "Every key, mastered. My homing bump is proud of you.",
+          "You don’t need me now. I’ll stay anyway, if that’s alright."
+        ],
+        "drowsy": [
+          "Mm… it’s so quiet. I’m getting a little sleepy.",
+          "Hm… my lashes are getting heavy.",
+          "So peaceful here. I might drift off.",
+          "Still there? I’m fading a little.",
+          "A soft, sleepy kind of quiet…",
+          "I’ll rest my eyes for a moment."
+        ],
+        "nod": [
+          "Zzz… soft keys… zzz…",
+          "Mm… just a moment… zzz…",
+          "Zzz… home row… zzz…",
+          "…zzz… slow and steady… zzz…",
+          "Zzz… I’m listening… zzz…",
+          "…zzz… l… zzz…"
+        ],
+        "napWake": [
+          "Oh! I was only resting. Hello again.",
+          "Mm… you’re back. Lovely.",
+          "Hm? Oh. I drifted off. Ready when you are.",
+          "Oh, hello. I didn’t mean to doze.",
+          "Mm, sorry. That was a good rest. Shall we?",
+          "Oh! There you are. I’m awake now."
+        ],
+        "wake": [
+          "Oh! Hello. I’m Libby, the libre in kalibre.",
+          "Mm… just resting my eyes. Hi, I’m Libby.",
+          "Hm? Oh, hi! I’m Libby.",
+          "Oh, you’re here. I was thinking about the home row. I’m Libby.",
+          "Mm, hello. I’m Libby. Nice to see you.",
+          "Hi! Libby, the L key. Sorry, I dozed off."
+        ],
+        "pet": [
+          "Prrr…",
+          "Mm, that’s nice.",
+          "Prrr. Keep going.",
+          "Mm. You’re good at that.",
+          "Prrr… don’t mind me.",
+          "That’s the spot. Prrr."
+        ],
+        "poke": [
+          "Oh! Hello to you too.",
+          "Mm? Did you need something?",
+          "Boop. Very gentle, thank you.",
+          "That’s my homing bump, you know.",
+          "I felt that. Hi.",
+          "Poked, noted. Carry on."
+        ],
+        "pokeFit": [
+          "Alright, that’s quite enough poking.",
+          "I’m a key, not a doorbell.",
+          "One more and I’m putting up a sign.",
+          "Poke, poke, poke. Yes, I’m still here."
+        ],
+        "tickle": [
+          "Hee! Oh, you rascal. Hehe.",
+          "Haha! That’s not fair, I can’t tickle back!",
+          "Hehe! Stop that! Hehe…",
+          "Oh! Haha, not there!",
+          "Hehehe! My composure!",
+          "Pfft… hehe… I’m trying to be calm here!"
+        ],
+        "armLift": [
+          "Mm… thank you… zzz",
+          "Zzz… tidy… zzz",
+          "Mm… I was dangling… zzz",
+          "Zzz… much better… zzz"
+        ],
+        "tickleAsleep": [
+          "Mm… hehe… zzz",
+          "Zzz… hm… hehe…",
+          "Mm… that tickles… zzz",
+          "Zzz… pfft… zzz"
+        ],
+        "updateReady": [
+          "kalibre v{version} is ready. The reload is in the footer, whenever you like.",
+          "A new version, v{version}, is waiting. Reload from the footer when it suits you.",
+          "v{version} has arrived. No hurry: the footer has the reload.",
+          "There’s an update, v{version}. Reload from the footer whenever you’re ready."
+        ],
+        "whatsNew": [
+          "New in v{version}: {news}.",
+          "Something new in v{version}: {news}.",
+          "In v{version}, {news}. Thought you’d like to know.",
+          "v{version} brings a little something: {news}."
+        ],
+        "newItem": [
+          "A new {item}! Right-click me, I want to try it.",
+          "Ooh, the {item}! Right-click me.",
+          "Is that a {item}? Right-click me!",
+          "The {item}? Oh, that’s lovely. Right-click me.",
+          "Something new: the {item}. Right-click me, please.",
+          "I’ve had my eye on the {item}. Right-click me!"
+        ],
+        "newItems": [
+          "{count} new things to try on! Right-click me.",
+          "{count} new things for my wardrobe! Right-click me."
+        ],
+        "newDecoration": [
+          "Ooh, “{name}”! Put it on a theme of your own: settings → theme.",
+          "A new decoration: “{name}”. Your themes will love it."
+        ],
+        "newDecorations": [
+          "{count} new decorations for your themes! Settings → theme.",
+          "{count} theme decorations to try. Settings → theme!"
+        ],
+        "newCardItem": [
+          "Something new for your card: the {name}. Your profile → your card.",
+          "The {name}, for your profile card. It would suit you."
+        ],
+        "newCardItems": [
+          "{count} new things for your card. Your profile → your card.",
+          "{count} new pieces for your profile card, whenever you like."
+        ],
+        "raceWon": [
+          "First across the line. Nicely done.",
+          "You won. I’m pleased for you.",
+          "That was quick. Well raced.",
+          "You beat {count} of them. Another go, if you like."
+        ],
+        "raceLost": [
+          "{winner} got there first this time. Shall we go again?",
+          "A close one. {winner} won, and you raced well.",
+          "{winner} edged it. Another go, whenever you like.",
+          "Good race. {winner} just had the better run."
+        ],
+        "newCarPart": [
+          "Something new for your race car: the {name}. Your profile → your card → garage.",
+          "The {name}, for your car. It would suit you."
+        ],
+        "newCarParts": [
+          "{count} new parts for your race car. Your profile → your card → garage.",
+          "Your car has {count} new things to try, whenever you like."
+        ],
+        "achievement": [
+          "“{name}”! It’s under your profile → achievements.",
+          "You earned “{name}”. Your profile → achievements.",
+          "Achievement: “{name}”. Nicely done.",
+          "“{name}”. Quietly impressive. Your profile → achievements.",
+          "Oh, “{name}”! Your profile → achievements has it now.",
+          "“{name}”, earned. I’m pleased for you."
+        ],
+        "achievements": [
+          "{count} new achievements! See your profile → achievements.",
+          "{count} achievements at once? Your profile → achievements!"
+        ],
+        "complete": [
+          "Every achievement. Every one! I’m so proud of you.",
+          "All of them, done. I’m a little speechless…",
+          "100%. You did it all. I’m glowing."
+        ],
+        "wakeFirst": [
+          "Zzz… wake me first… zzz",
+          "Mm… let me wake up first…",
+          "Zzz… (a little poke, please)",
+          "Mm… not yet… zzz"
+        ],
+        "highfive": [
+          "High five!",
+          "Up top! Well played.",
+          "Yes! Lovely run.",
+          "Paw to paw. Lovely.",
+          "Up high! Well typed.",
+          "Gently! Still, nice run."
+        ],
+        "honeymoon": [
+          "{partner} and I are away on honeymoon! Back tomorrow.",
+          "Off on our honeymoon with {partner}! Back tomorrow.",
+          "{partner} and I are taking a little trip. Back tomorrow!"
+        ],
+        "challenge": [
+          "Today’s challenge: {challenge}. Fancy a go?",
+          "Seen today’s challenge? {challenge}.",
+          "Today’s challenge is up: {challenge}.",
+          "Today’s challenge is {challenge}. No pressure.",
+          "If you’re in the mood: {challenge}.",
+          "{challenge}: today’s challenge. I think you can."
+        ],
+        "partner": [
+          "{partner} and I make a lovely team.",
+          "{partner} says hello!",
+          "{partner} was saying how smooth your rhythm is.",
+          "{partner} keeps telling me about your good runs.",
+          "{partner} is bouncing about somewhere, I expect.",
+          "{partner} and I are proud of you, for the record."
+        ],
+        "morning": [
+          "Good morning. Tea first, then keys?",
+          "Morning. Let’s start gently.",
+          "Oh, good morning! The home row’s all warmed up.",
+          "Morning. Fresh hands, fresh start.",
+          "Good morning. {next} is ready when you are.",
+          "Morning! Nice and slow to begin."
+        ],
+        "afternoon": [
+          "Good afternoon. A little practice?",
+          "Afternoon. Nice time for a steady few minutes.",
+          "Hello, afternoon typist.",
+          "Afternoon! Shoulders down, fingers home.",
+          "Good afternoon. {next} is here when you are.",
+          "Afternoon. Let’s make it a calm one."
+        ],
+        "evening": [
+          "Good evening. Something gentle tonight?",
+          "Evening. Nice to end the day with you.",
+          "Hello, evening. Let’s keep it light.",
+          "Evening! The keys are quieter now.",
+          "Good evening. {next}, if you like.",
+          "Evening. A few minutes, then rest."
+        ],
+        "night": [
+          "Late one? Let’s keep it short and soft.",
+          "Hello, night owl. I’m awake too.",
+          "It’s late. A few keys, then sleep?",
+          "Quiet hours. Just you, me and the home row.",
+          "Late night. {next}, then bed, please.",
+          "Mm, the night shift. Be kind to your wrists."
+        ],
+        "welcomeBack": [
+          "There you are. {days} days. Welcome back.",
+          "Welcome back! Let’s ease in gently.",
+          "{days} days away. The keys didn’t go anywhere.",
+          "Oh, hello again. I saved your place.",
+          "Back after {days} days. Slow and steady, then.",
+          "Welcome home. Your fingers will remember."
+        ],
+        "personalBest": [
+          "A new best: {wpm} wpm. Lovely.",
+          "{wpm} wpm, your fastest yet. I noticed.",
+          "Personal best: {wpm} wpm. Well earned.",
+          "Oh, {wpm} wpm. That’s a new record.",
+          "{wpm} wpm! Quietly remarkable.",
+          "New best, {wpm} wpm. I’m glowing a little."
+        ],
+        "streak": [
+          "{days} days in a row. Steady does it.",
+          "Your goal, {days} days running. Lovely habit.",
+          "{days} days straight. I’m quietly impressed.",
+          "A {days}-day streak. Look at you.",
+          "{days} days on the trot. Well done.",
+          "Goal met {days} days in a row. That’s care."
+        ],
+        "themeUnreadable": [
+          "Hm. {what} is hard to read. A little more contrast?",
+          "I can barely make out {what}. Nudge it further from the page.",
+          "{what} is whispering. Let it speak up a bit.",
+          "Gently: {what} doesn’t stand out enough yet."
+        ],
+        "themeScheme": [
+          "The page looks {page}, but the theme says {scheme}. Switch “light or dark”?",
+          "A {page} page marked {scheme}. The rest of the app will dress for the wrong one."
+        ],
+        "themeMistakes": [
+          "Mistakes and typed text look alike. Give mistakes their own colour.",
+          "I can’t tell your slips from the rest. A different shade for mistakes?"
+        ],
+        "themeAccent": [
+          "The accent and mistakes are twins. Links will look like errors.",
+          "That accent reads like a mistake. Something calmer, perhaps?"
+        ],
+        "themeLoud": [
+          "That background is very bright. Kind for a moment, tiring for an hour.",
+          "Quite a loud page. Softer, and your eyes will thank you."
+        ],
+        "themeHeat": [
+          "The key heat steps are out of order. They should deepen from 1 to 4.",
+          "Heat 1 to 4 should build, like a slow blush. These jump about."
+        ],
+        "themeSameAsBase": [
+          "A blank page. Hover a colour and I’ll show you where it lands.",
+          "Change anything you like. I’ll say what I think."
+        ],
+        "themeLovely": [
+          "That’s lovely. Gentle, and easy to read.",
+          "Mm. Everything reads well. Save it.",
+          "Nicely done. I could type on that all day.",
+          "It all passes, and it suits you."
+        ],
+        "wake@morning": [
+          "Mm… morning already? Hello, I’m Libby.",
+          "Oh, good morning. I’m Libby. Just resting my eyes.",
+          "The light’s so soft. Hi, I’m Libby."
+        ],
+        "wake@afternoon": [
+          "Mm, an afternoon doze. Hello, I’m Libby.",
+          "Oh! I lost track of the afternoon. Hi, I’m Libby.",
+          "Hello. I was only resting for a moment. I’m Libby."
+        ],
+        "wake@evening": [
+          "Oh, evening already. Hello, I’m Libby.",
+          "Mm, the evening light. Hi, I’m Libby.",
+          "Good evening. I nodded off a little. I’m Libby."
+        ],
+        "wake@night": [
+          "Oh, it’s night. Hello, I’m Libby. Quietly.",
+          "Mm… it’s late. I’m Libby. Nice to see you.",
+          "Still up? So am I, now. I’m Libby."
+        ],
+        "intro@morning": [
+          "A morning lesson. A calm way to begin the day.",
+          "Good morning. Fresh minds make good typists.",
+          "Morning practice suits you."
+        ],
+        "intro@afternoon": [
+          "An afternoon lesson. Take it steadily.",
+          "Good afternoon. Shall we ease into it?",
+          "A quiet afternoon for a few new keys."
+        ],
+        "intro@evening": [
+          "An evening lesson. No hurry at all.",
+          "A gentle end to the day. Shall we?",
+          "Good evening. One lesson, at your own pace."
+        ],
+        "intro@night": [
+          "It’s late. One careful try is plenty.",
+          "A night lesson. Soft keys, slow hands.",
+          "Late practice. Be kind to yourself tonight."
+        ],
+        "warmup@morning": [
+          "A morning warm-up. Fingers wake slowly.",
+          "Gentle laps first. It’s still early.",
+          "Warm-up now, then the lesson. Good habit."
+        ],
+        "warmup@afternoon": [
+          "A warm-up to reset the afternoon.",
+          "Easy laps first. Then we’ll see.",
+          "Loosen up a little, then begin."
+        ],
+        "warmup@evening": [
+          "Evening warm-up. Let the day fall away.",
+          "Warm-up first. Your hands have done a lot today.",
+          "Slow laps to settle in for the evening."
+        ],
+        "warmup@night": [
+          "A soft warm-up, since it’s late.",
+          "Gentle laps. No pressure at this hour.",
+          "Warm-up first. Sleepy hands need it."
+        ],
+        "sleepy@morning": [
+          "Mm, still a little sleepy myself.",
+          "A pause is fine. Mornings take time.",
+          "Take a moment. I’ll be here."
+        ],
+        "sleepy@afternoon": [
+          "The afternoon lull. A stretch, perhaps?",
+          "Rest a moment. It’s that time of day.",
+          "No rush. I was drifting a little too."
+        ],
+        "sleepy@evening": [
+          "You’ve done a lot today. A pause is fine.",
+          "Evening tiredness. Breathe for a moment.",
+          "Rest your hands. I’ll wait."
+        ],
+        "sleepy@night": [
+          "It’s late. Sleep is a fine next step.",
+          "Mm… goodnight, maybe? We can continue tomorrow.",
+          "Rest well. The keys will keep."
+        ]
       }
     },
     "data": {
@@ -205,6 +2293,557 @@
         "couldnt_save": "couldn't save (see settings → data)"
       }
     },
+    "datasets": {
+      "actions": {
+        "download": "download",
+        "download_aria": "{action, select, update {update} other {download}} {name}",
+        "download_dataset_aria": "download {name}",
+        "edit_dataset_aria": "edit {name}",
+        "passages_dataset_aria": "change how many passages {name} keeps",
+        "remove_dataset_aria": "remove {name}",
+        "put_back_dataset_aria": "put back the original {name}",
+        "update": "update",
+        "update_to": "update to {version}",
+        "edit": "edit",
+        "remove": "remove",
+        "passages": "passages",
+        "install": "install",
+        "find_more": "find more in the library"
+      },
+      "chips": {
+        "on_server": "on this server",
+        "rebuilt": "rebuilt in this browser",
+        "in_browser": "in this browser",
+        "from_library": "from {source}"
+      },
+      "status": {
+        "downloading": "downloading \"{name}\"…",
+        "downloading_progress": "downloading \"{name}\"… {done} of {total}",
+        "downloaded": "{status, select, update {updated} other {downloaded}} \"{name}\". it’s switched on, and works offline now.",
+        "download_failed": "couldn’t download \"{name}\": {error}",
+        "licence": "licence: {licence}",
+        "version_passages": "version {version} · {count, plural, one {# passage} other {# passages}}",
+        "library_from": "from {name}",
+        "library_remove": "remove the library {name}",
+        "library_added": "added {name}: {count, plural, one {# dataset} other {# datasets}}."
+      },
+      "install": {
+        "include_work": "include {title}",
+        "text_of_work": "text of {title}",
+        "edit_draft": "edit \"{name}\"",
+        "check_before_installing": "check before installing",
+        "add_text": "add {title}"
+      }
+    },
+    "drills": {
+      "formats": {
+        "time": "time",
+        "words": "words",
+        "quote": "quote"
+      },
+      "actions": {
+        "start_drill": "start drill",
+        "drill": "drill",
+        "drill_aria": "drill {mistake} now",
+        "drill_title": "Drill just {mistake} now, the recommended way",
+        "manage_in_mistakes": "manage in mistakes",
+        "recommended": "recommended",
+        "recommended_title": "Tick the mistakes that are worth drilling now, as many as a drill can carry",
+        "all": "all",
+        "none": "none",
+        "train_and_drill_these": "train and drill these"
+      },
+      "labels": {
+        "how": "how",
+        "what_to_drill": "what to drill",
+        "drill_format": "drill format",
+        "drill_length": "drill length",
+        "quote_length": "quote length",
+        "practise_by_area": "practise by area",
+        "words_count": "{count, plural, one {# word} other {# words}}",
+        "ticked_count": "{selected} of {total} ticked",
+        "in_training": "in training",
+        "ready_to_drill": "ready to drill",
+        "improving": "improving",
+        "finding_quotes": "finding quotes with these mistakes…",
+        "no_quotes_found": "No quote of this length has these mistakes in it. Try another length, or a words drill.",
+        "quotes_with_mistakes": "quotes with these mistakes",
+        "best_fit": "best fit",
+        "typed_lately": "typed lately",
+        "recommended_reason": "{recommended} is recommended: {reason}",
+        "ready": "ready",
+        "due_title": "Came up again since its last drill",
+        "not_due_title": "No new slips since its last drill",
+        "rate_title": "How often it goes wrong when typed",
+        "last_seen_title": "Last seen",
+        "usual": "usual",
+        "seen_not_trained": "seen, not trained yet",
+        "empty_nothing_in_training": "Nothing in training yet. Keep typing: Kalibre suggests mistakes that keep coming back.",
+        "empty_seen_not_trained": "Nothing in training yet. These have come up but aren’t trained yet: tick the ones to work on."
+      },
+      "status": {
+        "training": "training",
+        "improving": "improving",
+        "suggested": "suggested",
+        "watching": "watching"
+      }
+    },
+    "games": {
+      "feed": {
+        "title": "feed",
+        "blurb": "Feed a hungry creature the words it asks for before its patience runs out, or run a buffet for a crowd.",
+        "modes": {
+          "prompted": "fussy eater",
+          "unprompted": "snack mode",
+          "buffet": "buffet"
+        }
+      },
+      "castle": {
+        "title": "castle",
+        "blurb": "Build your walls out of words and hold the line until the attackers give up.",
+        "modes": {
+          "unprompted": "any brick",
+          "prompted": "special bricks"
+        }
+      },
+      "space": {
+        "title": "space",
+        "blurb": "Steer with the mouse, fire with words, and keep the ship alive.",
+        "modes": {
+          "unprompted": "free fire",
+          "prompted": "targeted"
+        }
+      },
+      "spot": {
+        "title": "spot",
+        "blurb": "Find the mistakes planted in a passage and put them right.",
+        "modes": {
+          "prompted": "proofread"
+        }
+      },
+      "ui": {
+        "pause": "pause",
+        "paused": "paused",
+        "resume": "resume",
+        "restart": "restart",
+        "quit": "quit",
+        "game_over": "game over",
+        "victory": "victory",
+        "menu_intro": "Typing as play: your words become food, bricks, shots and repairs. Games count towards XP, your mistakes and your daily goal (by the time you spend typing, not reading or aiming).",
+        "games_aria": "games",
+        "not_played": "not played yet",
+        "best_summary": "best {score} · last played {date}",
+        "race_record": "on your own or on your network",
+        "mode": "mode",
+        "difficulty": "difficulty",
+        "details": "details",
+        "replay": "replay",
+        "main": "main",
+        "demo_caption": "demo · hover to play",
+        "play_game": "play {title}",
+        "all_games": "all games",
+        "demo_aria": "{title}: {label} demo",
+        "no_passages": "No passages to proofread. Enable a dataset in texts → datasets.",
+        "time_so_far": "time so far",
+        "end_game": "end game ",
+        "exit": "exit ",
+        "commands": "commands ",
+        "hints": "esc pause · {restartKey} restart",
+        "strength_chip_title": "strength: 1 per letter, +1 for k v w y, +2 for j q x z",
+        "strength_current": "strength {strength}",
+        "strength_goal": "strength {strength} / {goal}",
+        "pause_lost_focus": "the window lost focus",
+        "pause_typing_lost": "typing focus was lost",
+        "heading": "{title} results",
+        "status_failed": "game over",
+        "status_aborted": "ended early",
+        "status_done": "done",
+        "play_again": "play again",
+        "change_setup": "change setup",
+        "added_training": "added to training",
+        "mistakes_noted": "{count, plural, one { · 1 mistake noted} other { · # mistakes noted}}",
+        "results_summary": "{time} · {words} words · {wpm} wpm · {accuracy} · mistyped {mistypes} · corrected {corrections}",
+        "daily_goal_title": "Games count their typing time towards the goal, not time spent reading, aiming or thinking",
+        "key_mashing_note": "This run looked like key mashing ({reason}), so its mistakes and XP weren't counted.",
+        "ghost_title": "race a ghost",
+        "ghost_blurb": "Your saved ghosts, by course. Pick up to {max} on one course and race them on its own text, by its rules; their clocks and yours start at your first key.",
+        "import_file": "import a ghost file",
+        "from_folder": "from your kalibre folder",
+        "drop_hint": "or drop one on the page",
+        "race_setup": "race setup",
+        "time_left": "time left",
+        "any_word_blurb": "I’ll eat anything. Stronger words fill me up more.",
+        "any_word": "any word",
+        "counts": "fed {fed} · wrong {wrong} · mistyped {mistyped}{streak, select, true { · streak {count}} other {}}",
+        "satisfaction": "satisfaction",
+        "creatures_orders": "creatures and their orders",
+        "waiting_guest": "waiting for the first guest…",
+        "served_words": "served words",
+        "table_status": "table {count}/{cap}",
+        "yard_empty": "type a word to make a brick",
+        "calm_wave": "calm: stock up on bricks · wave {wave} of {of} in {seconds}s",
+        "active_wave": "wave {wave} of {of} · {count, plural, one {1 attacker} other {# attackers}}{holding, select, true { · holding} other { · not holding}}",
+        "castle_integrity": "castle {percent}%",
+        "time_bank": "time bank",
+        "next_passage": "next passage ",
+        "hud_found": "passage {round} · found {found} of {total}",
+        "hud_score": "score {score}",
+        "find_mistake": "find a mistake: point or use the arrows, then click or press enter",
+        "skip_title": "Move on; what’s left counts as missed"
+      },
+      "errors": {
+        "deletion": "missing letter",
+        "insertion": "extra letter",
+        "transposition": "letters swapped",
+        "repeat": "key pressed twice",
+        "wrongWord": "wrong word",
+        "missingPunctuation": "missing punctuation",
+        "wrongPunctuation": "wrong punctuation",
+        "capitalisation": "capital letter",
+        "whitespace": "spacing"
+      }
+    },
+    "learn": {
+      "stages": {
+        "1": {
+          "name": "home row"
+        },
+        "2": {
+          "name": "top row"
+        },
+        "3": {
+          "name": "bottom row"
+        },
+        "4": {
+          "name": "capitals"
+        },
+        "5": {
+          "name": "numbers"
+        },
+        "6": {
+          "name": "fluency"
+        }
+      },
+      "lessons": {
+        "1": {
+          "1": {
+            "title": "left hand home"
+          },
+          "2": {
+            "title": "right hand home"
+          },
+          "3": {
+            "title": "index fingers reach in"
+          },
+          "4": {
+            "title": "home row review"
+          }
+        },
+        "2": {
+          "1": {
+            "title": "middle fingers up"
+          },
+          "2": {
+            "title": "index fingers up"
+          },
+          "3": {
+            "title": "index fingers, inner column"
+          },
+          "4": {
+            "title": "ring fingers up"
+          },
+          "5": {
+            "title": "little fingers up"
+          },
+          "6": {
+            "title": "top row review"
+          }
+        },
+        "3": {
+          "1": {
+            "title": "middle fingers down"
+          },
+          "2": {
+            "title": "index fingers down"
+          },
+          "3": {
+            "title": "index fingers, inner column"
+          },
+          "4": {
+            "title": "ring fingers down"
+          },
+          "5": {
+            "title": "little fingers down"
+          },
+          "6": {
+            "title": "bottom row review"
+          }
+        },
+        "4": {
+          "1": {
+            "title": "shift with the home row"
+          },
+          "2": {
+            "title": "shift with every letter"
+          },
+          "3": {
+            "title": "sentences"
+          }
+        },
+        "5": {
+          "1": {
+            "title": "index fingers reach up"
+          },
+          "2": {
+            "title": "middle fingers reach up"
+          },
+          "3": {
+            "title": "ring fingers reach up"
+          },
+          "4": {
+            "title": "little fingers reach up"
+          },
+          "5": {
+            "title": "little finger stretches"
+          },
+          "6": {
+            "title": "numbers review"
+          }
+        },
+        "6": {
+          "1": {
+            "title": "the 100 commonest words"
+          },
+          "2": {
+            "title": "the 500 commonest words"
+          },
+          "3": {
+            "title": "real prose"
+          },
+          "4": {
+            "title": "on to the typing tests"
+          }
+        }
+      },
+      "steps": {
+        "keys": {
+          "title": "the new keys on their own"
+        },
+        "mix": {
+          "title": "the new keys with the rest"
+        }
+      },
+      "ui": {
+        "the_steps_again": "the steps again",
+        "steps_first": "{count} short steps first: the new keys in patterns, then with the keys you know. Then the test.",
+        "steps_title": "The {count} short steps on the new keys, then the test",
+        "status_mastered": "mastered",
+        "status_practising": "practising",
+        "status_ready": "ready",
+        "status_locked": "locked",
+        "stats_summary": "best {wpm} wpm · {accuracy}% · {attempts, plural, one {# try} other {# tries}}",
+        "prerequisite": "Master {prereq} first",
+        "intro": "Learn to type without looking, one group of keys at a time. Each lesson opens when the one before it is mastered: 25 wpm at 95% accuracy over 30 words or more. Lessons earn XP, and count towards an XP daily goal.",
+        "numpad_offer": "A number pad? Kalibre has ten-key practice for it: lessons, a test, sums and a game. ",
+        "turn_it_on": "turn it on",
+        "not_now": "not now",
+        "numpad_heading": "number pad",
+        "numpad_practice": "number pad practice",
+        "numpad_desc": "lessons, a ten-key test, sums and a game",
+        "finger_guidance_fallback": "Finger guidance is for QWERTY (US) for now. You can still follow the lessons with your layout; the keys are placed as yours are.",
+        "continue_lesson": "continue: {id} {title}",
+        "start_first": "start with lesson 1.1",
+        "all_mastered": "every lesson mastered ✓",
+        "mastered_count": "{count} of {total} mastered",
+        "stage_heading": "stage {stage} · {name}",
+        "keyboard_needed": "Lessons need a real keyboard: connect one (bluetooth or usb) and press any key. Tests and games work with the on-screen one.",
+        "all_lessons": "all lessons",
+        "handoff_intro": "You know every key now. Keep going on the typing page: timed tests and quotes build speed, and Kalibre starts noticing the mistakes you make most, so drills can work on them.",
+        "go_typing": "go to the typing tests",
+        "opens_prereq": "This lesson opens once {prereq} is mastered.",
+        "go_to_prereq": "go to {prereq}",
+        "new_keys_prefix": "new keys: ",
+        "review_so_far": "a review of everything so far",
+        "every_key": "every key you know",
+        "flow": "flow",
+        "one_stream": "one stream",
+        "short_rounds": "short rounds",
+        "words_a_round": "{unit} a round",
+        "length": "length",
+        "keep_going": "keep going",
+        "timer": "timer",
+        "none": "none",
+        "start": "start",
+        "straight_to_test": "straight to the test",
+        "start_test": "start the test",
+        "warm_up_first": "warm up first: {keys}",
+        "warm_up_title": "A short round on {reason} (not saved; esc skips to the test)",
+        "slipped_keys_note": "{keys} slipped last time, so a short warm-up comes first. Take the test whenever you feel ready.",
+        "take_test": "take the test",
+        "next_step": "next: {title}",
+        "warm_up_again": "warm up again",
+        "this_step_again": "this step again",
+        "step_heading": "step {step} of {total} · {title}",
+        "warmup_heading": "warm-up · {keys}",
+        "accuracy_summary": "{accuracy}% accuracy",
+        "ready_test": "Ready for the test whenever you are.",
+        "ready_step": "Ready for the next step.",
+        "slips_continue": "A few slips still. Another go may help, or carry on when you feel ready.",
+        "practise_again": "practise again",
+        "result_mastered": "✓ {id} {title}: mastered{exclamation, select, yes {!} other {}}",
+        "result_keep_practising": "{id} {title}: keep practising",
+        "steno_intro": "The lessons teach touch typing on a keyboard, so they’re set aside while you type with a steno machine. Tests, drills and games work as usual, and your lesson progress is kept.",
+        "take_test_button": "take a test",
+        "on_keyboard_now": "I’m on a keyboard now",
+        "switch_keyboard_title": "Switches “I type with” back to a keyboard",
+        "needs_words": "{minWords} {unit} or more (you typed {words})",
+        "needs_wpm": "{wpm} wpm ({actual} this time)",
+        "needs_accuracy": "{accuracy}% accuracy ({actual}% this time)",
+        "needs_key": "every new key at {accuracy}%: {key} was {actual}%",
+        "needs_key_generic": "every new key at {accuracy}%",
+        "needs_heading": "To master it, a run needs:",
+        "next_open": "{id} {title} is open now.",
+        "slips_most": "keys that slipped most: {slips}",
+        "slips_none": "every key at 95% or better this time",
+        "next_button": "next: {id} {title}",
+        "best_run_note": "judged on your best 30 {unit} in a row: {wpm} wpm at {accuracy}%",
+        "numbers_summary": "{wpm} wpm · {accuracy}% accuracy · {words} {unit} · {clock}",
+        "xp_gained": "+{gained} xp",
+        "level_up": " · level {level}!",
+        "level_progress": " · lv {level} · {remaining} to go",
+        "goal_met": "✓ daily goal met · {amount} today",
+        "goal_progress": "daily goal · {done} of {target} today",
+        "runner_finish": "finish",
+        "runner_resume": "resume",
+        "runner_paused": "paused",
+        "runner_restart": "restart ",
+        "runner_quit": "quit without saving ",
+        "round_summary": "round {round}: {wpm} wpm · {accuracy}% — space for the next round",
+        "hints_prep": "esc skips to the test · space next {unit}",
+        "hints_normal": "esc pause · space next {unit}"
+      }
+    },
+    "mistakes": {
+      "sections": {
+        "suggested": "suggested",
+        "training": "training",
+        "improving": "improving",
+        "mastered": "mastered",
+        "dismissed": "dismissed",
+        "watching": "watching",
+        "overview": "overview",
+        "all": "all"
+      },
+      "blurbs": {
+        "suggested": "Mistakes that keep coming back. Train them, or dismiss the ones you don't care about.",
+        "training": "Drills focus on these.",
+        "improving": "The error rate has halved since training began.",
+        "mastered": "Down to a quarter of where they started. They return to training if they come back.",
+        "dismissed": "Not suggested again unless you restore them.",
+        "watching": "Seen, but not often enough to suggest yet. “train now” starts training one anyway.",
+        "overview": "Where your fingers go wrong, drawn on the keyboard, with the words and spaces beside it. Each line shows the error rate over recent tests.",
+        "all": "Every mistake Kalibre has noted, whatever its status."
+      },
+      "empty": {
+        "suggested": "No mistakes here yet. You're doing good!",
+        "training": "No mistakes in training yet. Add some from the 'suggested' tab.",
+        "improving": "Nothing improving yet. Keep drilling your training mistakes.",
+        "mastered": "Nothing mastered yet. Training takes time — keep at it.",
+        "dismissed": "Nothing dismissed.",
+        "watching": "Nothing here yet. Keep typing and patterns will show up.",
+        "all": "No mistakes noted yet. As you type, Kalibre records recurring patterns here."
+      },
+      "kinds": {
+        "key": "key",
+        "shift": "shift",
+        "swap": "letter pair",
+        "omit": "missed",
+        "extra": "extra",
+        "word": "word",
+        "space": "space",
+        "insert": "extra word",
+        "skip": "skipped word",
+        "hesitation": "hesitation",
+        "tricky": "tricky word"
+      },
+      "columns": {
+        "mistake": "mistake",
+        "kind": "kind",
+        "status": "status",
+        "left_in": "left in",
+        "fixed": "fixed",
+        "tests": "tests",
+        "trend": "trend",
+        "rate": "rate",
+        "seen": "seen"
+      },
+      "actions": {
+        "train": "train",
+        "train_aria": "train {mistake}",
+        "train_now": "train now",
+        "train_now_aria": "train {mistake} now",
+        "train_again": "train again",
+        "train_again_aria": "train {mistake} again",
+        "dismiss": "dismiss",
+        "dismiss_aria": "dismiss {mistake}",
+        "restore": "restore",
+        "restore_aria": "restore {mistake}",
+        "drill": "drill",
+        "drill_aria": "drill {mistake}",
+        "drill_all": "drill my training mistakes",
+        "stop": "stop",
+        "stop_aria": "stop training {mistake}",
+        "export": "export ",
+        "csv": "csv",
+        "json": "json"
+      },
+      "filters": {
+        "all": "all",
+        "uncorrected": "uncorrected",
+        "corrected": "corrected"
+      },
+      "layouts": {
+        "list": "list",
+        "table": "table"
+      },
+      "labels": {
+        "by_status": "mistakes by status",
+        "show_on_map": "show on the map",
+        "show_mistakes": "show mistakes",
+        "show_as": "show as",
+        "kind_of_mistake": "kind of mistake",
+        "all_kinds": "all kinds",
+        "keyboard_layout": "keyboard layout",
+        "sessions_count": "{count, plural, one {# session} other {# sessions}}",
+        "corrected_count": "{count} corrected",
+        "pager_aria": "mistake table pages",
+        "no_qualifiers_mistakes": "No {qualifiers} mistakes{inSection, select, true { in {section}} other {}} yet.",
+        "no_in_section": "No mistakes in {section} yet.",
+        "training_words_note": "{count, plural, one {# word} other {# words}} with consistent mistakes in training."
+      }
+    },
+    "profiles": {
+      "lock": {
+        "password_for": "password for {name}",
+        "switch_user": "{name}. Switch user.",
+        "is_locked": "{name} is locked"
+      },
+      "delete": {
+        "warning": "Deleting \"{name}\" removes its settings, history, mistakes, saved texts and level from this browser. It can't be undone.",
+        "last_step": "Last step: \"{name}\" will be deleted now."
+      },
+      "guest": {
+        "saved_banner": "Saved: this is \"{name}\" now, with everything you did as a guest. A password and backups can be set up in profile settings."
+      },
+      "import": {
+        "imported": "imported \"{name}\" ",
+        "open_it": "open it"
+      },
+      "restore": {
+        "in_folder": "in “{name}”: ",
+        "open_profile": "open “{name}”"
+      }
+    },
     "quests": {
       "kinds": {
         "type_words": "type {count} word(s)",
@@ -220,11 +2859,75 @@
       },
       "actions": {
         "swap": "swap",
-        "go": "go"
+        "swap_title": "Swap this quest for another (once a day)",
+        "go": "go",
+        "go_aria": "go: {quest}"
       },
       "labels": {
+        "today": "today",
+        "quests": "quests",
         "challenge": "challenge",
-        "daily_goal": "daily goal"
+        "daily_goal": "daily goal",
+        "daily_goal_label": "daily goal "
+      },
+      "today": {
+        "panel_aria": "today’s quests",
+        "getting": "Getting today’s quests…",
+        "new_at_midnight": "{difficulty} · new quests at midnight · ",
+        "difficulty": "difficulty",
+        "summary_aria": "today: {done} of {total} quests done{challenge, select, done {, challenge done} other {}}"
+      }
+    },
+    "race": {
+      "lobby": {
+        "title": "race",
+        "ready": "ready",
+        "waiting": "waiting for players",
+        "host": "host",
+        "join": "join",
+        "leave": "leave",
+        "start": "start race"
+      },
+      "places": {
+        "first": "1st place",
+        "second": "2nd place",
+        "third": "3rd place",
+        "finished": "finished"
+      },
+      "news": {
+        "overtake": "{racer} overtook {target}",
+        "lap": "{racer} finished lap {lap}",
+        "finish": "{racer} finished the race"
+      }
+    },
+    "results": {
+      "summary": {
+        "speed": "speed",
+        "accuracy": "accuracy",
+        "characters": "characters",
+        "words": "words",
+        "time": "time",
+        "consistency": "consistency",
+        "best": "personal best",
+        "average": "average",
+        "tests": "tests"
+      },
+      "candidate": {
+        "prompt_label": "training suggestion",
+        "body": "You keep typing {word} · {count, plural, one {# time} other {# times}} across {sessions, plural, one {# session} other {# sessions}}.",
+        "train": "train",
+        "dismiss": "dismiss",
+        "later": "later",
+        "drill_it_now": "drill it now"
+      },
+      "actions": {
+        "next": "next",
+        "retry": "retry",
+        "watch_replay": "watch replay",
+        "save_ghost": "save as ghost",
+        "words": "words",
+        "final": "final",
+        "as_typed": "as typed"
       }
     },
     "settings": {
@@ -372,6 +3075,220 @@
         "imported_count": "imported {count} setting(s)"
       }
     },
+    "stats": {
+      "sections": {
+        "overview": "overview",
+        "periods": "by day",
+        "bests": "personal bests",
+        "history": "history",
+        "games": "games",
+        "numpad": "number pad",
+        "xp": "xp",
+        "keys": "keys",
+        "hesitations": "hesitations",
+        "mistakes": "mistakes"
+      },
+      "export": {
+        "csv": "csv",
+        "json": "json",
+        "game_runs": "export game runs",
+        "every_test": "export every test",
+        "days": "export days"
+      },
+      "empty": {
+        "no_tests": "no tests yet",
+        "no_tests_games_only": "No tests yet: only games so far. See stats → games.",
+        "no_tests_overview": "No tests yet. Your speed, accuracy and the keys you find hardest will show up here.",
+        "not_enough_typing": "not enough typing yet"
+      },
+      "overview": {
+        "average_wpm": "average wpm",
+        "accuracy": "accuracy",
+        "tests": "tests",
+        "time_typing": "time typing",
+        "completed": "completed",
+        "restarted": "restarted",
+        "abandoned": "abandoned",
+        "not_counted": "not counted",
+        "words": "words",
+        "characters": "characters",
+        "averages_note": "averages and bests use completed tests only{notCounted, select, true {; key-mashed tests aren’t counted} other {}}",
+        "chart_heading": "{scope, select, all {all} other {last}} {count} {count, plural, one {test} other {tests}} · wpm",
+        "chart_window_aria": "how many tests to chart",
+        "by_characters": "by characters"
+      },
+      "bests": {
+        "race_this": "race this",
+        "empty": "complete a test to set one",
+        "stats_summary": "{survived, select, true {{survivedTime} survived · } other {}}{wpm} wpm · {accuracy}% · {date}"
+      },
+      "periods": {
+        "no_tests": "no tests",
+        "tests_count": "{count, plural, one {# test} other {# tests}}",
+        "best_accuracy": "best {best} · {accuracy}%",
+        "daily_goal": "daily goal: {target}",
+        "today": " · today {amount}{met, select, true { ✓} other {}}",
+        "streak": " · streak {count, plural, one {# day} other {# days}}",
+        "no_daily_goal": "No daily goal. ",
+        "set_one": "set one",
+        "time_typed_per_day": "time typed per day · last 30 days",
+        "day_by_day": "day by day",
+        "no_tests_last_30_days": "no tests in the last 30 days",
+        "time_of_day": "time of day",
+        "time_zone_note": "Days and hours are in this device's time zone."
+      },
+      "games": {
+        "no_games": "no games played yet. Games are under games in the menu.",
+        "runs_count": "{count, plural, one {# run} other {# runs}}",
+        "last": "last {date}",
+        "best_run": "best run: {summary}",
+        "bests_note": "bests count runs on each game’s current rules",
+        "bests_by_difficulty": "bests by difficulty",
+        "recent_runs": "recent runs",
+        "old_rules": "{game} (old rules)",
+        "runs": "runs",
+        "time_played": "time played"
+      },
+      "numpad": {
+        "no_runs": "no number pad runs yet. They’re on the number pad page in learn.",
+        "ksph_note": "keystrokes an hour (ksph) count the keys of correct entries, operators and enter included",
+        "bests": "ten-key bests",
+        "sums_by_kind": "sums by kind",
+        "weak_spots": "weak spots",
+        "recent_runs": "recent runs",
+        "ten_key_tests": "ten-key tests",
+        "fastest": "fastest",
+        "lessons_mastered": "lessons mastered",
+        "sums_right": "sums right",
+        "time_on_pad": "time on the pad"
+      },
+      "hesitations": {
+        "explain": "Not mistakes: keys you typed correctly, but only after a pause of at least {factor}× your own usual gap between keys (never under {minMs} ms), so they're measured against your pace, however fast you type. Pauses over {maxS} s count as a break (longer if you type by looking for keys). Pauses that keep coming back are suggested for training, like mistakes.",
+        "empty": "Tests from now on are measured for hesitations.",
+        "hesitations": "hesitations",
+        "per_minute": "per minute",
+        "tests_measured": "tests measured",
+        "keys_pause_before": "keys you pause before",
+        "pairs_pause_inside": "letter pairs you pause inside",
+        "words_pause_before": "words you pause before",
+        "no_pattern_yet": "no pattern yet"
+      },
+      "keys": {
+        "picker_label": "keyboard layout: ",
+        "dropdown_label": "keyboard layout",
+        "least_accurate_keys": "least accurate keys",
+        "slowest_keys": "slowest keys",
+        "least_accurate_pairs": "least accurate letter pairs",
+        "slowest_pairs": "slowest letter pairs"
+      },
+      "mistakes": {
+        "errors_summary": "{uncorrected} uncorrected · {corrected} corrected · {capsLock} with caps lock",
+        "most_common": "most common",
+        "all_mistakes": "all mistakes",
+        "keys": "keys",
+        "shift": "shift",
+        "words": "words",
+        "between_words": "between words",
+        "none_yet": "none yet"
+      },
+      "xp": {
+        "blurb": "XP comes from correct typing (scaled by accuracy), a little from bonuses, and from mistakes you train away. It is worked out from your history.",
+        "total_xp": "total xp",
+        "last_7_days": "last 7 days",
+        "where_from": "where it came from",
+        "xp_per_day": "xp per day · last 30 days"
+      },
+      "history": {
+        "replay": "replay",
+        "race": "race",
+        "delete": "delete",
+        "race_title": "Race this run as a ghost, on its own text",
+        "no_saved_ghosts": "no saved ghosts yet. Save one after any test or replay.",
+        "no_history": "no tests in history yet",
+        "pinned": "pinned",
+        "all_tests": "all tests",
+        "saved_ghosts": "saved ghosts",
+        "saved_ghosts_count": "saved ghosts ({count})",
+        "pager_aria": "history pages",
+        "pager_prev": "‹ previous",
+        "pager_next": "next ›",
+        "pager_range": "{first}–{last} of {count}",
+        "page_aria": "page {number}"
+      },
+      "shared": {
+        "level": "level",
+        "level_aria": "XP to the next level",
+        "prev": "prev",
+        "next": "next",
+        "prev_aria": "previous page",
+        "next_aria": "next page",
+        "page_info": "{current} of {total}"
+      }
+    },
+    "texts": {
+      "sections": {
+        "texts": "my texts",
+        "texts_blurb": "Your own writing, practised exactly as written.",
+        "quotes": "my quotes",
+        "quotes_blurb": "Quotes you add join quote and mixed tests (60 characters or more).",
+        "datasets": "datasets",
+        "datasets_blurb": "Books and collections that supply quotes, word lists and drills."
+      },
+      "labels": {
+        "title": "title",
+        "text_aria": "text",
+        "paste_placeholder": "paste text here",
+        "my_texts": "my texts",
+        "datasets": "datasets",
+        "sections_aria": "texts sections",
+        "subfolders_too": " subfolders too",
+        "drop_hint": "or drop files here",
+        "words_count": "{count, plural, one {# word} other {# words}}",
+        "paragraphs_count": "{count, plural, one {# paragraph} other {# paragraphs}}"
+      },
+      "actions": {
+        "save": "save",
+        "save_changes": "save changes",
+        "cancel": "cancel",
+        "practise": "practise",
+        "edit": "edit",
+        "delete": "delete",
+        "delete_confirm": "delete?",
+        "yes_delete": "yes, delete",
+        "keep": "keep",
+        "practise_aria": "practise {title}",
+        "edit_aria": "edit {title}",
+        "delete_aria": "delete {title}",
+        "new_text": "new text",
+        "import_files": "import .txt or .md",
+        "import_folder": "import a folder"
+      },
+      "status": {
+        "saved": "saved \"{title}\"",
+        "updated": "updated \"{title}\"",
+        "imported": "imported \"{title}\"",
+        "deleted": "deleted \"{title}\"",
+        "no_folder_files": "no .txt or .md files in that folder",
+        "empty": "No saved texts yet. Paste something you want to practise, or import a .txt file. Texts stay on this device."
+      },
+      "quotes": {
+        "quote_placeholder": "the quote",
+        "quote_aria": "quote",
+        "author_placeholder": "who said it",
+        "source_placeholder": "optional",
+        "add_quote": "add quote",
+        "author": "author",
+        "source": "source",
+        "authors": "authors",
+        "sources": "sources",
+        "added": "quote added",
+        "updated": "quote updated",
+        "deleted": "quote deleted",
+        "unknown": "— unknown",
+        "too_short": " · too short for tests ({min}+ characters)",
+        "empty": "Add quotes you like; they appear in quote and mixed tests. Collections such as a quotes.json file can be installed under datasets."
+      }
+    },
     "themes": {
       "editor": {
         "save_theme": "save theme",
@@ -397,13 +3314,504 @@
         "decorate": "decorate",
         "export": "export",
         "delete": "delete",
+        "done": "done",
         "customise_current": "customise current theme",
-        "import_theme": "import a theme"
+        "import_theme": "import a theme",
+        "decorations_for": "decorations for {name}",
+        "use_theme": "use {name}",
+        "edit_theme": "edit {name}",
+        "decorate_theme": "decorate {name}",
+        "export_theme": "export {name}",
+        "delete_theme": "delete {name}",
+        "copy_and_decorate": "copy this theme and decorate it",
+        "decorations_earned_zero": "Theme decorations, earned by playing, go on themes of your own.",
+        "decorations_earned_notice": "You’ve earned {count, plural, one {a theme decoration} other {# theme decorations}}. They go on themes of your own, so make a copy of this one to wear {count, plural, one {it} other {them}}.",
+        "decorations_earned_info": "Earned by playing. They stay with this theme on this profile, and aren’t included when you export the theme."
       },
       "picker": {
         "preview": "preview",
         "instructions": "hover to preview · click or enter to apply · esc to close",
         "close": "close"
+      },
+      "decorationSlots": {
+        "caret": {
+          "title": "caret",
+          "hint": "around the cursor (its shape is a typing setting)"
+        },
+        "backdrop": {
+          "title": "backdrop",
+          "hint": "a faint pattern behind the page"
+        },
+        "frame": {
+          "title": "frame",
+          "hint": "around the text you type"
+        },
+        "keystroke": {
+          "title": "keystroke",
+          "hint": "how each typed letter settles"
+        },
+        "flourish": {
+          "title": "flourish",
+          "hint": "a small mark beside the wordmark"
+        }
+      },
+      "decorations": {
+        "caret-glow": {
+          "name": "soft glow"
+        },
+        "caret-halo": {
+          "name": "halo"
+        },
+        "caret-drop": {
+          "name": "ink drop"
+        },
+        "caret-trail": {
+          "name": "comet tail"
+        },
+        "backdrop-dots": {
+          "name": "dot grid"
+        },
+        "backdrop-ruled": {
+          "name": "ruled paper"
+        },
+        "backdrop-graph": {
+          "name": "graph paper"
+        },
+        "backdrop-grain": {
+          "name": "grain"
+        },
+        "backdrop-checks": {
+          "name": "soft checks"
+        },
+        "frame-corners": {
+          "name": "corner ticks"
+        },
+        "frame-bookplate": {
+          "name": "bookplate"
+        },
+        "frame-tab": {
+          "name": "folder tab"
+        },
+        "frame-brackets": {
+          "name": "brackets"
+        },
+        "keystroke-ink": {
+          "name": "ink fade"
+        },
+        "keystroke-rise": {
+          "name": "gentle rise"
+        },
+        "keystroke-bloom": {
+          "name": "bloom"
+        },
+        "flourish-leaf": {
+          "name": "leaf"
+        },
+        "flourish-star": {
+          "name": "star"
+        },
+        "flourish-key": {
+          "name": "key"
+        },
+        "flourish-letter": {
+          "name": "your companion’s letter"
+        },
+        "flourish-moon": {
+          "name": "moon"
+        }
+      },
+      "presets": {
+        "paper": {
+          "name": "paper"
+        },
+        "ink": {
+          "name": "ink"
+        },
+        "dusk": {
+          "name": "dusk"
+        },
+        "eink": {
+          "name": "e-ink"
+        },
+        "eink-night": {
+          "name": "e-ink night"
+        },
+        "cream": {
+          "name": "cream"
+        },
+        "rose": {
+          "name": "rose"
+        },
+        "harbour": {
+          "name": "harbour"
+        },
+        "forest": {
+          "name": "forest"
+        },
+        "plum": {
+          "name": "plum"
+        },
+        "slate": {
+          "name": "slate"
+        },
+        "terminal": {
+          "name": "terminal"
+        },
+        "contrast": {
+          "name": "high contrast"
+        },
+        "contrast-night": {
+          "name": "high contrast night"
+        }
+      }
+    },
+    "typing": {
+      "mode": {
+        "time": "time",
+        "words": "words",
+        "quote": "quote",
+        "book": "book",
+        "mixed": "mixed",
+        "sustained": "sustained",
+        "custom": "custom",
+        "mistakes": "mistakes"
+      },
+      "mode_label": "mode",
+      "sustained_title": "Keep up a pace or an accuracy for as long as you can",
+      "status": {
+        "caps_lock": "caps lock is on",
+        "restart": "restart",
+        "pause": "pause",
+        "resume": "resume",
+        "caps_lock_label": "caps lock",
+        "num_lock_off": "num lock is off",
+        "num_lock_off_title": "the number pad sends arrows while num lock is off",
+        "time_so_far": "time so far",
+        "focus_click": "click or press any key to focus",
+        "restart_symbol": "↻ "
+      },
+      "hints": {
+        "tab_enter_restart": "tab → enter restart · esc commands",
+        "tab_tab_restart": "tab → tab restart · esc commands",
+        "enter_to_restart": "enter to restart",
+        "tab_to_restart": "tab to restart"
+      },
+      "focus": {
+        "label": "focus: {mode}",
+        "aria_label": "focus view: {mode}. Press to change.",
+        "off": "off",
+        "line": "line",
+        "sentence": "sentence"
+      },
+      "instructions": {
+        "standard": "Type the text shown. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line.",
+        "sustained": "Keep your pace at or above the target. Three seconds below it ends the test. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line.",
+        "accuracy": "Keep your accuracy at or above the target while typing at a steady pace. Five seconds below it ends the test. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line."
+      }
+    },
+    "wardrobe": {
+      "slots": {
+        "hat": {
+          "label": "hat",
+          "none": "no hat"
+        },
+        "face": {
+          "label": "face",
+          "none": "classic face"
+        },
+        "necklace": {
+          "label": "necklace",
+          "none": "no necklace"
+        },
+        "braceletLeft": {
+          "label": "left wrist",
+          "none": "bare wrist"
+        },
+        "braceletRight": {
+          "label": "right wrist",
+          "none": "bare wrist"
+        },
+        "pants": {
+          "label": "pants",
+          "none": "no pants"
+        },
+        "background": {
+          "label": "background",
+          "none": "no background"
+        },
+        "heart": {
+          "label": "heart",
+          "none": "plain heart"
+        },
+        "ring": {
+          "label": "ring",
+          "none": "no ring"
+        }
+      },
+      "party-hat": {
+        "name": "party hat"
+      },
+      "beanie": {
+        "name": "beanie"
+      },
+      "cap": {
+        "name": "cap"
+      },
+      "headphones": {
+        "name": "headphones"
+      },
+      "top-hat": {
+        "name": "top hat"
+      },
+      "wizard-hat": {
+        "name": "wizard hat"
+      },
+      "space-helmet": {
+        "name": "space helmet"
+      },
+      "hard-hat": {
+        "name": "hard hat"
+      },
+      "explorer-hat": {
+        "name": "explorer hat"
+      },
+      "hair-bow": {
+        "name": "hair bow"
+      },
+      "flat-cap": {
+        "name": "flat cap"
+      },
+      "beret": {
+        "name": "beret"
+      },
+      "sun-hat": {
+        "name": "sun hat"
+      },
+      "bucket-hat": {
+        "name": "bucket hat"
+      },
+      "chef-hat": {
+        "name": "chef’s hat"
+      },
+      "graduation-cap": {
+        "name": "graduation cap"
+      },
+      "crown": {
+        "name": "crown"
+      },
+      "round-eyes": {
+        "name": "round eyes"
+      },
+      "sparkly": {
+        "name": "sparkly eyes"
+      },
+      "pixel-eyes": {
+        "name": "pixel eyes"
+      },
+      "blush": {
+        "name": "blush"
+      },
+      "freckles": {
+        "name": "freckles"
+      },
+      "round-glasses": {
+        "name": "round glasses"
+      },
+      "monocle": {
+        "name": "monocle"
+      },
+      "star-eyes": {
+        "name": "star eyes"
+      },
+      "heart-eyes": {
+        "name": "heart eyes"
+      },
+      "sleepy-lids": {
+        "name": "sleepy lids"
+      },
+      "beads": {
+        "name": "bead string"
+      },
+      "bow-tie": {
+        "name": "bow tie"
+      },
+      "scarf": {
+        "name": "scarf"
+      },
+      "medal": {
+        "name": "medal"
+      },
+      "keycap-pendant": {
+        "name": "keycap pendant"
+      },
+      "compass": {
+        "name": "compass"
+      },
+      "pearls": {
+        "name": "pearls"
+      },
+      "tie": {
+        "name": "tie"
+      },
+      "locket": {
+        "name": "locket"
+      },
+      "quill-pendant": {
+        "name": "quill pendant"
+      },
+      "friendship-band": {
+        "name": "friendship band"
+      },
+      "gold-band": {
+        "name": "gold band"
+      },
+      "watch": {
+        "name": "watch"
+      },
+      "key-chain": {
+        "name": "key-link chain"
+      },
+      "spiked-band": {
+        "name": "spiked band"
+      },
+      "trail-band": {
+        "name": "trail band"
+      },
+      "charm-bracelet": {
+        "name": "charm bracelet"
+      },
+      "sweatband": {
+        "name": "sweatband"
+      },
+      "beaded-band": {
+        "name": "beaded band"
+      },
+      "shorts": {
+        "name": "shorts"
+      },
+      "jeans": {
+        "name": "jeans"
+      },
+      "dungarees": {
+        "name": "dungarees"
+      },
+      "kilt": {
+        "name": "kilt"
+      },
+      "skirt": {
+        "name": "skirt"
+      },
+      "cargo-pants": {
+        "name": "cargo pants"
+      },
+      "pyjama-bottoms": {
+        "name": "pyjama bottoms"
+      },
+      "space-trousers": {
+        "name": "space trousers"
+      },
+      "theme-tile": {
+        "name": "theme tile"
+      },
+      "stars": {
+        "name": "stars"
+      },
+      "bricks": {
+        "name": "bricks"
+      },
+      "leaves": {
+        "name": "leaves"
+      },
+      "paper": {
+        "name": "paper"
+      },
+      "keyboard": {
+        "name": "keyboard"
+      },
+      "rain": {
+        "name": "rain"
+      },
+      "waves": {
+        "name": "waves"
+      },
+      "typewriter": {
+        "name": "typewriter"
+      },
+      "bookshelf": {
+        "name": "bookshelf"
+      },
+      "sunrise": {
+        "name": "sunrise"
+      },
+      "heart-star": {
+        "name": "star"
+      },
+      "heart-note": {
+        "name": "note"
+      },
+      "heart-key": {
+        "name": "key"
+      },
+      "heart-paw": {
+        "name": "paw"
+      },
+      "heart-flag": {
+        "name": "flag"
+      },
+      "heart-bolt": {
+        "name": "bolt"
+      },
+      "heart-moon": {
+        "name": "moon"
+      },
+      "heart-leaf": {
+        "name": "leaf"
+      },
+      "heart-sun": {
+        "name": "sun"
+      },
+      "heart-amp": {
+        "name": "the ampersand"
+      },
+      "heart-k": {
+        "name": "the letter k"
+      },
+      "ring": {
+        "name": "ring"
+      },
+      "ui": {
+        "default_hint": "the default",
+        "locked": "locked",
+        "new_badge": "new",
+        "wearing_it": "wearing it",
+        "ring_worn": "the ring: worn for good",
+        "title": "{companion}’s wardrobe",
+        "tab_aria": "{label}, {unlocked} of {total} unlocked",
+        "item_worn_aria": "{name}, wearing",
+        "item_locked_aria": "{name}, locked: {hint}",
+        "remove_all": "remove every cosmetic",
+        "news_new_item": "a new {name}",
+        "news_new_items": "{count, plural, one {a new thing} other {# new things}}",
+        "news_earned": "ooh, you earned {what} for my wardrobe!",
+        "try_it_on": "try it on"
+      }
+    },
+    "words": {
+      "filter": {
+        "warning": "Kalibre's word lists come from old books and large dictionaries, which include slurs and other offensive words. With the filter off, they can appear in tests, drills, lessons and games. By turning it off you accept that you may see them, and that the author of Kalibre is not liable for any offence caused.",
+        "turn_off": "turn the filter off",
+        "keep_on": "keep it on",
+        "confirm_title": "turn off the offensive-word filter?",
+        "filter_on": "filter on",
+        "filter_off": "filter off",
+        "placeholder": "one per line, or separated by commas; end with * for every word starting with it",
+        "filtered_count": "{count, plural, one {# word} other {# words}} of your own filtered",
+        "no_words": "no words of your own",
+        "heading": "offensive words",
+        "toggle_label": "filter offensive words",
+        "own_label": "words of your own to filter",
+        "explanation": "On: slurs and the strongest profanity are kept out of word lists, and passages that contain them are skipped. Your own texts and quotes are never changed.",
+        "own_explanation": "Kept with this profile only, never shared. They apply while the filter is on."
       }
     }
   }

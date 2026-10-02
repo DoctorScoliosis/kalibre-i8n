@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "overview": "overview",
+    "periods": "by day",
+    "bests": "personal bests",
+    "history": "history",
+    "games": "games",
+    "numpad": "number pad",
+    "xp": "xp",
+    "keys": "keys",
+    "hesitations": "hesitations",
+    "mistakes": "mistakes"
+  },
+  "export": {
+    "csv": "csv",
+    "json": "json",
+    "game_runs": "export game runs",
+    "every_test": "export every test",
+    "days": "export days"
+  },
+  "empty": {
+    "no_tests": "no tests yet",
+    "no_tests_games_only": "No tests yet: only games so far. See stats → games.",
+    "no_tests_overview": "No tests yet. Your speed, accuracy and the keys you find hardest will show up here.",
+    "not_enough_typing": "not enough typing yet"
+  },
+  "overview": {
+    "average_wpm": "average wpm",
+    "accuracy": "accuracy",
+    "tests": "tests",
+    "time_typing": "time typing",
+    "completed": "completed",
+    "restarted": "restarted",
+    "abandoned": "abandoned",
+    "not_counted": "not counted",
+    "words": "words",
+    "characters": "characters",
+    "averages_note": "averages and bests use completed tests only{notCounted, select, true {; key-mashed tests aren’t counted} other {}}",
+    "chart_heading": "{scope, select, all {all} other {last}} {count} {count, plural, one {test} other {tests}} · wpm",
+    "chart_window_aria": "how many tests to chart",
+    "by_characters": "by characters"
+  },
+  "bests": {
+    "race_this": "race this",
+    "empty": "complete a test to set one",
+    "stats_summary": "{survived, select, true {{survivedTime} survived · } other {}}{wpm} wpm · {accuracy}% · {date}"
+  },
+  "periods": {
+    "no_tests": "no tests",
+    "tests_count": "{count, plural, one {# test} other {# tests}}",
+    "best_accuracy": "best {best} · {accuracy}%",
+    "daily_goal": "daily goal: {target}",
+    "today": " · today {amount}{met, select, true { ✓} other {}}",
+    "streak": " · streak {count, plural, one {# day} other {# days}}",
+    "no_daily_goal": "No daily goal. ",
+    "set_one": "set one",
+    "time_typed_per_day": "time typed per day · last 30 days",
+    "day_by_day": "day by day",
+    "no_tests_last_30_days": "no tests in the last 30 days",
+    "time_of_day": "time of day",
+    "time_zone_note": "Days and hours are in this device's time zone."
+  },
+  "games": {
+    "no_games": "no games played yet. Games are under games in the menu.",
+    "runs_count": "{count, plural, one {# run} other {# runs}}",
+    "last": "last {date}",
+    "best_run": "best run: {summary}",
+    "bests_note": "bests count runs on each game’s current rules",
+    "bests_by_difficulty": "bests by difficulty",
+    "recent_runs": "recent runs",
+    "old_rules": "{game} (old rules)",
+    "runs": "runs",
+    "time_played": "time played"
+  },
+  "numpad": {
+    "no_runs": "no number pad runs yet. They’re on the number pad page in learn.",
+    "ksph_note": "keystrokes an hour (ksph) count the keys of correct entries, operators and enter included",
+    "bests": "ten-key bests",
+    "sums_by_kind": "sums by kind",
+    "weak_spots": "weak spots",
+    "recent_runs": "recent runs",
+    "ten_key_tests": "ten-key tests",
+    "fastest": "fastest",
+    "lessons_mastered": "lessons mastered",
+    "sums_right": "sums right",
+    "time_on_pad": "time on the pad"
+  },
+  "hesitations": {
+    "explain": "Not mistakes: keys you typed correctly, but only after a pause of at least {factor}× your own usual gap between keys (never under {minMs} ms), so they're measured against your pace, however fast you type. Pauses over {maxS} s count as a break (longer if you type by looking for keys). Pauses that keep coming back are suggested for training, like mistakes.",
+    "empty": "Tests from now on are measured for hesitations.",
+    "hesitations": "hesitations",
+    "per_minute": "per minute",
+    "tests_measured": "tests measured",
+    "keys_pause_before": "keys you pause before",
+    "pairs_pause_inside": "letter pairs you pause inside",
+    "words_pause_before": "words you pause before",
+    "no_pattern_yet": "no pattern yet"
+  },
+  "keys": {
+    "picker_label": "keyboard layout: ",
+    "dropdown_label": "keyboard layout",
+    "least_accurate_keys": "least accurate keys",
+    "slowest_keys": "slowest keys",
+    "least_accurate_pairs": "least accurate letter pairs",
+    "slowest_pairs": "slowest letter pairs"
+  },
+  "mistakes": {
+    "errors_summary": "{uncorrected} uncorrected · {corrected} corrected · {capsLock} with caps lock",
+    "most_common": "most common",
+    "all_mistakes": "all mistakes",
+    "keys": "keys",
+    "shift": "shift",
+    "words": "words",
+    "between_words": "between words",
+    "none_yet": "none yet"
+  },
+  "xp": {
+    "blurb": "XP comes from correct typing (scaled by accuracy), a little from bonuses, and from mistakes you train away. It is worked out from your history.",
+    "total_xp": "total xp",
+    "last_7_days": "last 7 days",
+    "where_from": "where it came from",
+    "xp_per_day": "xp per day · last 30 days"
+  },
+  "history": {
+    "replay": "replay",
+    "race": "race",
+    "delete": "delete",
+    "race_title": "Race this run as a ghost, on its own text",
+    "no_saved_ghosts": "no saved ghosts yet. Save one after any test or replay.",
+    "no_history": "no tests in history yet",
+    "pinned": "pinned",
+    "all_tests": "all tests",
+    "saved_ghosts": "saved ghosts",
+    "saved_ghosts_count": "saved ghosts ({count})",
+    "pager_aria": "history pages",
+    "pager_prev": "‹ previous",
+    "pager_next": "next ›",
+    "pager_range": "{first}–{last} of {count}",
+    "page_aria": "page {number}"
+  },
+  "shared": {
+    "level": "level",
+    "level_aria": "XP to the next level",
+    "prev": "prev",
+    "next": "next",
+    "prev_aria": "previous page",
+    "next_aria": "next page",
+    "page_info": "{current} of {total}"
+  }
+}

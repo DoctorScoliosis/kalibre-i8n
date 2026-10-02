@@ -1,0 +1,115 @@
+{
+  "feed": {
+    "title": "feed",
+    "blurb": "Feed a hungry creature the words it asks for before its patience runs out, or run a buffet for a crowd.",
+    "modes": {
+      "prompted": "fussy eater",
+      "unprompted": "snack mode",
+      "buffet": "buffet"
+    }
+  },
+  "castle": {
+    "title": "castle",
+    "blurb": "Build your walls out of words and hold the line until the attackers give up.",
+    "modes": {
+      "unprompted": "any brick",
+      "prompted": "special bricks"
+    }
+  },
+  "space": {
+    "title": "space",
+    "blurb": "Steer with the mouse, fire with words, and keep the ship alive.",
+    "modes": {
+      "unprompted": "free fire",
+      "prompted": "targeted"
+    }
+  },
+  "spot": {
+    "title": "spot",
+    "blurb": "Find the mistakes planted in a passage and put them right.",
+    "modes": {
+      "prompted": "proofread"
+    }
+  },
+  "ui": {
+    "pause": "pause",
+    "paused": "paused",
+    "resume": "resume",
+    "restart": "restart",
+    "quit": "quit",
+    "game_over": "game over",
+    "victory": "victory",
+    "menu_intro": "Typing as play: your words become food, bricks, shots and repairs. Games count towards XP, your mistakes and your daily goal (by the time you spend typing, not reading or aiming).",
+    "games_aria": "games",
+    "not_played": "not played yet",
+    "best_summary": "best {score} · last played {date}",
+    "race_record": "on your own or on your network",
+    "mode": "mode",
+    "difficulty": "difficulty",
+    "details": "details",
+    "replay": "replay",
+    "main": "main",
+    "demo_caption": "demo · hover to play",
+    "play_game": "play {title}",
+    "all_games": "all games",
+    "demo_aria": "{title}: {label} demo",
+    "no_passages": "No passages to proofread. Enable a dataset in texts → datasets.",
+    "time_so_far": "time so far",
+    "end_game": "end game ",
+    "exit": "exit ",
+    "commands": "commands ",
+    "hints": "esc pause · {restartKey} restart",
+    "strength_chip_title": "strength: 1 per letter, +1 for k v w y, +2 for j q x z",
+    "strength_current": "strength {strength}",
+    "strength_goal": "strength {strength} / {goal}",
+    "pause_lost_focus": "the window lost focus",
+    "pause_typing_lost": "typing focus was lost",
+    "heading": "{title} results",
+    "status_failed": "game over",
+    "status_aborted": "ended early",
+    "status_done": "done",
+    "play_again": "play again",
+    "change_setup": "change setup",
+    "added_training": "added to training",
+    "mistakes_noted": "{count, plural, one { · 1 mistake noted} other { · # mistakes noted}}",
+    "results_summary": "{time} · {words} words · {wpm} wpm · {accuracy} · mistyped {mistypes} · corrected {corrections}",
+    "daily_goal_title": "Games count their typing time towards the goal, not time spent reading, aiming or thinking",
+    "key_mashing_note": "This run looked like key mashing ({reason}), so its mistakes and XP weren't counted.",
+    "ghost_title": "race a ghost",
+    "ghost_blurb": "Your saved ghosts, by course. Pick up to {max} on one course and race them on its own text, by its rules; their clocks and yours start at your first key.",
+    "import_file": "import a ghost file",
+    "from_folder": "from your kalibre folder",
+    "drop_hint": "or drop one on the page",
+    "race_setup": "race setup",
+    "time_left": "time left",
+    "any_word_blurb": "I’ll eat anything. Stronger words fill me up more.",
+    "any_word": "any word",
+    "counts": "fed {fed} · wrong {wrong} · mistyped {mistyped}{streak, select, true { · streak {count}} other {}}",
+    "satisfaction": "satisfaction",
+    "creatures_orders": "creatures and their orders",
+    "waiting_guest": "waiting for the first guest…",
+    "served_words": "served words",
+    "table_status": "table {count}/{cap}",
+    "yard_empty": "type a word to make a brick",
+    "calm_wave": "calm: stock up on bricks · wave {wave} of {of} in {seconds}s",
+    "active_wave": "wave {wave} of {of} · {count, plural, one {1 attacker} other {# attackers}}{holding, select, true { · holding} other { · not holding}}",
+    "castle_integrity": "castle {percent}%",
+    "time_bank": "time bank",
+    "next_passage": "next passage ",
+    "hud_found": "passage {round} · found {found} of {total}",
+    "hud_score": "score {score}",
+    "find_mistake": "find a mistake: point or use the arrows, then click or press enter",
+    "skip_title": "Move on; what’s left counts as missed"
+  },
+  "errors": {
+    "deletion": "missing letter",
+    "insertion": "extra letter",
+    "transposition": "letters swapped",
+    "repeat": "key pressed twice",
+    "wrongWord": "wrong word",
+    "missingPunctuation": "missing punctuation",
+    "wrongPunctuation": "wrong punctuation",
+    "capitalisation": "capital letter",
+    "whitespace": "spacing"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "view": {
+    "card_aria": "{name}’s card: {described}"
+  },
+  "window": {
+    "your_card": "your card",
+    "card_title": "card",
+    "cosmetics": "cosmetics",
+    "stickers": "stickers",
+    "garage": "garage",
+    "done": "done"
+  }
+}

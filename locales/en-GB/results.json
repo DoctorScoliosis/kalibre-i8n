@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "speed": "speed",
+    "accuracy": "accuracy",
+    "characters": "characters",
+    "words": "words",
+    "time": "time",
+    "consistency": "consistency",
+    "best": "personal best",
+    "average": "average",
+    "tests": "tests"
+  },
+  "candidate": {
+    "prompt_label": "training suggestion",
+    "body": "You keep typing {word} · {count, plural, one {# time} other {# times}} across {sessions, plural, one {# session} other {# sessions}}.",
+    "train": "train",
+    "dismiss": "dismiss",
+    "later": "later",
+    "drill_it_now": "drill it now"
+  },
+  "actions": {
+    "next": "next",
+    "retry": "retry",
+    "watch_replay": "watch replay",
+    "save_ghost": "save as ghost",
+    "words": "words",
+    "final": "final",
+    "as_typed": "as typed"
+  }
+}

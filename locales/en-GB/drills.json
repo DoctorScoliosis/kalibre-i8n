@@ -1,0 +1,53 @@
+{
+  "formats": {
+    "time": "time",
+    "words": "words",
+    "quote": "quote"
+  },
+  "actions": {
+    "start_drill": "start drill",
+    "drill": "drill",
+    "drill_aria": "drill {mistake} now",
+    "drill_title": "Drill just {mistake} now, the recommended way",
+    "manage_in_mistakes": "manage in mistakes",
+    "recommended": "recommended",
+    "recommended_title": "Tick the mistakes that are worth drilling now, as many as a drill can carry",
+    "all": "all",
+    "none": "none",
+    "train_and_drill_these": "train and drill these"
+  },
+  "labels": {
+    "how": "how",
+    "what_to_drill": "what to drill",
+    "drill_format": "drill format",
+    "drill_length": "drill length",
+    "quote_length": "quote length",
+    "practise_by_area": "practise by area",
+    "words_count": "{count, plural, one {# word} other {# words}}",
+    "ticked_count": "{selected} of {total} ticked",
+    "in_training": "in training",
+    "ready_to_drill": "ready to drill",
+    "improving": "improving",
+    "finding_quotes": "finding quotes with these mistakes…",
+    "no_quotes_found": "No quote of this length has these mistakes in it. Try another length, or a words drill.",
+    "quotes_with_mistakes": "quotes with these mistakes",
+    "best_fit": "best fit",
+    "typed_lately": "typed lately",
+    "recommended_reason": "{recommended} is recommended: {reason}",
+    "ready": "ready",
+    "due_title": "Came up again since its last drill",
+    "not_due_title": "No new slips since its last drill",
+    "rate_title": "How often it goes wrong when typed",
+    "last_seen_title": "Last seen",
+    "usual": "usual",
+    "seen_not_trained": "seen, not trained yet",
+    "empty_nothing_in_training": "Nothing in training yet. Keep typing: Kalibre suggests mistakes that keep coming back.",
+    "empty_seen_not_trained": "Nothing in training yet. These have come up but aren’t trained yet: tick the ones to work on."
+  },
+  "status": {
+    "training": "training",
+    "improving": "improving",
+    "suggested": "suggested",
+    "watching": "watching"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "actions": {
+    "save": "save",
+    "cancel": "cancel",
+    "close": "close",
+    "dismiss": "dismiss",
+    "done": "done",
+    "delete": "delete",
+    "edit": "edit",
+    "continue": "continue",
+    "skip": "skip",
+    "reload_now": "reload now",
+    "not_now": "not now",
+    "yes": "yes",
+    "no": "no"
+  },
+  "plural": {
+    "test": "{count, plural, one {# test} other {# tests}}",
+    "minute": "{count, plural, one {# minute} other {# minutes}}",
+    "hour": "{count, plural, one {# hour} other {# hours}}",
+    "word": "{count, plural, one {# word} other {# words}}",
+    "lesson": "{count, plural, one {# lesson} other {# lessons}}",
+    "lesson_step": "{count, plural, one {# lesson step} other {# lesson steps}}",
+    "warmup": "{count, plural, one {# warm-up} other {# warm-ups}}",
+    "drill": "{count, plural, one {# drill} other {# drills}}",
+    "time": "{count, plural, one {# time} other {# times}}",
+    "quote": "{count, plural, one {# quote} other {# quotes}}",
+    "book_reading": "{count, plural, one {# book reading} other {# book readings}}",
+    "sustained_test": "{count, plural, one {# sustained test} other {# sustained tests}}"
+  },
+  "modal": {
+    "language_reload_title": "change language?",
+    "language_reload_body": "kalibre reloads to change language. save anything you're working on first: a test in progress, a text you're writing or theme edits that aren't saved will be lost."
+  },
+  "translation": {
+    "unreviewed_note": "this translation wasn't written or checked by a native speaker, so some of it may read oddly. you can help improve it on github.",
+    "not_checked_yet": "(not checked by a native speaker yet)"
+  }
+}

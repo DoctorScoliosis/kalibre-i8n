@@ -1,0 +1,44 @@
+{
+  "mode": {
+    "time": "time",
+    "words": "words",
+    "quote": "quote",
+    "book": "book",
+    "mixed": "mixed",
+    "sustained": "sustained",
+    "custom": "custom",
+    "mistakes": "mistakes"
+  },
+  "mode_label": "mode",
+  "sustained_title": "Keep up a pace or an accuracy for as long as you can",
+  "status": {
+    "caps_lock": "caps lock is on",
+    "restart": "restart",
+    "pause": "pause",
+    "resume": "resume",
+    "caps_lock_label": "caps lock",
+    "num_lock_off": "num lock is off",
+    "num_lock_off_title": "the number pad sends arrows while num lock is off",
+    "time_so_far": "time so far",
+    "focus_click": "click or press any key to focus",
+    "restart_symbol": "↻ "
+  },
+  "hints": {
+    "tab_enter_restart": "tab → enter restart · esc commands",
+    "tab_tab_restart": "tab → tab restart · esc commands",
+    "enter_to_restart": "enter to restart",
+    "tab_to_restart": "tab to restart"
+  },
+  "focus": {
+    "label": "focus: {mode}",
+    "aria_label": "focus view: {mode}. Press to change.",
+    "off": "off",
+    "line": "line",
+    "sentence": "sentence"
+  },
+  "instructions": {
+    "standard": "Type the text shown. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line.",
+    "sustained": "Keep your pace at or above the target. Three seconds below it ends the test. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line.",
+    "accuracy": "Keep your accuracy at or above the target while typing at a steady pace. Five seconds below it ends the test. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line."
+  }
+}

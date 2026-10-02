@@ -1,0 +1,132 @@
+{
+  "slots": {
+    "body": {
+      "title": "body",
+      "hint": "the shape of your car"
+    },
+    "paint": {
+      "title": "paint",
+      "hint": "its colour, from your theme’s colours"
+    },
+    "livery": {
+      "title": "livery",
+      "hint": "a pattern over the paint (with a colour of its own)"
+    },
+    "wheels": {
+      "title": "wheels",
+      "hint": "what it rolls on"
+    },
+    "trail": {
+      "title": "trail",
+      "hint": "what it leaves behind"
+    }
+  },
+  "parts": {
+    "body-hatch": {
+      "name": "hatchback"
+    },
+    "body-coupe": {
+      "name": "coupé"
+    },
+    "body-beetle": {
+      "name": "beetle"
+    },
+    "body-pickup": {
+      "name": "pickup"
+    },
+    "body-van": {
+      "name": "van"
+    },
+    "body-racer": {
+      "name": "open-wheeler"
+    },
+    "body-bubble": {
+      "name": "bubble car"
+    },
+    "paint-accent": {
+      "name": "accent"
+    },
+    "paint-heat-1": {
+      "name": "ember"
+    },
+    "paint-heat-2": {
+      "name": "amber"
+    },
+    "paint-heat-3": {
+      "name": "sunrise"
+    },
+    "paint-heat-4": {
+      "name": "scarlet"
+    },
+    "paint-chart-wpm": {
+      "name": "racing line"
+    },
+    "paint-text-dim": {
+      "name": "graphite"
+    },
+    "livery-stripe": {
+      "name": "racing stripe"
+    },
+    "livery-checker": {
+      "name": "chequered"
+    },
+    "livery-dots": {
+      "name": "polka dots"
+    },
+    "livery-chevrons": {
+      "name": "chevrons"
+    },
+    "livery-flames": {
+      "name": "flames"
+    },
+    "livery-split": {
+      "name": "two-tone"
+    },
+    "livery-number": {
+      "name": "race number"
+    },
+    "livery-midnight": {
+      "name": "midnight stars"
+    },
+    "wheels-plain": {
+      "name": "plain"
+    },
+    "wheels-sport": {
+      "name": "sport"
+    },
+    "wheels-chunky": {
+      "name": "chunky"
+    },
+    "wheels-spoked": {
+      "name": "spoked"
+    },
+    "wheels-whitewall": {
+      "name": "whitewall"
+    },
+    "wheels-gilt": {
+      "name": "gilt"
+    },
+    "trail-dust": {
+      "name": "dust"
+    },
+    "trail-sparks": {
+      "name": "sparks"
+    },
+    "trail-bubbles": {
+      "name": "bubbles"
+    },
+    "trail-ribbon": {
+      "name": "ribbon"
+    },
+    "trail-stars": {
+      "name": "stardust"
+    }
+  },
+  "garage": {
+    "title": "garage",
+    "tab_title": "garage",
+    "tab_hint": "dress your race car: it’s what you drive on the track, and what everyone racing you sees",
+    "choose_slot": "choose {slot}",
+    "paint_swatch": "{name} paint"
+  }
+}

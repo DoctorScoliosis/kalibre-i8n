@@ -1,0 +1,42 @@
+{
+  "actions": {
+    "download": "download",
+    "download_aria": "{action, select, update {update} other {download}} {name}",
+    "download_dataset_aria": "download {name}",
+    "edit_dataset_aria": "edit {name}",
+    "passages_dataset_aria": "change how many passages {name} keeps",
+    "remove_dataset_aria": "remove {name}",
+    "put_back_dataset_aria": "put back the original {name}",
+    "update": "update",
+    "update_to": "update to {version}",
+    "edit": "edit",
+    "remove": "remove",
+    "passages": "passages",
+    "install": "install",
+    "find_more": "find more in the library"
+  },
+  "chips": {
+    "on_server": "on this server",
+    "rebuilt": "rebuilt in this browser",
+    "in_browser": "in this browser",
+    "from_library": "from {source}"
+  },
+  "status": {
+    "downloading": "downloading \"{name}\"…",
+    "downloading_progress": "downloading \"{name}\"… {done} of {total}",
+    "downloaded": "{status, select, update {updated} other {downloaded}} \"{name}\". it’s switched on, and works offline now.",
+    "download_failed": "couldn’t download \"{name}\": {error}",
+    "licence": "licence: {licence}",
+    "version_passages": "version {version} · {count, plural, one {# passage} other {# passages}}",
+    "library_from": "from {name}",
+    "library_remove": "remove the library {name}",
+    "library_added": "added {name}: {count, plural, one {# dataset} other {# datasets}}."
+  },
+  "install": {
+    "include_work": "include {title}",
+    "text_of_work": "text of {title}",
+    "edit_draft": "edit \"{name}\"",
+    "check_before_installing": "check before installing",
+    "add_text": "add {title}"
+  }
+}

@@ -13,10 +13,22 @@
   },
   "actions": {
     "swap": "swap",
-    "go": "go"
+    "swap_title": "Swap this quest for another (once a day)",
+    "go": "go",
+    "go_aria": "go: {quest}"
   },
   "labels": {
+    "today": "today",
+    "quests": "quests",
     "challenge": "challenge",
-    "daily_goal": "daily goal"
+    "daily_goal": "daily goal",
+    "daily_goal_label": "daily goal "
+  },
+  "today": {
+    "panel_aria": "today’s quests",
+    "getting": "Getting today’s quests…",
+    "new_at_midnight": "{difficulty} · new quests at midnight · ",
+    "difficulty": "difficulty",
+    "summary_aria": "today: {done} of {total} quests done{challenge, select, done {, challenge done} other {}}"
   }
 }

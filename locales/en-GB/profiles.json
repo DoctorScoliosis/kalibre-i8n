@@ -1,0 +1,22 @@
+{
+  "lock": {
+    "password_for": "password for {name}",
+    "switch_user": "{name}. Switch user.",
+    "is_locked": "{name} is locked"
+  },
+  "delete": {
+    "warning": "Deleting \"{name}\" removes its settings, history, mistakes, saved texts and level from this browser. It can't be undone.",
+    "last_step": "Last step: \"{name}\" will be deleted now."
+  },
+  "guest": {
+    "saved_banner": "Saved: this is \"{name}\" now, with everything you did as a guest. A password and backups can be set up in profile settings."
+  },
+  "import": {
+    "imported": "imported \"{name}\" ",
+    "open_it": "open it"
+  },
+  "restore": {
+    "in_folder": "in “{name}”: ",
+    "open_profile": "open “{name}”"
+  }
+}

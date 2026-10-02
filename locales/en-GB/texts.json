@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "texts": "my texts",
+    "texts_blurb": "Your own writing, practised exactly as written.",
+    "quotes": "my quotes",
+    "quotes_blurb": "Quotes you add join quote and mixed tests (60 characters or more).",
+    "datasets": "datasets",
+    "datasets_blurb": "Books and collections that supply quotes, word lists and drills."
+  },
+  "labels": {
+    "title": "title",
+    "text_aria": "text",
+    "paste_placeholder": "paste text here",
+    "my_texts": "my texts",
+    "datasets": "datasets",
+    "sections_aria": "texts sections",
+    "subfolders_too": " subfolders too",
+    "drop_hint": "or drop files here",
+    "words_count": "{count, plural, one {# word} other {# words}}",
+    "paragraphs_count": "{count, plural, one {# paragraph} other {# paragraphs}}"
+  },
+  "actions": {
+    "save": "save",
+    "save_changes": "save changes",
+    "cancel": "cancel",
+    "practise": "practise",
+    "edit": "edit",
+    "delete": "delete",
+    "delete_confirm": "delete?",
+    "yes_delete": "yes, delete",
+    "keep": "keep",
+    "practise_aria": "practise {title}",
+    "edit_aria": "edit {title}",
+    "delete_aria": "delete {title}",
+    "new_text": "new text",
+    "import_files": "import .txt or .md",
+    "import_folder": "import a folder"
+  },
+  "status": {
+    "saved": "saved \"{title}\"",
+    "updated": "updated \"{title}\"",
+    "imported": "imported \"{title}\"",
+    "deleted": "deleted \"{title}\"",
+    "no_folder_files": "no .txt or .md files in that folder",
+    "empty": "No saved texts yet. Paste something you want to practise, or import a .txt file. Texts stay on this device."
+  },
+  "quotes": {
+    "quote_placeholder": "the quote",
+    "quote_aria": "quote",
+    "author_placeholder": "who said it",
+    "source_placeholder": "optional",
+    "add_quote": "add quote",
+    "author": "author",
+    "source": "source",
+    "authors": "authors",
+    "sources": "sources",
+    "added": "quote added",
+    "updated": "quote updated",
+    "deleted": "quote deleted",
+    "unknown": "— unknown",
+    "too_short": " · too short for tests ({min}+ characters)",
+    "empty": "Add quotes you like; they appear in quote and mixed tests. Collections such as a quotes.json file can be installed under datasets."
+  }
+}

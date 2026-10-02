@@ -1,0 +1,220 @@
+{
+  "stages": {
+    "1": {
+      "name": "home row"
+    },
+    "2": {
+      "name": "top row"
+    },
+    "3": {
+      "name": "bottom row"
+    },
+    "4": {
+      "name": "capitals"
+    },
+    "5": {
+      "name": "numbers"
+    },
+    "6": {
+      "name": "fluency"
+    }
+  },
+  "lessons": {
+    "1": {
+      "1": {
+        "title": "left hand home"
+      },
+      "2": {
+        "title": "right hand home"
+      },
+      "3": {
+        "title": "index fingers reach in"
+      },
+      "4": {
+        "title": "home row review"
+      }
+    },
+    "2": {
+      "1": {
+        "title": "middle fingers up"
+      },
+      "2": {
+        "title": "index fingers up"
+      },
+      "3": {
+        "title": "index fingers, inner column"
+      },
+      "4": {
+        "title": "ring fingers up"
+      },
+      "5": {
+        "title": "little fingers up"
+      },
+      "6": {
+        "title": "top row review"
+      }
+    },
+    "3": {
+      "1": {
+        "title": "middle fingers down"
+      },
+      "2": {
+        "title": "index fingers down"
+      },
+      "3": {
+        "title": "index fingers, inner column"
+      },
+      "4": {
+        "title": "ring fingers down"
+      },
+      "5": {
+        "title": "little fingers down"
+      },
+      "6": {
+        "title": "bottom row review"
+      }
+    },
+    "4": {
+      "1": {
+        "title": "shift with the home row"
+      },
+      "2": {
+        "title": "shift with every letter"
+      },
+      "3": {
+        "title": "sentences"
+      }
+    },
+    "5": {
+      "1": {
+        "title": "index fingers reach up"
+      },
+      "2": {
+        "title": "middle fingers reach up"
+      },
+      "3": {
+        "title": "ring fingers reach up"
+      },
+      "4": {
+        "title": "little fingers reach up"
+      },
+      "5": {
+        "title": "little finger stretches"
+      },
+      "6": {
+        "title": "numbers review"
+      }
+    },
+    "6": {
+      "1": {
+        "title": "the 100 commonest words"
+      },
+      "2": {
+        "title": "the 500 commonest words"
+      },
+      "3": {
+        "title": "real prose"
+      },
+      "4": {
+        "title": "on to the typing tests"
+      }
+    }
+  },
+  "steps": {
+    "keys": {
+      "title": "the new keys on their own"
+    },
+    "mix": {
+      "title": "the new keys with the rest"
+    }
+  },
+  "ui": {
+    "the_steps_again": "the steps again",
+    "steps_first": "{count} short steps first: the new keys in patterns, then with the keys you know. Then the test.",
+    "steps_title": "The {count} short steps on the new keys, then the test",
+    "status_mastered": "mastered",
+    "status_practising": "practising",
+    "status_ready": "ready",
+    "status_locked": "locked",
+    "stats_summary": "best {wpm} wpm · {accuracy}% · {attempts, plural, one {# try} other {# tries}}",
+    "prerequisite": "Master {prereq} first",
+    "intro": "Learn to type without looking, one group of keys at a time. Each lesson opens when the one before it is mastered: 25 wpm at 95% accuracy over 30 words or more. Lessons earn XP, and count towards an XP daily goal.",
+    "numpad_offer": "A number pad? Kalibre has ten-key practice for it: lessons, a test, sums and a game. ",
+    "turn_it_on": "turn it on",
+    "not_now": "not now",
+    "numpad_heading": "number pad",
+    "numpad_practice": "number pad practice",
+    "numpad_desc": "lessons, a ten-key test, sums and a game",
+    "finger_guidance_fallback": "Finger guidance is for QWERTY (US) for now. You can still follow the lessons with your layout; the keys are placed as yours are.",
+    "continue_lesson": "continue: {id} {title}",
+    "start_first": "start with lesson 1.1",
+    "all_mastered": "every lesson mastered ✓",
+    "mastered_count": "{count} of {total} mastered",
+    "stage_heading": "stage {stage} · {name}",
+    "keyboard_needed": "Lessons need a real keyboard: connect one (bluetooth or usb) and press any key. Tests and games work with the on-screen one.",
+    "all_lessons": "all lessons",
+    "handoff_intro": "You know every key now. Keep going on the typing page: timed tests and quotes build speed, and Kalibre starts noticing the mistakes you make most, so drills can work on them.",
+    "go_typing": "go to the typing tests",
+    "opens_prereq": "This lesson opens once {prereq} is mastered.",
+    "go_to_prereq": "go to {prereq}",
+    "new_keys_prefix": "new keys: ",
+    "review_so_far": "a review of everything so far",
+    "every_key": "every key you know",
+    "flow": "flow",
+    "one_stream": "one stream",
+    "short_rounds": "short rounds",
+    "words_a_round": "{unit} a round",
+    "length": "length",
+    "keep_going": "keep going",
+    "timer": "timer",
+    "none": "none",
+    "start": "start",
+    "straight_to_test": "straight to the test",
+    "start_test": "start the test",
+    "warm_up_first": "warm up first: {keys}",
+    "warm_up_title": "A short round on {reason} (not saved; esc skips to the test)",
+    "slipped_keys_note": "{keys} slipped last time, so a short warm-up comes first. Take the test whenever you feel ready.",
+    "take_test": "take the test",
+    "next_step": "next: {title}",
+    "warm_up_again": "warm up again",
+    "this_step_again": "this step again",
+    "step_heading": "step {step} of {total} · {title}",
+    "warmup_heading": "warm-up · {keys}",
+    "accuracy_summary": "{accuracy}% accuracy",
+    "ready_test": "Ready for the test whenever you are.",
+    "ready_step": "Ready for the next step.",
+    "slips_continue": "A few slips still. Another go may help, or carry on when you feel ready.",
+    "practise_again": "practise again",
+    "result_mastered": "✓ {id} {title}: mastered{exclamation, select, yes {!} other {}}",
+    "result_keep_practising": "{id} {title}: keep practising",
+    "steno_intro": "The lessons teach touch typing on a keyboard, so they’re set aside while you type with a steno machine. Tests, drills and games work as usual, and your lesson progress is kept.",
+    "take_test_button": "take a test",
+    "on_keyboard_now": "I’m on a keyboard now",
+    "switch_keyboard_title": "Switches “I type with” back to a keyboard",
+    "needs_words": "{minWords} {unit} or more (you typed {words})",
+    "needs_wpm": "{wpm} wpm ({actual} this time)",
+    "needs_accuracy": "{accuracy}% accuracy ({actual}% this time)",
+    "needs_key": "every new key at {accuracy}%: {key} was {actual}%",
+    "needs_key_generic": "every new key at {accuracy}%",
+    "needs_heading": "To master it, a run needs:",
+    "next_open": "{id} {title} is open now.",
+    "slips_most": "keys that slipped most: {slips}",
+    "slips_none": "every key at 95% or better this time",
+    "next_button": "next: {id} {title}",
+    "best_run_note": "judged on your best 30 {unit} in a row: {wpm} wpm at {accuracy}%",
+    "numbers_summary": "{wpm} wpm · {accuracy}% accuracy · {words} {unit} · {clock}",
+    "xp_gained": "+{gained} xp",
+    "level_up": " · level {level}!",
+    "level_progress": " · lv {level} · {remaining} to go",
+    "goal_met": "✓ daily goal met · {amount} today",
+    "goal_progress": "daily goal · {done} of {target} today",
+    "runner_finish": "finish",
+    "runner_resume": "resume",
+    "runner_paused": "paused",
+    "runner_restart": "restart ",
+    "runner_quit": "quit without saving ",
+    "round_summary": "round {round}: {wpm} wpm · {accuracy}% — space for the next round",
+    "hints_prep": "esc skips to the test · space next {unit}",
+    "hints_normal": "esc pause · space next {unit}"
+  }
+}
