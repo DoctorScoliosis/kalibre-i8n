@@ -33,8 +33,8 @@
       "changes": "Removed obsolete quest sentence keys",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "35e087515946dfd6cb8ed790bf823c5233886da0f321d7e5158c34cda220c84a",
-      "bytes": 16256
+      "sha256": "7db3ecbd0d3e207cbfb4a5037e60f9aa14f3ee2753d373e450cb9a12867eec77",
+      "bytes": 48939
     },
     {
       "id": "zh-CN",

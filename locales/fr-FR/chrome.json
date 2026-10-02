@@ -1,50 +1,242 @@
 {
   "nav": {
-    "skip_to_content": "Aller au contenu principal",
-    "type": "Taper",
-    "learn": "Apprendre",
-    "drill": "Entraînement",
-    "games": "Jeux",
-    "mistakes": "Erreurs",
-    "settings": "Paramètres",
-    "today": "Aujourd'hui",
-    "about": "À propos"
+    "skip_to_content": "aller au contenu principal",
+    "type": "taper",
+    "learn": "apprendre",
+    "drill": "entraînement",
+    "games": "jeux",
+    "mistakes": "erreurs",
+    "settings": "paramètres",
+    "today": "aujourd'hui",
+    "about": "à propos",
+    "primary": "principal"
   },
   "curtain": {
-    "fetching": "Récupération des livres et du dictionnaire, une seule fois",
-    "taking_longer": "Cela prend plus de temps que d'habitude…",
-    "reload": "Recharger",
-    "books_downloading": "Les livres sont encore en téléchargement. Vous pouvez commencer maintenant, ils finiront en arrière-plan.",
-    "start_without_waiting": "Commencer sans attendre",
-    "still_loading": "Toujours en cours de chargement. Vérifiez votre connexion, puis rechargez. Une fois que Kalibre est chargé ici, il fonctionne hors ligne.",
-    "older_tab": "Kalibre est ouvert dans un autre onglet, sur une version plus ancienne. Fermez cet onglet et celui-ci continuera.",
-    "couldnt_load": "Kalibre n'a pas pu se charger. Vérifiez votre connexion, puis rechargez.",
-    "browser_too_old": "Ce navigateur est trop ancien pour Kalibre. Une version récente de Chrome, Edge, Firefox ou Safari est requise."
+    "fetching": "récupération des livres et du dictionnaire, une seule fois",
+    "taking_longer": "cela prend plus de temps que d'habitude…",
+    "reload": "recharger",
+    "books_downloading": "les livres sont encore en téléchargement. vous pouvez commencer maintenant, ils finiront en arrière-plan.",
+    "start_without_waiting": "commencer sans attendre",
+    "still_loading": "toujours en cours de chargement. vérifiez votre connexion, puis rechargez. une fois que kalibre est chargé ici, il fonctionne hors ligne.",
+    "older_tab": "kalibre est ouvert dans un autre onglet, sur une version plus ancienne. fermez cet onglet et celui-ci continuera.",
+    "couldnt_load": "kalibre n'a pas pu se charger. vérifiez votre connexion, puis rechargez.",
+    "browser_too_old": "ce navigateur est trop ancien pour kalibre. une version récente de chrome, edge, firefox ou safari est requise."
   },
   "footer": {
-    "shortcuts": "Raccourcis clavier",
-    "privacy": "Confidentialité",
-    "terms": "Conditions",
-    "security": "Sécurité",
-    "announcements": "Annonces"
+    "shortcuts": "raccourcis clavier",
+    "privacy": "confidentialité",
+    "terms": "conditions",
+    "security": "sécurité",
+    "announcements": "annonces",
+    "credit_author": "© {year} {author}.",
+    "credit_company": "© {year} midnight summer media.",
+    "licence": "sous licence {licence}.",
+    "licence_name": "licence mit"
   },
   "meta": {
-    "tagline": "Kalibre, un entraîneur de frappe adaptatif",
-    "description": "Votre frappe. Vos erreurs. Votre progression. Un entraîneur de frappe qui apprend vos erreurs récurrentes et les travaille, directement dans votre navigateur.",
-    "alt_wordmark": "Le logotype Kalibre entre Cal et Libby, avec la ligne : votre frappe, vos erreurs, votre progression."
+    "tagline": "kalibre, un entraîneur de frappe adaptatif",
+    "description": "votre frappe. vos erreurs. votre progression. un entraîneur de frappe qui apprend vos erreurs récurrentes et les travaille, directement dans votre navigateur.",
+    "alt_wordmark": "le logotype kalibre entre cal et libby, avec la ligne : votre frappe, vos erreurs, votre progression."
   },
   "pwa": {
-    "ios": "Sur iPhone et iPad, ajoutez Kalibre à votre écran d'accueil (dans Safari : partager → ajouter à l'écran d'accueil). Il s'ouvre en plein écran et conserve ses données, contrairement à un onglet Safari qui peut les perdre après 7 jours sans visite.",
-    "generic": "Ajoutez Kalibre à votre écran d'accueil (menu du navigateur → ajouter à l'écran d'accueil, ou installer). Une fois installé, il s'ouvre en plein écran, et le navigateur est plus susceptible de conserver ses données."
+    "ios": "sur iphone et ipad, ajoutez kalibre à votre écran d'accueil (dans safari : partager → ajouter à l'écran d'accueil). il s'ouvre en plein écran et conserve ses données, contrairement à un onglet safari qui peut les perdre après 7 jours sans visite.",
+    "generic": "ajoutez kalibre à votre écran d'accueil (menu du navigateur → ajouter à l'écran d'accueil, ou installer). une fois installé, il s'ouvre en plein écran, et le navigateur est plus susceptible de conserver ses données."
   },
   "misc": {
-    "kalibre_about": "Kalibre, à propos",
-    "backup_due": "Paramètres, sauvegarde due",
-    "new_badge": "Nouveau",
-    "backup_progress": "Progression de la sauvegarde",
-    "todays_quests": "Les quêtes d'aujourd'hui",
-    "new_quests_midnight": "Nouvelles quêtes à minuit",
-    "difficulty": "Difficulté",
-    "getting_quests": "Récupération des quêtes d'aujourd'hui…"
+    "kalibre_about": "kalibre, à propos",
+    "backup_due": "paramètres, sauvegarde due",
+    "new_badge": "nouveau",
+    "backup_progress": "progression de la sauvegarde",
+    "todays_quests": "les quêtes d'aujourd'hui",
+    "new_quests_midnight": "nouvelles quêtes à minuit",
+    "difficulty": "difficulté",
+    "getting_quests": "récupération des quêtes d'aujourd'hui…"
+  },
+  "backup": {
+    "error": "impossible de l'enregistrer : {error}",
+    "nothing": "il n'y a rien à sauvegarder pour l'instant",
+    "saved_to_folder": "enregistré {count, plural, one {# fichier de profil} many {# fichiers de profil} other {# fichiers de profil}} dans le dossier kalibre « {folder} »",
+    "downloaded": "téléchargé {count, plural, one {# fichier de profil} many {# fichiers de profil} other {# fichiers de profil}}"
+  },
+  "updates": {
+    "whats_new_title": "nouvelles fonctionnalités",
+    "status_up_to_date": "kalibre v{version} · à jour",
+    "update_ready": "v{version} est prêt",
+    "update_ready_read_first": "v{version} est prêt · à lire d'abord",
+    "update_meta": "vous pouvez mettre à jour maintenant, ou rester sur votre version actuelle (v{current}).",
+    "update_meta_size": "taille du téléchargement : ~{size} · vous pouvez mettre à jour maintenant, ou rester sur votre version actuelle (v{current}).",
+    "update_to": "mettre à jour vers v{version}",
+    "stay_on": "rester sur v{current}",
+    "updating": "mise à jour…",
+    "check_button": "vérifier les mises à jour",
+    "checking": "vérification…",
+    "check_checking": "recherche…",
+    "check_current": "vous avez la version la plus récente",
+    "check_offline": "impossible de joindre le serveur pour l'instant",
+    "check_unavailable": "les mises à jour ne fonctionnent que dans l'application installée ou hébergée",
+    "breaking_intro": "cette mise à jour modifie la manière dont kalibre conserve vos données :",
+    "breaking_note": "une fois terminée, les anciennes versions de kalibre ne pourront pas ouvrir vos données. sauvegardez d'abord une copie : un fichier de profil pour chaque profil sur cet appareil.",
+    "breaking_older_at": "v{version} reste à",
+    "save_backup": "sauvegarder une copie",
+    "saving": "enregistrement…",
+    "badge_in_update": "dans cette mise à jour",
+    "badge_current": "actuel",
+    "notes_not_yet": "les notes pour cette version s'affichent une fois installée.",
+    "stays_at": "v{current} reste à {link} pendant un certain temps ; ouvrez une sauvegarde là-bas pour continuer à l'utiliser."
+  },
+  "brand": {
+    "kanary_preview_build_notice": "avis de version d'aperçu kanary",
+    "kanary_preview_build_click_for": "version d'aperçu kanary · cliquez pour l'avis",
+    "what_s_new_for": "nouvelles fonctionnalités pour {versionLabel}"
+  },
+  "command_line": {
+    "command": "commande",
+    "type_a_setting_or_action": "saisir un paramètre ou une action",
+    "commands": "commandes",
+    "command_line": "ligne de commande",
+    "no_matches": "aucune correspondance"
+  },
+  "kanary_notice": {
+    "features_interfaces_and_database_schemas": "les fonctionnalités, interfaces et schémas de base de données évoluent activement et peuvent changer, être remplacés ou cesser de fonctionner sans préavis.",
+    "things_may_break_or_change": "les choses peuvent cesser de fonctionner ou changer. ",
+    "your_typing_history_achievements_and": "votre historique de frappe, réalisations et données personnalisées se trouvent dans le stockage local de ce navigateur. exportez régulièrement une copie de sauvegarde afin qu'une mise à jour incompatible ne fasse pas perdre votre progression.",
+    "periodically_back_up_your_profiles": "sauvegardez régulièrement vos profils : ",
+    "profiles_used_on_kanary_may": "les profils utilisés sur kanary peuvent ou non fonctionner s'ils sont importés dans les versions de publication de kalibre. kanary peut introduire de nouveaux schémas de base de données, paramètres expérimentaux ou formats révisés que les versions de publication ne peuvent pas lire ou migrer en arrière.",
+    "release_compatibility": "compatibilité avec les versions de publication : ",
+    "announcements_devlog": "annonces et devlog : ",
+    "stackinfolio": "stackinfolio",
+    "settings_data": "paramètres → données",
+    "got_it": "compris",
+    "intro": "vous utilisez {product}, une version d'aperçu précoce et en évolution rapide avec des expériences en cours.",
+    "follow": "suivez les étapes des versions, la progression du développement et les annonces sur {site}."
+  },
+  "legal_pages": {
+    "last_updated": "dernière mise à jour {format}",
+    "the_short_version": "version courte",
+    "read": "lire {full}",
+    "also": "aussi : {pages}"
+  },
+  "older_version": {
+    "older_version": "ancienne version",
+    "it_keeps_its_own_data": "elle conserve ses propres données, séparément de la version actuelle : pour utiliser les vôtres ici, importez un fichier de profil enregistré avant la mise à jour (menu profil → importer un fichier de profil).",
+    "this_is_kalibre_v_kept": "il s'agit de kalibre v{version}, conservé afin que vous puissiez revenir en arrière. ",
+    "go_to_the_current_version": "aller à la version actuelle",
+    "hide_this_until_the_page": "masquer ceci jusqu'au rechargement de la page",
+    "hide_until_the_page_reloads": "masquer jusqu'au rechargement de la page"
+  },
+  "shortcuts": {
+    "then": "puis {value}",
+    "sequence_hint": "appuyez sur les touches de séquence (comme {first} puis {second}) dans un délai de 1,5 seconde. les raccourcis ne se déclenchent que lorsque vous ne tapez pas activement dans des tests ou des champs de texte.",
+    "SHORTCUT_GROUPS": {
+      "navigation": {
+        "title": "navigation"
+      },
+      "nav-type": {
+        "label": "vue taper"
+      },
+      "nav-learn": {
+        "label": "vue apprendre"
+      },
+      "nav-drill": {
+        "label": "vue entraînement"
+      },
+      "nav-games": {
+        "label": "vue jeux"
+      },
+      "nav-mistakes": {
+        "label": "vue erreurs"
+      },
+      "nav-stats": {
+        "label": "statistiques et historique"
+      },
+      "nav-profile": {
+        "label": "menu profil"
+      },
+      "nav-texts": {
+        "label": "textes et bibliothèque"
+      },
+      "nav-settings": {
+        "label": "paramètres"
+      },
+      "nav-about": {
+        "label": "à propos de kalibre"
+      },
+      "typing": {
+        "title": "frappe et tests"
+      },
+      "type-restart": {
+        "label": "recommencer le test ou l'entraînement"
+      },
+      "type-pause": {
+        "label": "ligne de commande / pause"
+      },
+      "type-delete-word": {
+        "label": "supprimer le mot"
+      },
+      "type-space": {
+        "label": "soumettre / mot suivant"
+      },
+      "general": {
+        "title": "général et boîtes de dialogue"
+      },
+      "gen-guide": {
+        "label": "guide des raccourcis clavier"
+      },
+      "gen-close": {
+        "label": "fermer la fenêtre modale ou la boîte de dialogue"
+      },
+      "gen-command": {
+        "label": "palette de ligne de commande"
+      },
+      "gen-focus": {
+        "label": "naviguer dans les contrôles"
+      }
+    },
+    "modal": {
+      "shortcuts": {
+        "title": "raccourcis clavier"
+      }
+    }
+  },
+  "startup_failure": {
+    "putting_it_back": "restauration…",
+    "it_couldn_t_be_put": "impossible de restaurer : {value}",
+    "if_kalibre_was_taken_back": "si kalibre a été ramené à une version antérieure intentionnellement, vous pouvez restaurer la copie de vos données enregistrée juste avant la dernière mise à jour. tout ce que vous avez fait après cette mise à jour sera perdu, et cela remplace tout ce que kalibre conserve dans ce navigateur.",
+    "copy_the_details": "copier les détails",
+    "copied": "copié",
+    "select_the_details_below_to": "sélectionnez les détails ci-dessous pour les copier",
+    "kalibre_couldn_t_start": "kalibre n'a pas pu démarrer",
+    "what_you_ve_saved_is": "ce que vous avez enregistré est toujours dans ce navigateur : recommencer n'y touche pas.",
+    "send_details": "si cela continue à se produire, envoyez les détails à {address}."
+  },
+  "update_gate": {
+    "carry_on": "continuer",
+    "kalibre_v_changes_how_it": "kalibre v{appVersion} modifie la manière dont il conserve vos données",
+    "nothing_has_changed_yet_once": "rien n'a encore changé. une fois que ce sera fait, les anciennes versions de kalibre ne pourront pas ouvrir vos données. sauvegardez d'abord une copie : un fichier de profil pour chaque profil sur cet appareil.",
+    "older_version": "ou continuez à utiliser la version précédente à {link} pour l'instant : ouvrez votre sauvegarde là-bas."
+  },
+  "modals": {
+    "stats": "statistiques",
+    "texts": "textes",
+    "settings": "paramètres",
+    "achievements": "réalisations",
+    "race": "course",
+    "card": "votre carte",
+    "kanary": "aperçu kanary"
+  },
+  "app": {
+    "that_file_isn_t_in": "ce fichier n'est plus dans le dossier"
+  },
+  "instance": {
+    "offline_self_hosted": "hors ligne · auto-hébergé",
+    "offline_cache": "hors ligne · utilisation du cache du navigateur",
+    "self_hosted_at": "auto-hébergé · {hostname}",
+    "self_hosted": "auto-hébergé",
+    "online": "en ligne · instance officielle",
+    "status": {
+      "online": "en ligne",
+      "offline": "hors ligne",
+      "self-hosted": "auto-hébergé"
+    }
   }
 }

@@ -1,0 +1,192 @@
+{
+  "restart": {
+    "label": "recommencer",
+    "keywords": "encore réinitialiser refaire nouveau test",
+    "meta": "test · même type, nouveau texte"
+  },
+  "next_text": {
+    "label": "texte suivant",
+    "keywords": "passer autre",
+    "meta": "test · passer au suivant"
+  },
+  "time_test": {
+    "label": "temps {duration}",
+    "keywords": "chronométré secondes test {duration}s",
+    "meta": "test · test de {duration} secondes"
+  },
+  "words_test": {
+    "label": "mots {count}",
+    "keywords": "nombre test {count}",
+    "meta": "test · {count} mots"
+  },
+  "play_game": {
+    "label": "jouer à {game}",
+    "keywords": "jeu jeux jouer amusant {game}",
+    "meta": "jeu · {blurb}"
+  },
+  "go_to": {
+    "label": "aller à {view}",
+    "keywords": "ouvrir vue page montrer {view}",
+    "meta": "aller · page"
+  },
+  "achievements": {
+    "label": "réalisations",
+    "keywords": "badges trophées étapes accompli gagné secrets stats réalisations",
+    "meta": "ouvrir · réalisations"
+  },
+  "your_card": {
+    "label": "votre carte",
+    "keywords": "profil carte autocollants bordure cadre aura fond vitrine cosmétiques personnaliser décorer",
+    "meta": "ouvrir · profil"
+  },
+  "today": {
+    "label": "aujourd'hui",
+    "keywords": "quêtes quotidiennes quête défi tâches objectifs",
+    "meta": "aller · quêtes et défi du jour"
+  },
+  "quote_category": {
+    "label": "citation {category}",
+    "keywords": "passage livre texte {category}",
+    "meta": "test · une citation"
+  },
+  "mixed_quotes": {
+    "label": "citations mélangées",
+    "keywords": "aléatoire longueur citation",
+    "meta": "test · longueur aléatoire à chaque fois"
+  },
+  "sustained_pace": {
+    "label": "rythme soutenu {wpm}",
+    "keywords": "sans fin endurance rythme maintenir garder cible {wpm} wpm",
+    "meta": "test · maintenir {wpm} wpm aussi longtemps que possible"
+  },
+  "sustained_accuracy": {
+    "label": "précision soutenue {accuracy}",
+    "keywords": "sans fin endurance précis exact maintenir garder cible {accuracy} pourcent",
+    "meta": "test · maintenir {accuracy} % de précision aussi longtemps que possible"
+  },
+  "keep_reading": {
+    "label": "continuer à lire",
+    "keywords": "livre continuer reprendre soutenu roman lire marque-page",
+    "meta": "test · lire vos livres en mode soutenu"
+  },
+  "section": {
+    "label": "{view} {section}",
+    "keywords": "aller ouvrir montrer {words}",
+    "meta": "aller · section {view}"
+  },
+  "continue_touch_typing": {
+    "label": "continuer la frappe en aveugle",
+    "keywords": "apprendre leçon leçons frappe aveugle doigts rangée de base suivant",
+    "meta": "apprendre · la prochaine leçon à maîtriser"
+  },
+  "learn_stage": {
+    "label": "apprendre l'étape {stage} : {name}",
+    "keywords": "apprendre leçon leçons frappe aveugle étape {stage} {name}",
+    "meta": "apprendre · leçons {first}–{last}"
+  },
+  "drill_mistakes": {
+    "label": "entraîner mes erreurs",
+    "keywords": "entraînement pratiquer pratique entraînement erreurs",
+    "meta": "test · entraînement basé sur vos erreurs"
+  },
+  "wardrobe": {
+    "label": "garde-robe de {companion}",
+    "keywords": "cal libby compagnon mascot garde-robe robe vêtements chapeau cosmétiques tenue look personnaliser",
+    "meta": "apprendre · habiller {companion} avec ce que vous avez gagné"
+  },
+  "try_guest": {
+    "label": "essayer en tant qu'invité",
+    "keywords": "invité essayer essai temporaire nouveau profil démo",
+    "meta": "profil · un nouveau profil invité ; enregistrez sa progression plus tard pour la conserver"
+  },
+  "sign_out": {
+    "label": "déconnexion",
+    "keywords": "verrouiller quitter déconnecter se déconnecter oublier appareil",
+    "meta": "profil · le verrouiller jusqu'à ce que le mot de passe soit saisi à nouveau"
+  },
+  "profiles": {
+    "label": "profils",
+    "keywords": "profil compte changer utilisateur mot de passe clé d'accès image avatar",
+    "meta": "ouvrir · qui tape"
+  },
+  "backup_now": {
+    "label": "sauvegarder maintenant",
+    "keywords": "sauvegarde exporter profil enregistrer historique télécharger fichier",
+    "meta": "fichier · ce profil"
+  },
+  "load_profile": {
+    "label": "charger un fichier de profil",
+    "keywords": "importer restaurer profil ouvrir fichier sauvegarde",
+    "meta": "fichier · ajouté avec vos profils"
+  },
+  "export_settings": {
+    "label": "exporter les paramètres",
+    "keywords": "télécharger sauvegarde enregistrer json",
+    "meta": "fichier · paramètres au format json"
+  },
+  "keyboard_shortcuts": {
+    "label": "raccourcis clavier",
+    "keywords": "raccourcis touches clés combinaisons aide guide ?",
+    "meta": "aide · guide des raccourcis clavier"
+  },
+  "race": {
+    "label": "course",
+    "keywords": "course lan réseau multijoueur amis contre adversaire salle code hôte rejoindre",
+    "meta": "jouer · affronter des personnes sur votre réseau"
+  },
+  "race_ghost": {
+    "label": "course contre un fantôme",
+    "keywords": "course fantôme fantômes étagère enregistré replay contre",
+    "meta": "jouer · affronter vos fantômes enregistrés"
+  },
+  "import_ghost": {
+    "label": "importer un fantôme",
+    "keywords": "importer fantôme fichier ouvrir charger kalibre-ghost étagère",
+    "meta": "jouer · placer un fichier .kalibre-ghost sur votre étagère de fantômes"
+  },
+  "race_solo": {
+    "label": "course seul",
+    "keywords": "course solo rivaux ordinateur fantôme contre seul",
+    "meta": "jouer · affronter l'ordinateur avec vos derniers choix"
+  },
+  "privacy": {
+    "label": "confidentialité",
+    "keywords": "politique de confidentialité données personnelles informations stockées",
+    "meta": "aide · ce que Kalibre conserve et où"
+  },
+  "terms": {
+    "label": "conditions",
+    "keywords": "conditions d'utilisation conditions licence license règles",
+    "meta": "aide · les conditions d'utilisation"
+  },
+  "security": {
+    "label": "sécurité",
+    "keywords": "sécurité vulnérabilité rapport bug divulgation",
+    "meta": "aide · signaler un problème de sécurité"
+  },
+  "whats_new": {
+    "label": "nouvelles fonctionnalités",
+    "keywords": "nouvelles fonctionnalités journal des modifications mises à jour notes de version historique",
+    "meta": "aide · les nouveautés de cette version"
+  },
+  "changelog": {
+    "label": "journal des modifications",
+    "keywords": "journal des modifications nouvelles fonctionnalités mises à jour notes de version historique versions",
+    "meta": "aide · journal des modifications et mises à jour passées"
+  },
+  "check_for_updates": {
+    "label": "vérifier les mises à jour",
+    "keywords": "mise à jour mises à jour mise à niveau nouvelle version rafraîchir vérifier maintenant dernière",
+    "meta": "aide · rechercher une nouvelle version maintenant"
+  },
+  "announcements": {
+    "label": "annonces",
+    "keywords": "annonces mises à jour devlog parcours actualités stackinfolio version kanary",
+    "meta": "liens · parcours du projet et annonces"
+  },
+  "kanary_notice": {
+    "label": "avis kanary",
+    "keywords": "kanary bêta aperçu avertissement sauvegarde compatibilité test build avis",
+    "meta": "aide · avis de version d'aperçu kanary et sauvegardes"
+  }
+}

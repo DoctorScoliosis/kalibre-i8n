@@ -1,34 +1,198 @@
 {
   "editor": {
-    "save_theme": "Enregistrer le thème",
-    "name": "Nom",
-    "light_or_dark": "Clair ou foncé",
-    "readability": "Lisibilité",
-    "page": "Page",
-    "background": "Arrière-plan",
-    "panels": "Panneaux",
-    "lines_borders": "Lignes et bordures",
-    "selection": "Sélection",
-    "text": "Texte",
-    "dim_text": "Texte atténué",
-    "accent": "Accent",
-    "typed_text": "Texte tapé",
-    "mistakes": "Erreurs",
-    "extra_letters": "Lettres supplémentaires",
-    "caret": "Curseur"
+    "save_theme": "enregistrer le thème",
+    "name": "nom",
+    "light_or_dark": "clair ou sombre",
+    "readability": "lisibilité",
+    "page": "page",
+    "background": "arrière-plan",
+    "panels": "panneaux",
+    "lines_borders": "lignes et bordures",
+    "selection": "sélection",
+    "text": "texte",
+    "dim_text": "texte atténué",
+    "accent": "accent",
+    "typed_text": "texte tapé",
+    "mistakes": "erreurs",
+    "extra_letters": "lettres supplémentaires",
+    "caret": "curseur"
   },
   "actions": {
-    "use": "Utiliser",
-    "edit": "Modifier",
-    "decorate": "Décorer",
-    "export": "Exporter",
-    "delete": "Supprimer",
-    "customise_current": "Personnaliser le thème actuel",
-    "import_theme": "Importer un thème"
+    "use": "utiliser",
+    "edit": "modifier",
+    "decorate": "décorer",
+    "export": "exporter",
+    "delete": "supprimer",
+    "done": "terminé",
+    "customise_current": "personnaliser le thème actuel",
+    "import_theme": "importer un thème",
+    "decorations_for": "décorations pour {name}",
+    "use_theme": "utiliser {name}",
+    "edit_theme": "modifier {name}",
+    "decorate_theme": "décorer {name}",
+    "export_theme": "exporter {name}",
+    "delete_theme": "supprimer {name}",
+    "copy_and_decorate": "copier ce thème et le décorer",
+    "decorations_earned_zero": "les décorations de thème, gagnées en jouant, vont sur les thèmes qui vous appartiennent.",
+    "decorations_earned_notice": "vous avez gagné {count, plural, one {une décoration de thème} many {# décorations de thème} other {# décorations de thème}}. elles vont sur vos propres thèmes, alors faites une copie de celui-ci pour les porter",
+    "decorations_earned_info": "gagnées en jouant. elles restent avec ce thème sur ce profil, et ne sont pas incluses lorsque vous exportez le thème."
   },
   "picker": {
-    "preview": "Aperçu",
-    "instructions": "Survolez pour aperçu · Cliquez ou appuyez sur Entrée pour appliquer · Échap pour fermer",
-    "close": "Fermer"
+    "preview": "aperçu",
+    "instructions": "survolez pour aperçu · cliquez ou appuyez sur entrée pour appliquer · échap pour fermer",
+    "close": "fermer"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "curseur",
+      "hint": "autour du curseur (sa forme est un paramètre de frappe)"
+    },
+    "backdrop": {
+      "title": "fond",
+      "hint": "un motif discret derrière la page"
+    },
+    "frame": {
+      "title": "cadre",
+      "hint": "autour du texte que vous tapez"
+    },
+    "keystroke": {
+      "title": "frappe",
+      "hint": "comment chaque lettre tapée se pose"
+    },
+    "flourish": {
+      "title": "ornement",
+      "hint": "une petite marque à côté du logotype"
+    }
+  },
+  "decorations": {
+    "caret-glow": {
+      "name": "lueur douce"
+    },
+    "caret-halo": {
+      "name": "auréole"
+    },
+    "caret-drop": {
+      "name": "goutte d'encre"
+    },
+    "caret-trail": {
+      "name": "traînée de comète"
+    },
+    "backdrop-dots": {
+      "name": "grille de points"
+    },
+    "backdrop-ruled": {
+      "name": "papier ligné"
+    },
+    "backdrop-graph": {
+      "name": "papier millimétré"
+    },
+    "backdrop-grain": {
+      "name": "grain"
+    },
+    "backdrop-checks": {
+      "name": "cases douces"
+    },
+    "frame-corners": {
+      "name": "coins"
+    },
+    "frame-bookplate": {
+      "name": "ex-libris"
+    },
+    "frame-tab": {
+      "name": "onglet de dossier"
+    },
+    "frame-brackets": {
+      "name": "parenthèses"
+    },
+    "keystroke-ink": {
+      "name": "dégradé d'encre"
+    },
+    "keystroke-rise": {
+      "name": "montée douce"
+    },
+    "keystroke-bloom": {
+      "name": "épanouissement"
+    },
+    "flourish-leaf": {
+      "name": "feuille"
+    },
+    "flourish-star": {
+      "name": "étoile"
+    },
+    "flourish-key": {
+      "name": "touche"
+    },
+    "flourish-letter": {
+      "name": "la lettre de votre compagnon"
+    },
+    "flourish-moon": {
+      "name": "lune"
+    }
+  },
+  "presets": {
+    "paper": {
+      "name": "papier"
+    },
+    "ink": {
+      "name": "encre"
+    },
+    "dusk": {
+      "name": "crépuscule"
+    },
+    "eink": {
+      "name": "e-encre"
+    },
+    "eink-night": {
+      "name": "e-encre nuit"
+    },
+    "cream": {
+      "name": "crème"
+    },
+    "rose": {
+      "name": "rose"
+    },
+    "harbour": {
+      "name": "port"
+    },
+    "forest": {
+      "name": "forêt"
+    },
+    "plum": {
+      "name": "prune"
+    },
+    "slate": {
+      "name": "ardoise"
+    },
+    "terminal": {
+      "name": "terminal"
+    },
+    "contrast": {
+      "name": "contraste élevé"
+    },
+    "contrast-night": {
+      "name": "contraste élevé nuit"
+    }
+  },
+  "checks": {
+    "text_bg": "texte sur la page",
+    "text_surface": "texte sur les panneaux",
+    "textDim_bg": "texte atténué sur la page",
+    "textDim_surface": "texte atténué sur les panneaux",
+    "correct_bg": "texte tapé",
+    "incorrect_bg": "erreurs",
+    "correct_textDim": "le texte tapé se distingue du texte encore à taper",
+    "accent_bg": "accent",
+    "caret_bg": "curseur",
+    "extra_bg": "lettres supplémentaires",
+    "chartWpm_bg": "graphique : ligne wpm",
+    "chartRaw_bg": "graphique : ligne brute",
+    "chartError_bg": "graphique : erreurs",
+    "heat1_bg": "chaleur des touches 1",
+    "heat4_bg": "chaleur des touches 4",
+    "not_a_theme": "ce n'est pas un thème",
+    "needs_a_name": "a besoin d'un nom de 40 caractères maximum",
+    "scheme_must_be": "le schéma doit être clair ou sombre",
+    "bad_hex": "la couleur \"{token}\" doit être une valeur #rrggbb",
+    "not_readable": "pas assez lisible : {labels}"
   }
 }

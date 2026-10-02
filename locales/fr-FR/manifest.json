@@ -22,11 +22,13 @@
   "files": {
     "about.json": "ff7260d5ff516a6bf8b18f3f647784e0df2196bbfef86d42cb8971369dd6dbe5",
     "achievements.json": "2854de66a7ec546b1268cc9c58723acaceadb110a0f46f78c8c2f9bbcc366b0f",
-    "chrome.json": "2c01c46728de961a312a1b7fba5dbcc99266fe82837d7bf80e8e3aa7b26d6fb2",
+    "chrome.json": "a3a11ed6bf9ba0fb577153d4b25bfabf50dd39f940446a654c6f307b54b8c599",
+    "commands.json": "b4b8393d234be552485d6096f6fc97ccd202e4260ae968d5d88d18fc824a7db6",
+    "common.json": "cf296b8690f36bdd16978ac09d326f728e6d7680184f0a2bbb470c1f09301061",
     "companions.json": "38049691de881a81fafc7203b8527c2c6611d06d2134407b17848d802ab6cc6e",
     "data.json": "9db942c42aaa5158b8a1db04161de9b55a13eccc9572ed730281a6d650ecf461",
     "quests.json": "de26ae41b6da51add65fdf1165825ee29609bb788e429f8bbe4c2ed46acfd62c",
     "settings.json": "12e5d8270498c25700edf8713566282e581283f53ee9961364661333c38a9d34",
-    "themes.json": "76ab0fda1fe22f370ba7d7340ef0cae8871e95292c49cf9e011f7ffdb367d297"
+    "themes.json": "15e656b8a2d1d4a521168cbba8f2c77994dbfe85f945cba932ef6348d4b41897"
   }
 }

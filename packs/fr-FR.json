@@ -227,53 +227,609 @@
     },
     "chrome": {
       "nav": {
-        "skip_to_content": "Aller au contenu principal",
-        "type": "Taper",
-        "learn": "Apprendre",
-        "drill": "Entraînement",
-        "games": "Jeux",
-        "mistakes": "Erreurs",
-        "settings": "Paramètres",
-        "today": "Aujourd'hui",
-        "about": "À propos"
+        "skip_to_content": "aller au contenu principal",
+        "type": "taper",
+        "learn": "apprendre",
+        "drill": "entraînement",
+        "games": "jeux",
+        "mistakes": "erreurs",
+        "settings": "paramètres",
+        "today": "aujourd'hui",
+        "about": "à propos",
+        "primary": "principal"
       },
       "curtain": {
-        "fetching": "Récupération des livres et du dictionnaire, une seule fois",
-        "taking_longer": "Cela prend plus de temps que d'habitude…",
-        "reload": "Recharger",
-        "books_downloading": "Les livres sont encore en téléchargement. Vous pouvez commencer maintenant, ils finiront en arrière-plan.",
-        "start_without_waiting": "Commencer sans attendre",
-        "still_loading": "Toujours en cours de chargement. Vérifiez votre connexion, puis rechargez. Une fois que Kalibre est chargé ici, il fonctionne hors ligne.",
-        "older_tab": "Kalibre est ouvert dans un autre onglet, sur une version plus ancienne. Fermez cet onglet et celui-ci continuera.",
-        "couldnt_load": "Kalibre n'a pas pu se charger. Vérifiez votre connexion, puis rechargez.",
-        "browser_too_old": "Ce navigateur est trop ancien pour Kalibre. Une version récente de Chrome, Edge, Firefox ou Safari est requise."
+        "fetching": "récupération des livres et du dictionnaire, une seule fois",
+        "taking_longer": "cela prend plus de temps que d'habitude…",
+        "reload": "recharger",
+        "books_downloading": "les livres sont encore en téléchargement. vous pouvez commencer maintenant, ils finiront en arrière-plan.",
+        "start_without_waiting": "commencer sans attendre",
+        "still_loading": "toujours en cours de chargement. vérifiez votre connexion, puis rechargez. une fois que kalibre est chargé ici, il fonctionne hors ligne.",
+        "older_tab": "kalibre est ouvert dans un autre onglet, sur une version plus ancienne. fermez cet onglet et celui-ci continuera.",
+        "couldnt_load": "kalibre n'a pas pu se charger. vérifiez votre connexion, puis rechargez.",
+        "browser_too_old": "ce navigateur est trop ancien pour kalibre. une version récente de chrome, edge, firefox ou safari est requise."
       },
       "footer": {
-        "shortcuts": "Raccourcis clavier",
-        "privacy": "Confidentialité",
-        "terms": "Conditions",
-        "security": "Sécurité",
-        "announcements": "Annonces"
+        "shortcuts": "raccourcis clavier",
+        "privacy": "confidentialité",
+        "terms": "conditions",
+        "security": "sécurité",
+        "announcements": "annonces",
+        "credit_author": "© {year} {author}.",
+        "credit_company": "© {year} midnight summer media.",
+        "licence": "sous licence {licence}.",
+        "licence_name": "licence mit"
       },
       "meta": {
-        "tagline": "Kalibre, un entraîneur de frappe adaptatif",
-        "description": "Votre frappe. Vos erreurs. Votre progression. Un entraîneur de frappe qui apprend vos erreurs récurrentes et les travaille, directement dans votre navigateur.",
-        "alt_wordmark": "Le logotype Kalibre entre Cal et Libby, avec la ligne : votre frappe, vos erreurs, votre progression."
+        "tagline": "kalibre, un entraîneur de frappe adaptatif",
+        "description": "votre frappe. vos erreurs. votre progression. un entraîneur de frappe qui apprend vos erreurs récurrentes et les travaille, directement dans votre navigateur.",
+        "alt_wordmark": "le logotype kalibre entre cal et libby, avec la ligne : votre frappe, vos erreurs, votre progression."
       },
       "pwa": {
-        "ios": "Sur iPhone et iPad, ajoutez Kalibre à votre écran d'accueil (dans Safari : partager → ajouter à l'écran d'accueil). Il s'ouvre en plein écran et conserve ses données, contrairement à un onglet Safari qui peut les perdre après 7 jours sans visite.",
-        "generic": "Ajoutez Kalibre à votre écran d'accueil (menu du navigateur → ajouter à l'écran d'accueil, ou installer). Une fois installé, il s'ouvre en plein écran, et le navigateur est plus susceptible de conserver ses données."
+        "ios": "sur iphone et ipad, ajoutez kalibre à votre écran d'accueil (dans safari : partager → ajouter à l'écran d'accueil). il s'ouvre en plein écran et conserve ses données, contrairement à un onglet safari qui peut les perdre après 7 jours sans visite.",
+        "generic": "ajoutez kalibre à votre écran d'accueil (menu du navigateur → ajouter à l'écran d'accueil, ou installer). une fois installé, il s'ouvre en plein écran, et le navigateur est plus susceptible de conserver ses données."
       },
       "misc": {
-        "kalibre_about": "Kalibre, à propos",
-        "backup_due": "Paramètres, sauvegarde due",
-        "new_badge": "Nouveau",
-        "backup_progress": "Progression de la sauvegarde",
-        "todays_quests": "Les quêtes d'aujourd'hui",
-        "new_quests_midnight": "Nouvelles quêtes à minuit",
-        "difficulty": "Difficulté",
-        "getting_quests": "Récupération des quêtes d'aujourd'hui…"
+        "kalibre_about": "kalibre, à propos",
+        "backup_due": "paramètres, sauvegarde due",
+        "new_badge": "nouveau",
+        "backup_progress": "progression de la sauvegarde",
+        "todays_quests": "les quêtes d'aujourd'hui",
+        "new_quests_midnight": "nouvelles quêtes à minuit",
+        "difficulty": "difficulté",
+        "getting_quests": "récupération des quêtes d'aujourd'hui…"
+      },
+      "backup": {
+        "error": "impossible de l'enregistrer : {error}",
+        "nothing": "il n'y a rien à sauvegarder pour l'instant",
+        "saved_to_folder": "enregistré {count, plural, one {# fichier de profil} many {# fichiers de profil} other {# fichiers de profil}} dans le dossier kalibre « {folder} »",
+        "downloaded": "téléchargé {count, plural, one {# fichier de profil} many {# fichiers de profil} other {# fichiers de profil}}"
+      },
+      "updates": {
+        "whats_new_title": "nouvelles fonctionnalités",
+        "status_up_to_date": "kalibre v{version} · à jour",
+        "update_ready": "v{version} est prêt",
+        "update_ready_read_first": "v{version} est prêt · à lire d'abord",
+        "update_meta": "vous pouvez mettre à jour maintenant, ou rester sur votre version actuelle (v{current}).",
+        "update_meta_size": "taille du téléchargement : ~{size} · vous pouvez mettre à jour maintenant, ou rester sur votre version actuelle (v{current}).",
+        "update_to": "mettre à jour vers v{version}",
+        "stay_on": "rester sur v{current}",
+        "updating": "mise à jour…",
+        "check_button": "vérifier les mises à jour",
+        "checking": "vérification…",
+        "check_checking": "recherche…",
+        "check_current": "vous avez la version la plus récente",
+        "check_offline": "impossible de joindre le serveur pour l'instant",
+        "check_unavailable": "les mises à jour ne fonctionnent que dans l'application installée ou hébergée",
+        "breaking_intro": "cette mise à jour modifie la manière dont kalibre conserve vos données :",
+        "breaking_note": "une fois terminée, les anciennes versions de kalibre ne pourront pas ouvrir vos données. sauvegardez d'abord une copie : un fichier de profil pour chaque profil sur cet appareil.",
+        "breaking_older_at": "v{version} reste à",
+        "save_backup": "sauvegarder une copie",
+        "saving": "enregistrement…",
+        "badge_in_update": "dans cette mise à jour",
+        "badge_current": "actuel",
+        "notes_not_yet": "les notes pour cette version s'affichent une fois installée.",
+        "stays_at": "v{current} reste à {link} pendant un certain temps ; ouvrez une sauvegarde là-bas pour continuer à l'utiliser."
+      },
+      "brand": {
+        "kanary_preview_build_notice": "avis de version d'aperçu kanary",
+        "kanary_preview_build_click_for": "version d'aperçu kanary · cliquez pour l'avis",
+        "what_s_new_for": "nouvelles fonctionnalités pour {versionLabel}"
+      },
+      "command_line": {
+        "command": "commande",
+        "type_a_setting_or_action": "saisir un paramètre ou une action",
+        "commands": "commandes",
+        "command_line": "ligne de commande",
+        "no_matches": "aucune correspondance"
+      },
+      "kanary_notice": {
+        "features_interfaces_and_database_schemas": "les fonctionnalités, interfaces et schémas de base de données évoluent activement et peuvent changer, être remplacés ou cesser de fonctionner sans préavis.",
+        "things_may_break_or_change": "les choses peuvent cesser de fonctionner ou changer. ",
+        "your_typing_history_achievements_and": "votre historique de frappe, réalisations et données personnalisées se trouvent dans le stockage local de ce navigateur. exportez régulièrement une copie de sauvegarde afin qu'une mise à jour incompatible ne fasse pas perdre votre progression.",
+        "periodically_back_up_your_profiles": "sauvegardez régulièrement vos profils : ",
+        "profiles_used_on_kanary_may": "les profils utilisés sur kanary peuvent ou non fonctionner s'ils sont importés dans les versions de publication de kalibre. kanary peut introduire de nouveaux schémas de base de données, paramètres expérimentaux ou formats révisés que les versions de publication ne peuvent pas lire ou migrer en arrière.",
+        "release_compatibility": "compatibilité avec les versions de publication : ",
+        "announcements_devlog": "annonces et devlog : ",
+        "stackinfolio": "stackinfolio",
+        "settings_data": "paramètres → données",
+        "got_it": "compris",
+        "intro": "vous utilisez {product}, une version d'aperçu précoce et en évolution rapide avec des expériences en cours.",
+        "follow": "suivez les étapes des versions, la progression du développement et les annonces sur {site}."
+      },
+      "legal_pages": {
+        "last_updated": "dernière mise à jour {format}",
+        "the_short_version": "version courte",
+        "read": "lire {full}",
+        "also": "aussi : {pages}"
+      },
+      "older_version": {
+        "older_version": "ancienne version",
+        "it_keeps_its_own_data": "elle conserve ses propres données, séparément de la version actuelle : pour utiliser les vôtres ici, importez un fichier de profil enregistré avant la mise à jour (menu profil → importer un fichier de profil).",
+        "this_is_kalibre_v_kept": "il s'agit de kalibre v{version}, conservé afin que vous puissiez revenir en arrière. ",
+        "go_to_the_current_version": "aller à la version actuelle",
+        "hide_this_until_the_page": "masquer ceci jusqu'au rechargement de la page",
+        "hide_until_the_page_reloads": "masquer jusqu'au rechargement de la page"
+      },
+      "shortcuts": {
+        "then": "puis {value}",
+        "sequence_hint": "appuyez sur les touches de séquence (comme {first} puis {second}) dans un délai de 1,5 seconde. les raccourcis ne se déclenchent que lorsque vous ne tapez pas activement dans des tests ou des champs de texte.",
+        "SHORTCUT_GROUPS": {
+          "navigation": {
+            "title": "navigation"
+          },
+          "nav-type": {
+            "label": "vue taper"
+          },
+          "nav-learn": {
+            "label": "vue apprendre"
+          },
+          "nav-drill": {
+            "label": "vue entraînement"
+          },
+          "nav-games": {
+            "label": "vue jeux"
+          },
+          "nav-mistakes": {
+            "label": "vue erreurs"
+          },
+          "nav-stats": {
+            "label": "statistiques et historique"
+          },
+          "nav-profile": {
+            "label": "menu profil"
+          },
+          "nav-texts": {
+            "label": "textes et bibliothèque"
+          },
+          "nav-settings": {
+            "label": "paramètres"
+          },
+          "nav-about": {
+            "label": "à propos de kalibre"
+          },
+          "typing": {
+            "title": "frappe et tests"
+          },
+          "type-restart": {
+            "label": "recommencer le test ou l'entraînement"
+          },
+          "type-pause": {
+            "label": "ligne de commande / pause"
+          },
+          "type-delete-word": {
+            "label": "supprimer le mot"
+          },
+          "type-space": {
+            "label": "soumettre / mot suivant"
+          },
+          "general": {
+            "title": "général et boîtes de dialogue"
+          },
+          "gen-guide": {
+            "label": "guide des raccourcis clavier"
+          },
+          "gen-close": {
+            "label": "fermer la fenêtre modale ou la boîte de dialogue"
+          },
+          "gen-command": {
+            "label": "palette de ligne de commande"
+          },
+          "gen-focus": {
+            "label": "naviguer dans les contrôles"
+          }
+        },
+        "modal": {
+          "shortcuts": {
+            "title": "raccourcis clavier"
+          }
+        }
+      },
+      "startup_failure": {
+        "putting_it_back": "restauration…",
+        "it_couldn_t_be_put": "impossible de restaurer : {value}",
+        "if_kalibre_was_taken_back": "si kalibre a été ramené à une version antérieure intentionnellement, vous pouvez restaurer la copie de vos données enregistrée juste avant la dernière mise à jour. tout ce que vous avez fait après cette mise à jour sera perdu, et cela remplace tout ce que kalibre conserve dans ce navigateur.",
+        "copy_the_details": "copier les détails",
+        "copied": "copié",
+        "select_the_details_below_to": "sélectionnez les détails ci-dessous pour les copier",
+        "kalibre_couldn_t_start": "kalibre n'a pas pu démarrer",
+        "what_you_ve_saved_is": "ce que vous avez enregistré est toujours dans ce navigateur : recommencer n'y touche pas.",
+        "send_details": "si cela continue à se produire, envoyez les détails à {address}."
+      },
+      "update_gate": {
+        "carry_on": "continuer",
+        "kalibre_v_changes_how_it": "kalibre v{appVersion} modifie la manière dont il conserve vos données",
+        "nothing_has_changed_yet_once": "rien n'a encore changé. une fois que ce sera fait, les anciennes versions de kalibre ne pourront pas ouvrir vos données. sauvegardez d'abord une copie : un fichier de profil pour chaque profil sur cet appareil.",
+        "older_version": "ou continuez à utiliser la version précédente à {link} pour l'instant : ouvrez votre sauvegarde là-bas."
+      },
+      "modals": {
+        "stats": "statistiques",
+        "texts": "textes",
+        "settings": "paramètres",
+        "achievements": "réalisations",
+        "race": "course",
+        "card": "votre carte",
+        "kanary": "aperçu kanary"
+      },
+      "app": {
+        "that_file_isn_t_in": "ce fichier n'est plus dans le dossier"
+      },
+      "instance": {
+        "offline_self_hosted": "hors ligne · auto-hébergé",
+        "offline_cache": "hors ligne · utilisation du cache du navigateur",
+        "self_hosted_at": "auto-hébergé · {hostname}",
+        "self_hosted": "auto-hébergé",
+        "online": "en ligne · instance officielle",
+        "status": {
+          "online": "en ligne",
+          "offline": "hors ligne",
+          "self-hosted": "auto-hébergé"
+        }
       }
+    },
+    "commands": {
+      "restart": {
+        "label": "recommencer",
+        "keywords": "encore réinitialiser refaire nouveau test",
+        "meta": "test · même type, nouveau texte"
+      },
+      "next_text": {
+        "label": "texte suivant",
+        "keywords": "passer autre",
+        "meta": "test · passer au suivant"
+      },
+      "time_test": {
+        "label": "temps {duration}",
+        "keywords": "chronométré secondes test {duration}s",
+        "meta": "test · test de {duration} secondes"
+      },
+      "words_test": {
+        "label": "mots {count}",
+        "keywords": "nombre test {count}",
+        "meta": "test · {count} mots"
+      },
+      "play_game": {
+        "label": "jouer à {game}",
+        "keywords": "jeu jeux jouer amusant {game}",
+        "meta": "jeu · {blurb}"
+      },
+      "go_to": {
+        "label": "aller à {view}",
+        "keywords": "ouvrir vue page montrer {view}",
+        "meta": "aller · page"
+      },
+      "achievements": {
+        "label": "réalisations",
+        "keywords": "badges trophées étapes accompli gagné secrets stats réalisations",
+        "meta": "ouvrir · réalisations"
+      },
+      "your_card": {
+        "label": "votre carte",
+        "keywords": "profil carte autocollants bordure cadre aura fond vitrine cosmétiques personnaliser décorer",
+        "meta": "ouvrir · profil"
+      },
+      "today": {
+        "label": "aujourd'hui",
+        "keywords": "quêtes quotidiennes quête défi tâches objectifs",
+        "meta": "aller · quêtes et défi du jour"
+      },
+      "quote_category": {
+        "label": "citation {category}",
+        "keywords": "passage livre texte {category}",
+        "meta": "test · une citation"
+      },
+      "mixed_quotes": {
+        "label": "citations mélangées",
+        "keywords": "aléatoire longueur citation",
+        "meta": "test · longueur aléatoire à chaque fois"
+      },
+      "sustained_pace": {
+        "label": "rythme soutenu {wpm}",
+        "keywords": "sans fin endurance rythme maintenir garder cible {wpm} wpm",
+        "meta": "test · maintenir {wpm} wpm aussi longtemps que possible"
+      },
+      "sustained_accuracy": {
+        "label": "précision soutenue {accuracy}",
+        "keywords": "sans fin endurance précis exact maintenir garder cible {accuracy} pourcent",
+        "meta": "test · maintenir {accuracy} % de précision aussi longtemps que possible"
+      },
+      "keep_reading": {
+        "label": "continuer à lire",
+        "keywords": "livre continuer reprendre soutenu roman lire marque-page",
+        "meta": "test · lire vos livres en mode soutenu"
+      },
+      "section": {
+        "label": "{view} {section}",
+        "keywords": "aller ouvrir montrer {words}",
+        "meta": "aller · section {view}"
+      },
+      "continue_touch_typing": {
+        "label": "continuer la frappe en aveugle",
+        "keywords": "apprendre leçon leçons frappe aveugle doigts rangée de base suivant",
+        "meta": "apprendre · la prochaine leçon à maîtriser"
+      },
+      "learn_stage": {
+        "label": "apprendre l'étape {stage} : {name}",
+        "keywords": "apprendre leçon leçons frappe aveugle étape {stage} {name}",
+        "meta": "apprendre · leçons {first}–{last}"
+      },
+      "drill_mistakes": {
+        "label": "entraîner mes erreurs",
+        "keywords": "entraînement pratiquer pratique entraînement erreurs",
+        "meta": "test · entraînement basé sur vos erreurs"
+      },
+      "wardrobe": {
+        "label": "garde-robe de {companion}",
+        "keywords": "cal libby compagnon mascot garde-robe robe vêtements chapeau cosmétiques tenue look personnaliser",
+        "meta": "apprendre · habiller {companion} avec ce que vous avez gagné"
+      },
+      "try_guest": {
+        "label": "essayer en tant qu'invité",
+        "keywords": "invité essayer essai temporaire nouveau profil démo",
+        "meta": "profil · un nouveau profil invité ; enregistrez sa progression plus tard pour la conserver"
+      },
+      "sign_out": {
+        "label": "déconnexion",
+        "keywords": "verrouiller quitter déconnecter se déconnecter oublier appareil",
+        "meta": "profil · le verrouiller jusqu'à ce que le mot de passe soit saisi à nouveau"
+      },
+      "profiles": {
+        "label": "profils",
+        "keywords": "profil compte changer utilisateur mot de passe clé d'accès image avatar",
+        "meta": "ouvrir · qui tape"
+      },
+      "backup_now": {
+        "label": "sauvegarder maintenant",
+        "keywords": "sauvegarde exporter profil enregistrer historique télécharger fichier",
+        "meta": "fichier · ce profil"
+      },
+      "load_profile": {
+        "label": "charger un fichier de profil",
+        "keywords": "importer restaurer profil ouvrir fichier sauvegarde",
+        "meta": "fichier · ajouté avec vos profils"
+      },
+      "export_settings": {
+        "label": "exporter les paramètres",
+        "keywords": "télécharger sauvegarde enregistrer json",
+        "meta": "fichier · paramètres au format json"
+      },
+      "keyboard_shortcuts": {
+        "label": "raccourcis clavier",
+        "keywords": "raccourcis touches clés combinaisons aide guide ?",
+        "meta": "aide · guide des raccourcis clavier"
+      },
+      "race": {
+        "label": "course",
+        "keywords": "course lan réseau multijoueur amis contre adversaire salle code hôte rejoindre",
+        "meta": "jouer · affronter des personnes sur votre réseau"
+      },
+      "race_ghost": {
+        "label": "course contre un fantôme",
+        "keywords": "course fantôme fantômes étagère enregistré replay contre",
+        "meta": "jouer · affronter vos fantômes enregistrés"
+      },
+      "import_ghost": {
+        "label": "importer un fantôme",
+        "keywords": "importer fantôme fichier ouvrir charger kalibre-ghost étagère",
+        "meta": "jouer · placer un fichier .kalibre-ghost sur votre étagère de fantômes"
+      },
+      "race_solo": {
+        "label": "course seul",
+        "keywords": "course solo rivaux ordinateur fantôme contre seul",
+        "meta": "jouer · affronter l'ordinateur avec vos derniers choix"
+      },
+      "privacy": {
+        "label": "confidentialité",
+        "keywords": "politique de confidentialité données personnelles informations stockées",
+        "meta": "aide · ce que Kalibre conserve et où"
+      },
+      "terms": {
+        "label": "conditions",
+        "keywords": "conditions d'utilisation conditions licence license règles",
+        "meta": "aide · les conditions d'utilisation"
+      },
+      "security": {
+        "label": "sécurité",
+        "keywords": "sécurité vulnérabilité rapport bug divulgation",
+        "meta": "aide · signaler un problème de sécurité"
+      },
+      "whats_new": {
+        "label": "nouvelles fonctionnalités",
+        "keywords": "nouvelles fonctionnalités journal des modifications mises à jour notes de version historique",
+        "meta": "aide · les nouveautés de cette version"
+      },
+      "changelog": {
+        "label": "journal des modifications",
+        "keywords": "journal des modifications nouvelles fonctionnalités mises à jour notes de version historique versions",
+        "meta": "aide · journal des modifications et mises à jour passées"
+      },
+      "check_for_updates": {
+        "label": "vérifier les mises à jour",
+        "keywords": "mise à jour mises à jour mise à niveau nouvelle version rafraîchir vérifier maintenant dernière",
+        "meta": "aide · rechercher une nouvelle version maintenant"
+      },
+      "announcements": {
+        "label": "annonces",
+        "keywords": "annonces mises à jour devlog parcours actualités stackinfolio version kanary",
+        "meta": "liens · parcours du projet et annonces"
+      },
+      "kanary_notice": {
+        "label": "avis kanary",
+        "keywords": "kanary bêta aperçu avertissement sauvegarde compatibilité test build avis",
+        "meta": "aide · avis de version d'aperçu kanary et sauvegardes"
+      }
+    },
+    "common": {
+      "actions": {
+        "save": "enregistrer",
+        "cancel": "annuler",
+        "close": "fermer",
+        "dismiss": "ignorer",
+        "done": "terminé",
+        "delete": "supprimer",
+        "edit": "modifier",
+        "continue": "continuer",
+        "skip": "passer",
+        "reload_now": "recharger maintenant",
+        "not_now": "pas maintenant",
+        "yes": "oui",
+        "no": "non"
+      },
+      "plural": {
+        "test": "{count, plural, one {# test} many {# tests} other {# tests}}",
+        "minute": "{count, plural, one {# minute} many {# minutes} other {# minutes}}",
+        "hour": "{count, plural, one {# heure} many {# heures} other {# heures}}",
+        "word": "{count, plural, one {# mot} many {# mots} other {# mots}}",
+        "lesson": "{count, plural, one {# leçon} many {# leçons} other {# leçons}}",
+        "lesson_step": "{count, plural, one {# étape de leçon} many {# étapes de leçon} other {# étapes de leçon}}",
+        "warmup": "{count, plural, one {# échauffement} many {# échauffements} other {# échauffements}}",
+        "drill": "{count, plural, one {# exercice} many {# exercices} other {# exercices}}",
+        "time": "{count, plural, one {# fois} many {# fois} other {# fois}}",
+        "quote": "{count, plural, one {# citation} many {# citations} other {# citations}}",
+        "book_reading": "{count, plural, one {# lecture de livre} many {# lectures de livres} other {# lectures de livres}}",
+        "sustained_test": "{count, plural, one {# test soutenu} many {# tests soutenus} other {# tests soutenus}}"
+      },
+      "modal": {
+        "language_reload_title": "changer de langue ?",
+        "language_reload_body": "Kalibre redémarre pour changer de langue. Enregistrez d'abord ce que vous êtes en train de faire : un test en cours, un texte que vous écrivez ou des modifications de thème non enregistrées seront perdus.",
+        "close_named": "fermer {title}"
+      },
+      "translation": {
+        "not_checked_yet": "(pas encore vérifié par un locuteur natif)"
+      },
+      "colour_picker": {
+        "saturation_and_brightness": "saturation et luminosité",
+        "hue": "teinte",
+        "before": "avant",
+        "now": "maintenant",
+        "hex_value": "valeur hexadécimale",
+        "pick_a_colour_from_the": "choisir une couleur depuis l'écran",
+        "pick_from_the_screen": "choisir depuis l'écran",
+        "colours_in_this_theme": "couleurs de ce thème",
+        "colour": "couleur {label}",
+        "choose_a_colour": "{label} : {hex}, choisir une couleur"
+      },
+      "theme_mode": {
+        "theme_appearance_mode": "mode d'apparence du thème",
+        "theme_appearance": "apparence du thème : {mode}",
+        "title": "apparence : {mode}",
+        "mode_system": "système",
+        "mode_light": "clair",
+        "mode_dark": "sombre"
+      },
+      "color_utils": {
+        "not_a_hex_colour": "Ce n'est pas une couleur hexadécimale : {hex}"
+      },
+      "customtextprovider": {
+        "choose_a_saved_text_to": "Choisissez un texte enregistré à pratiquer (textes → mes textes)."
+      },
+      "bookprovider": {
+        "add_a_text_to_read": "Ajoutez un texte à lire (textes → mes textes).",
+        "no_books_to_read_enable": "Aucun livre à lire. Activez un jeu de données de livres dans textes → jeux de données."
+      },
+      "datasetmanager": {
+        "http": "{path} : HTTP {status}",
+        "unknown_dataset": "Jeu de données inconnu {datasetId}",
+        "unknown_work": "Œuvre inconnue {key}",
+        "datasets_cannot_be_stored_in": "Les jeux de données ne peuvent pas être stockés dans ce navigateur.",
+        "the_number_of_passages_has": "Le nombre de passages doit être un nombre entier supérieur à 0.",
+        "only_datasets_installed_in_this": "Seuls les jeux de données installés dans ce navigateur peuvent être supprimés ici.",
+        "doesn_t_let_other_sites": "{host} n'autorise pas les autres sites à télécharger ses fichiers. Téléchargez le fichier vous-même et installez-le depuis votre ordinateur.",
+        "returned": "{url} a retourné {status}."
+      },
+      "datasetstore": {
+        "this_browser_can_t_read": "Ce navigateur ne peut pas lire les fichiers de jeux de données compressés.",
+        "missing_dataset_file": "Fichier de jeu de données manquant {path}"
+      },
+      "drillprovider": {
+        "nothing_to_drill_yet_accept": "Rien à entraîner pour l'instant. Acceptez une suggestion sur la page des erreurs d'abord.",
+        "that_quote_isn_t_available": "Cette citation n'est plus disponible (son jeu de données peut être désactivé). Choisissez-en une autre sur la page d'entraînement."
+      },
+      "fontlibrary": {
+        "fonts_must_be_files": "{name} : les polices doivent être des fichiers {FONT_ACCEPT}.",
+        "is_larger_than_8_mb": "{name} dépasse 8 Mo.",
+        "couldn_t_be_read_as": "{name} n'a pas pu être lu comme une police."
+      },
+      "mistakebank": {
+        "unknown_mistake": "Erreur inconnue {id}"
+      },
+      "profilemanager": {
+        "the_profile_file_is_damaged": "Le fichier de profil est endommagé (frappes).",
+        "a_guest_can_t_have": "Un invité ne peut pas avoir de mot de passe.",
+        "unknown_profile": "Profil inconnu {profileId}",
+        "that_picture_can_t_be": "Cette image ne peut pas être utilisée.",
+        "a_locked_profile_can_t": "Un profil verrouillé ne peut pas devenir un invité.",
+        "this_profile_isn_t_a": "Ce profil n'est pas un invité.",
+        "give_the_profile_a_name": "Donnez un nom au profil.",
+        "save_your_progress_first_a": "Enregistrez d'abord votre progression : un profil invité ne peut pas avoir de mot de passe.",
+        "the_current_password_is_not": "Le mot de passe actuel n'est pas correct.",
+        "set_a_password_first_a": "Définissez d'abord un mot de passe ; une clé d'accès est un moyen plus rapide de le saisir.",
+        "that_passkey_couldn_t_be": "Cette clé d'accès n'a pas pu être enregistrée.",
+        "a_profile_can_have_up": "Un profil peut avoir jusqu'à {MAX_PASSKEYS} clés d'accès.",
+        "a_passkey_needs_a_name": "Une clé d'accès a besoin d'un nom.",
+        "the_last_profile_cannot_be": "Le dernier profil ne peut pas être supprimé.",
+        "that_file_isn_t_a": "Ce fichier n'est pas une exportation de profil Kalibre.",
+        "the_profile_file_is_damaged_2": "Le fichier de profil est endommagé ({store}).",
+        "the_profile_file_has_an": "Le fichier de profil a un verrou de mot de passe invalide."
+      },
+      "quoteprovider": {
+        "no_quotes_are_available_enable": "Aucune citation {category} disponible. Activez un jeu de données dans textes → jeux de données."
+      },
+      "raceprovider": {
+        "the_race_has_no_text": "La course n'a pas encore de texte.",
+        "the_race_has_no_passage": "La course n'a pas encore de passage."
+      },
+      "sessionmanager": {
+        "sustained_mode_needs_a_source": "Le mode soutenu nécessite une source continue."
+      },
+      "storagemanager": {
+        "records_in_must_have_a": "Les enregistrements dans \"{storeName}\" doivent avoir un profileId",
+        "is_profile_scoped_use_getallforprofile": "\"{storeName}\" est lié au profil ; utilisez getAllForProfile()",
+        "indexeddb_is_not_available_in": "IndexedDB n'est pas disponible dans ce navigateur",
+        "your_saved_data_couldn_t": "Vos données enregistrées n'ont pas pu être mises à jour (de la version {from} à {version}) : {value}",
+        "that_copy_isn_t_there": "Cette copie n'existe plus.",
+        "transaction_aborted": "Transaction annulée"
+      },
+      "textlibrary": {
+        "the_text_is_empty": "Le texte est vide.",
+        "that_text_no_longer_exists": "Ce texte n'existe plus."
+      },
+      "wordstreamprovider": {
+        "no_word_list_is_available": "Aucune liste de mots disponible. Activez un jeu de données dans textes → jeux de données."
+      },
+      "storage_snapshots": {
+        "the_snapshot_could_not_be": "L'instantané n'a pas pu être enregistré."
+      },
+      "counts": {
+        "quote": "{count, plural, one {# citation} many {# citations} other {# citations}}",
+        "text": "{count, plural, one {# texte} many {# textes} other {# textes}}",
+        "passage": "{count, plural, one {# passage} many {# passages} other {# passages}}",
+        "dataset": "{count, plural, one {# jeu de données} many {# jeux de données} other {# jeux de données}}",
+        "word": "{count, plural, one {# mot} many {# mots} other {# mots}}",
+        "paragraph": "{count, plural, one {# paragraphe} many {# paragraphes} other {# paragraphes}}",
+        "profile": "{count, plural, one {# profil} many {# profils} other {# profils}}",
+        "font": "{count, plural, one {# police} many {# polices} other {# polices}}"
+      },
+      "progress_of": "{have} / {need}",
+      "difficulty": {
+        "easy": "facile",
+        "normal": "normal",
+        "hard": "difficile"
+      },
+      "keycaps": {
+        "space": "espace",
+        "enter": "entrée",
+        "shift": "maj",
+        "tab": "tabulation",
+        "esc": "échap",
+        "backspace": "retour arrière",
+        "ctrl": "ctrl",
+        "alt": "alt",
+        "delete": "suppr",
+        "then": "puis",
+        "or": "ou"
+      },
+      "custom": "personnalisé"
     },
     "companions": {
       "achievements": {
@@ -490,36 +1046,200 @@
     },
     "themes": {
       "editor": {
-        "save_theme": "Enregistrer le thème",
-        "name": "Nom",
-        "light_or_dark": "Clair ou foncé",
-        "readability": "Lisibilité",
-        "page": "Page",
-        "background": "Arrière-plan",
-        "panels": "Panneaux",
-        "lines_borders": "Lignes et bordures",
-        "selection": "Sélection",
-        "text": "Texte",
-        "dim_text": "Texte atténué",
-        "accent": "Accent",
-        "typed_text": "Texte tapé",
-        "mistakes": "Erreurs",
-        "extra_letters": "Lettres supplémentaires",
-        "caret": "Curseur"
+        "save_theme": "enregistrer le thème",
+        "name": "nom",
+        "light_or_dark": "clair ou sombre",
+        "readability": "lisibilité",
+        "page": "page",
+        "background": "arrière-plan",
+        "panels": "panneaux",
+        "lines_borders": "lignes et bordures",
+        "selection": "sélection",
+        "text": "texte",
+        "dim_text": "texte atténué",
+        "accent": "accent",
+        "typed_text": "texte tapé",
+        "mistakes": "erreurs",
+        "extra_letters": "lettres supplémentaires",
+        "caret": "curseur"
       },
       "actions": {
-        "use": "Utiliser",
-        "edit": "Modifier",
-        "decorate": "Décorer",
-        "export": "Exporter",
-        "delete": "Supprimer",
-        "customise_current": "Personnaliser le thème actuel",
-        "import_theme": "Importer un thème"
+        "use": "utiliser",
+        "edit": "modifier",
+        "decorate": "décorer",
+        "export": "exporter",
+        "delete": "supprimer",
+        "done": "terminé",
+        "customise_current": "personnaliser le thème actuel",
+        "import_theme": "importer un thème",
+        "decorations_for": "décorations pour {name}",
+        "use_theme": "utiliser {name}",
+        "edit_theme": "modifier {name}",
+        "decorate_theme": "décorer {name}",
+        "export_theme": "exporter {name}",
+        "delete_theme": "supprimer {name}",
+        "copy_and_decorate": "copier ce thème et le décorer",
+        "decorations_earned_zero": "les décorations de thème, gagnées en jouant, vont sur les thèmes qui vous appartiennent.",
+        "decorations_earned_notice": "vous avez gagné {count, plural, one {une décoration de thème} many {# décorations de thème} other {# décorations de thème}}. elles vont sur vos propres thèmes, alors faites une copie de celui-ci pour les porter",
+        "decorations_earned_info": "gagnées en jouant. elles restent avec ce thème sur ce profil, et ne sont pas incluses lorsque vous exportez le thème."
       },
       "picker": {
-        "preview": "Aperçu",
-        "instructions": "Survolez pour aperçu · Cliquez ou appuyez sur Entrée pour appliquer · Échap pour fermer",
-        "close": "Fermer"
+        "preview": "aperçu",
+        "instructions": "survolez pour aperçu · cliquez ou appuyez sur entrée pour appliquer · échap pour fermer",
+        "close": "fermer"
+      },
+      "decorationSlots": {
+        "caret": {
+          "title": "curseur",
+          "hint": "autour du curseur (sa forme est un paramètre de frappe)"
+        },
+        "backdrop": {
+          "title": "fond",
+          "hint": "un motif discret derrière la page"
+        },
+        "frame": {
+          "title": "cadre",
+          "hint": "autour du texte que vous tapez"
+        },
+        "keystroke": {
+          "title": "frappe",
+          "hint": "comment chaque lettre tapée se pose"
+        },
+        "flourish": {
+          "title": "ornement",
+          "hint": "une petite marque à côté du logotype"
+        }
+      },
+      "decorations": {
+        "caret-glow": {
+          "name": "lueur douce"
+        },
+        "caret-halo": {
+          "name": "auréole"
+        },
+        "caret-drop": {
+          "name": "goutte d'encre"
+        },
+        "caret-trail": {
+          "name": "traînée de comète"
+        },
+        "backdrop-dots": {
+          "name": "grille de points"
+        },
+        "backdrop-ruled": {
+          "name": "papier ligné"
+        },
+        "backdrop-graph": {
+          "name": "papier millimétré"
+        },
+        "backdrop-grain": {
+          "name": "grain"
+        },
+        "backdrop-checks": {
+          "name": "cases douces"
+        },
+        "frame-corners": {
+          "name": "coins"
+        },
+        "frame-bookplate": {
+          "name": "ex-libris"
+        },
+        "frame-tab": {
+          "name": "onglet de dossier"
+        },
+        "frame-brackets": {
+          "name": "parenthèses"
+        },
+        "keystroke-ink": {
+          "name": "dégradé d'encre"
+        },
+        "keystroke-rise": {
+          "name": "montée douce"
+        },
+        "keystroke-bloom": {
+          "name": "épanouissement"
+        },
+        "flourish-leaf": {
+          "name": "feuille"
+        },
+        "flourish-star": {
+          "name": "étoile"
+        },
+        "flourish-key": {
+          "name": "touche"
+        },
+        "flourish-letter": {
+          "name": "la lettre de votre compagnon"
+        },
+        "flourish-moon": {
+          "name": "lune"
+        }
+      },
+      "presets": {
+        "paper": {
+          "name": "papier"
+        },
+        "ink": {
+          "name": "encre"
+        },
+        "dusk": {
+          "name": "crépuscule"
+        },
+        "eink": {
+          "name": "e-encre"
+        },
+        "eink-night": {
+          "name": "e-encre nuit"
+        },
+        "cream": {
+          "name": "crème"
+        },
+        "rose": {
+          "name": "rose"
+        },
+        "harbour": {
+          "name": "port"
+        },
+        "forest": {
+          "name": "forêt"
+        },
+        "plum": {
+          "name": "prune"
+        },
+        "slate": {
+          "name": "ardoise"
+        },
+        "terminal": {
+          "name": "terminal"
+        },
+        "contrast": {
+          "name": "contraste élevé"
+        },
+        "contrast-night": {
+          "name": "contraste élevé nuit"
+        }
+      },
+      "checks": {
+        "text_bg": "texte sur la page",
+        "text_surface": "texte sur les panneaux",
+        "textDim_bg": "texte atténué sur la page",
+        "textDim_surface": "texte atténué sur les panneaux",
+        "correct_bg": "texte tapé",
+        "incorrect_bg": "erreurs",
+        "correct_textDim": "le texte tapé se distingue du texte encore à taper",
+        "accent_bg": "accent",
+        "caret_bg": "curseur",
+        "extra_bg": "lettres supplémentaires",
+        "chartWpm_bg": "graphique : ligne wpm",
+        "chartRaw_bg": "graphique : ligne brute",
+        "chartError_bg": "graphique : erreurs",
+        "heat1_bg": "chaleur des touches 1",
+        "heat4_bg": "chaleur des touches 4",
+        "not_a_theme": "ce n'est pas un thème",
+        "needs_a_name": "a besoin d'un nom de 40 caractères maximum",
+        "scheme_must_be": "le schéma doit être clair ou sombre",
+        "bad_hex": "la couleur \"{token}\" doit être une valeur #rrggbb",
+        "not_readable": "pas assez lisible : {labels}"
       }
     }
   }
