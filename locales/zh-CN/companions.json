@@ -9,5 +9,195 @@
     "giggle_fit": "咯咯笑",
     "thats_enough": "够了",
     "devoted": "忠诚"
+  },
+  "menu": {
+    "wardrobe": "衣橱",
+    "get_ring": "给{companion, select, cal {他} libby {她} other {他们}}买一枚戒指",
+    "options_aria": "{companion}的选项"
+  },
+  "engagement": {
+    "title": "这是一个相当重要的决定……",
+    "confirm_give": "把戒指送给{companion}",
+    "confirm_cancel": "我还不确定……",
+    "confirm_message": "你确定吗？"
+  },
+  "away": {
+    "note_hint": "一张便条",
+    "with_love_aria": "满怀爱意",
+    "back_tomorrow": "{partner}和我去度蜜月了！明天回来。"
+  },
+  "ending": {
+    "aria_label": "感谢你玩 kalibre",
+    "thanks": "感谢你玩 kalibre。",
+    "cal_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "嗯？我的爪子上有什么东西。"
+      },
+      {
+        "reply": "是一枚戒指。"
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "戒指？好闪亮哦。可是……这是做什么用的？"
+      },
+      {
+        "reply": "是给你爱的人的。"
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "给我爱的……哦。哦！我完全知道是谁。"
+      },
+      {
+        "reply": "叫{partner}过来"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner}！能过来一下吗？"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "你叫我？你怎么这么紧张？怎么了？"
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "这是一枚戒指，给你的。如果你想要的话，你想要吗？"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "哦，{proposer}，当然想要啊。"
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "戴上了！戴上了！"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "两个键，并排在一起，就像一直以来一样。"
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "我们走吧？"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "走吧。"
+      },
+      {
+        "cue": "walkOut"
+      }
+    ],
+    "libby_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "哦，我的爪子上有什么东西。"
+      },
+      {
+        "reply": "是一枚戒指。"
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "一枚戒指，好漂亮……但这不是我的，对吗？"
+      },
+      {
+        "reply": "是给某个特别的人的。"
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "某个特别的人，嗯，我想我知道是谁。"
+      },
+      {
+        "reply": "叫{partner}过来"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner}，能过来一下吗？"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "来了！怎么了？哦，那是什么？好闪亮！"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "这是一枚戒指，{partner}，给你的。"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "给我的？好！好好好！"
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "那就别动了。"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "我在不动！差不多在不动。"
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "现在去哪里？"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "去一个美好的地方。"
+      },
+      {
+        "cue": "walkOut"
+      }
+    ],
+    "cal_letter": [
+      "亲爱的你，",
+      "{partner}和我出去了一小段时间，这是我们的蜜月！我到现在都不敢相信我能说这句话。",
+      "键盘到明天之前都是你的，课程照常，只是没有我在旁边加油了。所以自己给自己加油，好吗？要大声加油哦。",
+      "很快就回来了，也许爪子里会带着沙子。",
+      "{proposer} & {partner}"
+    ],
+    "libby_letter": [
+      "亲爱的你，",
+      "{partner}和我出去一天，蜜月，听说是这么叫的。他自从拿到戒指就没有停止过蹦跳。",
+      "我们不在的时候课程还是开着的。慢慢来，多休息，把手指放在主行上，它会带你走的。",
+      "明天回来，我会把他完整地带回来的。",
+      "{proposer} & {partner}"
+    ]
   }
 }

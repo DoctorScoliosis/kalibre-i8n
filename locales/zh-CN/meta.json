@@ -13,7 +13,7 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 3,
-  "version": "2026-10-02",
-  "changes": "Removed obsolete quest sentence keys"
+  "revision": 4,
+  "version": "2026-10-03",
+  "changes": "L10: full companion lines, Cal and Libby voice lines, ending script"
 }

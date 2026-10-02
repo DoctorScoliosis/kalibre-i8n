@@ -42,14 +42,14 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 3,
-      "version": "2026-10-02",
+      "revision": 4,
+      "version": "2026-10-03",
       "reviewed": "community",
-      "changes": "Removed obsolete quest sentence keys",
+      "changes": "L10: full companion lines, Cal and Libby voice lines, ending script",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "1aa480f6420f1caae9272a775a68e3979bcf88e63cf01e2e381eebed7327a7e4",
-      "bytes": 15050
+      "sha256": "09b027da97441baa28680ec02a35974844c51494264a4475c3d40b4e31865243",
+      "bytes": 63441
     }
   ]
 }
