@@ -13,13 +13,17 @@
     "remove": "remove",
     "passages": "passages",
     "install": "install",
-    "find_more": "find more in the library"
+    "find_more": "find more in the library",
+    "verb_update": "update",
+    "verb_download": "download"
   },
   "chips": {
     "on_server": "on this server",
     "rebuilt": "rebuilt in this browser",
     "in_browser": "in this browser",
-    "from_library": "from {source}"
+    "from_library": "from {source}",
+    "the_library": "the library",
+    "a_library": "a library"
   },
   "status": {
     "downloading": "downloading \"{name}\"…",
@@ -30,7 +34,8 @@
     "version_passages": "version {version} · {count, plural, one {# passage} other {# passages}}",
     "library_from": "from {name}",
     "library_remove": "remove the library {name}",
-    "library_added": "added {name}: {count, plural, one {# dataset} other {# datasets}}."
+    "library_added": "added {name}: {count, plural, one {# dataset} other {# datasets}}.",
+    "not_reachable": "not reachable"
   },
   "install": {
     "include_work": "include {title}",
@@ -38,5 +43,111 @@
     "edit_draft": "edit \"{name}\"",
     "check_before_installing": "check before installing",
     "add_text": "add {title}"
+  },
+  "dataset_cap": {
+    "custom_number_of_passages_per": "custom number of passages per length",
+    "passages_per_length": "passages per length",
+    "about": "about {size} on disk",
+    "small": "{about}.",
+    "large_no_limit": "no limit keeps every passage: {about} for these texts. That's a lot of space, and it takes a while to build.",
+    "large": "{about}. That's a lot of space, and it takes a while to build."
+  },
+  "dataset_cards": {
+    "rebuild": "rebuild",
+    "the_rebuilt_copy_is_kept": "{CAP_HINT} The rebuilt copy is kept in this browser; removing it brings the original back.",
+    "this_dataset_may_contain_copyrighted": "This dataset may contain copyrighted text. Make sure you have the right to share it.",
+    "update_available": "update available",
+    "back_to_the_original": "back to the original",
+    "drop_the_changes_made_here": "drop the changes made here?",
+    "remove_it": "remove it?",
+    "yes_drop_them": "yes, drop them",
+    "yes_remove": "yes, remove",
+    "in_each_text": "{capLabel} in each text",
+    "version": "version {version}",
+    "rebuilt_summary": "rebuilt \"{name}\": {passages}{size}, {cap}.",
+    "size_suffix": ", {size}",
+    "download": "download",
+    "passages": "passages"
+  },
+  "dataset_install_flow": {
+    "translator_optional": "translator (optional)",
+    "translator": "translator",
+    "no_typeable_prose_found": "no typeable prose found",
+    "edit_the_text": "edit the text",
+    "change_names_remove_texts_or": "Change names, remove texts or edit their contents. Saving rebuilds the dataset.",
+    "name_the_dataset_fix_titles": "Name the dataset, fix titles and authors, leave out anything that isn’t prose, and edit a text if it needs it.",
+    "licence": "licence",
+    "how_many_passages": "how many passages?",
+    "title_of_the_pasted_text": "title of the pasted text",
+    "paste_or_type_the_text": "paste or type the text here",
+    "text_to_add": "text to add",
+    "add_this_text": "add this text",
+    "copies_go_into_the_dataset": "Copies go into the dataset; your texts stay as they are.",
+    "add_the_ticked_texts": "add the ticked texts",
+    "add_a_text": "add a text",
+    "from_files": "from files",
+    "paste": "paste",
+    "from_my_texts": "from my texts",
+    "https_github_com_owner_repo": "https://github.com/owner/repo, …/book.txt or quotes.json",
+    "address_of_a_github_repository": "address of a GitHub repository, a .txt or .md file, a quote list or a dataset package",
+    "get_it": "get it",
+    "import_a_dataset": "import a dataset",
+    "a_kalibre_dataset_json_or": "a .kalibre-dataset.json or quotes .json file, or drop files here",
+    "make_a_new_dataset": "make a new dataset",
+    "from_your_own_txt_or": "From your own .txt or Markdown files, pasted text, your texts, a web address, or a GitHub repository of text files. You can check everything before it installs, and add more texts while you do. Datasets feed quotes, the word list and drills, and are stored on this device only.",
+    "from_txt_or_md_files": "from .txt or .md files",
+    "paste_or_from_my_texts": "paste, or from my texts",
+    "paste_a_text": "paste a text",
+    "default_title": "text {number}",
+    "that_file_isn_t_a": "That file isn't a Kalibre dataset package or a list of quotes.",
+    "each_file_must_be_under": "Each file must be under 20 MB.",
+    "added": "added {what}",
+    "quoted_title": "\"{title}\"",
+    "added_some": "added {texts}; left unticked, with no typeable prose: {skipped}"
+  },
+  "library": {
+    "looking_in_the_libraries": "looking in the libraries…",
+    "search_by_title_author_or": "search by title, author or language",
+    "search_the_libraries": "search the libraries",
+    "downloaded": "downloaded",
+    "from_a_library_kalibre_hasn": "from a library kalibre hasn’t checked.",
+    "owner_repo_or_https": "owner/repo or https://…",
+    "address_of_a_library": "address of a library",
+    "add": "add",
+    "other_libraries": "other libraries",
+    "anyone_can_publish_a_library": "Anyone can publish a library: a folder of datasets made with kalibre’s dataset tool, on GitHub or any website. Kalibre hasn’t checked libraries other than its own. They only hold text, but add the ones you trust.",
+    "books_and_quotes_ready_to": "Books and quotes ready to type, from kalibre’s library and any others you add. A download is kept in this browser, so it works offline.",
+    "that_isn_t_a_library": "That isn’t a library address. Try owner/repo, a GitHub link or a web address.",
+    "a_library_address_starts_with": "A library address starts with https://.",
+    "that_address_has_no_kalibre": "That address has no Kalibre library (its index.json is missing or not one).",
+    "couldn_t_reach_check_the": "Couldn’t reach {addressName}. Check the address, or try again when you’re online.",
+    "has_no_kalibre_library": "{addressName} has no Kalibre library ({status}).",
+    "this_dataset_lists_a_file": "This dataset lists a file outside its own folder, so it wasn’t downloaded.",
+    "this_dataset_has_too_many": "This dataset has too many files to download.",
+    "this_dataset_s_checksum_list": "This dataset’s checksum list isn’t usable, so it wasn’t downloaded.",
+    "isn_t_in_a_format": "\"{name}\" isn’t in a format this version of Kalibre reads.",
+    "doesn_t_match_the_library": "\"{name}\" doesn’t match the library’s index (its id is {slice}).",
+    "has_no_texts": "\"{name}\" has no texts.",
+    "is_too_large": "{id}/{path} is too large.",
+    "has_files_its_checksum_list": "\"{name}\" has files its checksum list doesn’t cover, so it wasn’t downloaded.",
+    "is_too_large_to_download": "\"{name}\" is too large to download."
+  },
+  "datasets": {
+    "where_private_files": "this browser's private file storage",
+    "where_database": "this browser's database",
+    "kept_until_cleared": " The browser keeps it until you clear it.",
+    "kept_may_clear": " The browser may clear it if space runs low (see settings → data).",
+    "storage_using": "Installed datasets are kept in {where}. Using {used} of {quota} available.",
+    "storage_kept": "Installed datasets are kept in {where}.",
+    "installed_quotes": "installed \"{name}\": {count} quotes (duplicates removed). ",
+    "saved_summary": "saved \"{name}\": {texts}, {passages}. ",
+    "installed_summary": "installed \"{name}\": {texts}, {passages}. "
+  },
+  "dataset_draft": {
+    "untitled": "untitled"
+  },
+  "dataset_install": {
+    "has_no_usable_prose_it": "\"{title}\" has no usable prose (it needs sentences, not just headings or lists).",
+    "this_file_is_not_a": "This file is not a Kalibre dataset package."
   }
 }

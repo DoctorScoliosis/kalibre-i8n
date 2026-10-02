@@ -172,5 +172,27 @@
     "contrast-night": {
       "name": "high contrast night"
     }
+  },
+  "checks": {
+    "text_bg": "text on the page",
+    "text_surface": "text on panels",
+    "textDim_bg": "dim text on the page",
+    "textDim_surface": "dim text on panels",
+    "correct_bg": "typed text",
+    "incorrect_bg": "mistakes",
+    "correct_textDim": "typed text stands out from text still to type",
+    "accent_bg": "accent",
+    "caret_bg": "caret",
+    "extra_bg": "extra letters",
+    "chartWpm_bg": "chart: wpm line",
+    "chartRaw_bg": "chart: raw line",
+    "chartError_bg": "chart: errors",
+    "heat1_bg": "key heat 1",
+    "heat4_bg": "key heat 4",
+    "not_a_theme": "not a theme",
+    "needs_a_name": "needs a name of up to 40 characters",
+    "scheme_must_be": "scheme must be light or dark",
+    "bad_hex": "colour \"{token}\" must be a #rrggbb value",
+    "not_readable": "not readable enough: {labels}"
   }
 }

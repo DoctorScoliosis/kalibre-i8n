@@ -7,9 +7,9 @@
     "fallback": null,
     "lowercaseDates": true,
     "reviewed": "native",
-    "revision": 2,
+    "revision": 3,
     "version": "2026-10-02",
-    "changes": "Synced with the application: all 29 areas, current key layout"
+    "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording"
   },
   "strings": {
     "about": {
@@ -19,7 +19,33 @@
         "who_made_it": "who made it?",
         "wheres_code": "where's kalibre's code?",
         "give_star": "give it a star if you like it! if you wanna help out, that would be nice. :)"
-      }
+      },
+      "heading_about": "about",
+      "name_intro": "{name} {pronunciation} is a misspelling of the German {kaliber}, itself the root of the English word {calibre}, as in \"high-calibre\". that is deliberate: that's how you know i {own} the app.",
+      "pronunciation": "(/kəˈliːbreɪ/ {guide})",
+      "pronunciation_guide": "kuh-LEE-bray",
+      "word_kaliber": "kaliber",
+      "word_calibre": "calibre",
+      "word_own": "own",
+      "libre": "also, the \"libre\" part of the name actually means as it does in {libre}: free referring to liberty, not cost like free beer.",
+      "libre_software": "libre software",
+      "libre_aside": "(although, it technically also is free in cost.)",
+      "shorthand": "the official shorthand {kb} doubles as the obvious abbreviation for {keyboard}. that felt right for a tool built around one.",
+      "shorthand_kb": "kb",
+      "word_keyboard": "keyboard",
+      "exist_intro": "{name} started as a personal project, a way to train on the specific mistakes i kept making, and the mistakes i {would} make, rather than running the same drills. the mistake map, the adaptive drilling, the sustained accuracy mode: all of it came from wanting something that learned {my} patterns.",
+      "word_would": "would",
+      "word_my": "my",
+      "exist_dev": "i use it in development too, beyond testing features 'cause typing through something i already wrote is a good way to sit with it.",
+      "fun_fact": "fun fact:",
+      "fun_fact_text": "i actually enjoy typing tests in sustained mode!",
+      "made_by": "a college student by the name of {author} a.k.a. {handle}. licensed under the {licence}.",
+      "author_name": "paul taylor miller",
+      "author_handle": "doctor scoliosis",
+      "licence_name": "mit licence",
+      "code_heading": "where's {name} code?",
+      "code_body": "take a look at it over {here} on gh. give it a star if you like it! if you wanna help out, that would be nice. :)",
+      "code_here": "here"
     },
     "achievements": {
       "groups": {
@@ -109,7 +135,10 @@
         "raceModesWon": "{count, select, 4 {win a network race in every mode} other {win a network race in {count, plural, one {# mode} other {# modes}}}}",
         "booksFinished": "{count, plural, one {finish a whole book in sustained mode} other {finish # whole books in sustained mode}}",
         "spotTotalFound": "find {count, plural, one {# mistake} other {# mistakes}} in Spot, all told",
-        "spaceWordBombs": "{count, plural, one {fire the word bomb in Space once} other {fire the word bomb in Space {count} times}}"
+        "spaceWordBombs": "{count, plural, one {fire the word bomb in Space once} other {fire the word bomb in Space {count} times}}",
+        "unknown": "unknown",
+        "progress_suffix": " ({have} of {need})",
+        "secret_hint": "a secret: keep playing"
       },
       "first-test": {
         "name": "first steps"
@@ -635,6 +664,30 @@
       },
       "word-bomb": {
         "name": "going nuclear"
+      },
+      "achievement_badges": {
+        "secret": "secret",
+        "kind": "{kind}",
+        "kind_earned": "{kind}, earned",
+        "kind_trophy": "trophy",
+        "kind_medal": "medal",
+        "kind_badge": "badge"
+      },
+      "achievement_note": {
+        "see_achievements": "see achievements"
+      },
+      "achievements": {
+        "doesn_t_count_towards_100": "doesn’t count towards 100%",
+        "achievements_aren_t_available_here": "Achievements aren’t available here.",
+        "things_you_ve_done_in": "things you’ve done in kalibre, worked out from your history, so everything you did before counts too. secrets and extras don’t count towards the total.",
+        "100_every_achievement": "100%: every achievement.",
+        "achievements_aren_t_available_here_2": "Achievements aren't available here.",
+        "earned": "earned",
+        "trophies": "trophies",
+        "medals": "medals",
+        "badges": "badges",
+        "extras": "extras",
+        "sections_label": "achievement sections"
       }
     },
     "cards": {
@@ -648,6 +701,197 @@
         "stickers": "stickers",
         "garage": "garage",
         "done": "done"
+      },
+      "card_view": {
+        "lv": "lv {level}",
+        "with_after_level": " · with {companionName}",
+        "with_companion": "with {companionName}"
+      },
+      "card_window": {
+        "this_is_how_your_card": "This is how your card looks to others in a race. Your companion stands where a picture would be: profile pictures never leave this device. Drag a sticker to move it; select one for a colour, size and turn, or the arrows, [ and ], and Delete; Esc or a click elsewhere deselects it.",
+        "what_your_card_wears": "what your card wears",
+        "colour": "{tokenLabel} colour",
+        "theme_default_colour": "theme default colour",
+        "delete_sticker": "delete sticker",
+        "sticker_arrows_move_it_and": "{name} sticker: arrows move it, [ and ] turn it, delete takes it off; select it for its colour and size",
+        "selected_sticker_s_colour": "selected sticker’s colour",
+        "add_a_sticker": "add a {name} sticker",
+        "a_secret_sticker": "a secret sticker",
+        "a_card_shows_at_most": "a card shows {MAX_SHOWCASE} at most",
+        "remove_every_sticker": "remove every sticker",
+        "nothing_to_show_off_yet": "Nothing to show off yet. Your achievements will be here as you earn them.",
+        "tabs": {
+          "showcase": {
+            "title": "showcase",
+            "hint": "up to {max} achievements you’ve earned"
+          },
+          "garage": {
+            "title": "garage",
+            "hint": "dress your race car: it’s what you drive on the track, and what everyone racing you sees"
+          }
+        },
+        "tint": "{slot}Tint"
+      },
+      "cosmetics": {
+        "CARD_SLOTS": {
+          "border": {
+            "title": "border",
+            "hint": "around the card"
+          },
+          "frame": {
+            "title": "frame",
+            "hint": "around your companion"
+          },
+          "aura": {
+            "title": "aura",
+            "hint": "a glow behind your companion"
+          },
+          "backdrop": {
+            "title": "backdrop",
+            "hint": "behind everything on the card"
+          },
+          "sticker": {
+            "title": "stickers",
+            "hint": "drag them anywhere on the card"
+          }
+        },
+        "items": {
+          "border-double": {
+            "name": "double line"
+          },
+          "border-stitch": {
+            "name": "stitched"
+          },
+          "border-ribbon": {
+            "name": "ribbon"
+          },
+          "border-corners": {
+            "name": "corner brackets"
+          },
+          "border-keycap": {
+            "name": "keycap"
+          },
+          "border-heat": {
+            "name": "heat"
+          },
+          "border-neon": {
+            "name": "neon"
+          },
+          "border-gilt": {
+            "name": "gilt"
+          },
+          "border-midnight": {
+            "name": "midnight"
+          },
+          "frame-double": {
+            "name": "double ring"
+          },
+          "frame-dashed": {
+            "name": "dashed ring"
+          },
+          "frame-square": {
+            "name": "keycap square"
+          },
+          "frame-cog": {
+            "name": "cog"
+          },
+          "frame-petals": {
+            "name": "petals"
+          },
+          "frame-orbit": {
+            "name": "orbit"
+          },
+          "frame-laurel": {
+            "name": "laurel"
+          },
+          "frame-crown": {
+            "name": "crown"
+          },
+          "aura-soft": {
+            "name": "soft glow"
+          },
+          "aura-pulse": {
+            "name": "pulse"
+          },
+          "aura-ember": {
+            "name": "ember"
+          },
+          "aura-halo": {
+            "name": "halo"
+          },
+          "aura-aurora": {
+            "name": "aurora"
+          },
+          "aura-prism": {
+            "name": "prism"
+          },
+          "backdrop-dots": {
+            "name": "dots"
+          },
+          "backdrop-pinstripe": {
+            "name": "pinstripe"
+          },
+          "backdrop-graph": {
+            "name": "graph paper"
+          },
+          "backdrop-waves": {
+            "name": "waves"
+          },
+          "backdrop-stars": {
+            "name": "starfield"
+          },
+          "backdrop-confetti": {
+            "name": "confetti"
+          },
+          "sticker-star": {
+            "name": "star"
+          },
+          "sticker-leaf": {
+            "name": "leaf"
+          },
+          "sticker-key": {
+            "name": "keycap"
+          },
+          "sticker-heart": {
+            "name": "heart"
+          },
+          "sticker-flower": {
+            "name": "flower"
+          },
+          "sticker-bolt": {
+            "name": "lightning"
+          },
+          "sticker-note": {
+            "name": "music note"
+          },
+          "sticker-moon": {
+            "name": "moon"
+          },
+          "sticker-rocket": {
+            "name": "rocket"
+          },
+          "sticker-castle": {
+            "name": "castle"
+          },
+          "sticker-magnifier": {
+            "name": "magnifier"
+          },
+          "sticker-book": {
+            "name": "book"
+          },
+          "sticker-flag": {
+            "name": "chequered flag"
+          },
+          "sticker-crown": {
+            "name": "crown"
+          },
+          "sticker-teacup": {
+            "name": "teacup"
+          },
+          "sticker-sparkle": {
+            "name": "sparkle"
+          }
+        }
       }
     },
     "cars": {
@@ -779,7 +1023,12 @@
         "tab_title": "garage",
         "tab_hint": "dress your race car: it’s what you drive on the track, and what everyone racing you sees",
         "choose_slot": "choose {slot}",
-        "paint_swatch": "{name} paint"
+        "paint_swatch": "{name} paint",
+        "livery_colour": "{tokenLabel} livery colour",
+        "usual_livery_colour": "usual livery colour",
+        "livery_colour_2": "livery colour",
+        "this_is_your_car_on": "This is your car on the track, and to everyone racing you. It only ever wears parts you’ve earned.",
+        "your_race_car": "your race car"
       }
     },
     "chrome": {
@@ -792,7 +1041,8 @@
         "mistakes": "mistakes",
         "settings": "settings",
         "today": "today",
-        "about": "about"
+        "about": "about",
+        "primary": "primary"
       },
       "curtain": {
         "fetching": "fetching the books and dictionary, just this once",
@@ -810,7 +1060,11 @@
         "privacy": "privacy",
         "terms": "terms",
         "security": "security",
-        "announcements": "announcements"
+        "announcements": "announcements",
+        "credit_author": "© {year} {author}.",
+        "credit_company": "© {year} midnight summer media.",
+        "licence": "licensed with the {licence}.",
+        "licence_name": "mit licence"
       },
       "meta": {
         "tagline": "kalibre, an adaptive typing trainer",
@@ -860,7 +1114,163 @@
         "saving": "saving…",
         "badge_in_update": "in this update",
         "badge_current": "current",
-        "notes_not_yet": "the notes for this version show once it’s installed."
+        "notes_not_yet": "the notes for this version show once it’s installed.",
+        "stays_at": "v{current} stays at {link} for a while; open a backup there to keep using it."
+      },
+      "brand": {
+        "kanary_preview_build_notice": "kanary preview build notice",
+        "kanary_preview_build_click_for": "kanary preview build · click for notice",
+        "what_s_new_for": "what's new for {versionLabel}"
+      },
+      "command_line": {
+        "command": "command",
+        "type_a_setting_or_action": "type a setting or action",
+        "commands": "commands",
+        "command_line": "command line",
+        "no_matches": "no matches"
+      },
+      "kanary_notice": {
+        "features_interfaces_and_database_schemas": "features, interfaces, and database schemas are actively evolving and may shift, be replaced, or break without notice.",
+        "things_may_break_or_change": "things may break or change. ",
+        "your_typing_history_achievements_and": "your typing history, achievements, and custom data live in this browser’s local storage. export a backup copy regularly so a breaking update never costs your progress.",
+        "periodically_back_up_your_profiles": "periodically back up your profiles: ",
+        "profiles_used_on_kanary_may": "profiles used on kanary may or may not work if imported into release versions of kalibre. kanary may introduce newer database schemas, experimental settings, or revised formats that release versions cannot read or migrate backwards.",
+        "release_compatibility": "release compatibility: ",
+        "announcements_devlog": "announcements & devlog: ",
+        "stackinfolio": "stackinfolio",
+        "settings_data": "settings → data",
+        "got_it": "got it",
+        "intro": "you’re using {product}, an early, fast-moving preview build with in-progress experiments.",
+        "follow": "follow release milestones, development progress, and announcements on {site}."
+      },
+      "legal_pages": {
+        "last_updated": "last updated {format}",
+        "the_short_version": "the short version",
+        "read": "read {full}",
+        "also": "also: {pages}"
+      },
+      "older_version": {
+        "older_version": "older version",
+        "it_keeps_its_own_data": "It keeps its own data, apart from the current version’s: to use yours here, import a profile file saved before the update (profile menu → import a profile file).",
+        "this_is_kalibre_v_kept": "This is kalibre v{version}, kept so you can go back. ",
+        "go_to_the_current_version": "go to the current version",
+        "hide_this_until_the_page": "hide this until the page reloads",
+        "hide_until_the_page_reloads": "hide until the page reloads"
+      },
+      "shortcuts": {
+        "then": "then {value}",
+        "sequence_hint": "press sequence keys (like {first} then {second}) within 1.5 seconds. shortcuts only trigger when not actively typing in tests or text fields.",
+        "SHORTCUT_GROUPS": {
+          "navigation": {
+            "title": "navigation"
+          },
+          "nav-type": {
+            "label": "type view"
+          },
+          "nav-learn": {
+            "label": "learn view"
+          },
+          "nav-drill": {
+            "label": "drill view"
+          },
+          "nav-games": {
+            "label": "games view"
+          },
+          "nav-mistakes": {
+            "label": "mistakes view"
+          },
+          "nav-stats": {
+            "label": "statistics & history"
+          },
+          "nav-profile": {
+            "label": "profile menu"
+          },
+          "nav-texts": {
+            "label": "texts & library"
+          },
+          "nav-settings": {
+            "label": "settings"
+          },
+          "nav-about": {
+            "label": "about kalibre"
+          },
+          "typing": {
+            "title": "typing & tests"
+          },
+          "type-restart": {
+            "label": "restart test or drill"
+          },
+          "type-pause": {
+            "label": "command line / pause"
+          },
+          "type-delete-word": {
+            "label": "delete word"
+          },
+          "type-space": {
+            "label": "submit / next word"
+          },
+          "general": {
+            "title": "general & dialogs"
+          },
+          "gen-guide": {
+            "label": "keyboard shortcuts guide"
+          },
+          "gen-close": {
+            "label": "close modal or dialog"
+          },
+          "gen-command": {
+            "label": "command line palette"
+          },
+          "gen-focus": {
+            "label": "navigate controls"
+          }
+        },
+        "modal": {
+          "shortcuts": {
+            "title": "keyboard shortcuts"
+          }
+        }
+      },
+      "startup_failure": {
+        "putting_it_back": "putting it back…",
+        "it_couldn_t_be_put": "it couldn’t be put back: {value}",
+        "if_kalibre_was_taken_back": "if kalibre was taken back to an older version on purpose, you can put back the copy of your data saved just before it was last updated. anything you did after that update is lost, and it replaces everything kalibre keeps in this browser.",
+        "copy_the_details": "copy the details",
+        "copied": "copied",
+        "select_the_details_below_to": "select the details below to copy them",
+        "kalibre_couldn_t_start": "kalibre couldn’t start",
+        "what_you_ve_saved_is": "what you’ve saved is still in this browser: starting again doesn’t touch it.",
+        "send_details": "if it keeps happening, send the details to {address}."
+      },
+      "update_gate": {
+        "carry_on": "carry on",
+        "kalibre_v_changes_how_it": "kalibre v{appVersion} changes how it keeps your data",
+        "nothing_has_changed_yet_once": "nothing has changed yet. once it has, older versions of kalibre can’t open your data, so save a backup first: a profile file for every profile on this device.",
+        "older_version": "or keep using the version before it, at {link}, for now: open your backup there."
+      },
+      "modals": {
+        "stats": "stats",
+        "texts": "texts",
+        "settings": "settings",
+        "achievements": "achievements",
+        "race": "race",
+        "card": "your card",
+        "kanary": "kanary preview"
+      },
+      "app": {
+        "that_file_isn_t_in": "that file isn’t in the folder any more"
+      },
+      "instance": {
+        "offline_self_hosted": "offline · self-hosted",
+        "offline_cache": "offline · using browser cache",
+        "self_hosted_at": "self-hosted · {hostname}",
+        "self_hosted": "self-hosted",
+        "online": "online · official instance",
+        "status": {
+          "online": "online",
+          "offline": "offline",
+          "self-hosted": "self-hosted"
+        }
       }
     },
     "commands": {
@@ -1087,12 +1497,145 @@
       },
       "modal": {
         "language_reload_title": "change language?",
-        "language_reload_body": "kalibre reloads to change language. save anything you're working on first: a test in progress, a text you're writing or theme edits that aren't saved will be lost."
+        "language_reload_body": "kalibre reloads to change language. save anything you're working on first: a test in progress, a text you're writing or theme edits that aren't saved will be lost.",
+        "close_named": "close {title}"
       },
       "translation": {
-        "unreviewed_note": "this translation wasn't written or checked by a native speaker, so some of it may read oddly. you can help improve it on github.",
         "not_checked_yet": "(not checked by a native speaker yet)"
-      }
+      },
+      "colour_picker": {
+        "saturation_and_brightness": "saturation and brightness",
+        "hue": "hue",
+        "before": "before",
+        "now": "now",
+        "hex_value": "hex value",
+        "pick_a_colour_from_the": "pick a colour from the screen",
+        "pick_from_the_screen": "pick from the screen",
+        "colours_in_this_theme": "colours in this theme",
+        "colour": "{label} colour",
+        "choose_a_colour": "{label}: {hex}, choose a colour"
+      },
+      "theme_mode": {
+        "theme_appearance_mode": "theme appearance mode",
+        "theme_appearance": "theme appearance: {mode}",
+        "title": "appearance: {mode}",
+        "mode_system": "system",
+        "mode_light": "light",
+        "mode_dark": "dark"
+      },
+      "color_utils": {
+        "not_a_hex_colour": "Not a hex colour: {hex}"
+      },
+      "customtextprovider": {
+        "choose_a_saved_text_to": "Choose a saved text to practise (texts → my texts)."
+      },
+      "bookprovider": {
+        "add_a_text_to_read": "Add a text to read (texts → my texts).",
+        "no_books_to_read_enable": "No books to read. Enable a book dataset in texts → datasets."
+      },
+      "datasetmanager": {
+        "http": "{path}: HTTP {status}",
+        "unknown_dataset": "Unknown dataset {datasetId}",
+        "unknown_work": "Unknown work {key}",
+        "datasets_cannot_be_stored_in": "Datasets cannot be stored in this browser.",
+        "the_number_of_passages_has": "The number of passages has to be a whole number above 0.",
+        "only_datasets_installed_in_this": "Only datasets installed in this browser can be removed here.",
+        "doesn_t_let_other_sites": "{host} doesn't let other sites download its files. Download the file yourself and install it from your computer instead.",
+        "returned": "{url} returned {status}."
+      },
+      "datasetstore": {
+        "this_browser_can_t_read": "This browser can’t read the compressed dataset files.",
+        "missing_dataset_file": "Missing dataset file {path}"
+      },
+      "drillprovider": {
+        "nothing_to_drill_yet_accept": "Nothing to drill yet. Accept a suggestion on the mistakes page first.",
+        "that_quote_isn_t_available": "That quote isn’t available any more (its dataset may be off). Pick another on the drill page."
+      },
+      "fontlibrary": {
+        "fonts_must_be_files": "{name}: fonts must be {FONT_ACCEPT} files.",
+        "is_larger_than_8_mb": "{name} is larger than 8 MB.",
+        "couldn_t_be_read_as": "{name} couldn't be read as a font."
+      },
+      "mistakebank": {
+        "unknown_mistake": "Unknown mistake {id}"
+      },
+      "profilemanager": {
+        "the_profile_file_is_damaged": "The profile file is damaged (keystrokes).",
+        "a_guest_can_t_have": "A guest can’t have a password.",
+        "unknown_profile": "Unknown profile {profileId}",
+        "that_picture_can_t_be": "That picture can’t be used.",
+        "a_locked_profile_can_t": "A locked profile can’t become a guest.",
+        "this_profile_isn_t_a": "This profile isn’t a guest.",
+        "give_the_profile_a_name": "Give the profile a name.",
+        "save_your_progress_first_a": "Save your progress first: a guest profile can’t have a password.",
+        "the_current_password_is_not": "The current password is not right.",
+        "set_a_password_first_a": "Set a password first; a passkey is a quicker way to enter it.",
+        "that_passkey_couldn_t_be": "That passkey couldn’t be saved.",
+        "a_profile_can_have_up": "A profile can have up to {MAX_PASSKEYS} passkeys.",
+        "a_passkey_needs_a_name": "A passkey needs a name.",
+        "the_last_profile_cannot_be": "The last profile cannot be deleted.",
+        "that_file_isn_t_a": "That file isn't a Kalibre profile export.",
+        "the_profile_file_is_damaged_2": "The profile file is damaged ({store}).",
+        "the_profile_file_has_an": "The profile file has an invalid password lock."
+      },
+      "quoteprovider": {
+        "no_quotes_are_available_enable": "No {category} quotes are available. Enable a dataset in texts → datasets."
+      },
+      "raceprovider": {
+        "the_race_has_no_text": "The race has no text yet.",
+        "the_race_has_no_passage": "The race has no passage yet."
+      },
+      "sessionmanager": {
+        "sustained_mode_needs_a_source": "Sustained mode needs a source that keeps going."
+      },
+      "storagemanager": {
+        "records_in_must_have_a": "Records in \"{storeName}\" must have a profileId",
+        "is_profile_scoped_use_getallforprofile": "\"{storeName}\" is profile-scoped; use getAllForProfile()",
+        "indexeddb_is_not_available_in": "IndexedDB is not available in this browser",
+        "your_saved_data_couldn_t": "Your saved data couldn't be brought up to date (from version {from} to {version}): {value}",
+        "that_copy_isn_t_there": "That copy isn’t there any more.",
+        "transaction_aborted": "Transaction aborted"
+      },
+      "textlibrary": {
+        "the_text_is_empty": "The text is empty.",
+        "that_text_no_longer_exists": "That text no longer exists."
+      },
+      "wordstreamprovider": {
+        "no_word_list_is_available": "No word list is available. Enable a dataset in texts → datasets."
+      },
+      "storage_snapshots": {
+        "the_snapshot_could_not_be": "The snapshot could not be saved."
+      },
+      "counts": {
+        "quote": "{count, plural, one {# quote} other {# quotes}}",
+        "text": "{count, plural, one {# text} other {# texts}}",
+        "passage": "{count, plural, one {# passage} other {# passages}}",
+        "dataset": "{count, plural, one {# dataset} other {# datasets}}",
+        "word": "{count, plural, one {# word} other {# words}}",
+        "paragraph": "{count, plural, one {# paragraph} other {# paragraphs}}",
+        "profile": "{count, plural, one {# profile} other {# profiles}}",
+        "font": "{count, plural, one {# font} other {# fonts}}"
+      },
+      "progress_of": "{have} / {need}",
+      "difficulty": {
+        "easy": "easy",
+        "normal": "normal",
+        "hard": "hard"
+      },
+      "keycaps": {
+        "space": "space",
+        "enter": "enter",
+        "shift": "shift",
+        "tab": "tab",
+        "esc": "esc",
+        "backspace": "backspace",
+        "ctrl": "ctrl",
+        "alt": "alt",
+        "delete": "delete",
+        "then": "then",
+        "or": "or"
+      },
+      "custom": "custom"
     },
     "companions.cal": {
       "lines": {
@@ -1585,7 +2128,7 @@
       },
       "menu": {
         "wardrobe": "wardrobe",
-        "get_ring": "get {them} a ring",
+        "get_ring": "get {companion, select, cal {him} libby {her} other {them}} a ring",
         "options_aria": "{companion}’s options"
       },
       "engagement": {
@@ -2308,13 +2851,17 @@
         "remove": "remove",
         "passages": "passages",
         "install": "install",
-        "find_more": "find more in the library"
+        "find_more": "find more in the library",
+        "verb_update": "update",
+        "verb_download": "download"
       },
       "chips": {
         "on_server": "on this server",
         "rebuilt": "rebuilt in this browser",
         "in_browser": "in this browser",
-        "from_library": "from {source}"
+        "from_library": "from {source}",
+        "the_library": "the library",
+        "a_library": "a library"
       },
       "status": {
         "downloading": "downloading \"{name}\"…",
@@ -2325,7 +2872,8 @@
         "version_passages": "version {version} · {count, plural, one {# passage} other {# passages}}",
         "library_from": "from {name}",
         "library_remove": "remove the library {name}",
-        "library_added": "added {name}: {count, plural, one {# dataset} other {# datasets}}."
+        "library_added": "added {name}: {count, plural, one {# dataset} other {# datasets}}.",
+        "not_reachable": "not reachable"
       },
       "install": {
         "include_work": "include {title}",
@@ -2333,6 +2881,112 @@
         "edit_draft": "edit \"{name}\"",
         "check_before_installing": "check before installing",
         "add_text": "add {title}"
+      },
+      "dataset_cap": {
+        "custom_number_of_passages_per": "custom number of passages per length",
+        "passages_per_length": "passages per length",
+        "about": "about {size} on disk",
+        "small": "{about}.",
+        "large_no_limit": "no limit keeps every passage: {about} for these texts. That's a lot of space, and it takes a while to build.",
+        "large": "{about}. That's a lot of space, and it takes a while to build."
+      },
+      "dataset_cards": {
+        "rebuild": "rebuild",
+        "the_rebuilt_copy_is_kept": "{CAP_HINT} The rebuilt copy is kept in this browser; removing it brings the original back.",
+        "this_dataset_may_contain_copyrighted": "This dataset may contain copyrighted text. Make sure you have the right to share it.",
+        "update_available": "update available",
+        "back_to_the_original": "back to the original",
+        "drop_the_changes_made_here": "drop the changes made here?",
+        "remove_it": "remove it?",
+        "yes_drop_them": "yes, drop them",
+        "yes_remove": "yes, remove",
+        "in_each_text": "{capLabel} in each text",
+        "version": "version {version}",
+        "rebuilt_summary": "rebuilt \"{name}\": {passages}{size}, {cap}.",
+        "size_suffix": ", {size}",
+        "download": "download",
+        "passages": "passages"
+      },
+      "dataset_install_flow": {
+        "translator_optional": "translator (optional)",
+        "translator": "translator",
+        "no_typeable_prose_found": "no typeable prose found",
+        "edit_the_text": "edit the text",
+        "change_names_remove_texts_or": "Change names, remove texts or edit their contents. Saving rebuilds the dataset.",
+        "name_the_dataset_fix_titles": "Name the dataset, fix titles and authors, leave out anything that isn’t prose, and edit a text if it needs it.",
+        "licence": "licence",
+        "how_many_passages": "how many passages?",
+        "title_of_the_pasted_text": "title of the pasted text",
+        "paste_or_type_the_text": "paste or type the text here",
+        "text_to_add": "text to add",
+        "add_this_text": "add this text",
+        "copies_go_into_the_dataset": "Copies go into the dataset; your texts stay as they are.",
+        "add_the_ticked_texts": "add the ticked texts",
+        "add_a_text": "add a text",
+        "from_files": "from files",
+        "paste": "paste",
+        "from_my_texts": "from my texts",
+        "https_github_com_owner_repo": "https://github.com/owner/repo, …/book.txt or quotes.json",
+        "address_of_a_github_repository": "address of a GitHub repository, a .txt or .md file, a quote list or a dataset package",
+        "get_it": "get it",
+        "import_a_dataset": "import a dataset",
+        "a_kalibre_dataset_json_or": "a .kalibre-dataset.json or quotes .json file, or drop files here",
+        "make_a_new_dataset": "make a new dataset",
+        "from_your_own_txt_or": "From your own .txt or Markdown files, pasted text, your texts, a web address, or a GitHub repository of text files. You can check everything before it installs, and add more texts while you do. Datasets feed quotes, the word list and drills, and are stored on this device only.",
+        "from_txt_or_md_files": "from .txt or .md files",
+        "paste_or_from_my_texts": "paste, or from my texts",
+        "paste_a_text": "paste a text",
+        "default_title": "text {number}",
+        "that_file_isn_t_a": "That file isn't a Kalibre dataset package or a list of quotes.",
+        "each_file_must_be_under": "Each file must be under 20 MB.",
+        "added": "added {what}",
+        "quoted_title": "\"{title}\"",
+        "added_some": "added {texts}; left unticked, with no typeable prose: {skipped}"
+      },
+      "library": {
+        "looking_in_the_libraries": "looking in the libraries…",
+        "search_by_title_author_or": "search by title, author or language",
+        "search_the_libraries": "search the libraries",
+        "downloaded": "downloaded",
+        "from_a_library_kalibre_hasn": "from a library kalibre hasn’t checked.",
+        "owner_repo_or_https": "owner/repo or https://…",
+        "address_of_a_library": "address of a library",
+        "add": "add",
+        "other_libraries": "other libraries",
+        "anyone_can_publish_a_library": "Anyone can publish a library: a folder of datasets made with kalibre’s dataset tool, on GitHub or any website. Kalibre hasn’t checked libraries other than its own. They only hold text, but add the ones you trust.",
+        "books_and_quotes_ready_to": "Books and quotes ready to type, from kalibre’s library and any others you add. A download is kept in this browser, so it works offline.",
+        "that_isn_t_a_library": "That isn’t a library address. Try owner/repo, a GitHub link or a web address.",
+        "a_library_address_starts_with": "A library address starts with https://.",
+        "that_address_has_no_kalibre": "That address has no Kalibre library (its index.json is missing or not one).",
+        "couldn_t_reach_check_the": "Couldn’t reach {addressName}. Check the address, or try again when you’re online.",
+        "has_no_kalibre_library": "{addressName} has no Kalibre library ({status}).",
+        "this_dataset_lists_a_file": "This dataset lists a file outside its own folder, so it wasn’t downloaded.",
+        "this_dataset_has_too_many": "This dataset has too many files to download.",
+        "this_dataset_s_checksum_list": "This dataset’s checksum list isn’t usable, so it wasn’t downloaded.",
+        "isn_t_in_a_format": "\"{name}\" isn’t in a format this version of Kalibre reads.",
+        "doesn_t_match_the_library": "\"{name}\" doesn’t match the library’s index (its id is {slice}).",
+        "has_no_texts": "\"{name}\" has no texts.",
+        "is_too_large": "{id}/{path} is too large.",
+        "has_files_its_checksum_list": "\"{name}\" has files its checksum list doesn’t cover, so it wasn’t downloaded.",
+        "is_too_large_to_download": "\"{name}\" is too large to download."
+      },
+      "datasets": {
+        "where_private_files": "this browser's private file storage",
+        "where_database": "this browser's database",
+        "kept_until_cleared": " The browser keeps it until you clear it.",
+        "kept_may_clear": " The browser may clear it if space runs low (see settings → data).",
+        "storage_using": "Installed datasets are kept in {where}. Using {used} of {quota} available.",
+        "storage_kept": "Installed datasets are kept in {where}.",
+        "installed_quotes": "installed \"{name}\": {count} quotes (duplicates removed). ",
+        "saved_summary": "saved \"{name}\": {texts}, {passages}. ",
+        "installed_summary": "installed \"{name}\": {texts}, {passages}. "
+      },
+      "dataset_draft": {
+        "untitled": "untitled"
+      },
+      "dataset_install": {
+        "has_no_usable_prose_it": "\"{title}\" has no usable prose (it needs sentences, not just headings or lists).",
+        "this_file_is_not_a": "This file is not a Kalibre dataset package."
       }
     },
     "drills": {
@@ -2396,7 +3050,14 @@
           "prompted": "fussy eater",
           "unprompted": "snack mode",
           "buffet": "buffet"
-        }
+        },
+        "s_not_what_i_asked": "−{seconds}s · {text}? not what I asked for",
+        "fed": "+{seconds}s · {text}",
+        "fed_patched": " (patched up)",
+        "fed_hinted": " (the hint: half time)",
+        "fed_yum": " · yum",
+        "typo": "−{seconds}s · a typo",
+        "typo_meant": " ({meant}?)"
       },
       "castle": {
         "title": "castle",
@@ -2404,7 +3065,50 @@
         "modes": {
           "unprompted": "any brick",
           "prompted": "special bricks"
-        }
+        },
+        "the_attackers_resolve_hold_the": "The attackers’ resolve: hold the gate and keep to wear it down",
+        "stockpile": "stockpile",
+        "click_a_brick_to_carry": "click a brick to carry it · space lays · shift+enter drops · 1–9 pick",
+        "bricks": "{length} bricks · {toFixed}",
+        "the_dropped_shift_to_use": "the {from} dropped {label} · shift+{slot} to use",
+        "the_dropped_but_storage_is": "the {from} dropped {label}, but storage is full",
+        "brick_stacked": "{word} · {note} brick {toFixed} · stacked{repeatNote}",
+        "damage": "{note} · {toFixed} damage",
+        "yard_brick_pick": "{word}: {note} brick, strength {strength} (press {key} to pick)",
+        "yard_brick": "{word}: {note} brick, strength {strength}",
+        "aiming_at": "aiming at: {section} {integrity}/{max}",
+        "aiming_critical": " · critical",
+        "aiming_needs": " · needs bricks that {requirement}",
+        "brick_added": "{what} · +{added} {section}",
+        "brick_named": "{word} · {note} brick",
+        "the_castle": "the castle",
+        "powerups": {
+          "mortar": {
+            "label": "mortar",
+            "help": "dropped bricks hit twice as hard"
+          },
+          "mason": {
+            "label": "mason",
+            "help": "bricks count half as much again"
+          },
+          "oil": {
+            "label": "oil",
+            "help": "stuns every attacker at once"
+          },
+          "mend": {
+            "label": "mend",
+            "help": "repairs the weakest gate or keep"
+          }
+        },
+        "foe_title": "{type}: click or drop brick to crush ({hp} HP)",
+        "foe_stunned": ", stunned",
+        "catapult_title": "catapult: out of reach in the distance",
+        "catapult_aiming": ", aiming at the {section}",
+        "section_title": "{section}: {integrity}/{max}",
+        "section_critical": ", critical",
+        "section_needs": ", needs bricks that {requirement}",
+        "news_line": "{label}: {note}",
+        "powerup": "powerup"
       },
       "space": {
         "title": "space",
@@ -2412,14 +3116,34 @@
         "modes": {
           "unprompted": "free fire",
           "prompted": "targeted"
-        }
+        },
+        "ship_health": "ship health",
+        "magazine": "magazine",
+        "bomb_charge": "bomb charge",
+        "click_enter_fires_scroll_choose": "click / enter fires · ↑ ↓ / scroll choose · backspace ×2 scraps",
+        "finish_a_word_to_load": "finish a word to load it",
+        "bomb_ready_shift_enter": "bomb ready · shift+enter",
+        "bomb": "bomb {floor}%",
+        "ship": "ship {round}",
+        "score": "score {round}",
+        "destroyed": "destroyed {value}",
+        "s_left": "{ceil}s left",
+        "trigger_jammed_type_or_backspace": "trigger jammed · type “{word}”, or backspace twice to scrap a shot"
       },
       "spot": {
         "title": "spot",
         "blurb": "Find the mistakes planted in a passage and put them right.",
         "modes": {
           "prompted": "proofread"
-        }
+        },
+        "was": "{errorTitle}: was “{corrupted}”",
+        "should_be": "{errorTitle}: should be “{original}”",
+        "was_fine": "{word} was fine",
+        "fixed": "fixed: {original} · {errorTitle}",
+        "it_should_be": "it should be “{original}” · {errorTitle}",
+        "repairing": "{title} · fix it in place (← → move) and press enter",
+        "repairing_retry": " · one more try",
+        "repairing_cancel": " · esc to cancel"
       },
       "ui": {
         "pause": "pause",
@@ -2501,6 +3225,1090 @@
         "wrongPunctuation": "wrong punctuation",
         "capitalisation": "capital letter",
         "whitespace": "spacing"
+      },
+      "feed_buffet": {
+        "patience": "patience",
+        "the_floor_fall_to_it": "the floor: fall to it and the buffet closes",
+        "burnt_a_typo_counts_half": "burnt (a typo): counts half",
+        "served": "served {text}",
+        "an_order_filled_happy_guest": "an order filled · happy guest",
+        "a_guest_gave_up_waiting": "a guest gave up waiting",
+        "went_stale": "{text} went stale",
+        "the_table_is_full_let": "the table is full: let them eat first",
+        "that_s_not_food": "{text}? that’s not food",
+        "orders_wasted_upset": "orders {value} · wasted {value2} · upset {value3}",
+        "served_burnt": " (burnt: counts half)"
+      },
+      "games_results": {
+        "daily_goal_met_today": "✓ daily goal met · {formatGoalAmount} today",
+        "daily_goal_progress": "daily goal · {done} of {target} today · this run {run}",
+        "run_minutes": "{clock} of typing",
+        "run_xp": "{xp} xp",
+        "run_words": "{words} words"
+      },
+      "games_setup": {
+        "controls": "controls",
+        "notes": "notes",
+        "mechanic_visuals": "mechanic visuals",
+        "mechanics_contexts": "mechanics contexts",
+        "more": "more ▾",
+        "demonstration_variants": "demonstration variants"
+      },
+      "ghost_shelf": {
+        "kalibre_can_t_reach_your": "kalibre can’t reach your folder: allow it in settings → data",
+        "no_ghost_files_in_the": "no ghost files in the folder’s ghosts/ yet",
+        "import": "import",
+        "no_saved_ghosts_yet_save": "no saved ghosts yet. save one from a test’s results, a replay, or your history.",
+        "race_anyway": "race anyway",
+        "delete_s_ghost": "delete {name}’s ghost",
+        "name_on_the_file": "name on the file",
+        "saved_to": "saved to {savedTo}",
+        "is_ready": "{fileName} is ready",
+        "include_my_card": "include my card",
+        "your_text_goes_in_the": "your text goes in the file.",
+        "share": "share",
+        "save": "{count, plural, one {save the ghost} other {save # ghosts}}"
+      },
+      "powerup_tray": {
+        "shift": "{label}: {help} (shift+{value})",
+        "powerups_two_at_once": "powerups {length}/{storage} · two at once"
+      },
+      "race_card": {
+        "ghost": "ghost",
+        "race_people_on_your_network": "race people on your network",
+        "your_car_dress_it_in": "your car. dress it in your profile → your card → garage; earn parts by racing and playing.",
+        "race_a_demo_playing_while": "race: a demo, playing while hovered or focused",
+        "rivals": "{rulesLine} · rivals {difficulty}",
+        "RACE_CARD": {
+          "race": {
+            "title": "race",
+            "blurb": "Race the computer on your own, or people on your network, in a quote, words, against the clock or for as long as you keep up.",
+            "help": [
+              "Pick what you race: a quote, a number of words, a time, or sustained, where the last one still keeping pace or accuracy wins.",
+              "Rivals run at about your recent speed: easy a little slower, hard a little faster. Someone who leaves wrong letters in pays a second for each.",
+              "On your own, you race two computer rivals and, once you have a run in that mode, a ghost of it you can pick. On your network, everyone types the same text at the same time.",
+              "Race a ghost races the ghosts you’ve saved, up to three at once, on their own text."
+            ]
+          }
+        },
+        "rivals_2": "rivals"
+      },
+      "word_quality": {
+        "close_to": " · close to “{variantOf}” {percent}",
+        "repeat": " · repeat {percent}"
+      },
+      "games_registry": {
+        "STRENGTH_MECHANIC": {
+          "strength": {
+            "label": "strength",
+            "summary": "typing accuracy determines word strength. 1 per letter, +1 for K V W Y, +2 for J Q X Z. on hard, close variants of recent words count for less."
+          }
+        },
+        "GAMES": {
+          "feed": {
+            "contexts": {
+              "getting-started": {
+                "label": "getting started",
+                "group": "getting started",
+                "summary": "type words to feed the creature before its patience runs out.",
+                "highlights": [
+                  "type a word and press space to serve it",
+                  "keep the creature happy to stay alive"
+                ],
+                "details": [
+                  "each word you serve restores time. longer words restore more.",
+                  "if you take too long, the creature’s mood drops and eventually it leaves."
+                ],
+                "mechanics": {
+                  "mood": {
+                    "label": "mood",
+                    "summary": "the creature’s mood drops over time if it isn’t fed."
+                  },
+                  "patience": {
+                    "label": "patience",
+                    "summary": "a timer counts down. serving a word that fits restores time."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "submit word"
+                  }
+                },
+                "visuals": {
+                  "mood-content": {
+                    "label": "content"
+                  },
+                  "mood-peckish": {
+                    "label": "peckish"
+                  },
+                  "mood-starving": {
+                    "label": "starving"
+                  }
+                }
+              },
+              "creature-requests": {
+                "label": "creature requests",
+                "group": "getting started",
+                "summary": "the creature asks for a kind of word — match it to earn full time.",
+                "highlights": [
+                  "read the prompt above the creature",
+                  "a matching word earns full time; a wrong one costs time"
+                ],
+                "details": [
+                  "requests include: short or long words, words starting with a letter, or words containing certain letters.",
+                  "stuck for a while, or missed twice? a word that fits shows faintly on the creature, worth half the time."
+                ],
+                "notes": {
+                  "hard": {
+                    "text": "prompts are more specific and less time is given."
+                  }
+                },
+                "mechanics": {
+                  "prompts": {
+                    "label": "prompts",
+                    "summary": "the creature shows what kind of word it wants."
+                  },
+                  "hint": {
+                    "label": "belly hint",
+                    "summary": "after idling or two misses, a valid word appears faintly on the creature."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "submit word"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "belly hint"
+                  }
+                },
+                "visuals": {
+                  "prompt-need": {
+                    "label": "word prompt"
+                  },
+                  "belly-hint": {
+                    "label": "belly hint (half time)"
+                  }
+                }
+              },
+              "snack-mode": {
+                "label": "snack mode",
+                "group": "getting started",
+                "summary": "the creature eats any word — stronger words fill it up more, but it gets hungry faster.",
+                "highlights": [
+                  "any valid word feeds the creature",
+                  "longer and more accurate words restore more time"
+                ],
+                "details": [
+                  "there are no prompts: type whatever word you like.",
+                  "the creature drains its patience faster than in fussy eater, so speed matters."
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "submit word"
+                  }
+                },
+                "visuals": {
+                  "free-eating": {
+                    "label": "any valid word"
+                  },
+                  "fast-patience": {
+                    "label": "accelerated hunger"
+                  }
+                }
+              },
+              "buffet": {
+                "label": "buffet service",
+                "group": "getting started",
+                "summary": "guests order several kinds of word. serve words to the table and they eat what fits.",
+                "highlights": [
+                  "guests arrive with orders of 1–3 word types",
+                  "keep overall satisfaction above the red line"
+                ],
+                "details": [
+                  "type a word and press space to put it on the table. guests eat what matches their orders.",
+                  "a filled order pleases the guest and raises satisfaction. a guest who waits too long leaves upset.",
+                  "nonsense words are tossed and hurt satisfaction. typos produce burnt dishes worth half.",
+                  "dishes left on the table go stale and are wasted."
+                ],
+                "mechanics": {
+                  "table": {
+                    "label": "table",
+                    "summary": "served words go on a shared table. guests eat what matches."
+                  },
+                  "satisfaction": {
+                    "label": "satisfaction",
+                    "summary": "a 0–100 meter. if it falls to the floor line, the buffet closes."
+                  },
+                  "orders": {
+                    "label": "orders",
+                    "summary": "each guest has 1–3 word-type requirements on their ticket."
+                  },
+                  "stale": {
+                    "label": "stale dishes",
+                    "summary": "uncollected dishes go stale and hurt satisfaction."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "serve word to table"
+                  }
+                },
+                "visuals": {
+                  "guest-ticket": {
+                    "label": "order ticket"
+                  },
+                  "buffet-table": {
+                    "label": "serving table"
+                  },
+                  "satisfaction-floor": {
+                    "label": "satisfaction floor"
+                  }
+                }
+              }
+            }
+          },
+          "castle": {
+            "options": {
+              "waves": {
+                "label": "waves",
+                "choices": {
+                  "endless": {
+                    "label": "endless"
+                  }
+                }
+              }
+            },
+            "contexts": {
+              "getting-started": {
+                "label": "getting started",
+                "group": "getting started",
+                "summary": "type words to make bricks, aim at a section, and lay them to build and repair your castle.",
+                "highlights": [
+                  "type a word to make a brick",
+                  "aim with the arrows or mouse, then press space to lay it"
+                ],
+                "details": [
+                  "longer words make stronger bricks. typos make cracked ones.",
+                  "the castle starts whole, with a calm to stock up before the first wave.",
+                  "bricks appear in the stockpile; pick one with 1–9 or drag it with the mouse."
+                ],
+                "notes": {
+                  "prompted": {
+                    "text": "in special bricks mode, sections under attack need specific words. an off-spec brick loses most of its strength."
+                  }
+                },
+                "mechanics": {
+                  "stockpile": {
+                    "label": "stockpile",
+                    "summary": "typed words become bricks waiting in the yard. pick one with a number key or use the newest."
+                  },
+                  "quality": {
+                    "label": "brick quality",
+                    "summary": "solid, patched, cracked or rubble — depends on word length and typing accuracy."
+                  },
+                  "cursor": {
+                    "label": "aiming",
+                    "summary": "the cursor shows where the next brick will go. move it with arrows or click a section."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "aim at a section"
+                  },
+                  "i1": {
+                    "action": "lay the newest brick"
+                  },
+                  "i2": {
+                    "action": "pick a brick from the stockpile"
+                  }
+                },
+                "visuals": {
+                  "stockpile-yard": {
+                    "label": "stockpile yard"
+                  },
+                  "brick-solid": {
+                    "label": "solid brick"
+                  },
+                  "brick-cracked": {
+                    "label": "cracked brick"
+                  }
+                }
+              },
+              "surviving": {
+                "label": "surviving",
+                "group": "surviving",
+                "summary": "keep the gate and the keep standing. each wave loses heart and retreats when critical sections hold.",
+                "highlights": [
+                  "the gate and the keep are critical — losing the keep ends the game",
+                  "repair damaged sections by laying bricks on them"
+                ],
+                "details": [
+                  "castle sections have integrity that drops when enemies attack.",
+                  "high average repair across the castle drains the wave’s resolve faster.",
+                  "each wave retreats when its resolve reaches zero, or when all its enemies are destroyed."
+                ],
+                "notes": {
+                  "hard": {
+                    "text": "enemies arrive stronger and in larger numbers."
+                  }
+                },
+                "mechanics": {
+                  "sections": {
+                    "label": "castle sections",
+                    "summary": "wall, tower, gate, keep and foundations. each has its own integrity."
+                  },
+                  "integrity": {
+                    "label": "integrity",
+                    "summary": "a section’s hit points. reaches zero and the section is breached."
+                  },
+                  "resolve": {
+                    "label": "wave resolve",
+                    "summary": "a meter showing how close the wave is to retreating."
+                  },
+                  "waves": {
+                    "label": "waves",
+                    "summary": "enemies arrive in numbered waves, with calms in between."
+                  }
+                },
+                "visuals": {
+                  "curtain-wall": {
+                    "label": "curtain wall"
+                  },
+                  "gatehouse": {
+                    "label": "gatehouse"
+                  },
+                  "great-keep": {
+                    "label": "great keep"
+                  },
+                  "wave-resolve": {
+                    "label": "wave resolve"
+                  }
+                }
+              },
+              "fighting": {
+                "label": "fighting",
+                "group": "fighting",
+                "summary": "drop bricks on enemies to crush them, or use the catapult to hit them from afar.",
+                "highlights": [
+                  "shift+enter drops a brick on the targeted attacker",
+                  "brutes ram, sappers chip, catapults lob boulders from a distance"
+                ],
+                "details": [
+                  "a brick drop deals damage equal to the brick’s strength.",
+                  "an enemy that isn’t crushed may be stunned for a moment.",
+                  "catapults station at a distance: a dashed arc shows where one is aiming."
+                ],
+                "mechanics": {
+                  "brute": {
+                    "label": "brute",
+                    "summary": "rams sections up close. tires after a set number of blows."
+                  },
+                  "sapper": {
+                    "label": "sapper",
+                    "summary": "chips at sections. wanders between targets."
+                  },
+                  "catapult": {
+                    "label": "catapult",
+                    "summary": "hurls boulders from afar along a parabolic arc. out of drop range."
+                  },
+                  "stun": {
+                    "label": "stun",
+                    "summary": "a non-lethal brick drop may stun the attacker, halting it briefly."
+                  },
+                  "drops": {
+                    "label": "brick drops",
+                    "summary": "drop a brick on an enemy to damage or crush it."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "drop brick on enemy"
+                  },
+                  "i1": {
+                    "action": "aim at a section or enemy"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "brick drops"
+                  }
+                },
+                "visuals": {
+                  "brute-ram": {
+                    "label": "brute (ram)"
+                  },
+                  "sapper-pick": {
+                    "label": "sapper (chip)"
+                  },
+                  "catapult-siege": {
+                    "label": "catapult (siege)"
+                  },
+                  "boulder-arc": {
+                    "label": "boulder arc"
+                  }
+                }
+              },
+              "powering-up": {
+                "label": "powering up",
+                "group": "powering up",
+                "summary": "crushed enemies sometimes drop powerups. store them and switch them on when you need them.",
+                "highlights": [
+                  "catch a powerup when an enemy is crushed",
+                  "activate with shift+1–3 or click a slot"
+                ],
+                "details": [
+                  "up to three powerups can be stored. two can be active at once.",
+                  "mortar makes brick drops hit harder. mason makes laid bricks count for more. oil stuns all enemies on the field. mend repairs the weakest critical section."
+                ],
+                "mechanics": {
+                  "mortar": {
+                    "label": "mortar",
+                    "summary": "brick drops deal double damage."
+                  },
+                  "mason": {
+                    "label": "mason",
+                    "summary": "placed bricks grant 1.5× strength."
+                  },
+                  "oil": {
+                    "label": "oil",
+                    "summary": "stuns all attackers on the field immediately."
+                  },
+                  "mend": {
+                    "label": "mend",
+                    "summary": "restores integrity to the weakest gate or keep."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "activate powerup slot 1"
+                  },
+                  "i1": {
+                    "action": "activate powerup slot 2"
+                  },
+                  "i2": {
+                    "action": "activate powerup slot 3"
+                  }
+                },
+                "visuals": {
+                  "mortar-powerup": {
+                    "label": "mortar (2× drops)"
+                  },
+                  "mason-powerup": {
+                    "label": "mason (1.5× wall)"
+                  },
+                  "oil-powerup": {
+                    "label": "boiling oil (stun all)"
+                  },
+                  "mend-powerup": {
+                    "label": "field mend (repair)"
+                  }
+                }
+              }
+            }
+          },
+          "space": {
+            "options": {
+              "duration": {
+                "label": "length",
+                "choices": {
+                  "endless": {
+                    "label": "endless"
+                  },
+                  "i1": {
+                    "label": "1 min"
+                  },
+                  "i2": {
+                    "label": "2 min"
+                  }
+                }
+              }
+            },
+            "contexts": {
+              "getting-started": {
+                "label": "getting started",
+                "group": "getting started",
+                "summary": "steer the ship, type words to load the magazine, and fire to destroy enemies.",
+                "highlights": [
+                  "move with the mouse or arrow keys",
+                  "type a word and press enter to fire"
+                ],
+                "details": [
+                  "finished words load into the magazine. press enter to fire the chosen shot.",
+                  "a word finished with enter fires it at once without loading first.",
+                  "use ↑ ↓ or the scroll wheel to choose which magazine slot to fire."
+                ],
+                "notes": {
+                  "prompted": {
+                    "text": "in targeted mode, every enemy ship has a word requirement. non-matching shots bounce off."
+                  }
+                },
+                "mechanics": {
+                  "movement": {
+                    "label": "movement",
+                    "summary": "the ship steers horizontally. move with the mouse or ← →."
+                  },
+                  "magazine": {
+                    "label": "magazine",
+                    "summary": "typed words fill the magazine. enter fires. ↑ ↓ choose a slot."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "move the ship"
+                  },
+                  "i1": {
+                    "action": "fire the chosen magazine shot"
+                  },
+                  "i2": {
+                    "action": "choose a magazine slot"
+                  }
+                },
+                "visuals": {
+                  "starfighter": {
+                    "label": "starfighter"
+                  },
+                  "magazine-slots": {
+                    "label": "magazine slots"
+                  }
+                }
+              },
+              "surviving": {
+                "label": "surviving",
+                "group": "surviving",
+                "summary": "avoid damage, clear jams, dodge asteroids, and use rescue ships to repair.",
+                "highlights": [
+                  "the ship has health — hits reduce it, and zero ends the game",
+                  "type the word on a green rescue ship to repair"
+                ],
+                "details": [
+                  "clean words never jam. typos might, and nonsense jams more often.",
+                  "when jammed, type the word shown to clear it, or press backspace twice with nothing typed to scrap the shot.",
+                  "don’t shoot rescue ships: a hit one heals less (not on easy).",
+                  "asteroids are indestructible obstacles. big ones break into several pieces when shot.",
+                  "drones lock on with a dashed line and dive straight down. steer away.",
+                  "ships that get past the bottom do no harm."
+                ],
+                "notes": {
+                  "easy": {
+                    "text": "shooting a rescue ship doesn’t reduce its healing."
+                  }
+                },
+                "mechanics": {
+                  "health": {
+                    "label": "health",
+                    "summary": "the ship’s hit points. zero means game over."
+                  },
+                  "jams": {
+                    "label": "jams",
+                    "summary": "a jammed gun can’t fire until cleared. typos and nonsense raise the jam risk."
+                  },
+                  "asteroids": {
+                    "label": "asteroids",
+                    "summary": "rocks that can’t be destroyed. big ones split into pieces."
+                  },
+                  "rescue": {
+                    "label": "rescue ships",
+                    "summary": "green ships with a word. type it to repair the hull."
+                  },
+                  "drones": {
+                    "label": "drones",
+                    "summary": "lock on and dive straight down. dodge the dive line."
+                  },
+                  "jammer": {
+                    "label": "jammer",
+                    "summary": "increases the chance of jams while alive."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "scrap the chosen shot (clears a jam)"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "rescue repair"
+                  }
+                },
+                "visuals": {
+                  "rescue-ship": {
+                    "label": "rescue ship (heal)"
+                  },
+                  "dive-drone": {
+                    "label": "dive drone"
+                  },
+                  "asteroid": {
+                    "label": "asteroid obstacle"
+                  },
+                  "weapon-jam": {
+                    "label": "weapon jam"
+                  }
+                }
+              },
+              "fighting": {
+                "label": "fighting",
+                "group": "fighting",
+                "summary": "load the magazine, intercept missiles and fighters, and use the bomb to clear the field.",
+                "highlights": [
+                  "missiles carry a letter — type it with nothing typed to shoot them down",
+                  "shift+enter detonates the bomb when charged"
+                ],
+                "details": [
+                  "loading words charges the bomb meter. when full, shift+enter clears all missiles and damages every enemy.",
+                  "space stations launch fighters that chase you. type a fighter’s letter to shoot it down.",
+                  "landmines burst into shrapnel when shot, which hits everything nearby, including you.",
+                  "shielded ships only take hits from words that meet their requirement."
+                ],
+                "notes": {
+                  "prompted": {
+                    "text": "in targeted mode, every ship has a word requirement that must be matched."
+                  }
+                },
+                "mechanics": {
+                  "missiles": {
+                    "label": "missiles",
+                    "summary": "carry a letter token. with nothing typed, type it to shoot them down instantly."
+                  },
+                  "bomb": {
+                    "label": "bomb",
+                    "summary": "charges as you load words. shift+enter detonates, clearing missiles and damaging enemies."
+                  },
+                  "fighters": {
+                    "label": "fighters",
+                    "summary": "small ships launched by stations. chase the player. type their letter to intercept."
+                  },
+                  "stations": {
+                    "label": "stations",
+                    "summary": "large hubs that hover and spawn fighters."
+                  },
+                  "landmines": {
+                    "label": "landmines",
+                    "summary": "spiked mines. shrapnel on destruction hits everything nearby."
+                  },
+                  "shields": {
+                    "label": "shields",
+                    "summary": "some ships have shields that only break to words matching a requirement."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "detonate the bomb"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "bomb shockwave"
+                  }
+                },
+                "visuals": {
+                  "missile-token": {
+                    "label": "missile (letter)"
+                  },
+                  "bomb-shockwave": {
+                    "label": "bomb shockwave"
+                  },
+                  "orbital-station": {
+                    "label": "orbital station"
+                  },
+                  "shrapnel-mine": {
+                    "label": "landmine"
+                  }
+                }
+              },
+              "powering-up": {
+                "label": "powering up",
+                "group": "powering up",
+                "summary": "destroyed enemies drop powerups. catch them, store them, and switch them on.",
+                "highlights": [
+                  "catch a floating powerup to store it",
+                  "activate with shift+1–3 or click a slot"
+                ],
+                "details": [
+                  "up to three powerups can be stored. two kinds can be active at once; the same kind again stacks its timer.",
+                  "double fire: each shot fires twice before being spent.",
+                  "gatling: every letter typed fires an instant bolt.",
+                  "shield: a barrier absorbs hits for the ship.",
+                  "automaton: automatically picks the best shot for the biggest threat.",
+                  "homing: fired words steer toward targets."
+                ],
+                "mechanics": {
+                  "double": {
+                    "label": "double",
+                    "summary": "shots fire twice before being spent."
+                  },
+                  "gatling": {
+                    "label": "gatling",
+                    "summary": "every letter typed fires an instant energy bolt."
+                  },
+                  "shield": {
+                    "label": "shield",
+                    "summary": "an energy barrier absorbs hits."
+                  },
+                  "automaton": {
+                    "label": "automaton",
+                    "summary": "auto-selects the best shot for the worst threat."
+                  },
+                  "homing": {
+                    "label": "homing",
+                    "summary": "fired words steer dynamically toward targets."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "activate powerup slot 1"
+                  },
+                  "i1": {
+                    "action": "activate powerup slot 2"
+                  },
+                  "i2": {
+                    "action": "activate powerup slot 3"
+                  }
+                },
+                "visuals": {
+                  "powerup-double": {
+                    "label": "double fire"
+                  },
+                  "powerup-gatling": {
+                    "label": "gatling stream"
+                  },
+                  "powerup-shield": {
+                    "label": "deflector barrier"
+                  },
+                  "powerup-automaton": {
+                    "label": "automaton aim"
+                  },
+                  "powerup-homing": {
+                    "label": "homing seeker"
+                  }
+                }
+              }
+            }
+          },
+          "spot": {
+            "options": {
+              "variant": {
+                "label": "play",
+                "choices": {
+                  "timed": {
+                    "label": "timed"
+                  },
+                  "endless": {
+                    "label": "endless"
+                  }
+                }
+              },
+              "duration": {
+                "label": "time"
+              }
+            },
+            "help": [
+              "Point at a word or move with ← → (↑ ↓ by line); click it or press Enter if it’s wrong.",
+              "The word stays in place: fix it there (← → Home End move the caret, or click in it) and press Enter. Spelling, punctuation, capitals and spacing all count.",
+              "Shift+Enter gives up on a passage and moves to the next.",
+              "Finding and fixing are scored separately; flagging a correct word costs you."
+            ],
+            "contexts": {
+              "getting-started": {
+                "label": "getting started",
+                "group": "getting started",
+                "summary": "find the mistakes planted in a passage and put them right.",
+                "highlights": [
+                  "point at a word or navigate with arrow keys",
+                  "press enter to flag a mistake, then type the fix"
+                ],
+                "details": [
+                  "passages come from books in your library. each has several planted errors.",
+                  "shift+enter gives up on a passage and moves to the next.",
+                  "errors include spelling, punctuation, capitalisation, sound-alikes and letter slips."
+                ],
+                "mechanics": {
+                  "errors": {
+                    "label": "error types",
+                    "summary": "spelling, punctuation, capitalisation, sound-alikes and letter slips."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "move between words"
+                  },
+                  "i1": {
+                    "action": "move between lines"
+                  },
+                  "i2": {
+                    "action": "flag a word as wrong"
+                  },
+                  "i3": {
+                    "action": "skip to next passage"
+                  }
+                },
+                "visuals": {
+                  "passage-line": {
+                    "label": "passage text"
+                  },
+                  "planted-error": {
+                    "label": "planted error"
+                  }
+                }
+              },
+              "finding-mistakes": {
+                "label": "finding mistakes",
+                "group": "surviving",
+                "summary": "scan the passage, select a word you think is wrong, and press enter to flag it.",
+                "highlights": [
+                  "hover over a word or use arrow keys to select it",
+                  "flagging a correct word costs you"
+                ],
+                "details": [
+                  "move with ← → word by word, or ↑ ↓ line by line. click or hover to jump.",
+                  "finding and fixing are scored separately.",
+                  "flagging a word that’s actually correct counts as a false flag and costs points."
+                ],
+                "mechanics": {
+                  "selection": {
+                    "label": "word selection",
+                    "summary": "hover, click or use arrow keys to select a word."
+                  },
+                  "false-flag": {
+                    "label": "false flags",
+                    "summary": "flagging a correct word costs points and (in endless mode) time."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "move between words"
+                  },
+                  "i1": {
+                    "action": "move between lines"
+                  },
+                  "i2": {
+                    "action": "flag the selected word"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "passage scan"
+                  }
+                },
+                "visuals": {
+                  "selected-word": {
+                    "label": "selected word"
+                  },
+                  "hover-cursor": {
+                    "label": "hover cursor"
+                  },
+                  "false-flag-penalty": {
+                    "label": "false flag penalty"
+                  }
+                }
+              },
+              "correcting-mistakes": {
+                "label": "correcting mistakes",
+                "group": "surviving",
+                "summary": "the flagged word stays in place. fix it there and press enter to commit the repair.",
+                "highlights": [
+                  "the word is edited directly in the passage",
+                  "move the caret with arrow keys or click inside the word"
+                ],
+                "details": [
+                  "use ← → to move the caret, home and end to jump. delete and backspace work as usual.",
+                  "click inside the word to place the caret at a specific position.",
+                  "you get two attempts. if both fail, the correct word is revealed.",
+                  "press escape to cancel a repair without penalty."
+                ],
+                "mechanics": {
+                  "caret": {
+                    "label": "caret editing",
+                    "summary": "move the cursor inside the word to edit individual characters."
+                  },
+                  "retries": {
+                    "label": "repair attempts",
+                    "summary": "two tries to fix a word. after two failures, the answer is shown."
+                  },
+                  "cancel": {
+                    "label": "cancel",
+                    "summary": "escape cancels a repair without penalty."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "move caret inside the word"
+                  },
+                  "i1": {
+                    "action": "caret to start of word"
+                  },
+                  "i2": {
+                    "action": "caret to end of word"
+                  },
+                  "i3": {
+                    "action": "commit the repair"
+                  },
+                  "i4": {
+                    "action": "cancel repair"
+                  },
+                  "i5": {
+                    "action": "delete forward"
+                  }
+                },
+                "visuals": {
+                  "inline-caret": {
+                    "label": "inline caret"
+                  },
+                  "in-place-edit": {
+                    "label": "in-place edit"
+                  },
+                  "attempt-limit": {
+                    "label": "2 attempts limit"
+                  }
+                }
+              },
+              "scoring": {
+                "label": "scoring",
+                "group": "surviving",
+                "summary": "finding and fixing are scored separately. timed mode has a fixed clock; endless tops up on repairs.",
+                "highlights": [
+                  "detection score: how many errors you found",
+                  "repair score: how accurately you fixed them"
+                ],
+                "details": [
+                  "timed mode: a fixed duration counts down. find and fix as many as you can.",
+                  "endless mode: time drains continuously. each successful repair tops up the bank. false flags cost time.",
+                  "a clean sweep is recorded when all errors in a passage are repaired with no false flags."
+                ],
+                "notes": {
+                  "hard": {
+                    "text": "errors are subtler and the timer is shorter."
+                  }
+                },
+                "mechanics": {
+                  "detection": {
+                    "label": "detection",
+                    "summary": "scored by precision and recall — how many real errors you found versus false flags."
+                  },
+                  "repair": {
+                    "label": "repair",
+                    "summary": "scored by how accurately you fixed the flagged words."
+                  },
+                  "sweep": {
+                    "label": "clean sweep",
+                    "summary": "all errors repaired, no false flags, on a single passage."
+                  }
+                },
+                "visuals": {
+                  "detection-score": {
+                    "label": "detection score"
+                  },
+                  "repair-score": {
+                    "label": "repair score"
+                  },
+                  "clean-sweep": {
+                    "label": "clean sweep bonus"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "minutes_choice": "{count} min"
+      },
+      "space_time": {
+        "powerups": {
+          "double": "double fire",
+          "gatling": "gatling",
+          "shield": "shield",
+          "automaton": "automaton",
+          "homing": "homing"
+        },
+        "stored": "{name} stored · shift+{slot} to use",
+        "storage_full": "storage full: {name} lost",
+        "nothing_stored": "nothing stored there",
+        "busy": "two are running already: {name} waits",
+        "cant_use": "{name} can’t be used"
+      },
+      "constraints": {
+        "min_length": "{value}+ letters",
+        "min_length_need": "a long word, {value} letters or more",
+        "max_length": "{value} letters at most",
+        "max_length_need": "a short word, {value} letters at most",
+        "starts_with": "starts with {letter}",
+        "starts_with_need": "something beginning with {letter}",
+        "ends_with": "ends with {letter}",
+        "ends_with_need": "something ending in {letter}",
+        "contains": "has {letter}",
+        "contains_need": "something with {letter} in it",
+        "min_strength": "strength {value}+",
+        "min_strength_need": "a strong word, strength {value} or more",
+        "passage_length": "{min}–{max} words",
+        "passage_length_need": "a passage of {min} words or more",
+        "any_word": "any word",
+        "want": "I want {needs}.",
+        "want_any": "I want any word."
+      },
+      "moods": {
+        "satisfied": "satisfied",
+        "hungry": "hungry",
+        "very_hungry": "very hungry",
+        "urgent": "urgent",
+        "critical": "critical"
+      },
+      "space_ui": {
+        "shot": {
+          "fired": "{word} · {power} damage",
+          "fired_typo": " (a typo: half strength)",
+          "fired_one_left": " (1 left)",
+          "fired_automaton": " · automaton → {target}",
+          "fighter_down": "fighter {word} shot down",
+          "loaded": "{word} · loaded, {power}",
+          "fizzle": "{word} · not a word, it fizzled",
+          "fizzle_jam": "{word} · not a word: it fizzled and jammed the trigger",
+          "scrap_armed": "backspace again to scrap {word}",
+          "scrap_clear_jam": " and clear the jam",
+          "scrap_armed_jam": "backspace again to clear the jam",
+          "scrapped_word": "{word} scrapped",
+          "scrapped": "scrapped",
+          "jam_cleared_suffix": " · jam cleared",
+          "rescue_hit": "careful: you hit the rescue ship ({word})",
+          "rescue_lost": "the rescue ship was lost",
+          "jammed": "{word} jammed the trigger · it stays loaded",
+          "locked": "the trigger is jammed",
+          "full": "{word} · the magazine is full: fire first",
+          "empty": "nothing loaded: finish a word first",
+          "cleared": "jam cleared",
+          "intercepted": "missile {word} shot down",
+          "repaired": "{word} · repaired {healed}",
+          "bomb": "bomb!",
+          "bomb_not_ready": "the bomb isn’t charged yet",
+          "gatling": "rapid fire · {word}",
+          "shield_absorb": "shield absorbed {source} hit!"
+        },
+        "powerup_help": {
+          "double": "each shot fires twice",
+          "gatling": "every letter fires a bolt",
+          "shield": "takes a few hits for you",
+          "automaton": "firing picks the best shot for the worst threat",
+          "homing": "fired words steer towards enemies"
+        },
+        "powerup_label": {
+          "double": "double",
+          "gatling": "gatling",
+          "shield": "shield",
+          "automaton": "automaton",
+          "homing": "homing"
+        }
+      },
+      "castle_notes": {
+        "solid": "solid",
+        "patched": "patched",
+        "cracked": "cracked",
+        "mortar": "mortar",
+        "rubble": "rubble",
+        "stockpile_full": "stockpile full",
+        "no_bricks_yet": "no bricks yet",
+        "already_solid": "already solid",
+        "wrong_kind_of_brick": "wrong kind of brick",
+        "nobody_to_drop_it_on": "nobody to drop it on",
+        "two_are_running_already": "two are running already",
+        "nothing_stored_there": "nothing stored there"
       }
     },
     "learn": {
@@ -2721,6 +4529,315 @@
         "round_summary": "round {round}: {wpm} wpm · {accuracy}% — space for the next round",
         "hints_prep": "esc skips to the test · space next {unit}",
         "hints_normal": "esc pause · space next {unit}"
+      },
+      "cal_wardrobe": {
+        "whose_wardrobe": "whose wardrobe",
+        "what_to_change": "what to change",
+        "items": "items",
+        "s_wardrobe": "{name}’s wardrobe",
+        "everything_here_is_earned_by": "Everything here is earned by typing, never bought. Right-click {name} any time to come back."
+      },
+      "ending": {
+        "s_options": "{name}’s options",
+        "give_the_ring": "give {name} the ring"
+      },
+      "keyboard_diagram": {
+        "finger_colours_are_for_qwerty": "Finger colours are for QWERTY (US) for now; the lessons still work with your layout.",
+        "left_hand": "left hand",
+        "right_hand": "right hand"
+      },
+      "learn_curriculum": {
+        "master_first": "Master {prerequisiteOf} first",
+        "stage": "stage {stage} · {value}"
+      },
+      "learn_lesson": {
+        "fingers": "fingers",
+        "diagram_label": "keyboard: the keys in lesson {id}",
+        "new_keys_fingers": " · {fingers}",
+        "list_separator": ", "
+      },
+      "learn_numpad_run": {
+        "num_lock_is_off_the": "num lock is off: the pad is sending arrows. Press num lock on the pad."
+      },
+      "learn_numpad": {
+        "practice_for_the_number_pad": "Practice for the number pad: a ten-key test, lessons and sums. It’s for people who have one, so it’s off until you say so.",
+        "ten_key_practice_lessons_from": "Ten-key practice: lessons from the home keys outwards, amounts to type from a tape with enter and the operators, and mental arithmetic and a till to run. It all earns XP.",
+        "i_don_t_have_a": "i don’t have a number pad",
+        "turns_number_pad_practice_off": "Turns number pad practice off again",
+        "from_your_last_few_runs": "From your last few runs. These are kept apart from the mistakes on the main keyboard, and drilled here.",
+        "ten_key_drill": "ten-key drill",
+        "sums_drill": "sums drill",
+        "diagram_weak": "number pad, coloured by the keys that go wrong",
+        "diagram_mistakes": "number pad, coloured by mistakes",
+        "diagram": "number pad",
+        "drill_keys": "keys: {keys}",
+        "drill_sums": "sums: {kinds}",
+        "tile_lessons": "lessons",
+        "tile_lessons_note": "{mastered} of {total} mastered",
+        "tile_lessons_blurb": "the home keys 4 5 6, then outwards to the operators",
+        "tile_tenkey": "ten-key test",
+        "tile_tenkey_fastest": "your fastest: {ksph} keystrokes an hour",
+        "tile_tenkey_none": "no test yet",
+        "tile_tenkey_blurb": "amounts, whole numbers, or a mix with operators",
+        "tile_sums": "sums",
+        "tile_sums_last": "last: {right} of {answers} right",
+        "tile_sums_none": "no sums yet",
+        "tile_sums_blurb": "mental arithmetic: adding, taking away, times, divide and percentages",
+        "tile_till": "till",
+        "tile_till_best": "your best: {served} served",
+        "tile_till_none": "no shifts yet",
+        "tile_till_blurb": "a game: serve the queue by working out the change"
+      },
+      "learn_padlessons": {
+        "master_lesson_first": "Master lesson {number} first",
+        "number_pad_lessons": "number pad lessons",
+        "learn_the_pad_without_looking": "Learn the pad without looking, a few keys at a time, from the home keys 4 5 6 outwards. Each lesson opens when the one before it is mastered: the speed shown, 95% accuracy over 25 entries, and every new key mostly right. Lessons earn XP.",
+        "start_with_lesson_1": "start with lesson 1",
+        "of_mastered": "{mastered} of {length} mastered",
+        "all_number_pad_lessons": "all number pad lessons",
+        "this_lesson_opens_once_lesson": "This lesson opens once lesson {number} is mastered.",
+        "go_to_lesson": "go to lesson {number}",
+        "to_master_it_keystrokes_an": "To master it: {thousands} keystrokes an hour at {accuracy}% accuracy over {entries} entries, and each new key right {keyAccuracy} times in 100. Rest your right hand on 4 5 6, with the raised dot on 5 under your middle finger.",
+        "try_again": "try again",
+        "result": "result",
+        "mastered_again": "mastered again",
+        "lesson_is_open": "Lesson {number} is open.",
+        "that_s_every_number_pad": "That’s every number pad lesson.",
+        "again": "again",
+        "best_summary": "best {ksph} an hour · {accuracy}% · {attempts, plural, one {# try} other {# tries}}",
+        "best_detail": "best {ksph} an hour at {accuracy}% · {attempts, plural, one {# try} other {# tries}}",
+        "best_detail_mastered": "mastered ✓ · best {ksph} an hour at {accuracy}% · {attempts, plural, one {# try} other {# tries}}",
+        "new_keys": "new keys: {keys}",
+        "headline": "{value} keystrokes per hour",
+        "to_master": "To master it: {reasons}.",
+        "reason_separator": ", and ",
+        "reason_entries": "all {entries} entries",
+        "reason_ksph": "{target} keystrokes an hour ({now} this time)",
+        "reason_accuracy": "{target}% accuracy ({now}% this time)",
+        "reason_key": "each new key right {target} times in 100 ({key} was {accuracy}%)",
+        "diagram_label": "number pad: the keys in lesson {number}",
+        "continue_lesson": "continue: {number} {title}",
+        "next_lesson": "next: {number} {title}"
+      },
+      "learn_runner": {
+        "lesson": "lesson {id}",
+        "warm_up": "warm-up",
+        "step_of": "step {current} of {total}",
+        "counter_capped_prep": "{prep} · {done} / {target} {unit}",
+        "counter_capped": "{done} / {target} {unit}",
+        "counter": "{done} {unit}",
+        "time_left": " · {time} left",
+        "finger_line": "{key}: {finger}",
+        "shift_other_hand": ", with shift on the other hand",
+        "tip_suffix": " · {tip}",
+        "diagram_label": "keyboard for lesson {id}"
+      },
+      "learn_sums": {
+        "custom_number_of_questions": "custom number of questions",
+        "custom_number": "custom number",
+        "sums": "sums",
+        "mental_arithmetic_the_accountant_s": "Mental arithmetic, the accountant’s way: a sum appears, you work it out and type the answer on the pad, and press enter. You’re marked on the answer and how long it took. Three right in a row and the sums get harder; two wrong and they ease off. Every answer is exact to the penny.",
+        "last_time_of_right_an": "last time: {correctAnswers} of {answers} right, {seconds} an answer, up to level {peakLevel}",
+        "no_sums_yet": "no sums yet",
+        "your_answer": "your answer",
+        "you_typed": "✗ {prompt} = {answerText} · you typed {typed}",
+        "level": "{min} / {count} · level {level}",
+        "type_the_answer_then_enter": "type the answer, then enter · backspace corrects · esc opens the command line",
+        "of": "{correctAnswers} of {answers}",
+        "right": "right",
+        "average_time": "average time",
+        "of_2": "{right} of {asked}",
+        "to_look_at_again": "to look at again",
+        "you_typed_2": " · you typed {typed}",
+        "every_answer_right": "every answer right.",
+        "change_the_sums": "change the sums",
+        "title_count": "sums · {kind}{weak} · {count, plural, one {# question} other {# questions}}",
+        "title": "sums · {kind}{weak}",
+        "weak_spots": " · weak spots",
+        "right_headline": "{of} right",
+        "questions": "questions",
+        "start_at_level": "start at level"
+      },
+      "learn_tenkey": {
+        "your_best_for_this_ksph": "your best for this: {thousands} ksph at {round}% accuracy",
+        "no_run_of_this_kind": "no run of this kind yet",
+        "custom_length_in_minutes": "custom length in minutes",
+        "custom_length_in_entries": "custom length in entries",
+        "custom_length": "custom length",
+        "ten_key_test": "ten-key test",
+        "amounts_arrive_one_to_a": "Amounts arrive one to a line, like a tape. Type each one on the number pad and end it with the key shown after it: enter, or an operator. The tape moves on after a mistake, so keep going; backspace corrects the entry you are on. You’re scored in keystrokes per hour.",
+        "new_best": "new best",
+        "your_best_for_this_is": "your best for this is {thousands}",
+        "not_a_wrong_key_clean": "not a wrong key: clean.",
+        "change_the_test": "change the test",
+        "keys_to_watch": "keys to watch: {keys}",
+        "watch_key": "{key} ({wrong} wrong)",
+        "run_title": "ten-key · {form} · {limit}",
+        "run_label": "ten-key test",
+        "unit": "unit"
+      },
+      "learn_till": {
+        "till": "till",
+        "customers_queue_at_your_till": "Customers queue at your till. Each has paid with a note: work out their change, type it on the pad and press enter. Every customer’s patience runs down while they wait, so quick and right serves them and the next steps up. A wrong answer costs some of their patience, and when three have walked out, the till closes. The change is always exact to the penny.",
+        "your_best_customers_served_in": "your best: {best} customers served in one go",
+        "no_shifts_yet": "no shifts yet",
+        "open_the_till": "open the till",
+        "the_customer_s_patience": "the customer’s patience",
+        "the_change": "the change",
+        "customers_served_level_the_customers": "customers served · level · the customers who can still walk out before the till closes",
+        "press_enter_to_open_the": "press enter to open the till",
+        "change": "{billText} · change?",
+        "waiting_behind": "{behind} waiting behind",
+        "no_one_waiting": "no one waiting",
+        "served_level": "{served} served · level {level} · {repeat}{repeat2}",
+        "type_the_change_then_enter": "type the change, then enter · backspace corrects · esc opens the command line",
+        "the_till_is_closed": "the till is closed",
+        "customer_served": " customer served",
+        "customers_served": " customers served",
+        "your_best_is": "your best is {previousBest}",
+        "another_shift": "another shift"
+      },
+      "learn": {
+        "lessons_set_aside": "lessons set aside"
+      },
+      "mascot_sounds": {
+        "play_a_sample": "play a sample",
+        "a_purr": "a purr",
+        "what_sounds_like_at_your": "what {name} sounds like at your volume"
+      },
+      "mascot": {
+        "open_wardrobe": "{name}: open {companion, select, cal {his} libby {her} other {their}} wardrobe",
+        "open_s_wardrobe": "{name}: open {name2}’s wardrobe",
+        "asleep_label": "{name}, asleep: wake {companion, select, cal {him} libby {her} other {them}} up"
+      },
+      "numpad_tape": {
+        "entries": "entries",
+        "the_tape": "the tape",
+        "wrong": "wrong"
+      },
+      "pad_lessons": {
+        "pad-1": {
+          "title": "the home keys: 4 5 6"
+        },
+        "pad-2": {
+          "title": "reach up: 7 8 9"
+        },
+        "pad-3": {
+          "title": "reach down: 1 2 3"
+        },
+        "pad-4": {
+          "title": "the thumb and the point: 0 ."
+        },
+        "pad-5": {
+          "title": "all the digits"
+        },
+        "pad-6": {
+          "title": "plus, with the little finger"
+        },
+        "pad-7": {
+          "title": "minus"
+        },
+        "pad-8": {
+          "title": "times and divide"
+        },
+        "pad-9": {
+          "title": "the whole pad"
+        }
+      },
+      "fingers": {
+        "LP": "left little finger",
+        "LR": "left ring finger",
+        "LM": "left middle finger",
+        "LI": "left index finger",
+        "T": "thumb",
+        "RI": "right index finger",
+        "RM": "right middle finger",
+        "RR": "right ring finger",
+        "RP": "right little finger"
+      },
+      "numpad_fingers": {
+        "RI": "index finger",
+        "RM": "middle finger",
+        "RR": "ring finger",
+        "RP": "little finger",
+        "T": "thumb"
+      },
+      "key_names": {
+        "space": "space",
+        "comma": "comma",
+        "full_stop": "full stop",
+        "slash": "slash",
+        "semicolon": "semicolon",
+        "apostrophe": "apostrophe",
+        "hyphen": "hyphen",
+        "equals": "equals"
+      },
+      "units": {
+        "sequences": "sequences",
+        "words": "words",
+        "sequence": "sequence",
+        "word": "word"
+      },
+      "learn_results": {
+        "diagram_label": "keyboard coloured by how often each key went wrong"
+      },
+      "entries": {
+        "a_ten_key_entry_needs": "A ten-key entry needs at least one digit.",
+        "ENTRY_FORMS": {
+          "whole": {
+            "label": "whole numbers"
+          },
+          "amounts": {
+            "label": "amounts"
+          },
+          "mixed": {
+            "label": "mixed, with operators"
+          }
+        }
+      },
+      "sums": {
+        "SUM_KINDS": {
+          "mixed": {
+            "label": "a mix"
+          },
+          "add": {
+            "label": "adding"
+          },
+          "subtract": {
+            "label": "taking away"
+          },
+          "multiply": {
+            "label": "multiplying"
+          },
+          "divide": {
+            "label": "dividing"
+          },
+          "percent": {
+            "label": "percentages"
+          }
+        }
+      },
+      "pad_key_names": {
+        "enter": "enter",
+        "plus": "plus",
+        "minus": "minus",
+        "times": "times",
+        "divide": "divide",
+        "decimal_point": "decimal point"
+      },
+      "numpad_labels": {
+        "weak_keys": "weak keys",
+        "minutes": "{count} min",
+        "entries": "{count} entries"
+      },
+      "numpad_sums": {
+        "kinds": {
+          "add": "adding",
+          "subtract": "taking away",
+          "multiply": "multiplying",
+          "divide": "dividing",
+          "percent": "percentages"
+        }
       }
     },
     "mistakes": {
@@ -2820,13 +4937,75 @@
         "no_qualifiers_mistakes": "No {qualifiers} mistakes{inSection, select, true { in {section}} other {}} yet.",
         "no_in_section": "No mistakes in {section} yet.",
         "training_words_note": "{count, plural, one {# word} other {# words}} with consistent mistakes in training."
+      },
+      "mistake_map": {
+        "mistakes_click_to_isolate": "{label} mistakes – click to isolate",
+        "page": "page {value}",
+        "of": "{first}–{last} of {length}",
+        "keyboard_mistakes_pages": "keyboard mistakes pages",
+        "nothing_to_draw_on_this": "Nothing to draw on this keyboard yet. Mistakes seen more than once show up here.",
+        "on_the_keyboard": "on the keyboard",
+        "none_yet": "None yet.",
+        "with_keys_not_on_this": "{unmapped} with keys not on this layout",
+        "words_and_spaces": "words and spaces",
+        "no_tests_yet": "no tests yet",
+        "rate_one_test": "error rate {rate} in one test",
+        "rate_over_tests": "error rate {from} → {to} over {count, plural, one {# test} other {# tests}}",
+        "mark_label": "{mistake}: {rate} of the time",
+        "started_at": "{summary} · started training at {rate}",
+        "keyboard_label": "Keyboard with {count, plural, one {# mistake} other {# mistakes}} drawn on it. The list below has the same mistakes."
+      },
+      "mistakes": {
+        "actions": "actions",
+        "no_mistakes_yet": "No mistakes yet."
+      },
+      "mistake_kinds": {
+        "KINDS": {
+          "keys": {
+            "title": "keys"
+          },
+          "shift": {
+            "title": "shift"
+          },
+          "pairs": {
+            "title": "letter pairs"
+          },
+          "letters": {
+            "title": "missed and extra letters"
+          },
+          "words": {
+            "title": "words"
+          },
+          "tricky": {
+            "title": "tricky words"
+          },
+          "between": {
+            "title": "between words"
+          },
+          "hesitations": {
+            "title": "hesitations"
+          }
+        }
       }
     },
     "profiles": {
       "lock": {
         "password_for": "password for {name}",
         "switch_user": "{name}. Switch user.",
-        "is_locked": "{name} is locked"
+        "is_locked": "{name} is locked",
+        "password": "password",
+        "waiting_for_your_passkey": "waiting for your passkey…",
+        "that_passkey_couldn_t_be": "That passkey couldn’t be checked. Use the password instead.",
+        "that_password_is_not_right": "That password is not right.",
+        "switch_user_2": "switch user",
+        "this_one": "this one",
+        "open": "open",
+        "new_profile": "new profile",
+        "start_fresh": "start fresh",
+        "back": "back",
+        "keep_signed_in": "keep me signed in on this device",
+        "unlock": "unlock",
+        "unlock_passkey": "unlock with a passkey"
       },
       "delete": {
         "warning": "Deleting \"{name}\" removes its settings, history, mistakes, saved texts and level from this browser. It can't be undone.",
@@ -2842,18 +5021,268 @@
       "restore": {
         "in_folder": "in “{name}”: ",
         "open_profile": "open “{name}”"
+      },
+      "folder_restore": {
+        "pick_the_folder_kalibre_saved": "pick the folder kalibre saved to. it has a kalibre.json file in it (older backups are just .kalibre-profile files, which work too).",
+        "choose_the_folder": "choose the folder",
+        "reading_the_folder": "reading the folder…",
+        "nothing_kalibre_saved_yet": "nothing kalibre saved yet.",
+        "restored_profiles_are_added_alongside": "restored profiles are added alongside the ones here; nothing is overwritten.",
+        "pick_another_folder": "pick another folder",
+        "tick_something_to_restore_first": "tick something to restore first.",
+        "restoring": "restoring…",
+        "restoring_of": "restoring… {done} of {total}",
+        "restored": "restored {join}.",
+        "nothing_was_restored": "nothing was restored.",
+        "things_saved": "{count, plural, one {# thing} other {# things}} kalibre saved.",
+        "title": "restore from a kalibre folder",
+        "that_doesn_t_look_like": "That doesn’t look like a kalibre folder: there’s no kalibre.json in it, and no profile backups.",
+        "the_folder_s_kalibre_json": "The folder’s kalibre.json is damaged, so it can’t be read. Its files can still be imported one by one.",
+        "status": {
+          "present": "already here",
+          "missing": "not in the folder"
+        }
+      },
+      "guest_banner": {
+        "guest_profile": "guest profile",
+        "your_tests_mistakes_stats_and": "Your tests, mistakes, stats and XP are kept in this browser, but not backed up, and the profile can’t be locked. Save your progress to keep it as your own profile.",
+        "you_re_trying_kalibre_as": "You’re trying Kalibre as a guest. ",
+        "this_browser_isn_t_keeping": "this browser isn’t keeping anything, so nothing is saved when this window closes. to keep what you do, download your profile and load it in a normal window.",
+        "guest_session": "guest session: "
+      },
+      "profile_context_menu": {
+        "stats": "stats",
+        "texts": "texts",
+        "save_this_profile_as_a": "Save this profile as a file (to the kalibre folder if there is one)",
+        "save_profile": "save profile",
+        "load_a_profile_file_added": "Load a profile file, added alongside the others (nothing is overwritten)",
+        "load_profile": "load profile",
+        "profile_options": "profile options",
+        "level": "level {curLevel}",
+        "xp_remaining": "{remaining} XP remaining",
+        "xp_remaining_to_level": "{remaining} XP remaining to level {value}",
+        "guest": "guest",
+        "aria_level": ", level {level}, {into} of {needed} XP to the next",
+        "aria_locked": ", locked with a password",
+        "aria_label": "profile: {name}{level}{locked}{status}. Profile options.",
+        "status_aria": "status: {status}"
+      },
+      "profile_edit_panel": {
+        "save_name": "save name",
+        "passwords_need_a_secure_connection": "Passwords need a secure connection (https:// or localhost), so they are not available here.",
+        "this_is_a_guest_profile": "This is a guest profile. Save your progress first (the banner at the top of the page), then add a password or passkey here.",
+        "locked_with_a_password": "Locked with a password.",
+        "no_password_anyone_using_this": "No password: anyone using this browser can open this profile.",
+        "change_password": "change password",
+        "set_a_password": "set a password",
+        "remove_password": "remove password",
+        "the_new_passwords_don_t": "The new passwords don't match.",
+        "working": "working…",
+        "password_removed": "password removed",
+        "password_saved_the_profile_asks": "password saved; the profile asks for it when Kalibre opens",
+        "save_password": "save password",
+        "passkey_name": "passkey name",
+        "passkey_renamed": "passkey renamed",
+        "this_browser_can_t_use": "This browser can't use passkeys here (they need https:// or localhost).",
+        "set_a_password_first_then": "Set a password first, then add a passkey to unlock with Touch ID, Windows Hello, a phone or a security key.",
+        "rename": "rename",
+        "rename_passkey": "rename passkey {label}",
+        "added": "added {format}",
+        "for": "for {rpId}",
+        "remove_passkey_added": "remove passkey {label}, added {format}",
+        "passkey_removed": "passkey removed",
+        "no_passkeys_yet_a_passkey": "No passkeys yet. A passkey unlocks this profile without typing the password.",
+        "add_a_passkey": "add a passkey",
+        "follow_your_browser_s_prompt": "follow your browser's prompt…",
+        "passkey_added_the_lock_screen": "passkey added; the lock screen offers it next time",
+        "preparing_the_file": "preparing the file…",
+        "the_only_profile_can_t": "the only profile can't be deleted",
+        "delete_this_profile": "delete this profile",
+        "step_of": "step {value} of {length}",
+        "export_it_first": "export it first",
+        "type_the_profile_name_exactly": "Type the profile name exactly to confirm.",
+        "use_a_passkey": "use a passkey",
+        "that_passkey_couldn_t_be": "that passkey couldn't be checked.",
+        "that_password_is_not_right": "that password is not right.",
+        "this_profile_is_locked_so": "this profile is locked, so confirm it's you.",
+        "confirm": "confirm",
+        "or": "or",
+        "delete_for_good": "delete for good ({left})",
+        "delete_for_good_2": "delete for good",
+        "deleting": "deleting…",
+        "name_and_picture": "name and picture",
+        "a_password_or_passkey_keeps": "A password or passkey keeps other people using this browser out of Kalibre's screens. It doesn't encrypt what's stored in the browser.",
+        "rerun_setup": "rerun setup",
+        "an_export_is_a_compressed": "An export is a compressed .kalibre-profile file with this profile's history. Its password and passkeys come along as locks, but compressed isn't encrypted, so keep it somewhere private.",
+        "removes_passkeys": "This also removes {count, plural, one {its passkey} other {its # passkeys}}.",
+        "current_password": "current password",
+        "new_password": "new password ({MIN_PASSWORD_LENGTH}+)",
+        "repeat_it": "repeat it",
+        "type_its_name": "type its name"
+      },
+      "profile_form_helpers": {
+        "shrinking": "shrinking…",
+        "change_picture": "change picture",
+        "add_a_picture": "add a picture",
+        "optional_shrunk_to_a_small": "Optional. Shrunk to a small square and kept in this browser."
+      },
+      "profile_import": {
+        "import_a_profile_file": "import a profile file",
+        "added_alongside_the_others_nothing": "added alongside the others; nothing is overwritten"
+      },
+      "profile_new_panel": {
+        "e_g_guest": "e.g. guest",
+        "creating": "creating…",
+        "a_picture_and_password_can": "{NAME_HINT} a picture and password can be added in profile settings.",
+        "create_and_open": "create and open",
+        "or_try_as_a_guest": "or try as a guest",
+        "a_profile_to_try_things": "A profile to try things out in, with no setup; save its progress later to keep it"
+      },
+      "setup": {
+        "skip_setup": "skip setup",
+        "just_try_it_as_a": "just try it, as a guest",
+        "start_typing_now_with_the": "Start typing now with the defaults; save your progress later if you want to keep it",
+        "set_up_kalibre": "set up kalibre",
+        "progress": "{current} of {total}",
+        "progress_keys": " · enter to continue · esc to skip",
+        "keep_an_automatic_backup_in": "keep an automatic backup in a folder on this computer? (the browser can clear its own storage)",
+        "save_a_backup_of_this": "save a backup of this profile to “{name}” now?",
+        "who_ll_guide_your_touch": "who’ll guide your touch typing lessons?",
+        "new_here_or_been_here": "new here, or been here before?",
+        "kalibre_works_better_with_a": "kalibre works better with a keyboard",
+        "pick_a_theme": "pick a theme",
+        "capital_letters_in_common_words": "capital letters in common words? (quotes and your own texts always keep theirs)",
+        "default_test": "default test",
+        "when_should_kalibre_suggest_a": "when should kalibre suggest a mistake to train?",
+        "automatically_start_training_mistakes_wh": "automatically start training mistakes when they're ready?",
+        "a_daily_goal": "a daily goal?",
+        "how_often_should_the_backup": "how often should the backup folder be updated? (settings → data)",
+        "DEFAULT_TESTS": {
+          "time-15": {
+            "label": "15 seconds"
+          },
+          "time-30": {
+            "label": "30 seconds"
+          },
+          "time-60": {
+            "label": "60 seconds"
+          },
+          "words-25": {
+            "label": "25 words"
+          },
+          "words-50": {
+            "label": "50 words"
+          }
+        },
+        "GOALS": {
+          "off": {
+            "label": "no goal"
+          },
+          "minutes-10": {
+            "label": "10 minutes"
+          },
+          "minutes-20": {
+            "label": "20 minutes"
+          },
+          "words-500": {
+            "label": "500 words"
+          },
+          "words-1000": {
+            "label": "1,000 words"
+          }
+        },
+        "backupStep": {
+          "folder": {
+            "label": "choose a folder"
+          },
+          "later": {
+            "label": "not now"
+          },
+          "save": {
+            "label": "yes, save it"
+          }
+        },
+        "restoreStep": {
+          "new": {
+            "label": "new here",
+            "detail": "set up a fresh profile"
+          },
+          "restore": {
+            "label": "been here before",
+            "detail": "restore from my kalibre folder"
+          }
+        },
+        "touchStep": {
+          "ok": {
+            "label": "got it",
+            "detail": "carry on with this device"
+          }
+        },
+        "buildSteps": {
+          "relaxed": {
+            "label": "only clear patterns"
+          },
+          "normal": {
+            "label": "after a few repeats"
+          },
+          "eager": {
+            "label": "early"
+          }
+        },
+        "pick_a_language": "pick a language",
+        "name_prompt": "what should we call you?",
+        "name_hint": "a nickname is best: leave out your real name and anything personal.",
+        "starter_library_note": "a starter library of public-domain books comes with kalibre, so tests are ready with nothing to download",
+        "companion_note": "they stay with this profile. To meet the other one, make another profile.",
+        "restore_note": "kalibre can bring back your profiles, datasets and fonts from the folder it saved them to.",
+        "keyboard_note": "the on-screen keyboard works for tests and games, but a bluetooth or usb keyboard makes them fairer, and the touch typing lessons really need one. kalibre works best on a computer.",
+        "keyboard_tip": " tip: add kalibre to your home screen (share → add to home screen) so safari keeps your data; in a tab, come back at least once a week.",
+        "auto_accept_yes": "yes, add them automatically",
+        "language_detail": {
+          "en-US": "adapted spelling",
+          "zh-CN": "Chinese Simplified"
+        }
+      },
+      "passkey_utils": {
+        "this_browser_can_t_use": "This browser can’t use passkeys here (they need https:// or localhost).",
+        "that_passkey_uses_a_kind": "That passkey uses a kind of key Kalibre can’t check. Try another device or browser.",
+        "no_passkey_for_this_profile": "No passkey for this profile works at this address.",
+        "not_a_der_signature": "not a DER signature",
+        "not_a_der_integer": "not a DER integer",
+        "integer_too_long": "integer too long",
+        "the_passkey_request_was_cancelled": "The passkey request was cancelled or timed out.",
+        "that_device_already_has_a": "That device already has a passkey for this profile.",
+        "passkeys_aren_t_allowed_at": "Passkeys aren’t allowed at this address.",
+        "the_passkey_didn_t_work": "The passkey didn’t work."
+      },
+      "avatar_utils": {
+        "choose_an_image_file": "Choose an image file.",
+        "that_image_is_too_large": "That image is too large (20 MB at most).",
+        "that_image_couldn_t_be": "That image couldn’t be read.",
+        "that_image_couldn_t_be_2": "That image couldn’t be made small enough."
+      },
+      "kalibre_folder": {
+        "that_folder_was_made_by": "That folder was made by a newer kalibre. Update this one (reload to update), then try again."
+      },
+      "password_utils": {
+        "passwords_need_a_secure_connection": "Passwords need a secure connection (https:// or localhost).",
+        "use_at_least_characters": "Use at least {MIN_PASSWORD_LENGTH} characters.",
+        "this_profile_is_locked_and": "This profile is locked, and passwords need a secure connection (https:// or localhost)."
+      },
+      "profile_export_v2": {
+        "that_profile_isn_t_there": "That profile isn’t there any more."
+      },
+      "profile_file": {
+        "this_browser_can_t_open": "This browser can’t open compressed profile files. Try a recent Chrome, Edge, Firefox or Safari.",
+        "the_profile_file_is_damaged": "The profile file is damaged (it could not be decompressed)."
+      },
+      "profile_name": {
+        "email": "That looks like an email address. Use a nickname instead.",
+        "phone": "That looks like a phone number. Use a nickname instead.",
+        "blocked": "That name has a word Kalibre keeps out. Try another."
       }
     },
     "quests": {
-      "kinds": {
-        "type_words": "type {count} word(s)",
-        "type_minutes": "type for {count} minute(s)",
-        "finish_tests": "finish {count} test(s)",
-        "play_game": "play {game} {count} time(s)",
-        "score_game": "score {score} in {game}",
-        "find_mistakes": "find {count} mistake(s) in one {game} run",
-        "touch_typing_lesson": "do a touch typing lesson"
-      },
       "status": {
         "done": "done"
       },
@@ -2876,6 +5305,70 @@
         "new_at_midnight": "{difficulty} · new quests at midnight · ",
         "difficulty": "difficulty",
         "summary_aria": "today: {done} of {total} quests done{challenge, select, done {, challenge done} other {}}"
+      },
+      "quest_note": {
+        "xp": "+{reward} xp"
+      },
+      "match": {
+        "tests": "{count, plural, one {a test} other {tests}}",
+        "drills": "{count, plural, one {a drill} other {drills}}",
+        "time": "{count, plural, one {a time test} other {time tests}}",
+        "words": "{count, plural, one {a words test} other {words tests}}",
+        "quote": "{count, plural, one {a quote} other {quotes}}",
+        "book": "{count, plural, one {a book reading} other {book readings}}",
+        "sustained": "{count, plural, one {a sustained test} other {sustained tests}}",
+        "time_duration": "{count, plural, one {a {duration}-second test} other {{duration}-second tests}}",
+        "words_count": "{count, plural, one {a {wordCount}-word test} other {{wordCount}-word tests}}",
+        "quote_category": "{count, plural, one {a {category} quote} other {{category} quotes}}"
+      },
+      "categories": {
+        "short": "short",
+        "medium": "medium",
+        "long": "long",
+        "huge": "huge",
+        "massive": "massive"
+      },
+      "game_titles": {
+        "feed": "Feed",
+        "castle": "Castle",
+        "space": "Space",
+        "spot": "Spot"
+      },
+      "difficulty_words": {
+        "easy": "on easy",
+        "normal": "on normal",
+        "hard": "on hard"
+      },
+      "conditions": {
+        "wpm": "{wpm}+ wpm",
+        "accuracy": "{accuracy}%+ accuracy",
+        "and": " and ",
+        "at": " at {parts}",
+        "kept_going_after": ", kept going for {minutes, plural, one {# minute} other {# minutes}}",
+        "kept_going": " kept going for {minutes, plural, one {# minute} other {# minutes}}"
+      },
+      "describe": {
+        "words": "type {count, plural, one {# word} other {# words}}",
+        "words_in": "type {count, plural, one {# word} other {# words}} in {match}",
+        "minutes": "type for {count, plural, one {# minute} other {# minutes}}",
+        "minutes_in": "type for {count, plural, one {# minute} other {# minutes}} in {match}",
+        "minutes_book": "type from a book for {count, plural, one {# minute} other {# minutes}}",
+        "tests_one": "finish {match}",
+        "tests_many": "finish {count} {match}",
+        "run": "finish {match}{conditions}",
+        "game_runs": "play {game} {count, plural, one {once} other {# times}}",
+        "game_score": "score {score} in {game}",
+        "game_score_difficulty": "score {score} in {game} {difficulty}",
+        "game_found": "find {count, plural, one {# mistake} other {# mistakes}} in one {game} run",
+        "lesson_run": "type a touch typing lesson at {accuracy}%+ accuracy",
+        "lessons": "{count, plural, one {do a touch typing lesson} other {do # touch typing lessons}}",
+        "pad_tests": "{count, plural, one {finish a ten-key test} other {finish # ten-key tests}}",
+        "pad_run": "finish a ten-key test",
+        "pad_ksph": "{ksph}+ keystrokes an hour",
+        "pad_entries": ", with {entries}+ entries",
+        "pad_lessons": "{count, plural, one {do a number pad lesson} other {do # number pad lessons}}",
+        "sums": "get {count, plural, one {# sum} other {# sums}} right",
+        "something": "something"
       }
     },
     "race": {
@@ -2898,6 +5391,164 @@
         "overtake": "{racer} overtook {target}",
         "lap": "{racer} finished lap {lap}",
         "finish": "{racer} finished the race"
+      },
+      "race_choices": {
+        "your_own": "{label}, your own ({min}–{max})"
+      },
+      "race": {
+        "race_people_on_your_network": "race people on your network, on the same text at the same time: a quote, a number of words, against the clock, or for as long as you keep your pace.",
+        "code": "code",
+        "room_code": "room code",
+        "host_a_race_and_share": "host a race and share its code, or join someone else’s.",
+        "races_run_through_a_computer": "races run through a computer hosting kalibre on your network: run npm run lan there, and everyone opens the address it shows.",
+        "here_you_can_race_another": "here, you can race another tab of this browser.",
+        "others_join_with_this_code": "others join with this code.",
+        "you_re_in": "you’re in.",
+        "someone_here_is_on_a": "someone here is on a different version of kalibre, so their messages can’t be read. everyone should reload to update.",
+        "rules_waiting_for_the_host": "rules: {rulesLine}. waiting for the host to start.",
+        "the_host_can_start_another": "the host can start another race.",
+        "end_the_race_for_everyone": "end the race for everyone",
+        "back_to_the_race_room": "back to the race room",
+        "pit_stop": "pit stop",
+        "race_again": "race again",
+        "enter_a_rest_stop_left": "enter: a rest stop ({left} left)",
+        "room": "room {code}",
+        "pit_stop_hint": "enter: a pit stop to put {words, plural, one {# wrong word} other {# wrong words}} right (costs a couple of seconds)",
+        "ok_let_s_race": "ok, let’s race",
+        "host_a_race": "host a race",
+        "start_the_race": "start the race",
+        "waiting_for_someone_to_join": "waiting for someone to join",
+        "shared_notice": "players in this room will see your profile card (your name, level, companion, and what your card wears and shows; never your picture), how far you’ve typed, and in a sustained race whether you’re keeping up. nothing else leaves your device."
+      },
+      "course": {
+        "a_course_s_words_can": "a course’s words can’t be empty or hold spaces",
+        "there_s_no_text_to": "there’s no text to make a course of"
+      },
+      "ghost_file": {
+        "a_replay_in_the_file": "a replay in the file is damaged",
+        "its_run_doesn_t_fit": "its run doesn’t fit its course",
+        "its_run_can_t_be": "its run can’t be read",
+        "its_time_doesn_t_match": "its time doesn’t match its run",
+        "its_result_doesn_t_match": "its result doesn’t match its run",
+        "the_file_s_is_damaged": "the file’s {what} is damaged",
+        "the_course_in_the_file": "the course in the file was changed after it was made",
+        "a_ghost_in_the_file": "a ghost in the file belongs to another course",
+        "this_browser_can_t_open": "this browser can’t open compressed ghost files",
+        "the_file_is_too_big": "the file is too big to be a ghost",
+        "a_ghost_file_needs_a": "a ghost file needs a ghost in it",
+        "a_ghost_file_holds_at": "a ghost file holds at most {ghosts} ghosts",
+        "every_ghost_in_a_file": "every ghost in a file has to be on its course",
+        "that_s_too_much_for": "that’s too much for one ghost file",
+        "that_isn_t_a_kalibre": "that isn’t a kalibre ghost file",
+        "that_ghost_file_is_from": "that ghost file is from a newer kalibre: update this one, then try again",
+        "its_ghost_can_t_be": "its ghost can’t be used: {reason}",
+        "none_of_its_ghosts_can": "none of its ghosts can be used"
+      },
+      "ghost_share": {
+        "that_course_isn_t_here": "that course isn’t here any more",
+        "pick_a_ghost_to_export": "pick a ghost to export"
+      },
+      "replay_codec": {
+        "a_replay_can_t_hold": "a replay can't hold {value}",
+        "the_replay_ends_too_soon": "the replay ends too soon",
+        "the_replay_holds_a_number": "the replay holds a number too big to be one",
+        "the_keystrokes_aren_t_in": "the keystrokes aren’t in the order they were typed",
+        "a_keystroke_of_a_kind": "a keystroke of a kind a replay doesn’t know ({type})",
+        "an_event_a_replay_doesn": "an event a replay doesn’t know ({op})",
+        "replay_times_have_to_be": "replay times have to be whole milliseconds, in order",
+        "a_special_event_a_replay": "a special event a replay doesn’t know ({kind})",
+        "that_isn_t_a_kalibre": "that isn’t a kalibre replay",
+        "that_replay_is_from_a": "that replay is from a newer kalibre",
+        "the_replay_has_an_event": "the replay has an event this kalibre doesn’t know",
+        "the_replay_is_damaged": "the replay is damaged",
+        "the_replay_has_more_in": "the replay has more in it than it says",
+        "this_replay_doesn_t_fit": "this replay doesn’t fit these words"
+      },
+      "run_store": {
+        "a_run_s_course_is": "a run’s course is missing"
+      },
+      "room": {
+        "only_the_host_sets_the": "Only the host sets the rules.",
+        "only_the_host_starts_a": "Only the host starts a race."
+      },
+      "format": {
+        "seconds": "{value}s",
+        "rules_laps": " · laps of {lap}",
+        "rules_quote": "quote · {amount}",
+        "rules_words": "words · {amount}",
+        "rules_from_quotes": " from quotes",
+        "rules_time": "time · {amount} s",
+        "rules_accuracy": "sustained · accuracy {target}%",
+        "rules_pace": "sustained · pace {target} wpm",
+        "amount_short": "short",
+        "amount_medium": "medium",
+        "amount_long": "long",
+        "amount_mixed": "mixed",
+        "choice_laps": "laps",
+        "choice_off": "off",
+        "choice_lap_words": "{count} words",
+        "choice_length": "length",
+        "choice_words": "words",
+        "choice_from": "from",
+        "choice_common_words": "common words",
+        "choice_quotes": "quotes",
+        "choice_seconds": "seconds",
+        "choice_keep_up": "keep up",
+        "choice_pace": "pace",
+        "choice_accuracy": "accuracy",
+        "choice_target_percent": "target %",
+        "choice_target_wpm": "target wpm",
+        "mode_quote": "quote",
+        "mode_words": "words",
+        "mode_time": "time",
+        "mode_sustained": "sustained",
+        "ghost_off": "no ghost",
+        "ghost_wpm": "{wpm} wpm",
+        "ghost_when": " · {date}",
+        "ghost_best": "your best",
+        "ghost_last": "your last run",
+        "ghost_run": "an earlier run",
+        "ghost_line": "{name} · {what}{when}",
+        "state_ok": "holding",
+        "state_below": "slipping",
+        "state_out": "out",
+        "state_pit": "in the pits",
+        "gone": "gone",
+        "not_counted": "not counted",
+        "live_out": "{time} · out",
+        "live_state": "{time} · {state}",
+        "live_finished": "{place}. {time}",
+        "penalty": " (+{seconds}s)",
+        "didnt_finish": "didn’t finish",
+        "result_didnt_finish": "didn’t finish · {words} words",
+        "result_time": "{place}. {wpm} wpm · {words} words · {accuracy}",
+        "result_accuracy_first": "{accuracy} · {wpm} wpm",
+        "result_pace_first": "{wpm} wpm · {accuracy}",
+        "result_survived": "{place}. {time} survived · {first}",
+        "still_going": " · still going",
+        "result_standard": "{place}. {time}{penalty} · {wpm} wpm · {accuracy}{pits}",
+        "pits": " · {count, plural, one {# pit} other {# pits}}",
+        "place_one": "{place}st",
+        "place_two": "{place}nd",
+        "place_few": "{place}rd",
+        "place_other": "{place}th",
+        "place_zero": "{place}th",
+        "place_many": "{place}th",
+        "finished": "finished",
+        "you": "you",
+        "share_win": "{names} share the win",
+        "won": "{name} won",
+        "won_you_came": "{won} · you came {place}",
+        "starts_in": "starts in {left}…",
+        "go": "go!",
+        "lap": "lap {lap}",
+        "lap_of": "lap {lap} of {of}",
+        "lap_last": " · last {time}",
+        "lap_best": " · best {time}",
+        "with_lap": " · {lap}",
+        "time_left": "{time} left",
+        "last_standing": "{time} · last one standing wins",
+        "to_finish": "{seconds} s to finish"
       }
     },
     "results": {
@@ -2928,6 +5579,65 @@
         "words": "words",
         "final": "final",
         "as_typed": "as typed"
+      },
+      "race_results": {
+        "full_stats": "full stats",
+        "your_race": "your race",
+        "this_race_looked_like_key": "this race looked like key mashing ({notCountedReason}), so it wasn't counted: no xp, mistakes or stats.",
+        "lv_to_go": " · lv {level} · {value} to go",
+        "drill_now": "drill now",
+        "counts": "errors {errors} · words {words}"
+      },
+      "replay_player": {
+        "test_replay": "test replay",
+        "pinned": "pinned ✓",
+        "pinned_limit_reached_replays_unpin": "pinned limit reached ({PINNED_LOGS_CAP} replays). Unpin an older replay first.",
+        "close_replay": "close replay",
+        "replay_scrubber": "replay scrubber",
+        "jump_to_playhead": "jump to playhead ⇥",
+        "0_wpm": "0 wpm",
+        "replay_timeline_zoom": "replay timeline zoom",
+        "zoom": "zoom",
+        "restart_replay": "restart replay",
+        "play": "play",
+        "saved_as_ghost": "saved as ghost ✓",
+        "wpm": "{round} wpm"
+      },
+      "result_chart": {
+        "per_second_results": "Per-second results",
+        "not_enough_typing_to_draw": "Not enough typing to draw a chart.",
+        "chart_zoom": "chart zoom",
+        "speed_over_time_use_the": "Speed over time. Use the left and right arrow keys to read each second."
+      },
+      "results": {
+        "words_lowest_accuracy_target_kept": "{words} words · lowest accuracy {round}% · target {targetAccuracy}% · kept {floorWpm}+ wpm",
+        "words_peak_pace_lowest_target": "{words} words · peak pace {round} · lowest {round2} · target {targetWpm} wpm",
+        "longest_above_target_raw_in": "longest above target {formatDuration} · {nearMisses} · raw {round} · {formatDuration2} in all",
+        "mistake_analysis_failed_for_this": "mistake analysis failed for this session",
+        "common_mistakes": "common mistakes",
+        "show_the_words": "show the words",
+        "expected": "expected \"{text}\"",
+        "typed_expected": "typed {typed}, expected {text}",
+        "deleted": "deleted",
+        "this_drill": "this drill",
+        "now": "now {to}",
+        "race_this_drill": "race this drill",
+        "race_the_same_drill_again": "Race the same drill again, against a ghost of this run",
+        "results": "results",
+        "survived": "survived",
+        "wpm": "wpm",
+        "acc": "acc",
+        "this_test_looked_like_key": "This test looked like key mashing ({notCountedReason}), so it wasn't counted: no XP, mistakes or stats.",
+        "suggested_for_training": "{extraSuggested} suggested for training",
+        "book_range": " {start} → {end}",
+        "the_end": "the end",
+        "book_words": " · {count} words",
+        "overdeleted": "you deleted {count, plural, one {# correct character} other {# correct characters}} beyond the slip",
+        "overdeleted_cost": ", about {cost} wpm",
+        "mistake_line": "{errors} in {exposures}{share} · before {before}",
+        "summary_line": "raw {raw} · {spread} · {duration}",
+        "practice_words": " · {count, plural, one {# practice word} other {# practice words}}",
+        "letters_to_cover": " · {count, plural, one {# letter} other {# letters}} still to cover"
       }
     },
     "settings": {
@@ -2935,32 +5645,42 @@
         "mistakeSensitivity": {
           "label": "suggest mistakes to train",
           "option": {
-            "relaxed": "only clear patterns"
-          }
+            "relaxed": "only clear patterns",
+            "normal": "normal",
+            "eager": "early"
+          },
+          "description": "how much evidence before a suggestion"
         },
         "autoAcceptMistakes": {
-          "label": "auto-add mistakes to training"
+          "label": "auto-add mistakes to training",
+          "description": "start training eligible mistakes automatically"
         },
         "adaptiveMix": {
           "label": "practice words in word tests",
           "option": {
             "light": "a few",
-            "strong": "more"
-          }
+            "strong": "more",
+            "off": "off"
+          },
+          "description": "mix in words with mistakes being watched"
         },
         "goalType": {
           "label": "daily goal",
           "option": {
             "off": "none",
             "minutes": "minutes",
-            "words": "words"
-          }
+            "words": "words",
+            "xp": "xp"
+          },
+          "description": "typing to aim for each day"
         },
         "goalMinutes": {
-          "label": "minutes a day"
+          "label": "minutes a day",
+          "description": "daily goal in minutes"
         },
         "goalWords": {
-          "label": "words a day"
+          "label": "words a day",
+          "description": "daily goal in words"
         },
         "questDifficulty": {
           "label": "daily quest difficulty",
@@ -2968,7 +5688,8 @@
             "easy": "easy",
             "normal": "normal",
             "hard": "hard"
-          }
+          },
+          "description": "how far quests and the daily challenge stretch you, and how much XP they give. A change applies from tomorrow’s quests"
         },
         "lessonCompanion": {
           "label": "lesson companion"
@@ -2977,7 +5698,8 @@
           "label": "capitals in common words"
         },
         "paragraphBreaks": {
-          "label": "paragraph breaks"
+          "label": "paragraph breaks",
+          "description": "press enter at paragraph ends"
         },
         "wordPool": {
           "label": "word list",
@@ -2990,8 +5712,11 @@
           "option": {
             "everyday": "everyday",
             "some_long": "some long words",
-            "long": "long words"
-          }
+            "long": "long words",
+            "common": "everyday",
+            "mixed": "some long words"
+          },
+          "description": "longer, harder words in time and word tests"
         },
         "wordSpelling": {
           "label": "spelling in word tests",
@@ -2999,7 +5724,8 @@
             "both": "both (as written)",
             "uk": "UK English (colour, centre)",
             "us": "US English (color, center)"
-          }
+          },
+          "description": "spelling variant in word tests and drills"
         },
         "textSize": {
           "label": "typing text size"
@@ -3025,14 +5751,17 @@
           }
         },
         "smoothCaret": {
-          "label": "smooth caret"
+          "label": "smooth caret",
+          "description": "cursor glides between letters"
         },
         "focusMode": {
           "label": "focus",
           "option": {
             "line": "current line",
-            "sentence": "sentence"
-          }
+            "sentence": "sentence",
+            "none": "off"
+          },
+          "description": "dim text outside the line or sentence"
         },
         "liveMetrics": {
           "label": "live wpm and accuracy"
@@ -3045,7 +5774,12 @@
           }
         },
         "restartKey": {
-          "label": "restart key"
+          "label": "restart key",
+          "description": "keys that restart a test",
+          "option": {
+            "tab-enter": "tab → enter",
+            "tab-tab": "tab → tab"
+          }
         },
         "layout": {
           "label": "keyboard layout"
@@ -3058,10 +5792,453 @@
           }
         },
         "defaultDuration": {
-          "label": "default test duration"
+          "label": "default test duration",
+          "description": "length of a time test"
         },
         "defaultWordCount": {
-          "label": "default word count"
+          "label": "default word count",
+          "description": "length of a words test"
+        },
+        "mode": {
+          "label": "mode",
+          "description": "light, dark, or follow your system",
+          "option": {
+            "system": "match system",
+            "light": "light",
+            "dark": "dark"
+          }
+        },
+        "themeLight": {
+          "label": "light theme",
+          "description": "colours when using light mode",
+          "option": {
+            "paper": "paper",
+            "eink": "e-ink",
+            "cream": "cream",
+            "rose": "rose",
+            "harbour": "harbour",
+            "contrast": "high contrast"
+          }
+        },
+        "themeDark": {
+          "label": "dark theme",
+          "description": "colours when using dark mode",
+          "option": {
+            "ink": "ink",
+            "dusk": "dusk",
+            "eink-night": "e-ink night",
+            "forest": "forest",
+            "plum": "plum",
+            "slate": "slate",
+            "terminal": "terminal",
+            "contrast-night": "high contrast night"
+          }
+        },
+        "theme": {
+          "label": "theme",
+          "description": "colours for the whole app",
+          "option": {
+            "system": "match system",
+            "paper": "paper",
+            "ink": "ink",
+            "dusk": "dusk",
+            "eink": "e-ink",
+            "eink-night": "e-ink night",
+            "cream": "cream",
+            "rose": "rose",
+            "harbour": "harbour",
+            "forest": "forest",
+            "plum": "plum",
+            "slate": "slate",
+            "terminal": "terminal",
+            "contrast": "high contrast",
+            "contrast-night": "high contrast night"
+          }
+        },
+        "customThemes": {
+          "label": "your themes"
+        },
+        "typingFontSize": {
+          "label": "typing text size",
+          "description": "size of the text you type"
+        },
+        "typingFont": {
+          "label": "typing font"
+        },
+        "typingFontWeight": {
+          "label": "typing font weight",
+          "description": "how bold the typing text is",
+          "option": {
+            "300": "300",
+            "400": "400",
+            "500": "500",
+            "600": "600",
+            "700": "700"
+          }
+        },
+        "typingLineHeight": {
+          "label": "typing line height",
+          "description": "space between typing lines"
+        },
+        "typingLetterSpacing": {
+          "label": "typing letter spacing",
+          "description": "space between letters"
+        },
+        "caret": {
+          "label": "caret style",
+          "description": "shape of the cursor",
+          "option": {
+            "line": "line",
+            "block": "block",
+            "underline": "underline"
+          }
+        },
+        "linesAhead": {
+          "label": "lines ahead",
+          "description": "how many lines are visible",
+          "option": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4"
+          }
+        },
+        "showLiveStats": {
+          "label": "live wpm and accuracy",
+          "description": "wpm and accuracy while typing"
+        },
+        "errorDisplay": {
+          "label": "show mistakes as",
+          "description": "what a wrong letter shows",
+          "option": {
+            "expected": "expected letter",
+            "typed": "typed letter"
+          }
+        },
+        "keyboardLayout": {
+          "label": "keyboard layout",
+          "description": "this tells Kalibre where keys sit to judge neighbours; it does not change what you type",
+          "option": {
+            "qwerty": "QWERTY (US)",
+            "dvorak": "Dvorak",
+            "colemak": "Colemak",
+            "colemak-dh": "Colemak-DH",
+            "workman": "Workman",
+            "azerty": "AZERTY (French)",
+            "qwertz": "QWERTZ (German)"
+          }
+        },
+        "inputMethod": {
+          "label": "I type with",
+          "description": "a steno machine sends whole words at once, so Kalibre notes whole-word mistakes only and puts the touch typing lessons aside",
+          "option": {
+            "keyboard": "a keyboard",
+            "steno": "a steno machine"
+          }
+        },
+        "capitals": {
+          "label": "capitals in common words",
+          "description": "quotes and your texts always keep theirs"
+        },
+        "wordList": {
+          "label": "word list",
+          "description": "how many common words to draw from",
+          "option": {
+            "200": "200 common words",
+            "1000": "1k common words",
+            "5000": "5k common words"
+          }
+        },
+        "customSampling": {
+          "label": "custom texts",
+          "description": "whole text or a passage",
+          "option": {
+            "passage": "random passage",
+            "entire": "entire text"
+          }
+        },
+        "customQuoteLength": {
+          "label": "passage length",
+          "description": "character band for a custom passage",
+          "option": {
+            "short": "short (up to 100 chars)",
+            "medium": "medium (up to 300 chars)",
+            "long": "long (up to 600 chars)",
+            "huge": "huge (up to 1500 chars)",
+            "massive": "massive (up to 4000 chars)"
+          }
+        },
+        "customNormalisation": {
+          "label": "custom text characters",
+          "description": "what custom texts keep",
+          "option": {
+            "preserve": "as written",
+            "no-punctuation": "no punctuation",
+            "letters": "letters only",
+            "letters-numbers": "letters + numbers"
+          }
+        },
+        "mixedCategories": {
+          "label": "mixed quote lengths",
+          "description": "quote lengths mixed tests use",
+          "option": {
+            "short": "short",
+            "medium": "medium",
+            "long": "long",
+            "huge": "huge",
+            "massive": "massive"
+          }
+        },
+        "goalXp": {
+          "label": "xp a day",
+          "description": "daily goal in xp from typing (not bonuses); a minute of clean typing earns about 8–15"
+        },
+        "companion": {
+          "label": "lesson companion",
+          "description": "chosen at setup, and kept by the profile",
+          "option": {
+            "cal": "Cal",
+            "libby": "Libby"
+          }
+        },
+        "mascotChatter": {
+          "label": "{companion}’s chatter",
+          "description": "how much {companion} says",
+          "option": {
+            "chatty": "chatty",
+            "quiet": "only what matters"
+          }
+        },
+        "mascotSounds": {
+          "label": "{companion}’s sounds",
+          "description": "little chirps in lessons (never mid-word), a purr when petted and a giggle when tickled"
+        },
+        "mascotVolume": {
+          "label": "{companion}’s volume",
+          "description": "how loud {companion} is"
+        },
+        "uiFontSize": {
+          "label": "interface text size",
+          "description": "size of the interface text"
+        },
+        "reduceMotion": {
+          "label": "reduce motion",
+          "description": "fewer animations",
+          "option": {
+            "system": "match system",
+            "on": "on",
+            "off": "off"
+          }
+        },
+        "colourVision": {
+          "label": "colour vision",
+          "description": "adjust colours for colour blindness",
+          "option": {
+            "typical": "typical",
+            "red-green": "red-green (protanopia, deuteranopia)",
+            "blue-yellow": "blue-yellow (tritanopia)",
+            "no-colour": "no colour"
+          }
+        },
+        "uiFont": {
+          "label": "interface font",
+          "description": "font for menus and text outside the typing area",
+          "option": {
+            "system": "system default",
+            "atkinson": "Atkinson Hyperlegible",
+            "opendyslexic": "OpenDyslexic"
+          }
+        },
+        "boldText": {
+          "label": "bold text",
+          "description": "heavier text throughout the interface"
+        },
+        "textSpacing": {
+          "label": "text spacing",
+          "description": "wider spacing between letters and words",
+          "option": {
+            "normal": "normal",
+            "wide": "wide"
+          }
+        },
+        "contrast": {
+          "label": "contrast",
+          "description": "make text and borders more distinct",
+          "option": {
+            "system": "match system",
+            "normal": "normal",
+            "more": "more"
+          }
+        },
+        "pageWidth": {
+          "label": "page width",
+          "description": "width of the page content",
+          "option": {
+            "narrow": "narrow (720 px)",
+            "normal": "normal (880 px)",
+            "wide": "wide (1000 px)",
+            "full": "full width"
+          }
+        },
+        "language": {
+          "label": "language",
+          "description": "interface language; reload after changing",
+          "option": {
+            "en-GB": "English (UK)",
+            "en-US": "English (US)",
+            "zh-CN": "简体中文 (Chinese Simplified)",
+            "qps": "pseudo",
+            "qps-wide": "pseudo wide"
+          }
+        },
+        "backupFrequency": {
+          "label": "automatic backups",
+          "description": "when the backup folder is updated (Chrome and Edge)",
+          "option": {
+            "change": "soon after any change",
+            "test": "after each test",
+            "5min": "every 5 minutes at most",
+            "hourly": "every hour at most",
+            "manual": "only when I ask"
+          }
+        },
+        "updateCheck": {
+          "label": "check for updates",
+          "description": "how often kalibre looks for a new version; it waits for you either way",
+          "option": {
+            "5min": "every 5 minutes",
+            "15min": "every 15 minutes",
+            "hourly": "every hour",
+            "launch": "when kalibre opens",
+            "manual": "only when I ask"
+          }
+        },
+        "enabledDatasets": {
+          "label": "enabled datasets"
+        },
+        "libraries": {
+          "label": "dataset libraries"
+        },
+        "wordFilter": {
+          "label": "filter offensive words"
+        },
+        "blockedWords": {
+          "label": "words of your own to filter"
+        },
+        "companionLook": {
+          "label": "{companion}’s look"
+        },
+        "stenoNoteShown": {
+          "label": "steno note shown"
+        },
+        "lastVisitDay": {
+          "label": "last visit"
+        },
+        "calSeen": {
+          "label": "{companion}’s items seen"
+        },
+        "calPets": {
+          "label": "times {companion} was petted"
+        },
+        "calPokes": {
+          "label": "times {companion} was poked"
+        },
+        "calTickles": {
+          "label": "times {companion} was tickled"
+        },
+        "calPokeFits": {
+          "label": "times {companion} was poked too much"
+        },
+        "raceNoticeSeen": {
+          "label": "race notice seen"
+        },
+        "lastSeenVersion": {
+          "label": "last version seen"
+        },
+        "updateTold": {
+          "label": "update mentioned"
+        },
+        "calArmLifts": {
+          "label": "times {companion}’s arm was lifted"
+        },
+        "restartRun": {
+          "label": "last start"
+        },
+        "calRestartBest": {
+          "label": "most quick restarts in a row"
+        },
+        "achievementsSeen": {
+          "label": "achievements seen"
+        },
+        "achievementsVersionSeen": {
+          "label": "achievements version seen"
+        },
+        "themeDecorations": {
+          "label": "theme decorations"
+        },
+        "profileCard": {
+          "label": "profile card"
+        },
+        "cardItemsSeen": {
+          "label": "profile card items seen"
+        },
+        "raceCardNoticeSeen": {
+          "label": "race card notice seen"
+        },
+        "car": {
+          "label": "race car"
+        },
+        "carPartsSeen": {
+          "label": "race car parts seen"
+        },
+        "raceConfig": {
+          "label": "race choices"
+        },
+        "raceModesNoticeSeen": {
+          "label": "race modes notice seen"
+        },
+        "decorationsSeen": {
+          "label": "theme decorations seen"
+        },
+        "achievementsComplete": {
+          "label": "every achievement"
+        },
+        "engagement": {
+          "label": "engagement"
+        },
+        "partnerLook": {
+          "label": "partner’s look"
+        },
+        "lessonConfig": {
+          "label": "lesson setup"
+        },
+        "lessonPrep": {
+          "label": "lesson steps and warm-ups"
+        },
+        "gameConfigs": {
+          "label": "game setups"
+        },
+        "lastConfig": {
+          "label": "last test configuration"
+        },
+        "numpad": {
+          "label": "i have a number pad",
+          "description": "for number pad practice, and to say if num lock is off"
+        },
+        "numpadSeen": {
+          "label": "number pad seen"
+        },
+        "numpadTold": {
+          "label": "number pad practice mentioned"
+        },
+        "numpadOffered": {
+          "label": "number pad practice offered"
+        },
+        "sumsConfig": {
+          "label": "sums setup"
+        },
+        "numpadConfig": {
+          "label": "ten-key test setup"
         }
       },
       "actions": {
@@ -3073,6 +6250,139 @@
       },
       "notice": {
         "imported_count": "imported {count} setting(s)"
+      },
+      "data_panel": {
+        "done_the_browser_will_keep": "Done: the browser will keep your data.",
+        "the_browser_said_no_for": "The browser said no for now. Installing kalibre as an app or bookmarking it often changes that; meanwhile, keep a backup.",
+        "this_browser_can_t_save": "This browser can’t save to a folder by itself, so back up by hand below. (Chrome and Edge can do it automatically.)",
+        "choose_a_folder_on_this": "Choose a folder on this computer and it becomes your kalibre folder: this profile is saved there a few seconds after each test or change, with the datasets and fonts you’ve added. A folder with other things in it gets a “kalibre” folder made inside.",
+        "saving_this_profile_and_the": "Saving this profile, and the datasets and fonts added here, to the kalibre folder “{folderName}” · {last}.{problem}",
+        "when_an_update_changes_how": "When an update changes how kalibre stores things, it keeps a copy of everything from just before, in case something went wrong. The latest two are kept.",
+        "what_takes_the_space": "what takes the space",
+        "bring_profiles_datasets_and_fonts": "Bring profiles, datasets and fonts back from a kalibre folder: after the browser was cleared, or on another computer. Nothing here is overwritten. Works in any browser.",
+        "shared": "shared",
+        "the_file_is_ready": "the file is ready",
+        "couldn_t_save_see_settings": "couldn’t save (see settings → data)",
+        "storage_persistent": "The browser keeps kalibre’s data until you clear it yourself.",
+        "storage_best_effort": "The browser may clear kalibre’s data if the disk runs low (Safari also does after 7 days without a visit). Ask it to keep the data, and keep a backup.",
+        "storage_unsupported": "This browser can’t promise to keep kalibre’s data, so keep a backup.",
+        "storage_using": " Using {used}.",
+        "overdue": "This profile hasn’t been backed up for over {days} days. ",
+        "never_backed_up": "This profile hasn’t been backed up yet. ",
+        "last_backup": "Last backup {when}. ",
+        "export_explained": "An export is a file with this profile’s history (saved in the kalibre folder’s exports when there is one); restore it with “import a profile file” in the profile menu.",
+        "copy_line": "from {when}, just before{what} changed how data is stored · {records} records",
+        "copy_app": " kalibre v{app}",
+        "copy_update": " an update",
+        "allow_again": "allow again",
+        "save_over_it": "save over it",
+        "restore_it": "restore it",
+        "put_this_copy_back": "put this copy back",
+        "share_it": "share it"
+      },
+      "fonts": {
+        "default_monospace": "default (monospace)",
+        "font_names_can_only_use": "Font names can only use letters, numbers, spaces, dots, dashes and underscores.",
+        "isn_t_available_on_this": "\"{family}\" isn't available on this device, so the default font is shown.",
+        "use": "use {family}",
+        "kb": "{fileName} · {round} KB",
+        "remove": "remove {family}",
+        "list_fonts_on_this_computer": "list fonts on this computer",
+        "fonts_found_start_typing_a": "{length} fonts found; start typing a name to pick one.",
+        "the_browser_did_not_allow": "The browser did not allow listing fonts. You can still type any installed font name.",
+        "load_a_font_file": "load a font file",
+        "use_default_font": "use default font",
+        "bundled_legible": "bundled · legible monospace",
+        "bundled_dyslexia": "bundled · dyslexia-friendly",
+        "sample": "the quick brown fox jumps over the lazy dog. 0123456789"
+      },
+      "settings": {
+        "github": "github",
+        "translation_note": "this translation wasn't written or checked by a native speaker, so some of it may read oddly. you can help improve it on {link}.",
+        "imported": "imported {count, plural, one {# setting} other {# settings}}",
+        "skipped": " · skipped {what}",
+        "sections_label": "settings sections"
+      },
+      "storage_screen": {
+        "measuring": "measuring…",
+        "space_used": "space used",
+        "yes": "yes, {label}",
+        "export_first": "export first",
+        "kalibre_is_using_of_the": "kalibre is using {formatSize} of the {formatSize2} this browser allows it.",
+        "kalibre_is_using_about": "kalibre is using about {formatSize}.",
+        "couldn_t_measure": "couldn’t measure: {message}"
+      },
+      "theme_editor": {
+        "sample_of_this_theme": "sample of this theme",
+        "needs_1": " (needs {minimum}:1)",
+        "fix_the_colours_marked_first": "Fix the colours marked ✗ first",
+        "hex_value": "{label} hex value",
+        "edit_theme": "edit theme",
+        "a_sample_of_every_colour": "A sample of every colour, with your colour vision and contrast settings. Hover over a colour, or choose one, to outline where it goes.",
+        "imported": "imported \"{name}\"",
+        "that_file_isn_t_a": "That file isn't a theme.",
+        "saved": "saved \"{name}\"",
+        "saved_decorate": ". Decorate it from the list whenever you like.",
+        "groups": {
+          "page": "page",
+          "text": "text",
+          "typing": "typing",
+          "charts": "charts"
+        },
+        "tokens": {
+          "bg": "background",
+          "surface": "panels",
+          "separator": "lines and borders",
+          "selection": "selection",
+          "text": "text",
+          "textDim": "dim text",
+          "accent": "accent",
+          "correct": "typed text",
+          "incorrect": "mistakes",
+          "extra": "extra letters",
+          "caret": "caret",
+          "chartWpm": "wpm line",
+          "chartRaw": "raw line",
+          "chartError": "errors",
+          "heat1": "key heat 1",
+          "heat2": "key heat 2",
+          "heat3": "key heat 3",
+          "heat4": "key heat 4"
+        },
+        "sample_correct": "quick brown ",
+        "sample_incorrect": "fxo",
+        "sample_extra": "ss",
+        "sample_dim": " jumps over",
+        "sample_text": "text ",
+        "sample_link": "link",
+        "sample_selected": "selected",
+        "that_theme_can_t_be": "That theme can't be used: {problem}.",
+        "scheme_label": "light or dark"
+      },
+      "theme_picker": {
+        "quick_brown": "quick brown ",
+        "fxo": "fxo",
+        "ss": "ss",
+        "jumps_over": " jumps over",
+        "surface": "surface ",
+        "accent_link": "accent link",
+        "selected": "selected",
+        "1_text": "{ratio}:1 text",
+        "choose_theme": "{label}: choose theme",
+        "options": "{label} options",
+        "pick": "pick {label}"
+      },
+      "sections": {
+        "theme": "theme",
+        "typing": "typing",
+        "content": "content",
+        "training": "training",
+        "accessibility": "accessibility",
+        "data": "data"
+      },
+      "stepper": {
+        "decrease": "decrease {label}",
+        "increase": "increase {label}"
       }
     },
     "stats": {
@@ -3222,7 +6532,36 @@
         "next": "next",
         "prev_aria": "previous page",
         "next_aria": "next page",
-        "page_info": "{current} of {total}"
+        "page_info": "{current} of {total}",
+        "xp": "{toLocaleString} / {toLocaleString2} xp",
+        "ms": "{round} ms · {round2}%",
+        "typed": "{round}% · typed {toLocaleString}"
+      },
+      "hesitations_pane": {
+        "of": "{round}% · {hesitated} of {toLocaleString}"
+      },
+      "overview_pane": {
+        "recent_tests": "recent tests",
+        "group_stats": "{wpm} wpm · {accuracy}% · {count, plural, one {# test} other {# tests}}"
+      },
+      "periods_pane": {
+        "wpm": " wpm"
+      },
+      "stats_charts": {
+        "wpm_of_recent_tests_use": "WPM of recent tests. Use the left and right arrow keys to read each test.",
+        "recent_tests": "Recent tests",
+        "complete_a_couple_of_tests": "Complete a couple of tests to see a trend.",
+        "accuracy": "{value}% accuracy",
+        "not_enough_typing": "not enough typing",
+        "ms": "{round} ms",
+        "keyboard_coloured_by_how_often": "Keyboard coloured by how often each key is typed right first time. The table below lists the same values.",
+        "use_the_left_and_right": "{label}. Use the left and right arrow keys to read each day.",
+        "no_typing": "no typing",
+        "day_tests": "{count, plural, one {# test} other {# tests}}",
+        "day_wpm": " · {wpm} wpm"
+      },
+      "stats": {
+        "sections_label": "stats sections"
       }
     },
     "texts": {
@@ -3287,6 +6626,24 @@
         "unknown": "— unknown",
         "too_short": " · too short for tests ({min}+ characters)",
         "empty": "Add quotes you like; they appear in quote and mixed tests. Collections such as a quotes.json file can be installed under datasets."
+      },
+      "github_import": {
+        "github_s_limit_for_downloads": "GitHub’s limit for downloads without signing in was reached. Try again in an hour.",
+        "that_repository_or_folder_wasn": "That repository or folder wasn’t found (it may be private).",
+        "github_answered": "GitHub answered {status}.",
+        "that_isn_t_a_github": "That isn’t a GitHub repository address (github.com/owner/repo).",
+        "no_txt_or_md_files": "No .txt or .md files were found there.",
+        "the_files_couldn_t_be": "The files couldn’t be downloaded."
+      },
+      "importers": {
+        "doesn_t_look_like_a": "{name} doesn't look like a text file.",
+        "isn_t_utf_8_text": "{name} isn't UTF-8 text.",
+        "only_files_can_be_imported": "{name}: only {ACCEPTED_EXTENSIONS} files can be imported.",
+        "is_larger_than_5_mb": "{name} is larger than 5 MB.",
+        "is_empty": "{name} is empty."
+      },
+      "quote_collections": {
+        "no_quotes_were_found_in": "No quotes were found in that file."
       }
     },
     "themes": {
@@ -3463,6 +6820,28 @@
         "contrast-night": {
           "name": "high contrast night"
         }
+      },
+      "checks": {
+        "text_bg": "text on the page",
+        "text_surface": "text on panels",
+        "textDim_bg": "dim text on the page",
+        "textDim_surface": "dim text on panels",
+        "correct_bg": "typed text",
+        "incorrect_bg": "mistakes",
+        "correct_textDim": "typed text stands out from text still to type",
+        "accent_bg": "accent",
+        "caret_bg": "caret",
+        "extra_bg": "extra letters",
+        "chartWpm_bg": "chart: wpm line",
+        "chartRaw_bg": "chart: raw line",
+        "chartError_bg": "chart: errors",
+        "heat1_bg": "key heat 1",
+        "heat4_bg": "key heat 4",
+        "not_a_theme": "not a theme",
+        "needs_a_name": "needs a name of up to 40 characters",
+        "scheme_must_be": "scheme must be light or dark",
+        "bad_hex": "colour \"{token}\" must be a #rrggbb value",
+        "not_readable": "not readable enough: {labels}"
       }
     },
     "typing": {
@@ -3507,6 +6886,134 @@
         "standard": "Type the text shown. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line.",
         "sustained": "Keep your pace at or above the target. Three seconds below it ends the test. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line.",
         "accuracy": "Keep your accuracy at or above the target while typing at a steady pace. Five seconds below it ends the test. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line."
+      },
+      "mode_bar": {
+        "custom": "custom {unit}",
+        "enable_a_book_dataset": "enable a book dataset",
+        "add_a_text_to_read": "add a text to read",
+        "from": "from {percent}%",
+        "start_over": "start over",
+        "read_this_one_from_the": "Read this one from the beginning",
+        "add_a_text_to_practise": "add a text to practise",
+        "manage": "manage",
+        "change": "change",
+        "choose_what_and_how_to": "Choose what and how to drill",
+        "TABS": {
+          "time": {
+            "label": "time"
+          },
+          "words": {
+            "label": "words"
+          },
+          "quote": {
+            "label": "quote"
+          },
+          "mixed": {
+            "label": "mixed"
+          },
+          "sustained": {
+            "label": "sustained",
+            "title": "Keep up a pace or an accuracy for as long as you can"
+          },
+          "custom": {
+            "label": "custom"
+          }
+        },
+        "SUSTAINED_SOURCES": {
+          "wordstream": {
+            "label": "common words"
+          },
+          "quotes": {
+            "label": "quotes"
+          },
+          "work": {
+            "label": "books"
+          },
+          "text": {
+            "label": "my texts"
+          }
+        },
+        "BOOK_ORDER_OPTIONS": {
+          "sequential": {
+            "label": "in order",
+            "title": "Read on from where you stopped, then the next book"
+          },
+          "passages": {
+            "label": "passages",
+            "title": "Random passages from the book"
+          },
+          "chunks": {
+            "label": "chunks",
+            "title": "Random stretches of the book"
+          }
+        },
+        "source": {
+          "wordstream": {
+            "label": "common words"
+          },
+          "quotes": {
+            "label": "quotes"
+          }
+        },
+        "nodes": {
+          "pace": {
+            "label": "pace",
+            "title": "Keep your recent speed at or above a target (3 seconds to recover)"
+          },
+          "accuracy": {
+            "label": "accuracy"
+          }
+        },
+        "lengthOptions": {
+          "entire": {
+            "label": "entire text"
+          }
+        },
+        "custom_title": "custom",
+        "accuracy_title": "Keep your recent accuracy at or above a target, typing at least {floor} wpm (5 seconds to recover)",
+        "keep_up": "keep up",
+        "text_source": "text source",
+        "text_to_read": "text to read",
+        "reading_order": "reading order",
+        "text_to_practise": "text to practise",
+        "book_to_read": "book to read",
+        "unit_words": "words",
+        "unit_wpm": "wpm",
+        "unit_seconds": "seconds"
+      },
+      "training_notice": {
+        "mistakes": "mistakes, {join}"
+      },
+      "type_view_goal": {
+        "today": "✓ {formatGoalAmount} today",
+        "today_2": "{floor} / {formatGoalAmount} today",
+        "aria": "daily goal: {done} of {target} today{met}",
+        "aria_met": ", met"
+      },
+      "type_view_pace": {
+        "target": "target {target}%",
+        "target_wpm": "target {target} wpm",
+        "wpm": "{round} / {target} wpm",
+        "below_target_words_per_minute": "Below target: {target} words per minute. {seconds} seconds to recover.",
+        "too_slow_keep_at_least": "Too slow: keep at least {floorWpm} words per minute. {seconds} seconds to recover.",
+        "accuracy_below_percent_seconds_to": "Accuracy below {target} percent. {seconds} seconds to recover.",
+        "back_on_target": "Back on target.",
+        "back_on_pace": "Back on pace."
+      },
+      "type_view": {
+        "wpm": "{round} wpm · {round2}%",
+        "test_complete_words_per_minute": "Test complete: {round} words per minute, {toFixed} percent accuracy, {errors} errors."
+      },
+      "typing_input": {
+        "typing_input": "typing input"
+      },
+      "type_view_book": {
+        "now_reading": "Now reading {title}{by}.",
+        "by_author": " by {author}",
+        "now": "now: {title}{by}"
+      },
+      "text_providers": {
+        "unknown_practice_source": "Unknown practice source \"{source}\""
       }
     },
     "wardrobe": {
@@ -3793,7 +7300,10 @@
         "news_new_item": "a new {name}",
         "news_new_items": "{count, plural, one {a new thing} other {# new things}}",
         "news_earned": "ooh, you earned {what} for my wardrobe!",
-        "try_it_on": "try it on"
+        "try_it_on": "try it on",
+        "status_worn": "{name}: {state}",
+        "status_hint_progress": "{name}: {hint} ({have} of {need})",
+        "status_hint": "{name}: {hint}"
       }
     },
     "words": {

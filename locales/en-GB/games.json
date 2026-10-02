@@ -6,7 +6,14 @@
       "prompted": "fussy eater",
       "unprompted": "snack mode",
       "buffet": "buffet"
-    }
+    },
+    "s_not_what_i_asked": "−{seconds}s · {text}? not what I asked for",
+    "fed": "+{seconds}s · {text}",
+    "fed_patched": " (patched up)",
+    "fed_hinted": " (the hint: half time)",
+    "fed_yum": " · yum",
+    "typo": "−{seconds}s · a typo",
+    "typo_meant": " ({meant}?)"
   },
   "castle": {
     "title": "castle",
@@ -14,7 +21,50 @@
     "modes": {
       "unprompted": "any brick",
       "prompted": "special bricks"
-    }
+    },
+    "the_attackers_resolve_hold_the": "The attackers’ resolve: hold the gate and keep to wear it down",
+    "stockpile": "stockpile",
+    "click_a_brick_to_carry": "click a brick to carry it · space lays · shift+enter drops · 1–9 pick",
+    "bricks": "{length} bricks · {toFixed}",
+    "the_dropped_shift_to_use": "the {from} dropped {label} · shift+{slot} to use",
+    "the_dropped_but_storage_is": "the {from} dropped {label}, but storage is full",
+    "brick_stacked": "{word} · {note} brick {toFixed} · stacked{repeatNote}",
+    "damage": "{note} · {toFixed} damage",
+    "yard_brick_pick": "{word}: {note} brick, strength {strength} (press {key} to pick)",
+    "yard_brick": "{word}: {note} brick, strength {strength}",
+    "aiming_at": "aiming at: {section} {integrity}/{max}",
+    "aiming_critical": " · critical",
+    "aiming_needs": " · needs bricks that {requirement}",
+    "brick_added": "{what} · +{added} {section}",
+    "brick_named": "{word} · {note} brick",
+    "the_castle": "the castle",
+    "powerups": {
+      "mortar": {
+        "label": "mortar",
+        "help": "dropped bricks hit twice as hard"
+      },
+      "mason": {
+        "label": "mason",
+        "help": "bricks count half as much again"
+      },
+      "oil": {
+        "label": "oil",
+        "help": "stuns every attacker at once"
+      },
+      "mend": {
+        "label": "mend",
+        "help": "repairs the weakest gate or keep"
+      }
+    },
+    "foe_title": "{type}: click or drop brick to crush ({hp} HP)",
+    "foe_stunned": ", stunned",
+    "catapult_title": "catapult: out of reach in the distance",
+    "catapult_aiming": ", aiming at the {section}",
+    "section_title": "{section}: {integrity}/{max}",
+    "section_critical": ", critical",
+    "section_needs": ", needs bricks that {requirement}",
+    "news_line": "{label}: {note}",
+    "powerup": "powerup"
   },
   "space": {
     "title": "space",
@@ -22,14 +72,34 @@
     "modes": {
       "unprompted": "free fire",
       "prompted": "targeted"
-    }
+    },
+    "ship_health": "ship health",
+    "magazine": "magazine",
+    "bomb_charge": "bomb charge",
+    "click_enter_fires_scroll_choose": "click / enter fires · ↑ ↓ / scroll choose · backspace ×2 scraps",
+    "finish_a_word_to_load": "finish a word to load it",
+    "bomb_ready_shift_enter": "bomb ready · shift+enter",
+    "bomb": "bomb {floor}%",
+    "ship": "ship {round}",
+    "score": "score {round}",
+    "destroyed": "destroyed {value}",
+    "s_left": "{ceil}s left",
+    "trigger_jammed_type_or_backspace": "trigger jammed · type “{word}”, or backspace twice to scrap a shot"
   },
   "spot": {
     "title": "spot",
     "blurb": "Find the mistakes planted in a passage and put them right.",
     "modes": {
       "prompted": "proofread"
-    }
+    },
+    "was": "{errorTitle}: was “{corrupted}”",
+    "should_be": "{errorTitle}: should be “{original}”",
+    "was_fine": "{word} was fine",
+    "fixed": "fixed: {original} · {errorTitle}",
+    "it_should_be": "it should be “{original}” · {errorTitle}",
+    "repairing": "{title} · fix it in place (← → move) and press enter",
+    "repairing_retry": " · one more try",
+    "repairing_cancel": " · esc to cancel"
   },
   "ui": {
     "pause": "pause",
@@ -111,5 +181,1089 @@
     "wrongPunctuation": "wrong punctuation",
     "capitalisation": "capital letter",
     "whitespace": "spacing"
+  },
+  "feed_buffet": {
+    "patience": "patience",
+    "the_floor_fall_to_it": "the floor: fall to it and the buffet closes",
+    "burnt_a_typo_counts_half": "burnt (a typo): counts half",
+    "served": "served {text}",
+    "an_order_filled_happy_guest": "an order filled · happy guest",
+    "a_guest_gave_up_waiting": "a guest gave up waiting",
+    "went_stale": "{text} went stale",
+    "the_table_is_full_let": "the table is full: let them eat first",
+    "that_s_not_food": "{text}? that’s not food",
+    "orders_wasted_upset": "orders {value} · wasted {value2} · upset {value3}",
+    "served_burnt": " (burnt: counts half)"
+  },
+  "games_results": {
+    "daily_goal_met_today": "✓ daily goal met · {formatGoalAmount} today",
+    "daily_goal_progress": "daily goal · {done} of {target} today · this run {run}",
+    "run_minutes": "{clock} of typing",
+    "run_xp": "{xp} xp",
+    "run_words": "{words} words"
+  },
+  "games_setup": {
+    "controls": "controls",
+    "notes": "notes",
+    "mechanic_visuals": "mechanic visuals",
+    "mechanics_contexts": "mechanics contexts",
+    "more": "more ▾",
+    "demonstration_variants": "demonstration variants"
+  },
+  "ghost_shelf": {
+    "kalibre_can_t_reach_your": "kalibre can’t reach your folder: allow it in settings → data",
+    "no_ghost_files_in_the": "no ghost files in the folder’s ghosts/ yet",
+    "import": "import",
+    "no_saved_ghosts_yet_save": "no saved ghosts yet. save one from a test’s results, a replay, or your history.",
+    "race_anyway": "race anyway",
+    "delete_s_ghost": "delete {name}’s ghost",
+    "name_on_the_file": "name on the file",
+    "saved_to": "saved to {savedTo}",
+    "is_ready": "{fileName} is ready",
+    "include_my_card": "include my card",
+    "your_text_goes_in_the": "your text goes in the file.",
+    "share": "share",
+    "save": "{count, plural, one {save the ghost} other {save # ghosts}}"
+  },
+  "powerup_tray": {
+    "shift": "{label}: {help} (shift+{value})",
+    "powerups_two_at_once": "powerups {length}/{storage} · two at once"
+  },
+  "race_card": {
+    "ghost": "ghost",
+    "race_people_on_your_network": "race people on your network",
+    "your_car_dress_it_in": "your car. dress it in your profile → your card → garage; earn parts by racing and playing.",
+    "race_a_demo_playing_while": "race: a demo, playing while hovered or focused",
+    "rivals": "{rulesLine} · rivals {difficulty}",
+    "RACE_CARD": {
+      "race": {
+        "title": "race",
+        "blurb": "Race the computer on your own, or people on your network, in a quote, words, against the clock or for as long as you keep up.",
+        "help": [
+          "Pick what you race: a quote, a number of words, a time, or sustained, where the last one still keeping pace or accuracy wins.",
+          "Rivals run at about your recent speed: easy a little slower, hard a little faster. Someone who leaves wrong letters in pays a second for each.",
+          "On your own, you race two computer rivals and, once you have a run in that mode, a ghost of it you can pick. On your network, everyone types the same text at the same time.",
+          "Race a ghost races the ghosts you’ve saved, up to three at once, on their own text."
+        ]
+      }
+    },
+    "rivals_2": "rivals"
+  },
+  "word_quality": {
+    "close_to": " · close to “{variantOf}” {percent}",
+    "repeat": " · repeat {percent}"
+  },
+  "games_registry": {
+    "STRENGTH_MECHANIC": {
+      "strength": {
+        "label": "strength",
+        "summary": "typing accuracy determines word strength. 1 per letter, +1 for K V W Y, +2 for J Q X Z. on hard, close variants of recent words count for less."
+      }
+    },
+    "GAMES": {
+      "feed": {
+        "contexts": {
+          "getting-started": {
+            "label": "getting started",
+            "group": "getting started",
+            "summary": "type words to feed the creature before its patience runs out.",
+            "highlights": [
+              "type a word and press space to serve it",
+              "keep the creature happy to stay alive"
+            ],
+            "details": [
+              "each word you serve restores time. longer words restore more.",
+              "if you take too long, the creature’s mood drops and eventually it leaves."
+            ],
+            "mechanics": {
+              "mood": {
+                "label": "mood",
+                "summary": "the creature’s mood drops over time if it isn’t fed."
+              },
+              "patience": {
+                "label": "patience",
+                "summary": "a timer counts down. serving a word that fits restores time."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "submit word"
+              }
+            },
+            "visuals": {
+              "mood-content": {
+                "label": "content"
+              },
+              "mood-peckish": {
+                "label": "peckish"
+              },
+              "mood-starving": {
+                "label": "starving"
+              }
+            }
+          },
+          "creature-requests": {
+            "label": "creature requests",
+            "group": "getting started",
+            "summary": "the creature asks for a kind of word — match it to earn full time.",
+            "highlights": [
+              "read the prompt above the creature",
+              "a matching word earns full time; a wrong one costs time"
+            ],
+            "details": [
+              "requests include: short or long words, words starting with a letter, or words containing certain letters.",
+              "stuck for a while, or missed twice? a word that fits shows faintly on the creature, worth half the time."
+            ],
+            "notes": {
+              "hard": {
+                "text": "prompts are more specific and less time is given."
+              }
+            },
+            "mechanics": {
+              "prompts": {
+                "label": "prompts",
+                "summary": "the creature shows what kind of word it wants."
+              },
+              "hint": {
+                "label": "belly hint",
+                "summary": "after idling or two misses, a valid word appears faintly on the creature."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "submit word"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "belly hint"
+              }
+            },
+            "visuals": {
+              "prompt-need": {
+                "label": "word prompt"
+              },
+              "belly-hint": {
+                "label": "belly hint (half time)"
+              }
+            }
+          },
+          "snack-mode": {
+            "label": "snack mode",
+            "group": "getting started",
+            "summary": "the creature eats any word — stronger words fill it up more, but it gets hungry faster.",
+            "highlights": [
+              "any valid word feeds the creature",
+              "longer and more accurate words restore more time"
+            ],
+            "details": [
+              "there are no prompts: type whatever word you like.",
+              "the creature drains its patience faster than in fussy eater, so speed matters."
+            ],
+            "controls": {
+              "i0": {
+                "action": "submit word"
+              }
+            },
+            "visuals": {
+              "free-eating": {
+                "label": "any valid word"
+              },
+              "fast-patience": {
+                "label": "accelerated hunger"
+              }
+            }
+          },
+          "buffet": {
+            "label": "buffet service",
+            "group": "getting started",
+            "summary": "guests order several kinds of word. serve words to the table and they eat what fits.",
+            "highlights": [
+              "guests arrive with orders of 1–3 word types",
+              "keep overall satisfaction above the red line"
+            ],
+            "details": [
+              "type a word and press space to put it on the table. guests eat what matches their orders.",
+              "a filled order pleases the guest and raises satisfaction. a guest who waits too long leaves upset.",
+              "nonsense words are tossed and hurt satisfaction. typos produce burnt dishes worth half.",
+              "dishes left on the table go stale and are wasted."
+            ],
+            "mechanics": {
+              "table": {
+                "label": "table",
+                "summary": "served words go on a shared table. guests eat what matches."
+              },
+              "satisfaction": {
+                "label": "satisfaction",
+                "summary": "a 0–100 meter. if it falls to the floor line, the buffet closes."
+              },
+              "orders": {
+                "label": "orders",
+                "summary": "each guest has 1–3 word-type requirements on their ticket."
+              },
+              "stale": {
+                "label": "stale dishes",
+                "summary": "uncollected dishes go stale and hurt satisfaction."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "serve word to table"
+              }
+            },
+            "visuals": {
+              "guest-ticket": {
+                "label": "order ticket"
+              },
+              "buffet-table": {
+                "label": "serving table"
+              },
+              "satisfaction-floor": {
+                "label": "satisfaction floor"
+              }
+            }
+          }
+        }
+      },
+      "castle": {
+        "options": {
+          "waves": {
+            "label": "waves",
+            "choices": {
+              "endless": {
+                "label": "endless"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "getting started",
+            "group": "getting started",
+            "summary": "type words to make bricks, aim at a section, and lay them to build and repair your castle.",
+            "highlights": [
+              "type a word to make a brick",
+              "aim with the arrows or mouse, then press space to lay it"
+            ],
+            "details": [
+              "longer words make stronger bricks. typos make cracked ones.",
+              "the castle starts whole, with a calm to stock up before the first wave.",
+              "bricks appear in the stockpile; pick one with 1–9 or drag it with the mouse."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "in special bricks mode, sections under attack need specific words. an off-spec brick loses most of its strength."
+              }
+            },
+            "mechanics": {
+              "stockpile": {
+                "label": "stockpile",
+                "summary": "typed words become bricks waiting in the yard. pick one with a number key or use the newest."
+              },
+              "quality": {
+                "label": "brick quality",
+                "summary": "solid, patched, cracked or rubble — depends on word length and typing accuracy."
+              },
+              "cursor": {
+                "label": "aiming",
+                "summary": "the cursor shows where the next brick will go. move it with arrows or click a section."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "aim at a section"
+              },
+              "i1": {
+                "action": "lay the newest brick"
+              },
+              "i2": {
+                "action": "pick a brick from the stockpile"
+              }
+            },
+            "visuals": {
+              "stockpile-yard": {
+                "label": "stockpile yard"
+              },
+              "brick-solid": {
+                "label": "solid brick"
+              },
+              "brick-cracked": {
+                "label": "cracked brick"
+              }
+            }
+          },
+          "surviving": {
+            "label": "surviving",
+            "group": "surviving",
+            "summary": "keep the gate and the keep standing. each wave loses heart and retreats when critical sections hold.",
+            "highlights": [
+              "the gate and the keep are critical — losing the keep ends the game",
+              "repair damaged sections by laying bricks on them"
+            ],
+            "details": [
+              "castle sections have integrity that drops when enemies attack.",
+              "high average repair across the castle drains the wave’s resolve faster.",
+              "each wave retreats when its resolve reaches zero, or when all its enemies are destroyed."
+            ],
+            "notes": {
+              "hard": {
+                "text": "enemies arrive stronger and in larger numbers."
+              }
+            },
+            "mechanics": {
+              "sections": {
+                "label": "castle sections",
+                "summary": "wall, tower, gate, keep and foundations. each has its own integrity."
+              },
+              "integrity": {
+                "label": "integrity",
+                "summary": "a section’s hit points. reaches zero and the section is breached."
+              },
+              "resolve": {
+                "label": "wave resolve",
+                "summary": "a meter showing how close the wave is to retreating."
+              },
+              "waves": {
+                "label": "waves",
+                "summary": "enemies arrive in numbered waves, with calms in between."
+              }
+            },
+            "visuals": {
+              "curtain-wall": {
+                "label": "curtain wall"
+              },
+              "gatehouse": {
+                "label": "gatehouse"
+              },
+              "great-keep": {
+                "label": "great keep"
+              },
+              "wave-resolve": {
+                "label": "wave resolve"
+              }
+            }
+          },
+          "fighting": {
+            "label": "fighting",
+            "group": "fighting",
+            "summary": "drop bricks on enemies to crush them, or use the catapult to hit them from afar.",
+            "highlights": [
+              "shift+enter drops a brick on the targeted attacker",
+              "brutes ram, sappers chip, catapults lob boulders from a distance"
+            ],
+            "details": [
+              "a brick drop deals damage equal to the brick’s strength.",
+              "an enemy that isn’t crushed may be stunned for a moment.",
+              "catapults station at a distance: a dashed arc shows where one is aiming."
+            ],
+            "mechanics": {
+              "brute": {
+                "label": "brute",
+                "summary": "rams sections up close. tires after a set number of blows."
+              },
+              "sapper": {
+                "label": "sapper",
+                "summary": "chips at sections. wanders between targets."
+              },
+              "catapult": {
+                "label": "catapult",
+                "summary": "hurls boulders from afar along a parabolic arc. out of drop range."
+              },
+              "stun": {
+                "label": "stun",
+                "summary": "a non-lethal brick drop may stun the attacker, halting it briefly."
+              },
+              "drops": {
+                "label": "brick drops",
+                "summary": "drop a brick on an enemy to damage or crush it."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "drop brick on enemy"
+              },
+              "i1": {
+                "action": "aim at a section or enemy"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "brick drops"
+              }
+            },
+            "visuals": {
+              "brute-ram": {
+                "label": "brute (ram)"
+              },
+              "sapper-pick": {
+                "label": "sapper (chip)"
+              },
+              "catapult-siege": {
+                "label": "catapult (siege)"
+              },
+              "boulder-arc": {
+                "label": "boulder arc"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "powering up",
+            "group": "powering up",
+            "summary": "crushed enemies sometimes drop powerups. store them and switch them on when you need them.",
+            "highlights": [
+              "catch a powerup when an enemy is crushed",
+              "activate with shift+1–3 or click a slot"
+            ],
+            "details": [
+              "up to three powerups can be stored. two can be active at once.",
+              "mortar makes brick drops hit harder. mason makes laid bricks count for more. oil stuns all enemies on the field. mend repairs the weakest critical section."
+            ],
+            "mechanics": {
+              "mortar": {
+                "label": "mortar",
+                "summary": "brick drops deal double damage."
+              },
+              "mason": {
+                "label": "mason",
+                "summary": "placed bricks grant 1.5× strength."
+              },
+              "oil": {
+                "label": "oil",
+                "summary": "stuns all attackers on the field immediately."
+              },
+              "mend": {
+                "label": "mend",
+                "summary": "restores integrity to the weakest gate or keep."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "activate powerup slot 1"
+              },
+              "i1": {
+                "action": "activate powerup slot 2"
+              },
+              "i2": {
+                "action": "activate powerup slot 3"
+              }
+            },
+            "visuals": {
+              "mortar-powerup": {
+                "label": "mortar (2× drops)"
+              },
+              "mason-powerup": {
+                "label": "mason (1.5× wall)"
+              },
+              "oil-powerup": {
+                "label": "boiling oil (stun all)"
+              },
+              "mend-powerup": {
+                "label": "field mend (repair)"
+              }
+            }
+          }
+        }
+      },
+      "space": {
+        "options": {
+          "duration": {
+            "label": "length",
+            "choices": {
+              "endless": {
+                "label": "endless"
+              },
+              "i1": {
+                "label": "1 min"
+              },
+              "i2": {
+                "label": "2 min"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "getting started",
+            "group": "getting started",
+            "summary": "steer the ship, type words to load the magazine, and fire to destroy enemies.",
+            "highlights": [
+              "move with the mouse or arrow keys",
+              "type a word and press enter to fire"
+            ],
+            "details": [
+              "finished words load into the magazine. press enter to fire the chosen shot.",
+              "a word finished with enter fires it at once without loading first.",
+              "use ↑ ↓ or the scroll wheel to choose which magazine slot to fire."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "in targeted mode, every enemy ship has a word requirement. non-matching shots bounce off."
+              }
+            },
+            "mechanics": {
+              "movement": {
+                "label": "movement",
+                "summary": "the ship steers horizontally. move with the mouse or ← →."
+              },
+              "magazine": {
+                "label": "magazine",
+                "summary": "typed words fill the magazine. enter fires. ↑ ↓ choose a slot."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "move the ship"
+              },
+              "i1": {
+                "action": "fire the chosen magazine shot"
+              },
+              "i2": {
+                "action": "choose a magazine slot"
+              }
+            },
+            "visuals": {
+              "starfighter": {
+                "label": "starfighter"
+              },
+              "magazine-slots": {
+                "label": "magazine slots"
+              }
+            }
+          },
+          "surviving": {
+            "label": "surviving",
+            "group": "surviving",
+            "summary": "avoid damage, clear jams, dodge asteroids, and use rescue ships to repair.",
+            "highlights": [
+              "the ship has health — hits reduce it, and zero ends the game",
+              "type the word on a green rescue ship to repair"
+            ],
+            "details": [
+              "clean words never jam. typos might, and nonsense jams more often.",
+              "when jammed, type the word shown to clear it, or press backspace twice with nothing typed to scrap the shot.",
+              "don’t shoot rescue ships: a hit one heals less (not on easy).",
+              "asteroids are indestructible obstacles. big ones break into several pieces when shot.",
+              "drones lock on with a dashed line and dive straight down. steer away.",
+              "ships that get past the bottom do no harm."
+            ],
+            "notes": {
+              "easy": {
+                "text": "shooting a rescue ship doesn’t reduce its healing."
+              }
+            },
+            "mechanics": {
+              "health": {
+                "label": "health",
+                "summary": "the ship’s hit points. zero means game over."
+              },
+              "jams": {
+                "label": "jams",
+                "summary": "a jammed gun can’t fire until cleared. typos and nonsense raise the jam risk."
+              },
+              "asteroids": {
+                "label": "asteroids",
+                "summary": "rocks that can’t be destroyed. big ones split into pieces."
+              },
+              "rescue": {
+                "label": "rescue ships",
+                "summary": "green ships with a word. type it to repair the hull."
+              },
+              "drones": {
+                "label": "drones",
+                "summary": "lock on and dive straight down. dodge the dive line."
+              },
+              "jammer": {
+                "label": "jammer",
+                "summary": "increases the chance of jams while alive."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "scrap the chosen shot (clears a jam)"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "rescue repair"
+              }
+            },
+            "visuals": {
+              "rescue-ship": {
+                "label": "rescue ship (heal)"
+              },
+              "dive-drone": {
+                "label": "dive drone"
+              },
+              "asteroid": {
+                "label": "asteroid obstacle"
+              },
+              "weapon-jam": {
+                "label": "weapon jam"
+              }
+            }
+          },
+          "fighting": {
+            "label": "fighting",
+            "group": "fighting",
+            "summary": "load the magazine, intercept missiles and fighters, and use the bomb to clear the field.",
+            "highlights": [
+              "missiles carry a letter — type it with nothing typed to shoot them down",
+              "shift+enter detonates the bomb when charged"
+            ],
+            "details": [
+              "loading words charges the bomb meter. when full, shift+enter clears all missiles and damages every enemy.",
+              "space stations launch fighters that chase you. type a fighter’s letter to shoot it down.",
+              "landmines burst into shrapnel when shot, which hits everything nearby, including you.",
+              "shielded ships only take hits from words that meet their requirement."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "in targeted mode, every ship has a word requirement that must be matched."
+              }
+            },
+            "mechanics": {
+              "missiles": {
+                "label": "missiles",
+                "summary": "carry a letter token. with nothing typed, type it to shoot them down instantly."
+              },
+              "bomb": {
+                "label": "bomb",
+                "summary": "charges as you load words. shift+enter detonates, clearing missiles and damaging enemies."
+              },
+              "fighters": {
+                "label": "fighters",
+                "summary": "small ships launched by stations. chase the player. type their letter to intercept."
+              },
+              "stations": {
+                "label": "stations",
+                "summary": "large hubs that hover and spawn fighters."
+              },
+              "landmines": {
+                "label": "landmines",
+                "summary": "spiked mines. shrapnel on destruction hits everything nearby."
+              },
+              "shields": {
+                "label": "shields",
+                "summary": "some ships have shields that only break to words matching a requirement."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "detonate the bomb"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "bomb shockwave"
+              }
+            },
+            "visuals": {
+              "missile-token": {
+                "label": "missile (letter)"
+              },
+              "bomb-shockwave": {
+                "label": "bomb shockwave"
+              },
+              "orbital-station": {
+                "label": "orbital station"
+              },
+              "shrapnel-mine": {
+                "label": "landmine"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "powering up",
+            "group": "powering up",
+            "summary": "destroyed enemies drop powerups. catch them, store them, and switch them on.",
+            "highlights": [
+              "catch a floating powerup to store it",
+              "activate with shift+1–3 or click a slot"
+            ],
+            "details": [
+              "up to three powerups can be stored. two kinds can be active at once; the same kind again stacks its timer.",
+              "double fire: each shot fires twice before being spent.",
+              "gatling: every letter typed fires an instant bolt.",
+              "shield: a barrier absorbs hits for the ship.",
+              "automaton: automatically picks the best shot for the biggest threat.",
+              "homing: fired words steer toward targets."
+            ],
+            "mechanics": {
+              "double": {
+                "label": "double",
+                "summary": "shots fire twice before being spent."
+              },
+              "gatling": {
+                "label": "gatling",
+                "summary": "every letter typed fires an instant energy bolt."
+              },
+              "shield": {
+                "label": "shield",
+                "summary": "an energy barrier absorbs hits."
+              },
+              "automaton": {
+                "label": "automaton",
+                "summary": "auto-selects the best shot for the worst threat."
+              },
+              "homing": {
+                "label": "homing",
+                "summary": "fired words steer dynamically toward targets."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "activate powerup slot 1"
+              },
+              "i1": {
+                "action": "activate powerup slot 2"
+              },
+              "i2": {
+                "action": "activate powerup slot 3"
+              }
+            },
+            "visuals": {
+              "powerup-double": {
+                "label": "double fire"
+              },
+              "powerup-gatling": {
+                "label": "gatling stream"
+              },
+              "powerup-shield": {
+                "label": "deflector barrier"
+              },
+              "powerup-automaton": {
+                "label": "automaton aim"
+              },
+              "powerup-homing": {
+                "label": "homing seeker"
+              }
+            }
+          }
+        }
+      },
+      "spot": {
+        "options": {
+          "variant": {
+            "label": "play",
+            "choices": {
+              "timed": {
+                "label": "timed"
+              },
+              "endless": {
+                "label": "endless"
+              }
+            }
+          },
+          "duration": {
+            "label": "time"
+          }
+        },
+        "help": [
+          "Point at a word or move with ← → (↑ ↓ by line); click it or press Enter if it’s wrong.",
+          "The word stays in place: fix it there (← → Home End move the caret, or click in it) and press Enter. Spelling, punctuation, capitals and spacing all count.",
+          "Shift+Enter gives up on a passage and moves to the next.",
+          "Finding and fixing are scored separately; flagging a correct word costs you."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "getting started",
+            "group": "getting started",
+            "summary": "find the mistakes planted in a passage and put them right.",
+            "highlights": [
+              "point at a word or navigate with arrow keys",
+              "press enter to flag a mistake, then type the fix"
+            ],
+            "details": [
+              "passages come from books in your library. each has several planted errors.",
+              "shift+enter gives up on a passage and moves to the next.",
+              "errors include spelling, punctuation, capitalisation, sound-alikes and letter slips."
+            ],
+            "mechanics": {
+              "errors": {
+                "label": "error types",
+                "summary": "spelling, punctuation, capitalisation, sound-alikes and letter slips."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "move between words"
+              },
+              "i1": {
+                "action": "move between lines"
+              },
+              "i2": {
+                "action": "flag a word as wrong"
+              },
+              "i3": {
+                "action": "skip to next passage"
+              }
+            },
+            "visuals": {
+              "passage-line": {
+                "label": "passage text"
+              },
+              "planted-error": {
+                "label": "planted error"
+              }
+            }
+          },
+          "finding-mistakes": {
+            "label": "finding mistakes",
+            "group": "surviving",
+            "summary": "scan the passage, select a word you think is wrong, and press enter to flag it.",
+            "highlights": [
+              "hover over a word or use arrow keys to select it",
+              "flagging a correct word costs you"
+            ],
+            "details": [
+              "move with ← → word by word, or ↑ ↓ line by line. click or hover to jump.",
+              "finding and fixing are scored separately.",
+              "flagging a word that’s actually correct counts as a false flag and costs points."
+            ],
+            "mechanics": {
+              "selection": {
+                "label": "word selection",
+                "summary": "hover, click or use arrow keys to select a word."
+              },
+              "false-flag": {
+                "label": "false flags",
+                "summary": "flagging a correct word costs points and (in endless mode) time."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "move between words"
+              },
+              "i1": {
+                "action": "move between lines"
+              },
+              "i2": {
+                "action": "flag the selected word"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "passage scan"
+              }
+            },
+            "visuals": {
+              "selected-word": {
+                "label": "selected word"
+              },
+              "hover-cursor": {
+                "label": "hover cursor"
+              },
+              "false-flag-penalty": {
+                "label": "false flag penalty"
+              }
+            }
+          },
+          "correcting-mistakes": {
+            "label": "correcting mistakes",
+            "group": "surviving",
+            "summary": "the flagged word stays in place. fix it there and press enter to commit the repair.",
+            "highlights": [
+              "the word is edited directly in the passage",
+              "move the caret with arrow keys or click inside the word"
+            ],
+            "details": [
+              "use ← → to move the caret, home and end to jump. delete and backspace work as usual.",
+              "click inside the word to place the caret at a specific position.",
+              "you get two attempts. if both fail, the correct word is revealed.",
+              "press escape to cancel a repair without penalty."
+            ],
+            "mechanics": {
+              "caret": {
+                "label": "caret editing",
+                "summary": "move the cursor inside the word to edit individual characters."
+              },
+              "retries": {
+                "label": "repair attempts",
+                "summary": "two tries to fix a word. after two failures, the answer is shown."
+              },
+              "cancel": {
+                "label": "cancel",
+                "summary": "escape cancels a repair without penalty."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "move caret inside the word"
+              },
+              "i1": {
+                "action": "caret to start of word"
+              },
+              "i2": {
+                "action": "caret to end of word"
+              },
+              "i3": {
+                "action": "commit the repair"
+              },
+              "i4": {
+                "action": "cancel repair"
+              },
+              "i5": {
+                "action": "delete forward"
+              }
+            },
+            "visuals": {
+              "inline-caret": {
+                "label": "inline caret"
+              },
+              "in-place-edit": {
+                "label": "in-place edit"
+              },
+              "attempt-limit": {
+                "label": "2 attempts limit"
+              }
+            }
+          },
+          "scoring": {
+            "label": "scoring",
+            "group": "surviving",
+            "summary": "finding and fixing are scored separately. timed mode has a fixed clock; endless tops up on repairs.",
+            "highlights": [
+              "detection score: how many errors you found",
+              "repair score: how accurately you fixed them"
+            ],
+            "details": [
+              "timed mode: a fixed duration counts down. find and fix as many as you can.",
+              "endless mode: time drains continuously. each successful repair tops up the bank. false flags cost time.",
+              "a clean sweep is recorded when all errors in a passage are repaired with no false flags."
+            ],
+            "notes": {
+              "hard": {
+                "text": "errors are subtler and the timer is shorter."
+              }
+            },
+            "mechanics": {
+              "detection": {
+                "label": "detection",
+                "summary": "scored by precision and recall — how many real errors you found versus false flags."
+              },
+              "repair": {
+                "label": "repair",
+                "summary": "scored by how accurately you fixed the flagged words."
+              },
+              "sweep": {
+                "label": "clean sweep",
+                "summary": "all errors repaired, no false flags, on a single passage."
+              }
+            },
+            "visuals": {
+              "detection-score": {
+                "label": "detection score"
+              },
+              "repair-score": {
+                "label": "repair score"
+              },
+              "clean-sweep": {
+                "label": "clean sweep bonus"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minutes_choice": "{count} min"
+  },
+  "space_time": {
+    "powerups": {
+      "double": "double fire",
+      "gatling": "gatling",
+      "shield": "shield",
+      "automaton": "automaton",
+      "homing": "homing"
+    },
+    "stored": "{name} stored · shift+{slot} to use",
+    "storage_full": "storage full: {name} lost",
+    "nothing_stored": "nothing stored there",
+    "busy": "two are running already: {name} waits",
+    "cant_use": "{name} can’t be used"
+  },
+  "constraints": {
+    "min_length": "{value}+ letters",
+    "min_length_need": "a long word, {value} letters or more",
+    "max_length": "{value} letters at most",
+    "max_length_need": "a short word, {value} letters at most",
+    "starts_with": "starts with {letter}",
+    "starts_with_need": "something beginning with {letter}",
+    "ends_with": "ends with {letter}",
+    "ends_with_need": "something ending in {letter}",
+    "contains": "has {letter}",
+    "contains_need": "something with {letter} in it",
+    "min_strength": "strength {value}+",
+    "min_strength_need": "a strong word, strength {value} or more",
+    "passage_length": "{min}–{max} words",
+    "passage_length_need": "a passage of {min} words or more",
+    "any_word": "any word",
+    "want": "I want {needs}.",
+    "want_any": "I want any word."
+  },
+  "moods": {
+    "satisfied": "satisfied",
+    "hungry": "hungry",
+    "very_hungry": "very hungry",
+    "urgent": "urgent",
+    "critical": "critical"
+  },
+  "space_ui": {
+    "shot": {
+      "fired": "{word} · {power} damage",
+      "fired_typo": " (a typo: half strength)",
+      "fired_one_left": " (1 left)",
+      "fired_automaton": " · automaton → {target}",
+      "fighter_down": "fighter {word} shot down",
+      "loaded": "{word} · loaded, {power}",
+      "fizzle": "{word} · not a word, it fizzled",
+      "fizzle_jam": "{word} · not a word: it fizzled and jammed the trigger",
+      "scrap_armed": "backspace again to scrap {word}",
+      "scrap_clear_jam": " and clear the jam",
+      "scrap_armed_jam": "backspace again to clear the jam",
+      "scrapped_word": "{word} scrapped",
+      "scrapped": "scrapped",
+      "jam_cleared_suffix": " · jam cleared",
+      "rescue_hit": "careful: you hit the rescue ship ({word})",
+      "rescue_lost": "the rescue ship was lost",
+      "jammed": "{word} jammed the trigger · it stays loaded",
+      "locked": "the trigger is jammed",
+      "full": "{word} · the magazine is full: fire first",
+      "empty": "nothing loaded: finish a word first",
+      "cleared": "jam cleared",
+      "intercepted": "missile {word} shot down",
+      "repaired": "{word} · repaired {healed}",
+      "bomb": "bomb!",
+      "bomb_not_ready": "the bomb isn’t charged yet",
+      "gatling": "rapid fire · {word}",
+      "shield_absorb": "shield absorbed {source} hit!"
+    },
+    "powerup_help": {
+      "double": "each shot fires twice",
+      "gatling": "every letter fires a bolt",
+      "shield": "takes a few hits for you",
+      "automaton": "firing picks the best shot for the worst threat",
+      "homing": "fired words steer towards enemies"
+    },
+    "powerup_label": {
+      "double": "double",
+      "gatling": "gatling",
+      "shield": "shield",
+      "automaton": "automaton",
+      "homing": "homing"
+    }
+  },
+  "castle_notes": {
+    "solid": "solid",
+    "patched": "patched",
+    "cracked": "cracked",
+    "mortar": "mortar",
+    "rubble": "rubble",
+    "stockpile_full": "stockpile full",
+    "no_bricks_yet": "no bricks yet",
+    "already_solid": "already solid",
+    "wrong_kind_of_brick": "wrong kind of brick",
+    "nobody_to_drop_it_on": "nobody to drop it on",
+    "two_are_running_already": "two are running already",
+    "nothing_stored_there": "nothing stored there"
   }
 }

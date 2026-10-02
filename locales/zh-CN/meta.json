@@ -13,7 +13,7 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 2,
+  "revision": 3,
   "version": "2026-10-02",
-  "changes": "Achievement and group keys moved onto the current key layout"
+  "changes": "Removed obsolete quest sentence keys"
 }

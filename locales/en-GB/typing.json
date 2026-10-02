@@ -40,5 +40,133 @@
     "standard": "Type the text shown. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line.",
     "sustained": "Keep your pace at or above the target. Three seconds below it ends the test. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line.",
     "accuracy": "Keep your accuracy at or above the target while typing at a steady pace. Five seconds below it ends the test. Space moves to the next word and Backspace corrects. Tab then Enter restarts. Escape opens the command line."
+  },
+  "mode_bar": {
+    "custom": "custom {unit}",
+    "enable_a_book_dataset": "enable a book dataset",
+    "add_a_text_to_read": "add a text to read",
+    "from": "from {percent}%",
+    "start_over": "start over",
+    "read_this_one_from_the": "Read this one from the beginning",
+    "add_a_text_to_practise": "add a text to practise",
+    "manage": "manage",
+    "change": "change",
+    "choose_what_and_how_to": "Choose what and how to drill",
+    "TABS": {
+      "time": {
+        "label": "time"
+      },
+      "words": {
+        "label": "words"
+      },
+      "quote": {
+        "label": "quote"
+      },
+      "mixed": {
+        "label": "mixed"
+      },
+      "sustained": {
+        "label": "sustained",
+        "title": "Keep up a pace or an accuracy for as long as you can"
+      },
+      "custom": {
+        "label": "custom"
+      }
+    },
+    "SUSTAINED_SOURCES": {
+      "wordstream": {
+        "label": "common words"
+      },
+      "quotes": {
+        "label": "quotes"
+      },
+      "work": {
+        "label": "books"
+      },
+      "text": {
+        "label": "my texts"
+      }
+    },
+    "BOOK_ORDER_OPTIONS": {
+      "sequential": {
+        "label": "in order",
+        "title": "Read on from where you stopped, then the next book"
+      },
+      "passages": {
+        "label": "passages",
+        "title": "Random passages from the book"
+      },
+      "chunks": {
+        "label": "chunks",
+        "title": "Random stretches of the book"
+      }
+    },
+    "source": {
+      "wordstream": {
+        "label": "common words"
+      },
+      "quotes": {
+        "label": "quotes"
+      }
+    },
+    "nodes": {
+      "pace": {
+        "label": "pace",
+        "title": "Keep your recent speed at or above a target (3 seconds to recover)"
+      },
+      "accuracy": {
+        "label": "accuracy"
+      }
+    },
+    "lengthOptions": {
+      "entire": {
+        "label": "entire text"
+      }
+    },
+    "custom_title": "custom",
+    "accuracy_title": "Keep your recent accuracy at or above a target, typing at least {floor} wpm (5 seconds to recover)",
+    "keep_up": "keep up",
+    "text_source": "text source",
+    "text_to_read": "text to read",
+    "reading_order": "reading order",
+    "text_to_practise": "text to practise",
+    "book_to_read": "book to read",
+    "unit_words": "words",
+    "unit_wpm": "wpm",
+    "unit_seconds": "seconds"
+  },
+  "training_notice": {
+    "mistakes": "mistakes, {join}"
+  },
+  "type_view_goal": {
+    "today": "✓ {formatGoalAmount} today",
+    "today_2": "{floor} / {formatGoalAmount} today",
+    "aria": "daily goal: {done} of {target} today{met}",
+    "aria_met": ", met"
+  },
+  "type_view_pace": {
+    "target": "target {target}%",
+    "target_wpm": "target {target} wpm",
+    "wpm": "{round} / {target} wpm",
+    "below_target_words_per_minute": "Below target: {target} words per minute. {seconds} seconds to recover.",
+    "too_slow_keep_at_least": "Too slow: keep at least {floorWpm} words per minute. {seconds} seconds to recover.",
+    "accuracy_below_percent_seconds_to": "Accuracy below {target} percent. {seconds} seconds to recover.",
+    "back_on_target": "Back on target.",
+    "back_on_pace": "Back on pace."
+  },
+  "type_view": {
+    "wpm": "{round} wpm · {round2}%",
+    "test_complete_words_per_minute": "Test complete: {round} words per minute, {toFixed} percent accuracy, {errors} errors."
+  },
+  "typing_input": {
+    "typing_input": "typing input"
+  },
+  "type_view_book": {
+    "now_reading": "Now reading {title}{by}.",
+    "by_author": " by {author}",
+    "now": "now: {title}{by}"
+  },
+  "text_providers": {
+    "unknown_practice_source": "Unknown practice source \"{source}\""
   }
 }

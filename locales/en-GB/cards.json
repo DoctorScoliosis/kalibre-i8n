@@ -9,5 +9,196 @@
     "stickers": "stickers",
     "garage": "garage",
     "done": "done"
+  },
+  "card_view": {
+    "lv": "lv {level}",
+    "with_after_level": " · with {companionName}",
+    "with_companion": "with {companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "This is how your card looks to others in a race. Your companion stands where a picture would be: profile pictures never leave this device. Drag a sticker to move it; select one for a colour, size and turn, or the arrows, [ and ], and Delete; Esc or a click elsewhere deselects it.",
+    "what_your_card_wears": "what your card wears",
+    "colour": "{tokenLabel} colour",
+    "theme_default_colour": "theme default colour",
+    "delete_sticker": "delete sticker",
+    "sticker_arrows_move_it_and": "{name} sticker: arrows move it, [ and ] turn it, delete takes it off; select it for its colour and size",
+    "selected_sticker_s_colour": "selected sticker’s colour",
+    "add_a_sticker": "add a {name} sticker",
+    "a_secret_sticker": "a secret sticker",
+    "a_card_shows_at_most": "a card shows {MAX_SHOWCASE} at most",
+    "remove_every_sticker": "remove every sticker",
+    "nothing_to_show_off_yet": "Nothing to show off yet. Your achievements will be here as you earn them.",
+    "tabs": {
+      "showcase": {
+        "title": "showcase",
+        "hint": "up to {max} achievements you’ve earned"
+      },
+      "garage": {
+        "title": "garage",
+        "hint": "dress your race car: it’s what you drive on the track, and what everyone racing you sees"
+      }
+    },
+    "tint": "{slot}Tint"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {
+        "title": "border",
+        "hint": "around the card"
+      },
+      "frame": {
+        "title": "frame",
+        "hint": "around your companion"
+      },
+      "aura": {
+        "title": "aura",
+        "hint": "a glow behind your companion"
+      },
+      "backdrop": {
+        "title": "backdrop",
+        "hint": "behind everything on the card"
+      },
+      "sticker": {
+        "title": "stickers",
+        "hint": "drag them anywhere on the card"
+      }
+    },
+    "items": {
+      "border-double": {
+        "name": "double line"
+      },
+      "border-stitch": {
+        "name": "stitched"
+      },
+      "border-ribbon": {
+        "name": "ribbon"
+      },
+      "border-corners": {
+        "name": "corner brackets"
+      },
+      "border-keycap": {
+        "name": "keycap"
+      },
+      "border-heat": {
+        "name": "heat"
+      },
+      "border-neon": {
+        "name": "neon"
+      },
+      "border-gilt": {
+        "name": "gilt"
+      },
+      "border-midnight": {
+        "name": "midnight"
+      },
+      "frame-double": {
+        "name": "double ring"
+      },
+      "frame-dashed": {
+        "name": "dashed ring"
+      },
+      "frame-square": {
+        "name": "keycap square"
+      },
+      "frame-cog": {
+        "name": "cog"
+      },
+      "frame-petals": {
+        "name": "petals"
+      },
+      "frame-orbit": {
+        "name": "orbit"
+      },
+      "frame-laurel": {
+        "name": "laurel"
+      },
+      "frame-crown": {
+        "name": "crown"
+      },
+      "aura-soft": {
+        "name": "soft glow"
+      },
+      "aura-pulse": {
+        "name": "pulse"
+      },
+      "aura-ember": {
+        "name": "ember"
+      },
+      "aura-halo": {
+        "name": "halo"
+      },
+      "aura-aurora": {
+        "name": "aurora"
+      },
+      "aura-prism": {
+        "name": "prism"
+      },
+      "backdrop-dots": {
+        "name": "dots"
+      },
+      "backdrop-pinstripe": {
+        "name": "pinstripe"
+      },
+      "backdrop-graph": {
+        "name": "graph paper"
+      },
+      "backdrop-waves": {
+        "name": "waves"
+      },
+      "backdrop-stars": {
+        "name": "starfield"
+      },
+      "backdrop-confetti": {
+        "name": "confetti"
+      },
+      "sticker-star": {
+        "name": "star"
+      },
+      "sticker-leaf": {
+        "name": "leaf"
+      },
+      "sticker-key": {
+        "name": "keycap"
+      },
+      "sticker-heart": {
+        "name": "heart"
+      },
+      "sticker-flower": {
+        "name": "flower"
+      },
+      "sticker-bolt": {
+        "name": "lightning"
+      },
+      "sticker-note": {
+        "name": "music note"
+      },
+      "sticker-moon": {
+        "name": "moon"
+      },
+      "sticker-rocket": {
+        "name": "rocket"
+      },
+      "sticker-castle": {
+        "name": "castle"
+      },
+      "sticker-magnifier": {
+        "name": "magnifier"
+      },
+      "sticker-book": {
+        "name": "book"
+      },
+      "sticker-flag": {
+        "name": "chequered flag"
+      },
+      "sticker-crown": {
+        "name": "crown"
+      },
+      "sticker-teacup": {
+        "name": "teacup"
+      },
+      "sticker-sparkle": {
+        "name": "sparkle"
+      }
+    }
   }
 }

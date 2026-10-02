@@ -14,16 +14,16 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 2,
+  "revision": 3,
   "version": "2026-10-02",
-  "changes": "Achievement and group keys moved onto the current key layout",
+  "changes": "Removed obsolete quest sentence keys",
   "files": {
     "about.json": "b4967f4bd19a2351f25c02b3fb89d3ddf4ec048a58fab853f2cf6c2a414052c9",
     "achievements.json": "499772d89fad67116a81733dac0450e73c85682f4b49b029c6e566d44d12e9bb",
     "chrome.json": "2534b833a071578694c6eca9bb3a5b9e96d7daab505f23d149fe23756e1165d0",
     "companions.json": "d2d20eb1d6304bdc8e1013dcf5b42ab3807f6a3607652722422319ed26e32346",
     "data.json": "83445c5c12a6791d12e8c54d60ffe303035670b5c1d7246cef06d230887799ac",
-    "quests.json": "10d7313c34ffe12b46b2551d773ded0ce3a9fc7a1d34981c74e1a63d073cfd0c",
+    "quests.json": "52f894b9dd811d90ba79883707c65f9354b384efa0b16cea1ffa10da862173d8",
     "settings.json": "df45a9bbdeb314ec43b53c8fb35d74c5de20eef8aa797014dc4fd14697bd0f41",
     "themes.json": "c8610a7f40b56eb99a5f61973c06125db750d914139c7165cbe3ba160276ff0b"
   }

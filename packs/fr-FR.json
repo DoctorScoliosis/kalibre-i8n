@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 2,
+    "revision": 3,
     "version": "2026-10-02",
-    "changes": "Achievement and group keys moved onto the current key layout"
+    "changes": "Removed obsolete quest sentence keys"
   },
   "strings": {
     "about": {
@@ -331,15 +331,6 @@
       }
     },
     "quests": {
-      "kinds": {
-        "type_words": "Taper {count} mot(s)",
-        "type_minutes": "Taper pendant {count} minute(s)",
-        "finish_tests": "Terminer {count} test(s)",
-        "play_game": "Jouer à {game} {count} fois",
-        "score_game": "Atteindre {score} dans {game}",
-        "find_mistakes": "Trouver {count} erreur(s) en une partie de {game}",
-        "touch_typing_lesson": "Faire une leçon de frappe en aveugle"
-      },
       "status": {
         "done": "Terminé"
       },

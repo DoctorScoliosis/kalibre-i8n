@@ -145,6 +145,35 @@
     "next": "next",
     "prev_aria": "previous page",
     "next_aria": "next page",
-    "page_info": "{current} of {total}"
+    "page_info": "{current} of {total}",
+    "xp": "{toLocaleString} / {toLocaleString2} xp",
+    "ms": "{round} ms · {round2}%",
+    "typed": "{round}% · typed {toLocaleString}"
+  },
+  "hesitations_pane": {
+    "of": "{round}% · {hesitated} of {toLocaleString}"
+  },
+  "overview_pane": {
+    "recent_tests": "recent tests",
+    "group_stats": "{wpm} wpm · {accuracy}% · {count, plural, one {# test} other {# tests}}"
+  },
+  "periods_pane": {
+    "wpm": " wpm"
+  },
+  "stats_charts": {
+    "wpm_of_recent_tests_use": "WPM of recent tests. Use the left and right arrow keys to read each test.",
+    "recent_tests": "Recent tests",
+    "complete_a_couple_of_tests": "Complete a couple of tests to see a trend.",
+    "accuracy": "{value}% accuracy",
+    "not_enough_typing": "not enough typing",
+    "ms": "{round} ms",
+    "keyboard_coloured_by_how_often": "Keyboard coloured by how often each key is typed right first time. The table below lists the same values.",
+    "use_the_left_and_right": "{label}. Use the left and right arrow keys to read each day.",
+    "no_typing": "no typing",
+    "day_tests": "{count, plural, one {# test} other {# tests}}",
+    "day_wpm": " · {wpm} wpm"
+  },
+  "stats": {
+    "sections_label": "stats sections"
   }
 }

@@ -282,7 +282,9 @@
     "news_new_item": "a new {name}",
     "news_new_items": "{count, plural, one {a new thing} other {# new things}}",
     "news_earned": "ooh, you earned {what} for my wardrobe!",
-    "try_it_on": "try it on"
+    "try_it_on": "try it on",
+    "status_worn": "{name}: {state}",
+    "status_hint_progress": "{name}: {hint} ({have} of {need})",
+    "status_hint": "{name}: {hint}"
   }
 }
-

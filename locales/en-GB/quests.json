@@ -1,13 +1,4 @@
 {
-  "kinds": {
-    "type_words": "type {count} word(s)",
-    "type_minutes": "type for {count} minute(s)",
-    "finish_tests": "finish {count} test(s)",
-    "play_game": "play {game} {count} time(s)",
-    "score_game": "score {score} in {game}",
-    "find_mistakes": "find {count} mistake(s) in one {game} run",
-    "touch_typing_lesson": "do a touch typing lesson"
-  },
   "status": {
     "done": "done"
   },
@@ -30,5 +21,69 @@
     "new_at_midnight": "{difficulty} · new quests at midnight · ",
     "difficulty": "difficulty",
     "summary_aria": "today: {done} of {total} quests done{challenge, select, done {, challenge done} other {}}"
+  },
+  "quest_note": {
+    "xp": "+{reward} xp"
+  },
+  "match": {
+    "tests": "{count, plural, one {a test} other {tests}}",
+    "drills": "{count, plural, one {a drill} other {drills}}",
+    "time": "{count, plural, one {a time test} other {time tests}}",
+    "words": "{count, plural, one {a words test} other {words tests}}",
+    "quote": "{count, plural, one {a quote} other {quotes}}",
+    "book": "{count, plural, one {a book reading} other {book readings}}",
+    "sustained": "{count, plural, one {a sustained test} other {sustained tests}}",
+    "time_duration": "{count, plural, one {a {duration}-second test} other {{duration}-second tests}}",
+    "words_count": "{count, plural, one {a {wordCount}-word test} other {{wordCount}-word tests}}",
+    "quote_category": "{count, plural, one {a {category} quote} other {{category} quotes}}"
+  },
+  "categories": {
+    "short": "short",
+    "medium": "medium",
+    "long": "long",
+    "huge": "huge",
+    "massive": "massive"
+  },
+  "game_titles": {
+    "feed": "Feed",
+    "castle": "Castle",
+    "space": "Space",
+    "spot": "Spot"
+  },
+  "difficulty_words": {
+    "easy": "on easy",
+    "normal": "on normal",
+    "hard": "on hard"
+  },
+  "conditions": {
+    "wpm": "{wpm}+ wpm",
+    "accuracy": "{accuracy}%+ accuracy",
+    "and": " and ",
+    "at": " at {parts}",
+    "kept_going_after": ", kept going for {minutes, plural, one {# minute} other {# minutes}}",
+    "kept_going": " kept going for {minutes, plural, one {# minute} other {# minutes}}"
+  },
+  "describe": {
+    "words": "type {count, plural, one {# word} other {# words}}",
+    "words_in": "type {count, plural, one {# word} other {# words}} in {match}",
+    "minutes": "type for {count, plural, one {# minute} other {# minutes}}",
+    "minutes_in": "type for {count, plural, one {# minute} other {# minutes}} in {match}",
+    "minutes_book": "type from a book for {count, plural, one {# minute} other {# minutes}}",
+    "tests_one": "finish {match}",
+    "tests_many": "finish {count} {match}",
+    "run": "finish {match}{conditions}",
+    "game_runs": "play {game} {count, plural, one {once} other {# times}}",
+    "game_score": "score {score} in {game}",
+    "game_score_difficulty": "score {score} in {game} {difficulty}",
+    "game_found": "find {count, plural, one {# mistake} other {# mistakes}} in one {game} run",
+    "lesson_run": "type a touch typing lesson at {accuracy}%+ accuracy",
+    "lessons": "{count, plural, one {do a touch typing lesson} other {do # touch typing lessons}}",
+    "pad_tests": "{count, plural, one {finish a ten-key test} other {finish # ten-key tests}}",
+    "pad_run": "finish a ten-key test",
+    "pad_ksph": "{ksph}+ keystrokes an hour",
+    "pad_entries": ", with {entries}+ entries",
+    "pad_lessons": "{count, plural, one {do a number pad lesson} other {do # number pad lessons}}",
+    "sums": "get {count, plural, one {# sum} other {# sums}} right",
+    "something": "something"
   }
 }

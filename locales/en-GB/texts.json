@@ -60,5 +60,23 @@
     "unknown": "— unknown",
     "too_short": " · too short for tests ({min}+ characters)",
     "empty": "Add quotes you like; they appear in quote and mixed tests. Collections such as a quotes.json file can be installed under datasets."
+  },
+  "github_import": {
+    "github_s_limit_for_downloads": "GitHub’s limit for downloads without signing in was reached. Try again in an hour.",
+    "that_repository_or_folder_wasn": "That repository or folder wasn’t found (it may be private).",
+    "github_answered": "GitHub answered {status}.",
+    "that_isn_t_a_github": "That isn’t a GitHub repository address (github.com/owner/repo).",
+    "no_txt_or_md_files": "No .txt or .md files were found there.",
+    "the_files_couldn_t_be": "The files couldn’t be downloaded."
+  },
+  "importers": {
+    "doesn_t_look_like_a": "{name} doesn't look like a text file.",
+    "isn_t_utf_8_text": "{name} isn't UTF-8 text.",
+    "only_files_can_be_imported": "{name}: only {ACCEPTED_EXTENSIONS} files can be imported.",
+    "is_larger_than_5_mb": "{name} is larger than 5 MB.",
+    "is_empty": "{name} is empty."
+  },
+  "quote_collections": {
+    "no_quotes_were_found_in": "No quotes were found in that file."
   }
 }

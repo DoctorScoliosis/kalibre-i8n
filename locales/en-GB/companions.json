@@ -12,7 +12,7 @@
   },
   "menu": {
     "wardrobe": "wardrobe",
-    "get_ring": "get {them} a ring",
+    "get_ring": "get {companion, select, cal {him} libby {her} other {them}} a ring",
     "options_aria": "{companion}’s options"
   },
   "engagement": {
@@ -30,44 +30,160 @@
     "aria_label": "thank you for playing kalibre",
     "thanks": "thank you for playing kalibre.",
     "cal_script": [
-      { "say": "proposer", "mood": "wobbly", "text": "Huh? There’s something on my paw." },
-      { "reply": "it’s a ring." },
-      { "say": "proposer", "mood": "wobbly", "text": "A ring? It’s so shiny. But… what’s it for?" },
-      { "reply": "it’s for someone you love." },
-      { "say": "proposer", "mood": "watching", "text": "Someone I… oh. OH. I know exactly who." },
-      { "reply": "call {partner}" },
-      { "say": "proposer", "mood": "happy", "text": "{partner}! Could you come here a sec?" },
-      { "cue": "partnerEnters" },
-      { "say": "partner", "mood": "idle", "text": "You called? You’re all fidgety. What is it?" },
-      { "say": "proposer", "mood": "wobbly", "text": "It’s a ring. For you. I mean, if you want it. Do you?" },
-      { "say": "partner", "mood": "happy", "text": "Oh, {proposer}. Of course I do." },
-      { "cue": "partnerRing" },
-      { "say": "proposer", "mood": "happy", "text": "It fits! It FITS!" },
-      { "say": "partner", "mood": "happy", "text": "Two keys, side by side. Just like always." },
-      { "cue": "heart" },
-      { "say": "proposer", "mood": "happy", "text": "Shall we go?" },
-      { "say": "partner", "mood": "happy", "text": "Let’s." },
-      { "cue": "walkOut" }
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Huh? There’s something on my paw."
+      },
+      {
+        "reply": "it’s a ring."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "A ring? It’s so shiny. But… what’s it for?"
+      },
+      {
+        "reply": "it’s for someone you love."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Someone I… oh. OH. I know exactly who."
+      },
+      {
+        "reply": "call {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner}! Could you come here a sec?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "You called? You’re all fidgety. What is it?"
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "It’s a ring. For you. I mean, if you want it. Do you?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Oh, {proposer}. Of course I do."
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "It fits! It FITS!"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Two keys, side by side. Just like always."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Shall we go?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Let’s."
+      },
+      {
+        "cue": "walkOut"
+      }
     ],
     "libby_script": [
-      { "say": "proposer", "mood": "wobbly", "text": "Oh. There’s something on my paw." },
-      { "reply": "it’s a ring." },
-      { "say": "proposer", "mood": "wobbly", "text": "A ring. It’s lovely… but it isn’t really mine, is it?" },
-      { "reply": "it’s for someone special." },
-      { "say": "proposer", "mood": "watching", "text": "Someone special. Mm. I think I know who." },
-      { "reply": "call {partner}" },
-      { "say": "proposer", "mood": "happy", "text": "{partner}? Would you come here for a moment?" },
-      { "cue": "partnerEnters" },
-      { "say": "partner", "mood": "idle", "text": "I’m here! What’s up? Ooh, what’s that? It’s shiny!" },
-      { "say": "proposer", "mood": "happy", "text": "It’s a ring, {partner}. It’s for you." },
-      { "say": "partner", "mood": "happy", "text": "For ME? Yes! Yes yes yes!" },
-      { "cue": "partnerRing" },
-      { "say": "proposer", "mood": "happy", "text": "Hold still, then." },
-      { "say": "partner", "mood": "happy", "text": "I’m holding! Mostly." },
-      { "cue": "heart" },
-      { "say": "partner", "mood": "happy", "text": "Where to now?" },
-      { "say": "proposer", "mood": "happy", "text": "Somewhere lovely." },
-      { "cue": "walkOut" }
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Oh. There’s something on my paw."
+      },
+      {
+        "reply": "it’s a ring."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "A ring. It’s lovely… but it isn’t really mine, is it?"
+      },
+      {
+        "reply": "it’s for someone special."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Someone special. Mm. I think I know who."
+      },
+      {
+        "reply": "call {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner}? Would you come here for a moment?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "I’m here! What’s up? Ooh, what’s that? It’s shiny!"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "It’s a ring, {partner}. It’s for you."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "For ME? Yes! Yes yes yes!"
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Hold still, then."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "I’m holding! Mostly."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Where to now?"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Somewhere lovely."
+      },
+      {
+        "cue": "walkOut"
+      }
     ],
     "cal_letter": [
       "dear you,",

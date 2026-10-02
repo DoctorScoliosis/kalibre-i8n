@@ -3,32 +3,42 @@
     "mistakeSensitivity": {
       "label": "suggest mistakes to train",
       "option": {
-        "relaxed": "only clear patterns"
-      }
+        "relaxed": "only clear patterns",
+        "normal": "normal",
+        "eager": "early"
+      },
+      "description": "how much evidence before a suggestion"
     },
     "autoAcceptMistakes": {
-      "label": "auto-add mistakes to training"
+      "label": "auto-add mistakes to training",
+      "description": "start training eligible mistakes automatically"
     },
     "adaptiveMix": {
       "label": "practice words in word tests",
       "option": {
         "light": "a few",
-        "strong": "more"
-      }
+        "strong": "more",
+        "off": "off"
+      },
+      "description": "mix in words with mistakes being watched"
     },
     "goalType": {
       "label": "daily goal",
       "option": {
         "off": "none",
         "minutes": "minutes",
-        "words": "words"
-      }
+        "words": "words",
+        "xp": "xp"
+      },
+      "description": "typing to aim for each day"
     },
     "goalMinutes": {
-      "label": "minutes a day"
+      "label": "minutes a day",
+      "description": "daily goal in minutes"
     },
     "goalWords": {
-      "label": "words a day"
+      "label": "words a day",
+      "description": "daily goal in words"
     },
     "questDifficulty": {
       "label": "daily quest difficulty",
@@ -36,7 +46,8 @@
         "easy": "easy",
         "normal": "normal",
         "hard": "hard"
-      }
+      },
+      "description": "how far quests and the daily challenge stretch you, and how much XP they give. A change applies from tomorrow’s quests"
     },
     "lessonCompanion": {
       "label": "lesson companion"
@@ -45,7 +56,8 @@
       "label": "capitals in common words"
     },
     "paragraphBreaks": {
-      "label": "paragraph breaks"
+      "label": "paragraph breaks",
+      "description": "press enter at paragraph ends"
     },
     "wordPool": {
       "label": "word list",
@@ -58,8 +70,11 @@
       "option": {
         "everyday": "everyday",
         "some_long": "some long words",
-        "long": "long words"
-      }
+        "long": "long words",
+        "common": "everyday",
+        "mixed": "some long words"
+      },
+      "description": "longer, harder words in time and word tests"
     },
     "wordSpelling": {
       "label": "spelling in word tests",
@@ -67,7 +82,8 @@
         "both": "both (as written)",
         "uk": "UK English (colour, centre)",
         "us": "US English (color, center)"
-      }
+      },
+      "description": "spelling variant in word tests and drills"
     },
     "textSize": {
       "label": "typing text size"
@@ -93,14 +109,17 @@
       }
     },
     "smoothCaret": {
-      "label": "smooth caret"
+      "label": "smooth caret",
+      "description": "cursor glides between letters"
     },
     "focusMode": {
       "label": "focus",
       "option": {
         "line": "current line",
-        "sentence": "sentence"
-      }
+        "sentence": "sentence",
+        "none": "off"
+      },
+      "description": "dim text outside the line or sentence"
     },
     "liveMetrics": {
       "label": "live wpm and accuracy"
@@ -113,7 +132,12 @@
       }
     },
     "restartKey": {
-      "label": "restart key"
+      "label": "restart key",
+      "description": "keys that restart a test",
+      "option": {
+        "tab-enter": "tab → enter",
+        "tab-tab": "tab → tab"
+      }
     },
     "layout": {
       "label": "keyboard layout"
@@ -126,10 +150,453 @@
       }
     },
     "defaultDuration": {
-      "label": "default test duration"
+      "label": "default test duration",
+      "description": "length of a time test"
     },
     "defaultWordCount": {
-      "label": "default word count"
+      "label": "default word count",
+      "description": "length of a words test"
+    },
+    "mode": {
+      "label": "mode",
+      "description": "light, dark, or follow your system",
+      "option": {
+        "system": "match system",
+        "light": "light",
+        "dark": "dark"
+      }
+    },
+    "themeLight": {
+      "label": "light theme",
+      "description": "colours when using light mode",
+      "option": {
+        "paper": "paper",
+        "eink": "e-ink",
+        "cream": "cream",
+        "rose": "rose",
+        "harbour": "harbour",
+        "contrast": "high contrast"
+      }
+    },
+    "themeDark": {
+      "label": "dark theme",
+      "description": "colours when using dark mode",
+      "option": {
+        "ink": "ink",
+        "dusk": "dusk",
+        "eink-night": "e-ink night",
+        "forest": "forest",
+        "plum": "plum",
+        "slate": "slate",
+        "terminal": "terminal",
+        "contrast-night": "high contrast night"
+      }
+    },
+    "theme": {
+      "label": "theme",
+      "description": "colours for the whole app",
+      "option": {
+        "system": "match system",
+        "paper": "paper",
+        "ink": "ink",
+        "dusk": "dusk",
+        "eink": "e-ink",
+        "eink-night": "e-ink night",
+        "cream": "cream",
+        "rose": "rose",
+        "harbour": "harbour",
+        "forest": "forest",
+        "plum": "plum",
+        "slate": "slate",
+        "terminal": "terminal",
+        "contrast": "high contrast",
+        "contrast-night": "high contrast night"
+      }
+    },
+    "customThemes": {
+      "label": "your themes"
+    },
+    "typingFontSize": {
+      "label": "typing text size",
+      "description": "size of the text you type"
+    },
+    "typingFont": {
+      "label": "typing font"
+    },
+    "typingFontWeight": {
+      "label": "typing font weight",
+      "description": "how bold the typing text is",
+      "option": {
+        "300": "300",
+        "400": "400",
+        "500": "500",
+        "600": "600",
+        "700": "700"
+      }
+    },
+    "typingLineHeight": {
+      "label": "typing line height",
+      "description": "space between typing lines"
+    },
+    "typingLetterSpacing": {
+      "label": "typing letter spacing",
+      "description": "space between letters"
+    },
+    "caret": {
+      "label": "caret style",
+      "description": "shape of the cursor",
+      "option": {
+        "line": "line",
+        "block": "block",
+        "underline": "underline"
+      }
+    },
+    "linesAhead": {
+      "label": "lines ahead",
+      "description": "how many lines are visible",
+      "option": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
+    },
+    "showLiveStats": {
+      "label": "live wpm and accuracy",
+      "description": "wpm and accuracy while typing"
+    },
+    "errorDisplay": {
+      "label": "show mistakes as",
+      "description": "what a wrong letter shows",
+      "option": {
+        "expected": "expected letter",
+        "typed": "typed letter"
+      }
+    },
+    "keyboardLayout": {
+      "label": "keyboard layout",
+      "description": "this tells Kalibre where keys sit to judge neighbours; it does not change what you type",
+      "option": {
+        "qwerty": "QWERTY (US)",
+        "dvorak": "Dvorak",
+        "colemak": "Colemak",
+        "colemak-dh": "Colemak-DH",
+        "workman": "Workman",
+        "azerty": "AZERTY (French)",
+        "qwertz": "QWERTZ (German)"
+      }
+    },
+    "inputMethod": {
+      "label": "I type with",
+      "description": "a steno machine sends whole words at once, so Kalibre notes whole-word mistakes only and puts the touch typing lessons aside",
+      "option": {
+        "keyboard": "a keyboard",
+        "steno": "a steno machine"
+      }
+    },
+    "capitals": {
+      "label": "capitals in common words",
+      "description": "quotes and your texts always keep theirs"
+    },
+    "wordList": {
+      "label": "word list",
+      "description": "how many common words to draw from",
+      "option": {
+        "200": "200 common words",
+        "1000": "1k common words",
+        "5000": "5k common words"
+      }
+    },
+    "customSampling": {
+      "label": "custom texts",
+      "description": "whole text or a passage",
+      "option": {
+        "passage": "random passage",
+        "entire": "entire text"
+      }
+    },
+    "customQuoteLength": {
+      "label": "passage length",
+      "description": "character band for a custom passage",
+      "option": {
+        "short": "short (up to 100 chars)",
+        "medium": "medium (up to 300 chars)",
+        "long": "long (up to 600 chars)",
+        "huge": "huge (up to 1500 chars)",
+        "massive": "massive (up to 4000 chars)"
+      }
+    },
+    "customNormalisation": {
+      "label": "custom text characters",
+      "description": "what custom texts keep",
+      "option": {
+        "preserve": "as written",
+        "no-punctuation": "no punctuation",
+        "letters": "letters only",
+        "letters-numbers": "letters + numbers"
+      }
+    },
+    "mixedCategories": {
+      "label": "mixed quote lengths",
+      "description": "quote lengths mixed tests use",
+      "option": {
+        "short": "short",
+        "medium": "medium",
+        "long": "long",
+        "huge": "huge",
+        "massive": "massive"
+      }
+    },
+    "goalXp": {
+      "label": "xp a day",
+      "description": "daily goal in xp from typing (not bonuses); a minute of clean typing earns about 8–15"
+    },
+    "companion": {
+      "label": "lesson companion",
+      "description": "chosen at setup, and kept by the profile",
+      "option": {
+        "cal": "Cal",
+        "libby": "Libby"
+      }
+    },
+    "mascotChatter": {
+      "label": "{companion}’s chatter",
+      "description": "how much {companion} says",
+      "option": {
+        "chatty": "chatty",
+        "quiet": "only what matters"
+      }
+    },
+    "mascotSounds": {
+      "label": "{companion}’s sounds",
+      "description": "little chirps in lessons (never mid-word), a purr when petted and a giggle when tickled"
+    },
+    "mascotVolume": {
+      "label": "{companion}’s volume",
+      "description": "how loud {companion} is"
+    },
+    "uiFontSize": {
+      "label": "interface text size",
+      "description": "size of the interface text"
+    },
+    "reduceMotion": {
+      "label": "reduce motion",
+      "description": "fewer animations",
+      "option": {
+        "system": "match system",
+        "on": "on",
+        "off": "off"
+      }
+    },
+    "colourVision": {
+      "label": "colour vision",
+      "description": "adjust colours for colour blindness",
+      "option": {
+        "typical": "typical",
+        "red-green": "red-green (protanopia, deuteranopia)",
+        "blue-yellow": "blue-yellow (tritanopia)",
+        "no-colour": "no colour"
+      }
+    },
+    "uiFont": {
+      "label": "interface font",
+      "description": "font for menus and text outside the typing area",
+      "option": {
+        "system": "system default",
+        "atkinson": "Atkinson Hyperlegible",
+        "opendyslexic": "OpenDyslexic"
+      }
+    },
+    "boldText": {
+      "label": "bold text",
+      "description": "heavier text throughout the interface"
+    },
+    "textSpacing": {
+      "label": "text spacing",
+      "description": "wider spacing between letters and words",
+      "option": {
+        "normal": "normal",
+        "wide": "wide"
+      }
+    },
+    "contrast": {
+      "label": "contrast",
+      "description": "make text and borders more distinct",
+      "option": {
+        "system": "match system",
+        "normal": "normal",
+        "more": "more"
+      }
+    },
+    "pageWidth": {
+      "label": "page width",
+      "description": "width of the page content",
+      "option": {
+        "narrow": "narrow (720 px)",
+        "normal": "normal (880 px)",
+        "wide": "wide (1000 px)",
+        "full": "full width"
+      }
+    },
+    "language": {
+      "label": "language",
+      "description": "interface language; reload after changing",
+      "option": {
+        "en-GB": "English (UK)",
+        "en-US": "English (US)",
+        "zh-CN": "简体中文 (Chinese Simplified)",
+        "qps": "pseudo",
+        "qps-wide": "pseudo wide"
+      }
+    },
+    "backupFrequency": {
+      "label": "automatic backups",
+      "description": "when the backup folder is updated (Chrome and Edge)",
+      "option": {
+        "change": "soon after any change",
+        "test": "after each test",
+        "5min": "every 5 minutes at most",
+        "hourly": "every hour at most",
+        "manual": "only when I ask"
+      }
+    },
+    "updateCheck": {
+      "label": "check for updates",
+      "description": "how often kalibre looks for a new version; it waits for you either way",
+      "option": {
+        "5min": "every 5 minutes",
+        "15min": "every 15 minutes",
+        "hourly": "every hour",
+        "launch": "when kalibre opens",
+        "manual": "only when I ask"
+      }
+    },
+    "enabledDatasets": {
+      "label": "enabled datasets"
+    },
+    "libraries": {
+      "label": "dataset libraries"
+    },
+    "wordFilter": {
+      "label": "filter offensive words"
+    },
+    "blockedWords": {
+      "label": "words of your own to filter"
+    },
+    "companionLook": {
+      "label": "{companion}’s look"
+    },
+    "stenoNoteShown": {
+      "label": "steno note shown"
+    },
+    "lastVisitDay": {
+      "label": "last visit"
+    },
+    "calSeen": {
+      "label": "{companion}’s items seen"
+    },
+    "calPets": {
+      "label": "times {companion} was petted"
+    },
+    "calPokes": {
+      "label": "times {companion} was poked"
+    },
+    "calTickles": {
+      "label": "times {companion} was tickled"
+    },
+    "calPokeFits": {
+      "label": "times {companion} was poked too much"
+    },
+    "raceNoticeSeen": {
+      "label": "race notice seen"
+    },
+    "lastSeenVersion": {
+      "label": "last version seen"
+    },
+    "updateTold": {
+      "label": "update mentioned"
+    },
+    "calArmLifts": {
+      "label": "times {companion}’s arm was lifted"
+    },
+    "restartRun": {
+      "label": "last start"
+    },
+    "calRestartBest": {
+      "label": "most quick restarts in a row"
+    },
+    "achievementsSeen": {
+      "label": "achievements seen"
+    },
+    "achievementsVersionSeen": {
+      "label": "achievements version seen"
+    },
+    "themeDecorations": {
+      "label": "theme decorations"
+    },
+    "profileCard": {
+      "label": "profile card"
+    },
+    "cardItemsSeen": {
+      "label": "profile card items seen"
+    },
+    "raceCardNoticeSeen": {
+      "label": "race card notice seen"
+    },
+    "car": {
+      "label": "race car"
+    },
+    "carPartsSeen": {
+      "label": "race car parts seen"
+    },
+    "raceConfig": {
+      "label": "race choices"
+    },
+    "raceModesNoticeSeen": {
+      "label": "race modes notice seen"
+    },
+    "decorationsSeen": {
+      "label": "theme decorations seen"
+    },
+    "achievementsComplete": {
+      "label": "every achievement"
+    },
+    "engagement": {
+      "label": "engagement"
+    },
+    "partnerLook": {
+      "label": "partner’s look"
+    },
+    "lessonConfig": {
+      "label": "lesson setup"
+    },
+    "lessonPrep": {
+      "label": "lesson steps and warm-ups"
+    },
+    "gameConfigs": {
+      "label": "game setups"
+    },
+    "lastConfig": {
+      "label": "last test configuration"
+    },
+    "numpad": {
+      "label": "i have a number pad",
+      "description": "for number pad practice, and to say if num lock is off"
+    },
+    "numpadSeen": {
+      "label": "number pad seen"
+    },
+    "numpadTold": {
+      "label": "number pad practice mentioned"
+    },
+    "numpadOffered": {
+      "label": "number pad practice offered"
+    },
+    "sumsConfig": {
+      "label": "sums setup"
+    },
+    "numpadConfig": {
+      "label": "ten-key test setup"
     }
   },
   "actions": {
@@ -141,5 +608,138 @@
   },
   "notice": {
     "imported_count": "imported {count} setting(s)"
+  },
+  "data_panel": {
+    "done_the_browser_will_keep": "Done: the browser will keep your data.",
+    "the_browser_said_no_for": "The browser said no for now. Installing kalibre as an app or bookmarking it often changes that; meanwhile, keep a backup.",
+    "this_browser_can_t_save": "This browser can’t save to a folder by itself, so back up by hand below. (Chrome and Edge can do it automatically.)",
+    "choose_a_folder_on_this": "Choose a folder on this computer and it becomes your kalibre folder: this profile is saved there a few seconds after each test or change, with the datasets and fonts you’ve added. A folder with other things in it gets a “kalibre” folder made inside.",
+    "saving_this_profile_and_the": "Saving this profile, and the datasets and fonts added here, to the kalibre folder “{folderName}” · {last}.{problem}",
+    "when_an_update_changes_how": "When an update changes how kalibre stores things, it keeps a copy of everything from just before, in case something went wrong. The latest two are kept.",
+    "what_takes_the_space": "what takes the space",
+    "bring_profiles_datasets_and_fonts": "Bring profiles, datasets and fonts back from a kalibre folder: after the browser was cleared, or on another computer. Nothing here is overwritten. Works in any browser.",
+    "shared": "shared",
+    "the_file_is_ready": "the file is ready",
+    "couldn_t_save_see_settings": "couldn’t save (see settings → data)",
+    "storage_persistent": "The browser keeps kalibre’s data until you clear it yourself.",
+    "storage_best_effort": "The browser may clear kalibre’s data if the disk runs low (Safari also does after 7 days without a visit). Ask it to keep the data, and keep a backup.",
+    "storage_unsupported": "This browser can’t promise to keep kalibre’s data, so keep a backup.",
+    "storage_using": " Using {used}.",
+    "overdue": "This profile hasn’t been backed up for over {days} days. ",
+    "never_backed_up": "This profile hasn’t been backed up yet. ",
+    "last_backup": "Last backup {when}. ",
+    "export_explained": "An export is a file with this profile’s history (saved in the kalibre folder’s exports when there is one); restore it with “import a profile file” in the profile menu.",
+    "copy_line": "from {when}, just before{what} changed how data is stored · {records} records",
+    "copy_app": " kalibre v{app}",
+    "copy_update": " an update",
+    "allow_again": "allow again",
+    "save_over_it": "save over it",
+    "restore_it": "restore it",
+    "put_this_copy_back": "put this copy back",
+    "share_it": "share it"
+  },
+  "fonts": {
+    "default_monospace": "default (monospace)",
+    "font_names_can_only_use": "Font names can only use letters, numbers, spaces, dots, dashes and underscores.",
+    "isn_t_available_on_this": "\"{family}\" isn't available on this device, so the default font is shown.",
+    "use": "use {family}",
+    "kb": "{fileName} · {round} KB",
+    "remove": "remove {family}",
+    "list_fonts_on_this_computer": "list fonts on this computer",
+    "fonts_found_start_typing_a": "{length} fonts found; start typing a name to pick one.",
+    "the_browser_did_not_allow": "The browser did not allow listing fonts. You can still type any installed font name.",
+    "load_a_font_file": "load a font file",
+    "use_default_font": "use default font",
+    "bundled_legible": "bundled · legible monospace",
+    "bundled_dyslexia": "bundled · dyslexia-friendly",
+    "sample": "the quick brown fox jumps over the lazy dog. 0123456789"
+  },
+  "settings": {
+    "github": "github",
+    "translation_note": "this translation wasn't written or checked by a native speaker, so some of it may read oddly. you can help improve it on {link}.",
+    "imported": "imported {count, plural, one {# setting} other {# settings}}",
+    "skipped": " · skipped {what}",
+    "sections_label": "settings sections"
+  },
+  "storage_screen": {
+    "measuring": "measuring…",
+    "space_used": "space used",
+    "yes": "yes, {label}",
+    "export_first": "export first",
+    "kalibre_is_using_of_the": "kalibre is using {formatSize} of the {formatSize2} this browser allows it.",
+    "kalibre_is_using_about": "kalibre is using about {formatSize}.",
+    "couldn_t_measure": "couldn’t measure: {message}"
+  },
+  "theme_editor": {
+    "sample_of_this_theme": "sample of this theme",
+    "needs_1": " (needs {minimum}:1)",
+    "fix_the_colours_marked_first": "Fix the colours marked ✗ first",
+    "hex_value": "{label} hex value",
+    "edit_theme": "edit theme",
+    "a_sample_of_every_colour": "A sample of every colour, with your colour vision and contrast settings. Hover over a colour, or choose one, to outline where it goes.",
+    "imported": "imported \"{name}\"",
+    "that_file_isn_t_a": "That file isn't a theme.",
+    "saved": "saved \"{name}\"",
+    "saved_decorate": ". Decorate it from the list whenever you like.",
+    "groups": {
+      "page": "page",
+      "text": "text",
+      "typing": "typing",
+      "charts": "charts"
+    },
+    "tokens": {
+      "bg": "background",
+      "surface": "panels",
+      "separator": "lines and borders",
+      "selection": "selection",
+      "text": "text",
+      "textDim": "dim text",
+      "accent": "accent",
+      "correct": "typed text",
+      "incorrect": "mistakes",
+      "extra": "extra letters",
+      "caret": "caret",
+      "chartWpm": "wpm line",
+      "chartRaw": "raw line",
+      "chartError": "errors",
+      "heat1": "key heat 1",
+      "heat2": "key heat 2",
+      "heat3": "key heat 3",
+      "heat4": "key heat 4"
+    },
+    "sample_correct": "quick brown ",
+    "sample_incorrect": "fxo",
+    "sample_extra": "ss",
+    "sample_dim": " jumps over",
+    "sample_text": "text ",
+    "sample_link": "link",
+    "sample_selected": "selected",
+    "that_theme_can_t_be": "That theme can't be used: {problem}.",
+    "scheme_label": "light or dark"
+  },
+  "theme_picker": {
+    "quick_brown": "quick brown ",
+    "fxo": "fxo",
+    "ss": "ss",
+    "jumps_over": " jumps over",
+    "surface": "surface ",
+    "accent_link": "accent link",
+    "selected": "selected",
+    "1_text": "{ratio}:1 text",
+    "choose_theme": "{label}: choose theme",
+    "options": "{label} options",
+    "pick": "pick {label}"
+  },
+  "sections": {
+    "theme": "theme",
+    "typing": "typing",
+    "content": "content",
+    "training": "training",
+    "accessibility": "accessibility",
+    "data": "data"
+  },
+  "stepper": {
+    "decrease": "decrease {label}",
+    "increase": "increase {label}"
   }
 }

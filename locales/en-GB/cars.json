@@ -127,6 +127,11 @@
     "tab_title": "garage",
     "tab_hint": "dress your race car: it’s what you drive on the track, and what everyone racing you sees",
     "choose_slot": "choose {slot}",
-    "paint_swatch": "{name} paint"
+    "paint_swatch": "{name} paint",
+    "livery_colour": "{tokenLabel} livery colour",
+    "usual_livery_colour": "usual livery colour",
+    "livery_colour_2": "livery colour",
+    "this_is_your_car_on": "This is your car on the track, and to everyone racing you. It only ever wears parts you’ve earned.",
+    "your_race_car": "your race car"
   }
 }

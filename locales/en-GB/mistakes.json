@@ -95,5 +95,54 @@
     "no_qualifiers_mistakes": "No {qualifiers} mistakes{inSection, select, true { in {section}} other {}} yet.",
     "no_in_section": "No mistakes in {section} yet.",
     "training_words_note": "{count, plural, one {# word} other {# words}} with consistent mistakes in training."
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "{label} mistakes – click to isolate",
+    "page": "page {value}",
+    "of": "{first}–{last} of {length}",
+    "keyboard_mistakes_pages": "keyboard mistakes pages",
+    "nothing_to_draw_on_this": "Nothing to draw on this keyboard yet. Mistakes seen more than once show up here.",
+    "on_the_keyboard": "on the keyboard",
+    "none_yet": "None yet.",
+    "with_keys_not_on_this": "{unmapped} with keys not on this layout",
+    "words_and_spaces": "words and spaces",
+    "no_tests_yet": "no tests yet",
+    "rate_one_test": "error rate {rate} in one test",
+    "rate_over_tests": "error rate {from} → {to} over {count, plural, one {# test} other {# tests}}",
+    "mark_label": "{mistake}: {rate} of the time",
+    "started_at": "{summary} · started training at {rate}",
+    "keyboard_label": "Keyboard with {count, plural, one {# mistake} other {# mistakes}} drawn on it. The list below has the same mistakes."
+  },
+  "mistakes": {
+    "actions": "actions",
+    "no_mistakes_yet": "No mistakes yet."
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": {
+        "title": "keys"
+      },
+      "shift": {
+        "title": "shift"
+      },
+      "pairs": {
+        "title": "letter pairs"
+      },
+      "letters": {
+        "title": "missed and extra letters"
+      },
+      "words": {
+        "title": "words"
+      },
+      "tricky": {
+        "title": "tricky words"
+      },
+      "between": {
+        "title": "between words"
+      },
+      "hesitations": {
+        "title": "hesitations"
+      }
+    }
   }
 }

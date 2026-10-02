@@ -1,13 +1,4 @@
 {
-  "kinds": {
-    "type_words": "输入 {count} 个单词",
-    "type_minutes": "打字 {count} 分钟",
-    "finish_tests": "完成 {count} 次测试",
-    "play_game": "玩 {game} {count} 次",
-    "score_game": "在 {game} 中获得 {score} 分",
-    "find_mistakes": "在一次 {game} 中找到 {count} 个错误",
-    "touch_typing_lesson": "完成一节盲打课程"
-  },
   "status": {
     "done": "已完成"
   },

@@ -86,7 +86,10 @@
     "raceModesWon": "{count, select, 4 {win a network race in every mode} other {win a network race in {count, plural, one {# mode} other {# modes}}}}",
     "booksFinished": "{count, plural, one {finish a whole book in sustained mode} other {finish # whole books in sustained mode}}",
     "spotTotalFound": "find {count, plural, one {# mistake} other {# mistakes}} in Spot, all told",
-    "spaceWordBombs": "{count, plural, one {fire the word bomb in Space once} other {fire the word bomb in Space {count} times}}"
+    "spaceWordBombs": "{count, plural, one {fire the word bomb in Space once} other {fire the word bomb in Space {count} times}}",
+    "unknown": "unknown",
+    "progress_suffix": " ({have} of {need})",
+    "secret_hint": "a secret: keep playing"
   },
   "first-test": {
     "name": "first steps"
@@ -612,5 +615,29 @@
   },
   "word-bomb": {
     "name": "going nuclear"
+  },
+  "achievement_badges": {
+    "secret": "secret",
+    "kind": "{kind}",
+    "kind_earned": "{kind}, earned",
+    "kind_trophy": "trophy",
+    "kind_medal": "medal",
+    "kind_badge": "badge"
+  },
+  "achievement_note": {
+    "see_achievements": "see achievements"
+  },
+  "achievements": {
+    "doesn_t_count_towards_100": "doesn’t count towards 100%",
+    "achievements_aren_t_available_here": "Achievements aren’t available here.",
+    "things_you_ve_done_in": "things you’ve done in kalibre, worked out from your history, so everything you did before counts too. secrets and extras don’t count towards the total.",
+    "100_every_achievement": "100%: every achievement.",
+    "achievements_aren_t_available_here_2": "Achievements aren't available here.",
+    "earned": "earned",
+    "trophies": "trophies",
+    "medals": "medals",
+    "badges": "badges",
+    "extras": "extras",
+    "sections_label": "achievement sections"
   }
 }

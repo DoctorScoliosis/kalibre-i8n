@@ -12,14 +12,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 2,
+      "revision": 3,
       "version": "2026-10-02",
       "reviewed": "native",
-      "changes": "Synced with the application: all 29 areas, current key layout",
+      "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "4cafa87612d27e40a5933f630847b4c1d97abd423eec86ef31bdb7ed72e90065",
-      "bytes": 136536
+      "sha256": "1148398ed73e8c2ef87ab9806146d04fc1165245c1474076994782faa2816838",
+      "bytes": 288559
     },
     {
       "id": "fr-FR",
@@ -27,14 +27,14 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
+      "revision": 3,
       "version": "2026-10-02",
       "reviewed": "machine",
-      "changes": "Achievement and group keys moved onto the current key layout",
+      "changes": "Removed obsolete quest sentence keys",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "d501d3d76c66d9d3c29843cac98033d910ac04f7aeee8b8dd62924d56927f5d4",
-      "bytes": 16720
+      "sha256": "35e087515946dfd6cb8ed790bf823c5233886da0f321d7e5158c34cda220c84a",
+      "bytes": 16256
     },
     {
       "id": "zh-CN",
@@ -42,14 +42,14 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
+      "revision": 3,
       "version": "2026-10-02",
       "reviewed": "community",
-      "changes": "Achievement and group keys moved onto the current key layout",
+      "changes": "Removed obsolete quest sentence keys",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "acfdbd9feb146b1aa43d38cbdfa89fd7cd9fc60fc3c15fddff3c9e5418f61f7d",
-      "bytes": 15487
+      "sha256": "1aa480f6420f1caae9272a775a68e3979bcf88e63cf01e2e381eebed7327a7e4",
+      "bytes": 15050
     }
   ]
 }

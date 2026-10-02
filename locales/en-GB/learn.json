@@ -216,5 +216,314 @@
     "round_summary": "round {round}: {wpm} wpm · {accuracy}% — space for the next round",
     "hints_prep": "esc skips to the test · space next {unit}",
     "hints_normal": "esc pause · space next {unit}"
+  },
+  "cal_wardrobe": {
+    "whose_wardrobe": "whose wardrobe",
+    "what_to_change": "what to change",
+    "items": "items",
+    "s_wardrobe": "{name}’s wardrobe",
+    "everything_here_is_earned_by": "Everything here is earned by typing, never bought. Right-click {name} any time to come back."
+  },
+  "ending": {
+    "s_options": "{name}’s options",
+    "give_the_ring": "give {name} the ring"
+  },
+  "keyboard_diagram": {
+    "finger_colours_are_for_qwerty": "Finger colours are for QWERTY (US) for now; the lessons still work with your layout.",
+    "left_hand": "left hand",
+    "right_hand": "right hand"
+  },
+  "learn_curriculum": {
+    "master_first": "Master {prerequisiteOf} first",
+    "stage": "stage {stage} · {value}"
+  },
+  "learn_lesson": {
+    "fingers": "fingers",
+    "diagram_label": "keyboard: the keys in lesson {id}",
+    "new_keys_fingers": " · {fingers}",
+    "list_separator": ", "
+  },
+  "learn_numpad_run": {
+    "num_lock_is_off_the": "num lock is off: the pad is sending arrows. Press num lock on the pad."
+  },
+  "learn_numpad": {
+    "practice_for_the_number_pad": "Practice for the number pad: a ten-key test, lessons and sums. It’s for people who have one, so it’s off until you say so.",
+    "ten_key_practice_lessons_from": "Ten-key practice: lessons from the home keys outwards, amounts to type from a tape with enter and the operators, and mental arithmetic and a till to run. It all earns XP.",
+    "i_don_t_have_a": "i don’t have a number pad",
+    "turns_number_pad_practice_off": "Turns number pad practice off again",
+    "from_your_last_few_runs": "From your last few runs. These are kept apart from the mistakes on the main keyboard, and drilled here.",
+    "ten_key_drill": "ten-key drill",
+    "sums_drill": "sums drill",
+    "diagram_weak": "number pad, coloured by the keys that go wrong",
+    "diagram_mistakes": "number pad, coloured by mistakes",
+    "diagram": "number pad",
+    "drill_keys": "keys: {keys}",
+    "drill_sums": "sums: {kinds}",
+    "tile_lessons": "lessons",
+    "tile_lessons_note": "{mastered} of {total} mastered",
+    "tile_lessons_blurb": "the home keys 4 5 6, then outwards to the operators",
+    "tile_tenkey": "ten-key test",
+    "tile_tenkey_fastest": "your fastest: {ksph} keystrokes an hour",
+    "tile_tenkey_none": "no test yet",
+    "tile_tenkey_blurb": "amounts, whole numbers, or a mix with operators",
+    "tile_sums": "sums",
+    "tile_sums_last": "last: {right} of {answers} right",
+    "tile_sums_none": "no sums yet",
+    "tile_sums_blurb": "mental arithmetic: adding, taking away, times, divide and percentages",
+    "tile_till": "till",
+    "tile_till_best": "your best: {served} served",
+    "tile_till_none": "no shifts yet",
+    "tile_till_blurb": "a game: serve the queue by working out the change"
+  },
+  "learn_padlessons": {
+    "master_lesson_first": "Master lesson {number} first",
+    "number_pad_lessons": "number pad lessons",
+    "learn_the_pad_without_looking": "Learn the pad without looking, a few keys at a time, from the home keys 4 5 6 outwards. Each lesson opens when the one before it is mastered: the speed shown, 95% accuracy over 25 entries, and every new key mostly right. Lessons earn XP.",
+    "start_with_lesson_1": "start with lesson 1",
+    "of_mastered": "{mastered} of {length} mastered",
+    "all_number_pad_lessons": "all number pad lessons",
+    "this_lesson_opens_once_lesson": "This lesson opens once lesson {number} is mastered.",
+    "go_to_lesson": "go to lesson {number}",
+    "to_master_it_keystrokes_an": "To master it: {thousands} keystrokes an hour at {accuracy}% accuracy over {entries} entries, and each new key right {keyAccuracy} times in 100. Rest your right hand on 4 5 6, with the raised dot on 5 under your middle finger.",
+    "try_again": "try again",
+    "result": "result",
+    "mastered_again": "mastered again",
+    "lesson_is_open": "Lesson {number} is open.",
+    "that_s_every_number_pad": "That’s every number pad lesson.",
+    "again": "again",
+    "best_summary": "best {ksph} an hour · {accuracy}% · {attempts, plural, one {# try} other {# tries}}",
+    "best_detail": "best {ksph} an hour at {accuracy}% · {attempts, plural, one {# try} other {# tries}}",
+    "best_detail_mastered": "mastered ✓ · best {ksph} an hour at {accuracy}% · {attempts, plural, one {# try} other {# tries}}",
+    "new_keys": "new keys: {keys}",
+    "headline": "{value} keystrokes per hour",
+    "to_master": "To master it: {reasons}.",
+    "reason_separator": ", and ",
+    "reason_entries": "all {entries} entries",
+    "reason_ksph": "{target} keystrokes an hour ({now} this time)",
+    "reason_accuracy": "{target}% accuracy ({now}% this time)",
+    "reason_key": "each new key right {target} times in 100 ({key} was {accuracy}%)",
+    "diagram_label": "number pad: the keys in lesson {number}",
+    "continue_lesson": "continue: {number} {title}",
+    "next_lesson": "next: {number} {title}"
+  },
+  "learn_runner": {
+    "lesson": "lesson {id}",
+    "warm_up": "warm-up",
+    "step_of": "step {current} of {total}",
+    "counter_capped_prep": "{prep} · {done} / {target} {unit}",
+    "counter_capped": "{done} / {target} {unit}",
+    "counter": "{done} {unit}",
+    "time_left": " · {time} left",
+    "finger_line": "{key}: {finger}",
+    "shift_other_hand": ", with shift on the other hand",
+    "tip_suffix": " · {tip}",
+    "diagram_label": "keyboard for lesson {id}"
+  },
+  "learn_sums": {
+    "custom_number_of_questions": "custom number of questions",
+    "custom_number": "custom number",
+    "sums": "sums",
+    "mental_arithmetic_the_accountant_s": "Mental arithmetic, the accountant’s way: a sum appears, you work it out and type the answer on the pad, and press enter. You’re marked on the answer and how long it took. Three right in a row and the sums get harder; two wrong and they ease off. Every answer is exact to the penny.",
+    "last_time_of_right_an": "last time: {correctAnswers} of {answers} right, {seconds} an answer, up to level {peakLevel}",
+    "no_sums_yet": "no sums yet",
+    "your_answer": "your answer",
+    "you_typed": "✗ {prompt} = {answerText} · you typed {typed}",
+    "level": "{min} / {count} · level {level}",
+    "type_the_answer_then_enter": "type the answer, then enter · backspace corrects · esc opens the command line",
+    "of": "{correctAnswers} of {answers}",
+    "right": "right",
+    "average_time": "average time",
+    "of_2": "{right} of {asked}",
+    "to_look_at_again": "to look at again",
+    "you_typed_2": " · you typed {typed}",
+    "every_answer_right": "every answer right.",
+    "change_the_sums": "change the sums",
+    "title_count": "sums · {kind}{weak} · {count, plural, one {# question} other {# questions}}",
+    "title": "sums · {kind}{weak}",
+    "weak_spots": " · weak spots",
+    "right_headline": "{of} right",
+    "questions": "questions",
+    "start_at_level": "start at level"
+  },
+  "learn_tenkey": {
+    "your_best_for_this_ksph": "your best for this: {thousands} ksph at {round}% accuracy",
+    "no_run_of_this_kind": "no run of this kind yet",
+    "custom_length_in_minutes": "custom length in minutes",
+    "custom_length_in_entries": "custom length in entries",
+    "custom_length": "custom length",
+    "ten_key_test": "ten-key test",
+    "amounts_arrive_one_to_a": "Amounts arrive one to a line, like a tape. Type each one on the number pad and end it with the key shown after it: enter, or an operator. The tape moves on after a mistake, so keep going; backspace corrects the entry you are on. You’re scored in keystrokes per hour.",
+    "new_best": "new best",
+    "your_best_for_this_is": "your best for this is {thousands}",
+    "not_a_wrong_key_clean": "not a wrong key: clean.",
+    "change_the_test": "change the test",
+    "keys_to_watch": "keys to watch: {keys}",
+    "watch_key": "{key} ({wrong} wrong)",
+    "run_title": "ten-key · {form} · {limit}",
+    "run_label": "ten-key test",
+    "unit": "unit"
+  },
+  "learn_till": {
+    "till": "till",
+    "customers_queue_at_your_till": "Customers queue at your till. Each has paid with a note: work out their change, type it on the pad and press enter. Every customer’s patience runs down while they wait, so quick and right serves them and the next steps up. A wrong answer costs some of their patience, and when three have walked out, the till closes. The change is always exact to the penny.",
+    "your_best_customers_served_in": "your best: {best} customers served in one go",
+    "no_shifts_yet": "no shifts yet",
+    "open_the_till": "open the till",
+    "the_customer_s_patience": "the customer’s patience",
+    "the_change": "the change",
+    "customers_served_level_the_customers": "customers served · level · the customers who can still walk out before the till closes",
+    "press_enter_to_open_the": "press enter to open the till",
+    "change": "{billText} · change?",
+    "waiting_behind": "{behind} waiting behind",
+    "no_one_waiting": "no one waiting",
+    "served_level": "{served} served · level {level} · {repeat}{repeat2}",
+    "type_the_change_then_enter": "type the change, then enter · backspace corrects · esc opens the command line",
+    "the_till_is_closed": "the till is closed",
+    "customer_served": " customer served",
+    "customers_served": " customers served",
+    "your_best_is": "your best is {previousBest}",
+    "another_shift": "another shift"
+  },
+  "learn": {
+    "lessons_set_aside": "lessons set aside"
+  },
+  "mascot_sounds": {
+    "play_a_sample": "play a sample",
+    "a_purr": "a purr",
+    "what_sounds_like_at_your": "what {name} sounds like at your volume"
+  },
+  "mascot": {
+    "open_wardrobe": "{name}: open {companion, select, cal {his} libby {her} other {their}} wardrobe",
+    "open_s_wardrobe": "{name}: open {name2}’s wardrobe",
+    "asleep_label": "{name}, asleep: wake {companion, select, cal {him} libby {her} other {them}} up"
+  },
+  "numpad_tape": {
+    "entries": "entries",
+    "the_tape": "the tape",
+    "wrong": "wrong"
+  },
+  "pad_lessons": {
+    "pad-1": {
+      "title": "the home keys: 4 5 6"
+    },
+    "pad-2": {
+      "title": "reach up: 7 8 9"
+    },
+    "pad-3": {
+      "title": "reach down: 1 2 3"
+    },
+    "pad-4": {
+      "title": "the thumb and the point: 0 ."
+    },
+    "pad-5": {
+      "title": "all the digits"
+    },
+    "pad-6": {
+      "title": "plus, with the little finger"
+    },
+    "pad-7": {
+      "title": "minus"
+    },
+    "pad-8": {
+      "title": "times and divide"
+    },
+    "pad-9": {
+      "title": "the whole pad"
+    }
+  },
+  "fingers": {
+    "LP": "left little finger",
+    "LR": "left ring finger",
+    "LM": "left middle finger",
+    "LI": "left index finger",
+    "T": "thumb",
+    "RI": "right index finger",
+    "RM": "right middle finger",
+    "RR": "right ring finger",
+    "RP": "right little finger"
+  },
+  "numpad_fingers": {
+    "RI": "index finger",
+    "RM": "middle finger",
+    "RR": "ring finger",
+    "RP": "little finger",
+    "T": "thumb"
+  },
+  "key_names": {
+    "space": "space",
+    "comma": "comma",
+    "full_stop": "full stop",
+    "slash": "slash",
+    "semicolon": "semicolon",
+    "apostrophe": "apostrophe",
+    "hyphen": "hyphen",
+    "equals": "equals"
+  },
+  "units": {
+    "sequences": "sequences",
+    "words": "words",
+    "sequence": "sequence",
+    "word": "word"
+  },
+  "learn_results": {
+    "diagram_label": "keyboard coloured by how often each key went wrong"
+  },
+  "entries": {
+    "a_ten_key_entry_needs": "A ten-key entry needs at least one digit.",
+    "ENTRY_FORMS": {
+      "whole": {
+        "label": "whole numbers"
+      },
+      "amounts": {
+        "label": "amounts"
+      },
+      "mixed": {
+        "label": "mixed, with operators"
+      }
+    }
+  },
+  "sums": {
+    "SUM_KINDS": {
+      "mixed": {
+        "label": "a mix"
+      },
+      "add": {
+        "label": "adding"
+      },
+      "subtract": {
+        "label": "taking away"
+      },
+      "multiply": {
+        "label": "multiplying"
+      },
+      "divide": {
+        "label": "dividing"
+      },
+      "percent": {
+        "label": "percentages"
+      }
+    }
+  },
+  "pad_key_names": {
+    "enter": "enter",
+    "plus": "plus",
+    "minus": "minus",
+    "times": "times",
+    "divide": "divide",
+    "decimal_point": "decimal point"
+  },
+  "numpad_labels": {
+    "weak_keys": "weak keys",
+    "minutes": "{count} min",
+    "entries": "{count} entries"
+  },
+  "numpad_sums": {
+    "kinds": {
+      "add": "adding",
+      "subtract": "taking away",
+      "multiply": "multiplying",
+      "divide": "dividing",
+      "percent": "percentages"
+    }
   }
 }

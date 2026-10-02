@@ -8,7 +8,8 @@
     "mistakes": "mistakes",
     "settings": "settings",
     "today": "today",
-    "about": "about"
+    "about": "about",
+    "primary": "primary"
   },
   "curtain": {
     "fetching": "fetching the books and dictionary, just this once",
@@ -26,7 +27,11 @@
     "privacy": "privacy",
     "terms": "terms",
     "security": "security",
-    "announcements": "announcements"
+    "announcements": "announcements",
+    "credit_author": "© {year} {author}.",
+    "credit_company": "© {year} midnight summer media.",
+    "licence": "licensed with the {licence}.",
+    "licence_name": "mit licence"
   },
   "meta": {
     "tagline": "kalibre, an adaptive typing trainer",
@@ -76,6 +81,162 @@
     "saving": "saving…",
     "badge_in_update": "in this update",
     "badge_current": "current",
-    "notes_not_yet": "the notes for this version show once it’s installed."
+    "notes_not_yet": "the notes for this version show once it’s installed.",
+    "stays_at": "v{current} stays at {link} for a while; open a backup there to keep using it."
+  },
+  "brand": {
+    "kanary_preview_build_notice": "kanary preview build notice",
+    "kanary_preview_build_click_for": "kanary preview build · click for notice",
+    "what_s_new_for": "what's new for {versionLabel}"
+  },
+  "command_line": {
+    "command": "command",
+    "type_a_setting_or_action": "type a setting or action",
+    "commands": "commands",
+    "command_line": "command line",
+    "no_matches": "no matches"
+  },
+  "kanary_notice": {
+    "features_interfaces_and_database_schemas": "features, interfaces, and database schemas are actively evolving and may shift, be replaced, or break without notice.",
+    "things_may_break_or_change": "things may break or change. ",
+    "your_typing_history_achievements_and": "your typing history, achievements, and custom data live in this browser’s local storage. export a backup copy regularly so a breaking update never costs your progress.",
+    "periodically_back_up_your_profiles": "periodically back up your profiles: ",
+    "profiles_used_on_kanary_may": "profiles used on kanary may or may not work if imported into release versions of kalibre. kanary may introduce newer database schemas, experimental settings, or revised formats that release versions cannot read or migrate backwards.",
+    "release_compatibility": "release compatibility: ",
+    "announcements_devlog": "announcements & devlog: ",
+    "stackinfolio": "stackinfolio",
+    "settings_data": "settings → data",
+    "got_it": "got it",
+    "intro": "you’re using {product}, an early, fast-moving preview build with in-progress experiments.",
+    "follow": "follow release milestones, development progress, and announcements on {site}."
+  },
+  "legal_pages": {
+    "last_updated": "last updated {format}",
+    "the_short_version": "the short version",
+    "read": "read {full}",
+    "also": "also: {pages}"
+  },
+  "older_version": {
+    "older_version": "older version",
+    "it_keeps_its_own_data": "It keeps its own data, apart from the current version’s: to use yours here, import a profile file saved before the update (profile menu → import a profile file).",
+    "this_is_kalibre_v_kept": "This is kalibre v{version}, kept so you can go back. ",
+    "go_to_the_current_version": "go to the current version",
+    "hide_this_until_the_page": "hide this until the page reloads",
+    "hide_until_the_page_reloads": "hide until the page reloads"
+  },
+  "shortcuts": {
+    "then": "then {value}",
+    "sequence_hint": "press sequence keys (like {first} then {second}) within 1.5 seconds. shortcuts only trigger when not actively typing in tests or text fields.",
+    "SHORTCUT_GROUPS": {
+      "navigation": {
+        "title": "navigation"
+      },
+      "nav-type": {
+        "label": "type view"
+      },
+      "nav-learn": {
+        "label": "learn view"
+      },
+      "nav-drill": {
+        "label": "drill view"
+      },
+      "nav-games": {
+        "label": "games view"
+      },
+      "nav-mistakes": {
+        "label": "mistakes view"
+      },
+      "nav-stats": {
+        "label": "statistics & history"
+      },
+      "nav-profile": {
+        "label": "profile menu"
+      },
+      "nav-texts": {
+        "label": "texts & library"
+      },
+      "nav-settings": {
+        "label": "settings"
+      },
+      "nav-about": {
+        "label": "about kalibre"
+      },
+      "typing": {
+        "title": "typing & tests"
+      },
+      "type-restart": {
+        "label": "restart test or drill"
+      },
+      "type-pause": {
+        "label": "command line / pause"
+      },
+      "type-delete-word": {
+        "label": "delete word"
+      },
+      "type-space": {
+        "label": "submit / next word"
+      },
+      "general": {
+        "title": "general & dialogs"
+      },
+      "gen-guide": {
+        "label": "keyboard shortcuts guide"
+      },
+      "gen-close": {
+        "label": "close modal or dialog"
+      },
+      "gen-command": {
+        "label": "command line palette"
+      },
+      "gen-focus": {
+        "label": "navigate controls"
+      }
+    },
+    "modal": {
+      "shortcuts": {
+        "title": "keyboard shortcuts"
+      }
+    }
+  },
+  "startup_failure": {
+    "putting_it_back": "putting it back…",
+    "it_couldn_t_be_put": "it couldn’t be put back: {value}",
+    "if_kalibre_was_taken_back": "if kalibre was taken back to an older version on purpose, you can put back the copy of your data saved just before it was last updated. anything you did after that update is lost, and it replaces everything kalibre keeps in this browser.",
+    "copy_the_details": "copy the details",
+    "copied": "copied",
+    "select_the_details_below_to": "select the details below to copy them",
+    "kalibre_couldn_t_start": "kalibre couldn’t start",
+    "what_you_ve_saved_is": "what you’ve saved is still in this browser: starting again doesn’t touch it.",
+    "send_details": "if it keeps happening, send the details to {address}."
+  },
+  "update_gate": {
+    "carry_on": "carry on",
+    "kalibre_v_changes_how_it": "kalibre v{appVersion} changes how it keeps your data",
+    "nothing_has_changed_yet_once": "nothing has changed yet. once it has, older versions of kalibre can’t open your data, so save a backup first: a profile file for every profile on this device.",
+    "older_version": "or keep using the version before it, at {link}, for now: open your backup there."
+  },
+  "modals": {
+    "stats": "stats",
+    "texts": "texts",
+    "settings": "settings",
+    "achievements": "achievements",
+    "race": "race",
+    "card": "your card",
+    "kanary": "kanary preview"
+  },
+  "app": {
+    "that_file_isn_t_in": "that file isn’t in the folder any more"
+  },
+  "instance": {
+    "offline_self_hosted": "offline · self-hosted",
+    "offline_cache": "offline · using browser cache",
+    "self_hosted_at": "self-hosted · {hostname}",
+    "self_hosted": "self-hosted",
+    "online": "online · official instance",
+    "status": {
+      "online": "online",
+      "offline": "offline",
+      "self-hosted": "self-hosted"
+    }
   }
 }
