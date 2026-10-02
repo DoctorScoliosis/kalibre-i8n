@@ -1128,6 +1128,419 @@
         "nothing_stored": "rien stocké ici",
         "busy": "deux sont déjà actifs : {name} attend",
         "cant_use": "{name} ne peut pas être utilisé"
+      },
+      "games_registry": {
+        "STRENGTH_MECHANIC": {
+          "strength": {
+            "label": "force",
+            "summary": "la précision de frappe détermine la force des mots. 1 par lettre, +1 pour K V W Y, +2 pour J Q X Z. en difficile, les variantes proches des mots récents comptent moins."
+          }
+        },
+        "GAMES": {
+          "feed": {
+            "contexts": {
+              "getting-started": {
+                "label": "pour commencer",
+                "group": "pour commencer",
+                "summary": "tapez des mots pour nourrir la créature avant qu'elle ne perde patience.",
+                "highlights": [
+                  "tapez un mot et appuyez sur espace pour le servir",
+                  "gardez la créature heureuse pour rester en vie"
+                ],
+                "details": [
+                  "chaque mot que vous servez restaure du temps. les mots plus longs en restaurent davantage.",
+                  "si vous mettez trop de temps, l'humeur de la créature baisse et elle finit par partir."
+                ],
+                "mechanics": {
+                  "mood": {
+                    "label": "humeur",
+                    "summary": "l'humeur de la créature baisse avec le temps si elle n'est pas nourrie."
+                  },
+                  "patience": {
+                    "label": "patience",
+                    "summary": "un minuteur compte à rebours. servir un mot adapté restaure du temps."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "soumettre un mot"
+                  }
+                },
+                "visuals": {
+                  "mood-content": {
+                    "label": "content"
+                  },
+                  "mood-peckish": {
+                    "label": "un peu affamé"
+                  },
+                  "mood-starving": {
+                    "label": "affamé"
+                  }
+                }
+              },
+              "creature-requests": {
+                "label": "demandes de la créature",
+                "group": "pour commencer",
+                "summary": "la créature demande un type de mot — trouvez-le pour obtenir le temps complet.",
+                "highlights": [
+                  "lisez l'invite au-dessus de la créature",
+                  "un mot correspondant rapporte le temps complet ; un mot incorrect en coûte"
+                ],
+                "details": [
+                  "les demandes incluent : mots courts ou longs, mots commençant par une lettre, ou mots contenant certaines lettres.",
+                  "bloqué depuis un moment, ou deux erreurs ? un mot valide apparaît discrètement sur la créature, valant la moitié du temps."
+                ],
+                "notes": {
+                  "hard": {
+                    "text": "les invites sont plus précises et moins de temps est accordé."
+                  }
+                },
+                "mechanics": {
+                  "prompts": {
+                    "label": "invites",
+                    "summary": "la créature montre quel type de mot elle veut."
+                  },
+                  "hint": {
+                    "label": "indice sur le ventre",
+                    "summary": "après un temps d'inactivité ou deux erreurs, un mot valide apparaît discrètement sur la créature."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "soumettre un mot"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "indice sur le ventre"
+                  }
+                },
+                "visuals": {
+                  "prompt-need": {
+                    "label": "invite de mot"
+                  },
+                  "belly-hint": {
+                    "label": "indice sur le ventre (moitié du temps)"
+                  }
+                }
+              },
+              "snack-mode": {
+                "label": "mode grignotage",
+                "group": "pour commencer",
+                "summary": "la créature mange n'importe quel mot — les mots plus forts la remplissent davantage, mais elle a plus faim rapidement.",
+                "highlights": [
+                  "n'importe quel mot valide nourrit la créature",
+                  "les mots plus longs et plus précis restaurent plus de temps"
+                ],
+                "details": [
+                  "il n'y a pas d'invites : tapez n'importe quel mot.",
+                  "la créature épuise sa patience plus vite qu'en mode difficile, donc la vitesse compte."
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "soumettre un mot"
+                  }
+                },
+                "visuals": {
+                  "free-eating": {
+                    "label": "n'importe quel mot valide"
+                  },
+                  "fast-patience": {
+                    "label": "faim accélérée"
+                  }
+                }
+              },
+              "buffet": {
+                "label": "service buffet",
+                "group": "pour commencer",
+                "summary": "les invités commandent plusieurs types de mots. servez des mots à la table et ils mangent ce qui correspond.",
+                "highlights": [
+                  "les invités arrivent avec des commandes de 1-3 types de mots",
+                  "maintenez la satisfaction globale au-dessus de la ligne rouge"
+                ],
+                "details": [
+                  "tapez un mot et appuyez sur espace pour le mettre sur la table. les invités mangent ce qui correspond à leurs commandes.",
+                  "une commande remplie plaît à l'invité et augmente la satisfaction. un invité qui attend trop longtemps part mécontent.",
+                  "les mots sans sens sont jetés et réduisent la satisfaction. les fautes de frappe produisent des plats brûlés valant la moitié.",
+                  "les plats laissés sur la table deviennent rassis et sont gaspillés."
+                ],
+                "mechanics": {
+                  "table": {
+                    "label": "table",
+                    "summary": "les mots servis vont sur une table commune. les invités mangent ce qui correspond."
+                  },
+                  "satisfaction": {
+                    "label": "satisfaction",
+                    "summary": "un compteur de 0-100. s'il atteint la ligne de sol, le buffet ferme."
+                  },
+                  "orders": {
+                    "label": "commandes",
+                    "summary": "chaque invité a 1-3 exigences de type de mot sur son ticket."
+                  },
+                  "stale": {
+                    "label": "plats rassis",
+                    "summary": "les plats non collectés deviennent rassis et réduisent la satisfaction."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "servir un mot à la table"
+                  }
+                },
+                "visuals": {
+                  "guest-ticket": {
+                    "label": "ticket de commande"
+                  },
+                  "buffet-table": {
+                    "label": "table de service"
+                  },
+                  "satisfaction-floor": {
+                    "label": "ligne de satisfaction"
+                  }
+                }
+              }
+            }
+          },
+          "castle": {
+            "options": {
+              "waves": {
+                "label": "vagues",
+                "choices": {
+                  "endless": {
+                    "label": "sans fin"
+                  }
+                }
+              }
+            },
+            "contexts": {
+              "getting-started": {
+                "label": "pour commencer",
+                "group": "pour commencer",
+                "summary": "tapez des mots pour créer des briques, visez une section, et posez-les pour construire et réparer votre château.",
+                "highlights": [
+                  "tapez un mot pour créer une brique",
+                  "visez avec les flèches ou la souris, puis appuyez sur espace pour poser"
+                ],
+                "details": [
+                  "les mots plus longs créent des briques plus solides. les fautes de frappe créent des briques fissurées.",
+                  "le château commence entier, avec une accalmie pour faire des réserves avant la première vague.",
+                  "les briques apparaissent dans le stock ; choisissez-en une avec 1-9 ou glissez-déposez avec la souris."
+                ],
+                "notes": {
+                  "prompted": {
+                    "text": "en mode briques spéciales, les sections sous attaque nécessitent des mots spécifiques. une brique hors norme perd la plupart de sa force."
+                  }
+                },
+                "mechanics": {
+                  "stockpile": {
+                    "label": "stock",
+                    "summary": "les mots tapés deviennent des briques en attente dans la cour. choisissez-en une avec une touche numérique ou utilisez la plus récente."
+                  },
+                  "quality": {
+                    "label": "qualité des briques",
+                    "summary": "solide, réparée, fissurée ou débris — dépend de la longueur du mot et de la précision de frappe."
+                  },
+                  "cursor": {
+                    "label": "visée",
+                    "summary": "le curseur montre où la prochaine brique ira. déplacez-le avec les flèches ou cliquez sur une section."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "viser une section"
+                  },
+                  "i1": {
+                    "action": "poser la brique la plus récente"
+                  },
+                  "i2": {
+                    "action": "choisir une brique dans le stock"
+                  }
+                },
+                "visuals": {
+                  "stockpile-yard": {
+                    "label": "cour de stock"
+                  },
+                  "brick-solid": {
+                    "label": "brique solide"
+                  },
+                  "brick-cracked": {
+                    "label": "brique fissurée"
+                  }
+                }
+              },
+              "surviving": {
+                "label": "survie",
+                "group": "survie",
+                "summary": "gardez la porte et le donjon debout. chaque vague perd du moral et recule lorsque les sections critiques tiennent.",
+                "highlights": [
+                  "la porte et le donjon sont critiques — perdre le donjon termine la partie",
+                  "réparez les sections endommagées en posant des briques dessus"
+                ],
+                "details": [
+                  "les sections du château ont une intégrité qui baisse lorsque les ennemis attaquent.",
+                  "une moyenne de réparation élevée dans le château épuise plus vite le moral de la vague.",
+                  "chaque vague recule lorsque son moral atteint zéro, ou lorsque tous ses ennemis sont détruits."
+                ],
+                "notes": {
+                  "hard": {
+                    "text": "les ennemis arrivent plus forts et en plus grand nombre."
+                  }
+                },
+                "mechanics": {
+                  "sections": {
+                    "label": "sections du château",
+                    "summary": "mur, tour, porte, donjon et fondations. chacune a sa propre intégrité."
+                  },
+                  "integrity": {
+                    "label": "intégrité",
+                    "summary": "les points de vie d'une section. atteint zéro et la section est percée."
+                  },
+                  "resolve": {
+                    "label": "moral de la vague",
+                    "summary": "un compteur montrant à quel point la vague est proche de reculer."
+                  },
+                  "waves": {
+                    "label": "vagues",
+                    "summary": "les ennemis arrivent par vagues numérotées, avec des accalmies entre elles."
+                  }
+                },
+                "visuals": {
+                  "curtain-wall": {
+                    "label": "mur d'enceinte"
+                  },
+                  "gatehouse": {
+                    "label": "porte"
+                  },
+                  "great-keep": {
+                    "label": "donjon"
+                  },
+                  "wave-resolve": {
+                    "label": "moral de la vague"
+                  }
+                }
+              },
+              "fighting": {
+                "label": "combat",
+                "group": "combat",
+                "summary": "lâchez des briques sur les ennemis pour les écraser, ou utilisez la catapulte pour les frapper de loin.",
+                "highlights": [
+                  "maj+entrée lâche une brique sur l'attaquant ciblé",
+                  "les brutes enfoncent, les sapeurs entament, les catapultes lancent des boulets de loin"
+                ],
+                "details": [
+                  "une brique lâchée inflige des dégâts égaux à la force de la brique.",
+                  "un ennemi non écrasé peut être étourdi un instant.",
+                  "les catapultes se stationnent à distance : un arc pointillé montre où elles visent."
+                ],
+                "mechanics": {
+                  "brute": {
+                    "label": "brute",
+                    "summary": "enfoncent les sections de près. se fatiguent après un nombre défini de coups."
+                  },
+                  "sapper": {
+                    "label": "sapeur",
+                    "summary": "entament les sections. se déplacent entre les cibles."
+                  },
+                  "catapult": {
+                    "label": "catapulte",
+                    "summary": "lancent des boulets de loin selon un arc parabolique. hors de portée de lâcher."
+                  },
+                  "stun": {
+                    "label": "étourdissement",
+                    "summary": "un lâcher de brique non mortel peut étourdir l'attaquant, l'arrêtant brièvement."
+                  },
+                  "drops": {
+                    "label": "lâchers de brique",
+                    "summary": "lâchez une brique sur un ennemi pour l'endommager ou l'écraser."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "lâcher une brique sur l'ennemi"
+                  },
+                  "i1": {
+                    "action": "viser une section ou un ennemi"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "lâchers de brique"
+                  }
+                },
+                "visuals": {
+                  "brute-ram": {
+                    "label": "brute (bélier)"
+                  },
+                  "sapper-pick": {
+                    "label": "sapeur (pioche)"
+                  },
+                  "catapult-siege": {
+                    "label": "catapulte (siège)"
+                  },
+                  "boulder-arc": {
+                    "label": "arc du boulet"
+                  }
+                }
+              },
+              "powering-up": {
+                "label": "bonus",
+                "group": "bonus",
+                "summary": "les ennemis écrasés laissent parfois tomber des bonus. stockez-les et activez-les quand vous en avez besoin.",
+                "highlights": [
+                  "attrapez un bonus lorsqu'un ennemi est écrasé",
+                  "activez avec maj+1-3 ou cliquez sur un emplacement"
+                ],
+                "details": [
+                  "jusqu'à trois bonus peuvent être stockés. deux peuvent être actifs à la fois.",
+                  "le mortier fait que les lâchers de brique frappent plus fort. le maçon fait que les briques posées comptent une fois et demie plus. l'huile étourdit tous les ennemis sur le champ. la réparation répare la porte ou le donjon le plus faible."
+                ],
+                "mechanics": {
+                  "mortar": {
+                    "label": "mortier",
+                    "summary": "les lâchers de brique infligent des dégâts doubles."
+                  },
+                  "mason": {
+                    "label": "maçon",
+                    "summary": "les briques posées accordent 1,5× de force."
+                  },
+                  "oil": {
+                    "label": "huile",
+                    "summary": "étourdit tous les attaquants sur le champ immédiatement."
+                  },
+                  "mend": {
+                    "label": "réparation",
+                    "summary": "restaure l'intégrité de la porte ou du donjon le plus faible."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "activer l'emplacement de bonus 1"
+                  },
+                  "i1": {
+                    "action": "activer l'emplacement de bonus 2"
+                  },
+                  "i2": {
+                    "action": "activer l'emplacement de bonus 3"
+                  }
+                },
+                "visuals": {
+                  "mortar-powerup": {
+                    "label": "mortier (2× dégâts)"
+                  },
+                  "mason-powerup": {
+                    "label": "maçon (1,5× mur)"
+                  },
+                  "oil-powerup": {
+                    "label": "huile bouillante (étourdit tout)"
+                  },
+                  "mend-powerup": {
+                    "label": "réparation de terrain"
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     },
     "quests": {
