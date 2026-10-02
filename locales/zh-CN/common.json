@@ -1,0 +1,89 @@
+{
+  "actions": {
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "dismiss": "关闭",
+    "done": "完成",
+    "delete": "删除",
+    "edit": "编辑",
+    "continue": "继续",
+    "skip": "跳过",
+    "reload_now": "立即重新加载",
+    "not_now": "暂不",
+    "yes": "是",
+    "no": "否"
+  },
+  "plural": {
+    "test": "{count, plural, other {# 次测试}}",
+    "minute": "{count, plural, other {# 分钟}}",
+    "hour": "{count, plural, other {# 小时}}",
+    "word": "{count, plural, other {# 个单词}}",
+    "lesson": "{count, plural, other {# 课}}",
+    "lesson_step": "{count, plural, other {# 步课程}}",
+    "warmup": "{count, plural, other {# 次热身}}",
+    "drill": "{count, plural, other {# 次训练}}",
+    "time": "{count, plural, other {# 次}}",
+    "quote": "{count, plural, other {# 条名言}}",
+    "book_reading": "{count, plural, other {# 次书籍阅读}}",
+    "sustained_test": "{count, plural, other {# 次持续打字测试}}"
+  },
+  "modal": {
+    "language_reload_title": "更换语言？",
+    "language_reload_body": "kalibre 需要重新加载以更改语言。请先保存正在进行的内容：进行中的测试、正在编写的文本或未保存的主题编辑都将丢失。",
+    "close_named": "关闭 {title}"
+  },
+  "translation": {
+    "not_checked_yet": "(尚未由母语者审核)"
+  },
+  "colour_picker": {
+    "saturation_and_brightness": "饱和度与亮度",
+    "hue": "色相",
+    "before": "之前",
+    "now": "现在",
+    "hex_value": "十六进制值",
+    "pick_a_colour_from_the": "从屏幕上吸取颜色",
+    "pick_from_the_screen": "从屏幕吸取",
+    "colours_in_this_theme": "此主题中的颜色",
+    "colour": "{label} 颜色",
+    "choose_a_colour": "{label}：{hex}，请选择颜色"
+  },
+  "theme_mode": {
+    "theme_appearance_mode": "主题外观模式",
+    "theme_appearance": "主题外观：{mode}",
+    "title": "外观：{mode}",
+    "mode_system": "跟随系统",
+    "mode_light": "浅色",
+    "mode_dark": "深色"
+  },
+  "counts": {
+    "quote": "{count, plural, other {# 条名言}}",
+    "text": "{count, plural, other {# 篇文本}}",
+    "passage": "{count, plural, other {# 段文字}}",
+    "dataset": "{count, plural, other {# 个数据集}}",
+    "word": "{count, plural, other {# 个单词}}",
+    "paragraph": "{count, plural, other {# 个段落}}",
+    "profile": "{count, plural, other {# 个个人资料}}",
+    "font": "{count, plural, other {# 种字体}}"
+  },
+  "progress_of": "{have} / {need}",
+  "difficulty": {
+    "easy": "简单",
+    "normal": "普通",
+    "hard": "困难"
+  },
+  "keycaps": {
+    "space": "空格",
+    "enter": "回车",
+    "shift": "shift",
+    "tab": "tab",
+    "esc": "esc",
+    "backspace": "退格",
+    "ctrl": "ctrl",
+    "alt": "alt",
+    "delete": "删除",
+    "then": "然后",
+    "or": "或"
+  },
+  "custom": "自定义"
+}

@@ -48,8 +48,8 @@
       "changes": "L10: full companion lines, Cal and Libby voice lines, ending script",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "09b027da97441baa28680ec02a35974844c51494264a4475c3d40b4e31865243",
-      "bytes": 63441
+      "sha256": "2b7c86ef276943cab0fde584438762ab961d0c864bd93f884210165305b9098a",
+      "bytes": 67088
     }
   ]
 }

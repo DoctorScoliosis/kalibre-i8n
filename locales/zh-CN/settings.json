@@ -141,5 +141,12 @@
   },
   "notice": {
     "imported_count": "已导入 {count} 项设置"
+  },
+  "settings": {
+    "github": "github",
+    "translation_note": "此翻译并非由母语者撰写或审核，因此部分表述可能略显生硬。欢迎在 {link} 上协助改进。",
+    "imported": "已导入 {count, plural, other {# 项设置}}",
+    "skipped": " · 已跳过 {what}",
+    "sections_label": "设置区域"
   }
 }
