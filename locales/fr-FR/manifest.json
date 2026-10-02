@@ -1,0 +1,32 @@
+{
+  "kalibreLocale": 1,
+  "id": "fr-FR",
+  "name": "Français",
+  "englishName": "French (France)",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": true,
+  "fonts": [
+    "system-ui",
+    "-apple-system",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica",
+    "Arial",
+    "sans-serif"
+  ],
+  "reviewed": "machine",
+  "revision": 1,
+  "version": "2026-10-02",
+  "changes": "Initial French (France) candidate translation",
+  "files": {
+    "about.json": "ff7260d5ff516a6bf8b18f3f647784e0df2196bbfef86d42cb8971369dd6dbe5",
+    "achievements.json": "808e3974627e1c8eedc818c0d60f0d4d2d27a6f8c9d86d0a1c970e830d362495",
+    "chrome.json": "2c01c46728de961a312a1b7fba5dbcc99266fe82837d7bf80e8e3aa7b26d6fb2",
+    "companions.json": "38049691de881a81fafc7203b8527c2c6611d06d2134407b17848d802ab6cc6e",
+    "data.json": "9db942c42aaa5158b8a1db04161de9b55a13eccc9572ed730281a6d650ecf461",
+    "quests.json": "93634e949d84a02c02e9c6e25768e000c1a3613075813be13babbcf89b994232",
+    "settings.json": "12e5d8270498c25700edf8713566282e581283f53ee9961364661333c38a9d34",
+    "themes.json": "76ab0fda1fe22f370ba7d7340ef0cae8871e95292c49cf9e011f7ffdb367d297"
+  }
+}

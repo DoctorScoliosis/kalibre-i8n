@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "id": "fr-FR",
+    "name": "Français",
+    "englishName": "French (France)",
+    "dir": "ltr",
+    "fallback": "en-GB",
+    "lowercaseDates": true,
+    "fonts": [
+      "system-ui",
+      "-apple-system",
+      "Segoe UI",
+      "Roboto",
+      "Helvetica",
+      "Arial",
+      "sans-serif"
+    ],
+    "reviewed": "machine",
+    "revision": 1,
+    "version": "2026-10-02",
+    "changes": "Initial French (France) candidate translation"
+  },
+  "strings": {
+    "about": {
+      "faq": {
+        "why_name": "Pourquoi ce nom ?",
+        "why_exist": "Pourquoi ça existe ?",
+        "who_made_it": "Qui l'a créé ?",
+        "wheres_code": "Où se trouve le code de Kalibre ?",
+        "give_star": "Donnez-lui une étoile si vous l'aimez ! Si vous voulez aider, ce serait super. :)"
+      }
+    },
+    "achievements": {
+      "groups": {
+        "typing": "Frappe",
+        "sustained": "Durable",
+        "mistakes": "Erreurs",
+        "touch_typing": "Frappe en aveugle",
+        "numpad": "Pavé numérique",
+        "habits": "Habitudes",
+        "daily_quests": "Quêtes quotidiennes",
+        "your_texts": "Vos textes",
+        "companion": "Compagnon",
+        "theme_decorations": "Décorations de thème",
+        "secrets": "Secrets"
+      },
+      "items": {
+        "first_steps": "Premiers pas",
+        "warming_up": "Échauffement",
+        "hundred_in": "Cent mots",
+        "steady_hands": "Mains stables",
+        "finding_rhythm": "Trouver le rythme",
+        "quick_fingers": "Doigts agiles",
+        "swift": "Rapide",
+        "triple_digits": "Trois chiffres",
+        "a_blur": "Un flou",
+        "lightning": "Éclair",
+        "thirty_clean_seconds": "Trente secondes sans erreur",
+        "spotless_minute": "Une minute sans faute",
+        "first_hour": "La première heure",
+        "keeping_it_up": "Maintenir le rythme",
+        "stamina": "Endurance",
+        "endurance": "Résistance",
+        "fixed_it": "Corrigé",
+        "mended": "Réparé",
+        "good_as_new": "Comme neuf",
+        "home_row": "Rangée de base",
+        "top_row": "Rangée supérieure",
+        "capitals": "Majuscules",
+        "fluent": "Fluide",
+        "touch_typist": "Dactylographe en aveugle",
+        "tried_them_all": "Tout essayé",
+        "ace_pilot": "As du pilotage",
+        "castle_keeper": "Gardien du château",
+        "eagle_eye": "Œil de lynx",
+        "three_in_a_row": "Trois de suite",
+        "week_of_it": "Une semaine de pratique",
+        "month_of_it": "Un mois de pratique",
+        "night_owl": "Couche-tard",
+        "early_bird": "Lève-tôt",
+        "flawless": "Sans faute",
+        "marathon": "Marathon",
+        "groundhog_day": "Un jour sans fin",
+        "deja_vu": "Déjà vu",
+        "going_nuclear": "Passage en mode nucléaire",
+        "first_tape": "Première bande",
+        "ledger_keeper": "Gardien du registre",
+        "quick_on_the_pad": "Rapide sur le pavé",
+        "ten_thousand_an_hour": "Dix mille à l'heure",
+        "balanced_books": "Comptes équilibrés",
+        "chartered": "Agrée",
+        "queue_never_ends": "La file n'en finit pas",
+        "little_flair": "Un peu de style",
+        "decorator": "Décorateur",
+        "interior_designer": "Décorateur d'intérieur",
+        "every_trimming": "Chaque détail",
+        "made_it_mine": "L'ai personnalisé",
+        "all_the_trimmings": "Tous les détails",
+        "your_own_words": "Vos propres mots",
+        "small_library": "Une petite bibliothèque",
+        "long_read": "Une longue lecture",
+        "epic": "Une épopée",
+        "on_your_marks": "À vos marques",
+        "first_to_the_line": "Premier sur la ligne",
+        "fastest_in_the_room": "Le plus rapide de la pièce",
+        "last_one_standing": "Le dernier debout"
+      },
+      "hints": {
+        "secret_keep_playing": "Un secret : continuez à jouer"
+      }
+    },
+    "chrome": {
+      "nav": {
+        "skip_to_content": "Aller au contenu principal",
+        "type": "Taper",
+        "learn": "Apprendre",
+        "drill": "Entraînement",
+        "games": "Jeux",
+        "mistakes": "Erreurs",
+        "settings": "Paramètres",
+        "today": "Aujourd'hui",
+        "about": "À propos"
+      },
+      "curtain": {
+        "fetching": "Récupération des livres et du dictionnaire, une seule fois",
+        "taking_longer": "Cela prend plus de temps que d'habitude…",
+        "reload": "Recharger",
+        "books_downloading": "Les livres sont encore en téléchargement. Vous pouvez commencer maintenant, ils finiront en arrière-plan.",
+        "start_without_waiting": "Commencer sans attendre",
+        "still_loading": "Toujours en cours de chargement. Vérifiez votre connexion, puis rechargez. Une fois que Kalibre est chargé ici, il fonctionne hors ligne.",
+        "older_tab": "Kalibre est ouvert dans un autre onglet, sur une version plus ancienne. Fermez cet onglet et celui-ci continuera.",
+        "couldnt_load": "Kalibre n'a pas pu se charger. Vérifiez votre connexion, puis rechargez.",
+        "browser_too_old": "Ce navigateur est trop ancien pour Kalibre. Une version récente de Chrome, Edge, Firefox ou Safari est requise."
+      },
+      "footer": {
+        "shortcuts": "Raccourcis clavier",
+        "privacy": "Confidentialité",
+        "terms": "Conditions",
+        "security": "Sécurité",
+        "announcements": "Annonces"
+      },
+      "meta": {
+        "tagline": "Kalibre, un entraîneur de frappe adaptatif",
+        "description": "Votre frappe. Vos erreurs. Votre progression. Un entraîneur de frappe qui apprend vos erreurs récurrentes et les travaille, directement dans votre navigateur.",
+        "alt_wordmark": "Le logotype Kalibre entre Cal et Libby, avec la ligne : votre frappe, vos erreurs, votre progression."
+      },
+      "pwa": {
+        "ios": "Sur iPhone et iPad, ajoutez Kalibre à votre écran d'accueil (dans Safari : partager → ajouter à l'écran d'accueil). Il s'ouvre en plein écran et conserve ses données, contrairement à un onglet Safari qui peut les perdre après 7 jours sans visite.",
+        "generic": "Ajoutez Kalibre à votre écran d'accueil (menu du navigateur → ajouter à l'écran d'accueil, ou installer). Une fois installé, il s'ouvre en plein écran, et le navigateur est plus susceptible de conserver ses données."
+      },
+      "misc": {
+        "kalibre_about": "Kalibre, à propos",
+        "backup_due": "Paramètres, sauvegarde due",
+        "new_badge": "Nouveau",
+        "backup_progress": "Progression de la sauvegarde",
+        "todays_quests": "Les quêtes d'aujourd'hui",
+        "new_quests_midnight": "Nouvelles quêtes à minuit",
+        "difficulty": "Difficulté",
+        "getting_quests": "Récupération des quêtes d'aujourd'hui…"
+      }
+    },
+    "companions": {
+      "achievements": {
+        "hello_there": "Bonjour",
+        "good_keycap": "Bonne touche",
+        "best_friends": "Meilleurs amis",
+        "boop": "Boop",
+        "poke_poke_poke": "Poke, poke, poke",
+        "ticklish": "Chatouilleux",
+        "giggle_fit": "Fou rire",
+        "thats_enough": "Ça suffit",
+        "devoted": "Dévoué"
+      }
+    },
+    "data": {
+      "storage": {
+        "heading": "Stockage",
+        "persistent": "Le navigateur conserve les données de Kalibre jusqu'à ce que vous les effaciez vous-même.",
+        "best_effort": "Le navigateur peut effacer les données de Kalibre si l'espace disque est insuffisant.",
+        "unsupported": "Ce navigateur ne peut pas garantir de conserver les données de Kalibre, alors faites une sauvegarde.",
+        "keep_my_data": "Conserver mes données"
+      },
+      "backup": {
+        "automatic_heading": "Sauvegarde automatique",
+        "choose_folder": "Choisir un dossier",
+        "back_up_now": "Sauvegarder maintenant",
+        "change_folder": "Changer de dossier",
+        "stop": "Arrêter",
+        "restore": "Restaurer",
+        "manual_heading": "Sauvegarder manuellement",
+        "export_profile": "Exporter ce profil",
+        "share_profile": "Partager ce profil",
+        "exported_summary": "Exporté : {sessions} tests, {mistakes} erreurs et {texts} textes",
+        "restore_folder": "Restaurer depuis un dossier Kalibre",
+        "update_copies": "Copies avant les mises à jour",
+        "restore_warning": "Cela remplace tout ce que Kalibre conserve dans ce navigateur par cette copie. Êtes-vous sûr ?",
+        "confirm_restore": "Oui, restaurer",
+        "cancel": "Annuler"
+      },
+      "guest": {
+        "banner_title": "Vous essayez Kalibre en tant qu'invité.",
+        "banner_body": "Vos tests, erreurs, statistiques et XP sont conservés dans ce navigateur, mais ne sont pas sauvegardés, et le profil ne peut pas être verrouillé. Enregistrez votre progression pour en faire votre propre profil.",
+        "save_progress": "Enregistrer ma progression",
+        "ephemeral_warning": "Session invitée : ce navigateur ne conserve rien, donc rien n'est enregistré lorsque cette fenêtre est fermée. Pour conserver ce que vous faites, téléchargez votre profil et chargez-le dans une fenêtre normale.",
+        "download_profile": "Télécharger mon profil",
+        "name_profile": "Nommer votre profil",
+        "nickname_placeholder": "Un pseudonyme",
+        "save": "Enregistrer"
+      },
+      "progress": {
+        "backing_up": "Sauvegarde en cours",
+        "preparing_export": "Préparation de l'export",
+        "saved": "Enregistré",
+        "couldnt_save": "Impossible d'enregistrer (voir Paramètres → Données)"
+      }
+    },
+    "quests": {
+      "kinds": {
+        "type_words": "Taper {count} mot(s)",
+        "type_minutes": "Taper pendant {count} minute(s)",
+        "finish_tests": "Terminer {count} test(s)",
+        "play_game": "Jouer à {game} {count} fois",
+        "score_game": "Atteindre {score} dans {game}",
+        "find_mistakes": "Trouver {count} erreur(s) en une partie de {game}",
+        "touch_typing_lesson": "Faire une leçon de frappe en aveugle"
+      },
+      "status": {
+        "done": "Terminé"
+      },
+      "actions": {
+        "swap": "Échanger",
+        "go": "Aller"
+      },
+      "labels": {
+        "challenge": "Défi",
+        "daily_goal": "Objectif quotidien"
+      }
+    },
+    "settings": {
+      "schema": {
+        "mistakeSensitivity": {
+          "label": "Suggérer des erreurs à entraîner",
+          "option": {
+            "relaxed": "uniquement les motifs clairs"
+          }
+        },
+        "autoAcceptMistakes": {
+          "label": "Ajouter automatiquement les erreurs à l'entraînement"
+        },
+        "adaptiveMix": {
+          "label": "Pratiquer les mots dans les tests de mots",
+          "option": {
+            "light": "quelques-uns",
+            "strong": "plus"
+          }
+        },
+        "goalType": {
+          "label": "Objectif quotidien",
+          "option": {
+            "off": "aucun",
+            "minutes": "minutes",
+            "words": "mots"
+          }
+        },
+        "goalMinutes": {
+          "label": "Minutes par jour"
+        },
+        "goalWords": {
+          "label": "Mots par jour"
+        },
+        "questDifficulty": {
+          "label": "Difficulté des quêtes quotidiennes",
+          "option": {
+            "easy": "facile",
+            "normal": "normal",
+            "hard": "difficile"
+          }
+        },
+        "lessonCompanion": {
+          "label": "Compagnon de leçon"
+        },
+        "commonCapitals": {
+          "label": "Majuscules dans les mots courants"
+        },
+        "paragraphBreaks": {
+          "label": "Sauts de paragraphes"
+        },
+        "wordPool": {
+          "label": "Liste de mots",
+          "option": {
+            "200": "200 mots courants"
+          }
+        },
+        "wordLength": {
+          "label": "Longueur des mots",
+          "option": {
+            "everyday": "quotidien",
+            "some_long": "quelques mots longs",
+            "long": "mots longs"
+          }
+        },
+        "wordSpelling": {
+          "label": "Orthographe dans les tests de mots",
+          "option": {
+            "both": "les deux (tels qu'écrits)",
+            "uk": "Anglais britannique (colour, centre)",
+            "us": "Anglais américain (color, center)"
+          }
+        },
+        "textSize": {
+          "label": "Taille du texte de frappe"
+        },
+        "fontFamily": {
+          "label": "Police de frappe"
+        },
+        "fontWeight": {
+          "label": "Épaisseur de la police"
+        },
+        "lineHeight": {
+          "label": "Hauteur de ligne de frappe"
+        },
+        "letterSpacing": {
+          "label": "Espacement des lettres"
+        },
+        "caretStyle": {
+          "label": "Style du curseur",
+          "option": {
+            "line": "ligne",
+            "block": "bloc",
+            "underline": "souligné"
+          }
+        },
+        "smoothCaret": {
+          "label": "Curseur fluide"
+        },
+        "focusMode": {
+          "label": "Concentration",
+          "option": {
+            "line": "ligne actuelle",
+            "sentence": "phrase"
+          }
+        },
+        "liveMetrics": {
+          "label": "Mots par minute et précision en direct"
+        },
+        "mistakeDisplay": {
+          "label": "Afficher les erreurs comme",
+          "option": {
+            "expected": "lettre attendue",
+            "typed": "lettre tapée"
+          }
+        },
+        "restartKey": {
+          "label": "Touche de redémarrage"
+        },
+        "layout": {
+          "label": "Disposition du clavier"
+        },
+        "stenoMode": {
+          "label": "Je tape avec",
+          "option": {
+            "keyboard": "un clavier",
+            "steno": "une machine sténo"
+          }
+        },
+        "defaultDuration": {
+          "label": "Durée par défaut du test"
+        },
+        "defaultWordCount": {
+          "label": "Nombre de mots par défaut"
+        }
+      },
+      "actions": {
+        "export": "Exporter les paramètres",
+        "import": "Importer les paramètres"
+      },
+      "tip": {
+        "esc_change": "Échap : modifier n'importe quel paramètre en tapant"
+      },
+      "notice": {
+        "imported_count": "Importé {count} paramètre(s)"
+      }
+    },
+    "themes": {
+      "editor": {
+        "save_theme": "Enregistrer le thème",
+        "name": "Nom",
+        "light_or_dark": "Clair ou foncé",
+        "readability": "Lisibilité",
+        "page": "Page",
+        "background": "Arrière-plan",
+        "panels": "Panneaux",
+        "lines_borders": "Lignes et bordures",
+        "selection": "Sélection",
+        "text": "Texte",
+        "dim_text": "Texte atténué",
+        "accent": "Accent",
+        "typed_text": "Texte tapé",
+        "mistakes": "Erreurs",
+        "extra_letters": "Lettres supplémentaires",
+        "caret": "Curseur"
+      },
+      "actions": {
+        "use": "Utiliser",
+        "edit": "Modifier",
+        "decorate": "Décorer",
+        "export": "Exporter",
+        "delete": "Supprimer",
+        "customise_current": "Personnaliser le thème actuel",
+        "import_theme": "Importer un thème"
+      },
+      "picker": {
+        "preview": "Aperçu",
+        "instructions": "Survolez pour aperçu · Cliquez ou appuyez sur Entrée pour appliquer · Échap pour fermer",
+        "close": "Fermer"
+      }
+    }
+  }
+}

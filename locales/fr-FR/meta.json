@@ -1,0 +1,21 @@
+{
+  "id": "fr-FR",
+  "name": "Français",
+  "englishName": "French (France)",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": true,
+  "fonts": [
+    "system-ui",
+    "-apple-system",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica",
+    "Arial",
+    "sans-serif"
+  ],
+  "reviewed": "machine",
+  "revision": 1,
+  "version": "2026-10-02",
+  "changes": "Initial French (France) candidate translation"
+}

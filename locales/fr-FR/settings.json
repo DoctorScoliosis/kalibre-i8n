@@ -1,0 +1,145 @@
+{
+  "schema": {
+    "mistakeSensitivity": {
+      "label": "Suggérer des erreurs à entraîner",
+      "option": {
+        "relaxed": "uniquement les motifs clairs"
+      }
+    },
+    "autoAcceptMistakes": {
+      "label": "Ajouter automatiquement les erreurs à l'entraînement"
+    },
+    "adaptiveMix": {
+      "label": "Pratiquer les mots dans les tests de mots",
+      "option": {
+        "light": "quelques-uns",
+        "strong": "plus"
+      }
+    },
+    "goalType": {
+      "label": "Objectif quotidien",
+      "option": {
+        "off": "aucun",
+        "minutes": "minutes",
+        "words": "mots"
+      }
+    },
+    "goalMinutes": {
+      "label": "Minutes par jour"
+    },
+    "goalWords": {
+      "label": "Mots par jour"
+    },
+    "questDifficulty": {
+      "label": "Difficulté des quêtes quotidiennes",
+      "option": {
+        "easy": "facile",
+        "normal": "normal",
+        "hard": "difficile"
+      }
+    },
+    "lessonCompanion": {
+      "label": "Compagnon de leçon"
+    },
+    "commonCapitals": {
+      "label": "Majuscules dans les mots courants"
+    },
+    "paragraphBreaks": {
+      "label": "Sauts de paragraphes"
+    },
+    "wordPool": {
+      "label": "Liste de mots",
+      "option": {
+        "200": "200 mots courants"
+      }
+    },
+    "wordLength": {
+      "label": "Longueur des mots",
+      "option": {
+        "everyday": "quotidien",
+        "some_long": "quelques mots longs",
+        "long": "mots longs"
+      }
+    },
+    "wordSpelling": {
+      "label": "Orthographe dans les tests de mots",
+      "option": {
+        "both": "les deux (tels qu'écrits)",
+        "uk": "Anglais britannique (colour, centre)",
+        "us": "Anglais américain (color, center)"
+      }
+    },
+    "textSize": {
+      "label": "Taille du texte de frappe"
+    },
+    "fontFamily": {
+      "label": "Police de frappe"
+    },
+    "fontWeight": {
+      "label": "Épaisseur de la police"
+    },
+    "lineHeight": {
+      "label": "Hauteur de ligne de frappe"
+    },
+    "letterSpacing": {
+      "label": "Espacement des lettres"
+    },
+    "caretStyle": {
+      "label": "Style du curseur",
+      "option": {
+        "line": "ligne",
+        "block": "bloc",
+        "underline": "souligné"
+      }
+    },
+    "smoothCaret": {
+      "label": "Curseur fluide"
+    },
+    "focusMode": {
+      "label": "Concentration",
+      "option": {
+        "line": "ligne actuelle",
+        "sentence": "phrase"
+      }
+    },
+    "liveMetrics": {
+      "label": "Mots par minute et précision en direct"
+    },
+    "mistakeDisplay": {
+      "label": "Afficher les erreurs comme",
+      "option": {
+        "expected": "lettre attendue",
+        "typed": "lettre tapée"
+      }
+    },
+    "restartKey": {
+      "label": "Touche de redémarrage"
+    },
+    "layout": {
+      "label": "Disposition du clavier"
+    },
+    "stenoMode": {
+      "label": "Je tape avec",
+      "option": {
+        "keyboard": "un clavier",
+        "steno": "une machine sténo"
+      }
+    },
+    "defaultDuration": {
+      "label": "Durée par défaut du test"
+    },
+    "defaultWordCount": {
+      "label": "Nombre de mots par défaut"
+    }
+  },
+  "actions": {
+    "export": "Exporter les paramètres",
+    "import": "Importer les paramètres"
+  },
+  "tip": {
+    "esc_change": "Échap : modifier n'importe quel paramètre en tapant"
+  },
+  "notice": {
+    "imported_count": "Importé {count} paramètre(s)"
+  }
+}

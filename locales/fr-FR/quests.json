@@ -1,0 +1,22 @@
+{
+  "kinds": {
+    "type_words": "Taper {count} mot(s)",
+    "type_minutes": "Taper pendant {count} minute(s)",
+    "finish_tests": "Terminer {count} test(s)",
+    "play_game": "Jouer à {game} {count} fois",
+    "score_game": "Atteindre {score} dans {game}",
+    "find_mistakes": "Trouver {count} erreur(s) en une partie de {game}",
+    "touch_typing_lesson": "Faire une leçon de frappe en aveugle"
+  },
+  "status": {
+    "done": "Terminé"
+  },
+  "actions": {
+    "swap": "Échanger",
+    "go": "Aller"
+  },
+  "labels": {
+    "challenge": "Défi",
+    "daily_goal": "Objectif quotidien"
+  }
+}

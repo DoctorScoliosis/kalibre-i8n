@@ -1,0 +1,42 @@
+{
+  "storage": {
+    "heading": "Stockage",
+    "persistent": "Le navigateur conserve les données de Kalibre jusqu'à ce que vous les effaciez vous-même.",
+    "best_effort": "Le navigateur peut effacer les données de Kalibre si l'espace disque est insuffisant.",
+    "unsupported": "Ce navigateur ne peut pas garantir de conserver les données de Kalibre, alors faites une sauvegarde.",
+    "keep_my_data": "Conserver mes données"
+  },
+  "backup": {
+    "automatic_heading": "Sauvegarde automatique",
+    "choose_folder": "Choisir un dossier",
+    "back_up_now": "Sauvegarder maintenant",
+    "change_folder": "Changer de dossier",
+    "stop": "Arrêter",
+    "restore": "Restaurer",
+    "manual_heading": "Sauvegarder manuellement",
+    "export_profile": "Exporter ce profil",
+    "share_profile": "Partager ce profil",
+    "exported_summary": "Exporté : {sessions} tests, {mistakes} erreurs et {texts} textes",
+    "restore_folder": "Restaurer depuis un dossier Kalibre",
+    "update_copies": "Copies avant les mises à jour",
+    "restore_warning": "Cela remplace tout ce que Kalibre conserve dans ce navigateur par cette copie. Êtes-vous sûr ?",
+    "confirm_restore": "Oui, restaurer",
+    "cancel": "Annuler"
+  },
+  "guest": {
+    "banner_title": "Vous essayez Kalibre en tant qu'invité.",
+    "banner_body": "Vos tests, erreurs, statistiques et XP sont conservés dans ce navigateur, mais ne sont pas sauvegardés, et le profil ne peut pas être verrouillé. Enregistrez votre progression pour en faire votre propre profil.",
+    "save_progress": "Enregistrer ma progression",
+    "ephemeral_warning": "Session invitée : ce navigateur ne conserve rien, donc rien n'est enregistré lorsque cette fenêtre est fermée. Pour conserver ce que vous faites, téléchargez votre profil et chargez-le dans une fenêtre normale.",
+    "download_profile": "Télécharger mon profil",
+    "name_profile": "Nommer votre profil",
+    "nickname_placeholder": "Un pseudonyme",
+    "save": "Enregistrer"
+  },
+  "progress": {
+    "backing_up": "Sauvegarde en cours",
+    "preparing_export": "Préparation de l'export",
+    "saved": "Enregistré",
+    "couldnt_save": "Impossible d'enregistrer (voir Paramètres → Données)"
+  }
+}

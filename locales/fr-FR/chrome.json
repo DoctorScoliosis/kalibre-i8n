@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "skip_to_content": "Aller au contenu principal",
+    "type": "Taper",
+    "learn": "Apprendre",
+    "drill": "Entraînement",
+    "games": "Jeux",
+    "mistakes": "Erreurs",
+    "settings": "Paramètres",
+    "today": "Aujourd'hui",
+    "about": "À propos"
+  },
+  "curtain": {
+    "fetching": "Récupération des livres et du dictionnaire, une seule fois",
+    "taking_longer": "Cela prend plus de temps que d'habitude…",
+    "reload": "Recharger",
+    "books_downloading": "Les livres sont encore en téléchargement. Vous pouvez commencer maintenant, ils finiront en arrière-plan.",
+    "start_without_waiting": "Commencer sans attendre",
+    "still_loading": "Toujours en cours de chargement. Vérifiez votre connexion, puis rechargez. Une fois que Kalibre est chargé ici, il fonctionne hors ligne.",
+    "older_tab": "Kalibre est ouvert dans un autre onglet, sur une version plus ancienne. Fermez cet onglet et celui-ci continuera.",
+    "couldnt_load": "Kalibre n'a pas pu se charger. Vérifiez votre connexion, puis rechargez.",
+    "browser_too_old": "Ce navigateur est trop ancien pour Kalibre. Une version récente de Chrome, Edge, Firefox ou Safari est requise."
+  },
+  "footer": {
+    "shortcuts": "Raccourcis clavier",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "security": "Sécurité",
+    "announcements": "Annonces"
+  },
+  "meta": {
+    "tagline": "Kalibre, un entraîneur de frappe adaptatif",
+    "description": "Votre frappe. Vos erreurs. Votre progression. Un entraîneur de frappe qui apprend vos erreurs récurrentes et les travaille, directement dans votre navigateur.",
+    "alt_wordmark": "Le logotype Kalibre entre Cal et Libby, avec la ligne : votre frappe, vos erreurs, votre progression."
+  },
+  "pwa": {
+    "ios": "Sur iPhone et iPad, ajoutez Kalibre à votre écran d'accueil (dans Safari : partager → ajouter à l'écran d'accueil). Il s'ouvre en plein écran et conserve ses données, contrairement à un onglet Safari qui peut les perdre après 7 jours sans visite.",
+    "generic": "Ajoutez Kalibre à votre écran d'accueil (menu du navigateur → ajouter à l'écran d'accueil, ou installer). Une fois installé, il s'ouvre en plein écran, et le navigateur est plus susceptible de conserver ses données."
+  },
+  "misc": {
+    "kalibre_about": "Kalibre, à propos",
+    "backup_due": "Paramètres, sauvegarde due",
+    "new_badge": "Nouveau",
+    "backup_progress": "Progression de la sauvegarde",
+    "todays_quests": "Les quêtes d'aujourd'hui",
+    "new_quests_midnight": "Nouvelles quêtes à minuit",
+    "difficulty": "Difficulté",
+    "getting_quests": "Récupération des quêtes d'aujourd'hui…"
+  }
+}

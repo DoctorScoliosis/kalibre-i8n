@@ -1,0 +1,34 @@
+{
+  "editor": {
+    "save_theme": "Enregistrer le thème",
+    "name": "Nom",
+    "light_or_dark": "Clair ou foncé",
+    "readability": "Lisibilité",
+    "page": "Page",
+    "background": "Arrière-plan",
+    "panels": "Panneaux",
+    "lines_borders": "Lignes et bordures",
+    "selection": "Sélection",
+    "text": "Texte",
+    "dim_text": "Texte atténué",
+    "accent": "Accent",
+    "typed_text": "Texte tapé",
+    "mistakes": "Erreurs",
+    "extra_letters": "Lettres supplémentaires",
+    "caret": "Curseur"
+  },
+  "actions": {
+    "use": "Utiliser",
+    "edit": "Modifier",
+    "decorate": "Décorer",
+    "export": "Exporter",
+    "delete": "Supprimer",
+    "customise_current": "Personnaliser le thème actuel",
+    "import_theme": "Importer un thème"
+  },
+  "picker": {
+    "preview": "Aperçu",
+    "instructions": "Survolez pour aperçu · Cliquez ou appuyez sur Entrée pour appliquer · Échap pour fermer",
+    "close": "Fermer"
+  }
+}
