@@ -1,0 +1,114 @@
+{
+  "view": {
+    "card_aria": "cartão de {name}: {described}"
+  },
+  "window": {
+    "your_card": "seu cartão",
+    "card_title": "cartão",
+    "cosmetics": "cosméticos",
+    "stickers": "adesivos",
+    "garage": "garagem",
+    "done": "concluído"
+  },
+  "card_view": {
+    "lv": "nív. {level}",
+    "with_after_level": " · com {companionName}",
+    "with_companion": "com {companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "É assim que seu cartão aparece para outras pessoas em uma corrida. Seu companheiro fica onde ficaria uma foto: fotos de perfil nunca saem deste dispositivo. Arraste um adesivo para movê-lo; selecione um para escolher cor, tamanho e rotação, ou use as setas, [ e ], e Delete; Esc ou um clique em outro lugar o deseleciona.",
+    "what_your_card_wears": "o que seu cartão veste",
+    "colour": "cor de {tokenLabel}",
+    "theme_default_colour": "cor padrão do tema",
+    "delete_sticker": "excluir adesivo",
+    "sticker_arrows_move_it_and": "adesivo {name}: as setas o movem, [ e ] o giram, Delete o remove; selecione-o para alterar cor e tamanho",
+    "selected_sticker_s_colour": "cor do adesivo selecionado",
+    "add_a_sticker": "adicionar um adesivo {name}",
+    "a_secret_sticker": "um adesivo secreto",
+    "a_card_shows_at_most": "um cartão mostra no máximo {MAX_SHOWCASE}",
+    "remove_every_sticker": "remover todos os adesivos",
+    "nothing_to_show_off_yet": "Nada para exibir ainda. Suas conquistas aparecerão aqui à medida que você conquistá-las.",
+    "tabs": {
+      "showcase": {
+        "title": "destaques",
+        "hint": "até {max} conquistas que você já conquistou"
+      },
+      "garage": {
+        "title": "garagem",
+        "hint": "vista seu carro de corrida: é o que você dirige na pista e o que todos que correm contra você veem"
+      }
+    },
+    "tint": "{slot}Tonalidade"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {
+        "title": "borda",
+        "hint": "ao redor do cartão"
+      },
+      "frame": {
+        "title": "moldura",
+        "hint": "ao redor do seu companheiro"
+      },
+      "aura": {
+        "title": "aura",
+        "hint": "um brilho atrás do seu companheiro"
+      },
+      "backdrop": {
+        "title": "fundo",
+        "hint": "atrás de tudo no cartão"
+      },
+      "sticker": {
+        "title": "adesivos",
+        "hint": "arraste-os para qualquer lugar do cartão"
+      }
+    },
+    "items": {
+      "border-double": {"name": "linha dupla"},
+      "border-stitch": {"name": "costurado"},
+      "border-ribbon": {"name": "fita"},
+      "border-corners": {"name": "colchetes de canto"},
+      "border-keycap": {"name": "tecla"},
+      "border-heat": {"name": "calor"},
+      "border-neon": {"name": "neon"},
+      "border-gilt": {"name": "dourado"},
+      "border-midnight": {"name": "meia-noite"},
+      "frame-double": {"name": "anel duplo"},
+      "frame-dashed": {"name": "anel tracejado"},
+      "frame-square": {"name": "quadrado de tecla"},
+      "frame-cog": {"name": "engrenagem"},
+      "frame-petals": {"name": "pétalas"},
+      "frame-orbit": {"name": "órbita"},
+      "frame-laurel": {"name": "louro"},
+      "frame-crown": {"name": "coroa"},
+      "aura-soft": {"name": "brilho suave"},
+      "aura-pulse": {"name": "pulso"},
+      "aura-ember": {"name": "brasa"},
+      "aura-halo": {"name": "halo"},
+      "aura-aurora": {"name": "aurora"},
+      "aura-prism": {"name": "prisma"},
+      "backdrop-dots": {"name": "pontos"},
+      "backdrop-pinstripe": {"name": "risca de giz"},
+      "backdrop-graph": {"name": "papel quadriculado"},
+      "backdrop-waves": {"name": "ondas"},
+      "backdrop-stars": {"name": "campo estelar"},
+      "backdrop-confetti": {"name": "confete"},
+      "sticker-star": {"name": "estrela"},
+      "sticker-leaf": {"name": "folha"},
+      "sticker-key": {"name": "tecla"},
+      "sticker-heart": {"name": "coração"},
+      "sticker-flower": {"name": "flor"},
+      "sticker-bolt": {"name": "raio"},
+      "sticker-note": {"name": "nota musical"},
+      "sticker-moon": {"name": "lua"},
+      "sticker-rocket": {"name": "foguete"},
+      "sticker-castle": {"name": "castelo"},
+      "sticker-magnifier": {"name": "lupa"},
+      "sticker-book": {"name": "livro"},
+      "sticker-flag": {"name": "bandeira quadriculada"},
+      "sticker-crown": {"name": "coroa"},
+      "sticker-teacup": {"name": "xícara de chá"},
+      "sticker-sparkle": {"name": "brilho"}
+    }
+  }
+}

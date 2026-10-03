@@ -1,0 +1,52 @@
+{
+  "storage": {
+    "heading": "armazenamento",
+    "persistent": "O navegador mantém os dados do kalibre até você limpá-los.",
+    "best_effort": "O navegador pode limpar os dados do kalibre se o disco ficar sem espaço.",
+    "unsupported": "Este navegador não pode garantir que manterá os dados do kalibre, então mantenha um backup.",
+    "keep_my_data": "manter meus dados"
+  },
+  "backup": {
+    "automatic_heading": "backup automático",
+    "choose_folder": "escolher uma pasta",
+    "back_up_now": "fazer backup agora",
+    "change_folder": "alterar pasta",
+    "stop": "parar",
+    "restore": "restaurar",
+    "manual_heading": "fazer backup manualmente",
+    "export_profile": "exportar este perfil",
+    "share_profile": "compartilhar este perfil",
+    "exported_summary": "exportados {sessions} testes, {mistakes} erros e {texts} textos{destination}",
+    "saved_to": " para {destination}",
+    "last_backup_time": "último backup {when}",
+    "not_backed_up_yet": "ainda sem backup",
+    "problem_permission": " O navegador precisa da sua autorização novamente antes de poder gravar lá.",
+    "problem_conflict": " A pasta tem uma cópia mais nova de “{name}”, salva de outro navegador em {when}, então ela não foi sobrescrita. Restaure essa cópia ou salve esta por cima dela.",
+    "problem_last_error": " O último backup falhou: {error}",
+    "restore_folder": "restaurar de uma pasta do kalibre",
+    "update_copies": "cópias anteriores às atualizações",
+    "restore_warning": "isso substitui tudo o que o kalibre mantém neste navegador por essa cópia. tem certeza?",
+    "confirm_restore": "sim, colocar de volta",
+    "cancel": "cancelar"
+  },
+  "guest": {
+    "banner_title": "Você está experimentando o Kalibre como convidado.",
+    "banner_body": "Seus testes, erros, estatísticas e XP ficam neste navegador, mas não têm backup, e o perfil não pode ser bloqueado. Salve seu progresso para mantê-lo como seu próprio perfil.",
+    "save_progress": "salvar meu progresso",
+    "ephemeral_warning": "sessão de convidado: este navegador não está mantendo nada, então nada é salvo quando esta janela fecha. para manter o que você fizer, baixe seu perfil e carregue-o em uma janela normal.",
+    "download_profile": "baixar meu perfil",
+    "name_profile": "dar nome ao seu perfil",
+    "nickname_placeholder": "um apelido",
+    "save": "salvar"
+  },
+  "progress": {
+    "backing_up": "fazendo backup",
+    "preparing_export": "preparando exportação",
+    "saving": "salvando",
+    "phase_packing": "empacotando",
+    "phase_compressing": "comprimindo",
+    "job_status": "{job} · {phase} {percent}%",
+    "saved": "salvo",
+    "couldnt_save": "não foi possível salvar (veja configurações → dados)"
+  }
+}

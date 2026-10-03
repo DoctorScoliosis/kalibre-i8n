@@ -1,0 +1,664 @@
+{
+  "groups": {
+    "typing": "digitação",
+    "sustained": "sustentado",
+    "mistakes": "erros",
+    "learn": "digitação por toque",
+    "numpad": "teclado numérico",
+    "games": "jogos",
+    "habits": "hábitos",
+    "quests": "missões diárias",
+    "texts": "seus textos",
+    "companion": "companheiro",
+    "decorations": "decorações do tema",
+    "secrets": "segredos"
+  },
+  "hints": {
+    "secret_keep_playing": "um segredo: continue jogando"
+  },
+  "rules": {
+    "level": "alcance o nível {at}",
+    "tests": "conclua {count, plural, one {# teste} other {# testes}}",
+    "bestWpm": "faça um teste a {wpm} ppm",
+    "typingTime_hours": "digite por {count, plural, one {# hora} other {# horas}}, no total",
+    "typingTime_minutes": "digite por {count, plural, one {# minuto} other {# minutos}}, no total",
+    "perfectTest_seconds": "conclua um teste de {seconds} segundos ou mais com 100% de precisão",
+    "perfectTest_words": "conclua um teste de {words} palavras ou mais com 100% de precisão",
+    "nightTests": "conclua {count, plural, one {# teste} other {# testes}} entre meia-noite e 4h",
+    "sustainedSurvived": "mantenha um teste sustentado por {count, plural, one {# minuto} other {# minutos}}",
+    "sustainedTotal": "passe {count, plural, one {# minuto} other {# minutos}} em testes sustentados, no total",
+    "stageMastered": "domine todas as lições da etapa {stage}",
+    "stageStarted": "comece uma lição da etapa {stage}",
+    "allLessons": "domine todas as lições",
+    "lastLessonDone": "conclua a última lição do currículo",
+    "stepsFinished": "conclua {count, plural, one {# etapa de lição} other {# etapas de lição}}",
+    "lessonsStepped": "passe por {count, plural, one {# lição} other {# lições}} antes do teste",
+    "stepsAllDoneLessons": "{count, plural, one {passe por todas as etapas de uma lição} other {passe por todas as etapas de # lições}}",
+    "warmupsFinished": "conclua {count, plural, one {# aquecimento} other {# aquecimentos}}",
+    "warmupThenMastered": "domine uma lição no teste logo após um aquecimento",
+    "stepsRetriedReady": "tente uma etapa novamente até ela ficar pronta",
+    "gameScore": "faça {score} pontos em {game}",
+    "gameRuns": "jogue {game} {count, plural, one {# vez} other {# vezes}}",
+    "gameTime": "jogue {game} por {count, plural, one {# minuto} other {# minutos}}, no total",
+    "gameLongest": "dure {count, plural, one {# minuto} other {# minutos}} em uma única partida de {game}{difficulty, select, easy { no fácil} normal { no normal} hard { no difícil} other {}}",
+    "gameWin": "vença {game}{difficulty, select, easy { no fácil} normal { no normal} hard { no difícil} other {}}",
+    "spotFound": "encontre {count, plural, one {# erro} other {# erros}} em uma partida de Spot",
+    "texts": "salve {count, plural, one {# texto} other {# textos}} seus",
+    "textWords": "salve um texto seu com {words} palavras ou mais",
+    "datasetWords": "crie um conjunto de dados com um texto seu de {words}+ palavras",
+    "quotes": "adicione {count, plural, one {# citação} other {# citações}} suas",
+    "bankMastered": "domine {count, plural, one {# erro} other {# erros}}",
+    "goalStreak": "cumpra sua meta diária por {days} dias seguidos",
+    "questsDone": "conclua {count, plural, one {# missão diária} other {# missões diárias}}",
+    "challengesDone": "conclua {count, plural, one {# desafio diário} other {# desafios diários}}",
+    "questFullDays": "conclua as três missões diárias em {days, plural, one {# dia} other {# dias}} (não necessariamente seguidos)",
+    "padTests": "conclua {count, plural, one {# teste de dez teclas} other {# testes de dez teclas}}",
+    "padKsph": "conclua um teste de dez teclas a {ksph} toques por hora com 95% de precisão ou mais",
+    "padPerfect": "conclua um teste de dez teclas com {entries} entradas ou mais, acertando todas",
+    "padLessons": "domine {count, plural, one {# lição do teclado numérico} other {# lições do teclado numérico}}",
+    "allPadLessons": "domine todas as lições do teclado numérico",
+    "padSums": "acerte {count, plural, one {# soma} other {# somas}}",
+    "padSumsPerfect": "responda {answers} somas em uma partida, acertando todas",
+    "padSumsLevel": "alcance o nível {level} em Somas",
+    "padTill": "atenda {served} clientes em uma partida de Caixa",
+    "padKeys": "pressione {count, plural, one {# tecla do teclado numérico} other {# teclas do teclado numérico}}, no total",
+    "engaged": "um segredo",
+    "wordsTyped": "digite {count, plural, one {# palavra} other {# palavras}}, no total",
+    "daysTyped": "digite em {days, plural, one {# dia} other {# dias}} (não necessariamente seguidos)",
+    "drillsDone": "conclua {count, plural, one {# treino} other {# treinos}} dos seus erros",
+    "earlyTests": "conclua {count, plural, one {# teste} other {# testes}} entre 5h e 6h",
+    "lessons": "domine {count, plural, one {# lição} other {# lições}}",
+    "allGameRuns": "jogue {count, plural, one {# jogo} other {# jogos}}, no total",
+    "perfectFirstLesson": "{count, plural, one {faça uma lição com 100% de precisão na primeira tentativa} other {faça {count} lições com 100% de precisão na primeira tentativa}}",
+    "wardrobeUnlocked": "desbloqueie {count, plural, one {# item do guarda-roupa} other {# itens do guarda-roupa}}",
+    "wardrobeSlots": "use algo em todos os espaços do guarda-roupa",
+    "decorationsUnlocked": "desbloqueie {count, plural, one {# decoração de tema} other {# decorações de tema}}",
+    "decorationSlots": "desbloqueie uma decoração de cada tipo",
+    "decorationsWorn": "{count, plural, one {decore um dos seus temas} other {dê ao seu tema {count} decorações de uma vez}}",
+    "petted": "faça carinho no seu companheiro {count, plural, one {# vez} other {# vezes}}",
+    "poked": "cutuque seu companheiro {count, plural, one {# vez} other {# vezes}}",
+    "tickled": "faça cócegas no seu companheiro {count, plural, one {# vez} other {# vezes}}",
+    "pokedTooMuch": "cutuque seu companheiro oito vezes em rápida sucessão",
+    "armLifted": "levante o braço pendurado na página sobre",
+    "quickRestarts": "reinicie o Kalibre {count, plural, one {# vez} other {# vezes}} em rápida sucessão, cutucando ou fazendo cócegas no seu companheiro entre uma e outra",
+    "racesDone": "conclua {count, plural, one {# corrida} other {# corridas}}",
+    "raceWins": "vença uma {difficulty, select, easy {corrida } normal {corrida } hard {corrida difícil } other {}}{mode, select, sprint {sprint } endurance {de resistência } grand_prix {grand prix } other {}}{solo, select, true {sozinho} false {na sua rede} other {}}",
+    "raceModesWon": "{count, select, 4 {vença uma corrida em rede em todos os modos} other {vença uma corrida em rede em {count, plural, one {# modo} other {# modos}}}}",
+    "booksFinished": "{count, plural, one {termine um livro inteiro no modo sustentado} other {termine # livros inteiros no modo sustentado}}",
+    "spotTotalFound": "encontre {count, plural, one {# erro} other {# erros}} no Spot, no total",
+    "spaceWordBombs": "{count, plural, one {dispare a bomba de palavras no Space uma vez} other {dispare a bomba de palavras no Space {count} vezes}}",
+    "unknown": "desconhecido",
+    "progress_suffix": " ({have} de {need})",
+    "secret_hint": "um segredo: continue jogando"
+  },
+  "first-test": {
+    "name": "primeiros passos"
+  },
+  "tests-10": {
+    "name": "aquecendo"
+  },
+  "tests-100": {
+    "name": "cem na conta"
+  },
+  "tests-500": {
+    "name": "quinhentos"
+  },
+  "tests-1000": {
+    "name": "mil na conta"
+  },
+  "wpm-40": {
+    "name": "mãos firmes"
+  },
+  "wpm-50": {
+    "name": "encontrando um ritmo"
+  },
+  "wpm-60": {
+    "name": "dedos rápidos"
+  },
+  "wpm-70": {
+    "name": "ligeiro"
+  },
+  "wpm-80": {
+    "name": "veloz"
+  },
+  "wpm-100": {
+    "name": "três dígitos"
+  },
+  "wpm-120": {
+    "name": "um borrão"
+  },
+  "wpm-150": {
+    "name": "relâmpago"
+  },
+  "perfect-30": {
+    "name": "trinta segundos perfeitos"
+  },
+  "perfect-minute": {
+    "name": "um minuto impecável"
+  },
+  "perfect-2min": {
+    "name": "dois minutos impecáveis"
+  },
+  "hours-1": {
+    "name": "a primeira hora"
+  },
+  "hours-10": {
+    "name": "dez horas"
+  },
+  "hours-50": {
+    "name": "cinquenta horas"
+  },
+  "hours-100": {
+    "name": "cem horas"
+  },
+  "words-10k": {
+    "name": "dez mil palavras"
+  },
+  "words-100k": {
+    "name": "cem mil palavras"
+  },
+  "words-1m": {
+    "name": "um milhão de palavras"
+  },
+  "days-10": {
+    "name": "dez dias na conta"
+  },
+  "days-50": {
+    "name": "cinquenta dias na conta"
+  },
+  "days-100": {
+    "name": "cem dias na conta"
+  },
+  "days-365": {
+    "name": "um ano de dias"
+  },
+  "sustained-1": {
+    "name": "mantendo o ritmo"
+  },
+  "sustained-3": {
+    "name": "aguentando firme"
+  },
+  "sustained-10": {
+    "name": "fôlego"
+  },
+  "sustained-20": {
+    "name": "longa jornada"
+  },
+  "sustained-30": {
+    "name": "resistência"
+  },
+  "sustained-total-60": {
+    "name": "uma hora, sustentado"
+  },
+  "sustained-total-300": {
+    "name": "cinco horas, sustentado"
+  },
+  "book-finished": {
+    "name": "até a última página"
+  },
+  "books-5": {
+    "name": "nunca largou"
+  },
+  "mastered-1": {
+    "name": "consertei"
+  },
+  "mastered-5": {
+    "name": "remendado"
+  },
+  "mastered-25": {
+    "name": "reparado"
+  },
+  "mastered-100": {
+    "name": "novinho em folha"
+  },
+  "mastered-250": {
+    "name": "nada mais para consertar"
+  },
+  "drills-1": {
+    "name": "primeiro treino"
+  },
+  "drills-10": {
+    "name": "treinado"
+  },
+  "drills-100": {
+    "name": "a prática leva à perfeição"
+  },
+  "first-lesson": {
+    "name": "primeira lição"
+  },
+  "lessons-10": {
+    "name": "dez lições"
+  },
+  "stage-1": {
+    "name": "linha inicial"
+  },
+  "stage-2": {
+    "name": "linha superior"
+  },
+  "stage-3": {
+    "name": "três linhas"
+  },
+  "stage-4": {
+    "name": "maiúsculas"
+  },
+  "stage-5": {
+    "name": "pelos números"
+  },
+  "stage-6": {
+    "name": "fluente"
+  },
+  "all-lessons": {
+    "name": "digitador por toque"
+  },
+  "stage-1-started": {
+    "name": "começando na linha inicial"
+  },
+  "stage-2-started": {
+    "name": "começando na linha superior"
+  },
+  "stage-3-started": {
+    "name": "começando na linha inferior"
+  },
+  "stage-4-started": {
+    "name": "começando nas maiúsculas"
+  },
+  "stage-5-started": {
+    "name": "começando nos números"
+  },
+  "stage-6-started": {
+    "name": "começando a ganhar fluência"
+  },
+  "last-lesson": {
+    "name": "até a última lição"
+  },
+  "first-step": {
+    "name": "entrando no ritmo"
+  },
+  "stepped-lesson": {
+    "name": "cada etapa do caminho"
+  },
+  "stepped-10": {
+    "name": "bem preparado"
+  },
+  "first-warmup": {
+    "name": "aquecido"
+  },
+  "warmup-mastery": {
+    "name": "do começo ao fim"
+  },
+  "step-again": {
+    "name": "chegando lá"
+  },
+  "every-game": {
+    "name": "experimentei todos"
+  },
+  "every-game-10": {
+    "name": "freguês"
+  },
+  "every-game-50": {
+    "name": "devoto"
+  },
+  "games-100": {
+    "name": "noite de jogos"
+  },
+  "space-2000": {
+    "name": "piloto de elite"
+  },
+  "space-5000": {
+    "name": "top gun"
+  },
+  "castle-normal": {
+    "name": "segurando as muralhas"
+  },
+  "castle-hard": {
+    "name": "guardião do castelo"
+  },
+  "spot-20": {
+    "name": "olho de águia"
+  },
+  "spot-50": {
+    "name": "olho de falcão"
+  },
+  "feed-30": {
+    "name": "bem alimentado"
+  },
+  "feed-10min": {
+    "name": "um almoço demorado"
+  },
+  "hard-win": {
+    "name": "do jeito difícil"
+  },
+  "castle-easy": {
+    "name": "primeira brecha"
+  },
+  "space-win": {
+    "name": "casco intacto"
+  },
+  "space-hard-win": {
+    "name": "casco de ferro"
+  },
+  "spot-total-100": {
+    "name": "correções, no total"
+  },
+  "spot-chief": {
+    "name": "chefe da revisão"
+  },
+  "buffet-host": {
+    "name": "anfitrião do buffet"
+  },
+  "full-house": {
+    "name": "casa cheia"
+  },
+  "no-hints": {
+    "name": "sem dicas necessárias"
+  },
+  "station-down": {
+    "name": "estação fora do ar"
+  },
+  "shrapnel-storm": {
+    "name": "tempestade de estilhaços"
+  },
+  "stacked": {
+    "name": "empilhado"
+  },
+  "autopilot-ace": {
+    "name": "ás do piloto automático"
+  },
+  "dazed": {
+    "name": "atordoado e confuso"
+  },
+  "spoils-of-war": {
+    "name": "espólios de guerra"
+  },
+  "clean-sweep": {
+    "name": "varredura completa"
+  },
+  "race-first": {
+    "name": "aos seus lugares"
+  },
+  "race-solo-win": {
+    "name": "primeiro na linha de chegada"
+  },
+  "race-hard-win": {
+    "name": "deixei os dois para trás"
+  },
+  "race-network-win": {
+    "name": "mais rápido da sala"
+  },
+  "race-last-standing": {
+    "name": "o último de pé"
+  },
+  "race-every-mode": {
+    "name": "uma vitória em cada faixa"
+  },
+  "streak-3": {
+    "name": "três seguidas"
+  },
+  "streak-7": {
+    "name": "uma semana disso"
+  },
+  "streak-14": {
+    "name": "duas semanas disso"
+  },
+  "streak-30": {
+    "name": "um mês disso"
+  },
+  "streak-100": {
+    "name": "cem dias disso"
+  },
+  "streak-365": {
+    "name": "um ano disso"
+  },
+  "level-5": {
+    "name": "nível 5"
+  },
+  "level-10": {
+    "name": "nível 10"
+  },
+  "level-15": {
+    "name": "nível 15"
+  },
+  "level-20": {
+    "name": "nível 20"
+  },
+  "level-30": {
+    "name": "nível 30"
+  },
+  "level-40": {
+    "name": "nível 40"
+  },
+  "level-50": {
+    "name": "nível 50"
+  },
+  "quests-10": {
+    "name": "em uma missão"
+  },
+  "quests-25": {
+    "name": "mente de missão"
+  },
+  "quests-100": {
+    "name": "missões"
+  },
+  "quests-500": {
+    "name": "uma vida de missões"
+  },
+  "challenges-10": {
+    "name": "topa o desafio"
+  },
+  "challenges-50": {
+    "name": "desafiante"
+  },
+  "challenges-100": {
+    "name": "nunca recua"
+  },
+  "full-days-7": {
+    "name": "conjunto completo"
+  },
+  "full-days-30": {
+    "name": "trinta dias completos"
+  },
+  "first-text": {
+    "name": "suas próprias palavras"
+  },
+  "texts-3": {
+    "name": "alguns dos seus"
+  },
+  "texts-10": {
+    "name": "uma pequena biblioteca"
+  },
+  "texts-25": {
+    "name": "uma estante"
+  },
+  "page-text": {
+    "name": "uma página sua"
+  },
+  "long-text": {
+    "name": "uma leitura longa"
+  },
+  "epic-text": {
+    "name": "uma epopeia"
+  },
+  "pets-1": {
+    "name": "olá"
+  },
+  "pets-25": {
+    "name": "boa, tecla"
+  },
+  "pets-100": {
+    "name": "melhores amigos"
+  },
+  "pets-500": {
+    "name": "inseparáveis"
+  },
+  "pokes-1": {
+    "name": "beijinho"
+  },
+  "pokes-100": {
+    "name": "cutuca, cutuca, cutuca"
+  },
+  "tickles-1": {
+    "name": "faz cócegas"
+  },
+  "tickles-25": {
+    "name": "ataque de riso"
+  },
+  "tickles-250": {
+    "name": "sem piedade"
+  },
+  "wardrobe-10": {
+    "name": "bem-vestido"
+  },
+  "wardrobe-25": {
+    "name": "um armário completo"
+  },
+  "all-slots": {
+    "name": "vestido para arrasar"
+  },
+  "decorations-1": {
+    "name": "um toque de estilo"
+  },
+  "decorations-5": {
+    "name": "decorador"
+  },
+  "decorations-10": {
+    "name": "designer de interiores"
+  },
+  "decorations-all": {
+    "name": "todos os enfeites"
+  },
+  "decoration-kinds": {
+    "name": "um de cada"
+  },
+  "decorated": {
+    "name": "deixei com a minha cara"
+  },
+  "fully-decorated": {
+    "name": "com todos os enfeites"
+  },
+  "pad-first": {
+    "name": "primeira fita"
+  },
+  "pad-tests-25": {
+    "name": "guardião do livro-caixa"
+  },
+  "pad-speed-5000": {
+    "name": "mãos firmes"
+  },
+  "pad-speed-8000": {
+    "name": "rápido no teclado numérico"
+  },
+  "pad-speed-10000": {
+    "name": "dez mil por hora"
+  },
+  "pad-perfect": {
+    "name": "livros equilibrados"
+  },
+  "pad-lesson-1": {
+    "name": "teclas iniciais"
+  },
+  "pad-lessons-all": {
+    "name": "o teclado inteiro"
+  },
+  "pad-sums-100": {
+    "name": "bom com números"
+  },
+  "pad-sums-perfect": {
+    "name": "sem calculadora"
+  },
+  "pad-sums-level-5": {
+    "name": "certificado"
+  },
+  "pad-till-25": {
+    "name": "clientes habituais"
+  },
+  "pad-till-60": {
+    "name": "a fila nunca acaba"
+  },
+  "pad-keys-10000": {
+    "name": "dez mil teclas"
+  },
+  "night-owl": {
+    "name": "coruja noturna"
+  },
+  "moonlighter": {
+    "name": "trabalhador da madrugada"
+  },
+  "early-bird": {
+    "name": "quem cedo madruga"
+  },
+  "flawless": {
+    "name": "impecável"
+  },
+  "marathon": {
+    "name": "maratona"
+  },
+  "first-try": {
+    "name": "primeira tentativa"
+  },
+  "pets-1000": {
+    "name": "dedicado"
+  },
+  "poke-fit": {
+    "name": "já chega"
+  },
+  "restarts-3": {
+    "name": "déjà vu"
+  },
+  "restarts-7": {
+    "name": "dia da marmota"
+  },
+  "restarts-15": {
+    "name": "liga e desliga"
+  },
+  "arm-lift": {
+    "name": "uma mãozinha"
+  },
+  "word-bomb": {
+    "name": "indo para o nuclear"
+  },
+  "achievement_badges": {
+    "secret": "secreto",
+    "kind": "{kind}",
+    "kind_earned": "{kind}, conquistado",
+    "kind_trophy": "troféu",
+    "kind_medal": "medalha",
+    "kind_badge": "distintivo"
+  },
+  "achievement_note": {
+    "see_achievements": "ver conquistas"
+  },
+  "achievements": {
+    "doesn_t_count_towards_100": "não conta para 100%",
+    "achievements_aren_t_available_here": "As conquistas não estão disponíveis aqui.",
+    "things_you_ve_done_in": "coisas que você fez no kalibre, calculadas a partir do seu histórico, então tudo o que você fez antes também conta. segredos e extras não contam para o total.",
+    "100_every_achievement": "100%: todas as conquistas.",
+    "achievements_aren_t_available_here_2": "As conquistas não estão disponíveis aqui.",
+    "earned": "conquistadas",
+    "trophies": "troféus",
+    "medals": "medalhas",
+    "badges": "distintivos",
+    "extras": "extras",
+    "sections_label": "seções de conquistas"
+  },
+  "beam-overload": {
+    "name": "feixe sobrecarregado"
+  },
+  "flagship-down": {
+    "name": "capitânia destruída"
+  },
+  "keg-defused": {
+    "name": "barril neutralizado"
+  },
+  "ladder-toppled": {
+    "name": "escada derrubada"
+  },
+  "sortie-master": {
+    "name": "mestre da sortida"
+  },
+  "marathon-master": {
+    "name": "mestre da maratona"
+  },
+  "scroller-streak": {
+    "name": "sequência na esteira"
+  }
+}
