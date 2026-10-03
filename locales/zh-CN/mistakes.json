@@ -89,12 +89,12 @@
     "kind_of_mistake": "错误类型",
     "all_kinds": "所有类型",
     "keyboard_layout": "键盘布局",
-    "sessions_count": "{count, plural, one {# 次会话} other {# 次会话}}",
+    "sessions_count": "{count, plural, other {# 次会话}}",
     "corrected_count": "{count} 已更正",
     "pager_aria": "错误表格页面",
     "no_qualifiers_mistakes": "尚无 {qualifiers} 错误{inSection, select, true {在 {section} 中} other {}}。",
     "no_in_section": "在 {section} 中尚无错误。",
-    "training_words_note": "训练中有 {count, plural, one {# 个单词} other {# 个单词}} 存在一致错误。"
+    "training_words_note": "训练中有 {count, plural, other {# 个单词}} 存在一致错误。"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label} 错误——单击以隔离",
@@ -108,10 +108,10 @@
     "words_and_spaces": "单词和空格",
     "no_tests_yet": "尚无测试",
     "rate_one_test": "一次测试中的错误率 {rate}",
-    "rate_over_tests": "{count, plural, one {# 次测试} other {# 次测试}}中的错误率 {from} → {to}",
+    "rate_over_tests": "{count, plural, other {# 次测试}}中的错误率 {from} → {to}",
     "mark_label": "{mistake}：{rate} 的时间",
     "started_at": "{summary} · 在 {rate} 时开始训练",
-    "keyboard_label": "键盘上绘制了 {count, plural, one {# 个错误} other {# 个错误}}。下面的列表包含相同的错误。"
+    "keyboard_label": "键盘上绘制了 {count, plural, other {# 个错误}}。下面的列表包含相同的错误。"
   },
   "mistakes": {
     "actions": "操作",

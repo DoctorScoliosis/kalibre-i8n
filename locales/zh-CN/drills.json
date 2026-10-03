@@ -23,7 +23,7 @@
     "drill_length": "训练长度",
     "quote_length": "引文长度",
     "practise_by_area": "按区域练习",
-    "words_count": "{count, plural, one {# 个单词} other {# 个单词}}",
+    "words_count": "{count, plural, other {# 个单词}}",
     "ticked_count": "已勾选 {selected} / {total}",
     "in_training": "训练中",
     "ready_to_drill": "准备好训练",

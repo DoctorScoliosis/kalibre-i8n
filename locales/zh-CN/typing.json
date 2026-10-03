@@ -137,8 +137,8 @@
   },
   "training_notice": {
     "mistakes": "错误，{join}",
-    "suggested": "{count, plural, one {# 个建议} other {# 个建议}}",
-    "ready": "{count, plural, one {# 个准备好训练} other {# 个准备好训练}}"
+    "suggested": "{count, plural, other {# 个建议}}",
+    "ready": "{count, plural, other {# 个准备好训练}}"
   },
   "type_view_goal": {
     "today": "✓ 今日 {formatGoalAmount}",

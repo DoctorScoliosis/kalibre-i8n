@@ -5313,6 +5313,7 @@
         "auto_accept_yes": "yes, add them automatically",
         "language_detail": {
           "en-US": "adapted spelling",
+          "fr-FR": "French (France)",
           "zh-CN": "Chinese Simplified"
         }
       },

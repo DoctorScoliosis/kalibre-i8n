@@ -26,7 +26,33 @@
         "who_made_it": "谁制作的？",
         "wheres_code": "kalibre 的代码在哪里？",
         "give_star": "如果喜欢的话请给它点个星标！如果你想帮忙，那就太好了。:)"
-      }
+      },
+      "heading_about": "关于",
+      "name_intro": "{name} {pronunciation} 是德语词 {kaliber} 的拼写变体，而 kaliber 又是英语词 {calibre} 的词根，如“high-calibre”（高素质）。这是刻意的：这样你就知道这个应用由我 {own}。",
+      "pronunciation": "(/kəˈliːbreɪ/ {guide})",
+      "pronunciation_guide": "kuh-LEE-bray",
+      "word_kaliber": "kaliber",
+      "word_calibre": "calibre",
+      "word_own": "拥有",
+      "libre": "另外，名字中的“libre”部分与 {libre} 中的含义相同：指的是自由，而非免费啤酒那种免费。",
+      "libre_software": "自由软件",
+      "libre_aside": "（不过，技术上它也是免费的。）",
+      "shorthand": "官方缩写 {kb} 同时也恰好是 {keyboard} 的缩写。对于一个围绕键盘构建的工具来说，这感觉恰如其分。",
+      "shorthand_kb": "kb",
+      "word_keyboard": "键盘",
+      "exist_intro": "{name} 最初是一个个人项目，一种训练我不断犯的错误以及我 {would} 犯的特定错误的方式，而不是反复练习相同的训练。错误地图、自适应训练、持续准确模式：这些都源于想要一个能学习 {my} 模式的工具。",
+      "word_would": "会",
+      "word_my": "我的",
+      "exist_dev": "我在开发中也使用它，除了测试功能外，因为逐字打自己写过的东西是一种静下心来体会它的好方法。",
+      "fun_fact": "趣闻：",
+      "fun_fact_text": "我其实很喜欢在持续模式下做打字测试！",
+      "made_by": "由一位名叫 {author}，又名 {handle} 的大学生制作。根据 {licence} 授权。",
+      "author_name": "保罗·泰勒·米勒",
+      "author_handle": "doctor scoliosis",
+      "licence_name": "MIT 许可证",
+      "code_heading": "{name} 的代码在哪里？",
+      "code_body": "去 GitHub 的 {here} 看看吧。如果喜欢的话请给它点个星标！如果你想帮忙，那就太好了。:)",
+      "code_here": "这里"
     },
     "achievements": {
       "groups": {
@@ -223,6 +249,347 @@
         "name": "坚持到最后"
       }
     },
+    "cards": {
+      "view": {
+        "card_aria": "{name} 的名片：{described}"
+      },
+      "window": {
+        "your_card": "你的名片",
+        "card_title": "名片",
+        "cosmetics": "装饰",
+        "stickers": "贴纸",
+        "garage": "车库",
+        "done": "完成"
+      },
+      "card_view": {
+        "lv": "等级 {level}",
+        "with_after_level": " · 与 {companionName}",
+        "with_companion": "与 {companionName}"
+      },
+      "card_window": {
+        "this_is_how_your_card": "这是你的名片在比赛中的样子。你的伙伴代替了头像的位置：头像图片永远不会离开此设备。拖动贴纸可移动它；选中贴纸可调整颜色、大小和旋转，或使用箭头、[ 和 ] 以及 Delete 键；按 Esc 或点击其他位置取消选中。",
+        "what_your_card_wears": "你的名片装扮",
+        "colour": "{tokenLabel} 颜色",
+        "theme_default_colour": "主题默认颜色",
+        "delete_sticker": "删除贴纸",
+        "sticker_arrows_move_it_and": "{name} 贴纸：箭头移动，[ 和 ] 旋转，Delete 移除；选中可调整颜色和大小",
+        "selected_sticker_s_colour": "选中贴纸的颜色",
+        "add_a_sticker": "添加 {name} 贴纸",
+        "a_secret_sticker": "一个隐藏贴纸",
+        "a_card_shows_at_most": "名片最多显示 {MAX_SHOWCASE} 个",
+        "remove_every_sticker": "移除所有贴纸",
+        "nothing_to_show_off_yet": "还没有可展示的成就。你获得的成就将会出现在这里。",
+        "tabs": {
+          "showcase": {
+            "title": "展示",
+            "hint": "最多 {max} 个你获得的成就"
+          },
+          "garage": {
+            "title": "车库",
+            "hint": "装扮你的赛车：这是你在赛道上驾驶的车，也是所有与你对战的人看到的"
+          }
+        },
+        "tint": "{slot}色调"
+      },
+      "cosmetics": {
+        "CARD_SLOTS": {
+          "border": {
+            "title": "边框",
+            "hint": "围绕名片"
+          },
+          "frame": {
+            "title": "框架",
+            "hint": "围绕你的伙伴"
+          },
+          "aura": {
+            "title": "光环",
+            "hint": "你的伙伴背后的光晕"
+          },
+          "backdrop": {
+            "title": "背景",
+            "hint": "名片上所有内容的背后"
+          },
+          "sticker": {
+            "title": "贴纸",
+            "hint": "可拖动到名片任意位置"
+          }
+        },
+        "items": {
+          "border-double": {
+            "name": "双线"
+          },
+          "border-stitch": {
+            "name": "缝线"
+          },
+          "border-ribbon": {
+            "name": "丝带"
+          },
+          "border-corners": {
+            "name": "角标"
+          },
+          "border-keycap": {
+            "name": "键帽"
+          },
+          "border-heat": {
+            "name": "热度"
+          },
+          "border-neon": {
+            "name": "霓虹"
+          },
+          "border-gilt": {
+            "name": "镀金"
+          },
+          "border-midnight": {
+            "name": "午夜"
+          },
+          "frame-double": {
+            "name": "双环"
+          },
+          "frame-dashed": {
+            "name": "虚线环"
+          },
+          "frame-square": {
+            "name": "键帽方框"
+          },
+          "frame-cog": {
+            "name": "齿轮"
+          },
+          "frame-petals": {
+            "name": "花瓣"
+          },
+          "frame-orbit": {
+            "name": "轨道"
+          },
+          "frame-laurel": {
+            "name": "桂冠"
+          },
+          "frame-crown": {
+            "name": "王冠"
+          },
+          "aura-soft": {
+            "name": "柔光"
+          },
+          "aura-pulse": {
+            "name": "脉冲"
+          },
+          "aura-ember": {
+            "name": "余烬"
+          },
+          "aura-halo": {
+            "name": "光环"
+          },
+          "aura-aurora": {
+            "name": "极光"
+          },
+          "aura-prism": {
+            "name": "棱镜"
+          },
+          "backdrop-dots": {
+            "name": "点阵"
+          },
+          "backdrop-pinstripe": {
+            "name": "细条纹"
+          },
+          "backdrop-graph": {
+            "name": "方格纸"
+          },
+          "backdrop-waves": {
+            "name": "波浪"
+          },
+          "backdrop-stars": {
+            "name": "星空"
+          },
+          "backdrop-confetti": {
+            "name": "彩纸"
+          },
+          "sticker-star": {
+            "name": "星星"
+          },
+          "sticker-leaf": {
+            "name": "叶子"
+          },
+          "sticker-key": {
+            "name": "键帽"
+          },
+          "sticker-heart": {
+            "name": "爱心"
+          },
+          "sticker-flower": {
+            "name": "花朵"
+          },
+          "sticker-bolt": {
+            "name": "闪电"
+          },
+          "sticker-note": {
+            "name": "音符"
+          },
+          "sticker-moon": {
+            "name": "月亮"
+          },
+          "sticker-rocket": {
+            "name": "火箭"
+          },
+          "sticker-castle": {
+            "name": "城堡"
+          },
+          "sticker-magnifier": {
+            "name": "放大镜"
+          },
+          "sticker-book": {
+            "name": "书本"
+          },
+          "sticker-flag": {
+            "name": "方格旗"
+          },
+          "sticker-crown": {
+            "name": "王冠"
+          },
+          "sticker-teacup": {
+            "name": "茶杯"
+          },
+          "sticker-sparkle": {
+            "name": "闪光"
+          }
+        }
+      }
+    },
+    "cars": {
+      "slots": {
+        "body": {
+          "title": "车身",
+          "hint": "你的赛车外形"
+        },
+        "paint": {
+          "title": "涂装",
+          "hint": "颜色，取自你主题的颜色"
+        },
+        "livery": {
+          "title": "彩绘",
+          "hint": "涂装上的图案（有自己的颜色）"
+        },
+        "wheels": {
+          "title": "轮毂",
+          "hint": "赛车行驶在什么上面"
+        },
+        "trail": {
+          "title": "尾迹",
+          "hint": "赛车留下的痕迹"
+        }
+      },
+      "parts": {
+        "body-hatch": {
+          "name": "掀背车"
+        },
+        "body-coupe": {
+          "name": "跑车"
+        },
+        "body-beetle": {
+          "name": "甲壳虫"
+        },
+        "body-pickup": {
+          "name": "皮卡"
+        },
+        "body-van": {
+          "name": "面包车"
+        },
+        "body-racer": {
+          "name": "开轮式赛车"
+        },
+        "body-bubble": {
+          "name": "泡泡车"
+        },
+        "paint-accent": {
+          "name": "强调色"
+        },
+        "paint-heat-1": {
+          "name": "余烬"
+        },
+        "paint-heat-2": {
+          "name": "琥珀"
+        },
+        "paint-heat-3": {
+          "name": "日出"
+        },
+        "paint-heat-4": {
+          "name": "猩红"
+        },
+        "paint-chart-wpm": {
+          "name": "竞速线"
+        },
+        "paint-text-dim": {
+          "name": "石墨"
+        },
+        "livery-stripe": {
+          "name": "竞速条纹"
+        },
+        "livery-checker": {
+          "name": "方格"
+        },
+        "livery-dots": {
+          "name": "波点"
+        },
+        "livery-chevrons": {
+          "name": "人字纹"
+        },
+        "livery-flames": {
+          "name": "火焰"
+        },
+        "livery-split": {
+          "name": "双色"
+        },
+        "livery-number": {
+          "name": "赛车号码"
+        },
+        "livery-midnight": {
+          "name": "午夜星辰"
+        },
+        "wheels-plain": {
+          "name": "素面"
+        },
+        "wheels-sport": {
+          "name": "运动"
+        },
+        "wheels-chunky": {
+          "name": "粗壮"
+        },
+        "wheels-spoked": {
+          "name": "辐条"
+        },
+        "wheels-whitewall": {
+          "name": "白壁"
+        },
+        "wheels-gilt": {
+          "name": "镀金"
+        },
+        "trail-dust": {
+          "name": "尘土"
+        },
+        "trail-sparks": {
+          "name": "火花"
+        },
+        "trail-bubbles": {
+          "name": "气泡"
+        },
+        "trail-ribbon": {
+          "name": "丝带"
+        },
+        "trail-stars": {
+          "name": "星尘"
+        }
+      },
+      "garage": {
+        "title": "车库",
+        "tab_title": "车库",
+        "tab_hint": "装扮你的赛车：这是你在赛道上驾驶的车，也是所有与你对战的人看到的",
+        "choose_slot": "选择{slot}",
+        "paint_swatch": "{name} 涂装",
+        "livery_colour": "{tokenLabel} 彩绘颜色",
+        "usual_livery_colour": "常用彩绘颜色",
+        "livery_colour_2": "彩绘颜色",
+        "this_is_your_car_on": "这是你的赛车在赛道上的样子，也是所有与你对战的人看到的。它只会佩戴你获得的部件。",
+        "your_race_car": "你的赛车"
+      }
+    },
     "chrome": {
       "nav": {
         "skip_to_content": "跳到主要内容",
@@ -233,7 +600,8 @@
         "mistakes": "错误",
         "settings": "设置",
         "today": "今日",
-        "about": "关于"
+        "about": "关于",
+        "primary": "主要"
       },
       "curtain": {
         "fetching": "正在获取书籍和词典，仅此一次",
@@ -251,7 +619,11 @@
         "privacy": "隐私",
         "terms": "条款",
         "security": "安全",
-        "announcements": "公告"
+        "announcements": "公告",
+        "credit_author": "© {year} {author}。",
+        "credit_company": "© {year} midnight summer media。",
+        "licence": "采用 {licence} 许可。",
+        "licence_name": "MIT 许可证"
       },
       "meta": {
         "tagline": "kalibre，自适应打字训练器",
@@ -271,6 +643,385 @@
         "new_quests_midnight": "午夜时分获得新任务",
         "difficulty": "难度",
         "getting_quests": "正在获取今日任务……"
+      },
+      "backup": {
+        "error": "无法保存：{error}",
+        "nothing": "目前还没有需要备份的内容",
+        "saved_to_folder": "已将 {count, plural, other {# 个个人资料文件}} 保存到 kalibre 文件夹“{folder}”",
+        "downloaded": "已下载 {count, plural, other {# 个个人资料文件}}"
+      },
+      "updates": {
+        "whats_new_title": "新功能",
+        "status_up_to_date": "kalibre v{version} · 已是最新",
+        "update_ready": "v{version} 已准备就绪",
+        "update_ready_read_first": "v{version} 已准备就绪 · 请先阅读",
+        "update_meta": "你现在可以更新，也可以保持当前版本（v{current}）。",
+        "update_meta_size": "下载大小：~{size} · 你现在可以更新，也可以保持当前版本（v{current}）。",
+        "update_to": "更新到 v{version}",
+        "stay_on": "保持在 v{current}",
+        "updating": "正在更新……",
+        "check_button": "检查更新",
+        "checking": "正在检查……",
+        "check_checking": "正在查找……",
+        "check_current": "你使用的是最新版本",
+        "check_offline": "暂时无法连接到服务器",
+        "check_unavailable": "更新仅适用于已安装或托管的应用",
+        "breaking_intro": "此更新更改了 kalibre 保存数据的方式：",
+        "breaking_note": "完成后，旧版本的 kalibre 将无法打开你的数据，因此请先保存备份：此设备上每个个人资料的一个个人资料文件。",
+        "breaking_older_at": "v{version} 保留在",
+        "save_backup": "保存备份",
+        "saving": "正在保存……",
+        "badge_in_update": "在此更新中",
+        "badge_current": "当前",
+        "notes_not_yet": "此版本的说明会在安装后显示。",
+        "stays_at": "v{current} 暂时保留在 {link}；在那里打开备份以继续使用。"
+      },
+      "brand": {
+        "kanary_preview_build_notice": "kanary 预览版通知",
+        "kanary_preview_build_click_for": "kanary 预览版 · 点击查看通知",
+        "what_s_new_for": "{versionLabel} 的新功能"
+      },
+      "command_line": {
+        "command": "命令",
+        "type_a_setting_or_action": "输入设置或操作",
+        "commands": "命令",
+        "command_line": "命令行",
+        "no_matches": "无匹配项"
+      },
+      "kanary_notice": {
+        "features_interfaces_and_database_schemas": "功能、接口和数据库架构正在积极开发中，可能会发生变化、被替换或在没有通知的情况下中断。",
+        "things_may_break_or_change": "某些功能可能会中断或发生变化。",
+        "your_typing_history_achievements_and": "你的打字历史、成就和自定义数据存储在此浏览器的本地存储中。请定期导出备份副本，这样破坏性更新就不会让你丢失进度。",
+        "periodically_back_up_your_profiles": "定期备份你的个人资料：",
+        "profiles_used_on_kanary_may": "在 kanary 上使用的个人资料导入到 kalibre 正式版时可能有效也可能无效。kanary 可能会引入较新的数据库架构、实验性设置或修订后的格式，而正式版无法读取或向后迁移。",
+        "release_compatibility": "正式版兼容性：",
+        "announcements_devlog": "公告和开发日志：",
+        "stackinfolio": "stackinfolio",
+        "settings_data": "设置 → 数据",
+        "got_it": "知道了",
+        "intro": "你正在使用 {product}，这是一个早期的快速迭代预览版，包含进行中的实验。",
+        "follow": "在 {site} 上关注发布里程碑、开发进度和公告。"
+      },
+      "legal_pages": {
+        "last_updated": "最后更新于 {format}",
+        "the_short_version": "简要版本",
+        "read": "阅读{full}",
+        "also": "还有：{pages}"
+      },
+      "older_version": {
+        "older_version": "旧版本",
+        "it_keeps_its_own_data": "它保留自己的数据，与当前版本的数据分开：要在此处使用你的数据，请导入在更新前保存的个人资料文件（个人资料菜单 → 导入个人资料文件）。",
+        "this_is_kalibre_v_kept": "这是 kalibre v{version}，保留以便你可以回退。",
+        "go_to_the_current_version": "前往当前版本",
+        "hide_this_until_the_page": "隐藏直到页面重新加载",
+        "hide_until_the_page_reloads": "隐藏直到页面重新加载"
+      },
+      "shortcuts": {
+        "then": "然后 {value}",
+        "sequence_hint": "在 1.5 秒内按顺序键（如 {first} 然后 {second}）。快捷键仅在未在测试或文本字段中主动输入时触发。",
+        "SHORTCUT_GROUPS": {
+          "navigation": {
+            "title": "导航"
+          },
+          "nav-type": {
+            "label": "打字视图"
+          },
+          "nav-learn": {
+            "label": "学习视图"
+          },
+          "nav-drill": {
+            "label": "训练视图"
+          },
+          "nav-games": {
+            "label": "游戏视图"
+          },
+          "nav-mistakes": {
+            "label": "错误视图"
+          },
+          "nav-stats": {
+            "label": "统计和历史"
+          },
+          "nav-profile": {
+            "label": "个人资料菜单"
+          },
+          "nav-texts": {
+            "label": "文本和书库"
+          },
+          "nav-settings": {
+            "label": "设置"
+          },
+          "nav-about": {
+            "label": "关于 kalibre"
+          },
+          "typing": {
+            "title": "打字和测试"
+          },
+          "type-restart": {
+            "label": "重新开始测试或训练"
+          },
+          "type-pause": {
+            "label": "命令行 / 暂停"
+          },
+          "type-delete-word": {
+            "label": "删除单词"
+          },
+          "type-space": {
+            "label": "提交 / 下一个单词"
+          },
+          "general": {
+            "title": "常规和对话框"
+          },
+          "gen-guide": {
+            "label": "键盘快捷键指南"
+          },
+          "gen-close": {
+            "label": "关闭模态框或对话框"
+          },
+          "gen-command": {
+            "label": "命令行面板"
+          },
+          "gen-focus": {
+            "label": "导航控件"
+          }
+        },
+        "modal": {
+          "shortcuts": {
+            "title": "键盘快捷键"
+          }
+        }
+      },
+      "startup_failure": {
+        "putting_it_back": "正在恢复……",
+        "it_couldn_t_be_put": "无法恢复：{value}",
+        "if_kalibre_was_taken_back": "如果 kalibre 被有意回退到旧版本，你可以恢复在上次更新前保存的数据副本。你在该更新后进行的任何操作都会丢失，并且会替换此浏览器中 kalibre 保留的所有内容。",
+        "copy_the_details": "复制详细信息",
+        "copied": "已复制",
+        "select_the_details_below_to": "选择下方的详细信息进行复制",
+        "kalibre_couldn_t_start": "kalibre 无法启动",
+        "what_you_ve_saved_is": "你保存的内容仍在此浏览器中：重新启动不会影响它。",
+        "send_details": "如果持续发生，请将详细信息发送到 {address}。"
+      },
+      "update_gate": {
+        "carry_on": "继续",
+        "kalibre_v_changes_how_it": "kalibre v{appVersion} 更改了保存数据的方式",
+        "nothing_has_changed_yet_once": "尚未发生任何更改。更改后，旧版本的 kalibre 将无法打开你的数据，因此请先保存备份：此设备上每个个人资料的一个个人资料文件。",
+        "older_version": "或者暂时继续使用更新前的版本，位于 {link}：在那里打开你的备份。"
+      },
+      "modals": {
+        "stats": "统计",
+        "texts": "文本",
+        "settings": "设置",
+        "achievements": "成就",
+        "race": "竞速",
+        "card": "你的卡片",
+        "kanary": "kanary 预览"
+      },
+      "app": {
+        "that_file_isn_t_in": "该文件已不在文件夹中"
+      },
+      "instance": {
+        "offline_self_hosted": "离线 · 自托管",
+        "offline_cache": "离线 · 使用浏览器缓存",
+        "self_hosted_at": "自托管 · {hostname}",
+        "self_hosted": "自托管",
+        "online": "在线 · 官方实例",
+        "status": {
+          "online": "在线",
+          "offline": "离线",
+          "self-hosted": "自托管"
+        }
+      }
+    },
+    "commands": {
+      "restart": {
+        "label": "重新开始",
+        "keywords": "再次 重置 重做 新 测试",
+        "meta": "测试 · 相同类型，新文本"
+      },
+      "next_text": {
+        "label": "下一个文本",
+        "keywords": "跳过 另一个",
+        "meta": "测试 · 继续下一个"
+      },
+      "time_test": {
+        "label": "计时 {duration}",
+        "keywords": "计时 秒 {duration}秒 测试",
+        "meta": "测试 · {duration} 秒测试"
+      },
+      "words_test": {
+        "label": "单词 {count}",
+        "keywords": "数量 测试 {count}",
+        "meta": "测试 · {count} 个单词"
+      },
+      "play_game": {
+        "label": "玩 {game}",
+        "keywords": "游戏 游戏 玩 有趣 {game}",
+        "meta": "游戏 · {blurb}"
+      },
+      "go_to": {
+        "label": "前往 {view}",
+        "keywords": "打开 视图 页面 显示 {view}",
+        "meta": "前往 · 页面"
+      },
+      "achievements": {
+        "label": "成就",
+        "keywords": "徽章 奖杯 里程碑 完成 获得 秘密 统计 成就",
+        "meta": "打开 · 成就"
+      },
+      "your_card": {
+        "label": "你的卡片",
+        "keywords": "个人资料 卡片 贴纸 边框 框架 光环 背景 展示 装饰 自定义 装饰",
+        "meta": "打开 · 个人资料"
+      },
+      "today": {
+        "label": "今日",
+        "keywords": "每日 任务 任务 挑战 任务 目标",
+        "meta": "前往 · 今日的任务和挑战"
+      },
+      "quote_category": {
+        "label": "引文 {category}",
+        "keywords": "段落 书籍 文本 {category}",
+        "meta": "测试 · 一条引文"
+      },
+      "mixed_quotes": {
+        "label": "混合引文",
+        "keywords": "随机 长度 引文",
+        "meta": "测试 · 每次随机长度"
+      },
+      "sustained_pace": {
+        "label": "持续速度 {wpm}",
+        "keywords": "无尽 耐力 速度 保持 维持 目标 {wpm} wpm",
+        "meta": "测试 · 尽可能长时间地保持 {wpm} wpm"
+      },
+      "sustained_accuracy": {
+        "label": "持续准确率 {accuracy}",
+        "keywords": "无尽 耐力 准确 精确 保持 维持 目标 {accuracy} 百分比",
+        "meta": "测试 · 尽可能长时间地保持 {accuracy}% 准确率"
+      },
+      "keep_reading": {
+        "label": "继续阅读",
+        "keywords": "书籍 继续 恢复 持续 小说 阅读 书签",
+        "meta": "测试 · 持续阅读你的书籍"
+      },
+      "section": {
+        "label": "{view} {section}",
+        "keywords": "前往 打开 显示 {words}",
+        "meta": "前往 · {view} 部分"
+      },
+      "continue_touch_typing": {
+        "label": "继续盲打",
+        "keywords": "学习 课程 课程 盲打 手指 基准行 下一个",
+        "meta": "学习 · 下一个要掌握的课程"
+      },
+      "learn_stage": {
+        "label": "学习阶段 {stage}：{name}",
+        "keywords": "学习 课程 课程 盲打 阶段 {stage} {name}",
+        "meta": "学习 · 课程 {first}–{last}"
+      },
+      "drill_mistakes": {
+        "label": "训练我的错误",
+        "keywords": "训练 练习 练习 训练 错误",
+        "meta": "测试 · 基于你的错误的训练"
+      },
+      "wardrobe": {
+        "label": "{companion} 的衣柜",
+        "keywords": "cal libby 同伴 吉祥物 衣柜 连衣裙 衣服 帽子 装饰 外观 自定义",
+        "meta": "学习 · 用你获得的物品装扮 {companion}"
+      },
+      "try_guest": {
+        "label": "以访客身份试用",
+        "keywords": "访客 试用 试用 临时 新 个人资料 演示",
+        "meta": "个人资料 · 新的访客个人资料；稍后保存其进度以保留"
+      },
+      "sign_out": {
+        "label": "退出",
+        "keywords": "锁定 注销 退出 退出 忘记 设备",
+        "meta": "个人资料 · 锁定直到再次输入密码"
+      },
+      "profiles": {
+        "label": "个人资料",
+        "keywords": "个人资料 账户 切换 用户 密码 通行密钥 图片 头像",
+        "meta": "打开 · 谁在打字"
+      },
+      "backup_now": {
+        "label": "立即备份",
+        "keywords": "备份 导出 个人资料 保存 历史 下载 文件",
+        "meta": "文件 · 此个人资料"
+      },
+      "load_profile": {
+        "label": "加载个人资料文件",
+        "keywords": "导入 恢复 个人资料 打开 文件 备份",
+        "meta": "文件 · 与你的个人资料并列添加"
+      },
+      "export_settings": {
+        "label": "导出设置",
+        "keywords": "下载 备份 保存 json",
+        "meta": "文件 · 设置作为 json"
+      },
+      "keyboard_shortcuts": {
+        "label": "键盘快捷键",
+        "keywords": "快捷键 热键 按键 绑定 帮助 指南 ?",
+        "meta": "帮助 · 键盘快捷键指南"
+      },
+      "race": {
+        "label": "竞速",
+        "keywords": "竞速 lan 网络 多人 朋友 对战 对手 房间 代码 主机 加入",
+        "meta": "游戏 · 与你网络上的玩家竞速"
+      },
+      "race_ghost": {
+        "label": "与幽灵竞速",
+        "keywords": "竞速 幽灵 幽灵 架子 保存 回放 对战",
+        "meta": "游戏 · 与你保存的幽灵竞速"
+      },
+      "import_ghost": {
+        "label": "导入幽灵",
+        "keywords": "导入 幽灵 文件 打开 加载 kalibre-ghost 架子",
+        "meta": "游戏 · 将 .kalibre-ghost 文件放到你的幽灵架上"
+      },
+      "race_solo": {
+        "label": "独自竞速",
+        "keywords": "竞速 单人 对手 电脑 幽灵 对战 独自",
+        "meta": "游戏 · 与电脑竞速，使用你上次选择"
+      },
+      "privacy": {
+        "label": "隐私",
+        "keywords": "隐私 政策 数据 个人 信息 存储",
+        "meta": "帮助 · kalibre 保留什么，以及在哪里"
+      },
+      "terms": {
+        "label": "条款",
+        "keywords": "使用 条款 条件 许可证 许可证 规则",
+        "meta": "帮助 · 使用条款"
+      },
+      "security": {
+        "label": "安全",
+        "keywords": "安全 漏洞 报告 bug 披露",
+        "meta": "帮助 · 报告安全问题"
+      },
+      "whats_new": {
+        "label": "新功能",
+        "keywords": "新功能 更新日志 更新 发行说明 历史",
+        "meta": "帮助 · 此版本的新功能"
+      },
+      "changelog": {
+        "label": "更新日志",
+        "keywords": "更新日志 新功能 更新 发行说明 历史 版本",
+        "meta": "帮助 · 更新日志和过去的更新"
+      },
+      "check_for_updates": {
+        "label": "检查更新",
+        "keywords": "更新 更新 升级 新版本 刷新 立即检查 最新",
+        "meta": "帮助 · 立即查找新版本"
+      },
+      "announcements": {
+        "label": "公告",
+        "keywords": "公告 更新 开发日志 历程 新闻 stackinfolio 版本 kanary",
+        "meta": "链接 · 项目历程和公告"
+      },
+      "kanary_notice": {
+        "label": "kanary 通知",
+        "keywords": "kanary beta 预览 警告 备份 兼容性 测试 构建 通知",
+        "meta": "帮助 · kanary 预览版通知和备份"
       }
     },
     "common": {
@@ -287,7 +1038,12 @@
         "reload_now": "立即重新加载",
         "not_now": "暂不",
         "yes": "是",
-        "no": "否"
+        "no": "否",
+        "saving": "正在保存…"
+      },
+      "hand": {
+        "left": "左",
+        "right": "右"
       },
       "plural": {
         "test": "{count, plural, other {# 次测试}}",
@@ -330,6 +1086,89 @@
         "mode_system": "跟随系统",
         "mode_light": "浅色",
         "mode_dark": "深色"
+      },
+      "color_utils": {
+        "not_a_hex_colour": "不是十六进制颜色：{hex}"
+      },
+      "customtextprovider": {
+        "choose_a_saved_text_to": "选择已保存的文本来练习（文本 → 我的文本）。"
+      },
+      "bookprovider": {
+        "add_a_text_to_read": "添加要阅读的文本（文本 → 我的文本）。",
+        "no_books_to_read_enable": "没有可阅读的书籍。请在文本 → 数据集中启用书籍数据集。"
+      },
+      "datasetmanager": {
+        "http": "{path}：HTTP {status}",
+        "unknown_dataset": "未知数据集 {datasetId}",
+        "unknown_work": "未知作品 {key}",
+        "datasets_cannot_be_stored_in": "数据集无法存储在此浏览器中。",
+        "the_number_of_passages_has": "段落数量必须是大于 0 的整数。",
+        "only_datasets_installed_in_this": "只有安装在此浏览器中的数据集才能在此处移除。",
+        "doesn_t_let_other_sites": "{host} 不允许其他站点下载其文件。请自行下载该文件，然后从你的电脑安装。",
+        "returned": "{url} 返回了 {status}。"
+      },
+      "datasetstore": {
+        "this_browser_can_t_read": "此浏览器无法读取压缩的数据集文件。",
+        "missing_dataset_file": "缺少数据集文件 {path}"
+      },
+      "drillprovider": {
+        "nothing_to_drill_yet_accept": "暂无可训练的内容。请先在错误页面接受一个建议。",
+        "that_quote_isn_t_available": "该引文不再可用（其数据集可能已关闭）。请在训练页面选择另一个。"
+      },
+      "fontlibrary": {
+        "fonts_must_be_files": "{name}：字体必须是 {FONT_ACCEPT} 文件。",
+        "is_larger_than_8_mb": "{name} 大于 8 MB。",
+        "couldn_t_be_read_as": "{name} 无法被识别为字体。"
+      },
+      "mistakebank": {
+        "unknown_mistake": "未知错误 {id}"
+      },
+      "profilemanager": {
+        "the_profile_file_is_damaged": "个人资料文件已损坏（击键记录）。",
+        "a_guest_can_t_have": "访客无法设置密码。",
+        "unknown_profile": "未知个人资料 {profileId}",
+        "that_picture_can_t_be": "该图片无法使用。",
+        "a_locked_profile_can_t": "已锁定的个人资料无法变为访客。",
+        "this_profile_isn_t_a": "此个人资料不是访客。",
+        "give_the_profile_a_name": "请为个人资料命名。",
+        "save_your_progress_first_a": "请先保存进度：访客个人资料无法设置密码。",
+        "the_current_password_is_not": "当前密码不正确。",
+        "set_a_password_first_a": "请先设置密码；通行密钥是更快输入密码的方式。",
+        "that_passkey_couldn_t_be": "无法保存该通行密钥。",
+        "a_profile_can_have_up": "个人资料最多可有 {MAX_PASSKEYS} 个通行密钥。",
+        "a_passkey_needs_a_name": "通行密钥需要一个名称。",
+        "the_last_profile_cannot_be": "无法删除最后一个个人资料。",
+        "that_file_isn_t_a": "该文件不是 Kalibre 个人资料导出文件。",
+        "the_profile_file_is_damaged_2": "个人资料文件已损坏（{store}）。",
+        "the_profile_file_has_an": "个人资料文件的密码锁无效。"
+      },
+      "quoteprovider": {
+        "no_quotes_are_available_enable": "没有可用的 {category} 引文。请在文本 → 数据集中启用数据集。"
+      },
+      "raceprovider": {
+        "the_race_has_no_text": "该比赛尚未设置文本。",
+        "the_race_has_no_passage": "该比赛尚未设置段落。"
+      },
+      "sessionmanager": {
+        "sustained_mode_needs_a_source": "持续模式需要能持续提供的来源。"
+      },
+      "storagemanager": {
+        "records_in_must_have_a": "“{storeName}”中的记录必须有 profileId",
+        "is_profile_scoped_use_getallforprofile": "“{storeName}”是按个人资料范围的；请使用 getAllForProfile()",
+        "indexeddb_is_not_available_in": "此浏览器不支持 IndexedDB",
+        "your_saved_data_couldn_t": "你的已保存数据无法更新到最新版本（从版本 {from} 到 {version}）：{value}",
+        "that_copy_isn_t_there": "该副本不再存在。",
+        "transaction_aborted": "事务已中止"
+      },
+      "textlibrary": {
+        "the_text_is_empty": "文本为空。",
+        "that_text_no_longer_exists": "该文本不再存在。"
+      },
+      "wordstreamprovider": {
+        "no_word_list_is_available": "没有可用的单词表。请在文本 → 数据集中启用数据集。"
+      },
+      "storage_snapshots": {
+        "the_snapshot_could_not_be": "无法保存快照。"
       },
       "counts": {
         "quote": "{count, plural, other {# 条名言}}",
@@ -1538,12 +2377,17 @@
         "export_profile": "导出此个人资料",
         "share_profile": "分享此个人资料",
         "exported_summary": "已导出 {sessions} 次测试、{mistakes} 个错误和 {texts} 段文本{destination}",
+        "saved_to": " 至 {destination}",
+        "last_backup_time": "上次备份：{when}",
+        "not_backed_up_yet": "尚未备份",
+        "problem_permission": " 浏览器需要再次获得你的许可才能写入。",
+        "problem_conflict": " 文件夹中有“{name}”的较新副本，于 {when} 从另一浏览器保存，因此未被覆盖。请恢复该副本，或将此副本覆盖保存。",
+        "problem_last_error": " 上次备份失败：{error}",
         "restore_folder": "从 kalibre 文件夹恢复",
         "update_copies": "更新前的副本",
         "restore_warning": "这将用该副本替换 kalibre 在此浏览器中保留的所有内容。确定吗？",
         "confirm_restore": "是的，恢复它",
-        "cancel": "取消",
-        "saved_to": " 至 {destination}"
+        "cancel": "取消"
       },
       "guest": {
         "banner_title": "你正在以访客身份试用 Kalibre。",
@@ -1566,22 +2410,1063 @@
         "couldnt_save": "无法保存（请参阅设置 → 数据）"
       }
     },
+    "datasets": {
+      "actions": {
+        "download": "下载",
+        "download_aria": "{action, select, update {更新} other {下载}} {name}",
+        "download_dataset_aria": "下载 {name}",
+        "edit_dataset_aria": "编辑 {name}",
+        "passages_dataset_aria": "更改 {name} 保留的段落数量",
+        "remove_dataset_aria": "移除 {name}",
+        "put_back_dataset_aria": "恢复原始 {name}",
+        "update": "更新",
+        "update_to": "更新到 {version}",
+        "edit": "编辑",
+        "remove": "移除",
+        "passages": "段落",
+        "install": "安装",
+        "find_more": "在书库中查找更多",
+        "verb_update": "更新",
+        "verb_download": "下载"
+      },
+      "chips": {
+        "on_server": "在此服务器上",
+        "rebuilt": "在此浏览器中重建",
+        "in_browser": "在此浏览器中",
+        "from_library": "来自 {source}",
+        "the_library": "书库",
+        "a_library": "一个书库"
+      },
+      "status": {
+        "downloading": "正在下载“{name}”……",
+        "downloading_progress": "正在下载“{name}”……{done} / {total}",
+        "downloaded": "{status, select, update {已更新} other {已下载}}“{name}”。它已开启，现在可离线使用。",
+        "download_failed": "无法下载“{name}”：{error}",
+        "licence": "许可证：{licence}",
+        "version_passages": "版本 {version} · {count, plural, other {# 个段落}}",
+        "library_from": "来自 {name}",
+        "library_remove": "移除书库 {name}",
+        "library_added": "已添加 {name}：{count, plural, other {# 个数据集}}。",
+        "not_reachable": "无法访问"
+      },
+      "install": {
+        "include_work": "包含 {title}",
+        "text_of_work": "{title} 的文本",
+        "edit_draft": "编辑“{name}”",
+        "check_before_installing": "安装前检查",
+        "add_text": "添加 {title}"
+      },
+      "dataset_cap": {
+        "custom_number_of_passages_per": "每个长度的自定义段落数",
+        "passages_per_length": "每个长度的段落数",
+        "about": "磁盘上约 {size}",
+        "small": "{about}。",
+        "large_no_limit": "无限制保留所有段落：这些文本 {about}。这需要大量空间，且构建需要一些时间。",
+        "large": "{about}。这需要大量空间，且构建需要一些时间。",
+        "flow_pass_label": "跨段落段落（流提取）",
+        "flow_pass_hint": "查找跨越段落边界的额外段落，例如对话交流和对话轮次。以增加磁盘空间为代价增加段落选择和多样性。"
+      },
+      "dataset_cards": {
+        "rebuild": "重建",
+        "the_rebuilt_copy_is_kept": "{CAP_HINT} 重建的副本保留在此浏览器中；移除它将恢复原始副本。",
+        "this_dataset_may_contain_copyrighted": "此数据集可能包含受版权保护的文本。请确保你有权分享它。",
+        "update_available": "有可用更新",
+        "back_to_the_original": "返回原始版本",
+        "drop_the_changes_made_here": "放弃在此处所做的更改？",
+        "remove_it": "移除它？",
+        "yes_drop_them": "是，放弃它们",
+        "yes_remove": "是，移除",
+        "in_each_text": "每个文本中的 {capLabel}",
+        "version": "版本 {version}",
+        "rebuilt_summary": "已重建“{name}”：{passages}{size}，{cap}。",
+        "size_suffix": "，{size}",
+        "download": "下载",
+        "passages": "段落"
+      },
+      "dataset_install_flow": {
+        "translator_optional": "译者（可选）",
+        "translator": "译者",
+        "no_typeable_prose_found": "未找到可输入的散文",
+        "edit_the_text": "编辑文本",
+        "change_names_remove_texts_or": "更改名称、移除文本或编辑其内容。保存将重建数据集。",
+        "name_the_dataset_fix_titles": "命名数据集，修正标题和作者，省略所有非散文内容，并在需要时编辑文本。",
+        "licence": "许可证",
+        "how_many_passages": "多少个段落？",
+        "title_of_the_pasted_text": "粘贴文本的标题",
+        "paste_or_type_the_text": "在此处粘贴或输入文本",
+        "text_to_add": "要添加的文本",
+        "add_this_text": "添加此文本",
+        "copies_go_into_the_dataset": "副本将进入数据集；你的文本保持不变。",
+        "add_the_ticked_texts": "添加勾选的文本",
+        "add_a_text": "添加一个文本",
+        "from_files": "来自文件",
+        "paste": "粘贴",
+        "from_my_texts": "来自我的文本",
+        "https_github_com_owner_repo": "https://github.com/owner/repo, …/book.txt 或 quotes.json",
+        "address_of_a_github_repository": "GitHub 仓库、.txt 或 .md 文件、引文列表或数据集包的地址",
+        "get_it": "获取它",
+        "import_a_dataset": "导入数据集",
+        "a_kalibre_dataset_json_or": ".kalibre-dataset.json 或 quotes .json 文件，或将文件拖放到此处",
+        "make_a_new_dataset": "制作新数据集",
+        "from_your_own_txt_or": "来自你自己的 .txt 或 Markdown 文件、粘贴的文本、你的文本、网址或文本文件的 GitHub 仓库。你可以在安装前检查所有内容，并在操作时添加更多文本。数据集提供引文、单词列表和训练，并且仅存储在此设备上。",
+        "from_txt_or_md_files": "来自 .txt 或 .md 文件",
+        "paste_or_from_my_texts": "粘贴，或来自我的文本",
+        "paste_a_text": "粘贴文本",
+        "default_title": "文本 {number}",
+        "that_file_isn_t_a": "该文件不是 Kalibre 数据包或引文列表。",
+        "each_file_must_be_under": "每个文件必须小于 20 MB。",
+        "added": "已添加 {what}",
+        "quoted_title": "“{title}”",
+        "added_some": "已添加 {texts}；未勾选，无可输入散文：{skipped}"
+      },
+      "library": {
+        "looking_in_the_libraries": "正在书库中查找……",
+        "search_by_title_author_or": "按标题、作者或语言搜索",
+        "search_the_libraries": "搜索书库",
+        "downloaded": "已下载",
+        "from_a_library_kalibre_hasn": "来自 kalibre 尚未检查的书库。",
+        "owner_repo_or_https": "owner/repo 或 https://…",
+        "address_of_a_library": "书库地址",
+        "add": "添加",
+        "other_libraries": "其他书库",
+        "anyone_can_publish_a_library": "任何人都可以发布书库：使用 kalibre 的数据集工具在 GitHub 或任何网站上制作的数据集文件夹。Kalibre 尚未检查其自身以外的书库。它们仅包含文本，但请添加你信任的书库。",
+        "books_and_quotes_ready_to": "书籍和引文已准备好输入，来自 kalibre 的书库以及你添加的任何其他书库。下载内容保留在此浏览器中，因此可离线使用。",
+        "that_isn_t_a_library": "这不是书库地址。尝试 owner/repo、GitHub 链接或网址。",
+        "a_library_address_starts_with": "书库地址以 https:// 开头。",
+        "that_address_has_no_kalibre": "该地址没有 Kalibre 书库（其 index.json 缺失或不是）。",
+        "couldn_t_reach_check_the": "无法访问 {addressName}。检查地址，或在联网时重试。",
+        "has_no_kalibre_library": "{addressName} 没有 Kalibre 书库（{status}）。",
+        "this_dataset_lists_a_file": "此数据集列出了其自身文件夹之外的文件，因此未下载。",
+        "this_dataset_has_too_many": "此数据集要下载的文件太多。",
+        "this_dataset_s_checksum_list": "此数据集的校验和列表不可用，因此未下载。",
+        "isn_t_in_a_format": "“{name}”的格式不是此版本 Kalibre 可读取的。",
+        "doesn_t_match_the_library": "“{name}”与书库的索引不匹配（其 id 为 {slice}）。",
+        "has_no_texts": "“{name}”没有文本。",
+        "is_too_large": "{id}/{path} 太大。",
+        "has_files_its_checksum_list": "“{name}”包含其校验和列表未涵盖的文件，因此未下载。",
+        "is_too_large_to_download": "“{name}”太大，无法下载。"
+      },
+      "datasets": {
+        "where_private_files": "此浏览器的私有文件存储",
+        "where_database": "此浏览器的数据库",
+        "kept_until_cleared": " 浏览器会保留它，直到你清除它。",
+        "kept_may_clear": " 如果空间不足，浏览器可能会清除它（参见设置 → 数据）。",
+        "storage_using": "已安装的数据集保留在 {where} 中。使用 {quota} 中的 {used}。",
+        "storage_kept": "已安装的数据集保留在 {where} 中。",
+        "installed_quotes": "已安装“{name}”：{count} 个引文（已移除重复项）。 ",
+        "saved_summary": "已保存“{name}”：{texts}，{passages}。 ",
+        "installed_summary": "已安装“{name}”：{texts}，{passages}。 "
+      },
+      "dataset_draft": {
+        "untitled": "无标题"
+      },
+      "dataset_install": {
+        "has_no_usable_prose_it": "“{title}”没有可用的散文（它需要句子，而不仅仅是标题或列表）。",
+        "this_file_is_not_a": "此文件不是 Kalibre 数据包。"
+      }
+    },
+    "drills": {
+      "formats": {
+        "time": "计时",
+        "words": "单词",
+        "quote": "引文"
+      },
+      "actions": {
+        "start_drill": "开始训练",
+        "drill": "训练",
+        "drill_aria": "立即训练 {mistake}",
+        "drill_title": "立即以推荐方式仅训练 {mistake}",
+        "manage_in_mistakes": "在错误中管理",
+        "recommended": "推荐",
+        "recommended_title": "勾选现在值得训练的错误，数量以训练能承受的为限",
+        "all": "全部",
+        "none": "无",
+        "train_and_drill_these": "训练并练习这些"
+      },
+      "labels": {
+        "how": "方式",
+        "what_to_drill": "训练内容",
+        "drill_format": "训练格式",
+        "drill_length": "训练长度",
+        "quote_length": "引文长度",
+        "practise_by_area": "按区域练习",
+        "words_count": "{count, plural, other {# 个单词}}",
+        "ticked_count": "已勾选 {selected} / {total}",
+        "in_training": "训练中",
+        "ready_to_drill": "准备好训练",
+        "improving": "改进中",
+        "finding_quotes": "正在查找包含这些错误的引文……",
+        "no_quotes_found": "此长度的引文中没有包含这些错误。尝试其他长度或单词训练。",
+        "quotes_with_mistakes": "包含这些错误的引文",
+        "best_fit": "最匹配",
+        "typed_lately": "最近输入过",
+        "recommended_reason": "{recommended} 是推荐的：{reason}",
+        "ready": "准备好",
+        "due_title": "自上次训练后再次出现",
+        "not_due_title": "自上次训练后没有新的失误",
+        "rate_title": "输入时出错的频率",
+        "last_seen_title": "上次出现",
+        "usual": "通常",
+        "seen_not_trained": "已出现，尚未训练",
+        "empty_nothing_in_training": "尚无训练中的内容。继续输入：Kalibre 会建议反复出现的错误。",
+        "empty_seen_not_trained": "尚无训练中的内容。这些已出现但尚未训练：勾选要处理的错误。"
+      },
+      "status": {
+        "training": "训练中",
+        "improving": "改进中",
+        "suggested": "建议",
+        "watching": "观察中"
+      }
+    },
+    "mistakes": {
+      "sections": {
+        "suggested": "建议",
+        "training": "训练中",
+        "improving": "改进中",
+        "mastered": "已掌握",
+        "dismissed": "已忽略",
+        "watching": "观察中",
+        "overview": "概览",
+        "all": "全部"
+      },
+      "blurbs": {
+        "suggested": "反复出现的错误。训练它们，或忽略你不在意的。",
+        "training": "训练专注于这些错误。",
+        "improving": "自训练开始以来，错误率已减半。",
+        "mastered": "降至开始时的四分之一。如果再次出现，它们将返回训练。",
+        "dismissed": "除非你恢复它们，否则不再建议。",
+        "watching": "已看到，但还不够频繁以建议。“立即训练”无论如何都会开始训练一个。",
+        "overview": "你的手指在哪里出错，绘制在键盘上，旁边是单词和空格。每行显示最近测试中的错误率。",
+        "all": "Kalibre 记录的所有错误，无论其状态如何。"
+      },
+      "empty": {
+        "suggested": "此处尚无错误。你做得很好！",
+        "training": "训练中尚无错误。从“建议”标签页添加一些。",
+        "improving": "尚无改进。继续训练你的训练错误。",
+        "mastered": "尚无掌握。训练需要时间——坚持下去。",
+        "dismissed": "未忽略任何内容。",
+        "watching": "此处尚无内容。继续打字，模式会出现。",
+        "all": "尚无记录的错误。当你打字时，Kalibre 会在此处记录反复出现的模式。"
+      },
+      "kinds": {
+        "key": "按键",
+        "shift": "移位",
+        "swap": "字母对",
+        "omit": "遗漏",
+        "extra": "多余",
+        "word": "单词",
+        "space": "空格",
+        "insert": "多余单词",
+        "skip": "跳过单词",
+        "hesitation": "犹豫",
+        "tricky": "棘手单词"
+      },
+      "columns": {
+        "mistake": "错误",
+        "kind": "类型",
+        "status": "状态",
+        "left_in": "剩余",
+        "fixed": "已修正",
+        "tests": "测试",
+        "trend": "趋势",
+        "rate": "比率",
+        "seen": "出现次数"
+      },
+      "actions": {
+        "train": "训练",
+        "train_aria": "训练 {mistake}",
+        "train_now": "立即训练",
+        "train_now_aria": "立即训练 {mistake}",
+        "train_again": "再次训练",
+        "train_again_aria": "再次训练 {mistake}",
+        "dismiss": "忽略",
+        "dismiss_aria": "忽略 {mistake}",
+        "restore": "恢复",
+        "restore_aria": "恢复 {mistake}",
+        "drill": "练习",
+        "drill_aria": "练习 {mistake}",
+        "drill_all": "练习我的训练错误",
+        "stop": "停止",
+        "stop_aria": "停止训练 {mistake}",
+        "export": "导出",
+        "csv": "csv",
+        "json": "json"
+      },
+      "filters": {
+        "all": "全部",
+        "uncorrected": "未更正",
+        "corrected": "已更正"
+      },
+      "layouts": {
+        "list": "列表",
+        "table": "表格"
+      },
+      "labels": {
+        "by_status": "按状态分组的错误",
+        "show_on_map": "在地图上显示",
+        "show_mistakes": "显示错误",
+        "show_as": "显示为",
+        "kind_of_mistake": "错误类型",
+        "all_kinds": "所有类型",
+        "keyboard_layout": "键盘布局",
+        "sessions_count": "{count, plural, other {# 次会话}}",
+        "corrected_count": "{count} 已更正",
+        "pager_aria": "错误表格页面",
+        "no_qualifiers_mistakes": "尚无 {qualifiers} 错误{inSection, select, true {在 {section} 中} other {}}。",
+        "no_in_section": "在 {section} 中尚无错误。",
+        "training_words_note": "训练中有 {count, plural, other {# 个单词}} 存在一致错误。"
+      },
+      "mistake_map": {
+        "mistakes_click_to_isolate": "{label} 错误——单击以隔离",
+        "page": "第 {value} 页",
+        "of": "{first}–{last} / {length}",
+        "keyboard_mistakes_pages": "键盘错误页面",
+        "nothing_to_draw_on_this": "此键盘上尚无内容可绘制。出现多次的错误会显示在此处。",
+        "on_the_keyboard": "在键盘上",
+        "none_yet": "尚无。",
+        "with_keys_not_on_this": "{unmapped} 包含此布局上不存在的按键",
+        "words_and_spaces": "单词和空格",
+        "no_tests_yet": "尚无测试",
+        "rate_one_test": "一次测试中的错误率 {rate}",
+        "rate_over_tests": "{count, plural, other {# 次测试}}中的错误率 {from} → {to}",
+        "mark_label": "{mistake}：{rate} 的时间",
+        "started_at": "{summary} · 在 {rate} 时开始训练",
+        "keyboard_label": "键盘上绘制了 {count, plural, other {# 个错误}}。下面的列表包含相同的错误。"
+      },
+      "mistakes": {
+        "actions": "操作",
+        "no_mistakes_yet": "尚无错误。"
+      },
+      "mistake_kinds": {
+        "KINDS": {
+          "keys": {
+            "title": "按键"
+          },
+          "shift": {
+            "title": "移位"
+          },
+          "pairs": {
+            "title": "字母对"
+          },
+          "letters": {
+            "title": "遗漏和多出的字母"
+          },
+          "words": {
+            "title": "单词"
+          },
+          "tricky": {
+            "title": "棘手单词"
+          },
+          "between": {
+            "title": "单词之间"
+          },
+          "hesitations": {
+            "title": "犹豫"
+          }
+        }
+      },
+      "legend": {
+        "meant_hit": "意图 → 实际",
+        "swapped": "交换",
+        "missed": "遗漏",
+        "extra": "多余",
+        "shift": "移位"
+      },
+      "patterns": {
+        "sound": "发音相似",
+        "homophone": "同音词",
+        "silent": "不发音字母",
+        "double": "双字母",
+        "vowel": "不明确元音",
+        "mirror": "相同手指，另一只手",
+        "wrongDouble": "错误字母重复",
+        "moved": "字母错位",
+        "ending": "省略词尾",
+        "autopilot": "熟悉的单词替代",
+        "rawSteno": "原始速记"
+      },
+      "describe": {
+        "shift": "{expected} → {typed}（移位）",
+        "omit": "遗漏 {expected}",
+        "extra": "多余 {typed}",
+        "insert": "多余单词 {typed}",
+        "skip": "跳过 {expected}",
+        "hesitation_pair": "在 {expected} 中停顿",
+        "hesitation_before": "在 {expected} 前停顿",
+        "hesitation": "犹豫",
+        "tricky": "棘手：{expected}"
+      }
+    },
+    "profiles": {
+      "lock": {
+        "password_for": "{name} 的密码",
+        "switch_user": "{name}。切换用户。",
+        "is_locked": "{name} 已锁定",
+        "password": "密码",
+        "waiting_for_your_passkey": "正在等待你的通行密钥……",
+        "that_passkey_couldn_t_be": "无法验证该通行密钥。请改用密码。",
+        "that_password_is_not_right": "该密码不正确。",
+        "switch_user_2": "切换用户",
+        "this_one": "这个",
+        "open": "打开",
+        "new_profile": "新建个人资料",
+        "start_fresh": "从头开始",
+        "back": "返回",
+        "keep_signed_in": "在此设备上保持登录状态",
+        "unlock": "解锁",
+        "unlock_passkey": "使用通行密钥解锁"
+      },
+      "delete": {
+        "warning": "删除“{name}”会从此浏览器中移除其设置、历史记录、错误、保存的文本和等级。此操作无法撤销。",
+        "last_step": "最后一步：“{name}”即将被删除。"
+      },
+      "guest": {
+        "saved_banner": "已保存：这是现在的“{name}”，包含你作为访客进行的所有操作。可以在个人资料设置中设置密码和备份。"
+      },
+      "import": {
+        "imported": "已导入“{name}”",
+        "open_it": "打开它"
+      },
+      "restore": {
+        "in_folder": "在“{name}”中：",
+        "open_profile": "打开“{name}”"
+      },
+      "folder_restore": {
+        "pick_the_folder_kalibre_saved": "选择 kalibre 保存到的文件夹。该文件夹中有一个 kalibre.json 文件（旧版备份是 .kalibre-profile 文件，也可以使用）。",
+        "choose_the_folder": "选择文件夹",
+        "reading_the_folder": "正在读取文件夹……",
+        "nothing_kalibre_saved_yet": "kalibre 尚未保存任何内容。",
+        "restored_profiles_are_added_alongside": "恢复的个人资料会与现有资料并列添加；不会覆盖任何内容。",
+        "pick_another_folder": "选择另一个文件夹",
+        "tick_something_to_restore_first": "先勾选要恢复的内容。",
+        "restoring": "正在恢复……",
+        "restoring_of": "正在恢复……{done} / {total}",
+        "restored": "已恢复 {join}。",
+        "nothing_was_restored": "未恢复任何内容。",
+        "things_saved": "kalibre 已保存 {count, plural, other {# 项内容}}。",
+        "title": "从 kalibre 文件夹恢复",
+        "that_doesn_t_look_like": "这看起来不像 kalibre 文件夹：其中没有 kalibre.json，也没有个人资料备份。",
+        "the_folder_s_kalibre_json": "该文件夹的 kalibre.json 已损坏，无法读取。其文件仍可逐个导入。",
+        "status": {
+          "present": "已存在",
+          "missing": "不在文件夹中"
+        }
+      },
+      "guest_banner": {
+        "guest_profile": "访客个人资料",
+        "your_tests_mistakes_stats_and": "你的测试、错误、统计和经验值保留在此浏览器中，但未备份，且个人资料无法锁定。保存进度以将其保留为你自己的个人资料。",
+        "you_re_trying_kalibre_as": "你正在以访客身份试用 Kalibre。",
+        "this_browser_isn_t_keeping": "此浏览器不保留任何内容，因此关闭窗口后不会保存任何内容。要保留你的操作，请下载你的个人资料并在普通窗口中加载。",
+        "guest_session": "访客会话："
+      },
+      "profile_context_menu": {
+        "stats": "统计",
+        "texts": "文本",
+        "save_this_profile_as_a": "将此个人资料保存为文件（如果存在 kalibre 文件夹则保存到其中）",
+        "save_profile": "保存个人资料",
+        "load_a_profile_file_added": "加载个人资料文件，与其他资料并列添加（不会覆盖任何内容）",
+        "load_profile": "加载个人资料",
+        "profile_options": "个人资料选项",
+        "level": "等级 {curLevel}",
+        "xp_remaining": "剩余 {remaining} 经验值",
+        "xp_remaining_to_level": "距离等级 {value} 还需 {remaining} 经验值",
+        "guest": "访客",
+        "aria_level": "，等级 {level}，{into} / {needed} 经验值到下一级",
+        "aria_locked": "，已用密码锁定",
+        "aria_label": "个人资料：{name}{level}{locked}{status}。个人资料选项。",
+        "status_aria": "状态：{status}",
+        "saving": "正在保存……"
+      },
+      "menu": {
+        "editing": "编辑中",
+        "you": "你",
+        "locked": "已锁定",
+        "edit": "编辑",
+        "open": "打开",
+        "new_profile": "新建个人资料",
+        "creating": "创建中",
+        "add_one": "添加一个"
+      },
+      "drop": {
+        "one_at_a_time": "一次只拖放一个个人资料文件",
+        "not_profile_file": "这不是个人资料文件：它们以 {extension} 结尾"
+      },
+      "profile_edit_panel": {
+        "save_name": "保存名称",
+        "passwords_need_a_secure_connection": "密码需要安全连接（https:// 或 localhost），因此在此处不可用。",
+        "this_is_a_guest_profile": "这是访客个人资料。请先保存你的进度（页面顶部的横幅），然后在此处添加密码或通行密钥。",
+        "locked_with_a_password": "已用密码锁定。",
+        "no_password_anyone_using_this": "无密码：使用此浏览器的任何人都可以打开此个人资料。",
+        "change_password": "更改密码",
+        "set_a_password": "设置密码",
+        "remove_password": "移除密码",
+        "the_new_passwords_don_t": "新密码不匹配。",
+        "working": "处理中……",
+        "password_removed": "密码已移除",
+        "password_saved_the_profile_asks": "密码已保存；个人资料会在 Kalibre 打开时要求输入",
+        "save_password": "保存密码",
+        "passkey_name": "通行密钥名称",
+        "passkey_renamed": "通行密钥已重命名",
+        "this_browser_can_t_use": "此浏览器无法在此处使用通行密钥（需要 https:// 或 localhost）。",
+        "set_a_password_first_then": "先设置密码，然后添加通行密钥以使用 Touch ID、Windows Hello、手机或安全密钥解锁。",
+        "rename": "重命名",
+        "rename_passkey": "重命名通行密钥 {label}",
+        "added": "添加于 {format}",
+        "for": "用于 {rpId}",
+        "remove_passkey_added": "移除通行密钥 {label}，添加于 {format}",
+        "passkey_removed": "通行密钥已移除",
+        "no_passkeys_yet_a_passkey": "尚无通行密钥。通行密钥无需输入密码即可解锁此个人资料。",
+        "add_a_passkey": "添加通行密钥",
+        "follow_your_browser_s_prompt": "按照浏览器的提示操作……",
+        "passkey_added_the_lock_screen": "通行密钥已添加；锁定屏幕下次将提供此选项",
+        "preparing_the_file": "正在准备文件……",
+        "the_only_profile_can_t": "唯一的个人资料无法删除",
+        "delete_this_profile": "删除此个人资料",
+        "step_of": "第 {value} 步，共 {length} 步",
+        "export_it_first": "先导出它",
+        "type_the_profile_name_exactly": "准确输入个人资料名称以确认。",
+        "use_a_passkey": "使用通行密钥",
+        "that_passkey_couldn_t_be": "无法验证该通行密钥。",
+        "that_password_is_not_right": "该密码不正确。",
+        "this_profile_is_locked_so": "此个人资料已锁定，请确认是你本人。",
+        "confirm": "确认",
+        "or": "或",
+        "delete_for_good": "永久删除（{left}）",
+        "delete_for_good_2": "永久删除",
+        "deleting": "正在删除……",
+        "name_and_picture": "名称和图片",
+        "a_password_or_passkey_keeps": "密码或通行密钥可防止使用此浏览器的其他人访问 Kalibre 的界面。它不会加密浏览器中存储的内容。",
+        "rerun_setup": "重新运行设置",
+        "an_export_is_a_compressed": "导出是一个压缩的 .kalibre-profile 文件，包含此个人资料的历史记录。其密码和通行密钥作为锁一起导出，但压缩不等于加密，因此请将其保存在私密位置。",
+        "removes_passkeys": "这还会移除其 {count, plural, other {# 个通行密钥}}。",
+        "current_password": "当前密码",
+        "new_password": "新密码（{MIN_PASSWORD_LENGTH}+）",
+        "repeat_it": "重复输入",
+        "type_its_name": "输入其名称"
+      },
+      "profile_form_helpers": {
+        "shrinking": "正在缩小……",
+        "change_picture": "更改图片",
+        "add_a_picture": "添加图片",
+        "optional_shrunk_to_a_small": "可选。缩小为小正方形并保留在此浏览器中。"
+      },
+      "profile_import": {
+        "import_a_profile_file": "导入个人资料文件",
+        "added_alongside_the_others_nothing": "与其他资料并列添加；不会覆盖任何内容"
+      },
+      "profile_new_panel": {
+        "e_g_guest": "例如：访客",
+        "creating": "正在创建……",
+        "a_picture_and_password_can": "{NAME_HINT} 可以在个人资料设置中添加图片和密码。",
+        "create_and_open": "创建并打开",
+        "or_try_as_a_guest": "或以访客身份试用",
+        "a_profile_to_try_things": "用于尝试各种功能的个人资料，无需设置；稍后保存其进度以保留"
+      },
+      "setup": {
+        "skip_setup": "跳过设置",
+        "just_try_it_as_a": "直接试用，作为访客",
+        "start_typing_now_with_the": "立即使用默认设置开始打字；如果要保留进度，请稍后保存",
+        "set_up_kalibre": "设置 kalibre",
+        "progress": "{current} / {total}",
+        "progress_keys": " · 回车键继续 · esc 键跳过",
+        "keep_an_automatic_backup_in": "在此计算机上的文件夹中保留自动备份？（浏览器可能会清除其自身的存储）",
+        "save_a_backup_of_this": "现在将此个人资料的备份保存到“{name}”？",
+        "who_ll_guide_your_touch": "谁来指导你的盲打课程？",
+        "new_here_or_been_here": "新来的，还是以前来过？",
+        "kalibre_works_better_with_a": "kalibre 使用键盘效果更好",
+        "pick_a_theme": "选择主题",
+        "capital_letters_in_common_words": "常用词中的大写字母？（引文和你自己的文本始终保留其原有的大写）",
+        "default_test": "默认测试",
+        "when_should_kalibre_suggest_a": "kalibre 何时应建议训练某个错误？",
+        "automatically_start_training_mistakes_wh": "当错误准备好时自动开始训练？",
+        "a_daily_goal": "每日目标？",
+        "how_often_should_the_backup": "备份文件夹应多久更新一次？（设置 → 数据）",
+        "DEFAULT_TESTS": {
+          "time-15": {
+            "label": "15 秒"
+          },
+          "time-30": {
+            "label": "30 秒"
+          },
+          "time-60": {
+            "label": "60 秒"
+          },
+          "words-25": {
+            "label": "25 个单词"
+          },
+          "words-50": {
+            "label": "50 个单词"
+          }
+        },
+        "GOALS": {
+          "off": {
+            "label": "无目标"
+          },
+          "minutes-10": {
+            "label": "10 分钟"
+          },
+          "minutes-20": {
+            "label": "20 分钟"
+          },
+          "words-500": {
+            "label": "500 个单词"
+          },
+          "words-1000": {
+            "label": "1,000 个单词"
+          }
+        },
+        "backupStep": {
+          "folder": {
+            "label": "选择文件夹"
+          },
+          "later": {
+            "label": "稍后再说"
+          },
+          "save": {
+            "label": "是，保存"
+          }
+        },
+        "restoreStep": {
+          "new": {
+            "label": "新来的",
+            "detail": "设置全新的个人资料"
+          },
+          "restore": {
+            "label": "以前来过",
+            "detail": "从我的 kalibre 文件夹恢复"
+          }
+        },
+        "touchStep": {
+          "ok": {
+            "label": "知道了",
+            "detail": "继续使用此设备"
+          }
+        },
+        "buildSteps": {
+          "relaxed": {
+            "label": "仅清晰模式"
+          },
+          "normal": {
+            "label": "重复几次后"
+          },
+          "eager": {
+            "label": "早期"
+          }
+        },
+        "pick_a_language": "选择语言",
+        "name_prompt": "我们该怎么称呼你？",
+        "name_hint": "最好使用昵称：不要使用真实姓名和任何个人信息。",
+        "starter_library_note": "kalibre 附带一个公共领域书籍入门库，因此测试无需下载即可使用",
+        "companion_note": "他们会留在此个人资料中。要认识另一个，请创建另一个个人资料。",
+        "restore_note": "kalibre 可以从其保存到的文件夹中恢复你的个人资料、数据集和字体。",
+        "keyboard_note": "屏幕键盘可用于测试和游戏，但蓝牙或 USB 键盘会让它们更公平，盲打课程也确实需要一个。kalibre 在计算机上效果最佳。",
+        "keyboard_tip": " 提示：将 kalibre 添加到主屏幕（分享 → 添加到主屏幕），这样 Safari 会保留你的数据；在标签页中，至少每周回来一次。",
+        "auto_accept_yes": "是，自动添加",
+        "language_detail": {
+          "en-US": "美式拼写",
+          "zh-CN": "简体中文"
+        }
+      },
+      "passkey_utils": {
+        "this_browser_can_t_use": "此浏览器无法在此处使用通行密钥（需要 https:// 或 localhost）。",
+        "that_passkey_uses_a_kind": "该通行密钥使用 Kalibre 无法验证的密钥类型。请尝试其他设备或浏览器。",
+        "no_passkey_for_this_profile": "此个人资料的通行密钥在此地址均不起作用。",
+        "not_a_der_signature": "不是 DER 签名",
+        "not_a_der_integer": "不是 DER 整数",
+        "integer_too_long": "整数过长",
+        "the_passkey_request_was_cancelled": "通行密钥请求已取消或超时。",
+        "that_device_already_has_a": "该设备已拥有此个人资料的通行密钥。",
+        "passkeys_aren_t_allowed_at": "此地址不允许使用通行密钥。",
+        "the_passkey_didn_t_work": "通行密钥不起作用。"
+      },
+      "avatar_utils": {
+        "choose_an_image_file": "选择图像文件。",
+        "that_image_is_too_large": "该图像太大（最多 20 MB）。",
+        "that_image_couldn_t_be": "无法读取该图像。",
+        "that_image_couldn_t_be_2": "该图像无法缩小到足够小。"
+      },
+      "kalibre_folder": {
+        "that_folder_was_made_by": "该文件夹由较新版本的 kalibre 创建。请更新此版本（重新加载以更新），然后重试。"
+      },
+      "password_utils": {
+        "passwords_need_a_secure_connection": "密码需要安全连接（https:// 或 localhost）。",
+        "use_at_least_characters": "至少使用 {MIN_PASSWORD_LENGTH} 个字符。",
+        "this_profile_is_locked_and": "此个人资料已锁定，且密码需要安全连接（https:// 或 localhost）。"
+      },
+      "profile_export_v2": {
+        "that_profile_isn_t_there": "该个人资料已不存在。"
+      },
+      "profile_file": {
+        "this_browser_can_t_open": "此浏览器无法打开压缩的个人资料文件。请尝试使用较新版本的 Chrome、Edge、Firefox 或 Safari。",
+        "the_profile_file_is_damaged": "个人资料文件已损坏（无法解压缩）。"
+      },
+      "profile_name": {
+        "email": "这看起来像电子邮件地址。请改用昵称。",
+        "phone": "这看起来像电话号码。请改用昵称。",
+        "blocked": "该名称包含 Kalibre 禁用的词语。请尝试其他名称。"
+      }
+    },
     "quests": {
       "status": {
         "done": "已完成"
       },
       "actions": {
         "swap": "更换",
-        "go": "开始"
+        "swap_title": "将此任务更换为另一个（每天一次）",
+        "go": "开始",
+        "go_aria": "开始：{quest}"
+      },
+      "labels": {
+        "today": "今日",
+        "quests": "任务",
+        "challenge": "挑战",
+        "daily_goal": "每日目标",
+        "daily_goal_label": "每日目标 "
+      },
+      "today": {
+        "panel_aria": "今日任务",
+        "getting": "正在获取今日任务……",
+        "new_at_midnight": "{difficulty} · 午夜时分获得新任务 · ",
+        "difficulty": "难度",
+        "summary_aria": "今日：{done} / {total} 个任务已完成{challenge, select, done {，挑战已完成} other {}}"
       },
       "quest_note": {
         "xp": "+{reward} xp",
         "challenge_done": "每日挑战完成：{description}",
         "quest_done": "每日任务完成：{description}"
       },
-      "labels": {
-        "challenge": "挑战",
-        "daily_goal": "每日目标"
+      "match": {
+        "tests": "{count, plural, other {测试}}",
+        "drills": "{count, plural, other {训练}}",
+        "time": "{count, plural, other {计时测试}}",
+        "words": "{count, plural, other {单词测试}}",
+        "quote": "{count, plural, other {引文}}",
+        "book": "{count, plural, other {书籍阅读}}",
+        "sustained": "{count, plural, other {持续测试}}",
+        "time_duration": "{count, plural, other {{duration}秒测试}}",
+        "words_count": "{count, plural, other {{wordCount}词测试}}",
+        "quote_category": "{count, plural, other {{category}引文}}"
+      },
+      "categories": {
+        "short": "短",
+        "medium": "中",
+        "long": "长",
+        "huge": "很长",
+        "massive": "超长"
+      },
+      "game_titles": {
+        "feed": "喂食",
+        "castle": "城堡",
+        "space": "太空",
+        "spot": "找茬"
+      },
+      "difficulty_words": {
+        "easy": "简单难度",
+        "normal": "普通难度",
+        "hard": "困难难度"
+      },
+      "conditions": {
+        "wpm": "{wpm}+ WPM",
+        "accuracy": "{accuracy}%+ 准确率",
+        "and": " 且 ",
+        "at": " 以 {parts}",
+        "kept_going_after": "，又持续了 {minutes, plural, other {# 分钟}}",
+        "kept_going": " 持续了 {minutes, plural, other {# 分钟}}"
+      },
+      "describe": {
+        "words": "输入 {count, plural, other {# 个单词}}",
+        "words_in": "在 {match} 中输入 {count, plural, other {# 个单词}}",
+        "minutes": "打字 {count, plural, other {# 分钟}}",
+        "minutes_in": "在 {match} 中打字 {count, plural, other {# 分钟}}",
+        "minutes_book": "阅读书籍并打字 {count, plural, other {# 分钟}}",
+        "tests_one": "完成 {match}",
+        "tests_many": "完成 {count} {match}",
+        "run": "完成 {match}{conditions}",
+        "game_runs": "玩 {game} {count, plural, other {# 次}}",
+        "game_score": "在 {game} 中获得 {score} 分",
+        "game_score_difficulty": "在 {game} {difficulty} 中获得 {score} 分",
+        "game_found": "在一次 {game} 中找到 {count, plural, other {# 个错误}}",
+        "lesson_run": "以 {accuracy}%+ 准确率完成一节盲打课程",
+        "lessons": "{count, plural, other {完成 # 节盲打课程}}",
+        "pad_tests": "{count, plural, other {完成 # 次数字键盘测试}}",
+        "pad_run": "完成一次数字键盘测试",
+        "pad_ksph": "{ksph}+ 击键每小时",
+        "pad_entries": "，{entries}+ 个输入",
+        "pad_lessons": "{count, plural, other {完成 # 节数字键盘课程}}",
+        "sums": "算对 {count, plural, other {# 道题}}",
+        "something": "某些任务"
+      }
+    },
+    "race": {
+      "lobby": {
+        "title": "竞速",
+        "ready": "准备",
+        "waiting": "等待玩家",
+        "host": "主机",
+        "join": "加入",
+        "leave": "离开",
+        "start": "开始竞速"
+      },
+      "places": {
+        "first": "第 1 名",
+        "second": "第 2 名",
+        "third": "第 3 名",
+        "finished": "已完成"
+      },
+      "news": {
+        "overtake": "{racer} 超过了 {target}",
+        "lap": "{racer} 完成了第 {lap} 圈",
+        "finish": "{racer} 完成了比赛"
+      },
+      "race_choices": {
+        "your_own": "{label}，你自己的（{min}–{max}）"
+      },
+      "race": {
+        "race_people_on_your_network": "在你的网络上与他人竞速，同时输入相同的文本：一段引文、一定数量的单词、计时或尽可能长时间地保持速度。",
+        "code": "代码",
+        "room_code": "房间代码",
+        "host_a_race_and_share": "主持一场竞速并分享其代码，或加入其他人的竞速。",
+        "races_run_through_a_computer": "竞速通过在你的网络上托管 kalibre 的计算机运行：在那里运行 npm run lan，然后每个人打开它显示的地址。",
+        "here_you_can_race_another": "在此处，你可以与此浏览器的另一个标签页竞速。",
+        "others_join_with_this_code": "其他人使用此代码加入。",
+        "you_re_in": "你已加入。",
+        "someone_here_is_on_a": "此处的某人使用的是不同版本的 kalibre，因此无法读取他们的消息。每个人都应重新加载以更新。",
+        "rules_waiting_for_the_host": "规则：{rulesLine}。等待主机开始。",
+        "the_host_can_start_another": "主机可以开始另一场竞速。",
+        "end_the_race_for_everyone": "为所有人结束竞速",
+        "back_to_the_race_room": "返回竞速房间",
+        "pit_stop": "维修站",
+        "race_again": "再次竞速",
+        "enter_a_rest_stop_left": "回车键：休息站（剩余 {left}）",
+        "room": "房间 {code}",
+        "pit_stop_hint": "回车键：维修站，用于纠正 {words, plural, other {# 个错词}}（花费几秒钟）",
+        "ok_let_s_race": "好的，开始竞速",
+        "host_a_race": "主持一场竞速",
+        "start_the_race": "开始竞速",
+        "waiting_for_someone_to_join": "等待某人加入",
+        "shared_notice": "此房间中的玩家将看到你的个人资料卡片（你的名称、等级、同伴以及你的卡片佩戴和显示的内容；绝不显示你的图片）、你已输入的进度，以及在持续竞速中你是否保持速度。其他任何内容都不会离开你的设备。"
+      },
+      "course": {
+        "a_course_s_words_can": "赛道的单词不能为空或包含空格",
+        "there_s_no_text_to": "没有可制作赛道的文本"
+      },
+      "ghost_file": {
+        "a_replay_in_the_file": "文件中的回放已损坏",
+        "its_run_doesn_t_fit": "其运行不匹配其赛道",
+        "its_run_can_t_be": "无法读取其运行",
+        "its_time_doesn_t_match": "其时间不匹配其运行",
+        "its_result_doesn_t_match": "其结果不匹配其运行",
+        "the_file_s_is_damaged": "文件的 {what} 已损坏",
+        "the_course_in_the_file": "文件中的赛道在制作后已更改",
+        "a_ghost_in_the_file": "文件中的幽灵属于另一个赛道",
+        "this_browser_can_t_open": "此浏览器无法打开压缩的幽灵文件",
+        "the_file_is_too_big": "该文件太大，不是幽灵文件",
+        "a_ghost_file_needs_a": "幽灵文件需要包含一个幽灵",
+        "a_ghost_file_holds_at": "幽灵文件最多包含 {ghosts} 个幽灵",
+        "every_ghost_in_a_file": "文件中的每个幽灵都必须在其赛道上",
+        "that_s_too_much_for": "这对于一个幽灵文件来说太多了",
+        "that_isn_t_a_kalibre": "这不是 kalibre 幽灵文件",
+        "that_ghost_file_is_from": "该幽灵文件来自较新的 kalibre：更新此版本，然后重试",
+        "its_ghost_can_t_be": "其幽灵无法使用：{reason}",
+        "none_of_its_ghosts_can": "其所有幽灵均无法使用"
+      },
+      "ghost_share": {
+        "that_course_isn_t_here": "该赛道已不在此处",
+        "pick_a_ghost_to_export": "选择要导出的幽灵"
+      },
+      "replay_codec": {
+        "a_replay_can_t_hold": "回放不能包含 {value}",
+        "the_replay_ends_too_soon": "回放结束得太早",
+        "the_replay_holds_a_number": "回放包含一个太大的数字，无法作为一个整体",
+        "the_keystrokes_aren_t_in": "按键顺序与输入时的顺序不一致",
+        "a_keystroke_of_a_kind": "回放未知类型的按键（{type}）",
+        "an_event_a_replay_doesn": "回放未知的事件（{op}）",
+        "replay_times_have_to_be": "回放时间必须是整数毫秒，且按顺序排列",
+        "a_special_event_a_replay": "回放未知的特殊事件（{kind}）",
+        "that_isn_t_a_kalibre": "这不是 kalibre 回放",
+        "that_replay_is_from_a": "该回放来自较新的 kalibre",
+        "the_replay_has_an_event": "该回放包含此 kalibre 未知的事件",
+        "the_replay_is_damaged": "回放已损坏",
+        "the_replay_has_more_in": "回放包含的内容多于其声明的内容",
+        "this_replay_doesn_t_fit": "此回放不匹配这些单词"
+      },
+      "run_store": {
+        "a_run_s_course_is": "运行的赛道缺失"
+      },
+      "room": {
+        "only_the_host_sets_the": "仅主机可设置规则。",
+        "only_the_host_starts_a": "仅主机可开始竞速。"
+      },
+      "format": {
+        "seconds": "{value}秒",
+        "rules_laps": " · {lap} 圈",
+        "rules_quote": "引文 · {amount}",
+        "rules_words": "单词 · {amount}",
+        "rules_from_quotes": " 来自引文",
+        "rules_time": "时间 · {amount} 秒",
+        "rules_accuracy": "持续 · 准确率 {target}%",
+        "rules_pace": "持续 · 速度 {target} wpm",
+        "amount_short": "短",
+        "amount_medium": "中",
+        "amount_long": "长",
+        "amount_mixed": "混合",
+        "choice_laps": "圈数",
+        "choice_off": "关闭",
+        "choice_lap_words": "{count} 个单词",
+        "choice_length": "长度",
+        "choice_words": "单词",
+        "choice_from": "来自",
+        "choice_common_words": "常用词",
+        "choice_quotes": "引文",
+        "choice_seconds": "秒",
+        "choice_keep_up": "保持",
+        "choice_pace": "速度",
+        "choice_accuracy": "准确率",
+        "choice_target_percent": "目标 %",
+        "choice_target_wpm": "目标 wpm",
+        "mode_quote": "引文",
+        "mode_words": "单词",
+        "mode_time": "时间",
+        "mode_sustained": "持续",
+        "ghost_off": "无幽灵",
+        "ghost_wpm": "{wpm} wpm",
+        "ghost_when": " · {date}",
+        "ghost_best": "你的最佳",
+        "ghost_last": "你的上次运行",
+        "ghost_run": "更早的运行",
+        "ghost_line": "{name} · {what}{when}",
+        "state_ok": "保持中",
+        "state_below": "下滑中",
+        "state_out": "出局",
+        "state_pit": "在维修站",
+        "gone": "已离开",
+        "not_counted": "未计入",
+        "live_out": "{time} · 出局",
+        "live_state": "{time} · {state}",
+        "live_finished": "{place}. {time}",
+        "penalty": " (+{seconds}秒)",
+        "didnt_finish": "未完成",
+        "result_didnt_finish": "未完成 · {words} 个单词",
+        "result_time": "{place}. {wpm} wpm · {words} 个单词 · {accuracy}",
+        "result_accuracy_first": "{accuracy} · {wpm} wpm",
+        "result_pace_first": "{wpm} wpm · {accuracy}",
+        "result_survived": "{place}. 坚持 {time} · {first}",
+        "still_going": " · 仍在继续",
+        "result_standard": "{place}. {time}{penalty} · {wpm} wpm · {accuracy}{pits}",
+        "pits": " · {count, plural, other {# 个维修站}}",
+        "place_one": "第 {place} 名",
+        "place_two": "第 {place} 名",
+        "place_few": "第 {place} 名",
+        "place_other": "第 {place} 名",
+        "place_zero": "第 {place} 名",
+        "place_many": "第 {place} 名",
+        "finished": "已完成",
+        "you": "你",
+        "share_win": "{names} 共享胜利",
+        "won": "{name} 获胜",
+        "won_you_came": "{won} · 你获得了第 {place} 名",
+        "starts_in": "在 {left} 后开始……",
+        "go": "开始！",
+        "lap": "第 {lap} 圈",
+        "lap_of": "第 {lap} 圈 / 共 {of} 圈",
+        "lap_last": " · 上次 {time}",
+        "lap_best": " · 最佳 {time}",
+        "with_lap": " · {lap}",
+        "time_left": "剩余 {time}",
+        "last_standing": "{time} · 最后坚持者获胜",
+        "to_finish": "还有 {seconds} 秒完成"
+      }
+    },
+    "results": {
+      "summary": {
+        "speed": "速度",
+        "accuracy": "准确率",
+        "characters": "字符",
+        "words": "单词",
+        "time": "时间",
+        "consistency": "一致性",
+        "best": "个人最佳",
+        "average": "平均",
+        "tests": "测试"
+      },
+      "candidate": {
+        "prompt_label": "训练建议",
+        "body": "你一直在输入 {word} · {count, plural, other {# 次}}，跨越 {sessions, plural, other {# 次测试}}。",
+        "train": "训练",
+        "dismiss": "忽略",
+        "later": "稍后",
+        "drill_it_now": "立即训练"
+      },
+      "actions": {
+        "next": "下一次",
+        "retry": "重试",
+        "watch_replay": "观看回放",
+        "save_ghost": "保存为幽灵",
+        "words": "单词",
+        "final": "最终",
+        "as_typed": "按实际输入"
+      },
+      "race_results": {
+        "full_stats": "完整统计",
+        "your_race": "你的比赛",
+        "this_race_looked_like_key": "这场比赛看起来像是乱按键（{notCountedReason}），因此不计入：没有经验值、错误或统计数据。",
+        "lv_to_go": " · 等级 {level} · 还需 {value}",
+        "drill_now": "立即训练",
+        "counts": "错误 {errors} · 单词 {words}"
+      },
+      "replay_player": {
+        "test_replay": "测试回放",
+        "pinned": "已固定 ✓",
+        "pinned_limit_reached_replays_unpin": "已固定数量已达上限（{PINNED_LOGS_CAP} 个回放）。请先取消固定旧回放。",
+        "close_replay": "关闭回放",
+        "replay_scrubber": "回放进度条",
+        "jump_to_playhead": "跳转到播放位置 ⇥",
+        "0_wpm": "0 WPM",
+        "replay_timeline_zoom": "回放时间轴缩放",
+        "zoom": "缩放",
+        "restart_replay": "重新开始回放",
+        "play": "播放",
+        "saved_as_ghost": "已保存为幽灵 ✓",
+        "wpm": "{round} WPM"
+      },
+      "result_chart": {
+        "per_second_results": "每秒结果",
+        "not_enough_typing_to_draw": "打字数据不足以绘制图表。",
+        "chart_zoom": "图表缩放",
+        "speed_over_time_use_the": "速度随时间变化。使用左右箭头键查看每一秒的数据。"
+      },
+      "results": {
+        "words_lowest_accuracy_target_kept": "{words} 个单词 · 最低准确率 {round}% · 目标 {targetAccuracy}% · 保持 {floorWpm}+ WPM",
+        "words_peak_pace_lowest_target": "{words} 个单词 · 最高节奏 {round} · 最低 {round2} · 目标 {targetWpm} WPM",
+        "longest_above_target_raw_in": "超出目标最长时间 {formatDuration} · {nearMisses} · 原始速度 {round} · 总计 {formatDuration2}",
+        "mistake_analysis_failed_for_this": "本次测试的错误分析失败",
+        "common_mistakes": "常见错误",
+        "show_the_words": "显示单词",
+        "expected": "预期“{text}”",
+        "typed_expected": "输入了 {typed}，预期 {text}",
+        "deleted": "已删除",
+        "this_drill": "此训练",
+        "now": "现在 {to}",
+        "race_this_drill": "比赛此训练",
+        "race_the_same_drill_again": "再次比赛同一训练，与本次的幽灵对决",
+        "results": "结果",
+        "survived": "持续",
+        "wpm": "WPM",
+        "acc": "准确率",
+        "this_test_looked_like_key": "本次测试看起来像是乱按键（{notCountedReason}），因此不计入：没有经验值、错误或统计数据。",
+        "suggested_for_training": "{extraSuggested} 建议加入训练",
+        "book_range": " {start} → {end}",
+        "the_end": "结束",
+        "book_words": " · {count} 个单词",
+        "overdeleted": "你删除了超出错误后 {count, plural, other {# 个正确字符}}",
+        "overdeleted_cost": "，约损失 {cost} WPM",
+        "mistake_line": "{errors} 个错误 / {exposures} 次出现{share} · 出现前 {before}",
+        "summary_line": "原始 {raw} · {spread} · {duration}",
+        "practice_words": " · {count, plural, other {# 个练习单词}}",
+        "letters_to_cover": " · 还需覆盖 {count, plural, other {# 个字母}}",
+        "mistakes_ready": "{count, plural, other {# 个错误已准备好}}",
+        "consistency_spread": "一致性 {consistency}%（±{wpmStdDev} WPM）",
+        "consistency_none": "一致性 –"
       }
     },
     "settings": {
@@ -1736,6 +3621,309 @@
         "sections_label": "设置区域"
       }
     },
+    "stats": {
+      "sections": {
+        "overview": "概览",
+        "periods": "按天",
+        "bests": "个人最佳",
+        "history": "历史",
+        "games": "游戏",
+        "numpad": "数字小键盘",
+        "xp": "经验值",
+        "keys": "按键",
+        "hesitations": "犹豫",
+        "mistakes": "错误"
+      },
+      "export": {
+        "csv": "csv",
+        "json": "json",
+        "game_runs": "导出游戏运行",
+        "every_test": "导出每次测试",
+        "days": "导出天数"
+      },
+      "empty": {
+        "no_tests": "尚无测试",
+        "no_tests_games_only": "尚无测试：目前只有游戏。参见统计 → 游戏。",
+        "no_tests_overview": "尚无测试。你的速度、准确率和你觉得最难的按键将显示在此处。",
+        "not_enough_typing": "输入量尚不足"
+      },
+      "overview": {
+        "average_wpm": "平均 wpm",
+        "accuracy": "准确率",
+        "tests": "测试",
+        "time_typing": "输入时间",
+        "completed": "已完成",
+        "restarted": "已重新开始",
+        "abandoned": "已放弃",
+        "not_counted": "未计入",
+        "words": "单词",
+        "characters": "字符",
+        "averages_note": "平均值和最佳值仅使用已完成的测试{notCounted, select, true {；乱按的测试不计入} other {}}",
+        "chart_heading": "{scope, select, all {所有} other {最近}} {count} {count, plural, other {次测试}} · wpm",
+        "chart_window_aria": "要绘制的测试数量",
+        "by_characters": "按字符"
+      },
+      "bests": {
+        "race_this": "与此竞速",
+        "empty": "完成一次测试以设定一个",
+        "stats_summary": "{survived, select, true {坚持 {survivedTime} · } other {}}{wpm} wpm · {accuracy}% · {date}"
+      },
+      "periods": {
+        "no_tests": "无测试",
+        "tests_count": "{count, plural, other {# 次测试}}",
+        "best_accuracy": "最佳 {best} · {accuracy}%",
+        "daily_goal": "每日目标：{target}",
+        "today": " · 今日 {amount}{met, select, true { ✓} other {}}",
+        "streak": " · 连续 {count, plural, other {# 天}}",
+        "no_daily_goal": "无每日目标。 ",
+        "set_one": "设定一个",
+        "time_typed_per_day": "每天输入时间 · 最近 30 天",
+        "day_by_day": "逐日",
+        "no_tests_last_30_days": "最近 30 天无测试",
+        "time_of_day": "一天中的时间",
+        "time_zone_note": "天数和小时数采用此设备的时区。"
+      },
+      "games": {
+        "no_games": "尚未玩过游戏。游戏位于菜单的游戏选项中。",
+        "runs_count": "{count, plural, other {# 次运行}}",
+        "last": "上次 {date}",
+        "best_run": "最佳运行：{summary}",
+        "bests_note": "最佳值计算每个游戏当前规则下的运行",
+        "bests_by_difficulty": "按难度划分的最佳值",
+        "recent_runs": "最近运行",
+        "old_rules": "{game}（旧规则）",
+        "runs": "运行",
+        "time_played": "游戏时间"
+      },
+      "numpad": {
+        "no_runs": "尚无数字小键盘运行。它们位于学习选项中的数字小键盘页面上。",
+        "ksph_note": "每小时击键数 (ksph) 计算正确输入的按键数，包括运算符和回车键",
+        "bests": "十键最佳",
+        "sums_by_kind": "按类型划分的总和",
+        "weak_spots": "薄弱环节",
+        "recent_runs": "最近运行",
+        "ten_key_tests": "十键测试",
+        "fastest": "最快",
+        "lessons_mastered": "已掌握的课程",
+        "sums_right": "正确总和",
+        "time_on_pad": "在小键盘上的时间"
+      },
+      "numpad_pane": {
+        "lesson_desc": "课程 {number}{mastered, select, true { · 已掌握} other {}}",
+        "till_desc": "till · 等级 {level}",
+        "sums_desc": "总和 · {form}",
+        "tenkey_desc": "十键 · {form} · {limit}",
+        "mix": "混合",
+        "served_count": "已提供 {count} 个",
+        "sums_right": "{right} / {answers} 正确",
+        "ksph_result": "{ksph} ksph{aborted, select, true { （提前结束）} other {}}"
+      },
+      "headings": {
+        "day": "天",
+        "tests": "测试",
+        "time": "时间",
+        "wpm": "wpm",
+        "best": "最佳",
+        "accuracy": "准确率",
+        "goal": "目标",
+        "when": "时间",
+        "source": "来源",
+        "xp": "经验值",
+        "share": "分享",
+        "entries": "输入项",
+        "length": "长度",
+        "ksph": "ksph",
+        "kind": "类型",
+        "right": "正确",
+        "average_time": "平均时间",
+        "what": "内容",
+        "result": "结果",
+        "date": "日期",
+        "ghost": "幽灵",
+        "actions": "操作",
+        "test": "测试",
+        "game": "游戏",
+        "mode": "模式",
+        "difficulty": "难度",
+        "outcome": "结果",
+        "score": "分数"
+      },
+      "hesitations": {
+        "explain": "不是错误：你输入正确的按键，但仅在你自己的按键间隔至少 {factor}× 倍后暂停（绝不低于 {minMs} 毫秒），因此它们会根据你的速度进行测量，无论你打字多快。超过 {maxS} 秒的暂停计为休息（如果你通过看着按键打字则更长）。反复出现的暂停会像错误一样被建议进行训练。",
+        "empty": "从现在开始的测试将测量犹豫。",
+        "hesitations": "犹豫",
+        "per_minute": "每分钟",
+        "tests_measured": "测量的测试",
+        "keys_pause_before": "你在其前暂停的按键",
+        "pairs_pause_inside": "你在其内暂停的字母对",
+        "words_pause_before": "你在其前暂停的单词",
+        "no_pattern_yet": "尚无模式"
+      },
+      "keys": {
+        "picker_label": "键盘布局：",
+        "dropdown_label": "键盘布局",
+        "least_accurate_keys": "最不准确的按键",
+        "slowest_keys": "最慢的按键",
+        "least_accurate_pairs": "最不准确的字母对",
+        "slowest_pairs": "最慢的字母对"
+      },
+      "mistakes": {
+        "errors_summary": "{uncorrected} 未更正 · {corrected} 已更正 · {capsLock} 大写锁定",
+        "most_common": "最常见",
+        "all_mistakes": "所有错误",
+        "keys": "按键",
+        "shift": "移位",
+        "words": "单词",
+        "between_words": "单词之间",
+        "none_yet": "尚无"
+      },
+      "xp": {
+        "blurb": "经验值来自正确输入（按准确率缩放），少量来自奖励，以及你训练掉的错误。它根据你的历史记录计算得出。",
+        "total_xp": "总经验值",
+        "last_7_days": "最近 7 天",
+        "where_from": "来源",
+        "xp_per_day": "每天经验值 · 最近 30 天"
+      },
+      "history": {
+        "replay": "回放",
+        "race": "竞速",
+        "delete": "删除",
+        "race_title": "将此运行作为幽灵在其自己的文本上竞速",
+        "no_saved_ghosts": "尚无保存的幽灵。在任何测试或回放后保存一个。",
+        "no_history": "历史记录中尚无测试",
+        "pinned": "已固定",
+        "all_tests": "所有测试",
+        "saved_ghosts": "已保存的幽灵",
+        "saved_ghosts_count": "已保存的幽灵（{count}）",
+        "pager_aria": "历史页面",
+        "pager_prev": "‹ 上一页",
+        "pager_next": "下一页 ›",
+        "pager_range": "{first}–{last} / {count}",
+        "page_aria": "第 {number} 页"
+      },
+      "shared": {
+        "level": "等级",
+        "level_aria": "到下一级的经验值",
+        "prev": "上一项",
+        "next": "下一项",
+        "prev_aria": "上一页",
+        "next_aria": "下一页",
+        "page_info": "{current} / {total}",
+        "xp": "{toLocaleString} / {toLocaleString2} 经验值",
+        "ms": "{round} 毫秒 · {round2}%",
+        "typed": "{round}% · 已输入 {toLocaleString}"
+      },
+      "hesitations_pane": {
+        "of": "{round}% · {hesitated} / {toLocaleString}"
+      },
+      "overview_pane": {
+        "recent_tests": "最近测试",
+        "group_stats": "{wpm} wpm · {accuracy}% · {count, plural, other {# 次测试}}"
+      },
+      "periods_pane": {
+        "wpm": " wpm"
+      },
+      "stats_charts": {
+        "wpm_of_recent_tests_use": "最近测试的 WPM。使用左右箭头键读取每次测试。",
+        "recent_tests": "最近测试",
+        "complete_a_couple_of_tests": "完成几次测试以查看趋势。",
+        "accuracy": "{value}% 准确率",
+        "not_enough_typing": "输入量不足",
+        "ms": "{round} 毫秒",
+        "keyboard_coloured_by_how_often": "键盘根据每个按键首次输入正确的频率着色。下表列出了相同的值。",
+        "use_the_left_and_right": "{label}。使用左右箭头键读取每天。",
+        "no_typing": "无输入",
+        "day_tests": "{count, plural, other {# 次测试}}",
+        "day_wpm": " · {wpm} wpm"
+      },
+      "stats": {
+        "sections_label": "统计部分"
+      }
+    },
+    "texts": {
+      "sections": {
+        "texts": "我的文本",
+        "texts_blurb": "你自己的写作，完全按照原文练习。",
+        "quotes": "我的引文",
+        "quotes_blurb": "你添加的引文会加入引文和混合测试（60 个字符或以上）。",
+        "datasets": "数据集",
+        "datasets_blurb": "提供引文、单词表和训练的书籍和合集。"
+      },
+      "labels": {
+        "title": "标题",
+        "text_aria": "文本",
+        "paste_placeholder": "在此粘贴文本",
+        "my_texts": "我的文本",
+        "datasets": "数据集",
+        "sections_aria": "文本区域",
+        "subfolders_too": " 包括子文件夹",
+        "drop_hint": "或将文件拖放到此处",
+        "words_count": "{count, plural, other {# 个单词}}",
+        "paragraphs_count": "{count, plural, other {# 个段落}}"
+      },
+      "actions": {
+        "save": "保存",
+        "save_changes": "保存更改",
+        "cancel": "取消",
+        "practise": "练习",
+        "edit": "编辑",
+        "delete": "删除",
+        "delete_confirm": "删除？",
+        "yes_delete": "是的，删除",
+        "keep": "保留",
+        "practise_aria": "练习 {title}",
+        "edit_aria": "编辑 {title}",
+        "delete_aria": "删除 {title}",
+        "new_text": "新文本",
+        "import_files": "导入 .txt 或 .md",
+        "import_folder": "导入文件夹"
+      },
+      "status": {
+        "saved": "已保存“{title}”",
+        "updated": "已更新“{title}”",
+        "imported": "已导入“{title}”",
+        "deleted": "已删除“{title}”",
+        "no_folder_files": "该文件夹中没有 .txt 或 .md 文件",
+        "empty": "暂无已保存的文本。粘贴你想练习的内容，或导入 .txt 文件。文本仅保存在此设备上。"
+      },
+      "quotes": {
+        "quote_placeholder": "引文内容",
+        "quote_aria": "引文",
+        "author_placeholder": "出自何人",
+        "source_placeholder": "可选",
+        "add_quote": "添加引文",
+        "author": "作者",
+        "source": "出处",
+        "authors": "作者",
+        "sources": "出处",
+        "added": "引文已添加",
+        "updated": "引文已更新",
+        "deleted": "引文已删除",
+        "unknown": "— 未知",
+        "too_short": " · 对于测试来说太短（需 {min}+ 个字符）",
+        "empty": "添加你喜欢的引文；它们会出现在引文和混合测试中。引文合集（如 quotes.json 文件）可在数据集中安装。"
+      },
+      "github_import": {
+        "github_s_limit_for_downloads": "GitHub 未登录状态下的下载限制已达到。请一小时后重试。",
+        "that_repository_or_folder_wasn": "未找到该仓库或文件夹（可能是私有的）。",
+        "github_answered": "GitHub 返回了 {status}。",
+        "that_isn_t_a_github": "这不是一个 GitHub 仓库地址（github.com/拥有者/仓库名）。",
+        "no_txt_or_md_files": "未找到 .txt 或 .md 文件。",
+        "the_files_couldn_t_be": "无法下载这些文件。",
+        "listing_files": "正在列出文件……",
+        "downloading_progress": "正在下载 {current} / {total}……"
+      },
+      "importers": {
+        "doesn_t_look_like_a": "{name} 看起来不像文本文件。",
+        "isn_t_utf_8_text": "{name} 不是 UTF-8 文本。",
+        "only_files_can_be_imported": "{name}：仅支持导入 {ACCEPTED_EXTENSIONS} 文件。",
+        "is_larger_than_5_mb": "{name} 大于 5 MB。",
+        "is_empty": "{name} 为空。"
+      },
+      "quote_collections": {
+        "no_quotes_were_found_in": "该文件中未找到引文。"
+      }
+    },
     "themes": {
       "editor": {
         "save_theme": "保存主题",
@@ -1761,13 +3949,659 @@
         "decorate": "装饰",
         "export": "导出",
         "delete": "删除",
+        "done": "完成",
         "customise_current": "自定义当前主题",
-        "import_theme": "导入主题"
+        "import_theme": "导入主题",
+        "decorations_for": "{name} 的装饰",
+        "use_theme": "使用 {name}",
+        "edit_theme": "编辑 {name}",
+        "decorate_theme": "装饰 {name}",
+        "export_theme": "导出 {name}",
+        "delete_theme": "删除 {name}",
+        "copy_and_decorate": "复制此主题并添加装饰",
+        "decorations_earned_zero": "主题装饰通过游戏获得，只能应用于你自己的主题。",
+        "decorations_earned_notice": "你已获得 {count, plural, other {# 个主题装饰}}。它们只能应用于你自己的主题，因此请复制此主题来佩戴{count, plural, other {它们}}。",
+        "decorations_earned_info": "通过游戏获得。它们与此主题一起保存在此个人资料中，导出主题时不包含在内。"
       },
       "picker": {
         "preview": "预览",
         "instructions": "悬停预览 · 点击或回车应用 · Esc 关闭",
         "close": "关闭"
+      },
+      "decorationSlots": {
+        "caret": {
+          "title": "光标",
+          "hint": "围绕光标（其形状由打字设置决定）"
+        },
+        "backdrop": {
+          "title": "背景图案",
+          "hint": "页面背后的淡雅图案"
+        },
+        "frame": {
+          "title": "边框",
+          "hint": "围绕你输入的文本"
+        },
+        "keystroke": {
+          "title": "击键效果",
+          "hint": "每个输入的字母如何呈现"
+        },
+        "flourish": {
+          "title": "点缀",
+          "hint": "标志旁的小标记"
+        }
+      },
+      "decorations": {
+        "caret-glow": {
+          "name": "柔光"
+        },
+        "caret-halo": {
+          "name": "光晕"
+        },
+        "caret-drop": {
+          "name": "墨滴"
+        },
+        "caret-trail": {
+          "name": "彗星尾"
+        },
+        "backdrop-dots": {
+          "name": "点阵"
+        },
+        "backdrop-ruled": {
+          "name": "横线纸"
+        },
+        "backdrop-graph": {
+          "name": "方格纸"
+        },
+        "backdrop-grain": {
+          "name": "纹理"
+        },
+        "backdrop-checks": {
+          "name": "柔格"
+        },
+        "frame-corners": {
+          "name": "角标"
+        },
+        "frame-bookplate": {
+          "name": "藏书票"
+        },
+        "frame-tab": {
+          "name": "文件夹标签"
+        },
+        "frame-brackets": {
+          "name": "括号"
+        },
+        "keystroke-ink": {
+          "name": "墨迹淡出"
+        },
+        "keystroke-rise": {
+          "name": "轻柔浮现"
+        },
+        "keystroke-bloom": {
+          "name": "绽放"
+        },
+        "flourish-leaf": {
+          "name": "叶子"
+        },
+        "flourish-star": {
+          "name": "星星"
+        },
+        "flourish-key": {
+          "name": "键帽"
+        },
+        "flourish-letter": {
+          "name": "你伙伴的字母"
+        },
+        "flourish-moon": {
+          "name": "月亮"
+        }
+      },
+      "presets": {
+        "paper": {
+          "name": "纸张"
+        },
+        "ink": {
+          "name": "墨水"
+        },
+        "dusk": {
+          "name": "黄昏"
+        },
+        "eink": {
+          "name": "电子墨水"
+        },
+        "eink-night": {
+          "name": "电子墨水夜间"
+        },
+        "cream": {
+          "name": "奶油"
+        },
+        "rose": {
+          "name": "玫瑰"
+        },
+        "harbour": {
+          "name": "港湾"
+        },
+        "forest": {
+          "name": "森林"
+        },
+        "plum": {
+          "name": "梅紫"
+        },
+        "slate": {
+          "name": "石板"
+        },
+        "terminal": {
+          "name": "终端"
+        },
+        "contrast": {
+          "name": "高对比度"
+        },
+        "contrast-night": {
+          "name": "高对比度夜间"
+        }
+      },
+      "checks": {
+        "text_bg": "页面文本",
+        "text_surface": "面板文本",
+        "textDim_bg": "页面弱化文本",
+        "textDim_surface": "面板弱化文本",
+        "correct_bg": "已输入文本",
+        "incorrect_bg": "错误",
+        "correct_textDim": "已输入文本与待输入文本的对比",
+        "accent_bg": "强调色",
+        "caret_bg": "光标",
+        "extra_bg": "多余字母",
+        "chartWpm_bg": "图表：WPM 线",
+        "chartRaw_bg": "图表：原始线",
+        "chartError_bg": "图表：错误",
+        "heat1_bg": "按键热度 1",
+        "heat4_bg": "按键热度 4",
+        "not_a_theme": "不是有效的主题",
+        "needs_a_name": "需要一个最多 40 个字符的名称",
+        "scheme_must_be": "方案必须为浅色或深色",
+        "bad_hex": "颜色“{token}”必须是 #rrggbb 格式的值",
+        "not_readable": "可读性不足：{labels}"
+      }
+    },
+    "typing": {
+      "mode": {
+        "time": "计时",
+        "words": "单词",
+        "quote": "引文",
+        "book": "书籍",
+        "mixed": "混合",
+        "sustained": "持续",
+        "custom": "自定义",
+        "mistakes": "错误"
+      },
+      "mode_label": "模式",
+      "sustained_title": "尽可能长时间地保持速度或准确率",
+      "status": {
+        "caps_lock": "大写锁定已开启",
+        "restart": "重新开始",
+        "pause": "暂停",
+        "resume": "继续",
+        "caps_lock_label": "大写锁定",
+        "num_lock_off": "数字锁定已关闭",
+        "num_lock_off_title": "数字锁定关闭时，数字小键盘发送方向键",
+        "time_so_far": "到目前为止的时间",
+        "focus_click": "单击或按任意键以聚焦",
+        "restart_symbol": "↻ "
+      },
+      "hints": {
+        "tab_enter_restart": "tab → 回车 重新开始 · esc 命令",
+        "tab_tab_restart": "tab → tab 重新开始 · esc 命令",
+        "enter_to_restart": "回车键重新开始",
+        "tab_to_restart": "tab 键重新开始"
+      },
+      "focus": {
+        "label": "聚焦：{mode}",
+        "aria_label": "聚焦视图：{mode}。按下以更改。",
+        "off": "关闭",
+        "line": "行",
+        "sentence": "句"
+      },
+      "instructions": {
+        "standard": "输入显示的文本。空格键移动到下一个单词，退格键更正。Tab 然后回车键重新开始。Escape 打开命令行。",
+        "sustained": "将你的速度保持在目标之上或之上。低于目标三秒将结束测试。空格键移动到下一个单词，退格键更正。Tab 然后回车键重新开始。Escape 打开命令行。",
+        "accuracy": "在以稳定速度打字的同时，将你的准确率保持在目标之上或之上。低于目标五秒将结束测试。空格键移动到下一个单词，退格键更正。Tab 然后回车键重新开始。Escape 打开命令行。"
+      },
+      "mode_bar": {
+        "custom": "自定义 {unit}",
+        "enable_a_book_dataset": "启用书籍数据集",
+        "add_a_text_to_read": "添加要阅读的文本",
+        "from": "从 {percent}%",
+        "start_over": "从头开始",
+        "read_this_one_from_the": "从头开始阅读此文本",
+        "add_a_text_to_practise": "添加要练习的文本",
+        "manage": "管理",
+        "change": "更改",
+        "choose_what_and_how_to": "选择训练内容和方式",
+        "TABS": {
+          "time": {
+            "label": "计时"
+          },
+          "words": {
+            "label": "单词"
+          },
+          "quote": {
+            "label": "引文"
+          },
+          "mixed": {
+            "label": "混合"
+          },
+          "sustained": {
+            "label": "持续",
+            "title": "尽可能长时间地保持速度或准确率"
+          },
+          "custom": {
+            "label": "自定义"
+          }
+        },
+        "SUSTAINED_SOURCES": {
+          "wordstream": {
+            "label": "常用词"
+          },
+          "quotes": {
+            "label": "引文"
+          },
+          "work": {
+            "label": "书籍"
+          },
+          "text": {
+            "label": "我的文本"
+          }
+        },
+        "BOOK_ORDER_OPTIONS": {
+          "sequential": {
+            "label": "按顺序",
+            "title": "从你停止的地方继续阅读，然后是下一本书"
+          },
+          "passages": {
+            "label": "段落",
+            "title": "书中的随机段落"
+          },
+          "chunks": {
+            "label": "片段",
+            "title": "书中的随机片段"
+          }
+        },
+        "source": {
+          "wordstream": {
+            "label": "常用词"
+          },
+          "quotes": {
+            "label": "引文"
+          }
+        },
+        "nodes": {
+          "pace": {
+            "label": "速度",
+            "title": "将你最近的速度保持在目标之上或之上（3 秒恢复时间）"
+          },
+          "accuracy": {
+            "label": "准确率"
+          }
+        },
+        "lengthOptions": {
+          "entire": {
+            "label": "整个文本"
+          }
+        },
+        "custom_title": "自定义",
+        "accuracy_title": "将你最近的准确率保持在目标之上或之上，同时打字速度至少 {floor} wpm（5 秒恢复时间）",
+        "keep_up": "保持",
+        "text_source": "文本来源",
+        "text_to_read": "要阅读的文本",
+        "reading_order": "阅读顺序",
+        "text_to_practise": "要练习的文本",
+        "book_to_read": "要阅读的书籍",
+        "unit_words": "单词",
+        "unit_wpm": "wpm",
+        "unit_seconds": "秒"
+      },
+      "training_notice": {
+        "mistakes": "错误，{join}",
+        "suggested": "{count, plural, other {# 个建议}}",
+        "ready": "{count, plural, other {# 个准备好训练}}"
+      },
+      "type_view_goal": {
+        "today": "✓ 今日 {formatGoalAmount}",
+        "today_2": "{floor} / 今日 {formatGoalAmount}",
+        "aria": "每日目标：今日 {done} / {target}{met}",
+        "aria_met": "，已达成"
+      },
+      "type_view_pace": {
+        "target": "目标 {target}%",
+        "target_wpm": "目标 {target} wpm",
+        "wpm": "{round} / {target} wpm",
+        "below_target_words_per_minute": "低于目标：每分钟 {target} 个单词。{seconds} 秒恢复时间。",
+        "too_slow_keep_at_least": "太慢：至少保持每分钟 {floorWpm} 个单词。{seconds} 秒恢复时间。",
+        "accuracy_below_percent_seconds_to": "准确率低于 {target} 百分比。{seconds} 秒恢复时间。",
+        "back_on_target": "回到目标。",
+        "back_on_pace": "回到节奏。"
+      },
+      "type_view": {
+        "wpm": "{round} wpm · {round2}%",
+        "test_complete_words_per_minute": "测试完成：每分钟 {round} 个单词，{toFixed} 百分比准确率，{errors} 个错误。"
+      },
+      "typing_input": {
+        "typing_input": "打字输入"
+      },
+      "type_view_book": {
+        "now_reading": "正在阅读 {title}{by}。",
+        "by_author": " 作者：{author}",
+        "now": "当前：{title}{by}"
+      },
+      "text_providers": {
+        "unknown_practice_source": "未知的练习来源“{source}”"
+      }
+    },
+    "wardrobe": {
+      "slots": {
+        "hat": {
+          "label": "帽子",
+          "none": "无帽子"
+        },
+        "face": {
+          "label": "面部",
+          "none": "经典面部"
+        },
+        "necklace": {
+          "label": "项链",
+          "none": "无项链"
+        },
+        "braceletLeft": {
+          "label": "左手腕",
+          "none": "裸腕"
+        },
+        "braceletRight": {
+          "label": "右手腕",
+          "none": "裸腕"
+        },
+        "pants": {
+          "label": "裤子",
+          "none": "无裤子"
+        },
+        "background": {
+          "label": "背景",
+          "none": "无背景"
+        },
+        "heart": {
+          "label": "心形",
+          "none": "纯色心形"
+        },
+        "ring": {
+          "label": "戒指",
+          "none": "无戒指"
+        }
+      },
+      "party-hat": {
+        "name": "派对帽"
+      },
+      "beanie": {
+        "name": "毛线帽"
+      },
+      "cap": {
+        "name": "鸭舌帽"
+      },
+      "headphones": {
+        "name": "耳机"
+      },
+      "top-hat": {
+        "name": "高顶礼帽"
+      },
+      "wizard-hat": {
+        "name": "巫师帽"
+      },
+      "space-helmet": {
+        "name": "太空头盔"
+      },
+      "hard-hat": {
+        "name": "安全帽"
+      },
+      "explorer-hat": {
+        "name": "探险家帽"
+      },
+      "hair-bow": {
+        "name": "蝴蝶结发饰"
+      },
+      "flat-cap": {
+        "name": "平顶帽"
+      },
+      "beret": {
+        "name": "贝雷帽"
+      },
+      "sun-hat": {
+        "name": "遮阳帽"
+      },
+      "bucket-hat": {
+        "name": "渔夫帽"
+      },
+      "chef-hat": {
+        "name": "厨师帽"
+      },
+      "graduation-cap": {
+        "name": "毕业帽"
+      },
+      "crown": {
+        "name": "皇冠"
+      },
+      "round-eyes": {
+        "name": "圆眼睛"
+      },
+      "sparkly": {
+        "name": "闪亮眼睛"
+      },
+      "pixel-eyes": {
+        "name": "像素眼睛"
+      },
+      "blush": {
+        "name": "腮红"
+      },
+      "freckles": {
+        "name": "雀斑"
+      },
+      "round-glasses": {
+        "name": "圆框眼镜"
+      },
+      "monocle": {
+        "name": "单片眼镜"
+      },
+      "star-eyes": {
+        "name": "星星眼"
+      },
+      "heart-eyes": {
+        "name": "爱心眼"
+      },
+      "sleepy-lids": {
+        "name": "困倦眼睑"
+      },
+      "beads": {
+        "name": "珠串"
+      },
+      "bow-tie": {
+        "name": "领结"
+      },
+      "scarf": {
+        "name": "围巾"
+      },
+      "medal": {
+        "name": "奖章"
+      },
+      "keycap-pendant": {
+        "name": "键帽吊坠"
+      },
+      "compass": {
+        "name": "指南针"
+      },
+      "pearls": {
+        "name": "珍珠"
+      },
+      "tie": {
+        "name": "领带"
+      },
+      "locket": {
+        "name": "盒式吊坠"
+      },
+      "quill-pendant": {
+        "name": "羽毛笔吊坠"
+      },
+      "friendship-band": {
+        "name": "友谊手环"
+      },
+      "gold-band": {
+        "name": "金手环"
+      },
+      "watch": {
+        "name": "手表"
+      },
+      "key-chain": {
+        "name": "钥匙链"
+      },
+      "spiked-band": {
+        "name": "铆钉手环"
+      },
+      "trail-band": {
+        "name": "小径手环"
+      },
+      "charm-bracelet": {
+        "name": "吊饰手链"
+      },
+      "sweatband": {
+        "name": "运动手环"
+      },
+      "beaded-band": {
+        "name": "串珠手环"
+      },
+      "shorts": {
+        "name": "短裤"
+      },
+      "jeans": {
+        "name": "牛仔裤"
+      },
+      "dungarees": {
+        "name": "背带裤"
+      },
+      "kilt": {
+        "name": "苏格兰裙"
+      },
+      "skirt": {
+        "name": "裙子"
+      },
+      "cargo-pants": {
+        "name": "工装裤"
+      },
+      "pyjama-bottoms": {
+        "name": "睡衣裤"
+      },
+      "space-trousers": {
+        "name": "太空裤"
+      },
+      "theme-tile": {
+        "name": "主题瓷砖"
+      },
+      "stars": {
+        "name": "星星"
+      },
+      "bricks": {
+        "name": "砖块"
+      },
+      "leaves": {
+        "name": "树叶"
+      },
+      "paper": {
+        "name": "纸张"
+      },
+      "keyboard": {
+        "name": "键盘"
+      },
+      "rain": {
+        "name": "雨滴"
+      },
+      "waves": {
+        "name": "波浪"
+      },
+      "typewriter": {
+        "name": "打字机"
+      },
+      "bookshelf": {
+        "name": "书架"
+      },
+      "sunrise": {
+        "name": "日出"
+      },
+      "heart-star": {
+        "name": "星星"
+      },
+      "heart-note": {
+        "name": "音符"
+      },
+      "heart-key": {
+        "name": "钥匙"
+      },
+      "heart-paw": {
+        "name": "爪印"
+      },
+      "heart-flag": {
+        "name": "旗帜"
+      },
+      "heart-bolt": {
+        "name": "闪电"
+      },
+      "heart-moon": {
+        "name": "月亮"
+      },
+      "heart-leaf": {
+        "name": "树叶"
+      },
+      "heart-sun": {
+        "name": "太阳"
+      },
+      "heart-amp": {
+        "name": "“&”符号"
+      },
+      "heart-k": {
+        "name": "字母 k"
+      },
+      "ring": {
+        "name": "戒指"
+      },
+      "ui": {
+        "default_hint": "默认",
+        "locked": "已锁定",
+        "new_badge": "新",
+        "wearing_it": "佩戴中",
+        "ring_worn": "戒指：为好运而佩戴",
+        "title": "{companion} 的衣柜",
+        "tab_aria": "{label}，已解锁 {unlocked} / {total}",
+        "item_worn_aria": "{name}，佩戴中",
+        "item_locked_aria": "{name}，已锁定：{hint}",
+        "remove_all": "移除所有装饰",
+        "news_new_item": "一个新 {name}",
+        "news_new_items": "{count, plural, other {# 件新物品}}",
+        "news_earned": "哇，你为我的衣柜赢得了 {what}！",
+        "try_it_on": "试穿",
+        "status_worn": "{name}：{state}",
+        "status_hint_progress": "{name}：{hint}（{have} / {need}）",
+        "status_hint": "{name}：{hint}"
+      }
+    },
+    "words": {
+      "filter": {
+        "warning": "Kalibre 的单词表来自旧书籍和大型词典，其中可能包含贬义词和其他冒犯性词汇。关闭过滤器后，这些词可能出现在测试、训练、课程和游戏中。关闭即表示你接受可能会看到它们，且 Kalibre 的作者不对此造成的任何冒犯负责。",
+        "turn_off": "关闭过滤器",
+        "keep_on": "保持开启",
+        "confirm_title": "关闭冒犯性词汇过滤器？",
+        "filter_on": "过滤器已开启",
+        "filter_off": "过滤器已关闭",
+        "placeholder": "每行一个，或用逗号分隔；末尾加 * 表示所有以此开头的单词",
+        "filtered_count": "你自己的 {count, plural, other {# 个}}已过滤单词",
+        "no_words": "没有你自己的单词",
+        "heading": "冒犯性词汇",
+        "toggle_label": "过滤冒犯性词汇",
+        "own_label": "你自己的待过滤单词",
+        "explanation": "开启时：贬义词和最粗俗的脏话会被排除在单词表之外，包含这些词的段落会被跳过。你自己的文本和引文不会被更改。",
+        "own_explanation": "仅保存在此个人资料中，不会共享。仅在过滤器开启时生效。"
       }
     }
   }

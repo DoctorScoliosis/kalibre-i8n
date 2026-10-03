@@ -55,8 +55,8 @@
   "backup": {
     "error": "无法保存：{error}",
     "nothing": "目前还没有需要备份的内容",
-    "saved_to_folder": "已将 {count, plural, one {# 个个人资料文件} other {# 个个人资料文件}} 保存到 kalibre 文件夹“{folder}”",
-    "downloaded": "已下载 {count, plural, one {# 个个人资料文件} other {# 个个人资料文件}}"
+    "saved_to_folder": "已将 {count, plural, other {# 个个人资料文件}} 保存到 kalibre 文件夹“{folder}”",
+    "downloaded": "已下载 {count, plural, other {# 个个人资料文件}}"
   },
   "updates": {
     "whats_new_title": "新功能",

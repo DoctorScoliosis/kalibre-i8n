@@ -36,7 +36,7 @@
     "words": "单词",
     "characters": "字符",
     "averages_note": "平均值和最佳值仅使用已完成的测试{notCounted, select, true {；乱按的测试不计入} other {}}",
-    "chart_heading": "{scope, select, all {所有} other {最近}} {count} {count, plural, one {次测试} other {次测试}} · wpm",
+    "chart_heading": "{scope, select, all {所有} other {最近}} {count} {count, plural, other {次测试}} · wpm",
     "chart_window_aria": "要绘制的测试数量",
     "by_characters": "按字符"
   },
@@ -47,11 +47,11 @@
   },
   "periods": {
     "no_tests": "无测试",
-    "tests_count": "{count, plural, one {# 次测试} other {# 次测试}}",
+    "tests_count": "{count, plural, other {# 次测试}}",
     "best_accuracy": "最佳 {best} · {accuracy}%",
     "daily_goal": "每日目标：{target}",
     "today": " · 今日 {amount}{met, select, true { ✓} other {}}",
-    "streak": " · 连续 {count, plural, one {# 天} other {# 天}}",
+    "streak": " · 连续 {count, plural, other {# 天}}",
     "no_daily_goal": "无每日目标。 ",
     "set_one": "设定一个",
     "time_typed_per_day": "每天输入时间 · 最近 30 天",
@@ -62,7 +62,7 @@
   },
   "games": {
     "no_games": "尚未玩过游戏。游戏位于菜单的游戏选项中。",
-    "runs_count": "{count, plural, one {# 次运行} other {# 次运行}}",
+    "runs_count": "{count, plural, other {# 次运行}}",
     "last": "上次 {date}",
     "best_run": "最佳运行：{summary}",
     "bests_note": "最佳值计算每个游戏当前规则下的运行",
@@ -195,7 +195,7 @@
   },
   "overview_pane": {
     "recent_tests": "最近测试",
-    "group_stats": "{wpm} wpm · {accuracy}% · {count, plural, one {# 次测试} other {# 次测试}}"
+    "group_stats": "{wpm} wpm · {accuracy}% · {count, plural, other {# 次测试}}"
   },
   "periods_pane": {
     "wpm": " wpm"
@@ -210,7 +210,7 @@
     "keyboard_coloured_by_how_often": "键盘根据每个按键首次输入正确的频率着色。下表列出了相同的值。",
     "use_the_left_and_right": "{label}。使用左右箭头键读取每天。",
     "no_typing": "无输入",
-    "day_tests": "{count, plural, one {# 次测试} other {# 次测试}}",
+    "day_tests": "{count, plural, other {# 次测试}}",
     "day_wpm": " · {wpm} wpm"
   },
   "stats": {

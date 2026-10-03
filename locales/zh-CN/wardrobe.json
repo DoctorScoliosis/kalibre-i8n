@@ -280,7 +280,7 @@
     "item_locked_aria": "{name}，已锁定：{hint}",
     "remove_all": "移除所有装饰",
     "news_new_item": "一个新 {name}",
-    "news_new_items": "{count, plural, one {一件新物品} other {# 件新物品}}",
+    "news_new_items": "{count, plural, other {# 件新物品}}",
     "news_earned": "哇，你为我的衣柜赢得了 {what}！",
     "try_it_on": "试穿",
     "status_worn": "{name}：{state}",

@@ -31,10 +31,10 @@
     "downloaded": "{status, select, update {已更新} other {已下载}}“{name}”。它已开启，现在可离线使用。",
     "download_failed": "无法下载“{name}”：{error}",
     "licence": "许可证：{licence}",
-    "version_passages": "版本 {version} · {count, plural, one {# 个段落} other {# 个段落}}",
+    "version_passages": "版本 {version} · {count, plural, other {# 个段落}}",
     "library_from": "来自 {name}",
     "library_remove": "移除书库 {name}",
-    "library_added": "已添加 {name}：{count, plural, one {# 个数据集} other {# 个数据集}}。",
+    "library_added": "已添加 {name}：{count, plural, other {# 个数据集}}。",
     "not_reachable": "无法访问"
   },
   "install": {
