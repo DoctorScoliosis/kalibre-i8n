@@ -1,0 +1,127 @@
+{
+  "mode": {
+    "time": "tiempo",
+    "words": "palabras",
+    "quote": "cita",
+    "book": "libro",
+    "mixed": "mixto",
+    "sustained": "sostenido",
+    "custom": "personalizado",
+    "mistakes": "errores"
+  },
+  "mode_label": "modo",
+  "sustained_title": "mantén un ritmo o una precisión durante todo el tiempo que puedas",
+  "status": {
+    "caps_lock": "el bloqueo de mayúsculas está activado",
+    "restart": "reiniciar",
+    "pause": "pausa",
+    "resume": "reanudar",
+    "caps_lock_label": "bloqueo de mayúsculas",
+    "num_lock_off": "el bloqueo numérico está desactivado",
+    "num_lock_off_title": "el teclado numérico envía flechas mientras el bloqueo numérico está desactivado",
+    "time_so_far": "tiempo transcurrido",
+    "focus_click": "haz clic o pulsa cualquier tecla para enfocar",
+    "restart_symbol": "↻ "
+  },
+  "hints": {
+    "tab_enter_restart": "tabulador → intro para reiniciar · esc comandos",
+    "tab_tab_restart": "tabulador → tabulador para reiniciar · esc comandos",
+    "enter_to_restart": "intro para reiniciar",
+    "tab_to_restart": "tabulador para reiniciar"
+  },
+  "focus": {
+    "label": "enfoque: {mode}",
+    "aria_label": "vista de enfoque: {mode}. Pulsa para cambiar.",
+    "off": "desactivado",
+    "line": "línea",
+    "sentence": "oración"
+  },
+  "instructions": {
+    "standard": "Escribe el texto mostrado. Espacio pasa a la siguiente palabra y retroceso corrige. Tabulador y después intro reinician. Escape abre la línea de comandos.",
+    "sustained": "Mantén tu ritmo en el objetivo o por encima. Tres segundos por debajo terminan la prueba. Espacio pasa a la siguiente palabra y retroceso corrige. Tabulador y después intro reinician. Escape abre la línea de comandos.",
+    "accuracy": "Mantén tu precisión en el objetivo o por encima mientras escribes a un ritmo constante. Cinco segundos por debajo terminan la prueba. Espacio pasa a la siguiente palabra y retroceso corrige. Tabulador y después intro reinician. Escape abre la línea de comandos."
+  },
+  "mode_bar": {
+    "custom": "personalizado {unit}",
+    "enable_a_book_dataset": "activar un conjunto de libros",
+    "add_a_text_to_read": "añadir un texto para leer",
+    "from": "desde {percent}%",
+    "start_over": "empezar de nuevo",
+    "read_this_one_from_the": "leer este desde el principio",
+    "add_a_text_to_practise": "añadir un texto para practicar",
+    "manage": "gestionar",
+    "change": "cambiar",
+    "choose_what_and_how_to": "elige qué y cómo practicar",
+    "TABS": {
+      "time": {"label": "tiempo"},
+      "words": {"label": "palabras"},
+      "quote": {"label": "cita"},
+      "mixed": {"label": "mixto"},
+      "sustained": {"label": "sostenido", "title": "mantén un ritmo o una precisión durante todo el tiempo que puedas"},
+      "custom": {"label": "personalizado"}
+    },
+    "SUSTAINED_SOURCES": {
+      "wordstream": {"label": "palabras comunes"},
+      "quotes": {"label": "citas"},
+      "work": {"label": "libros"},
+      "text": {"label": "mis textos"}
+    },
+    "BOOK_ORDER_OPTIONS": {
+      "sequential": {"label": "en orden", "title": "continúa desde donde paraste y después pasa al siguiente libro"},
+      "passages": {"label": "pasajes", "title": "pasajes aleatorios del libro"},
+      "chunks": {"label": "fragmentos", "title": "tramos aleatorios del libro"}
+    },
+    "source": {
+      "wordstream": {"label": "palabras comunes"},
+      "quotes": {"label": "citas"}
+    },
+    "nodes": {
+      "pace": {"label": "ritmo", "title": "mantén tu velocidad reciente en el objetivo o por encima (3 segundos para recuperar)"},
+      "accuracy": {"label": "precisión"}
+    },
+    "lengthOptions": {"entire": {"label": "texto completo"}},
+    "custom_title": "personalizado",
+    "accuracy_title": "mantén tu precisión reciente en el objetivo o por encima, escribiendo al menos {floor} p. p. m. (5 segundos para recuperar)",
+    "keep_up": "mantener",
+    "text_source": "origen del texto",
+    "text_to_read": "texto para leer",
+    "reading_order": "orden de lectura",
+    "text_to_practise": "texto para practicar",
+    "book_to_read": "libro para leer",
+    "unit_words": "palabras",
+    "unit_wpm": "p. p. m.",
+    "unit_seconds": "segundos"
+  },
+  "training_notice": {
+    "mistakes": "errores, {join}",
+    "suggested": "{count, plural, one {# sugerido} other {# sugeridos}}",
+    "ready": "{count, plural, one {# listo para practicar} other {# listos para practicar}}"
+  },
+  "type_view_goal": {
+    "today": "✓ {formatGoalAmount} hoy",
+    "today_2": "{floor} / {formatGoalAmount} hoy",
+    "aria": "objetivo diario: {done} de {target} hoy{met}",
+    "aria_met": ", cumplido"
+  },
+  "type_view_pace": {
+    "target": "objetivo {target}%",
+    "target_wpm": "objetivo {target} p. p. m.",
+    "wpm": "{round} / {target} p. p. m.",
+    "below_target_words_per_minute": "Por debajo del objetivo: {target} palabras por minuto. {seconds} segundos para recuperar.",
+    "too_slow_keep_at_least": "Demasiado despacio: mantén al menos {floorWpm} palabras por minuto. {seconds} segundos para recuperar.",
+    "accuracy_below_percent_seconds_to": "Precisión por debajo de {target} por ciento. {seconds} segundos para recuperar.",
+    "back_on_target": "De nuevo en el objetivo.",
+    "back_on_pace": "De nuevo al ritmo."
+  },
+  "type_view": {
+    "wpm": "{round} p. p. m. · {round2}%",
+    "test_complete_words_per_minute": "Prueba completa: {round} palabras por minuto, {toFixed} por ciento de precisión, {errors} errores."
+  },
+  "typing_input": {"typing_input": "entrada de escritura"},
+  "type_view_book": {
+    "now_reading": "ahora leyendo {title}{by}.",
+    "by_author": " por {author}",
+    "now": "ahora: {title}{by}"
+  },
+  "text_providers": {"unknown_practice_source": "Origen de práctica desconocido «{source}»"}
+}
