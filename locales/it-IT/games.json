@@ -264,8 +264,8 @@
     "rivals_2": "avversari"
   },
   "word_quality": {
-    "close_to": " · close to “{variantOf}” {percent}",
-    "repeat": " · repeat {percent}"
+    "close_to": " · quasi come “{variantOf}” {percent}",
+    "repeat": " · ripetizione {percent}"
   },
   "games_registry": {
     "STRENGTH_MECHANIC": {
