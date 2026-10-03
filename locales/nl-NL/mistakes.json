@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "suggested": "voorgesteld",
+    "training": "training",
+    "improving": "verbeterend",
+    "mastered": "beheerst",
+    "dismissed": "genegeerd",
+    "watching": "in de gaten",
+    "overview": "overzicht",
+    "all": "alle"
+  },
+  "blurbs": {
+    "suggested": "Fouten die steeds terugkomen. Train ze, of negeer de fouten waar je niets mee wilt.",
+    "training": "Oefeningen richten zich hierop.",
+    "improving": "Het foutenpercentage is gehalveerd sinds de training begon.",
+    "mastered": "Teruggebracht tot een kwart van het begin. Ze keren terug naar training als ze weer voorkomen.",
+    "dismissed": "Worden niet opnieuw voorgesteld tenzij je ze herstelt.",
+    "watching": "Gezien, maar nog niet vaak genoeg om voor te stellen. Met "nu trainen" start je toch training voor één ervan.",
+    "overview": "Waar je vingers de fout in gaan, weergegeven op het toetsenbord, met de woorden en spaties ernaast. Elke regel toont het foutenpercentage over recente tests.",
+    "all": "Elke fout die Kalibre heeft genoteerd, ongeacht de status."
+  },
+  "empty": {
+    "suggested": "Nog geen fouten hier. Je doet het goed!",
+    "training": "Nog geen fouten in training. Voeg er toe via het tabblad 'voorgesteld'.",
+    "improving": "Nog niets dat verbetert. Blijf je trainingsfouten oefenen.",
+    "mastered": "Nog niets beheerst. Training kost tijd — blijf doorgaan.",
+    "dismissed": "Niets genegeerd.",
+    "watching": "Nog niets hier. Blijf typen en patronen verschijnen vanzelf.",
+    "all": "Nog geen fouten genoteerd. Terwijl je typt, houdt Kalibre terugkerende patronen hier bij."
+  },
+  "kinds": {
+    "key": "toets",
+    "shift": "shift",
+    "swap": "letterpaar",
+    "omit": "gemist",
+    "extra": "extra",
+    "word": "woord",
+    "space": "spatie",
+    "insert": "extra woord",
+    "skip": "overgeslagen woord",
+    "hesitation": "aarzeling",
+    "tricky": "lastig woord"
+  },
+  "columns": {
+    "mistake": "fout",
+    "kind": "soort",
+    "status": "status",
+    "left_in": "overgebleven",
+    "fixed": "hersteld",
+    "tests": "tests",
+    "trend": "trend",
+    "rate": "percentage",
+    "seen": "gezien"
+  },
+  "actions": {
+    "train": "trainen",
+    "train_aria": "{mistake} trainen",
+    "train_now": "nu trainen",
+    "train_now_aria": "{mistake} nu trainen",
+    "train_again": "opnieuw trainen",
+    "train_again_aria": "{mistake} opnieuw trainen",
+    "dismiss": "negeren",
+    "dismiss_aria": "{mistake} negeren",
+    "restore": "herstellen",
+    "restore_aria": "{mistake} herstellen",
+    "drill": "oefenen",
+    "drill_aria": "{mistake} oefenen",
+    "drill_all": "mijn trainingsfouten oefenen",
+    "stop": "stoppen",
+    "stop_aria": "{mistake} trainen stoppen",
+    "export": "exporteren ",
+    "csv": "csv",
+    "json": "json"
+  },
+  "filters": {
+    "all": "alle",
+    "uncorrected": "niet gecorrigeerd",
+    "corrected": "gecorrigeerd"
+  },
+  "layouts": {
+    "list": "lijst",
+    "table": "tabel"
+  },
+  "labels": {
+    "by_status": "fouten per status",
+    "show_on_map": "op de kaart tonen",
+    "show_mistakes": "fouten tonen",
+    "show_as": "weergeven als",
+    "kind_of_mistake": "soort fout",
+    "all_kinds": "alle soorten",
+    "keyboard_layout": "toetsenbordindeling",
+    "sessions_count": "{count, plural, one {# sessie} other {# sessies}}",
+    "corrected_count": "{count} gecorrigeerd",
+    "pager_aria": "pagina's van foutentabel",
+    "no_qualifiers_mistakes": "Nog geen fouten {qualifiers}{inSection, select, true { in {section}} other {}}.",
+    "no_in_section": "Nog geen fouten in {section}.",
+    "training_words_note": "{count, plural, one {# woord} other {# woorden}} met consistente fouten in training."
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "{label}-fouten – klik om te isoleren",
+    "page": "pagina {value}",
+    "of": "{first}–{last} van {length}",
+    "keyboard_mistakes_pages": "pagina's met toetsenbordfouten",
+    "nothing_to_draw_on_this": "Nog niets om op dit toetsenbord te tekenen. Fouten die meer dan eens zijn gezien verschijnen hier.",
+    "on_the_keyboard": "op het toetsenbord",
+    "none_yet": "Nog geen.",
+    "with_keys_not_on_this": "{unmapped} met toetsen die niet in deze indeling staan",
+    "words_and_spaces": "woorden en spaties",
+    "no_tests_yet": "nog geen tests",
+    "rate_one_test": "foutenpercentage {rate} in één test",
+    "rate_over_tests": "foutenpercentage {from} → {to} over {count, plural, one {# test} other {# tests}}",
+    "mark_label": "{mistake}: {rate} van de tijd",
+    "started_at": "{summary} · training gestart op {rate}",
+    "keyboard_label": "Toetsenbord met {count, plural, one {# fout} other {# fouten}} erop. De lijst hieronder bevat dezelfde fouten."
+  },
+  "mistakes": {
+    "actions": "acties",
+    "no_mistakes_yet": "Nog geen fouten."
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": {"title": "toetsen"},
+      "shift": {"title": "shift"},
+      "pairs": {"title": "letterparen"},
+      "letters": {"title": "gemiste en extra letters"},
+      "words": {"title": "woorden"},
+      "tricky": {"title": "lastige woorden"},
+      "between": {"title": "tussen woorden"},
+      "hesitations": {"title": "aarzelingen"}
+    }
+  },
+  "legend": {
+    "meant_hit": "bedoeld → getypt",
+    "swapped": "omgewisseld",
+    "missed": "gemist",
+    "extra": "extra",
+    "shift": "shift"
+  },
+  "patterns": {
+    "sound": "klinken hetzelfde",
+    "homophone": "woord met dezelfde klank",
+    "silent": "stille letter",
+    "double": "dubbele letter",
+    "vowel": "onduidelijke klinker",
+    "mirror": "zelfde vinger, andere hand",
+    "wrongDouble": "verkeerde letter verdubbeld",
+    "moved": "letter op verkeerde plek",
+    "ending": "vergeten uitgang",
+    "autopilot": "vertrouwd woord in plaats daarvan",
+    "rawSteno": "ruwe steno"
+  },
+  "describe": {
+    "shift": "{expected} → {typed} (shift)",
+    "omit": "{expected} gemist",
+    "extra": "extra {typed}",
+    "insert": "extra woord {typed}",
+    "skip": "{expected} overgeslagen",
+    "hesitation_pair": "pauze in {expected}",
+    "hesitation_before": "pauze voor {expected}",
+    "hesitation": "aarzeling",
+    "tricky": "lastig: {expected}"
+  }
+}
