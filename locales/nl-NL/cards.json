@@ -1,0 +1,204 @@
+{
+  "view": {
+    "card_aria": "Kaart van {name}: {described}"
+  },
+  "window": {
+    "your_card": "jouw kaart",
+    "card_title": "kaart",
+    "cosmetics": "versiering",
+    "stickers": "stickers",
+    "garage": "garage",
+    "done": "klaar"
+  },
+  "card_view": {
+    "lv": "lvl {level}",
+    "with_after_level": " · met {companionName}",
+    "with_companion": "met {companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "Zo ziet je kaart eruit voor anderen tijdens een race. Je metgezel staat waar normaal een afbeelding zou staan: profielfoto's verlaten dit apparaat nooit. Sleep een sticker om hem te verplaatsen; selecteer hem voor kleur, grootte en draaiing, of gebruik de pijltjestoetsen, [ en ], en Delete; Esc of ergens anders klikken deselecteert hem.",
+    "what_your_card_wears": "wat je kaart draagt",
+    "colour": "kleur van {tokenLabel}",
+    "theme_default_colour": "standaardkleur van thema",
+    "delete_sticker": "sticker verwijderen",
+    "sticker_arrows_move_it_and": "{name}-sticker: pijltjes verplaatsen hem, [ en ] draaien hem, Delete verwijdert hem; selecteer hem voor kleur en grootte",
+    "selected_sticker_s_colour": "kleur van geselecteerde sticker",
+    "add_a_sticker": "een {name}-sticker toevoegen",
+    "a_secret_sticker": "een geheime sticker",
+    "a_card_shows_at_most": "een kaart toont maximaal {MAX_SHOWCASE}",
+    "remove_every_sticker": "alle stickers verwijderen",
+    "nothing_to_show_off_yet": "Nog niets om te laten zien. Je prestaties komen hier te staan zodra je ze verdient.",
+    "tabs": {
+      "showcase": {
+        "title": "etalage",
+        "hint": "maximaal {max} prestaties die je hebt verdiend"
+      },
+      "garage": {
+        "title": "garage",
+        "hint": "kleed je raceauto aan: dit is waarmee je op de baan rijdt en wat iedereen die tegen je racet ziet"
+      }
+    },
+    "tint": "{slot}tint"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {
+        "title": "rand",
+        "hint": "rond de kaart"
+      },
+      "frame": {
+        "title": "lijst",
+        "hint": "rond je metgezel"
+      },
+      "aura": {
+        "title": "aura",
+        "hint": "een gloed achter je metgezel"
+      },
+      "backdrop": {
+        "title": "achtergrond",
+        "hint": "achter alles op de kaart"
+      },
+      "sticker": {
+        "title": "stickers",
+        "hint": "sleep ze overal op de kaart heen"
+      }
+    },
+    "items": {
+      "border-double": {
+        "name": "dubbele lijn"
+      },
+      "border-stitch": {
+        "name": "gestikt"
+      },
+      "border-ribbon": {
+        "name": "lint"
+      },
+      "border-corners": {
+        "name": "hoekhaken"
+      },
+      "border-keycap": {
+        "name": "toetskap"
+      },
+      "border-heat": {
+        "name": "hitte"
+      },
+      "border-neon": {
+        "name": "neon"
+      },
+      "border-gilt": {
+        "name": "verguld"
+      },
+      "border-midnight": {
+        "name": "middernacht"
+      },
+      "frame-double": {
+        "name": "dubbele ring"
+      },
+      "frame-dashed": {
+        "name": "gestreepte ring"
+      },
+      "frame-square": {
+        "name": "vierkante toetskap"
+      },
+      "frame-cog": {
+        "name": "tandwiel"
+      },
+      "frame-petals": {
+        "name": "bloemblaadjes"
+      },
+      "frame-orbit": {
+        "name": "baan"
+      },
+      "frame-laurel": {
+        "name": "laurier"
+      },
+      "frame-crown": {
+        "name": "kroon"
+      },
+      "aura-soft": {
+        "name": "zachte gloed"
+      },
+      "aura-pulse": {
+        "name": "puls"
+      },
+      "aura-ember": {
+        "name": "gloedkool"
+      },
+      "aura-halo": {
+        "name": "halo"
+      },
+      "aura-aurora": {
+        "name": "noorderlicht"
+      },
+      "aura-prism": {
+        "name": "prisma"
+      },
+      "backdrop-dots": {
+        "name": "stippen"
+      },
+      "backdrop-pinstripe": {
+        "name": "krijtstreep"
+      },
+      "backdrop-graph": {
+        "name": "ruitjespapier"
+      },
+      "backdrop-waves": {
+        "name": "golven"
+      },
+      "backdrop-stars": {
+        "name": "sterrenveld"
+      },
+      "backdrop-confetti": {
+        "name": "confetti"
+      },
+      "sticker-star": {
+        "name": "ster"
+      },
+      "sticker-leaf": {
+        "name": "blad"
+      },
+      "sticker-key": {
+        "name": "toetskap"
+      },
+      "sticker-heart": {
+        "name": "hart"
+      },
+      "sticker-flower": {
+        "name": "bloem"
+      },
+      "sticker-bolt": {
+        "name": "bliksem"
+      },
+      "sticker-note": {
+        "name": "muzieknoot"
+      },
+      "sticker-moon": {
+        "name": "maan"
+      },
+      "sticker-rocket": {
+        "name": "raket"
+      },
+      "sticker-castle": {
+        "name": "kasteel"
+      },
+      "sticker-magnifier": {
+        "name": "vergrootglas"
+      },
+      "sticker-book": {
+        "name": "boek"
+      },
+      "sticker-flag": {
+        "name": "geblokte vlag"
+      },
+      "sticker-crown": {
+        "name": "kroon"
+      },
+      "sticker-teacup": {
+        "name": "theekopje"
+      },
+      "sticker-sparkle": {
+        "name": "fonkeling"
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "mode": {
+    "time": "tijd",
+    "words": "woorden",
+    "quote": "citaat",
+    "book": "boek",
+    "mixed": "gemengd",
+    "sustained": "aanhoudend",
+    "custom": "aangepast",
+    "mistakes": "fouten"
+  },
+  "mode_label": "modus",
+  "sustained_title": "Houd je tempo of nauwkeurigheid zo lang mogelijk vol",
+  "status": {
+    "caps_lock": "caps lock staat aan",
+    "restart": "opnieuw starten",
+    "pause": "pauzeren",
+    "resume": "hervatten",
+    "caps_lock_label": "caps lock",
+    "num_lock_off": "num lock staat uit",
+    "num_lock_off_title": "het numerieke toetsenblok stuurt pijltjes terwijl num lock uitstaat",
+    "time_so_far": "verstreken tijd",
+    "focus_click": "klik of druk op een toets om te focussen",
+    "restart_symbol": "↻ "
+  },
+  "hints": {
+    "tab_enter_restart": "tab → enter opnieuw starten · esc opdrachten",
+    "tab_tab_restart": "tab → tab opnieuw starten · esc opdrachten",
+    "enter_to_restart": "enter om opnieuw te starten",
+    "tab_to_restart": "tab om opnieuw te starten"
+  },
+  "focus": {
+    "label": "focus: {mode}",
+    "aria_label": "focusweergave: {mode}. Druk om te wijzigen.",
+    "off": "uit",
+    "line": "regel",
+    "sentence": "zin"
+  },
+  "instructions": {
+    "standard": "Typ de weergegeven tekst. Spatie gaat naar het volgende woord en Backspace corrigeert. Tab en daarna Enter start opnieuw. Escape opent de opdrachtregel.",
+    "sustained": "Houd je tempo op of boven het doel. Drie seconden eronder beëindigt de test. Spatie gaat naar het volgende woord en Backspace corrigeert. Tab en daarna Enter start opnieuw. Escape opent de opdrachtregel.",
+    "accuracy": "Houd je nauwkeurigheid op of boven het doel terwijl je in een gelijkmatig tempo typt. Vijf seconden eronder beëindigt de test. Spatie gaat naar het volgende woord en Backspace corrigeert. Tab en daarna Enter start opnieuw. Escape opent de opdrachtregel."
+  },
+  "mode_bar": {
+    "custom": "aangepast {unit}",
+    "enable_a_book_dataset": "een boekdataset inschakelen",
+    "add_a_text_to_read": "een tekst toevoegen om te lezen",
+    "from": "vanaf {percent}%",
+    "start_over": "opnieuw beginnen",
+    "read_this_one_from_the": "Deze vanaf het begin lezen",
+    "add_a_text_to_practise": "een tekst toevoegen om te oefenen",
+    "manage": "beheren",
+    "change": "wijzigen",
+    "choose_what_and_how_to": "Kies wat en hoe je wilt oefenen",
+    "TABS": {
+      "time": {
+        "label": "tijd"
+      },
+      "words": {
+        "label": "woorden"
+      },
+      "quote": {
+        "label": "citaat"
+      },
+      "mixed": {
+        "label": "gemengd"
+      },
+      "sustained": {
+        "label": "aanhoudend",
+        "title": "Houd je tempo of nauwkeurigheid zo lang mogelijk vol"
+      },
+      "custom": {
+        "label": "aangepast"
+      }
+    },
+    "SUSTAINED_SOURCES": {
+      "wordstream": {
+        "label": "veelvoorkomende woorden"
+      },
+      "quotes": {
+        "label": "citaten"
+      },
+      "work": {
+        "label": "boeken"
+      },
+      "text": {
+        "label": "mijn teksten"
+      }
+    },
+    "BOOK_ORDER_OPTIONS": {
+      "sequential": {
+        "label": "op volgorde",
+        "title": "Lees verder waar je stopte en ga daarna naar het volgende boek"
+      },
+      "passages": {
+        "label": "passages",
+        "title": "Willekeurige passages uit het boek"
+      },
+      "chunks": {
+        "label": "stukken",
+        "title": "Willekeurige stukken uit het boek"
+      }
+    },
+    "source": {
+      "wordstream": {
+        "label": "veelvoorkomende woorden"
+      },
+      "quotes": {
+        "label": "citaten"
+      }
+    },
+    "nodes": {
+      "pace": {
+        "label": "tempo",
+        "title": "Houd je recente snelheid op of boven een doel (3 seconden om te herstellen)"
+      },
+      "accuracy": {
+        "label": "nauwkeurigheid"
+      }
+    },
+    "lengthOptions": {
+      "entire": {
+        "label": "hele tekst"
+      }
+    },
+    "custom_title": "aangepast",
+    "accuracy_title": "Houd je recente nauwkeurigheid op of boven een doel en typ minstens {floor} wpm (5 seconden om te herstellen)",
+    "keep_up": "bijhouden",
+    "text_source": "tekstbron",
+    "text_to_read": "tekst om te lezen",
+    "reading_order": "leesvolgorde",
+    "text_to_practise": "tekst om te oefenen",
+    "book_to_read": "boek om te lezen",
+    "unit_words": "woorden",
+    "unit_wpm": "wpm",
+    "unit_seconds": "seconden"
+  },
+  "training_notice": {
+    "mistakes": "fouten, {join}",
+    "suggested": "{count, plural, one {# voorgesteld} other {# voorgesteld}}",
+    "ready": "{count, plural, one {# klaar om te oefenen} other {# klaar om te oefenen}}"
+  },
+  "type_view_goal": {
+    "today": "✓ {formatGoalAmount} vandaag",
+    "today_2": "{floor} / {formatGoalAmount} vandaag",
+    "aria": "dagelijks doel: {done} van {target} vandaag{met}",
+    "aria_met": ", gehaald"
+  },
+  "type_view_pace": {
+    "target": "doel {target}%",
+    "target_wpm": "doel {target} wpm",
+    "wpm": "{round} / {target} wpm",
+    "below_target_words_per_minute": "Onder doel: {target} woorden per minuut. {seconds} seconden om te herstellen.",
+    "too_slow_keep_at_least": "Te langzaam: houd minstens {floorWpm} woorden per minuut. {seconds} seconden om te herstellen.",
+    "accuracy_below_percent_seconds_to": "Nauwkeurigheid onder {target} procent. {seconds} seconden om te herstellen.",
+    "back_on_target": "Weer op doel.",
+    "back_on_pace": "Weer op tempo."
+  },
+  "type_view": {
+    "wpm": "{round} wpm · {round2}%",
+    "test_complete_words_per_minute": "Test voltooid: {round} woorden per minuut, {toFixed} procent nauwkeurigheid, {errors} fouten."
+  },
+  "typing_input": {
+    "typing_input": "typinvoer"
+  },
+  "type_view_book": {
+    "now_reading": "Nu aan het lezen: {title}{by}.",
+    "by_author": " door {author}",
+    "now": "nu: {title}{by}"
+  },
+  "text_providers": {
+    "unknown_practice_source": "Onbekende oefenbron \"{source}\""
+  }
+}

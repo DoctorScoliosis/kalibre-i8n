@@ -1,0 +1,12 @@
+{
+  "id": "nl-NL",
+  "name": "Nederlands (Nederland)",
+  "englishName": "Dutch (Netherlands)",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": true,
+  "reviewed": "machine",
+  "revision": 1,
+  "version": "2026-10-03",
+  "changes": "Initial Dutch (Netherlands) translation pass"
+}

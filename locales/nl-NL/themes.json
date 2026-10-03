@@ -1,0 +1,128 @@
+{
+  "editor": {
+    "save_theme": "thema opslaan",
+    "name": "naam",
+    "light_or_dark": "licht of donker",
+    "readability": "leesbaarheid",
+    "page": "pagina",
+    "background": "achtergrond",
+    "panels": "panelen",
+    "lines_borders": "lijnen en randen",
+    "selection": "selectie",
+    "text": "tekst",
+    "dim_text": "gedimde tekst",
+    "accent": "accent",
+    "typed_text": "getypte tekst",
+    "mistakes": "fouten",
+    "extra_letters": "extra letters",
+    "caret": "cursor"
+  },
+  "actions": {
+    "use": "gebruiken",
+    "edit": "bewerken",
+    "decorate": "versieren",
+    "export": "exporteren",
+    "delete": "verwijderen",
+    "done": "klaar",
+    "customise_current": "huidig thema aanpassen",
+    "import_theme": "een thema importeren",
+    "decorations_for": "versieringen voor {name}",
+    "use_theme": "{name} gebruiken",
+    "edit_theme": "{name} bewerken",
+    "decorate_theme": "{name} versieren",
+    "export_theme": "{name} exporteren",
+    "delete_theme": "{name} verwijderen",
+    "copy_and_decorate": "dit thema kopiëren en versieren",
+    "decorations_earned_zero": "Thema-versieringen, verdiend door te spelen, komen op je eigen thema's.",
+    "decorations_earned_notice": "Je hebt {count, plural, one {een thema-versiering} other {# thema-versieringen}} verdiend. Ze komen op je eigen thema's, dus maak een kopie van dit thema om {count, plural, one {hem} other {ze}} te dragen.",
+    "decorations_earned_info": "Verdiend door te spelen. Ze blijven bij dit thema op dit profiel en worden niet opgenomen wanneer je het thema exporteert."
+  },
+  "picker": {
+    "preview": "voorbeeld",
+    "instructions": "beweeg erover voor voorbeeld · klik of druk op enter om toe te passen · esc om te sluiten",
+    "close": "sluiten"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "cursor",
+      "hint": "rond de cursor (de vorm ervan is een typinstelling)"
+    },
+    "backdrop": {
+      "title": "achtergrond",
+      "hint": "een subtiel patroon achter de pagina"
+    },
+    "frame": {
+      "title": "lijst",
+      "hint": "rond de tekst die je typt"
+    },
+    "keystroke": {
+      "title": "toetsaanslag",
+      "hint": "hoe elke getypte letter neerkomt"
+    },
+    "flourish": {
+      "title": "versiering",
+      "hint": "een klein teken naast het woordmerk"
+    }
+  },
+  "decorations": {
+    "caret-glow": {"name": "zachte gloed"},
+    "caret-halo": {"name": "halo"},
+    "caret-drop": {"name": "inktdruppel"},
+    "caret-trail": {"name": "komeetstaart"},
+    "backdrop-dots": {"name": "stippenraster"},
+    "backdrop-ruled": {"name": "gelinieerd papier"},
+    "backdrop-graph": {"name": "ruitjespapier"},
+    "backdrop-grain": {"name": "korrel"},
+    "backdrop-checks": {"name": "zachte ruiten"},
+    "frame-corners": {"name": "hoekmarkeringen"},
+    "frame-bookplate": {"name": "boekplaat"},
+    "frame-tab": {"name": "tabblad"},
+    "frame-brackets": {"name": "haken"},
+    "keystroke-ink": {"name": "inktvervaging"},
+    "keystroke-rise": {"name": "zachte stijging"},
+    "keystroke-bloom": {"name": "bloei"},
+    "flourish-leaf": {"name": "blad"},
+    "flourish-star": {"name": "ster"},
+    "flourish-key": {"name": "sleutel"},
+    "flourish-letter": {"name": "de letter van je metgezel"},
+    "flourish-moon": {"name": "maan"}
+  },
+  "presets": {
+    "paper": {"name": "papier"},
+    "ink": {"name": "inkt"},
+    "dusk": {"name": "schemering"},
+    "eink": {"name": "e-inkt"},
+    "eink-night": {"name": "e-inkt nacht"},
+    "cream": {"name": "crème"},
+    "rose": {"name": "roos"},
+    "harbour": {"name": "haven"},
+    "forest": {"name": "bos"},
+    "plum": {"name": "pruim"},
+    "slate": {"name": "leisteen"},
+    "terminal": {"name": "terminal"},
+    "contrast": {"name": "hoog contrast"},
+    "contrast-night": {"name": "hoog contrast nacht"}
+  },
+  "checks": {
+    "text_bg": "tekst op de pagina",
+    "text_surface": "tekst op panelen",
+    "textDim_bg": "gedimde tekst op de pagina",
+    "textDim_surface": "gedimde tekst op panelen",
+    "correct_bg": "getypte tekst",
+    "incorrect_bg": "fouten",
+    "correct_textDim": "getypte tekst onderscheidt zich van tekst die nog moet worden getypt",
+    "accent_bg": "accent",
+    "caret_bg": "cursor",
+    "extra_bg": "extra letters",
+    "chartWpm_bg": "grafiek: wpm-lijn",
+    "chartRaw_bg": "grafiek: ruwe lijn",
+    "chartError_bg": "grafiek: fouten",
+    "heat1_bg": "toetshitte 1",
+    "heat4_bg": "toetshitte 4",
+    "not_a_theme": "geen thema",
+    "needs_a_name": "heeft een naam van maximaal 40 tekens nodig",
+    "scheme_must_be": "schema moet licht of donker zijn",
+    "bad_hex": "kleur \"{token}\" moet een #rrggbb-waarde zijn",
+    "not_readable": "niet leesbaar genoeg: {labels}"
+  }
+}

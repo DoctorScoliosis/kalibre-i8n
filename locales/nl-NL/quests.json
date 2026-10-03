@@ -1,0 +1,91 @@
+{
+  "status": {
+    "done": "klaar"
+  },
+  "actions": {
+    "swap": "wisselen",
+    "swap_title": "Wissel deze missie om voor een andere (eenmaal per dag)",
+    "go": "gaan",
+    "go_aria": "gaan: {quest}"
+  },
+  "labels": {
+    "today": "vandaag",
+    "quests": "missies",
+    "challenge": "uitdaging",
+    "daily_goal": "dagelijks doel",
+    "daily_goal_label": "dagelijks doel "
+  },
+  "today": {
+    "panel_aria": "missies van vandaag",
+    "getting": "Missies van vandaag ophalen…",
+    "new_at_midnight": "{difficulty} · nieuwe missies om middernacht · ",
+    "difficulty": "moeilijkheid",
+    "summary_aria": "vandaag: {done} van {total} missies voltooid{challenge, select, done {, uitdaging voltooid} other {}}"
+  },
+  "quest_note": {
+    "xp": "+{reward} xp",
+    "challenge_done": "uitdaging voltooid: {description}",
+    "quest_done": "missie voltooid: {description}"
+  },
+  "match": {
+    "tests": "{count, plural, one {een test} other {tests}}",
+    "drills": "{count, plural, one {een oefening} other {oefeningen}}",
+    "time": "{count, plural, one {een tijdtest} other {tijdtests}}",
+    "words": "{count, plural, one {een woordentest} other {woordentests}}",
+    "quote": "{count, plural, one {een citaat} other {citaten}}",
+    "book": "{count, plural, one {een leessessie} other {leessessies}}",
+    "sustained": "{count, plural, one {een aanhoudende test} other {aanhoudende tests}}",
+    "time_duration": "{count, plural, one {een test van {duration} seconden} other {tests van {duration} seconden}}",
+    "words_count": "{count, plural, one {een test van {wordCount} woorden} other {tests van {wordCount} woorden}}",
+    "quote_category": "{count, plural, one {een citaat uit {category}} other {citaten uit {category}}}"
+  },
+  "categories": {
+    "short": "kort",
+    "medium": "gemiddeld",
+    "long": "lang",
+    "huge": "enorm",
+    "massive": "gigantisch"
+  },
+  "game_titles": {
+    "feed": "Feed",
+    "castle": "Castle",
+    "space": "Space",
+    "spot": "Spot"
+  },
+  "difficulty_words": {
+    "easy": "op makkelijk",
+    "normal": "op normaal",
+    "hard": "op moeilijk"
+  },
+  "conditions": {
+    "wpm": "{wpm}+ wpm",
+    "accuracy": "{accuracy}%+ nauwkeurigheid",
+    "and": " en ",
+    "at": " bij {parts}",
+    "kept_going_after": ", bleef {minutes, plural, one {# minuut} other {# minuten}} doorgaan",
+    "kept_going": " bleef {minutes, plural, one {# minuut} other {# minuten}} doorgaan"
+  },
+  "describe": {
+    "words": "typ {count, plural, one {# woord} other {# woorden}}",
+    "words_in": "typ {count, plural, one {# woord} other {# woorden}} in {match}",
+    "minutes": "typ {count, plural, one {# minuut} other {# minuten}} lang",
+    "minutes_in": "typ {count, plural, one {# minuut} other {# minuten}} lang in {match}",
+    "minutes_book": "typ {count, plural, one {# minuut} other {# minuten}} uit een boek",
+    "tests_one": "{match} voltooien",
+    "tests_many": "{count} {match} voltooien",
+    "run": "{match}{conditions} voltooien",
+    "game_runs": "{game} {count, plural, one {een keer} other {# keer}} spelen",
+    "game_score": "score {score} in {game}",
+    "game_score_difficulty": "score {score} in {game} {difficulty}",
+    "game_found": "{count, plural, one {# fout} other {# fouten}} vinden in één {game}-run",
+    "lesson_run": "een les blindtypen typen met {accuracy}%+ nauwkeurigheid",
+    "lessons": "{count, plural, one {een les blindtypen doen} other {# lessen blindtypen doen}}",
+    "pad_tests": "{count, plural, one {een tien-toetsentest voltooien} other {# tien-toetsentests voltooien}}",
+    "pad_run": "een tien-toetsentest voltooien",
+    "pad_ksph": "{ksph}+ toetsaanslagen per uur",
+    "pad_entries": ", met {entries}+ invoeren",
+    "pad_lessons": "{count, plural, one {een numeriekeklavierles doen} other {# numeriekeklavierlessen doen}}",
+    "sums": "{count, plural, one {# som} other {# sommen}} goed beantwoorden",
+    "something": "iets"
+  }
+}
