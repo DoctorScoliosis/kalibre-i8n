@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "speed": "snelheid",
+    "accuracy": "nauwkeurigheid",
+    "characters": "tekens",
+    "words": "woorden",
+    "time": "tijd",
+    "consistency": "consistentie",
+    "best": "persoonlijk record",
+    "average": "gemiddelde",
+    "tests": "tests"
+  },
+  "candidate": {
+    "prompt_label": "trainingssuggestie",
+    "body": "Je blijft {word} typen · {count, plural, one {# keer} other {# keer}} in {sessions, plural, one {# sessie} other {# sessies}}.",
+    "train": "trainen",
+    "dismiss": "negeren",
+    "later": "later",
+    "drill_it_now": "nu oefenen"
+  },
+  "actions": {
+    "next": "volgende",
+    "retry": "opnieuw",
+    "watch_replay": "replay bekijken",
+    "save_ghost": "als ghost opslaan",
+    "words": "woorden",
+    "final": "eindresultaat",
+    "as_typed": "zoals getypt"
+  },
+  "race_results": {
+    "full_stats": "volledige statistieken",
+    "your_race": "jouw race",
+    "this_race_looked_like_key": "deze race leek op toetsen rammen ({notCountedReason}) en is daarom niet meegeteld: geen xp, fouten of statistieken.",
+    "lv_to_go": " · lvl {level} · nog {value}",
+    "drill_now": "nu oefenen",
+    "counts": "fouten {errors} · woorden {words}"
+  },
+  "replay_player": {
+    "test_replay": "testreplay",
+    "pinned": "vastgezet ✓",
+    "pinned_limit_reached_replays_unpin": "maximum voor vastgezette replays bereikt ({PINNED_LOGS_CAP} replays). Maak eerst een oudere replay los.",
+    "close_replay": "replay sluiten",
+    "replay_scrubber": "replay-navigatie",
+    "jump_to_playhead": "naar afspeelpositie springen ⇥",
+    "0_wpm": "0 wpm",
+    "replay_timeline_zoom": "zoom op replay-tijdlijn",
+    "zoom": "zoomen",
+    "restart_replay": "replay opnieuw starten",
+    "play": "afspelen",
+    "saved_as_ghost": "opgeslagen als ghost ✓",
+    "wpm": "{round} wpm"
+  },
+  "result_chart": {
+    "per_second_results": "resultaten per seconde",
+    "not_enough_typing_to_draw": "Niet genoeg typwerk om een grafiek te tekenen.",
+    "chart_zoom": "grafiekzoom",
+    "speed_over_time_use_the": "Snelheid in de tijd. Gebruik de linker- en rechterpijltjes om elke seconde te lezen."
+  },
+  "results": {
+    "words_lowest_accuracy_target_kept": "{words} woorden · laagste nauwkeurigheid {round}% · doel {targetAccuracy}% · {floorWpm}+ wpm behouden",
+    "words_peak_pace_lowest_target": "{words} woorden · piektempo {round} · laagste {round2} · doel {targetWpm} wpm",
+    "longest_above_target_raw_in": "langst boven doel {formatDuration} · {nearMisses} · rauw {round} · {formatDuration2} in totaal",
+    "mistake_analysis_failed_for_this": "foutenanalyse voor deze sessie is mislukt",
+    "common_mistakes": "veelvoorkomende fouten",
+    "show_the_words": "de woorden tonen",
+    "expected": "verwacht "{text}"",
+    "typed_expected": "getypt {typed}, verwacht {text}",
+    "deleted": "verwijderd",
+    "this_drill": "deze oefening",
+    "now": "nu {to}",
+    "race_this_drill": "race met deze oefening",
+    "race_the_same_drill_again": "Race dezelfde oefening opnieuw, tegen een ghost van deze run",
+    "results": "resultaten",
+    "survived": "gehaald",
+    "wpm": "wpm",
+    "acc": "nauwk.",
+    "this_test_looked_like_key": "Deze test leek op toetsen rammen ({notCountedReason}) en is daarom niet meegeteld: geen XP, fouten of statistieken.",
+    "suggested_for_training": "{extraSuggested} voorgesteld voor training",
+    "book_range": " {start} → {end}",
+    "the_end": "het einde",
+    "book_words": " · {count} woorden",
+    "overdeleted": "je hebt {count, plural, one {# correct teken} other {# correcte tekens}} te veel verwijderd na de slip",
+    "overdeleted_cost": ", ongeveer {cost} wpm",
+    "mistake_line": "{errors} in {exposures}{share} · vóór {before}",
+    "summary_line": "ruw {raw} · {spread} · {duration}",
+    "practice_words": " · {count, plural, one {# oefenwoord} other {# oefenwoorden}}",
+    "letters_to_cover": " · {count, plural, one {# letter} other {# letters}} nog te behandelen",
+    "mistakes_ready": "{count, plural, one {# fout klaar} other {# fouten klaar}}",
+    "consistency_spread": "consistentie {consistency}% (±{wpmStdDev} wpm)",
+    "consistency_none": "consistentie –"
+  }
+}
