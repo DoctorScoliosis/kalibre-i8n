@@ -13,7 +13,23 @@
     "fed_hinted": " (la pista: medio tiempo)",
     "fed_yum": " · ñam",
     "typo": "−{seconds}s · un error",
-    "typo_meant": " (¿{meant}?)"
+    "typo_meant": " (¿{meant}?)",
+    "serving_tray_label": "bandeja de servicio",
+    "serving_tray_help": "haz clic en la cuchara para llevarla; arrástrala hasta la criatura",
+    "serving_tray_empty": "escribe una palabra para cargar la cuchara",
+    "serving_tray_count": "bandeja {count}/{capacity}",
+    "serving_tray_full_state": "bandeja llena · sirve primero",
+    "serving_queued": "{text} en cola · bandeja {count}/{capacity}",
+    "serving_tray_full": "la bandeja está llena — sirve primero",
+    "serving_wasted": " · −{seconds}s · {count, plural, one {1 palabra desperdiciada} other {# palabras desperdiciadas}}",
+    "serving_served": "servido · {matched}/{total} coinciden",
+    "serving_nothing_matched": "nada coincide — se perdió tiempo",
+    "prepared": "{text} preparado",
+    "cancelled": "comida cancelada",
+    "carrying": "llevando la comida a la criatura",
+    "spoon_pickup": "haz clic y arrastra para servir",
+    "no_match": "no hay plato que coincida con este invitado",
+    "returned": "bandeja devuelta a la estación"
   },
   "castle": {
     "title": "castillo",
@@ -64,7 +80,13 @@
     "section_critical": ", crítico",
     "section_needs": ", necesita ladrillos que {requirement}",
     "news_line": "{label}: {note}",
-    "powerup": "potenciador"
+    "powerup": "potenciador",
+    "sortie_title": "salida de la guarnición: reúne a los defensores en el campo",
+    "sortie_ready": "despliega la salida · alt+enter",
+    "sortie_mustering": "reunión ({seconds}s)",
+    "sortie_breached": "puerta de entrada vulnerada",
+    "sortie_no_bricks": "se necesitan ladrillos para equipar",
+    "guard_title": "guardia de guarnición: {hp}/{maxHp} PV"
   },
   "space": {
     "title": "espacio",
@@ -103,7 +125,11 @@
     "it_should_be": "debería ser «{original}» · {errorTitle}",
     "repairing": "{title} · corrígelo aquí (← → mueve el cursor) y pulsa intro",
     "repairing_retry": " · un intento más",
-    "repairing_cancel": " · esc para cancelar"
+    "repairing_cancel": " · esc para cancelar",
+    "lives": "{count}/{max} vidas",
+    "streak": "racha {count}",
+    "combo": "combo ×{multiplier}",
+    "escaped": "{word} pasó de largo"
   },
   "ui": {
     "pause": "pausa",
@@ -426,6 +452,53 @@
                 "label": "límite de satisfacción"
               }
             }
+          },
+          "serving": {
+            "label": "servicio físico",
+            "group": "para empezar",
+            "summary": "carga palabras en la cuchara y llévalas físicamente hasta la criatura para servirlas.",
+            "mechanics": {
+              "spoon": {
+                "label": "cuchara",
+                "summary": "una palabra válida escrita carga la cuchara. haz clic y arrastra para servir."
+              },
+              "targeting": {
+                "label": "objetivo",
+                "summary": "pasa el cursor sobre la criatura para resaltarla y suelta para entregar la comida."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "cargar cuchara"
+              },
+              "i1": {
+                "action": "llevar y servir"
+              },
+              "i2": {
+                "action": "cancelar comida"
+              }
+            },
+            "visuals": {
+              "loaded-spoon": {
+                "label": "cuchara cargada"
+              },
+              "creature-highlight": {
+                "label": "objetivo resaltado"
+              }
+            }
+          }
+        },
+        "options": {
+          "serving": {
+            "label": "bandeja de servicio",
+            "choices": {
+              "off": {
+                "label": "desactivado"
+              },
+              "on": {
+                "label": "activado"
+              }
+            }
           }
         }
       },
@@ -580,6 +653,18 @@
               "drops": {
                 "label": "lanzamientos de ladrillos",
                 "summary": "lanza un ladrillo contra un enemigo para dañarlo o aplastarlo."
+              },
+              "saboteur": {
+                "label": "saboteador",
+                "summary": "infiltrados con barriles de pólvora que cargan contra las murallas; aplástalos pronto para hacer explotar el barril entre las filas atacantes."
+              },
+              "ladderman": {
+                "label": "colocador de escaleras",
+                "summary": "ingenieros de asedio que colocan escaleras de asalto; deja caer ladrillos para derribar la escalera y provocar una cadena de derribos."
+              },
+              "sortie": {
+                "label": "salida de la guarnición",
+                "summary": "reúne defensores desde la puerta de entrada y llévalos al campo para interceptar a los atacantes antes de que lleguen a tus murallas."
               }
             },
             "controls": {
@@ -588,11 +673,20 @@
               },
               "i1": {
                 "action": "apuntar a una sección o enemigo"
+              },
+              "i2": {
+                "action": "despliega la salida de la guarnición en la columna del cursor"
               }
             },
             "subDemos": {
               "i0": {
                 "label": "lanzamientos de ladrillos"
+              },
+              "i1": {
+                "label": "saboteadores y escaleras"
+              },
+              "i2": {
+                "label": "salidas de la guarnición"
               }
             },
             "visuals": {
@@ -607,6 +701,15 @@
               },
               "boulder-arc": {
                 "label": "arco de la piedra"
+              },
+              "saboteur-keg": {
+                "label": "saboteador (barril)"
+              },
+              "siege-ladder": {
+                "label": "escalera de asedio"
+              },
+              "garrison-soldier": {
+                "label": "soldado de la guarnición"
               }
             }
           },
@@ -994,6 +1097,12 @@
               },
               "endless": {
                 "label": "sin fin"
+              },
+              "marathon": {
+                "label": "maratón"
+              },
+              "scroller": {
+                "label": "desplazador"
               }
             }
           },
@@ -1071,6 +1180,14 @@
               "false-flag": {
                 "label": "falsos positivos",
                 "summary": "marcar una palabra correcta resta puntos y (en modo sin fin) tiempo."
+              },
+              "marathon": {
+                "label": "resistencia de maratón",
+                "summary": "empieza con 3 vidas. las falsas alarmas y las reparaciones fallidas cuestan una vida; despejar 3 pasajes sin errores restaura una."
+              },
+              "scroller": {
+                "label": "cinta transportadora",
+                "summary": "los pasajes se desplazan continuamente por una cinta transportadora. atrapa los errores antes de que salgan de la pantalla."
               }
             },
             "controls": {
@@ -1087,6 +1204,12 @@
             "subDemos": {
               "i0": {
                 "label": "recorrido del pasaje"
+              },
+              "i1": {
+                "label": "resistencia de maratón"
+              },
+              "i2": {
+                "label": "cinta transportadora"
               }
             },
             "visuals": {
@@ -1098,6 +1221,12 @@
               },
               "false-flag-penalty": {
                 "label": "penalización por falso positivo"
+              },
+              "marathon-lives": {
+                "label": "vidas de maratón"
+              },
+              "scroller-belt": {
+                "label": "cinta transportadora"
               }
             }
           },
@@ -1311,6 +1440,22 @@
     "wrong_kind_of_brick": "tipo de ladrillo incorrecto",
     "nobody_to_drop_it_on": "no hay nadie sobre quien lanzarlo",
     "two_are_running_already": "ya hay dos activos",
-    "nothing_stored_there": "no hay nada guardado ahí"
+    "nothing_stored_there": "no hay nada guardado ahí",
+    "crushed_a_brute": "bruto aplastado",
+    "crushed_a_sapper": "zapador aplastado",
+    "crushed_a_saboteur": "saboteador aplastado",
+    "crushed_a_ladderman": "colocador de escaleras aplastado",
+    "hit_a_brute": "bruto alcanzado",
+    "hit_a_sapper": "zapador alcanzado",
+    "hit_a_saboteur": "saboteador alcanzado",
+    "hit_a_ladderman": "colocador de escaleras alcanzado",
+    "stunned": "aturdido",
+    "keg_detonated": "barril de pólvora detonado",
+    "ladder_toppled": "escalera derribada",
+    "sortie_deployed": "salida de la guarnición desplegada",
+    "mustering": "guarnición reuniéndose",
+    "gate_breached": "puerta de entrada vulnerada",
+    "no_bricks": "se necesitan ladrillos para equipar",
+    "friendly_fire": "¡fuego amigo!"
   }
 }
