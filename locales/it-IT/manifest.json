@@ -16,9 +16,9 @@
     "sans-serif"
   ],
   "reviewed": "machine",
-  "revision": 1,
+  "revision": 2,
   "version": "2026-10-03",
-  "changes": "Initial Italian candidate translation",
+  "changes": "Filled current physical-serving gaps against kalibre-kanary",
   "files": {
     "about.json": "f345006819a29c30d78be2d18e6b05039770492f57a82bd72566242474634578",
     "achievements.json": "0a13b4cf33ea486609941539cb16a85e1841a177f11358cd16d12ff6910ed963",
@@ -46,6 +46,7 @@
     "themes.json": "b57ad12829bd088ea6a249af00c307cb929cc292919494ddd367cf80864b12f7",
     "typing.json": "a66e03fa5ee14db9d0a5a9fec662782dc01880420f2ca01bcdff82e0e200917e",
     "wardrobe.json": "1fa2de77f06d97fc1cd8d47342c2f3141d9b6458d1502f39d1ea4d10de31f7c7",
-    "words.json": "b2f279bd5018b05cbd4ff8a107c704a8d54adbdeed232d570f5a0834700824cf"
+    "words.json": "b2f279bd5018b05cbd4ff8a107c704a8d54adbdeed232d570f5a0834700824cf",
+    "games": "93b32fcf3386b64b64e8129be590d27219c8777c435c90f17e1e2f01a7136fab"
   }
 }
