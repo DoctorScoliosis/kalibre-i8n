@@ -270,170 +270,170 @@
   "games_registry": {
     "STRENGTH_MECHANIC": {
       "strength": {
-        "label": "strength",
-        "summary": "typing accuracy determines word strength. 1 per letter, +1 for K V W Y, +2 for J Q X Z. on hard, close variants of recent words count for less."
+        "label": "forza",
+        "summary": "la precisione di digitazione determina la forza della parola. 1 per lettera, +1 per K V W Y, +2 per J Q X Z. a difficoltà difficile, le varianti simili delle parole recenti contano meno."
       }
     },
     "GAMES": {
       "feed": {
         "contexts": {
           "getting-started": {
-            "label": "getting started",
-            "group": "getting started",
-            "summary": "type words to feed the creature before its patience runs out.",
+            "label": "per iniziare",
+            "group": "per iniziare",
+            "summary": "digita parole per nutrire la creatura prima che finisca la sua pazienza.",
             "highlights": [
-              "type a word and press space to serve it",
-              "keep the creature happy to stay alive"
+              "digita una parola e premi spazio per servirla",
+              "mantieni felice la creatura per restare in vita"
             ],
             "details": [
-              "each word you serve restores time. longer words restore more.",
-              "if you take too long, the creature’s mood drops and eventually it leaves."
+              "ogni parola che servi ripristina tempo. le parole più lunghe ne ripristinano di più.",
+              "se ci metti troppo, l'umore della creatura cala e alla fine se ne va."
             ],
             "mechanics": {
               "mood": {
-                "label": "mood",
-                "summary": "the creature’s mood drops over time if it isn’t fed."
+                "label": "umore",
+                "summary": "l'umore della creatura cala nel tempo se non viene nutrita."
               },
               "patience": {
-                "label": "patience",
-                "summary": "a timer counts down. serving a word that fits restores time."
+                "label": "pazienza",
+                "summary": "un timer scende. servire una parola adatta ripristina tempo."
               }
             },
             "controls": {
               "i0": {
-                "action": "submit word"
+                "action": "invia parola"
               }
             },
             "visuals": {
               "mood-content": {
-                "label": "content"
+                "label": "contenuto"
               },
               "mood-peckish": {
-                "label": "peckish"
+                "label": "affamato"
               },
               "mood-starving": {
-                "label": "starving"
+                "label": "affamatissimo"
               }
             }
           },
           "creature-requests": {
-            "label": "creature requests",
-            "group": "getting started",
-            "summary": "the creature asks for a kind of word — match it to earn full time.",
+            "label": "richieste della creatura",
+            "group": "per iniziare",
+            "summary": "la creatura chiede un tipo di parola: abbinalo per ottenere tutto il tempo.",
             "highlights": [
-              "read the prompt above the creature",
-              "a matching word earns full time; a wrong one costs time"
+              "leggi la richiesta sopra la creatura",
+              "una parola adatta dà tutto il tempo; una sbagliata lo fa perdere"
             ],
             "details": [
-              "requests include: short or long words, words starting with a letter, or words containing certain letters.",
-              "stuck for a while, or missed twice? a word that fits shows faintly on the creature, worth half the time."
+              "le richieste includono: parole brevi o lunghe, parole che iniziano con una lettera o parole che contengono determinate lettere.",
+              "se sei fermo da un po', o hai sbagliato due volte, sulla creatura compare in trasparenza una parola adatta, che vale metà tempo."
             ],
             "notes": {
               "hard": {
-                "text": "prompts are more specific and less time is given."
+                "text": "le richieste sono più specifiche e viene concesso meno tempo."
               }
             },
             "mechanics": {
               "prompts": {
-                "label": "prompts",
-                "summary": "the creature shows what kind of word it wants."
+                "label": "richieste",
+                "summary": "la creatura mostra che tipo di parola vuole."
               },
               "hint": {
-                "label": "belly hint",
-                "summary": "after idling or two misses, a valid word appears faintly on the creature."
+                "label": "suggerimento sulla pancia",
+                "summary": "dopo un'attesa o due errori, sulla creatura compare in trasparenza una parola valida."
               }
             },
             "controls": {
               "i0": {
-                "action": "submit word"
+                "action": "invia parola"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "belly hint"
+                "label": "suggerimento sulla pancia"
               }
             },
             "visuals": {
               "prompt-need": {
-                "label": "word prompt"
+                "label": "richiesta di parola"
               },
               "belly-hint": {
-                "label": "belly hint (half time)"
+                "label": "suggerimento sulla pancia (metà tempo)"
               }
             }
           },
           "snack-mode": {
-            "label": "snack mode",
-            "group": "getting started",
-            "summary": "the creature eats any word — stronger words fill it up more, but it gets hungry faster.",
+            "label": "modalità spuntino",
+            "group": "per iniziare",
+            "summary": "la creatura mangia qualsiasi parola: le parole più forti la riempiono di più, ma si affama più in fretta.",
             "highlights": [
-              "any valid word feeds the creature",
-              "longer and more accurate words restore more time"
+              "qualsiasi parola valida nutre la creatura",
+              "le parole più lunghe e precise ripristinano più tempo"
             ],
             "details": [
-              "there are no prompts: type whatever word you like.",
-              "the creature drains its patience faster than in fussy eater, so speed matters."
+              "non ci sono richieste: digita la parola che vuoi.",
+              "la creatura consuma la propria pazienza più rapidamente che con il mangione esigente, quindi la velocità conta."
             ],
             "controls": {
               "i0": {
-                "action": "submit word"
+                "action": "invia parola"
               }
             },
             "visuals": {
               "free-eating": {
-                "label": "any valid word"
+                "label": "qualsiasi parola valida"
               },
               "fast-patience": {
-                "label": "accelerated hunger"
+                "label": "fame accelerata"
               }
             }
           },
           "buffet": {
-            "label": "buffet service",
-            "group": "getting started",
-            "summary": "guests order several kinds of word. serve words to the table and they eat what fits.",
+            "label": "servizio a buffet",
+            "group": "per iniziare",
+            "summary": "gli ospiti ordinano diversi tipi di parola. servi le parole al tavolo e loro mangiano ciò che va bene.",
             "highlights": [
-              "guests arrive with orders of 1–3 word types",
-              "keep overall satisfaction above the red line"
+              "gli ospiti arrivano con ordini di 1–3 tipi di parola",
+              "mantieni la soddisfazione complessiva sopra la linea rossa"
             ],
             "details": [
-              "type a word and press space to put it on the table. guests eat what matches their orders.",
-              "a filled order pleases the guest and raises satisfaction. a guest who waits too long leaves upset.",
-              "nonsense words are tossed and hurt satisfaction. typos produce burnt dishes worth half.",
-              "dishes left on the table go stale and are wasted."
+              "digita una parola e premi spazio per metterla sul tavolo. gli ospiti mangiano ciò che corrisponde ai loro ordini.",
+              "un ordine completato fa piacere all'ospite e aumenta la soddisfazione. un ospite che aspetta troppo se ne va scontento.",
+              "le parole senza senso vengono buttate e riducono la soddisfazione. i refusi producono piatti bruciati che valgono metà.",
+              "i piatti lasciati sul tavolo diventano stantii e vengono sprecati."
             ],
             "mechanics": {
               "table": {
-                "label": "table",
-                "summary": "served words go on a shared table. guests eat what matches."
+                "label": "tavolo",
+                "summary": "le parole servite vanno su un tavolo condiviso. gli ospiti mangiano ciò che corrisponde."
               },
               "satisfaction": {
-                "label": "satisfaction",
-                "summary": "a 0–100 meter. if it falls to the floor line, the buffet closes."
+                "label": "soddisfazione",
+                "summary": "un indicatore 0–100. se scende alla soglia, il buffet chiude."
               },
               "orders": {
-                "label": "orders",
-                "summary": "each guest has 1–3 word-type requirements on their ticket."
+                "label": "ordini",
+                "summary": "ogni ospite ha 1–3 requisiti di tipo di parola sul proprio biglietto."
               },
               "stale": {
-                "label": "stale dishes",
-                "summary": "uncollected dishes go stale and hurt satisfaction."
+                "label": "piatti stantii",
+                "summary": "i piatti non raccolti diventano stantii e riducono la soddisfazione."
               }
             },
             "controls": {
               "i0": {
-                "action": "serve word to table"
+                "action": "servi la parola al tavolo"
               }
             },
             "visuals": {
               "guest-ticket": {
-                "label": "order ticket"
+                "label": "biglietto dell'ordine"
               },
               "buffet-table": {
-                "label": "serving table"
+                "label": "tavolo di servizio"
               },
               "satisfaction-floor": {
-                "label": "satisfaction floor"
+                "label": "soglia di soddisfazione"
               }
             }
           }
@@ -442,267 +442,267 @@
       "castle": {
         "options": {
           "waves": {
-            "label": "waves",
+            "label": "ondate",
             "choices": {
               "endless": {
-                "label": "endless"
+                "label": "senza fine"
               }
             }
           }
         },
         "contexts": {
           "getting-started": {
-            "label": "getting started",
-            "group": "getting started",
-            "summary": "type words to make bricks, aim at a section, and lay them to build and repair your castle.",
+            "label": "per iniziare",
+            "group": "per iniziare",
+            "summary": "digita parole per creare mattoni, mira a una sezione e posali per costruire e riparare il tuo castello.",
             "highlights": [
-              "type a word to make a brick",
-              "aim with the arrows or mouse, then press space to lay it"
+              "digita una parola per creare un mattone",
+              "mira con le frecce o il mouse, poi premi spazio per posarlo"
             ],
             "details": [
-              "longer words make stronger bricks. typos make cracked ones.",
-              "the castle starts whole, with a calm to stock up before the first wave.",
-              "bricks appear in the stockpile; pick one with 1–9 or drag it with the mouse."
+              "le parole più lunghe creano mattoni più forti. i refusi li rendono crepati.",
+              "il castello inizia integro, con una calma per fare scorta prima della prima ondata.",
+              "i mattoni compaiono nella scorta; prendine uno con 1–9 o trascinalo con il mouse."
             ],
             "notes": {
               "prompted": {
-                "text": "in special bricks mode, sections under attack need specific words. an off-spec brick loses most of its strength."
+                "text": "in modalità mattoni speciali, le sezioni sotto attacco richiedono parole specifiche. un mattone fuori specifica perde gran parte della sua forza."
               }
             },
             "mechanics": {
               "stockpile": {
-                "label": "stockpile",
-                "summary": "typed words become bricks waiting in the yard. pick one with a number key or use the newest."
+                "label": "scorta",
+                "summary": "le parole digitate diventano mattoni in attesa nel cortile. prendine uno con un numero o usa l'ultimo."
               },
               "quality": {
-                "label": "brick quality",
-                "summary": "solid, patched, cracked or rubble — depends on word length and typing accuracy."
+                "label": "qualità del mattone",
+                "summary": "solido, riparato, crepato o macerie: dipende dalla lunghezza della parola e dalla precisione."
               },
               "cursor": {
-                "label": "aiming",
-                "summary": "the cursor shows where the next brick will go. move it with arrows or click a section."
+                "label": "mira",
+                "summary": "il cursore mostra dove andrà il prossimo mattone. muovilo con le frecce o fai clic su una sezione."
               }
             },
             "controls": {
               "i0": {
-                "action": "aim at a section"
+                "action": "mira a una sezione"
               },
               "i1": {
-                "action": "lay the newest brick"
+                "action": "posa l'ultimo mattone"
               },
               "i2": {
-                "action": "pick a brick from the stockpile"
+                "action": "prendi un mattone dalla scorta"
               }
             },
             "visuals": {
               "stockpile-yard": {
-                "label": "stockpile yard"
+                "label": "cortile della scorta"
               },
               "brick-solid": {
-                "label": "solid brick"
+                "label": "mattone solido"
               },
               "brick-cracked": {
-                "label": "cracked brick"
+                "label": "mattone crepato"
               }
             }
           },
           "surviving": {
-            "label": "surviving",
-            "group": "surviving",
-            "summary": "keep the gate and the keep standing. each wave loses heart and retreats when critical sections hold.",
+            "label": "sopravvivere",
+            "group": "sopravvivere",
+            "summary": "mantieni in piedi cancello e mastio. ogni ondata perde determinazione e si ritira quando le sezioni critiche resistono.",
             "highlights": [
-              "the gate and the keep are critical — losing the keep ends the game",
-              "repair damaged sections by laying bricks on them"
+              "il cancello e il mastio sono critici: perdere il mastio fa finire la partita",
+              "ripara le sezioni danneggiate posandovi sopra dei mattoni"
             ],
             "details": [
-              "castle sections have integrity that drops when enemies attack.",
-              "high average repair across the castle drains the wave’s resolve faster.",
-              "each wave retreats when its resolve reaches zero, or when all its enemies are destroyed."
+              "le sezioni del castello hanno un'integrità che cala quando attaccano i nemici.",
+              "riparare molto in media in tutto il castello consuma più rapidamente la determinazione dell'ondata.",
+              "ogni ondata si ritira quando la sua determinazione raggiunge zero o quando tutti i suoi nemici vengono distrutti."
             ],
             "notes": {
               "hard": {
-                "text": "enemies arrive stronger and in larger numbers."
+                "text": "i nemici arrivano più forti e in numero maggiore."
               }
             },
             "mechanics": {
               "sections": {
-                "label": "castle sections",
-                "summary": "wall, tower, gate, keep and foundations. each has its own integrity."
+                "label": "sezioni del castello",
+                "summary": "muro, torre, cancello, mastio e fondamenta. ciascuna ha la propria integrità."
               },
               "integrity": {
-                "label": "integrity",
-                "summary": "a section’s hit points. reaches zero and the section is breached."
+                "label": "integrità",
+                "summary": "i punti ferita di una sezione. a zero, la sezione viene sfondata."
               },
               "resolve": {
-                "label": "wave resolve",
-                "summary": "a meter showing how close the wave is to retreating."
+                "label": "determinazione dell'ondata",
+                "summary": "un indicatore che mostra quanto manca alla ritirata dell'ondata."
               },
               "waves": {
-                "label": "waves",
-                "summary": "enemies arrive in numbered waves, with calms in between."
+                "label": "ondate",
+                "summary": "i nemici arrivano in ondate numerate, con pause tra una e l'altra."
               }
             },
             "visuals": {
               "curtain-wall": {
-                "label": "curtain wall"
+                "label": "muro di cinta"
               },
               "gatehouse": {
-                "label": "gatehouse"
+                "label": "corpo di guardia"
               },
               "great-keep": {
-                "label": "great keep"
+                "label": "grande mastio"
               },
               "wave-resolve": {
-                "label": "wave resolve"
+                "label": "determinazione dell'ondata"
               }
             }
           },
           "fighting": {
-            "label": "fighting",
-            "group": "fighting",
-            "summary": "drop bricks on enemies to crush them, or use the catapult to hit them from afar.",
+            "label": "combattere",
+            "group": "combattere",
+            "summary": "lascia cadere mattoni sui nemici per schiacciarli, oppure usa la catapulta per colpirli da lontano.",
             "highlights": [
-              "shift+enter drops a brick on the targeted attacker",
-              "brutes ram, sappers chip, catapults lob boulders from a distance"
+              "maiusc+invio lascia cadere un mattone sull'attaccante bersagliato",
+              "i bruti sfondano, i guastatori rosicchiano, le catapulte lanciano massi da lontano"
             ],
             "details": [
-              "a brick drop deals damage equal to the brick’s strength.",
-              "an enemy that isn’t crushed may be stunned for a moment.",
-              "catapults station at a distance: a dashed arc shows where one is aiming."
+              "un mattone lasciato cadere infligge danni pari alla sua forza.",
+              "un nemico non schiacciato può essere stordito per un momento.",
+              "le catapulte stanno a distanza: un arco tratteggiato mostra dove stanno mirando."
             ],
             "mechanics": {
               "brute": {
-                "label": "brute",
-                "summary": "rams sections up close. tires after a set number of blows."
+                "label": "bruto",
+                "summary": "sfonda le sezioni da vicino. si stanca dopo un certo numero di colpi."
               },
               "sapper": {
-                "label": "sapper",
-                "summary": "chips at sections. wanders between targets."
+                "label": "guastatore",
+                "summary": "danneggia le sezioni. si sposta tra i bersagli."
               },
               "catapult": {
-                "label": "catapult",
-                "summary": "hurls boulders from afar along a parabolic arc. out of drop range."
+                "label": "catapulta",
+                "summary": "scaglia massi da lontano lungo un arco parabolico. fuori dalla portata dei lanci."
               },
               "stun": {
-                "label": "stun",
-                "summary": "a non-lethal brick drop may stun the attacker, halting it briefly."
+                "label": "stordimento",
+                "summary": "un mattone non letale può stordire l'attaccante, fermandolo brevemente."
               },
               "drops": {
-                "label": "brick drops",
-                "summary": "drop a brick on an enemy to damage or crush it."
+                "label": "lanci di mattoni",
+                "summary": "lascia cadere un mattone su un nemico per danneggiarlo o schiacciarlo."
               },
               "saboteur": {
-                "label": "saboteur",
-                "summary": "powder keg infiltrators charging the walls; crush them early to detonate the keg in the attacker ranks."
+                "label": "sabotatore",
+                "summary": "infiltrati con barili di polvere che corrono verso le mura; schiacciali presto per far esplodere il barile tra gli attaccanti."
               },
               "ladderman": {
-                "label": "ladderman",
-                "summary": "siege engineers planting assault ladders; drop bricks to topple the ladder and cause a knockdown cascade."
+                "label": "scalatore",
+                "summary": "ingegneri d'assedio che piantano scale d'assalto; lascia cadere mattoni per rovesciare la scala e provocare una cascata di cadute."
               },
               "sortie": {
-                "label": "garrison sortie",
-                "summary": "muster defenders from the gatehouse into the field to intercept attackers before they reach your walls."
+                "label": "sortita della guarnigione",
+                "summary": "raduna i difensori dal corpo di guardia sul campo per intercettare gli attaccanti prima che raggiungano le mura."
               }
             },
             "controls": {
               "i0": {
-                "action": "drop brick on enemy"
+                "action": "lascia cadere un mattone sul nemico"
               },
               "i1": {
-                "action": "aim at a section or enemy"
+                "action": "mira a una sezione o a un nemico"
               },
               "i2": {
-                "action": "deploy garrison sortie to cursor column"
+                "action": "schiera una sortita della guarnigione nella colonna del cursore"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "brick drops"
+                "label": "lanci di mattoni"
               },
               "i1": {
-                "label": "saboteurs and ladders"
+                "label": "sabotatori e scale"
               },
               "i2": {
-                "label": "garrison sorties"
+                "label": "sortite della guarnigione"
               }
             },
             "visuals": {
               "brute-ram": {
-                "label": "brute (ram)"
+                "label": "bruto (sfondamento)"
               },
               "sapper-pick": {
-                "label": "sapper (chip)"
+                "label": "guastatore (piccone)"
               },
               "saboteur-keg": {
-                "label": "saboteur (keg)"
+                "label": "sabotatore (barile)"
               },
               "siege-ladder": {
-                "label": "siege ladder"
+                "label": "scala d'assedio"
               },
               "garrison-soldier": {
-                "label": "garrison soldier"
+                "label": "soldato di guarnigione"
               },
               "catapult-siege": {
-                "label": "catapult (siege)"
+                "label": "catapulta (assedio)"
               },
               "boulder-arc": {
-                "label": "boulder arc"
+                "label": "arco del masso"
               }
             }
           },
           "powering-up": {
-            "label": "powering up",
-            "group": "powering up",
-            "summary": "crushed enemies sometimes drop powerups. store them and switch them on when you need them.",
+            "label": "potenziarsi",
+            "group": "potenziarsi",
+            "summary": "i nemici schiacciati a volte lasciano potenziamenti. conservali e attivali quando servono.",
             "highlights": [
-              "catch a powerup when an enemy is crushed",
-              "activate with shift+1–3 or click a slot"
+              "raccogli un potenziamento quando un nemico viene schiacciato",
+              "attiva con maiusc+1–3 o fai clic su uno spazio"
             ],
             "details": [
-              "up to three powerups can be stored. two can be active at once.",
-              "mortar makes brick drops hit harder. mason makes laid bricks count for more. oil stuns all enemies on the field. mend repairs the weakest critical section."
+              "puoi conservare fino a tre potenziamenti. due possono essere attivi contemporaneamente.",
+              "la malta rende più forti i lanci di mattoni. il muratore fa contare di più i mattoni posati. l'olio stordisce tutti i nemici sul campo. la riparazione sistema la sezione critica più debole."
             ],
             "mechanics": {
               "mortar": {
-                "label": "mortar",
-                "summary": "brick drops deal double damage."
+                "label": "malta",
+                "summary": "i lanci di mattoni infliggono il doppio dei danni."
               },
               "mason": {
-                "label": "mason",
-                "summary": "placed bricks grant 1.5× strength."
+                "label": "muratore",
+                "summary": "i mattoni posati danno 1,5× forza."
               },
               "oil": {
-                "label": "oil",
-                "summary": "stuns all attackers on the field immediately."
+                "label": "olio",
+                "summary": "stordisce immediatamente tutti gli attaccanti sul campo."
               },
               "mend": {
-                "label": "mend",
-                "summary": "restores integrity to the weakest gate or keep."
+                "label": "riparazione",
+                "summary": "ripristina l'integrità del cancello o del mastio più debole."
               }
             },
             "controls": {
               "i0": {
-                "action": "activate powerup slot 1"
+                "action": "attiva il potenziamento nello spazio 1"
               },
               "i1": {
-                "action": "activate powerup slot 2"
+                "action": "attiva il potenziamento nello spazio 2"
               },
               "i2": {
-                "action": "activate powerup slot 3"
+                "action": "attiva il potenziamento nello spazio 3"
               }
             },
             "visuals": {
               "mortar-powerup": {
-                "label": "mortar (2× drops)"
+                "label": "malta (lanci 2×)"
               },
               "mason-powerup": {
-                "label": "mason (1.5× wall)"
+                "label": "muratore (muro 1,5×)"
               },
               "oil-powerup": {
-                "label": "boiling oil (stun all)"
+                "label": "olio bollente (stordisce tutti)"
               },
               "mend-powerup": {
-                "label": "field mend (repair)"
+                "label": "riparazione sul campo"
               }
             }
           }
@@ -711,10 +711,10 @@
       "space": {
         "options": {
           "duration": {
-            "label": "length",
+            "label": "durata",
             "choices": {
               "endless": {
-                "label": "endless"
+                "label": "senza fine"
               },
               "i1": {
                 "label": "1 min"
@@ -727,298 +727,298 @@
         },
         "contexts": {
           "getting-started": {
-            "label": "getting started",
-            "group": "getting started",
-            "summary": "steer the ship, type words to load the magazine, and fire to destroy enemies.",
+            "label": "per iniziare",
+            "group": "per iniziare",
+            "summary": "muovi la nave, digita parole per caricare il caricatore e spara per distruggere i nemici.",
             "highlights": [
-              "move with the mouse or arrow keys",
-              "type a word and press enter to fire"
+              "muovi con il mouse o le frecce",
+              "digita una parola e premi invio per sparare"
             ],
             "details": [
-              "finished words load into the magazine. press enter to fire the chosen shot.",
-              "a word finished with enter fires it at once without loading first.",
-              "use ↑ ↓ or the scroll wheel to choose which magazine slot to fire."
+              "le parole completate caricano il caricatore. premi invio per sparare il colpo scelto.",
+              "una parola terminata con invio viene sparata subito senza passare dal caricamento.",
+              "usa ↑ ↓ o la rotellina per scegliere quale spazio del caricatore sparare."
             ],
             "notes": {
               "prompted": {
-                "text": "in targeted mode, every enemy ship has a word requirement. non-matching shots bounce off."
+                "text": "in modalità mirata, ogni nave nemica ha un requisito di parola. i colpi non corrispondenti rimbalzano."
               }
             },
             "mechanics": {
               "movement": {
-                "label": "movement",
-                "summary": "the ship steers horizontally. move with the mouse or ← →."
+                "label": "movimento",
+                "summary": "la nave si muove orizzontalmente. usa il mouse o ← →."
               },
               "magazine": {
-                "label": "magazine",
-                "summary": "typed words fill the magazine. enter fires. ↑ ↓ choose a slot."
+                "label": "caricatore",
+                "summary": "le parole digitate riempiono il caricatore. invio spara. ↑ ↓ scelgono uno spazio."
               }
             },
             "controls": {
               "i0": {
-                "action": "move the ship"
+                "action": "muovi la nave"
               },
               "i1": {
-                "action": "fire the chosen magazine shot"
+                "action": "spara il colpo scelto dal caricatore"
               },
               "i2": {
-                "action": "choose a magazine slot"
+                "action": "scegli uno spazio del caricatore"
               }
             },
             "visuals": {
               "starfighter": {
-                "label": "starfighter"
+                "label": "caccia stellare"
               },
               "magazine-slots": {
-                "label": "magazine slots"
+                "label": "spazi del caricatore"
               }
             }
           },
           "surviving": {
-            "label": "surviving",
-            "group": "surviving",
-            "summary": "avoid damage, clear jams, dodge asteroids, and use rescue ships to repair.",
+            "label": "sopravvivere",
+            "group": "sopravvivere",
+            "summary": "evita i danni, risolvi gli inceppamenti, schiva gli asteroidi e usa le navi di soccorso per riparare.",
             "highlights": [
-              "the ship has health — hits reduce it, and zero ends the game",
-              "type the word on a green rescue ship to repair"
+              "la nave ha salute: i colpi la riducono e arrivare a zero fa finire la partita",
+              "digita la parola sulla nave di soccorso verde per riparare"
             ],
             "details": [
-              "clean words never jam. typos might, and nonsense jams more often.",
-              "when jammed, type the word shown to clear it, or press backspace twice with nothing typed to scrap the shot.",
-              "don’t shoot rescue ships: a hit one heals less (not on easy).",
-              "asteroids are indestructible obstacles. big ones break into several pieces when shot.",
-              "drones lock on with a dashed line and dive straight down. steer away.",
-              "ships that get past the bottom do no harm."
+              "le parole pulite non inceppano mai. i refusi possono farlo, e le parole senza senso aumentano il rischio.",
+              "quando il grilletto è inceppato, digita la parola mostrata per liberarlo, oppure premi due volte backspace senza testo per scartare il colpo.",
+              "non sparare alle navi di soccorso: un colpo le guarisce meno (tranne a facile).",
+              "gli asteroidi sono ostacoli indistruttibili. quelli grandi si dividono in pezzi quando vengono colpiti.",
+              "i droni si agganciano con una linea tratteggiata e si tuffano dritti verso il basso. spostati.",
+              "le navi che superano il fondo non fanno danni."
             ],
             "notes": {
               "easy": {
-                "text": "shooting a rescue ship doesn’t reduce its healing."
+                "text": "sparare a una nave di soccorso non riduce la sua cura."
               }
             },
             "mechanics": {
               "health": {
-                "label": "health",
-                "summary": "the ship’s hit points. zero means game over."
+                "label": "salute",
+                "summary": "i punti ferita della nave. zero significa fine della partita."
               },
               "jams": {
-                "label": "jams",
-                "summary": "a jammed gun can’t fire until cleared. typos and nonsense raise the jam risk."
+                "label": "inceppamenti",
+                "summary": "un'arma inceppata non può sparare finché non viene liberata. refusi e parole senza senso aumentano il rischio."
               },
               "asteroids": {
-                "label": "asteroids",
-                "summary": "rocks that can’t be destroyed. big ones split into pieces."
+                "label": "asteroidi",
+                "summary": "rocce che non possono essere distrutte. quelle grandi si dividono in pezzi."
               },
               "rescue": {
-                "label": "rescue ships",
-                "summary": "green ships with a word. type it to repair the hull."
+                "label": "navi di soccorso",
+                "summary": "navi verdi con una parola. digitala per riparare lo scafo."
               },
               "drones": {
-                "label": "drones",
-                "summary": "lock on and dive straight down. dodge the dive line."
+                "label": "droni",
+                "summary": "si agganciano e si tuffano dritti. schiva la linea di tuffo."
               },
               "jammer": {
-                "label": "jammer",
-                "summary": "increases the chance of jams while alive."
+                "label": "inceppatore",
+                "summary": "aumenta la probabilità di inceppamento finché è vivo."
               }
             },
             "controls": {
               "i0": {
-                "action": "scrap the chosen shot (clears a jam)"
+                "action": "scarta il colpo scelto (risolve un inceppamento)"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "rescue repair"
+                "label": "riparazione con soccorso"
               }
             },
             "visuals": {
               "rescue-ship": {
-                "label": "rescue ship (heal)"
+                "label": "nave di soccorso (cura)"
               },
               "dive-drone": {
-                "label": "dive drone"
+                "label": "drone in picchiata"
               },
               "asteroid": {
-                "label": "asteroid obstacle"
+                "label": "ostacolo asteroide"
               },
               "weapon-jam": {
-                "label": "weapon jam"
+                "label": "inceppamento dell'arma"
               }
             }
           },
           "fighting": {
-            "label": "fighting",
-            "group": "fighting",
-            "summary": "load the magazine, intercept missiles and fighters, and use the bomb to clear the field.",
+            "label": "combattere",
+            "group": "combattere",
+            "summary": "carica il caricatore, intercetta missili e caccia e usa la bomba per ripulire il campo.",
             "highlights": [
-              "missiles carry a letter — type it with nothing typed to shoot them down",
-              "shift+enter detonates the bomb when charged",
-              "alt+enter fires the piercing capacitor beam when charged"
+              "i missili portano una lettera: digitala senza altro testo per abbatterli",
+              "maiusc+invio fa esplodere la bomba quando è carica",
+              "alt+invio spara il raggio penetrante del condensatore quando è carico"
             ],
             "details": [
-              "loading words charges the bomb meter. when full, shift+enter clears all missiles and damages every enemy.",
-              "high-quality loaded words charge the capacitor. alt+enter discharges a vertical piercing laser; overload at 100% shatters shielded ships.",
-              "space stations launch fighters that chase you. type a fighter’s letter to shoot it down.",
-              "landmines burst into shrapnel when shot, which hits everything nearby, including you.",
-              "shielded ships only take hits from words that meet their requirement."
+              "caricare parole riempie il misuratore della bomba. quando è pieno, maiusc+invio elimina tutti i missili e danneggia ogni nemico.",
+              "le parole caricate di alta qualità caricano il condensatore. alt+invio scarica un laser verticale penetrante; il sovraccarico al 100% distrugge le navi schermate.",
+              "le stazioni spaziali lanciano caccia che ti inseguono. digita la lettera di un caccia per abbatterlo.",
+              "le mine terrestri esplodono in schegge quando vengono colpite, che colpiscono tutto ciò che è vicino, te compreso.",
+              "le navi schermate subiscono colpi solo dalle parole che soddisfano il loro requisito."
             ],
             "notes": {
               "prompted": {
-                "text": "in targeted mode, every ship has a word requirement that must be matched."
+                "text": "in modalità mirata, ogni nave ha un requisito di parola da soddisfare."
               }
             },
             "mechanics": {
               "missiles": {
-                "label": "missiles",
-                "summary": "carry a letter token. with nothing typed, type it to shoot them down instantly."
+                "label": "missili",
+                "summary": "portano una lettera. senza testo digitato, digitala per abbatterli all'istante."
               },
               "bomb": {
-                "label": "bomb",
-                "summary": "charges as you load words. shift+enter detonates, clearing missiles and damaging enemies."
+                "label": "bomba",
+                "summary": "si carica mentre carichi parole. maiusc+invio la fa esplodere, elimina i missili e danneggia i nemici."
               },
               "accumulator": {
-                "label": "capacitor beam",
-                "summary": "charges from clean and high-quality loaded words. alt+enter fires a piercing column beam; 100% overload pierces shields and vaporises missiles."
+                "label": "raggio del condensatore",
+                "summary": "si carica con parole pulite e di alta qualità. alt+invio spara un raggio verticale penetrante; al 100% attraversa gli scudi e vaporizza i missili."
               },
               "fighters": {
-                "label": "fighters",
-                "summary": "small ships launched by stations. chase the player. type their letter to intercept."
+                "label": "caccia",
+                "summary": "piccole navi lanciate dalle stazioni. inseguono il giocatore. digita la loro lettera per intercettarle."
               },
               "stations": {
-                "label": "stations",
-                "summary": "large hubs that hover and spawn fighters."
+                "label": "stazioni",
+                "summary": "grandi hub che restano in quota e generano caccia."
               },
               "landmines": {
-                "label": "landmines",
-                "summary": "spiked mines. shrapnel on destruction hits everything nearby."
+                "label": "mine terrestri",
+                "summary": "mine con spuntoni. le schegge dopo la distruzione colpiscono tutto ciò che è vicino."
               },
               "shields": {
-                "label": "shields",
-                "summary": "some ships have shields that only break to words matching a requirement."
+                "label": "scudi",
+                "summary": "alcune navi hanno scudi che si rompono solo con parole che soddisfano un requisito."
               },
               "heavyFrigate": {
-                "label": "heavy frigate",
-                "summary": "reinforced prow with shielded barrier and twin missile batteries."
+                "label": "fregata pesante",
+                "summary": "prua rinforzata con barriera schermata e doppie batterie di missili."
               },
               "eliteCruiser": {
-                "label": "elite cruiser",
-                "summary": "heavy dreadnought with point-defense turrets that shoot down weak words (<30 power)."
+                "label": "incrociatore d'élite",
+                "summary": "pesante corazzata con torrette di difesa puntuale che abbattono parole deboli (<30 potenza)."
               },
               "flagship": {
-                "label": "flagship boss",
-                "summary": "massive modular command vessel. Destroy weapon batteries and collapse its shield generator to expose the bridge."
+                "label": "ammiraglia",
+                "summary": "enorme nave di comando modulare. distruggi le batterie d'armi e fai crollare il generatore di scudi per esporre il ponte."
               }
             },
             "controls": {
               "i0": {
-                "action": "detonate the bomb"
+                "action": "fa esplodere la bomba"
               },
               "i1": {
-                "action": "discharge capacitor beam"
+                "action": "scarica il raggio del condensatore"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "bomb shockwave"
+                "label": "onda d'urto della bomba"
               },
               "i1": {
-                "label": "capacitor beam"
+                "label": "raggio del condensatore"
               },
               "i2": {
-                "label": "flagship boss"
+                "label": "boss ammiraglia"
               }
             },
             "visuals": {
               "missile-token": {
-                "label": "missile (letter)"
+                "label": "missile (lettera)"
               },
               "bomb-shockwave": {
-                "label": "bomb shockwave"
+                "label": "onda d'urto della bomba"
               },
               "capacitor-beam": {
-                "label": "piercing capacitor beam"
+                "label": "raggio penetrante del condensatore"
               },
               "heavy-frigate": {
-                "label": "heavy frigate"
+                "label": "fregata pesante"
               },
               "elite-cruiser": {
-                "label": "elite cruiser"
+                "label": "incrociatore d'élite"
               },
               "flagship-boss": {
-                "label": "flagship boss"
+                "label": "boss ammiraglia"
               },
               "orbital-station": {
-                "label": "orbital station"
+                "label": "stazione orbitale"
               },
               "shrapnel-mine": {
-                "label": "landmine"
+                "label": "mina terrestre"
               }
             }
           },
           "powering-up": {
-            "label": "powering up",
-            "group": "powering up",
-            "summary": "destroyed enemies drop powerups. catch them, store them, and switch them on.",
+            "label": "potenziarsi",
+            "group": "potenziarsi",
+            "summary": "i nemici distrutti lasciano potenziamenti. raccoglili, conservali e attivali.",
             "highlights": [
-              "catch a floating powerup to store it",
-              "activate with shift+1–3 or click a slot"
+              "raccogli un potenziamento fluttuante per conservarlo",
+              "attiva con maiusc+1–3 o fai clic su uno spazio"
             ],
             "details": [
-              "up to three powerups can be stored. two kinds can be active at once; the same kind again stacks its timer.",
-              "double fire: each shot fires twice before being spent.",
-              "gatling: every letter typed fires an instant bolt.",
-              "shield: a barrier absorbs hits for the ship.",
-              "automaton: automatically picks the best shot for the biggest threat.",
-              "homing: fired words steer toward targets."
+              "puoi conservare fino a tre potenziamenti. due tipi possono essere attivi insieme; riottenere lo stesso tipo accumula il suo timer.",
+              "doppio fuoco: ogni colpo viene sparato due volte prima di consumarsi.",
+              "gatling: ogni lettera digitata spara un dardo istantaneo.",
+              "scudo: una barriera assorbe i colpi per la nave.",
+              "automa: sceglie automaticamente il colpo migliore per la minaccia più grande.",
+              "inseguimento: le parole sparate si dirigono verso i bersagli."
             ],
             "mechanics": {
               "double": {
-                "label": "double",
-                "summary": "shots fire twice before being spent."
+                "label": "doppio",
+                "summary": "i colpi vengono sparati due volte prima di consumarsi."
               },
               "gatling": {
                 "label": "gatling",
-                "summary": "every letter typed fires an instant energy bolt."
+                "summary": "ogni lettera digitata spara un dardo di energia istantaneo."
               },
               "shield": {
-                "label": "shield",
-                "summary": "an energy barrier absorbs hits."
+                "label": "scudo",
+                "summary": "una barriera di energia assorbe i colpi."
               },
               "automaton": {
-                "label": "automaton",
-                "summary": "auto-selects the best shot for the worst threat."
+                "label": "automa",
+                "summary": "seleziona automaticamente il colpo migliore contro la minaccia peggiore."
               },
               "homing": {
-                "label": "homing",
-                "summary": "fired words steer dynamically toward targets."
+                "label": "inseguimento",
+                "summary": "le parole sparate si dirigono dinamicamente verso i bersagli."
               }
             },
             "controls": {
               "i0": {
-                "action": "activate powerup slot 1"
+                "action": "attiva il potenziamento nello spazio 1"
               },
               "i1": {
-                "action": "activate powerup slot 2"
+                "action": "attiva il potenziamento nello spazio 2"
               },
               "i2": {
-                "action": "activate powerup slot 3"
+                "action": "attiva il potenziamento nello spazio 3"
               }
             },
             "visuals": {
               "powerup-double": {
-                "label": "double fire"
+                "label": "doppio fuoco"
               },
               "powerup-gatling": {
-                "label": "gatling stream"
+                "label": "raffica gatling"
               },
               "powerup-shield": {
-                "label": "deflector barrier"
+                "label": "barriera deflettente"
               },
               "powerup-automaton": {
-                "label": "automaton aim"
+                "label": "mira automatica"
               },
               "powerup-homing": {
-                "label": "homing seeker"
+                "label": "inseguitore"
               }
             }
           }
@@ -1027,254 +1027,253 @@
       "spot": {
         "options": {
           "variant": {
-            "label": "play",
+            "label": "gioca",
             "choices": {
               "timed": {
-                "label": "timed"
+                "label": "a tempo"
               },
               "endless": {
-                "label": "endless"
+                "label": "senza fine"
               },
               "marathon": {
-                "label": "marathon"
+                "label": "maratona"
               },
               "scroller": {
-                "label": "scroller"
+                "label": "scorrimento"
               }
             }
           },
           "duration": {
-            "label": "time"
+            "label": "tempo"
           }
         },
         "help": [
-          "Point at a word or move with ← → (↑ ↓ by line); click it or press Enter if it’s wrong.",
-          "The word stays in place: fix it there (← → Home End move the caret, or click in it) and press Enter. Spelling, punctuation, capitals and spacing all count.",
-          "Shift+Enter gives up on a passage and moves to the next.",
-          "Finding and fixing are scored separately; flagging a correct word costs you."
+          "Punta su una parola o muoviti con ← → (↑ ↓ per riga); fai clic o premi Invio se è sbagliata.",
+          "La parola resta al suo posto: correggila lì (← → Home End spostano il cursore, oppure fai clic dentro) e premi Invio. Ortografia, punteggiatura, maiuscole e spaziatura contano tutte.",
+          "Maiusc+Invio abbandona un brano e passa al successivo.",
+          "Trovare e correggere hanno punteggi separati; segnalare una parola corretta ti costa."
         ],
         "contexts": {
           "getting-started": {
-            "label": "getting started",
-            "group": "getting started",
-            "summary": "find the mistakes planted in a passage and put them right.",
+            "label": "per iniziare",
+            "group": "per iniziare",
+            "summary": "trova gli errori nascosti in un brano e correggili.",
             "highlights": [
-              "point at a word or navigate with arrow keys",
-              "press enter to flag a mistake, then type the fix"
+              "punta su una parola o naviga con le frecce",
+              "premi invio per segnalare un errore, poi digita la correzione"
             ],
             "details": [
-              "passages come from books in your library. each has several planted errors.",
-              "shift+enter gives up on a passage and moves to the next.",
-              "errors include spelling, punctuation, capitalisation, sound-alikes and letter slips."
+              "i brani provengono dai libri della tua libreria. ciascuno contiene diversi errori nascosti.",
+              "maiusc+invio abbandona un brano e passa al successivo.",
+              "gli errori includono ortografia, punteggiatura, maiuscole, parole dal suono simile e lettere errate."
             ],
             "mechanics": {
               "errors": {
-                "label": "error types",
-                "summary": "spelling, punctuation, capitalisation, sound-alikes and letter slips."
+                "label": "tipi di errore",
+                "summary": "ortografia, punteggiatura, maiuscole, parole dal suono simile e errori di lettere."
               }
             },
             "controls": {
               "i0": {
-                "action": "move between words"
+                "action": "muoviti tra le parole"
               },
               "i1": {
-                "action": "move between lines"
+                "action": "muoviti tra le righe"
               },
               "i2": {
-                "action": "flag a word as wrong"
+                "action": "segnala una parola come errata"
               },
               "i3": {
-                "action": "skip to next passage"
+                "action": "passa al brano successivo"
               }
             },
             "visuals": {
               "passage-line": {
-                "label": "passage text"
+                "label": "testo del brano"
               },
               "planted-error": {
-                "label": "planted error"
+                "label": "errore nascosto"
               }
             }
           },
           "finding-mistakes": {
-            "label": "finding mistakes",
-            "group": "surviving",
-            "summary": "scan the passage, select a word you think is wrong, and press enter to flag it.",
+            "label": "trovare errori",
+            "group": "sopravvivere",
+            "summary": "scorri il brano, seleziona una parola che pensi sia sbagliata e premi invio per segnalarla.",
             "highlights": [
-              "hover over a word or use arrow keys to select it",
-              "flagging a correct word costs you"
+              "passa sopra una parola o usa le frecce per selezionarla",
+              "segnalare una parola corretta ti costa"
             ],
             "details": [
-              "move with ← → word by word, or ↑ ↓ line by line. click or hover to jump.",
-              "finding and fixing are scored separately.",
-              "flagging a word that’s actually correct counts as a false flag and costs points."
+              "muoviti con ← → parola per parola o ↑ ↓ riga per riga. fai clic o passa sopra per saltare.",
+              "trovare e correggere hanno punteggi separati.",
+              "segnalare una parola che in realtà è corretta conta come falso segnale e costa punti."
             ],
             "mechanics": {
               "selection": {
-                "label": "word selection",
-                "summary": "hover, click or use arrow keys to select a word."
+                "label": "selezione delle parole",
+                "summary": "passa sopra, fai clic o usa le frecce per selezionare una parola."
               },
               "false-flag": {
-                "label": "false flags",
-                "summary": "flagging a correct word costs points and (in endless mode) time."
+                "label": "falsi segnali",
+                "summary": "segnalare una parola corretta costa punti e, in modalità senza fine, tempo."
               },
               "marathon": {
-                "label": "marathon endurance",
-                "summary": "start with 3 lives. false flags and failed repairs cost a life; clearing 3 passages cleanly restores one."
+                "label": "resistenza della maratona",
+                "summary": "parti con 3 vite. falsi segnali e correzioni fallite costano una vita; completare 3 brani senza errori ne ripristina una."
               },
               "scroller": {
-                "label": "scroller conveyor",
-                "summary": "passages continuously scroll past on a conveyor belt. catch mistakes before they scroll off screen."
+                "label": "nastro scorrevole",
+                "summary": "i brani scorrono continuamente su un nastro. intercetta gli errori prima che escano dallo schermo."
               }
             },
             "controls": {
               "i0": {
-                "action": "move between words"
+                "action": "muoviti tra le parole"
               },
               "i1": {
-                "action": "move between lines"
+                "action": "muoviti tra le righe"
               },
               "i2": {
-                "action": "flag the selected word"
+                "action": "segnala la parola selezionata"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "passage scan"
+                "label": "scansione del brano"
               },
               "i1": {
-                "label": "marathon endurance"
+                "label": "resistenza della maratona"
               },
               "i2": {
-                "label": "scroller conveyor"
+                "label": "nastro scorrevole"
               }
             },
             "visuals": {
               "selected-word": {
-                "label": "selected word"
+                "label": "parola selezionata"
               },
               "hover-cursor": {
-                "label": "hover cursor"
+                "label": "cursore al passaggio"
               },
               "false-flag-penalty": {
-                "label": "false flag penalty"
+                "label": "penalità per falso segnale"
               },
               "marathon-lives": {
-                "label": "marathon lives"
+                "label": "vite della maratona"
               },
               "scroller-belt": {
-                "label": "scroller conveyor belt"
+                "label": "nastro scorrevole"
               }
             }
           },
           "correcting-mistakes": {
-            "label": "correcting mistakes",
-            "group": "surviving",
-            "summary": "the flagged word stays in place. fix it there and press enter to commit the repair.",
+            "label": "correggere gli errori",
+            "group": "sopravvivere",
+            "summary": "la parola segnalata resta al suo posto. correggila lì e premi invio per confermare la riparazione.",
             "highlights": [
-              "the word is edited directly in the passage",
-              "move the caret with arrow keys or click inside the word"
+              "la parola viene modificata direttamente nel brano",
+              "sposta il cursore con le frecce o fai clic dentro la parola"
             ],
             "details": [
-              "use ← → to move the caret, home and end to jump. delete and backspace work as usual.",
-              "click inside the word to place the caret at a specific position.",
-              "you get two attempts. if both fail, the correct word is revealed.",
-              "press escape to cancel a repair without penalty."
+              "usa ← → per spostare il cursore, Home ed End per saltare. Delete e Backspace funzionano normalmente.",
+              "fai clic dentro la parola per posizionare il cursore.",
+              "hai due tentativi. se falliscono entrambi, viene mostrata la parola corretta.",
+              "premi Escape per annullare una correzione senza penalità."
             ],
             "mechanics": {
               "caret": {
-                "label": "caret editing",
-                "summary": "move the cursor inside the word to edit individual characters."
+                "label": "modifica col cursore",
+                "summary": "sposta il cursore dentro la parola per modificare singoli caratteri."
               },
               "retries": {
-                "label": "repair attempts",
-                "summary": "two tries to fix a word. after two failures, the answer is shown."
+                "label": "tentativi di riparazione",
+                "summary": "due tentativi per correggere una parola. dopo due errori, viene mostrata la risposta."
               },
               "cancel": {
-                "label": "cancel",
-                "summary": "escape cancels a repair without penalty."
+                "label": "annulla",
+                "summary": "Escape annulla una correzione senza penalità."
               }
             },
             "controls": {
               "i0": {
-                "action": "move caret inside the word"
+                "action": "sposta il cursore dentro la parola"
               },
               "i1": {
-                "action": "caret to start of word"
+                "action": "cursore all'inizio della parola"
               },
               "i2": {
-                "action": "caret to end of word"
+                "action": "cursore alla fine della parola"
               },
               "i3": {
-                "action": "commit the repair"
+                "action": "conferma la correzione"
               },
               "i4": {
-                "action": "cancel repair"
+                "action": "annulla la correzione"
               },
               "i5": {
-                "action": "delete forward"
+                "action": "elimina in avanti"
               }
             },
             "visuals": {
               "inline-caret": {
-                "label": "inline caret"
+                "label": "cursore in linea"
               },
               "in-place-edit": {
-                "label": "in-place edit"
+                "label": "modifica sul posto"
               },
               "attempt-limit": {
-                "label": "2 attempts limit"
+                "label": "limite di 2 tentativi"
               }
             }
           },
           "scoring": {
-            "label": "scoring",
-            "group": "surviving",
-            "summary": "finding and fixing are scored separately. timed mode has a fixed clock; endless tops up on repairs.",
+            "label": "punteggio",
+            "group": "sopravvivere",
+            "summary": "trovare e correggere hanno punteggi separati. la modalità a tempo ha un orologio fisso; la modalità senza fine ricarica il tempo con le correzioni.",
             "highlights": [
-              "detection score: how many errors you found",
-              "repair score: how accurately you fixed them"
+              "punteggio di rilevamento: quanti errori hai trovato",
+              "punteggio di riparazione: quanto precisamente li hai corretti"
             ],
             "details": [
-              "timed mode: a fixed duration counts down. find and fix as many as you can.",
-              "endless mode: time drains continuously. each successful repair tops up the bank. false flags cost time.",
-              "a clean sweep is recorded when all errors in a passage are repaired with no false flags."
+              "modalità a tempo: una durata fissa conta alla rovescia. trova e correggi il più possibile.",
+              "modalità senza fine: il tempo scende continuamente. ogni correzione riuscita ricarica la riserva. i falsi segnali costano tempo.",
+              "un passaggio pulito viene registrato quando tutti gli errori di un brano sono corretti senza falsi segnali."
             ],
             "notes": {
               "hard": {
-                "text": "errors are subtler and the timer is shorter."
+                "text": "gli errori sono più sottili e il timer è più breve."
               }
             },
             "mechanics": {
               "detection": {
-                "label": "detection",
-                "summary": "scored by precision and recall — how many real errors you found versus false flags."
+                "label": "rilevamento",
+                "summary": "si calcola con precisione e richiamo: quanti errori reali hai trovato rispetto ai falsi segnali."
               },
               "repair": {
-                "label": "repair",
-                "summary": "scored by how accurately you fixed the flagged words."
+                "label": "riparazione",
+                "summary": "si calcola in base a quanto precisamente hai corretto le parole segnalate."
               },
               "sweep": {
-                "label": "clean sweep",
-                "summary": "all errors repaired, no false flags, on a single passage."
+                "label": "passaggio pulito",
+                "summary": "tutti gli errori corretti, nessun falso segnale, in un solo brano."
               }
             },
             "visuals": {
               "detection-score": {
-                "label": "detection score"
+                "label": "punteggio di rilevamento"
               },
               "repair-score": {
-                "label": "repair score"
+                "label": "punteggio di riparazione"
               },
               "clean-sweep": {
-                "label": "clean sweep bonus"
+                "label": "bonus per passaggio pulito"
               }
             }
           }
         }
       }
-    },
-    "minutes_choice": "{count} min"
+    }
   },
   "space_time": {
     "powerups": {
