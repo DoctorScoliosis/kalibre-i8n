@@ -1,0 +1,192 @@
+{
+  "restart": {
+    "label": "opnieuw starten",
+    "keywords": "opnieuw reset opnieuw doen nieuwe test",
+    "meta": "test · zelfde soort, nieuwe tekst"
+  },
+  "next_text": {
+    "label": "volgende tekst",
+    "keywords": "overslaan andere",
+    "meta": "test · doorgaan"
+  },
+  "time_test": {
+    "label": "tijd {duration}",
+    "keywords": "getimed seconden {duration}s test",
+    "meta": "test · {duration} seconden"
+  },
+  "words_test": {
+    "label": "woorden {count}",
+    "keywords": "aantal test {count}",
+    "meta": "test · {count} woorden"
+  },
+  "play_game": {
+    "label": "{game} spelen",
+    "keywords": "spel spellen spelen plezier {game}",
+    "meta": "spel · {blurb}"
+  },
+  "go_to": {
+    "label": "naar {view}",
+    "keywords": "open weergave pagina tonen {view}",
+    "meta": "ga · pagina"
+  },
+  "achievements": {
+    "label": "prestaties",
+    "keywords": "badges trofeeën mijlpalen klaar verdiend geheimen statistieken prestaties",
+    "meta": "open · prestaties"
+  },
+  "your_card": {
+    "label": "jouw kaart",
+    "keywords": "profiel kaart stickers rand lijst aura achtergrond etalage versiering aanpassen decoreren",
+    "meta": "open · profiel"
+  },
+  "today": {
+    "label": "vandaag",
+    "keywords": "dagelijks missies missie uitdaging taken doelen",
+    "meta": "ga · missies en uitdaging van vandaag"
+  },
+  "quote_category": {
+    "label": "citaat {category}",
+    "keywords": "passage boek tekst {category}",
+    "meta": "test · één citaat"
+  },
+  "mixed_quotes": {
+    "label": "gemengde citaten",
+    "keywords": "willekeurige lengte citaat",
+    "meta": "test · telkens een willekeurige lengte"
+  },
+  "sustained_pace": {
+    "label": "aanhoudend {wpm}",
+    "keywords": "eindeloos uithoudingsvermogen tempo houden doel {wpm} wpm",
+    "meta": "test · houd {wpm} wpm zo lang als je kunt"
+  },
+  "sustained_accuracy": {
+    "label": "aanhoudende nauwkeurigheid {accuracy}",
+    "keywords": "eindeloos uithoudingsvermogen nauwkeurig precies houden doel {accuracy} procent",
+    "meta": "test · houd {accuracy}% nauwkeurigheid zo lang als je kunt"
+  },
+  "keep_reading": {
+    "label": "blijven lezen",
+    "keywords": "boek doorgaan hervatten aanhoudend roman verder lezen bladwijzer",
+    "meta": "test · ga verder door je boeken te lezen, aanhoudend"
+  },
+  "section": {
+    "label": "{view} {section}",
+    "keywords": "ga open toon {words}",
+    "meta": "ga · {view}-onderdeel"
+  },
+  "continue_touch_typing": {
+    "label": "blindtypen voortzetten",
+    "keywords": "leren les lessen blindtypen vingers basisrij volgende",
+    "meta": "leren · de volgende les om onder de knie te krijgen"
+  },
+  "learn_stage": {
+    "label": "leerfase {stage}: {name}",
+    "keywords": "leren les lessen blindtypen fase {stage} {name}",
+    "meta": "leren · lessen {first}–{last}"
+  },
+  "drill_mistakes": {
+    "label": "mijn fouten oefenen",
+    "keywords": "trainen oefenen fouten training",
+    "meta": "test · oefeningen op basis van je fouten"
+  },
+  "wardrobe": {
+    "label": "garderobe van {companion}",
+    "keywords": "cal libby metgezel mascotte garderobe kleding hoed versiering outfit uiterlijk aanpassen",
+    "meta": "leren · kleed {companion} met wat je hebt verdiend"
+  },
+  "try_guest": {
+    "label": "als gast proberen",
+    "keywords": "gast proberen proef tijdelijk nieuw profiel demo",
+    "meta": "profiel · een nieuw gastprofiel; sla de voortgang later op om het te behouden"
+  },
+  "sign_out": {
+    "label": "uitloggen",
+    "keywords": "vergrendelen uitloggen apparaat vergeten",
+    "meta": "profiel · vergrendel het totdat het wachtwoord opnieuw is gegeven"
+  },
+  "profiles": {
+    "label": "profielen",
+    "keywords": "profiel account wisselen gebruiker wachtwoord passkey afbeelding avatar",
+    "meta": "open · wie er typt"
+  },
+  "backup_now": {
+    "label": "nu back-uppen",
+    "keywords": "backup export profiel opslaan geschiedenis downloaden bestand",
+    "meta": "bestand · dit profiel"
+  },
+  "load_profile": {
+    "label": "een profielbestand laden",
+    "keywords": "importeren herstellen profiel bestand openen back-up",
+    "meta": "bestand · toegevoegd naast je profielen"
+  },
+  "export_settings": {
+    "label": "instellingen exporteren",
+    "keywords": "downloaden backup opslaan json",
+    "meta": "bestand · instellingen als json"
+  },
+  "keyboard_shortcuts": {
+    "label": "toetsenbordshortcuts",
+    "keywords": "shortcuts sneltoetsen toetsen bindingen hulp handleiding ?",
+    "meta": "hulp · handleiding voor toetsenbordshortcuts"
+  },
+  "race": {
+    "label": "racen",
+    "keywords": "race lan netwerk multiplayer vrienden tegen elkaar kamer code host deelnemen",
+    "meta": "spelen · racen tegen mensen op je netwerk"
+  },
+  "race_ghost": {
+    "label": "tegen een ghost racen",
+    "keywords": "race ghost ghosts plank opgeslagen replay tegen",
+    "meta": "spelen · racen tegen je opgeslagen ghosts"
+  },
+  "import_ghost": {
+    "label": "ghost importeren",
+    "keywords": "importeren ghost bestand openen laden kalibre-ghost plank",
+    "meta": "spelen · zet een .kalibre-ghost-bestand op je ghostplank"
+  },
+  "race_solo": {
+    "label": "zelf racen",
+    "keywords": "race solo tegenstanders computer ghost tegen elkaar alleen",
+    "meta": "spelen · race tegen de computer, met je laatste keuzes"
+  },
+  "privacy": {
+    "label": "privacy",
+    "keywords": "privacybeleid gegevens persoonlijke informatie opgeslagen",
+    "meta": "hulp · wat kalibre bewaart, en waar"
+  },
+  "terms": {
+    "label": "voorwaarden",
+    "keywords": "gebruikersvoorwaarden voorwaarden licentie regels",
+    "meta": "hulp · de gebruiksvoorwaarden"
+  },
+  "security": {
+    "label": "beveiliging",
+    "keywords": "beveiliging kwetsbaarheid melden bug bekendmaking",
+    "meta": "hulp · een beveiligingsprobleem melden"
+  },
+  "whats_new": {
+    "label": "wat is er nieuw",
+    "keywords": "nieuws wijzigingenlog updates release-notities geschiedenis",
+    "meta": "hulp · wat nieuw is in deze versie"
+  },
+  "changelog": {
+    "label": "wijzigingenlog",
+    "keywords": "wijzigingenlog wat is er nieuw updates release-notities geschiedenis versies",
+    "meta": "hulp · wijzigingenlog en eerdere updates"
+  },
+  "check_for_updates": {
+    "label": "op updates controleren",
+    "keywords": "update updates upgraden nieuwe versie vernieuwen controleren nu nieuwste",
+    "meta": "hulp · nu naar een nieuwe versie zoeken"
+  },
+  "announcements": {
+    "label": "aankondigingen",
+    "keywords": "aankondigingen updates devlog ontwikkeling nieuws stackinfolio release kanary",
+    "meta": "links · projectontwikkeling & aankondigingen"
+  },
+  "kanary_notice": {
+    "label": "kanary-melding",
+    "keywords": "kanary beta preview waarschuwing backup compatibiliteit testbuild melding",
+    "meta": "hulp · melding over kanary-previewbuild & back-ups"
+  }
+}
