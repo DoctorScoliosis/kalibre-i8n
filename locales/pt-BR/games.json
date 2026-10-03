@@ -13,7 +13,23 @@
     "fed_hinted": " (a dica: vale metade do tempo)",
     "fed_yum": " · nham",
     "typo": "−{seconds}s · erro de digitação",
-    "typo_meant": " ({meant}?)"
+    "typo_meant": " ({meant}?)",
+    "serving_tray_label": "bandeja de servir",
+    "serving_tray_help": "clique na colher para pegá-la e arraste até a criatura",
+    "serving_tray_empty": "digite uma palavra para carregar a colher",
+    "serving_tray_count": "bandeja {count}/{capacity}",
+    "serving_tray_full_state": "bandeja cheia · sirva primeiro",
+    "serving_queued": "{text} na fila · bandeja {count}/{capacity}",
+    "serving_tray_full": "a bandeja está cheia — sirva primeiro",
+    "serving_wasted": " · −{seconds}s · {count, plural, one {1 palavra desperdiçada} other {# palavras desperdiçadas}}",
+    "serving_served": "servido · {matched}/{total} correspondentes",
+    "serving_nothing_matched": "nada correspondeu — tempo perdido",
+    "prepared": "{text} preparado",
+    "cancelled": "comida cancelada",
+    "carrying": "levando a comida até a criatura",
+    "spoon_pickup": "clique e arraste para servir",
+    "no_match": "nenhum prato corresponde a este convidado",
+    "returned": "bandeja devolvida à estação"
   },
   "castle": {
     "title": "castle",
@@ -434,6 +450,53 @@
               },
               "satisfaction-floor": {
                 "label": "piso da satisfação"
+              }
+            }
+          },
+          "serving": {
+            "label": "serviço físico",
+            "group": "começando",
+            "summary": "carregue palavras na colher e leve-as fisicamente até a criatura para servir.",
+            "mechanics": {
+              "spoon": {
+                "label": "colher",
+                "summary": "uma palavra válida digitada carrega a colher. clique e arraste para servir."
+              },
+              "targeting": {
+                "label": "direcionamento",
+                "summary": "passe o cursor sobre a criatura para destacá-la e solte para entregar a comida."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "carregar colher"
+              },
+              "i1": {
+                "action": "levar e servir"
+              },
+              "i2": {
+                "action": "cancelar comida"
+              }
+            },
+            "visuals": {
+              "loaded-spoon": {
+                "label": "colher carregada"
+              },
+              "creature-highlight": {
+                "label": "alvo destacado"
+              }
+            }
+          }
+        },
+        "options": {
+          "serving": {
+            "label": "bandeja de servir",
+            "choices": {
+              "off": {
+                "label": "desligado"
+              },
+              "on": {
+                "label": "ligado"
               }
             }
           }
