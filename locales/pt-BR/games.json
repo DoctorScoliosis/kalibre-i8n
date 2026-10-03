@@ -155,7 +155,7 @@
     "play_again": "jogar novamente",
     "change_setup": "alterar configuração",
     "added_training": "adicionado ao treinamento",
-    "mistakes_noted": "{count, plural, one { · 1 erro registrado} other { · # erros registrados}}",
+    "mistakes_noted": "{count, plural, one { · 1 erro registrado} many { · # erros registrados} other { · # erros registrados}}",
     "results_summary": "{time} · {words} palavras · {wpm} ppm · {accuracy} · digitadas errado {mistypes} · corrigidas {corrections}",
     "daily_goal_title": "Os jogos contam para a meta o tempo de digitação, não o tempo lendo, mirando ou pensando",
     "key_mashing_note": "Esta partida pareceu uma sequência de teclas aleatórias ({reason}), então seus erros e XP não foram contabilizados.",
@@ -176,7 +176,7 @@
     "table_status": "mesa {count}/{cap}",
     "yard_empty": "digite uma palavra para criar um tijolo",
     "calm_wave": "calma: acumule tijolos · onda {wave} de {of} em {seconds}s",
-    "active_wave": "onda {wave} de {of} · {count, plural, one {1 atacante} other {# atacantes}}{holding, select, true { · segurando} other { · não segurando}}",
+    "active_wave": "onda {wave} de {of} · {count, plural, one {1 atacante} many {# atacantes} other {# atacantes}}{holding, select, true { · segurando} other { · não segurando}}",
     "castle_integrity": "castelo {percent}%",
     "time_bank": "banco de tempo",
     "next_passage": "próximo trecho ",
@@ -237,7 +237,7 @@
     "include_my_card": "incluir meu cartão",
     "your_text_goes_in_the": "seu texto vai para o arquivo.",
     "share": "compartilhar",
-    "save": "{count, plural, one {salvar o fantasma} other {salvar # fantasmas}}"
+    "save": "{count, plural, one {salvar o fantasma} many {salvar # fantasmas} other {salvar # fantasmas}}"
   },
   "powerup_tray": {
     "shift": "{label}: {help} (shift+{value})",

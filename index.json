@@ -18,8 +18,8 @@
       "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "731d10edab4bc431fbe80a3771f6635c017c1dbfdca70b637cf4a0cf9a624302",
-      "bytes": 300101
+      "sha256": "695cfe683367e52f69e2d3db815f41f0c99f716bd7e348ae0e3c93bf5f541835",
+      "bytes": 303206
     },
     {
       "id": "es-ES",
@@ -52,6 +52,21 @@
       "bytes": 327861
     },
     {
+      "id": "pt-BR",
+      "name": "Português (Brasil)",
+      "englishName": "Portuguese (Brazil)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 1,
+      "version": "2026-10-03",
+      "reviewed": "machine",
+      "changes": "Initial Brazilian Portuguese candidate translation from Kalibre Kanary snapshot 450b97f; pack build",
+      "path": "locales/pt-BR/manifest.json",
+      "pack": "packs/pt-BR.json",
+      "sha256": "421e436ce8fe4e45602086513a689748a625601a40ade250c34a1e73c6453158",
+      "bytes": 325161
+    },
+    {
       "id": "zh-CN",
       "name": "简体中文",
       "englishName": "Chinese (Simplified)",
@@ -65,21 +80,6 @@
       "pack": "packs/zh-CN.json",
       "sha256": "2f4d93cae770a150cf36d262bc882ded95fabb072a6926bcb3a4a78b35517d45",
       "bytes": 280463
-    },
-    {
-      "id": "pt-BR",
-      "name": "Português (Brasil)",
-      "englishName": "Portuguese (Brazil)",
-      "dir": "ltr",
-      "fallback": "en-GB",
-      "revision": 1,
-      "version": "2026-10-03",
-      "reviewed": "machine",
-      "changes": "Initial Brazilian Portuguese candidate translation synced with current main / Kanary 0.70 game updates",
-      "path": "locales/pt-BR/manifest.json",
-      "pack": "packs/pt-BR.json",
-      "sha256": "f4953ef244f2e92124a93e8dbe311c3901cb8bb60b900dda595cabb690fc39ee",
-      "bytes": 322285
     }
   ]
 }

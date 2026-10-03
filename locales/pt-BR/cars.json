@@ -1,45 +1,126 @@
 {
   "slots": {
-    "body": {"title": "carroceria", "hint": "o formato do seu carro"},
-    "paint": {"title": "pintura", "hint": "a cor dele, a partir das cores do seu tema"},
-    "livery": {"title": "grafismo", "hint": "um padrão sobre a pintura (com uma cor própria)"},
-    "wheels": {"title": "rodas", "hint": "onde ele roda"},
-    "trail": {"title": "rastro", "hint": "o que ele deixa para trás"}
+    "body": {
+      "title": "carroceria",
+      "hint": "o formato do seu carro"
+    },
+    "paint": {
+      "title": "pintura",
+      "hint": "a cor dele, a partir das cores do seu tema"
+    },
+    "livery": {
+      "title": "grafismo",
+      "hint": "um padrão sobre a pintura (com uma cor própria)"
+    },
+    "wheels": {
+      "title": "rodas",
+      "hint": "onde ele roda"
+    },
+    "trail": {
+      "title": "rastro",
+      "hint": "o que ele deixa para trás"
+    }
   },
   "parts": {
-    "body-hatch": {"name": "hatchback"},
-    "body-coupe": {"name": "cupê"},
-    "body-beetle": {"name": "fusca"},
-    "body-pickup": {"name": "picape"},
-    "body-van": {"name": "van"},
-    "body-racer": {"name": "monoposto"},
-    "body-bubble": {"name": "carro bolha"},
-    "paint-accent": {"name": "destaque"},
-    "paint-heat-1": {"name": "brasa"},
-    "paint-heat-2": {"name": "âmbar"},
-    "paint-heat-3": {"name": "nascer do sol"},
-    "paint-heat-4": {"name": "escarlate"},
-    "paint-chart-wpm": {"name": "linha de corrida"},
-    "paint-text-dim": {"name": "grafite"},
-    "livery-stripe": {"name": "faixa de corrida"},
-    "livery-checker": {"name": "quadriculado"},
-    "livery-dots": {"name": "poá"},
-    "livery-chevrons": {"name": "chevrons"},
-    "livery-flames": {"name": "chamas"},
-    "livery-split": {"name": "duas cores"},
-    "livery-number": {"name": "número de corrida"},
-    "livery-midnight": {"name": "estrelas da meia-noite"},
-    "wheels-plain": {"name": "simples"},
-    "wheels-sport": {"name": "esportivas"},
-    "wheels-chunky": {"name": "robustas"},
-    "wheels-spoked": {"name": "raiadas"},
-    "wheels-whitewall": {"name": "faixa branca"},
-    "wheels-gilt": {"name": "douradas"},
-    "trail-dust": {"name": "poeira"},
-    "trail-sparks": {"name": "faíscas"},
-    "trail-bubbles": {"name": "bolhas"},
-    "trail-ribbon": {"name": "fita"},
-    "trail-stars": {"name": "poeira estelar"}
+    "body-hatch": {
+      "name": "hatchback"
+    },
+    "body-coupe": {
+      "name": "cupê"
+    },
+    "body-beetle": {
+      "name": "fusca"
+    },
+    "body-pickup": {
+      "name": "picape"
+    },
+    "body-van": {
+      "name": "van"
+    },
+    "body-racer": {
+      "name": "monoposto"
+    },
+    "body-bubble": {
+      "name": "carro bolha"
+    },
+    "paint-accent": {
+      "name": "destaque"
+    },
+    "paint-heat-1": {
+      "name": "brasa"
+    },
+    "paint-heat-2": {
+      "name": "âmbar"
+    },
+    "paint-heat-3": {
+      "name": "nascer do sol"
+    },
+    "paint-heat-4": {
+      "name": "escarlate"
+    },
+    "paint-chart-wpm": {
+      "name": "linha de corrida"
+    },
+    "paint-text-dim": {
+      "name": "grafite"
+    },
+    "livery-stripe": {
+      "name": "faixa de corrida"
+    },
+    "livery-checker": {
+      "name": "quadriculado"
+    },
+    "livery-dots": {
+      "name": "poá"
+    },
+    "livery-chevrons": {
+      "name": "chevrons"
+    },
+    "livery-flames": {
+      "name": "chamas"
+    },
+    "livery-split": {
+      "name": "duas cores"
+    },
+    "livery-number": {
+      "name": "número de corrida"
+    },
+    "livery-midnight": {
+      "name": "estrelas da meia-noite"
+    },
+    "wheels-plain": {
+      "name": "simples"
+    },
+    "wheels-sport": {
+      "name": "esportivas"
+    },
+    "wheels-chunky": {
+      "name": "robustas"
+    },
+    "wheels-spoked": {
+      "name": "raiadas"
+    },
+    "wheels-whitewall": {
+      "name": "faixa branca"
+    },
+    "wheels-gilt": {
+      "name": "douradas"
+    },
+    "trail-dust": {
+      "name": "poeira"
+    },
+    "trail-sparks": {
+      "name": "faíscas"
+    },
+    "trail-bubbles": {
+      "name": "bolhas"
+    },
+    "trail-ribbon": {
+      "name": "fita"
+    },
+    "trail-stars": {
+      "name": "poeira estelar"
+    }
   },
   "garage": {
     "title": "garagem",

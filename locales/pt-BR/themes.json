@@ -1,10 +1,198 @@
 {
-  "editor":{"save_theme":"salvar tema","name":"nome","light_or_dark":"claro ou escuro","readability":"legibilidade","page":"página","background":"fundo","panels":"painéis","lines_borders":"linhas e bordas","selection":"seleção","text":"texto","dim_text":"texto apagado","accent":"destaque","typed_text":"texto digitado","mistakes":"erros","extra_letters":"letras extras","caret":"cursor"},
-  "actions":{"use":"usar","edit":"editar","decorate":"decorar","export":"exportar","delete":"excluir","done":"concluído","customise_current":"personalizar o tema atual","import_theme":"importar um tema","decorations_for":"decorações para {name}","use_theme":"usar {name}","edit_theme":"editar {name}","decorate_theme":"decorar {name}","export_theme":"exportar {name}","delete_theme":"excluir {name}","copy_and_decorate":"copiar este tema e decorá-lo","decorations_earned_zero":"Decorações de tema, conquistadas jogando, vão em temas seus.","decorations_earned_notice":"Você conquistou {count, plural, one {uma decoração de tema} other {# decorações de tema}}. Elas vão em temas seus, então copie este para usar {count, plural, one {a decoração} other {as decorações}}.","decorations_earned_info":"Conquistadas jogando. Elas ficam com este tema neste perfil e não são incluídas quando você exporta o tema."},
-  "picker":{"preview":"prévia","instructions":"passe o mouse para visualizar · clique ou Enter para aplicar · Esc para fechar","close":"fechar"},
-  "decorationSlots":{"caret":{"title":"cursor","hint":"ao redor do cursor (seu formato é uma configuração de digitação)"},"backdrop":{"title":"fundo","hint":"um padrão suave atrás da página"},"frame":{"title":"moldura","hint":"ao redor do texto que você digita"},"keystroke":{"title":"tecla pressionada","hint":"como cada letra digitada se acomoda"},"flourish":{"title":"ornamento","hint":"uma pequena marca ao lado da marca"}},
-  "decorations":{"caret-glow":{"name":"brilho suave"},"caret-halo":{"name":"halo"},"caret-drop":{"name":"gota de tinta"},"caret-trail":{"name":"cauda de cometa"},"backdrop-dots":{"name":"grade de pontos"},"backdrop-ruled":{"name":"papel pautado"},"backdrop-graph":{"name":"papel quadriculado"},"backdrop-grain":{"name":"granulado"},"backdrop-checks":{"name":"quadriculado suave"},"frame-corners":{"name":"marcas de canto"},"frame-bookplate":{"name":"ex-libris"},"frame-tab":{"name":"aba de pasta"},"frame-brackets":{"name":"colchetes"},"keystroke-ink":{"name":"desvanecer de tinta"},"keystroke-rise":{"name":"elevação suave"},"keystroke-bloom":{"name":"florescer"},"flourish-leaf":{"name":"folha"},"flourish-star":{"name":"estrela"},"flourish-key":{"name":"tecla"},"flourish-letter":{"name":"letra do seu companheiro"},"flourish-moon":{"name":"lua"}},
-  "presets":{"paper":{"name":"papel"},"ink":{"name":"tinta"},"dusk":{"name":"crepúsculo"},"eink":{"name":"e-ink"},"eink-night":{"name":"e-ink noturno"},"cream":{"name":"creme"},"rose":{"name":"rosa"},"harbour":{"name":"porto"},"forest":{"name":"floresta"},"plum":{"name":"ameixa"},"slate":{"name":"ardósia"},"terminal":{"name":"terminal"},"contrast":{"name":"alto contraste"},"contrast-night":{"name":"alto contraste noturno"}},
-  "checks":{"text_bg":"texto na página","text_surface":"texto nos painéis","textDim_bg":"texto apagado na página","textDim_surface":"texto apagado nos painéis","correct_bg":"texto digitado","incorrect_bg":"erros","correct_textDim":"texto digitado se destaca do texto ainda por digitar","accent_bg":"destaque","caret_bg":"cursor","extra_bg":"letras extras","chartWpm_bg":"gráfico: linha de ppm","chartRaw_bg":"gráfico: linha bruta","chartError_bg":"gráfico: erros","heat1_bg":"calor das teclas 1","heat4_bg":"calor das teclas 4","not_a_theme":"não é um tema","needs_a_name":"precisa de um nome de até 40 caracteres","scheme_must_be":"o esquema deve ser claro ou escuro","bad_hex":"a cor \"{token}\" precisa ter um valor #rrggbb","not_readable":"pouco legível: {labels}"}
+  "editor": {
+    "save_theme": "salvar tema",
+    "name": "nome",
+    "light_or_dark": "claro ou escuro",
+    "readability": "legibilidade",
+    "page": "página",
+    "background": "fundo",
+    "panels": "painéis",
+    "lines_borders": "linhas e bordas",
+    "selection": "seleção",
+    "text": "texto",
+    "dim_text": "texto apagado",
+    "accent": "destaque",
+    "typed_text": "texto digitado",
+    "mistakes": "erros",
+    "extra_letters": "letras extras",
+    "caret": "cursor"
+  },
+  "actions": {
+    "use": "usar",
+    "edit": "editar",
+    "decorate": "decorar",
+    "export": "exportar",
+    "delete": "excluir",
+    "done": "concluído",
+    "customise_current": "personalizar o tema atual",
+    "import_theme": "importar um tema",
+    "decorations_for": "decorações para {name}",
+    "use_theme": "usar {name}",
+    "edit_theme": "editar {name}",
+    "decorate_theme": "decorar {name}",
+    "export_theme": "exportar {name}",
+    "delete_theme": "excluir {name}",
+    "copy_and_decorate": "copiar este tema e decorá-lo",
+    "decorations_earned_zero": "Decorações de tema, conquistadas jogando, vão em temas seus.",
+    "decorations_earned_notice": "Você conquistou {count, plural, one {uma decoração de tema} many {# decorações de tema} other {# decorações de tema}}. Elas vão em temas seus, então copie este para usar {count, plural, one {a decoração} many {as decorações} other {as decorações}}.",
+    "decorations_earned_info": "Conquistadas jogando. Elas ficam com este tema neste perfil e não são incluídas quando você exporta o tema."
+  },
+  "picker": {
+    "preview": "prévia",
+    "instructions": "passe o mouse para visualizar · clique ou Enter para aplicar · Esc para fechar",
+    "close": "fechar"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "cursor",
+      "hint": "ao redor do cursor (seu formato é uma configuração de digitação)"
+    },
+    "backdrop": {
+      "title": "fundo",
+      "hint": "um padrão suave atrás da página"
+    },
+    "frame": {
+      "title": "moldura",
+      "hint": "ao redor do texto que você digita"
+    },
+    "keystroke": {
+      "title": "tecla pressionada",
+      "hint": "como cada letra digitada se acomoda"
+    },
+    "flourish": {
+      "title": "ornamento",
+      "hint": "uma pequena marca ao lado da marca"
+    }
+  },
+  "decorations": {
+    "caret-glow": {
+      "name": "brilho suave"
+    },
+    "caret-halo": {
+      "name": "halo"
+    },
+    "caret-drop": {
+      "name": "gota de tinta"
+    },
+    "caret-trail": {
+      "name": "cauda de cometa"
+    },
+    "backdrop-dots": {
+      "name": "grade de pontos"
+    },
+    "backdrop-ruled": {
+      "name": "papel pautado"
+    },
+    "backdrop-graph": {
+      "name": "papel quadriculado"
+    },
+    "backdrop-grain": {
+      "name": "granulado"
+    },
+    "backdrop-checks": {
+      "name": "quadriculado suave"
+    },
+    "frame-corners": {
+      "name": "marcas de canto"
+    },
+    "frame-bookplate": {
+      "name": "ex-libris"
+    },
+    "frame-tab": {
+      "name": "aba de pasta"
+    },
+    "frame-brackets": {
+      "name": "colchetes"
+    },
+    "keystroke-ink": {
+      "name": "desvanecer de tinta"
+    },
+    "keystroke-rise": {
+      "name": "elevação suave"
+    },
+    "keystroke-bloom": {
+      "name": "florescer"
+    },
+    "flourish-leaf": {
+      "name": "folha"
+    },
+    "flourish-star": {
+      "name": "estrela"
+    },
+    "flourish-key": {
+      "name": "tecla"
+    },
+    "flourish-letter": {
+      "name": "letra do seu companheiro"
+    },
+    "flourish-moon": {
+      "name": "lua"
+    }
+  },
+  "presets": {
+    "paper": {
+      "name": "papel"
+    },
+    "ink": {
+      "name": "tinta"
+    },
+    "dusk": {
+      "name": "crepúsculo"
+    },
+    "eink": {
+      "name": "e-ink"
+    },
+    "eink-night": {
+      "name": "e-ink noturno"
+    },
+    "cream": {
+      "name": "creme"
+    },
+    "rose": {
+      "name": "rosa"
+    },
+    "harbour": {
+      "name": "porto"
+    },
+    "forest": {
+      "name": "floresta"
+    },
+    "plum": {
+      "name": "ameixa"
+    },
+    "slate": {
+      "name": "ardósia"
+    },
+    "terminal": {
+      "name": "terminal"
+    },
+    "contrast": {
+      "name": "alto contraste"
+    },
+    "contrast-night": {
+      "name": "alto contraste noturno"
+    }
+  },
+  "checks": {
+    "text_bg": "texto na página",
+    "text_surface": "texto nos painéis",
+    "textDim_bg": "texto apagado na página",
+    "textDim_surface": "texto apagado nos painéis",
+    "correct_bg": "texto digitado",
+    "incorrect_bg": "erros",
+    "correct_textDim": "texto digitado se destaca do texto ainda por digitar",
+    "accent_bg": "destaque",
+    "caret_bg": "cursor",
+    "extra_bg": "letras extras",
+    "chartWpm_bg": "gráfico: linha de ppm",
+    "chartRaw_bg": "gráfico: linha bruta",
+    "chartError_bg": "gráfico: erros",
+    "heat1_bg": "calor das teclas 1",
+    "heat4_bg": "calor das teclas 4",
+    "not_a_theme": "não é um tema",
+    "needs_a_name": "precisa de um nome de até 40 caracteres",
+    "scheme_must_be": "o esquema deve ser claro ou escuro",
+    "bad_hex": "a cor \"{token}\" precisa ter um valor #rrggbb",
+    "not_readable": "pouco legível: {labels}"
+  }
 }
-

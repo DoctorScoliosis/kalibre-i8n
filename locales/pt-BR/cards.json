@@ -64,51 +64,141 @@
       }
     },
     "items": {
-      "border-double": {"name": "linha dupla"},
-      "border-stitch": {"name": "costurado"},
-      "border-ribbon": {"name": "fita"},
-      "border-corners": {"name": "colchetes de canto"},
-      "border-keycap": {"name": "tecla"},
-      "border-heat": {"name": "calor"},
-      "border-neon": {"name": "neon"},
-      "border-gilt": {"name": "dourado"},
-      "border-midnight": {"name": "meia-noite"},
-      "frame-double": {"name": "anel duplo"},
-      "frame-dashed": {"name": "anel tracejado"},
-      "frame-square": {"name": "quadrado de tecla"},
-      "frame-cog": {"name": "engrenagem"},
-      "frame-petals": {"name": "pétalas"},
-      "frame-orbit": {"name": "órbita"},
-      "frame-laurel": {"name": "louro"},
-      "frame-crown": {"name": "coroa"},
-      "aura-soft": {"name": "brilho suave"},
-      "aura-pulse": {"name": "pulso"},
-      "aura-ember": {"name": "brasa"},
-      "aura-halo": {"name": "halo"},
-      "aura-aurora": {"name": "aurora"},
-      "aura-prism": {"name": "prisma"},
-      "backdrop-dots": {"name": "pontos"},
-      "backdrop-pinstripe": {"name": "risca de giz"},
-      "backdrop-graph": {"name": "papel quadriculado"},
-      "backdrop-waves": {"name": "ondas"},
-      "backdrop-stars": {"name": "campo estelar"},
-      "backdrop-confetti": {"name": "confete"},
-      "sticker-star": {"name": "estrela"},
-      "sticker-leaf": {"name": "folha"},
-      "sticker-key": {"name": "tecla"},
-      "sticker-heart": {"name": "coração"},
-      "sticker-flower": {"name": "flor"},
-      "sticker-bolt": {"name": "raio"},
-      "sticker-note": {"name": "nota musical"},
-      "sticker-moon": {"name": "lua"},
-      "sticker-rocket": {"name": "foguete"},
-      "sticker-castle": {"name": "castelo"},
-      "sticker-magnifier": {"name": "lupa"},
-      "sticker-book": {"name": "livro"},
-      "sticker-flag": {"name": "bandeira quadriculada"},
-      "sticker-crown": {"name": "coroa"},
-      "sticker-teacup": {"name": "xícara de chá"},
-      "sticker-sparkle": {"name": "brilho"}
+      "border-double": {
+        "name": "linha dupla"
+      },
+      "border-stitch": {
+        "name": "costurado"
+      },
+      "border-ribbon": {
+        "name": "fita"
+      },
+      "border-corners": {
+        "name": "colchetes de canto"
+      },
+      "border-keycap": {
+        "name": "tecla"
+      },
+      "border-heat": {
+        "name": "calor"
+      },
+      "border-neon": {
+        "name": "neon"
+      },
+      "border-gilt": {
+        "name": "dourado"
+      },
+      "border-midnight": {
+        "name": "meia-noite"
+      },
+      "frame-double": {
+        "name": "anel duplo"
+      },
+      "frame-dashed": {
+        "name": "anel tracejado"
+      },
+      "frame-square": {
+        "name": "quadrado de tecla"
+      },
+      "frame-cog": {
+        "name": "engrenagem"
+      },
+      "frame-petals": {
+        "name": "pétalas"
+      },
+      "frame-orbit": {
+        "name": "órbita"
+      },
+      "frame-laurel": {
+        "name": "louro"
+      },
+      "frame-crown": {
+        "name": "coroa"
+      },
+      "aura-soft": {
+        "name": "brilho suave"
+      },
+      "aura-pulse": {
+        "name": "pulso"
+      },
+      "aura-ember": {
+        "name": "brasa"
+      },
+      "aura-halo": {
+        "name": "halo"
+      },
+      "aura-aurora": {
+        "name": "aurora"
+      },
+      "aura-prism": {
+        "name": "prisma"
+      },
+      "backdrop-dots": {
+        "name": "pontos"
+      },
+      "backdrop-pinstripe": {
+        "name": "risca de giz"
+      },
+      "backdrop-graph": {
+        "name": "papel quadriculado"
+      },
+      "backdrop-waves": {
+        "name": "ondas"
+      },
+      "backdrop-stars": {
+        "name": "campo estelar"
+      },
+      "backdrop-confetti": {
+        "name": "confete"
+      },
+      "sticker-star": {
+        "name": "estrela"
+      },
+      "sticker-leaf": {
+        "name": "folha"
+      },
+      "sticker-key": {
+        "name": "tecla"
+      },
+      "sticker-heart": {
+        "name": "coração"
+      },
+      "sticker-flower": {
+        "name": "flor"
+      },
+      "sticker-bolt": {
+        "name": "raio"
+      },
+      "sticker-note": {
+        "name": "nota musical"
+      },
+      "sticker-moon": {
+        "name": "lua"
+      },
+      "sticker-rocket": {
+        "name": "foguete"
+      },
+      "sticker-castle": {
+        "name": "castelo"
+      },
+      "sticker-magnifier": {
+        "name": "lupa"
+      },
+      "sticker-book": {
+        "name": "livro"
+      },
+      "sticker-flag": {
+        "name": "bandeira quadriculada"
+      },
+      "sticker-crown": {
+        "name": "coroa"
+      },
+      "sticker-teacup": {
+        "name": "xícara de chá"
+      },
+      "sticker-sparkle": {
+        "name": "brilho"
+      }
     }
   }
 }

@@ -13,7 +13,23 @@
     "fed_hinted": " (the hint: half time)",
     "fed_yum": " · yum",
     "typo": "−{seconds}s · a typo",
-    "typo_meant": " ({meant}?)"
+    "typo_meant": " ({meant}?)",
+    "serving_tray_label": "serving tray",
+    "serving_tray_help": "click the spoon to carry it, drag to creature",
+    "serving_tray_empty": "type a word to load the spoon",
+    "serving_tray_count": "tray {count}/{capacity}",
+    "serving_tray_full_state": "tray full · serve first",
+    "serving_queued": "{text} queued · tray {count}/{capacity}",
+    "serving_tray_full": "tray is full — serve first",
+    "serving_wasted": " · −{seconds}s · {count, plural, one {1 word wasted} other {# words wasted}}",
+    "serving_served": "served · {matched}/{total} matched",
+    "serving_nothing_matched": "nothing matched — time lost",
+    "prepared": "{text} prepared",
+    "cancelled": "food cancelled",
+    "carrying": "carrying food to the creature",
+    "spoon_pickup": "click and drag to serve",
+    "no_match": "no matching dish for this guest",
+    "returned": "tray returned to station"
   },
   "castle": {
     "title": "castle",
@@ -173,7 +189,7 @@
     "creatures_orders": "creatures and their orders",
     "waiting_guest": "waiting for the first guest…",
     "served_words": "served words",
-    "table_status": "table {count}/{cap}",
+    "table_status": "tray {count}/{cap}",
     "yard_empty": "type a word to make a brick",
     "calm_wave": "calm: stock up on bricks · wave {wave} of {of} in {seconds}s",
     "active_wave": "wave {wave} of {of} · {count, plural, one {1 attacker} other {# attackers}}{holding, select, true { · holding} other { · not holding}}",
@@ -204,7 +220,7 @@
     "an_order_filled_happy_guest": "an order filled · happy guest",
     "a_guest_gave_up_waiting": "a guest gave up waiting",
     "went_stale": "{text} went stale",
-    "the_table_is_full_let": "the table is full: let them eat first",
+    "the_table_is_full_let": "the tray is full: carry it to the guests first",
     "that_s_not_food": "{text}? that’s not food",
     "orders_wasted_upset": "orders {value} · wasted {value2} · upset {value3}",
     "served_burnt": " (burnt: counts half)"
@@ -276,18 +292,27 @@
     },
     "GAMES": {
       "feed": {
+        "options": {
+          "serving": {
+            "label": "serving tray",
+            "choices": {
+              "off": { "label": "off" },
+              "on": { "label": "on" }
+            }
+          }
+        },
         "contexts": {
           "getting-started": {
             "label": "getting started",
             "group": "getting started",
-            "summary": "type words to feed the creature before its patience runs out.",
+            "summary": "type words to load the spoon, then carry them to feed the creature.",
             "highlights": [
-              "type a word and press space to serve it",
-              "keep the creature happy to stay alive"
+              "type a word to load it onto the spoon",
+              "click and drag the spoon to the creature to serve"
             ],
             "details": [
               "each word you serve restores time. longer words restore more.",
-              "if you take too long, the creature’s mood drops and eventually it leaves."
+              "keep the creature happy to stay alive; wrong targets or misses keep the food on the spoon."
             ],
             "mechanics": {
               "mood": {
@@ -301,7 +326,7 @@
             },
             "controls": {
               "i0": {
-                "action": "submit word"
+                "action": "load spoon with word"
               }
             },
             "visuals": {
@@ -345,7 +370,7 @@
             },
             "controls": {
               "i0": {
-                "action": "submit word"
+                "action": "load spoon with word"
               }
             },
             "subDemos": {
@@ -376,7 +401,7 @@
             ],
             "controls": {
               "i0": {
-                "action": "submit word"
+                "action": "load spoon with word"
               }
             },
             "visuals": {
@@ -434,6 +459,49 @@
               },
               "satisfaction-floor": {
                 "label": "satisfaction floor"
+              }
+            }
+          },
+          "serving": {
+            "label": "physical serving",
+            "group": "getting started",
+            "summary": "load words onto the spoon and physically carry them to the creature to serve.",
+            "highlights": [
+              "type a word to load it onto the spoon",
+              "click the spoon, drag it to the creature, and release to serve"
+            ],
+            "details": [
+              "matching words feed the creature and restore time; wrong words cost time.",
+              "drop outside the creature to keep the food and try again.",
+              "press escape to cancel the food on the spoon."
+            ],
+            "mechanics": {
+              "spoon": {
+                "label": "spoon",
+                "summary": "a valid typed word loads the spoon. click and drag to serve."
+              },
+              "targeting": {
+                "label": "targeting",
+                "summary": "hover over the creature to highlight it, then release to deliver the food."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "load spoon"
+              },
+              "i1": {
+                "action": "carry and serve"
+              },
+              "i2": {
+                "action": "cancel food"
+              }
+            },
+            "visuals": {
+              "loaded-spoon": {
+                "label": "loaded spoon"
+              },
+              "creature-highlight": {
+                "label": "target highlight"
               }
             }
           }

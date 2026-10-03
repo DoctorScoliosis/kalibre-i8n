@@ -55,8 +55,8 @@
   "backup": {
     "error": "não foi possível salvar: {error}",
     "nothing": "ainda não há nada para fazer backup",
-    "saved_to_folder": "salvo {count, plural, one {# arquivo de perfil} other {# arquivos de perfil}} na pasta do kalibre “{folder}”",
-    "downloaded": "baixado {count, plural, one {# arquivo de perfil} other {# arquivos de perfil}}"
+    "saved_to_folder": "salvo {count, plural, one {# arquivo de perfil} many {# arquivos de perfil} other {# arquivos de perfil}} na pasta do kalibre “{folder}”",
+    "downloaded": "baixado {count, plural, one {# arquivo de perfil} many {# arquivos de perfil} other {# arquivos de perfil}}"
   },
   "updates": {
     "whats_new_title": "novidades",
@@ -128,29 +128,75 @@
     "then": "depois {value}",
     "sequence_hint": "pressione as teclas de sequência (como {first} depois {second}) dentro de 1,5 segundo. os atalhos só são acionados quando você não está digitando ativamente em testes ou campos de texto.",
     "SHORTCUT_GROUPS": {
-      "navigation": {"title": "navegação"},
-      "nav-type": {"label": "visualização de digitação"},
-      "nav-learn": {"label": "visualização de aprendizado"},
-      "nav-drill": {"label": "visualização de treino"},
-      "nav-games": {"label": "visualização de jogos"},
-      "nav-mistakes": {"label": "visualização de erros"},
-      "nav-stats": {"label": "estatísticas e histórico"},
-      "nav-profile": {"label": "menu de perfil"},
-      "nav-texts": {"label": "textos e biblioteca"},
-      "nav-settings": {"label": "configurações"},
-      "nav-about": {"label": "sobre o kalibre"},
-      "typing": {"title": "digitação e testes"},
-      "type-restart": {"label": "reiniciar teste ou treino"},
-      "type-pause": {"label": "linha de comando / pausa"},
-      "type-delete-word": {"label": "excluir palavra"},
-      "type-space": {"label": "enviar / próxima palavra"},
-      "general": {"title": "geral e diálogos"},
-      "gen-guide": {"label": "guia de atalhos de teclado"},
-      "gen-close": {"label": "fechar modal ou diálogo"},
-      "gen-command": {"label": "paleta de linha de comando"},
-      "gen-focus": {"label": "navegar pelos controles"}
+      "navigation": {
+        "title": "navegação"
+      },
+      "nav-type": {
+        "label": "visualização de digitação"
+      },
+      "nav-learn": {
+        "label": "visualização de aprendizado"
+      },
+      "nav-drill": {
+        "label": "visualização de treino"
+      },
+      "nav-games": {
+        "label": "visualização de jogos"
+      },
+      "nav-mistakes": {
+        "label": "visualização de erros"
+      },
+      "nav-stats": {
+        "label": "estatísticas e histórico"
+      },
+      "nav-profile": {
+        "label": "menu de perfil"
+      },
+      "nav-texts": {
+        "label": "textos e biblioteca"
+      },
+      "nav-settings": {
+        "label": "configurações"
+      },
+      "nav-about": {
+        "label": "sobre o kalibre"
+      },
+      "typing": {
+        "title": "digitação e testes"
+      },
+      "type-restart": {
+        "label": "reiniciar teste ou treino"
+      },
+      "type-pause": {
+        "label": "linha de comando / pausa"
+      },
+      "type-delete-word": {
+        "label": "excluir palavra"
+      },
+      "type-space": {
+        "label": "enviar / próxima palavra"
+      },
+      "general": {
+        "title": "geral e diálogos"
+      },
+      "gen-guide": {
+        "label": "guia de atalhos de teclado"
+      },
+      "gen-close": {
+        "label": "fechar modal ou diálogo"
+      },
+      "gen-command": {
+        "label": "paleta de linha de comando"
+      },
+      "gen-focus": {
+        "label": "navegar pelos controles"
+      }
     },
-    "modal": {"shortcuts": {"title": "atalhos de teclado"}}
+    "modal": {
+      "shortcuts": {
+        "title": "atalhos de teclado"
+      }
+    }
   },
   "startup_failure": {
     "putting_it_back": "colocando de volta…",

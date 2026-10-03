@@ -1,10 +1,92 @@
 {
-  "summary":{"speed":"velocidade","accuracy":"precisão","characters":"caracteres","words":"palavras","time":"tempo","consistency":"consistência","best":"melhor marca pessoal","average":"média","tests":"testes"},
-  "candidate":{"prompt_label":"sugestão de treinamento","body":"Você continua digitando {word} · {count, plural, one {# vez} other {# vezes}} em {sessions, plural, one {# sessão} other {# sessões}}.","train":"treinar","dismiss":"dispensar","later":"mais tarde","drill_it_now":"treinar agora"},
-  "actions":{"next":"próximo","retry":"tentar novamente","watch_replay":"ver replay","save_ghost":"salvar como fantasma","words":"palavras","final":"final","as_typed":"como digitado"},
-  "race_results":{"full_stats":"estatísticas completas","your_race":"sua corrida","this_race_looked_like_key":"esta corrida pareceu uma sequência de teclas aleatórias ({notCountedReason}), então não foi contabilizada: sem xp, erros ou estatísticas.","lv_to_go":" · nív. {level} · faltam {value}","drill_now":"treinar agora","counts":"erros {errors} · palavras {words}"},
-  "replay_player":{"test_replay":"replay do teste","pinned":"fixado ✓","pinned_limit_reached_replays_unpin":"limite de fixados atingido ({PINNED_LOGS_CAP} replays). Desafixe um replay antigo primeiro.","close_replay":"fechar replay","replay_scrubber":"barra do replay","jump_to_playhead":"ir para o marcador ⇥","0_wpm":"0 ppm","replay_timeline_zoom":"zoom da linha do tempo do replay","zoom":"zoom","restart_replay":"reiniciar replay","play":"reproduzir","saved_as_ghost":"salvo como fantasma ✓","wpm":"{round} ppm"},
-  "result_chart":{"per_second_results":"Resultados por segundo","not_enough_typing_to_draw":"Não há digitação suficiente para desenhar um gráfico.","chart_zoom":"zoom do gráfico","speed_over_time_use_the":"Velocidade ao longo do tempo. Use as teclas de seta esquerda e direita para ler cada segundo."},
-  "results":{"words_lowest_accuracy_target_kept":"{words} palavras · menor precisão {round}% · meta {targetAccuracy}% · mantidos {floorWpm}+ ppm","words_peak_pace_lowest_target":"{words} palavras · ritmo máximo {round} · menor {round2} · meta {targetWpm} ppm","longest_above_target_raw_in":"mais tempo acima da meta {formatDuration} · {nearMisses} · bruto {round} · {formatDuration2} no total","mistake_analysis_failed_for_this":"a análise de erros falhou para esta sessão","common_mistakes":"erros comuns","show_the_words":"mostrar as palavras","expected":"esperado \"{text}\"","typed_expected":"digitado {typed}, esperado {text}","deleted":"excluído","this_drill":"este treino","now":"agora {to}","race_this_drill":"correr este treino","race_the_same_drill_again":"Correr o mesmo treino novamente, contra um fantasma desta execução","results":"resultados","survived":"sobreviveu","wpm":"ppm","acc":"prec.","this_test_looked_like_key":"Este teste pareceu uma sequência de teclas aleatórias ({notCountedReason}), então não foi contabilizado: sem XP, erros ou estatísticas.","suggested_for_training":"{extraSuggested} sugeridos para treinamento","book_range":" {start} → {end}","the_end":"o fim","book_words":" · {count} palavras","overdeleted":"você excluiu {count, plural, one {# caractere correto} other {# caracteres corretos}} além do erro","overdeleted_cost":", cerca de {cost} ppm","mistake_line":"{errors} em {exposures}{share} · antes {before}","summary_line":"bruto {raw} · {spread} · {duration}","practice_words":" · {count, plural, one {# palavra de prática} other {# palavras de prática}}","letters_to_cover":" · {count, plural, one {# letra} other {# letras}} ainda a cobrir","mistakes_ready":"{count, plural, one {# erro pronto} other {# erros prontos}}","consistency_spread":"consistência {consistency}% (±{wpmStdDev} ppm)","consistency_none":"consistência –"}
+  "summary": {
+    "speed": "velocidade",
+    "accuracy": "precisão",
+    "characters": "caracteres",
+    "words": "palavras",
+    "time": "tempo",
+    "consistency": "consistência",
+    "best": "melhor marca pessoal",
+    "average": "média",
+    "tests": "testes"
+  },
+  "candidate": {
+    "prompt_label": "sugestão de treinamento",
+    "body": "Você continua digitando {word} · {count, plural, one {# vez} many {# vezes} other {# vezes}} em {sessions, plural, one {# sessão} many {# sessões} other {# sessões}}.",
+    "train": "treinar",
+    "dismiss": "dispensar",
+    "later": "mais tarde",
+    "drill_it_now": "treinar agora"
+  },
+  "actions": {
+    "next": "próximo",
+    "retry": "tentar novamente",
+    "watch_replay": "ver replay",
+    "save_ghost": "salvar como fantasma",
+    "words": "palavras",
+    "final": "final",
+    "as_typed": "como digitado"
+  },
+  "race_results": {
+    "full_stats": "estatísticas completas",
+    "your_race": "sua corrida",
+    "this_race_looked_like_key": "esta corrida pareceu uma sequência de teclas aleatórias ({notCountedReason}), então não foi contabilizada: sem xp, erros ou estatísticas.",
+    "lv_to_go": " · nív. {level} · faltam {value}",
+    "drill_now": "treinar agora",
+    "counts": "erros {errors} · palavras {words}"
+  },
+  "replay_player": {
+    "test_replay": "replay do teste",
+    "pinned": "fixado ✓",
+    "pinned_limit_reached_replays_unpin": "limite de fixados atingido ({PINNED_LOGS_CAP} replays). Desafixe um replay antigo primeiro.",
+    "close_replay": "fechar replay",
+    "replay_scrubber": "barra do replay",
+    "jump_to_playhead": "ir para o marcador ⇥",
+    "0_wpm": "0 ppm",
+    "replay_timeline_zoom": "zoom da linha do tempo do replay",
+    "zoom": "zoom",
+    "restart_replay": "reiniciar replay",
+    "play": "reproduzir",
+    "saved_as_ghost": "salvo como fantasma ✓",
+    "wpm": "{round} ppm"
+  },
+  "result_chart": {
+    "per_second_results": "Resultados por segundo",
+    "not_enough_typing_to_draw": "Não há digitação suficiente para desenhar um gráfico.",
+    "chart_zoom": "zoom do gráfico",
+    "speed_over_time_use_the": "Velocidade ao longo do tempo. Use as teclas de seta esquerda e direita para ler cada segundo."
+  },
+  "results": {
+    "words_lowest_accuracy_target_kept": "{words} palavras · menor precisão {round}% · meta {targetAccuracy}% · mantidos {floorWpm}+ ppm",
+    "words_peak_pace_lowest_target": "{words} palavras · ritmo máximo {round} · menor {round2} · meta {targetWpm} ppm",
+    "longest_above_target_raw_in": "mais tempo acima da meta {formatDuration} · {nearMisses} · bruto {round} · {formatDuration2} no total",
+    "mistake_analysis_failed_for_this": "a análise de erros falhou para esta sessão",
+    "common_mistakes": "erros comuns",
+    "show_the_words": "mostrar as palavras",
+    "expected": "esperado \"{text}\"",
+    "typed_expected": "digitado {typed}, esperado {text}",
+    "deleted": "excluído",
+    "this_drill": "este treino",
+    "now": "agora {to}",
+    "race_this_drill": "correr este treino",
+    "race_the_same_drill_again": "Correr o mesmo treino novamente, contra um fantasma desta execução",
+    "results": "resultados",
+    "survived": "sobreviveu",
+    "wpm": "ppm",
+    "acc": "prec.",
+    "this_test_looked_like_key": "Este teste pareceu uma sequência de teclas aleatórias ({notCountedReason}), então não foi contabilizado: sem XP, erros ou estatísticas.",
+    "suggested_for_training": "{extraSuggested} sugeridos para treinamento",
+    "book_range": " {start} → {end}",
+    "the_end": "o fim",
+    "book_words": " · {count} palavras",
+    "overdeleted": "você excluiu {count, plural, one {# caractere correto} many {# caracteres corretos} other {# caracteres corretos}} além do erro",
+    "overdeleted_cost": ", cerca de {cost} ppm",
+    "mistake_line": "{errors} em {exposures}{share} · antes {before}",
+    "summary_line": "bruto {raw} · {spread} · {duration}",
+    "practice_words": " · {count, plural, one {# palavra de prática} many {# palavras de prática} other {# palavras de prática}}",
+    "letters_to_cover": " · {count, plural, one {# letra} many {# letras} other {# letras}} ainda a cobrir",
+    "mistakes_ready": "{count, plural, one {# erro pronto} many {# erros prontos} other {# erros prontos}}",
+    "consistency_spread": "consistência {consistency}% (±{wpmStdDev} ppm)",
+    "consistency_none": "consistência –"
+  }
 }
-

@@ -1,1 +1,18 @@
-{"filter":{"warning":"As listas de palavras do Kalibre vêm de livros antigos e dicionários grandes, que incluem insultos e outras palavras ofensivas. Com o filtro desligado, elas podem aparecer em testes, treinos, lições e jogos. Ao desligá-lo, você aceita que pode vê-las e que o autor do Kalibre não se responsabiliza por qualquer ofensa causada.","turn_off":"desligar o filtro","keep_on":"mantê-lo ligado","confirm_title":"desligar o filtro de palavras ofensivas?","filter_on":"filtro ligado","filter_off":"filtro desligado","placeholder":"uma por linha ou separadas por vírgulas; termine com * para todas as palavras que começam com isso","filtered_count":"{count, plural, one {# palavra sua filtrada} other {# palavras suas filtradas}}","no_words":"nenhuma palavra sua","heading":"palavras ofensivas","toggle_label":"filtrar palavras ofensivas","own_label":"suas palavras a filtrar","explanation":"Ligado: insultos e palavrões mais fortes ficam fora das listas de palavras, e trechos que os contêm são pulados. Seus próprios textos e citações nunca são alterados.","own_explanation":"Guardadas apenas com este perfil, nunca compartilhadas. Elas se aplicam enquanto o filtro estiver ligado."}}
+{
+  "filter": {
+    "warning": "As listas de palavras do Kalibre vêm de livros antigos e dicionários grandes, que incluem insultos e outras palavras ofensivas. Com o filtro desligado, elas podem aparecer em testes, treinos, lições e jogos. Ao desligá-lo, você aceita que pode vê-las e que o autor do Kalibre não se responsabiliza por qualquer ofensa causada.",
+    "turn_off": "desligar o filtro",
+    "keep_on": "mantê-lo ligado",
+    "confirm_title": "desligar o filtro de palavras ofensivas?",
+    "filter_on": "filtro ligado",
+    "filter_off": "filtro desligado",
+    "placeholder": "uma por linha ou separadas por vírgulas; termine com * para todas as palavras que começam com isso",
+    "filtered_count": "{count, plural, one {# palavra sua filtrada} many {# palavras suas filtradas} other {# palavras suas filtradas}}",
+    "no_words": "nenhuma palavra sua",
+    "heading": "palavras ofensivas",
+    "toggle_label": "filtrar palavras ofensivas",
+    "own_label": "suas palavras a filtrar",
+    "explanation": "Ligado: insultos e palavrões mais fortes ficam fora das listas de palavras, e trechos que os contêm são pulados. Seus próprios textos e citações nunca são alterados.",
+    "own_explanation": "Guardadas apenas com este perfil, nunca compartilhadas. Elas se aplicam enquanto o filtro estiver ligado."
+  }
+}
