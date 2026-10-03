@@ -1,0 +1,34 @@
+{
+  "kalibreLocale": 1,
+  "id": "it-IT",
+  "name": "Italiano",
+  "englishName": "Italian",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": true,
+  "fonts": [
+    "system-ui",
+    "-apple-system",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "sans-serif"
+  ],
+  "reviewed": "machine",
+  "revision": 1,
+  "version": "2026-10-03",
+  "changes": "Initial Italian candidate translation",
+  "files": {
+    "about.json": "1d1ee560dcb199d7ca1c3a355db05c137723f67f5590501cc988986ff6f58649",
+    "achievements.json": "ff6dabf67348940a9bbf9c35f9e0d6e00f7f4d0c3f1ed178cddabf1093768e90",
+    "cards.json": "49e8546144503d2a93020080f626674a0e410de19b469428e97d7edbbc9c638a",
+    "cars.json": "41adf85dca37551850b34e2ae99d5226a396c9c16b1533b1c7777fe1023e42b7",
+    "chrome.json": "3cb807ecebefc93005b58bb7d7cb405d3ea1e99dab6549acb100effce961cb6f",
+    "commands.json": "b68c9f4639d4639123af219ba536804e529efba6ab98fd5541ccae952d150a34",
+    "common.json": "ca4f7fbe550b4b72b5fff1111754241b530bdbe043f5b67c594180401e3ce3aa",
+    "companions.cal.json": "ee9750dce9a1ebbf8600c8169f0b97e1870c40d6efd84b8215af1cf9862521f9",
+    "companions.json": "c4ef32326cc7a2bd187ee3bdf37643b2c250d8643f46df392abab9a510c7cf31",
+    "companions.libby.json": "a5d7189f7d3dda236fbac1567ecbca7e456f26c11bfc476fc8641fe985459497"
+  }
+}
