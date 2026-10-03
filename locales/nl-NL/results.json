@@ -63,7 +63,7 @@
     "mistake_analysis_failed_for_this": "foutenanalyse voor deze sessie is mislukt",
     "common_mistakes": "veelvoorkomende fouten",
     "show_the_words": "de woorden tonen",
-    "expected": "verwacht "{text}"",
+    "expected": "verwacht \"{text}\"",
     "typed_expected": "getypt {typed}, verwacht {text}",
     "deleted": "verwijderd",
     "this_drill": "deze oefening",
