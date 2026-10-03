@@ -42,14 +42,14 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
+      "revision": 6,
       "version": "2026-10-03",
       "reviewed": "community",
-      "changes": "100% complete fr-FR coverage: profile menu, backup/storage, results, learn and stats headings",
+      "changes": "Filled current Feed, Castle, Space and Spot gaps against kalibre-kanary",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "4e52407a6186b9bf2a7c8e70b15a9ddfb0955842b5ba4a9539536fac87a5d9de",
-      "bytes": 327861
+      "sha256": "5d9066a877ad907466e6efdf4dbb981228331bd30a2aaa1506b2a3e5032435b6",
+      "bytes": 336988
     },
     {
       "id": "pt-BR",
