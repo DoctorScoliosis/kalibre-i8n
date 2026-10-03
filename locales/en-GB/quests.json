@@ -23,7 +23,9 @@
     "summary_aria": "today: {done} of {total} quests done{challenge, select, done {, challenge done} other {}}"
   },
   "quest_note": {
-    "xp": "+{reward} xp"
+    "xp": "+{reward} xp",
+    "challenge_done": "challenge done: {description}",
+    "quest_done": "quest done: {description}"
   },
   "match": {
     "tests": "{count, plural, one {a test} other {tests}}",

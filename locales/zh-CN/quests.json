@@ -6,6 +6,11 @@
     "swap": "更换",
     "go": "开始"
   },
+  "quest_note": {
+    "xp": "+{reward} xp",
+    "challenge_done": "每日挑战完成：{description}",
+    "quest_done": "每日任务完成：{description}"
+  },
   "labels": {
     "challenge": "挑战",
     "daily_goal": "每日目标"

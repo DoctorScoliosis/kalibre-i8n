@@ -144,5 +144,36 @@
         "title": "hésitations"
       }
     }
+  },
+  "legend": {
+    "meant_hit": "voulu → tapé",
+    "swapped": "inversé",
+    "missed": "manquant",
+    "extra": "supplémentaire",
+    "shift": "maj"
+  },
+  "patterns": {
+    "sound": "sonne pareil",
+    "homophone": "mot homophone",
+    "silent": "lettre muette",
+    "double": "lettre double",
+    "vowel": "voyelle incertaine",
+    "mirror": "même doigt, autre main",
+    "wrongDouble": "mauvaise lettre doublée",
+    "moved": "lettre déplacée",
+    "ending": "terminaison omise",
+    "autopilot": "mot familier à la place",
+    "rawSteno": "sténo brute"
+  },
+  "describe": {
+    "shift": "{expected} → {typed} (maj)",
+    "omit": "manquante : {expected}",
+    "extra": "supplémentaire : {typed}",
+    "insert": "mot supplémentaire : {typed}",
+    "skip": "mot omis : {expected}",
+    "hesitation_pair": "pause dans {expected}",
+    "hesitation_before": "pause avant {expected}",
+    "hesitation": "hésitation",
+    "tricky": "délicat : {expected}"
   }
 }

@@ -136,7 +136,9 @@
     "unit_seconds": "seconds"
   },
   "training_notice": {
-    "mistakes": "mistakes, {join}"
+    "mistakes": "mistakes, {join}",
+    "suggested": "{count, plural, one {# suggested} other {# suggested}}",
+    "ready": "{count, plural, one {# ready to drill} other {# ready to drill}}"
   },
   "type_view_goal": {
     "today": "✓ {formatGoalAmount} today",

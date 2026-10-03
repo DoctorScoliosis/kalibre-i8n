@@ -2832,6 +2832,10 @@
       "progress": {
         "backing_up": "backing up",
         "preparing_export": "preparing export",
+        "saving": "saving",
+        "phase_packing": "packing",
+        "phase_compressing": "compressing",
+        "job_status": "{job} · {phase} {percent}%",
         "saved": "saved",
         "couldnt_save": "couldn't save (see settings → data)"
       }
@@ -4988,6 +4992,37 @@
             "title": "hesitations"
           }
         }
+      },
+      "legend": {
+        "meant_hit": "meant → hit",
+        "swapped": "swapped",
+        "missed": "missed",
+        "extra": "extra",
+        "shift": "shift"
+      },
+      "patterns": {
+        "sound": "sounds alike",
+        "homophone": "sound-alike word",
+        "silent": "silent letter",
+        "double": "double letter",
+        "vowel": "unclear vowel",
+        "mirror": "same finger, other hand",
+        "wrongDouble": "wrong letter doubled",
+        "moved": "letter out of place",
+        "ending": "dropped ending",
+        "autopilot": "familiar word instead",
+        "rawSteno": "raw steno"
+      },
+      "describe": {
+        "shift": "{expected} → {typed} (shift)",
+        "omit": "missed {expected}",
+        "extra": "extra {typed}",
+        "insert": "extra word {typed}",
+        "skip": "skipped {expected}",
+        "hesitation_pair": "pause in {expected}",
+        "hesitation_before": "pause before {expected}",
+        "hesitation": "hesitation",
+        "tricky": "tricky: {expected}"
       }
     },
     "profiles": {
@@ -5309,7 +5344,9 @@
         "summary_aria": "today: {done} of {total} quests done{challenge, select, done {, challenge done} other {}}"
       },
       "quest_note": {
-        "xp": "+{reward} xp"
+        "xp": "+{reward} xp",
+        "challenge_done": "challenge done: {description}",
+        "quest_done": "quest done: {description}"
       },
       "match": {
         "tests": "{count, plural, one {a test} other {tests}}",
@@ -6984,7 +7021,9 @@
         "unit_seconds": "seconds"
       },
       "training_notice": {
-        "mistakes": "mistakes, {join}"
+        "mistakes": "mistakes, {join}",
+        "suggested": "{count, plural, one {# suggested} other {# suggested}}",
+        "ready": "{count, plural, one {# ready to drill} other {# ready to drill}}"
       },
       "type_view_goal": {
         "today": "✓ {formatGoalAmount} today",

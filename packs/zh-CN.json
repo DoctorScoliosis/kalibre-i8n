@@ -1557,6 +1557,10 @@
       "progress": {
         "backing_up": "正在备份",
         "preparing_export": "正在准备导出",
+        "saving": "正在保存",
+        "phase_packing": "正在打包",
+        "phase_compressing": "正在压缩",
+        "job_status": "{job} · {phase} {percent}%",
         "saved": "已保存",
         "couldnt_save": "无法保存（请参阅设置 → 数据）"
       }
@@ -1568,6 +1572,11 @@
       "actions": {
         "swap": "更换",
         "go": "开始"
+      },
+      "quest_note": {
+        "xp": "+{reward} xp",
+        "challenge_done": "每日挑战完成：{description}",
+        "quest_done": "每日任务完成：{description}"
       },
       "labels": {
         "challenge": "挑战",

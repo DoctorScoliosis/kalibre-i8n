@@ -2829,6 +2829,10 @@
       "progress": {
         "backing_up": "Sauvegarde en cours",
         "preparing_export": "Préparation de l'export",
+        "saving": "Enregistrement",
+        "phase_packing": "Assemblage",
+        "phase_compressing": "Compression",
+        "job_status": "{job} · {phase} {percent} %",
         "saved": "Enregistré",
         "couldnt_save": "Impossible d'enregistrer (voir Paramètres → Données)"
       }
@@ -4985,6 +4989,37 @@
             "title": "hésitations"
           }
         }
+      },
+      "legend": {
+        "meant_hit": "voulu → tapé",
+        "swapped": "inversé",
+        "missed": "manquant",
+        "extra": "supplémentaire",
+        "shift": "maj"
+      },
+      "patterns": {
+        "sound": "sonne pareil",
+        "homophone": "mot homophone",
+        "silent": "lettre muette",
+        "double": "lettre double",
+        "vowel": "voyelle incertaine",
+        "mirror": "même doigt, autre main",
+        "wrongDouble": "mauvaise lettre doublée",
+        "moved": "lettre déplacée",
+        "ending": "terminaison omise",
+        "autopilot": "mot familier à la place",
+        "rawSteno": "sténo brute"
+      },
+      "describe": {
+        "shift": "{expected} → {typed} (maj)",
+        "omit": "manquante : {expected}",
+        "extra": "supplémentaire : {typed}",
+        "insert": "mot supplémentaire : {typed}",
+        "skip": "mot omis : {expected}",
+        "hesitation_pair": "pause dans {expected}",
+        "hesitation_before": "pause avant {expected}",
+        "hesitation": "hésitation",
+        "tricky": "délicat : {expected}"
       }
     },
     "profiles": {
@@ -5306,7 +5341,9 @@
         "summary_aria": "aujourd'hui : {done} sur {total} quêtes terminées{challenge, select, done {, défi terminé} other {}}"
       },
       "quest_note": {
-        "xp": "+{reward} xp"
+        "xp": "+{reward} xp",
+        "challenge_done": "défi terminé : {description}",
+        "quest_done": "quête terminée : {description}"
       },
       "match": {
         "tests": "{count, plural, one {un test} many {# tests} other {# tests}}",
@@ -6981,7 +7018,9 @@
         "unit_seconds": "secondes"
       },
       "training_notice": {
-        "mistakes": "erreurs, {join}"
+        "mistakes": "erreurs, {join}",
+        "suggested": "{count, plural, one {# suggérée} many {# suggérées} other {# suggérées}}",
+        "ready": "{count, plural, one {# prête pour l'entraînement} many {# prêtes pour l'entraînement} other {# prêtes pour l'entraînement}}"
       },
       "type_view_goal": {
         "today": "✓ {formatGoalAmount} aujourd'hui",

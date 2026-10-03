@@ -136,7 +136,9 @@
     "unit_seconds": "secondes"
   },
   "training_notice": {
-    "mistakes": "erreurs, {join}"
+    "mistakes": "erreurs, {join}",
+    "suggested": "{count, plural, one {# suggérée} many {# suggérées} other {# suggérées}}",
+    "ready": "{count, plural, one {# prête pour l'entraînement} many {# prêtes pour l'entraînement} other {# prêtes pour l'entraînement}}"
   },
   "type_view_goal": {
     "today": "✓ {formatGoalAmount} aujourd'hui",

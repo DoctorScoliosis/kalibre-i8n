@@ -18,8 +18,8 @@
       "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "66c40337b779d5090ca82c57ea79c3c23ae993d2526784473bba557665e321d7",
-      "bytes": 288844
+      "sha256": "19393142355c3a7c357ded407d2a8f6404908e12570a4d7e1c6d309ca359ad17",
+      "bytes": 290316
     },
     {
       "id": "fr-FR",
@@ -33,8 +33,8 @@
       "changes": "Complete fr-FR translations and plurals for supplement coverage pass",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "9bfabb119db3237b3297a897613075afc84d87a70882d903ea337f60909517c2",
-      "bytes": 322458
+      "sha256": "f2343345a9294494c75ffce95f574fb20bdd03ccc07ccb62277edb74a045f629",
+      "bytes": 324099
     },
     {
       "id": "zh-CN",
@@ -48,8 +48,8 @@
       "changes": "L10: full companion lines, Cal and Libby voice lines, ending script",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "2b7c86ef276943cab0fde584438762ab961d0c864bd93f884210165305b9098a",
-      "bytes": 67088
+      "sha256": "1bc4d5fe3079070169244d439187d6caf82f7adb611d9b388d590271d9c1555a",
+      "bytes": 67445
     }
   ]
 }

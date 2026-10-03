@@ -36,6 +36,10 @@
   "progress": {
     "backing_up": "backing up",
     "preparing_export": "preparing export",
+    "saving": "saving",
+    "phase_packing": "packing",
+    "phase_compressing": "compressing",
+    "job_status": "{job} · {phase} {percent}%",
     "saved": "saved",
     "couldnt_save": "couldn't save (see settings → data)"
   }

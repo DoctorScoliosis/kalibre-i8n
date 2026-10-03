@@ -36,6 +36,10 @@
   "progress": {
     "backing_up": "Sauvegarde en cours",
     "preparing_export": "Préparation de l'export",
+    "saving": "Enregistrement",
+    "phase_packing": "Assemblage",
+    "phase_compressing": "Compression",
+    "job_status": "{job} · {phase} {percent} %",
     "saved": "Enregistré",
     "couldnt_save": "Impossible d'enregistrer (voir Paramètres → Données)"
   }

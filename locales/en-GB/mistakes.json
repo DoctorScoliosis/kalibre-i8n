@@ -144,5 +144,36 @@
         "title": "hesitations"
       }
     }
+  },
+  "legend": {
+    "meant_hit": "meant → hit",
+    "swapped": "swapped",
+    "missed": "missed",
+    "extra": "extra",
+    "shift": "shift"
+  },
+  "patterns": {
+    "sound": "sounds alike",
+    "homophone": "sound-alike word",
+    "silent": "silent letter",
+    "double": "double letter",
+    "vowel": "unclear vowel",
+    "mirror": "same finger, other hand",
+    "wrongDouble": "wrong letter doubled",
+    "moved": "letter out of place",
+    "ending": "dropped ending",
+    "autopilot": "familiar word instead",
+    "rawSteno": "raw steno"
+  },
+  "describe": {
+    "shift": "{expected} → {typed} (shift)",
+    "omit": "missed {expected}",
+    "extra": "extra {typed}",
+    "insert": "extra word {typed}",
+    "skip": "skipped {expected}",
+    "hesitation_pair": "pause in {expected}",
+    "hesitation_before": "pause before {expected}",
+    "hesitation": "hesitation",
+    "tricky": "tricky: {expected}"
   }
 }
