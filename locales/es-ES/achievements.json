@@ -639,5 +639,26 @@
     "badges": "insignias",
     "extras": "extras",
     "sections_label": "secciones de logros"
+  },
+  "beam-overload": {
+    "name": "rayo sobrecargado"
+  },
+  "flagship-down": {
+    "name": "nave insignia derribada"
+  },
+  "keg-defused": {
+    "name": "barril desactivado"
+  },
+  "ladder-toppled": {
+    "name": "escalera derribada"
+  },
+  "sortie-master": {
+    "name": "maestro de salidas"
+  },
+  "marathon-master": {
+    "name": "maestro del maratón"
+  },
+  "scroller-streak": {
+    "name": "racha de cinta"
   }
 }
