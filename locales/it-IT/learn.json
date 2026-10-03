@@ -1,0 +1,429 @@
+{
+  "stages": {
+    "1": { "name": "riga home" },
+    "2": { "name": "riga superiore" },
+    "3": { "name": "riga inferiore" },
+    "4": { "name": "maiuscole" },
+    "5": { "name": "numeri" },
+    "6": { "name": "fluidità" }
+  },
+  "lessons": {
+    "1": {
+      "1": { "title": "home della mano sinistra" },
+      "2": { "title": "home della mano destra" },
+      "3": { "title": "gli indici si spostano verso l'interno" },
+      "4": { "title": "ripasso della riga home" }
+    },
+    "2": {
+      "1": { "title": "i medi salgono" },
+      "2": { "title": "gli indici salgono" },
+      "3": { "title": "indici, colonna interna" },
+      "4": { "title": "gli anulari salgono" },
+      "5": { "title": "i mignoli salgono" },
+      "6": { "title": "ripasso della riga superiore" }
+    },
+    "3": {
+      "1": { "title": "i medi scendono" },
+      "2": { "title": "gli indici scendono" },
+      "3": { "title": "indici, colonna interna" },
+      "4": { "title": "gli anulari scendono" },
+      "5": { "title": "i mignoli scendono" },
+      "6": { "title": "ripasso della riga inferiore" }
+    },
+    "4": {
+      "1": { "title": "maiusc con la riga home" },
+      "2": { "title": "maiusc con ogni lettera" },
+      "3": { "title": "frasi" }
+    },
+    "5": {
+      "1": { "title": "gli indici si spostano verso l'alto" },
+      "2": { "title": "i medi si spostano verso l'alto" },
+      "3": { "title": "gli anulari si spostano verso l'alto" },
+      "4": { "title": "i mignoli si spostano verso l'alto" },
+      "5": { "title": "allungamenti del mignolo" },
+      "6": { "title": "ripasso dei numeri" }
+    },
+    "6": {
+      "1": { "title": "le 100 parole più comuni" },
+      "2": { "title": "le 500 parole più comuni" },
+      "3": { "title": "prosa reale" },
+      "4": { "title": "passa ai test di digitazione" }
+    }
+  },
+  "steps": {
+    "keys": { "title": "i nuovi tasti da soli" },
+    "mix": { "title": "i nuovi tasti con gli altri" }
+  },
+  "ui": {
+    "the_steps_again": "le fasi di nuovo",
+    "steps_first": "prima {count} brevi fasi: i nuovi tasti in sequenze, poi con i tasti che conosci. Poi il test.",
+    "steps_title": "Le {count} brevi fasi sui nuovi tasti, poi il test",
+    "status_mastered": "padroneggiata",
+    "status_practising": "in esercitazione",
+    "status_ready": "pronta",
+    "status_locked": "bloccata",
+    "stats_summary": "migliore {wpm} ppm · {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+    "prerequisite": "Prima padroneggia {prereq}",
+    "intro": "Impara a digitare senza guardare, un gruppo di tasti alla volta. Ogni lezione si apre quando quella precedente è padroneggiata: 25 ppm con il 95% di precisione su almeno 30 parole. Le lezioni danno XP e contano per un obiettivo giornaliero di XP.",
+    "numpad_offer": "Un tastierino numerico? Kalibre offre esercitazioni a dieci tasti: lezioni, un test, somme e un gioco. ",
+    "turn_it_on": "attivalo",
+    "not_now": "non ora",
+    "numpad_heading": "tastierino numerico",
+    "numpad_practice": "esercitazione del tastierino numerico",
+    "numpad_desc": "lezioni, un test a dieci tasti, somme e un gioco",
+    "finger_guidance_fallback": "La guida delle dita è per QWERTY (US) per ora. Puoi comunque seguire le lezioni con il tuo layout; i tasti sono disposti come nel tuo.",
+    "continue_lesson": "continua: {id} {title}",
+    "start_first": "inizia con la lezione 1.1",
+    "all_mastered": "tutte le lezioni padroneggiate ✓",
+    "mastered_count": "{count} di {total} padroneggiate",
+    "stage_heading": "fase {stage} · {name}",
+    "keyboard_needed": "Le lezioni richiedono una tastiera vera: collegane una (bluetooth o usb) e premi un tasto qualsiasi. Test e giochi funzionano con quella su schermo.",
+    "all_lessons": "tutte le lezioni",
+    "handoff_intro": "Ora conosci tutti i tasti. Continua nella pagina di digitazione: i test a tempo e le citazioni aumentano la velocità, e Kalibre inizia a notare gli errori che fai più spesso, così gli allenamenti possono lavorarci sopra.",
+    "go_typing": "vai ai test di digitazione",
+    "opens_prereq": "Questa lezione si apre quando {prereq} è padroneggiata.",
+    "go_to_prereq": "vai a {prereq}",
+    "new_keys_prefix": "nuovi tasti: ",
+    "review_so_far": "un ripasso di tutto fin qui",
+    "every_key": "ogni tasto che conosci",
+    "flow": "flusso",
+    "one_stream": "un flusso",
+    "short_rounds": "sessioni brevi",
+    "words_a_round": "{unit} per sessione",
+    "length": "lunghezza",
+    "keep_going": "continua",
+    "timer": "timer",
+    "none": "nessuno",
+    "start": "inizia",
+    "straight_to_test": "vai direttamente al test",
+    "start_test": "inizia il test",
+    "warm_up_first": "prima riscaldamento: {keys}",
+    "warm_up_title": "Una breve sessione su {reason} (non salvata; Esc passa al test)",
+    "slipped_keys_note": "{keys} sono andati peggio l'ultima volta, quindi prima c'è un breve riscaldamento. Fai il test quando ti senti pronto.",
+    "take_test": "fai il test",
+    "next_step": "prossimo: {title}",
+    "warm_up_again": "riscaldati di nuovo",
+    "this_step_again": "ripeti questa fase",
+    "step_heading": "fase {step} di {total} · {title}",
+    "warmup_heading": "riscaldamento · {keys}",
+    "accuracy_summary": "{accuracy}% di precisione",
+    "ready_test": "Pronto per il test quando vuoi.",
+    "ready_step": "Pronto per la prossima fase.",
+    "slips_continue": "Restano ancora alcuni errori. Un altro tentativo potrebbe aiutare, oppure continua quando ti senti pronto.",
+    "practise_again": "esercitati di nuovo",
+    "result_mastered": "✓ {id} {title}: padroneggiata{exclamation, select, yes {!} other {}}",
+    "result_keep_practising": "{id} {title}: continua a esercitarti",
+    "steno_intro": "Le lezioni insegnano la scrittura a tocco sulla tastiera, quindi vengono messe da parte mentre digiti con una macchina stenografica. Test, allenamenti e giochi funzionano come al solito e i progressi delle lezioni vengono conservati.",
+    "take_test_button": "fai un test",
+    "on_keyboard_now": "ora sto usando una tastiera",
+    "switch_keyboard_title": "Riporta “Digito con” a tastiera",
+    "needs_words": "{minWords} {unit} o più (hai digitato {words})",
+    "needs_wpm": "{wpm} ppm ({actual} questa volta)",
+    "needs_accuracy": "{accuracy}% di precisione ({actual}% questa volta)",
+    "needs_key": "ogni nuovo tasto al {accuracy}%: {key} era al {actual}%",
+    "needs_key_generic": "ogni nuovo tasto al {accuracy}%",
+    "needs_heading": "Per padroneggiarla, una sessione deve avere:",
+    "next_open": "{id} {title} è ora aperta.",
+    "slips_most": "tasti con più errori: {slips}",
+    "slips_none": "ogni tasto al 95% o meglio questa volta",
+    "next_button": "prossima: {id} {title}",
+    "best_run_note": "valutata sui tuoi migliori 30 {unit} consecutivi: {wpm} ppm al {accuracy}%",
+    "numbers_summary": "{wpm} ppm · {accuracy}% di precisione · {words} {unit} · {clock}",
+    "xp_gained": "+{gained} xp",
+    "level_up": " · livello {level}!",
+    "level_progress": " · liv {level} · mancano {remaining}",
+    "goal_met": "✓ obiettivo giornaliero raggiunto · {amount} oggi",
+    "goal_progress": "obiettivo giornaliero · {done} di {target} oggi",
+    "runner_finish": "fine",
+    "runner_resume": "riprendi",
+    "runner_paused": "in pausa",
+    "runner_restart": "riavvia ",
+    "runner_quit": "esci senza salvare ",
+    "round_summary": "sessione {round}: {wpm} ppm · {accuracy}% — spazio per la sessione successiva",
+    "hints_prep": "esc passa al test · spazio prossimo {unit}",
+    "hints_normal": "esc pausa · spazio prossimo {unit}"
+  },
+  "cal_wardrobe": {
+    "whose_wardrobe": "di chi è il guardaroba",
+    "what_to_change": "cosa cambiare",
+    "items": "elementi",
+    "s_wardrobe": "guardaroba di {name}",
+    "everything_here_is_earned_by": "Tutto qui si conquista digitando, mai comprandolo. Fai clic destro su {name} in qualsiasi momento per tornare."
+  },
+  "ending": {
+    "s_options": "opzioni di {name}",
+    "give_the_ring": "dai a {name} l'anello"
+  },
+  "keyboard_diagram": {
+    "finger_colours_are_for_qwerty": "I colori delle dita sono per QWERTY (US) per ora; le lezioni funzionano comunque con il tuo layout.",
+    "left_hand": "mano sinistra",
+    "right_hand": "mano destra"
+  },
+  "learn_curriculum": {
+    "master_first": "padroneggia prima {prerequisiteOf}",
+    "stage": "fase {stage} · {value}"
+  },
+  "learn_lesson": {
+    "fingers": "dita",
+    "diagram_label": "tastiera: i tasti della lezione {id}",
+    "new_keys_fingers": " · {fingers}",
+    "list_separator": ", "
+  },
+  "key_coach": {
+    "other_hand": "stai cercando di usare {key} con l'altra mano: tienilo sulla mano {hand}",
+    "wrong_finger": "stai premendo {typed} per {key}: usa il dito mostrato, non cambiarlo"
+  },
+  "learn_numpad_run": {
+    "num_lock_is_off_the": "Bloc Num è disattivato: il tastierino invia frecce. Attiva Bloc Num sul tastierino.",
+    "time_left": "mancano {time} · {count, plural, one {# voce} other {# voci}}",
+    "clock_start": "{time} · il primo tasto avvia il cronometro",
+    "entries_count": "{done} / {total} voci"
+  },
+  "learn_numpad": {
+    "practice_for_the_number_pad": "Esercitazione per il tastierino numerico: un test a dieci tasti, lezioni e somme. È per chi ne ha uno, quindi resta disattivata finché non la attivi.",
+    "ten_key_practice_lessons_from": "Esercitazione a dieci tasti: lezioni dai tasti home verso l'esterno, importi da digitare come da nastro con Invio e gli operatori, calcolo mentale e una cassa. Tutto dà XP.",
+    "i_don_t_have_a": "non ho un tastierino numerico",
+    "turns_number_pad_practice_off": "disattiva di nuovo l'esercitazione del tastierino numerico",
+    "from_your_last_few_runs": "Dalle tue ultime sessioni. Queste sono tenute separate dagli errori della tastiera principale e vengono allenate qui.",
+    "ten_key_drill": "allenamento a dieci tasti",
+    "sums_drill": "allenamento con le somme",
+    "diagram_weak": "tastierino numerico, colorato in base ai tasti che causano errori",
+    "diagram_mistakes": "tastierino numerico, colorato in base agli errori",
+    "diagram": "tastierino numerico",
+    "drill_keys": "tasti: {keys}",
+    "drill_sums": "somme: {kinds}",
+    "tile_lessons": "lezioni",
+    "tile_lessons_note": "{mastered} di {total} padroneggiate",
+    "tile_lessons_blurb": "i tasti home 4 5 6, poi verso l'esterno fino agli operatori",
+    "tile_tenkey": "test a dieci tasti",
+    "tile_tenkey_fastest": "il tuo più veloce: {ksph} battute all'ora",
+    "tile_tenkey_none": "nessun test ancora",
+    "tile_tenkey_blurb": "importi, numeri interi o un misto con operatori",
+    "tile_sums": "somme",
+    "tile_sums_last": "ultima: {right} di {answers} corrette",
+    "tile_sums_none": "nessuna somma ancora",
+    "tile_sums_blurb": "calcolo mentale: addizioni, sottrazioni, moltiplicazioni, divisioni e percentuali",
+    "tile_till": "cassa",
+    "tile_till_best": "il tuo record: {served} serviti",
+    "tile_till_none": "nessun turno ancora",
+    "tile_till_blurb": "un gioco: servi la coda calcolando il resto"
+  },
+  "learn_padlessons": {
+    "master_lesson_first": "prima padroneggia la lezione {number}",
+    "number_pad_lessons": "lezioni del tastierino numerico",
+    "learn_the_pad_without_looking": "Impara il tastierino senza guardare, pochi tasti alla volta, partendo dai tasti home 4 5 6 verso l'esterno. Ogni lezione si apre quando quella precedente è padroneggiata: la velocità mostrata, 95% di precisione su 25 voci e ogni nuovo tasto usato correttamente per la maggior parte. Le lezioni danno XP.",
+    "start_with_lesson_1": "inizia con la lezione 1",
+    "of_mastered": "{mastered} di {length} padroneggiate",
+    "all_number_pad_lessons": "tutte le lezioni del tastierino numerico",
+    "this_lesson_opens_once_lesson": "Questa lezione si apre quando la lezione {number} è padroneggiata.",
+    "go_to_lesson": "vai alla lezione {number}",
+    "to_master_it_keystrokes_an": "Per padroneggiarla: {thousands} battute all'ora con {accuracy}% di precisione su {entries} voci, e ogni nuovo tasto corretto {keyAccuracy} volte su 100. Appoggia la mano destra su 4 5 6, con il rilievo del 5 sotto il dito medio.",
+    "try_again": "riprova",
+    "result": "risultato",
+    "mastered_again": "padroneggiata di nuovo",
+    "lesson_is_open": "La lezione {number} è aperta.",
+    "that_s_every_number_pad": "Queste sono tutte le lezioni del tastierino numerico.",
+    "again": "di nuovo",
+    "best_summary": "migliore {ksph} all'ora · {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+    "best_detail": "migliore {ksph} all'ora al {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+    "best_detail_mastered": "padroneggiata ✓ · migliore {ksph} all'ora al {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+    "new_keys": "nuovi tasti: {keys}",
+    "headline": "{value} battute all'ora",
+    "to_master": "Per padroneggiarla: {reasons}.",
+    "reason_separator": ", e ",
+    "reason_entries": "tutte le {entries} voci",
+    "reason_ksph": "{target} battute all'ora ({now} questa volta)",
+    "reason_accuracy": "{target}% di precisione ({now}% questa volta)",
+    "reason_key": "ogni nuovo tasto corretto {target} volte su 100 ({key} era al {accuracy}%)",
+    "diagram_label": "tastierino numerico: i tasti della lezione {number}",
+    "continue_lesson": "continua: {number} {title}",
+    "next_lesson": "prossima: {number} {title}"
+  },
+  "learn_runner": {
+    "lesson": "lezione {id}",
+    "warm_up": "riscaldamento",
+    "step_of": "fase {current} di {total}",
+    "counter_capped_prep": "{prep} · {done} / {target} {unit}",
+    "counter_capped": "{done} / {target} {unit}",
+    "counter": "{done} {unit}",
+    "time_left": " · {time} rimasti",
+    "finger_line": "{key}: {finger}",
+    "shift_other_hand": ", con maiusc sull'altra mano",
+    "tip_suffix": " · {tip}",
+    "diagram_label": "tastiera per la lezione {id}"
+  },
+  "learn_sums": {
+    "custom_number_of_questions": "numero personalizzato di domande",
+    "custom_number": "numero personalizzato",
+    "sums": "somme",
+    "mental_arithmetic_the_accountant_s": "Calcolo mentale, come farebbe un contabile: compare una somma, la risolvi e digiti la risposta sul tastierino, poi premi Invio. La valutazione considera la risposta e il tempo impiegato. Tre risposte corrette di fila rendono le somme più difficili; due sbagliate le semplificano. Ogni risposta è esatta al centesimo.",
+    "last_time_of_right_an": "ultima volta: {correctAnswers} di {answers} corrette, {seconds} per risposta, fino al livello {peakLevel}",
+    "no_sums_yet": "nessuna somma ancora",
+    "your_answer": "la tua risposta",
+    "you_typed": "✗ {prompt} = {answerText} · hai digitato {typed}",
+    "level": "{min} / {count} · livello {level}",
+    "type_the_answer_then_enter": "digita la risposta, poi invio · backspace corregge · esc apre la riga di comando",
+    "of": "{correctAnswers} di {answers}",
+    "right": "corrette",
+    "average_time": "tempo medio",
+    "of_2": "{right} di {asked}",
+    "to_look_at_again": "da rivedere",
+    "you_typed_2": " · hai digitato {typed}",
+    "every_answer_right": "tutte le risposte corrette.",
+    "change_the_sums": "cambia le somme",
+    "title_count": "somme · {kind}{weak} · {count, plural, one {# domanda} other {# domande}}",
+    "title": "somme · {kind}{weak}",
+    "weak_spots": " · punti deboli",
+    "right_headline": "{of} corrette",
+    "questions": "domande",
+    "start_at_level": "inizia al livello"
+  },
+  "learn_tenkey": {
+    "your_best_for_this_ksph": "il tuo record per questo: {thousands} ksph al {round}% di precisione",
+    "no_run_of_this_kind": "nessuna sessione di questo tipo ancora",
+    "custom_length_in_minutes": "durata personalizzata in minuti",
+    "custom_length_in_entries": "durata personalizzata in voci",
+    "custom_length": "durata personalizzata",
+    "ten_key_test": "test a dieci tasti",
+    "amounts_arrive_one_to_a": "Gli importi arrivano uno per riga, come su un nastro. Digita ciascuno sul tastierino numerico e concludilo con il tasto mostrato dopo: Invio o un operatore. Il nastro va avanti dopo un errore, quindi continua; Backspace corregge la voce su cui sei. Il punteggio è in battute all'ora.",
+    "new_best": "nuovo record",
+    "your_best_for_this_is": "il tuo record per questo è {thousands}",
+    "not_a_wrong_key_clean": "non è un tasto sbagliato: pulito.",
+    "change_the_test": "cambia il test",
+    "keys_to_watch": "tasti da osservare: {keys}",
+    "watch_key": "{key} ({wrong} errori)",
+    "run_title": "dieci tasti · {form} · {limit}",
+    "run_label": "test a dieci tasti",
+    "unit": "unità"
+  },
+  "learn_till": {
+    "till": "cassa",
+    "customers_queue_at_your_till": "I clienti fanno la coda alla tua cassa. Ognuno ha pagato con una banconota: calcola il resto, digitalo sul tastierino e premi invio. La pazienza di ogni cliente diminuisce mentre aspetta, quindi servire in fretta e correttamente fa avanzare quello successivo. Una risposta sbagliata costa un po' di pazienza e quando tre clienti se ne sono andati la cassa chiude. Il resto è sempre esatto al centesimo.",
+    "your_best_customers_served_in": "il tuo record: {best} clienti serviti in un turno",
+    "no_shifts_yet": "nessun turno ancora",
+    "open_the_till": "apri la cassa",
+    "the_customer_s_patience": "la pazienza del cliente",
+    "the_change": "il resto",
+    "customers_served_level_the_customers": "clienti serviti · livello · i clienti che possono ancora andarsene prima della chiusura della cassa",
+    "press_enter_to_open_the": "premi invio per aprire la cassa",
+    "change": "{billText} · resto?",
+    "waiting_behind": "{behind} in attesa dietro",
+    "no_one_waiting": "nessuno in attesa",
+    "served_level": "{served} serviti · livello {level} · {repeat}{repeat2}",
+    "type_the_change_then_enter": "digita il resto, poi invio · backspace corregge · esc apre la riga di comando",
+    "the_till_is_closed": "la cassa è chiusa",
+    "customer_served": " cliente servito",
+    "customers_served": " clienti serviti",
+    "your_best_is": "il tuo record è {previousBest}",
+    "another_shift": "un altro turno",
+    "feedback_served": "✓ resto {change}",
+    "feedback_wrong": "✗ {typed}: il resto era {change}",
+    "feedback_left": "un cliente se n'è andato ({bill})"
+  },
+  "learn": {
+    "lessons_set_aside": "lezioni messe da parte"
+  },
+  "mascot_sounds": {
+    "play_a_sample": "riproduci un esempio",
+    "a_purr": "un miagolio",
+    "what_sounds_like_at_your": "come suona {name} al tuo volume"
+  },
+  "mascot": {
+    "open_wardrobe": "{name}: apri il guardaroba {companion, select, cal {di lui} libby {di lei} other {loro}}",
+    "open_s_wardrobe": "{name}: apri il guardaroba di {name2}",
+    "asleep_label": "{name}, addormentato: sveglia {companion, select, cal {lui} libby {lei} other {loro}}"
+  },
+  "numpad_tape": {
+    "entries": "voci",
+    "the_tape": "il nastro",
+    "wrong": "sbagliato"
+  },
+  "pad_lessons": {
+    "pad-1": { "title": "i tasti home: 4 5 6" },
+    "pad-2": { "title": "allunga verso l'alto: 7 8 9" },
+    "pad-3": { "title": "allunga verso il basso: 1 2 3" },
+    "pad-4": { "title": "il pollice e l'indice: 0 ." },
+    "pad-5": { "title": "tutte le cifre" },
+    "pad-6": { "title": "più, con il mignolo" },
+    "pad-7": { "title": "meno" },
+    "pad-8": { "title": "moltiplica e dividi" },
+    "pad-9": { "title": "tutto il tastierino" }
+  },
+  "fingers": {
+    "LP": "mignolo sinistro",
+    "LR": "anulare sinistro",
+    "LM": "medio sinistro",
+    "LI": "indice sinistro",
+    "T": "pollice",
+    "RI": "indice destro",
+    "RM": "medio destro",
+    "RR": "anulare destro",
+    "RP": "mignolo destro"
+  },
+  "numpad_fingers": {
+    "RI": "indice",
+    "RM": "medio",
+    "RR": "anulare",
+    "RP": "mignolo",
+    "T": "pollice"
+  },
+  "key_names": {
+    "space": "spazio",
+    "comma": "virgola",
+    "full_stop": "punto",
+    "slash": "barra",
+    "semicolon": "punto e virgola",
+    "apostrophe": "apostrofo",
+    "hyphen": "trattino",
+    "equals": "uguale"
+  },
+  "units": {
+    "sequences": "sequenze",
+    "words": "parole",
+    "sequence": "sequenza",
+    "word": "parola"
+  },
+  "learn_results": {
+    "diagram_label": "tastiera colorata in base alla frequenza con cui ogni tasto è stato sbagliato"
+  },
+  "entries": {
+    "a_ten_key_entry_needs": "Una voce a dieci tasti richiede almeno una cifra.",
+    "ENTRY_FORMS": {
+      "whole": { "label": "numeri interi" },
+      "amounts": { "label": "importi" },
+      "mixed": { "label": "misto, con operatori" }
+    }
+  },
+  "sums": {
+    "SUM_KINDS": {
+      "mixed": { "label": "un misto" },
+      "add": { "label": "addizione" },
+      "subtract": { "label": "sottrazione" },
+      "multiply": { "label": "moltiplicazione" },
+      "divide": { "label": "divisione" },
+      "percent": { "label": "percentuali" }
+    }
+  },
+  "pad_key_names": {
+    "enter": "invio",
+    "plus": "più",
+    "minus": "meno",
+    "times": "per",
+    "divide": "diviso",
+    "decimal_point": "separatore decimale"
+  },
+  "numpad_labels": {
+    "weak_keys": "tasti deboli",
+    "minutes": "{count} min",
+    "entries": "{count} voci"
+  },
+  "numpad_sums": {
+    "kinds": {
+      "add": "addizione",
+      "subtract": "sottrazione",
+      "multiply": "moltiplicazione",
+      "divide": "divisione",
+      "percent": "percentuali"
+    }
+  }
+}
