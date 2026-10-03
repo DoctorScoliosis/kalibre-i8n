@@ -20,7 +20,8 @@ kalibre-i8n/
 ├── package.json              # Tooling commands (zero runtime dependencies)
 ├── scripts/
 │   ├── build-packs.mjs       # Bundles modular files into single-file packs and updates index.json
-│   └── check-i18n.mjs        # CI validator: syntax, key parity, ICU placeholders, checksums
+│   ├── check-i18n.mjs        # CI validator: syntax, key parity, ICU placeholders, checksums
+│   └── coverage.mjs          # Reports missing/partial translation areas and message counts
 ├── packs/                    # Atomic, single-fetch packs downloaded by Kalibre
 │   ├── en-GB.json
 │   └── zh-CN.json
