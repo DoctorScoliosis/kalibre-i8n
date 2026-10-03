@@ -19,7 +19,7 @@
   "shorthand": "la abreviatura oficial {kb} también es la abreviatura evidente de {keyboard}. parecía apropiado para una herramienta construida alrededor de uno.",
   "shorthand_kb": "kb",
   "word_keyboard": "teclado",
-  "exist_intro": "{name} empezó como un proyecto personal, una forma de entrenar los errores concretos que seguía cometiendo, y los errores que {would} cometería, en vez de repetir los mismos ejercicios. el mapa de errores, los ejercicios adaptativos y el modo de precisión sostenida: todo nació de querer algo que aprendiera mis patrones.",
+  "exist_intro": "{name} empezó como un proyecto personal, una forma de entrenar los errores concretos que seguía cometiendo, y los errores que {would} cometería, en vez de repetir los mismos ejercicios. el mapa de errores, los ejercicios adaptativos y el modo de precisión sostenida: todo nació de querer algo que aprendiera {my} patrones.",
   "word_would": "podría",
   "word_my": "mis",
   "exist_dev": "también lo uso durante el desarrollo, más allá de probar funciones, porque escribir algo que ya he creado es una buena forma de dedicarle tiempo.",
