@@ -14,9 +14,9 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 4,
-  "version": "2026-10-03",
-  "changes": "L10: full companion lines, Cal and Libby voice lines, ending script",
+  "revision": 5,
+  "version": "2026-10-04",
+  "changes": "L11: complete achievements rules/names, add missing game strings, reconcile with current en-GB",
   "files": {
     "about.json": "9f71539a14d5e23f192a4cac6f73ab3f6c9849fe764679b5beb9ceba275b4c73",
     "achievements.json": "499772d89fad67116a81733dac0450e73c85682f4b49b029c6e566d44d12e9bb",
