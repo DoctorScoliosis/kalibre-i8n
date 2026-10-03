@@ -23,12 +23,106 @@
     "decorate": "装饰",
     "export": "导出",
     "delete": "删除",
+    "done": "完成",
     "customise_current": "自定义当前主题",
-    "import_theme": "导入主题"
+    "import_theme": "导入主题",
+    "decorations_for": "{name} 的装饰",
+    "use_theme": "使用 {name}",
+    "edit_theme": "编辑 {name}",
+    "decorate_theme": "装饰 {name}",
+    "export_theme": "导出 {name}",
+    "delete_theme": "删除 {name}",
+    "copy_and_decorate": "复制此主题并添加装饰",
+    "decorations_earned_zero": "主题装饰通过游戏获得，只能应用于你自己的主题。",
+    "decorations_earned_notice": "你已获得 {count, plural, other {# 个主题装饰}}。它们只能应用于你自己的主题，因此请复制此主题来佩戴{count, plural, other {它们}}。",
+    "decorations_earned_info": "通过游戏获得。它们与此主题一起保存在此个人资料中，导出主题时不包含在内。"
   },
   "picker": {
     "preview": "预览",
     "instructions": "悬停预览 · 点击或回车应用 · Esc 关闭",
     "close": "关闭"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "光标",
+      "hint": "围绕光标（其形状由打字设置决定）"
+    },
+    "backdrop": {
+      "title": "背景图案",
+      "hint": "页面背后的淡雅图案"
+    },
+    "frame": {
+      "title": "边框",
+      "hint": "围绕你输入的文本"
+    },
+    "keystroke": {
+      "title": "击键效果",
+      "hint": "每个输入的字母如何呈现"
+    },
+    "flourish": {
+      "title": "点缀",
+      "hint": "标志旁的小标记"
+    }
+  },
+  "decorations": {
+    "caret-glow": {"name": "柔光"},
+    "caret-halo": {"name": "光晕"},
+    "caret-drop": {"name": "墨滴"},
+    "caret-trail": {"name": "彗星尾"},
+    "backdrop-dots": {"name": "点阵"},
+    "backdrop-ruled": {"name": "横线纸"},
+    "backdrop-graph": {"name": "方格纸"},
+    "backdrop-grain": {"name": "纹理"},
+    "backdrop-checks": {"name": "柔格"},
+    "frame-corners": {"name": "角标"},
+    "frame-bookplate": {"name": "藏书票"},
+    "frame-tab": {"name": "文件夹标签"},
+    "frame-brackets": {"name": "括号"},
+    "keystroke-ink": {"name": "墨迹淡出"},
+    "keystroke-rise": {"name": "轻柔浮现"},
+    "keystroke-bloom": {"name": "绽放"},
+    "flourish-leaf": {"name": "叶子"},
+    "flourish-star": {"name": "星星"},
+    "flourish-key": {"name": "键帽"},
+    "flourish-letter": {"name": "你伙伴的字母"},
+    "flourish-moon": {"name": "月亮"}
+  },
+  "presets": {
+    "paper": {"name": "纸张"},
+    "ink": {"name": "墨水"},
+    "dusk": {"name": "黄昏"},
+    "eink": {"name": "电子墨水"},
+    "eink-night": {"name": "电子墨水夜间"},
+    "cream": {"name": "奶油"},
+    "rose": {"name": "玫瑰"},
+    "harbour": {"name": "港湾"},
+    "forest": {"name": "森林"},
+    "plum": {"name": "梅紫"},
+    "slate": {"name": "石板"},
+    "terminal": {"name": "终端"},
+    "contrast": {"name": "高对比度"},
+    "contrast-night": {"name": "高对比度夜间"}
+  },
+  "checks": {
+    "text_bg": "页面文本",
+    "text_surface": "面板文本",
+    "textDim_bg": "页面弱化文本",
+    "textDim_surface": "面板弱化文本",
+    "correct_bg": "已输入文本",
+    "incorrect_bg": "错误",
+    "correct_textDim": "已输入文本与待输入文本的对比",
+    "accent_bg": "强调色",
+    "caret_bg": "光标",
+    "extra_bg": "多余字母",
+    "chartWpm_bg": "图表：WPM 线",
+    "chartRaw_bg": "图表：原始线",
+    "chartError_bg": "图表：错误",
+    "heat1_bg": "按键热度 1",
+    "heat4_bg": "按键热度 4",
+    "not_a_theme": "不是有效的主题",
+    "needs_a_name": "需要一个最多 40 个字符的名称",
+    "scheme_must_be": "方案必须为浅色或深色",
+    "bad_hex": "颜色“{token}”必须是 #rrggbb 格式的值",
+    "not_readable": "可读性不足：{labels}"
   }
 }

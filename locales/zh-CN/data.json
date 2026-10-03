@@ -17,12 +17,17 @@
     "export_profile": "导出此个人资料",
     "share_profile": "分享此个人资料",
     "exported_summary": "已导出 {sessions} 次测试、{mistakes} 个错误和 {texts} 段文本{destination}",
+    "saved_to": " 至 {destination}",
+    "last_backup_time": "上次备份：{when}",
+    "not_backed_up_yet": "尚未备份",
+    "problem_permission": " 浏览器需要再次获得你的许可才能写入。",
+    "problem_conflict": " 文件夹中有“{name}”的较新副本，于 {when} 从另一浏览器保存，因此未被覆盖。请恢复该副本，或将此副本覆盖保存。",
+    "problem_last_error": " 上次备份失败：{error}",
     "restore_folder": "从 kalibre 文件夹恢复",
     "update_copies": "更新前的副本",
     "restore_warning": "这将用该副本替换 kalibre 在此浏览器中保留的所有内容。确定吗？",
     "confirm_restore": "是的，恢复它",
-    "cancel": "取消",
-    "saved_to": " 至 {destination}"
+    "cancel": "取消"
   },
   "guest": {
     "banner_title": "你正在以访客身份试用 Kalibre。",

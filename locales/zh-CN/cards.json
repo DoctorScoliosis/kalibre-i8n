@@ -1,0 +1,99 @@
+{
+  "view": {
+    "card_aria": "{name} 的名片：{described}"
+  },
+  "window": {
+    "your_card": "你的名片",
+    "card_title": "名片",
+    "cosmetics": "装饰",
+    "stickers": "贴纸",
+    "garage": "车库",
+    "done": "完成"
+  },
+  "card_view": {
+    "lv": "等级 {level}",
+    "with_after_level": " · 与 {companionName}",
+    "with_companion": "与 {companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "这是你的名片在比赛中的样子。你的伙伴代替了头像的位置：头像图片永远不会离开此设备。拖动贴纸可移动它；选中贴纸可调整颜色、大小和旋转，或使用箭头、[ 和 ] 以及 Delete 键；按 Esc 或点击其他位置取消选中。",
+    "what_your_card_wears": "你的名片装扮",
+    "colour": "{tokenLabel} 颜色",
+    "theme_default_colour": "主题默认颜色",
+    "delete_sticker": "删除贴纸",
+    "sticker_arrows_move_it_and": "{name} 贴纸：箭头移动，[ 和 ] 旋转，Delete 移除；选中可调整颜色和大小",
+    "selected_sticker_s_colour": "选中贴纸的颜色",
+    "add_a_sticker": "添加 {name} 贴纸",
+    "a_secret_sticker": "一个隐藏贴纸",
+    "a_card_shows_at_most": "名片最多显示 {MAX_SHOWCASE} 个",
+    "remove_every_sticker": "移除所有贴纸",
+    "nothing_to_show_off_yet": "还没有可展示的成就。你获得的成就将会出现在这里。",
+    "tabs": {
+      "showcase": {
+        "title": "展示",
+        "hint": "最多 {max} 个你获得的成就"
+      },
+      "garage": {
+        "title": "车库",
+        "hint": "装扮你的赛车：这是你在赛道上驾驶的车，也是所有与你对战的人看到的"
+      }
+    },
+    "tint": "{slot}色调"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {"title": "边框", "hint": "围绕名片"},
+      "frame": {"title": "框架", "hint": "围绕你的伙伴"},
+      "aura": {"title": "光环", "hint": "你的伙伴背后的光晕"},
+      "backdrop": {"title": "背景", "hint": "名片上所有内容的背后"},
+      "sticker": {"title": "贴纸", "hint": "可拖动到名片任意位置"}
+    },
+    "items": {
+      "border-double": {"name": "双线"},
+      "border-stitch": {"name": "缝线"},
+      "border-ribbon": {"name": "丝带"},
+      "border-corners": {"name": "角标"},
+      "border-keycap": {"name": "键帽"},
+      "border-heat": {"name": "热度"},
+      "border-neon": {"name": "霓虹"},
+      "border-gilt": {"name": "镀金"},
+      "border-midnight": {"name": "午夜"},
+      "frame-double": {"name": "双环"},
+      "frame-dashed": {"name": "虚线环"},
+      "frame-square": {"name": "键帽方框"},
+      "frame-cog": {"name": "齿轮"},
+      "frame-petals": {"name": "花瓣"},
+      "frame-orbit": {"name": "轨道"},
+      "frame-laurel": {"name": "桂冠"},
+      "frame-crown": {"name": "王冠"},
+      "aura-soft": {"name": "柔光"},
+      "aura-pulse": {"name": "脉冲"},
+      "aura-ember": {"name": "余烬"},
+      "aura-halo": {"name": "光环"},
+      "aura-aurora": {"name": "极光"},
+      "aura-prism": {"name": "棱镜"},
+      "backdrop-dots": {"name": "点阵"},
+      "backdrop-pinstripe": {"name": "细条纹"},
+      "backdrop-graph": {"name": "方格纸"},
+      "backdrop-waves": {"name": "波浪"},
+      "backdrop-stars": {"name": "星空"},
+      "backdrop-confetti": {"name": "彩纸"},
+      "sticker-star": {"name": "星星"},
+      "sticker-leaf": {"name": "叶子"},
+      "sticker-key": {"name": "键帽"},
+      "sticker-heart": {"name": "爱心"},
+      "sticker-flower": {"name": "花朵"},
+      "sticker-bolt": {"name": "闪电"},
+      "sticker-note": {"name": "音符"},
+      "sticker-moon": {"name": "月亮"},
+      "sticker-rocket": {"name": "火箭"},
+      "sticker-castle": {"name": "城堡"},
+      "sticker-magnifier": {"name": "放大镜"},
+      "sticker-book": {"name": "书本"},
+      "sticker-flag": {"name": "方格旗"},
+      "sticker-crown": {"name": "王冠"},
+      "sticker-teacup": {"name": "茶杯"},
+      "sticker-sparkle": {"name": "闪光"}
+    }
+  }
+}

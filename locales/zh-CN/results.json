@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "speed": "速度",
+    "accuracy": "准确率",
+    "characters": "字符",
+    "words": "单词",
+    "time": "时间",
+    "consistency": "一致性",
+    "best": "个人最佳",
+    "average": "平均",
+    "tests": "测试"
+  },
+  "candidate": {
+    "prompt_label": "训练建议",
+    "body": "你一直在输入 {word} · {count, plural, other {# 次}}，跨越 {sessions, plural, other {# 次测试}}。",
+    "train": "训练",
+    "dismiss": "忽略",
+    "later": "稍后",
+    "drill_it_now": "立即训练"
+  },
+  "actions": {
+    "next": "下一次",
+    "retry": "重试",
+    "watch_replay": "观看回放",
+    "save_ghost": "保存为幽灵",
+    "words": "单词",
+    "final": "最终",
+    "as_typed": "按实际输入"
+  },
+  "race_results": {
+    "full_stats": "完整统计",
+    "your_race": "你的比赛",
+    "this_race_looked_like_key": "这场比赛看起来像是乱按键（{notCountedReason}），因此不计入：没有经验值、错误或统计数据。",
+    "lv_to_go": " · 等级 {level} · 还需 {value}",
+    "drill_now": "立即训练",
+    "counts": "错误 {errors} · 单词 {words}"
+  },
+  "replay_player": {
+    "test_replay": "测试回放",
+    "pinned": "已固定 ✓",
+    "pinned_limit_reached_replays_unpin": "已固定数量已达上限（{PINNED_LOGS_CAP} 个回放）。请先取消固定旧回放。",
+    "close_replay": "关闭回放",
+    "replay_scrubber": "回放进度条",
+    "jump_to_playhead": "跳转到播放位置 ⇥",
+    "0_wpm": "0 WPM",
+    "replay_timeline_zoom": "回放时间轴缩放",
+    "zoom": "缩放",
+    "restart_replay": "重新开始回放",
+    "play": "播放",
+    "saved_as_ghost": "已保存为幽灵 ✓",
+    "wpm": "{round} WPM"
+  },
+  "result_chart": {
+    "per_second_results": "每秒结果",
+    "not_enough_typing_to_draw": "打字数据不足以绘制图表。",
+    "chart_zoom": "图表缩放",
+    "speed_over_time_use_the": "速度随时间变化。使用左右箭头键查看每一秒的数据。"
+  },
+  "results": {
+    "words_lowest_accuracy_target_kept": "{words} 个单词 · 最低准确率 {round}% · 目标 {targetAccuracy}% · 保持 {floorWpm}+ WPM",
+    "words_peak_pace_lowest_target": "{words} 个单词 · 最高节奏 {round} · 最低 {round2} · 目标 {targetWpm} WPM",
+    "longest_above_target_raw_in": "超出目标最长时间 {formatDuration} · {nearMisses} · 原始速度 {round} · 总计 {formatDuration2}",
+    "mistake_analysis_failed_for_this": "本次测试的错误分析失败",
+    "common_mistakes": "常见错误",
+    "show_the_words": "显示单词",
+    "expected": "预期“{text}”",
+    "typed_expected": "输入了 {typed}，预期 {text}",
+    "deleted": "已删除",
+    "this_drill": "此训练",
+    "now": "现在 {to}",
+    "race_this_drill": "比赛此训练",
+    "race_the_same_drill_again": "再次比赛同一训练，与本次的幽灵对决",
+    "results": "结果",
+    "survived": "持续",
+    "wpm": "WPM",
+    "acc": "准确率",
+    "this_test_looked_like_key": "本次测试看起来像是乱按键（{notCountedReason}），因此不计入：没有经验值、错误或统计数据。",
+    "suggested_for_training": "{extraSuggested} 建议加入训练",
+    "book_range": " {start} → {end}",
+    "the_end": "结束",
+    "book_words": " · {count} 个单词",
+    "overdeleted": "你删除了超出错误后 {count, plural, other {# 个正确字符}}",
+    "overdeleted_cost": "，约损失 {cost} WPM",
+    "mistake_line": "{errors} 个错误 / {exposures} 次出现{share} · 出现前 {before}",
+    "summary_line": "原始 {raw} · {spread} · {duration}",
+    "practice_words": " · {count, plural, other {# 个练习单词}}",
+    "letters_to_cover": " · 还需覆盖 {count, plural, other {# 个字母}}",
+    "mistakes_ready": "{count, plural, other {# 个错误已准备好}}",
+    "consistency_spread": "一致性 {consistency}%（±{wpmStdDev} WPM）",
+    "consistency_none": "一致性 –"
+  }
+}

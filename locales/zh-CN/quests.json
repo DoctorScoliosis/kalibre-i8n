@@ -4,15 +4,88 @@
   },
   "actions": {
     "swap": "更换",
-    "go": "开始"
+    "swap_title": "将此任务更换为另一个（每天一次）",
+    "go": "开始",
+    "go_aria": "开始：{quest}"
+  },
+  "labels": {
+    "today": "今日",
+    "quests": "任务",
+    "challenge": "挑战",
+    "daily_goal": "每日目标",
+    "daily_goal_label": "每日目标 "
+  },
+  "today": {
+    "panel_aria": "今日任务",
+    "getting": "正在获取今日任务……",
+    "new_at_midnight": "{difficulty} · 午夜时分获得新任务 · ",
+    "difficulty": "难度",
+    "summary_aria": "今日：{done} / {total} 个任务已完成{challenge, select, done {，挑战已完成} other {}}"
   },
   "quest_note": {
     "xp": "+{reward} xp",
     "challenge_done": "每日挑战完成：{description}",
     "quest_done": "每日任务完成：{description}"
   },
-  "labels": {
-    "challenge": "挑战",
-    "daily_goal": "每日目标"
+  "match": {
+    "tests": "{count, plural, other {测试}}",
+    "drills": "{count, plural, other {训练}}",
+    "time": "{count, plural, other {计时测试}}",
+    "words": "{count, plural, other {单词测试}}",
+    "quote": "{count, plural, other {引文}}",
+    "book": "{count, plural, other {书籍阅读}}",
+    "sustained": "{count, plural, other {持续测试}}",
+    "time_duration": "{count, plural, other {{duration}秒测试}}",
+    "words_count": "{count, plural, other {{wordCount}词测试}}",
+    "quote_category": "{count, plural, other {{category}引文}}"
+  },
+  "categories": {
+    "short": "短",
+    "medium": "中",
+    "long": "长",
+    "huge": "很长",
+    "massive": "超长"
+  },
+  "game_titles": {
+    "feed": "喂食",
+    "castle": "城堡",
+    "space": "太空",
+    "spot": "找茬"
+  },
+  "difficulty_words": {
+    "easy": "简单难度",
+    "normal": "普通难度",
+    "hard": "困难难度"
+  },
+  "conditions": {
+    "wpm": "{wpm}+ WPM",
+    "accuracy": "{accuracy}%+ 准确率",
+    "and": " 且 ",
+    "at": " 以 {parts}",
+    "kept_going_after": "，又持续了 {minutes, plural, other {# 分钟}}",
+    "kept_going": " 持续了 {minutes, plural, other {# 分钟}}"
+  },
+  "describe": {
+    "words": "输入 {count, plural, other {# 个单词}}",
+    "words_in": "在 {match} 中输入 {count, plural, other {# 个单词}}",
+    "minutes": "打字 {count, plural, other {# 分钟}}",
+    "minutes_in": "在 {match} 中打字 {count, plural, other {# 分钟}}",
+    "minutes_book": "阅读书籍并打字 {count, plural, other {# 分钟}}",
+    "tests_one": "完成 {match}",
+    "tests_many": "完成 {count} {match}",
+    "run": "完成 {match}{conditions}",
+    "game_runs": "玩 {game} {count, plural, other {# 次}}",
+    "game_score": "在 {game} 中获得 {score} 分",
+    "game_score_difficulty": "在 {game} {difficulty} 中获得 {score} 分",
+    "game_found": "在一次 {game} 中找到 {count, plural, other {# 个错误}}",
+    "lesson_run": "以 {accuracy}%+ 准确率完成一节盲打课程",
+    "lessons": "{count, plural, other {完成 # 节盲打课程}}",
+    "pad_tests": "{count, plural, other {完成 # 次数字键盘测试}}",
+    "pad_run": "完成一次数字键盘测试",
+    "pad_ksph": "{ksph}+ 击键每小时",
+    "pad_entries": "，{entries}+ 个输入",
+    "pad_lessons": "{count, plural, other {完成 # 节数字键盘课程}}",
+    "sums": "算对 {count, plural, other {# 道题}}",
+    "something": "某些任务"
   }
 }

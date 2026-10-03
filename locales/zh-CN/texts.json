@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "texts": "我的文本",
+    "texts_blurb": "你自己的写作，完全按照原文练习。",
+    "quotes": "我的引文",
+    "quotes_blurb": "你添加的引文会加入引文和混合测试（60 个字符或以上）。",
+    "datasets": "数据集",
+    "datasets_blurb": "提供引文、单词表和训练的书籍和合集。"
+  },
+  "labels": {
+    "title": "标题",
+    "text_aria": "文本",
+    "paste_placeholder": "在此粘贴文本",
+    "my_texts": "我的文本",
+    "datasets": "数据集",
+    "sections_aria": "文本区域",
+    "subfolders_too": " 包括子文件夹",
+    "drop_hint": "或将文件拖放到此处",
+    "words_count": "{count, plural, other {# 个单词}}",
+    "paragraphs_count": "{count, plural, other {# 个段落}}"
+  },
+  "actions": {
+    "save": "保存",
+    "save_changes": "保存更改",
+    "cancel": "取消",
+    "practise": "练习",
+    "edit": "编辑",
+    "delete": "删除",
+    "delete_confirm": "删除？",
+    "yes_delete": "是的，删除",
+    "keep": "保留",
+    "practise_aria": "练习 {title}",
+    "edit_aria": "编辑 {title}",
+    "delete_aria": "删除 {title}",
+    "new_text": "新文本",
+    "import_files": "导入 .txt 或 .md",
+    "import_folder": "导入文件夹"
+  },
+  "status": {
+    "saved": "已保存“{title}”",
+    "updated": "已更新“{title}”",
+    "imported": "已导入“{title}”",
+    "deleted": "已删除“{title}”",
+    "no_folder_files": "该文件夹中没有 .txt 或 .md 文件",
+    "empty": "暂无已保存的文本。粘贴你想练习的内容，或导入 .txt 文件。文本仅保存在此设备上。"
+  },
+  "quotes": {
+    "quote_placeholder": "引文内容",
+    "quote_aria": "引文",
+    "author_placeholder": "出自何人",
+    "source_placeholder": "可选",
+    "add_quote": "添加引文",
+    "author": "作者",
+    "source": "出处",
+    "authors": "作者",
+    "sources": "出处",
+    "added": "引文已添加",
+    "updated": "引文已更新",
+    "deleted": "引文已删除",
+    "unknown": "— 未知",
+    "too_short": " · 对于测试来说太短（需 {min}+ 个字符）",
+    "empty": "添加你喜欢的引文；它们会出现在引文和混合测试中。引文合集（如 quotes.json 文件）可在数据集中安装。"
+  },
+  "github_import": {
+    "github_s_limit_for_downloads": "GitHub 未登录状态下的下载限制已达到。请一小时后重试。",
+    "that_repository_or_folder_wasn": "未找到该仓库或文件夹（可能是私有的）。",
+    "github_answered": "GitHub 返回了 {status}。",
+    "that_isn_t_a_github": "这不是一个 GitHub 仓库地址（github.com/拥有者/仓库名）。",
+    "no_txt_or_md_files": "未找到 .txt 或 .md 文件。",
+    "the_files_couldn_t_be": "无法下载这些文件。",
+    "listing_files": "正在列出文件……",
+    "downloading_progress": "正在下载 {current} / {total}……"
+  },
+  "importers": {
+    "doesn_t_look_like_a": "{name} 看起来不像文本文件。",
+    "isn_t_utf_8_text": "{name} 不是 UTF-8 文本。",
+    "only_files_can_be_imported": "{name}：仅支持导入 {ACCEPTED_EXTENSIONS} 文件。",
+    "is_larger_than_5_mb": "{name} 大于 5 MB。",
+    "is_empty": "{name} 为空。"
+  },
+  "quote_collections": {
+    "no_quotes_were_found_in": "该文件中未找到引文。"
+  }
+}
