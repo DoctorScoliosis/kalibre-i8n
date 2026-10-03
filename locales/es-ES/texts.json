@@ -1,45 +1,84 @@
 {
-  "sections":{
-    "texts":"mis textos",
-    "texts_blurb":"Tu propia escritura, practicada exactamente tal como la escribiste.",
-    "quotes":"mis citas",
-    "quotes_blurb":"Las citas que añadas entran en las pruebas de citas y mixtas (60 caracteres o más).",
-    "datasets":"conjuntos de datos",
-    "datasets_blurb":"Libros y colecciones que proporcionan citas, listas de palabras y ejercicios."
+  "sections": {
+    "texts": "mis textos",
+    "texts_blurb": "Tu propia escritura, practicada exactamente tal como la escribiste.",
+    "quotes": "mis citas",
+    "quotes_blurb": "Las citas que añadas entran en las pruebas de citas y mixtas (60 caracteres o más).",
+    "datasets": "conjuntos de datos",
+    "datasets_blurb": "Libros y colecciones que proporcionan citas, listas de palabras y ejercicios."
   },
-  "labels":{
-    "title":"título",
-    "text_aria":"texto",
-    "paste_placeholder":"pega aquí el texto",
-    "my_texts":"mis textos",
-    "datasets":"conjuntos de datos",
-    "sections_aria":"secciones de textos",
-    "subfolders_too":" también subcarpetas",
-    "drop_hint":"o suelta los archivos aquí",
-    "words_count":"{count, plural, one {# palabra} other {# palabras}}",
-    "paragraphs_count":"{count, plural, one {# párrafo} other {# párrafos}}"
+  "labels": {
+    "title": "título",
+    "text_aria": "texto",
+    "paste_placeholder": "pega aquí el texto",
+    "my_texts": "mis textos",
+    "datasets": "conjuntos de datos",
+    "sections_aria": "secciones de textos",
+    "subfolders_too": " también subcarpetas",
+    "drop_hint": "o suelta los archivos aquí",
+    "words_count": "{count, plural, one {# palabra} many {# palabras} other {# palabras}}",
+    "paragraphs_count": "{count, plural, one {# párrafo} many {# párrafos} other {# párrafos}}"
   },
-  "actions":{
-    "save":"guardar","save_changes":"guardar cambios","cancel":"cancelar","practise":"practicar","edit":"editar","delete":"eliminar","delete_confirm":"¿eliminar?","yes_delete":"sí, eliminar","keep":"conservar","practise_aria":"practicar {title}","edit_aria":"editar {title}","delete_aria":"eliminar {title}","new_text":"nuevo texto","import_files":"importar .txt o .md","import_folder":"importar una carpeta"
+  "actions": {
+    "save": "guardar",
+    "save_changes": "guardar cambios",
+    "cancel": "cancelar",
+    "practise": "practicar",
+    "edit": "editar",
+    "delete": "eliminar",
+    "delete_confirm": "¿eliminar?",
+    "yes_delete": "sí, eliminar",
+    "keep": "conservar",
+    "practise_aria": "practicar {title}",
+    "edit_aria": "editar {title}",
+    "delete_aria": "eliminar {title}",
+    "new_text": "nuevo texto",
+    "import_files": "importar .txt o .md",
+    "import_folder": "importar una carpeta"
   },
-  "status":{
-    "saved":"guardado «{title}»","updated":"actualizado «{title}»","imported":"importado «{title}»","deleted":"eliminado «{title}»","no_folder_files":"no hay archivos .txt o .md en esa carpeta","empty":"Todavía no hay textos guardados. Pega algo que quieras practicar o importa un archivo .txt. Los textos se quedan en este dispositivo."
+  "status": {
+    "saved": "guardado «{title}»",
+    "updated": "actualizado «{title}»",
+    "imported": "importado «{title}»",
+    "deleted": "eliminado «{title}»",
+    "no_folder_files": "no hay archivos .txt o .md en esa carpeta",
+    "empty": "Todavía no hay textos guardados. Pega algo que quieras practicar o importa un archivo .txt. Los textos se quedan en este dispositivo."
   },
-  "quotes":{
-    "quote_placeholder":"la cita","quote_aria":"cita","author_placeholder":"quién lo dijo","source_placeholder":"opcional","add_quote":"añadir cita","author":"autor","source":"fuente","authors":"autores","sources":"fuentes","added":"cita añadida","updated":"cita actualizada","deleted":"cita eliminada","unknown":"— desconocido","too_short":" · demasiado corta para las pruebas ({min}+ caracteres)","empty":"Añade citas que te gusten; aparecerán en las pruebas de citas y mixtas. Las colecciones, como un archivo quotes.json, se pueden instalar en conjuntos de datos."
+  "quotes": {
+    "quote_placeholder": "la cita",
+    "quote_aria": "cita",
+    "author_placeholder": "quién lo dijo",
+    "source_placeholder": "opcional",
+    "add_quote": "añadir cita",
+    "author": "autor",
+    "source": "fuente",
+    "authors": "autores",
+    "sources": "fuentes",
+    "added": "cita añadida",
+    "updated": "cita actualizada",
+    "deleted": "cita eliminada",
+    "unknown": "— desconocido",
+    "too_short": " · demasiado corta para las pruebas ({min}+ caracteres)",
+    "empty": "Añade citas que te gusten; aparecerán en las pruebas de citas y mixtas. Las colecciones, como un archivo quotes.json, se pueden instalar en conjuntos de datos."
   },
-  "github_import":{
-    "github_s_limit_for_downloads":"se ha alcanzado el límite de GitHub para descargas sin iniciar sesión. vuelve a intentarlo dentro de una hora.",
-    "that_repository_or_folder_wasn":"no se ha encontrado ese repositorio o carpeta (puede ser privado).",
-    "github_answered":"GitHub ha respondido {status}.",
-    "that_isn_t_a_github":"esa no es una dirección de repositorio de GitHub (github.com/owner/repo).",
-    "no_txt_or_md_files":"no se han encontrado archivos .txt o .md allí.",
-    "the_files_couldn_t_be":"no se han podido descargar los archivos.",
-    "listing_files":"enumerando archivos…",
-    "downloading_progress":"descargando {current} de {total}…"
+  "github_import": {
+    "github_s_limit_for_downloads": "se ha alcanzado el límite de GitHub para descargas sin iniciar sesión. vuelve a intentarlo dentro de una hora.",
+    "that_repository_or_folder_wasn": "no se ha encontrado ese repositorio o carpeta (puede ser privado).",
+    "github_answered": "GitHub ha respondido {status}.",
+    "that_isn_t_a_github": "esa no es una dirección de repositorio de GitHub (github.com/owner/repo).",
+    "no_txt_or_md_files": "no se han encontrado archivos .txt o .md allí.",
+    "the_files_couldn_t_be": "no se han podido descargar los archivos.",
+    "listing_files": "enumerando archivos…",
+    "downloading_progress": "descargando {current} de {total}…"
   },
-  "importers":{
-    "doesn_t_look_like_a":"{name} no parece un archivo de texto.","isn_t_utf_8_text":"{name} no es texto UTF-8.","only_files_can_be_imported":"{name}: solo se pueden importar archivos {ACCEPTED_EXTENSIONS}.","is_larger_than_5_mb":"{name} ocupa más de 5 MB.","is_empty":"{name} está vacío."
+  "importers": {
+    "doesn_t_look_like_a": "{name} no parece un archivo de texto.",
+    "isn_t_utf_8_text": "{name} no es texto UTF-8.",
+    "only_files_can_be_imported": "{name}: solo se pueden importar archivos {ACCEPTED_EXTENSIONS}.",
+    "is_larger_than_5_mb": "{name} ocupa más de 5 MB.",
+    "is_empty": "{name} está vacío."
   },
-  "quote_collections":{"no_quotes_were_found_in":"No se han encontrado citas en ese archivo."}
+  "quote_collections": {
+    "no_quotes_were_found_in": "No se han encontrado citas en ese archivo."
+  }
 }

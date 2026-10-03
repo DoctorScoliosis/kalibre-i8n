@@ -1,5 +1,9 @@
 {
-  "formats": {"time": "tiempo", "words": "palabras", "quote": "cita"},
+  "formats": {
+    "time": "tiempo",
+    "words": "palabras",
+    "quote": "cita"
+  },
   "actions": {
     "start_drill": "iniciar ejercicio",
     "drill": "ejercicio",
@@ -19,7 +23,7 @@
     "drill_length": "duración del ejercicio",
     "quote_length": "longitud de la cita",
     "practise_by_area": "practicar por área",
-    "words_count": "{count, plural, one {# palabra} other {# palabras}}",
+    "words_count": "{count, plural, one {# palabra} many {# palabras} other {# palabras}}",
     "ticked_count": "{selected} de {total} marcados",
     "in_training": "en entrenamiento",
     "ready_to_drill": "listo para practicar",
@@ -40,5 +44,10 @@
     "empty_nothing_in_training": "Todavía no hay nada en entrenamiento. Sigue escribiendo: kalibre sugiere los errores que vuelven a aparecer.",
     "empty_seen_not_trained": "Todavía no hay nada en entrenamiento. Estos han aparecido, pero aún no se practican: marca los que quieras trabajar."
   },
-  "status": {"training": "entrenando", "improving": "mejorando", "suggested": "sugerido", "watching": "observando"}
+  "status": {
+    "training": "entrenando",
+    "improving": "mejorando",
+    "suggested": "sugerido",
+    "watching": "observando"
+  }
 }

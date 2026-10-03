@@ -3916,6 +3916,18 @@
                   "shields": {
                     "label": "shields",
                     "summary": "some ships have shields that only break to words matching a requirement."
+                  },
+                  "heavyFrigate": {
+                    "label": "heavy frigate",
+                    "summary": "reinforced prow with shielded barrier and twin missile batteries."
+                  },
+                  "eliteCruiser": {
+                    "label": "elite cruiser",
+                    "summary": "heavy dreadnought with point-defense turrets that shoot down weak words (<30 power)."
+                  },
+                  "flagship": {
+                    "label": "flagship boss",
+                    "summary": "massive modular command vessel. Destroy weapon batteries and collapse its shield generator to expose the bridge."
                   }
                 },
                 "controls": {
@@ -3932,6 +3944,9 @@
                   },
                   "i1": {
                     "label": "capacitor beam"
+                  },
+                  "i2": {
+                    "label": "flagship boss"
                   }
                 },
                 "visuals": {
@@ -3943,6 +3958,15 @@
                   },
                   "capacitor-beam": {
                     "label": "piercing capacitor beam"
+                  },
+                  "heavy-frigate": {
+                    "label": "heavy frigate"
+                  },
+                  "elite-cruiser": {
+                    "label": "elite cruiser"
+                  },
+                  "flagship-boss": {
+                    "label": "flagship boss"
                   },
                   "orbital-station": {
                     "label": "orbital station"
@@ -4316,6 +4340,8 @@
           "bomb_not_ready": "the bomb isn’t charged yet",
           "accumulator": "laser beam discharge!",
           "accumulator_not_ready": "the capacitor needs at least 25% charge",
+          "point_defense": "point-defense intercepted {word}!",
+          "flagship_down": "flagship destroyed!",
           "gatling": "rapid fire · {word}",
           "shield_absorb": "shield absorbed {source} hit!"
         },

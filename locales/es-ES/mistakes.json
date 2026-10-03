@@ -1,19 +1,179 @@
 {
-  "sections":{"suggested":"sugeridos","training":"entrenamiento","improving":"mejorando","mastered":"dominados","dismissed":"descartados","watching":"observando","overview":"resumen","all":"todos"},
-  "blurbs":{
-    "suggested":"Errores que siguen reapareciendo. Practícalos o descarta los que no te importen.","training":"Los ejercicios se centran en estos.","improving":"La tasa de error se ha reducido a la mitad desde que empezó el entrenamiento.","mastered":"Han bajado a una cuarta parte de donde empezaron. Vuelven al entrenamiento si reaparecen.","dismissed":"No se vuelven a sugerir salvo que los restaures.","watching":"Se han visto, pero todavía no con suficiente frecuencia para sugerirlos. «practicar ahora» empieza a entrenar uno de todas formas.","overview":"Dónde se equivocan tus dedos, dibujado en el teclado, con las palabras y espacios al lado. Cada línea muestra la tasa de error de las pruebas recientes.","all":"Todos los errores que ha anotado Kalibre, independientemente de su estado."
+  "sections": {
+    "suggested": "sugeridos",
+    "training": "entrenamiento",
+    "improving": "mejorando",
+    "mastered": "dominados",
+    "dismissed": "descartados",
+    "watching": "observando",
+    "overview": "resumen",
+    "all": "todos"
   },
-  "empty":{"suggested":"Todavía no hay errores aquí. ¡Lo estás haciendo bien!","training":"Todavía no hay errores en entrenamiento. Añade algunos desde la pestaña «sugeridos».","improving":"Todavía no hay nada mejorando. Sigue practicando tus errores en entrenamiento.","mastered":"Todavía no hay nada dominado. El entrenamiento lleva tiempo; sigue así.","dismissed":"No hay nada descartado.","watching":"Todavía no hay nada aquí. Sigue escribiendo y aparecerán patrones.","all":"Todavía no hay errores anotados. Mientras escribes, Kalibre registra aquí los patrones recurrentes."},
-  "kinds":{"key":"tecla","shift":"mayús","swap":"par de letras","omit":"omitida","extra":"adicional","word":"palabra","space":"espacio","insert":"palabra adicional","skip":"palabra omitida","hesitation":"vacilación","tricky":"palabra difícil"},
-  "columns":{"mistake":"error","kind":"tipo","status":"estado","left_in":"queda en","fixed":"corregidos","tests":"pruebas","trend":"tendencia","rate":"tasa","seen":"visto"},
-  "actions":{"train":"entrenar","train_aria":"entrenar {mistake}","train_now":"entrenar ahora","train_now_aria":"entrenar {mistake} ahora","train_again":"entrenar de nuevo","train_again_aria":"entrenar {mistake} de nuevo","dismiss":"descartar","dismiss_aria":"descartar {mistake}","restore":"restaurar","restore_aria":"restaurar {mistake}","drill":"practicar","drill_aria":"practicar {mistake}","drill_all":"practicar mis errores de entrenamiento","stop":"detener","stop_aria":"detener el entrenamiento de {mistake}","export":"exportar ","csv":"csv","json":"json"},
-  "filters":{"all":"todos","uncorrected":"sin corregir","corrected":"corregidos"},
-  "layouts":{"list":"lista","table":"tabla"},
-  "labels":{"by_status":"errores por estado","show_on_map":"mostrar en el mapa","show_mistakes":"mostrar errores","show_as":"mostrar como","kind_of_mistake":"tipo de error","all_kinds":"todos los tipos","keyboard_layout":"distribución del teclado","sessions_count":"{count, plural, one {# sesión} other {# sesiones}}","corrected_count":"{count} corregidos","pager_aria":"páginas de la tabla de errores","no_qualifiers_mistakes":"Todavía no hay errores de {qualifiers}{inSection, select, true { en {section}} other {}}.","no_in_section":"Todavía no hay errores en {section}.","training_words_note":"{count, plural, one {# palabra} other {# palabras}} con errores constantes en entrenamiento."},
-  "mistake_map":{"mistakes_click_to_isolate":"errores de {label} – haz clic para aislar","page":"página {value}","of":"{first}–{last} de {length}","keyboard_mistakes_pages":"páginas de errores del teclado","nothing_to_draw_on_this":"Todavía no hay nada que dibujar en este teclado. Los errores vistos más de una vez aparecen aquí.","on_the_keyboard":"en el teclado","none_yet":"Todavía ninguno.","with_keys_not_on_this":"{unmapped} con teclas que no están en esta distribución","words_and_spaces":"palabras y espacios","no_tests_yet":"todavía no hay pruebas","rate_one_test":"tasa de error {rate} en una prueba","rate_over_tests":"tasa de error {from} → {to} en {count, plural, one {# prueba} other {# pruebas}}","mark_label":"{mistake}: {rate} de las veces","started_at":"{summary} · empezó el entrenamiento con {rate}","keyboard_label":"Teclado con {count, plural, one {# error} other {# errores}} dibujados. La lista de abajo contiene los mismos errores."},
-  "mistakes":{"actions":"acciones","no_mistakes_yet":"Todavía no hay errores."},
-  "mistake_kinds":{"KINDS":{"keys":{"title":"teclas"},"shift":{"title":"mayús"},"pairs":{"title":"pares de letras"},"letters":{"title":"letras omitidas y adicionales"},"words":{"title":"palabras"},"tricky":{"title":"palabras difíciles"},"between":{"title":"entre palabras"},"hesitations":{"title":"vacilaciones"}}},
-  "legend":{"meant_hit":"quería decir → acertó","swapped":"intercambiadas","missed":"omitida","extra":"adicional","shift":"mayús"},
-  "patterns":{"sound":"suenan igual","homophone":"palabra homófona","silent":"letra muda","double":"letra doble","vowel":"vocal poco clara","mirror":"mismo dedo, otra mano","wrongDouble":"letra incorrecta duplicada","moved":"letra fuera de lugar","ending":"terminación omitida","autopilot":"palabra habitual en su lugar","rawSteno":"estenotipia sin procesar"},
-  "describe":{"shift":"{expected} → {typed} (mayús)","omit":"se omitió {expected}","extra":"{typed} adicional","insert":"palabra adicional {typed}","skip":"se omitió {expected}","hesitation_pair":"pausa en {expected}","hesitation_before":"pausa antes de {expected}","hesitation":"vacilación","tricky":"difícil: {expected}"}
+  "blurbs": {
+    "suggested": "Errores que siguen reapareciendo. Practícalos o descarta los que no te importen.",
+    "training": "Los ejercicios se centran en estos.",
+    "improving": "La tasa de error se ha reducido a la mitad desde que empezó el entrenamiento.",
+    "mastered": "Han bajado a una cuarta parte de donde empezaron. Vuelven al entrenamiento si reaparecen.",
+    "dismissed": "No se vuelven a sugerir salvo que los restaures.",
+    "watching": "Se han visto, pero todavía no con suficiente frecuencia para sugerirlos. «practicar ahora» empieza a entrenar uno de todas formas.",
+    "overview": "Dónde se equivocan tus dedos, dibujado en el teclado, con las palabras y espacios al lado. Cada línea muestra la tasa de error de las pruebas recientes.",
+    "all": "Todos los errores que ha anotado Kalibre, independientemente de su estado."
+  },
+  "empty": {
+    "suggested": "Todavía no hay errores aquí. ¡Lo estás haciendo bien!",
+    "training": "Todavía no hay errores en entrenamiento. Añade algunos desde la pestaña «sugeridos».",
+    "improving": "Todavía no hay nada mejorando. Sigue practicando tus errores en entrenamiento.",
+    "mastered": "Todavía no hay nada dominado. El entrenamiento lleva tiempo; sigue así.",
+    "dismissed": "No hay nada descartado.",
+    "watching": "Todavía no hay nada aquí. Sigue escribiendo y aparecerán patrones.",
+    "all": "Todavía no hay errores anotados. Mientras escribes, Kalibre registra aquí los patrones recurrentes."
+  },
+  "kinds": {
+    "key": "tecla",
+    "shift": "mayús",
+    "swap": "par de letras",
+    "omit": "omitida",
+    "extra": "adicional",
+    "word": "palabra",
+    "space": "espacio",
+    "insert": "palabra adicional",
+    "skip": "palabra omitida",
+    "hesitation": "vacilación",
+    "tricky": "palabra difícil"
+  },
+  "columns": {
+    "mistake": "error",
+    "kind": "tipo",
+    "status": "estado",
+    "left_in": "queda en",
+    "fixed": "corregidos",
+    "tests": "pruebas",
+    "trend": "tendencia",
+    "rate": "tasa",
+    "seen": "visto"
+  },
+  "actions": {
+    "train": "entrenar",
+    "train_aria": "entrenar {mistake}",
+    "train_now": "entrenar ahora",
+    "train_now_aria": "entrenar {mistake} ahora",
+    "train_again": "entrenar de nuevo",
+    "train_again_aria": "entrenar {mistake} de nuevo",
+    "dismiss": "descartar",
+    "dismiss_aria": "descartar {mistake}",
+    "restore": "restaurar",
+    "restore_aria": "restaurar {mistake}",
+    "drill": "practicar",
+    "drill_aria": "practicar {mistake}",
+    "drill_all": "practicar mis errores de entrenamiento",
+    "stop": "detener",
+    "stop_aria": "detener el entrenamiento de {mistake}",
+    "export": "exportar ",
+    "csv": "csv",
+    "json": "json"
+  },
+  "filters": {
+    "all": "todos",
+    "uncorrected": "sin corregir",
+    "corrected": "corregidos"
+  },
+  "layouts": {
+    "list": "lista",
+    "table": "tabla"
+  },
+  "labels": {
+    "by_status": "errores por estado",
+    "show_on_map": "mostrar en el mapa",
+    "show_mistakes": "mostrar errores",
+    "show_as": "mostrar como",
+    "kind_of_mistake": "tipo de error",
+    "all_kinds": "todos los tipos",
+    "keyboard_layout": "distribución del teclado",
+    "sessions_count": "{count, plural, one {# sesión} many {# sesiones} other {# sesiones}}",
+    "corrected_count": "{count} corregidos",
+    "pager_aria": "páginas de la tabla de errores",
+    "no_qualifiers_mistakes": "Todavía no hay errores de {qualifiers}{inSection, select, true { en {section}} other {}}.",
+    "no_in_section": "Todavía no hay errores en {section}.",
+    "training_words_note": "{count, plural, one {# palabra} many {# palabras} other {# palabras}} con errores constantes en entrenamiento."
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "errores de {label} – haz clic para aislar",
+    "page": "página {value}",
+    "of": "{first}–{last} de {length}",
+    "keyboard_mistakes_pages": "páginas de errores del teclado",
+    "nothing_to_draw_on_this": "Todavía no hay nada que dibujar en este teclado. Los errores vistos más de una vez aparecen aquí.",
+    "on_the_keyboard": "en el teclado",
+    "none_yet": "Todavía ninguno.",
+    "with_keys_not_on_this": "{unmapped} con teclas que no están en esta distribución",
+    "words_and_spaces": "palabras y espacios",
+    "no_tests_yet": "todavía no hay pruebas",
+    "rate_one_test": "tasa de error {rate} en una prueba",
+    "rate_over_tests": "tasa de error {from} → {to} en {count, plural, one {# prueba} many {# pruebas} other {# pruebas}}",
+    "mark_label": "{mistake}: {rate} de las veces",
+    "started_at": "{summary} · empezó el entrenamiento con {rate}",
+    "keyboard_label": "Teclado con {count, plural, one {# error} many {# errores} other {# errores}} dibujados. La lista de abajo contiene los mismos errores."
+  },
+  "mistakes": {
+    "actions": "acciones",
+    "no_mistakes_yet": "Todavía no hay errores."
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": {
+        "title": "teclas"
+      },
+      "shift": {
+        "title": "mayús"
+      },
+      "pairs": {
+        "title": "pares de letras"
+      },
+      "letters": {
+        "title": "letras omitidas y adicionales"
+      },
+      "words": {
+        "title": "palabras"
+      },
+      "tricky": {
+        "title": "palabras difíciles"
+      },
+      "between": {
+        "title": "entre palabras"
+      },
+      "hesitations": {
+        "title": "vacilaciones"
+      }
+    }
+  },
+  "legend": {
+    "meant_hit": "quería decir → acertó",
+    "swapped": "intercambiadas",
+    "missed": "omitida",
+    "extra": "adicional",
+    "shift": "mayús"
+  },
+  "patterns": {
+    "sound": "suenan igual",
+    "homophone": "palabra homófona",
+    "silent": "letra muda",
+    "double": "letra doble",
+    "vowel": "vocal poco clara",
+    "mirror": "mismo dedo, otra mano",
+    "wrongDouble": "letra incorrecta duplicada",
+    "moved": "letra fuera de lugar",
+    "ending": "terminación omitida",
+    "autopilot": "palabra habitual en su lugar",
+    "rawSteno": "estenotipia sin procesar"
+  },
+  "describe": {
+    "shift": "{expected} → {typed} (mayús)",
+    "omit": "se omitió {expected}",
+    "extra": "{typed} adicional",
+    "insert": "palabra adicional {typed}",
+    "skip": "se omitió {expected}",
+    "hesitation_pair": "pausa en {expected}",
+    "hesitation_before": "pausa antes de {expected}",
+    "hesitation": "vacilación",
+    "tricky": "difícil: {expected}"
+  }
 }

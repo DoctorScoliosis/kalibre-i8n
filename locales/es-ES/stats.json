@@ -36,7 +36,7 @@
     "words": "palabras",
     "characters": "caracteres",
     "averages_note": "las medias y mejores marcas solo usan pruebas completadas{notCounted, select, true {; las pruebas con teclas al azar no cuentan} other {}}",
-    "chart_heading": "{scope, select, all {todas} other {últimas}} {count} {count, plural, one {prueba} other {pruebas}} · p. p. m.",
+    "chart_heading": "{scope, select, all {todas} other {últimas}} {count} {count, plural, one {prueba} many {pruebas} other {pruebas}} · p. p. m.",
     "chart_window_aria": "cuántas pruebas mostrar en el gráfico",
     "by_characters": "por caracteres"
   },
@@ -47,11 +47,11 @@
   },
   "periods": {
     "no_tests": "sin pruebas",
-    "tests_count": "{count, plural, one {# prueba} other {# pruebas}}",
+    "tests_count": "{count, plural, one {# prueba} many {# pruebas} other {# pruebas}}",
     "best_accuracy": "mejor {best} · {accuracy}%",
     "daily_goal": "objetivo diario: {target}",
     "today": " · hoy {amount}{met, select, true { ✓} other {}}",
-    "streak": " · racha de {count, plural, one {# día} other {# días}}",
+    "streak": " · racha de {count, plural, one {# día} many {# días} other {# días}}",
     "no_daily_goal": "No hay objetivo diario. ",
     "set_one": "establecer uno",
     "time_typed_per_day": "tiempo de escritura al día · últimos 30 días",
@@ -62,7 +62,7 @@
   },
   "games": {
     "no_games": "todavía no hay partidas. Los juegos están en juegos, en el menú.",
-    "runs_count": "{count, plural, one {# partida} other {# partidas}}",
+    "runs_count": "{count, plural, one {# partida} many {# partidas} other {# partidas}}",
     "last": "última {date}",
     "best_run": "mejor partida: {summary}",
     "bests_note": "las mejores marcas cuentan las partidas con las reglas actuales de cada juego",
@@ -195,9 +195,11 @@
   },
   "overview_pane": {
     "recent_tests": "pruebas recientes",
-    "group_stats": "{wpm} p. p. m. · {accuracy}% · {count, plural, one {# prueba} other {# pruebas}}"
+    "group_stats": "{wpm} p. p. m. · {accuracy}% · {count, plural, one {# prueba} many {# pruebas} other {# pruebas}}"
   },
-  "periods_pane": {"wpm": " p. p. m."},
+  "periods_pane": {
+    "wpm": " p. p. m."
+  },
   "stats_charts": {
     "wpm_of_recent_tests_use": "P. p. m. de las pruebas recientes. Usa las flechas izquierda y derecha para leer cada prueba.",
     "recent_tests": "pruebas recientes",
@@ -208,8 +210,10 @@
     "keyboard_coloured_by_how_often": "teclado coloreado según la frecuencia con la que cada tecla se escribe bien a la primera. La tabla de abajo muestra los mismos valores.",
     "use_the_left_and_right": "{label}. Usa las flechas izquierda y derecha para leer cada día.",
     "no_typing": "sin escritura",
-    "day_tests": "{count, plural, one {# prueba} other {# pruebas}}",
+    "day_tests": "{count, plural, one {# prueba} many {# pruebas} other {# pruebas}}",
     "day_wpm": " · {wpm} p. p. m."
   },
-  "stats": {"sections_label": "secciones de estadísticas"}
+  "stats": {
+    "sections_label": "secciones de estadísticas"
+  }
 }

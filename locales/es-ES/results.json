@@ -12,7 +12,7 @@
   },
   "candidate": {
     "prompt_label": "sugerencia de entrenamiento",
-    "body": "Sigues escribiendo {word} · {count, plural, one {# vez} other {# veces}} a lo largo de {sessions, plural, one {# sesión} other {# sesiones}}.",
+    "body": "Sigues escribiendo {word} · {count, plural, one {# vez} many {# veces} other {# veces}} a lo largo de {sessions, plural, one {# sesión} many {# sesiones} other {# sesiones}}.",
     "train": "entrenar",
     "dismiss": "descartar",
     "later": "más tarde",
@@ -79,13 +79,13 @@
     "book_range": " {start} → {end}",
     "the_end": "el final",
     "book_words": " · {count} palabras",
-    "overdeleted": "has borrado {count, plural, one {# carácter correcto} other {# caracteres correctos}} de más después del fallo",
+    "overdeleted": "has borrado {count, plural, one {# carácter correcto} many {# caracteres correctos} other {# caracteres correctos}} de más después del fallo",
     "overdeleted_cost": ", unos {cost} p. p. m.",
     "mistake_line": "{errors} en {exposures}{share} · antes {before}",
     "summary_line": "bruto {raw} · {spread} · {duration}",
-    "practice_words": " · {count, plural, one {# palabra de práctica} other {# palabras de práctica}}",
-    "letters_to_cover": " · todavía faltan {count, plural, one {# letra} other {# letras}} por cubrir",
-    "mistakes_ready": "{count, plural, one {# error listo} other {# errores listos}}",
+    "practice_words": " · {count, plural, one {# palabra de práctica} many {# palabras de práctica} other {# palabras de práctica}}",
+    "letters_to_cover": " · todavía faltan {count, plural, one {# letra} many {# letras} other {# letras}} por cubrir",
+    "mistakes_ready": "{count, plural, one {# error listo} many {# errores listos} other {# errores listos}}",
     "consistency_spread": "regularidad {consistency}% (±{wpmStdDev} p. p. m.)",
     "consistency_none": "regularidad –"
   }

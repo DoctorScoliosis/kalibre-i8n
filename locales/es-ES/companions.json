@@ -1,17 +1,203 @@
 {
-  "achievements":{"hello_there":"hola","good_keycap":"buena tecla","best_friends":"mejores amigos","boop":"toquecito","poke_poke_poke":"toque, toque, toque","ticklish":"con cosquillas","giggle_fit":"ataque de risa","thats_enough":"ya basta","devoted":"devoción absoluta"},
-  "menu":{"wardrobe":"armario","get_ring":"dale a {companion, select, cal {él} libby {ella} other {elle}} un anillo","options_aria":"opciones de {companion}"},
-  "engagement":{"title":"esta es una decisión bastante importante…","confirm_give":"darle el anillo a {companion}","confirm_cancel":"no estoy seguro…","confirm_message":"¿seguro?"},
-  "away":{"note_hint":"una nota","with_love_aria":"con cariño","back_tomorrow":"¡{partner} y yo nos hemos ido de luna de miel! Volvemos mañana."},
-  "ending":{
-    "aria_label":"gracias por jugar a kalibre","thanks":"gracias por jugar a kalibre.",
-    "cal_script":[
-      {"say":"proposer","mood":"wobbly","text":"¿Eh? Tengo algo en la pata."},{"reply":"es un anillo."},{"say":"proposer","mood":"wobbly","text":"¿Un anillo? Es tan brillante. Pero… ¿para qué es?"},{"reply":"es para alguien a quien quieres."},{"say":"proposer","mood":"watching","text":"Alguien a quien yo… oh. OH. Sé exactamente quién."},{"reply":"llama a {partner}"},{"say":"proposer","mood":"happy","text":"¡{partner}! ¿Puedes venir un momento?"},{"cue":"partnerEnters"},{"say":"partner","mood":"idle","text":"¿Me llamabas? Estás de lo más inquieto. ¿Qué pasa?"},{"say":"proposer","mood":"wobbly","text":"Es un anillo. Para ti. Quiero decir, si lo quieres. ¿Lo quieres?"},{"say":"partner","mood":"happy","text":"Oh, {proposer}. Claro que sí."},{"cue":"partnerRing"},{"say":"proposer","mood":"happy","text":"¡Encaja! ¡ENCaja!"},{"say":"partner","mood":"happy","text":"Dos teclas, una al lado de la otra. Como siempre."},{"cue":"heart"},{"say":"proposer","mood":"happy","text":"¿Nos vamos?"},{"say":"partner","mood":"happy","text":"Vamos."},{"cue":"walkOut"}
+  "achievements": {
+    "hello_there": "hola",
+    "good_keycap": "buena tecla",
+    "best_friends": "mejores amigos",
+    "boop": "toquecito",
+    "poke_poke_poke": "toque, toque, toque",
+    "ticklish": "con cosquillas",
+    "giggle_fit": "ataque de risa",
+    "thats_enough": "ya basta",
+    "devoted": "devoción absoluta"
+  },
+  "menu": {
+    "wardrobe": "armario",
+    "get_ring": "dale a {companion, select, cal {él} libby {ella} other {elle}} un anillo",
+    "options_aria": "opciones de {companion}"
+  },
+  "engagement": {
+    "title": "esta es una decisión bastante importante…",
+    "confirm_give": "darle el anillo a {companion}",
+    "confirm_cancel": "no estoy seguro…",
+    "confirm_message": "¿seguro?"
+  },
+  "away": {
+    "note_hint": "una nota",
+    "with_love_aria": "con cariño",
+    "back_tomorrow": "¡{partner} y yo nos hemos ido de luna de miel! Volvemos mañana."
+  },
+  "ending": {
+    "aria_label": "gracias por jugar a kalibre",
+    "thanks": "gracias por jugar a kalibre.",
+    "cal_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "¿Eh? Tengo algo en la pata."
+      },
+      {
+        "reply": "es un anillo."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "¿Un anillo? Es tan brillante. Pero… ¿para qué es?"
+      },
+      {
+        "reply": "es para alguien a quien quieres."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Alguien a quien yo… oh. OH. Sé exactamente quién."
+      },
+      {
+        "reply": "llama a {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "¡{partner}! ¿Puedes venir un momento?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "¿Me llamabas? Estás de lo más inquieto. ¿Qué pasa?"
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Es un anillo. Para ti. Quiero decir, si lo quieres. ¿Lo quieres?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Oh, {proposer}. Claro que sí."
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "¡Encaja! ¡ENCaja!"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Dos teclas, una al lado de la otra. Como siempre."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "¿Nos vamos?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Vamos."
+      },
+      {
+        "cue": "walkOut"
+      }
     ],
-    "libby_script":[
-      {"say":"proposer","mood":"wobbly","text":"Oh. Tengo algo en la pata."},{"reply":"es un anillo."},{"say":"proposer","mood":"wobbly","text":"Un anillo. Es precioso… pero en realidad no es mío, ¿verdad?"},{"reply":"es para alguien especial."},{"say":"proposer","mood":"watching","text":"Alguien especial. Mmm. Creo que sé quién."},{"reply":"llama a {partner}"},{"say":"proposer","mood":"happy","text":"¿{partner}? ¿Puedes venir un momento?"},{"cue":"partnerEnters"},{"say":"partner","mood":"idle","text":"¡Ya estoy aquí! ¿Qué pasa? Uy, ¿qué es eso? ¡Brilla!"},{"say":"proposer","mood":"happy","text":"Es un anillo, {partner}. Es para ti."},{"say":"partner","mood":"happy","text":"¿PARA MÍ? ¡Sí! ¡Sí, sí, sí!"},{"cue":"partnerRing"},{"say":"proposer","mood":"happy","text":"Entonces quédate quieto."},{"say":"partner","mood":"happy","text":"¡Estoy quieto! Más o menos."},{"cue":"heart"},{"say":"partner","mood":"happy","text":"¿Adónde vamos ahora?"},{"say":"proposer","mood":"happy","text":"A algún sitio precioso."},{"cue":"walkOut"}
+    "libby_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Oh. Tengo algo en la pata."
+      },
+      {
+        "reply": "es un anillo."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Un anillo. Es precioso… pero en realidad no es mío, ¿verdad?"
+      },
+      {
+        "reply": "es para alguien especial."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Alguien especial. Mmm. Creo que sé quién."
+      },
+      {
+        "reply": "llama a {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "¿{partner}? ¿Puedes venir un momento?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "¡Ya estoy aquí! ¿Qué pasa? Uy, ¿qué es eso? ¡Brilla!"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Es un anillo, {partner}. Es para ti."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "¿PARA MÍ? ¡Sí! ¡Sí, sí, sí!"
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Entonces quédate quieto."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "¡Estoy quieto! Más o menos."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "¿Adónde vamos ahora?"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "A algún sitio precioso."
+      },
+      {
+        "cue": "walkOut"
+      }
     ],
-    "cal_letter":["querido tú,","{partner} y yo nos hemos ido un ratito. ¡Estamos de luna de miel! Todavía no me creo que pueda decir eso.","las teclas son todas tuyas hasta mañana. las lecciones siguen funcionando, solo que no me tendrás animándote. así que anímate tú, ¿vale? bien alto.","volveremos antes de que te des cuenta. probablemente con arena en nuestras teclas.","{proposer} y {partner}"],
-    "libby_letter":["querido tú,","{partner} y yo nos hemos ido un día. una luna de miel, al parecer. no ha parado de dar saltitos desde lo del anillo.","las lecciones están abiertas mientras no estamos. ve con calma, haz descansos y mantén los dedos sobre la fila inicial. esa te salvará.","volvemos mañana. lo traeré entero a casa.","{proposer} y {partner}"]
+    "cal_letter": [
+      "querido tú,",
+      "{partner} y yo nos hemos ido un ratito. ¡Estamos de luna de miel! Todavía no me creo que pueda decir eso.",
+      "las teclas son todas tuyas hasta mañana. las lecciones siguen funcionando, solo que no me tendrás animándote. así que anímate tú, ¿vale? bien alto.",
+      "volveremos antes de que te des cuenta. probablemente con arena en nuestras teclas.",
+      "{proposer} y {partner}"
+    ],
+    "libby_letter": [
+      "querido tú,",
+      "{partner} y yo nos hemos ido un día. una luna de miel, al parecer. no ha parado de dar saltitos desde lo del anillo.",
+      "las lecciones están abiertas mientras no estamos. ve con calma, haz descansos y mantén los dedos sobre la fila inicial. esa te salvará.",
+      "volvemos mañana. lo traeré entero a casa.",
+      "{proposer} y {partner}"
+    ]
   }
 }

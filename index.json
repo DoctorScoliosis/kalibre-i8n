@@ -18,8 +18,23 @@
       "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "e2a8654afd9064eb82ea2d46410a39269a4dde405b120c27c9360ccb092e5827",
-      "bytes": 294817
+      "sha256": "a39d3a86ed954073e10c0e5b6244a9af8a0a9519b1d9b2040f460c40b8815511",
+      "bytes": 296000
+    },
+    {
+      "id": "es-ES",
+      "name": "Español (España)",
+      "englishName": "Spanish (Spain)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 1,
+      "version": "2026-10-03",
+      "reviewed": "machine",
+      "changes": "Initial Spanish (Spain) candidate translation",
+      "path": "locales/es-ES/manifest.json",
+      "pack": "packs/es-ES.json",
+      "sha256": "62127b8178c92ec7a5dfe1ee80d364fdf51ef26e6a8aae586a5a2d1a7902301b",
+      "bytes": 324896
     },
     {
       "id": "fr-FR",
@@ -48,8 +63,8 @@
       "changes": "L10: full companion lines, Cal and Libby voice lines, ending script",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "8620245856f041769b2df89e89640f2d89da255bf46ac422b56532ecf74db9b9",
-      "bytes": 258669
+      "sha256": "2f4d93cae770a150cf36d262bc882ded95fabb072a6926bcb3a4a78b35517d45",
+      "bytes": 280463
     }
   ]
 }

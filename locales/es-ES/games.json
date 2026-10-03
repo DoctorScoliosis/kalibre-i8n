@@ -84,7 +84,11 @@
     "score": "puntuación {round}",
     "destroyed": "destruidos {value}",
     "s_left": "quedan {ceil}s",
-    "trigger_jammed_type_or_backspace": "gatillo atascado · escribe «{word}» o pulsa retroceso dos veces para desechar un disparo"
+    "trigger_jammed_type_or_backspace": "gatillo atascado · escribe «{word}» o pulsa retroceso dos veces para desechar un disparo",
+    "accumulator_charge": "carga del condensador",
+    "accumulator": "condensador {floor}%",
+    "accumulator_ready_alt_enter": "condensador listo ({charge}%) · alt+intro",
+    "accumulator_overload_alt_enter": "¡condensador sobrecargado! · alt+intro"
   },
   "spot": {
     "title": "detecta",
@@ -141,7 +145,7 @@
     "play_again": "jugar de nuevo",
     "change_setup": "cambiar configuración",
     "added_training": "añadido al entrenamiento",
-    "mistakes_noted": "{count, plural, one { · 1 error anotado} other { · # errores anotados}}",
+    "mistakes_noted": "{count, plural, one { · 1 error anotado} many { · # errores anotados} other { · # errores anotados}}",
     "results_summary": "{time} · {words} palabras · {wpm} p. p. m. · {accuracy} · errores tipográficos {mistypes} · correcciones {corrections}",
     "daily_goal_title": "Los juegos cuentan su tiempo de escritura para el objetivo, no el tiempo dedicado a leer, apuntar o pensar",
     "key_mashing_note": "Esta partida parecía teclear al azar ({reason}), así que sus errores y XP no se han contabilizado.",
@@ -162,7 +166,7 @@
     "table_status": "mesa {count}/{cap}",
     "yard_empty": "escribe una palabra para hacer un ladrillo",
     "calm_wave": "calma: acumula ladrillos · oleada {wave} de {of} en {seconds}s",
-    "active_wave": "oleada {wave} de {of} · {count, plural, one {1 atacante} other {# atacantes}}{holding, select, true { · aguantando} other { · no aguantando}}",
+    "active_wave": "oleada {wave} de {of} · {count, plural, one {1 atacante} many {# atacantes} other {# atacantes}}{holding, select, true { · aguantando} other { · no aguantando}}",
     "castle_integrity": "castillo {percent}%",
     "time_bank": "banco de tiempo",
     "next_passage": "siguiente pasaje ",
@@ -223,7 +227,7 @@
     "include_my_card": "incluir mi tarjeta",
     "your_text_goes_in_the": "tu texto va en el archivo.",
     "share": "compartir",
-    "save": "{count, plural, one {guardar el fantasma} other {guardar # fantasmas}}"
+    "save": "{count, plural, one {guardar el fantasma} many {guardar # fantasmas} other {guardar # fantasmas}}"
   },
   "powerup_tray": {
     "shift": "{label}: {help} (mayús+{value})",
@@ -285,11 +289,21 @@
                 "summary": "un temporizador hace la cuenta atrás. servir una palabra adecuada restaura tiempo."
               }
             },
-            "controls": {"i0": {"action": "enviar palabra"}},
+            "controls": {
+              "i0": {
+                "action": "enviar palabra"
+              }
+            },
             "visuals": {
-              "mood-content": {"label": "contenta"},
-              "mood-peckish": {"label": "hambrienta"},
-              "mood-starving": {"label": "hambrienta de verdad"}
+              "mood-content": {
+                "label": "contenta"
+              },
+              "mood-peckish": {
+                "label": "hambrienta"
+              },
+              "mood-starving": {
+                "label": "hambrienta de verdad"
+              }
             }
           },
           "creature-requests": {
@@ -304,7 +318,11 @@
               "las peticiones incluyen: palabras cortas o largas, palabras que empiecen por una letra o que contengan ciertas letras.",
               "¿llevas un rato atascado o has fallado dos veces? una palabra válida aparece tenuemente sobre la criatura y vale la mitad del tiempo."
             ],
-            "notes": {"hard": {"text": "las peticiones son más específicas y se da menos tiempo."}},
+            "notes": {
+              "hard": {
+                "text": "las peticiones son más específicas y se da menos tiempo."
+              }
+            },
             "mechanics": {
               "prompts": {
                 "label": "peticiones",
@@ -315,11 +333,23 @@
                 "summary": "tras quedarse inactiva o dos fallos, una palabra válida aparece tenuemente sobre la criatura."
               }
             },
-            "controls": {"i0": {"action": "enviar palabra"}},
-            "subDemos": {"i0": {"label": "pista en la barriga"}},
+            "controls": {
+              "i0": {
+                "action": "enviar palabra"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "pista en la barriga"
+              }
+            },
             "visuals": {
-              "prompt-need": {"label": "petición de palabra"},
-              "belly-hint": {"label": "pista en la barriga (medio tiempo)"}
+              "prompt-need": {
+                "label": "petición de palabra"
+              },
+              "belly-hint": {
+                "label": "pista en la barriga (medio tiempo)"
+              }
             }
           },
           "snack-mode": {
@@ -334,10 +364,18 @@
               "no hay peticiones: escribe la palabra que quieras.",
               "la criatura pierde paciencia más rápido que en el modo exigente, así que la velocidad importa."
             ],
-            "controls": {"i0": {"action": "enviar palabra"}},
+            "controls": {
+              "i0": {
+                "action": "enviar palabra"
+              }
+            },
             "visuals": {
-              "free-eating": {"label": "cualquier palabra válida"},
-              "fast-patience": {"label": "hambre acelerada"}
+              "free-eating": {
+                "label": "cualquier palabra válida"
+              },
+              "fast-patience": {
+                "label": "hambre acelerada"
+              }
             }
           },
           "buffet": {
@@ -372,11 +410,21 @@
                 "summary": "los platos que nadie recoge se ponen rancios y reducen la satisfacción."
               }
             },
-            "controls": {"i0": {"action": "servir palabra en la mesa"}},
+            "controls": {
+              "i0": {
+                "action": "servir palabra en la mesa"
+              }
+            },
             "visuals": {
-              "guest-ticket": {"label": "tarjeta del pedido"},
-              "buffet-table": {"label": "mesa de servicio"},
-              "satisfaction-floor": {"label": "límite de satisfacción"}
+              "guest-ticket": {
+                "label": "tarjeta del pedido"
+              },
+              "buffet-table": {
+                "label": "mesa de servicio"
+              },
+              "satisfaction-floor": {
+                "label": "límite de satisfacción"
+              }
             }
           }
         }
@@ -385,7 +433,11 @@
         "options": {
           "waves": {
             "label": "oleadas",
-            "choices": {"endless": {"label": "sin fin"}}
+            "choices": {
+              "endless": {
+                "label": "sin fin"
+              }
+            }
           }
         },
         "contexts": {
@@ -422,14 +474,26 @@
               }
             },
             "controls": {
-              "i0": {"action": "apuntar a una sección"},
-              "i1": {"action": "colocar el ladrillo más reciente"},
-              "i2": {"action": "elegir un ladrillo de la reserva"}
+              "i0": {
+                "action": "apuntar a una sección"
+              },
+              "i1": {
+                "action": "colocar el ladrillo más reciente"
+              },
+              "i2": {
+                "action": "elegir un ladrillo de la reserva"
+              }
             },
             "visuals": {
-              "stockpile-yard": {"label": "patio de la reserva"},
-              "brick-solid": {"label": "ladrillo sólido"},
-              "brick-cracked": {"label": "ladrillo agrietado"}
+              "stockpile-yard": {
+                "label": "patio de la reserva"
+              },
+              "brick-solid": {
+                "label": "ladrillo sólido"
+              },
+              "brick-cracked": {
+                "label": "ladrillo agrietado"
+              }
             }
           },
           "surviving": {
@@ -445,7 +509,11 @@
               "una reparación media alta en todo el castillo agota antes la determinación de la oleada.",
               "cada oleada se retira cuando su determinación llega a cero o cuando todos sus enemigos son destruidos."
             ],
-            "notes": {"hard": {"text": "los enemigos llegan con más fuerza y en mayor número."}},
+            "notes": {
+              "hard": {
+                "text": "los enemigos llegan con más fuerza y en mayor número."
+              }
+            },
             "mechanics": {
               "sections": {
                 "label": "secciones del castillo",
@@ -465,10 +533,18 @@
               }
             },
             "visuals": {
-              "curtain-wall": {"label": "muralla"},
-              "gatehouse": {"label": "puerta fortificada"},
-              "great-keep": {"label": "gran torreón"},
-              "wave-resolve": {"label": "determinación de la oleada"}
+              "curtain-wall": {
+                "label": "muralla"
+              },
+              "gatehouse": {
+                "label": "puerta fortificada"
+              },
+              "great-keep": {
+                "label": "gran torreón"
+              },
+              "wave-resolve": {
+                "label": "determinación de la oleada"
+              }
             }
           },
           "fighting": {
@@ -507,15 +583,31 @@
               }
             },
             "controls": {
-              "i0": {"action": "lanzar ladrillo contra un enemigo"},
-              "i1": {"action": "apuntar a una sección o enemigo"}
+              "i0": {
+                "action": "lanzar ladrillo contra un enemigo"
+              },
+              "i1": {
+                "action": "apuntar a una sección o enemigo"
+              }
             },
-            "subDemos": {"i0": {"label": "lanzamientos de ladrillos"}},
+            "subDemos": {
+              "i0": {
+                "label": "lanzamientos de ladrillos"
+              }
+            },
             "visuals": {
-              "brute-ram": {"label": "bruto (embestida)"},
-              "sapper-pick": {"label": "zapador (desgaste)"},
-              "catapult-siege": {"label": "catapulta (asedio)"},
-              "boulder-arc": {"label": "arco de la piedra"}
+              "brute-ram": {
+                "label": "bruto (embestida)"
+              },
+              "sapper-pick": {
+                "label": "zapador (desgaste)"
+              },
+              "catapult-siege": {
+                "label": "catapulta (asedio)"
+              },
+              "boulder-arc": {
+                "label": "arco de la piedra"
+              }
             }
           },
           "powering-up": {
@@ -549,15 +641,29 @@
               }
             },
             "controls": {
-              "i0": {"action": "activar el potenciador de la ranura 1"},
-              "i1": {"action": "activar el potenciador de la ranura 2"},
-              "i2": {"action": "activar el potenciador de la ranura 3"}
+              "i0": {
+                "action": "activar el potenciador de la ranura 1"
+              },
+              "i1": {
+                "action": "activar el potenciador de la ranura 2"
+              },
+              "i2": {
+                "action": "activar el potenciador de la ranura 3"
+              }
             },
             "visuals": {
-              "mortar-powerup": {"label": "mortero (2× lanzamientos)"},
-              "mason-powerup": {"label": "albañil (1,5× muro)"},
-              "oil-powerup": {"label": "aceite hirviendo (aturdir a todos)"},
-              "mend-powerup": {"label": "reparación de campaña"}
+              "mortar-powerup": {
+                "label": "mortero (2× lanzamientos)"
+              },
+              "mason-powerup": {
+                "label": "albañil (1,5× muro)"
+              },
+              "oil-powerup": {
+                "label": "aceite hirviendo (aturdir a todos)"
+              },
+              "mend-powerup": {
+                "label": "reparación de campaña"
+              }
             }
           }
         }
@@ -567,9 +673,15 @@
           "duration": {
             "label": "duración",
             "choices": {
-              "endless": {"label": "sin fin"},
-              "i1": {"label": "1 min"},
-              "i2": {"label": "2 min"}
+              "endless": {
+                "label": "sin fin"
+              },
+              "i1": {
+                "label": "1 min"
+              },
+              "i2": {
+                "label": "2 min"
+              }
             }
           }
         },
@@ -603,13 +715,23 @@
               }
             },
             "controls": {
-              "i0": {"action": "mover la nave"},
-              "i1": {"action": "disparar el tiro elegido del cargador"},
-              "i2": {"action": "elegir una ranura del cargador"}
+              "i0": {
+                "action": "mover la nave"
+              },
+              "i1": {
+                "action": "disparar el tiro elegido del cargador"
+              },
+              "i2": {
+                "action": "elegir una ranura del cargador"
+              }
             },
             "visuals": {
-              "starfighter": {"label": "caza estelar"},
-              "magazine-slots": {"label": "ranuras del cargador"}
+              "starfighter": {
+                "label": "caza estelar"
+              },
+              "magazine-slots": {
+                "label": "ranuras del cargador"
+              }
             }
           },
           "surviving": {
@@ -628,22 +750,60 @@
               "los drones fijan el blanco con una línea discontinua y se lanzan en picado. apártate.",
               "las naves que pasan por abajo no hacen daño."
             ],
-            "notes": {"easy": {"text": "disparar a una nave de rescate no reduce lo que cura."}},
-            "mechanics": {
-              "health": {"label": "salud", "summary": "los puntos de vida de la nave. cero significa fin de la partida."},
-              "jams": {"label": "atascos", "summary": "un arma atascada no puede disparar hasta despejarse. los errores y las palabras sin sentido aumentan el riesgo."},
-              "asteroids": {"label": "asteroides", "summary": "rocas que no se pueden destruir. los grandes se dividen en trozos."},
-              "rescue": {"label": "naves de rescate", "summary": "naves verdes con una palabra. escríbela para reparar el casco."},
-              "drones": {"label": "drones", "summary": "fijan el blanco y se lanzan en picado. esquiva la línea de ataque."},
-              "jammer": {"label": "perturbador", "summary": "aumenta la probabilidad de atascos mientras está vivo."}
+            "notes": {
+              "easy": {
+                "text": "disparar a una nave de rescate no reduce lo que cura."
+              }
             },
-            "controls": {"i0": {"action": "desechar el tiro elegido (despeja un atasco)"}},
-            "subDemos": {"i0": {"label": "reparación de rescate"}},
+            "mechanics": {
+              "health": {
+                "label": "salud",
+                "summary": "los puntos de vida de la nave. cero significa fin de la partida."
+              },
+              "jams": {
+                "label": "atascos",
+                "summary": "un arma atascada no puede disparar hasta despejarse. los errores y las palabras sin sentido aumentan el riesgo."
+              },
+              "asteroids": {
+                "label": "asteroides",
+                "summary": "rocas que no se pueden destruir. los grandes se dividen en trozos."
+              },
+              "rescue": {
+                "label": "naves de rescate",
+                "summary": "naves verdes con una palabra. escríbela para reparar el casco."
+              },
+              "drones": {
+                "label": "drones",
+                "summary": "fijan el blanco y se lanzan en picado. esquiva la línea de ataque."
+              },
+              "jammer": {
+                "label": "perturbador",
+                "summary": "aumenta la probabilidad de atascos mientras está vivo."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "desechar el tiro elegido (despeja un atasco)"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "reparación de rescate"
+              }
+            },
             "visuals": {
-              "rescue-ship": {"label": "nave de rescate (curación)"},
-              "dive-drone": {"label": "drone en picado"},
-              "asteroid": {"label": "asteroide obstáculo"},
-              "weapon-jam": {"label": "arma atascada"}
+              "rescue-ship": {
+                "label": "nave de rescate (curación)"
+              },
+              "dive-drone": {
+                "label": "drone en picado"
+              },
+              "asteroid": {
+                "label": "asteroide obstáculo"
+              },
+              "weapon-jam": {
+                "label": "arma atascada"
+              }
             }
           },
           "fighting": {
@@ -652,30 +812,107 @@
             "summary": "llena el cargador, intercepta misiles y cazas, y usa la bomba para despejar el campo.",
             "highlights": [
               "los misiles llevan una letra: escríbela sin tener nada escrito para derribarlos",
-              "mayús+intro detona la bomba cuando está cargada"
+              "mayús+intro detona la bomba cuando está cargada",
+              "alt+intro dispara el rayo perforante del condensador cuando está cargado"
             ],
             "details": [
               "cargar palabras llena el medidor de la bomba. cuando está lleno, mayús+intro elimina todos los misiles y daña a todos los enemigos.",
               "las estaciones espaciales lanzan cazas que te persiguen. escribe la letra de un caza para derribarlo.",
               "las minas espaciales estallan en metralla al recibir un disparo y golpean a todo lo cercano, incluyéndote.",
+              "las naves con escudo solo reciben impactos de palabras que cumplan su requisito.",
               "las naves con escudo solo reciben impactos de palabras que cumplan su requisito."
             ],
-            "notes": {"prompted": {"text": "en el modo de objetivos, cada nave tiene un requisito de palabra que debe coincidir."}},
-            "mechanics": {
-              "missiles": {"label": "misiles", "summary": "llevan una letra. con la escritura vacía, escríbela para derribarlos al instante."},
-              "bomb": {"label": "bomba", "summary": "se carga mientras llenas el cargador. mayús+intro la detona, elimina misiles y daña enemigos."},
-              "fighters": {"label": "cazas", "summary": "naves pequeñas lanzadas por las estaciones. persiguen al jugador. escribe su letra para interceptarlas."},
-              "stations": {"label": "estaciones", "summary": "grandes centros que flotan y lanzan cazas."},
-              "landmines": {"label": "minas espaciales", "summary": "minas con pinchos. la metralla que producen al destruirse alcanza todo lo cercano."},
-              "shields": {"label": "escudos", "summary": "algunas naves tienen escudos que solo se rompen con palabras que cumplan un requisito."}
+            "notes": {
+              "prompted": {
+                "text": "en el modo de objetivos, cada nave tiene un requisito de palabra que debe coincidir."
+              }
             },
-            "controls": {"i0": {"action": "detonar la bomba"}},
-            "subDemos": {"i0": {"label": "onda expansiva de la bomba"}},
+            "mechanics": {
+              "missiles": {
+                "label": "misiles",
+                "summary": "llevan una letra. con la escritura vacía, escríbela para derribarlos al instante."
+              },
+              "bomb": {
+                "label": "bomba",
+                "summary": "se carga mientras llenas el cargador. mayús+intro la detona, elimina misiles y daña enemigos."
+              },
+              "fighters": {
+                "label": "cazas",
+                "summary": "naves pequeñas lanzadas por las estaciones. persiguen al jugador. escribe su letra para interceptarlas."
+              },
+              "stations": {
+                "label": "estaciones",
+                "summary": "grandes centros que flotan y lanzan cazas."
+              },
+              "landmines": {
+                "label": "minas espaciales",
+                "summary": "minas con pinchos. la metralla que producen al destruirse alcanza todo lo cercano."
+              },
+              "shields": {
+                "label": "escudos",
+                "summary": "algunas naves tienen escudos que solo se rompen con palabras que cumplan un requisito."
+              },
+              "accumulator": {
+                "label": "rayo del condensador",
+                "summary": "se carga con palabras limpias y de alta calidad. alt+intro dispara un rayo vertical perforante; al 100 % de sobrecarga atraviesa escudos y vaporiza misiles."
+              },
+              "heavyFrigate": {
+                "label": "fragata pesada",
+                "summary": "proa reforzada con barrera de escudo y dos baterías de misiles."
+              },
+              "eliteCruiser": {
+                "label": "crucero de élite",
+                "summary": "acorazado pesado con torretas de defensa puntual que derriban palabras débiles (menos de 30 de potencia)."
+              },
+              "flagship": {
+                "label": "buque insignia",
+                "summary": "nave de mando modular enorme. Destruye las baterías de armas y derriba su generador de escudos para dejar el puente al descubierto."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "detonar la bomba"
+              },
+              "i1": {
+                "action": "disparar el rayo del condensador"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "onda expansiva de la bomba"
+              },
+              "i1": {
+                "label": "rayo del condensador"
+              },
+              "i2": {
+                "label": "buque insignia"
+              }
+            },
             "visuals": {
-              "missile-token": {"label": "misil (letra)"},
-              "bomb-shockwave": {"label": "onda expansiva de la bomba"},
-              "orbital-station": {"label": "estación orbital"},
-              "shrapnel-mine": {"label": "mina espacial"}
+              "missile-token": {
+                "label": "misil (letra)"
+              },
+              "bomb-shockwave": {
+                "label": "onda expansiva de la bomba"
+              },
+              "orbital-station": {
+                "label": "estación orbital"
+              },
+              "shrapnel-mine": {
+                "label": "mina espacial"
+              },
+              "capacitor-beam": {
+                "label": "rayo perforante del condensador"
+              },
+              "heavy-frigate": {
+                "label": "fragata pesada"
+              },
+              "elite-cruiser": {
+                "label": "crucero de élite"
+              },
+              "flagship-boss": {
+                "label": "buque insignia"
+              }
             }
           },
           "powering-up": {
@@ -695,23 +932,54 @@
               "perseguidor: las palabras disparadas se dirigen hacia los objetivos."
             ],
             "mechanics": {
-              "double": {"label": "doble", "summary": "los disparos salen dos veces antes de gastarse."},
-              "gatling": {"label": "gatling", "summary": "cada letra escrita dispara un proyectil de energía al instante."},
-              "shield": {"label": "escudo", "summary": "una barrera de energía absorbe impactos."},
-              "automaton": {"label": "autómata", "summary": "elige automáticamente el mejor tiro para la mayor amenaza."},
-              "homing": {"label": "perseguidor", "summary": "las palabras disparadas se dirigen dinámicamente hacia los objetivos."}
+              "double": {
+                "label": "doble",
+                "summary": "los disparos salen dos veces antes de gastarse."
+              },
+              "gatling": {
+                "label": "gatling",
+                "summary": "cada letra escrita dispara un proyectil de energía al instante."
+              },
+              "shield": {
+                "label": "escudo",
+                "summary": "una barrera de energía absorbe impactos."
+              },
+              "automaton": {
+                "label": "autómata",
+                "summary": "elige automáticamente el mejor tiro para la mayor amenaza."
+              },
+              "homing": {
+                "label": "perseguidor",
+                "summary": "las palabras disparadas se dirigen dinámicamente hacia los objetivos."
+              }
             },
             "controls": {
-              "i0": {"action": "activar el potenciador de la ranura 1"},
-              "i1": {"action": "activar el potenciador de la ranura 2"},
-              "i2": {"action": "activar el potenciador de la ranura 3"}
+              "i0": {
+                "action": "activar el potenciador de la ranura 1"
+              },
+              "i1": {
+                "action": "activar el potenciador de la ranura 2"
+              },
+              "i2": {
+                "action": "activar el potenciador de la ranura 3"
+              }
             },
             "visuals": {
-              "powerup-double": {"label": "doble disparo"},
-              "powerup-gatling": {"label": "ráfaga gatling"},
-              "powerup-shield": {"label": "barrera deflectora"},
-              "powerup-automaton": {"label": "puntería del autómata"},
-              "powerup-homing": {"label": "perseguidor"}
+              "powerup-double": {
+                "label": "doble disparo"
+              },
+              "powerup-gatling": {
+                "label": "ráfaga gatling"
+              },
+              "powerup-shield": {
+                "label": "barrera deflectora"
+              },
+              "powerup-automaton": {
+                "label": "puntería del autómata"
+              },
+              "powerup-homing": {
+                "label": "perseguidor"
+              }
             }
           }
         }
@@ -721,11 +989,17 @@
           "variant": {
             "label": "jugar",
             "choices": {
-              "timed": {"label": "contrarreloj"},
-              "endless": {"label": "sin fin"}
+              "timed": {
+                "label": "contrarreloj"
+              },
+              "endless": {
+                "label": "sin fin"
+              }
             }
           },
-          "duration": {"label": "tiempo"}
+          "duration": {
+            "label": "tiempo"
+          }
         },
         "help": [
           "Señala una palabra o muévete con ← → (↑ ↓ por línea); haz clic en ella o pulsa intro si es incorrecta.",
@@ -754,14 +1028,26 @@
               }
             },
             "controls": {
-              "i0": {"action": "moverse entre palabras"},
-              "i1": {"action": "moverse entre líneas"},
-              "i2": {"action": "marcar una palabra como incorrecta"},
-              "i3": {"action": "saltar al siguiente pasaje"}
+              "i0": {
+                "action": "moverse entre palabras"
+              },
+              "i1": {
+                "action": "moverse entre líneas"
+              },
+              "i2": {
+                "action": "marcar una palabra como incorrecta"
+              },
+              "i3": {
+                "action": "saltar al siguiente pasaje"
+              }
             },
             "visuals": {
-              "passage-line": {"label": "texto del pasaje"},
-              "planted-error": {"label": "error plantado"}
+              "passage-line": {
+                "label": "texto del pasaje"
+              },
+              "planted-error": {
+                "label": "error plantado"
+              }
             }
           },
           "finding-mistakes": {
@@ -778,19 +1064,41 @@
               "marcar una palabra que en realidad es correcta cuenta como falso positivo y resta puntos."
             ],
             "mechanics": {
-              "selection": {"label": "selección de palabras", "summary": "pasa el cursor, haz clic o usa las flechas para seleccionar una palabra."},
-              "false-flag": {"label": "falsos positivos", "summary": "marcar una palabra correcta resta puntos y (en modo sin fin) tiempo."}
+              "selection": {
+                "label": "selección de palabras",
+                "summary": "pasa el cursor, haz clic o usa las flechas para seleccionar una palabra."
+              },
+              "false-flag": {
+                "label": "falsos positivos",
+                "summary": "marcar una palabra correcta resta puntos y (en modo sin fin) tiempo."
+              }
             },
             "controls": {
-              "i0": {"action": "moverse entre palabras"},
-              "i1": {"action": "moverse entre líneas"},
-              "i2": {"action": "marcar la palabra seleccionada"}
+              "i0": {
+                "action": "moverse entre palabras"
+              },
+              "i1": {
+                "action": "moverse entre líneas"
+              },
+              "i2": {
+                "action": "marcar la palabra seleccionada"
+              }
             },
-            "subDemos": {"i0": {"label": "recorrido del pasaje"}},
+            "subDemos": {
+              "i0": {
+                "label": "recorrido del pasaje"
+              }
+            },
             "visuals": {
-              "selected-word": {"label": "palabra seleccionada"},
-              "hover-cursor": {"label": "cursor del ratón"},
-              "false-flag-penalty": {"label": "penalización por falso positivo"}
+              "selected-word": {
+                "label": "palabra seleccionada"
+              },
+              "hover-cursor": {
+                "label": "cursor del ratón"
+              },
+              "false-flag-penalty": {
+                "label": "penalización por falso positivo"
+              }
             }
           },
           "correcting-mistakes": {
@@ -808,22 +1116,49 @@
               "pulsa esc para cancelar una reparación sin penalización."
             ],
             "mechanics": {
-              "caret": {"label": "edición con cursor", "summary": "mueve el cursor dentro de la palabra para editar caracteres individuales."},
-              "retries": {"label": "intentos de reparación", "summary": "dos intentos para corregir una palabra. tras dos fallos se muestra la respuesta."},
-              "cancel": {"label": "cancelar", "summary": "esc cancela una reparación sin penalización."}
+              "caret": {
+                "label": "edición con cursor",
+                "summary": "mueve el cursor dentro de la palabra para editar caracteres individuales."
+              },
+              "retries": {
+                "label": "intentos de reparación",
+                "summary": "dos intentos para corregir una palabra. tras dos fallos se muestra la respuesta."
+              },
+              "cancel": {
+                "label": "cancelar",
+                "summary": "esc cancela una reparación sin penalización."
+              }
             },
             "controls": {
-              "i0": {"action": "mover el cursor dentro de la palabra"},
-              "i1": {"action": "llevar el cursor al principio de la palabra"},
-              "i2": {"action": "llevar el cursor al final de la palabra"},
-              "i3": {"action": "confirmar la reparación"},
-              "i4": {"action": "cancelar la reparación"},
-              "i5": {"action": "borrar hacia delante"}
+              "i0": {
+                "action": "mover el cursor dentro de la palabra"
+              },
+              "i1": {
+                "action": "llevar el cursor al principio de la palabra"
+              },
+              "i2": {
+                "action": "llevar el cursor al final de la palabra"
+              },
+              "i3": {
+                "action": "confirmar la reparación"
+              },
+              "i4": {
+                "action": "cancelar la reparación"
+              },
+              "i5": {
+                "action": "borrar hacia delante"
+              }
             },
             "visuals": {
-              "inline-caret": {"label": "cursor en línea"},
-              "in-place-edit": {"label": "edición en el sitio"},
-              "attempt-limit": {"label": "límite de 2 intentos"}
+              "inline-caret": {
+                "label": "cursor en línea"
+              },
+              "in-place-edit": {
+                "label": "edición en el sitio"
+              },
+              "attempt-limit": {
+                "label": "límite de 2 intentos"
+              }
             }
           },
           "scoring": {
@@ -839,16 +1174,35 @@
               "modo sin fin: el tiempo baja continuamente. cada reparación correcta repone el banco. los falsos positivos restan tiempo.",
               "se registra una corrección perfecta cuando todos los errores de un pasaje se reparan sin falsos positivos."
             ],
-            "notes": {"hard": {"text": "los errores son más sutiles y el temporizador es más corto."}},
+            "notes": {
+              "hard": {
+                "text": "los errores son más sutiles y el temporizador es más corto."
+              }
+            },
             "mechanics": {
-              "detection": {"label": "detección", "summary": "se puntúa por precisión y exhaustividad: cuántos errores reales encontraste frente a los falsos positivos."},
-              "repair": {"label": "reparación", "summary": "se puntúa por lo bien que corregiste las palabras marcadas."},
-              "sweep": {"label": "corrección perfecta", "summary": "todos los errores reparados, sin falsos positivos, en un solo pasaje."}
+              "detection": {
+                "label": "detección",
+                "summary": "se puntúa por precisión y exhaustividad: cuántos errores reales encontraste frente a los falsos positivos."
+              },
+              "repair": {
+                "label": "reparación",
+                "summary": "se puntúa por lo bien que corregiste las palabras marcadas."
+              },
+              "sweep": {
+                "label": "corrección perfecta",
+                "summary": "todos los errores reparados, sin falsos positivos, en un solo pasaje."
+              }
             },
             "visuals": {
-              "detection-score": {"label": "puntuación de detección"},
-              "repair-score": {"label": "puntuación de reparación"},
-              "clean-sweep": {"label": "bonificación por corrección perfecta"}
+              "detection-score": {
+                "label": "puntuación de detección"
+              },
+              "repair-score": {
+                "label": "puntuación de reparación"
+              },
+              "clean-sweep": {
+                "label": "bonificación por corrección perfecta"
+              }
             }
           }
         }
@@ -924,7 +1278,11 @@
       "bomb": "¡bomba!",
       "bomb_not_ready": "la bomba todavía no está cargada",
       "gatling": "fuego rápido · {word}",
-      "shield_absorb": "¡el escudo ha absorbido el impacto de {source}!"
+      "shield_absorb": "¡el escudo ha absorbido el impacto de {source}!",
+      "accumulator": "¡descarga del rayo láser!",
+      "accumulator_not_ready": "el condensador necesita al menos un 25 % de carga",
+      "point_defense": "¡la defensa puntual ha interceptado {word}!",
+      "flagship_down": "¡buque insignia destruido!"
     },
     "powerup_help": {
       "double": "cada disparo sale dos veces",

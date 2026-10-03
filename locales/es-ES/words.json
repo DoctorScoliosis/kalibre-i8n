@@ -7,7 +7,7 @@
     "filter_on": "filtro activado",
     "filter_off": "filtro desactivado",
     "placeholder": "una por línea o separadas por comas; termina con * para todas las palabras que empiecen por ella",
-    "filtered_count": "{count, plural, one {# palabra} other {# palabras}} propias filtradas",
+    "filtered_count": "{count, plural, one {# palabra} many {# palabras} other {# palabras}} propias filtradas",
     "no_words": "no hay palabras propias",
     "heading": "palabras ofensivas",
     "toggle_label": "filtrar palabras ofensivas",

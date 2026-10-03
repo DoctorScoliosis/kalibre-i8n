@@ -53,33 +53,76 @@
     "change": "cambiar",
     "choose_what_and_how_to": "elige qué y cómo practicar",
     "TABS": {
-      "time": {"label": "tiempo"},
-      "words": {"label": "palabras"},
-      "quote": {"label": "cita"},
-      "mixed": {"label": "mixto"},
-      "sustained": {"label": "sostenido", "title": "mantén un ritmo o una precisión durante todo el tiempo que puedas"},
-      "custom": {"label": "personalizado"}
+      "time": {
+        "label": "tiempo"
+      },
+      "words": {
+        "label": "palabras"
+      },
+      "quote": {
+        "label": "cita"
+      },
+      "mixed": {
+        "label": "mixto"
+      },
+      "sustained": {
+        "label": "sostenido",
+        "title": "mantén un ritmo o una precisión durante todo el tiempo que puedas"
+      },
+      "custom": {
+        "label": "personalizado"
+      }
     },
     "SUSTAINED_SOURCES": {
-      "wordstream": {"label": "palabras comunes"},
-      "quotes": {"label": "citas"},
-      "work": {"label": "libros"},
-      "text": {"label": "mis textos"}
+      "wordstream": {
+        "label": "palabras comunes"
+      },
+      "quotes": {
+        "label": "citas"
+      },
+      "work": {
+        "label": "libros"
+      },
+      "text": {
+        "label": "mis textos"
+      }
     },
     "BOOK_ORDER_OPTIONS": {
-      "sequential": {"label": "en orden", "title": "continúa desde donde paraste y después pasa al siguiente libro"},
-      "passages": {"label": "pasajes", "title": "pasajes aleatorios del libro"},
-      "chunks": {"label": "fragmentos", "title": "tramos aleatorios del libro"}
+      "sequential": {
+        "label": "en orden",
+        "title": "continúa desde donde paraste y después pasa al siguiente libro"
+      },
+      "passages": {
+        "label": "pasajes",
+        "title": "pasajes aleatorios del libro"
+      },
+      "chunks": {
+        "label": "fragmentos",
+        "title": "tramos aleatorios del libro"
+      }
     },
     "source": {
-      "wordstream": {"label": "palabras comunes"},
-      "quotes": {"label": "citas"}
+      "wordstream": {
+        "label": "palabras comunes"
+      },
+      "quotes": {
+        "label": "citas"
+      }
     },
     "nodes": {
-      "pace": {"label": "ritmo", "title": "mantén tu velocidad reciente en el objetivo o por encima (3 segundos para recuperar)"},
-      "accuracy": {"label": "precisión"}
+      "pace": {
+        "label": "ritmo",
+        "title": "mantén tu velocidad reciente en el objetivo o por encima (3 segundos para recuperar)"
+      },
+      "accuracy": {
+        "label": "precisión"
+      }
     },
-    "lengthOptions": {"entire": {"label": "texto completo"}},
+    "lengthOptions": {
+      "entire": {
+        "label": "texto completo"
+      }
+    },
     "custom_title": "personalizado",
     "accuracy_title": "mantén tu precisión reciente en el objetivo o por encima, escribiendo al menos {floor} p. p. m. (5 segundos para recuperar)",
     "keep_up": "mantener",
@@ -94,8 +137,8 @@
   },
   "training_notice": {
     "mistakes": "errores, {join}",
-    "suggested": "{count, plural, one {# sugerido} other {# sugeridos}}",
-    "ready": "{count, plural, one {# listo para practicar} other {# listos para practicar}}"
+    "suggested": "{count, plural, one {# sugerido} many {# sugeridos} other {# sugeridos}}",
+    "ready": "{count, plural, one {# listo para practicar} many {# listos para practicar} other {# listos para practicar}}"
   },
   "type_view_goal": {
     "today": "✓ {formatGoalAmount} hoy",
@@ -117,11 +160,15 @@
     "wpm": "{round} p. p. m. · {round2}%",
     "test_complete_words_per_minute": "Prueba completa: {round} palabras por minuto, {toFixed} por ciento de precisión, {errors} errores."
   },
-  "typing_input": {"typing_input": "entrada de escritura"},
+  "typing_input": {
+    "typing_input": "entrada de escritura"
+  },
   "type_view_book": {
     "now_reading": "ahora leyendo {title}{by}.",
     "by_author": " por {author}",
     "now": "ahora: {title}{by}"
   },
-  "text_providers": {"unknown_practice_source": "Origen de práctica desconocido «{source}»"}
+  "text_providers": {
+    "unknown_practice_source": "Origen de práctica desconocido «{source}»"
+  }
 }

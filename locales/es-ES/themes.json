@@ -1,29 +1,198 @@
 {
   "editor": {
-    "save_theme":"guardar tema","name":"nombre","light_or_dark":"claro u oscuro","readability":"legibilidad","page":"página","background":"fondo","panels":"paneles","lines_borders":"líneas y bordes","selection":"selección","text":"texto","dim_text":"texto atenuado","accent":"acento","typed_text":"texto escrito","mistakes":"errores","extra_letters":"letras adicionales","caret":"cursor"
+    "save_theme": "guardar tema",
+    "name": "nombre",
+    "light_or_dark": "claro u oscuro",
+    "readability": "legibilidad",
+    "page": "página",
+    "background": "fondo",
+    "panels": "paneles",
+    "lines_borders": "líneas y bordes",
+    "selection": "selección",
+    "text": "texto",
+    "dim_text": "texto atenuado",
+    "accent": "acento",
+    "typed_text": "texto escrito",
+    "mistakes": "errores",
+    "extra_letters": "letras adicionales",
+    "caret": "cursor"
   },
   "actions": {
-    "use":"usar","edit":"editar","decorate":"decorar","export":"exportar","delete":"eliminar","done":"listo","customise_current":"personalizar el tema actual","import_theme":"importar un tema","decorations_for":"decoraciones para {name}","use_theme":"usar {name}","edit_theme":"editar {name}","decorate_theme":"decorar {name}","export_theme":"exportar {name}","delete_theme":"eliminar {name}","copy_and_decorate":"copiar este tema y decorarlo","decorations_earned_zero":"Las decoraciones de tema, obtenidas al jugar, se aplican a tus propios temas.","decorations_earned_notice":"Has conseguido {count, plural, one {una decoración de tema} other {# decoraciones de tema}}. Se aplican a tus propios temas, así que haz una copia de este para usar {count, plural, one {la} other {las}}.","decorations_earned_info":"Se obtienen al jugar. Permanecen con este tema en este perfil y no se incluyen al exportarlo."
+    "use": "usar",
+    "edit": "editar",
+    "decorate": "decorar",
+    "export": "exportar",
+    "delete": "eliminar",
+    "done": "listo",
+    "customise_current": "personalizar el tema actual",
+    "import_theme": "importar un tema",
+    "decorations_for": "decoraciones para {name}",
+    "use_theme": "usar {name}",
+    "edit_theme": "editar {name}",
+    "decorate_theme": "decorar {name}",
+    "export_theme": "exportar {name}",
+    "delete_theme": "eliminar {name}",
+    "copy_and_decorate": "copiar este tema y decorarlo",
+    "decorations_earned_zero": "Las decoraciones de tema, obtenidas al jugar, se aplican a tus propios temas.",
+    "decorations_earned_notice": "Has conseguido {count, plural, one {una decoración de tema} many {# decoraciones de tema} other {# decoraciones de tema}}. Se aplican a tus propios temas, así que haz una copia de este para usar {count, plural, one {la} many {las} other {las}}.",
+    "decorations_earned_info": "Se obtienen al jugar. Permanecen con este tema en este perfil y no se incluyen al exportarlo."
   },
-  "picker": {"preview":"vista previa","instructions":"pasa el cursor para previsualizar · haz clic o pulsa intro para aplicar · esc para cerrar","close":"cerrar"},
+  "picker": {
+    "preview": "vista previa",
+    "instructions": "pasa el cursor para previsualizar · haz clic o pulsa intro para aplicar · esc para cerrar",
+    "close": "cerrar"
+  },
   "decorationSlots": {
-    "caret":{"title":"cursor","hint":"alrededor del cursor (su forma es un ajuste de escritura)"},
-    "backdrop":{"title":"fondo","hint":"un patrón tenue detrás de la página"},
-    "frame":{"title":"marco","hint":"alrededor del texto que escribes"},
-    "keystroke":{"title":"pulsación","hint":"cómo se asienta cada letra escrita"},
-    "flourish":{"title":"detalle","hint":"una pequeña marca junto al logotipo"}
+    "caret": {
+      "title": "cursor",
+      "hint": "alrededor del cursor (su forma es un ajuste de escritura)"
+    },
+    "backdrop": {
+      "title": "fondo",
+      "hint": "un patrón tenue detrás de la página"
+    },
+    "frame": {
+      "title": "marco",
+      "hint": "alrededor del texto que escribes"
+    },
+    "keystroke": {
+      "title": "pulsación",
+      "hint": "cómo se asienta cada letra escrita"
+    },
+    "flourish": {
+      "title": "detalle",
+      "hint": "una pequeña marca junto al logotipo"
+    }
   },
   "decorations": {
-    "caret-glow":{"name":"brillo suave"},"caret-halo":{"name":"halo"},"caret-drop":{"name":"gota de tinta"},"caret-trail":{"name":"cola de cometa"},
-    "backdrop-dots":{"name":"rejilla de puntos"},"backdrop-ruled":{"name":"papel rayado"},"backdrop-graph":{"name":"papel cuadriculado"},"backdrop-grain":{"name":"grano"},"backdrop-checks":{"name":"cuadros suaves"},
-    "frame-corners":{"name":"marcas en las esquinas"},"frame-bookplate":{"name":"exlibris"},"frame-tab":{"name":"pestaña de carpeta"},"frame-brackets":{"name":"corchetes"},
-    "keystroke-ink":{"name":"desvanecido de tinta"},"keystroke-rise":{"name":"ascenso suave"},"keystroke-bloom":{"name":"floración"},
-    "flourish-leaf":{"name":"hoja"},"flourish-star":{"name":"estrella"},"flourish-key":{"name":"tecla"},"flourish-letter":{"name":"letra de tu compañero"},"flourish-moon":{"name":"luna"}
+    "caret-glow": {
+      "name": "brillo suave"
+    },
+    "caret-halo": {
+      "name": "halo"
+    },
+    "caret-drop": {
+      "name": "gota de tinta"
+    },
+    "caret-trail": {
+      "name": "cola de cometa"
+    },
+    "backdrop-dots": {
+      "name": "rejilla de puntos"
+    },
+    "backdrop-ruled": {
+      "name": "papel rayado"
+    },
+    "backdrop-graph": {
+      "name": "papel cuadriculado"
+    },
+    "backdrop-grain": {
+      "name": "grano"
+    },
+    "backdrop-checks": {
+      "name": "cuadros suaves"
+    },
+    "frame-corners": {
+      "name": "marcas en las esquinas"
+    },
+    "frame-bookplate": {
+      "name": "exlibris"
+    },
+    "frame-tab": {
+      "name": "pestaña de carpeta"
+    },
+    "frame-brackets": {
+      "name": "corchetes"
+    },
+    "keystroke-ink": {
+      "name": "desvanecido de tinta"
+    },
+    "keystroke-rise": {
+      "name": "ascenso suave"
+    },
+    "keystroke-bloom": {
+      "name": "floración"
+    },
+    "flourish-leaf": {
+      "name": "hoja"
+    },
+    "flourish-star": {
+      "name": "estrella"
+    },
+    "flourish-key": {
+      "name": "tecla"
+    },
+    "flourish-letter": {
+      "name": "letra de tu compañero"
+    },
+    "flourish-moon": {
+      "name": "luna"
+    }
   },
   "presets": {
-    "paper":{"name":"papel"},"ink":{"name":"tinta"},"dusk":{"name":"atardecer"},"eink":{"name":"tinta electrónica"},"eink-night":{"name":"noche de tinta electrónica"},"cream":{"name":"crema"},"rose":{"name":"rosa"},"harbour":{"name":"puerto"},"forest":{"name":"bosque"},"plum":{"name":"ciruela"},"slate":{"name":"pizarra"},"terminal":{"name":"terminal"},"contrast":{"name":"alto contraste"},"contrast-night":{"name":"noche de alto contraste"}
+    "paper": {
+      "name": "papel"
+    },
+    "ink": {
+      "name": "tinta"
+    },
+    "dusk": {
+      "name": "atardecer"
+    },
+    "eink": {
+      "name": "tinta electrónica"
+    },
+    "eink-night": {
+      "name": "noche de tinta electrónica"
+    },
+    "cream": {
+      "name": "crema"
+    },
+    "rose": {
+      "name": "rosa"
+    },
+    "harbour": {
+      "name": "puerto"
+    },
+    "forest": {
+      "name": "bosque"
+    },
+    "plum": {
+      "name": "ciruela"
+    },
+    "slate": {
+      "name": "pizarra"
+    },
+    "terminal": {
+      "name": "terminal"
+    },
+    "contrast": {
+      "name": "alto contraste"
+    },
+    "contrast-night": {
+      "name": "noche de alto contraste"
+    }
   },
   "checks": {
-    "text_bg":"texto sobre la página","text_surface":"texto sobre paneles","textDim_bg":"texto atenuado sobre la página","textDim_surface":"texto atenuado sobre paneles","correct_bg":"texto escrito","incorrect_bg":"errores","correct_textDim":"el texto escrito destaca del texto aún pendiente","accent_bg":"acento","caret_bg":"cursor","extra_bg":"letras adicionales","chartWpm_bg":"gráfico: línea de p. p. m.","chartRaw_bg":"gráfico: línea bruta","chartError_bg":"gráfico: errores","heat1_bg":"calor de tecla 1","heat4_bg":"calor de tecla 4","not_a_theme":"no es un tema","needs_a_name":"necesita un nombre de hasta 40 caracteres","scheme_must_be":"el esquema debe ser claro u oscuro","bad_hex":"el color «{token}» debe tener un valor #rrggbb","not_readable":"no es suficientemente legible: {labels}"
+    "text_bg": "texto sobre la página",
+    "text_surface": "texto sobre paneles",
+    "textDim_bg": "texto atenuado sobre la página",
+    "textDim_surface": "texto atenuado sobre paneles",
+    "correct_bg": "texto escrito",
+    "incorrect_bg": "errores",
+    "correct_textDim": "el texto escrito destaca del texto aún pendiente",
+    "accent_bg": "acento",
+    "caret_bg": "cursor",
+    "extra_bg": "letras adicionales",
+    "chartWpm_bg": "gráfico: línea de p. p. m.",
+    "chartRaw_bg": "gráfico: línea bruta",
+    "chartError_bg": "gráfico: errores",
+    "heat1_bg": "calor de tecla 1",
+    "heat4_bg": "calor de tecla 4",
+    "not_a_theme": "no es un tema",
+    "needs_a_name": "necesita un nombre de hasta 40 caracteres",
+    "scheme_must_be": "el esquema debe ser claro u oscuro",
+    "bad_hex": "el color «{token}» debe tener un valor #rrggbb",
+    "not_readable": "no es suficientemente legible: {labels}"
   }
 }

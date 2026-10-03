@@ -5282,32 +5282,42 @@
         "mistakeSensitivity": {
           "label": "建议加入训练的错误",
           "option": {
-            "relaxed": "仅限明显规律"
-          }
+            "relaxed": "仅限明显规律",
+            "normal": "正常",
+            "eager": "提前"
+          },
+          "description": "建议前需要多少证据"
         },
         "autoAcceptMistakes": {
-          "label": "自动将错误加入训练库"
+          "label": "自动将错误加入训练库",
+          "description": "自动开始训练符合条件的错误"
         },
         "adaptiveMix": {
           "label": "在单词测试中练习单词",
           "option": {
             "light": "少量",
-            "strong": "更多"
-          }
+            "strong": "更多",
+            "off": "关闭"
+          },
+          "description": "混入正在观察的易错单词"
         },
         "goalType": {
           "label": "每日目标",
           "option": {
             "off": "无",
             "minutes": "分钟",
-            "words": "单词"
-          }
+            "words": "单词",
+            "xp": "经验值"
+          },
+          "description": "每天希望达到的打字量"
         },
         "goalMinutes": {
-          "label": "每日分钟数"
+          "label": "每日分钟数",
+          "description": "以分钟为单位的每日目标"
         },
         "goalWords": {
-          "label": "每日单词数"
+          "label": "每日单词数",
+          "description": "以单词数为单位的每日目标"
         },
         "questDifficulty": {
           "label": "每日任务难度",
@@ -5315,7 +5325,8 @@
             "easy": "简单",
             "normal": "普通",
             "hard": "困难"
-          }
+          },
+          "description": "每日任务和挑战的难度，以及给予的经验值。更改将从明天的任务开始生效"
         },
         "lessonCompanion": {
           "label": "课程伙伴"
@@ -5324,7 +5335,8 @@
           "label": "常用单词中的大写字母"
         },
         "paragraphBreaks": {
-          "label": "段落换行"
+          "label": "段落换行",
+          "description": "在段落末尾按回车键"
         },
         "wordPool": {
           "label": "单词列表",
@@ -5337,8 +5349,11 @@
           "option": {
             "everyday": "日常",
             "some_long": "一些长单词",
-            "long": "长单词"
-          }
+            "long": "长单词",
+            "common": "日常",
+            "mixed": "一些长单词"
+          },
+          "description": "计时和单词测试中更长、更难的单词"
         },
         "wordSpelling": {
           "label": "单词测试中的拼写",
@@ -5346,7 +5361,8 @@
             "both": "两者（按原样）",
             "uk": "英式英语（colour, centre）",
             "us": "美式英语（color, center）"
-          }
+          },
+          "description": "单词测试和练习中的拼写变体"
         },
         "textSize": {
           "label": "打字文本大小"
@@ -5372,14 +5388,17 @@
           }
         },
         "smoothCaret": {
-          "label": "平滑光标"
+          "label": "平滑光标",
+          "description": "光标在字母间平滑滑动"
         },
         "focusMode": {
           "label": "焦点",
           "option": {
             "line": "当前行",
-            "sentence": "句子"
-          }
+            "sentence": "句子",
+            "none": "关闭"
+          },
+          "description": "淡化当前行或句子以外的文本"
         },
         "liveMetrics": {
           "label": "实时 WPM 和准确率"
@@ -5392,7 +5411,12 @@
           }
         },
         "restartKey": {
-          "label": "重新开始键"
+          "label": "重新开始键",
+          "description": "用于重新开始测试的按键",
+          "option": {
+            "tab-enter": "Tab → Enter",
+            "tab-tab": "Tab → Tab"
+          }
         },
         "layout": {
           "label": "键盘布局"
@@ -5405,10 +5429,453 @@
           }
         },
         "defaultDuration": {
-          "label": "默认测试时长"
+          "label": "默认测试时长",
+          "description": "计时测试的长度"
         },
         "defaultWordCount": {
-          "label": "默认单词数"
+          "label": "默认单词数",
+          "description": "单词测试的长度"
+        },
+        "mode": {
+          "label": "模式",
+          "description": "浅色、深色或跟随系统",
+          "option": {
+            "system": "跟随系统",
+            "light": "浅色",
+            "dark": "深色"
+          }
+        },
+        "themeLight": {
+          "label": "浅色主题",
+          "description": "使用浅色模式时的配色",
+          "option": {
+            "paper": "纸张",
+            "eink": "电子墨水",
+            "cream": "奶油",
+            "rose": "玫瑰",
+            "harbour": "港口",
+            "contrast": "高对比度"
+          }
+        },
+        "themeDark": {
+          "label": "深色主题",
+          "description": "使用深色模式时的配色",
+          "option": {
+            "ink": "墨水",
+            "dusk": "黄昏",
+            "eink-night": "电子墨水夜间",
+            "forest": "森林",
+            "plum": "李子",
+            "slate": "石板",
+            "terminal": "终端",
+            "contrast-night": "高对比度夜间"
+          }
+        },
+        "theme": {
+          "label": "主题",
+          "description": "整个应用的配色",
+          "option": {
+            "system": "跟随系统",
+            "paper": "纸张",
+            "ink": "墨水",
+            "dusk": "黄昏",
+            "eink": "电子墨水",
+            "eink-night": "电子墨水夜间",
+            "cream": "奶油",
+            "rose": "玫瑰",
+            "harbour": "港口",
+            "forest": "森林",
+            "plum": "李子",
+            "slate": "石板",
+            "terminal": "终端",
+            "contrast": "高对比度",
+            "contrast-night": "高对比度夜间"
+          }
+        },
+        "customThemes": {
+          "label": "自定义主题"
+        },
+        "typingFontSize": {
+          "label": "打字文本大小",
+          "description": "打字文本的大小"
+        },
+        "typingFont": {
+          "label": "打字字体"
+        },
+        "typingFontWeight": {
+          "label": "打字字体粗细",
+          "description": "打字文本的粗细程度",
+          "option": {
+            "300": "300",
+            "400": "400",
+            "500": "500",
+            "600": "600",
+            "700": "700"
+          }
+        },
+        "typingLineHeight": {
+          "label": "打字行高",
+          "description": "打字行之间的间距"
+        },
+        "typingLetterSpacing": {
+          "label": "打字字间距",
+          "description": "字母之间的间距"
+        },
+        "caret": {
+          "label": "光标样式",
+          "description": "光标的形状",
+          "option": {
+            "line": "竖线",
+            "block": "方块",
+            "underline": "下划线"
+          }
+        },
+        "linesAhead": {
+          "label": "前方行数",
+          "description": "可见的前方行数",
+          "option": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4"
+          }
+        },
+        "showLiveStats": {
+          "label": "实时 WPM 和准确率",
+          "description": "打字时显示 WPM 和准确率"
+        },
+        "errorDisplay": {
+          "label": "错误显示为",
+          "description": "错误字母的显示方式",
+          "option": {
+            "expected": "预期字母",
+            "typed": "已输入的字母"
+          }
+        },
+        "keyboardLayout": {
+          "label": "键盘布局",
+          "description": "告知 Kalibre 按键的位置以判断相邻键；不会改变您的实际输入",
+          "option": {
+            "qwerty": "QWERTY（美国）",
+            "dvorak": "Dvorak",
+            "colemak": "Colemak",
+            "colemak-dh": "Colemak-DH",
+            "workman": "Workman",
+            "azerty": "AZERTY（法语）",
+            "qwertz": "QWERTZ（德语）"
+          }
+        },
+        "inputMethod": {
+          "label": "我使用的输入方式",
+          "description": "速录机一次发送整个单词，因此 Kalibre 只记录整词错误并暂停触摸打字课程",
+          "option": {
+            "keyboard": "键盘",
+            "steno": "速录机"
+          }
+        },
+        "capitals": {
+          "label": "常用单词中的大写字母",
+          "description": "引文和您的文本始终保留原有大小写"
+        },
+        "wordList": {
+          "label": "单词列表",
+          "description": "从中抽取常用单词的数量",
+          "option": {
+            "200": "200个常用单词",
+            "1000": "1000个常用单词",
+            "5000": "5000个常用单词"
+          }
+        },
+        "customSampling": {
+          "label": "自定义文本",
+          "description": "整篇文本或一段摘录",
+          "option": {
+            "passage": "随机段落",
+            "entire": "整篇文本"
+          }
+        },
+        "customQuoteLength": {
+          "label": "摘录长度",
+          "description": "自定义摘录的字符范围",
+          "option": {
+            "short": "短（最多100个字符）",
+            "medium": "中（最多300个字符）",
+            "long": "长（最多600个字符）",
+            "huge": "超长（最多1500个字符）",
+            "massive": "巨长（最多4000个字符）"
+          }
+        },
+        "customNormalisation": {
+          "label": "自定义文本字符",
+          "description": "自定义文本保留的内容",
+          "option": {
+            "preserve": "按原样",
+            "no-punctuation": "无标点",
+            "letters": "仅字母",
+            "letters-numbers": "字母+数字"
+          }
+        },
+        "mixedCategories": {
+          "label": "混合引文长度",
+          "description": "混合测试使用的引文长度",
+          "option": {
+            "short": "短",
+            "medium": "中",
+            "long": "长",
+            "huge": "超长",
+            "massive": "巨长"
+          }
+        },
+        "goalXp": {
+          "label": "每日经验值",
+          "description": "以经验值为单位的每日目标（不含奖励）；一分钟干净的打字大约可获得8–15点经验"
+        },
+        "companion": {
+          "label": "课程伙伴",
+          "description": "在设置时选择，由个人资料保留",
+          "option": {
+            "cal": "Cal",
+            "libby": "Libby"
+          }
+        },
+        "mascotChatter": {
+          "label": "{companion}的对话",
+          "description": "{companion}说话的多少",
+          "option": {
+            "chatty": "健谈",
+            "quiet": "只说重要的"
+          }
+        },
+        "mascotSounds": {
+          "label": "{companion}的声音",
+          "description": "课程中的小叫声（不会在单词中间）、被抚摸时的呼噜声和被挠痒时的笑声"
+        },
+        "mascotVolume": {
+          "label": "{companion}的音量",
+          "description": "{companion}声音的大小"
+        },
+        "uiFontSize": {
+          "label": "界面文本大小",
+          "description": "界面文本的大小"
+        },
+        "reduceMotion": {
+          "label": "减少动画",
+          "description": "减少动画效果",
+          "option": {
+            "system": "跟随系统",
+            "on": "开启",
+            "off": "关闭"
+          }
+        },
+        "colourVision": {
+          "label": "色觉",
+          "description": "为色盲调整颜色",
+          "option": {
+            "typical": "正常",
+            "red-green": "红绿色盲（红色盲、绿色盲）",
+            "blue-yellow": "蓝黄色盲（蓝色盲）",
+            "no-colour": "无色彩"
+          }
+        },
+        "uiFont": {
+          "label": "界面字体",
+          "description": "菜单和打字区域以外文本的字体",
+          "option": {
+            "system": "系统默认",
+            "atkinson": "Atkinson Hyperlegible",
+            "opendyslexic": "OpenDyslexic"
+          }
+        },
+        "boldText": {
+          "label": "加粗文本",
+          "description": "整个界面中的文本更粗"
+        },
+        "textSpacing": {
+          "label": "文本间距",
+          "description": "字母和单词之间的间距更宽",
+          "option": {
+            "normal": "正常",
+            "wide": "宽"
+          }
+        },
+        "contrast": {
+          "label": "对比度",
+          "description": "使文本和边框更加分明",
+          "option": {
+            "system": "跟随系统",
+            "normal": "正常",
+            "more": "更多"
+          }
+        },
+        "pageWidth": {
+          "label": "页面宽度",
+          "description": "页面内容的宽度",
+          "option": {
+            "narrow": "窄（720像素）",
+            "normal": "正常（880像素）",
+            "wide": "宽（1000像素）",
+            "full": "全宽"
+          }
+        },
+        "language": {
+          "label": "语言",
+          "description": "界面语言；更改后请重新加载",
+          "option": {
+            "en-GB": "English (UK)",
+            "en-US": "English (US)",
+            "zh-CN": "简体中文 (Chinese Simplified)",
+            "qps": "pseudo",
+            "qps-wide": "pseudo wide"
+          }
+        },
+        "backupFrequency": {
+          "label": "自动备份",
+          "description": "备份文件夹的更新频率（Chrome和Edge）",
+          "option": {
+            "change": "任何更改后不久",
+            "test": "每次测试后",
+            "5min": "最多每5分钟",
+            "hourly": "最多每小时",
+            "manual": "仅在我要求时"
+          }
+        },
+        "updateCheck": {
+          "label": "检查更新",
+          "description": "Kalibre 检查新版本的频率；无论如何都会等待您的确认",
+          "option": {
+            "5min": "每5分钟",
+            "15min": "每15分钟",
+            "hourly": "每小时",
+            "launch": "Kalibre 打开时",
+            "manual": "仅在我要求时"
+          }
+        },
+        "enabledDatasets": {
+          "label": "已启用的数据集"
+        },
+        "libraries": {
+          "label": "数据集库"
+        },
+        "wordFilter": {
+          "label": "过滤不当单词"
+        },
+        "blockedWords": {
+          "label": "您自定义的过滤单词"
+        },
+        "companionLook": {
+          "label": "{companion}的外观"
+        },
+        "stenoNoteShown": {
+          "label": "速录提示已显示"
+        },
+        "lastVisitDay": {
+          "label": "上次访问"
+        },
+        "calSeen": {
+          "label": "{companion}的物品已查看"
+        },
+        "calPets": {
+          "label": "{companion}被抚摸的次数"
+        },
+        "calPokes": {
+          "label": "{companion}被戳的次数"
+        },
+        "calTickles": {
+          "label": "{companion}被挠痒的次数"
+        },
+        "calPokeFits": {
+          "label": "{companion}被戳得太多次的次数"
+        },
+        "raceNoticeSeen": {
+          "label": "比赛通知已查看"
+        },
+        "lastSeenVersion": {
+          "label": "上次查看的版本"
+        },
+        "updateTold": {
+          "label": "已告知更新"
+        },
+        "calArmLifts": {
+          "label": "{companion}手臂被抬起的次数"
+        },
+        "restartRun": {
+          "label": "上次开始"
+        },
+        "calRestartBest": {
+          "label": "连续快速重新开始的最多次数"
+        },
+        "achievementsSeen": {
+          "label": "已查看的成就"
+        },
+        "achievementsVersionSeen": {
+          "label": "已查看的成就版本"
+        },
+        "themeDecorations": {
+          "label": "主题装饰"
+        },
+        "profileCard": {
+          "label": "个人资料卡片"
+        },
+        "cardItemsSeen": {
+          "label": "已查看的个人资料卡片项目"
+        },
+        "raceCardNoticeSeen": {
+          "label": "比赛卡片通知已查看"
+        },
+        "car": {
+          "label": "比赛用车"
+        },
+        "carPartsSeen": {
+          "label": "已查看的比赛用车零件"
+        },
+        "raceConfig": {
+          "label": "比赛设置"
+        },
+        "raceModesNoticeSeen": {
+          "label": "比赛模式通知已查看"
+        },
+        "decorationsSeen": {
+          "label": "已查看的主题装饰"
+        },
+        "achievementsComplete": {
+          "label": "所有成就"
+        },
+        "engagement": {
+          "label": "互动"
+        },
+        "partnerLook": {
+          "label": "搭档的外观"
+        },
+        "lessonConfig": {
+          "label": "课程设置"
+        },
+        "lessonPrep": {
+          "label": "课程步骤和热身"
+        },
+        "gameConfigs": {
+          "label": "游戏设置"
+        },
+        "lastConfig": {
+          "label": "上次测试配置"
+        },
+        "numpad": {
+          "label": "我有数字小键盘",
+          "description": "用于数字小键盘练习，以及说明 Num Lock 是否关闭"
+        },
+        "numpadSeen": {
+          "label": "数字小键盘已查看"
+        },
+        "numpadTold": {
+          "label": "已提及数字小键盘练习"
+        },
+        "numpadOffered": {
+          "label": "已提供数字小键盘练习"
+        },
+        "sumsConfig": {
+          "label": "算术设置"
+        },
+        "numpadConfig": {
+          "label": "十键测试设置"
         }
       },
       "actions": {
@@ -5421,12 +5888,138 @@
       "notice": {
         "imported_count": "已导入 {count} 项设置"
       },
+      "data_panel": {
+        "done_the_browser_will_keep": "完成：浏览器将保留您的数据。",
+        "the_browser_said_no_for": "浏览器暂时拒绝了。将 Kalibre 安装为应用或将其加入书签通常可以解决此问题；同时请保持备份。",
+        "this_browser_can_t_save": "此浏览器无法自动保存到文件夹，因此请在下方手动备份。（Chrome 和 Edge 可以自动备份。）",
+        "choose_a_folder_on_this": "选择此电脑上的一个文件夹，它将成为您的 Kalibre 文件夹：此个人资料将在每次测试或更改后几秒钟保存在那里，包括您添加的数据集和字体。如果文件夹中已有其他内容，将在其内创建一个\"kalibre\"文件夹。",
+        "saving_this_profile_and_the": "正在将此个人资料以及添加的数据集和字体保存到 Kalibre 文件夹\"{folderName}\" · {last}。{problem}",
+        "when_an_update_changes_how": "当更新改变了 Kalibre 存储数据的方式时，它会保留更改前的所有内容的副本，以防出现问题。最近两份会被保留。",
+        "what_takes_the_space": "占用空间的内容",
+        "bring_profiles_datasets_and_fonts": "从 Kalibre 文件夹恢复个人资料、数据集和字体：在浏览器被清除后，或在另一台电脑上。不会覆盖此处的任何内容。适用于任何浏览器。",
+        "shared": "已共享",
+        "the_file_is_ready": "文件已准备就绪",
+        "couldn_t_save_see_settings": "无法保存（请参阅设置 → 数据）",
+        "storage_persistent": "浏览器会保留 Kalibre 的数据，直到您自行清除。",
+        "storage_best_effort": "如果磁盘空间不足，浏览器可能会清除 Kalibre 的数据（Safari 在7天未访问后也会这样做）。请要求浏览器保留数据，并保持备份。",
+        "storage_unsupported": "此浏览器无法保证保留 Kalibre 的数据，因此请保持备份。",
+        "storage_using": " 正在使用 {used}。",
+        "overdue": "此个人资料已备份超过 {days} 天。 ",
+        "never_backed_up": "此个人资料尚未备份。 ",
+        "last_backup": "上次备份于 {when}。 ",
+        "export_explained": "导出是一个包含此个人资料历史的文件（当存在 Kalibre 文件夹时保存在其 exports 中）；使用个人资料菜单中的\"导入个人资料文件\"来恢复它。",
+        "copy_line": "来自 {when}，在{what}改变数据存储方式之前 · {records} 条记录",
+        "copy_app": " Kalibre v{app}",
+        "copy_update": " 一次更新",
+        "allow_again": "再次允许",
+        "save_over_it": "覆盖保存",
+        "restore_it": "恢复它",
+        "put_this_copy_back": "放回此副本",
+        "share_it": "共享它"
+      },
+      "fonts": {
+        "default_monospace": "默认（等宽字体）",
+        "font_names_can_only_use": "字体名称只能使用字母、数字、空格、点、短横线和下划线。",
+        "isn_t_available_on_this": "\"{family}\"在此设备上不可用，因此显示默认字体。",
+        "use": "使用 {family}",
+        "kb": "{fileName} · {round} KB",
+        "remove": "移除 {family}",
+        "list_fonts_on_this_computer": "列出此电脑上的字体",
+        "fonts_found_start_typing_a": "找到 {length} 种字体；输入名称以选择一种。",
+        "the_browser_did_not_allow": "浏览器不允许列出字体。您仍然可以输入任何已安装字体的名称。",
+        "load_a_font_file": "加载字体文件",
+        "use_default_font": "使用默认字体",
+        "bundled_legible": "内置 · 易读等宽字体",
+        "bundled_dyslexia": "内置 · 阅读障碍友好",
+        "sample": "the quick brown fox jumps over the lazy dog. 0123456789"
+      },
       "settings": {
         "github": "github",
         "translation_note": "此翻译并非由母语者撰写或审核，因此部分表述可能略显生硬。欢迎在 {link} 上协助改进。",
         "imported": "已导入 {count, plural, other {# 项设置}}",
         "skipped": " · 已跳过 {what}",
         "sections_label": "设置区域"
+      },
+      "storage_screen": {
+        "measuring": "正在测量…",
+        "space_used": "已用空间",
+        "yes": "是的，{label}",
+        "export_first": "请先导出",
+        "kalibre_is_using_of_the": "Kalibre 正在使用此浏览器允许的 {formatSize2} 中的 {formatSize}。",
+        "kalibre_is_using_about": "Kalibre 大约使用了 {formatSize}。",
+        "couldn_t_measure": "无法测量：{message}"
+      },
+      "theme_editor": {
+        "sample_of_this_theme": "此主题的示例",
+        "needs_1": "（需要 {minimum}:1）",
+        "fix_the_colours_marked_first": "请先修复标记 ✗ 的颜色",
+        "hex_value": "{label} 十六进制值",
+        "edit_theme": "编辑主题",
+        "a_sample_of_every_colour": "每种颜色的示例，应用了您的色觉和对比度设置。将鼠标悬停在颜色上或选择一种颜色，以高亮显示其应用位置。",
+        "imported": "已导入\"{name}\"",
+        "that_file_isn_t_a": "该文件不是主题。",
+        "saved": "已保存\"{name}\"",
+        "saved_decorate": "。您可以随时从列表中为其添加装饰。",
+        "groups": {
+          "page": "页面",
+          "text": "文本",
+          "typing": "打字",
+          "charts": "图表"
+        },
+        "tokens": {
+          "bg": "背景",
+          "surface": "面板",
+          "separator": "线条和边框",
+          "selection": "选中",
+          "text": "文本",
+          "textDim": "淡化文本",
+          "accent": "强调色",
+          "correct": "已输入的文本",
+          "incorrect": "错误",
+          "extra": "多余字母",
+          "caret": "光标",
+          "chartWpm": "WPM 线",
+          "chartRaw": "原始线",
+          "chartError": "错误",
+          "heat1": "按键热度 1",
+          "heat2": "按键热度 2",
+          "heat3": "按键热度 3",
+          "heat4": "按键热度 4"
+        },
+        "sample_correct": "quick brown ",
+        "sample_incorrect": "fxo",
+        "sample_extra": "ss",
+        "sample_dim": " jumps over",
+        "sample_text": "text ",
+        "sample_link": "link",
+        "sample_selected": "selected",
+        "that_theme_can_t_be": "该主题无法使用：{problem}。",
+        "scheme_label": "浅色或深色"
+      },
+      "theme_picker": {
+        "quick_brown": "quick brown ",
+        "fxo": "fxo",
+        "ss": "ss",
+        "jumps_over": " jumps over",
+        "surface": "surface ",
+        "accent_link": "accent link",
+        "selected": "selected",
+        "1_text": "{ratio}:1 文本",
+        "choose_theme": "{label}：选择主题",
+        "options": "{label} 选项",
+        "pick": "选择 {label}"
+      },
+      "sections": {
+        "theme": "主题",
+        "typing": "打字",
+        "content": "内容",
+        "training": "训练",
+        "accessibility": "无障碍",
+        "data": "数据"
+      },
+      "stepper": {
+        "decrease": "减少 {label}",
+        "increase": "增加 {label}"
       }
     },
     "stats": {

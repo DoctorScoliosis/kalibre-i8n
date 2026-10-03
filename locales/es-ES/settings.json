@@ -2,7 +2,11 @@
   "schema": {
     "mistakeSensitivity": {
       "label": "sugerir errores para practicar",
-      "option": {"relaxed": "solo patrones claros", "normal": "normal", "eager": "pronto"},
+      "option": {
+        "relaxed": "solo patrones claros",
+        "normal": "normal",
+        "eager": "pronto"
+      },
       "description": "cuánta evidencia hace falta antes de una sugerencia"
     },
     "autoAcceptMistakes": {
@@ -11,25 +15,56 @@
     },
     "adaptiveMix": {
       "label": "practicar palabras con errores en las pruebas de palabras",
-      "option": {"light": "unas pocas", "strong": "más", "off": "desactivado"},
+      "option": {
+        "light": "unas pocas",
+        "strong": "más",
+        "off": "desactivado"
+      },
       "description": "mezclar palabras con errores que se estén observando"
     },
     "goalType": {
       "label": "objetivo diario",
-      "option": {"off": "ninguno", "minutes": "minutos", "words": "palabras", "xp": "XP"},
+      "option": {
+        "off": "ninguno",
+        "minutes": "minutos",
+        "words": "palabras",
+        "xp": "XP"
+      },
       "description": "cantidad de escritura que quieres alcanzar cada día"
     },
-    "goalMinutes": {"label": "minutos al día", "description": "objetivo diario en minutos"},
-    "goalWords": {"label": "palabras al día", "description": "objetivo diario en palabras"},
+    "goalMinutes": {
+      "label": "minutos al día",
+      "description": "objetivo diario en minutos"
+    },
+    "goalWords": {
+      "label": "palabras al día",
+      "description": "objetivo diario en palabras"
+    },
     "questDifficulty": {
       "label": "dificultad de las misiones diarias",
-      "option": {"easy": "fácil", "normal": "normal", "hard": "difícil"},
+      "option": {
+        "easy": "fácil",
+        "normal": "normal",
+        "hard": "difícil"
+      },
       "description": "hasta dónde te llevan las misiones y el desafío diario y cuánto XP dan. el cambio se aplica a partir de las misiones de mañana"
     },
-    "lessonCompanion": {"label": "compañero de lección"},
-    "commonCapitals": {"label": "mayúsculas en palabras comunes"},
-    "paragraphBreaks": {"label": "saltos de párrafo", "description": "pulsa intro al final de los párrafos"},
-    "wordPool": {"label": "lista de palabras", "option": {"200": "200 palabras comunes"}},
+    "lessonCompanion": {
+      "label": "compañero de lección"
+    },
+    "commonCapitals": {
+      "label": "mayúsculas en palabras comunes"
+    },
+    "paragraphBreaks": {
+      "label": "saltos de párrafo",
+      "description": "pulsa intro al final de los párrafos"
+    },
+    "wordPool": {
+      "label": "lista de palabras",
+      "option": {
+        "200": "200 palabras comunes"
+      }
+    },
     "wordLength": {
       "label": "longitud de palabra",
       "option": {
@@ -50,52 +85,112 @@
       },
       "description": "variante ortográfica en las pruebas de palabras y ejercicios"
     },
-    "textSize": {"label": "tamaño del texto de escritura"},
-    "fontFamily": {"label": "fuente de escritura"},
-    "fontWeight": {"label": "peso de la fuente de escritura"},
-    "lineHeight": {"label": "altura de línea de escritura"},
-    "letterSpacing": {"label": "espaciado entre letras de escritura"},
+    "textSize": {
+      "label": "tamaño del texto de escritura"
+    },
+    "fontFamily": {
+      "label": "fuente de escritura"
+    },
+    "fontWeight": {
+      "label": "peso de la fuente de escritura"
+    },
+    "lineHeight": {
+      "label": "altura de línea de escritura"
+    },
+    "letterSpacing": {
+      "label": "espaciado entre letras de escritura"
+    },
     "caretStyle": {
       "label": "estilo del cursor",
-      "option": {"line": "línea", "block": "bloque", "underline": "subrayado"}
+      "option": {
+        "line": "línea",
+        "block": "bloque",
+        "underline": "subrayado"
+      }
     },
-    "smoothCaret": {"label": "cursor suave", "description": "el cursor se desliza entre las letras"},
+    "smoothCaret": {
+      "label": "cursor suave",
+      "description": "el cursor se desliza entre las letras"
+    },
     "focusMode": {
       "label": "enfoque",
-      "option": {"line": "línea actual", "sentence": "oración", "none": "desactivado"},
+      "option": {
+        "line": "línea actual",
+        "sentence": "oración",
+        "none": "desactivado"
+      },
       "description": "atenuar el texto fuera de la línea o la oración"
     },
-    "liveMetrics": {"label": "p. p. m. y precisión en directo"},
+    "liveMetrics": {
+      "label": "p. p. m. y precisión en directo"
+    },
     "mistakeDisplay": {
       "label": "mostrar errores como",
-      "option": {"expected": "letra esperada", "typed": "letra escrita"}
+      "option": {
+        "expected": "letra esperada",
+        "typed": "letra escrita"
+      }
     },
     "restartKey": {
       "label": "tecla de reinicio",
       "description": "teclas que reinician una prueba",
-      "option": {"tab-enter": "tabulador → intro", "tab-tab": "tabulador → tabulador"}
+      "option": {
+        "tab-enter": "tabulador → intro",
+        "tab-tab": "tabulador → tabulador"
+      }
     },
-    "layout": {"label": "distribución del teclado"},
+    "layout": {
+      "label": "distribución del teclado"
+    },
     "stenoMode": {
       "label": "escribo con",
-      "option": {"keyboard": "un teclado", "steno": "una máquina de estenotipia"}
+      "option": {
+        "keyboard": "un teclado",
+        "steno": "una máquina de estenotipia"
+      }
     },
-    "defaultDuration": {"label": "duración predeterminada de la prueba", "description": "duración de una prueba de tiempo"},
-    "defaultWordCount": {"label": "número predeterminado de palabras", "description": "longitud de una prueba de palabras"},
+    "defaultDuration": {
+      "label": "duración predeterminada de la prueba",
+      "description": "duración de una prueba de tiempo"
+    },
+    "defaultWordCount": {
+      "label": "número predeterminado de palabras",
+      "description": "longitud de una prueba de palabras"
+    },
     "mode": {
       "label": "modo",
       "description": "claro, oscuro o seguir el sistema",
-      "option": {"system": "seguir el sistema", "light": "claro", "dark": "oscuro"}
+      "option": {
+        "system": "seguir el sistema",
+        "light": "claro",
+        "dark": "oscuro"
+      }
     },
     "themeLight": {
       "label": "tema claro",
       "description": "colores al usar el modo claro",
-      "option": {"paper": "papel", "eink": "tinta electrónica", "cream": "crema", "rose": "rosa", "harbour": "puerto", "contrast": "alto contraste"}
+      "option": {
+        "paper": "papel",
+        "eink": "tinta electrónica",
+        "cream": "crema",
+        "rose": "rosa",
+        "harbour": "puerto",
+        "contrast": "alto contraste"
+      }
     },
     "themeDark": {
       "label": "tema oscuro",
       "description": "colores al usar el modo oscuro",
-      "option": {"ink": "tinta", "dusk": "atardecer", "eink-night": "noche de tinta electrónica", "forest": "bosque", "plum": "ciruela", "slate": "pizarra", "terminal": "terminal", "contrast-night": "noche de alto contraste"}
+      "option": {
+        "ink": "tinta",
+        "dusk": "atardecer",
+        "eink-night": "noche de tinta electrónica",
+        "forest": "bosque",
+        "plum": "ciruela",
+        "slate": "pizarra",
+        "terminal": "terminal",
+        "contrast-night": "noche de alto contraste"
+      }
     },
     "theme": {
       "label": "tema",
@@ -118,31 +213,65 @@
         "contrast-night": "noche de alto contraste"
       }
     },
-    "customThemes": {"label": "tus temas"},
-    "typingFontSize": {"label": "tamaño del texto de escritura", "description": "tamaño del texto que escribes"},
-    "typingFont": {"label": "fuente de escritura"},
+    "customThemes": {
+      "label": "tus temas"
+    },
+    "typingFontSize": {
+      "label": "tamaño del texto de escritura",
+      "description": "tamaño del texto que escribes"
+    },
+    "typingFont": {
+      "label": "fuente de escritura"
+    },
     "typingFontWeight": {
       "label": "peso de la fuente de escritura",
       "description": "qué grosor tiene el texto de escritura",
-      "option": {"300": "300", "400": "400", "500": "500", "600": "600", "700": "700"}
+      "option": {
+        "300": "300",
+        "400": "400",
+        "500": "500",
+        "600": "600",
+        "700": "700"
+      }
     },
-    "typingLineHeight": {"label": "altura de línea de escritura", "description": "espacio entre líneas de escritura"},
-    "typingLetterSpacing": {"label": "espaciado entre letras de escritura", "description": "espacio entre letras"},
+    "typingLineHeight": {
+      "label": "altura de línea de escritura",
+      "description": "espacio entre líneas de escritura"
+    },
+    "typingLetterSpacing": {
+      "label": "espaciado entre letras de escritura",
+      "description": "espacio entre letras"
+    },
     "caret": {
       "label": "estilo del cursor",
       "description": "forma del cursor",
-      "option": {"line": "línea", "block": "bloque", "underline": "subrayado"}
+      "option": {
+        "line": "línea",
+        "block": "bloque",
+        "underline": "subrayado"
+      }
     },
     "linesAhead": {
       "label": "líneas visibles",
       "description": "cuántas líneas son visibles",
-      "option": {"1": "1", "2": "2", "3": "3", "4": "4"}
+      "option": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
     },
-    "showLiveStats": {"label": "p. p. m. y precisión en directo", "description": "p. p. m. y precisión mientras escribes"},
+    "showLiveStats": {
+      "label": "p. p. m. y precisión en directo",
+      "description": "p. p. m. y precisión mientras escribes"
+    },
     "errorDisplay": {
       "label": "mostrar errores como",
       "description": "qué muestra una letra incorrecta",
-      "option": {"expected": "letra esperada", "typed": "letra escrita"}
+      "option": {
+        "expected": "letra esperada",
+        "typed": "letra escrita"
+      }
     },
     "keyboardLayout": {
       "label": "distribución del teclado",
@@ -160,18 +289,31 @@
     "inputMethod": {
       "label": "escribo con",
       "description": "una máquina de estenotipia envía palabras completas de una vez, así que Kalibre solo anota errores de palabra completa y deja aparte las lecciones de mecanografía",
-      "option": {"keyboard": "un teclado", "steno": "una máquina de estenotipia"}
+      "option": {
+        "keyboard": "un teclado",
+        "steno": "una máquina de estenotipia"
+      }
     },
-    "capitals": {"label": "mayúsculas en palabras comunes", "description": "las citas y tus textos conservan siempre las suyas"},
+    "capitals": {
+      "label": "mayúsculas en palabras comunes",
+      "description": "las citas y tus textos conservan siempre las suyas"
+    },
     "wordList": {
       "label": "lista de palabras",
       "description": "cuántas palabras comunes usar",
-      "option": {"200": "200 palabras comunes", "1000": "1 mil palabras comunes", "5000": "5 mil palabras comunes"}
+      "option": {
+        "200": "200 palabras comunes",
+        "1000": "1 mil palabras comunes",
+        "5000": "5 mil palabras comunes"
+      }
     },
     "customSampling": {
       "label": "textos personalizados",
       "description": "texto completo o un pasaje",
-      "option": {"passage": "pasaje aleatorio", "entire": "texto completo"}
+      "option": {
+        "passage": "pasaje aleatorio",
+        "entire": "texto completo"
+      }
     },
     "customQuoteLength": {
       "label": "longitud del pasaje",
@@ -197,26 +339,54 @@
     "mixedCategories": {
       "label": "longitudes de citas mixtas",
       "description": "longitudes de cita que usan las pruebas mixtas",
-      "option": {"short": "cortas", "medium": "medias", "long": "largas", "huge": "enormes", "massive": "gigantes"}
+      "option": {
+        "short": "cortas",
+        "medium": "medias",
+        "long": "largas",
+        "huge": "enormes",
+        "massive": "gigantes"
+      }
     },
-    "goalXp": {"label": "XP al día", "description": "objetivo diario de XP por escritura (no bonus); un minuto de escritura limpia da unos 8–15"},
+    "goalXp": {
+      "label": "XP al día",
+      "description": "objetivo diario de XP por escritura (no bonus); un minuto de escritura limpia da unos 8–15"
+    },
     "companion": {
       "label": "compañero de lección",
       "description": "se elige al configurar el perfil y el perfil lo conserva",
-      "option": {"cal": "Cal", "libby": "Libby"}
+      "option": {
+        "cal": "Cal",
+        "libby": "Libby"
+      }
     },
     "mascotChatter": {
       "label": "lo que dice {companion}",
       "description": "cuánto habla {companion}",
-      "option": {"chatty": "hablador", "quiet": "solo lo importante"}
+      "option": {
+        "chatty": "hablador",
+        "quiet": "solo lo importante"
+      }
     },
-    "mascotSounds": {"label": "sonidos de {companion}", "description": "pequeños gorjeos en las lecciones (nunca a mitad de palabra), un ronroneo al acariciarlo y una risita al hacerle cosquillas"},
-    "mascotVolume": {"label": "volumen de {companion}", "description": "lo alto que suena {companion}"},
-    "uiFontSize": {"label": "tamaño del texto de la interfaz", "description": "tamaño del texto de la interfaz"},
+    "mascotSounds": {
+      "label": "sonidos de {companion}",
+      "description": "pequeños gorjeos en las lecciones (nunca a mitad de palabra), un ronroneo al acariciarlo y una risita al hacerle cosquillas"
+    },
+    "mascotVolume": {
+      "label": "volumen de {companion}",
+      "description": "lo alto que suena {companion}"
+    },
+    "uiFontSize": {
+      "label": "tamaño del texto de la interfaz",
+      "description": "tamaño del texto de la interfaz"
+    },
     "reduceMotion": {
       "label": "reducir movimiento",
       "description": "menos animaciones",
-      "option": {"system": "seguir el sistema", "on": "activado", "off": "desactivado"}
+      "option": {
+        "system": "seguir el sistema",
+        "on": "activado",
+        "off": "desactivado"
+      }
     },
     "colourVision": {
       "label": "visión del color",
@@ -231,18 +401,32 @@
     "uiFont": {
       "label": "fuente de la interfaz",
       "description": "fuente para menús y texto fuera del área de escritura",
-      "option": {"system": "predeterminada del sistema", "atkinson": "Atkinson Hyperlegible", "opendyslexic": "OpenDyslexic"}
+      "option": {
+        "system": "predeterminada del sistema",
+        "atkinson": "Atkinson Hyperlegible",
+        "opendyslexic": "OpenDyslexic"
+      }
     },
-    "boldText": {"label": "texto en negrita", "description": "texto más grueso en toda la interfaz"},
+    "boldText": {
+      "label": "texto en negrita",
+      "description": "texto más grueso en toda la interfaz"
+    },
     "textSpacing": {
       "label": "espaciado del texto",
       "description": "más espacio entre letras y palabras",
-      "option": {"normal": "normal", "wide": "amplio"}
+      "option": {
+        "normal": "normal",
+        "wide": "amplio"
+      }
     },
     "contrast": {
       "label": "contraste",
       "description": "hacer el texto y los bordes más distinguibles",
-      "option": {"system": "seguir el sistema", "normal": "normal", "more": "más"}
+      "option": {
+        "system": "seguir el sistema",
+        "normal": "normal",
+        "more": "más"
+      }
     },
     "pageWidth": {
       "label": "anchura de la página",
@@ -287,52 +471,144 @@
         "manual": "solo cuando lo pida"
       }
     },
-    "enabledDatasets": {"label": "conjuntos de datos activados"},
-    "libraries": {"label": "bibliotecas de conjuntos de datos"},
-    "wordFilter": {"label": "filtrar palabras ofensivas"},
-    "blockedWords": {"label": "palabras propias que filtrar"},
-    "companionLook": {"label": "apariencia de {companion}"},
-    "stenoNoteShown": {"label": "aviso de estenotipia mostrado"},
-    "lastVisitDay": {"label": "última visita"},
-    "calSeen": {"label": "objetos de {companion} vistos"},
-    "calPets": {"label": "veces que se ha acariciado a {companion}"},
-    "calPokes": {"label": "veces que se ha dado un toque a {companion}"},
-    "calTickles": {"label": "veces que se le han hecho cosquillas a {companion}"},
-    "calPokeFits": {"label": "veces que se ha dado demasiados toques a {companion}"},
-    "raceNoticeSeen": {"label": "aviso de carreras visto"},
-    "lastSeenVersion": {"label": "última versión vista"},
-    "updateTold": {"label": "actualización mencionada"},
-    "calArmLifts": {"label": "veces que se ha levantado el brazo de {companion}"},
-    "restartRun": {"label": "último inicio"},
-    "calRestartBest": {"label": "más reinicios rápidos seguidos"},
-    "achievementsSeen": {"label": "logros vistos"},
-    "achievementsVersionSeen": {"label": "versión de logros vista"},
-    "themeDecorations": {"label": "decoraciones de tema"},
-    "profileCard": {"label": "tarjeta de perfil"},
-    "cardItemsSeen": {"label": "objetos de tarjeta de perfil vistos"},
-    "raceCardNoticeSeen": {"label": "aviso de tarjeta de carreras visto"},
-    "car": {"label": "coche de carreras"},
-    "carPartsSeen": {"label": "piezas de coche de carreras vistas"},
-    "raceConfig": {"label": "opciones de carrera"},
-    "raceModesNoticeSeen": {"label": "aviso de modos de carrera visto"},
-    "decorationsSeen": {"label": "decoraciones de tema vistas"},
-    "achievementsComplete": {"label": "todos los logros"},
-    "engagement": {"label": "interacción"},
-    "partnerLook": {"label": "apariencia de la pareja"},
-    "lessonConfig": {"label": "configuración de la lección"},
-    "lessonPrep": {"label": "pasos y calentamientos de la lección"},
-    "gameConfigs": {"label": "configuraciones de juego"},
-    "lastConfig": {"label": "última configuración de prueba"},
-    "numpad": {"label": "tengo un teclado numérico", "description": "para practicar con el teclado numérico y avisar si el bloqueo numérico está desactivado"},
-    "numpadSeen": {"label": "teclado numérico visto"},
-    "numpadTold": {"label": "práctica de teclado numérico mencionada"},
-    "numpadOffered": {"label": "práctica de teclado numérico ofrecida"},
-    "sumsConfig": {"label": "configuración de sumas"},
-    "numpadConfig": {"label": "configuración de prueba de diez teclas"}
+    "enabledDatasets": {
+      "label": "conjuntos de datos activados"
+    },
+    "libraries": {
+      "label": "bibliotecas de conjuntos de datos"
+    },
+    "wordFilter": {
+      "label": "filtrar palabras ofensivas"
+    },
+    "blockedWords": {
+      "label": "palabras propias que filtrar"
+    },
+    "companionLook": {
+      "label": "apariencia de {companion}"
+    },
+    "stenoNoteShown": {
+      "label": "aviso de estenotipia mostrado"
+    },
+    "lastVisitDay": {
+      "label": "última visita"
+    },
+    "calSeen": {
+      "label": "objetos de {companion} vistos"
+    },
+    "calPets": {
+      "label": "veces que se ha acariciado a {companion}"
+    },
+    "calPokes": {
+      "label": "veces que se ha dado un toque a {companion}"
+    },
+    "calTickles": {
+      "label": "veces que se le han hecho cosquillas a {companion}"
+    },
+    "calPokeFits": {
+      "label": "veces que se ha dado demasiados toques a {companion}"
+    },
+    "raceNoticeSeen": {
+      "label": "aviso de carreras visto"
+    },
+    "lastSeenVersion": {
+      "label": "última versión vista"
+    },
+    "updateTold": {
+      "label": "actualización mencionada"
+    },
+    "calArmLifts": {
+      "label": "veces que se ha levantado el brazo de {companion}"
+    },
+    "restartRun": {
+      "label": "último inicio"
+    },
+    "calRestartBest": {
+      "label": "más reinicios rápidos seguidos"
+    },
+    "achievementsSeen": {
+      "label": "logros vistos"
+    },
+    "achievementsVersionSeen": {
+      "label": "versión de logros vista"
+    },
+    "themeDecorations": {
+      "label": "decoraciones de tema"
+    },
+    "profileCard": {
+      "label": "tarjeta de perfil"
+    },
+    "cardItemsSeen": {
+      "label": "objetos de tarjeta de perfil vistos"
+    },
+    "raceCardNoticeSeen": {
+      "label": "aviso de tarjeta de carreras visto"
+    },
+    "car": {
+      "label": "coche de carreras"
+    },
+    "carPartsSeen": {
+      "label": "piezas de coche de carreras vistas"
+    },
+    "raceConfig": {
+      "label": "opciones de carrera"
+    },
+    "raceModesNoticeSeen": {
+      "label": "aviso de modos de carrera visto"
+    },
+    "decorationsSeen": {
+      "label": "decoraciones de tema vistas"
+    },
+    "achievementsComplete": {
+      "label": "todos los logros"
+    },
+    "engagement": {
+      "label": "interacción"
+    },
+    "partnerLook": {
+      "label": "apariencia de la pareja"
+    },
+    "lessonConfig": {
+      "label": "configuración de la lección"
+    },
+    "lessonPrep": {
+      "label": "pasos y calentamientos de la lección"
+    },
+    "gameConfigs": {
+      "label": "configuraciones de juego"
+    },
+    "lastConfig": {
+      "label": "última configuración de prueba"
+    },
+    "numpad": {
+      "label": "tengo un teclado numérico",
+      "description": "para practicar con el teclado numérico y avisar si el bloqueo numérico está desactivado"
+    },
+    "numpadSeen": {
+      "label": "teclado numérico visto"
+    },
+    "numpadTold": {
+      "label": "práctica de teclado numérico mencionada"
+    },
+    "numpadOffered": {
+      "label": "práctica de teclado numérico ofrecida"
+    },
+    "sumsConfig": {
+      "label": "configuración de sumas"
+    },
+    "numpadConfig": {
+      "label": "configuración de prueba de diez teclas"
+    }
   },
-  "actions": {"export": "exportar ajustes", "import": "importar ajustes"},
-  "tip": {"esc_change": "esc: cambia cualquier ajuste escribiendo"},
-  "notice": {"imported_count": "se han importado {count} ajuste(s)"},
+  "actions": {
+    "export": "exportar ajustes",
+    "import": "importar ajustes"
+  },
+  "tip": {
+    "esc_change": "esc: cambia cualquier ajuste escribiendo"
+  },
+  "notice": {
+    "imported_count": "se han importado {count} ajuste(s)"
+  },
   "data_panel": {
     "done_the_browser_will_keep": "Listo: el navegador conservará tus datos.",
     "the_browser_said_no_for": "El navegador ha dicho que no por ahora. Instalar kalibre como aplicación o añadirlo a marcadores suele cambiarlo; mientras tanto, guarda una copia de seguridad.",
@@ -381,7 +657,7 @@
   "settings": {
     "github": "github",
     "translation_note": "esta traducción no ha sido escrita ni revisada por un hablante nativo, así que alguna parte puede sonar rara. puedes ayudar a mejorarla en {link}.",
-    "imported": "importados {count, plural, one {# ajuste} other {# ajustes}}",
+    "imported": "importados {count, plural, one {# ajuste} many {# ajustes} other {# ajustes}}",
     "skipped": " · omitido {what}",
     "sections_label": "secciones de ajustes"
   },
@@ -405,7 +681,12 @@
     "that_file_isn_t_a": "Ese archivo no es un tema.",
     "saved": "guardado «{name}»",
     "saved_decorate": ". Decóralo desde la lista cuando quieras.",
-    "groups": {"page": "página", "text": "texto", "typing": "escritura", "charts": "gráficos"},
+    "groups": {
+      "page": "página",
+      "text": "texto",
+      "typing": "escritura",
+      "charts": "gráficos"
+    },
     "tokens": {
       "bg": "fondo",
       "surface": "paneles",

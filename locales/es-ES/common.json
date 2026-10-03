@@ -15,27 +15,32 @@
     "no": "no",
     "saving": "guardando…"
   },
-  "hand": {"left": "izquierda", "right": "derecha"},
+  "hand": {
+    "left": "izquierda",
+    "right": "derecha"
+  },
   "plural": {
-    "test": "{count, plural, one {# prueba} other {# pruebas}}",
-    "minute": "{count, plural, one {# minuto} other {# minutos}}",
-    "hour": "{count, plural, one {# hora} other {# horas}}",
-    "word": "{count, plural, one {# palabra} other {# palabras}}",
-    "lesson": "{count, plural, one {# lección} other {# lecciones}}",
-    "lesson_step": "{count, plural, one {# paso de la lección} other {# pasos de la lección}}",
-    "warmup": "{count, plural, one {# calentamiento} other {# calentamientos}}",
-    "drill": "{count, plural, one {# ejercicio} other {# ejercicios}}",
-    "time": "{count, plural, one {# vez} other {# veces}}",
-    "quote": "{count, plural, one {# cita} other {# citas}}",
-    "book_reading": "{count, plural, one {# lectura de libro} other {# lecturas de libros}}",
-    "sustained_test": "{count, plural, one {# prueba sostenida} other {# pruebas sostenidas}}"
+    "test": "{count, plural, one {# prueba} many {# pruebas} other {# pruebas}}",
+    "minute": "{count, plural, one {# minuto} many {# minutos} other {# minutos}}",
+    "hour": "{count, plural, one {# hora} many {# horas} other {# horas}}",
+    "word": "{count, plural, one {# palabra} many {# palabras} other {# palabras}}",
+    "lesson": "{count, plural, one {# lección} many {# lecciones} other {# lecciones}}",
+    "lesson_step": "{count, plural, one {# paso de la lección} many {# pasos de la lección} other {# pasos de la lección}}",
+    "warmup": "{count, plural, one {# calentamiento} many {# calentamientos} other {# calentamientos}}",
+    "drill": "{count, plural, one {# ejercicio} many {# ejercicios} other {# ejercicios}}",
+    "time": "{count, plural, one {# vez} many {# veces} other {# veces}}",
+    "quote": "{count, plural, one {# cita} many {# citas} other {# citas}}",
+    "book_reading": "{count, plural, one {# lectura de libro} many {# lecturas de libros} other {# lecturas de libros}}",
+    "sustained_test": "{count, plural, one {# prueba sostenida} many {# pruebas sostenidas} other {# pruebas sostenidas}}"
   },
   "modal": {
     "language_reload_title": "¿cambiar de idioma?",
     "language_reload_body": "kalibre se recarga para cambiar de idioma. guarda antes lo que estés haciendo: una prueba en curso, un texto que estés escribiendo o cambios de tema que no se hayan guardado se perderán.",
     "close_named": "cerrar {title}"
   },
-  "translation": {"not_checked_yet": "(todavía no revisado por un hablante nativo)"},
+  "translation": {
+    "not_checked_yet": "(todavía no revisado por un hablante nativo)"
+  },
   "colour_picker": {
     "saturation_and_brightness": "saturación y brillo",
     "hue": "tono",
@@ -56,8 +61,12 @@
     "mode_light": "claro",
     "mode_dark": "oscuro"
   },
-  "color_utils": {"not_a_hex_colour": "No es un color hexadecimal: {hex}"},
-  "customtextprovider": {"choose_a_saved_text_to": "Elige un texto guardado para practicar (textos → mis textos)."},
+  "color_utils": {
+    "not_a_hex_colour": "No es un color hexadecimal: {hex}"
+  },
+  "customtextprovider": {
+    "choose_a_saved_text_to": "Elige un texto guardado para practicar (textos → mis textos)."
+  },
   "bookprovider": {
     "add_a_text_to_read": "Añade un texto para leer (textos → mis textos).",
     "no_books_to_read_enable": "No hay libros para leer. Activa un conjunto de libros en textos → conjuntos de datos."
@@ -85,7 +94,9 @@
     "is_larger_than_8_mb": "{name} ocupa más de 8 MB.",
     "couldn_t_be_read_as": "No se ha podido leer {name} como fuente."
   },
-  "mistakebank": {"unknown_mistake": "Error desconocido {id}"},
+  "mistakebank": {
+    "unknown_mistake": "Error desconocido {id}"
+  },
   "profilemanager": {
     "the_profile_file_is_damaged": "El archivo de perfil está dañado (pulsaciones).",
     "a_guest_can_t_have": "Un invitado no puede tener contraseña.",
@@ -105,12 +116,16 @@
     "the_profile_file_is_damaged_2": "El archivo de perfil está dañado ({store}).",
     "the_profile_file_has_an": "El archivo de perfil tiene un bloqueo de contraseña no válido."
   },
-  "quoteprovider": {"no_quotes_are_available_enable": "No hay citas de {category} disponibles. Activa un conjunto de datos en textos → conjuntos de datos."},
+  "quoteprovider": {
+    "no_quotes_are_available_enable": "No hay citas de {category} disponibles. Activa un conjunto de datos en textos → conjuntos de datos."
+  },
   "raceprovider": {
     "the_race_has_no_text": "La carrera todavía no tiene texto.",
     "the_race_has_no_passage": "La carrera todavía no tiene pasaje."
   },
-  "sessionmanager": {"sustained_mode_needs_a_source": "El modo sostenido necesita una fuente que continúe."},
+  "sessionmanager": {
+    "sustained_mode_needs_a_source": "El modo sostenido necesita una fuente que continúe."
+  },
   "storagemanager": {
     "records_in_must_have_a": "Los registros de «{storeName}» deben tener un profileId",
     "is_profile_scoped_use_getallforprofile": "«{storeName}» pertenece a un perfil; usa getAllForProfile()",
@@ -123,20 +138,28 @@
     "the_text_is_empty": "El texto está vacío.",
     "that_text_no_longer_exists": "Ese texto ya no existe."
   },
-  "wordstreamprovider": {"no_word_list_is_available": "No hay ninguna lista de palabras disponible. Activa un conjunto de datos en textos → conjuntos de datos."},
-  "storage_snapshots": {"the_snapshot_could_not_be": "No se ha podido guardar la instantánea."},
+  "wordstreamprovider": {
+    "no_word_list_is_available": "No hay ninguna lista de palabras disponible. Activa un conjunto de datos en textos → conjuntos de datos."
+  },
+  "storage_snapshots": {
+    "the_snapshot_could_not_be": "No se ha podido guardar la instantánea."
+  },
   "counts": {
-    "quote": "{count, plural, one {# cita} other {# citas}}",
-    "text": "{count, plural, one {# texto} other {# textos}}",
-    "passage": "{count, plural, one {# pasaje} other {# pasajes}}",
-    "dataset": "{count, plural, one {# conjunto de datos} other {# conjuntos de datos}}",
-    "word": "{count, plural, one {# palabra} other {# palabras}}",
-    "paragraph": "{count, plural, one {# párrafo} other {# párrafos}}",
-    "profile": "{count, plural, one {# perfil} other {# perfiles}}",
-    "font": "{count, plural, one {# fuente} other {# fuentes}}"
+    "quote": "{count, plural, one {# cita} many {# citas} other {# citas}}",
+    "text": "{count, plural, one {# texto} many {# textos} other {# textos}}",
+    "passage": "{count, plural, one {# pasaje} many {# pasajes} other {# pasajes}}",
+    "dataset": "{count, plural, one {# conjunto de datos} many {# conjuntos de datos} other {# conjuntos de datos}}",
+    "word": "{count, plural, one {# palabra} many {# palabras} other {# palabras}}",
+    "paragraph": "{count, plural, one {# párrafo} many {# párrafos} other {# párrafos}}",
+    "profile": "{count, plural, one {# perfil} many {# perfiles} other {# perfiles}}",
+    "font": "{count, plural, one {# fuente} many {# fuentes} other {# fuentes}}"
   },
   "progress_of": "{have} / {need}",
-  "difficulty": {"easy": "fácil", "normal": "normal", "hard": "difícil"},
+  "difficulty": {
+    "easy": "fácil",
+    "normal": "normal",
+    "hard": "difícil"
+  },
   "keycaps": {
     "space": "espacio",
     "enter": "intro",
