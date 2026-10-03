@@ -3141,6 +3141,10 @@
         "finish_a_word_to_load": "finish a word to load it",
         "bomb_ready_shift_enter": "bomb ready · shift+enter",
         "bomb": "bomb {floor}%",
+        "accumulator_charge": "capacitor charge",
+        "accumulator": "capacitor {floor}%",
+        "accumulator_ready_alt_enter": "capacitor ready ({charge}%) · alt+enter",
+        "accumulator_overload_alt_enter": "capacitor overload! · alt+enter",
         "ship": "ship {round}",
         "score": "score {round}",
         "destroyed": "destroyed {value}",
@@ -3869,10 +3873,12 @@
                 "summary": "load the magazine, intercept missiles and fighters, and use the bomb to clear the field.",
                 "highlights": [
                   "missiles carry a letter — type it with nothing typed to shoot them down",
-                  "shift+enter detonates the bomb when charged"
+                  "shift+enter detonates the bomb when charged",
+                  "alt+enter fires the piercing capacitor beam when charged"
                 ],
                 "details": [
                   "loading words charges the bomb meter. when full, shift+enter clears all missiles and damages every enemy.",
+                  "high-quality loaded words charge the capacitor. alt+enter discharges a vertical piercing laser; overload at 100% shatters shielded ships.",
                   "space stations launch fighters that chase you. type a fighter’s letter to shoot it down.",
                   "landmines burst into shrapnel when shot, which hits everything nearby, including you.",
                   "shielded ships only take hits from words that meet their requirement."
@@ -3890,6 +3896,10 @@
                   "bomb": {
                     "label": "bomb",
                     "summary": "charges as you load words. shift+enter detonates, clearing missiles and damaging enemies."
+                  },
+                  "accumulator": {
+                    "label": "capacitor beam",
+                    "summary": "charges from clean and high-quality loaded words. alt+enter fires a piercing column beam; 100% overload pierces shields and vaporises missiles."
                   },
                   "fighters": {
                     "label": "fighters",
@@ -3911,11 +3921,17 @@
                 "controls": {
                   "i0": {
                     "action": "detonate the bomb"
+                  },
+                  "i1": {
+                    "action": "discharge capacitor beam"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "bomb shockwave"
+                  },
+                  "i1": {
+                    "label": "capacitor beam"
                   }
                 },
                 "visuals": {
@@ -3924,6 +3940,9 @@
                   },
                   "bomb-shockwave": {
                     "label": "bomb shockwave"
+                  },
+                  "capacitor-beam": {
+                    "label": "piercing capacitor beam"
                   },
                   "orbital-station": {
                     "label": "orbital station"
@@ -4295,6 +4314,8 @@
           "repaired": "{word} · repaired {healed}",
           "bomb": "bomb!",
           "bomb_not_ready": "the bomb isn’t charged yet",
+          "accumulator": "laser beam discharge!",
+          "accumulator_not_ready": "the capacitor needs at least 25% charge",
           "gatling": "rapid fire · {word}",
           "shield_absorb": "shield absorbed {source} hit!"
         },

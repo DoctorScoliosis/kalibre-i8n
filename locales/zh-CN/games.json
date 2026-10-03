@@ -141,7 +141,7 @@
     "play_again": "再玩一次",
     "change_setup": "更改设置",
     "added_training": "已添加到训练",
-    "mistakes_noted": "{count, plural, one { · 记录了 1 个错误} other { · 记录了 # 个错误}}",
+    "mistakes_noted": "{count, plural, other { · 记录了 # 个错误}}",
     "results_summary": "{time} · {words} 词 · {wpm} WPM · {accuracy} · 错打 {mistypes} · 修正 {corrections}",
     "daily_goal_title": "游戏将其打字时间计入目标，不包括阅读、瞄准或思考的时间",
     "key_mashing_note": "这次练习看起来像是在乱按键盘（{reason}），因此其错误和经验值未被计入。",
@@ -162,7 +162,7 @@
     "table_status": "餐桌 {count}/{cap}",
     "yard_empty": "输入单词制造砖块",
     "calm_wave": "平静期：储备砖块 · {seconds}秒后迎来第 {wave} 波，共 {of} 波",
-    "active_wave": "第 {wave} 波，共 {of} 波 · {count, plural, one {1 个攻击者} other {# 个攻击者}}{holding, select, true { · 坚守中} other { · 未坚守}}",
+    "active_wave": "第 {wave} 波，共 {of} 波 · {count, plural, other {# 个攻击者}}{holding, select, true { · 坚守中} other { · 未坚守}}",
     "castle_integrity": "城堡 {percent}%",
     "time_bank": "时间库",
     "next_passage": "下一段落 ",
@@ -223,7 +223,7 @@
     "include_my_card": "包含我的卡片",
     "your_text_goes_in_the": "你的文本将放入文件中。",
     "share": "分享",
-    "save": "{count, plural, one {保存幽灵} other {保存 # 个幽灵}}"
+    "save": "{count, plural, other {保存 # 个幽灵}}"
   },
   "powerup_tray": {
     "shift": "{label}：{help}（Shift+{value}）",
