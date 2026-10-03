@@ -1,0 +1,53 @@
+{
+  "formats": {
+    "time": "Uhrzeit",
+    "words": "Wörter",
+    "quote": "Zitat"
+  },
+  "actions": {
+    "start_drill": "Startbohrer",
+    "drill": "Bohrloch",
+    "drill_aria": "Bohrloch{mistake}Jetzt",
+    "drill_title": "Bohren nur{mistake}Jetzt der empfohlene Weg",
+    "manage_in_mistakes": "Umgang mit Fehlern",
+    "recommended": "Empfohlen",
+    "recommended_title": "Tick die Fehler, die es wert sind, jetzt zu bohren, so viele wie ein Bohrer tragen kann",
+    "all": "Alle",
+    "none": "Nicht",
+    "train_and_drill_these": "Train und bohren diese"
+  },
+  "labels": {
+    "how": "Wie",
+    "what_to_drill": "Was zu bohren",
+    "drill_format": "Bohrerformat",
+    "drill_length": "Bohrerlänge",
+    "quote_length": "Anführungslänge",
+    "practise_by_area": "Praxis nach Gebiet",
+    "words_count": "{count, plural, one {# Wort} other {# Worte}}",
+    "ticked_count": "{selected}Von{total}Angekreuzt",
+    "in_training": "In der Ausbildung",
+    "ready_to_drill": "Bohrfertig",
+    "improving": "Verbesserung",
+    "finding_quotes": "Zitate mit diesen Fehlern finden ...",
+    "no_quotes_found": "Kein Zitat dieser Länge hat diese Fehler in sich. Versuchen Sie eine andere Länge oder ein Wort bohren.",
+    "quotes_with_mistakes": "Zitate mit diesen Fehlern",
+    "best_fit": "Am besten passend",
+    "typed_lately": "Zuletzt getippt",
+    "recommended_reason": "{recommended}Wird empfohlen:{reason}",
+    "ready": "Bereit",
+    "due_title": "Kam wieder auf seit seinem letzten Bohrer",
+    "not_due_title": "Keine neuen Ausrutscher seit dem letzten Bohrer",
+    "rate_title": "Wie oft geht es beim Tippen schief",
+    "last_seen_title": "Zuletzt gesehen",
+    "usual": "Üblich",
+    "seen_not_trained": "Gesehen, noch nicht trainiert",
+    "empty_nothing_in_training": "Noch nichts im Training. Tippen Sie weiter: Kalibre schlägt Fehler vor, die immer wieder kommen.",
+    "empty_seen_not_trained": "Noch nichts im Training. Diese sind aufgetaucht, sind aber noch nicht ausgebildet: Zeichne die an, an denen du arbeiten musst."
+  },
+  "status": {
+    "training": "Ausbildung",
+    "improving": "Verbesserung",
+    "suggested": "Suggeriert",
+    "watching": "Beobachten"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "achievements": {
+    "hello_there": "Hallo hier",
+    "good_keycap": "Gute Keycap",
+    "best_friends": "Beste Freunde",
+    "boop": "Bock",
+    "poke_poke_poke": "Poke, Poke, Poke",
+    "ticklish": "Zecken",
+    "giggle_fit": "Kichern",
+    "thats_enough": "Das ist genug",
+    "devoted": "Gewidmet"
+  },
+  "menu": {
+    "wardrobe": "Kleiderschrank",
+    "get_ring": "Erhalten{companion, select, cal {Er} libby {Und} other {Sie}}Ein Ring",
+    "options_aria": "{companion}Optionen"
+  },
+  "engagement": {
+    "title": "Das ist eine ziemlich wichtige Entscheidung...",
+    "confirm_give": "Geben{companion}Der Ring",
+    "confirm_cancel": "Ich bin mir nicht sicher...",
+    "confirm_message": "Sind Sie sicher?"
+  },
+  "away": {
+    "note_hint": "Ein Vermerk",
+    "with_love_aria": "Mit Liebe",
+    "back_tomorrow": "{partner}Und ich bin in Flitterwochen! Morgen zurück."
+  },
+  "ending": {
+    "aria_label": "Danke für das Spielen von Kalibre",
+    "thanks": "Danke, dass Sie Kalibre spielen.",
+    "cal_script": [
+      {
+        "say": "Vorschlagender",
+        "mood": "Wackelig",
+        "text": "Huh? Da ist etwas auf meiner Pfote."
+      },
+      {
+        "reply": "Es ist ein Ring."
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Wackelig",
+        "text": "Ein Ring? Es ist so glänzend. Aber ... wofür ist das?"
+      },
+      {
+        "reply": "Es ist für jemanden, den du liebst."
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Beobachten",
+        "text": "Jemand, den ich... oh. OH. Ich weiß genau, wer."
+      },
+      {
+        "reply": "Ruf{partner}"
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Glücklich",
+        "text": "{partner}Könntest du eine Sekunde hierher kommen?"
+      },
+      {
+        "cue": "PartnerEinsteiger"
+      },
+      {
+        "say": "Partner",
+        "mood": "Leerlauf",
+        "text": "Sie haben angerufen? Ihr seid alle fidgety. Was ist das?"
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Wackelig",
+        "text": "Es ist ein Ring. Für dich. Ich meine, wenn Sie es wollen. Haben Sie das?"
+      },
+      {
+        "say": "Partner",
+        "mood": "Glücklich",
+        "text": "Oh,{proposer}. Natürlich tue ich das."
+      },
+      {
+        "cue": "PartnerRing"
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Glücklich",
+        "text": "Es passt! Es kommt darauf an!"
+      },
+      {
+        "say": "Partner",
+        "mood": "Glücklich",
+        "text": "Zwei Schlüssel, Seite an Seite. Wie immer."
+      },
+      {
+        "cue": "Herz"
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Glücklich",
+        "text": "Sollen wir gehen?"
+      },
+      {
+        "say": "Partner",
+        "mood": "Glücklich",
+        "text": "Lasst uns."
+      },
+      {
+        "cue": "Walkout"
+      }
+    ],
+    "libby_script": [
+      {
+        "say": "Vorschlagender",
+        "mood": "Wackelig",
+        "text": "Oh. Da ist etwas auf meiner Pfote."
+      },
+      {
+        "reply": "Es ist ein Ring."
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Wackelig",
+        "text": "Ein Ring. Es ist schön ... aber es ist nicht wirklich meins, oder?"
+      },
+      {
+        "reply": "Es ist für jemand Besonderes."
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Beobachten",
+        "text": "Jemand Besonderes. Mm. Ich glaube, ich weiß wer."
+      },
+      {
+        "reply": "Ruf{partner}"
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Glücklich",
+        "text": "{partner}Würden Sie für einen Moment hierher kommen?"
+      },
+      {
+        "cue": "PartnerEinsteiger"
+      },
+      {
+        "say": "Partner",
+        "mood": "Leerlauf",
+        "text": "Ich bin hier! Was ist los? Ooh, was ist das? Es ist glänzend!"
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Glücklich",
+        "text": "Es ist ein Ring,{partner}Es ist für dich."
+      },
+      {
+        "say": "Partner",
+        "mood": "Glücklich",
+        "text": "Für mich? Ja! Ja, ja!"
+      },
+      {
+        "cue": "PartnerRing"
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Glücklich",
+        "text": "Halten Sie also still."
+      },
+      {
+        "say": "Partner",
+        "mood": "Glücklich",
+        "text": "Ich halte! Meistens."
+      },
+      {
+        "cue": "Herz"
+      },
+      {
+        "say": "Partner",
+        "mood": "Glücklich",
+        "text": "Wohin jetzt?"
+      },
+      {
+        "say": "Vorschlagender",
+        "mood": "Glücklich",
+        "text": "Irgendwo schön."
+      },
+      {
+        "cue": "Walkout"
+      }
+    ],
+    "cal_letter": [
+      "Lieber Du,",
+      "{partner}Und ich bin für eine Weile weg. Es sind unsere Flitterwochen! Ich kann immer noch nicht glauben, dass ich das sagen kann.",
+      "Die Schlüssel gehören Ihnen bis morgen. Unterricht funktioniert immer noch, du wirst mich einfach nicht jubeln lassen. Also jubeln Sie für sich selbst, okay? lautstark.",
+      "Zurück, bevor du es weißt. Wahrscheinlich mit Sand in unseren Keycaps.",
+      "{proposer} & {partner}"
+    ],
+    "libby_letter": [
+      "Lieber Du,",
+      "{partner}Und ich bin für einen Tag weg. Flitterwochen, anscheinend. Er hat seit dem Ring nicht aufgehört.",
+      "Die Lektionen sind offen, während wir weg sind. Gehen Sie sanft, machen Sie Pausen und halten Sie Ihre Finger in der Hausreihe. Es wird dich richtig sehen.",
+      "Morgen zurück. Ich bringe ihn in einem Stück nach Hause.",
+      "{proposer} & {partner}"
+    ]
+  }
+}

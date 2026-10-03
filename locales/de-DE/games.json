@@ -1,0 +1,1470 @@
+{
+  "feed": {
+    "title": "Futtermittel",
+    "blurb": "Feed eine hungrige Kreatur die Worte, die sie fragt, bevor ihre Geduld ausgeht, oder ein Buffet für eine Menschenmenge laufen.",
+    "modes": {
+      "prompted": "Pingeliger Esser",
+      "unprompted": "Snack-Modus",
+      "buffet": "Buffet"
+    },
+    "s_not_what_i_asked": "−{seconds}S ·{text}Nicht das, wonach ich gefragt habe",
+    "fed": "+{seconds}S ·{text}",
+    "fed_patched": "(Geflickt)",
+    "fed_hinted": "(Hinweis: Halbzeit)",
+    "fed_yum": "· Yum",
+    "typo": "−{seconds}S · a typo",
+    "typo_meant": " ({meant}?)",
+    "serving_tray_label": "Servierschale",
+    "serving_tray_help": "Klicken Sie auf den Löffel, um es zu tragen, ziehen Sie zu Kreatur",
+    "serving_tray_empty": "Geben Sie ein Wort ein, um den Löffel zu laden",
+    "serving_tray_count": "Schale{count}/{capacity}",
+    "serving_tray_full_state": "Tablett voll · zuerst dienen",
+    "serving_queued": "{text}Schlange · Tray{count}/{capacity}",
+    "serving_tray_full": "Tablett ist voll - zuerst dienen",
+    "serving_wasted": " · −{seconds}S ·{count, plural, one {1 Wort verschwendet} other {# Wörter verschwendet}}",
+    "serving_served": "Bedient ·{matched}/{total}Übereinstimmend",
+    "serving_nothing_matched": "Nicht übereinstimmend — Zeitverlust",
+    "prepared": "{text}Zubereitet",
+    "cancelled": "Stornierung von Lebensmitteln",
+    "carrying": "Die Nahrung zum Geschöpf tragen",
+    "spoon_pickup": "Klicken und Drag to Servieren",
+    "no_match": "Kein passendes Gericht für diesen Gast",
+    "returned": "Tray zurück zum Bahnhof"
+  },
+  "castle": {
+    "title": "Burg",
+    "blurb": "Bauen Sie Ihre Wände aus Worten und halten Sie die Linie, bis die Angreifer aufgeben.",
+    "modes": {
+      "unprompted": "Jeder Stein",
+      "prompted": "Spezialsteine"
+    },
+    "the_attackers_resolve_hold_the": "Die Entschlossenheit der Angreifer: Halten Sie das Tor und tragen Sie es weiter ab",
+    "stockpile": "Lagerbestände",
+    "click_a_brick_to_carry": "Klicken Sie auf einen Ziegelstein, um ihn zu tragen · Platz legt · Shift + Enter Drops · 1-9 Pick",
+    "bricks": "{length}Steine ·{toFixed}",
+    "the_dropped_shift_to_use": "Das{from}Gefallen{label}· Shift+{slot}Zu verwenden",
+    "the_dropped_but_storage_is": "Das{from}Gefallen{label}, Aber der Speicher ist voll",
+    "brick_stacked": "{word} · {note}Ziegel{toFixed}· Gestapelt{repeatNote}",
+    "damage": "{note} · {toFixed}Schäden",
+    "yard_brick_pick": "{word}: {note}Ziegelstein, Festigkeit{strength}(Presse){key}Zu wählen",
+    "yard_brick": "{word}: {note}Ziegelstein, Festigkeit{strength}",
+    "aiming_at": "Ziel ist es,{section} {integrity}/{max}",
+    "aiming_critical": "· Kritisch",
+    "aiming_needs": "· Braucht Steine, die{requirement}",
+    "brick_added": "{what} · +{added} {section}",
+    "brick_named": "{word} · {note}Ziegel",
+    "the_castle": "Die Burg",
+    "powerups": {
+      "mortar": {
+        "label": "Mörtel",
+        "help": "Fallsteine doppelt so hart getroffen"
+      },
+      "mason": {
+        "label": "Maurer",
+        "help": "Ziegel zählen wieder halb so viel"
+      },
+      "oil": {
+        "label": "Öl",
+        "help": "Betäubung jeden Angreifer auf einmal"
+      },
+      "mend": {
+        "label": "Ausbesserung",
+        "help": "Reparatur der schwächsten Tor oder halten"
+      }
+    },
+    "foe_title": "{type}: Click or Drop Stone to Crush (Deutsche Übersetzung){hp}HP",
+    "foe_stunned": ", Betäubt",
+    "catapult_title": "Katapult: außer Reichweite in der Ferne",
+    "catapult_aiming": "Mit Blick auf die{section}",
+    "section_title": "{section}: {integrity}/{max}",
+    "section_critical": ", Kritisch",
+    "section_needs": "Braucht Ziegelsteine, die{requirement}",
+    "news_line": "{label}: {note}",
+    "powerup": "Powerup",
+    "sortie_title": "Garnison sortie: muster Verteidiger ins Feld",
+    "sortie_ready": "Bereitstellung sortie · alt+enter",
+    "sortie_mustering": "Sammeln (){seconds}S",
+    "sortie_breached": "Gatehouse verletzt",
+    "sortie_no_bricks": "Ziegel brauchen, um auszurüsten",
+    "guard_title": "Garnisonswache:{hp}/{maxHp}HP"
+  },
+  "space": {
+    "title": "Raum",
+    "blurb": "Lenke mit der Maus, feuere mit Worten und halte das Schiff am Leben.",
+    "modes": {
+      "unprompted": "Freies Feuer",
+      "prompted": "Gezielt"
+    },
+    "ship_health": "Schiffsgesundheit",
+    "magazine": "Magazin",
+    "bomb_charge": "Bombenladung",
+    "click_enter_fires_scroll_choose": "Click / enter fires · ↑ ↓ / scroll select · backspace ×2 scraps",
+    "finish_a_word_to_load": "Beende ein Wort, um es zu laden",
+    "bomb_ready_shift_enter": "Bombe bereit · shift+enter",
+    "bomb": "Bombe{floor}%",
+    "accumulator_charge": "Kondensatorladung",
+    "accumulator": "Kondensator{floor}%",
+    "accumulator_ready_alt_enter": "Kondensator bereit{charge}% · Alt+enter",
+    "accumulator_overload_alt_enter": "Kondensatorüberlastung! · alt+enter",
+    "ship": "Schiff{round}",
+    "score": "Punktzahl{round}",
+    "destroyed": "Zerstört{value}",
+    "s_left": "{ceil}S links",
+    "trigger_jammed_type_or_backspace": "Auslöser gestaut · Typ{word}, Oder Backspace zweimal, um einen Schuss zu verschrotten"
+  },
+  "spot": {
+    "title": "Spott",
+    "blurb": "Finden Sie die Fehler, die in einer Passage gepflanzt wurden, und korrigieren Sie sie.",
+    "modes": {
+      "prompted": "Korrektor"
+    },
+    "was": "{errorTitle}: War{corrupted}”",
+    "should_be": "{errorTitle}: Sollte sein{original}”",
+    "was_fine": "{word}War fein",
+    "fixed": "Fest:{original} · {errorTitle}",
+    "it_should_be": "Es sollte „{original}” · {errorTitle}",
+    "repairing": "{title}· Fix it in place (← → move) und Enter drücken",
+    "repairing_retry": "· Ein weiterer Versuch",
+    "repairing_cancel": "· Esc to cancel",
+    "lives": "{count}/{max}Leben",
+    "streak": "Streifen{count}",
+    "combo": "Combo ×{multiplier}",
+    "escaped": "{word}Scrolled Past"
+  },
+  "ui": {
+    "pause": "Pause",
+    "paused": "Pausiert",
+    "resume": "Wiederaufnahme",
+    "restart": "Neustart",
+    "quit": "Ausstieg",
+    "game_over": "Spiel über",
+    "victory": "Sieg",
+    "menu_intro": "Tippen als Spiel: Ihre Worte werden zu Essen, Ziegeln, Schüssen und Reparaturen. Spiele zählen auf XP, Ihre Fehler und Ihr tägliches Ziel (wenn Sie tippen, nicht lesen oder zielen).",
+    "games_aria": "Spiele",
+    "not_played": "Noch nicht gespielt",
+    "best_summary": "Am besten{score}· Zuletzt gespielt{date}",
+    "race_record": "Allein oder in Ihrem Netzwerk",
+    "mode": "Modus",
+    "difficulty": "Schwierigkeit",
+    "details": "Einzelheiten",
+    "replay": "Wiederholung",
+    "main": "Hauptbestandteil",
+    "demo_caption": "Demo · Hover to Play",
+    "play_game": "Spiel{title}",
+    "all_games": "Alle Spiele",
+    "demo_aria": "{title}: {label}Demontage",
+    "no_passages": "Keine Passagen zum Korrekturlesen. Aktivieren Sie einen Dataset in Texten → Datasets.",
+    "time_so_far": "Bisherige Zeit",
+    "end_game": "Endspiel",
+    "exit": "Ausgang",
+    "commands": "Befehle",
+    "hints": "Esc Pause ·{restartKey}Neustart",
+    "strength_chip_title": "Stärke: 1 pro Buchstabe, +1 für k v w y, +2 für j q x z",
+    "strength_current": "Festigkeit{strength}",
+    "strength_goal": "Festigkeit{strength} / {goal}",
+    "pause_lost_focus": "Das Fenster verliert den Fokus",
+    "pause_typing_lost": "Tipping Focus ging verloren",
+    "heading": "{title}Ergebnisse",
+    "status_failed": "Spiel über",
+    "status_aborted": "Ende früh",
+    "status_done": "Fertig",
+    "play_again": "Wieder spielen",
+    "change_setup": "Änderungsaufbau",
+    "added_training": "Ergänzung der Ausbildung",
+    "mistakes_noted": "{count, plural, one {· 1 Fehler notiert} other {· # Fehler notiert}}",
+    "results_summary": "{time} · {words}Wörter ·{wpm}Wpm ·{accuracy}· Falsch getippt{mistypes}· Korrigiert{corrections}",
+    "daily_goal_title": "Spiele zählen ihre tippzeit auf das ziel, nicht die zeit, die sie mit lesen, zielen oder denken verbringen.",
+    "key_mashing_note": "Dieser Lauf sah aus wie Key Mashing (){reason}), So dass seine Fehler und XP nicht gezählt wurden.",
+    "ghost_title": "Race a Ghost",
+    "ghost_blurb": "Deine geretteten Geister natürlich. Aufnehmen bis{max}Auf einem kurs und rennen sie nach ihrem eigenen text, nach ihren regeln; ihre uhren und deine beginnen bei deiner ersten schlüsseltaste.",
+    "import_file": "Importieren einer Ghost-Datei",
+    "from_folder": "Aus Ihrem Kalibre Ordner",
+    "drop_hint": "Oder einen auf die Seite legen",
+    "race_setup": "Rennen Setup",
+    "time_left": "Verbleibende Zeit",
+    "any_word_blurb": "Ich werde alles essen. Stärkere Worte füllen mich mehr.",
+    "any_word": "Beliebige Wörter",
+    "counts": "Gefüttert{fed}· Falsch{wrong}· Falsch getippt{mistyped}{streak, select, true {· Streifen{count}} other {}}",
+    "satisfaction": "Zufriedenheit",
+    "creatures_orders": "Kreaturen und ihre Ordnungen",
+    "waiting_guest": "Warten auf den ersten Gast...",
+    "served_words": "Zugestellte Wörter",
+    "table_status": "Schale{count}/{cap}",
+    "yard_empty": "Geben Sie ein Wort ein, um einen Stein zu machen",
+    "calm_wave": "Ruhig: Vorrat an Ziegeln · Welle{wave}Von{of}In{seconds}S",
+    "active_wave": "Welle{wave}Von{of} · {count, plural, one {1 Angreifer} other {#Angreifer}}{holding, select, true {· Betrieb} other {· Nicht halten}}",
+    "castle_integrity": "Burg{percent}%",
+    "time_bank": "Zeitbank",
+    "next_passage": "Nächster Durchgang",
+    "hud_found": "Durchgang{round}· Gefunden{found}Von{total}",
+    "hud_score": "Punktzahl{score}",
+    "find_mistake": "Einen Fehler finden: Zeigen oder verwenden Sie die Pfeile, dann klicken oder drücken Sie Enter",
+    "skip_title": "Gehen Sie weiter; was übrig bleibt, zählt als verpasst"
+  },
+  "errors": {
+    "deletion": "Fehlender Brief",
+    "insertion": "Zusatzbrief",
+    "transposition": "Briefwechsel",
+    "repeat": "Zweimal gedrückt",
+    "wrongWord": "Falsches Wort",
+    "missingPunctuation": "Fehlende Punktion",
+    "wrongPunctuation": "Falsche Interpunktion",
+    "capitalisation": "Großbuchstaben",
+    "whitespace": "Abstand"
+  },
+  "feed_buffet": {
+    "patience": "Geduld",
+    "the_floor_fall_to_it": "Den Boden: fallen und das Buffet schließt",
+    "burnt_a_typo_counts_half": "Verbrannt (ein Tippfehler): die Hälfte zählt",
+    "served": "Dienst{text}",
+    "an_order_filled_happy_guest": "Bestellung gefüllt · glücklicher Gast",
+    "a_guest_gave_up_waiting": "Ein Gast gab das Warten auf",
+    "went_stale": "{text}Ging abgestanden",
+    "the_table_is_full_let": "Das Tablett ist voll: Tragen Sie es zuerst zu den Gästen",
+    "that_s_not_food": "{text}Das ist kein Essen",
+    "orders_wasted_upset": "Aufträge{value}· Verschwendet{value2}· Verstimmung{value3}",
+    "served_burnt": "(Verbrannt: zählt die Hälfte)"
+  },
+  "games_results": {
+    "daily_goal_met_today": "✓ Tagesziel erreicht ·{formatGoalAmount}Heute",
+    "daily_goal_progress": "Tagesziel ·{done}Von{target}Heute · Dieser Lauf{run}",
+    "run_minutes": "{clock}Typisierung",
+    "run_xp": "{xp}Xp",
+    "run_words": "{words}Wörter"
+  },
+  "games_setup": {
+    "controls": "Kontrollen",
+    "notes": "Anmerkungen",
+    "mechanic_visuals": "Mechanische Sicht",
+    "mechanics_contexts": "Mechanik-Kontexte",
+    "more": "Mehr ▾",
+    "demonstration_variants": "Demonstrationsvarianten"
+  },
+  "ghost_shelf": {
+    "kalibre_can_t_reach_your": "Kalibre kann Ihren Ordner nicht erreichen: Lassen Sie es in den Einstellungen → Daten",
+    "no_ghost_files_in_the": "Keine Ghost-Dateien in den Ghosts des Ordners / noch",
+    "import": "Einfuhr",
+    "no_saved_ghosts_yet_save": "Noch keine geretteten Geister. Speichern Sie eine von den Ergebnissen eines Tests, einer Wiederholung oder Ihrer Geschichte.",
+    "race_anyway": "Rennen sowieso",
+    "delete_s_ghost": "Löschung{name}Gespenst",
+    "name_on_the_file": "Name in der Datei",
+    "saved_to": "Gerettet{savedTo}",
+    "is_ready": "{fileName}Ist bereit",
+    "include_my_card": "Schließe meine Karte ein",
+    "your_text_goes_in_the": "Ihr Text geht in die Datei.",
+    "share": "Anteil",
+    "save": "{count, plural, one {Rettet den Geist} other {Save # Ghosts}}"
+  },
+  "powerup_tray": {
+    "shift": "{label}: {help}(Schicht +){value})",
+    "powerups_two_at_once": "Powerups{length}/{storage}· Zwei auf einmal"
+  },
+  "race_card": {
+    "ghost": "Geister",
+    "race_people_on_your_network": "Rennen Menschen in Ihrem Netzwerk",
+    "your_car_dress_it_in": "Ihr Auto. kleiden Sie es in Ihr Profil → Ihre Karte → Garage; verdienen Sie Teile durch Rennen und Spielen.",
+    "race_a_demo_playing_while": "Rasse: eine Demo, spielen, während sie schwebte oder konzentrierte",
+    "rivals": "{rulesLine}· Rivalen{difficulty}",
+    "RACE_CARD": {
+      "race": {
+        "title": "Rennen",
+        "blurb": "Rennen den Computer auf eigene Faust, oder Menschen in Ihrem Netzwerk, in einem Zitat, Worte, gegen die Uhr oder so lange, wie Sie mithalten.",
+        "help": [
+          "Wählen Sie, was Sie fahren: ein Zitat, eine Anzahl von Wörtern, eine Zeit oder nachhaltig, wo der letzte noch Schritt oder Genauigkeit gewinnt.",
+          "Rivalen laufen mit etwa Ihrer letzten Geschwindigkeit: leicht ein wenig langsamer, hart ein wenig schneller. Jemand, der falsche Briefe hinterlässt, zahlt für jeden eine Sekunde.",
+          "Auf eigene Faust, Sie Rennen zwei Computer-Rivalen und, sobald Sie einen Lauf in diesem Modus haben, ein Geist davon können Sie wählen. In Ihrem Netzwerk tippen alle gleichzeitig denselben Text ein.",
+          "Race a ghost rast die geister, die du gerettet hast, bis zu drei auf einmal, auf ihrem eigenen text."
+        ]
+      }
+    },
+    "rivals_2": "Konkurrenten"
+  },
+  "word_quality": {
+    "close_to": "· In der Nähe von „{variantOf}” {percent}",
+    "repeat": "· Wiederholung{percent}"
+  },
+  "games_registry": {
+    "STRENGTH_MECHANIC": {
+      "strength": {
+        "label": "Festigkeit",
+        "summary": "Tippgenauigkeit bestimmt die Wortstärke. 1 pro Buchstabe, +1 für K V W Y, +2 für J Q X Z. auf harte, enge Varianten der letzten Wörter zählen weniger."
+      }
+    },
+    "GAMES": {
+      "feed": {
+        "options": {
+          "serving": {
+            "label": "Servierschale",
+            "choices": {
+              "off": {
+                "label": "Ausgeschaltet"
+              },
+              "on": {
+                "label": "Am"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "Beginnen",
+            "group": "Beginnen",
+            "summary": "Geben Sie Wörter ein, um den Löffel zu laden, und tragen Sie sie dann, um die Kreatur zu füttern.",
+            "highlights": [
+              "Geben Sie ein Wort ein, um es auf den Löffel zu laden",
+              "Klicken und ziehen Sie den Löffel zu der Kreatur, um zu dienen"
+            ],
+            "details": [
+              "Jedes Wort, das du servierst, stellt die Zeit wieder her. Längere Wörter wiederherstellen mehr.",
+              "Halten Sie die Kreatur glücklich, am Leben zu bleiben; falsche Ziele oder Fehlschläge halten das Essen auf dem Löffel."
+            ],
+            "mechanics": {
+              "mood": {
+                "label": "Stimmung",
+                "summary": "Die Stimmung der Kreatur sinkt mit der Zeit, wenn sie nicht gefüttert wird."
+              },
+              "patience": {
+                "label": "Geduld",
+                "summary": "Ein Timer zählt nach unten. Ein Wort, das passt, stellt die Zeit wieder her."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Load Löffel mit Wort"
+              }
+            },
+            "visuals": {
+              "mood-content": {
+                "label": "Inhalt"
+              },
+              "mood-peckish": {
+                "label": "Ackerfisch"
+              },
+              "mood-starving": {
+                "label": "Verhungern"
+              }
+            }
+          },
+          "creature-requests": {
+            "label": "Kreaturanträge",
+            "group": "Beginnen",
+            "summary": "Die kreatur bittet um eine art wort - passen sie es an, um vollzeit zu verdienen.",
+            "highlights": [
+              "Lesen Sie die Aufforderung über der Kreatur",
+              "Ein passendes Wort verdient Vollzeit; ein falsches kostet Zeit"
+            ],
+            "details": [
+              "Anfragen umfassen kurze oder lange Wörter, Wörter, die mit einem Buchstaben beginnen, oder Wörter, die bestimmte Buchstaben enthalten.",
+              "Für eine Weile stecken geblieben oder zweimal verpasst? Ein Wort, das passt, zeigt sich schwach auf der Kreatur, die die Hälfte der Zeit wert ist."
+            ],
+            "notes": {
+              "hard": {
+                "text": "Aufforderungen sind spezifischer und weniger Zeit wird gegeben."
+              }
+            },
+            "mechanics": {
+              "prompts": {
+                "label": "Aufforderungen",
+                "summary": "Die Kreatur zeigt, welche Art von Wort sie will."
+              },
+              "hint": {
+                "label": "Bauchhint",
+                "summary": "Nach Leerlauf oder zwei Fehlschlägen erscheint ein gültiges Wort schwach auf der Kreatur."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Load Löffel mit Wort"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "Bauchhint"
+              }
+            },
+            "visuals": {
+              "prompt-need": {
+                "label": "Wort prompt"
+              },
+              "belly-hint": {
+                "label": "Bauchhinweis (halbe Zeit)"
+              }
+            }
+          },
+          "snack-mode": {
+            "label": "Snack-Modus",
+            "group": "Beginnen",
+            "summary": "Die kreatur isst jedes wort - stärkere worte füllen es mehr, aber es wird schneller hungrig.",
+            "highlights": [
+              "Jedes gültige Wort füttert die Kreatur",
+              "Längere und genauere Wörter stellen mehr Zeit wieder her"
+            ],
+            "details": [
+              "Es gibt keine Aufforderungen: Geben Sie das Wort ein, das Sie mögen.",
+              "Die kreatur erschöpft ihre geduld schneller als bei pingeligen essern, so dass geschwindigkeit wichtig ist."
+            ],
+            "controls": {
+              "i0": {
+                "action": "Load Löffel mit Wort"
+              }
+            },
+            "visuals": {
+              "free-eating": {
+                "label": "Jedes gültige Wort"
+              },
+              "fast-patience": {
+                "label": "Beschleunigter Hunger"
+              }
+            }
+          },
+          "buffet": {
+            "label": "Buffetservice",
+            "group": "Beginnen",
+            "summary": "Gäste bestellen verschiedene Arten von Wörtern. servieren Worte auf den Tisch und sie essen, was passt.",
+            "highlights": [
+              "Gäste kommen mit Bestellungen von 1-3 Worttypen",
+              "Halten Sie die Gesamtzufriedenheit über der roten Linie"
+            ],
+            "details": [
+              "Geben Sie ein Wort ein und drücken Sie Platz, um es auf den Tisch zu legen. Gäste essen, was ihren Bestellungen entspricht.",
+              "Eine gefüllte Bestellung erfreut den Gast und erhöht die Zufriedenheit. Ein Gast, der zu lange wartet, ist verärgert.",
+              "Unsinn Worte werden geworfen und verletzt Zufriedenheit. Typos produzieren verbrannte Gerichte im Wert von der Hälfte.",
+              "Geschirr, das auf dem Tisch liegt, wird abgestanden und verschwendet."
+            ],
+            "mechanics": {
+              "table": {
+                "label": "Tisch",
+                "summary": "Servierte Wörter gehen auf einen gemeinsamen Tisch. Gäste essen, was passt."
+              },
+              "satisfaction": {
+                "label": "Zufriedenheit",
+                "summary": "A 0–100 Meter. Wenn es auf die bodenlinie fällt, schließt sich das buffet."
+              },
+              "orders": {
+                "label": "Aufträge",
+                "summary": "Jeder Gast hat 1-3 Wort-Typ-Anforderungen auf seinem Ticket."
+              },
+              "stale": {
+                "label": "Altgerichte",
+                "summary": "Ungesammelte Gerichte werden abgestanden und verletzen die Zufriedenheit."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Servieren Sie Word to Table"
+              }
+            },
+            "visuals": {
+              "guest-ticket": {
+                "label": "Bestellschein"
+              },
+              "buffet-table": {
+                "label": "Serviertisch"
+              },
+              "satisfaction-floor": {
+                "label": "Zufriedenheitsgrenze"
+              }
+            }
+          },
+          "serving": {
+            "label": "Körperliche Versorgung",
+            "group": "Beginnen",
+            "summary": "Laden Sie Wörter auf den Löffel und tragen Sie sie physisch zur Kreatur, um zu dienen.",
+            "highlights": [
+              "Geben Sie ein Wort ein, um es auf den Löffel zu laden",
+              "Klicken Sie auf den Löffel, ziehen Sie ihn zur Kreatur und lassen Sie ihn los, um zu dienen"
+            ],
+            "details": [
+              "Passende Wörter füttern die Kreatur und stellen die Zeit wieder her; falsche Worte kosten Zeit.",
+              "Fallen außerhalb der Kreatur, um das Essen zu halten und versuchen Sie es erneut.",
+              "Presse entkommen, um das Essen auf dem Löffel zu stornieren."
+            ],
+            "mechanics": {
+              "spoon": {
+                "label": "Löffel",
+                "summary": "Ein gültiges getipptes Wort lädt den Löffel. Klicken und ziehen, um zu dienen."
+              },
+              "targeting": {
+                "label": "Ausrichtung",
+                "summary": "Schwebe über die Kreatur, um sie hervorzuheben, dann loszulassen, um das Essen zu liefern."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Ladelöffel"
+              },
+              "i1": {
+                "action": "Tragen und Servieren"
+              },
+              "i2": {
+                "action": "Stornierung von Lebensmitteln"
+              }
+            },
+            "visuals": {
+              "loaded-spoon": {
+                "label": "Beladener Löffel"
+              },
+              "creature-highlight": {
+                "label": "Zielmarkierung"
+              }
+            }
+          }
+        }
+      },
+      "castle": {
+        "options": {
+          "waves": {
+            "label": "Wellen",
+            "choices": {
+              "endless": {
+                "label": "Endlos"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "Beginnen",
+            "group": "Beginnen",
+            "summary": "Tippen Sie Wörter, um Ziegel zu machen, zielen Sie auf einen Abschnitt und legen Sie sie, um Ihr Schloss zu bauen und zu reparieren.",
+            "highlights": [
+              "Geben Sie ein Wort ein, um einen Stein zu machen",
+              "Ziel mit den Pfeilen oder der Maus, dann drücken Sie den Raum, um es zu legen"
+            ],
+            "details": [
+              "Längere Wörter machen stärkere Steine. Tippfehler machen geknackte.",
+              "Das Schloss beginnt ganz, mit einer Ruhe, um sich vor der ersten Welle einzudecken.",
+              "Ziegel erscheinen im Vorrat; Wählen Sie einen mit 1-9 oder ziehen Sie ihn mit der Maus."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "Im speziellen Ziegelmodus benötigen angegriffene Abschnitte bestimmte Wörter. Ein Off-Spec-Ziegel verliert den größten Teil seiner Stärke."
+              }
+            },
+            "mechanics": {
+              "stockpile": {
+                "label": "Lagerbestände",
+                "summary": "Getippte Wörter werden zu Ziegeln, die im Hof warten. Wählen Sie eine mit einer Zahlentaste oder verwenden Sie die neueste."
+              },
+              "quality": {
+                "label": "Ziegelqualität",
+                "summary": "Solide, geflickt, rissig oder Trümmer — hängt von der Wortlänge und der Schreibgenauigkeit ab."
+              },
+              "cursor": {
+                "label": "Ausrichtung",
+                "summary": "Der Cursor zeigt, wohin der nächste Stein gehen wird. Bewegen Sie es mit Pfeilen oder klicken Sie auf einen Abschnitt."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Ziel ist ein Abschnitt"
+              },
+              "i1": {
+                "action": "Legen Sie den neuesten Stein"
+              },
+              "i2": {
+                "action": "Wählen Sie einen Ziegelstein aus dem Vorrat"
+              }
+            },
+            "visuals": {
+              "stockpile-yard": {
+                "label": "Lagerstätten"
+              },
+              "brick-solid": {
+                "label": "Vollziegel"
+              },
+              "brick-cracked": {
+                "label": "Crackstein"
+              }
+            }
+          },
+          "surviving": {
+            "label": "Überleben",
+            "group": "Überleben",
+            "summary": "Halten Sie das Tor und halten Sie stehen. Jede Welle verliert das Herz und zieht sich zurück, wenn kritische Abschnitte halten.",
+            "highlights": [
+              "Das Tor und der Keep sind kritisch - das Verlieren des Keep endet das Spiel",
+              "Reparatur beschädigter Abschnitte durch Auflegen von Ziegeln"
+            ],
+            "details": [
+              "Burgabschnitte haben Integrität, die sinkt, wenn Feinde angreifen.",
+              "Eine hohe durchschnittliche Reparatur über das Schloss führt zu einer schnelleren Auflösung der Welle.",
+              "Jede Welle zieht sich zurück, wenn ihre Entschlossenheit Null erreicht oder wenn alle ihre Feinde zerstört sind."
+            ],
+            "notes": {
+              "hard": {
+                "text": "Feinde kommen stärker und in größerer Zahl."
+              }
+            },
+            "mechanics": {
+              "sections": {
+                "label": "Burgabschnitte",
+                "summary": "Mauer, Turm, Tor, Berg und Fundamente. Jeder hat seine eigene Integrität."
+              },
+              "integrity": {
+                "label": "Integrität",
+                "summary": "Trefferpunkte eines Abschnitts. erreicht Null und der Abschnitt wird durchbrochen."
+              },
+              "resolve": {
+                "label": "Wellenauflösung",
+                "summary": "Ein Meter, der zeigt, wie nahe die Welle dem Rückzug ist."
+              },
+              "waves": {
+                "label": "Wellen",
+                "summary": "Feinde kommen in nummerierten Wellen an, mit Ruhe dazwischen."
+              }
+            },
+            "visuals": {
+              "curtain-wall": {
+                "label": "Vorhangwand"
+              },
+              "gatehouse": {
+                "label": "Gatehouse"
+              },
+              "great-keep": {
+                "label": "Großer Halt"
+              },
+              "wave-resolve": {
+                "label": "Wellenauflösung"
+              }
+            }
+          },
+          "fighting": {
+            "label": "Kämpfen",
+            "group": "Kämpfen",
+            "summary": "Lege Ziegelsteine auf Feinde, um sie zu zerquetschen, oder benutze das Katapult, um sie aus der Ferne zu treffen.",
+            "highlights": [
+              "Shift+enter lässt einen Stein auf den gezielten Angreifer fallen",
+              "Brutes Ram, Sappers Chip, Katapulte lob Felsbrocken aus der Ferne"
+            ],
+            "details": [
+              "Ein Steintropfen verursacht Schaden, der der Stärke des Steins entspricht.",
+              "Ein Feind, der nicht zerquetscht wird, kann für einen Moment betäubt werden.",
+              "Katapultstation in einiger Entfernung: Ein gestrichelter Bogen zeigt, wohin man zielt."
+            ],
+            "mechanics": {
+              "brute": {
+                "label": "Brut",
+                "summary": "Rammabschnitte aus nächster Nähe. Reifen nach einer festgelegten Anzahl von Schlägen."
+              },
+              "sapper": {
+                "label": "Sapper",
+                "summary": "Chips an Abschnitten. Wandert zwischen Zielen."
+              },
+              "catapult": {
+                "label": "Katapult",
+                "summary": "Schleudert Felsbrocken aus der Ferne entlang eines Parabelbogens. aus dem Fallbereich."
+              },
+              "stun": {
+                "label": "Betäubung",
+                "summary": "Ein nicht-tödlicher Ziegeltropfen kann den Angreifer betäuben und ihn kurz anhalten."
+              },
+              "drops": {
+                "label": "Ziegelsteintropfen",
+                "summary": "Lassen Sie einen Stein auf einen Feind fallen, um ihn zu beschädigen oder zu zerquetschen."
+              },
+              "saboteur": {
+                "label": "Saboteur",
+                "summary": "Pulverfassinfiltratoren, die die Wände aufladen; zerquetschen sie früh, um das Fass in den Reihen der Angreifer zu detonieren."
+              },
+              "ladderman": {
+                "label": "Leitermann",
+                "summary": "Belagerungsingenieure, die Angriffsleitern pflanzen; Steine fallen lassen, um die Leiter zu stürzen und eine Knockdown-Kaskade zu verursachen."
+              },
+              "sortie": {
+                "label": "Garnison sortie",
+                "summary": "Schützen Sie Verteidiger vom Torhaus ins Feld, um Angreifer abzufangen, bevor sie Ihre Wände erreichen."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Drop Stone auf den Feind"
+              },
+              "i1": {
+                "action": "Ziel auf einen Abschnitt oder Feind"
+              },
+              "i2": {
+                "action": "Bereitstellen Garnison sortie Cursor Spalte"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "Ziegelsteintropfen"
+              },
+              "i1": {
+                "label": "Saboteure und Leitern"
+              },
+              "i2": {
+                "label": "Garnison sorties"
+              }
+            },
+            "visuals": {
+              "brute-ram": {
+                "label": "Rohe Tiere"
+              },
+              "sapper-pick": {
+                "label": "Sapper (Chip)"
+              },
+              "saboteur-keg": {
+                "label": "Saboteur (Keg)"
+              },
+              "siege-ladder": {
+                "label": "Belagerungsleiter"
+              },
+              "garrison-soldier": {
+                "label": "Garnison Soldat"
+              },
+              "catapult-siege": {
+                "label": "Katapult (Belagerung)"
+              },
+              "boulder-arc": {
+                "label": "Felsbogen"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "Hochfahren",
+            "group": "Hochfahren",
+            "summary": "Zerquetschte Feinde lassen manchmal Powerups fallen. Speichern Sie sie und schalten Sie sie ein, wenn Sie sie brauchen.",
+            "highlights": [
+              "Fangen Sie ein Powerup, wenn ein Feind zerquetscht wird",
+              "Aktivieren Sie mit Shift+1-3 oder klicken Sie auf einen Slot"
+            ],
+            "details": [
+              "Bis zu drei Powerups können gespeichert werden. Zwei können gleichzeitig aktiv sein.",
+              "Mörtel macht Ziegeltropfen härter getroffen. Maurer macht verlegte Ziegel zählen für mehr. Öl betäubt alle Feinde auf dem Feld. Reparatur repariert den schwächsten kritischen Abschnitt."
+            ],
+            "mechanics": {
+              "mortar": {
+                "label": "Mörtel",
+                "summary": "Ziegeltropfen verursachen doppelten Schaden."
+              },
+              "mason": {
+                "label": "Maurer",
+                "summary": "Platzierte Ziegel gewähren 1,5x Festigkeit."
+              },
+              "oil": {
+                "label": "Öl",
+                "summary": "Betäubt alle Angreifer auf dem Feld sofort."
+              },
+              "mend": {
+                "label": "Ausbesserung",
+                "summary": "Wiederherstellung der Integrität des schwächsten Tors oder Haltens."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Powerup-Slot 1 aktivieren"
+              },
+              "i1": {
+                "action": "Powerup-Slot 2 aktivieren"
+              },
+              "i2": {
+                "action": "Powerup-Slot 3 aktivieren"
+              }
+            },
+            "visuals": {
+              "mortar-powerup": {
+                "label": "Mörtel (2x Tropfen)"
+              },
+              "mason-powerup": {
+                "label": "Maurer (1,5 x Wand)"
+              },
+              "oil-powerup": {
+                "label": "Kochendes Öl (stun alle)"
+              },
+              "mend-powerup": {
+                "label": "Ausbesserung (Reparatur)"
+              }
+            }
+          }
+        }
+      },
+      "space": {
+        "options": {
+          "duration": {
+            "label": "Länge",
+            "choices": {
+              "endless": {
+                "label": "Endlos"
+              },
+              "i1": {
+                "label": "1 Min"
+              },
+              "i2": {
+                "label": "2 Min"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "Beginnen",
+            "group": "Beginnen",
+            "summary": "Steuere das Schiff, tippe Wörter, um das Magazin zu laden, und feuere, um Feinde zu vernichten.",
+            "highlights": [
+              "Bewegen Sie sich mit der Maus oder Pfeiltasten",
+              "Tippen Sie ein Wort und drücken Sie ein Feuer"
+            ],
+            "details": [
+              "Fertige Wörter in das Magazin laden. Drücken Sie Enter, um den gewählten Schuss abzufeuern.",
+              "Ein mit Enter beendetes Wort feuert es sofort an, ohne vorher zu laden.",
+              "Verwenden Sie ↑ ↓ oder das Scrollrad, um auszuwählen, welcher Magazinschlitz abgefeuert werden soll."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "Im gezielten Modus hat jedes feindliche Schiff eine Wortanforderung. Nicht passende Schüsse springen ab."
+              }
+            },
+            "mechanics": {
+              "movement": {
+                "label": "Bewegung",
+                "summary": "Das Schiff horizontal lenkt. mit der Maus oder ← →"
+              },
+              "magazine": {
+                "label": "Magazin",
+                "summary": "Getippte Wörter füllen das Magazin. Feuer in Brand geraten. ↑ ↓ Wählen Sie einen Slot."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Das Schiff bewegen"
+              },
+              "i1": {
+                "action": "Feuer das ausgewählte Magazin erschossen"
+              },
+              "i2": {
+                "action": "Wählen Sie einen Magazin-Slot"
+              }
+            },
+            "visuals": {
+              "starfighter": {
+                "label": "Sternenjäger"
+              },
+              "magazine-slots": {
+                "label": "Magazinschlitze"
+              }
+            }
+          },
+          "surviving": {
+            "label": "Überleben",
+            "group": "Überleben",
+            "summary": "Vermeiden Sie Schäden, löschen Sie Staus, weichen Sie Asteroiden aus und verwenden Sie Rettungsschiffe zur Reparatur.",
+            "highlights": [
+              "Das Schiff hat Gesundheit - Hits reduzieren es, und Null beendet das Spiel",
+              "Geben Sie das Wort auf einem grünen Rettungsschiff ein, um es zu reparieren"
+            ],
+            "details": [
+              "Saubere Worte nie jammen. Tippfehler könnten, und Unsinn Jams häufiger.",
+              "Wenn Sie eingeklemmt sind, geben Sie das gezeigte Wort ein, um es zu löschen, oder drücken Sie den Backspace zweimal mit nichts, das eingegeben wurde, um den Schuss zu verwerfen.",
+              "Schießen Sie keine Rettungsschiffe: Ein Treffer, den man weniger heilt (nicht leicht).",
+              "Asteroiden sind unzerstörbare Hindernisse. Große brechen beim Schuss in mehrere Stücke.",
+              "Drohnen sperren mit einer gestrichelten Linie und tauchen gerade nach unten. Weglenken.",
+              "Schiffe, die am Boden vorbeikommen, schaden nicht."
+            ],
+            "notes": {
+              "easy": {
+                "text": "Ein Rettungsschiff zu erschießen, reduziert seine Heilung nicht."
+              }
+            },
+            "mechanics": {
+              "health": {
+                "label": "Gesundheit",
+                "summary": "Die Trefferpunkte des Schiffes. Null bedeutet Game Over."
+              },
+              "jams": {
+                "label": "Konfitüren",
+                "summary": "Eine eingeklemmte Waffe kann nicht feuern, bis sie gelöscht ist. Tippfehler und Unsinn erhöhen das Marmeladerisiko."
+              },
+              "asteroids": {
+                "label": "Asteroiden",
+                "summary": "Steine, die nicht zerstört werden können. Die großen sind in Stücke aufgeteilt."
+              },
+              "rescue": {
+                "label": "Rettungsschiffe",
+                "summary": "Grüne Schiffe mit einem Wort. Tippen Sie es, um den Rumpf zu reparieren."
+              },
+              "drones": {
+                "label": "Drohnen",
+                "summary": "Sperren und direkt nach unten tauchen. Ausweichen der Tauchlinie."
+              },
+              "jammer": {
+                "label": "Störsender",
+                "summary": "Erhöht die Wahrscheinlichkeit von Marmeladen während des Lebens."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Verschrottung des gewählten Schusses (Clears a Marmelade)"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "Rettungssanierung"
+              }
+            },
+            "visuals": {
+              "rescue-ship": {
+                "label": "Rettungsschiff (Heal)"
+              },
+              "dive-drone": {
+                "label": "Tauchdrohne"
+              },
+              "asteroid": {
+                "label": "Asteroidenhindernis"
+              },
+              "weapon-jam": {
+                "label": "Waffenstaus"
+              }
+            }
+          },
+          "fighting": {
+            "label": "Kämpfen",
+            "group": "Kämpfen",
+            "summary": "Laden Sie das Magazin, fangen Sie Raketen und Kämpfer ab und verwenden Sie die Bombe, um das Feld zu räumen.",
+            "highlights": [
+              "Raketen tragen einen Brief - tippen Sie es mit nichts getippt, um sie abzuschießen",
+              "Shift+enter zündet die Bombe beim Aufladen",
+              "Alt+enter feuert den durchdringenden Kondensatorstrahl beim Aufladen"
+            ],
+            "details": [
+              "Wörter laden den Bombenzähler. Wenn er voll ist, löscht shift+enter alle Raketen und beschädigt jeden Feind.",
+              "Hochwertige geladene Wörter laden den Kondensator auf. alt+enter entlädt einen vertikalen Piercing-Laser; Überlastung bei 100% zerbricht abgeschirmte Schiffe.",
+              "Raumstationen starten Kämpfer, die dich jagen. Geben Sie einen Brief eines Kämpfers ein, um ihn abzuschießen.",
+              "Landminen brachen beim Schuss in Schrapnell aus, was alles in der Nähe trifft, auch Sie.",
+              "Geschützte Schiffe nehmen nur Treffer von Wörtern, die ihren Anforderungen entsprechen."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "Im gezielten Modus hat jedes Schiff eine Wortanforderung, die abgeglichen werden muss."
+              }
+            },
+            "mechanics": {
+              "missiles": {
+                "label": "Raketen",
+                "summary": "Tragen Sie ein Letter Token. Mit nichts getippt, tippen Sie es, um sie sofort abzuschießen."
+              },
+              "bomb": {
+                "label": "Bombe",
+                "summary": "Gebühren, während sie wörter laden. shift+enter detoniert, räumt Raketen und beschädigt Feinde."
+              },
+              "accumulator": {
+                "label": "Kondensatorstrahl",
+                "summary": "Gebühren für saubere und hochwertige geladene Wörter. alt+enter feuert einen durchdringenden Säulenstrahl ab; 100% Überlast durchdringt Abschirmungen und verdampft Raketen."
+              },
+              "fighters": {
+                "label": "Kämpfer",
+                "summary": "Kleine Schiffe, die von Stationen gestartet werden. Verfolge den Spieler. Geben sie ihren brief zum abfangen ein."
+              },
+              "stations": {
+                "label": "Stationen",
+                "summary": "Große Hubs, die schweben und Kämpfer hervorbringen."
+              },
+              "landmines": {
+                "label": "Landminen",
+                "summary": "Stachelminen. Schrapnell auf Zerstörung trifft alles in der Nähe."
+              },
+              "shields": {
+                "label": "Schilde",
+                "summary": "Einige Schiffe haben Schilde, die nur Worte brechen, die einer Anforderung entsprechen."
+              },
+              "heavyFrigate": {
+                "label": "Schwere Fregatte",
+                "summary": "Verstärkter Bug mit abgeschirmter Barriere und zwei Raketenbatterien."
+              },
+              "eliteCruiser": {
+                "label": "Elite-Kreuzer",
+                "summary": "Schwere Dreadnought mit Point-Defense-Türmen, die schwache Worte abschießen (<30 Power)."
+              },
+              "flagship": {
+                "label": "Flaggschiff-Chef",
+                "summary": "Massives modulares Kommandoschiff. Zerstöre Waffenbatterien und stürze seinen Schildgenerator ein, um die Brücke freizulegen."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Detonation der Bombe"
+              },
+              "i1": {
+                "action": "Entladen Kondensatorstrahl"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "Bombenstoßwelle"
+              },
+              "i1": {
+                "label": "Kondensatorstrahl"
+              },
+              "i2": {
+                "label": "Flaggschiff-Chef"
+              }
+            },
+            "visuals": {
+              "missile-token": {
+                "label": "Flugkörper (Brief)"
+              },
+              "bomb-shockwave": {
+                "label": "Bombenstoßwelle"
+              },
+              "capacitor-beam": {
+                "label": "Durchdringender Kondensatorstrahl"
+              },
+              "heavy-frigate": {
+                "label": "Schwere Fregatte"
+              },
+              "elite-cruiser": {
+                "label": "Elite-Kreuzer"
+              },
+              "flagship-boss": {
+                "label": "Flaggschiff-Chef"
+              },
+              "orbital-station": {
+                "label": "Orbitalstation"
+              },
+              "shrapnel-mine": {
+                "label": "Landminen"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "Hochfahren",
+            "group": "Hochfahren",
+            "summary": "Zerstörte Feinde lassen Powerups fallen. Fangen Sie sie, speichern Sie sie und schalten Sie sie ein.",
+            "highlights": [
+              "Fangen Sie ein schwimmendes Powerup, um es zu speichern",
+              "Aktivieren Sie mit Shift+1-3 oder klicken Sie auf einen Slot"
+            ],
+            "details": [
+              "Bis zu drei Powerups können gespeichert werden. Zwei Arten können gleichzeitig aktiv sein; die gleiche Art stapelt wieder ihren Timer.",
+              "Doppelfeuer: Jeder Schuss feuert zweimal, bevor er ausgegeben wird.",
+              "Gatling: Jeder eingegebene Buchstabe feuert einen Sofortbolzen ab.",
+              "Schild: eine Barriere absorbiert Treffer für das Schiff.",
+              "Automat: wählt automatisch den besten Schuss für die größte Bedrohung.",
+              "Homing: Gefeuerte Worte steuern auf Ziele zu."
+            ],
+            "mechanics": {
+              "double": {
+                "label": "Doppelt",
+                "summary": "Schießt zweimal Feuer, bevor es ausgegeben wird."
+              },
+              "gatling": {
+                "label": "Gatling",
+                "summary": "Jeder eingegebene Buchstabe feuert einen sofortigen Energiebolzen ab."
+              },
+              "shield": {
+                "label": "Schutzschild",
+                "summary": "Eine Energiebarriere absorbiert Treffer."
+              },
+              "automaton": {
+                "label": "Automat",
+                "summary": "Auto wählt den besten Schuss für die schlimmste Bedrohung."
+              },
+              "homing": {
+                "label": "Hominging",
+                "summary": "Gefeuerte Wörter steuern dynamisch auf Ziele zu."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Powerup-Slot 1 aktivieren"
+              },
+              "i1": {
+                "action": "Powerup-Slot 2 aktivieren"
+              },
+              "i2": {
+                "action": "Powerup-Slot 3 aktivieren"
+              }
+            },
+            "visuals": {
+              "powerup-double": {
+                "label": "Doppelfeuer"
+              },
+              "powerup-gatling": {
+                "label": "Gattierstrom"
+              },
+              "powerup-shield": {
+                "label": "Ablenksperre"
+              },
+              "powerup-automaton": {
+                "label": "Automatisches Ziel"
+              },
+              "powerup-homing": {
+                "label": "Suchende Suchende"
+              }
+            }
+          }
+        }
+      },
+      "spot": {
+        "options": {
+          "variant": {
+            "label": "Spiel",
+            "choices": {
+              "timed": {
+                "label": "Terminiert"
+              },
+              "endless": {
+                "label": "Endlos"
+              },
+              "marathon": {
+                "label": "Marathon"
+              },
+              "scroller": {
+                "label": "Scroller"
+              }
+            }
+          },
+          "duration": {
+            "label": "Uhrzeit"
+          }
+        },
+        "help": [
+          "Zeigen Sie auf ein Wort oder bewegen Sie sich mit ← → (↑ ↓ per Zeile); klicken Sie darauf oder drücken Sie Enter, wenn es falsch ist.",
+          "Das Wort bleibt an Ort und Stelle: Befestigen Sie es dort (← → Home End verschieben Sie den Caret oder klicken Sie darauf) und drücken Sie Enter. Rechtschreibung, Interpunktion, Großbuchstaben und Abstand zählen alle.",
+          "Umschaltung + Enter gibt eine Passage auf und bewegt sich zum nächsten.",
+          "Finden und beheben werden separat bewertet; das markieren eines richtigen wortes kostet sie."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "Beginnen",
+            "group": "Beginnen",
+            "summary": "Finden Sie die Fehler, die in einer Passage gepflanzt wurden, und korrigieren Sie sie.",
+            "highlights": [
+              "Zeigen Sie auf ein Wort oder navigieren Sie mit Pfeiltasten",
+              "Drücken Sie Enter, um einen Fehler zu markieren, und geben Sie dann den Fix ein"
+            ],
+            "details": [
+              "Passagen kommen aus Büchern in Ihrer Bibliothek. Jeder hat mehrere eingepflanzte Fehler.",
+              "Shift+enter gibt eine Passage auf und bewegt sich zum nächsten.",
+              "Fehler umfassen Rechtschreibung, Interpunktion, Großschreibung, Sound-alikes und Briefzettel."
+            ],
+            "mechanics": {
+              "errors": {
+                "label": "Fehlerarten",
+                "summary": "Rechtschreibung, Interpunktion, Großschreibung, Sound-alikes und Briefzettel."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Wechsel zwischen Wörtern"
+              },
+              "i1": {
+                "action": "Wechsel zwischen den Linien"
+              },
+              "i2": {
+                "action": "Ein Wort als falsch markieren"
+              },
+              "i3": {
+                "action": "Überspringen Sie die nächste Passage"
+              }
+            },
+            "visuals": {
+              "passage-line": {
+                "label": "Passage Text"
+              },
+              "planted-error": {
+                "label": "Anpflanzungsfehler"
+              }
+            }
+          },
+          "finding-mistakes": {
+            "label": "Fehler finden",
+            "group": "Überleben",
+            "summary": "Scannen Sie die Passage, wählen Sie ein Wort, das Sie für falsch halten, und drücken Sie die Eingabe, um es zu markieren.",
+            "highlights": [
+              "Bewegen Sie den Mauszeiger über ein Wort oder verwenden Sie Pfeiltasten, um es auszuwählen",
+              "Markierung eines korrekten Wortes kostet Sie"
+            ],
+            "details": [
+              "Bewegen Sie sich mit ← → Wort für Wort oder ↑ ↓ Zeile für Zeile. Klicken oder Schweben, um zu springen.",
+              "Findung und Fixierung werden separat bewertet.",
+              "Das markieren eines wortes, das tatsächlich korrekt ist, zählt als falsche flagge und kostet punkte."
+            ],
+            "mechanics": {
+              "selection": {
+                "label": "Wortauswahl",
+                "summary": "Schweben, klicken oder verwenden Sie Pfeiltasten, um ein Wort auszuwählen."
+              },
+              "false-flag": {
+                "label": "False Flags",
+                "summary": "Das Markieren eines korrekten Wortes kostet Punkte und (im Endlosmodus) Zeit."
+              },
+              "marathon": {
+                "label": "Marathon-Ausdauer",
+                "summary": "Beginnen Sie mit 3 Leben. Falsche Flaggen und fehlgeschlagene Reparaturen kosten ein Leben; das Löschen von 3 Passagen stellt eine sauber wieder her."
+              },
+              "scroller": {
+                "label": "Scrollförderer",
+                "summary": "Durchlässe laufend an einem Förderband vorbei. Fangen Sie Fehler auf, bevor Sie vom Bildschirm scrollen."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Wechsel zwischen Wörtern"
+              },
+              "i1": {
+                "action": "Wechsel zwischen den Linien"
+              },
+              "i2": {
+                "action": "Markierung des ausgewählten Wortes"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "Passage-Scan"
+              },
+              "i1": {
+                "label": "Marathon-Ausdauer"
+              },
+              "i2": {
+                "label": "Scrollförderer"
+              }
+            },
+            "visuals": {
+              "selected-word": {
+                "label": "Ausgewähltes Wort"
+              },
+              "hover-cursor": {
+                "label": "Hover Cursor"
+              },
+              "false-flag-penalty": {
+                "label": "False Flag Strafe"
+              },
+              "marathon-lives": {
+                "label": "Marathonleben"
+              },
+              "scroller-belt": {
+                "label": "Scroll-Förderband"
+              }
+            }
+          },
+          "correcting-mistakes": {
+            "label": "Berichtigung von Fehlern",
+            "group": "Überleben",
+            "summary": "Das markierte Wort bleibt an Ort und Stelle. Befestigen Sie es dort und drücken Sie Enter, um die Reparatur durchzuführen.",
+            "highlights": [
+              "Das Wort wird direkt in der Passage bearbeitet",
+              "Bewegen Sie die Pflege mit Pfeiltasten oder klicken Sie in das Wort"
+            ],
+            "details": [
+              "Verwenden Sie ← →, um die Pflege zu bewegen, nach Hause und Ende zu springen. Löschen und Backspace funktionieren wie gewohnt.",
+              "Klicken Sie in das Wort, um den Caret an einer bestimmten Position zu platzieren.",
+              "Du bekommst zwei Versuche. Wenn beide versagen, wird das richtige Wort offenbart.",
+              "Presseflucht, um eine Reparatur ohne Strafe abzusagen."
+            ],
+            "mechanics": {
+              "caret": {
+                "label": "Pflegebearbeitung",
+                "summary": "Bewegen Sie den Cursor innerhalb des Wortes, um einzelne Zeichen zu bearbeiten."
+              },
+              "retries": {
+                "label": "Reparaturversuche",
+                "summary": "Zwei versuchen, ein Wort zu reparieren. nach zwei Ausfällen wird die Antwort angezeigt."
+              },
+              "cancel": {
+                "label": "Abbruch",
+                "summary": "Escape storniert eine Reparatur ohne Strafe."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "Bewege Caret innerhalb des Wortes"
+              },
+              "i1": {
+                "action": "Caret zum Anfang des Wortes"
+              },
+              "i2": {
+                "action": "Caret bis Ende des Wortes"
+              },
+              "i3": {
+                "action": "Begehen Sie die Reparatur"
+              },
+              "i4": {
+                "action": "Reparatur abbrechen"
+              },
+              "i5": {
+                "action": "Löschung nach vorne"
+              }
+            },
+            "visuals": {
+              "inline-caret": {
+                "label": "Inline-Pflege"
+              },
+              "in-place-edit": {
+                "label": "Vor Ort bearbeiten"
+              },
+              "attempt-limit": {
+                "label": "2 Versuche Limit"
+              }
+            }
+          },
+          "scoring": {
+            "label": "Bewertung",
+            "group": "Überleben",
+            "summary": "Findung und Fixierung werden separat bewertet. Der zeitgesteuerte modus hat eine feste uhr; endlose tops auf reparaturen.",
+            "highlights": [
+              "Detection Score: Wie viele Fehler Sie gefunden haben",
+              "Reparatur-Score: wie genau Sie sie behoben haben"
+            ],
+            "details": [
+              "Zeitgesteuerter Modus: eine feste Dauer zählt nach unten. Finden und beheben Sie so viele wie möglich.",
+              "Endloser Modus: Die Zeit läuft kontinuierlich ab. Jede erfolgreiche Reparatur füllt die Bank auf. False Flags kosten Zeit.",
+              "Ein sauberer Sweep wird aufgezeichnet, wenn alle Fehler in einer Passage ohne falsche Flaggen repariert werden."
+            ],
+            "notes": {
+              "hard": {
+                "text": "Fehler sind subtiler und der Timer ist kürzer."
+              }
+            },
+            "mechanics": {
+              "detection": {
+                "label": "Erkennung",
+                "summary": "Gewertet durch Präzision und Rückruf - wie viele echte Fehler Sie im Vergleich zu falschen Flaggen gefunden haben."
+              },
+              "repair": {
+                "label": "Reparatur",
+                "summary": "Bewertet, wie genau Sie die markierten Wörter fixiert haben."
+              },
+              "sweep": {
+                "label": "Sauberer Sweep",
+                "summary": "Alle Fehler repariert, keine falschen Flaggen, auf einer einzelnen Passage."
+              }
+            },
+            "visuals": {
+              "detection-score": {
+                "label": "Nachweispunkt"
+              },
+              "repair-score": {
+                "label": "Reparaturergebnis"
+              },
+              "clean-sweep": {
+                "label": "Clean Sweep Bonus"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minutes_choice": "{count}Min"
+  },
+  "space_time": {
+    "powerups": {
+      "double": "Doppelfeuer",
+      "gatling": "Gatling",
+      "shield": "Schutzschild",
+      "automaton": "Automat",
+      "homing": "Hominging"
+    },
+    "stored": "{name}Gespeichert · shift+{slot}Zu verwenden",
+    "storage_full": "Vollständige Lagerung:{name}Verloren",
+    "nothing_stored": "Nichts dort gespeichert",
+    "busy": "Zwei laufen bereits:{name}Wartezeiten",
+    "cant_use": "{name}Kann nicht verwendet werden"
+  },
+  "constraints": {
+    "min_length": "{value}+ Buchstaben",
+    "min_length_need": "Ein langes Wort,{value}Buchstaben oder mehr",
+    "max_length": "{value}Höchstens Buchstaben",
+    "max_length_need": "Ein kurzes Wort,{value}Höchstens Buchstaben",
+    "starts_with": "Beginnt mit{letter}",
+    "starts_with_need": "Etwas, das mit{letter}",
+    "ends_with": "Enden mit{letter}",
+    "ends_with_need": "Etwas endet in{letter}",
+    "contains": "Hat{letter}",
+    "contains_need": "Etwas mit{letter}In ihm",
+    "min_strength": "Festigkeit{value}+",
+    "min_strength_need": "Ein starkes Wort, Stärke{value}Oder mehr",
+    "passage_length": "{min}–{max}Wörter",
+    "passage_length_need": "Einen Durchgang von{min}Wörter oder mehr",
+    "any_word": "Beliebige Wörter",
+    "want": "Ich will{needs}.",
+    "want_any": "Ich will ein Wort."
+  },
+  "moods": {
+    "satisfied": "Zufrieden",
+    "hungry": "Hunger",
+    "very_hungry": "Sehr hungrig",
+    "urgent": "Dringend",
+    "critical": "Kritisch"
+  },
+  "space_ui": {
+    "shot": {
+      "fired": "{word} · {power}Schäden",
+      "fired_typo": "(Ein Tippfehler: halbe Stärke)",
+      "fired_one_left": "(1 Links)",
+      "fired_automaton": "· Automaten{target}",
+      "fighter_down": "Kämpfer{word}Abgeschossen",
+      "loaded": "{word}· Beladen,{power}",
+      "fizzle": "{word}· Kein Wort, es verpuffte",
+      "fizzle_jam": "{word}· Kein Wort: es verpuffte und klemmte den Abzug",
+      "scrap_armed": "Backspace wieder zu verschrotten{word}",
+      "scrap_clear_jam": "Und räumen Sie den Jam",
+      "scrap_armed_jam": "Backspace wieder, um den Jam zu löschen",
+      "scrapped_word": "{word}Schrott",
+      "scrapped": "Schrott",
+      "jam_cleared_suffix": "· Marmelade beseitigt",
+      "rescue_hit": "Vorsicht: Sie treffen das Rettungsschiff (){word})",
+      "rescue_lost": "Das Rettungsschiff ging verloren",
+      "jammed": "{word}Den Auslöser blockiert · er bleibt geladen",
+      "locked": "Der Auslöser ist blockiert",
+      "full": "{word}· Das Magazin ist voll: Feuer zuerst",
+      "empty": "Nichts geladen: Beende ein Wort zuerst",
+      "cleared": "Marmelade beseitigt",
+      "intercepted": "Flugkörper{word}Abgeschossen",
+      "repaired": "{word}· Repariert{healed}",
+      "bomb": "Bombe!",
+      "bomb_not_ready": "Die Bombe ist noch nicht geladen",
+      "accumulator": "Laserstrahlentladung!",
+      "accumulator_not_ready": "Der Kondensator benötigt mindestens 25% Ladung",
+      "point_defense": "Punktschutz abgefangen{word}!",
+      "flagship_down": "Flaggschiff zerstört!",
+      "gatling": "Schnellfeuer{word}",
+      "shield_absorb": "Abschirmung absorbiert{source}Getroffen!"
+    },
+    "powerup_help": {
+      "double": "Jeder Schuss feuert zweimal",
+      "gatling": "Jeder Brief feuert einen Bolzen",
+      "shield": "Nimm ein paar Hits für dich",
+      "automaton": "Schießen wählt den besten Schuss für die schlimmste Bedrohung",
+      "homing": "Gefeuerte Worte steuern auf Feinde zu"
+    },
+    "powerup_label": {
+      "double": "Doppelt",
+      "gatling": "Gatling",
+      "shield": "Schutzschild",
+      "automaton": "Automat",
+      "homing": "Hominging"
+    }
+  },
+  "castle_notes": {
+    "solid": "Fest",
+    "patched": "Geflickt",
+    "cracked": "Rissig",
+    "mortar": "Mörtel",
+    "rubble": "Schutt",
+    "stockpile_full": "Vorrat voll",
+    "no_bricks_yet": "Noch keine Steine",
+    "already_solid": "Bereits fest",
+    "wrong_kind_of_brick": "Falsche Art von Stein",
+    "nobody_to_drop_it_on": "Niemand, um es auf",
+    "two_are_running_already": "Zwei laufen bereits",
+    "nothing_stored_there": "Nichts dort gespeichert",
+    "crushed_a_brute": "Zerkleinerung eines Tieres",
+    "crushed_a_sapper": "Einen Sapper zermalmt",
+    "crushed_a_saboteur": "Ein Saboteur zermalmt",
+    "crushed_a_ladderman": "Ein Leitermann zerquetscht",
+    "hit_a_brute": "Treffer eines Tieres",
+    "hit_a_sapper": "Einen Sapper schlagen",
+    "hit_a_saboteur": "Saboteur getroffen",
+    "hit_a_ladderman": "Schlag einen Leitermann",
+    "stunned": "Betäubt",
+    "keg_detonated": "Pulverfass detoniert",
+    "ladder_toppled": "Leiter gestürzt",
+    "sortie_deployed": "Garnison sortie im Einsatz",
+    "mustering": "Garnisonsanordnung",
+    "gate_breached": "Gatehouse verletzt",
+    "no_bricks": "Ziegel brauchen, um auszurüsten",
+    "friendly_fire": "Freundliches Feuer!"
+  }
+}

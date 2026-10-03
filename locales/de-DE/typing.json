@@ -1,0 +1,174 @@
+{
+  "mode": {
+    "time": "Uhrzeit",
+    "words": "Wörter",
+    "quote": "Zitat",
+    "book": "Buch",
+    "mixed": "Gemischt",
+    "sustained": "Nachhaltig",
+    "custom": "Custom",
+    "mistakes": "Fehler"
+  },
+  "mode_label": "Modus",
+  "sustained_title": "Halten Sie ein Tempo oder eine Genauigkeit, solange Sie können",
+  "status": {
+    "caps_lock": "Kappensperre ist an",
+    "restart": "Neustart",
+    "pause": "Pause",
+    "resume": "Wiederaufnahme",
+    "caps_lock_label": "Verschlusskappen",
+    "num_lock_off": "Num Lock ist ausgeschaltet",
+    "num_lock_off_title": "Das Zahlenpad sendet Pfeile, während num lock ausgeschaltet ist",
+    "time_so_far": "Bisherige Zeit",
+    "focus_click": "Klicken oder Drücken einer beliebigen Taste zum Fokus",
+    "restart_symbol": "↻ "
+  },
+  "hints": {
+    "tab_enter_restart": "Tab → Neustart eingeben · esc Befehle",
+    "tab_tab_restart": "Tab Restart · Esc Befehle",
+    "enter_to_restart": "Neustart",
+    "tab_to_restart": "Tab zum Neustart"
+  },
+  "focus": {
+    "label": "Schwerpunkt:{mode}",
+    "aria_label": "Fokusansicht:{mode}Drücken Sie auf Veränderung.",
+    "off": "Ausgeschaltet",
+    "line": "Linie",
+    "sentence": "Satz"
+  },
+  "instructions": {
+    "standard": "Geben Sie den gezeigten Text ein. Space bewegt sich zum nächsten Wort und Backspace korrigiert. Tab dann Enter startet neu. Escape öffnet die Kommandozeile.",
+    "sustained": "Halten Sie Ihr Tempo auf oder über dem Ziel. Drei Sekunden darunter endet der Test. Space bewegt sich zum nächsten Wort und Backspace korrigiert. Tab dann Enter startet neu. Escape öffnet die Kommandozeile.",
+    "accuracy": "Halten Sie Ihre Genauigkeit auf oder über dem Ziel, während Sie in einem stetigen Tempo tippen. Fünf Sekunden darunter endet der Test. Space bewegt sich zum nächsten Wort und Backspace korrigiert. Tab dann Enter startet neu. Escape öffnet die Kommandozeile."
+  },
+  "mode_bar": {
+    "custom": "Custom{unit}",
+    "enable_a_book_dataset": "Ermöglichen eines Buchdatensatzes",
+    "add_a_text_to_read": "Hinzufügen eines Textes zum Lesen",
+    "from": "Von{percent}%",
+    "start_over": "Start vorbei",
+    "read_this_one_from_the": "Lesen Sie diese von Anfang an",
+    "add_a_text_to_practise": "Fügen Sie einen Text zur Praxis hinzu",
+    "manage": "Verwaltung",
+    "change": "Änderung",
+    "choose_what_and_how_to": "Wählen Sie, was und wie zu bohren",
+    "TABS": {
+      "time": {
+        "label": "Uhrzeit"
+      },
+      "words": {
+        "label": "Wörter"
+      },
+      "quote": {
+        "label": "Zitat"
+      },
+      "mixed": {
+        "label": "Gemischt"
+      },
+      "sustained": {
+        "label": "Nachhaltig",
+        "title": "Halten Sie ein Tempo oder eine Genauigkeit, solange Sie können"
+      },
+      "custom": {
+        "label": "Custom"
+      }
+    },
+    "SUSTAINED_SOURCES": {
+      "wordstream": {
+        "label": "Gemeinsame Wörter"
+      },
+      "quotes": {
+        "label": "Zitate"
+      },
+      "work": {
+        "label": "Bücher"
+      },
+      "text": {
+        "label": "Meine Texte"
+      }
+    },
+    "BOOK_ORDER_OPTIONS": {
+      "sequential": {
+        "label": "In Ordnung",
+        "title": "Lesen Sie weiter, wo Sie aufgehört haben, dann das nächste Buch"
+      },
+      "passages": {
+        "label": "Durchgänge",
+        "title": "Zufällige Passagen aus dem Buch"
+      },
+      "chunks": {
+        "label": "Brocken",
+        "title": "Zufällige Abschnitte des Buches"
+      }
+    },
+    "source": {
+      "wordstream": {
+        "label": "Gemeinsame Wörter"
+      },
+      "quotes": {
+        "label": "Zitate"
+      }
+    },
+    "nodes": {
+      "pace": {
+        "label": "Geschwindigkeit",
+        "title": "Halten Sie Ihre letzte Geschwindigkeit auf oder über einem Ziel (3 Sekunden, um sich zu erholen)"
+      },
+      "accuracy": {
+        "label": "Genauigkeit"
+      }
+    },
+    "lengthOptions": {
+      "entire": {
+        "label": "Vollständiger Text"
+      }
+    },
+    "custom_title": "Custom",
+    "accuracy_title": "Behalten Sie Ihre letzte Genauigkeit auf oder über einem Ziel, geben Sie mindestens{floor}Wpm (5 Sekunden zur Wiederherstellung)",
+    "keep_up": "Keep up",
+    "text_source": "Textquelle",
+    "text_to_read": "Text zu lesen",
+    "reading_order": "Lesereihenfolge",
+    "text_to_practise": "Text zur Praxis",
+    "book_to_read": "Buch zum Lesen",
+    "unit_words": "Wörter",
+    "unit_wpm": "Wpm",
+    "unit_seconds": "Sekunden"
+  },
+  "training_notice": {
+    "mistakes": "Fehler,{join}",
+    "suggested": "{count, plural, one {# Vorgeschlagen} other {# Vorgeschlagen}}",
+    "ready": "{count, plural, one {# Bereit zum Bohren} other {# Bereit zum Bohren}}"
+  },
+  "type_view_goal": {
+    "today": "✓ {formatGoalAmount}Heute",
+    "today_2": "{floor} / {formatGoalAmount}Heute",
+    "aria": "Tagesziel:{done}Von{target}Heute{met}",
+    "aria_met": ", Erfüllt"
+  },
+  "type_view_pace": {
+    "target": "Ziel{target}%",
+    "target_wpm": "Ziel{target}Wpm",
+    "wpm": "{round} / {target}Wpm",
+    "below_target_words_per_minute": "Untere Zielvorgabe:{target}Wörter pro Minute.{seconds}Sekunden zu erholen.",
+    "too_slow_keep_at_least": "Zu langsam: zumindest halten{floorWpm}Wörter pro Minute.{seconds}Sekunden zu erholen.",
+    "accuracy_below_percent_seconds_to": "Genauigkeit unten{target}Prozent.{seconds}Sekunden zu erholen.",
+    "back_on_target": "Zurück am Ziel.",
+    "back_on_pace": "Zurück im Tempo."
+  },
+  "type_view": {
+    "wpm": "{round}Wpm ·{round2}%",
+    "test_complete_words_per_minute": "Prüfung vollständig:{round}Wörter pro Minute,{toFixed}Prozentuale Genauigkeit,{errors}Fehler."
+  },
+  "typing_input": {
+    "typing_input": "Typisierungseingang"
+  },
+  "type_view_book": {
+    "now_reading": "Jetzt lesen{title}{by}.",
+    "by_author": "Durch{author}",
+    "now": "Jetzt:{title}{by}"
+  },
+  "text_providers": {
+    "unknown_practice_source": "Unbekannte Praxisquelle{source}\""
+  }
+}
