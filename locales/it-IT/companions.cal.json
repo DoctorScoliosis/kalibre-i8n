@@ -271,6 +271,207 @@
       "Mmmf… altri cinque minuti…",
       "Zzz… (prima dammi un colpetto per svegliarmi)",
       "Zzz… snrk… cosa… zzz"
+    ],
+    "highfive": [
+      "Cinque!",
+      "Su! Ben fatto.",
+      "Sì! Bella sessione.",
+      "Schiaffo! Ahi. Ne valeva la pena.",
+      "Zampetta piccola, cinque grande!",
+      "Woo! Quella è stata fantastica."
+    ],
+    "honeymoon": [
+      "{partner} e io siamo in luna di miele! torniamo domani.",
+      "In luna di miele con {partner}! torniamo domani.",
+      "{partner} e io facciamo una piccola gita. torniamo domani!"
+    ],
+    "challenge": [
+      "La sfida di oggi: {challenge}. Ti va?",
+      "Hai visto la sfida di oggi? {challenge}.",
+      "La sfida di oggi ti aspetta: {challenge}.",
+      "Psst, la sfida di oggi: {challenge}. Credo in te.",
+      "È ora della sfida! {challenge}. Dai, puoi farcela.",
+      "La sfida di oggi: {challenge}. Farò il tifo da qui."
+    ],
+    "partner": [
+      "{partner} e io siamo una squadra fantastica.",
+      "{partner} ti saluta!",
+      "{partner} diceva che il tuo ritmo è proprio bello.",
+      "{partner} mi ha insegnato quel consiglio, sai.",
+      "Non dirlo a {partner}, ma sei il mio dattilografo preferito.",
+      "{partner} e io abbiamo visto la tua ultima sessione. Molto bene."
+    ],
+    "morning": [
+      "Buongiorno! Dita stirate? Partiamo.",
+      "Buongiorno! Un po' di digitazione a colazione?",
+      "Su e digita! Buongiorno!",
+      "Buongiorno! Sono sveglio da un'eternità. Be', da secondi.",
+      "Oh, buongiorno! {next} è pronto quando vuoi.",
+      "Buongiorno, raggio di sole. Il mio copritasto è tutto caldo."
+    ],
+    "afternoon": [
+      "Buon pomeriggio! Momento perfetto per qualche tasto.",
+      "Ehi, buon pomeriggio! Pronto a digitare?",
+      "Pausa pomeridiana? Facciamola diventare una pausa di digitazione.",
+      "Oh, ciao! È già pomeriggio? Partiamo.",
+      "Buon pomeriggio! {next} ti sta aspettando.",
+      "Pomeriggio! Ti ho tenuto un posto sulla riga home."
+    ],
+    "evening": [
+      "Buonasera! Qualche tasto prima di cena?",
+      "Buonasera! Rallentiamo la giornata con un po' di digitazione.",
+      "Ehi, è sera! Bello vederti.",
+      "È già sera? Il tempo vola quando sei un copritasto.",
+      "Buonasera! {next}, poi piedi in alto?",
+      "Sera! Piano e costante stasera, d'accordo?"
+    ],
+    "night": [
+      "Ancora sveglio? Anch'io. Solo tasti silenziosi.",
+      "Nottambulo! Digitiamo piano.",
+      "Ooh, digitazione a mezzanotte. Molto misteriosa.",
+      "È tardi! Una breve sessione, poi a letto?",
+      "Shh, dormono tutti. Solo noi e i tasti.",
+      "Turno di notte! {next}, poi dormiamo. Affare fatto?"
+    ],
+    "welcomeBack": [
+      "Sei tornato! Sono passati {days} giorni. Ho tenuto caldi i tasti.",
+      "{days} giorni! Mi sei mancato. Ripartiamo con calma.",
+      "Ehi, bentornato! Vai piano, le dita dimenticano qualcosa.",
+      "Eccoti qui! {days} giorni non sono niente. Partiamo.",
+      "Bentornato! Le tue dita ricordano più di quanto pensi.",
+      "Sei qui! Io non ho fatto altro che dormire per {days} giorni."
+    ],
+    "personalBest": [
+      "Nuovo record: {wpm} ppm! L'ho visto. L'HO VISTO.",
+      "{wpm} ppm! È la tua velocità massima di sempre!",
+      "Record personale! {wpm} ppm. Sto saltellando.",
+      "Wow, {wpm} ppm. Il tuo nuovo record!",
+      "L'hai sentito? {wpm} ppm. Un nuovo record!",
+      "Nuovo record: {wpm} ppm. Me lo sto incorniciando. Nella mia testa."
+    ],
+    "streak": [
+      "{days} giorni di fila! Sei inarrestabile.",
+      "Sono {days} giorni di fila che raggiungi l'obiettivo. Wow!",
+      "Serie di {days} giorni! Tengo il conto, tranquillo.",
+      "{days} giorni consecutivi! Le tue dita devono essere felicissime.",
+      "Obiettivo raggiunto per {days} giorni di fila. Leggenda.",
+      "{days} giorni! Guarda come sei costante."
+    ],
+    "themeUnreadable": [
+      "Strizzo gli occhi… strizzo gli occhi… non riesco a leggere {what}. Tu sì?",
+      "{what} si nasconde da me. Più contrasto, per favore!",
+      "Uff, {what} si confonde con lo sfondo. I miei occhi!",
+      "Sono un tasto e perfino io non riesco a vedere {what}."
+    ],
+    "themeScheme": [
+      "Quella pagina sembra {page} a me, ma dice {scheme}. Cambiamo “chiaro o scuro”?",
+      "Una pagina {page} in un tema {scheme}? Mi vestirò per il tempo sbagliato!"
+    ],
+    "themeMistakes": [
+      "Aspetta, errori e testo digitato sembrano uguali. Come farò a distinguerli?",
+      "I tuoi errori sono travestiti! Dagli un colore tutto loro."
+    ],
+    "themeAccent": [
+      "L'accento sembra proprio il colore degli errori. Ogni link sembrerà un refuso!",
+      "Link dello stesso colore degli errori? Continuo a pensare di aver sbagliato qualcosa."
+    ],
+    "themeLoud": [
+      "WOW, quello sfondo è luminoso! I miei occhi stanno facendo una piccola danza.",
+      "Quella pagina è rumorosa! Bellissima per un minuto, stancante per un test lungo."
+    ],
+    "themeHeat": [
+      "Il calore dei tasti sale e scende! Dovrebbe aumentare da 1 a 4.",
+      "Caldo, freddo, caldo? I livelli del calore dei tasti sono fuori ordine."
+    ],
+    "themeSameAsBase": [
+      "Tela nuova! Passa su un colore per vedere dove va.",
+      "Dai, cambia qualcosa. Ti dirò cosa ne penso!"
+    ],
+    "themeLovely": [
+      "Ooh, questo mi piace. Molto da te.",
+      "Leggibile E bello. Salvalo, salvalo!",
+      "Lo indosserei. In realtà, in un certo senso lo sto già indossando.",
+      "Passa tutto. Ottimo lavoro!"
+    ],
+    "wake@morning": [
+      "Mmmf… è già mattina? Ciao, sono Cal!",
+      "Buongiorno! Stavo ancora sognando la colazione. Cal, ciao!",
+      "Oh! È sorto il sole. Anch'io. Sono Cal."
+    ],
+    "wake@afternoon": [
+      "Eh? Solo un pisolino pomeridiano! Cal, eccomi.",
+      "Pisolino pomeridiano interrotto. Ne valeva la pena. Ciao, sono Cal!",
+      "Oh, ehi! Era un sonnellino? Buon pomeriggio! Sono Cal."
+    ],
+    "wake@evening": [
+      "È già sera? Mi sono addormentato! Ciao, sono Cal.",
+      "Mmm, la luce è diventata dorata. Ciao, sono Cal.",
+      "Oh! Buonasera. Sono Cal e sono sveglio. Più o meno."
+    ],
+    "wake@night": [
+      "Wow, fuori è buio! Ciao, sono Cal. Piano piano.",
+      "Shh… è nel cuore della notte. Ciao, sono Cal.",
+      "Nottambulo! A quanto pare anch'io. Cal, ciao."
+    ],
+    "intro@morning": [
+      "Lezione mattutina. Le dita fresche imparano più in fretta.",
+      "Esercitazione mattutina! Il cervello è ordinato e pronto.",
+      "Buongiorno. Facciamola prima che la giornata diventi rumorosa."
+    ],
+    "intro@afternoon": [
+      "Lezione pomeridiana! Con calma e costanza.",
+      "Pomeriggio perfetto per qualche nuovo tasto.",
+      "Una lezione dopo pranzo. Audace. Apprezzo."
+    ],
+    "intro@evening": [
+      "Lezione serale. Stasera andare piano va benissimo.",
+      "Un po' di esercitazione prima che la giornata finisca.",
+      "Tasti serali! Spero siano accoglienti."
+    ],
+    "intro@night": [
+      "Una lezione a quest'ora? Piano. Le dita stanche sbagliano di più.",
+      "Esercitazione notturna. Tasti silenziosi, dita attente.",
+      "È tardi, quindi niente pressione. Un buon tentativo, poi riposo."
+    ],
+    "warmup@morning": [
+      "Le dita del mattino sono rigide. Perfette per un riscaldamento.",
+      "Riscaldamento al mattino? Da manuale.",
+      "Prima allunga le dita, è ancora presto."
+    ],
+    "warmup@afternoon": [
+      "Riscaldamento! Un po' di movimento per scrollarsi di dosso il pomeriggio.",
+      "Calo pomeridiano? Il riscaldamento lo sistema.",
+      "Riscaldamento rapido, poi si fa sul serio."
+    ],
+    "warmup@evening": [
+      "Riscaldamento serale. Sciogliamoci dopo la giornata.",
+      "Giornata lunga? Prima giri facili.",
+      "Un riscaldamento delicato per le dita della sera."
+    ],
+    "warmup@night": [
+      "Riscaldamento tardivo. Piano e leggero, per favore.",
+      "Le dita assonnate hanno bisogno di sgranchirsi. È ora del riscaldamento.",
+      "Prima riscaldamento. È tardi, nessuna fretta."
+    ],
+    "sleepy@morning": [
+      "Sbadigli mattutini. Hai dell'acqua?",
+      "Zzz… troppo presto, persino per me.",
+      "Anch'io mi sto ancora svegliando, credo."
+    ],
+    "sleepy@afternoon": [
+      "Calo pomeridiano. Un po' di stretching?",
+      "Mmm, il sonnellino dopo pranzo. Anche io.",
+      "Una breve pausa va bene. Aspetterò."
+    ],
+    "sleepy@evening": [
+      "Giornata lunga, eh? Una pausa è concessa.",
+      "Sbadigli serali. Sarò qui.",
+      "Prenditi cinque minuti. I tasti non scappano."
+    ],
+    "sleepy@night": [
+      "È tardi… forse andare a letto batte un altro giro.",
+      "Zzz… oh, scusa. La notte è la mia ora del pisolino.",
+      "Riposa gli occhi. Riprenderemo domani."
     ]
   }
 }
