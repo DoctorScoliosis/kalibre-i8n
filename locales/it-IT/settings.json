@@ -4,7 +4,7 @@
       "label": "suggerisci errori da allenare",
       "option": {
         "relaxed": "solo schemi chiari",
-        "normal": "normal",
+        "normal": "normale",
         "eager": "presto"
       },
       "description": "quanta evidenza prima di un suggerimento"
@@ -44,7 +44,7 @@
       "label": "difficoltà delle missioni giornaliere",
       "option": {
         "easy": "facile",
-        "normal": "normal",
+        "normal": "normale",
         "hard": "difficile"
       },
       "description": "quanto le missioni e la sfida giornaliera ti mettono alla prova e quanti XP danno. Una modifica si applica alle missioni di domani"
@@ -113,7 +113,7 @@
       "description": "il cursore scivola tra le lettere"
     },
     "focusMode": {
-      "label": "focus",
+      "label": "messa a fuoco",
       "option": {
         "line": "riga corrente",
         "sentence": "frase",
@@ -340,11 +340,11 @@
       "label": "lunghezze miste delle citazioni",
       "description": "lunghezze delle citazioni usate nei test misti",
       "option": {
-        "short": "short",
-        "medium": "medium",
-        "long": "long",
-        "huge": "huge",
-        "massive": "massive"
+        "short": "breve",
+        "medium": "medio",
+        "long": "lungo",
+        "huge": "enorme",
+        "massive": "gigantesco"
       }
     },
     "goalXp": {
@@ -415,7 +415,7 @@
       "label": "spaziatura del testo",
       "description": "spaziatura più ampia tra lettere e parole",
       "option": {
-        "normal": "normal",
+        "normal": "normale",
         "wide": "ampia"
       }
     },
@@ -424,7 +424,7 @@
       "description": "rendi più distinti testo e bordi",
       "option": {
         "system": "segui il sistema",
-        "normal": "normal",
+        "normal": "normale",
         "more": "di più"
       }
     },
