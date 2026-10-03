@@ -9,5 +9,195 @@
     "giggle_fit": "Fou rire",
     "thats_enough": "Ça suffit",
     "devoted": "Dévoué"
+  },
+  "menu": {
+    "wardrobe": "garderobe",
+    "get_ring": "offrir une bague à {companion, select, cal {lui} libby {elle} other {eux}}",
+    "options_aria": "options de {companion}"
+  },
+  "engagement": {
+    "title": "c'est une décision plutôt importante…",
+    "confirm_give": "offrir la bague à {companion}",
+    "confirm_cancel": "je ne suis pas sûr…",
+    "confirm_message": "êtes-vous sûr ?"
+  },
+  "away": {
+    "note_hint": "une note",
+    "with_love_aria": "avec amour",
+    "back_tomorrow": "{partner} et moi sommes partis en lune de miel ! De retour demain."
+  },
+  "ending": {
+    "aria_label": "merci d'avoir joué à Kalibre",
+    "thanks": "merci d'avoir joué à Kalibre.",
+    "cal_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Hein ? Il y a quelque chose sur ma patte."
+      },
+      {
+        "reply": "c'est une bague."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Une bague ? Elle est si brillante. Mais… à quoi elle sert ?"
+      },
+      {
+        "reply": "elle est pour quelqu'un que tu aimes."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Quelqu'un que j'… oh. OH. Je sais exactement qui."
+      },
+      {
+        "reply": "appeler {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner} ! Tu peux venir ici une seconde ?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "Tu m'as appelé ? Tu as l'air agité. Qu'y a-t-il ?"
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "C'est une bague. Pour toi. Je veux dire, si tu la veux. Tu la veux ?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Oh, {proposer}. Bien sûr que oui."
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Elle va ! Elle VA !"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Deux touches, côte à côte. Comme toujours."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "On y va ?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Allons-y."
+      },
+      {
+        "cue": "walkOut"
+      }
+    ],
+    "libby_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Oh. Il y a quelque chose sur ma patte."
+      },
+      {
+        "reply": "c'est une bague."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Une bague. Elle est belle… mais ce n'est pas vraiment à moi, si ?"
+      },
+      {
+        "reply": "elle est pour quelqu'un de spécial."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Quelqu'un de spécial. Mmm. Je crois savoir qui."
+      },
+      {
+        "reply": "appeler {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner} ? Tu pourrais venir ici un instant ?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "Je suis là ! Qu'y a-t-il ? Oh, qu'est-ce que c'est ? C'est brillant !"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "C'est une bague, {partner}. Elle est pour toi."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Pour MOI ? Oui ! Oui oui oui !"
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Ne bouge plus, alors."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Je ne bouge pas ! Enfin, presque."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "On va où maintenant ?"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Quelque part de charmant."
+      },
+      {
+        "cue": "walkOut"
+      }
+    ],
+    "cal_letter": [
+      "cher toi,",
+      "{partner} et moi sommes partis un petit moment. c'est notre lune de miel ! Je n'arrive toujours pas à y croire.",
+      "le clavier est tout à toi jusqu'à demain. Les leçons fonctionnent toujours, tu n'auras juste pas mes encouragements. Alors encourage-toi toi-même, d'accord ? À haute voix.",
+      "de retour avant que tu ne t'en rendes compte. Probablement avec du sable dans nos touches.",
+      "{proposer} & {partner}"
+    ],
+    "libby_letter": [
+      "cher toi,",
+      "{partner} et moi sommes partis pour une journée. une lune de miel, apparemment. Il n'a pas arrêté de sauter de joie depuis la bague.",
+      "les leçons sont ouvertes pendant notre absence. Va doucement, fais des pauses, et garde tes doigts sur la rangée de base. Ça te réussira.",
+      "de retour demain. Je le ramènerai en un seul morceau.",
+      "{proposer} & {partner}"
+    ]
   }
 }

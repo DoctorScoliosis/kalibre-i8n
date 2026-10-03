@@ -1,0 +1,18 @@
+{
+  "filter": {
+    "warning": "Les listes de mots de Kalibre proviennent de vieux livres et de grands dictionnaires, qui incluent des injures et d'autres mots offensants. Avec le filtre désactivé, ils peuvent apparaître dans les tests, les exercices, les leçons et les jeux. En le désactivant, vous acceptez que vous pourriez les voir, et que l'auteur de Kalibre n'est pas responsable de toute offense causée.",
+    "turn_off": "désactiver le filtre",
+    "keep_on": "le garder activé",
+    "confirm_title": "désactiver le filtre des mots offensants ?",
+    "filter_on": "filtre activé",
+    "filter_off": "filtre désactivé",
+    "placeholder": "un par ligne, ou séparés par des virgules ; terminez par * pour tous les mots commençant par cela",
+    "filtered_count": "{count, plural, one {# mot} other {# mots}} de vos propres mots filtrés",
+    "no_words": "aucun mot à vous",
+    "heading": "mots offensants",
+    "toggle_label": "filtrer les mots offensants",
+    "own_label": "mots à vous à filtrer",
+    "explanation": "Activé : les injures et les jurons les plus forts sont exclus des listes de mots, et les passages qui les contiennent sont ignorés. Vos propres textes et citations ne sont jamais modifiés.",
+    "own_explanation": "Conservés avec ce profil uniquement, jamais partagés. Ils s'appliquent lorsque le filtre est activé."
+  }
+}

@@ -5,17 +5,8 @@
   "dir": "ltr",
   "fallback": "en-GB",
   "lowercaseDates": true,
-  "fonts": [
-    "system-ui",
-    "-apple-system",
-    "Segoe UI",
-    "Roboto",
-    "Helvetica",
-    "Arial",
-    "sans-serif"
-  ],
   "reviewed": "machine",
   "revision": 3,
   "version": "2026-10-02",
-  "changes": "Removed obsolete quest sentence keys"
+  "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording"
 }

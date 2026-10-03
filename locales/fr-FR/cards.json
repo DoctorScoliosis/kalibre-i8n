@@ -1,0 +1,204 @@
+{
+  "view": {
+    "card_aria": "carte de {name} : {described}"
+  },
+  "window": {
+    "your_card": "votre carte",
+    "card_title": "carte",
+    "cosmetics": "cosmétiques",
+    "stickers": "autocollants",
+    "garage": "garage",
+    "done": "terminé"
+  },
+  "card_view": {
+    "lv": "niveau {level}",
+    "with_after_level": " · avec {companionName}",
+    "with_companion": "avec {companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "Voici à quoi ressemble votre carte pour les autres lors d'une course. Votre compagnon se tient là où une photo serait : les photos de profil ne quittent jamais cet appareil. Faites glisser un autocollant pour le déplacer ; sélectionnez-en un pour sa couleur, sa taille et son orientation, ou utilisez les flèches, [ et ], et Supprimer ; Échap ou un clic ailleurs le désélectionne.",
+    "what_your_card_wears": "ce que votre carte porte",
+    "colour": "couleur {tokenLabel}",
+    "theme_default_colour": "couleur par défaut du thème",
+    "delete_sticker": "supprimer l'autocollant",
+    "sticker_arrows_move_it_and": "autocollant {name} : les flèches le déplacent, [ et ] le tournent, supprimer l'enlève ; sélectionnez-le pour sa couleur et sa taille",
+    "selected_sticker_s_colour": "couleur de l'autocollant sélectionné",
+    "add_a_sticker": "ajouter un autocollant {name}",
+    "a_secret_sticker": "un autocollant secret",
+    "a_card_shows_at_most": "une carte affiche au maximum {MAX_SHOWCASE}",
+    "remove_every_sticker": "supprimer tous les autocollants",
+    "nothing_to_show_off_yet": "Rien à montrer pour l'instant. Vos réalisations apparaîtront ici au fur et à mesure que vous les obtiendrez.",
+    "tabs": {
+      "showcase": {
+        "title": "vitrine",
+        "hint": "jusqu'à {max} réalisations que vous avez obtenues"
+      },
+      "garage": {
+        "title": "garage",
+        "hint": "habillez votre voiture de course : c'est ce que vous conduisez sur la piste, et ce que tout le monde voit en vous affrontant"
+      }
+    },
+    "tint": "{slot}Teinte"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {
+        "title": "bordure",
+        "hint": "autour de la carte"
+      },
+      "frame": {
+        "title": "cadre",
+        "hint": "autour de votre compagnon"
+      },
+      "aura": {
+        "title": "aura",
+        "hint": "une lueur derrière votre compagnon"
+      },
+      "backdrop": {
+        "title": "fond",
+        "hint": "derrière tous les éléments de la carte"
+      },
+      "sticker": {
+        "title": "autocollants",
+        "hint": "faites-les glisser n'importe où sur la carte"
+      }
+    },
+    "items": {
+      "border-double": {
+        "name": "double ligne"
+      },
+      "border-stitch": {
+        "name": "cousu"
+      },
+      "border-ribbon": {
+        "name": "ruban"
+      },
+      "border-corners": {
+        "name": "équerres"
+      },
+      "border-keycap": {
+        "name": "touche de clavier"
+      },
+      "border-heat": {
+        "name": "chaleur"
+      },
+      "border-neon": {
+        "name": "néon"
+      },
+      "border-gilt": {
+        "name": "doré"
+      },
+      "border-midnight": {
+        "name": "minuit"
+      },
+      "frame-double": {
+        "name": "double anneau"
+      },
+      "frame-dashed": {
+        "name": "anneau pointillé"
+      },
+      "frame-square": {
+        "name": "carré de touche"
+      },
+      "frame-cog": {
+        "name": "pignon"
+      },
+      "frame-petals": {
+        "name": "pétales"
+      },
+      "frame-orbit": {
+        "name": "orbite"
+      },
+      "frame-laurel": {
+        "name": "laurier"
+      },
+      "frame-crown": {
+        "name": "couronne"
+      },
+      "aura-soft": {
+        "name": "lueur douce"
+      },
+      "aura-pulse": {
+        "name": "pulsation"
+      },
+      "aura-ember": {
+        "name": "braise"
+      },
+      "aura-halo": {
+        "name": "halo"
+      },
+      "aura-aurora": {
+        "name": "aurore"
+      },
+      "aura-prism": {
+        "name": "prisme"
+      },
+      "backdrop-dots": {
+        "name": "points"
+      },
+      "backdrop-pinstripe": {
+        "name": "rayures fines"
+      },
+      "backdrop-graph": {
+        "name": "papier millimétré"
+      },
+      "backdrop-waves": {
+        "name": "vagues"
+      },
+      "backdrop-stars": {
+        "name": "champ d'étoiles"
+      },
+      "backdrop-confetti": {
+        "name": "confettis"
+      },
+      "sticker-star": {
+        "name": "étoile"
+      },
+      "sticker-leaf": {
+        "name": "feuille"
+      },
+      "sticker-key": {
+        "name": "touche de clavier"
+      },
+      "sticker-heart": {
+        "name": "cœur"
+      },
+      "sticker-flower": {
+        "name": "fleur"
+      },
+      "sticker-bolt": {
+        "name": "éclair"
+      },
+      "sticker-note": {
+        "name": "note de musique"
+      },
+      "sticker-moon": {
+        "name": "lune"
+      },
+      "sticker-rocket": {
+        "name": "fusée"
+      },
+      "sticker-castle": {
+        "name": "château"
+      },
+      "sticker-magnifier": {
+        "name": "loupe"
+      },
+      "sticker-book": {
+        "name": "livre"
+      },
+      "sticker-flag": {
+        "name": "drapeau à damier"
+      },
+      "sticker-crown": {
+        "name": "couronne"
+      },
+      "sticker-teacup": {
+        "name": "tasse de thé"
+      },
+      "sticker-sparkle": {
+        "name": "paillette"
+      }
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "stages": {
+    "1": {
+      "name": "rangée de base"
+    },
+    "2": {
+      "name": "rangée supérieure"
+    },
+    "3": {
+      "name": "rangée inférieure"
+    },
+    "4": {
+      "name": "majuscules"
+    },
+    "5": {
+      "name": "chiffres"
+    },
+    "6": {
+      "name": "fluidité"
+    }
+  },
+  "lessons": {
+    "1": {
+      "1": {
+        "title": "main gauche rangée de base"
+      },
+      "2": {
+        "title": "main droite rangée de base"
+      },
+      "3": {
+        "title": "index étendent vers l'intérieur"
+      },
+      "4": {
+        "title": "révision rangée de base"
+      }
+    },
+    "2": {
+      "1": {
+        "title": "doigts du milieu vers le haut"
+      },
+      "2": {
+        "title": "index vers le haut"
+      },
+      "3": {
+        "title": "index, colonne intérieure"
+      },
+      "4": {
+        "title": "annulaires vers le haut"
+      },
+      "5": {
+        "title": "auriculaires vers le haut"
+      },
+      "6": {
+        "title": "révision rangée supérieure"
+      }
+    },
+    "3": {
+      "1": {
+        "title": "doigts du milieu vers le bas"
+      },
+      "2": {
+        "title": "index vers le bas"
+      },
+      "3": {
+        "title": "index, colonne intérieure"
+      },
+      "4": {
+        "title": "annulaires vers le bas"
+      },
+      "5": {
+        "title": "auriculaires vers le bas"
+      },
+      "6": {
+        "title": "révision rangée inférieure"
+      }
+    },
+    "4": {
+      "1": {
+        "title": "majuscule avec la rangée de base"
+      },
+      "2": {
+        "title": "majuscule avec toutes les lettres"
+      },
+      "3": {
+        "title": "phrases"
+      }
+    },
+    "5": {
+      "1": {
+        "title": "index étendent vers le haut"
+      },
+      "2": {
+        "title": "doigts du milieu étendent vers le haut"
+      },
+      "3": {
+        "title": "annulaires étendent vers le haut"
+      },
+      "4": {
+        "title": "auriculaires étendent vers le haut"
+      },
+      "5": {
+        "title": "étirements de l'auriculaire"
+      },
+      "6": {
+        "title": "révision chiffres"
+      }
+    },
+    "6": {
+      "1": {
+        "title": "les 100 mots les plus courants"
+      },
+      "2": {
+        "title": "les 500 mots les plus courants"
+      },
+      "3": {
+        "title": "prose réel"
+      },
+      "4": {
+        "title": "passons aux tests de frappe"
+      }
+    }
+  },
+  "steps": {
+    "keys": {
+      "title": "les nouvelles touches seules"
+    },
+    "mix": {
+      "title": "les nouvelles touches avec les autres"
+    }
+  },
+  "ui": {
+    "the_steps_again": "les étapes à nouveau",
+    "steps_first": "{count} courtes étapes d'abord : les nouvelles touches en motifs, puis avec les touches que tu connais. Ensuite le test.",
+    "steps_title": "Les {count} courtes étapes sur les nouvelles touches, puis le test",
+    "status_mastered": "maîtrisé",
+    "status_practising": "en entraînement",
+    "status_ready": "prêt",
+    "status_locked": "verrouillé",
+    "stats_summary": "meilleur {wpm} mots/min · {accuracy}% · {attempts, plural, one {# essai} other {# essais}}",
+    "prerequisite": "Maîtrise {prereq} d'abord",
+    "intro": "Apprends à taper sans regarder, un groupe de touches à la fois. Chaque leçon s'ouvre lorsque la précédente est maîtrisée : 25 mots/min à 95 % de précision sur 30 mots ou plus. Les leçons rapportent de l'XP, et comptent pour un objectif quotidien d'XP.",
+    "numpad_offer": "Un pavé numérique ? Kalibre a de la pratique pour : leçons, un test, des calculs et un jeu. ",
+    "turn_it_on": "l'activer",
+    "not_now": "pas maintenant",
+    "numpad_heading": "pavé numérique",
+    "numpad_practice": "pratique du pavé numérique",
+    "numpad_desc": "leçons, un test de pavé numérique, des calculs et un jeu",
+    "finger_guidance_fallback": "Le guidage des doigts est pour QWERTY (US) pour l'instant. Tu peux toujours suivre les leçons avec ta disposition ; les touches sont placées comme les tiennes.",
+    "continue_lesson": "continuer : {id} {title}",
+    "start_first": "commencer par la leçon 1.1",
+    "all_mastered": "toutes les leçons maîtrisées ✓",
+    "mastered_count": "{count} sur {total} maîtrisées",
+    "stage_heading": "étape {stage} · {name}",
+    "keyboard_needed": "Les leçons ont besoin d'un vrai clavier : branche-en un (Bluetooth ou USB) et appuie sur n'importe quelle touche. Les tests et les jeux fonctionnent avec le clavier à l'écran.",
+    "all_lessons": "toutes les leçons",
+    "handoff_intro": "Tu connais toutes les touches maintenant. Continues sur la page de frappe : les tests chronométrés et les citations développent la vitesse, et Kalibre commence à remarquer les erreurs que tu fais le plus souvent, pour que les exercices puissent y travailler.",
+    "go_typing": "aller aux tests de frappe",
+    "opens_prereq": "Cette leçon s'ouvre une fois que {prereq} est maîtrisée.",
+    "go_to_prereq": "aller à {prereq}",
+    "new_keys_prefix": "nouvelles touches : ",
+    "review_so_far": "une révision de tout jusqu'à présent",
+    "every_key": "toutes les touches que tu connais",
+    "flow": "fluidité",
+    "one_stream": "un flux",
+    "short_rounds": "courtes séries",
+    "words_a_round": "{unit} par série",
+    "length": "longueur",
+    "keep_going": "continuer",
+    "timer": "chronomètre",
+    "none": "aucun",
+    "start": "commencer",
+    "straight_to_test": "directement au test",
+    "start_test": "commencer le test",
+    "warm_up_first": "échauffement d'abord : {keys}",
+    "warm_up_title": "Une courte série sur {reason} (non enregistrée ; échap passe au test)",
+    "slipped_keys_note": "{keys} ont glissé la dernière fois, donc un court échauffement vient d'abord. Passe le test quand tu te sens prêt.",
+    "take_test": "passer le test",
+    "next_step": "suivant : {title}",
+    "warm_up_again": "s'échauffer à nouveau",
+    "this_step_again": "cette étape à nouveau",
+    "step_heading": "étape {step} sur {total} · {title}",
+    "warmup_heading": "échauffement · {keys}",
+    "accuracy_summary": "{accuracy}% de précision",
+    "ready_test": "Prêt pour le test quand tu veux.",
+    "ready_step": "Prêt pour l'étape suivante.",
+    "slips_continue": "Quelques glissades encore. Un autre essai peut aider, ou continue quand tu te sens prêt.",
+    "practise_again": "s'entraîner à nouveau",
+    "result_mastered": "✓ {id} {title} : maîtrisé{exclamation, select, yes {!} other {}}",
+    "result_keep_practising": "{id} {title} : continue l'entraînement",
+    "steno_intro": "Les leçons enseignent la frappe sans regarder sur un clavier, donc elles sont mises de côté pendant que tu tapes avec une machine sténo. Les tests, les exercices et les jeux fonctionnent comme d'habitude, et ta progression dans les leçons est conservée.",
+    "take_test_button": "passer un test",
+    "on_keyboard_now": "Je suis sur un clavier maintenant",
+    "switch_keyboard_title": "Changer « Je tape avec » → retour au clavier",
+    "needs_words": "{minWords} {unit} ou plus (tu as tapé {words})",
+    "needs_wpm": "{wpm} mots/min ({actual} cette fois)",
+    "needs_accuracy": "{accuracy}% de précision ({actual}% cette fois)",
+    "needs_key": "toutes les nouvelles touches à {accuracy}% : {key} était à {actual}%",
+    "needs_key_generic": "toutes les nouvelles touches à {accuracy}%",
+    "needs_heading": "Pour la maîtriser, une série a besoin de :",
+    "next_open": "{id} {title} est maintenant ouvert.",
+    "slips_most": "touches qui ont le plus glissé : {slips}",
+    "slips_none": "toutes les touches à 95 % ou mieux cette fois",
+    "next_button": "suivant : {id} {title}",
+    "best_run_note": "jugé sur tes 30 meilleurs {unit} de suite : {wpm} mots/min à {accuracy}%",
+    "numbers_summary": "{wpm} mots/min · {accuracy}% de précision · {words} {unit} · {clock}",
+    "xp_gained": "+{gained} XP",
+    "level_up": " · niveau {level} !",
+    "level_progress": " · niveau {level} · {remaining} à atteindre",
+    "goal_met": "✓ objectif quotidien atteint · {amount} aujourd'hui",
+    "goal_progress": "objectif quotidien · {done} sur {target} aujourd'hui",
+    "runner_finish": "terminer",
+    "runner_resume": "reprendre",
+    "runner_paused": "en pause",
+    "runner_restart": "redémarrer ",
+    "runner_quit": "quitter sans enregistrer ",
+    "round_summary": "série {round} : {wpm} mots/min · {accuracy}% — espace pour la série suivante",
+    "hints_prep": "échap passe au test · espace série {unit} suivante",
+    "hints_normal": "échap pause · espace série {unit} suivante"
+  },
+  "cal_wardrobe": {
+    "whose_wardrobe": "la garde-robe de qui",
+    "what_to_change": "quoi changer",
+    "items": "objets",
+    "s_wardrobe": "la garde-robe de {name}",
+    "everything_here_is_earned_by": "Tout ici est gagné en tapant, jamais acheté. Clique droit sur {name} à tout moment pour revenir."
+  },
+  "ending": {
+    "s_options": "les options de {name}",
+    "give_the_ring": "donner la bague à {name}"
+  },
+  "keyboard_diagram": {
+    "finger_colours_are_for_qwerty": "Les couleurs des doigts sont pour QWERTY (US) pour l'instant ; les leçons fonctionnent toujours avec ta disposition.",
+    "left_hand": "main gauche",
+    "right_hand": "main droite"
+  },
+  "learn_curriculum": {
+    "master_first": "Maîtrise {prerequisiteOf} d'abord",
+    "stage": "étape {stage} · {value}"
+  },
+  "learn_lesson": {
+    "fingers": "doigts",
+    "diagram_label": "clavier : les touches de la leçon {id}",
+    "new_keys_fingers": " · {fingers}",
+    "list_separator": ", "
+  },
+  "learn_numpad_run": {
+    "num_lock_is_off_the": "verrouillage numérique désactivé : le pavé envoie des flèches. Appuie sur verrouillage numérique sur le pavé."
+  },
+  "learn_numpad": {
+    "practice_for_the_number_pad": "Pratique pour le pavé numérique : un test de pavé numérique, des leçons et des calculs. C'est pour les personnes qui en ont un, donc c'est désactivé jusqu'à ce que tu le dises.",
+    "ten_key_practice_lessons_from": "Pratique du pavé numérique : des leçons à partir des touches de la rangée de base vers l'extérieur, des montants à taper à partir d'une bande avec entrée et les opérateurs, et des calculs mentaux et une caisse pour travailler. Tout cela rapporte de l'XP.",
+    "i_don_t_have_a": "je n'ai pas de pavé numérique",
+    "turns_number_pad_practice_off": "Désactive à nouveau la pratique du pavé numérique",
+    "from_your_last_few_runs": "À partir de tes dernières séries. Celles-ci sont conservées à part des erreurs du clavier principal, et sont travaillées ici.",
+    "ten_key_drill": "exercice de pavé numérique",
+    "sums_drill": "exercice de calculs",
+    "diagram_weak": "pavé numérique, coloré par les touches qui posent problème",
+    "diagram_mistakes": "pavé numérique, coloré par les erreurs",
+    "diagram": "pavé numérique",
+    "drill_keys": "touches : {keys}",
+    "drill_sums": "calculs : {kinds}",
+    "tile_lessons": "leçons",
+    "tile_lessons_note": "{mastered} sur {total} maîtrisées",
+    "tile_lessons_blurb": "les touches de la rangée de base 4 5 6, puis vers l'extérieur vers les opérateurs",
+    "tile_tenkey": "test de pavé numérique",
+    "tile_tenkey_fastest": "ton record : {ksph} frappes par heure",
+    "tile_tenkey_none": "aucun test pour l'instant",
+    "tile_tenkey_blurb": "montants, nombres entiers, ou un mélange avec des opérateurs",
+    "tile_sums": "calculs",
+    "tile_sums_last": "dernier : {right} sur {answers} justes",
+    "tile_sums_none": "aucun calcul pour l'instant",
+    "tile_sums_blurb": "calcul mental : addition, soustraction, multiplication, division et pourcentages",
+    "tile_till": "caisse",
+    "tile_till_best": "ton record : {served} clients servis",
+    "tile_till_none": "aucune série pour l'instant",
+    "tile_till_blurb": "un jeu : sers la file en calculant la monnaie à rendre"
+  },
+  "learn_padlessons": {
+    "master_lesson_first": "Maîtrise la leçon {number} d'abord",
+    "number_pad_lessons": "leçons du pavé numérique",
+    "learn_the_pad_without_looking": "Apprends le pavé sans regarder, quelques touches à la fois, à partir des touches de la rangée de base 4 5 6 vers l'extérieur. Chaque leçon s'ouvre lorsque la précédente est maîtrisée : la vitesse affichée, 95 % de précision sur 25 entrées, et chaque nouvelle touche principalement juste. Les leçons rapportent de l'XP.",
+    "start_with_lesson_1": "commencer par la leçon 1",
+    "of_mastered": "{mastered} sur {length} maîtrisées",
+    "all_number_pad_lessons": "toutes les leçons du pavé numérique",
+    "this_lesson_opens_once_lesson": "Cette leçon s'ouvre une fois que la leçon {number} est maîtrisée.",
+    "go_to_lesson": "aller à la leçon {number}",
+    "to_master_it_keystrokes_an": "Pour la maîtriser : {thousands} frappes par heure à {accuracy}% de précision sur {entries} entrées, et chaque nouvelle touche juste {keyAccuracy} fois sur 100. Pose ta main droite sur 4 5 6, avec le point en relief sur 5 sous ton majeur.",
+    "try_again": "réessayer",
+    "result": "résultat",
+    "mastered_again": "maîtrisé à nouveau",
+    "lesson_is_open": "La leçon {number} est ouverte.",
+    "that_s_every_number_pad": "C'est toutes les leçons du pavé numérique.",
+    "again": "encore",
+    "best_summary": "meilleur {ksph} par heure · {accuracy}% · {attempts, plural, one {# essai} other {# essais}}",
+    "best_detail": "meilleur {ksph} par heure à {accuracy}% · {attempts, plural, one {# essai} other {# essais}}",
+    "best_detail_mastered": "maîtrisé ✓ · meilleur {ksph} par heure à {accuracy}% · {attempts, plural, one {# essai} other {# essais}}",
+    "new_keys": "nouvelles touches : {keys}",
+    "headline": "{value} frappes par heure",
+    "to_master": "Pour la maîtriser : {reasons}.",
+    "reason_separator": " et ",
+    "reason_entries": "toutes les {entries} entrées",
+    "reason_ksph": "{target} frappes par heure ({now} cette fois)",
+    "reason_accuracy": "{target}% de précision ({now}% cette fois)",
+    "reason_key": "chaque nouvelle touche juste {target} fois sur 100 ({key} était à {accuracy}%)",
+    "diagram_label": "pavé numérique : les touches de la leçon {number}",
+    "continue_lesson": "continuer : {number} {title}",
+    "next_lesson": "suivant : {number} {title}"
+  },
+  "learn_runner": {
+    "lesson": "leçon {id}",
+    "warm_up": "échauffement",
+    "step_of": "étape {current} sur {total}",
+    "counter_capped_prep": "{prep} · {done} / {target} {unit}",
+    "counter_capped": "{done} / {target} {unit}",
+    "counter": "{done} {unit}",
+    "time_left": " · {time} restant",
+    "finger_line": "{key} : {finger}",
+    "shift_other_hand": ", avec majuscule sur l'autre main",
+    "tip_suffix": " · {tip}",
+    "diagram_label": "clavier pour la leçon {id}"
+  },
+  "learn_sums": {
+    "custom_number_of_questions": "nombre personnalisé de questions",
+    "custom_number": "nombre personnalisé",
+    "sums": "calculs",
+    "mental_arithmetic_the_accountant_s": "Calcul mental, à la manière du comptable : un calcul apparaît, tu le résous et tapes la réponse sur le pavé, puis appuies sur entrée. Tu es noté sur la réponse et le temps qu'il a fallu. Trois bonnes réponses de suite et les calculs deviennent plus difficiles ; deux mauvaises et ils redeviennent plus faciles. Chaque réponse est exacte au centime près.",
+    "last_time_of_right_an": "dernière fois : {correctAnswers} sur {answers} justes, {seconds} par réponse, jusqu'au niveau {peakLevel}",
+    "no_sums_yet": "aucun calcul pour l'instant",
+    "your_answer": "ta réponse",
+    "you_typed": "✗ {prompt} = {answerText} · tu as tapé {typed}",
+    "level": "{min} / {count} · niveau {level}",
+    "type_the_answer_then_enter": "tape la réponse, puis entrée · retour arrière corrige · échap ouvre la ligne de commande",
+    "of": "{correctAnswers} sur {answers}",
+    "right": "juste",
+    "average_time": "temps moyen",
+    "of_2": "{right} sur {asked}",
+    "to_look_at_again": "à revoir",
+    "you_typed_2": " · tu as tapé {typed}",
+    "every_answer_right": "toutes les réponses justes.",
+    "change_the_sums": "changer les calculs",
+    "title_count": "calculs · {kind}{weak} · {count, plural, one {# question} other {# questions}}",
+    "title": "calculs · {kind}{weak}",
+    "weak_spots": " · points faibles",
+    "right_headline": "{of} justes",
+    "questions": "questions",
+    "start_at_level": "commencer au niveau"
+  },
+  "learn_tenkey": {
+    "your_best_for_this_ksph": "ton record pour ceci : {thousands} frappes/heure à {round}% de précision",
+    "no_run_of_this_kind": "aucune série de ce type pour l'instant",
+    "custom_length_in_minutes": "longueur personnalisée en minutes",
+    "custom_length_in_entries": "longueur personnalisée en entrées",
+    "custom_length": "longueur personnalisée",
+    "ten_key_test": "test de pavé numérique",
+    "amounts_arrive_one_to_a": "Les montants arrivent un par ligne, comme une bande. Tape chaque montant sur le pavé numérique et termine-le avec la touche indiquée après : entrée, ou un opérateur. La bande avance après une erreur, donc continue ; retour arrière corrige l'entrée en cours. Tu es noté en frappes par heure.",
+    "new_best": "nouveau record",
+    "your_best_for_this_is": "ton record pour ceci est {thousands}",
+    "not_a_wrong_key_clean": "pas une mauvaise touche : propre.",
+    "change_the_test": "changer le test",
+    "keys_to_watch": "touches à surveiller : {keys}",
+    "watch_key": "{key} ({wrong} erreurs)",
+    "run_title": "pavé numérique · {form} · {limit}",
+    "run_label": "test de pavé numérique",
+    "unit": "unité"
+  },
+  "learn_till": {
+    "till": "caisse",
+    "customers_queue_at_your_till": "Les clients font la queue à ta caisse. Chacun a payé avec un billet : calcule leur monnaie à rendre, tape-la sur le pavé et appuie sur entrée. La patience de chaque client s'épuise en attendant, donc rapide et juste les sert et le suivant avance. Une mauvaise réponse coûte une partie de leur patience, et quand trois sont partis, la caisse ferme. La monnaie est toujours exacte au centime près.",
+    "your_best_customers_served_in": "ton record : {best} clients servis d'affilée",
+    "no_shifts_yet": "aucune série pour l'instant",
+    "open_the_till": "ouvrir la caisse",
+    "the_customer_s_patience": "la patience du client",
+    "the_change": "la monnaie à rendre",
+    "customers_served_level_the_customers": "clients servis · niveau · les clients qui peuvent encore partir avant la fermeture de la caisse",
+    "press_enter_to_open_the": "appuie sur entrée pour ouvrir la caisse",
+    "change": "{billText} · monnaie ?",
+    "waiting_behind": "{behind} en attente derrière",
+    "no_one_waiting": "personne en attente",
+    "served_level": "{served} servis · niveau {level} · {repeat}{repeat2}",
+    "type_the_change_then_enter": "tape la monnaie à rendre, puis entrée · retour arrière corrige · échap ouvre la ligne de commande",
+    "the_till_is_closed": "la caisse est fermée",
+    "customer_served": " client servi",
+    "customers_served": " clients servis",
+    "your_best_is": "ton record est {previousBest}",
+    "another_shift": "une autre série"
+  },
+  "learn": {
+    "lessons_set_aside": "leçons mises de côté"
+  },
+  "mascot_sounds": {
+    "play_a_sample": "jouer un exemple",
+    "a_purr": "un ronronnement",
+    "what_sounds_like_at_your": "à quoi {name} ressemble à ton volume"
+  },
+  "mascot": {
+    "open_wardrobe": "{name} : ouvrir {companion, select, cal {sa} libby {sa} other {sa}} garde-robe",
+    "open_s_wardrobe": "{name} : ouvrir la garde-robe de {name2}",
+    "asleep_label": "{name}, endormi : réveiller {companion, select, cal {le} libby {la} other {le/la}}"
+  },
+  "numpad_tape": {
+    "entries": "entrées",
+    "the_tape": "la bande",
+    "wrong": "erroné"
+  },
+  "pad_lessons": {
+    "pad-1": {
+      "title": "les touches de la rangée de base : 4 5 6"
+    },
+    "pad-2": {
+      "title": "étendre vers le haut : 7 8 9"
+    },
+    "pad-3": {
+      "title": "étendre vers le bas : 1 2 3"
+    },
+    "pad-4": {
+      "title": "le pouce et le point : 0 ."
+    },
+    "pad-5": {
+      "title": "tous les chiffres"
+    },
+    "pad-6": {
+      "title": "plus, avec l'auriculaire"
+    },
+    "pad-7": {
+      "title": "moins"
+    },
+    "pad-8": {
+      "title": "multiplier et diviser"
+    },
+    "pad-9": {
+      "title": "tout le pavé"
+    }
+  },
+  "fingers": {
+    "LP": "auriculaire gauche",
+    "LR": "annulaire gauche",
+    "LM": "majeur gauche",
+    "LI": "index gauche",
+    "T": "pouce",
+    "RI": "index droit",
+    "RM": "majeur droit",
+    "RR": "annulaire droit",
+    "RP": "auriculaire droit"
+  },
+  "numpad_fingers": {
+    "RI": "index",
+    "RM": "majeur",
+    "RR": "annulaire",
+    "RP": "auriculaire",
+    "T": "pouce"
+  },
+  "key_names": {
+    "space": "espace",
+    "comma": "virgule",
+    "full_stop": "point",
+    "slash": "barre oblique",
+    "semicolon": "point-virgule",
+    "apostrophe": "apostrophe",
+    "hyphen": "tiret",
+    "equals": "égale"
+  },
+  "units": {
+    "sequences": "séquences",
+    "words": "mots",
+    "sequence": "séquence",
+    "word": "mot"
+  },
+  "learn_results": {
+    "diagram_label": "clavier coloré selon la fréquence à laquelle chaque touche a été mal tapée"
+  },
+  "entries": {
+    "a_ten_key_entry_needs": "Une entrée de pavé numérique a besoin d'au moins un chiffre.",
+    "ENTRY_FORMS": {
+      "whole": {
+        "label": "nombres entiers"
+      },
+      "amounts": {
+        "label": "montants"
+      },
+      "mixed": {
+        "label": "mélange, avec opérateurs"
+      }
+    }
+  },
+  "sums": {
+    "SUM_KINDS": {
+      "mixed": {
+        "label": "un mélange"
+      },
+      "add": {
+        "label": "addition"
+      },
+      "subtract": {
+        "label": "soustraction"
+      },
+      "multiply": {
+        "label": "multiplication"
+      },
+      "divide": {
+        "label": "division"
+      },
+      "percent": {
+        "label": "pourcentages"
+      }
+    }
+  },
+  "pad_key_names": {
+    "enter": "entrée",
+    "plus": "plus",
+    "minus": "moins",
+    "times": "fois",
+    "divide": "divisé",
+    "decimal_point": "virgule"
+  },
+  "numpad_labels": {
+    "weak_keys": "touches faibles",
+    "minutes": "{count} min",
+    "entries": "{count} entrées"
+  },
+  "numpad_sums": {
+    "kinds": {
+      "add": "addition",
+      "subtract": "soustraction",
+      "multiply": "multiplication",
+      "divide": "division",
+      "percent": "pourcentages"
+    }
+  }
+}

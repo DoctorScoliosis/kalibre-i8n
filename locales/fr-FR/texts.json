@@ -1,0 +1,82 @@
+{
+  "sections": {
+    "texts": "mes textes",
+    "texts_blurb": "Vos propres écrits, pratiqués exactement comme écrits.",
+    "quotes": "mes citations",
+    "quotes_blurb": "Les citations que vous ajoutez rejoignent les tests de citations et mixtes (60 caractères ou plus).",
+    "datasets": "jeux de données",
+    "datasets_blurb": "Livres et collections qui fournissent des citations, des listes de mots et des exercices."
+  },
+  "labels": {
+    "title": "titre",
+    "text_aria": "texte",
+    "paste_placeholder": "collez le texte ici",
+    "my_texts": "mes textes",
+    "datasets": "jeux de données",
+    "sections_aria": "sections textes",
+    "subfolders_too": " sous-dossiers aussi",
+    "drop_hint": "ou déposez des fichiers ici",
+    "words_count": "{count, plural, one {# mot} other {# mots}}",
+    "paragraphs_count": "{count, plural, one {# paragraphe} other {# paragraphes}}"
+  },
+  "actions": {
+    "save": "enregistrer",
+    "save_changes": "enregistrer les modifications",
+    "cancel": "annuler",
+    "practise": "pratiquer",
+    "edit": "modifier",
+    "delete": "supprimer",
+    "delete_confirm": "supprimer ?",
+    "yes_delete": "oui, supprimer",
+    "keep": "garder",
+    "practise_aria": "pratiquer {title}",
+    "edit_aria": "modifier {title}",
+    "delete_aria": "supprimer {title}",
+    "new_text": "nouveau texte",
+    "import_files": "importer .txt ou .md",
+    "import_folder": "importer un dossier"
+  },
+  "status": {
+    "saved": "enregistré \"{title}\"",
+    "updated": "mis à jour \"{title}\"",
+    "imported": "importé \"{title}\"",
+    "deleted": "supprimé \"{title}\"",
+    "no_folder_files": "aucun fichier .txt ou .md dans ce dossier",
+    "empty": "Aucun texte enregistré pour l'instant. Collez quelque chose que vous voulez pratiquer, ou importez un fichier .txt. Les textes restent sur cet appareil."
+  },
+  "quotes": {
+    "quote_placeholder": "la citation",
+    "quote_aria": "citation",
+    "author_placeholder": "qui l'a dit",
+    "source_placeholder": "optionnel",
+    "add_quote": "ajouter une citation",
+    "author": "auteur",
+    "source": "source",
+    "authors": "auteurs",
+    "sources": "sources",
+    "added": "citation ajoutée",
+    "updated": "citation mise à jour",
+    "deleted": "citation supprimée",
+    "unknown": "— inconnu",
+    "too_short": " · trop courte pour les tests ({min}+ caractères)",
+    "empty": "Ajoutez des citations que vous aimez ; elles apparaissent dans les tests de citations et mixtes. Des collections comme un fichier quotes.json peuvent être installées sous jeux de données."
+  },
+  "github_import": {
+    "github_s_limit_for_downloads": "La limite de GitHub pour les téléchargements sans connexion a été atteinte. Réessayez dans une heure.",
+    "that_repository_or_folder_wasn": "Ce dépôt ou dossier n'a pas été trouvé (il peut être privé).",
+    "github_answered": "GitHub a répondu {status}.",
+    "that_isn_t_a_github": "Ce n'est pas une adresse de dépôt GitHub (github.com/propriétaire/dépôt).",
+    "no_txt_or_md_files": "Aucun fichier .txt ou .md n'a été trouvé là-bas.",
+    "the_files_couldn_t_be": "Les fichiers n'ont pas pu être téléchargés."
+  },
+  "importers": {
+    "doesn_t_look_like_a": "{name} ne ressemble pas à un fichier texte.",
+    "isn_t_utf_8_text": "{name} n'est pas du texte UTF-8.",
+    "only_files_can_be_imported": "{name} : seuls les fichiers {ACCEPTED_EXTENSIONS} peuvent être importés.",
+    "is_larger_than_5_mb": "{name} est plus grand que 5 Mo.",
+    "is_empty": "{name} est vide."
+  },
+  "quote_collections": {
+    "no_quotes_were_found_in": "Aucune citation n'a été trouvée dans ce fichier."
+  }
+}

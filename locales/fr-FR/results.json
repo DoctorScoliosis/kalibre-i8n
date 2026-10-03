@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "speed": "vitesse",
+    "accuracy": "précision",
+    "characters": "caractères",
+    "words": "mots",
+    "time": "temps",
+    "consistency": "cohérence",
+    "best": "meilleur personnel",
+    "average": "moyenne",
+    "tests": "tests"
+  },
+  "candidate": {
+    "prompt_label": "suggestion d'entraînement",
+    "body": "Vous tapez souvent {word} · {count, plural, one {# fois} other {# fois}} sur {sessions, plural, one {# session} other {# sessions}}.",
+    "train": "entraîner",
+    "dismiss": "ignorer",
+    "later": "plus tard",
+    "drill_it_now": "exercer maintenant"
+  },
+  "actions": {
+    "next": "suivant",
+    "retry": "réessayer",
+    "watch_replay": "regarder le replay",
+    "save_ghost": "enregistrer comme fantôme",
+    "words": "mots",
+    "final": "final",
+    "as_typed": "tel que tapé"
+  },
+  "race_results": {
+    "full_stats": "statistiques complètes",
+    "your_race": "votre course",
+    "this_race_looked_like_key": "Cette course ressemblait à du tapotement aléatoire ({notCountedReason}), donc elle n'a pas été comptée : aucun XP, erreurs ou statistiques.",
+    "lv_to_go": " · niveau {level} · {value} à faire",
+    "drill_now": "exercer maintenant",
+    "counts": "erreurs {errors} · mots {words}"
+  },
+  "replay_player": {
+    "test_replay": "replay du test",
+    "pinned": "épinglé ✓",
+    "pinned_limit_reached_replays_unpin": "limite d'épinglage atteinte ({PINNED_LOGS_CAP} replays). Désépinglez un replay plus ancien d'abord.",
+    "close_replay": "fermer le replay",
+    "replay_scrubber": "curseur du replay",
+    "jump_to_playhead": "aller à la tête de lecture ⏮",
+    "0_wpm": "0 mots/min",
+    "replay_timeline_zoom": "zoom de la timeline du replay",
+    "zoom": "zoom",
+    "restart_replay": "redémarrer le replay",
+    "play": "lecture",
+    "saved_as_ghost": "enregistré comme fantôme ✓",
+    "wpm": "{round} mots/min"
+  },
+  "result_chart": {
+    "per_second_results": "Résultats par seconde",
+    "not_enough_typing_to_draw": "Pas assez de frappe pour dessiner un graphique.",
+    "chart_zoom": "zoom du graphique",
+    "speed_over_time_use_the": "Vitesse au fil du temps. Utilisez les touches fléchées gauche et droite pour lire chaque seconde."
+  },
+  "results": {
+    "words_lowest_accuracy_target_kept": "{words} mots · précision minimale {round}% · objectif {targetAccuracy}% · {floorWpm}+ mots/min conservés",
+    "words_peak_pace_lowest_target": "{words} mots · rythme maximal {round} · minimum {round2} · objectif {targetWpm} mots/min",
+    "longest_above_target_raw_in": "le plus long au-dessus de l'objectif {formatDuration} · {nearMisses} · brut {round} · {formatDuration2} au total",
+    "mistake_analysis_failed_for_this": "l'analyse des erreurs a échoué pour cette session",
+    "common_mistakes": "erreurs courantes",
+    "show_the_words": "afficher les mots",
+    "expected": "attendu « {text} »",
+    "typed_expected": "tapé {typed}, attendu {text}",
+    "deleted": "supprimé",
+    "this_drill": "cet exercice",
+    "now": "maintenant {to}",
+    "race_this_drill": "courir cet exercice",
+    "race_the_same_drill_again": "Courir le même exercice à nouveau, contre un fantôme de cette session",
+    "results": "résultats",
+    "survived": "survécu",
+    "wpm": "mots/min",
+    "acc": "préc",
+    "this_test_looked_like_key": "Ce test ressemblait à du tapotement aléatoire ({notCountedReason}), donc il n'a pas été compté : aucun XP, erreurs ou statistiques.",
+    "suggested_for_training": "{extraSuggested} suggérés pour l'entraînement",
+    "book_range": " {start} → {end}",
+    "the_end": "la fin",
+    "book_words": " · {count} mots",
+    "overdeleted": "vous avez supprimé {count, plural, one {# caractère correct} other {# caractères corrects}} au-delà de l'erreur",
+    "overdeleted_cost": ", environ {cost} mots/min",
+    "mistake_line": "{errors} dans {exposures}{share} · avant {before}",
+    "summary_line": "brut {raw} · {spread} · {duration}",
+    "practice_words": " · {count, plural, one {# mot de pratique} other {# mots de pratique}}",
+    "letters_to_cover": " · {count, plural, one {# lettre} other {# lettres}} restent à couvrir"
+  }
+}

@@ -4,10 +4,86 @@
   },
   "actions": {
     "swap": "Échanger",
-    "go": "Aller"
+    "swap_title": "Échanger cette quête contre une autre (une fois par jour)",
+    "go": "Aller",
+    "go_aria": "aller : {quest}"
   },
   "labels": {
+    "today": "aujourd'hui",
+    "quests": "quêtes",
     "challenge": "Défi",
-    "daily_goal": "Objectif quotidien"
+    "daily_goal": "Objectif quotidien",
+    "daily_goal_label": "objectif quotidien "
+  },
+  "today": {
+    "panel_aria": "quêtes du jour",
+    "getting": "Récupération des quêtes du jour…",
+    "new_at_midnight": "{difficulty} · nouvelles quêtes à minuit · ",
+    "difficulty": "difficulté",
+    "summary_aria": "aujourd'hui : {done} sur {total} quêtes terminées{challenge, select, done {, défi terminé} other {}}"
+  },
+  "quest_note": {
+    "xp": "+{reward} xp"
+  },
+  "match": {
+    "tests": "{count, plural, one {un test} other {# tests}}",
+    "drills": "{count, plural, one {un exercice} other {# exercices}}",
+    "time": "{count, plural, one {un test de temps} other {# tests de temps}}",
+    "words": "{count, plural, one {un test de mots} other {# tests de mots}}",
+    "quote": "{count, plural, one {une citation} other {# citations}}",
+    "book": "{count, plural, one {une lecture} other {# lectures}}",
+    "sustained": "{count, plural, one {un test soutenu} other {# tests soutenus}}",
+    "time_duration": "{count, plural, one {un test de {duration} secondes} other {# tests de {duration} secondes}}",
+    "words_count": "{count, plural, one {un test de {wordCount} mots} other {# tests de {wordCount} mots}}",
+    "quote_category": "{count, plural, one {une citation {category}} other {# citations {category}}}"
+  },
+  "categories": {
+    "short": "court",
+    "medium": "moyen",
+    "long": "long",
+    "huge": "énorme",
+    "massive": "immense"
+  },
+  "game_titles": {
+    "feed": "Nourrir",
+    "castle": "Château",
+    "space": "Espace",
+    "spot": "Tache"
+  },
+  "difficulty_words": {
+    "easy": "en facile",
+    "normal": "en normal",
+    "hard": "en difficile"
+  },
+  "conditions": {
+    "wpm": "{wpm}+ mots/min",
+    "accuracy": "{accuracy}%+ de précision",
+    "and": " et ",
+    "at": " à {parts}",
+    "kept_going_after": ", continué pendant {minutes, plural, one {# minute} other {# minutes}}",
+    "kept_going": " continué pendant {minutes, plural, one {# minute} other {# minutes}}"
+  },
+  "describe": {
+    "words": "taper {count, plural, one {# mot} other {# mots}}",
+    "words_in": "taper {count, plural, one {# mot} other {# mots}} dans {match}",
+    "minutes": "taper pendant {count, plural, one {# minute} other {# minutes}}",
+    "minutes_in": "taper pendant {count, plural, one {# minute} other {# minutes}} dans {match}",
+    "minutes_book": "taper à partir d'un livre pendant {count, plural, one {# minute} other {# minutes}}",
+    "tests_one": "terminer {match}",
+    "tests_many": "terminer {count} {match}",
+    "run": "terminer {match}{conditions}",
+    "game_runs": "jouer à {game} {count, plural, one {une fois} other {# fois}}",
+    "game_score": "obtenir {score} dans {game}",
+    "game_score_difficulty": "obtenir {score} dans {game} {difficulty}",
+    "game_found": "trouver {count, plural, one {# erreur} other {# erreurs}} en une partie de {game}",
+    "lesson_run": "taper une leçon de frappe à l'aveugle à {accuracy}%+ de précision",
+    "lessons": "{count, plural, one {faire une leçon de frappe à l'aveugle} other {faire # leçons de frappe à l'aveugle}}",
+    "pad_tests": "{count, plural, one {terminer un test de pavé numérique} other {terminer # tests de pavé numérique}}",
+    "pad_run": "terminer un test de pavé numérique",
+    "pad_ksph": "{ksph}+ frappes par heure",
+    "pad_entries": ", avec {entries}+ entrées",
+    "pad_lessons": "{count, plural, one {faire une leçon de pavé numérique} other {faire # leçons de pavé numérique}}",
+    "sums": "réussir {count, plural, one {# calcul} other {# calculs}}",
+    "something": "quelque chose"
   }
 }

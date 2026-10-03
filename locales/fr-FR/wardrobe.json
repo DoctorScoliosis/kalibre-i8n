@@ -1,0 +1,290 @@
+{
+  "slots": {
+    "hat": {
+      "label": "chapeau",
+      "none": "pas de chapeau"
+    },
+    "face": {
+      "label": "visage",
+      "none": "visage classique"
+    },
+    "necklace": {
+      "label": "collier",
+      "none": "pas de collier"
+    },
+    "braceletLeft": {
+      "label": "poignet gauche",
+      "none": "poignet nu"
+    },
+    "braceletRight": {
+      "label": "poignet droit",
+      "none": "poignet nu"
+    },
+    "pants": {
+      "label": "pantalon",
+      "none": "pas de pantalon"
+    },
+    "background": {
+      "label": "fond",
+      "none": "pas de fond"
+    },
+    "heart": {
+      "label": "cœur",
+      "none": "cœur uni"
+    },
+    "ring": {
+      "label": "bague",
+      "none": "pas de bague"
+    }
+  },
+  "party-hat": {
+    "name": "chapeau de fête"
+  },
+  "beanie": {
+    "name": "bonnet"
+  },
+  "cap": {
+    "name": "casquette"
+  },
+  "headphones": {
+    "name": "casque audio"
+  },
+  "top-hat": {
+    "name": "haut-de-forme"
+  },
+  "wizard-hat": {
+    "name": "chapeau de magicien"
+  },
+  "space-helmet": {
+    "name": "casque spatial"
+  },
+  "hard-hat": {
+    "name": "casque de chantier"
+  },
+  "explorer-hat": {
+    "name": "chapeau d'explorateur"
+  },
+  "hair-bow": {
+    "name": "nœud dans les cheveux"
+  },
+  "flat-cap": {
+    "name": "casquette plate"
+  },
+  "beret": {
+    "name": "béret"
+  },
+  "sun-hat": {
+    "name": "chapeau de soleil"
+  },
+  "bucket-hat": {
+    "name": "chapeau bucket"
+  },
+  "chef-hat": {
+    "name": "toque de chef"
+  },
+  "graduation-cap": {
+    "name": "toque de diplômé"
+  },
+  "crown": {
+    "name": "couronne"
+  },
+  "round-eyes": {
+    "name": "yeux ronds"
+  },
+  "sparkly": {
+    "name": "yeux étincelants"
+  },
+  "pixel-eyes": {
+    "name": "yeux pixelisés"
+  },
+  "blush": {
+    "name": "joues roses"
+  },
+  "freckles": {
+    "name": "taches de rousseur"
+  },
+  "round-glasses": {
+    "name": "lunettes rondes"
+  },
+  "monocle": {
+    "name": "monocle"
+  },
+  "star-eyes": {
+    "name": "yeux en étoiles"
+  },
+  "heart-eyes": {
+    "name": "yeux en cœur"
+  },
+  "sleepy-lids": {
+    "name": "paupières endormies"
+  },
+  "beads": {
+    "name": "collier de perles"
+  },
+  "bow-tie": {
+    "name": "nœud papillon"
+  },
+  "scarf": {
+    "name": "écharpe"
+  },
+  "medal": {
+    "name": "médaille"
+  },
+  "keycap-pendant": {
+    "name": "pendentif touche de clavier"
+  },
+  "compass": {
+    "name": "boussole"
+  },
+  "pearls": {
+    "name": "perles"
+  },
+  "tie": {
+    "name": "cravate"
+  },
+  "locket": {
+    "name": "médaillon"
+  },
+  "quill-pendant": {
+    "name": "pendentif plume"
+  },
+  "friendship-band": {
+    "name": "bracelet d'amitié"
+  },
+  "gold-band": {
+    "name": "bague dorée"
+  },
+  "watch": {
+    "name": "montre"
+  },
+  "key-chain": {
+    "name": "chaîne maillons"
+  },
+  "spiked-band": {
+    "name": "bague à pointes"
+  },
+  "trail-band": {
+    "name": "bague à trainée"
+  },
+  "charm-bracelet": {
+    "name": "bracelet à breloques"
+  },
+  "sweatband": {
+    "name": "bandeau"
+  },
+  "beaded-band": {
+    "name": "bague à perles"
+  },
+  "shorts": {
+    "name": "short"
+  },
+  "jeans": {
+    "name": "jeans"
+  },
+  "dungarees": {
+    "name": "salopette"
+  },
+  "kilt": {
+    "name": "kilt"
+  },
+  "skirt": {
+    "name": "jupe"
+  },
+  "cargo-pants": {
+    "name": "pantalon cargo"
+  },
+  "pyjama-bottoms": {
+    "name": "bas de pyjama"
+  },
+  "space-trousers": {
+    "name": "pantalon spatial"
+  },
+  "theme-tile": {
+    "name": "tuile de thème"
+  },
+  "stars": {
+    "name": "étoiles"
+  },
+  "bricks": {
+    "name": "briques"
+  },
+  "leaves": {
+    "name": "feuilles"
+  },
+  "paper": {
+    "name": "papier"
+  },
+  "keyboard": {
+    "name": "clavier"
+  },
+  "rain": {
+    "name": "pluie"
+  },
+  "waves": {
+    "name": "vagues"
+  },
+  "typewriter": {
+    "name": "machine à écrire"
+  },
+  "bookshelf": {
+    "name": "bibliothèque"
+  },
+  "sunrise": {
+    "name": "lever de soleil"
+  },
+  "heart-star": {
+    "name": "étoile"
+  },
+  "heart-note": {
+    "name": "note"
+  },
+  "heart-key": {
+    "name": "touche"
+  },
+  "heart-paw": {
+    "name": "patte"
+  },
+  "heart-flag": {
+    "name": "drapeau"
+  },
+  "heart-bolt": {
+    "name": "éclair"
+  },
+  "heart-moon": {
+    "name": "lune"
+  },
+  "heart-leaf": {
+    "name": "feuille"
+  },
+  "heart-sun": {
+    "name": "soleil"
+  },
+  "heart-amp": {
+    "name": "le esperluette"
+  },
+  "heart-k": {
+    "name": "la lettre k"
+  },
+  "ring": {
+    "name": "bague"
+  },
+  "ui": {
+    "default_hint": "par défaut",
+    "locked": "verrouillé",
+    "new_badge": "nouveau",
+    "wearing_it": "porté",
+    "ring_worn": "la bague : portée pour de bon",
+    "title": "garde-robe de {companion}",
+    "tab_aria": "{label}, {unlocked} sur {total} débloqués",
+    "item_worn_aria": "{name}, porté",
+    "item_locked_aria": "{name}, verrouillé : {hint}",
+    "remove_all": "supprimer tous les cosmétiques",
+    "news_new_item": "un nouveau {name}",
+    "news_new_items": "{count, plural, one {une nouvelle chose} other {# nouvelles choses}}",
+    "news_earned": "oh, vous avez gagné {what} pour ma garde-robe !",
+    "try_it_on": "essayez-le",
+    "status_worn": "{name} : {state}",
+    "status_hint_progress": "{name} : {hint} ({have} sur {need})",
+    "status_hint": "{name} : {hint}"
+  }
+}

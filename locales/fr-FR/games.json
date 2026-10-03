@@ -242,6 +242,7 @@
     "cant_use": "{name} ne peut pas être utilisé"
   },
   "games_registry": {
+    "minutes_choice": "{count} min",
     "STRENGTH_MECHANIC": {
       "strength": {
         "label": "force",
@@ -260,7 +261,7 @@
               "gardez la créature heureuse pour rester en vie"
             ],
             "details": [
-              "chaque mot que vous servez restaure du temps. les mots plus longs en restaurent davantage.",
+              "chaque mot servi restaure du temps. les mots plus longs restaurent plus.",
               "si vous mettez trop de temps, l'humeur de la créature baisse et elle finit par partir."
             ],
             "mechanics": {
@@ -275,7 +276,7 @@
             },
             "controls": {
               "i0": {
-                "action": "soumettre un mot"
+                "action": "soumettre le mot"
               }
             },
             "visuals": {
@@ -283,7 +284,7 @@
                 "label": "content"
               },
               "mood-peckish": {
-                "label": "un peu affamé"
+                "label": "affamé"
               },
               "mood-starving": {
                 "label": "affamé"
@@ -293,121 +294,162 @@
           "creature-requests": {
             "label": "demandes de la créature",
             "group": "pour commencer",
-            "summary": "la créature demande un type de mot — trouvez-le pour obtenir le temps complet.",
+            "summary": "la créature demande un type de mot — correspondez pour gagner le temps complet.",
             "highlights": [
-              "lisez l'invite au-dessus de la créature",
-              "un mot correspondant rapporte le temps complet ; un mot incorrect en coûte"
+              "la créature demande un type de mot spécifique",
+              "correspondez à la demande pour un gain de temps maximal"
             ],
             "details": [
-              "les demandes incluent : mots courts ou longs, mots commençant par une lettre, ou mots contenant certaines lettres.",
-              "bloqué depuis un moment, ou deux erreurs ? un mot valide apparaît discrètement sur la créature, valant la moitié du temps."
+              "chaque mot servi restaure du temps proportionnel à sa longueur.",
+              "les mots qui correspondent exactement à la demande restaurent plus de temps."
             ],
             "notes": {
               "hard": {
-                "text": "les invites sont plus précises et moins de temps est accordé."
+                "text": "les demandes sont plus spécifiques et moins de temps est accordé."
               }
             },
             "mechanics": {
-              "prompts": {
-                "label": "invites",
-                "summary": "la créature montre quel type de mot elle veut."
+              "requests": {
+                "label": "demandes",
+                "summary": "la créature demande des mots avec des propriétés spécifiques."
+              },
+              "matching": {
+                "label": "correspondance",
+                "summary": "les mots qui correspondent aux demandes restaurent plus de temps."
               },
               "hint": {
-                "label": "indice sur le ventre",
-                "summary": "après un temps d'inactivité ou deux erreurs, un mot valide apparaît discrètement sur la créature."
+                "label": "indice du ventre",
+                "summary": "après une inactivité ou deux erreurs, un mot valide apparaît faiblement sur la créature."
+              },
+              "prompts": {
+                "label": "demandes",
+                "summary": "la créature montre quel type de mot elle veut."
               }
             },
             "controls": {
               "i0": {
-                "action": "soumettre un mot"
+                "action": "soumettre le mot"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "indice sur le ventre"
+                "label": "demande de mot"
               }
             },
             "visuals": {
-              "prompt-need": {
-                "label": "invite de mot"
+              "creature": {
+                "label": "créature"
+              },
+              "request": {
+                "label": "demande"
               },
               "belly-hint": {
-                "label": "indice sur le ventre (moitié du temps)"
+                "label": "indice du ventre (moitié du temps)"
+              },
+              "prompt-need": {
+                "label": "demande de mot"
               }
             }
           },
           "snack-mode": {
             "label": "mode grignotage",
             "group": "pour commencer",
-            "summary": "la créature mange n'importe quel mot — les mots plus forts la remplissent davantage, mais elle a plus faim rapidement.",
+            "summary": "la créature mange n'importe quel mot — les mots plus forts la remplissent davantage, mais elle a plus faim.",
             "highlights": [
-              "n'importe quel mot valide nourrit la créature",
-              "les mots plus longs et plus précis restaurent plus de temps"
+              "n'importe quel mot est accepté",
+              "les mots plus longs remplissent davantage"
             ],
             "details": [
-              "il n'y a pas d'invites : tapez n'importe quel mot.",
-              "la créature épuise sa patience plus vite qu'en mode difficile, donc la vitesse compte."
+              "les mots plus forts (avec plus de lettres ou des lettres rares) remplissent la jauge plus vite.",
+              "mais la créature a faim plus vite aussi."
             ],
             "controls": {
               "i0": {
-                "action": "soumettre un mot"
+                "action": "soumettre le mot"
               }
             },
             "visuals": {
-              "free-eating": {
-                "label": "n'importe quel mot valide"
+              "creature": {
+                "label": "créature"
+              },
+              "hunger": {
+                "label": "faim"
               },
               "fast-patience": {
                 "label": "faim accélérée"
+              },
+              "free-eating": {
+                "label": "n'importe quel mot valide"
               }
             }
           },
           "buffet": {
             "label": "service buffet",
             "group": "pour commencer",
-            "summary": "les invités commandent plusieurs types de mots. servez des mots à la table et ils mangent ce qui correspond.",
+            "summary": "des invités commandent plusieurs types de mots. servez des mots à la table et ils mangent ce qui correspond.",
             "highlights": [
-              "les invités arrivent avec des commandes de 1-3 types de mots",
-              "maintenez la satisfaction globale au-dessus de la ligne rouge"
+              "plusieurs invités à la table",
+              "chaque invité a ses propres demandes"
             ],
             "details": [
-              "tapez un mot et appuyez sur espace pour le mettre sur la table. les invités mangent ce qui correspond à leurs commandes.",
-              "une commande remplie plaît à l'invité et augmente la satisfaction. un invité qui attend trop longtemps part mécontent.",
-              "les mots sans sens sont jetés et réduisent la satisfaction. les fautes de frappe produisent des plats brûlés valant la moitié.",
-              "les plats laissés sur la table deviennent rassis et sont gaspillés."
+              "servez des mots à la table pour que les invités mangent.",
+              "chaque invité mange les mots qui correspondent à ses demandes.",
+              "le temps est limité : servez rapidement.",
+              "si un mot ne correspond à aucune demande, il est gaspillé."
             ],
             "mechanics": {
-              "table": {
-                "label": "table",
-                "summary": "les mots servis vont sur une table commune. les invités mangent ce qui correspond."
-              },
-              "satisfaction": {
-                "label": "satisfaction",
-                "summary": "un compteur de 0-100. s'il atteint la ligne de sol, le buffet ferme."
+              "guests": {
+                "label": "invités",
+                "summary": "plusieurs invités avec différentes demandes."
               },
               "orders": {
                 "label": "commandes",
-                "summary": "chaque invité a 1-3 exigences de type de mot sur son ticket."
+                "summary": "chaque invité a des types de mots qu'il veut."
+              },
+              "serving": {
+                "label": "service",
+                "summary": "les mots servis sont distribués aux invités."
+              },
+              "waste": {
+                "label": "gaspillage",
+                "summary": "les mots qui ne correspondent à aucune demande sont gaspillés."
+              },
+              "satisfaction": {
+                "label": "satisfaction",
+                "summary": "un compteur de 0 à 100. s'il tombe à la ligne du sol, le buffet ferme."
               },
               "stale": {
-                "label": "plats rassis",
-                "summary": "les plats non collectés deviennent rassis et réduisent la satisfaction."
+                "label": "plats froids",
+                "summary": "les plats non ramassés deviennent froids et réduisent la satisfaction."
+              },
+              "table": {
+                "label": "table",
+                "summary": "les mots servis vont sur une table partagée. les invités mangent ce qui correspond."
               }
             },
             "controls": {
               "i0": {
-                "action": "servir un mot à la table"
+                "action": "soumettre le mot"
               }
             },
             "visuals": {
-              "guest-ticket": {
-                "label": "ticket de commande"
+              "table": {
+                "label": "table"
+              },
+              "guest": {
+                "label": "invité"
+              },
+              "order": {
+                "label": "commande"
               },
               "buffet-table": {
                 "label": "table de service"
               },
+              "guest-ticket": {
+                "label": "ticket de commande"
+              },
               "satisfaction-floor": {
-                "label": "ligne de satisfaction"
+                "label": "seuil de satisfaction"
               }
             }
           }
@@ -428,70 +470,91 @@
           "getting-started": {
             "label": "pour commencer",
             "group": "pour commencer",
-            "summary": "tapez des mots pour créer des briques, visez une section, et posez-les pour construire et réparer votre château.",
+            "summary": "construisez vos murs avec des mots et tenez la ligne jusqu'à ce que les attaquants abandonnent.",
             "highlights": [
-              "tapez un mot pour créer une brique",
-              "visez avec les flèches ou la souris, puis appuyez sur espace pour poser"
+              "cliquez sur une brique pour la porter",
+              "espace pour poser, maj+entrée pour déposer"
             ],
             "details": [
-              "les mots plus longs créent des briques plus solides. les fautes de frappe créent des briques fissurées.",
-              "le château commence entier, avec une accalmie pour faire des réserves avant la première vague.",
-              "les briques apparaissent dans le stock ; choisissez-en une avec 1-9 ou glissez-déposez avec la souris."
+              "chaque brique posée renforce vos murs.",
+              "les briques plus fortes font plus de dégâts aux attaquants.",
+              "les vagues d'attaquants arrivent régulièrement."
             ],
             "notes": {
               "prompted": {
-                "text": "en mode briques spéciales, les sections sous attaque nécessitent des mots spécifiques. une brique hors norme perd la plupart de sa force."
+                "text": "en mode briques spéciales, les sections sous attaque nécessitent des mots spécifiques. une brique non-conforme perd la plupart de sa force."
               }
             },
             "mechanics": {
-              "stockpile": {
-                "label": "stock",
-                "summary": "les mots tapés deviennent des briques en attente dans la cour. choisissez-en une avec une touche numérique ou utilisez la plus récente."
+              "bricks": {
+                "label": "briques",
+                "summary": "construisez avec des mots transformés en briques."
               },
-              "quality": {
-                "label": "qualité des briques",
-                "summary": "solide, réparée, fissurée ou débris — dépend de la longueur du mot et de la précision de frappe."
+              "strength": {
+                "label": "force",
+                "summary": "chaque lettre vaut 1 point, +1 pour K V W Y, +2 pour J Q X Z."
+              },
+              "storage": {
+                "label": "stockage",
+                "summary": "stockez jusqu'à 9 briques à la fois."
               },
               "cursor": {
                 "label": "visée",
                 "summary": "le curseur montre où la prochaine brique ira. déplacez-le avec les flèches ou cliquez sur une section."
+              },
+              "quality": {
+                "label": "qualité de brique",
+                "summary": "solide, réparé, fissuré ou décombres — dépend de la longueur du mot et de la précision de frappe."
+              },
+              "stockpile": {
+                "label": "stock",
+                "summary": "les mots tapés deviennent des briques en attente dans la cour. choisissez-en une avec une touche numérique ou utilisez la plus récente."
               }
             },
             "controls": {
               "i0": {
-                "action": "viser une section"
+                "action": "cliquer pour porter une brique"
               },
               "i1": {
-                "action": "poser la brique la plus récente"
+                "action": "espace pour poser la brique"
               },
               "i2": {
-                "action": "choisir une brique dans le stock"
+                "action": "maj+chiffre pour utiliser la brique stockée"
               }
             },
             "visuals": {
-              "stockpile-yard": {
-                "label": "cour de stock"
+              "brick": {
+                "label": "brique"
+              },
+              "wall": {
+                "label": "mur"
+              },
+              "stockpile": {
+                "label": "stock"
+              },
+              "brick-cracked": {
+                "label": "brique fissurée"
               },
               "brick-solid": {
                 "label": "brique solide"
               },
-              "brick-cracked": {
-                "label": "brique fissurée"
+              "stockpile-yard": {
+                "label": "cour de stock"
               }
             }
           },
           "surviving": {
-            "label": "survie",
-            "group": "survie",
-            "summary": "gardez la porte et le donjon debout. chaque vague perd du moral et recule lorsque les sections critiques tiennent.",
+            "label": "survivre",
+            "group": "survivre",
+            "summary": "les attaquants ciblent vos sections. réparez les dégâts et tenez bon.",
             "highlights": [
-              "la porte et le donjon sont critiques — perdre le donjon termine la partie",
-              "réparez les sections endommagées en posant des briques dessus"
+              "chaque section a une intégrité qui diminue sous les dégâts",
+              "réparez avec des briques pour restaurer l'intégrité"
             ],
             "details": [
-              "les sections du château ont une intégrité qui baisse lorsque les ennemis attaquent.",
-              "une moyenne de réparation élevée dans le château épuise plus vite le moral de la vague.",
-              "chaque vague recule lorsque son moral atteint zéro, ou lorsque tous ses ennemis sont détruits."
+              "les vagues d'attaquants ciblent différentes sections.",
+              "les sections critiques doivent être réparées en priorité.",
+              "si une section tombe à 0, le château est perdu."
             ],
             "notes": {
               "hard": {
@@ -499,112 +562,166 @@
               }
             },
             "mechanics": {
-              "sections": {
-                "label": "sections du château",
-                "summary": "mur, tour, porte, donjon et fondations. chacune a sa propre intégrité."
-              },
               "integrity": {
                 "label": "intégrité",
-                "summary": "les points de vie d'une section. atteint zéro et la section est percée."
+                "summary": "la santé de chaque section. à 0, la section est détruite."
               },
-              "resolve": {
-                "label": "moral de la vague",
-                "summary": "un compteur montrant à quel point la vague est proche de reculer."
+              "damage": {
+                "label": "dégâts",
+                "summary": "les attaquants infligent des dégâts aux sections."
+              },
+              "repair": {
+                "label": "réparation",
+                "summary": "poser des briques répare les dégâts."
               },
               "waves": {
                 "label": "vagues",
-                "summary": "les ennemis arrivent par vagues numérotées, avec des accalmies entre elles."
+                "summary": "des groupes d'attaquants qui arrivent par vagues."
+              },
+              "resolve": {
+                "label": "détermination des vagues",
+                "summary": "un compteur montrant à quel point la vague est proche de battre en retraite."
+              },
+              "sections": {
+                "label": "sections du château",
+                "summary": "mur, tour, porte, donjon et fondations. chacune a sa propre intégrité."
               }
             },
             "visuals": {
+              "section": {
+                "label": "section"
+              },
+              "damage": {
+                "label": "dégâts"
+              },
+              "critical": {
+                "label": "critique"
+              },
+              "gate": {
+                "label": "porte"
+              },
               "curtain-wall": {
                 "label": "mur d'enceinte"
               },
               "gatehouse": {
-                "label": "porte"
+                "label": "corps de garde"
               },
               "great-keep": {
-                "label": "donjon"
+                "label": "grand donjon"
               },
               "wave-resolve": {
-                "label": "moral de la vague"
+                "label": "détermination de la vague"
               }
             }
           },
           "fighting": {
-            "label": "combat",
-            "group": "combat",
-            "summary": "lâchez des briques sur les ennemis pour les écraser, ou utilisez la catapulte pour les frapper de loin.",
+            "label": "combattre",
+            "group": "combattre",
+            "summary": "lâchez des briques sur les attaquants pour les écraser et infliger des dégâts.",
             "highlights": [
-              "maj+entrée lâche une brique sur l'attaquant ciblé",
-              "les brutes enfoncent, les sapeurs entament, les catapultes lancent des boulets de loin"
+              "cliquez sur un attaquant puis lâchez une brique dessus",
+              "les briques plus fortes infligent plus de dégâts"
             ],
             "details": [
-              "une brique lâchée inflige des dégâts égaux à la force de la brique.",
-              "un ennemi non écrasé peut être étourdi un instant.",
-              "les catapultes se stationnent à distance : un arc pointillé montre où elles visent."
+              "chaque type d'attaquant a une santé différente.",
+              "les catapultes sont hors de portée directe.",
+              "utilisez le mortier pour infliger des dégâts de zone."
             ],
+            "notes": {
+              "prompted": {
+                "text": "en mode spécial, seuls certains types de briques fonctionnent contre certains ennemis."
+              }
+            },
             "mechanics": {
-              "brute": {
-                "label": "brute",
-                "summary": "enfoncent les sections de près. se fatiguent après un nombre défini de coups."
+              "dropping": {
+                "label": "lâcher",
+                "summary": "lâchez des briques sur les ennemis pour les écraser."
               },
-              "sapper": {
-                "label": "sapeur",
-                "summary": "entament les sections. se déplacent entre les cibles."
-              },
-              "catapult": {
-                "label": "catapulte",
-                "summary": "lancent des boulets de loin selon un arc parabolique. hors de portée de lâcher."
+              "damage": {
+                "label": "dégâts",
+                "summary": "la force de la brique détermine les dégâts infligés."
               },
               "stun": {
                 "label": "étourdissement",
-                "summary": "un lâcher de brique non mortel peut étourdir l'attaquant, l'arrêtant brièvement."
+                "summary": "certaines briques peuvent étourdir les ennemis."
+              },
+              "catapults": {
+                "label": "catapultes",
+                "summary": "tirent des projectiles à distance. doivent être ciblées avec des briques spéciales."
+              },
+              "mortar": {
+                "label": "mortier",
+                "summary": "inflige des dégâts de zone aux ennemis proches."
+              },
+              "brute": {
+                "label": "brute",
+                "summary": "frappent les sections de près. se fatiguent après un nombre défini de coups."
+              },
+              "catapult": {
+                "label": "catapulte",
+                "summary": "lancent des rochers de loin selon un arc parabolique. hors de portée de lâcher."
               },
               "drops": {
                 "label": "lâchers de brique",
                 "summary": "lâchez une brique sur un ennemi pour l'endommager ou l'écraser."
+              },
+              "sapper": {
+                "label": "sapeur",
+                "summary": "rognent les sections. se déplacent entre les cibles."
               }
             },
             "controls": {
               "i0": {
-                "action": "lâcher une brique sur l'ennemi"
+                "action": "cliquer sur un attaquant pour le cibler"
               },
               "i1": {
-                "action": "viser une section ou un ennemi"
+                "action": "lâcher une brique pour écraser"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "lâchers de brique"
+                "label": "brique écrasante"
               }
             },
             "visuals": {
+              "foe": {
+                "label": "ennemi"
+              },
+              "brick-drop": {
+                "label": "chute de brique"
+              },
+              "mortar-shot": {
+                "label": "tir de mortier"
+              },
+              "catapult": {
+                "label": "catapulte"
+              },
+              "boulder-arc": {
+                "label": "arc de rocher"
+              },
               "brute-ram": {
                 "label": "brute (bélier)"
-              },
-              "sapper-pick": {
-                "label": "sapeur (pioche)"
               },
               "catapult-siege": {
                 "label": "catapulte (siège)"
               },
-              "boulder-arc": {
-                "label": "arc du boulet"
+              "sapper-pick": {
+                "label": "sapeur (pioche)"
               }
             }
           },
           "powering-up": {
             "label": "bonus",
             "group": "bonus",
-            "summary": "les ennemis écrasés laissent parfois tomber des bonus. stockez-les et activez-les quand vous en avez besoin.",
+            "summary": "les ennemis écrasés lâchent parfois des bonus. attrapez-les et activez-les.",
             "highlights": [
-              "attrapez un bonus lorsqu'un ennemi est écrasé",
+              "attrapez un bonus flottant pour le stocker",
               "activez avec maj+1-3 ou cliquez sur un emplacement"
             ],
             "details": [
               "jusqu'à trois bonus peuvent être stockés. deux peuvent être actifs à la fois.",
-              "le mortier fait que les lâchers de brique frappent plus fort. le maçon fait que les briques posées comptent une fois et demie plus. l'huile étourdit tous les ennemis sur le champ. la réparation répare la porte ou le donjon le plus faible."
+              "le mortier fait que les lâchers de brique frappent plus fort. le maçon fait que les briques posées comptent une fois et demie plus.",
+              "l'huile étourdit tous les attaquants sur le champ. la réparation répare la porte ou le donjon le plus faible."
             ],
             "mechanics": {
               "mortar": {
@@ -651,7 +768,624 @@
             }
           }
         }
+      },
+      "space": {
+        "options": {
+          "duration": {
+            "label": "durée",
+            "choices": {
+              "endless": {
+                "label": "sans fin"
+              },
+              "i1": {
+                "label": "1 min"
+              },
+              "i2": {
+                "label": "2 min"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "pour commencer",
+            "group": "pour commencer",
+            "summary": "dirigez le vaisseau, tapez des mots pour charger le chargeur, et tirez pour détruire les ennemis.",
+            "highlights": [
+              "déplacez avec la souris ou les flèches",
+              "tapez un mot et appuyez sur entrée pour tirer"
+            ],
+            "details": [
+              "les mots terminés se chargent dans le chargeur. appuyez sur entrée pour tirer le tir choisi.",
+              "un mot terminé avec entrée le tire immédiatement sans charger d'abord.",
+              "utilisez ↑↓ ou la molette pour choisir quel emplacement du chargeur tirer."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "en mode ciblé, chaque vaisseau ennemi a une exigence de mot. les tirs non-correspondants rebondissent."
+              }
+            },
+            "mechanics": {
+              "movement": {
+                "label": "déplacement",
+                "summary": "le vaisseau se dirige horizontalement. déplacez avec la souris ou ←→."
+              },
+              "magazine": {
+                "label": "chargeur",
+                "summary": "les mots tapés remplissent le chargeur. entrée pour tirer. ↑↓ choisir un emplacement."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "déplacer le vaisseau"
+              },
+              "i1": {
+                "action": "tirer le tir choisi du chargeur"
+              },
+              "i2": {
+                "action": "choisir un emplacement du chargeur"
+              }
+            },
+            "visuals": {
+              "starfighter": {
+                "label": "chasseur stellaire"
+              },
+              "magazine-slots": {
+                "label": "emplacements du chargeur"
+              }
+            }
+          },
+          "surviving": {
+            "label": "survivre",
+            "group": "survivre",
+            "summary": "évitez les dégâts, dégagez les blocages, esquivez les astéroïdes, et utilisez les vaisseaux de secours pour réparer.",
+            "highlights": [
+              "le vaisseau a une santé — les impacts la réduisent, et zéro met fin à la partie",
+              "tapez le mot sur un vaisseau de secours vert pour réparer"
+            ],
+            "details": [
+              "les mots propres ne se bloquent jamais. les fautes peuvent, et les mots sans sens se bloquent plus souvent.",
+              "quand bloqué, tapez le mot affiché pour le déblocage, ou appuyez sur retour arrière deux fois avec rien tapé pour annuler le tir.",
+              "ne tirez pas sur les vaisseaux de secours : un vaisseau touché soigne moins (sauf en facile).",
+              "les astéroïdes sont des obstacles indestructibles. les gros se brisent en plusieurs morceaux quand tirés.",
+              "les drones verrouillent avec une ligne pointillée et plongent droit vers le bas. esquivez.",
+              "les vaisseaux qui passent par le bas ne font pas de mal."
+            ],
+            "notes": {
+              "easy": {
+                "text": "tirer sur un vaisseau de secours ne réduit pas sa guérison."
+              }
+            },
+            "mechanics": {
+              "health": {
+                "label": "santé",
+                "summary": "les points de vie du vaisseau. zéro signifie partie terminée."
+              },
+              "jams": {
+                "label": "blocages",
+                "summary": "une arme bloquée ne peut pas tirer jusqu'à déblocage. les fautes et mots sans sens augmentent le risque de blocage."
+              },
+              "asteroids": {
+                "label": "astéroïdes",
+                "summary": "des rochers qui ne peuvent pas être détruits. les gros se séparent en morceaux."
+              },
+              "rescue": {
+                "label": "vaisseaux de secours",
+                "summary": "vaisseaux verts avec un mot. tapez-le pour réparer la coque."
+              },
+              "drones": {
+                "label": "drones",
+                "summary": "verrouillent et plongent droit vers le bas. esquivez la ligne de plongée."
+              },
+              "jammer": {
+                "label": "brouilleur",
+                "summary": "augmente la chance de blocages tant qu'il est en vie."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "annuler le tir choisi (déblocage)"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "réparation de secours"
+              }
+            },
+            "visuals": {
+              "rescue-ship": {
+                "label": "vaisseau de secours (soin)"
+              },
+              "dive-drone": {
+                "label": "drone de plongée"
+              },
+              "asteroid": {
+                "label": "obstacle astéroïde"
+              },
+              "weapon-jam": {
+                "label": "blocage d'arme"
+              }
+            }
+          },
+          "fighting": {
+            "label": "combattre",
+            "group": "combattre",
+            "summary": "chargez le chargeur, interceptiez les missiles et les chasseurs, et utilisez la bombe pour dégager le champ.",
+            "highlights": [
+              "les missiles portent une lettre — tapez-la avec rien tapé pour les abattre",
+              "maj+entrée déclenche la bombe quand chargée"
+            ],
+            "details": [
+              "charger des mots charge le compteur de bombe. quand plein, maj+entrée dégage tous les missiles et endommage chaque ennemi.",
+              "les stations spatiales lancent des chasseurs qui vous poursuivent. tapez la lettre d'un chasseur pour l'abattre.",
+              "les mines terrestres éclatent en éclats quand tirées, ce qui touche tout à proximité, y compris vous.",
+              "les vaisseaux blindés ne subissent des impacts que des mots qui répondent à leur exigence."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "en mode ciblé, chaque vaisseau a une exigence de mot qui doit être respectée."
+              }
+            },
+            "mechanics": {
+              "missiles": {
+                "label": "missiles",
+                "summary": "portent un jeton de lettre. avec rien tapé, tapez-le pour les abattre instantanément."
+              },
+              "bomb": {
+                "label": "bombe",
+                "summary": "se charge lorsque vous chargez des mots. maj+entrée la déclenche, dégageant les missiles et endommageant les ennemis."
+              },
+              "fighters": {
+                "label": "chasseurs",
+                "summary": "petits vaisseaux lancés par des stations. poursuivent le joueur. tapez leur lettre pour les intercepter."
+              },
+              "stations": {
+                "label": "stations",
+                "summary": "grands hubs qui planent et génèrent des chasseurs."
+              },
+              "landmines": {
+                "label": "mines terrestres",
+                "summary": "mines à pointes. les éclats de la destruction touchent tout à proximité."
+              },
+              "shields": {
+                "label": "boucliers",
+                "summary": "certains vaisseaux ont des boucliers qui ne se brisent qu'avec des mots répondant à une exigence."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "déclencher la bombe"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "onde de choc de la bombe"
+              }
+            },
+            "visuals": {
+              "missile-token": {
+                "label": "missile (lettre)"
+              },
+              "bomb-shockwave": {
+                "label": "onde de choc de la bombe"
+              },
+              "orbital-station": {
+                "label": "station orbitale"
+              },
+              "shrapnel-mine": {
+                "label": "mine terrestre"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "bonus",
+            "group": "bonus",
+            "summary": "les ennemis détruits lâchent des bonus. attrapez-les, stockez-les, et activez-les.",
+            "highlights": [
+              "attrapez un bonus flottant pour le stocker",
+              "activez avec maj+1-3 ou cliquez sur un emplacement"
+            ],
+            "details": [
+              "jusqu'à trois bonus peuvent être stockés. deux kinds peuvent être actifs à la fois.",
+              "double tir : chaque tir tire deux fois avant d'être épuisé.",
+              "gatling : chaque lettre tapée tire un projectile instantané.",
+              "bouclier : une barrière absorbe les impacts pour le vaisseau.",
+              "automate : sélectionne automatiquement le meilleur tir pour la plus grande menace.",
+              "recherche : les mots tirés se dirigent vers les cibles."
+            ],
+            "mechanics": {
+              "double": {
+                "label": "double",
+                "summary": "les tirs tirent deux fois avant d'être épuisés."
+              },
+              "gatling": {
+                "label": "gatling",
+                "summary": "chaque lettre tapée tire un projectile d'énergie instantané."
+              },
+              "shield": {
+                "label": "bouclier",
+                "summary": "une barrière énergétique absorbe les impacts."
+              },
+              "automaton": {
+                "label": "automate",
+                "summary": "sélectionne automatiquement le meilleur tir pour la pire menace."
+              },
+              "homing": {
+                "label": "recherche",
+                "summary": "les mots tirés se dirigent dynamiquement vers les cibles."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "activer l'emplacement de bonus 1"
+              },
+              "i1": {
+                "action": "activer l'emplacement de bonus 2"
+              },
+              "i2": {
+                "action": "activer l'emplacement de bonus 3"
+              }
+            },
+            "visuals": {
+              "powerup-double": {
+                "label": "double tir"
+              },
+              "powerup-gatling": {
+                "label": "flux gatling"
+              },
+              "powerup-shield": {
+                "label": "barrière déflectrice"
+              },
+              "powerup-automaton": {
+                "label": "visée automatique"
+              },
+              "powerup-homing": {
+                "label": "recherche de cible"
+              }
+            }
+          }
+        }
+      },
+      "spot": {
+        "options": {
+          "variant": {
+            "label": "jouer",
+            "choices": {
+              "timed": {
+                "label": "chronométré"
+              },
+              "endless": {
+                "label": "sans fin"
+              }
+            }
+          },
+          "duration": {
+            "label": "temps"
+          }
+        },
+        "help": [
+          "Pointez sur un mot ou déplacez-vous avec ←→ (↑↓ par ligne) ; cliquez ou appuyez sur Entrée s'il est incorrect.",
+          "Le mot reste en place : corrigez-le là (←→ Début Fin déplacez le curseur, ou cliquez dedans) et appuyez sur Entrée. L'orthographe, la ponctuation, les majuscules et l'espacement comptent.",
+          "Maj+Entrée abandonne un passage et passe au suivant.",
+          "Trouver et corriger sont notés séparément ; signaler un mot correct vous pénalise."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "pour commencer",
+            "group": "pour commencer",
+            "summary": "trouvez les erreurs plantées dans un passage et corrigez-les.",
+            "highlights": [
+              "pointez sur un mot ou naviguez avec les flèches",
+              "appuyez sur entrée pour signaler une erreur, puis tapez la correction"
+            ],
+            "details": [
+              "les passages proviennent de livres dans votre bibliothèque. chacun a plusieurs erreurs plantées.",
+              "maj+entrée abandonne un passage et passe au suivant.",
+              "les erreurs incluent l'orthographe, la ponctuation, les majuscules, les homophones et les inversions de lettres."
+            ],
+            "mechanics": {
+              "errors": {
+                "label": "types d'erreurs",
+                "summary": "orthographe, ponctuation, majuscules, homophones et inversions de lettres."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "se déplacer entre les mots"
+              },
+              "i1": {
+                "action": "se déplacer entre les lignes"
+              },
+              "i2": {
+                "action": "signaler le mot sélectionné comme incorrect"
+              },
+              "i3": {
+                "action": "passer au passage suivant"
+              }
+            },
+            "visuals": {
+              "passage-line": {
+                "label": "texte du passage"
+              },
+              "planted-error": {
+                "label": "erreur plantée"
+              }
+            }
+          },
+          "finding-mistakes": {
+            "label": "trouver les erreurs",
+            "group": "survivre",
+            "summary": "scannez le passage, sélectionnez un mot que vous pensez être incorrect, et appuyez sur entrée pour le signaler.",
+            "highlights": [
+              "survolez un mot ou utilisez les flèches pour le sélectionner",
+              "signaler un mot correct vous pénalise"
+            ],
+            "details": [
+              "déplacez-vous avec ←→ mot par mot, ou ↑↓ ligne par ligne. cliquez ou survolez pour sauter.",
+              "trouver et corriger sont notés séparément.",
+              "signaler un mot qui est en fait correct compte comme un faux signalement et coûte des points."
+            ],
+            "mechanics": {
+              "selection": {
+                "label": "sélection de mot",
+                "summary": "survol, clic ou flèches pour sélectionner un mot."
+              },
+              "false-flag": {
+                "label": "faux signalements",
+                "summary": "signaler un mot correct coûte des points et (en mode sans fin) du temps."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "se déplacer entre les mots"
+              },
+              "i1": {
+                "action": "se déplacer entre les lignes"
+              },
+              "i2": {
+                "action": "signaler le mot sélectionné"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "analyse du passage"
+              }
+            },
+            "visuals": {
+              "selected-word": {
+                "label": "mot sélectionné"
+              },
+              "hover-cursor": {
+                "label": "curseur de survol"
+              },
+              "false-flag-penalty": {
+                "label": "pénalité de faux signalement"
+              }
+            }
+          },
+          "correcting-mistakes": {
+            "label": "corriger les erreurs",
+            "group": "survivre",
+            "summary": "le mot signalé reste en place. corrigez-le là et appuyez sur entrée pour valider la correction.",
+            "highlights": [
+              "le mot est édité directement dans le passage",
+              "déplacez le curseur avec les flèches ou cliquez dans le mot"
+            ],
+            "details": [
+              "utilisez ←→ pour déplacer le curseur, début et fin pour sauter. supprimer et retour arrière fonctionnent normalement.",
+              "cliquez dans le mot pour placer le curseur à une position spécifique.",
+              "vous avez deux tentatives. si les deux échouent, le mot correct est révélé.",
+              "appuyez sur échap pour annuler une correction sans pénalité."
+            ],
+            "mechanics": {
+              "caret": {
+                "label": "édition du curseur",
+                "summary": "déplacez le curseur dans le mot pour éditer des caractères individuels."
+              },
+              "retries": {
+                "label": "tentatives de correction",
+                "summary": "deux essais pour corriger un mot. après deux échecs, la réponse est affichée."
+              },
+              "cancel": {
+                "label": "annulation",
+                "summary": "échap annule une correction sans pénalité."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "déplacer le curseur dans le mot"
+              },
+              "i1": {
+                "action": "curseur au début du mot"
+              },
+              "i2": {
+                "action": "curseur à la fin du mot"
+              },
+              "i3": {
+                "action": "valider la correction"
+              },
+              "i4": {
+                "action": "annuler la correction"
+              },
+              "i5": {
+                "action": "supprimer vers l'avant"
+              }
+            },
+            "visuals": {
+              "inline-caret": {
+                "label": "curseur intégré"
+              },
+              "in-place-edit": {
+                "label": "édition en place"
+              },
+              "attempt-limit": {
+                "label": "limite de 2 tentatives"
+              }
+            }
+          },
+          "scoring": {
+            "label": "notation",
+            "group": "survivre",
+            "summary": "trouver et corriger sont notés séparément. mode chronométré : une horloge fixe ; mode sans fin : recharge sur les corrections.",
+            "highlights": [
+              "score de détection : combien d'erreurs vous avez trouvées",
+              "score de correction : avec quelle précision vous les avez corrigées"
+            ],
+            "details": [
+              "mode chronométré : une durée fixe compte à rebours. trouvez et corrigez autant que vous pouvez.",
+              "mode sans fin : le temps diminue en continu. chaque correction réussie recharge la banque. les faux signalements coûtent du temps.",
+              "un coup de balai parfait est enregistré quand toutes les erreurs d'un passage sont réparées sans faux signalement."
+            ],
+            "notes": {
+              "hard": {
+                "text": "les erreurs sont plus subtiles et le minuteur est plus court."
+              }
+            },
+            "mechanics": {
+              "detection": {
+                "label": "détection",
+                "summary": "noté par précision et rappel — combien d'erreurs réelles vous avez trouvées versus faux signalements."
+              },
+              "repair": {
+                "label": "correction",
+                "summary": "noté par la précision avec laquelle vous avez corrigé les mots signalés."
+              },
+              "sweep": {
+                "label": "coup de balai",
+                "summary": "toutes les erreurs réparées, aucun faux signalement, sur un seul passage."
+              }
+            },
+            "visuals": {
+              "detection-score": {
+                "label": "score de détection"
+              },
+              "repair-score": {
+                "label": "score de correction"
+              },
+              "clean-sweep": {
+                "label": "bonus coup de balai"
+              }
+            }
+          }
+        }
       }
+    }
+  },
+  "feed_buffet": {
+    "patience": "patience",
+    "the_floor_fall_to_it": "le sol : tombez dessus et le buffet ferme",
+    "burnt_a_typo_counts_half": "brûlé (une faute) : compte moitié",
+    "served": "servi {text}",
+    "an_order_filled_happy_guest": "une commande remplie · client satisfait",
+    "a_guest_gave_up_waiting": "un client a abandonné",
+    "went_stale": "{text} est devenu rassis",
+    "the_table_is_full_let": "la table est pleine : laissez-les manger d'abord",
+    "that_s_not_food": "{text} ? ce n'est pas de la nourriture",
+    "orders_wasted_upset": "commandes {value} · gaspillées {value2} · mécontents {value3}",
+    "served_burnt": " (brûlé : compte moitié)"
+  },
+  "powerup_tray": {
+    "shift": "{label} : {help} (maj+{value})",
+    "powerups_two_at_once": "bonus {length}/{storage} · deux à la fois"
+  },
+  "race_card": {
+    "ghost": "fantôme",
+    "race_people_on_your_network": "affronter des personnes sur votre réseau",
+    "your_car_dress_it_in": "votre voiture. habillez-la dans votre profil → votre carte → garage ; gagnez des pièces en courant et en jouant.",
+    "race_a_demo_playing_while": "course : une démo, qui joue quand survolé ou mis au point",
+    "RACE_CARD": {
+      "race": {
+        "title": "course",
+        "blurb": "Affrontez l'ordinateur seul, ou des personnes sur votre réseau, dans une citation, des mots, contre la montre ou aussi longtemps que vous tenez le rythme.",
+        "help": [
+          "Choisissez ce que vous courez : une citation, un nombre de mots, une durée, ou soutenu, où le dernier qui maintient le rythme ou la précision gagne.",
+          "Les rivaux roulent à environ votre vitesse récente : facile un peu plus lent, difficile un peu plus rapide. Celui qui laisse des lettres erronées paie une seconde pour chacune.",
+          "Seul, vous affrontez deux rivaux ordinateurs et, une fois que vous avez une course dans ce mode, un fantôme de celle-ci que vous pouvez choisir. Sur votre réseau, tout le monde tape le même texte en même temps.",
+          "Une course contre un fantôme affronte les fantômes que vous avez enregistrés, jusqu'à trois à la fois, sur leur propre texte. Leurs chronomètres et le vôtre commencent à votre première frappe."
+        ]
+      }
+    },
+    "rivals": "{rulesLine} · rivaux {difficulty}",
+    "rivals_2": "rivaux"
+  },
+  "ghost_shelf": {
+    "kalibre_can_t_reach_your": "Kalibre ne peut pas accéder à votre dossier : autorisez-le dans paramètres → données",
+    "no_ghost_files_in_the": "aucun fichier fantôme dans le dossier ghosts/ pour l'instant",
+    "is_ready": "{fileName} est prêt",
+    "import": "importer",
+    "delete_s_ghost": "supprimer le fantôme de {name}",
+    "include_my_card": "inclure ma carte",
+    "from_folder": "depuis votre dossier Kalibre",
+    "drop_hint": "ou déposez-en un sur la page",
+    "import_file": "importer un fichier fantôme",
+    "delete": "supprimer",
+    "delete_aria": "supprimer le fantôme {name}",
+    "drop_ghost_file": "déposer un fichier fantôme ici pour l'importer",
+    "name_on_the_file": "nom sur le fichier",
+    "no_saved_ghosts_yet_save": "aucun fantôme enregistré pour l'instant. enregistrez-en un depuis les résultats d'un test, un replay, ou votre historique.",
+    "race_anyway": "courir quand même",
+    "save": "{count, plural, one {enregistrer le fantôme} other {enregistrer # fantômes}}",
+    "saved_to": "enregistré dans {savedTo}",
+    "share": "partager",
+    "your_text_goes_in_the": "votre texte va dans le fichier."
+  },
+  "castle_notes": {
+    "solid": "solide",
+    "patched": "réparé",
+    "cracked": "fissuré",
+    "mortar": "mortier",
+    "rubble": "décombres",
+    "stockpile_full": "stock plein",
+    "no_bricks_yet": "aucune brique pour l'instant",
+    "already_solid": "déjà solide",
+    "wrong_kind_of_brick": "mauvais type de brique",
+    "nobody_to_drop_it_on": "personne sur qui la lâcher",
+    "two_are_running_already": "deux sont déjà en cours",
+    "nothing_stored_there": "rien stocké ici"
+  },
+  "space_ui": {
+    "shot": {
+      "fired": "{word} · {power} dégâts",
+      "fired_typo": " (une faute : moitié de puissance)",
+      "fired_one_left": " (1 restant)",
+      "fired_automaton": " · automaton → {target}",
+      "fighter_down": "chasseur {word} abattu",
+      "loaded": "{word} · chargé, {power}",
+      "fizzle": "{word} · pas un mot, il a pété",
+      "fizzle_jam": "{word} · pas un mot : il a pété et bloqué la détente",
+      "scrap_armed": "effacez à nouveau pour supprimer {word}",
+      "scrap_clear_jam": " et débloquer",
+      "scrap_armed_jam": "effacez à nouveau pour débloquer",
+      "scrapped_word": "{word} supprimé",
+      "scrapped": "supprimé",
+      "jam_cleared_suffix": " · blocage résolu",
+      "rescue_hit": "attention : vous avez touché le vaisseau de secours ({word})",
+      "rescue_lost": "le vaisseau de secours a été perdu",
+      "jammed": "{word} a bloqué la détente · il reste chargé",
+      "locked": "la détente est bloquée",
+      "full": "{word} · le chargeur est plein : tirez d'abord",
+      "empty": "rien chargé : terminez un mot d'abord",
+      "cleared": "blocage résolu",
+      "intercepted": "missile {word} abattu",
+      "repaired": "{word} · réparé {healed}",
+      "bomb": "bombe !",
+      "bomb_not_ready": "la bombe n'est pas encore chargée",
+      "gatling": "tir rapide · {word}",
+      "shield_absorb": "le bouclier a absorbé le coup de {source} !"
+    },
+    "powerup_help": {
+      "double": "chaque tir tire deux fois",
+      "gatling": "chaque lettre tire un projectile",
+      "shield": "absorbe quelques coups pour vous",
+      "automaton": "le tir choisit la meilleure cible pour la plus grande menace",
+      "homing": "les mots tirés se dirigent vers les ennemis"
+    },
+    "powerup_label": {
+      "double": "double",
+      "gatling": "gatling",
+      "shield": "bouclier",
+      "automaton": "automaton",
+      "homing": "recherche"
     }
   }
 }

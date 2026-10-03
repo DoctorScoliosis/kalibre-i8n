@@ -1,0 +1,137 @@
+{
+  "slots": {
+    "body": {
+      "title": "carrosserie",
+      "hint": "la forme de votre voiture"
+    },
+    "paint": {
+      "title": "peinture",
+      "hint": "sa couleur, parmi les couleurs de votre thème"
+    },
+    "livery": {
+      "title": "livrée",
+      "hint": "un motif par-dessus la peinture (avec sa propre couleur)"
+    },
+    "wheels": {
+      "title": "roues",
+      "hint": "ce sur quoi elle roule"
+    },
+    "trail": {
+      "title": "traînée",
+      "hint": "ce qu'elle laisse derrière elle"
+    }
+  },
+  "parts": {
+    "body-hatch": {
+      "name": "hayon"
+    },
+    "body-coupe": {
+      "name": "coupé"
+    },
+    "body-beetle": {
+      "name": "coccinelle"
+    },
+    "body-pickup": {
+      "name": "pick-up"
+    },
+    "body-van": {
+      "name": "fourgon"
+    },
+    "body-racer": {
+      "name": "monoplace"
+    },
+    "body-bubble": {
+      "name": "voiture bulle"
+    },
+    "paint-accent": {
+      "name": "accent"
+    },
+    "paint-heat-1": {
+      "name": "braise"
+    },
+    "paint-heat-2": {
+      "name": "ambre"
+    },
+    "paint-heat-3": {
+      "name": "lever de soleil"
+    },
+    "paint-heat-4": {
+      "name": "écarlate"
+    },
+    "paint-chart-wpm": {
+      "name": "ligne de course"
+    },
+    "paint-text-dim": {
+      "name": "graphite"
+    },
+    "livery-stripe": {
+      "name": "bande de course"
+    },
+    "livery-checker": {
+      "name": "damier"
+    },
+    "livery-dots": {
+      "name": "pois"
+    },
+    "livery-chevrons": {
+      "name": "chevrons"
+    },
+    "livery-flames": {
+      "name": "flammes"
+    },
+    "livery-split": {
+      "name": "bicolore"
+    },
+    "livery-number": {
+      "name": "numéro de course"
+    },
+    "livery-midnight": {
+      "name": "étoiles de minuit"
+    },
+    "wheels-plain": {
+      "name": "simples"
+    },
+    "wheels-sport": {
+      "name": "sport"
+    },
+    "wheels-chunky": {
+      "name": "épaisse"
+    },
+    "wheels-spoked": {
+      "name": "à rayons"
+    },
+    "wheels-whitewall": {
+      "name": "flancs blancs"
+    },
+    "wheels-gilt": {
+      "name": "dorées"
+    },
+    "trail-dust": {
+      "name": "poussière"
+    },
+    "trail-sparks": {
+      "name": "étincelles"
+    },
+    "trail-bubbles": {
+      "name": "bulles"
+    },
+    "trail-ribbon": {
+      "name": "ruban"
+    },
+    "trail-stars": {
+      "name": "poussière d'étoiles"
+    }
+  },
+  "garage": {
+    "title": "garage",
+    "tab_title": "garage",
+    "tab_hint": "habillez votre voiture de course : c'est ce que vous conduisez sur la piste, et ce que tout le monde vous voit conduire",
+    "choose_slot": "choisir {slot}",
+    "paint_swatch": "peinture {name}",
+    "livery_colour": "couleur de livrée {tokenLabel}",
+    "usual_livery_colour": "couleur de livrée habituelle",
+    "livery_colour_2": "couleur de livrée",
+    "this_is_your_car_on": "Voici votre voiture sur la piste, et pour tous ceux qui courent contre vous. Elle ne porte que des pièces que vous avez gagnées.",
+    "your_race_car": "votre voiture de course"
+  }
+}

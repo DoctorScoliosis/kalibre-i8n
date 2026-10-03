@@ -1,0 +1,172 @@
+{
+  "mode": {
+    "time": "temps",
+    "words": "mots",
+    "quote": "citation",
+    "book": "livre",
+    "mixed": "mixte",
+    "sustained": "soutenu",
+    "custom": "personnalisé",
+    "mistakes": "erreurs"
+  },
+  "mode_label": "mode",
+  "sustained_title": "Maintenez un rythme ou une précision aussi longtemps que possible",
+  "status": {
+    "caps_lock": "verrouillage majuscules activé",
+    "restart": "redémarrer",
+    "pause": "pause",
+    "resume": "reprendre",
+    "caps_lock_label": "verrouillage majuscules",
+    "num_lock_off": "verrouillage numérique désactivé",
+    "num_lock_off_title": "le pavé numérique envoie des flèches lorsque le verrouillage numérique est désactivé",
+    "time_so_far": "temps écoulé",
+    "focus_click": "cliquez ou appuyez sur n'importe quelle touche pour vous concentrer",
+    "restart_symbol": "▶▶ "
+  },
+  "hints": {
+    "tab_enter_restart": "tab → entrée redémarrer · échap commandes",
+    "tab_tab_restart": "tab → tab redémarrer · échap commandes",
+    "enter_to_restart": "entrée pour redémarrer",
+    "tab_to_restart": "tab pour redémarrer"
+  },
+  "focus": {
+    "label": "concentration : {mode}",
+    "aria_label": "vue concentrée : {mode}. Appuyez pour changer.",
+    "off": "désactivé",
+    "line": "ligne",
+    "sentence": "phrase"
+  },
+  "instructions": {
+    "standard": "Tapez le texte affiché. Espace passe au mot suivant et Retour arrière corrige. Tab puis Entrée redémarre. Échap ouvre la ligne de commande.",
+    "sustained": "Maintenez votre rythme à ou au-dessus de la cible. Trois secondes en dessous mettent fin au test. Espace passe au mot suivant et Retour arrière corrige. Tab puis Entrée redémarre. Échap ouvre la ligne de commande.",
+    "accuracy": "Maintenez votre précision à ou au-dessus de la cible tout en tapant à un rythme régulier. Cinq secondes en dessous mettent fin au test. Espace passe au mot suivant et Retour arrière corrige. Tab puis Entrée redémarre. Échap ouvre la ligne de commande."
+  },
+  "mode_bar": {
+    "custom": "personnalisé {unit}",
+    "enable_a_book_dataset": "activer un jeu de données de livre",
+    "add_a_text_to_read": "ajouter un texte à lire",
+    "from": "à partir de {percent}%",
+    "start_over": "recommencer",
+    "read_this_one_from_the": "Lire celui-ci depuis le début",
+    "add_a_text_to_practise": "ajouter un texte à pratiquer",
+    "manage": "gérer",
+    "change": "changer",
+    "choose_what_and_how_to": "Choisissez quoi et comment vous entraîner",
+    "TABS": {
+      "time": {
+        "label": "temps"
+      },
+      "words": {
+        "label": "mots"
+      },
+      "quote": {
+        "label": "citation"
+      },
+      "mixed": {
+        "label": "mixte"
+      },
+      "sustained": {
+        "label": "soutenu",
+        "title": "Maintenez un rythme ou une précision aussi longtemps que possible"
+      },
+      "custom": {
+        "label": "personnalisé"
+      }
+    },
+    "SUSTAINED_SOURCES": {
+      "wordstream": {
+        "label": "mots courants"
+      },
+      "quotes": {
+        "label": "citations"
+      },
+      "work": {
+        "label": "livres"
+      },
+      "text": {
+        "label": "mes textes"
+      }
+    },
+    "BOOK_ORDER_OPTIONS": {
+      "sequential": {
+        "label": "dans l'ordre",
+        "title": "Continuez depuis là où vous vous êtes arrêté, puis le livre suivant"
+      },
+      "passages": {
+        "label": "passages",
+        "title": "Passages aléatoires du livre"
+      },
+      "chunks": {
+        "label": "morceaux",
+        "title": "Extraits aléatoires du livre"
+      }
+    },
+    "source": {
+      "wordstream": {
+        "label": "mots courants"
+      },
+      "quotes": {
+        "label": "citations"
+      }
+    },
+    "nodes": {
+      "pace": {
+        "label": "rythme",
+        "title": "Maintenez votre vitesse récente à ou au-dessus d'une cible (3 secondes pour récupérer)"
+      },
+      "accuracy": {
+        "label": "précision"
+      }
+    },
+    "lengthOptions": {
+      "entire": {
+        "label": "texte entier"
+      }
+    },
+    "custom_title": "personnalisé",
+    "accuracy_title": "Maintenez votre précision récente à ou au-dessus de la cible, en tapant au moins {floor} mots/min (5 secondes pour récupérer)",
+    "keep_up": "maintenir",
+    "text_source": "source du texte",
+    "text_to_read": "texte à lire",
+    "reading_order": "ordre de lecture",
+    "text_to_practise": "texte à pratiquer",
+    "book_to_read": "livre à lire",
+    "unit_words": "mots",
+    "unit_wpm": "mots/min",
+    "unit_seconds": "secondes"
+  },
+  "training_notice": {
+    "mistakes": "erreurs, {join}"
+  },
+  "type_view_goal": {
+    "today": "✓ {formatGoalAmount} aujourd'hui",
+    "today_2": "{floor} / {formatGoalAmount} aujourd'hui",
+    "aria": "objectif quotidien : {done} sur {target} aujourd'hui{met}",
+    "aria_met": ", atteint"
+  },
+  "type_view_pace": {
+    "target": "cible {target}%",
+    "target_wpm": "cible {target} mots/min",
+    "wpm": "{round} / {target} mots/min",
+    "below_target_words_per_minute": "En dessous de la cible : {target} mots par minute. {seconds} secondes pour récupérer.",
+    "too_slow_keep_at_least": "Trop lent : maintenez au moins {floorWpm} mots par minute. {seconds} secondes pour récupérer.",
+    "accuracy_below_percent_seconds_to": "Précision en dessous de {target} pourcent. {seconds} secondes pour récupérer.",
+    "back_on_target": "De retour sur la cible.",
+    "back_on_pace": "De retour dans le rythme."
+  },
+  "type_view": {
+    "wpm": "{round} mots/min · {round2}%",
+    "test_complete_words_per_minute": "Test terminé : {round} mots par minute, {toFixed} pourcent de précision, {errors} erreurs."
+  },
+  "typing_input": {
+    "typing_input": "entrée de frappe"
+  },
+  "type_view_book": {
+    "now_reading": "En train de lire {title}{by}.",
+    "by_author": " par {author}",
+    "now": "maintenant : {title}{by}"
+  },
+  "text_providers": {
+    "unknown_practice_source": "Source de pratique inconnue \"{source}\""
+  }
+}

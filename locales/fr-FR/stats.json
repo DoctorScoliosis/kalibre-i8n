@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "overview": "aperçu",
+    "periods": "par jour",
+    "bests": "meilleurs personnels",
+    "history": "historique",
+    "games": "jeux",
+    "numpad": "pavé numérique",
+    "xp": "XP",
+    "keys": "touches",
+    "hesitations": "hésitations",
+    "mistakes": "erreurs"
+  },
+  "export": {
+    "csv": "csv",
+    "json": "json",
+    "game_runs": "exporter les parties de jeux",
+    "every_test": "exporter tous les tests",
+    "days": "exporter les jours"
+  },
+  "empty": {
+    "no_tests": "aucun test pour l'instant",
+    "no_tests_games_only": "Aucun test pour l'instant : seulement des jeux jusqu'à présent. Voir statistiques → jeux.",
+    "no_tests_overview": "Aucun test pour l'instant. Votre vitesse, précision et les touches que vous trouvez les plus difficiles apparaîtront ici.",
+    "not_enough_typing": "pas assez de frappe pour l'instant"
+  },
+  "overview": {
+    "average_wpm": "moyenne mots/min",
+    "accuracy": "précision",
+    "tests": "tests",
+    "time_typing": "temps de frappe",
+    "completed": "terminés",
+    "restarted": "redémarrés",
+    "abandoned": "abandonnés",
+    "not_counted": "non comptés",
+    "words": "mots",
+    "characters": "caractères",
+    "averages_note": "les moyennes et les meilleurs n'utilisent que les tests terminés{notCounted, select, true { ; les tests avec tapotement aléatoire ne sont pas comptés} other {}}",
+    "chart_heading": "{scope, select, all {tous} other {derniers}} {count} {count, plural, one {test} other {tests}} · mots/min",
+    "chart_window_aria": "combien de tests à afficher dans le graphique",
+    "by_characters": "par caractères"
+  },
+  "bests": {
+    "race_this": "courir ceci",
+    "empty": "terminez un test pour en définir un",
+    "stats_summary": "{survived, select, true {{survivedTime} survécu · } other {}}{wpm} mots/min · {accuracy}% · {date}"
+  },
+  "periods": {
+    "no_tests": "aucun test",
+    "tests_count": "{count, plural, one {# test} other {# tests}}",
+    "best_accuracy": "meilleure {best} · {accuracy}%",
+    "daily_goal": "objectif quotidien : {target}",
+    "today": " · aujourd'hui {amount}{met, select, true { ✓} other {}}",
+    "streak": " · série {count, plural, one {# jour} other {# jours}}",
+    "no_daily_goal": "Aucun objectif quotidien. ",
+    "set_one": "en définir un",
+    "time_typed_per_day": "temps de frappe par jour · 30 derniers jours",
+    "day_by_day": "jour par jour",
+    "no_tests_last_30_days": "aucun test dans les 30 derniers jours",
+    "time_of_day": "moment de la journée",
+    "time_zone_note": "Les jours et les heures sont dans le fuseau horaire de cet appareil."
+  },
+  "games": {
+    "no_games": "aucun jeu joué pour l'instant. Les jeux sont sous jeux dans le menu.",
+    "runs_count": "{count, plural, one {# partie} other {# parties}}",
+    "last": "dernière {date}",
+    "best_run": "meilleure partie : {summary}",
+    "bests_note": "les meilleurs comptent les parties selon les règles actuelles de chaque jeu",
+    "bests_by_difficulty": "meilleurs par difficulté",
+    "recent_runs": "parties récentes",
+    "old_rules": "{game} (anciennes règles)",
+    "runs": "parties",
+    "time_played": "temps joué",
+    "recent_runs": "parties récentes",
+    "ten_key_tests": "tests de pavé numérique",
+    "fastest": "le plus rapide",
+    "lessons_mastered": "leçons maîtrisées",
+    "sums_right": "calculs justes",
+    "time_on_pad": "temps sur le pavé"
+  },
+  "numpad": {
+    "no_runs": "aucune session de pavé numérique pour l'instant. Elles sont sur la page du pavé numérique dans apprendre.",
+    "ksph_note": "frappe par heure (ksph) comptent les touches des entrées correctes, opérateurs et entrée inclus",
+    "bests": "meilleurs du pavé numérique",
+    "sums_by_kind": "calculs par type",
+    "weak_spots": "points faibles",
+    "recent_runs": "sessions récentes",
+    "ten_key_tests": "tests de pavé numérique",
+    "fastest": "le plus rapide",
+    "lessons_mastered": "leçons maîtrisées",
+    "sums_right": "calculs justes",
+    "time_on_pad": "temps sur le pavé"
+  },
+  "hesitations": {
+    "explain": "Pas des erreurs : touches que vous avez tapées correctement, mais seulement après une pause d'au moins {factor}× votre intervalle habituel entre les touches (jamais en dessous de {minMs} ms), donc elles sont mesurées par rapport à votre rythme, quel que soit votre vitesse de frappe. Les pauses de plus de {maxS} s comptent comme une interruption (plus longtemps si vous tapez en cherchant les touches). Les pauses qui reviennent souvent sont suggérées pour l'entraînement, comme les erreurs.",
+    "empty": "Les tests à partir de maintenant sont mesurés pour les hésitations.",
+    "hesitations": "hésitations",
+    "per_minute": "par minute",
+    "tests_measured": "tests mesurés",
+    "keys_pause_before": "touches avant lesquelles vous hésitez",
+    "pairs_pause_inside": "paires de lettres où vous hésitez",
+    "words_pause_before": "mots avant lesquels vous hésitez",
+    "no_pattern_yet": "aucun schéma pour l'instant"
+  },
+  "keys": {
+    "picker_label": "disposition du clavier : ",
+    "dropdown_label": "disposition du clavier",
+    "least_accurate_keys": "touches les moins précises",
+    "slowest_keys": "touches les plus lentes",
+    "least_accurate_pairs": "paires de lettres les moins précises",
+    "slowest_pairs": "paires de lettres les plus lentes"
+  },
+  "mistakes": {
+    "errors_summary": "{uncorrected} non corrigées · {corrected} corrigées · {capsLock} avec verrouillage majuscules",
+    "most_common": "les plus courantes",
+    "all_mistakes": "toutes les erreurs",
+    "keys": "touches",
+    "shift": "maj",
+    "words": "mots",
+    "between_words": "entre les mots",
+    "none_yet": "aucune pour l'instant"
+  },
+  "xp": {
+    "blurb": "L'XP provient de la frappe correcte (ajustée par la précision), un peu des bonus, et des erreurs que vous entraînez à éliminer. Il est calculé à partir de votre historique.",
+    "total_xp": "XP total",
+    "last_7_days": "7 derniers jours",
+    "where_from": "d'où il provient",
+    "xp_per_day": "XP par jour · 30 derniers jours"
+  },
+  "history": {
+    "replay": "replay",
+    "race": "course",
+    "delete": "supprimer",
+    "race_title": "Courir cette session comme fantôme, sur son propre texte",
+    "no_saved_ghosts": "aucun fantôme enregistré pour l'instant. Enregistrez-en un après n'importe quel test ou replay.",
+    "no_history": "aucun test dans l'historique pour l'instant",
+    "pinned": "épinglé",
+    "all_tests": "tous les tests",
+    "saved_ghosts": "fantômes enregistrés",
+    "saved_ghosts_count": "fantômes enregistrés ({count})",
+    "pager_aria": "pages de l'historique",
+    "pager_prev": "« précédent",
+    "pager_next": "suivant »",
+    "pager_range": "{first}–{last} sur {count}",
+    "page_aria": "page {number}"
+  },
+  "shared": {
+    "level": "niveau",
+    "level_aria": "XP jusqu'au niveau suivant",
+    "prev": "préc",
+    "next": "suiv",
+    "prev_aria": "page précédente",
+    "next_aria": "page suivante",
+    "page_info": "{current} sur {total}",
+    "xp": "{toLocaleString} / {toLocaleString2} XP",
+    "ms": "{round} ms · {round2}%",
+    "typed": "{round}% · tapé {toLocaleString}"
+  },
+  "hesitations_pane": {
+    "of": "{round}% · {hesitated} sur {toLocaleString}"
+  },
+  "overview_pane": {
+    "recent_tests": "tests récents",
+    "group_stats": "{wpm} mots/min · {accuracy}% · {count, plural, one {# test} other {# tests}}"
+  },
+  "periods_pane": {
+    "wpm": " mots/min"
+  },
+  "stats_charts": {
+    "wpm_of_recent_tests_use": "Mots/min des tests récents. Utilisez les touches fléchées gauche et droite pour lire chaque test.",
+    "recent_tests": "Tests récents",
+    "complete_a_couple_of_tests": "Terminez quelques tests pour voir une tendance.",
+    "accuracy": "{value}% de précision",
+    "not_enough_typing": "pas assez de frappe",
+    "ms": "{round} ms",
+    "keyboard_coloured_by_how_often": "Clavier coloré selon la fréquence à laquelle chaque touche est tapée correctement du premier coup. Le tableau ci-dessous liste les mêmes valeurs.",
+    "use_the_left_and_right": "{label}. Utilisez les touches fléchées gauche et droite pour lire chaque jour.",
+    "no_typing": "aucune frappe",
+    "day_tests": "{count, plural, one {# test} other {# tests}}",
+    "day_wpm": " · {wpm} mots/min"
+  },
+  "stats": {
+    "sections_label": "sections de statistiques"
+  }
+}

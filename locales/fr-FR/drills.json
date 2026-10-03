@@ -1,0 +1,53 @@
+{
+  "formats": {
+    "time": "temps",
+    "words": "mots",
+    "quote": "citation"
+  },
+  "actions": {
+    "start_drill": "commencer l'exercice",
+    "drill": "exercice",
+    "drill_aria": "exercice {mistake} maintenant",
+    "drill_title": "Exercice seulement {mistake} maintenant, la méthode recommandée",
+    "manage_in_mistakes": "gérer dans erreurs",
+    "recommended": "recommandé",
+    "recommended_title": "Cochez les erreurs qui valent la peine d'être exercées maintenant, autant qu'un exercice peut en contenir",
+    "all": "tout",
+    "none": "aucun",
+    "train_and_drill_these": "entraîner et exercer ceux-ci"
+  },
+  "labels": {
+    "how": "comment",
+    "what_to_drill": "que faire comme exercice",
+    "drill_format": "format de l'exercice",
+    "drill_length": "longueur de l'exercice",
+    "quote_length": "longueur de la citation",
+    "practise_by_area": "s'entraîner par zone",
+    "words_count": "{count, plural, one {# mot} other {# mots}}",
+    "ticked_count": "{selected} sur {total} cochés",
+    "in_training": "en entraînement",
+    "ready_to_drill": "prêt à s'exercer",
+    "improving": "en amélioration",
+    "finding_quotes": "recherche de citations avec ces erreurs…",
+    "no_quotes_found": "Aucune citation de cette longueur ne contient ces erreurs. Essayez une autre longueur, ou un exercice de mots.",
+    "quotes_with_mistakes": "citations avec ces erreurs",
+    "best_fit": "meilleure correspondance",
+    "typed_lately": "tapé récemment",
+    "recommended_reason": "{recommended} est recommandé : {reason}",
+    "ready": "prêt",
+    "due_title": "Réapparu depuis son dernier exercice",
+    "not_due_title": "Aucune nouvelle erreur depuis son dernier exercice",
+    "rate_title": "À quelle fréquence cela va mal quand tapé",
+    "last_seen_title": "Dernière apparition",
+    "usual": "habituel",
+    "seen_not_trained": "vu, pas encore entraîné",
+    "empty_nothing_in_training": "Rien en entraînement pour l'instant. Continuez à taper : Kalibre suggère les erreurs qui reviennent souvent.",
+    "empty_seen_not_trained": "Rien en entraînement pour l'instant. Celles-ci sont apparues mais ne sont pas encore entraînées : cochez celles à travailler."
+  },
+  "status": {
+    "training": "entraînement",
+    "improving": "amélioration",
+    "suggested": "suggéré",
+    "watching": "observation"
+  }
+}

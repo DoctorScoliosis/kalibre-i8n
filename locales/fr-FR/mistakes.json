@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "suggested": "suggérées",
+    "training": "entraînement",
+    "improving": "en amélioration",
+    "mastered": "maîtrisées",
+    "dismissed": "ignorées",
+    "watching": "observation",
+    "overview": "aperçu",
+    "all": "toutes"
+  },
+  "blurbs": {
+    "suggested": "Erreurs qui reviennent souvent. Entraînez-les, ou ignorez celles qui ne vous intéressent pas.",
+    "training": "Les exercices se concentrent sur celles-ci.",
+    "improving": "Le taux d'erreur a été divisé par deux depuis le début de l'entraînement.",
+    "mastered": "Réduites à un quart de leur taux initial. Elles retournent en entraînement si elles réapparaissent.",
+    "dismissed": "Non suggérées à nouveau sauf si vous les restaurez.",
+    "watching": "Vues, mais pas assez souvent pour être suggérées. — entraîner maintenant — commence l'entraînement quand même.",
+    "overview": "Où vos doigts se trompent, dessiné sur le clavier, avec les mots et les espaces à côté. Chaque ligne montre le taux d'erreur sur les tests récents.",
+    "all": "Toutes les erreurs que Kalibre a notées, quel que soit leur statut."
+  },
+  "empty": {
+    "suggested": "Aucune erreur ici pour l'instant. Vous faites du bon travail !",
+    "training": "Aucune erreur en entraînement pour l'instant. Ajoutez-en depuis l'onglet 'suggérées'.",
+    "improving": "Rien en amélioration pour l'instant. Continuez à vous exercer sur vos erreurs d'entraînement.",
+    "mastered": "Rien de maîtrisé pour l'instant. L'entraînement prend du temps — continuez.",
+    "dismissed": "Rien ignoré.",
+    "watching": "Rien ici pour l'instant. Continuez à taper et des schémas apparaîtront.",
+    "all": "Aucune erreur notée pour l'instant. Au fur et à mesure que vous tapez, Kalibre enregistre les schémas récurrents ici."
+  },
+  "kinds": {
+    "key": "touche",
+    "shift": "maj",
+    "swap": "paire de lettres",
+    "omit": "manquante",
+    "extra": "supplémentaire",
+    "word": "mot",
+    "space": "espace",
+    "insert": "mot supplémentaire",
+    "skip": "mot omis",
+    "hesitation": "hésitation",
+    "tricky": "mot délicat"
+  },
+  "columns": {
+    "mistake": "erreur",
+    "kind": "type",
+    "status": "statut",
+    "left_in": "restantes dans",
+    "fixed": "corrigées",
+    "tests": "tests",
+    "trend": "tendance",
+    "rate": "taux",
+    "seen": "vues"
+  },
+  "actions": {
+    "train": "entraîner",
+    "train_aria": "entraîner {mistake}",
+    "train_now": "entraîner maintenant",
+    "train_now_aria": "entraîner {mistake} maintenant",
+    "train_again": "entraîner à nouveau",
+    "train_again_aria": "entraîner {mistake} à nouveau",
+    "dismiss": "ignorer",
+    "dismiss_aria": "ignorer {mistake}",
+    "restore": "restaurer",
+    "restore_aria": "restaurer {mistake}",
+    "drill": "exercice",
+    "drill_aria": "exercice {mistake}",
+    "drill_all": "exercer mes erreurs d'entraînement",
+    "stop": "arrêter",
+    "stop_aria": "arrêter l'entraînement {mistake}",
+    "export": "exporter ",
+    "csv": "csv",
+    "json": "json"
+  },
+  "filters": {
+    "all": "toutes",
+    "uncorrected": "non corrigées",
+    "corrected": "corrigées"
+  },
+  "layouts": {
+    "list": "liste",
+    "table": "tableau"
+  },
+  "labels": {
+    "by_status": "erreurs par statut",
+    "show_on_map": "afficher sur la carte",
+    "show_mistakes": "afficher les erreurs",
+    "show_as": "afficher comme",
+    "kind_of_mistake": "type d'erreur",
+    "all_kinds": "tous les types",
+    "keyboard_layout": "disposition du clavier",
+    "sessions_count": "{count, plural, one {# session} other {# sessions}}",
+    "corrected_count": "{count} corrigées",
+    "pager_aria": "pages du tableau des erreurs",
+    "no_qualifiers_mistakes": "Aucune erreur {qualifiers}{inSection, select, true { dans {section}} other {}} pour l'instant.",
+    "no_in_section": "Aucune erreur dans {section} pour l'instant.",
+    "training_words_note": "{count, plural, one {# mot} other {# mots}} avec des erreurs cohérentes en entraînement."
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "{label} erreurs — cliquez pour isoler",
+    "page": "page {value}",
+    "of": "{first}–{last} sur {length}",
+    "keyboard_mistakes_pages": "pages des erreurs du clavier",
+    "nothing_to_draw_on_this": "Rien à dessiner sur ce clavier pour l'instant. Les erreurs vues plus d'une fois apparaissent ici.",
+    "on_the_keyboard": "sur le clavier",
+    "none_yet": "Aucune pour l'instant.",
+    "with_keys_not_on_this": "{unmapped} avec des touches non présentes sur cette disposition",
+    "words_and_spaces": "mots et espaces",
+    "no_tests_yet": "aucun test pour l'instant",
+    "rate_one_test": "taux d'erreur {rate} en un test",
+    "rate_over_tests": "taux d'erreur {from} → {to} sur {count, plural, one {# test} other {# tests}}",
+    "mark_label": "{mistake} : {rate} du temps",
+    "started_at": "{summary} · entraînement commencé à {rate}",
+    "keyboard_label": "Clavier avec {count, plural, one {# erreur} other {# erreurs}} dessinées dessus. La liste ci-dessous contient les mêmes erreurs."
+  },
+  "mistakes": {
+    "actions": "actions",
+    "no_mistakes_yet": "Aucune erreur pour l'instant."
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": {
+        "title": "touches"
+      },
+      "shift": {
+        "title": "maj"
+      },
+      "pairs": {
+        "title": "paires de lettres"
+      },
+      "letters": {
+        "title": "lettres manquantes et supplémentaires"
+      },
+      "words": {
+        "title": "mots"
+      },
+      "tricky": {
+        "title": "mots délicats"
+      },
+      "between": {
+        "title": "entre les mots"
+      },
+      "hesitations": {
+        "title": "hésitations"
+      }
+    }
+  }
+}
