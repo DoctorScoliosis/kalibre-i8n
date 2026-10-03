@@ -37,6 +37,15 @@
     "learn.json": "830bef8382f0546da3caafa5fa004d09bfe2a89a3ae1732c3f643c17561841e3",
     "mistakes.json": "fbd612cc9beeae3efd41ef6911ff48932349a736eebb5bb39946c9917beb9622",
     "profiles.json": "006d02c2362f3992e5de44d377baca8b756eb987ee3dead0acf5944ac165457a",
-    "quests.json": "62fffb4aa642511307043c8f658fc508be4cd8e38d20f0b39e0dbd165e7f2cc4"
+    "quests.json": "62fffb4aa642511307043c8f658fc508be4cd8e38d20f0b39e0dbd165e7f2cc4",
+    "race.json": "3cf84416d58171fbe2134404d8e65b789304435f3afe60e3d5f285ae2b1f7cd7",
+    "results.json": "07c7a80687cdee1e67493878b1d525895d33a1710fb9ec635f2dcf35059bbe69",
+    "settings.json": "257ebc50b8724690a7a34b5139987f66daafde28294a5ae39ac71f02263dc5fa",
+    "stats.json": "18f6b038728238869ace1bd5e13aceb0eb7a3557edfe2b4a3a88a5c138d056fd",
+    "texts.json": "7bd0a896137f778c7a5a6d9f5b265deee626c97bb3a92a1332aec97d6ac8080b",
+    "themes.json": "b57ad12829bd088ea6a249af00c307cb929cc292919494ddd367cf80864b12f7",
+    "typing.json": "a66e03fa5ee14db9d0a5a9fec662782dc01880420f2ca01bcdff82e0e200917e",
+    "wardrobe.json": "1fa2de77f06d97fc1cd8d47342c2f3141d9b6458d1502f39d1ea4d10de31f7c7",
+    "words.json": "b2f279bd5018b05cbd4ff8a107c704a8d54adbdeed232d570f5a0834700824cf"
   }
 }
