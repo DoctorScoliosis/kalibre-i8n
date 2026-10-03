@@ -1,0 +1,1398 @@
+{
+  "feed": {
+    "title": "feed",
+    "blurb": "Alimente uma criatura faminta com as palavras que ela pede antes que a paciência acabe, ou administre um buffet para uma multidão.",
+    "modes": {
+      "prompted": "paladar exigente",
+      "unprompted": "modo lanche",
+      "buffet": "buffet"
+    },
+    "s_not_what_i_asked": "−{seconds}s · {text}? não foi o que pedi",
+    "fed": "+{seconds}s · {text}",
+    "fed_patched": " (remendado)",
+    "fed_hinted": " (a dica: vale metade do tempo)",
+    "fed_yum": " · nham",
+    "typo": "−{seconds}s · erro de digitação",
+    "typo_meant": " ({meant}?)"
+  },
+  "castle": {
+    "title": "castle",
+    "blurb": "Construa suas muralhas com palavras e mantenha a posição até os atacantes desistirem.",
+    "modes": {
+      "unprompted": "qualquer tijolo",
+      "prompted": "tijolos especiais"
+    },
+    "the_attackers_resolve_hold_the": "a determinação dos atacantes: segure o portão e continue para reduzi-la",
+    "stockpile": "estoque",
+    "click_a_brick_to_carry": "clique em um tijolo para carregá-lo · espaço coloca · shift+enter solta · 1–9 escolhem",
+    "bricks": "{length} tijolos · {toFixed}",
+    "the_dropped_shift_to_use": "{from} soltou {label} · shift+{slot} para usar",
+    "the_dropped_but_storage_is": "{from} soltou {label}, mas o estoque está cheio",
+    "brick_stacked": "{word} · tijolo {note} {toFixed} · empilhado{repeatNote}",
+    "damage": "{note} · {toFixed} de dano",
+    "yard_brick_pick": "{word}: tijolo {note}, força {strength} (pressione {key} para pegar)",
+    "yard_brick": "{word}: tijolo {note}, força {strength}",
+    "aiming_at": "mirando em: {section} {integrity}/{max}",
+    "aiming_critical": " · crítico",
+    "aiming_needs": " · precisa de tijolos que {requirement}",
+    "brick_added": "{what} · +{added} {section}",
+    "brick_named": "{word} · tijolo {note}",
+    "the_castle": "o castelo",
+    "powerups": {
+      "mortar": {
+        "label": "argamassa",
+        "help": "tijolos soltos causam o dobro de dano"
+      },
+      "mason": {
+        "label": "pedreiro",
+        "help": "tijolos contam uma vez e meia"
+      },
+      "oil": {
+        "label": "óleo",
+        "help": "atordoa todos os atacantes de uma vez"
+      },
+      "mend": {
+        "label": "reparo",
+        "help": "repara o portão ou torre de menagem mais fracos"
+      }
+    },
+    "foe_title": "{type}: clique ou solte um tijolo para esmagar ({hp} HP)",
+    "foe_stunned": ", atordoado",
+    "catapult_title": "catapulta: fora de alcance ao longe",
+    "catapult_aiming": ", mirando em {section}",
+    "section_title": "{section}: {integrity}/{max}",
+    "section_critical": ", crítico",
+    "section_needs": ", precisa de tijolos que {requirement}",
+    "news_line": "{label}: {note}",
+    "powerup": "power-up",
+    "sortie_title": "sortida da guarnição: reúna defensores no campo",
+    "sortie_ready": "enviar sortida · alt+enter",
+    "sortie_mustering": "reunindo ({seconds}s)",
+    "sortie_breached": "portaria rompida",
+    "sortie_no_bricks": "é preciso ter tijolos para equipar",
+    "guard_title": "guarda da guarnição: {hp}/{maxHp} HP"
+  },
+  "space": {
+    "title": "space",
+    "blurb": "Controle a nave com o mouse, dispare com palavras e mantenha-a viva.",
+    "modes": {
+      "unprompted": "tiro livre",
+      "prompted": "direcionado"
+    },
+    "ship_health": "integridade da nave",
+    "magazine": "pente",
+    "bomb_charge": "carga da bomba",
+    "click_enter_fires_scroll_choose": "clique / enter dispara · ↑ ↓ / rolagem escolhe · backspace ×2 descarta",
+    "finish_a_word_to_load": "termine uma palavra para carregá-la",
+    "bomb_ready_shift_enter": "bomba pronta · shift+enter",
+    "bomb": "bomba {floor}%",
+    "accumulator_charge": "carga do capacitor",
+    "accumulator": "capacitor {floor}%",
+    "accumulator_ready_alt_enter": "capacitor pronto ({charge}%) · alt+enter",
+    "accumulator_overload_alt_enter": "sobrecarga do capacitor! · alt+enter",
+    "ship": "nave {round}",
+    "score": "pontuação {round}",
+    "destroyed": "destruídos {value}",
+    "s_left": "{ceil}s restantes",
+    "trigger_jammed_type_or_backspace": "gatilho travado · digite “{word}” ou pressione backspace duas vezes para descartar um disparo"
+  },
+  "spot": {
+    "title": "spot",
+    "blurb": "Encontre os erros plantados em um trecho e corrija-os.",
+    "modes": {
+      "prompted": "revisão"
+    },
+    "was": "{errorTitle}: era “{corrupted}”",
+    "should_be": "{errorTitle}: deveria ser “{original}”",
+    "was_fine": "{word} estava certo",
+    "fixed": "corrigido: {original} · {errorTitle}",
+    "it_should_be": "deveria ser “{original}” · {errorTitle}",
+    "repairing": "{title} · corrija no lugar (← → para mover) e pressione enter",
+    "repairing_retry": " · mais uma tentativa",
+    "repairing_cancel": " · esc para cancelar",
+    "lives": "{count}/{max} vidas",
+    "streak": "sequência {count}",
+    "combo": "combo ×{multiplier}",
+    "escaped": "{word} passou pela tela"
+  },
+  "ui": {
+    "pause": "pausa",
+    "paused": "pausado",
+    "resume": "retomar",
+    "restart": "reiniciar",
+    "quit": "sair",
+    "game_over": "fim de jogo",
+    "victory": "vitória",
+    "menu_intro": "Digitação como brincadeira: suas palavras viram comida, tijolos, disparos e reparos. Os jogos contam para XP, seus erros e sua meta diária (pelo tempo que você passa digitando, não lendo ou mirando).",
+    "games_aria": "jogos",
+    "not_played": "ainda não jogado",
+    "best_summary": "melhor {score} · jogado pela última vez {date}",
+    "race_record": "sozinho ou na sua rede",
+    "mode": "modo",
+    "difficulty": "dificuldade",
+    "details": "detalhes",
+    "replay": "replay",
+    "main": "principal",
+    "demo_caption": "demonstração · passe o mouse para jogar",
+    "play_game": "jogar {title}",
+    "all_games": "todos os jogos",
+    "demo_aria": "{title}: demonstração {label}",
+    "no_passages": "Nenhum trecho para revisar. Ative um conjunto de dados em textos → conjuntos de dados.",
+    "time_so_far": "tempo até agora",
+    "end_game": "encerrar jogo ",
+    "exit": "sair ",
+    "commands": "comandos ",
+    "hints": "esc pausa · {restartKey} reinicia",
+    "strength_chip_title": "força: 1 por letra, +1 para k v w y, +2 para j q x z",
+    "strength_current": "força {strength}",
+    "strength_goal": "força {strength} / {goal}",
+    "pause_lost_focus": "a janela perdeu o foco",
+    "pause_typing_lost": "o foco de digitação foi perdido",
+    "heading": "resultados de {title}",
+    "status_failed": "fim de jogo",
+    "status_aborted": "encerrado cedo",
+    "status_done": "concluído",
+    "play_again": "jogar novamente",
+    "change_setup": "alterar configuração",
+    "added_training": "adicionado ao treinamento",
+    "mistakes_noted": "{count, plural, one { · 1 erro registrado} other { · # erros registrados}}",
+    "results_summary": "{time} · {words} palavras · {wpm} ppm · {accuracy} · digitadas errado {mistypes} · corrigidas {corrections}",
+    "daily_goal_title": "Os jogos contam para a meta o tempo de digitação, não o tempo lendo, mirando ou pensando",
+    "key_mashing_note": "Esta partida pareceu uma sequência de teclas aleatórias ({reason}), então seus erros e XP não foram contabilizados.",
+    "ghost_title": "correr contra um fantasma",
+    "ghost_blurb": "Seus fantasmas salvos, por percurso. Escolha até {max} em um percurso e corra contra eles no próprio texto e pelas próprias regras; os cronômetros de todos começam na sua primeira tecla.",
+    "import_file": "importar um arquivo de fantasma",
+    "from_folder": "da sua pasta do kalibre",
+    "drop_hint": "ou solte um na página",
+    "race_setup": "configuração da corrida",
+    "time_left": "tempo restante",
+    "any_word_blurb": "Eu como qualquer coisa. Palavras mais fortes me enchem mais.",
+    "any_word": "qualquer palavra",
+    "counts": "servidos {fed} · errados {wrong} · digitados errado {mistyped}{streak, select, true { · sequência {count}} other {}}",
+    "satisfaction": "satisfação",
+    "creatures_orders": "criaturas e seus pedidos",
+    "waiting_guest": "esperando o primeiro cliente…",
+    "served_words": "palavras servidas",
+    "table_status": "mesa {count}/{cap}",
+    "yard_empty": "digite uma palavra para criar um tijolo",
+    "calm_wave": "calma: acumule tijolos · onda {wave} de {of} em {seconds}s",
+    "active_wave": "onda {wave} de {of} · {count, plural, one {1 atacante} other {# atacantes}}{holding, select, true { · segurando} other { · não segurando}}",
+    "castle_integrity": "castelo {percent}%",
+    "time_bank": "banco de tempo",
+    "next_passage": "próximo trecho ",
+    "hud_found": "trecho {round} · encontrados {found} de {total}",
+    "hud_score": "pontuação {score}",
+    "find_mistake": "encontre um erro: aponte ou use as setas, depois clique ou pressione enter",
+    "skip_title": "seguir em frente; o que restar conta como perdido"
+  },
+  "errors": {
+    "deletion": "letra ausente",
+    "insertion": "letra extra",
+    "transposition": "letras trocadas",
+    "repeat": "tecla pressionada duas vezes",
+    "wrongWord": "palavra errada",
+    "missingPunctuation": "pontuação ausente",
+    "wrongPunctuation": "pontuação errada",
+    "capitalisation": "letra maiúscula",
+    "whitespace": "espaçamento"
+  },
+  "feed_buffet": {
+    "patience": "paciência",
+    "the_floor_fall_to_it": "o piso: se cair até ele, o buffet fecha",
+    "burnt_a_typo_counts_half": "queimado (um erro de digitação): vale metade",
+    "served": "servido {text}",
+    "an_order_filled_happy_guest": "pedido completo · cliente feliz",
+    "a_guest_gave_up_waiting": "um cliente desistiu de esperar",
+    "went_stale": "{text} ficou velho",
+    "the_table_is_full_let": "a mesa está cheia: deixe-os comer primeiro",
+    "that_s_not_food": "{text}? isso não é comida",
+    "orders_wasted_upset": "pedidos {value} · desperdiçados {value2} · insatisfeitos {value3}",
+    "served_burnt": " (queimado: vale metade)"
+  },
+  "games_results": {
+    "daily_goal_met_today": "✓ meta diária cumprida · {formatGoalAmount} hoje",
+    "daily_goal_progress": "meta diária · {done} de {target} hoje · esta partida {run}",
+    "run_minutes": "{clock} de digitação",
+    "run_xp": "{xp} xp",
+    "run_words": "{words} palavras"
+  },
+  "games_setup": {
+    "controls": "controles",
+    "notes": "notas",
+    "mechanic_visuals": "visuais das mecânicas",
+    "mechanics_contexts": "contextos das mecânicas",
+    "more": "mais ▾",
+    "demonstration_variants": "variantes de demonstração"
+  },
+  "ghost_shelf": {
+    "kalibre_can_t_reach_your": "o kalibre não consegue acessar sua pasta: permita em configurações → dados",
+    "no_ghost_files_in_the": "ainda não há arquivos de fantasma na pasta ghosts/",
+    "import": "importar",
+    "no_saved_ghosts_yet_save": "nenhum fantasma salvo ainda. salve um nos resultados de um teste, em um replay ou no histórico.",
+    "race_anyway": "correr mesmo assim",
+    "delete_s_ghost": "excluir o fantasma de {name}",
+    "name_on_the_file": "nome no arquivo",
+    "saved_to": "salvo em {savedTo}",
+    "is_ready": "{fileName} está pronto",
+    "include_my_card": "incluir meu cartão",
+    "your_text_goes_in_the": "seu texto vai para o arquivo.",
+    "share": "compartilhar",
+    "save": "{count, plural, one {salvar o fantasma} other {salvar # fantasmas}}"
+  },
+  "powerup_tray": {
+    "shift": "{label}: {help} (shift+{value})",
+    "powerups_two_at_once": "power-ups {length}/{storage} · dois de uma vez"
+  },
+  "race_card": {
+    "ghost": "fantasma",
+    "race_people_on_your_network": "correr contra pessoas na sua rede",
+    "your_car_dress_it_in": "seu carro. vista-o em seu perfil → seu cartão → garagem; conquiste peças correndo e jogando.",
+    "race_a_demo_playing_while": "corrida: uma demonstração, tocando enquanto está sob o cursor ou em foco",
+    "rivals": "{rulesLine} · rivais {difficulty}",
+    "RACE_CARD": {
+      "race": {
+        "title": "corrida",
+        "blurb": "Corra contra o computador sozinho ou contra pessoas na sua rede, em uma citação, palavras, contra o relógio ou pelo tempo que conseguir acompanhar.",
+        "help": [
+          "Escolha o que vai disputar: uma citação, uma quantidade de palavras, um tempo ou sustentado, em que vence quem for o último a manter o ritmo ou a precisão.",
+          "Os rivais correm mais ou menos na sua velocidade recente: fácil um pouco mais lento, difícil um pouco mais rápido. Quem deixa letras erradas paga um segundo por cada uma.",
+          "Sozinho, você corre contra dois rivais do computador e, depois que tiver uma partida nesse modo, contra um fantasma dela que pode escolher. Na sua rede, todos digitam o mesmo texto ao mesmo tempo.",
+          "Correr contra um fantasma usa os fantasmas que você salvou, até três de uma vez, no próprio texto deles."
+        ]
+      }
+    },
+    "rivals_2": "rivais"
+  },
+  "word_quality": {
+    "close_to": " · próximo de “{variantOf}” {percent}",
+    "repeat": " · repetição {percent}"
+  },
+  "games_registry": {
+    "STRENGTH_MECHANIC": {
+      "strength": {
+        "label": "força",
+        "summary": "a precisão da digitação determina a força da palavra. 1 por letra, +1 para K V W Y, +2 para J Q X Z. no difícil, variantes próximas de palavras recentes contam menos."
+      }
+    },
+    "GAMES": {
+      "feed": {
+        "contexts": {
+          "getting-started": {
+            "label": "começando",
+            "group": "começando",
+            "summary": "digite palavras para alimentar a criatura antes que a paciência acabe.",
+            "highlights": [
+              "digite uma palavra e pressione espaço para servi-la",
+              "mantenha a criatura feliz para continuar viva"
+            ],
+            "details": [
+              "cada palavra servida restaura tempo. palavras mais longas restauram mais.",
+              "se você demorar demais, o humor da criatura cai e eventualmente ela vai embora."
+            ],
+            "mechanics": {
+              "mood": {
+                "label": "humor",
+                "summary": "o humor da criatura cai com o tempo se ela não for alimentada."
+              },
+              "patience": {
+                "label": "paciência",
+                "summary": "um cronômetro faz a contagem regressiva. servir uma palavra adequada restaura tempo."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "enviar palavra"
+              }
+            },
+            "visuals": {
+              "mood-content": {
+                "label": "satisfeita"
+              },
+              "mood-peckish": {
+                "label": "com fome"
+              },
+              "mood-starving": {
+                "label": "faminta"
+              }
+            }
+          },
+          "creature-requests": {
+            "label": "pedidos da criatura",
+            "group": "começando",
+            "summary": "a criatura pede um tipo de palavra — corresponda ao pedido para ganhar todo o tempo.",
+            "highlights": [
+              "leia o pedido acima da criatura",
+              "uma palavra correspondente dá todo o tempo; uma errada custa tempo"
+            ],
+            "details": [
+              "os pedidos incluem: palavras curtas ou longas, palavras que começam com uma letra ou palavras que contêm certas letras.",
+              "ficou parado por um tempo ou errou duas vezes? uma palavra válida aparece levemente sobre a criatura, valendo metade do tempo."
+            ],
+            "notes": {
+              "hard": {
+                "text": "os pedidos são mais específicos e há menos tempo."
+              }
+            },
+            "mechanics": {
+              "prompts": {
+                "label": "pedidos",
+                "summary": "a criatura mostra que tipo de palavra quer."
+              },
+              "hint": {
+                "label": "dica na barriga",
+                "summary": "depois de ficar parado ou errar duas vezes, uma palavra válida aparece suavemente sobre a criatura."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "enviar palavra"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "dica na barriga"
+              }
+            },
+            "visuals": {
+              "prompt-need": {
+                "label": "pedido de palavra"
+              },
+              "belly-hint": {
+                "label": "dica na barriga (metade do tempo)"
+              }
+            }
+          },
+          "snack-mode": {
+            "label": "modo lanche",
+            "group": "começando",
+            "summary": "a criatura come qualquer palavra — palavras mais fortes a enchem mais, mas ela fica com fome mais rápido.",
+            "highlights": [
+              "qualquer palavra válida alimenta a criatura",
+              "palavras mais longas e precisas restauram mais tempo"
+            ],
+            "details": [
+              "não há pedidos: digite qualquer palavra que quiser.",
+              "a criatura drena a paciência mais rápido que no paladar exigente, então velocidade importa."
+            ],
+            "controls": {
+              "i0": {
+                "action": "enviar palavra"
+              }
+            },
+            "visuals": {
+              "free-eating": {
+                "label": "qualquer palavra válida"
+              },
+              "fast-patience": {
+                "label": "fome acelerada"
+              }
+            }
+          },
+          "buffet": {
+            "label": "serviço de buffet",
+            "group": "começando",
+            "summary": "clientes pedem vários tipos de palavra. sirva palavras à mesa e eles comem o que combina.",
+            "highlights": [
+              "clientes chegam com pedidos de 1–3 tipos de palavra",
+              "mantenha a satisfação geral acima da linha vermelha"
+            ],
+            "details": [
+              "digite uma palavra e pressione espaço para colocá-la na mesa. clientes comem o que corresponde aos pedidos.",
+              "um pedido completo agrada o cliente e aumenta a satisfação. um cliente que espera demais vai embora insatisfeito.",
+              "palavras sem sentido são jogadas fora e prejudicam a satisfação. erros de digitação produzem pratos queimados que valem metade.",
+              "pratos deixados na mesa ficam velhos e são desperdiçados."
+            ],
+            "mechanics": {
+              "table": {
+                "label": "mesa",
+                "summary": "palavras servidas vão para uma mesa compartilhada. clientes comem o que corresponde."
+              },
+              "satisfaction": {
+                "label": "satisfação",
+                "summary": "um medidor de 0–100. se cair até a linha do piso, o buffet fecha."
+              },
+              "orders": {
+                "label": "pedidos",
+                "summary": "cada cliente tem de 1–3 requisitos de tipo de palavra no pedido."
+              },
+              "stale": {
+                "label": "pratos velhos",
+                "summary": "pratos não recolhidos ficam velhos e prejudicam a satisfação."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "servir palavra à mesa"
+              }
+            },
+            "visuals": {
+              "guest-ticket": {
+                "label": "pedido"
+              },
+              "buffet-table": {
+                "label": "mesa de serviço"
+              },
+              "satisfaction-floor": {
+                "label": "piso da satisfação"
+              }
+            }
+          }
+        }
+      },
+      "castle": {
+        "options": {
+          "waves": {
+            "label": "ondas",
+            "choices": {
+              "endless": {
+                "label": "sem fim"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "começando",
+            "group": "começando",
+            "summary": "digite palavras para criar tijolos, aponte para uma seção e coloque-os para construir e reparar seu castelo.",
+            "highlights": [
+              "digite uma palavra para criar um tijolo",
+              "mire com as setas ou o mouse e pressione espaço para colocá-lo"
+            ],
+            "details": [
+              "palavras mais longas criam tijolos mais fortes. erros de digitação criam tijolos rachados.",
+              "o castelo começa inteiro, com uma calma para estocar antes da primeira onda.",
+              "tijolos aparecem no estoque; escolha um com 1–9 ou arraste-o com o mouse."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "no modo de tijolos especiais, as seções sob ataque precisam de palavras específicas. um tijolo fora da especificação perde a maior parte da força."
+              }
+            },
+            "mechanics": {
+              "stockpile": {
+                "label": "estoque",
+                "summary": "palavras digitadas viram tijolos esperando no pátio. pegue um com uma tecla numérica ou use o mais novo."
+              },
+              "quality": {
+                "label": "qualidade do tijolo",
+                "summary": "sólido, remendado, rachado ou entulho — depende do comprimento da palavra e da precisão."
+              },
+              "cursor": {
+                "label": "mirando",
+                "summary": "o cursor mostra onde o próximo tijolo vai. mova com as setas ou clique em uma seção."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "mirar em uma seção"
+              },
+              "i1": {
+                "action": "colocar o tijolo mais novo"
+              },
+              "i2": {
+                "action": "pegar um tijolo do estoque"
+              }
+            },
+            "visuals": {
+              "stockpile-yard": {
+                "label": "pátio do estoque"
+              },
+              "brick-solid": {
+                "label": "tijolo sólido"
+              },
+              "brick-cracked": {
+                "label": "tijolo rachado"
+              }
+            }
+          },
+          "surviving": {
+            "label": "sobrevivendo",
+            "group": "sobrevivendo",
+            "summary": "mantenha o portão e a torre de menagem de pé. cada onda perde determinação e recua quando as seções críticas resistem.",
+            "highlights": [
+              "o portão e a torre de menagem são críticos — perder a torre encerra o jogo",
+              "repare seções danificadas colocando tijolos sobre elas"
+            ],
+            "details": [
+              "as seções do castelo têm integridade que diminui quando os inimigos atacam.",
+              "uma média alta de reparos pelo castelo reduz mais rapidamente a determinação da onda.",
+              "cada onda recua quando sua determinação chega a zero ou quando todos os inimigos são destruídos."
+            ],
+            "notes": {
+              "hard": {
+                "text": "os inimigos chegam mais fortes e em maior número."
+              }
+            },
+            "mechanics": {
+              "sections": {
+                "label": "seções do castelo",
+                "summary": "muralha, torre, portão, torre de menagem e fundações. cada uma tem sua própria integridade."
+              },
+              "integrity": {
+                "label": "integridade",
+                "summary": "os pontos de vida de uma seção. chega a zero e a seção é rompida."
+              },
+              "resolve": {
+                "label": "determinação da onda",
+                "summary": "um medidor que mostra quão perto a onda está de recuar."
+              },
+              "waves": {
+                "label": "ondas",
+                "summary": "inimigos chegam em ondas numeradas, com pausas entre elas."
+              }
+            },
+            "visuals": {
+              "curtain-wall": {
+                "label": "muralha"
+              },
+              "gatehouse": {
+                "label": "portaria"
+              },
+              "great-keep": {
+                "label": "torre de menagem"
+              },
+              "wave-resolve": {
+                "label": "determinação da onda"
+              }
+            }
+          },
+          "fighting": {
+            "label": "lutando",
+            "group": "lutando",
+            "summary": "solte tijolos sobre os inimigos para esmagá-los ou use a catapulta para acertá-los de longe.",
+            "highlights": [
+              "shift+enter solta um tijolo sobre o atacante mirado",
+              "brutamontes investem, sapadores desgastam, catapultas lançam pedras à distância"
+            ],
+            "details": [
+              "soltar um tijolo causa dano igual à força do tijolo.",
+              "um inimigo que não é esmagado pode ficar atordoado por um momento.",
+              "catapultas ficam à distância: um arco tracejado mostra para onde uma delas está mirando."
+            ],
+            "mechanics": {
+              "brute": {
+                "label": "brutamontes",
+                "summary": "investe contra as seções de perto. cansa depois de um número definido de golpes."
+              },
+              "sapper": {
+                "label": "sapador",
+                "summary": "desgasta as seções. vagueia entre alvos."
+              },
+              "catapult": {
+                "label": "catapulta",
+                "summary": "arremessa pedras de longe em um arco parabólico. fora do alcance de queda."
+              },
+              "stun": {
+                "label": "atordoamento",
+                "summary": "um tijolo que não mata pode atordoar o atacante, parando-o brevemente."
+              },
+              "drops": {
+                "label": "tijolos soltos",
+                "summary": "solte um tijolo sobre um inimigo para danificá-lo ou esmagá-lo."
+              },
+              "saboteur": {
+                "label": "sabotador",
+                "summary": "infiltradores com barris de pólvora avançam contra as muralhas; esmague-os cedo para detonar o barril no meio dos atacantes."
+              },
+              "ladderman": {
+                "label": "homem da escada",
+                "summary": "engenheiros de cerco posicionam escadas de assalto; solte tijolos para derrubar a escada e provocar uma cascata de quedas."
+              },
+              "sortie": {
+                "label": "sortida da guarnição",
+                "summary": "reúna defensores da portaria e envie-os ao campo para interceptar atacantes antes que alcancem suas muralhas."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "soltar tijolo sobre o inimigo"
+              },
+              "i1": {
+                "action": "mirar em uma seção ou inimigo"
+              },
+              "i2": {
+                "action": "enviar a sortida da guarnição para a coluna mirado"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "tijolos soltos"
+              },
+              "i1": {
+                "label": "sabotadores e escadas"
+              },
+              "i2": {
+                "label": "sortidas da guarnição"
+              }
+            },
+            "visuals": {
+              "brute-ram": {
+                "label": "brutamontes (investida)"
+              },
+              "sapper-pick": {
+                "label": "sapador (desgaste)"
+              },
+              "saboteur-keg": {
+                "label": "sabotador (barril)"
+              },
+              "siege-ladder": {
+                "label": "escada de cerco"
+              },
+              "catapult-siege": {
+                "label": "catapulta (cerco)"
+              },
+              "boulder-arc": {
+                "label": "arco da pedra"
+              },
+              "garrison-soldier": {
+                "label": "soldado da guarnição"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "ganhando poderes",
+            "group": "ganhando poderes",
+            "summary": "inimigos esmagados às vezes deixam power-ups. guarde-os e ative-os quando precisar.",
+            "highlights": [
+              "pegue um power-up quando um inimigo for esmagado",
+              "ative com shift+1–3 ou clique em um espaço"
+            ],
+            "details": [
+              "até três power-ups podem ser guardados. dois podem estar ativos de uma vez.",
+              "argamassa faz tijolos soltos causarem mais dano. pedreiro faz tijolos colocados valerem mais. óleo atordoa todos os inimigos no campo. reparo restaura a seção crítica mais fraca."
+            ],
+            "mechanics": {
+              "mortar": {
+                "label": "argamassa",
+                "summary": "tijolos soltos causam o dobro de dano."
+              },
+              "mason": {
+                "label": "pedreiro",
+                "summary": "tijolos colocados dão 1,5× de força."
+              },
+              "oil": {
+                "label": "óleo",
+                "summary": "atordoa imediatamente todos os atacantes no campo."
+              },
+              "mend": {
+                "label": "reparo",
+                "summary": "restaura a integridade do portão ou torre de menagem mais fracos."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "ativar o espaço 1 do power-up"
+              },
+              "i1": {
+                "action": "ativar o espaço 2 do power-up"
+              },
+              "i2": {
+                "action": "ativar o espaço 3 do power-up"
+              }
+            },
+            "visuals": {
+              "mortar-powerup": {
+                "label": "argamassa (2× nos tijolos soltos)"
+              },
+              "mason-powerup": {
+                "label": "pedreiro (1,5× na muralha)"
+              },
+              "oil-powerup": {
+                "label": "óleo fervente (atordoa todos)"
+              },
+              "mend-powerup": {
+                "label": "reparo de campo (restaurar)"
+              }
+            }
+          }
+        }
+      },
+      "space": {
+        "options": {
+          "duration": {
+            "label": "duração",
+            "choices": {
+              "endless": {
+                "label": "sem fim"
+              },
+              "i1": {
+                "label": "1 min"
+              },
+              "i2": {
+                "label": "2 min"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "começando",
+            "group": "começando",
+            "summary": "controle a nave, digite palavras para carregar o pente e dispare para destruir inimigos.",
+            "highlights": [
+              "mova com o mouse ou as teclas de seta",
+              "digite uma palavra e pressione enter para disparar"
+            ],
+            "details": [
+              "palavras concluídas carregam o pente. pressione enter para disparar o tiro escolhido.",
+              "uma palavra concluída com enter dispara imediatamente, sem carregar primeiro.",
+              "use ↑ ↓ ou a roda do mouse para escolher qual espaço do pente disparar."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "no modo direcionado, cada nave inimiga tem um requisito de palavra. disparos que não correspondem ricocheteiam."
+              }
+            },
+            "mechanics": {
+              "movement": {
+                "label": "movimento",
+                "summary": "a nave se move horizontalmente. use o mouse ou ← →."
+              },
+              "magazine": {
+                "label": "pente",
+                "summary": "palavras digitadas enchem o pente. enter dispara. ↑ ↓ escolhem um espaço."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "mover a nave"
+              },
+              "i1": {
+                "action": "disparar o tiro escolhido do pente"
+              },
+              "i2": {
+                "action": "escolher um espaço do pente"
+              }
+            },
+            "visuals": {
+              "starfighter": {
+                "label": "caça estelar"
+              },
+              "magazine-slots": {
+                "label": "espaços do pente"
+              }
+            }
+          },
+          "surviving": {
+            "label": "sobrevivendo",
+            "group": "sobrevivendo",
+            "summary": "evite dano, desfaça travamentos, desvie de asteroides e use naves de resgate para reparar.",
+            "highlights": [
+              "a nave tem integridade — impactos a reduzem, e zero encerra o jogo",
+              "digite a palavra na nave verde de resgate para reparar"
+            ],
+            "details": [
+              "palavras limpas nunca travam. erros de digitação podem travar, e palavras sem sentido travam com mais frequência.",
+              "quando travado, digite a palavra mostrada para destravar ou pressione backspace duas vezes sem nada digitado para descartar o tiro.",
+              "não atire nas naves de resgate: um acerto cura menos (exceto no fácil).",
+              "asteroides são obstáculos indestrutíveis. os grandes se quebram em várias partes quando atingidos.",
+              "drones travam um alvo com uma linha tracejada e mergulham direto para baixo. desvie.",
+              "naves que passam pelo fundo não causam dano."
+            ],
+            "notes": {
+              "easy": {
+                "text": "atirar em uma nave de resgate não reduz sua cura."
+              }
+            },
+            "mechanics": {
+              "health": {
+                "label": "integridade",
+                "summary": "os pontos de vida da nave. zero significa fim de jogo."
+              },
+              "jams": {
+                "label": "travamentos",
+                "summary": "uma arma travada não pode disparar até ser destravada. erros e palavras sem sentido aumentam o risco."
+              },
+              "asteroids": {
+                "label": "asteroides",
+                "summary": "rochas que não podem ser destruídas. as grandes se dividem em partes."
+              },
+              "rescue": {
+                "label": "naves de resgate",
+                "summary": "naves verdes com uma palavra. digite-a para reparar o casco."
+              },
+              "drones": {
+                "label": "drones",
+                "summary": "travam um alvo e mergulham direto para baixo. desvie da linha de mergulho."
+              },
+              "jammer": {
+                "label": "travador",
+                "summary": "aumenta a chance de travamentos enquanto está vivo."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "descartar o tiro escolhido (destrava a arma)"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "reparo de resgate"
+              }
+            },
+            "visuals": {
+              "rescue-ship": {
+                "label": "nave de resgate (cura)"
+              },
+              "dive-drone": {
+                "label": "drone de mergulho"
+              },
+              "asteroid": {
+                "label": "obstáculo asteroide"
+              },
+              "weapon-jam": {
+                "label": "arma travada"
+              }
+            }
+          },
+          "fighting": {
+            "label": "lutando",
+            "group": "lutando",
+            "summary": "carregue o pente, intercepte mísseis e caças e use a bomba para limpar o campo.",
+            "highlights": [
+              "mísseis carregam uma letra — digite-a sem nada digitado para abatê-los",
+              "shift+enter detona a bomba quando carregada",
+              "alt+enter dispara o feixe perfurante do capacitor quando carregado"
+            ],
+            "details": [
+              "carregar palavras enche o medidor da bomba. quando cheio, shift+enter elimina todos os mísseis e danifica todos os inimigos.",
+              "palavras carregadas de alta qualidade carregam o capacitor. alt+enter descarrega um laser vertical perfurante; a sobrecarga a 100% destrói naves com escudo.",
+              "estações espaciais lançam caças que perseguem você. digite a letra de um caça para abatê-lo.",
+              "minas terrestres explodem em estilhaços quando atingidas, acertando tudo por perto, inclusive você.",
+              "naves com escudo só recebem dano de palavras que atendam ao requisito."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "no modo direcionado, toda nave tem um requisito de palavra que precisa ser atendido."
+              }
+            },
+            "mechanics": {
+              "missiles": {
+                "label": "mísseis",
+                "summary": "carregam um símbolo de letra. sem nada digitado, digite-a para abatê-los instantaneamente."
+              },
+              "bomb": {
+                "label": "bomba",
+                "summary": "carrega enquanto você completa palavras. shift+enter detona, elimina mísseis e causa dano aos inimigos."
+              },
+              "accumulator": {
+                "label": "feixe do capacitor",
+                "summary": "carrega com palavras limpas e de alta qualidade. alt+enter dispara um feixe vertical perfurante; sobrecarga a 100% atravessa escudos e vaporiza mísseis."
+              },
+              "fighters": {
+                "label": "caças",
+                "summary": "naves pequenas lançadas por estações. perseguem o jogador. digite a letra delas para interceptá-las."
+              },
+              "stations": {
+                "label": "estações",
+                "summary": "grandes centros que flutuam e lançam caças."
+              },
+              "landmines": {
+                "label": "minas terrestres",
+                "summary": "minas com espinhos. quando destruídas, os estilhaços atingem tudo por perto."
+              },
+              "shields": {
+                "label": "escudos",
+                "summary": "algumas naves têm escudos que só quebram com palavras que atendam a um requisito."
+              },
+              "heavyFrigate": {
+                "label": "fragata pesada",
+                "summary": "proa reforçada com barreira de escudo e duas baterias de mísseis."
+              },
+              "eliteCruiser": {
+                "label": "cruzador de elite",
+                "summary": "supernave pesada com torres de defesa pontual que derrubam palavras fracas (<30 de força)."
+              },
+              "flagship": {
+                "label": "chefão capitânia",
+                "summary": "enorme nave de comando modular. destrua as baterias de armas e derrube o gerador de escudo para expor a ponte."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "detonar a bomba"
+              },
+              "i1": {
+                "action": "descarregar o feixe do capacitor"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "onda de choque da bomba"
+              },
+              "i1": {
+                "label": "feixe do capacitor"
+              },
+              "i2": {
+                "label": "chefão capitânia"
+              }
+            },
+            "visuals": {
+              "missile-token": {
+                "label": "míssil (letra)"
+              },
+              "bomb-shockwave": {
+                "label": "onda de choque da bomba"
+              },
+              "capacitor-beam": {
+                "label": "feixe perfurante do capacitor"
+              },
+              "heavy-frigate": {
+                "label": "fragata pesada"
+              },
+              "elite-cruiser": {
+                "label": "cruzador de elite"
+              },
+              "flagship-boss": {
+                "label": "chefão capitânia"
+              },
+              "orbital-station": {
+                "label": "estação orbital"
+              },
+              "shrapnel-mine": {
+                "label": "mina terrestre"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "ganhando poderes",
+            "group": "ganhando poderes",
+            "summary": "inimigos destruídos deixam power-ups. pegue-os, guarde-os e ative-os.",
+            "highlights": [
+              "pegue um power-up flutuante para guardá-lo",
+              "ative com shift+1–3 ou clique em um espaço"
+            ],
+            "details": [
+              "até três power-ups podem ser guardados. dois tipos podem estar ativos de uma vez; o mesmo tipo novamente acumula o cronômetro.",
+              "disparo duplo: cada tiro dispara duas vezes antes de ser gasto.",
+              "gatling: cada letra digitada dispara um projétil instantâneo.",
+              "escudo: uma barreira absorve impactos contra a nave.",
+              "autômato: escolhe automaticamente o melhor tiro para a maior ameaça.",
+              "rastreio: palavras disparadas se dirigem aos alvos."
+            ],
+            "mechanics": {
+              "double": {
+                "label": "duplo",
+                "summary": "os tiros disparam duas vezes antes de serem gastos."
+              },
+              "gatling": {
+                "label": "gatling",
+                "summary": "cada letra digitada dispara um projétil de energia instantâneo."
+              },
+              "shield": {
+                "label": "escudo",
+                "summary": "uma barreira de energia absorve impactos."
+              },
+              "automaton": {
+                "label": "autômato",
+                "summary": "seleciona automaticamente o melhor tiro para a pior ameaça."
+              },
+              "homing": {
+                "label": "rastreio",
+                "summary": "palavras disparadas se orientam dinamicamente para os alvos."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "ativar o espaço 1 do power-up"
+              },
+              "i1": {
+                "action": "ativar o espaço 2 do power-up"
+              },
+              "i2": {
+                "action": "ativar o espaço 3 do power-up"
+              }
+            },
+            "visuals": {
+              "powerup-double": {
+                "label": "disparo duplo"
+              },
+              "powerup-gatling": {
+                "label": "rajada gatling"
+              },
+              "powerup-shield": {
+                "label": "barreira defletora"
+              },
+              "powerup-automaton": {
+                "label": "mira autômata"
+              },
+              "powerup-homing": {
+                "label": "buscador com rastreio"
+              }
+            }
+          }
+        }
+      },
+      "spot": {
+        "options": {
+          "variant": {
+            "label": "jogar",
+            "choices": {
+              "timed": {
+                "label": "cronometrado"
+              },
+              "endless": {
+                "label": "sem fim"
+              },
+              "marathon": {
+                "label": "maratona"
+              },
+              "scroller": {
+                "label": "rolador"
+              }
+            }
+          },
+          "duration": {
+            "label": "tempo"
+          }
+        },
+        "help": [
+          "Aponte para uma palavra ou mova com ← → (↑ ↓ por linha); clique nela ou pressione Enter se estiver errada.",
+          "A palavra fica no lugar: corrija-a ali (← → Home End movem o cursor, ou clique nela) e pressione Enter. Ortografia, pontuação, maiúsculas e espaçamento contam.",
+          "Shift+Enter desiste de um trecho e passa ao próximo.",
+          "Encontrar e corrigir têm pontuação separada; marcar uma palavra correta custa pontos."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "começando",
+            "group": "começando",
+            "summary": "encontre os erros plantados em um trecho e corrija-os.",
+            "highlights": [
+              "aponte para uma palavra ou navegue com as setas",
+              "pressione Enter para marcar um erro e depois digite a correção"
+            ],
+            "details": [
+              "os trechos vêm de livros da sua biblioteca. cada um tem vários erros plantados.",
+              "Shift+Enter desiste de um trecho e passa ao próximo.",
+              "os erros incluem ortografia, pontuação, maiúsculas, palavras com som semelhante e deslizes de letras."
+            ],
+            "mechanics": {
+              "errors": {
+                "label": "tipos de erro",
+                "summary": "ortografia, pontuação, maiúsculas, palavras com som semelhante e deslizes de letras."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "mover entre palavras"
+              },
+              "i1": {
+                "action": "mover entre linhas"
+              },
+              "i2": {
+                "action": "marcar uma palavra como errada"
+              },
+              "i3": {
+                "action": "pular para o próximo trecho"
+              }
+            },
+            "visuals": {
+              "passage-line": {
+                "label": "texto do trecho"
+              },
+              "planted-error": {
+                "label": "erro plantado"
+              }
+            }
+          },
+          "finding-mistakes": {
+            "label": "encontrando erros",
+            "group": "sobrevivendo",
+            "summary": "varra o trecho, selecione uma palavra que você acha errada e pressione Enter para marcá-la.",
+            "highlights": [
+              "passe o mouse sobre uma palavra ou use as setas para selecioná-la",
+              "marcar uma palavra correta custa pontos"
+            ],
+            "details": [
+              "mova com ← → palavra por palavra ou ↑ ↓ linha por linha. clique ou passe o mouse para pular.",
+              "encontrar e corrigir têm pontuação separada.",
+              "marcar uma palavra que está correta conta como marcação falsa e custa pontos."
+            ],
+            "mechanics": {
+              "selection": {
+                "label": "seleção de palavra",
+                "summary": "passe o mouse, clique ou use as setas para selecionar uma palavra."
+              },
+              "false-flag": {
+                "label": "marcações falsas",
+                "summary": "marcar uma palavra correta custa pontos e (no modo sem fim) tempo."
+              },
+              "marathon": {
+                "label": "resistência de maratona",
+                "summary": "comece com 3 vidas. marcações falsas e reparos malsucedidos custam uma vida; limpar 3 trechos sem erros devolve uma."
+              },
+              "scroller": {
+                "label": "rolador contínuo",
+                "summary": "os trechos passam continuamente como numa esteira. encontre os erros antes que saiam da tela."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "mover entre palavras"
+              },
+              "i1": {
+                "action": "mover entre linhas"
+              },
+              "i2": {
+                "action": "marcar a palavra selecionada"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "varredura do trecho"
+              },
+              "i1": {
+                "label": "resistência de maratona"
+              },
+              "i2": {
+                "label": "rolador contínuo"
+              }
+            },
+            "visuals": {
+              "selected-word": {
+                "label": "palavra selecionada"
+              },
+              "hover-cursor": {
+                "label": "cursor sob o mouse"
+              },
+              "false-flag-penalty": {
+                "label": "penalidade por marcação falsa"
+              },
+              "marathon-lives": {
+                "label": "vidas da maratona"
+              },
+              "scroller-belt": {
+                "label": "esteira do rolador"
+              }
+            }
+          },
+          "correcting-mistakes": {
+            "label": "corrigindo erros",
+            "group": "sobrevivendo",
+            "summary": "a palavra marcada fica no lugar. corrija-a ali e pressione Enter para confirmar o reparo.",
+            "highlights": [
+              "a palavra é editada diretamente no trecho",
+              "mova o cursor com as setas ou clique dentro da palavra"
+            ],
+            "details": [
+              "use ← → para mover o cursor, Home e End para saltar. Delete e Backspace funcionam normalmente.",
+              "clique dentro da palavra para colocar o cursor em uma posição específica.",
+              "você tem duas tentativas. se ambas falharem, a palavra correta aparece.",
+              "pressione Escape para cancelar um reparo sem penalidade."
+            ],
+            "mechanics": {
+              "caret": {
+                "label": "edição do cursor",
+                "summary": "mova o cursor dentro da palavra para editar caracteres individuais."
+              },
+              "retries": {
+                "label": "tentativas de reparo",
+                "summary": "duas tentativas para corrigir uma palavra. depois de duas falhas, a resposta aparece."
+              },
+              "cancel": {
+                "label": "cancelar",
+                "summary": "Escape cancela um reparo sem penalidade."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "mover o cursor dentro da palavra"
+              },
+              "i1": {
+                "action": "cursor no início da palavra"
+              },
+              "i2": {
+                "action": "cursor no fim da palavra"
+              },
+              "i3": {
+                "action": "confirmar o reparo"
+              },
+              "i4": {
+                "action": "cancelar reparo"
+              },
+              "i5": {
+                "action": "excluir para a frente"
+              }
+            },
+            "visuals": {
+              "inline-caret": {
+                "label": "cursor em linha"
+              },
+              "in-place-edit": {
+                "label": "edição no lugar"
+              },
+              "attempt-limit": {
+                "label": "limite de 2 tentativas"
+              }
+            }
+          },
+          "scoring": {
+            "label": "pontuação",
+            "group": "sobrevivendo",
+            "summary": "encontrar e corrigir têm pontuação separada. o modo cronometrado tem relógio fixo; o modo sem fim repõe o tempo ao corrigir.",
+            "highlights": [
+              "pontuação de detecção: quantos erros você encontrou",
+              "pontuação de reparo: quão precisamente você os corrigiu"
+            ],
+            "details": [
+              "modo cronometrado: uma duração fixa faz a contagem regressiva. encontre e corrija o máximo que puder.",
+              "modo sem fim: o tempo diminui continuamente. cada correção bem-sucedida repõe o banco. marcações falsas custam tempo.",
+              "uma varredura completa é registrada quando todos os erros de um trecho são corrigidos sem marcações falsas."
+            ],
+            "notes": {
+              "hard": {
+                "text": "os erros são mais sutis e o cronômetro é mais curto."
+              }
+            },
+            "mechanics": {
+              "detection": {
+                "label": "detecção",
+                "summary": "pontuada por precisão e revocação — quantos erros reais você encontrou contra as marcações falsas."
+              },
+              "repair": {
+                "label": "reparo",
+                "summary": "pontuado pela precisão com que você corrigiu as palavras marcadas."
+              },
+              "sweep": {
+                "label": "varredura completa",
+                "summary": "todos os erros corrigidos, sem marcações falsas, em um único trecho."
+              }
+            },
+            "visuals": {
+              "detection-score": {
+                "label": "pontuação de detecção"
+              },
+              "repair-score": {
+                "label": "pontuação de reparo"
+              },
+              "clean-sweep": {
+                "label": "bônus de varredura completa"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minutes_choice": "{count} min"
+  },
+  "space_time": {
+    "powerups": {
+      "double": "disparo duplo",
+      "gatling": "gatling",
+      "shield": "escudo",
+      "automaton": "autômato",
+      "homing": "rastreio"
+    },
+    "stored": "{name} guardado · shift+{slot} para usar",
+    "storage_full": "estoque cheio: {name} perdido",
+    "nothing_stored": "nada guardado aqui",
+    "busy": "dois já estão em funcionamento: {name} espera",
+    "cant_use": "não é possível usar {name}"
+  },
+  "constraints": {
+    "min_length": "{value}+ letras",
+    "min_length_need": "uma palavra longa, {value} letras ou mais",
+    "max_length": "no máximo {value} letras",
+    "max_length_need": "uma palavra curta, no máximo {value} letras",
+    "starts_with": "começa com {letter}",
+    "starts_with_need": "algo que começa com {letter}",
+    "ends_with": "termina com {letter}",
+    "ends_with_need": "algo que termina em {letter}",
+    "contains": "tem {letter}",
+    "contains_need": "algo com {letter}",
+    "min_strength": "força {value}+",
+    "min_strength_need": "uma palavra forte, força {value} ou mais",
+    "passage_length": "{min}–{max} palavras",
+    "passage_length_need": "um trecho de {min} palavras ou mais",
+    "any_word": "qualquer palavra",
+    "want": "Eu quero {needs}.",
+    "want_any": "Eu quero qualquer palavra."
+  },
+  "moods": {
+    "satisfied": "satisfeita",
+    "hungry": "faminta",
+    "very_hungry": "muito faminta",
+    "urgent": "urgente",
+    "critical": "crítico"
+  },
+  "space_ui": {
+    "shot": {
+      "fired": "{word} · {power} de dano",
+      "fired_typo": " (um erro: metade da força)",
+      "fired_one_left": " (1 restante)",
+      "fired_automaton": " · autômato → {target}",
+      "fighter_down": "caça {word} abatido",
+      "loaded": "{word} · carregado, {power}",
+      "fizzle": "{word} · não é uma palavra, falhou",
+      "fizzle_jam": "{word} · não é uma palavra: falhou e travou o gatilho",
+      "scrap_armed": "backspace novamente para descartar {word}",
+      "scrap_clear_jam": " e destravar",
+      "scrap_armed_jam": "backspace novamente para destravar",
+      "scrapped_word": "{word} descartado",
+      "scrapped": "descartado",
+      "jam_cleared_suffix": " · travamento desfeito",
+      "rescue_hit": "cuidado: você acertou a nave de resgate ({word})",
+      "rescue_lost": "a nave de resgate foi perdida",
+      "jammed": "{word} travou o gatilho · continua carregado",
+      "locked": "o gatilho está travado",
+      "full": "{word} · o pente está cheio: dispare primeiro",
+      "empty": "nada carregado: termine uma palavra primeiro",
+      "cleared": "travamento desfeito",
+      "intercepted": "míssil {word} abatido",
+      "repaired": "{word} · reparado {healed}",
+      "bomb": "bomba!",
+      "bomb_not_ready": "a bomba ainda não está carregada",
+      "accumulator": "descarga do feixe laser!",
+      "accumulator_not_ready": "o capacitor precisa de pelo menos 25% de carga",
+      "point_defense": "defesa pontual interceptou {word}!",
+      "flagship_down": "capitânia destruída!",
+      "gatling": "fogo rápido · {word}",
+      "shield_absorb": "o escudo absorveu o impacto de {source}!"
+    },
+    "powerup_help": {
+      "double": "cada tiro dispara duas vezes",
+      "gatling": "cada letra dispara um projétil",
+      "shield": "absorve alguns impactos por você",
+      "automaton": "o disparo escolhe o melhor tiro para a pior ameaça",
+      "homing": "as palavras disparadas apontam para os inimigos"
+    },
+    "powerup_label": {
+      "double": "duplo",
+      "gatling": "gatling",
+      "shield": "escudo",
+      "automaton": "autômato",
+      "homing": "rastreio"
+    }
+  },
+  "castle_notes": {
+    "solid": "sólido",
+    "patched": "remendado",
+    "cracked": "rachado",
+    "mortar": "argamassa",
+    "rubble": "entulho",
+    "stockpile_full": "estoque cheio",
+    "no_bricks_yet": "nenhum tijolo ainda",
+    "already_solid": "já está sólido",
+    "wrong_kind_of_brick": "tipo errado de tijolo",
+    "nobody_to_drop_it_on": "ninguém para soltar sobre",
+    "two_are_running_already": "dois já estão em funcionamento",
+    "nothing_stored_there": "nada guardado aqui",
+    "crushed_a_brute": "esmagou um brutamontes",
+    "crushed_a_sapper": "esmagou um sapador",
+    "crushed_a_saboteur": "esmagou um sabotador",
+    "crushed_a_ladderman": "esmagou um homem da escada",
+    "hit_a_brute": "acertou um brutamontes",
+    "hit_a_sapper": "acertou um sapador",
+    "hit_a_saboteur": "acertou um sabotador",
+    "hit_a_ladderman": "acertou um homem da escada",
+    "stunned": "atordoado",
+    "keg_detonated": "barril de pólvora detonado",
+    "ladder_toppled": "escada derrubada",
+    "sortie_deployed": "sortida da guarnição enviada",
+    "mustering": "reunindo a guarnição",
+    "gate_breached": "portaria rompida",
+    "no_bricks": "é preciso ter tijolos para equipar",
+    "friendly_fire": "fogo amigo!"
+  }
+}

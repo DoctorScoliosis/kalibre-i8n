@@ -65,6 +65,21 @@
       "pack": "packs/zh-CN.json",
       "sha256": "2f4d93cae770a150cf36d262bc882ded95fabb072a6926bcb3a4a78b35517d45",
       "bytes": 280463
+    },
+    {
+      "id": "pt-BR",
+      "name": "Português (Brasil)",
+      "englishName": "Portuguese (Brazil)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 1,
+      "version": "2026-10-03",
+      "reviewed": "machine",
+      "changes": "Initial Brazilian Portuguese candidate translation synced with current main / Kanary 0.70 game updates",
+      "path": "locales/pt-BR/manifest.json",
+      "pack": "packs/pt-BR.json",
+      "sha256": "f4953ef244f2e92124a93e8dbe311c3901cb8bb60b900dda595cabb690fc39ee",
+      "bytes": 322285
     }
   ]
 }
