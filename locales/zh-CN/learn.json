@@ -1,0 +1,539 @@
+{
+  "stages": {
+    "1": {
+      "name": "基准行"
+    },
+    "2": {
+      "name": "上行"
+    },
+    "3": {
+      "name": "下行"
+    },
+    "4": {
+      "name": "大写字母"
+    },
+    "5": {
+      "name": "数字"
+    },
+    "6": {
+      "name": "流畅度"
+    }
+  },
+  "lessons": {
+    "1": {
+      "1": {
+        "title": "左手基准"
+      },
+      "2": {
+        "title": "右手基准"
+      },
+      "3": {
+        "title": "食指内侧伸展"
+      },
+      "4": {
+        "title": "基准行复习"
+      }
+    },
+    "2": {
+      "1": {
+        "title": "中指向上"
+      },
+      "2": {
+        "title": "食指向上"
+      },
+      "3": {
+        "title": "食指，内侧列"
+      },
+      "4": {
+        "title": "无名指向"
+      },
+      "5": {
+        "title": "小指向"
+      },
+      "6": {
+        "title": "上行复习"
+      }
+    },
+    "3": {
+      "1": {
+        "title": "中指向下"
+      },
+      "2": {
+        "title": "食指向下"
+      },
+      "3": {
+        "title": "食指，内侧列"
+      },
+      "4": {
+        "title": "无名指向下"
+      },
+      "5": {
+        "title": "小指向下"
+      },
+      "6": {
+        "title": "下行复习"
+      }
+    },
+    "4": {
+      "1": {
+        "title": "配合基准行按 Shift"
+      },
+      "2": {
+        "title": "配合所有字母按 Shift"
+      },
+      "3": {
+        "title": "句子"
+      }
+    },
+    "5": {
+      "1": {
+        "title": "食指向上伸展"
+      },
+      "2": {
+        "title": "中指向上伸展"
+      },
+      "3": {
+        "title": "无名指向上伸展"
+      },
+      "4": {
+        "title": "小指向上伸展"
+      },
+      "5": {
+        "title": "小指伸展"
+      },
+      "6": {
+        "title": "数字复习"
+      }
+    },
+    "6": {
+      "1": {
+        "title": "最常用的100个单词"
+      },
+      "2": {
+        "title": "最常用的500个单词"
+      },
+      "3": {
+        "title": "真实文章"
+      },
+      "4": {
+        "title": "进入打字测试"
+      }
+    }
+  },
+  "steps": {
+    "keys": {
+      "title": "独立练习新键"
+    },
+    "mix": {
+      "title": "结合其他键练习新键"
+    }
+  },
+  "ui": {
+    "the_steps_again": "再次练习这些步骤",
+    "steps_first": "先进行 {count} 个简短步骤：先在模式中学习新键，然后结合已知的键练习。最后是测试。",
+    "steps_title": "针对新键的 {count} 个简短步骤，然后是测试",
+    "status_mastered": "已掌握",
+    "status_practising": "练习中",
+    "status_ready": "准备好",
+    "status_locked": "已锁定",
+    "stats_summary": "最高 {wpm} WPM · {accuracy}% · {attempts, plural, one {# 次尝试} other {# 次尝试}}",
+    "prerequisite": "请先掌握 {prereq}",
+    "intro": "盲打学习，每次学习一组按键。只有在掌握前一个课程后才会解锁下一个课程：在30个或更多单词中达到 25 WPM 且 95% 准确率。课程可获得经验值，并计入每日经验值目标。",
+    "numpad_offer": "有数字小键盘吗？Kalibre 提供十键练习：课程、测试、算术和游戏。 ",
+    "turn_it_on": "开启它",
+    "not_now": "现在不",
+    "numpad_heading": "数字小键盘",
+    "numpad_practice": "数字小键盘练习",
+    "numpad_desc": "课程、十键测试、算术和游戏",
+    "finger_guidance_fallback": "目前手指指引适用于 QWERTY（美国）布局。你仍可以按照课程学习你的布局；按键位置与你的布局一致。",
+    "continue_lesson": "继续：{id} {title}",
+    "start_first": "从课程 1.1 开始",
+    "all_mastered": "已掌握所有课程 ✓",
+    "mastered_count": "已掌握 {count} / {total}",
+    "stage_heading": "阶段 {stage} · {name}",
+    "keyboard_needed": "课程需要实体键盘：请连接一个（蓝牙或USB）并按任意键。测试和游戏可使用屏幕键盘。",
+    "all_lessons": "所有课程",
+    "handoff_intro": "你现在已经认识了所有按键。继续在打字页面练习：限时测试和名言能提高速度，Kalibre 会记录你最常犯的错误，以便在训练中进行针对性练习。",
+    "go_typing": "前往打字测试",
+    "opens_prereq": "掌握 {prereq} 后解锁此课程。",
+    "go_to_prereq": "前往 {prereq}",
+    "new_keys_prefix": "新按键： ",
+    "review_so_far": "复习到目前为止的所有内容",
+    "every_key": "你认识的所有按键",
+    "flow": "流畅度",
+    "one_stream": "连续不断",
+    "short_rounds": "短回合",
+    "words_a_round": "每回合 {unit}",
+    "length": "长度",
+    "keep_going": "继续",
+    "timer": "计时器",
+    "none": "无",
+    "start": "开始",
+    "straight_to_test": "直接进入测试",
+    "start_test": "开始测试",
+    "warm_up_first": "先热身：{keys}",
+    "warm_up_title": "针对 {reason} 的短回合（不保存；Esc 跳至测试）",
+    "slipped_keys_note": "上次 {keys} 出现了失误，所以先进行简短的热身。准备好后随时可以参加测试。",
+    "take_test": "参加测试",
+    "next_step": "下一步：{title}",
+    "warm_up_again": "再次热身",
+    "this_step_again": "再次练习此步骤",
+    "step_heading": "第 {step} 步，共 {total} 步 · {title}",
+    "warmup_heading": "热身 · {keys}",
+    "accuracy_summary": "{accuracy}% 准确率",
+    "ready_test": "准备好后随时可以测试。",
+    "ready_step": "准备好进行下一步。",
+    "slips_continue": "还有一些失误。再试一次可能会有帮助，或者准备好后继续。",
+    "practise_again": "再次练习",
+    "result_mastered": "✓ {id} {title}：已掌握{exclamation, select, yes {!} other {}}",
+    "result_keep_practising": "{id} {title}：继续练习",
+    "steno_intro": "课程教授键盘盲打，因此在使用速录机时会被暂时搁置。测试、训练和游戏照常进行，课程进度会保留。",
+    "take_test_button": "参加测试",
+    "on_keyboard_now": "我现在在使用键盘",
+    "switch_keyboard_title": "将“我使用的输入设备”切换回键盘",
+    "needs_words": "{minWords} {unit}或更多（你输入了 {words}）",
+    "needs_wpm": "{wpm} WPM（这次是 {actual}）",
+    "needs_accuracy": "{accuracy}% 准确率（这次是 {actual}%）",
+    "needs_key": "每个新键达到 {accuracy}%：{key} 是 {actual}%",
+    "needs_key_generic": "每个新键达到 {accuracy}%",
+    "needs_heading": "要掌握它，一次练习需要：",
+    "next_open": "{id} {title} 现已解锁。",
+    "slips_most": "失误最多的按键：{slips}",
+    "slips_none": "这次每个按键都达到 95% 或更高",
+    "next_button": "下一步：{id} {title}",
+    "best_run_note": "根据你连续最佳的 30 个{unit}评判：{wpm} WPM，准确率 {accuracy}%",
+    "numbers_summary": "{wpm} WPM · {accuracy}% 准确率 · {words} {unit} · {clock}",
+    "xp_gained": "+{gained} 经验值",
+    "level_up": " · 等级 {level}！",
+    "level_progress": " · 等级 {level} · 还需 {remaining}",
+    "goal_met": "✓ 达成每日目标 · 今天 {amount}",
+    "goal_progress": "每日目标 · 今天 {done} / {target}",
+    "runner_finish": "完成",
+    "runner_resume": "继续",
+    "runner_paused": "已暂停",
+    "runner_restart": "重新开始 ",
+    "runner_quit": "退出且不保存 ",
+    "round_summary": "第 {round} 回合：{wpm} WPM · {accuracy}% — 按空格进入下一回合",
+    "hints_prep": "Esc 跳至测试 · 空格下一个 {unit}",
+    "hints_normal": "Esc 暂停 · 空格下一个 {unit}"
+  },
+  "cal_wardrobe": {
+    "whose_wardrobe": "谁的衣橱",
+    "what_to_change": "要换什么",
+    "items": "物品",
+    "s_wardrobe": "{name} 的衣橱",
+    "everything_here_is_earned_by": "这里的所有物品都是通过打字赢得的，绝不是买来的。随时右键点击 {name} 即可返回。"
+  },
+  "ending": {
+    "s_options": "{name} 的选项",
+    "give_the_ring": "把戒指给 {name}"
+  },
+  "keyboard_diagram": {
+    "finger_colours_are_for_qwerty": "目前手指颜色适用于 QWERTY（美国）布局；你的布局仍可进行课程学习。",
+    "left_hand": "左手",
+    "right_hand": "右手"
+  },
+  "learn_curriculum": {
+    "master_first": "请先掌握 {prerequisiteOf}",
+    "stage": "阶段 {stage} · {value}"
+  },
+  "learn_lesson": {
+    "fingers": "手指",
+    "diagram_label": "键盘：课程 {id} 中的按键",
+    "new_keys_fingers": " · {fingers}",
+    "list_separator": "、"
+  },
+  "key_coach": {
+    "other_hand": "你一直用另一只手去按 {key}：请把它放在 {hand} 手上",
+    "wrong_finger": "你一直用 {typed} 去按 {key}：请用显示的手指去按，不要换手指"
+  },
+  "learn_numpad_run": {
+    "num_lock_is_off_the": "Num Lock 已关闭：小键盘正在发送方向键。请按小键盘上的 Num Lock。",
+    "time_left": "剩余 {time} · {count, plural, one {# 个条目} other {# 个条目}}",
+    "clock_start": "{time} · 按下第一个键开始计时",
+    "entries_count": "{done} / {total} 个条目"
+  },
+  "learn_numpad": {
+    "practice_for_the_number_pad": "数字小键盘练习：十键测试、课程和算术。它是为有小键盘的人准备的，所以在你说需要之前它是关闭的。",
+    "ten_key_practice_lessons_from": "十键练习：从基准键向外扩展的课程、带回车和运算符的纸带打字练习，以及心算和收银机游戏。所有这些都能获得经验值。",
+    "i_don_t_have_a": "我没有数字小键盘",
+    "turns_number_pad_practice_off": "再次关闭数字小键盘练习",
+    "from_your_last_few_runs": "来自你最近的几次练习。这些与主键盘上的错误分开记录，并在这里进行针对性训练。",
+    "ten_key_drill": "十键训练",
+    "sums_drill": "算术训练",
+    "diagram_weak": "数字小键盘，按出错的按键着色",
+    "diagram_mistakes": "数字小键盘，按错误着色",
+    "diagram": "数字小键盘",
+    "drill_keys": "按键：{keys}",
+    "drill_sums": "算术：{kinds}",
+    "tile_lessons": "课程",
+    "tile_lessons_note": "已掌握 {mastered} / {total}",
+    "tile_lessons_blurb": "基准键 4 5 6，然后向外扩展到运算符",
+    "tile_tenkey": "十键测试",
+    "tile_tenkey_fastest": "你的最快记录：每小时 {ksph} 次击键",
+    "tile_tenkey_none": "尚无测试",
+    "tile_tenkey_blurb": "金额、整数或带运算符的混合",
+    "tile_sums": "算术",
+    "tile_sums_last": "上次：{answers} 题中答对 {right} 题",
+    "tile_sums_none": "尚无算术",
+    "tile_sums_blurb": "心算：加、减、乘、除和百分比",
+    "tile_till": "收银机",
+    "tile_till_best": "你的最佳记录：服务了 {served} 位",
+    "tile_till_none": "尚无轮班",
+    "tile_till_blurb": "游戏：通过计算找零来服务排队顾客"
+  },
+  "learn_padlessons": {
+    "master_lesson_first": "请先掌握课程 {number}",
+    "number_pad_lessons": "数字小键盘课程",
+    "learn_the_pad_without_looking": "盲打学习小键盘，每次学习几个按键，从基准键 4 5 6 向外扩展。只有在掌握前一个课程后才会解锁下一个课程：达到显示的速度，在25个条目中达到95%准确率，并且每个新按键大部分正确。课程可获得经验值。",
+    "start_with_lesson_1": "从课程 1 开始",
+    "of_mastered": "已掌握 {mastered} / {length}",
+    "all_number_pad_lessons": "所有数字小键盘课程",
+    "this_lesson_opens_once_lesson": "掌握课程 {number} 后解锁此课程。",
+    "go_to_lesson": "前往课程 {number}",
+    "to_master_it_keystrokes_an": "要掌握它：每小时 {thousands} 次击键，在 {entries} 个条目中达到 {accuracy}% 准确率，并且每个新按键在100次中正确 {keyAccuracy} 次。将右手放在 4 5 6 上，中指放在带有凸起的 5 上。",
+    "try_again": "再试一次",
+    "result": "结果",
+    "mastered_again": "再次掌握",
+    "lesson_is_open": "课程 {number} 已解锁。",
+    "that_s_every_number_pad": "这是所有数字小键盘课程。",
+    "again": "再次",
+    "best_summary": "最佳每小时 {ksph} 次 · {accuracy}% · {attempts, plural, one {# 次尝试} other {# 次尝试}}",
+    "best_detail": "最佳每小时 {ksph} 次，准确率 {accuracy}% · {attempts, plural, one {# 次尝试} other {# 次尝试}}",
+    "best_detail_mastered": "已掌握 ✓ · 最佳每小时 {ksph} 次，准确率 {accuracy}% · {attempts, plural, one {# 次尝试} other {# 次尝试}}",
+    "new_keys": "新按键：{keys}",
+    "headline": "每小时 {value} 次击键",
+    "to_master": "要掌握它：{reasons}。",
+    "reason_separator": "，且",
+    "reason_entries": "所有 {entries} 个条目",
+    "reason_ksph": "每小时 {target} 次击键（这次是 {now}）",
+    "reason_accuracy": "{target}% 准确率（这次是 {now}%）",
+    "reason_key": "每个新按键在100次中正确 {target} 次（{key} 是 {accuracy}%）",
+    "diagram_label": "数字小键盘：课程 {number} 中的按键",
+    "continue_lesson": "继续：{number} {title}",
+    "next_lesson": "下一步：{number} {title}"
+  },
+  "learn_runner": {
+    "lesson": "课程 {id}",
+    "warm_up": "热身",
+    "step_of": "第 {current} 步，共 {total} 步",
+    "counter_capped_prep": "{prep} · {done} / {target} {unit}",
+    "counter_capped": "{done} / {target} {unit}",
+    "counter": "{done} {unit}",
+    "time_left": " · 剩余 {time}",
+    "finger_line": "{key}：{finger}",
+    "shift_other_hand": "，另一只手按 Shift",
+    "tip_suffix": " · {tip}",
+    "diagram_label": "课程 {id} 的键盘"
+  },
+  "learn_sums": {
+    "custom_number_of_questions": "自定义题目数量",
+    "custom_number": "自定义数量",
+    "sums": "算术",
+    "mental_arithmetic_the_accountant_s": "心算，会计的方法：出现一道算术题，你计算出结果并在小键盘上输入答案，然后按回车。评分依据是答案和所花时间。连续答对三题，题目会变难；答错两题，题目会变简单。每个答案都精确到分。",
+    "last_time_of_right_an": "上次：{answers} 题中答对 {correctAnswers} 题，每题 {seconds} 秒，最高达到 {peakLevel} 级",
+    "no_sums_yet": "尚无算术",
+    "your_answer": "你的答案",
+    "you_typed": "✗ {prompt} = {answerText} · 你输入了 {typed}",
+    "level": "{min} / {count} · {level} 级",
+    "type_the_answer_then_enter": "输入答案，然后按回车 · 退格键修改 · Esc 打开命令行",
+    "of": "{answers} 题中答对 {correctAnswers} 题",
+    "right": "正确",
+    "average_time": "平均时间",
+    "of_2": "{asked} 题中答对 {right} 题",
+    "to_look_at_again": "供复习",
+    "you_typed_2": " · 你输入了 {typed}",
+    "every_answer_right": "全部答对。",
+    "change_the_sums": "更改算术设置",
+    "title_count": "算术 · {kind}{weak} · {count, plural, one {# 道题} other {# 道题}}",
+    "title": "算术 · {kind}{weak}",
+    "weak_spots": " · 薄弱环节",
+    "right_headline": "答对 {of}",
+    "questions": "题目",
+    "start_at_level": "起始级别"
+  },
+  "learn_tenkey": {
+    "your_best_for_this_ksph": "你的最佳记录：每小时 {thousands} 次击键，准确率 {round}%",
+    "no_run_of_this_kind": "尚无此类练习记录",
+    "custom_length_in_minutes": "自定义时长（分钟）",
+    "custom_length_in_entries": "自定义长度（条目数）",
+    "custom_length": "自定义长度",
+    "ten_key_test": "十键测试",
+    "amounts_arrive_one_to_a": "金额逐行到达，就像纸带一样。在数字小键盘上输入每个金额，并在其后输入显示的按键：回车或运算符。出错后纸带会继续前进，所以请继续输入；退格键可修改当前条目。你的得分以每小时击键数计算。",
+    "new_best": "新纪录",
+    "your_best_for_this_is": "你的最佳记录是 {thousands}",
+    "not_a_wrong_key_clean": "没有按错键：完美。",
+    "change_the_test": "更改测试设置",
+    "keys_to_watch": "需要注意的按键：{keys}",
+    "watch_key": "{key}（错了 {wrong} 次）",
+    "run_title": "十键 · {form} · {limit}",
+    "run_label": "十键测试",
+    "unit": "单位"
+  },
+  "learn_till": {
+    "till": "收银机",
+    "customers_queue_at_your_till": "顾客在你的收银机前排起队。每位顾客都用纸币支付：算出找零，在小键盘上输入并按回车。每位顾客在等待时耐心都会减少，因此快速且正确地服务他们能提升后续顾客的耐心。答错会扣除部分耐心，当有三位顾客离开时，收银机关闭。找零始终精确到分。",
+    "your_best_customers_served_in": "你的最佳记录：一次性服务了 {best} 位顾客",
+    "no_shifts_yet": "尚无轮班",
+    "open_the_till": "打开收银机",
+    "the_customer_s_patience": "顾客的耐心",
+    "the_change": "找零",
+    "customers_served_level_the_customers": "服务的顾客数 · 级别 · 在收银机关闭前还能离开的顾客数",
+    "press_enter_to_open_the": "按回车打开收银机",
+    "change": "{billText} · 找零？",
+    "waiting_behind": "后面还有 {behind} 位等待",
+    "no_one_waiting": "无人等待",
+    "served_level": "服务了 {served} 位 · {level} 级 · {repeat}{repeat2}",
+    "type_the_change_then_enter": "输入找零，然后按回车 · 退格键修改 · Esc 打开命令行",
+    "the_till_is_closed": "收银机已关闭",
+    "customer_served": " 位顾客已服务",
+    "customers_served": " 位顾客已服务",
+    "your_best_is": "你的最佳记录是 {previousBest}",
+    "another_shift": "再上一班",
+    "feedback_served": "✓ 找零 {change}",
+    "feedback_wrong": "✗ {typed}：找零应该是 {change}",
+    "feedback_left": "一位顾客离开了（{bill}）"
+  },
+  "learn": {
+    "lessons_set_aside": "课程已搁置"
+  },
+  "mascot_sounds": {
+    "play_a_sample": "播放示例",
+    "a_purr": "呼噜声",
+    "what_sounds_like_at_your": "{name} 在你当前音量下的声音"
+  },
+  "mascot": {
+    "open_wardrobe": "{name}：打开{companion, select, cal {他} libby {她} other {它}}的衣橱",
+    "open_s_wardrobe": "{name}：打开 {name2} 的衣橱",
+    "asleep_label": "{name}，睡着了：唤醒{companion, select, cal {他} libby {她} other {它}}"
+  },
+  "numpad_tape": {
+    "entries": "条目",
+    "the_tape": "纸带",
+    "wrong": "错误"
+  },
+  "pad_lessons": {
+    "pad-1": {
+      "title": "基准键：4 5 6"
+    },
+    "pad-2": {
+      "title": "向上伸展：7 8 9"
+    },
+    "pad-3": {
+      "title": "向下伸展：1 2 3"
+    },
+    "pad-4": {
+      "title": "拇指和小数点：0 ."
+    },
+    "pad-5": {
+      "title": "所有数字"
+    },
+    "pad-6": {
+      "title": "加号，用小指"
+    },
+    "pad-7": {
+      "title": "减号"
+    },
+    "pad-8": {
+      "title": "乘和除"
+    },
+    "pad-9": {
+      "title": "整个小键盘"
+    }
+  },
+  "fingers": {
+    "LP": "左手小指",
+    "LR": "左手无名指",
+    "LM": "左手中指",
+    "LI": "左手食指",
+    "T": "拇指",
+    "RI": "右手食指",
+    "RM": "右手中指",
+    "RR": "右手无名指",
+    "RP": "右手小指"
+  },
+  "numpad_fingers": {
+    "RI": "食指",
+    "RM": "中指",
+    "RR": "无名指",
+    "RP": "小指",
+    "T": "拇指"
+  },
+  "key_names": {
+    "space": "空格",
+    "comma": "逗号",
+    "full_stop": "句号",
+    "slash": "斜杠",
+    "semicolon": "分号",
+    "apostrophe": "撇号",
+    "hyphen": "连字符",
+    "equals": "等号"
+  },
+  "units": {
+    "sequences": "序列",
+    "words": "单词",
+    "sequence": "序列",
+    "word": "单词"
+  },
+  "learn_results": {
+    "diagram_label": "键盘，按每个按键出错的频率着色"
+  },
+  "entries": {
+    "a_ten_key_entry_needs": "十键条目至少需要包含一个数字。",
+    "ENTRY_FORMS": {
+      "whole": {
+        "label": "整数"
+      },
+      "amounts": {
+        "label": "金额"
+      },
+      "mixed": {
+        "label": "混合，带运算符"
+      }
+    }
+  },
+  "sums": {
+    "SUM_KINDS": {
+      "mixed": {
+        "label": "混合"
+      },
+      "add": {
+        "label": "加法"
+      },
+      "subtract": {
+        "label": "减法"
+      },
+      "multiply": {
+        "label": "乘法"
+      },
+      "divide": {
+        "label": "除法"
+      },
+      "percent": {
+        "label": "百分比"
+      }
+    }
+  },
+  "pad_key_names": {
+    "enter": "回车",
+    "plus": "加",
+    "minus": "减",
+    "times": "乘",
+    "divide": "除",
+    "decimal_point": "小数点"
+  },
+  "numpad_labels": {
+    "weak_keys": "薄弱按键",
+    "minutes": "{count} 分钟",
+    "entries": "{count} 个条目"
+  },
+  "numpad_sums": {
+    "kinds": {
+      "add": "加法",
+      "subtract": "减法",
+      "multiply": "乘法",
+      "divide": "除法",
+      "percent": "百分比"
+    }
+  }
+}

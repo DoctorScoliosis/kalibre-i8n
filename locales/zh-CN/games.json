@@ -1,0 +1,1269 @@
+{
+  "feed": {
+    "title": "喂食",
+    "blurb": "在饥饿生物的耐心耗尽前，喂给它想要的单词，或者为人群提供自助餐。",
+    "modes": {
+      "prompted": "挑食者",
+      "unprompted": "零食模式",
+      "buffet": "自助餐"
+    },
+    "s_not_what_i_asked": "−{seconds}秒 · {text}？不是我想要的",
+    "fed": "+{seconds}秒 · {text}",
+    "fed_patched": " （修补过）",
+    "fed_hinted": " （提示：时间减半）",
+    "fed_yum": " · 好吃",
+    "typo": "−{seconds}秒 · 拼写错误",
+    "typo_meant": " （你是说 {meant}？）"
+  },
+  "castle": {
+    "title": "城堡",
+    "blurb": "用单词建造你的城墙，并坚守阵地直到攻击者放弃。",
+    "modes": {
+      "unprompted": "任意砖块",
+      "prompted": "特殊砖块"
+    },
+    "the_attackers_resolve_hold_the": "攻击者的决心：守住城门和主堡以消耗它",
+    "stockpile": "储备",
+    "click_a_brick_to_carry": "点击砖块搬运 · 空格放置 · Shift+回车丢弃 · 1-9 选择",
+    "bricks": "{length} 块砖 · {toFixed}",
+    "the_dropped_shift_to_use": "{from} 丢弃了 {label} · Shift+{slot} 使用",
+    "the_dropped_but_storage_is": "{from} 丢弃了 {label}，但储备已满",
+    "brick_stacked": "{word} · {note} 砖块 {toFixed} · 已堆叠{repeatNote}",
+    "damage": "{note} · {toFixed} 伤害",
+    "yard_brick_pick": "{word}：{note} 砖块，强度 {strength}（按 {key} 拾取）",
+    "yard_brick": "{word}：{note} 砖块，强度 {strength}",
+    "aiming_at": "瞄准：{section} {integrity}/{max}",
+    "aiming_critical": " · 危险",
+    "aiming_needs": " · 需要满足 {requirement} 的砖块",
+    "brick_added": "{what} · +{added} {section}",
+    "brick_named": "{word} · {note} 砖块",
+    "the_castle": "城堡",
+    "powerups": {
+      "mortar": {
+        "label": "砂浆",
+        "help": "丢弃的砖块造成双倍伤害"
+      },
+      "mason": {
+        "label": "泥瓦匠",
+        "help": "放置的砖块强度增加 50%"
+      },
+      "oil": {
+        "label": "热油",
+        "help": "同时眩晕所有攻击者"
+      },
+      "mend": {
+        "label": "修补",
+        "help": "修复最脆弱的城门或主堡"
+      }
+    },
+    "foe_title": "{type}：点击或丢弃砖块砸击（{hp} 生命值）",
+    "foe_stunned": "，已眩晕",
+    "catapult_title": "投石机：在远处射程之外",
+    "catapult_aiming": "，正瞄准 {section}",
+    "section_title": "{section}：{integrity}/{max}",
+    "section_critical": "，危险",
+    "section_needs": "，需要满足 {requirement} 的砖块",
+    "news_line": "{label}：{note}",
+    "powerup": "道具"
+  },
+  "space": {
+    "title": "太空",
+    "blurb": "用鼠标转向，用单词开火，并保持飞船存活。",
+    "modes": {
+      "unprompted": "自由开火",
+      "prompted": "定向"
+    },
+    "ship_health": "飞船生命值",
+    "magazine": "弹匣",
+    "bomb_charge": "炸弹充能",
+    "click_enter_fires_scroll_choose": "点击 / 回车开火 · ↑ ↓ / 滚轮选择 · 退格×2 废弃",
+    "finish_a_word_to_load": "完成一个单词以装填它",
+    "bomb_ready_shift_enter": "炸弹就绪 · Shift+回车",
+    "bomb": "炸弹 {floor}%",
+    "ship": "飞船 {round}",
+    "score": "得分 {round}",
+    "destroyed": "摧毁 {value}",
+    "s_left": "剩余 {ceil}秒",
+    "trigger_jammed_type_or_backspace": "扳机卡壳 · 输入“{word}”，或按两次退格废弃子弹"
+  },
+  "spot": {
+    "title": "找错",
+    "blurb": "找出段落中埋藏的错误并修正它们。",
+    "modes": {
+      "prompted": "校对"
+    },
+    "was": "{errorTitle}：原为“{corrupted}”",
+    "should_be": "{errorTitle}：应为“{original}”",
+    "was_fine": "{word} 没问题",
+    "fixed": "已修正：{original} · {errorTitle}",
+    "it_should_be": "应为“{original}” · {errorTitle}",
+    "repairing": "{title} · 在原处修改（← → 移动）并按回车",
+    "repairing_retry": " · 再试一次",
+    "repairing_cancel": " · Esc 取消"
+  },
+  "ui": {
+    "pause": "暂停",
+    "paused": "已暂停",
+    "resume": "继续",
+    "restart": "重新开始",
+    "quit": "退出",
+    "game_over": "游戏结束",
+    "victory": "胜利",
+    "menu_intro": "将打字融入游戏：你的单词变成食物、砖块、子弹和修复材料。游戏时间计入经验值、你的错误和每日目标（按你打字的时间计算，不包括阅读或瞄准）。",
+    "games_aria": "游戏",
+    "not_played": "尚未游玩",
+    "best_summary": "最高 {score} · 上次游玩 {date}",
+    "race_record": "单人或局域网内",
+    "mode": "模式",
+    "difficulty": "难度",
+    "details": "详情",
+    "replay": "重玩",
+    "main": "主页",
+    "demo_caption": "演示 · 悬停以游玩",
+    "play_game": "游玩 {title}",
+    "all_games": "所有游戏",
+    "demo_aria": "{title}：{label} 演示",
+    "no_passages": "没有可供校对的段落。请在“文本”→“数据集”中启用数据集。",
+    "time_so_far": "目前用时",
+    "end_game": "结束游戏 ",
+    "exit": "退出 ",
+    "commands": "命令 ",
+    "hints": "Esc 暂停 · {restartKey} 重新开始",
+    "strength_chip_title": "强度：每个字母1点，k v w y 加1点，j q x z 加2点",
+    "strength_current": "强度 {strength}",
+    "strength_goal": "强度 {strength} / {goal}",
+    "pause_lost_focus": "窗口失去焦点",
+    "pause_typing_lost": "打字失去焦点",
+    "heading": "{title} 结果",
+    "status_failed": "游戏结束",
+    "status_aborted": "提前结束",
+    "status_done": "完成",
+    "play_again": "再玩一次",
+    "change_setup": "更改设置",
+    "added_training": "已添加到训练",
+    "mistakes_noted": "{count, plural, one { · 记录了 1 个错误} other { · 记录了 # 个错误}}",
+    "results_summary": "{time} · {words} 词 · {wpm} WPM · {accuracy} · 错打 {mistypes} · 修正 {corrections}",
+    "daily_goal_title": "游戏将其打字时间计入目标，不包括阅读、瞄准或思考的时间",
+    "key_mashing_note": "这次练习看起来像是在乱按键盘（{reason}），因此其错误和经验值未被计入。",
+    "ghost_title": "与幽灵赛跑",
+    "ghost_blurb": "你保存的幽灵，按模式分类。在一个模式中最多选择 {max} 个，并在其专属文本和规则下与它们赛跑；它们的计时器和你的计时器都在你按下第一个键时开始。",
+    "import_file": "导入幽灵文件",
+    "from_folder": "来自你的 kalibre 文件夹",
+    "drop_hint": "或将一个拖放到页面上",
+    "race_setup": "赛跑设置",
+    "time_left": "剩余时间",
+    "any_word_blurb": "我什么都吃。强度越高的单词让我越饱。",
+    "any_word": "任意单词",
+    "counts": "喂食 {fed} · 错误 {wrong} · 错打 {mistyped}{streak, select, true { · 连击 {count}} other {}}",
+    "satisfaction": "满意度",
+    "creatures_orders": "生物及其订单",
+    "waiting_guest": "等待第一位客人…",
+    "served_words": "已上菜的单词",
+    "table_status": "餐桌 {count}/{cap}",
+    "yard_empty": "输入单词制造砖块",
+    "calm_wave": "平静期：储备砖块 · {seconds}秒后迎来第 {wave} 波，共 {of} 波",
+    "active_wave": "第 {wave} 波，共 {of} 波 · {count, plural, one {1 个攻击者} other {# 个攻击者}}{holding, select, true { · 坚守中} other { · 未坚守}}",
+    "castle_integrity": "城堡 {percent}%",
+    "time_bank": "时间库",
+    "next_passage": "下一段落 ",
+    "hud_found": "第 {round} 段 · 发现 {found} / {total}",
+    "hud_score": "得分 {score}",
+    "find_mistake": "找出错误：用鼠标指向或使用方向键，然后点击或按回车",
+    "skip_title": "继续；剩下的计为未找到"
+  },
+  "errors": {
+    "deletion": "漏字母",
+    "insertion": "多字母",
+    "transposition": "字母颠倒",
+    "repeat": "重复按键",
+    "wrongWord": "错词",
+    "missingPunctuation": "漏标点",
+    "wrongPunctuation": "错标点",
+    "capitalisation": "大写字母",
+    "whitespace": "空格"
+  },
+  "feed_buffet": {
+    "patience": "耐心",
+    "the_floor_fall_to_it": "底线：降至底线则自助餐关闭",
+    "burnt_a_typo_counts_half": "烧焦（拼写错误）：计为一半",
+    "served": "上菜 {text}",
+    "an_order_filled_happy_guest": "订单完成 · 客人开心",
+    "a_guest_gave_up_waiting": "一位客人放弃等待",
+    "went_stale": "{text} 变凉了",
+    "the_table_is_full_let": "餐桌已满：让他们先吃",
+    "that_s_not_food": "{text}？那不是食物",
+    "orders_wasted_upset": "订单 {value} · 浪费 {value2} · 不高兴 {value3}",
+    "served_burnt": " （烧焦：计为一半）"
+  },
+  "games_results": {
+    "daily_goal_met_today": "✓ 达成每日目标 · 今天 {formatGoalAmount}",
+    "daily_goal_progress": "每日目标 · 今天 {done} / {target} · 本次练习 {run}",
+    "run_minutes": "{clock} 打字时间",
+    "run_xp": "{xp} 经验值",
+    "run_words": "{words} 词"
+  },
+  "games_setup": {
+    "controls": "控制",
+    "notes": "备注",
+    "mechanic_visuals": "机制视觉效果",
+    "mechanics_contexts": "机制情境",
+    "more": "更多 ▾",
+    "demonstration_variants": "演示变体"
+  },
+  "ghost_shelf": {
+    "kalibre_can_t_reach_your": "kalibre 无法访问你的文件夹：请在“设置”→“数据”中允许它",
+    "no_ghost_files_in_the": "文件夹的 ghosts/ 中尚无幽灵文件",
+    "import": "导入",
+    "no_saved_ghosts_yet_save": "尚无保存的幽灵。从测试结果、重播或历史记录中保存一个。",
+    "race_anyway": "依然赛跑",
+    "delete_s_ghost": "删除 {name} 的幽灵",
+    "name_on_the_file": "文件上的名称",
+    "saved_to": "已保存到 {savedTo}",
+    "is_ready": "{fileName} 已就绪",
+    "include_my_card": "包含我的卡片",
+    "your_text_goes_in_the": "你的文本将放入文件中。",
+    "share": "分享",
+    "save": "{count, plural, one {保存幽灵} other {保存 # 个幽灵}}"
+  },
+  "powerup_tray": {
+    "shift": "{label}：{help}（Shift+{value}）",
+    "powerups_two_at_once": "道具 {length}/{storage} · 同时使用两个"
+  },
+  "race_card": {
+    "ghost": "幽灵",
+    "race_people_on_your_network": "与局域网内的人赛跑",
+    "your_car_dress_it_in": "你的赛车。在个人资料 → 你的卡片 → 车库中装扮它；通过赛跑和游玩赚取零件。",
+    "race_a_demo_playing_while": "赛跑：演示，悬停或聚焦时游玩",
+    "rivals": "{rulesLine} · 对手 {difficulty}",
+    "RACE_CARD": {
+      "race": {
+        "title": "赛跑",
+        "blurb": "单人或与局域网内的人在名言、单词、倒计时或持续模式（最后一个保持速度或准确率的人获胜）下与电脑赛跑。",
+        "help": [
+          "选择赛跑内容：名言、单词数量、时间或持续模式。",
+          "对手的速度大约与你最近的速度相当：简单稍慢，困难稍快。留下错误字母的人每次会被罚一秒。",
+          "单人模式下，你与两名电脑对手赛跑，一旦你在该模式下有了一次记录，就可以选择一个幽灵。在局域网内，所有人同时输入相同的文本。",
+          "与幽灵赛跑：与你保存的幽灵赛跑，最多同时三个，在它们自己的文本上。"
+        ]
+      }
+    },
+    "rivals_2": "对手"
+  },
+  "word_quality": {
+    "close_to": " · 接近“{variantOf}” {percent}",
+    "repeat": " · 重复 {percent}"
+  },
+  "games_registry": {
+    "STRENGTH_MECHANIC": {
+      "strength": {
+        "label": "强度",
+        "summary": "打字准确率决定单词强度。每个字母1点，K V W Y 加1点，J Q X Z 加2点。在困难模式下，最近单词的近似变体计为较低分数。"
+      }
+    },
+    "GAMES": {
+      "feed": {
+        "contexts": {
+          "getting-started": {
+            "label": "入门",
+            "group": "入门",
+            "summary": "在生物耐心耗尽前输入单词喂食它。",
+            "highlights": [
+              "输入单词并按空格上菜",
+              "保持生物开心以存活"
+            ],
+            "details": [
+              "你上的每个单词都会恢复时间。更长的单词恢复更多。",
+              "如果你花费太长时间，生物的心情会下降并最终离开。"
+            ],
+            "mechanics": {
+              "mood": {
+                "label": "心情",
+                "summary": "如果不喂食，生物的心情会随时间下降。"
+              },
+              "patience": {
+                "label": "耐心",
+                "summary": "计时器倒计时。上一个符合要求的单词会恢复时间。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "提交单词"
+              }
+            },
+            "visuals": {
+              "mood-content": {
+                "label": "满足"
+              },
+              "mood-peckish": {
+                "label": "微饿"
+              },
+              "mood-starving": {
+                "label": "饥饿"
+              }
+            }
+          },
+          "creature-requests": {
+            "label": "生物请求",
+            "group": "入门",
+            "summary": "生物要求一种单词 — 匹配它以获得全部时间。",
+            "highlights": [
+              "阅读生物上方的提示",
+              "匹配的单词获得全部时间；错误的单词扣除时间"
+            ],
+            "details": [
+              "请求包括：短词或长词、以某字母开头的单词或包含特定字母的单词。",
+              "卡住一段时间或错过两次？一个符合要求的单词会隐约显示在生物上，价值一半时间。"
+            ],
+            "notes": {
+              "hard": {
+                "text": "提示更具体，给予的时间更少。"
+              }
+            },
+            "mechanics": {
+              "prompts": {
+                "label": "提示",
+                "summary": "生物显示它想要的单词类型。"
+              },
+              "hint": {
+                "label": "腹部提示",
+                "summary": "闲置或错过两次后，一个有效单词会隐约显示在生物上。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "提交单词"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "腹部提示"
+              }
+            },
+            "visuals": {
+              "prompt-need": {
+                "label": "单词提示"
+              },
+              "belly-hint": {
+                "label": "腹部提示（时间减半）"
+              }
+            }
+          },
+          "snack-mode": {
+            "label": "零食模式",
+            "group": "入门",
+            "summary": "生物吃任何单词 — 更强的单词让它更饱，但它饿得更快。",
+            "highlights": [
+              "任何有效单词都能喂食生物",
+              "更长、更准确的单词恢复更多时间"
+            ],
+            "details": [
+              "没有提示：输入你喜欢的任何单词。",
+              "生物消耗耐心的速度比挑食者快，所以速度很重要。"
+            ],
+            "controls": {
+              "i0": {
+                "action": "提交单词"
+              }
+            },
+            "visuals": {
+              "free-eating": {
+                "label": "任何有效单词"
+              },
+              "fast-patience": {
+                "label": "加速饥饿"
+              }
+            }
+          },
+          "buffet": {
+            "label": "自助餐服务",
+            "group": "入门",
+            "summary": "客人订购几种类型的单词。将单词上到餐桌上，他们会吃符合要求的。",
+            "highlights": [
+              "客人带着 1-3 种单词类型的订单到达",
+              "保持总体满意度在红线以上"
+            ],
+            "details": [
+              "输入单词并按空格将其放在餐桌上。客人会吃符合他们订单的。",
+              "完成的订单让客人高兴并提高满意度。等待太久的客人会不高兴离开。",
+              "无意义的单词会被扔掉并降低满意度。拼写错误会产生价值一半的烧焦菜肴。",
+              "留在餐桌上的菜肴会变凉并被浪费。"
+            ],
+            "mechanics": {
+              "table": {
+                "label": "餐桌",
+                "summary": "上的单词放在共享餐桌上。客人吃符合要求的。"
+              },
+              "satisfaction": {
+                "label": "满意度",
+                "summary": "0-100 的计量表。如果降至底线，自助餐关闭。"
+              },
+              "orders": {
+                "label": "订单",
+                "summary": "每位客人的单子上有 1-3 个单词类型要求。"
+              },
+              "stale": {
+                "label": "变凉的菜肴",
+                "summary": "未收取的菜肴会变凉并降低满意度。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "将单词上到餐桌"
+              }
+            },
+            "visuals": {
+              "guest-ticket": {
+                "label": "订单单"
+              },
+              "buffet-table": {
+                "label": "上菜餐桌"
+              },
+              "satisfaction-floor": {
+                "label": "满意度底线"
+              }
+            }
+          }
+        }
+      },
+      "castle": {
+        "options": {
+          "waves": {
+            "label": "波数",
+            "choices": {
+              "endless": {
+                "label": "无尽"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "入门",
+            "group": "入门",
+            "summary": "输入单词制造砖块，瞄准一个部分，并放置它们来建造和修复你的城堡。",
+            "highlights": [
+              "输入单词制造砖块",
+              "用方向键或鼠标瞄准，然后按空格放置"
+            ],
+            "details": [
+              "更长的单词制造更坚固的砖块。拼写错误制造开裂的砖块。",
+              "城堡初始完整，在第一波前有一段平静期来储备。",
+              "砖块出现在储备区；用 1-9 选择一个或用鼠标拖动。"
+            ],
+            "notes": {
+              "prompted": {
+                "text": "在特殊砖块模式下，受攻击的部分需要特定的单词。不符合规格的砖块会失去大部分强度。"
+              }
+            },
+            "mechanics": {
+              "stockpile": {
+                "label": "储备",
+                "summary": "输入的单词变成院子里等待的砖块。用数字键选择一个或使用最新的。"
+              },
+              "quality": {
+                "label": "砖块质量",
+                "summary": "坚固、修补过、开裂或废墟 — 取决于单词长度和打字准确率。"
+              },
+              "cursor": {
+                "label": "瞄准",
+                "summary": "光标显示下一块砖的去向。用方向键移动或点击一个部分。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "瞄准一个部分"
+              },
+              "i1": {
+                "action": "放置最新的砖块"
+              },
+              "i2": {
+                "action": "从储备区选择一块砖"
+              }
+            },
+            "visuals": {
+              "stockpile-yard": {
+                "label": "储备院子"
+              },
+              "brick-solid": {
+                "label": "坚固砖块"
+              },
+              "brick-cracked": {
+                "label": "开裂砖块"
+              }
+            }
+          },
+          "surviving": {
+            "label": "生存",
+            "group": "生存",
+            "summary": "守住城门和主堡。当关键部分守住时，每一波都会失去士气并撤退。",
+            "highlights": [
+              "城门和主堡是关键 — 失去主堡游戏结束",
+              "通过在受损部分放置砖块来修复它们"
+            ],
+            "details": [
+              "城堡部分有耐久度，敌人攻击时会下降。",
+              "城堡整体的高平均修复速度会更快地消耗该波的士气。",
+              "当士气降至零或所有敌人被摧毁时，每一波都会撤退。"
+            ],
+            "notes": {
+              "hard": {
+                "text": "敌人到达时更强壮且数量更多。"
+              }
+            },
+            "mechanics": {
+              "sections": {
+                "label": "城堡部分",
+                "summary": "城墙、塔楼、城门、主堡和地基。每个都有自己的耐久度。"
+              },
+              "integrity": {
+                "label": "耐久度",
+                "summary": "一个部分的生命值。降至零则该部分被攻破。"
+              },
+              "resolve": {
+                "label": "波数士气",
+                "summary": "显示该波距离撤退有多近的计量表。"
+              },
+              "waves": {
+                "label": "波数",
+                "summary": "敌人按编号波次到达，中间有平静期。"
+              }
+            },
+            "visuals": {
+              "curtain-wall": {
+                "label": "幕墙"
+              },
+              "gatehouse": {
+                "label": "城门楼"
+              },
+              "great-keep": {
+                "label": "大主堡"
+              },
+              "wave-resolve": {
+                "label": "波数士气"
+              }
+            }
+          },
+          "fighting": {
+            "label": "战斗",
+            "group": "战斗",
+            "summary": "将砖块丢在敌人身上砸碎它们，或使用投石机从远处攻击它们。",
+            "highlights": [
+              "Shift+回车 将砖块丢在目标攻击者身上",
+              "暴徒撞击，工兵凿击，投石机从远处投掷巨石"
+            ],
+            "details": [
+              "丢砖块造成等于砖块强度的伤害。",
+              "未被砸碎的敌人可能会被短暂眩晕。",
+              "投石机驻扎在远处：虚线弧线显示其瞄准位置。"
+            ],
+            "mechanics": {
+              "brute": {
+                "label": "暴徒",
+                "summary": "近距离撞击部分。在固定次数的撞击后疲劳。"
+              },
+              "sapper": {
+                "label": "工兵",
+                "summary": "凿击部分。在目标之间游荡。"
+              },
+              "catapult": {
+                "label": "投石机",
+                "summary": "从远处沿抛物线弧线投掷巨石。超出丢砖范围。"
+              },
+              "stun": {
+                "label": "眩晕",
+                "summary": "非致命的丢砖块可能会眩晕攻击者，使其短暂停止。"
+              },
+              "drops": {
+                "label": "丢砖块",
+                "summary": "将砖块丢在敌人身上以伤害或砸碎它。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "将砖块丢在敌人身上"
+              },
+              "i1": {
+                "action": "瞄准一个部分或敌人"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "丢砖块"
+              }
+            },
+            "visuals": {
+              "brute-ram": {
+                "label": "暴徒（撞击）"
+              },
+              "sapper-pick": {
+                "label": "工兵（凿击）"
+              },
+              "catapult-siege": {
+                "label": "投石机（围攻）"
+              },
+              "boulder-arc": {
+                "label": "巨石弧线"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "强化",
+            "group": "强化",
+            "summary": "被砸碎的敌人有时会掉落道具。储存它们并在需要时开启。",
+            "highlights": [
+              "敌人被砸碎时接住道具",
+              "用 Shift+1-3 激活或点击槽位"
+            ],
+            "details": [
+              "最多可储存三个道具。一次可激活两个。",
+              "砂浆使丢砖块造成更大伤害。泥瓦匠使放置的砖块计为更多。热油眩晕场上所有敌人。修补修复最脆弱的关键部分。"
+            ],
+            "mechanics": {
+              "mortar": {
+                "label": "砂浆",
+                "summary": "丢砖块造成双倍伤害。"
+              },
+              "mason": {
+                "label": "泥瓦匠",
+                "summary": "放置的砖块提供 1.5 倍强度。"
+              },
+              "oil": {
+                "label": "热油",
+                "summary": "立即眩晕场上所有攻击者。"
+              },
+              "mend": {
+                "label": "修补",
+                "summary": "恢复最脆弱的城门或主堡的耐久度。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "激活道具槽 1"
+              },
+              "i1": {
+                "action": "激活道具槽 2"
+              },
+              "i2": {
+                "action": "激活道具槽 3"
+              }
+            },
+            "visuals": {
+              "mortar-powerup": {
+                "label": "砂浆（2倍丢砖）"
+              },
+              "mason-powerup": {
+                "label": "泥瓦匠（1.5倍城墙）"
+              },
+              "oil-powerup": {
+                "label": "沸油（眩晕全部）"
+              },
+              "mend-powerup": {
+                "label": "战场修补（修复）"
+              }
+            }
+          }
+        }
+      },
+      "space": {
+        "options": {
+          "duration": {
+            "label": "长度",
+            "choices": {
+              "endless": {
+                "label": "无尽"
+              },
+              "i1": {
+                "label": "1 分钟"
+              },
+              "i2": {
+                "label": "2 分钟"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "入门",
+            "group": "入门",
+            "summary": "驾驶飞船，输入单词装填弹匣，并开火摧毁敌人。",
+            "highlights": [
+              "用鼠标或方向键移动",
+              "输入单词并按回车开火"
+            ],
+            "details": [
+              "完成的单词装入弹匣。按回发射选择的子弹。",
+              "用回车完成的单词会立即发射而不先装填。",
+              "使用 ↑ ↓ 或滚轮选择发射哪个弹匣槽位。"
+            ],
+            "notes": {
+              "prompted": {
+                "text": "在定向模式下，每艘敌舰都有一个单词要求。不匹配的子弹会被弹开。"
+              }
+            },
+            "mechanics": {
+              "movement": {
+                "label": "移动",
+                "summary": "飞船水平转向。用鼠标或 ← → 移动。"
+              },
+              "magazine": {
+                "label": "弹匣",
+                "summary": "输入的单词填满弹匣。回车开火。↑ ↓ 选择槽位。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "移动飞船"
+              },
+              "i1": {
+                "action": "发射选择的弹匣子弹"
+              },
+              "i2": {
+                "action": "选择弹匣槽位"
+              }
+            },
+            "visuals": {
+              "starfighter": {
+                "label": "星际战斗机"
+              },
+              "magazine-slots": {
+                "label": "弹匣槽位"
+              }
+            }
+          },
+          "surviving": {
+            "label": "生存",
+            "group": "生存",
+            "summary": "避免伤害，清除卡壳，躲避小行星，并使用救援船进行修复。",
+            "highlights": [
+              "飞船有生命值 — 受到攻击会降低，降至零游戏结束",
+              "输入绿色救援船上的单词进行修复"
+            ],
+            "details": [
+              "正确的单词从不卡壳。拼写错误可能会卡壳，无意义的单词卡壳更频繁。",
+              "卡壳时，输入显示的单词以清除它，或在未输入任何内容时按两次退格废弃子弹。",
+              "不要射击救援船：击中它会使治疗量减少（简单模式除外）。",
+              "小行星是不可摧毁的障碍物。大的被击中时会碎裂成几块。",
+              "无人机用虚线锁定并直线俯冲。转向避开。",
+              "穿过底部的飞船不会造成伤害。"
+            ],
+            "notes": {
+              "easy": {
+                "text": "射击救援船不会减少其治疗量。"
+              }
+            },
+            "mechanics": {
+              "health": {
+                "label": "生命值",
+                "summary": "飞船的生命值。降至零意味着游戏结束。"
+              },
+              "jams": {
+                "label": "卡壳",
+                "summary": "卡壳的枪在清除前无法开火。拼写错误和无意义单词会增加卡壳风险。"
+              },
+              "asteroids": {
+                "label": "小行星",
+                "summary": "无法摧毁的岩石。大的会分裂成碎块。"
+              },
+              "rescue": {
+                "label": "救援船",
+                "summary": "带有单词的绿色飞船。输入它以修复船体。"
+              },
+              "drones": {
+                "label": "无人机",
+                "summary": "锁定并直线俯冲。躲避俯冲线。"
+              },
+              "jammer": {
+                "label": "干扰机",
+                "summary": "存活时增加卡壳几率。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "废弃选择的子弹（清除卡壳）"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "救援修复"
+              }
+            },
+            "visuals": {
+              "rescue-ship": {
+                "label": "救援船（治疗）"
+              },
+              "dive-drone": {
+                "label": "俯冲无人机"
+              },
+              "asteroid": {
+                "label": "小行星障碍"
+              },
+              "weapon-jam": {
+                "label": "武器卡壳"
+              }
+            }
+          },
+          "fighting": {
+            "label": "战斗",
+            "group": "战斗",
+            "summary": "装填弹匣，拦截导弹和战斗机，并使用炸弹清理战场。",
+            "highlights": [
+              "导弹带有字母 — 在未输入任何内容时输入它以击落它们",
+              "充能后 Shift+回车 引爆炸弹"
+            ],
+            "details": [
+              "装填单词为炸弹计量表充能。充满后，Shift+回车 清除所有导弹并伤害每个敌人。",
+              "空间站发射追击你的战斗机。输入战斗机的字母以击落它。",
+              "地雷被击中时会爆裂成弹片，击中附近的所有物体，包括你。",
+              "护盾飞船只接受满足其要求的单词的击中。"
+            ],
+            "notes": {
+              "prompted": {
+                "text": "在定向模式下，每艘飞船都有一个必须匹配的单词要求。"
+              }
+            },
+            "mechanics": {
+              "missiles": {
+                "label": "导弹",
+                "summary": "带有字母标记。在未输入任何内容时，输入它以立即击落它们。"
+              },
+              "bomb": {
+                "label": "炸弹",
+                "summary": "随着你装填单词而充能。Shift+回车 引爆，清除导弹并伤害敌人。"
+              },
+              "fighters": {
+                "label": "战斗机",
+                "summary": "空间站发射的小型飞船。追击玩家。输入它们的字母进行拦截。"
+              },
+              "stations": {
+                "label": "空间站",
+                "summary": "悬停并生成战斗机的大型枢纽。"
+              },
+              "landmines": {
+                "label": "地雷",
+                "summary": "带刺地雷。摧毁时的弹片击中附近的所有物体。"
+              },
+              "shields": {
+                "label": "护盾",
+                "summary": "一些飞船有护盾，只有匹配的单词才能打破。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "引爆炸弹"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "炸弹冲击波"
+              }
+            },
+            "visuals": {
+              "missile-token": {
+                "label": "导弹（字母）"
+              },
+              "bomb-shockwave": {
+                "label": "炸弹冲击波"
+              },
+              "orbital-station": {
+                "label": "轨道空间站"
+              },
+              "shrapnel-mine": {
+                "label": "地雷"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "强化",
+            "group": "强化",
+            "summary": "被摧毁的敌人掉落道具。接住它们，储存它们，并开启它们。",
+            "highlights": [
+              "接住漂浮的道具以储存它",
+              "用 Shift+1-3 激活或点击槽位"
+            ],
+            "details": [
+              "最多可储存三个道具。一次可激活两种类型；再次激活相同类型会叠加其计时器。",
+              "双重开火：每发子弹在消耗前开火两次。",
+              "加特林：输入的每个字母都会发射瞬时能量束。",
+              "护盾：屏障为飞船吸收击中。",
+              "自动机：自动为最大威胁选择最佳子弹。",
+              "追踪：发射的单词向目标转向。"
+            ],
+            "mechanics": {
+              "double": {
+                "label": "双重",
+                "summary": "子弹在消耗前开火两次。"
+              },
+              "gatling": {
+                "label": "加特林",
+                "summary": "输入的每个字母都会发射瞬时能量束。"
+              },
+              "shield": {
+                "label": "护盾",
+                "summary": "能量屏障吸收击中。"
+              },
+              "automaton": {
+                "label": "自动机",
+                "summary": "为最严重的威胁自动选择最佳子弹。"
+              },
+              "homing": {
+                "label": "追踪",
+                "summary": "发射的单词动态地向目标转向。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "激活道具槽 1"
+              },
+              "i1": {
+                "action": "激活道具槽 2"
+              },
+              "i2": {
+                "action": "激活道具槽 3"
+              }
+            },
+            "visuals": {
+              "powerup-double": {
+                "label": "双重开火"
+              },
+              "powerup-gatling": {
+                "label": "加特林流"
+              },
+              "powerup-shield": {
+                "label": "偏导屏障"
+              },
+              "powerup-automaton": {
+                "label": "自动机瞄准"
+              },
+              "powerup-homing": {
+                "label": "追踪寻的者"
+              }
+            }
+          }
+        }
+      },
+      "spot": {
+        "options": {
+          "variant": {
+            "label": "游玩",
+            "choices": {
+              "timed": {
+                "label": "限时"
+              },
+              "endless": {
+                "label": "无尽"
+              }
+            }
+          },
+          "duration": {
+            "label": "时间"
+          }
+        },
+        "help": [
+          "指向单词或用 ← → 移动（↑ ↓ 按行）；如果错误，点击它或按回车。",
+          "单词保持在原处：在那里修改它（← → Home End 移动光标，或在其中点击）并按回车。拼写、标点、大写和空格都算数。",
+          "Shift+回车 放弃当前段落并移至下一段。",
+          "发现和修复分别计分；标记正确的单词会扣分。"
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "入门",
+            "group": "入门",
+            "summary": "找出段落中埋藏的错误并修正它们。",
+            "highlights": [
+              "指向单词或用方向键导航",
+              "按回车标记错误，然后输入修正"
+            ],
+            "details": [
+              "段落来自你书库中的书籍。每个都有几个埋藏的错误。",
+              "Shift+回车 放弃当前段落并移至下一段。",
+              "错误包括拼写、标点、大写、同音字和字母失误。"
+            ],
+            "mechanics": {
+              "errors": {
+                "label": "错误类型",
+                "summary": "拼写、标点、大写、同音字和字母失误。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "在单词间移动"
+              },
+              "i1": {
+                "action": "在行间移动"
+              },
+              "i2": {
+                "action": "标记单词为错误"
+              },
+              "i3": {
+                "action": "跳至下一段落"
+              }
+            },
+            "visuals": {
+              "passage-line": {
+                "label": "段落文本"
+              },
+              "planted-error": {
+                "label": "埋藏的错误"
+              }
+            }
+          },
+          "finding-mistakes": {
+            "label": "寻找错误",
+            "group": "生存",
+            "summary": "扫描段落，选择一个你认为错误的单词，然后按回车标记它。",
+            "highlights": [
+              "悬停在单词上或使用方向键选择它",
+              "标记正确的单词会扣分"
+            ],
+            "details": [
+              "用 ← → 逐词移动，或 ↑ ↓ 逐行移动。点击或悬停以跳转。",
+              "发现和修复分别计分。",
+              "标记实际上正确的单词计为误报并扣分。"
+            ],
+            "mechanics": {
+              "selection": {
+                "label": "单词选择",
+                "summary": "悬停、点击或使用方向键选择单词。"
+              },
+              "false-flag": {
+                "label": "误报",
+                "summary": "标记正确的单词会扣分和（在无尽模式下）时间。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "在单词间移动"
+              },
+              "i1": {
+                "action": "在行间移动"
+              },
+              "i2": {
+                "action": "标记选中的单词"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "段落扫描"
+              }
+            },
+            "visuals": {
+              "selected-word": {
+                "label": "选中的单词"
+              },
+              "hover-cursor": {
+                "label": "悬停光标"
+              },
+              "false-flag-penalty": {
+                "label": "误报惩罚"
+              }
+            }
+          },
+          "correcting-mistakes": {
+            "label": "修正错误",
+            "group": "生存",
+            "summary": "标记的单词保持在原处。在那里修改它并按回车提交修复。",
+            "highlights": [
+              "单词直接在段落中编辑",
+              "用方向键移动光标或在单词内点击"
+            ],
+            "details": [
+              "使用 ← → 移动光标，Home 和 End 跳转。Delete 和 Backspace 照常工作。",
+              "在单词内点击以将光标放置在特定位置。",
+              "你有两次尝试机会。如果都失败，将显示正确的单词。",
+              "按 Esc 取消修复而不受惩罚。"
+            ],
+            "mechanics": {
+              "caret": {
+                "label": "光标编辑",
+                "summary": "在单词内移动光标以编辑单个字符。"
+              },
+              "retries": {
+                "label": "修复尝试",
+                "summary": "两次尝试修复一个单词。两次失败后，显示答案。"
+              },
+              "cancel": {
+                "label": "取消",
+                "summary": "Esc 取消修复而不受惩罚。"
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "在单词内移动光标"
+              },
+              "i1": {
+                "action": "光标至单词开头"
+              },
+              "i2": {
+                "action": "光标至单词结尾"
+              },
+              "i3": {
+                "action": "提交修复"
+              },
+              "i4": {
+                "action": "取消修复"
+              },
+              "i5": {
+                "action": "向后删除"
+              }
+            },
+            "visuals": {
+              "inline-caret": {
+                "label": "行内光标"
+              },
+              "in-place-edit": {
+                "label": "原位编辑"
+              },
+              "attempt-limit": {
+                "label": "2次尝试限制"
+              }
+            }
+          },
+          "scoring": {
+            "label": "计分",
+            "group": "生存",
+            "summary": "发现和修复分别计分。限时模式有固定时钟；无尽模式在修复时补充时间。",
+            "highlights": [
+              "发现得分：你发现了多少错误",
+              "修复得分：你修正它们的准确率"
+            ],
+            "details": [
+              "限时模式：固定时长倒计时。尽可能多地发现和修复。",
+              "无尽模式：时间持续流失。每次成功修复都会补充时间库。误报会扣除时间。",
+              "当段落中的所有错误都被修复且没有误报时，记录一次完美清除。"
+            ],
+            "notes": {
+              "hard": {
+                "text": "错误更微妙，计时器更短。"
+              }
+            },
+            "mechanics": {
+              "detection": {
+                "label": "发现",
+                "summary": "按精确度和召回率计分 — 你发现了多少真实错误与误报的对比。"
+              },
+              "repair": {
+                "label": "修复",
+                "summary": "按你修正标记单词的准确率计分。"
+              },
+              "sweep": {
+                "label": "完美清除",
+                "summary": "在单个段落中修复所有错误，无误报。"
+              }
+            },
+            "visuals": {
+              "detection-score": {
+                "label": "发现得分"
+              },
+              "repair-score": {
+                "label": "修复得分"
+              },
+              "clean-sweep": {
+                "label": "完美清除奖励"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minutes_choice": "{count} 分钟"
+  },
+  "space_time": {
+    "powerups": {
+      "double": "双重开火",
+      "gatling": "加特林",
+      "shield": "护盾",
+      "automaton": "自动机",
+      "homing": "追踪"
+    },
+    "stored": "已储存 {name} · Shift+{slot} 使用",
+    "storage_full": "储备已满：{name} 丢失",
+    "nothing_stored": "那里没有储存任何东西",
+    "busy": "已经有两个在运行：{name} 等待中",
+    "cant_use": "无法使用 {name}"
+  },
+  "constraints": {
+    "min_length": "{value}+ 个字母",
+    "min_length_need": "长单词，{value} 个或更多字母",
+    "max_length": "最多 {value} 个字母",
+    "max_length_need": "短单词，最多 {value} 个字母",
+    "starts_with": "以 {letter} 开头",
+    "starts_with_need": "以 {letter} 开头的单词",
+    "ends_with": "以 {letter} 结尾",
+    "ends_with_need": "以 {letter} 结尾的单词",
+    "contains": "包含 {letter}",
+    "contains_need": "包含 {letter} 的单词",
+    "min_strength": "强度 {value}+",
+    "min_strength_need": "强单词，强度 {value} 或更高",
+    "passage_length": "{min}–{max} 个单词",
+    "passage_length_need": "{min} 个或更多单词的段落",
+    "any_word": "任意单词",
+    "want": "我想要 {needs}。",
+    "want_any": "我想要任意单词。"
+  },
+  "moods": {
+    "satisfied": "满足",
+    "hungry": "饥饿",
+    "very_hungry": "非常饥饿",
+    "urgent": "紧急",
+    "critical": "危险"
+  },
+  "space_ui": {
+    "shot": {
+      "fired": "{word} · {power} 伤害",
+      "fired_typo": " （拼写错误：一半强度）",
+      "fired_one_left": " （剩余 1 发）",
+      "fired_automaton": " · 自动机 → {target}",
+      "fighter_down": "战斗机 {word} 被击落",
+      "loaded": "{word} · 已装填，{power}",
+      "fizzle": "{word} · 不是单词，它失效了",
+      "fizzle_jam": "{word} · 不是单词：它失效并卡住了扳机",
+      "scrap_armed": "再次按退格废弃 {word}",
+      "scrap_clear_jam": " 并清除卡壳",
+      "scrap_armed_jam": "再次按退格清除卡壳",
+      "scrapped_word": "{word} 已废弃",
+      "scrapped": "已废弃",
+      "jam_cleared_suffix": " · 卡壳已清除",
+      "rescue_hit": "小心：你击中了救援船（{word}）",
+      "rescue_lost": "救援船丢失",
+      "jammed": "{word} 卡住了扳机 · 它保持装填",
+      "locked": "扳机卡壳",
+      "full": "{word} · 弹匣已满：请先开火",
+      "empty": "未装填：请先完成一个单词",
+      "cleared": "卡壳已清除",
+      "intercepted": "导弹 {word} 被击落",
+      "repaired": "{word} · 修复了 {healed}",
+      "bomb": "炸弹！",
+      "bomb_not_ready": "炸弹尚未充能",
+      "gatling": "快速开火 · {word}",
+      "shield_absorb": "护盾吸收了 {source} 击中！"
+    },
+    "powerup_help": {
+      "double": "每发子弹开火两次",
+      "gatling": "每个字母发射能量束",
+      "shield": "为你承受几次击中",
+      "automaton": "开火为最严重的威胁选择最佳子弹",
+      "homing": "发射的单词向敌人转向"
+    },
+    "powerup_label": {
+      "double": "双重",
+      "gatling": "加特林",
+      "shield": "护盾",
+      "automaton": "自动机",
+      "homing": "追踪"
+    }
+  },
+  "castle_notes": {
+    "solid": "坚固",
+    "patched": "修补过",
+    "cracked": "开裂",
+    "mortar": "砂浆",
+    "rubble": "废墟",
+    "stockpile_full": "储备已满",
+    "no_bricks_yet": "尚无砖块",
+    "already_solid": "已经坚固",
+    "wrong_kind_of_brick": "砖块类型错误",
+    "nobody_to_drop_it_on": "无人可丢",
+    "two_are_running_already": "已经有两个在运行",
+    "nothing_stored_there": "那里没有储存任何东西"
+  }
+}
