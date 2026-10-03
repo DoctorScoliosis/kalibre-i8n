@@ -7,9 +7,9 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "community",
-  "revision": 5,
+  "revision": 6,
   "version": "2026-10-03",
-  "changes": "100% complete fr-FR coverage: profile menu, backup/storage, results, learn and stats headings",
+  "changes": "Filled current Feed, Castle, Space and Spot gaps against kalibre-kanary",
   "files": {
     "about.json": "348f165153339f51874df1046a48bfb5e7161f5d553b17d7ca93dde10a3687eb",
     "achievements.json": "840e6ca69f48755cc551d7a7c485e532350e805962e35012bb3d6a3fcc6a044e",
@@ -37,6 +37,7 @@
     "themes.json": "15e656b8a2d1d4a521168cbba8f2c77994dbfe85f945cba932ef6348d4b41897",
     "typing.json": "3e791c33dc18a138c2250822b745ab768a67fc3c4a6a8895dd59fdf00f48a803",
     "wardrobe.json": "84e1e965fa501bc0cdb532dcb60b27998ca271b544821783b754667daf9b21e5",
-    "words.json": "3e008ee7780973e7ba365e9bd868e517c2823bab4c7d678b933cdf9d5d9bc5b5"
+    "words.json": "3e008ee7780973e7ba365e9bd868e517c2823bab4c7d678b933cdf9d5d9bc5b5",
+    "games": "dee2d1a5261ac4b165c94a7a9156216a4c21fdc6ba280d5fa29947b16b29d7e6"
   }
 }
