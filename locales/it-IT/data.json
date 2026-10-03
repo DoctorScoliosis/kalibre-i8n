@@ -1,0 +1,52 @@
+{
+  "storage": {
+    "heading": "archiviazione",
+    "persistent": "Il browser conserva i dati di kalibre finché non li elimini tu.",
+    "best_effort": "Il browser potrebbe eliminare i dati di kalibre se lo spazio sul disco si riduce.",
+    "unsupported": "Questo browser non può garantire di conservare i dati di kalibre, quindi fai un backup.",
+    "keep_my_data": "conserva i miei dati"
+  },
+  "backup": {
+    "automatic_heading": "backup automatico",
+    "choose_folder": "scegli una cartella",
+    "back_up_now": "fai il backup ora",
+    "change_folder": "cambia cartella",
+    "stop": "ferma",
+    "restore": "ripristina",
+    "manual_heading": "backup manuale",
+    "export_profile": "esporta questo profilo",
+    "share_profile": "condividi questo profilo",
+    "exported_summary": "esportati {sessions} test, {mistakes} errori e {texts} testi{destination}",
+    "saved_to": " in {destination}",
+    "last_backup_time": "ultimo backup {when}",
+    "not_backed_up_yet": "nessun backup ancora",
+    "problem_permission": " Il browser ha bisogno di una nuova autorizzazione prima di poter scrivere lì.",
+    "problem_conflict": " La cartella contiene una copia più recente di “{name}”, salvata da un altro browser il {when}, quindi non è stata sovrascritta. Ripristina quella copia oppure salva questa al suo posto.",
+    "problem_last_error": " L'ultimo backup non è riuscito: {error}",
+    "restore_folder": "ripristina da una cartella kalibre",
+    "update_copies": "copie precedenti agli aggiornamenti",
+    "restore_warning": "questo sostituirà con quella copia tutto ciò che kalibre conserva in questo browser. sicuro?",
+    "confirm_restore": "sì, ripristinala",
+    "cancel": "annulla"
+  },
+  "guest": {
+    "banner_title": "Stai provando Kalibre come ospite.",
+    "banner_body": "I tuoi test, errori, statistiche e XP vengono conservati in questo browser, ma non salvati in un backup, e il profilo non può essere bloccato. Salva i tuoi progressi per conservarli come profilo personale.",
+    "save_progress": "salva i miei progressi",
+    "ephemeral_warning": "sessione ospite: questo browser non conserva nulla, quindi alla chiusura della finestra non viene salvato niente. per conservare ciò che fai, scarica il tuo profilo e caricalo in una finestra normale.",
+    "download_profile": "scarica il mio profilo",
+    "name_profile": "dai un nome al tuo profilo",
+    "nickname_placeholder": "un soprannome",
+    "save": "salva"
+  },
+  "progress": {
+    "backing_up": "backup in corso",
+    "preparing_export": "preparazione dell'esportazione",
+    "saving": "salvataggio",
+    "phase_packing": "impacchettamento",
+    "phase_compressing": "compressione",
+    "job_status": "{job} · {phase} {percent}%",
+    "saved": "salvato",
+    "couldnt_save": "impossibile salvare (vedi impostazioni → dati)"
+  }
+}
