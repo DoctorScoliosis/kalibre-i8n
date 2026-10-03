@@ -109,7 +109,11 @@
     "it_should_be": "it should be “{original}” · {errorTitle}",
     "repairing": "{title} · fix it in place (← → move) and press enter",
     "repairing_retry": " · one more try",
-    "repairing_cancel": " · esc to cancel"
+    "repairing_cancel": " · esc to cancel",
+    "lives": "{count}/{max} lives",
+    "streak": "streak {count}",
+    "combo": "combo ×{multiplier}",
+    "escaped": "{word} scrolled past"
   },
   "ui": {
     "pause": "pause",
@@ -1030,6 +1034,12 @@
               },
               "endless": {
                 "label": "endless"
+              },
+              "marathon": {
+                "label": "marathon"
+              },
+              "scroller": {
+                "label": "scroller"
               }
             }
           },
@@ -1107,6 +1117,14 @@
               "false-flag": {
                 "label": "false flags",
                 "summary": "flagging a correct word costs points and (in endless mode) time."
+              },
+              "marathon": {
+                "label": "marathon endurance",
+                "summary": "start with 3 lives. false flags and failed repairs cost a life; clearing 3 passages cleanly restores one."
+              },
+              "scroller": {
+                "label": "scroller conveyor",
+                "summary": "passages continuously scroll past on a conveyor belt. catch mistakes before they scroll off screen."
               }
             },
             "controls": {
@@ -1123,6 +1141,12 @@
             "subDemos": {
               "i0": {
                 "label": "passage scan"
+              },
+              "i1": {
+                "label": "marathon endurance"
+              },
+              "i2": {
+                "label": "scroller conveyor"
               }
             },
             "visuals": {
@@ -1134,6 +1158,12 @@
               },
               "false-flag-penalty": {
                 "label": "false flag penalty"
+              },
+              "marathon-lives": {
+                "label": "marathon lives"
+              },
+              "scroller-belt": {
+                "label": "scroller conveyor belt"
               }
             }
           },
