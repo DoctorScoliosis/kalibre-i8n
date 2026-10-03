@@ -37,10 +37,10 @@
     "import_folder": "importa una cartella"
   },
   "status": {
-    "saved": "salvato "{title}"",
-    "updated": "aggiornato "{title}"",
-    "imported": "importato "{title}"",
-    "deleted": "eliminato "{title}"",
+    "saved": "salvato \"{title}\"",
+    "updated": "aggiornato \"{title}\"",
+    "imported": "importato \"{title}\"",
+    "deleted": "eliminato \"{title}\"",
     "no_folder_files": "nessun file .txt o .md in quella cartella",
     "empty": "Non ci sono ancora testi salvati. Incolla qualcosa su cui vuoi esercitarti o importa un file .txt. I testi restano su questo dispositivo."
   },
