@@ -169,6 +169,6 @@
     "now": "nu: {title}{by}"
   },
   "text_providers": {
-    "unknown_practice_source": "Onbekende oefenbron "{source}""
+    "unknown_practice_source": "Onbekende oefenbron \"{source}\""
   }
 }
