@@ -211,10 +211,59 @@ jobs:
           )
           (DST / ".gitkeep").unlink(missing_ok=True)
 
-      - name: Rebuild packs and validate
+      - name: Rebuild packs and validate German
         run: |
           node scripts/build-packs.mjs
-          node scripts/check-i18n.mjs
+          node --input-type=module <<'NODE'
+          import crypto from "node:crypto";
+          import fs from "node:fs";
+          import path from "node:path";
+          import { validateCanonical, validateTranslation } from "./scripts/lib/integrity.mjs";
+
+          const loadLocale = (dir) => {
+            const files = {};
+            for (const file of fs.readdirSync(dir)) {
+              if (file.endsWith(".json")) {
+                files[file.replace(/\.json$/, "")] = JSON.parse(
+                  fs.readFileSync(path.join(dir, file), "utf8")
+                );
+              }
+            }
+            return files;
+          };
+
+          const canonical = validateCanonical(loadLocale("locales/en-GB"));
+          if (canonical.errors.length) {
+            console.error("Canonical en-GB validation failed:");
+            console.error(canonical.errors.join("\n"));
+            process.exit(1);
+          }
+
+          const german = loadLocale("locales/de-DE");
+          const result = validateTranslation(canonical.messages, german, "de-DE");
+          if (result.errors.length) {
+            console.error("German validation failed:");
+            console.error(result.errors.join("\n"));
+            process.exit(1);
+          }
+
+          const index = JSON.parse(fs.readFileSync("index.json", "utf8"));
+          const entry = index.locales.find((locale) => locale.id === "de-DE");
+          if (!entry) {
+            console.error("German locale is missing from index.json");
+            process.exit(1);
+          }
+
+          const pack = fs.readFileSync(entry.pack, "utf8");
+          const hash = crypto.createHash("sha256").update(pack).digest("hex");
+          if (hash !== entry.sha256) {
+            console.error("German pack hash does not match index.json");
+            process.exit(1);
+          }
+
+          console.log(`de-DE validation passed: ${result.messages.size}/${canonical.messages.size} messages valid`);
+          console.log("German pack checksum matches index.json");
+          NODE
 
       - name: Commit German candidate
         run: |
