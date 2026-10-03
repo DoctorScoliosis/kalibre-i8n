@@ -15,7 +15,7 @@
     "sans-serif"
   ],
   "reviewed": "machine",
-  "revision": 1,
+  "revision": 2,
   "version": "2026-10-03",
-  "changes": "Initial Italian candidate translation"
+  "changes": "Filled current physical-serving gaps against kalibre-kanary"
 }
