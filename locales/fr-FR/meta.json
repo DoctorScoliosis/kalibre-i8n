@@ -5,8 +5,8 @@
   "dir": "ltr",
   "fallback": "en-GB",
   "lowercaseDates": true,
-  "reviewed": "machine",
-  "revision": 3,
-  "version": "2026-10-02",
-  "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording"
+  "reviewed": "community",
+  "revision": 4,
+  "version": "2026-10-03",
+  "changes": "Complete fr-FR translations and plurals for supplement coverage pass"
 }

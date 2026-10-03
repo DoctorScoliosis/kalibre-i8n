@@ -16,8 +16,8 @@
     "sections_aria": "sections textes",
     "subfolders_too": " sous-dossiers aussi",
     "drop_hint": "ou déposez des fichiers ici",
-    "words_count": "{count, plural, one {# mot} other {# mots}}",
-    "paragraphs_count": "{count, plural, one {# paragraphe} other {# paragraphes}}"
+    "words_count": "{count, plural, one {# mot} many {# mots} other {# mots}}",
+    "paragraphs_count": "{count, plural, one {# paragraphe} many {# paragraphes} other {# paragraphes}}"
   },
   "actions": {
     "save": "enregistrer",

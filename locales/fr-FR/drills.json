@@ -23,7 +23,7 @@
     "drill_length": "longueur de l'exercice",
     "quote_length": "longueur de la citation",
     "practise_by_area": "s'entraîner par zone",
-    "words_count": "{count, plural, one {# mot} other {# mots}}",
+    "words_count": "{count, plural, one {# mot} many {# mots} other {# mots}}",
     "ticked_count": "{selected} sur {total} cochés",
     "in_training": "en entraînement",
     "ready_to_drill": "prêt à s'exercer",

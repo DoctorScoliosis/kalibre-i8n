@@ -27,14 +27,14 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 3,
-      "version": "2026-10-02",
-      "reviewed": "machine",
-      "changes": "Removed obsolete quest sentence keys",
+      "revision": 4,
+      "version": "2026-10-03",
+      "reviewed": "community",
+      "changes": "Complete fr-FR translations and plurals for supplement coverage pass",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "abdebdf610fad84d4cd0c388107226714decc9859a3c65e51dfe2ba7a7a3257b",
-      "bytes": 103800
+      "sha256": "9bfabb119db3237b3297a897613075afc84d87a70882d903ea337f60909517c2",
+      "bytes": 322458
     },
     {
       "id": "zh-CN",

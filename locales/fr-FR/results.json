@@ -12,7 +12,7 @@
   },
   "candidate": {
     "prompt_label": "suggestion d'entraînement",
-    "body": "Vous tapez souvent {word} · {count, plural, one {# fois} other {# fois}} sur {sessions, plural, one {# session} other {# sessions}}.",
+    "body": "Vous tapez souvent {word} · {count, plural, one {# fois} many {# fois} other {# fois}} sur {sessions, plural, one {# session} many {# sessions} other {# sessions}}.",
     "train": "entraîner",
     "dismiss": "ignorer",
     "later": "plus tard",
@@ -79,11 +79,11 @@
     "book_range": " {start} → {end}",
     "the_end": "la fin",
     "book_words": " · {count} mots",
-    "overdeleted": "vous avez supprimé {count, plural, one {# caractère correct} other {# caractères corrects}} au-delà de l'erreur",
+    "overdeleted": "vous avez supprimé {count, plural, one {# caractère correct} many {# caractères corrects} other {# caractères corrects}} au-delà de l'erreur",
     "overdeleted_cost": ", environ {cost} mots/min",
     "mistake_line": "{errors} dans {exposures}{share} · avant {before}",
     "summary_line": "brut {raw} · {spread} · {duration}",
-    "practice_words": " · {count, plural, one {# mot de pratique} other {# mots de pratique}}",
-    "letters_to_cover": " · {count, plural, one {# lettre} other {# lettres}} restent à couvrir"
+    "practice_words": " · {count, plural, one {# mot de pratique} many {# mots de pratique} other {# mots de pratique}}",
+    "letters_to_cover": " · {count, plural, one {# lettre} many {# lettres} other {# lettres}} restent à couvrir"
   }
 }

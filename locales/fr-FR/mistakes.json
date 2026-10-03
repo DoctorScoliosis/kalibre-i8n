@@ -89,12 +89,12 @@
     "kind_of_mistake": "type d'erreur",
     "all_kinds": "tous les types",
     "keyboard_layout": "disposition du clavier",
-    "sessions_count": "{count, plural, one {# session} other {# sessions}}",
+    "sessions_count": "{count, plural, one {# session} many {# sessions} other {# sessions}}",
     "corrected_count": "{count} corrigées",
     "pager_aria": "pages du tableau des erreurs",
     "no_qualifiers_mistakes": "Aucune erreur {qualifiers}{inSection, select, true { dans {section}} other {}} pour l'instant.",
     "no_in_section": "Aucune erreur dans {section} pour l'instant.",
-    "training_words_note": "{count, plural, one {# mot} other {# mots}} avec des erreurs cohérentes en entraînement."
+    "training_words_note": "{count, plural, one {# mot} many {# mots} other {# mots}} avec des erreurs cohérentes en entraînement."
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label} erreurs — cliquez pour isoler",
@@ -108,10 +108,10 @@
     "words_and_spaces": "mots et espaces",
     "no_tests_yet": "aucun test pour l'instant",
     "rate_one_test": "taux d'erreur {rate} en un test",
-    "rate_over_tests": "taux d'erreur {from} → {to} sur {count, plural, one {# test} other {# tests}}",
+    "rate_over_tests": "taux d'erreur {from} → {to} sur {count, plural, one {# test} many {# tests} other {# tests}}",
     "mark_label": "{mistake} : {rate} du temps",
     "started_at": "{summary} · entraînement commencé à {rate}",
-    "keyboard_label": "Clavier avec {count, plural, one {# erreur} other {# erreurs}} dessinées dessus. La liste ci-dessous contient les mêmes erreurs."
+    "keyboard_label": "Clavier avec {count, plural, one {# erreur} many {# erreurs} other {# erreurs}} dessinées dessus. La liste ci-dessous contient les mêmes erreurs."
   },
   "mistakes": {
     "actions": "actions",

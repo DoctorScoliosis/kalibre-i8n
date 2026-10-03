@@ -36,7 +36,7 @@
     "words": "mots",
     "characters": "caractères",
     "averages_note": "les moyennes et les meilleurs n'utilisent que les tests terminés{notCounted, select, true { ; les tests avec tapotement aléatoire ne sont pas comptés} other {}}",
-    "chart_heading": "{scope, select, all {tous} other {derniers}} {count} {count, plural, one {test} other {tests}} · mots/min",
+    "chart_heading": "{scope, select, all {tous} other {derniers}} {count} {count, plural, one {test} many {tests} other {tests}} · mots/min",
     "chart_window_aria": "combien de tests à afficher dans le graphique",
     "by_characters": "par caractères"
   },
@@ -47,11 +47,11 @@
   },
   "periods": {
     "no_tests": "aucun test",
-    "tests_count": "{count, plural, one {# test} other {# tests}}",
+    "tests_count": "{count, plural, one {# test} many {# tests} other {# tests}}",
     "best_accuracy": "meilleure {best} · {accuracy}%",
     "daily_goal": "objectif quotidien : {target}",
     "today": " · aujourd'hui {amount}{met, select, true { ✓} other {}}",
-    "streak": " · série {count, plural, one {# jour} other {# jours}}",
+    "streak": " · série {count, plural, one {# jour} many {# jours} other {# jours}}",
     "no_daily_goal": "Aucun objectif quotidien. ",
     "set_one": "en définir un",
     "time_typed_per_day": "temps de frappe par jour · 30 derniers jours",
@@ -62,7 +62,7 @@
   },
   "games": {
     "no_games": "aucun jeu joué pour l'instant. Les jeux sont sous jeux dans le menu.",
-    "runs_count": "{count, plural, one {# partie} other {# parties}}",
+    "runs_count": "{count, plural, one {# partie} many {# parties} other {# parties}}",
     "last": "dernière {date}",
     "best_run": "meilleure partie : {summary}",
     "bests_note": "les meilleurs comptent les parties selon les règles actuelles de chaque jeu",
@@ -70,13 +70,7 @@
     "recent_runs": "parties récentes",
     "old_rules": "{game} (anciennes règles)",
     "runs": "parties",
-    "time_played": "temps joué",
-    "recent_runs": "parties récentes",
-    "ten_key_tests": "tests de pavé numérique",
-    "fastest": "le plus rapide",
-    "lessons_mastered": "leçons maîtrisées",
-    "sums_right": "calculs justes",
-    "time_on_pad": "temps sur le pavé"
+    "time_played": "temps joué"
   },
   "numpad": {
     "no_runs": "aucune session de pavé numérique pour l'instant. Elles sont sur la page du pavé numérique dans apprendre.",
@@ -161,7 +155,7 @@
   },
   "overview_pane": {
     "recent_tests": "tests récents",
-    "group_stats": "{wpm} mots/min · {accuracy}% · {count, plural, one {# test} other {# tests}}"
+    "group_stats": "{wpm} mots/min · {accuracy}% · {count, plural, one {# test} many {# tests} other {# tests}}"
   },
   "periods_pane": {
     "wpm": " mots/min"
@@ -176,7 +170,7 @@
     "keyboard_coloured_by_how_often": "Clavier coloré selon la fréquence à laquelle chaque touche est tapée correctement du premier coup. Le tableau ci-dessous liste les mêmes valeurs.",
     "use_the_left_and_right": "{label}. Utilisez les touches fléchées gauche et droite pour lire chaque jour.",
     "no_typing": "aucune frappe",
-    "day_tests": "{count, plural, one {# test} other {# tests}}",
+    "day_tests": "{count, plural, one {# test} many {# tests} other {# tests}}",
     "day_wpm": " · {wpm} mots/min"
   },
   "stats": {

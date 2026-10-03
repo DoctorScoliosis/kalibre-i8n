@@ -280,7 +280,7 @@
     "item_locked_aria": "{name}, verrouillé : {hint}",
     "remove_all": "supprimer tous les cosmétiques",
     "news_new_item": "un nouveau {name}",
-    "news_new_items": "{count, plural, one {une nouvelle chose} other {# nouvelles choses}}",
+    "news_new_items": "{count, plural, one {une nouvelle chose} many {# nouvelles choses} other {# nouvelles choses}}",
     "news_earned": "oh, vous avez gagné {what} pour ma garde-robe !",
     "try_it_on": "essayez-le",
     "status_worn": "{name} : {state}",

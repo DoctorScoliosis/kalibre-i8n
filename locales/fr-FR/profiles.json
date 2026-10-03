@@ -29,8 +29,8 @@
     "open_it": "l'ouvrir"
   },
   "restore": {
-    "in_folder": "dans \u201c{name}\u201d : ",
-    "open_profile": "ouvrir \u201c{name}\u201d"
+    "in_folder": "dans “{name}” : ",
+    "open_profile": "ouvrir “{name}”"
   },
   "folder_restore": {
     "pick_the_folder_kalibre_saved": "choisissez le dossier où kalibre a sauvegardé. il contient un fichier kalibre.json (les anciennes sauvegardes sont simplement des fichiers .kalibre-profile, qui fonctionnent aussi).",
@@ -44,7 +44,7 @@
     "restoring_of": "restauration… {done} sur {total}",
     "restored": "restauré {join}.",
     "nothing_was_restored": "rien n'a été restauré.",
-    "things_saved": "{count, plural, one {# chose} other {# choses}} sauvegardées par kalibre.",
+    "things_saved": "{count, plural, one {# chose} many {# choses} other {# choses}} sauvegardées par kalibre.",
     "title": "restaurer depuis un dossier kalibre",
     "that_doesn_t_look_like": "Ce dossier ne ressemble pas à un dossier kalibre : il n'y a pas de kalibre.json dedans, ni de sauvegardes de profil.",
     "the_folder_s_kalibre_json": "Le fichier kalibre.json du dossier est endommagé, donc il ne peut pas être lu. Ses fichiers peuvent toujours être importés un par un.",
@@ -124,7 +124,7 @@
     "a_password_or_passkey_keeps": "Un mot de passe ou une clé d'accès empêche les autres personnes utilisant ce navigateur d'accéder aux écrans de Kalibre. Cela ne chiffrera pas ce qui est stocké dans le navigateur.",
     "rerun_setup": "relancer la configuration",
     "an_export_is_a_compressed": "Une exportation est un fichier .kalibre-profile compressé contenant l'historique de ce profil. Son mot de passe et ses clés d'accès l'accompagnent en tant que verrous, mais compressé n'est pas chiffré, donc conservez-le dans un endroit privé.",
-    "removes_passkeys": "Cela supprimera également {count, plural, one {sa clé d'accès} other {ses # clés d'accès}}.",
+    "removes_passkeys": "Cela supprimera également {count, plural, one {sa clé d'accès} many {ses # clés d'accès} other {ses # clés d'accès}}.",
     "current_password": "mot de passe actuel",
     "new_password": "nouveau mot de passe ({MIN_PASSWORD_LENGTH}+)",
     "repeat_it": "répétez-le",
@@ -156,7 +156,7 @@
     "progress": "{current} sur {total}",
     "progress_keys": " · entrée pour continuer · échap pour ignorer",
     "keep_an_automatic_backup_in": "garder une sauvegarde automatique dans un dossier sur cet ordinateur ? (le navigateur peut effacer son propre stockage)",
-    "save_a_backup_of_this": "enregistrer une sauvegarde de ce profil dans \u201c{name}\u201d maintenant ?",
+    "save_a_backup_of_this": "enregistrer une sauvegarde de ce profil dans “{name}” maintenant ?",
     "who_ll_guide_your_touch": "qui guidera vos leçons de frappe sans regarder ?",
     "new_here_or_been_here": "nouveau ici, ou déjà venu ?",
     "kalibre_works_better_with_a": "kalibre fonctionne mieux avec un clavier",

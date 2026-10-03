@@ -7,7 +7,7 @@
     "filter_on": "filtre activé",
     "filter_off": "filtre désactivé",
     "placeholder": "un par ligne, ou séparés par des virgules ; terminez par * pour tous les mots commençant par cela",
-    "filtered_count": "{count, plural, one {# mot} other {# mots}} de vos propres mots filtrés",
+    "filtered_count": "{count, plural, one {# mot} many {# mots} other {# mots}} de vos propres mots filtrés",
     "no_words": "aucun mot à vous",
     "heading": "mots offensants",
     "toggle_label": "filtrer les mots offensants",

@@ -31,10 +31,10 @@
     "downloaded": "{status, select, update {mis à jour} other {téléchargé}} \"{name}\". Il est activé et fonctionne hors ligne maintenant.",
     "download_failed": "impossible de télécharger \"{name}\" : {error}",
     "licence": "licence : {licence}",
-    "version_passages": "version {version} · {count, plural, one {# passage} other {# passages}}",
+    "version_passages": "version {version} · {count, plural, one {# passage} many {# passages} other {# passages}}",
     "library_from": "depuis {name}",
     "library_remove": "supprimer la bibliothèque {name}",
-    "library_added": "ajouté {name} : {count, plural, one {# jeu de données} other {# jeux de données}}.",
+    "library_added": "ajouté {name} : {count, plural, one {# jeu de données} many {# jeux de données} other {# jeux de données}}.",
     "not_reachable": "inaccessible"
   },
   "install": {

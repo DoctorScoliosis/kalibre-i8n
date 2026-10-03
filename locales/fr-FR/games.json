@@ -309,14 +309,6 @@
               }
             },
             "mechanics": {
-              "requests": {
-                "label": "demandes",
-                "summary": "la créature demande des mots avec des propriétés spécifiques."
-              },
-              "matching": {
-                "label": "correspondance",
-                "summary": "les mots qui correspondent aux demandes restaurent plus de temps."
-              },
               "hint": {
                 "label": "indice du ventre",
                 "summary": "après une inactivité ou deux erreurs, un mot valide apparaît faiblement sur la créature."
@@ -337,12 +329,6 @@
               }
             },
             "visuals": {
-              "creature": {
-                "label": "créature"
-              },
-              "request": {
-                "label": "demande"
-              },
               "belly-hint": {
                 "label": "indice du ventre (moitié du temps)"
               },
@@ -369,12 +355,6 @@
               }
             },
             "visuals": {
-              "creature": {
-                "label": "créature"
-              },
-              "hunger": {
-                "label": "faim"
-              },
               "fast-patience": {
                 "label": "faim accélérée"
               },
@@ -398,21 +378,9 @@
               "si un mot ne correspond à aucune demande, il est gaspillé."
             ],
             "mechanics": {
-              "guests": {
-                "label": "invités",
-                "summary": "plusieurs invités avec différentes demandes."
-              },
               "orders": {
                 "label": "commandes",
                 "summary": "chaque invité a des types de mots qu'il veut."
-              },
-              "serving": {
-                "label": "service",
-                "summary": "les mots servis sont distribués aux invités."
-              },
-              "waste": {
-                "label": "gaspillage",
-                "summary": "les mots qui ne correspondent à aucune demande sont gaspillés."
               },
               "satisfaction": {
                 "label": "satisfaction",
@@ -433,15 +401,6 @@
               }
             },
             "visuals": {
-              "table": {
-                "label": "table"
-              },
-              "guest": {
-                "label": "invité"
-              },
-              "order": {
-                "label": "commande"
-              },
               "buffet-table": {
                 "label": "table de service"
               },
@@ -486,18 +445,6 @@
               }
             },
             "mechanics": {
-              "bricks": {
-                "label": "briques",
-                "summary": "construisez avec des mots transformés en briques."
-              },
-              "strength": {
-                "label": "force",
-                "summary": "chaque lettre vaut 1 point, +1 pour K V W Y, +2 pour J Q X Z."
-              },
-              "storage": {
-                "label": "stockage",
-                "summary": "stockez jusqu'à 9 briques à la fois."
-              },
               "cursor": {
                 "label": "visée",
                 "summary": "le curseur montre où la prochaine brique ira. déplacez-le avec les flèches ou cliquez sur une section."
@@ -523,15 +470,6 @@
               }
             },
             "visuals": {
-              "brick": {
-                "label": "brique"
-              },
-              "wall": {
-                "label": "mur"
-              },
-              "stockpile": {
-                "label": "stock"
-              },
               "brick-cracked": {
                 "label": "brique fissurée"
               },
@@ -566,14 +504,6 @@
                 "label": "intégrité",
                 "summary": "la santé de chaque section. à 0, la section est détruite."
               },
-              "damage": {
-                "label": "dégâts",
-                "summary": "les attaquants infligent des dégâts aux sections."
-              },
-              "repair": {
-                "label": "réparation",
-                "summary": "poser des briques répare les dégâts."
-              },
               "waves": {
                 "label": "vagues",
                 "summary": "des groupes d'attaquants qui arrivent par vagues."
@@ -588,18 +518,6 @@
               }
             },
             "visuals": {
-              "section": {
-                "label": "section"
-              },
-              "damage": {
-                "label": "dégâts"
-              },
-              "critical": {
-                "label": "critique"
-              },
-              "gate": {
-                "label": "porte"
-              },
               "curtain-wall": {
                 "label": "mur d'enceinte"
               },
@@ -627,31 +545,10 @@
               "les catapultes sont hors de portée directe.",
               "utilisez le mortier pour infliger des dégâts de zone."
             ],
-            "notes": {
-              "prompted": {
-                "text": "en mode spécial, seuls certains types de briques fonctionnent contre certains ennemis."
-              }
-            },
             "mechanics": {
-              "dropping": {
-                "label": "lâcher",
-                "summary": "lâchez des briques sur les ennemis pour les écraser."
-              },
-              "damage": {
-                "label": "dégâts",
-                "summary": "la force de la brique détermine les dégâts infligés."
-              },
               "stun": {
                 "label": "étourdissement",
                 "summary": "certaines briques peuvent étourdir les ennemis."
-              },
-              "catapults": {
-                "label": "catapultes",
-                "summary": "tirent des projectiles à distance. doivent être ciblées avec des briques spéciales."
-              },
-              "mortar": {
-                "label": "mortier",
-                "summary": "inflige des dégâts de zone aux ennemis proches."
               },
               "brute": {
                 "label": "brute",
@@ -684,18 +581,6 @@
               }
             },
             "visuals": {
-              "foe": {
-                "label": "ennemi"
-              },
-              "brick-drop": {
-                "label": "chute de brique"
-              },
-              "mortar-shot": {
-                "label": "tir de mortier"
-              },
-              "catapult": {
-                "label": "catapulte"
-              },
               "boulder-arc": {
                 "label": "arc de rocher"
               },
@@ -720,8 +605,7 @@
             ],
             "details": [
               "jusqu'à trois bonus peuvent être stockés. deux peuvent être actifs à la fois.",
-              "le mortier fait que les lâchers de brique frappent plus fort. le maçon fait que les briques posées comptent une fois et demie plus.",
-              "l'huile étourdit tous les attaquants sur le champ. la réparation répare la porte ou le donjon le plus faible."
+              "le mortier fait que les lâchers de brique frappent plus fort. le maçon fait que les briques posées comptent une fois et demie plus."
             ],
             "mechanics": {
               "mortar": {
@@ -1315,16 +1199,10 @@
     "import": "importer",
     "delete_s_ghost": "supprimer le fantôme de {name}",
     "include_my_card": "inclure ma carte",
-    "from_folder": "depuis votre dossier Kalibre",
-    "drop_hint": "ou déposez-en un sur la page",
-    "import_file": "importer un fichier fantôme",
-    "delete": "supprimer",
-    "delete_aria": "supprimer le fantôme {name}",
-    "drop_ghost_file": "déposer un fichier fantôme ici pour l'importer",
     "name_on_the_file": "nom sur le fichier",
     "no_saved_ghosts_yet_save": "aucun fantôme enregistré pour l'instant. enregistrez-en un depuis les résultats d'un test, un replay, ou votre historique.",
     "race_anyway": "courir quand même",
-    "save": "{count, plural, one {enregistrer le fantôme} other {enregistrer # fantômes}}",
+    "save": "{count, plural, one {enregistrer le fantôme} many {enregistrer # fantômes} other {enregistrer # fantômes}}",
     "saved_to": "enregistré dans {savedTo}",
     "share": "partager",
     "your_text_goes_in_the": "votre texte va dans le fichier."
