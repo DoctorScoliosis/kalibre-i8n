@@ -1,0 +1,52 @@
+{
+  "storage": {
+    "heading": "opslag",
+    "persistent": "De browser bewaart de gegevens van kalibre totdat je ze zelf wist.",
+    "best_effort": "De browser kan de gegevens van kalibre wissen als de schijfruimte bijna op is.",
+    "unsupported": "Deze browser kan niet beloven de gegevens van kalibre te bewaren, dus houd een back-up bij.",
+    "keep_my_data": "mijn gegevens bewaren"
+  },
+  "backup": {
+    "automatic_heading": "automatische back-up",
+    "choose_folder": "map kiezen",
+    "back_up_now": "nu back-uppen",
+    "change_folder": "map wijzigen",
+    "stop": "stoppen",
+    "restore": "herstellen",
+    "manual_heading": "handmatig back-uppen",
+    "export_profile": "dit profiel exporteren",
+    "share_profile": "dit profiel delen",
+    "exported_summary": "{sessions} tests, {mistakes} fouten en {texts} teksten geëxporteerd{destination}",
+    "saved_to": " naar {destination}",
+    "last_backup_time": "laatste back-up {when}",
+    "not_backed_up_yet": "nog geen back-up gemaakt",
+    "problem_permission": " De browser heeft opnieuw jouw toestemming nodig voordat hij daar kan schrijven.",
+    "problem_conflict": " De map bevat een nieuwere kopie van “{name}”, opgeslagen vanuit een andere browser op {when}, dus die is niet overschreven. Herstel die kopie of sla deze eroverheen.",
+    "problem_last_error": " De laatste back-up is mislukt: {error}",
+    "restore_folder": "herstellen uit een kalibre-map",
+    "update_copies": "kopieën van vóór updates",
+    "restore_warning": "dit vervangt alles wat kalibre in deze browser bewaart door die kopie. zeker weten?",
+    "confirm_restore": "ja, zet het terug",
+    "cancel": "annuleren"
+  },
+  "guest": {
+    "banner_title": "Je probeert Kalibre als gast.",
+    "banner_body": "Je tests, fouten, statistieken en XP worden in deze browser bewaard, maar niet geback-upt, en het profiel kan niet worden vergrendeld. Sla je voortgang op om er je eigen profiel van te maken.",
+    "save_progress": "mijn voortgang opslaan",
+    "ephemeral_warning": "gastsessie: deze browser bewaart niets, dus er wordt niets opgeslagen wanneer dit venster sluit. om te bewaren wat je doet, download je profiel en laad het in een normaal venster.",
+    "download_profile": "mijn profiel downloaden",
+    "name_profile": "je profiel een naam geven",
+    "nickname_placeholder": "een bijnaam",
+    "save": "opslaan"
+  },
+  "progress": {
+    "backing_up": "back-up maken",
+    "preparing_export": "export voorbereiden",
+    "saving": "opslaan",
+    "phase_packing": "inpakken",
+    "phase_compressing": "comprimeren",
+    "job_status": "{job} · {phase} {percent}%",
+    "saved": "opgeslagen",
+    "couldnt_save": "kon niet opslaan (zie instellingen → gegevens)"
+  }
+}
