@@ -13,7 +13,23 @@
     "fed_hinted": " (il suggerimento: metà tempo)",
     "fed_yum": " · gnam",
     "typo": "−{seconds}s · un refuso",
-    "typo_meant": " ({meant}?)"
+    "typo_meant": " ({meant}?)",
+    "serving_tray_label": "vassoio di servizio",
+    "serving_tray_help": "fai clic sul cucchiaio per prenderlo e trascinalo fino alla creatura",
+    "serving_tray_empty": "digita una parola per caricare il cucchiaio",
+    "serving_tray_count": "vassoio {count}/{capacity}",
+    "serving_tray_full_state": "vassoio pieno · servi prima",
+    "serving_queued": "{text} in coda · vassoio {count}/{capacity}",
+    "serving_tray_full": "il vassoio è pieno — servi prima",
+    "serving_wasted": " · −{seconds}s · {count, plural, one {1 parola sprecata} other {# parole sprecate}}",
+    "serving_served": "servito · {matched}/{total} corrispondenti",
+    "serving_nothing_matched": "nessuna corrispondenza — tempo perso",
+    "prepared": "{text} preparato",
+    "cancelled": "cibo annullato",
+    "carrying": "porta il cibo alla creatura",
+    "spoon_pickup": "fai clic e trascina per servire",
+    "no_match": "nessun piatto corrisponde a questo ospite",
+    "returned": "vassoio restituito alla postazione"
   },
   "castle": {
     "title": "castello",
@@ -434,6 +450,53 @@
               },
               "satisfaction-floor": {
                 "label": "soglia di soddisfazione"
+              }
+            }
+          },
+          "serving": {
+            "label": "servizio fisico",
+            "group": "per iniziare",
+            "summary": "carica le parole sul cucchiaio e portale fisicamente alla creatura per servirle.",
+            "mechanics": {
+              "spoon": {
+                "label": "cucchiaio",
+                "summary": "una parola valida digitata carica il cucchiaio. fai clic e trascina per servire."
+              },
+              "targeting": {
+                "label": "puntamento",
+                "summary": "passa il cursore sulla creatura per evidenziarla, poi rilascia per consegnare il cibo."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "carica il cucchiaio"
+              },
+              "i1": {
+                "action": "porta e servi"
+              },
+              "i2": {
+                "action": "annulla il cibo"
+              }
+            },
+            "visuals": {
+              "loaded-spoon": {
+                "label": "cucchiaio carico"
+              },
+              "creature-highlight": {
+                "label": "bersaglio evidenziato"
+              }
+            }
+          }
+        },
+        "options": {
+          "serving": {
+            "label": "vassoio di servizio",
+            "choices": {
+              "off": {
+                "label": "disattivato"
+              },
+              "on": {
+                "label": "attivato"
               }
             }
           }
