@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "suggested": "suggeriti",
+    "training": "in allenamento",
+    "improving": "in miglioramento",
+    "mastered": "padroneggiati",
+    "dismissed": "ignorati",
+    "watching": "osservati",
+    "overview": "panoramica",
+    "all": "tutti"
+  },
+  "blurbs": {
+    "suggested": "Errori che continuano a ripresentarsi. Allenali oppure ignora quelli che non ti interessano.",
+    "training": "Gli esercizi si concentrano su questi.",
+    "improving": "Il tasso di errore si è dimezzato dall'inizio dell'allenamento.",
+    "mastered": "Sono scesi a un quarto del livello iniziale. Tornano in allenamento se ricompaiono.",
+    "dismissed": "Non vengono suggeriti di nuovo a meno che tu non li ripristini.",
+    "watching": "Visti, ma non abbastanza spesso da essere ancora suggeriti. “allena ora” avvia comunque l'allenamento di uno di essi.",
+    "overview": "Dove sbagliano le tue dita, disegnato sulla tastiera, con le parole e gli spazi accanto. Ogni riga mostra il tasso di errore nei test recenti.",
+    "all": "Ogni errore annotato da Kalibre, qualunque sia il suo stato."
+  },
+  "empty": {
+    "suggested": "Nessun errore qui, per ora. Stai andando bene!",
+    "training": "Nessun errore in allenamento, per ora. Aggiungine alcuni dalla scheda 'suggeriti'.",
+    "improving": "Nessun miglioramento, per ora. Continua ad allenare gli errori in allenamento.",
+    "mastered": "Nessun errore padroneggiato, per ora. L'allenamento richiede tempo: continua così.",
+    "dismissed": "Nessun errore ignorato.",
+    "watching": "Ancora nulla qui. Continua a digitare e emergeranno degli schemi.",
+    "all": "Nessun errore annotato, per ora. Mentre digiti, Kalibre registra qui gli schemi ricorrenti."
+  },
+  "kinds": {
+    "key": "tasto",
+    "shift": "maiusc",
+    "swap": "coppia di lettere",
+    "omit": "mancante",
+    "extra": "extra",
+    "word": "parola",
+    "space": "spazio",
+    "insert": "parola extra",
+    "skip": "parola saltata",
+    "hesitation": "esitazione",
+    "tricky": "parola difficile"
+  },
+  "columns": {
+    "mistake": "errore",
+    "kind": "tipo",
+    "status": "stato",
+    "left_in": "rimasti",
+    "fixed": "corretti",
+    "tests": "test",
+    "trend": "tendenza",
+    "rate": "tasso",
+    "seen": "visto"
+  },
+  "actions": {
+    "train": "allena",
+    "train_aria": "allena {mistake}",
+    "train_now": "allena ora",
+    "train_now_aria": "allena {mistake} ora",
+    "train_again": "allena di nuovo",
+    "train_again_aria": "allena di nuovo {mistake}",
+    "dismiss": "ignora",
+    "dismiss_aria": "ignora {mistake}",
+    "restore": "ripristina",
+    "restore_aria": "ripristina {mistake}",
+    "drill": "esercita",
+    "drill_aria": "esercita {mistake}",
+    "drill_all": "esercita i miei errori in allenamento",
+    "stop": "ferma",
+    "stop_aria": "ferma l'allenamento di {mistake}",
+    "export": "esporta ",
+    "csv": "csv",
+    "json": "json"
+  },
+  "filters": {
+    "all": "tutti",
+    "uncorrected": "non corretti",
+    "corrected": "corretti"
+  },
+  "layouts": {
+    "list": "elenco",
+    "table": "tabella"
+  },
+  "labels": {
+    "by_status": "errori per stato",
+    "show_on_map": "mostra sulla mappa",
+    "show_mistakes": "mostra errori",
+    "show_as": "mostra come",
+    "kind_of_mistake": "tipo di errore",
+    "all_kinds": "tutti i tipi",
+    "keyboard_layout": "layout della tastiera",
+    "sessions_count": "{count, plural, one {# sessione} other {# sessioni}}",
+    "corrected_count": "{count} corretti",
+    "pager_aria": "pagine della tabella degli errori",
+    "no_qualifiers_mistakes": "Nessun errore {qualifiers}{inSection, select, true { in {section}} other {}} ancora.",
+    "no_in_section": "Nessun errore in {section} ancora.",
+    "training_words_note": "{count, plural, one {# parola} other {# parole}} con errori ricorrenti in allenamento."
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "errori {label} – fai clic per isolare",
+    "page": "pagina {value}",
+    "of": "{first}–{last} di {length}",
+    "keyboard_mistakes_pages": "pagine degli errori della tastiera",
+    "nothing_to_draw_on_this": "Non c'è ancora nulla da disegnare su questa tastiera. Qui compaiono gli errori visti più di una volta.",
+    "on_the_keyboard": "sulla tastiera",
+    "none_yet": "Ancora nessuno.",
+    "with_keys_not_on_this": "{unmapped} con tasti non presenti in questo layout",
+    "words_and_spaces": "parole e spazi",
+    "no_tests_yet": "nessun test ancora",
+    "rate_one_test": "tasso di errore {rate} in un test",
+    "rate_over_tests": "tasso di errore {from} → {to} su {count, plural, one {# test} other {# test}}",
+    "mark_label": "{mistake}: {rate} delle volte",
+    "started_at": "{summary} · allenamento iniziato a {rate}",
+    "keyboard_label": "Tastiera con {count, plural, one {# errore} other {# errori}} disegnati sopra. L'elenco qui sotto contiene gli stessi errori."
+  },
+  "mistakes": {
+    "actions": "azioni",
+    "no_mistakes_yet": "Ancora nessun errore."
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": { "title": "tasti" },
+      "shift": { "title": "maiusc" },
+      "pairs": { "title": "coppie di lettere" },
+      "letters": { "title": "lettere mancanti ed extra" },
+      "words": { "title": "parole" },
+      "tricky": { "title": "parole difficili" },
+      "between": { "title": "tra le parole" },
+      "hesitations": { "title": "esitazioni" }
+    }
+  },
+  "legend": {
+    "meant_hit": "previsto → premuto",
+    "swapped": "scambiato",
+    "missed": "mancante",
+    "extra": "extra",
+    "shift": "maiusc"
+  },
+  "patterns": {
+    "sound": "suonano uguali",
+    "homophone": "parola omofona",
+    "silent": "lettera muta",
+    "double": "lettera doppia",
+    "vowel": "vocale poco chiara",
+    "mirror": "stesso dito, altra mano",
+    "wrongDouble": "lettera sbagliata raddoppiata",
+    "moved": "lettera fuori posto",
+    "ending": "finale omesso",
+    "autopilot": "parola familiare al posto di quella corretta",
+    "rawSteno": "steno grezzo"
+  },
+  "describe": {
+    "shift": "{expected} → {typed} (maiusc)",
+    "omit": "{expected} mancante",
+    "extra": "{typed} extra",
+    "insert": "parola extra {typed}",
+    "skip": "{expected} saltata",
+    "hesitation_pair": "pausa in {expected}",
+    "hesitation_before": "pausa prima di {expected}",
+    "hesitation": "esitazione",
+    "tricky": "difficile: {expected}"
+  }
+}
