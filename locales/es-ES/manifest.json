@@ -16,9 +16,9 @@
     "sans-serif"
   ],
   "reviewed": "machine",
-  "revision": 1,
+  "revision": 2,
   "version": "2026-10-03",
-  "changes": "Initial Spanish (Spain) candidate translation",
+  "changes": "Filled current Feed, Castle, Spot and achievement gaps against kalibre-kanary",
   "files": {
     "about.json": "1a0a985e477f8382f79b9244084c2fd2df736039dc097efaa419d2275f9564ba",
     "achievements.json": "4901fcf2065536a660f7d86877a9075c99a778a0db825c4a84a613246037f316",
@@ -46,6 +46,8 @@
     "themes.json": "1c426bf6dc208229721295c9923a25e8a1183ce06f4ffc9ab571ed07890ac8d2",
     "typing.json": "9c2919204c7c41e6b1c38ebc3bd18bfdd6336c3b092844dc0859bf15fddfea4a",
     "wardrobe.json": "5993914b44a0a668202bb47da77be1dfa242d399d24dd299ef527c145352ec04",
-    "words.json": "8716ea030fd8cfce350c611c4b85f822b4becc0ad4280ef8f41a0983109f9c9b"
+    "words.json": "8716ea030fd8cfce350c611c4b85f822b4becc0ad4280ef8f41a0983109f9c9b",
+    "games": "0e7705cd14b090fea83d6ded2ca4082e923e115c2680c09f1530bb2b33c4a3ab",
+    "achievements": "ad19ebcb83c58d485c8edbe8a4add646abf480d898bdf8a8353382a4aa8087bf"
   }
 }
