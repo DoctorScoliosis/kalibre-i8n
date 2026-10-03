@@ -122,6 +122,30 @@ A locale code may also be supplied directly for automation or scripted hand-offs
 npm run start-translation -- es-419
 ```
 
+### Core application PR checks
+
+The repository also exposes a reusable GitHub Actions workflow at `.github/workflows/check-kalibre-pr.yml`. Kalibre's main repository can call it from pull requests to compare the PR's `src/locales/en-GB/` against the PR base and report only the localisation keys introduced by that PR.
+
+The check is intentionally **non-blocking for missing translations**. It fails only for malformed English localisation data or other validation errors. A PR can therefore ship with new English strings while translations are completed independently.
+
+The PR report includes:
+
+- new English localisation keys introduced by the PR;
+- per-locale counts of those keys already translated versus missing;
+- the exact missing keys for each locale;
+- English strings whose source text changed, which may require translation review;
+- English keys removed by the PR that may later become orphaned in translation packs.
+
+Local runs can inspect two Kalibre checkouts directly:
+
+```bash
+npm run check-core-pr -- \
+  --current ../Kalibre-r1/src/locales/en-GB \
+  --base ../Kalibre-r1-base/src/locales/en-GB
+```
+
+The canonical snapshot and locale directory default to this repository's `locales/en-GB` and `locales/` paths, respectively.
+
 ### Translation triage
 
 **Run the coverage report before asking an agent to translate a locale.** It compares the locale directly with the current canonical `en-GB` snapshot and reports:
