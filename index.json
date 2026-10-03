@@ -27,14 +27,14 @@
       "englishName": "Spanish (Spain)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 1,
+      "revision": 2,
       "version": "2026-10-03",
       "reviewed": "machine",
-      "changes": "Initial Spanish (Spain) candidate translation",
+      "changes": "Filled current Feed, Castle, Spot and achievement gaps against kalibre-kanary",
       "path": "locales/es-ES/manifest.json",
       "pack": "packs/es-ES.json",
-      "sha256": "cbad49d5d14f1e40be62e76199d0d6a17391c4c7dd43f69987b7fc5604b6f2f4",
-      "bytes": 324908
+      "sha256": "84e30ce72915e99da350830f332d8ce7fb5b56aa9716009a7949602c75c8f45b",
+      "bytes": 332230
     },
     {
       "id": "fr-FR",
