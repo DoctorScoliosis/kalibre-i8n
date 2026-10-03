@@ -1,0 +1,71 @@
+name: Check Kalibre PR localisation impact
+
+on:
+  workflow_call:
+    inputs:
+      core-ref:
+        description: "Kalibre commit to inspect (normally the PR head SHA)."
+        required: true
+        type: string
+      base-ref:
+        description: "Kalibre base commit to compare against."
+        required: true
+        type: string
+      tool-ref:
+        description: "kalibre-i8n ref containing the PR-check tooling."
+        required: false
+        default: main
+        type: string
+      canonical-ref:
+        description: "kalibre-i8n ref containing the canonical snapshot."
+        required: false
+        default: main
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  translation-impact:
+    name: i18n / translation coverage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Kalibre PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.core-ref }}
+
+      - name: Check out Kalibre base
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.base-ref }}
+          path: kalibre-base
+
+      - name: Check out localisation repository
+        uses: actions/checkout@v4
+        with:
+          repository: DoctorScoliosis/kalibre-i8n
+          ref: ${{ inputs.tool-ref }}
+          path: kalibre-i8n
+
+      - name: Check out canonical localisation snapshot
+        uses: actions/checkout@v4
+        with:
+          repository: DoctorScoliosis/kalibre-i8n
+          ref: ${{ inputs.canonical-ref }}
+          path: kalibre-i8n-canonical
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "26"
+
+      - name: Analyse localisation impact
+        shell: bash
+        run: |
+          set -euo pipefail
+          node kalibre-i8n/scripts/check-core-pr.mjs \
+            --current ./src/locales/en-GB \
+            --base ./kalibre-base/src/locales/en-GB \
+            --canonical ./kalibre-i8n-canonical/locales/en-GB \
+            --locales ./kalibre-i8n-canonical/locales | tee "$GITHUB_STEP_SUMMARY"

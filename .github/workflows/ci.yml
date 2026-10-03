@@ -1,0 +1,25 @@
+name: i18n repository CI
+
+on:
+  push:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Validate localisation repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "26"
+
+      - name: Run tests and build checks
+        run: node --test scripts/integrity.test.mjs scripts/core-pr-impact.test.mjs
