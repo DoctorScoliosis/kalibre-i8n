@@ -10,7 +10,8 @@
     "check": "node scripts/check-i18n.mjs",
     "test": "node --test scripts/integrity.test.mjs && npm run build && npm run check",
     "coverage": "node scripts/coverage.mjs",
-    "start-translation": "node scripts/start-translation.mjs"
+    "start-translation": "node scripts/start-translation.mjs",
+    "check-core-pr": "node scripts/check-core-pr.mjs"
   },
   "license": "MIT"
 }
