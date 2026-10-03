@@ -122,7 +122,7 @@
     "not_a_theme": "geen thema",
     "needs_a_name": "heeft een naam van maximaal 40 tekens nodig",
     "scheme_must_be": "schema moet licht of donker zijn",
-    "bad_hex": "kleur "{token}" moet een #rrggbb-waarde zijn",
+    "bad_hex": "kleur \"{token}\" moet een #rrggbb-waarde zijn",
     "not_readable": "niet leesbaar genoeg: {labels}"
   }
 }
