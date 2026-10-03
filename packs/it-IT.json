@@ -5605,6 +5605,2006 @@
         "sums": "risolvi correttamente {count, plural, one {# somma} other {# somme}}",
         "something": "qualcosa"
       }
+    },
+    "race": {
+      "lobby": {
+        "title": "gara",
+        "ready": "pronto",
+        "waiting": "in attesa dei giocatori",
+        "host": "ospita",
+        "join": "unisciti",
+        "leave": "esci",
+        "start": "inizia gara"
+      },
+      "places": {
+        "first": "1° posto",
+        "second": "2° posto",
+        "third": "3° posto",
+        "finished": "finito"
+      },
+      "news": {
+        "overtake": "{racer} ha superato {target}",
+        "lap": "{racer} ha completato il giro {lap}",
+        "finish": "{racer} ha concluso la gara"
+      },
+      "race_choices": {
+        "your_own": "{label}, personalizzata ({min}–{max})"
+      },
+      "race": {
+        "race_people_on_your_network": "gareggia con persone sulla tua rete, sullo stesso testo nello stesso momento: una citazione, un numero di parole, contro il tempo o finché riesci a mantenere il ritmo.",
+        "code": "codice",
+        "room_code": "codice della stanza",
+        "host_a_race_and_share": "ospita una gara e condividine il codice, oppure unisciti a quella di qualcun altro.",
+        "races_run_through_a_computer": "le gare passano da un computer che ospita kalibre sulla tua rete: esegui npm run lan lì, poi tutti aprono l'indirizzo che mostra.",
+        "here_you_can_race_another": "qui puoi gareggiare contro un'altra scheda di questo browser.",
+        "others_join_with_this_code": "gli altri si uniscono con questo codice.",
+        "you_re_in": "sei dentro.",
+        "someone_here_is_on_a": "qualcuno qui usa una versione diversa di kalibre, quindi i suoi messaggi non possono essere letti. tutti dovrebbero ricaricare per aggiornarsi.",
+        "rules_waiting_for_the_host": "regole: {rulesLine}. in attesa che l'host inizi.",
+        "the_host_can_start_another": "l'host può iniziare un'altra gara.",
+        "end_the_race_for_everyone": "termina la gara per tutti",
+        "back_to_the_race_room": "torna alla stanza della gara",
+        "pit_stop": "pit stop",
+        "race_again": "gareggia di nuovo",
+        "enter_a_rest_stop_left": "invio: pit stop ({left} rimasti)",
+        "room": "stanza {code}",
+        "pit_stop_hint": "invio: un pit stop per sistemare {words, plural, one {# parola sbagliata} other {# parole sbagliate}} (costa un paio di secondi)",
+        "ok_let_s_race": "ok, gareggiamo",
+        "host_a_race": "ospita una gara",
+        "start_the_race": "inizia la gara",
+        "waiting_for_someone_to_join": "in attesa che qualcuno si unisca",
+        "shared_notice": "i giocatori in questa stanza vedranno la tua scheda profilo (nome, livello, compagno e ciò che indossa e mostra la scheda; mai la foto), quanto hai digitato e, in una gara sostenuta, se stai tenendo il ritmo. nulla di più lascia il tuo dispositivo."
+      },
+      "course": {
+        "a_course_s_words_can": "le parole di un percorso non possono essere vuote né contenere spazi",
+        "there_s_no_text_to": "non c'è testo con cui creare un percorso"
+      },
+      "ghost_file": {
+        "a_replay_in_the_file": "un replay nel file è danneggiato",
+        "its_run_doesn_t_fit": "la sua sessione non corrisponde al percorso",
+        "its_run_can_t_be": "la sua sessione non può essere letta",
+        "its_time_doesn_t_match": "il suo tempo non corrisponde alla sessione",
+        "its_result_doesn_t_match": "il suo risultato non corrisponde alla sessione",
+        "the_file_s_is_damaged": "la parte {what} del file è danneggiata",
+        "the_course_in_the_file": "il percorso nel file è stato modificato dopo la sua creazione",
+        "a_ghost_in_the_file": "un fantasma nel file appartiene a un altro percorso",
+        "this_browser_can_t_open": "questo browser non può aprire file compressi di fantasmi",
+        "the_file_is_too_big": "il file è troppo grande per essere un file fantasma",
+        "a_ghost_file_needs_a": "un file fantasma deve contenere almeno un fantasma",
+        "a_ghost_file_holds_at": "un file fantasma contiene al massimo {ghosts} fantasmi",
+        "every_ghost_in_a_file": "ogni fantasma in un file deve appartenere al suo percorso",
+        "that_s_too_much_for": "è troppo per un singolo file fantasma",
+        "that_isn_t_a_kalibre": "questo non è un file fantasma di kalibre",
+        "that_ghost_file_is_from": "quel file fantasma proviene da una versione più recente di kalibre: aggiorna questa versione e riprova",
+        "its_ghost_can_t_be": "il suo fantasma non può essere usato: {reason}",
+        "none_of_its_ghosts_can": "nessuno dei suoi fantasmi può essere usato"
+      },
+      "ghost_share": {
+        "that_course_isn_t_here": "quel percorso non è più disponibile",
+        "pick_a_ghost_to_export": "scegli un fantasma da esportare"
+      },
+      "replay_codec": {
+        "a_replay_can_t_hold": "un replay non può contenere {value}",
+        "the_replay_ends_too_soon": "il replay termina troppo presto",
+        "the_replay_holds_a_number": "il replay contiene un numero troppo grande per essere uno",
+        "the_keystrokes_aren_t_in": "le battiture non sono nell'ordine in cui sono state digitate",
+        "a_keystroke_of_a_kind": "una battitura di tipo sconosciuto al replay ({type})",
+        "an_event_a_replay_doesn": "un evento sconosciuto al replay ({op})",
+        "replay_times_have_to_be": "i tempi del replay devono essere millisecondi interi, in ordine",
+        "a_special_event_a_replay": "un evento speciale sconosciuto al replay ({kind})",
+        "that_isn_t_a_kalibre": "questo non è un replay di kalibre",
+        "that_replay_is_from_a": "questo replay proviene da una versione più recente di kalibre",
+        "the_replay_has_an_event": "il replay contiene un evento che questa versione di kalibre non conosce",
+        "the_replay_is_damaged": "il replay è danneggiato",
+        "the_replay_has_more_in": "il replay contiene più dati di quanto dichiari",
+        "this_replay_doesn_t_fit": "questo replay non corrisponde a queste parole"
+      },
+      "run_store": {
+        "a_run_s_course_is": "manca il percorso di una sessione"
+      },
+      "room": {
+        "only_the_host_sets_the": "Solo l'host imposta le regole.",
+        "only_the_host_starts_a": "Solo l'host avvia una gara."
+      },
+      "format": {
+        "seconds": "{value}s",
+        "rules_laps": " · giri da {lap}",
+        "rules_quote": "citazione · {amount}",
+        "rules_words": "parole · {amount}",
+        "rules_from_quotes": " dalle citazioni",
+        "rules_time": "tempo · {amount} s",
+        "rules_accuracy": "sostenuto · precisione {target}%",
+        "rules_pace": "sostenuto · ritmo {target} ppm",
+        "amount_short": "breve",
+        "amount_medium": "media",
+        "amount_long": "lunga",
+        "amount_mixed": "mista",
+        "choice_laps": "giri",
+        "choice_off": "disattivato",
+        "choice_lap_words": "{count} parole",
+        "choice_length": "lunghezza",
+        "choice_words": "parole",
+        "choice_from": "da",
+        "choice_common_words": "parole comuni",
+        "choice_quotes": "citazioni",
+        "choice_seconds": "secondi",
+        "choice_keep_up": "mantieni il ritmo",
+        "choice_pace": "ritmo",
+        "choice_accuracy": "precisione",
+        "choice_target_percent": "obiettivo %",
+        "choice_target_wpm": "obiettivo ppm",
+        "mode_quote": "citazione",
+        "mode_words": "parole",
+        "mode_time": "tempo",
+        "mode_sustained": "sostenuto",
+        "ghost_off": "nessun fantasma",
+        "ghost_wpm": "{wpm} ppm",
+        "ghost_when": " · {date}",
+        "ghost_best": "il tuo record",
+        "ghost_last": "la tua ultima sessione",
+        "ghost_run": "una sessione precedente",
+        "ghost_line": "{name} · {what}{when}",
+        "state_ok": "tiene il ritmo",
+        "state_below": "sta rallentando",
+        "state_out": "fuori",
+        "state_pit": "ai box",
+        "gone": "fuori gara",
+        "not_counted": "non conteggiato",
+        "live_out": "{time} · fuori",
+        "live_state": "{time} · {state}",
+        "live_finished": "{place}. {time}",
+        "penalty": " (+{seconds}s)",
+        "didnt_finish": "non ha finito",
+        "result_didnt_finish": "non ha finito · {words} parole",
+        "result_time": "{place}. {wpm} ppm · {words} parole · {accuracy}",
+        "result_accuracy_first": "{accuracy} · {wpm} ppm",
+        "result_pace_first": "{wpm} ppm · {accuracy}",
+        "result_survived": "{place}. {time} di sopravvivenza · {first}",
+        "still_going": " · ancora in corso",
+        "result_standard": "{place}. {time}{penalty} · {wpm} ppm · {accuracy}{pits}",
+        "pits": " · {count, plural, one {# pit stop} other {# pit stop}}",
+        "place_one": "{place}°",
+        "place_two": "{place}°",
+        "place_few": "{place}°",
+        "place_other": "{place}°",
+        "place_zero": "{place}°",
+        "place_many": "{place}°",
+        "finished": "finito",
+        "you": "tu",
+        "share_win": "{names} condividono la vittoria",
+        "won": "{name} ha vinto",
+        "won_you_came": "{won} · sei arrivato {place}°",
+        "starts_in": "inizia tra {left}…",
+        "go": "via!",
+        "lap": "giro {lap}",
+        "lap_of": "giro {lap} di {of}",
+        "lap_last": " · ultimo {time}",
+        "lap_best": " · record {time}",
+        "with_lap": " · {lap}",
+        "time_left": "mancano {time}",
+        "last_standing": "{time} · vince l'ultimo rimasto",
+        "to_finish": "{seconds} s per finire"
+      }
+    },
+    "results": {
+      "summary": {
+        "speed": "velocità",
+        "accuracy": "precisione",
+        "characters": "caratteri",
+        "words": "parole",
+        "time": "tempo",
+        "consistency": "costanza",
+        "best": "record personale",
+        "average": "media",
+        "tests": "test"
+      },
+      "candidate": {
+        "prompt_label": "suggerimento di allenamento",
+        "body": "Continui a digitare {word} · {count, plural, one {# volta} other {# volte}} in {sessions, plural, one {# sessione} other {# sessioni}}.",
+        "train": "allena",
+        "dismiss": "ignora",
+        "later": "più tardi",
+        "drill_it_now": "allenalo ora"
+      },
+      "actions": {
+        "next": "successivo",
+        "retry": "riprova",
+        "watch_replay": "guarda il replay",
+        "save_ghost": "salva come fantasma",
+        "words": "parole",
+        "final": "finale",
+        "as_typed": "come digitato"
+      },
+      "race_results": {
+        "full_stats": "statistiche complete",
+        "your_race": "la tua gara",
+        "this_race_looked_like_key": "questa gara sembrava una raffica di tasti ({notCountedReason}), quindi non è stata conteggiata: niente xp, errori o statistiche.",
+        "lv_to_go": " · liv {level} · mancano {value}",
+        "drill_now": "allenati ora",
+        "counts": "errori {errors} · parole {words}"
+      },
+      "replay_player": {
+        "test_replay": "replay del test",
+        "pinned": "fissato ✓",
+        "pinned_limit_reached_replays_unpin": "limite di elementi fissati raggiunto ({PINNED_LOGS_CAP} replay). Sgancia prima un replay precedente.",
+        "close_replay": "chiudi replay",
+        "replay_scrubber": "barra del replay",
+        "jump_to_playhead": "vai alla posizione di riproduzione ⇥",
+        "0_wpm": "0 ppm",
+        "replay_timeline_zoom": "zoom della timeline del replay",
+        "zoom": "zoom",
+        "restart_replay": "riavvia replay",
+        "play": "riproduci",
+        "saved_as_ghost": "salvato come fantasma ✓",
+        "wpm": "{round} ppm"
+      },
+      "result_chart": {
+        "per_second_results": "risultati al secondo",
+        "not_enough_typing_to_draw": "Non c'è abbastanza digitazione per disegnare un grafico.",
+        "chart_zoom": "zoom del grafico",
+        "speed_over_time_use_the": "Velocità nel tempo. Usa le frecce sinistra e destra per leggere ogni secondo."
+      },
+      "results": {
+        "words_lowest_accuracy_target_kept": "{words} parole · precisione minima {round}% · obiettivo {targetAccuracy}% · mantenuti almeno {floorWpm} ppm",
+        "words_peak_pace_lowest_target": "{words} parole · ritmo massimo {round} · minimo {round2} · obiettivo {targetWpm} ppm",
+        "longest_above_target_raw_in": "più a lungo sopra l'obiettivo {formatDuration} · {nearMisses} · grezzo {round} · {formatDuration2} in tutto",
+        "mistake_analysis_failed_for_this": "analisi degli errori non riuscita per questa sessione",
+        "common_mistakes": "errori comuni",
+        "show_the_words": "mostra le parole",
+        "expected": "previsto \"{text}\"",
+        "typed_expected": "digitato {typed}, previsto {text}",
+        "deleted": "eliminato",
+        "this_drill": "questo allenamento",
+        "now": "ora {to}",
+        "race_this_drill": "gareggia con questo allenamento",
+        "race_the_same_drill_again": "Gareggia di nuovo con lo stesso allenamento contro un fantasma di questa sessione",
+        "results": "risultati",
+        "survived": "sopravvissuto",
+        "wpm": "ppm",
+        "acc": "prec",
+        "this_test_looked_like_key": "Questo test sembrava una raffica di tasti ({notCountedReason}), quindi non è stato conteggiato: niente XP, errori o statistiche.",
+        "suggested_for_training": "{extraSuggested} suggeriti per l'allenamento",
+        "book_range": " {start} → {end}",
+        "the_end": "la fine",
+        "book_words": " · {count} parole",
+        "overdeleted": "hai eliminato {count, plural, one {# carattere corretto} other {# caratteri corretti}} oltre l'errore",
+        "overdeleted_cost": ", circa {cost} ppm",
+        "mistake_line": "{errors} su {exposures}{share} · prima {before}",
+        "summary_line": "grezzo {raw} · {spread} · {duration}",
+        "practice_words": " · {count, plural, one {# parola di esercitazione} other {# parole di esercitazione}}",
+        "letters_to_cover": " · {count, plural, one {# lettera} other {# lettere}} ancora da coprire",
+        "mistakes_ready": "{count, plural, one {# errore pronto} other {# errori pronti}}",
+        "consistency_spread": "costanza {consistency}% (±{wpmStdDev} ppm)",
+        "consistency_none": "costanza –"
+      }
+    },
+    "settings": {
+      "schema": {
+        "mistakeSensitivity": {
+          "label": "suggerisci errori da allenare",
+          "option": {
+            "relaxed": "solo schemi chiari",
+            "normal": "normale",
+            "eager": "presto"
+          },
+          "description": "quanta evidenza prima di un suggerimento"
+        },
+        "autoAcceptMistakes": {
+          "label": "aggiungi automaticamente gli errori all'allenamento",
+          "description": "avvia automaticamente l'allenamento degli errori idonei"
+        },
+        "adaptiveMix": {
+          "label": "esercita parole nei test a parole",
+          "option": {
+            "light": "alcune",
+            "strong": "di più",
+            "off": "disattivato"
+          },
+          "description": "mescola parole con errori monitorati"
+        },
+        "goalType": {
+          "label": "obiettivo giornaliero",
+          "option": {
+            "off": "nessuno",
+            "minutes": "minuti",
+            "words": "parole",
+            "xp": "xp"
+          },
+          "description": "digitazione da raggiungere ogni giorno"
+        },
+        "goalMinutes": {
+          "label": "minuti al giorno",
+          "description": "obiettivo giornaliero in minuti"
+        },
+        "goalWords": {
+          "label": "parole al giorno",
+          "description": "obiettivo giornaliero in parole"
+        },
+        "questDifficulty": {
+          "label": "difficoltà delle missioni giornaliere",
+          "option": {
+            "easy": "facile",
+            "normal": "normale",
+            "hard": "difficile"
+          },
+          "description": "quanto le missioni e la sfida giornaliera ti mettono alla prova e quanti XP danno. Una modifica si applica alle missioni di domani"
+        },
+        "lessonCompanion": {
+          "label": "compagno delle lezioni"
+        },
+        "commonCapitals": {
+          "label": "maiuscole nelle parole comuni"
+        },
+        "paragraphBreaks": {
+          "label": "interruzioni di paragrafo",
+          "description": "premi invio alla fine dei paragrafi"
+        },
+        "wordPool": {
+          "label": "elenco di parole",
+          "option": {
+            "200": "200 parole comuni"
+          }
+        },
+        "wordLength": {
+          "label": "lunghezza delle parole",
+          "option": {
+            "everyday": "quotidiane",
+            "some_long": "alcune parole lunghe",
+            "long": "parole lunghe",
+            "common": "quotidiane",
+            "mixed": "alcune parole lunghe"
+          },
+          "description": "parole più lunghe e difficili nei test a tempo e a parole"
+        },
+        "wordSpelling": {
+          "label": "ortografia nei test a parole",
+          "option": {
+            "both": "entrambe (come scritte)",
+            "uk": "inglese britannico (colour, centre)",
+            "us": "inglese americano (color, center)"
+          },
+          "description": "variante ortografica nei test a parole e negli allenamenti"
+        },
+        "textSize": {
+          "label": "dimensione del testo da digitare"
+        },
+        "fontFamily": {
+          "label": "carattere di digitazione"
+        },
+        "fontWeight": {
+          "label": "peso del carattere di digitazione"
+        },
+        "lineHeight": {
+          "label": "altezza delle righe di digitazione"
+        },
+        "letterSpacing": {
+          "label": "spaziatura delle lettere nella digitazione"
+        },
+        "caretStyle": {
+          "label": "stile del cursore",
+          "option": {
+            "line": "linea",
+            "block": "blocco",
+            "underline": "sottolineato"
+          }
+        },
+        "smoothCaret": {
+          "label": "cursore fluido",
+          "description": "il cursore scivola tra le lettere"
+        },
+        "focusMode": {
+          "label": "messa a fuoco",
+          "option": {
+            "line": "riga corrente",
+            "sentence": "frase",
+            "none": "disattivato"
+          },
+          "description": "attenua il testo fuori dalla riga o dalla frase"
+        },
+        "liveMetrics": {
+          "label": "ppm e precisione in tempo reale"
+        },
+        "mistakeDisplay": {
+          "label": "mostra gli errori come",
+          "option": {
+            "expected": "lettera prevista",
+            "typed": "lettera digitata"
+          }
+        },
+        "restartKey": {
+          "label": "tasto di riavvio",
+          "description": "tasti che riavviano un test",
+          "option": {
+            "tab-enter": "tab → invio",
+            "tab-tab": "tab → tab"
+          }
+        },
+        "layout": {
+          "label": "layout della tastiera"
+        },
+        "stenoMode": {
+          "label": "digito con",
+          "option": {
+            "keyboard": "una tastiera",
+            "steno": "una macchina stenografica"
+          }
+        },
+        "defaultDuration": {
+          "label": "durata predefinita del test",
+          "description": "durata di un test a tempo"
+        },
+        "defaultWordCount": {
+          "label": "numero predefinito di parole",
+          "description": "durata di un test a parole"
+        },
+        "mode": {
+          "label": "modalità",
+          "description": "chiaro, scuro o segui il sistema",
+          "option": {
+            "system": "segui il sistema",
+            "light": "chiaro",
+            "dark": "scuro"
+          }
+        },
+        "themeLight": {
+          "label": "tema chiaro",
+          "description": "colori usati in modalità chiara",
+          "option": {
+            "paper": "carta",
+            "eink": "e-ink",
+            "cream": "crema",
+            "rose": "rosa",
+            "harbour": "porto",
+            "contrast": "alto contrasto"
+          }
+        },
+        "themeDark": {
+          "label": "tema scuro",
+          "description": "colori usati in modalità scura",
+          "option": {
+            "ink": "inchiostro",
+            "dusk": "crepuscolo",
+            "eink-night": "e-ink notturno",
+            "forest": "foresta",
+            "plum": "prugna",
+            "slate": "ardesia",
+            "terminal": "terminale",
+            "contrast-night": "alto contrasto notturno"
+          }
+        },
+        "theme": {
+          "label": "tema",
+          "description": "colori per tutta l'app",
+          "option": {
+            "system": "segui il sistema",
+            "paper": "carta",
+            "ink": "inchiostro",
+            "dusk": "crepuscolo",
+            "eink": "e-ink",
+            "eink-night": "e-ink notturno",
+            "cream": "crema",
+            "rose": "rosa",
+            "harbour": "porto",
+            "forest": "foresta",
+            "plum": "prugna",
+            "slate": "ardesia",
+            "terminal": "terminale",
+            "contrast": "alto contrasto",
+            "contrast-night": "alto contrasto notturno"
+          }
+        },
+        "customThemes": {
+          "label": "i tuoi temi"
+        },
+        "typingFontSize": {
+          "label": "dimensione del testo da digitare",
+          "description": "dimensione del testo che digiti"
+        },
+        "typingFont": {
+          "label": "carattere di digitazione"
+        },
+        "typingFontWeight": {
+          "label": "peso del carattere di digitazione",
+          "description": "quanto è spesso il testo da digitare",
+          "option": {
+            "300": "300",
+            "400": "400",
+            "500": "500",
+            "600": "600",
+            "700": "700"
+          }
+        },
+        "typingLineHeight": {
+          "label": "altezza delle righe di digitazione",
+          "description": "spazio tra le righe di digitazione"
+        },
+        "typingLetterSpacing": {
+          "label": "spaziatura delle lettere nella digitazione",
+          "description": "spazio tra le lettere"
+        },
+        "caret": {
+          "label": "stile del cursore",
+          "description": "forma del cursore",
+          "option": {
+            "line": "linea",
+            "block": "blocco",
+            "underline": "sottolineato"
+          }
+        },
+        "linesAhead": {
+          "label": "righe visibili in avanti",
+          "description": "quante righe sono visibili",
+          "option": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4"
+          }
+        },
+        "showLiveStats": {
+          "label": "ppm e precisione in tempo reale",
+          "description": "ppm e precisione durante la digitazione"
+        },
+        "errorDisplay": {
+          "label": "mostra gli errori come",
+          "description": "cosa mostra una lettera errata",
+          "option": {
+            "expected": "lettera prevista",
+            "typed": "lettera digitata"
+          }
+        },
+        "keyboardLayout": {
+          "label": "layout della tastiera",
+          "description": "dice a Kalibre dove si trovano i tasti per valutare i vicini; non cambia ciò che digiti",
+          "option": {
+            "qwerty": "QWERTY (US)",
+            "dvorak": "Dvorak",
+            "colemak": "Colemak",
+            "colemak-dh": "Colemak-DH",
+            "workman": "Workman",
+            "azerty": "AZERTY (French)",
+            "qwertz": "QWERTZ (German)"
+          }
+        },
+        "inputMethod": {
+          "label": "digito con",
+          "description": "una macchina stenografica invia parole intere in una volta, quindi Kalibre annota solo gli errori di parole intere e mette da parte le lezioni di scrittura a tocco",
+          "option": {
+            "keyboard": "una tastiera",
+            "steno": "una macchina stenografica"
+          }
+        },
+        "capitals": {
+          "label": "maiuscole nelle parole comuni",
+          "description": "le citazioni e i tuoi testi mantengono sempre le proprie"
+        },
+        "wordList": {
+          "label": "elenco di parole",
+          "description": "quante parole comuni usare",
+          "option": {
+            "200": "200 parole comuni",
+            "1000": "1.000 parole comuni",
+            "5000": "5.000 parole comuni"
+          }
+        },
+        "customSampling": {
+          "label": "testi personalizzati",
+          "description": "testo intero o un brano",
+          "option": {
+            "passage": "brano casuale",
+            "entire": "testo intero"
+          }
+        },
+        "customQuoteLength": {
+          "label": "lunghezza del brano",
+          "description": "intervallo di caratteri per un brano personalizzato",
+          "option": {
+            "short": "breve (fino a 100 caratteri)",
+            "medium": "medio (fino a 300 caratteri)",
+            "long": "lungo (fino a 600 caratteri)",
+            "huge": "enorme (fino a 1.500 caratteri)",
+            "massive": "gigantesco (fino a 4.000 caratteri)"
+          }
+        },
+        "customNormalisation": {
+          "label": "caratteri dei testi personalizzati",
+          "description": "cosa conservano i testi personalizzati",
+          "option": {
+            "preserve": "come scritto",
+            "no-punctuation": "senza punteggiatura",
+            "letters": "solo lettere",
+            "letters-numbers": "lettere + numeri"
+          }
+        },
+        "mixedCategories": {
+          "label": "lunghezze miste delle citazioni",
+          "description": "lunghezze delle citazioni usate nei test misti",
+          "option": {
+            "short": "breve",
+            "medium": "medio",
+            "long": "lungo",
+            "huge": "enorme",
+            "massive": "gigantesco"
+          }
+        },
+        "goalXp": {
+          "label": "xp al giorno",
+          "description": "obiettivo giornaliero in xp dalla digitazione (non dai bonus); un minuto di digitazione pulita vale circa 8–15"
+        },
+        "companion": {
+          "label": "compagno delle lezioni",
+          "description": "scelto nella configurazione e conservato dal profilo",
+          "option": {
+            "cal": "Cal",
+            "libby": "Libby"
+          }
+        },
+        "mascotChatter": {
+          "label": "chiacchiere di {companion}",
+          "description": "quanto parla {companion}",
+          "option": {
+            "chatty": "chiacchierone",
+            "quiet": "solo ciò che conta"
+          }
+        },
+        "mascotSounds": {
+          "label": "suoni di {companion}",
+          "description": "piccoli cinguettii nelle lezioni (mai a metà parola), una fusa quando viene accarezzato e una risatina quando viene solleticato"
+        },
+        "mascotVolume": {
+          "label": "volume di {companion}",
+          "description": "quanto è rumoroso {companion}"
+        },
+        "uiFontSize": {
+          "label": "dimensione del testo dell'interfaccia",
+          "description": "dimensione del testo dell'interfaccia"
+        },
+        "reduceMotion": {
+          "label": "riduci movimento",
+          "description": "meno animazioni",
+          "option": {
+            "system": "segui il sistema",
+            "on": "attivo",
+            "off": "disattivato"
+          }
+        },
+        "colourVision": {
+          "label": "visione dei colori",
+          "description": "adatta i colori per il daltonismo",
+          "option": {
+            "typical": "tipica",
+            "red-green": "rosso-verde (protanopia, deuteranopia)",
+            "blue-yellow": "blu-giallo (tritanopia)",
+            "no-colour": "nessun colore"
+          }
+        },
+        "uiFont": {
+          "label": "carattere dell'interfaccia",
+          "description": "carattere per menu e testo fuori dall'area di digitazione",
+          "option": {
+            "system": "predefinito del sistema",
+            "atkinson": "Atkinson Hyperlegible",
+            "opendyslexic": "OpenDyslexic"
+          }
+        },
+        "boldText": {
+          "label": "testo in grassetto",
+          "description": "testo più pesante in tutta l'interfaccia"
+        },
+        "textSpacing": {
+          "label": "spaziatura del testo",
+          "description": "spaziatura più ampia tra lettere e parole",
+          "option": {
+            "normal": "normale",
+            "wide": "ampia"
+          }
+        },
+        "contrast": {
+          "label": "contrasto",
+          "description": "rendi più distinti testo e bordi",
+          "option": {
+            "system": "segui il sistema",
+            "normal": "normale",
+            "more": "di più"
+          }
+        },
+        "pageWidth": {
+          "label": "larghezza della pagina",
+          "description": "larghezza del contenuto della pagina",
+          "option": {
+            "narrow": "stretta (720 px)",
+            "normal": "normale (880 px)",
+            "wide": "ampia (1.000 px)",
+            "full": "larghezza completa"
+          }
+        },
+        "language": {
+          "label": "lingua",
+          "description": "lingua dell'interfaccia; ricarica dopo la modifica",
+          "option": {
+            "en-GB": "inglese (UK)",
+            "en-US": "inglese (US)",
+            "zh-CN": "简体中文 (cinese semplificato)",
+            "qps": "pseudo",
+            "qps-wide": "pseudo ampia"
+          }
+        },
+        "backupFrequency": {
+          "label": "backup automatici",
+          "description": "quando viene aggiornata la cartella di backup (Chrome ed Edge)",
+          "option": {
+            "change": "poco dopo ogni modifica",
+            "test": "dopo ogni test",
+            "5min": "al massimo ogni 5 minuti",
+            "hourly": "al massimo ogni ora",
+            "manual": "solo quando lo chiedo"
+          }
+        },
+        "updateCheck": {
+          "label": "controlla aggiornamenti",
+          "description": "con quale frequenza kalibre cerca una nuova versione; in ogni caso aspetta te",
+          "option": {
+            "5min": "ogni 5 minuti",
+            "15min": "ogni 15 minuti",
+            "hourly": "ogni ora",
+            "launch": "quando kalibre si apre",
+            "manual": "solo quando lo chiedo"
+          }
+        },
+        "enabledDatasets": {
+          "label": "dataset attivi"
+        },
+        "libraries": {
+          "label": "librerie di dataset"
+        },
+        "wordFilter": {
+          "label": "filtra le parole offensive"
+        },
+        "blockedWords": {
+          "label": "parole personali da filtrare"
+        },
+        "companionLook": {
+          "label": "aspetto di {companion}"
+        },
+        "stenoNoteShown": {
+          "label": "nota stenografica mostrata"
+        },
+        "lastVisitDay": {
+          "label": "ultima visita"
+        },
+        "calSeen": {
+          "label": "elementi di {companion} visti"
+        },
+        "calPets": {
+          "label": "volte in cui {companion} è stato accarezzato"
+        },
+        "calPokes": {
+          "label": "volte in cui {companion} ha ricevuto un colpetto"
+        },
+        "calTickles": {
+          "label": "volte in cui {companion} è stato solleticato"
+        },
+        "calPokeFits": {
+          "label": "volte in cui {companion} ha ricevuto troppi colpetti"
+        },
+        "raceNoticeSeen": {
+          "label": "avviso della gara visto"
+        },
+        "lastSeenVersion": {
+          "label": "ultima versione vista"
+        },
+        "updateTold": {
+          "label": "aggiornamento menzionato"
+        },
+        "calArmLifts": {
+          "label": "volte in cui è stato sollevato il braccio di {companion}"
+        },
+        "restartRun": {
+          "label": "ultimo avvio"
+        },
+        "calRestartBest": {
+          "label": "più riavvii rapidi consecutivi"
+        },
+        "achievementsSeen": {
+          "label": "traguardi visti"
+        },
+        "achievementsVersionSeen": {
+          "label": "versione dei traguardi vista"
+        },
+        "themeDecorations": {
+          "label": "decorazioni del tema"
+        },
+        "profileCard": {
+          "label": "scheda profilo"
+        },
+        "cardItemsSeen": {
+          "label": "elementi della scheda profilo visti"
+        },
+        "raceCardNoticeSeen": {
+          "label": "avviso della scheda gara visto"
+        },
+        "car": {
+          "label": "auto da gara"
+        },
+        "carPartsSeen": {
+          "label": "componenti dell'auto da gara visti"
+        },
+        "raceConfig": {
+          "label": "scelte della gara"
+        },
+        "raceModesNoticeSeen": {
+          "label": "avviso delle modalità di gara visto"
+        },
+        "decorationsSeen": {
+          "label": "decorazioni del tema viste"
+        },
+        "achievementsComplete": {
+          "label": "ogni traguardo"
+        },
+        "engagement": {
+          "label": "coinvolgimento"
+        },
+        "partnerLook": {
+          "label": "aspetto del partner"
+        },
+        "lessonConfig": {
+          "label": "configurazione delle lezioni"
+        },
+        "lessonPrep": {
+          "label": "fasi delle lezioni e riscaldamenti"
+        },
+        "gameConfigs": {
+          "label": "configurazioni dei giochi"
+        },
+        "lastConfig": {
+          "label": "ultima configurazione del test"
+        },
+        "numpad": {
+          "label": "ho un tastierino numerico",
+          "description": "per l'esercitazione del tastierino numerico e per indicare se Bloc Num è disattivato"
+        },
+        "numpadSeen": {
+          "label": "tastierino numerico visto"
+        },
+        "numpadTold": {
+          "label": "esercitazione del tastierino numerico menzionata"
+        },
+        "numpadOffered": {
+          "label": "esercitazione del tastierino numerico proposta"
+        },
+        "sumsConfig": {
+          "label": "configurazione delle somme"
+        },
+        "numpadConfig": {
+          "label": "configurazione del test a dieci tasti"
+        }
+      },
+      "actions": {
+        "export": "esporta impostazioni",
+        "import": "importa impostazioni"
+      },
+      "tip": {
+        "esc_change": "esc: cambia qualsiasi impostazione digitando"
+      },
+      "notice": {
+        "imported_count": "importate {count} impostazioni"
+      },
+      "data_panel": {
+        "done_the_browser_will_keep": "Fatto: il browser conserverà i tuoi dati.",
+        "the_browser_said_no_for": "Il browser ha detto di no per ora. Installare kalibre come app o aggiungerlo ai segnalibri spesso cambia la situazione; nel frattempo, conserva un backup.",
+        "this_browser_can_t_save": "Questo browser non può salvare da solo in una cartella, quindi fai il backup manualmente qui sotto. (Chrome ed Edge possono farlo automaticamente.)",
+        "choose_a_folder_on_this": "Scegli una cartella su questo computer e diventerà la tua cartella kalibre: questo profilo viene salvato lì pochi secondi dopo ogni test o modifica, insieme ai dataset e ai font che hai aggiunto. Se la cartella contiene altre cose, al suo interno viene creata una cartella “kalibre”.",
+        "saving_this_profile_and_the": "Salvataggio di questo profilo e dei dataset e font aggiunti qui nella cartella kalibre “{folderName}” · {last}.{problem}",
+        "when_an_update_changes_how": "Quando un aggiornamento cambia il modo in cui kalibre conserva i dati, tiene una copia di tutto ciò che c'era subito prima, nel caso qualcosa vada storto. Vengono mantenute le due più recenti.",
+        "what_takes_the_space": "cosa occupa spazio",
+        "bring_profiles_datasets_and_fonts": "Ripristina profili, dataset e font da una cartella kalibre: dopo aver svuotato il browser o su un altro computer. Qui non viene sovrascritto nulla. Funziona in qualsiasi browser.",
+        "shared": "condiviso",
+        "the_file_is_ready": "il file è pronto",
+        "couldn_t_save_see_settings": "impossibile salvare (vedi impostazioni → dati)",
+        "storage_persistent": "Il browser conserva i dati di kalibre finché non li elimini tu.",
+        "storage_best_effort": "Il browser potrebbe eliminare i dati di kalibre se lo spazio su disco si riduce (Safari lo fa anche dopo 7 giorni senza visite). Chiedigli di conservare i dati e mantieni un backup.",
+        "storage_unsupported": "Questo browser non può garantire di conservare i dati di kalibre, quindi mantieni un backup.",
+        "storage_using": " In uso: {used}.",
+        "overdue": "Questo profilo non riceve backup da più di {days} giorni. ",
+        "never_backed_up": "Questo profilo non ha ancora ricevuto un backup. ",
+        "last_backup": "Ultimo backup {when}. ",
+        "export_explained": "Un'esportazione è un file con la cronologia di questo profilo (salvato nelle esportazioni della cartella kalibre quando disponibile); ripristinalo con “importa un file del profilo” nel menu del profilo.",
+        "copy_line": "da {when}, subito prima che {what} cambiasse il modo di conservare i dati · {records} record",
+        "copy_app": " kalibre v{app}",
+        "copy_update": " un aggiornamento",
+        "allow_again": "consenti di nuovo",
+        "save_over_it": "salva sopra",
+        "restore_it": "ripristinalo",
+        "put_this_copy_back": "rimetti questa copia",
+        "share_it": "condividila"
+      },
+      "fonts": {
+        "default_monospace": "predefinito (monospazio)",
+        "font_names_can_only_use": "I nomi dei font possono usare solo lettere, numeri, spazi, punti, trattini e trattini bassi.",
+        "isn_t_available_on_this": "“{family}” non è disponibile su questo dispositivo, quindi viene mostrato il font predefinito.",
+        "use": "usa {family}",
+        "kb": "{fileName} · {round} KB",
+        "remove": "rimuovi {family}",
+        "list_fonts_on_this_computer": "elenca i font su questo computer",
+        "fonts_found_start_typing_a": "trovati {length} font; inizia a digitare un nome per sceglierne uno.",
+        "the_browser_did_not_allow": "Il browser non ha consentito di elencare i font. Puoi comunque digitare il nome di qualsiasi font installato.",
+        "load_a_font_file": "carica un file di font",
+        "use_default_font": "usa il font predefinito",
+        "bundled_legible": "incluso · monospazio leggibile",
+        "bundled_dyslexia": "incluso · adatto alla dislessia",
+        "sample": "the quick brown fox jumps over the lazy dog. 0123456789"
+      },
+      "settings": {
+        "github": "github",
+        "translation_note": "questa traduzione non è stata scritta o controllata da un madrelingua, quindi alcune parti potrebbero suonare strane. puoi contribuire a migliorarla su {link}.",
+        "imported": "importate {count, plural, one {# impostazione} other {# impostazioni}}",
+        "skipped": " · ignorato {what}",
+        "sections_label": "sezioni delle impostazioni"
+      },
+      "storage_screen": {
+        "measuring": "misurazione…",
+        "space_used": "spazio usato",
+        "yes": "sì, {label}",
+        "export_first": "esporta prima",
+        "kalibre_is_using_of_the": "kalibre usa {formatSize} dei {formatSize2} consentiti da questo browser.",
+        "kalibre_is_using_about": "kalibre usa circa {formatSize}.",
+        "couldn_t_measure": "impossibile misurare: {message}"
+      },
+      "theme_editor": {
+        "sample_of_this_theme": "anteprima di questo tema",
+        "needs_1": " (richiede {minimum}:1)",
+        "fix_the_colours_marked_first": "Correggi prima i colori contrassegnati con ✗",
+        "hex_value": "valore esadecimale di {label}",
+        "edit_theme": "modifica tema",
+        "a_sample_of_every_colour": "Un'anteprima di ogni colore, con le tue impostazioni di visione dei colori e contrasto. Passa sopra un colore o scegline uno per evidenziare dove viene usato.",
+        "imported": "importato “{name}”",
+        "that_file_isn_t_a": "Quel file non è un tema.",
+        "saved": "salvato “{name}”",
+        "saved_decorate": ". Decoralo dall'elenco quando vuoi.",
+        "groups": {
+          "page": "pagina",
+          "text": "testo",
+          "typing": "digitazione",
+          "charts": "grafici"
+        },
+        "tokens": {
+          "bg": "sfondo",
+          "surface": "pannelli",
+          "separator": "linee e bordi",
+          "selection": "selezione",
+          "text": "testo",
+          "textDim": "testo attenuato",
+          "accent": "accento",
+          "correct": "testo digitato",
+          "incorrect": "errori",
+          "extra": "lettere extra",
+          "caret": "cursore",
+          "chartWpm": "linea ppm",
+          "chartRaw": "linea grezza",
+          "chartError": "errori",
+          "heat1": "calore dei tasti 1",
+          "heat2": "calore dei tasti 2",
+          "heat3": "calore dei tasti 3",
+          "heat4": "calore dei tasti 4"
+        },
+        "sample_correct": "quick brown ",
+        "sample_incorrect": "fxo",
+        "sample_extra": "ss",
+        "sample_dim": " salta sopra",
+        "sample_text": "testo ",
+        "sample_link": "link",
+        "sample_selected": "selezionato",
+        "that_theme_can_t_be": "Quel tema non può essere usato: {problem}.",
+        "scheme_label": "chiaro o scuro"
+      },
+      "theme_picker": {
+        "quick_brown": "quick brown ",
+        "fxo": "fxo",
+        "ss": "ss",
+        "jumps_over": " salta sopra",
+        "surface": "superficie ",
+        "accent_link": "link in risalto",
+        "selected": "selezionato",
+        "1_text": "testo {ratio}:1",
+        "choose_theme": "{label}: scegli tema",
+        "options": "opzioni di {label}",
+        "pick": "scegli {label}"
+      },
+      "sections": {
+        "theme": "tema",
+        "typing": "digitazione",
+        "content": "contenuto",
+        "training": "allenamento",
+        "accessibility": "accessibilità",
+        "data": "dati"
+      },
+      "stepper": {
+        "decrease": "diminuisci {label}",
+        "increase": "aumenta {label}"
+      }
+    },
+    "stats": {
+      "sections": {
+        "overview": "panoramica",
+        "periods": "per giorno",
+        "bests": "record personali",
+        "history": "cronologia",
+        "games": "giochi",
+        "numpad": "tastierino numerico",
+        "xp": "xp",
+        "keys": "tasti",
+        "hesitations": "esitazioni",
+        "mistakes": "errori"
+      },
+      "export": {
+        "csv": "csv",
+        "json": "json",
+        "game_runs": "esporta sessioni di gioco",
+        "every_test": "esporta ogni test",
+        "days": "esporta giorni"
+      },
+      "empty": {
+        "no_tests": "nessun test ancora",
+        "no_tests_games_only": "Nessun test ancora: finora solo giochi. Vedi statistiche → giochi.",
+        "no_tests_overview": "Nessun test ancora. Qui compariranno velocità, precisione e i tasti che trovi più difficili.",
+        "not_enough_typing": "non c'è ancora abbastanza digitazione"
+      },
+      "overview": {
+        "average_wpm": "ppm medio",
+        "accuracy": "precisione",
+        "tests": "test",
+        "time_typing": "tempo di digitazione",
+        "completed": "completati",
+        "restarted": "riavviati",
+        "abandoned": "abbandonati",
+        "not_counted": "non conteggiati",
+        "words": "parole",
+        "characters": "caratteri",
+        "averages_note": "medie e record usano solo i test completati{notCounted, select, true {; i test a raffica di tasti non vengono conteggiati} other {}}",
+        "chart_heading": "{scope, select, all {tutti} other {ultimi}} {count} {count, plural, one {test} other {test}} · ppm",
+        "chart_window_aria": "quanti test mostrare nel grafico",
+        "by_characters": "per caratteri"
+      },
+      "bests": {
+        "race_this": "gareggia con questo",
+        "empty": "completa un test per impostare un record",
+        "stats_summary": "{survived, select, true {{survivedTime} di sopravvivenza · } other {}}{wpm} ppm · {accuracy}% · {date}"
+      },
+      "periods": {
+        "no_tests": "nessun test",
+        "tests_count": "{count, plural, one {# test} other {# test}}",
+        "best_accuracy": "migliore {best} · {accuracy}%",
+        "daily_goal": "obiettivo giornaliero: {target}",
+        "today": " · oggi {amount}{met, select, true { ✓} other {}}",
+        "streak": " · serie {count, plural, one {# giorno} other {# giorni}}",
+        "no_daily_goal": "Nessun obiettivo giornaliero. ",
+        "set_one": "impostane uno",
+        "time_typed_per_day": "tempo di digitazione al giorno · ultimi 30 giorni",
+        "day_by_day": "giorno per giorno",
+        "no_tests_last_30_days": "nessun test negli ultimi 30 giorni",
+        "time_of_day": "ora del giorno",
+        "time_zone_note": "Giorni e ore seguono il fuso orario di questo dispositivo."
+      },
+      "games": {
+        "no_games": "nessun gioco ancora. I giochi sono nella sezione giochi del menu.",
+        "runs_count": "{count, plural, one {# sessione} other {# sessioni}}",
+        "last": "ultima {date}",
+        "best_run": "miglior sessione: {summary}",
+        "bests_note": "i record contano le sessioni con le regole correnti di ogni gioco",
+        "bests_by_difficulty": "record per difficoltà",
+        "recent_runs": "sessioni recenti",
+        "old_rules": "{game} (vecchie regole)",
+        "runs": "sessioni",
+        "time_played": "tempo di gioco"
+      },
+      "numpad": {
+        "no_runs": "nessuna sessione col tastierino numerico ancora. Sono nella pagina tastierino numerico di impara.",
+        "ksph_note": "battute all'ora (ksph) conta i tasti delle voci corrette, compresi operatori e invio",
+        "bests": "record del tastierino numerico",
+        "sums_by_kind": "somme per tipo",
+        "weak_spots": "punti deboli",
+        "recent_runs": "sessioni recenti",
+        "ten_key_tests": "test a dieci tasti",
+        "fastest": "più veloce",
+        "lessons_mastered": "lezioni padroneggiate",
+        "sums_right": "somme corrette",
+        "time_on_pad": "tempo sul tastierino"
+      },
+      "numpad_pane": {
+        "lesson_desc": "lezione {number}{mastered, select, true { · padroneggiata} other {}}",
+        "till_desc": "cassa · livello {level}",
+        "sums_desc": "somme · {form}",
+        "tenkey_desc": "dieci tasti · {form} · {limit}",
+        "mix": "un misto",
+        "served_count": "{count} servite",
+        "sums_right": "{right} di {answers} corrette",
+        "ksph_result": "{ksph} ksph{aborted, select, true { (terminato in anticipo)} other {}}"
+      },
+      "headings": {
+        "day": "giorno",
+        "tests": "test",
+        "time": "tempo",
+        "wpm": "ppm",
+        "best": "migliore",
+        "accuracy": "precisione",
+        "goal": "obiettivo",
+        "when": "quando",
+        "source": "fonte",
+        "xp": "xp",
+        "share": "condivisione",
+        "entries": "voci",
+        "length": "lunghezza",
+        "ksph": "ksph",
+        "kind": "tipo",
+        "right": "corrette",
+        "average_time": "tempo medio",
+        "what": "cosa",
+        "result": "risultato",
+        "date": "data",
+        "ghost": "fantasma",
+        "actions": "azioni",
+        "test": "test",
+        "game": "gioco",
+        "mode": "modalità",
+        "difficulty": "difficoltà",
+        "outcome": "esito",
+        "score": "punteggio"
+      },
+      "hesitations": {
+        "explain": "Non sono errori: tasti digitati correttamente, ma solo dopo una pausa di almeno {factor}× il tuo intervallo abituale tra i tasti (mai inferiore a {minMs} ms), quindi vengono misurati rispetto al tuo ritmo, per quanto veloce tu possa digitare. Le pause oltre {maxS} s contano come interruzione (più a lungo se cerchi i tasti guardando la tastiera). Le pause che continuano a ripresentarsi vengono suggerite per l'allenamento, come gli errori.",
+        "empty": "D'ora in poi i test misureranno le esitazioni.",
+        "hesitations": "esitazioni",
+        "per_minute": "al minuto",
+        "tests_measured": "test misurati",
+        "keys_pause_before": "tasti prima dei quali fai una pausa",
+        "pairs_pause_inside": "coppie di lettere in cui fai una pausa",
+        "words_pause_before": "parole prima delle quali fai una pausa",
+        "no_pattern_yet": "nessuno schema ancora"
+      },
+      "keys": {
+        "picker_label": "layout della tastiera: ",
+        "dropdown_label": "layout della tastiera",
+        "least_accurate_keys": "tasti meno precisi",
+        "slowest_keys": "tasti più lenti",
+        "least_accurate_pairs": "coppie di lettere meno precise",
+        "slowest_pairs": "coppie di lettere più lente"
+      },
+      "mistakes": {
+        "errors_summary": "{uncorrected} non corretti · {corrected} corretti · {capsLock} con Bloc Maiusc",
+        "most_common": "più comuni",
+        "all_mistakes": "tutti gli errori",
+        "keys": "tasti",
+        "shift": "maiusc",
+        "words": "parole",
+        "between_words": "tra le parole",
+        "none_yet": "ancora nessuno"
+      },
+      "xp": {
+        "blurb": "Gli XP derivano dalla digitazione corretta (ridimensionata in base alla precisione), un po' dai bonus e dagli errori che elimini con l'allenamento. Vengono calcolati dalla tua cronologia.",
+        "total_xp": "xp totali",
+        "last_7_days": "ultimi 7 giorni",
+        "where_from": "da dove provengono",
+        "xp_per_day": "xp al giorno · ultimi 30 giorni"
+      },
+      "history": {
+        "replay": "replay",
+        "race": "gara",
+        "delete": "elimina",
+        "race_title": "gareggia con questa sessione come fantasma, sul suo stesso testo",
+        "no_saved_ghosts": "nessun fantasma salvato ancora. Salvane uno dopo un test o un replay.",
+        "no_history": "nessun test nella cronologia ancora",
+        "pinned": "fissati",
+        "all_tests": "tutti i test",
+        "saved_ghosts": "fantasmi salvati",
+        "saved_ghosts_count": "fantasmi salvati ({count})",
+        "pager_aria": "pagine della cronologia",
+        "pager_prev": "‹ precedente",
+        "pager_next": "successivo ›",
+        "pager_range": "{first}–{last} di {count}",
+        "page_aria": "pagina {number}"
+      },
+      "shared": {
+        "level": "livello",
+        "level_aria": "XP al livello successivo",
+        "prev": "precedente",
+        "next": "successivo",
+        "prev_aria": "pagina precedente",
+        "next_aria": "pagina successiva",
+        "page_info": "{current} di {total}",
+        "xp": "{toLocaleString} / {toLocaleString2} xp",
+        "ms": "{round} ms · {round2}%",
+        "typed": "{round}% · digitato {toLocaleString}"
+      },
+      "hesitations_pane": {
+        "of": "{round}% · {hesitated} di {toLocaleString}"
+      },
+      "overview_pane": {
+        "recent_tests": "test recenti",
+        "group_stats": "{wpm} ppm · {accuracy}% · {count, plural, one {# test} other {# test}}"
+      },
+      "periods_pane": {
+        "wpm": " ppm"
+      },
+      "stats_charts": {
+        "wpm_of_recent_tests_use": "PPM dei test recenti. Usa le frecce sinistra e destra per leggere ogni test.",
+        "recent_tests": "Test recenti",
+        "complete_a_couple_of_tests": "Completa un paio di test per vedere una tendenza.",
+        "accuracy": "{value}% di precisione",
+        "not_enough_typing": "digitazione insufficiente",
+        "ms": "{round} ms",
+        "keyboard_coloured_by_how_often": "Tastiera colorata in base a quanto spesso ogni tasto viene digitato correttamente al primo tentativo. La tabella qui sotto mostra gli stessi valori.",
+        "use_the_left_and_right": "{label}. Usa le frecce sinistra e destra per leggere ogni giorno.",
+        "no_typing": "nessuna digitazione",
+        "day_tests": "{count, plural, one {# test} other {# test}}",
+        "day_wpm": " · {wpm} ppm"
+      },
+      "stats": {
+        "sections_label": "sezioni delle statistiche"
+      }
+    },
+    "texts": {
+      "sections": {
+        "texts": "i miei testi",
+        "texts_blurb": "Quello che scrivi tu, esercitato esattamente come l'hai scritto.",
+        "quotes": "le mie citazioni",
+        "quotes_blurb": "Le citazioni che aggiungi entrano nei test di citazioni e misti (60 caratteri o più).",
+        "datasets": "dataset",
+        "datasets_blurb": "Libri e raccolte che forniscono citazioni, elenchi di parole ed esercizi."
+      },
+      "labels": {
+        "title": "titolo",
+        "text_aria": "testo",
+        "paste_placeholder": "incolla qui il testo",
+        "my_texts": "i miei testi",
+        "datasets": "dataset",
+        "sections_aria": "sezioni dei testi",
+        "subfolders_too": " anche sottocartelle",
+        "drop_hint": "oppure trascina qui i file",
+        "words_count": "{count, plural, one {# parola} other {# parole}}",
+        "paragraphs_count": "{count, plural, one {# paragrafo} other {# paragrafi}}"
+      },
+      "actions": {
+        "save": "salva",
+        "save_changes": "salva modifiche",
+        "cancel": "annulla",
+        "practise": "esercitati",
+        "edit": "modifica",
+        "delete": "elimina",
+        "delete_confirm": "eliminare?",
+        "yes_delete": "sì, elimina",
+        "keep": "conserva",
+        "practise_aria": "esercita {title}",
+        "edit_aria": "modifica {title}",
+        "delete_aria": "elimina {title}",
+        "new_text": "nuovo testo",
+        "import_files": "importa .txt o .md",
+        "import_folder": "importa una cartella"
+      },
+      "status": {
+        "saved": "salvato \"{title}\"",
+        "updated": "aggiornato \"{title}\"",
+        "imported": "importato \"{title}\"",
+        "deleted": "eliminato \"{title}\"",
+        "no_folder_files": "nessun file .txt o .md in quella cartella",
+        "empty": "Non ci sono ancora testi salvati. Incolla qualcosa su cui vuoi esercitarti o importa un file .txt. I testi restano su questo dispositivo."
+      },
+      "quotes": {
+        "quote_placeholder": "la citazione",
+        "quote_aria": "citazione",
+        "author_placeholder": "chi l'ha detta",
+        "source_placeholder": "facoltativo",
+        "add_quote": "aggiungi citazione",
+        "author": "autore",
+        "source": "fonte",
+        "authors": "autori",
+        "sources": "fonti",
+        "added": "citazione aggiunta",
+        "updated": "citazione aggiornata",
+        "deleted": "citazione eliminata",
+        "unknown": "— sconosciuto",
+        "too_short": " · troppo breve per i test ({min}+ caratteri)",
+        "empty": "Aggiungi le citazioni che ti piacciono; compariranno nei test di citazioni e misti. Raccolte come un file quotes.json possono essere installate in dataset."
+      },
+      "github_import": {
+        "github_s_limit_for_downloads": "È stato raggiunto il limite di GitHub per i download senza accesso. Riprova tra un'ora.",
+        "that_repository_or_folder_wasn": "Quel repository o quella cartella non è stata trovata (potrebbe essere privata).",
+        "github_answered": "GitHub ha risposto {status}.",
+        "that_isn_t_a_github": "Questo non è l'indirizzo di un repository GitHub (github.com/owner/repo).",
+        "no_txt_or_md_files": "Non sono stati trovati file .txt o .md.",
+        "the_files_couldn_t_be": "Non è stato possibile scaricare i file.",
+        "listing_files": "elenco dei file…",
+        "downloading_progress": "download {current} di {total}…"
+      },
+      "importers": {
+        "doesn_t_look_like_a": "{name} non sembra un file di testo.",
+        "isn_t_utf_8_text": "{name} non è testo UTF-8.",
+        "only_files_can_be_imported": "{name}: possono essere importati solo file {ACCEPTED_EXTENSIONS}.",
+        "is_larger_than_5_mb": "{name} supera i 5 MB.",
+        "is_empty": "{name} è vuoto."
+      },
+      "quote_collections": {
+        "no_quotes_were_found_in": "Non sono state trovate citazioni in quel file."
+      }
+    },
+    "themes": {
+      "editor": {
+        "save_theme": "salva tema",
+        "name": "nome",
+        "light_or_dark": "chiaro o scuro",
+        "readability": "leggibilità",
+        "page": "pagina",
+        "background": "sfondo",
+        "panels": "pannelli",
+        "lines_borders": "linee e bordi",
+        "selection": "selezione",
+        "text": "testo",
+        "dim_text": "testo attenuato",
+        "accent": "accento",
+        "typed_text": "testo digitato",
+        "mistakes": "errori",
+        "extra_letters": "lettere extra",
+        "caret": "cursore"
+      },
+      "actions": {
+        "use": "usa",
+        "edit": "modifica",
+        "decorate": "decora",
+        "export": "esporta",
+        "delete": "elimina",
+        "done": "fine",
+        "customise_current": "personalizza il tema corrente",
+        "import_theme": "importa un tema",
+        "decorations_for": "decorazioni per {name}",
+        "use_theme": "usa {name}",
+        "edit_theme": "modifica {name}",
+        "decorate_theme": "decora {name}",
+        "export_theme": "esporta {name}",
+        "delete_theme": "elimina {name}",
+        "copy_and_decorate": "copia questo tema e decoralo",
+        "decorations_earned_zero": "Le decorazioni dei temi, ottenute giocando, si applicano ai temi personali.",
+        "decorations_earned_notice": "Hai ottenuto {count, plural, one {una decorazione del tema} other {# decorazioni del tema}}. Si applicano ai tuoi temi, quindi crea una copia di questo per indossare {count, plural, one {la decorazione} other {le decorazioni}}.",
+        "decorations_earned_info": "Ottenute giocando. Restano con questo tema su questo profilo e non vengono incluse quando esporti il tema."
+      },
+      "picker": {
+        "preview": "anteprima",
+        "instructions": "passa sopra per un'anteprima · fai clic o premi Invio per applicare · Esc per chiudere",
+        "close": "chiudi"
+      },
+      "decorationSlots": {
+        "caret": {
+          "title": "cursore",
+          "hint": "attorno al cursore (la sua forma è un'impostazione di digitazione)"
+        },
+        "backdrop": {
+          "title": "sfondo",
+          "hint": "un motivo tenue dietro la pagina"
+        },
+        "frame": {
+          "title": "cornice",
+          "hint": "attorno al testo che digiti"
+        },
+        "keystroke": {
+          "title": "battitura",
+          "hint": "come si assesta ogni lettera digitata"
+        },
+        "flourish": {
+          "title": "ornamento",
+          "hint": "un piccolo segno accanto al marchio"
+        }
+      },
+      "decorations": {
+        "caret-glow": {
+          "name": "bagliore morbido"
+        },
+        "caret-halo": {
+          "name": "alone"
+        },
+        "caret-drop": {
+          "name": "goccia d'inchiostro"
+        },
+        "caret-trail": {
+          "name": "coda di cometa"
+        },
+        "backdrop-dots": {
+          "name": "griglia di puntini"
+        },
+        "backdrop-ruled": {
+          "name": "carta rigata"
+        },
+        "backdrop-graph": {
+          "name": "carta millimetrata"
+        },
+        "backdrop-grain": {
+          "name": "grana"
+        },
+        "backdrop-checks": {
+          "name": "quadretti morbidi"
+        },
+        "frame-corners": {
+          "name": "segni agli angoli"
+        },
+        "frame-bookplate": {
+          "name": "ex libris"
+        },
+        "frame-tab": {
+          "name": "linguetta di cartella"
+        },
+        "frame-brackets": {
+          "name": "parentesi"
+        },
+        "keystroke-ink": {
+          "name": "dissolvenza d'inchiostro"
+        },
+        "keystroke-rise": {
+          "name": "salita delicata"
+        },
+        "keystroke-bloom": {
+          "name": "fioritura"
+        },
+        "flourish-leaf": {
+          "name": "foglia"
+        },
+        "flourish-star": {
+          "name": "stella"
+        },
+        "flourish-key": {
+          "name": "tasto"
+        },
+        "flourish-letter": {
+          "name": "lettera del tuo compagno"
+        },
+        "flourish-moon": {
+          "name": "luna"
+        }
+      },
+      "presets": {
+        "paper": {
+          "name": "carta"
+        },
+        "ink": {
+          "name": "inchiostro"
+        },
+        "dusk": {
+          "name": "crepuscolo"
+        },
+        "eink": {
+          "name": "e-ink"
+        },
+        "eink-night": {
+          "name": "e-ink notturno"
+        },
+        "cream": {
+          "name": "crema"
+        },
+        "rose": {
+          "name": "rosa"
+        },
+        "harbour": {
+          "name": "porto"
+        },
+        "forest": {
+          "name": "foresta"
+        },
+        "plum": {
+          "name": "prugna"
+        },
+        "slate": {
+          "name": "ardesia"
+        },
+        "terminal": {
+          "name": "terminale"
+        },
+        "contrast": {
+          "name": "alto contrasto"
+        },
+        "contrast-night": {
+          "name": "alto contrasto notturno"
+        }
+      },
+      "checks": {
+        "text_bg": "testo sulla pagina",
+        "text_surface": "testo sui pannelli",
+        "textDim_bg": "testo attenuato sulla pagina",
+        "textDim_surface": "testo attenuato sui pannelli",
+        "correct_bg": "testo digitato",
+        "incorrect_bg": "errori",
+        "correct_textDim": "il testo digitato risalta rispetto a quello ancora da digitare",
+        "accent_bg": "accento",
+        "caret_bg": "cursore",
+        "extra_bg": "lettere extra",
+        "chartWpm_bg": "grafico: linea ppm",
+        "chartRaw_bg": "grafico: linea grezza",
+        "chartError_bg": "grafico: errori",
+        "heat1_bg": "calore dei tasti 1",
+        "heat4_bg": "calore dei tasti 4",
+        "not_a_theme": "non è un tema",
+        "needs_a_name": "richiede un nome di massimo 40 caratteri",
+        "scheme_must_be": "lo schema deve essere chiaro o scuro",
+        "bad_hex": "il colore \"{token}\" deve essere un valore #rrggbb",
+        "not_readable": "leggibilità insufficiente: {labels}"
+      }
+    },
+    "typing": {
+      "mode": {
+        "time": "tempo",
+        "words": "parole",
+        "quote": "citazione",
+        "book": "libro",
+        "mixed": "misto",
+        "sustained": "sostenuto",
+        "custom": "personalizzato",
+        "mistakes": "errori"
+      },
+      "mode_label": "modalità",
+      "sustained_title": "Mantieni un ritmo o una precisione il più a lungo possibile",
+      "status": {
+        "caps_lock": "Bloc Maiusc è attivo",
+        "restart": "riavvia",
+        "pause": "pausa",
+        "resume": "riprendi",
+        "caps_lock_label": "Bloc Maiusc",
+        "num_lock_off": "Bloc Num è disattivato",
+        "num_lock_off_title": "il tastierino numerico invia frecce mentre Bloc Num è disattivato",
+        "time_so_far": "tempo trascorso",
+        "focus_click": "fai clic o premi un tasto qualsiasi per mettere a fuoco",
+        "restart_symbol": "↻ "
+      },
+      "hints": {
+        "tab_enter_restart": "tab → invio per riavviare · esc comandi",
+        "tab_tab_restart": "tab → tab per riavviare · esc comandi",
+        "enter_to_restart": "invio per riavviare",
+        "tab_to_restart": "tab per riavviare"
+      },
+      "focus": {
+        "label": "messa a fuoco: {mode}",
+        "aria_label": "vista del focus: {mode}. Premi per cambiare.",
+        "off": "disattivato",
+        "line": "riga",
+        "sentence": "frase"
+      },
+      "instructions": {
+        "standard": "Digita il testo mostrato. Spazio passa alla parola successiva e Backspace corregge. Tab poi Invio riavvia. Esc apre la riga di comando.",
+        "sustained": "Mantieni il ritmo pari o superiore all'obiettivo. Tre secondi al di sotto terminano il test. Spazio passa alla parola successiva e Backspace corregge. Tab poi Invio riavvia. Esc apre la riga di comando.",
+        "accuracy": "Mantieni la precisione pari o superiore all'obiettivo mentre digiti a ritmo costante. Cinque secondi al di sotto terminano il test. Spazio passa alla parola successiva e Backspace corregge. Tab poi Invio riavvia. Esc apre la riga di comando."
+      },
+      "mode_bar": {
+        "custom": "personalizzato {unit}",
+        "enable_a_book_dataset": "attiva un dataset di libri",
+        "add_a_text_to_read": "aggiungi un testo da leggere",
+        "from": "dal {percent}%",
+        "start_over": "ricomincia",
+        "read_this_one_from_the": "leggi questo dall'inizio",
+        "add_a_text_to_practise": "aggiungi un testo su cui esercitarti",
+        "manage": "gestisci",
+        "change": "cambia",
+        "choose_what_and_how_to": "scegli cosa e come allenarti",
+        "TABS": {
+          "time": {
+            "label": "tempo"
+          },
+          "words": {
+            "label": "parole"
+          },
+          "quote": {
+            "label": "citazione"
+          },
+          "mixed": {
+            "label": "misto"
+          },
+          "sustained": {
+            "label": "sostenuto",
+            "title": "Mantieni un ritmo o una precisione il più a lungo possibile"
+          },
+          "custom": {
+            "label": "personalizzato"
+          }
+        },
+        "SUSTAINED_SOURCES": {
+          "wordstream": {
+            "label": "parole comuni"
+          },
+          "quotes": {
+            "label": "citazioni"
+          },
+          "work": {
+            "label": "libri"
+          },
+          "text": {
+            "label": "i miei testi"
+          }
+        },
+        "BOOK_ORDER_OPTIONS": {
+          "sequential": {
+            "label": "in ordine",
+            "title": "Continua da dove ti sei fermato, poi passa al libro successivo"
+          },
+          "passages": {
+            "label": "brani",
+            "title": "Brani casuali dal libro"
+          },
+          "chunks": {
+            "label": "segmenti",
+            "title": "Segmenti casuali del libro"
+          }
+        },
+        "source": {
+          "wordstream": {
+            "label": "parole comuni"
+          },
+          "quotes": {
+            "label": "citazioni"
+          }
+        },
+        "nodes": {
+          "pace": {
+            "label": "ritmo",
+            "title": "Mantieni la velocità recente pari o superiore a un obiettivo (3 secondi per recuperare)"
+          },
+          "accuracy": {
+            "label": "precisione"
+          }
+        },
+        "lengthOptions": {
+          "entire": {
+            "label": "testo intero"
+          }
+        },
+        "custom_title": "personalizzato",
+        "accuracy_title": "Mantieni la precisione recente pari o superiore a un obiettivo, digitando almeno {floor} ppm (5 secondi per recuperare)",
+        "keep_up": "mantieni il ritmo",
+        "text_source": "fonte del testo",
+        "text_to_read": "testo da leggere",
+        "reading_order": "ordine di lettura",
+        "text_to_practise": "testo su cui esercitarti",
+        "book_to_read": "libro da leggere",
+        "unit_words": "parole",
+        "unit_wpm": "ppm",
+        "unit_seconds": "secondi"
+      },
+      "training_notice": {
+        "mistakes": "errori, {join}",
+        "suggested": "{count, plural, one {# suggerito} other {# suggeriti}}",
+        "ready": "{count, plural, one {# pronto per l'allenamento} other {# pronti per l'allenamento}}"
+      },
+      "type_view_goal": {
+        "today": "✓ {formatGoalAmount} oggi",
+        "today_2": "{floor} / {formatGoalAmount} oggi",
+        "aria": "obiettivo giornaliero: {done} di {target} oggi{met}",
+        "aria_met": ", raggiunto"
+      },
+      "type_view_pace": {
+        "target": "obiettivo {target}%",
+        "target_wpm": "obiettivo {target} ppm",
+        "wpm": "{round} / {target} ppm",
+        "below_target_words_per_minute": "Sotto l'obiettivo: {target} parole al minuto. {seconds} secondi per recuperare.",
+        "too_slow_keep_at_least": "Troppo lento: mantieni almeno {floorWpm} parole al minuto. {seconds} secondi per recuperare.",
+        "accuracy_below_percent_seconds_to": "Precisione sotto il {target} percento. {seconds} secondi per recuperare.",
+        "back_on_target": "Di nuovo sull'obiettivo.",
+        "back_on_pace": "Di nuovo al ritmo."
+      },
+      "type_view": {
+        "wpm": "{round} ppm · {round2}%",
+        "test_complete_words_per_minute": "Test completato: {round} parole al minuto, precisione {toFixed} percento, {errors} errori."
+      },
+      "typing_input": {
+        "typing_input": "input di digitazione"
+      },
+      "type_view_book": {
+        "now_reading": "Ora stai leggendo {title}{by}.",
+        "by_author": " di {author}",
+        "now": "ora: {title}{by}"
+      },
+      "text_providers": {
+        "unknown_practice_source": "Fonte di esercitazione sconosciuta \"{source}\""
+      }
+    },
+    "wardrobe": {
+      "slots": {
+        "hat": {
+          "label": "cappello",
+          "none": "nessun cappello"
+        },
+        "face": {
+          "label": "viso",
+          "none": "viso classico"
+        },
+        "necklace": {
+          "label": "collana",
+          "none": "nessuna collana"
+        },
+        "braceletLeft": {
+          "label": "polso sinistro",
+          "none": "polso scoperto"
+        },
+        "braceletRight": {
+          "label": "polso destro",
+          "none": "polso scoperto"
+        },
+        "pants": {
+          "label": "pantaloni",
+          "none": "nessun pantalone"
+        },
+        "background": {
+          "label": "sfondo",
+          "none": "nessuno sfondo"
+        },
+        "heart": {
+          "label": "cuore",
+          "none": "cuore semplice"
+        },
+        "ring": {
+          "label": "anello",
+          "none": "nessun anello"
+        }
+      },
+      "party-hat": {
+        "name": "cappello da festa"
+      },
+      "beanie": {
+        "name": "berretto"
+      },
+      "cap": {
+        "name": "cappellino"
+      },
+      "headphones": {
+        "name": "cuffie"
+      },
+      "top-hat": {
+        "name": "cilindro"
+      },
+      "wizard-hat": {
+        "name": "cappello da mago"
+      },
+      "space-helmet": {
+        "name": "casco spaziale"
+      },
+      "hard-hat": {
+        "name": "elmetto da lavoro"
+      },
+      "explorer-hat": {
+        "name": "cappello da esploratore"
+      },
+      "hair-bow": {
+        "name": "fiocco per capelli"
+      },
+      "flat-cap": {
+        "name": "coppola"
+      },
+      "beret": {
+        "name": "basco"
+      },
+      "sun-hat": {
+        "name": "cappello da sole"
+      },
+      "bucket-hat": {
+        "name": "cappello a secchiello"
+      },
+      "chef-hat": {
+        "name": "cappello da chef"
+      },
+      "graduation-cap": {
+        "name": "tocco da laurea"
+      },
+      "crown": {
+        "name": "corona"
+      },
+      "round-eyes": {
+        "name": "occhi rotondi"
+      },
+      "sparkly": {
+        "name": "occhi scintillanti"
+      },
+      "pixel-eyes": {
+        "name": "occhi pixelati"
+      },
+      "blush": {
+        "name": "guance arrossate"
+      },
+      "freckles": {
+        "name": "lentiggini"
+      },
+      "round-glasses": {
+        "name": "occhiali rotondi"
+      },
+      "monocle": {
+        "name": "monocolo"
+      },
+      "star-eyes": {
+        "name": "occhi a stella"
+      },
+      "heart-eyes": {
+        "name": "occhi a cuore"
+      },
+      "sleepy-lids": {
+        "name": "palpebre assonnate"
+      },
+      "beads": {
+        "name": "collana di perline"
+      },
+      "bow-tie": {
+        "name": "papillon"
+      },
+      "scarf": {
+        "name": "sciarpa"
+      },
+      "medal": {
+        "name": "medaglia"
+      },
+      "keycap-pendant": {
+        "name": "ciondolo a forma di tasto"
+      },
+      "compass": {
+        "name": "bussola"
+      },
+      "pearls": {
+        "name": "perle"
+      },
+      "tie": {
+        "name": "cravatta"
+      },
+      "locket": {
+        "name": "ciondolo portafoto"
+      },
+      "quill-pendant": {
+        "name": "ciondolo con piuma"
+      },
+      "friendship-band": {
+        "name": "braccialetto dell'amicizia"
+      },
+      "gold-band": {
+        "name": "fede d'oro"
+      },
+      "watch": {
+        "name": "orologio"
+      },
+      "key-chain": {
+        "name": "catena di tasti"
+      },
+      "spiked-band": {
+        "name": "bracciale borchiato"
+      },
+      "trail-band": {
+        "name": "bracciale della scia"
+      },
+      "charm-bracelet": {
+        "name": "braccialetto con ciondoli"
+      },
+      "sweatband": {
+        "name": "fascia antisudore"
+      },
+      "beaded-band": {
+        "name": "bracciale di perline"
+      },
+      "shorts": {
+        "name": "pantaloncini"
+      },
+      "jeans": {
+        "name": "jeans"
+      },
+      "dungarees": {
+        "name": "salopette"
+      },
+      "kilt": {
+        "name": "kilt"
+      },
+      "skirt": {
+        "name": "gonna"
+      },
+      "cargo-pants": {
+        "name": "pantaloni cargo"
+      },
+      "pyjama-bottoms": {
+        "name": "pantaloni del pigiama"
+      },
+      "space-trousers": {
+        "name": "pantaloni spaziali"
+      },
+      "theme-tile": {
+        "name": "tessera del tema"
+      },
+      "stars": {
+        "name": "stelle"
+      },
+      "bricks": {
+        "name": "mattoni"
+      },
+      "leaves": {
+        "name": "foglie"
+      },
+      "paper": {
+        "name": "carta"
+      },
+      "keyboard": {
+        "name": "tastiera"
+      },
+      "rain": {
+        "name": "pioggia"
+      },
+      "waves": {
+        "name": "onde"
+      },
+      "typewriter": {
+        "name": "macchina da scrivere"
+      },
+      "bookshelf": {
+        "name": "libreria"
+      },
+      "sunrise": {
+        "name": "alba"
+      },
+      "heart-star": {
+        "name": "stella"
+      },
+      "heart-note": {
+        "name": "nota"
+      },
+      "heart-key": {
+        "name": "tasto"
+      },
+      "heart-paw": {
+        "name": "zampa"
+      },
+      "heart-flag": {
+        "name": "bandiera"
+      },
+      "heart-bolt": {
+        "name": "fulmine"
+      },
+      "heart-moon": {
+        "name": "luna"
+      },
+      "heart-leaf": {
+        "name": "foglia"
+      },
+      "heart-sun": {
+        "name": "sole"
+      },
+      "heart-amp": {
+        "name": "la e commerciale"
+      },
+      "heart-k": {
+        "name": "la lettera k"
+      },
+      "ring": {
+        "name": "anello"
+      },
+      "ui": {
+        "default_hint": "predefinito",
+        "locked": "bloccato",
+        "new_badge": "nuovo",
+        "wearing_it": "indossato",
+        "ring_worn": "l'anello: da indossare per sempre",
+        "title": "guardaroba di {companion}",
+        "tab_aria": "{label}, {unlocked} di {total} sbloccati",
+        "item_worn_aria": "{name}, indossato",
+        "item_locked_aria": "{name}, bloccato: {hint}",
+        "remove_all": "rimuovi tutti gli elementi estetici",
+        "news_new_item": "un nuovo {name}",
+        "news_new_items": "{count, plural, one {una cosa nuova} other {# cose nuove}}",
+        "news_earned": "oh, hai conquistato {what} per il mio guardaroba!",
+        "try_it_on": "provalo",
+        "status_worn": "{name}: {state}",
+        "status_hint_progress": "{name}: {hint} ({have} di {need})",
+        "status_hint": "{name}: {hint}"
+      }
+    },
+    "words": {
+      "filter": {
+        "warning": "Gli elenchi di parole di Kalibre provengono da vecchi libri e grandi dizionari, che includono insulti e altre parole offensive. Con il filtro disattivato, possono comparire nei test, negli allenamenti, nelle lezioni e nei giochi. Disattivandolo accetti che potresti vederle e che l'autore di Kalibre non è responsabile di eventuali offese causate.",
+        "turn_off": "disattiva il filtro",
+        "keep_on": "lascialo attivo",
+        "confirm_title": "disattivare il filtro per le parole offensive?",
+        "filter_on": "filtro attivo",
+        "filter_off": "filtro disattivato",
+        "placeholder": "una per riga oppure separate da virgole; termina con * per ogni parola che inizia con questo",
+        "filtered_count": "{count, plural, one {# parola} other {# parole}} personali filtrate",
+        "no_words": "nessuna parola personale",
+        "heading": "parole offensive",
+        "toggle_label": "filtra le parole offensive",
+        "own_label": "parole personali da filtrare",
+        "explanation": "Attivo: insulti e bestemmie più pesanti vengono esclusi dagli elenchi di parole e i brani che li contengono vengono saltati. I tuoi testi e le tue citazioni non vengono mai modificati.",
+        "own_explanation": "Conservate solo con questo profilo e mai condivise. Si applicano mentre il filtro è attivo."
+      }
     }
   }
 }
