@@ -20,15 +20,15 @@
   "version": "2026-10-03",
   "changes": "Initial Italian candidate translation",
   "files": {
-    "about.json": "1d1ee560dcb199d7ca1c3a355db05c137723f67f5590501cc988986ff6f58649",
-    "achievements.json": "ff6dabf67348940a9bbf9c35f9e0d6e00f7f4d0c3f1ed178cddabf1093768e90",
-    "cards.json": "49e8546144503d2a93020080f626674a0e410de19b469428e97d7edbbc9c638a",
-    "cars.json": "41adf85dca37551850b34e2ae99d5226a396c9c16b1533b1c7777fe1023e42b7",
-    "chrome.json": "3cb807ecebefc93005b58bb7d7cb405d3ea1e99dab6549acb100effce961cb6f",
-    "commands.json": "b68c9f4639d4639123af219ba536804e529efba6ab98fd5541ccae952d150a34",
-    "common.json": "ca4f7fbe550b4b72b5fff1111754241b530bdbe043f5b67c594180401e3ce3aa",
-    "companions.cal.json": "ee9750dce9a1ebbf8600c8169f0b97e1870c40d6efd84b8215af1cf9862521f9",
-    "companions.json": "c4ef32326cc7a2bd187ee3bdf37643b2c250d8643f46df392abab9a510c7cf31",
+    "about.json": "f345006819a29c30d78be2d18e6b05039770492f57a82bd72566242474634578",
+    "achievements.json": "0a13b4cf33ea486609941539cb16a85e1841a177f11358cd16d12ff6910ed963",
+    "cards.json": "c321f69f33b7518d8f9e89f0a8e13367a73b978fc1c66fa0b62469de55f62c54",
+    "cars.json": "332b3a697fa915348244ddf25e166032850f64fe44055a482dd7abf30d33bac9",
+    "chrome.json": "0631614034baaa87e0087f6ca91bbbfd58526e16ebacc84ec4ae1ec340a7d9d2",
+    "commands.json": "d1dd7063e3431f37d303d9e30bf0a6a9e354083fb4c4495021aa43a8843d2b5e",
+    "common.json": "932e6da5046685787f7d916bdbaaebe00bb75cb6dcc4a32817871de9a87fab0f",
+    "companions.cal.json": "afd9f975a2ecd2032dff011c6d6f0c822b92871c74cecbc40c9810c9f470eb2b",
+    "companions.json": "fd61cb66436e9865967166f5022f150e28fdbf6982ae8a1239171217d7e1c5c2",
     "companions.libby.json": "a5d7189f7d3dda236fbac1567ecbca7e456f26c11bfc476fc8641fe985459497"
   }
 }
