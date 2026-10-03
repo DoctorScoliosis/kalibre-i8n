@@ -1,0 +1,128 @@
+{
+  "editor": {
+    "save_theme": "salva tema",
+    "name": "nome",
+    "light_or_dark": "chiaro o scuro",
+    "readability": "leggibilità",
+    "page": "pagina",
+    "background": "sfondo",
+    "panels": "pannelli",
+    "lines_borders": "linee e bordi",
+    "selection": "selezione",
+    "text": "testo",
+    "dim_text": "testo attenuato",
+    "accent": "accento",
+    "typed_text": "testo digitato",
+    "mistakes": "errori",
+    "extra_letters": "lettere extra",
+    "caret": "cursore"
+  },
+  "actions": {
+    "use": "usa",
+    "edit": "modifica",
+    "decorate": "decora",
+    "export": "esporta",
+    "delete": "elimina",
+    "done": "fine",
+    "customise_current": "personalizza il tema corrente",
+    "import_theme": "importa un tema",
+    "decorations_for": "decorazioni per {name}",
+    "use_theme": "usa {name}",
+    "edit_theme": "modifica {name}",
+    "decorate_theme": "decora {name}",
+    "export_theme": "esporta {name}",
+    "delete_theme": "elimina {name}",
+    "copy_and_decorate": "copia questo tema e decoralo",
+    "decorations_earned_zero": "Le decorazioni dei temi, ottenute giocando, si applicano ai temi personali.",
+    "decorations_earned_notice": "Hai ottenuto {count, plural, one {una decorazione del tema} other {# decorazioni del tema}}. Si applicano ai tuoi temi, quindi crea una copia di questo per indossare {count, plural, one {la decorazione} other {le decorazioni}}.",
+    "decorations_earned_info": "Ottenute giocando. Restano con questo tema su questo profilo e non vengono incluse quando esporti il tema."
+  },
+  "picker": {
+    "preview": "anteprima",
+    "instructions": "passa sopra per un'anteprima · fai clic o premi Invio per applicare · Esc per chiudere",
+    "close": "chiudi"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "cursore",
+      "hint": "attorno al cursore (la sua forma è un'impostazione di digitazione)"
+    },
+    "backdrop": {
+      "title": "sfondo",
+      "hint": "un motivo tenue dietro la pagina"
+    },
+    "frame": {
+      "title": "cornice",
+      "hint": "attorno al testo che digiti"
+    },
+    "keystroke": {
+      "title": "battitura",
+      "hint": "come si assesta ogni lettera digitata"
+    },
+    "flourish": {
+      "title": "ornamento",
+      "hint": "un piccolo segno accanto al marchio"
+    }
+  },
+  "decorations": {
+    "caret-glow": { "name": "bagliore morbido" },
+    "caret-halo": { "name": "alone" },
+    "caret-drop": { "name": "goccia d'inchiostro" },
+    "caret-trail": { "name": "coda di cometa" },
+    "backdrop-dots": { "name": "griglia di puntini" },
+    "backdrop-ruled": { "name": "carta rigata" },
+    "backdrop-graph": { "name": "carta millimetrata" },
+    "backdrop-grain": { "name": "grana" },
+    "backdrop-checks": { "name": "quadretti morbidi" },
+    "frame-corners": { "name": "segni agli angoli" },
+    "frame-bookplate": { "name": "ex libris" },
+    "frame-tab": { "name": "linguetta di cartella" },
+    "frame-brackets": { "name": "parentesi" },
+    "keystroke-ink": { "name": "dissolvenza d'inchiostro" },
+    "keystroke-rise": { "name": "salita delicata" },
+    "keystroke-bloom": { "name": "fioritura" },
+    "flourish-leaf": { "name": "foglia" },
+    "flourish-star": { "name": "stella" },
+    "flourish-key": { "name": "tasto" },
+    "flourish-letter": { "name": "lettera del tuo compagno" },
+    "flourish-moon": { "name": "luna" }
+  },
+  "presets": {
+    "paper": { "name": "carta" },
+    "ink": { "name": "inchiostro" },
+    "dusk": { "name": "crepuscolo" },
+    "eink": { "name": "e-ink" },
+    "eink-night": { "name": "e-ink notturno" },
+    "cream": { "name": "crema" },
+    "rose": { "name": "rosa" },
+    "harbour": { "name": "porto" },
+    "forest": { "name": "foresta" },
+    "plum": { "name": "prugna" },
+    "slate": { "name": "ardesia" },
+    "terminal": { "name": "terminale" },
+    "contrast": { "name": "alto contrasto" },
+    "contrast-night": { "name": "alto contrasto notturno" }
+  },
+  "checks": {
+    "text_bg": "testo sulla pagina",
+    "text_surface": "testo sui pannelli",
+    "textDim_bg": "testo attenuato sulla pagina",
+    "textDim_surface": "testo attenuato sui pannelli",
+    "correct_bg": "testo digitato",
+    "incorrect_bg": "errori",
+    "correct_textDim": "il testo digitato risalta rispetto a quello ancora da digitare",
+    "accent_bg": "accento",
+    "caret_bg": "cursore",
+    "extra_bg": "lettere extra",
+    "chartWpm_bg": "grafico: linea ppm",
+    "chartRaw_bg": "grafico: linea grezza",
+    "chartError_bg": "grafico: errori",
+    "heat1_bg": "calore dei tasti 1",
+    "heat4_bg": "calore dei tasti 4",
+    "not_a_theme": "non è un tema",
+    "needs_a_name": "richiede un nome di massimo 40 caratteri",
+    "scheme_must_be": "lo schema deve essere chiaro o scuro",
+    "bad_hex": "il colore \"{token}\" deve essere un valore #rrggbb",
+    "not_readable": "leggibilità insufficiente: {labels}"
+  }
+}

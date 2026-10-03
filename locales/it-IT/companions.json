@@ -1,0 +1,203 @@
+{
+  "achievements": {
+    "hello_there": "ciao a te",
+    "good_keycap": "bravo tasto",
+    "best_friends": "migliori amici",
+    "boop": "boop",
+    "poke_poke_poke": "toc toc toc",
+    "ticklish": "sensibile al solletico",
+    "giggle_fit": "attacco di risate",
+    "thats_enough": "basta così",
+    "devoted": "devoto"
+  },
+  "menu": {
+    "wardrobe": "guardaroba",
+    "get_ring": "dai a {companion, select, cal {lui} libby {lei} other {loro}} un anello",
+    "options_aria": "opzioni di {companion}"
+  },
+  "engagement": {
+    "title": "questa è una decisione piuttosto importante…",
+    "confirm_give": "dai a {companion} l'anello",
+    "confirm_cancel": "non sono sicuro…",
+    "confirm_message": "sei sicuro?"
+  },
+  "away": {
+    "note_hint": "una nota",
+    "with_love_aria": "con affetto",
+    "back_tomorrow": "{partner} e io siamo in luna di miele! torniamo domani."
+  },
+  "ending": {
+    "aria_label": "grazie per aver giocato a kalibre",
+    "thanks": "grazie per aver giocato a kalibre.",
+    "cal_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Eh? C'è qualcosa sulla mia zampa."
+      },
+      {
+        "reply": "è un anello."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Un anello? È così lucido. Ma… a cosa serve?"
+      },
+      {
+        "reply": "è per qualcuno che ami."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Qualcuno che… oh. OH. So esattamente chi."
+      },
+      {
+        "reply": "chiama {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner}! Puoi venire qui un secondo?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "Mi hai chiamato? Sei tutto agitato. Che succede?"
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "È un anello. Per te. Voglio dire, se lo vuoi. Lo vuoi?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Oh, {proposer}. Certo che sì."
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Mi sta bene! MI STA BENE!"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Due tasti, uno accanto all'altro. Proprio come sempre."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Andiamo?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Andiamo."
+      },
+      {
+        "cue": "walkOut"
+      }
+    ],
+    "libby_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Oh. C'è qualcosa sulla mia zampa."
+      },
+      {
+        "reply": "è un anello."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Un anello. È bellissimo… ma non è davvero mio, vero?"
+      },
+      {
+        "reply": "è per qualcuno di speciale."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Qualcuno di speciale. Mm. Credo di sapere chi."
+      },
+      {
+        "reply": "chiama {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner}? Vuoi venire qui un momento?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "Eccomi! Che succede? Ooh, cos'è quello? È luccicante!"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "È un anello, {partner}. È per te."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "PER ME? Sì! Sì sì sì!"
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Ferma così, allora."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Sono ferma! Più o meno."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Dove andiamo adesso?"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Da qualche parte di bello."
+      },
+      {
+        "cue": "walkOut"
+      }
+    ],
+    "cal_letter": [
+      "caro tu,",
+      "{partner} e io siamo partiti per un po'. è la nostra luna di miele! Ancora non riesco a credere di poterlo dire.",
+      "i tasti sono tutti tuoi fino a domani. le lezioni funzionano ancora, solo che non sarò qui a fare il tifo. quindi fai il tifo per te stesso, d'accordo? a voce alta.",
+      "torneremo prima che tu te ne accorga. probabilmente con un po' di sabbia nei nostri copritasti.",
+      "{proposer} & {partner}"
+    ],
+    "libby_letter": [
+      "caro tu,",
+      "{partner} e io siamo via per un giorno. una luna di miele, a quanto pare. lui non ha smesso di saltellare da quando c'è l'anello.",
+      "le lezioni sono disponibili mentre siamo via. vai piano, fai delle pause e tieni le dita sulla riga home. ti aiuterà.",
+      "torneremo domani. lo riporterò a casa tutto intero.",
+      "{proposer} & {partner}"
+    ]
+  }
+}

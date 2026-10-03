@@ -1,0 +1,114 @@
+{
+  "view": {
+    "card_aria": "scheda di {name}: {described}"
+  },
+  "window": {
+    "your_card": "la tua scheda",
+    "card_title": "scheda",
+    "cosmetics": "elementi estetici",
+    "stickers": "adesivi",
+    "garage": "garage",
+    "done": "fine"
+  },
+  "card_view": {
+    "lv": "liv {level}",
+    "with_after_level": " · con {companionName}",
+    "with_companion": "con {companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "Ecco come appare la tua scheda agli altri durante una gara. Il tuo compagno sta dove ci sarebbe una foto: le foto del profilo non lasciano mai questo dispositivo. Trascina un adesivo per spostarlo; selezionane uno per cambiarne colore, dimensione e rotazione, oppure usa le frecce, [ e ], e Canc; Esc o un clic altrove lo deseleziona.",
+    "what_your_card_wears": "cosa indossa la tua scheda",
+    "colour": "colore {tokenLabel}",
+    "theme_default_colour": "colore predefinito del tema",
+    "delete_sticker": "elimina adesivo",
+    "sticker_arrows_move_it_and": "adesivo {name}: le frecce lo spostano, [ e ] lo ruotano, Canc lo rimuove; selezionalo per cambiarne colore e dimensione",
+    "selected_sticker_s_colour": "colore dell'adesivo selezionato",
+    "add_a_sticker": "aggiungi un adesivo {name}",
+    "a_secret_sticker": "un adesivo segreto",
+    "a_card_shows_at_most": "una scheda mostra al massimo {MAX_SHOWCASE}",
+    "remove_every_sticker": "rimuovi tutti gli adesivi",
+    "nothing_to_show_off_yet": "Non c'è ancora nulla da mostrare. Qui compariranno i tuoi traguardi man mano che li conquisti.",
+    "tabs": {
+      "showcase": {
+        "title": "vetrina",
+        "hint": "fino a {max} traguardi che hai conquistato"
+      },
+      "garage": {
+        "title": "garage",
+        "hint": "personalizza la tua auto da gara: è quella che guidi in pista e che vedono tutti quelli che gareggiano con te"
+      }
+    },
+    "tint": "{slot}Tonalità"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {
+        "title": "bordo",
+        "hint": "attorno alla scheda"
+      },
+      "frame": {
+        "title": "cornice",
+        "hint": "attorno al tuo compagno"
+      },
+      "aura": {
+        "title": "aura",
+        "hint": "un bagliore dietro il tuo compagno"
+      },
+      "backdrop": {
+        "title": "sfondo",
+        "hint": "dietro tutto ciò che c'è nella scheda"
+      },
+      "sticker": {
+        "title": "adesivi",
+        "hint": "trascinali ovunque sulla scheda"
+      }
+    },
+    "items": {
+      "border-double": { "name": "doppia linea" },
+      "border-stitch": { "name": "cucitura" },
+      "border-ribbon": { "name": "nastro" },
+      "border-corners": { "name": "parentesi angolari" },
+      "border-keycap": { "name": "tasto" },
+      "border-heat": { "name": "calore" },
+      "border-neon": { "name": "neon" },
+      "border-gilt": { "name": "dorato" },
+      "border-midnight": { "name": "mezzanotte" },
+      "frame-double": { "name": "doppio anello" },
+      "frame-dashed": { "name": "anello tratteggiato" },
+      "frame-square": { "name": "quadrato a forma di tasto" },
+      "frame-cog": { "name": "ingranaggio" },
+      "frame-petals": { "name": "petali" },
+      "frame-orbit": { "name": "orbita" },
+      "frame-laurel": { "name": "alloro" },
+      "frame-crown": { "name": "corona" },
+      "aura-soft": { "name": "bagliore morbido" },
+      "aura-pulse": { "name": "impulso" },
+      "aura-ember": { "name": "brace" },
+      "aura-halo": { "name": "alone" },
+      "aura-aurora": { "name": "aurora" },
+      "aura-prism": { "name": "prisma" },
+      "backdrop-dots": { "name": "puntini" },
+      "backdrop-pinstripe": { "name": "gessato" },
+      "backdrop-graph": { "name": "carta millimetrata" },
+      "backdrop-waves": { "name": "onde" },
+      "backdrop-stars": { "name": "cielo stellato" },
+      "backdrop-confetti": { "name": "coriandoli" },
+      "sticker-star": { "name": "stella" },
+      "sticker-leaf": { "name": "foglia" },
+      "sticker-key": { "name": "tasto" },
+      "sticker-heart": { "name": "cuore" },
+      "sticker-flower": { "name": "fiore" },
+      "sticker-bolt": { "name": "fulmine" },
+      "sticker-note": { "name": "nota musicale" },
+      "sticker-moon": { "name": "luna" },
+      "sticker-rocket": { "name": "razzo" },
+      "sticker-castle": { "name": "castello" },
+      "sticker-magnifier": { "name": "lente d'ingrandimento" },
+      "sticker-book": { "name": "libro" },
+      "sticker-flag": { "name": "bandiera a scacchi" },
+      "sticker-crown": { "name": "corona" },
+      "sticker-teacup": { "name": "tazza da tè" },
+      "sticker-sparkle": { "name": "scintillio" }
+    }
+  }
+}

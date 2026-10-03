@@ -1,0 +1,53 @@
+{
+  "formats": {
+    "time": "tempo",
+    "words": "parole",
+    "quote": "citazione"
+  },
+  "actions": {
+    "start_drill": "inizia allenamento",
+    "drill": "allenamento",
+    "drill_aria": "allena {mistake} ora",
+    "drill_title": "allena subito solo {mistake}, il metodo consigliato",
+    "manage_in_mistakes": "gestisci in errori",
+    "recommended": "consigliati",
+    "recommended_title": "seleziona gli errori che vale la pena allenare ora, fino al limite di un allenamento",
+    "all": "tutti",
+    "none": "nessuno",
+    "train_and_drill_these": "allena e esercita questi"
+  },
+  "labels": {
+    "how": "come",
+    "what_to_drill": "cosa allenare",
+    "drill_format": "formato dell'allenamento",
+    "drill_length": "lunghezza dell'allenamento",
+    "quote_length": "lunghezza della citazione",
+    "practise_by_area": "esercita per area",
+    "words_count": "{count, plural, one {# parola} other {# parole}}",
+    "ticked_count": "{selected} di {total} selezionati",
+    "in_training": "in allenamento",
+    "ready_to_drill": "pronti per l'allenamento",
+    "improving": "in miglioramento",
+    "finding_quotes": "ricerca di citazioni con questi errori…",
+    "no_quotes_found": "Nessuna citazione di questa lunghezza contiene questi errori. Prova un'altra lunghezza o un allenamento a parole.",
+    "quotes_with_mistakes": "citazioni con questi errori",
+    "best_fit": "corrispondenza migliore",
+    "typed_lately": "digitati di recente",
+    "recommended_reason": "{recommended} è consigliato: {reason}",
+    "ready": "pronto",
+    "due_title": "Ricomparso dall'ultimo allenamento",
+    "not_due_title": "Nessun nuovo errore dall'ultimo allenamento",
+    "rate_title": "Frequenza con cui va storto durante la digitazione",
+    "last_seen_title": "Ultima volta visto",
+    "usual": "solito",
+    "seen_not_trained": "visto, non ancora allenato",
+    "empty_nothing_in_training": "Non c'è ancora nulla in allenamento. Continua a digitare: Kalibre suggerisce gli errori che continuano a ripresentarsi.",
+    "empty_seen_not_trained": "Non c'è ancora nulla in allenamento. Questi errori sono comparsi ma non sono ancora allenati: seleziona quelli su cui vuoi lavorare."
+  },
+  "status": {
+    "training": "in allenamento",
+    "improving": "in miglioramento",
+    "suggested": "suggerito",
+    "watching": "osservato"
+  }
+}
