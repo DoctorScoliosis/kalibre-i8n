@@ -180,5 +180,122 @@
     "welcomeBack": ["Daar ben je. {days} dagen. Welkom terug.","Welkom terug! We bouwen rustig weer op.","{days} dagen weg. De toetsen zijn nergens heen gegaan.","O, hallo weer. Ik heb je plek bewaard.","Terug na {days} dagen. Rustig en gestaag, dan.","Welkom thuis. Je vingers zullen het zich herinneren."],
     "personalBest": ["Een nieuw record: {wpm} wpm. Mooi.","{wpm} wpm, je snelste tot nu toe. Ik zag het.","Persoonlijk record: {wpm} wpm. Welverdiend.","O, {wpm} wpm. Dat is een nieuw record.","{wpm} wpm! Rustig indrukwekkend.","Nieuw record, {wpm} wpm. Ik straal een beetje."],
     "streak": ["{days} dagen op rij. Rustig aan, gestaag.","Je doel, {days} dagen achter elkaar. Mooie gewoonte.","{days} dagen achter elkaar. Ik ben stilletjes onder de indruk.","Een reeks van {days} dagen. Kijk jou eens.","{days} dagen achter elkaar. Goed gedaan.","Doel gehaald, {days} dagen op rij. Dat is zorg."]
+ ,
+    "themeUnreadable": [
+      "Hm. {what} is lastig te lezen. Iets meer contrast?",
+      "Ik kan {what} nauwelijks onderscheiden. Geef het wat meer afstand van de pagina.",
+      "{what} fluistert. Laat het iets duidelijker spreken.",
+      "Voorzichtig: {what} springt nog niet genoeg naar voren."
+    ],
+    "themeScheme": [
+      "De pagina ziet er {page} uit, maar het thema zegt {scheme}. Wisselen tussen “licht of donker”?",
+      "Een {page} pagina met een {scheme} thema? De rest van de app kleedt zich dan voor het verkeerde weer."
+    ],
+    "themeMistakes": [
+      "Fouten en getypte tekst lijken op elkaar. Geef fouten hun eigen kleur.",
+      "Ik kan je missers niet onderscheiden van de rest. Een andere tint voor fouten?"
+    ],
+    "themeAccent": [
+      "Het accent en fouten zijn tweelingen. Links zien eruit als fouten.",
+      "Dat accent leest als een fout. Iets rustigers misschien?"
+    ],
+    "themeLoud": [
+      "Die achtergrond is erg fel. Fijn voor even, vermoeiend na een uur.",
+      "Best een luide pagina. Zachter, en je ogen zullen je dankbaar zijn."
+    ],
+    "themeHeat": [
+      "De stappen van de toetshitte staan niet in de juiste volgorde. Ze moeten van 1 naar 4 steeds dieper worden.",
+      "Toetshitte 1 tot 4 moet opbouwen als een zachte blos. Deze springen heen en weer."
+    ],
+    "themeSameAsBase": [
+      "Een lege pagina. Ga over een kleur en ik laat zien waar die terechtkomt.",
+      "Verander wat je wilt. Ik zeg wel wat ik ervan vind."
+    ],
+    "themeLovely": [
+      "Dat is mooi. Zacht en goed leesbaar.",
+      "Mm. Alles leest goed. Opslaan.",
+      "Netjes gedaan. Ik zou hier de hele dag kunnen typen.",
+      "Alles slaagt, en het past bij je."
+    ],
+    "wake@morning": [
+      "Mm… al ochtend? Hallo, ik ben Libby.",
+      "O, goedemorgen. Ik ben Libby. Ik rustte alleen mijn ogen.",
+      "Het licht is zo zacht. Hoi, ik ben Libby."
+    ],
+    "wake@afternoon": [
+      "Mm, een middagdutje. Hallo, ik ben Libby.",
+      "O! Ik verloor de tijd uit het oog. Hoi, ik ben Libby.",
+      "Hallo. Ik rustte maar even. Ik ben Libby."
+    ],
+    "wake@evening": [
+      "O, al avond. Hallo, ik ben Libby.",
+      "Mm, het avondlicht. Hoi, ik ben Libby.",
+      "Goedenavond. Ik dommelde een beetje weg. Ik ben Libby."
+    ],
+    "wake@night": [
+      "O, het is nacht. Hallo, ik ben Libby. Zachtjes.",
+      "Mm… het is laat. Ik ben Libby. Leuk je te zien.",
+      "Nog wakker? Ik nu ook. Ik ben Libby."
+    ],
+    "intro@morning": [
+      "Een ochtendles. Een rustige manier om de dag te beginnen.",
+      "Goedemorgen. Een frisse geest maakt een goede typist.",
+      "Ochtendtraining staat je goed."
+    ],
+    "intro@afternoon": [
+      "Een middagles. Doe het rustig aan.",
+      "Goedemiddag. Zullen we er rustig in komen?",
+      "Een rustige middag voor een paar nieuwe toetsen."
+    ],
+    "intro@evening": [
+      "Een avondles. Helemaal geen haast.",
+      "Een zachte afsluiting van de dag. Zullen we?",
+      "Goedenavond. Eén les, in je eigen tempo."
+    ],
+    "intro@night": [
+      "Het is laat. Eén zorgvuldige poging is genoeg.",
+      "Een nachtles. Zachte toetsen, rustige handen.",
+      "Late training. Wees vanavond een beetje lief voor jezelf."
+    ],
+    "warmup@morning": [
+      "Een ochtendwarming-up. Vingers worden langzaam wakker.",
+      "Eerst rustige rondjes. Het is nog vroeg.",
+      "Nu opwarmen, dan de les. Goede gewoonte."
+    ],
+    "warmup@afternoon": [
+      "Een warming-up om de middag te resetten.",
+      "Eerst rustige rondjes. Daarna zien we wel.",
+      "Even losmaken, dan beginnen."
+    ],
+    "warmup@evening": [
+      "Avondwarming-up. Laat de dag van je afglijden.",
+      "Eerst opwarmen. Je handen hebben vandaag veel gedaan.",
+      "Langzame rondjes om rustig de avond in te gaan."
+    ],
+    "warmup@night": [
+      "Een zachte warming-up, omdat het laat is.",
+      "Rustige rondjes. Geen druk op dit uur.",
+      "Eerst opwarmen. Slaperige handen hebben het nodig."
+    ],
+    "sleepy@morning": [
+      "Mm, ik ben zelf ook nog een beetje slaperig.",
+      "Even pauzeren is prima. Ochtenden kosten tijd.",
+      "Neem even een moment. Ik ben hier."
+    ],
+    "sleepy@afternoon": [
+      "De middagloomte. Even rekken?",
+      "Rust even. Het is die tijd van de dag.",
+      "Geen haast. Ik zakte zelf ook een beetje weg."
+    ],
+    "sleepy@evening": [
+      "Je hebt vandaag veel gedaan. Even pauzeren is prima.",
+      "Moeheid in de avond. Adem even.",
+      "Laat je handen rusten. Ik wacht."
+    ],
+    "sleepy@night": [
+      "Het is laat. Slapen is een prima volgende stap.",
+      "Mm… welterusten, misschien? Morgen kunnen we verder.",
+      "Rust goed uit. De toetsen wachten wel."
+    ]
   }
 }
