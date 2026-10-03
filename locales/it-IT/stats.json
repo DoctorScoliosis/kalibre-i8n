@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "overview": "panoramica",
+    "periods": "per giorno",
+    "bests": "record personali",
+    "history": "cronologia",
+    "games": "giochi",
+    "numpad": "tastierino numerico",
+    "xp": "xp",
+    "keys": "tasti",
+    "hesitations": "esitazioni",
+    "mistakes": "errori"
+  },
+  "export": {
+    "csv": "csv",
+    "json": "json",
+    "game_runs": "esporta sessioni di gioco",
+    "every_test": "esporta ogni test",
+    "days": "esporta giorni"
+  },
+  "empty": {
+    "no_tests": "nessun test ancora",
+    "no_tests_games_only": "Nessun test ancora: finora solo giochi. Vedi statistiche → giochi.",
+    "no_tests_overview": "Nessun test ancora. Qui compariranno velocità, precisione e i tasti che trovi più difficili.",
+    "not_enough_typing": "non c'è ancora abbastanza digitazione"
+  },
+  "overview": {
+    "average_wpm": "ppm medio",
+    "accuracy": "precisione",
+    "tests": "test",
+    "time_typing": "tempo di digitazione",
+    "completed": "completati",
+    "restarted": "riavviati",
+    "abandoned": "abbandonati",
+    "not_counted": "non conteggiati",
+    "words": "parole",
+    "characters": "caratteri",
+    "averages_note": "medie e record usano solo i test completati{notCounted, select, true {; i test a raffica di tasti non vengono conteggiati} other {}}",
+    "chart_heading": "{scope, select, all {tutti} other {ultimi}} {count} {count, plural, one {test} other {test}} · ppm",
+    "chart_window_aria": "quanti test mostrare nel grafico",
+    "by_characters": "per caratteri"
+  },
+  "bests": {
+    "race_this": "gareggia con questo",
+    "empty": "completa un test per impostare un record",
+    "stats_summary": "{survived, select, true {{survivedTime} di sopravvivenza · } other {}}{wpm} ppm · {accuracy}% · {date}"
+  },
+  "periods": {
+    "no_tests": "nessun test",
+    "tests_count": "{count, plural, one {# test} other {# test}}",
+    "best_accuracy": "migliore {best} · {accuracy}%",
+    "daily_goal": "obiettivo giornaliero: {target}",
+    "today": " · oggi {amount}{met, select, true { ✓} other {}}",
+    "streak": " · serie {count, plural, one {# giorno} other {# giorni}}",
+    "no_daily_goal": "Nessun obiettivo giornaliero. ",
+    "set_one": "impostane uno",
+    "time_typed_per_day": "tempo di digitazione al giorno · ultimi 30 giorni",
+    "day_by_day": "giorno per giorno",
+    "no_tests_last_30_days": "nessun test negli ultimi 30 giorni",
+    "time_of_day": "ora del giorno",
+    "time_zone_note": "Giorni e ore seguono il fuso orario di questo dispositivo."
+  },
+  "games": {
+    "no_games": "nessun gioco ancora. I giochi sono nella sezione giochi del menu.",
+    "runs_count": "{count, plural, one {# sessione} other {# sessioni}}",
+    "last": "ultima {date}",
+    "best_run": "miglior sessione: {summary}",
+    "bests_note": "i record contano le sessioni con le regole correnti di ogni gioco",
+    "bests_by_difficulty": "record per difficoltà",
+    "recent_runs": "sessioni recenti",
+    "old_rules": "{game} (vecchie regole)",
+    "runs": "sessioni",
+    "time_played": "tempo di gioco"
+  },
+  "numpad": {
+    "no_runs": "nessuna sessione col tastierino numerico ancora. Sono nella pagina tastierino numerico di impara.",
+    "ksph_note": "battute all'ora (ksph) conta i tasti delle voci corrette, compresi operatori e invio",
+    "bests": "record del tastierino numerico",
+    "sums_by_kind": "somme per tipo",
+    "weak_spots": "punti deboli",
+    "recent_runs": "sessioni recenti",
+    "ten_key_tests": "test a dieci tasti",
+    "fastest": "più veloce",
+    "lessons_mastered": "lezioni padroneggiate",
+    "sums_right": "somme corrette",
+    "time_on_pad": "tempo sul tastierino"
+  },
+  "numpad_pane": {
+    "lesson_desc": "lezione {number}{mastered, select, true { · padroneggiata} other {}}",
+    "till_desc": "cassa · livello {level}",
+    "sums_desc": "somme · {form}",
+    "tenkey_desc": "dieci tasti · {form} · {limit}",
+    "mix": "un misto",
+    "served_count": "{count} servite",
+    "sums_right": "{right} di {answers} corrette",
+    "ksph_result": "{ksph} ksph{aborted, select, true { (terminato in anticipo)} other {}}"
+  },
+  "headings": {
+    "day": "giorno",
+    "tests": "test",
+    "time": "tempo",
+    "wpm": "ppm",
+    "best": "migliore",
+    "accuracy": "precisione",
+    "goal": "obiettivo",
+    "when": "quando",
+    "source": "fonte",
+    "xp": "xp",
+    "share": "condivisione",
+    "entries": "voci",
+    "length": "lunghezza",
+    "ksph": "ksph",
+    "kind": "tipo",
+    "right": "corrette",
+    "average_time": "tempo medio",
+    "what": "cosa",
+    "result": "risultato",
+    "date": "data",
+    "ghost": "fantasma",
+    "actions": "azioni",
+    "test": "test",
+    "game": "gioco",
+    "mode": "modalità",
+    "difficulty": "difficoltà",
+    "outcome": "esito",
+    "score": "punteggio"
+  },
+  "hesitations": {
+    "explain": "Non sono errori: tasti digitati correttamente, ma solo dopo una pausa di almeno {factor}× il tuo intervallo abituale tra i tasti (mai inferiore a {minMs} ms), quindi vengono misurati rispetto al tuo ritmo, per quanto veloce tu possa digitare. Le pause oltre {maxS} s contano come interruzione (più a lungo se cerchi i tasti guardando la tastiera). Le pause che continuano a ripresentarsi vengono suggerite per l'allenamento, come gli errori.",
+    "empty": "D'ora in poi i test misureranno le esitazioni.",
+    "hesitations": "esitazioni",
+    "per_minute": "al minuto",
+    "tests_measured": "test misurati",
+    "keys_pause_before": "tasti prima dei quali fai una pausa",
+    "pairs_pause_inside": "coppie di lettere in cui fai una pausa",
+    "words_pause_before": "parole prima delle quali fai una pausa",
+    "no_pattern_yet": "nessuno schema ancora"
+  },
+  "keys": {
+    "picker_label": "layout della tastiera: ",
+    "dropdown_label": "layout della tastiera",
+    "least_accurate_keys": "tasti meno precisi",
+    "slowest_keys": "tasti più lenti",
+    "least_accurate_pairs": "coppie di lettere meno precise",
+    "slowest_pairs": "coppie di lettere più lente"
+  },
+  "mistakes": {
+    "errors_summary": "{uncorrected} non corretti · {corrected} corretti · {capsLock} con Bloc Maiusc",
+    "most_common": "più comuni",
+    "all_mistakes": "tutti gli errori",
+    "keys": "tasti",
+    "shift": "maiusc",
+    "words": "parole",
+    "between_words": "tra le parole",
+    "none_yet": "ancora nessuno"
+  },
+  "xp": {
+    "blurb": "Gli XP derivano dalla digitazione corretta (ridimensionata in base alla precisione), un po' dai bonus e dagli errori che elimini con l'allenamento. Vengono calcolati dalla tua cronologia.",
+    "total_xp": "xp totali",
+    "last_7_days": "ultimi 7 giorni",
+    "where_from": "da dove provengono",
+    "xp_per_day": "xp al giorno · ultimi 30 giorni"
+  },
+  "history": {
+    "replay": "replay",
+    "race": "gara",
+    "delete": "elimina",
+    "race_title": "gareggia con questa sessione come fantasma, sul suo stesso testo",
+    "no_saved_ghosts": "nessun fantasma salvato ancora. Salvane uno dopo un test o un replay.",
+    "no_history": "nessun test nella cronologia ancora",
+    "pinned": "fissati",
+    "all_tests": "tutti i test",
+    "saved_ghosts": "fantasmi salvati",
+    "saved_ghosts_count": "fantasmi salvati ({count})",
+    "pager_aria": "pagine della cronologia",
+    "pager_prev": "‹ precedente",
+    "pager_next": "successivo ›",
+    "pager_range": "{first}–{last} di {count}",
+    "page_aria": "pagina {number}"
+  },
+  "shared": {
+    "level": "livello",
+    "level_aria": "XP al livello successivo",
+    "prev": "precedente",
+    "next": "successivo",
+    "prev_aria": "pagina precedente",
+    "next_aria": "pagina successiva",
+    "page_info": "{current} di {total}",
+    "xp": "{toLocaleString} / {toLocaleString2} xp",
+    "ms": "{round} ms · {round2}%",
+    "typed": "{round}% · digitato {toLocaleString}"
+  },
+  "hesitations_pane": {
+    "of": "{round}% · {hesitated} di {toLocaleString}"
+  },
+  "overview_pane": {
+    "recent_tests": "test recenti",
+    "group_stats": "{wpm} ppm · {accuracy}% · {count, plural, one {# test} other {# test}}"
+  },
+  "periods_pane": {
+    "wpm": " ppm"
+  },
+  "stats_charts": {
+    "wpm_of_recent_tests_use": "PPM dei test recenti. Usa le frecce sinistra e destra per leggere ogni test.",
+    "recent_tests": "Test recenti",
+    "complete_a_couple_of_tests": "Completa un paio di test per vedere una tendenza.",
+    "accuracy": "{value}% di precisione",
+    "not_enough_typing": "digitazione insufficiente",
+    "ms": "{round} ms",
+    "keyboard_coloured_by_how_often": "Tastiera colorata in base a quanto spesso ogni tasto viene digitato correttamente al primo tentativo. La tabella qui sotto mostra gli stessi valori.",
+    "use_the_left_and_right": "{label}. Usa le frecce sinistra e destra per leggere ogni giorno.",
+    "no_typing": "nessuna digitazione",
+    "day_tests": "{count, plural, one {# test} other {# test}}",
+    "day_wpm": " · {wpm} ppm"
+  },
+  "stats": {
+    "sections_label": "sezioni delle statistiche"
+  }
+}

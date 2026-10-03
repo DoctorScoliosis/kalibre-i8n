@@ -1,0 +1,18 @@
+{
+  "filter": {
+    "warning": "Gli elenchi di parole di Kalibre provengono da vecchi libri e grandi dizionari, che includono insulti e altre parole offensive. Con il filtro disattivato, possono comparire nei test, negli allenamenti, nelle lezioni e nei giochi. Disattivandolo accetti che potresti vederle e che l'autore di Kalibre non è responsabile di eventuali offese causate.",
+    "turn_off": "disattiva il filtro",
+    "keep_on": "lascialo attivo",
+    "confirm_title": "disattivare il filtro per le parole offensive?",
+    "filter_on": "filtro attivo",
+    "filter_off": "filtro disattivato",
+    "placeholder": "una per riga oppure separate da virgole; termina con * per ogni parola che inizia con questo",
+    "filtered_count": "{count, plural, one {# parola} other {# parole}} personali filtrate",
+    "no_words": "nessuna parola personale",
+    "heading": "parole offensive",
+    "toggle_label": "filtra le parole offensive",
+    "own_label": "parole personali da filtrare",
+    "explanation": "Attivo: insulti e bestemmie più pesanti vengono esclusi dagli elenchi di parole e i brani che li contengono vengono saltati. I tuoi testi e le tue citazioni non vengono mai modificati.",
+    "own_explanation": "Conservate solo con questo profilo e mai condivise. Si applicano mentre il filtro è attivo."
+  }
+}

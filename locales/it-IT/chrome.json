@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "skip_to_content": "vai al contenuto",
+    "type": "digita",
+    "learn": "impara",
+    "drill": "allenamento",
+    "games": "giochi",
+    "mistakes": "errori",
+    "settings": "impostazioni",
+    "today": "oggi",
+    "about": "informazioni",
+    "primary": "principale"
+  },
+  "curtain": {
+    "fetching": "recupero di libri e dizionario, solo per questa volta",
+    "taking_longer": "ci sta mettendo più del solito…",
+    "reload": "ricarica",
+    "books_downloading": "i libri stanno ancora scaricando. puoi iniziare adesso e finiranno in background.",
+    "start_without_waiting": "inizia senza aspettare",
+    "still_loading": "caricamento ancora in corso. controlla la connessione e poi ricarica. una volta caricato qui, kalibre funziona offline.",
+    "older_tab": "kalibre è aperto in un'altra scheda, con una versione precedente. chiudi quella scheda e questa continuerà.",
+    "couldnt_load": "kalibre non è riuscito a caricarsi. controlla la connessione e poi ricarica.",
+    "browser_too_old": "questo browser è troppo vecchio per kalibre. una versione recente di Chrome, Edge, Firefox o Safari lo eseguirà."
+  },
+  "footer": {
+    "shortcuts": "scorciatoie da tastiera",
+    "privacy": "privacy",
+    "terms": "termini",
+    "security": "sicurezza",
+    "announcements": "annunci",
+    "credit_author": "© {year} {author}.",
+    "credit_company": "© {year} midnight summer media.",
+    "licence": "distribuito con la {licence}.",
+    "licence_name": "licenza mit"
+  },
+  "meta": {
+    "tagline": "kalibre, un allenatore di digitazione adattivo",
+    "description": "La tua digitazione. I tuoi errori. I tuoi progressi. Un allenatore di digitazione che impara i tuoi errori ricorrenti e ti allena su di essi, direttamente nel browser.",
+    "alt_wordmark": "Il marchio kalibre tra Cal e Libby, con la frase: la tua digitazione, i tuoi errori, i tuoi progressi."
+  },
+  "pwa": {
+    "ios": "Su iPhone e iPad, aggiungi kalibre alla schermata Home (in Safari: condividi → aggiungi a Home). Si apre a schermo intero e conserva i dati, mentre una scheda Safari può perderli dopo 7 giorni senza visite.",
+    "generic": "Aggiungi kalibre alla schermata Home (menu del browser → aggiungi alla schermata Home, oppure installa). Una volta installato, si apre a schermo intero e il browser è più predisposto a conservare i dati."
+  },
+  "misc": {
+    "kalibre_about": "kalibre, informazioni",
+    "backup_due": "impostazioni, backup in attesa",
+    "new_badge": "nuovo",
+    "backup_progress": "avanzamento del backup",
+    "todays_quests": "missioni di oggi",
+    "new_quests_midnight": "nuove missioni a mezzanotte",
+    "difficulty": "difficoltà",
+    "getting_quests": "recupero delle missioni di oggi…"
+  },
+  "backup": {
+    "error": "impossibile salvarlo: {error}",
+    "nothing": "non c'è ancora nulla di cui fare il backup",
+    "saved_to_folder": "salvati {count, plural, one {# file del profilo} other {# file dei profili}} nella cartella kalibre “{folder}”",
+    "downloaded": "scaricati {count, plural, one {# file del profilo} other {# file dei profili}}"
+  },
+  "updates": {
+    "whats_new_title": "novità",
+    "status_up_to_date": "kalibre v{version} · aggiornato",
+    "update_ready": "v{version} è pronta",
+    "update_ready_read_first": "v{version} è pronta · leggi prima",
+    "update_meta": "puoi aggiornare ora oppure restare sulla versione corrente (v{current}).",
+    "update_meta_size": "dimensione del download: ~{size} · puoi aggiornare ora oppure restare sulla versione corrente (v{current}).",
+    "update_to": "aggiorna a v{version}",
+    "stay_on": "resta su v{current}",
+    "updating": "aggiornamento…",
+    "check_button": "controlla aggiornamenti",
+    "checking": "controllo…",
+    "check_checking": "ricerca…",
+    "check_current": "hai la versione più recente",
+    "check_offline": "non è stato possibile raggiungere il server in questo momento",
+    "check_unavailable": "gli aggiornamenti funzionano solo nell'app installata o ospitata",
+    "breaking_intro": "questo aggiornamento cambia il modo in cui kalibre conserva i tuoi dati:",
+    "breaking_note": "quando sarà finito, le versioni precedenti di kalibre non potranno aprire i tuoi dati, quindi salva prima un backup: un file del profilo per ogni profilo su questo dispositivo.",
+    "breaking_older_at": "v{version} rimane disponibile qui",
+    "save_backup": "salva un backup",
+    "saving": "salvataggio…",
+    "badge_in_update": "in questo aggiornamento",
+    "badge_current": "corrente",
+    "notes_not_yet": "le note di questa versione verranno mostrate dopo l'installazione.",
+    "stays_at": "v{current} rimane su {link} per un po'; apri lì un backup per continuare a usarlo."
+  },
+  "brand": {
+    "kanary_preview_build_notice": "avviso della build di anteprima kanary",
+    "kanary_preview_build_click_for": "build di anteprima kanary · fai clic per l'avviso",
+    "what_s_new_for": "novità per {versionLabel}"
+  },
+  "command_line": {
+    "command": "comando",
+    "type_a_setting_or_action": "digita un'impostazione o un'azione",
+    "commands": "comandi",
+    "command_line": "riga di comando",
+    "no_matches": "nessuna corrispondenza"
+  },
+  "kanary_notice": {
+    "features_interfaces_and_database_schemas": "funzioni, interfacce e schemi del database sono in evoluzione e possono cambiare, essere sostituiti o rompersi senza preavviso.",
+    "things_may_break_or_change": "le cose possono cambiare o smettere di funzionare. ",
+    "your_typing_history_achievements_and": "la cronologia di digitazione, i traguardi e i dati personalizzati vivono nell'archivio locale di questo browser. esporta regolarmente una copia di backup, così un aggiornamento incompatibile non costerà i tuoi progressi.",
+    "periodically_back_up_your_profiles": "fai periodicamente il backup dei tuoi profili: ",
+    "profiles_used_on_kanary_may": "i profili usati su kanary potrebbero funzionare oppure no se importati nelle versioni rilasciate di kalibre. kanary può introdurre schemi di database più nuovi, impostazioni sperimentali o formati rivisti che le versioni rilasciate non possono leggere o migrare all'indietro.",
+    "release_compatibility": "compatibilità con le versioni rilasciate: ",
+    "announcements_devlog": "annunci e devlog: ",
+    "stackinfolio": "stackinfolio",
+    "settings_data": "impostazioni → dati",
+    "got_it": "capito",
+    "intro": "stai usando {product}, una build di anteprima iniziale e in rapido movimento, con esperimenti ancora in corso.",
+    "follow": "segui le tappe delle release, i progressi dello sviluppo e gli annunci su {site}."
+  },
+  "legal_pages": {
+    "last_updated": "ultimo aggiornamento {format}",
+    "the_short_version": "in breve",
+    "read": "leggi {full}",
+    "also": "anche: {pages}"
+  },
+  "older_version": {
+    "older_version": "versione precedente",
+    "it_keeps_its_own_data": "Conserva i propri dati, separati da quelli della versione corrente: per usare qui i tuoi, importa un file del profilo salvato prima dell'aggiornamento (menu profilo → importa un file del profilo).",
+    "this_is_kalibre_v_kept": "Questa è kalibre v{version}, conservata per permetterti di tornare indietro. ",
+    "go_to_the_current_version": "vai alla versione corrente",
+    "hide_this_until_the_page": "nascondi fino al ricaricamento della pagina",
+    "hide_until_the_page_reloads": "nascondi fino al ricaricamento della pagina"
+  },
+  "shortcuts": {
+    "then": "poi {value}",
+    "sequence_hint": "premi i tasti della sequenza (come {first} poi {second}) entro 1,5 secondi. le scorciatoie si attivano solo quando non stai digitando attivamente nei test o nei campi di testo.",
+    "SHORTCUT_GROUPS": {
+      "navigation": { "title": "navigazione" },
+      "nav-type": { "label": "vista di digitazione" },
+      "nav-learn": { "label": "vista apprendimento" },
+      "nav-drill": { "label": "vista allenamento" },
+      "nav-games": { "label": "vista giochi" },
+      "nav-mistakes": { "label": "vista errori" },
+      "nav-stats": { "label": "statistiche e cronologia" },
+      "nav-profile": { "label": "menu profilo" },
+      "nav-texts": { "label": "testi e libreria" },
+      "nav-settings": { "label": "impostazioni" },
+      "nav-about": { "label": "informazioni su kalibre" },
+      "typing": { "title": "digitazione e test" },
+      "type-restart": { "label": "riavvia test o allenamento" },
+      "type-pause": { "label": "riga di comando / pausa" },
+      "type-delete-word": { "label": "elimina parola" },
+      "type-space": { "label": "invia / parola successiva" },
+      "general": { "title": "generale e finestre di dialogo" },
+      "gen-guide": { "label": "guida alle scorciatoie da tastiera" },
+      "gen-close": { "label": "chiudi finestra o dialogo" },
+      "gen-command": { "label": "tavolozza della riga di comando" },
+      "gen-focus": { "label": "naviga tra i controlli" }
+    },
+    "modal": { "shortcuts": { "title": "scorciatoie da tastiera" } }
+  },
+  "startup_failure": {
+    "putting_it_back": "ripristino in corso…",
+    "it_couldn_t_be_put": "non è stato possibile ripristinarlo: {value}",
+    "if_kalibre_was_taken_back": "se kalibre è stato riportato volutamente a una versione precedente, puoi ripristinare la copia dei dati salvata subito prima dell'ultimo aggiornamento. tutto ciò che hai fatto dopo quell'aggiornamento andrà perso e sostituirà tutto ciò che kalibre conserva in questo browser.",
+    "copy_the_details": "copia i dettagli",
+    "copied": "copiati",
+    "select_the_details_below_to": "seleziona i dettagli qui sotto per copiarli",
+    "kalibre_couldn_t_start": "kalibre non è riuscito ad avviarsi",
+    "what_you_ve_saved_is": "ciò che hai salvato è ancora in questo browser: ricominciare non lo tocca.",
+    "send_details": "se continua a succedere, invia i dettagli a {address}."
+  },
+  "update_gate": {
+    "carry_on": "continua",
+    "kalibre_v_changes_how_it": "kalibre v{appVersion} cambia il modo in cui conserva i tuoi dati",
+    "nothing_has_changed_yet_once": "non è ancora cambiato nulla. quando cambierà, le versioni precedenti di kalibre non potranno aprire i tuoi dati, quindi salva prima un backup: un file del profilo per ogni profilo su questo dispositivo.",
+    "older_version": "oppure continua a usare per ora la versione precedente, su {link}: apri lì il tuo backup."
+  },
+  "modals": {
+    "stats": "statistiche",
+    "texts": "testi",
+    "settings": "impostazioni",
+    "achievements": "traguardi",
+    "race": "gara",
+    "card": "la tua scheda",
+    "kanary": "anteprima kanary"
+  },
+  "app": {
+    "that_file_isn_t_in": "quel file non è più nella cartella"
+  },
+  "instance": {
+    "offline_self_hosted": "offline · autogestito",
+    "offline_cache": "offline · usando la cache del browser",
+    "self_hosted_at": "autogestito · {hostname}",
+    "self_hosted": "autogestito",
+    "online": "online · istanza ufficiale",
+    "status": {
+      "online": "online",
+      "offline": "offline",
+      "self-hosted": "autogestito"
+    }
+  }
+}

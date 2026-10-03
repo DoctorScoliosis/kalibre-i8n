@@ -1,0 +1,745 @@
+{
+  "schema": {
+    "mistakeSensitivity": {
+      "label": "suggerisci errori da allenare",
+      "option": {
+        "relaxed": "solo schemi chiari",
+        "normal": "normale",
+        "eager": "presto"
+      },
+      "description": "quanta evidenza prima di un suggerimento"
+    },
+    "autoAcceptMistakes": {
+      "label": "aggiungi automaticamente gli errori all'allenamento",
+      "description": "avvia automaticamente l'allenamento degli errori idonei"
+    },
+    "adaptiveMix": {
+      "label": "esercita parole nei test a parole",
+      "option": {
+        "light": "alcune",
+        "strong": "di più",
+        "off": "disattivato"
+      },
+      "description": "mescola parole con errori monitorati"
+    },
+    "goalType": {
+      "label": "obiettivo giornaliero",
+      "option": {
+        "off": "nessuno",
+        "minutes": "minuti",
+        "words": "parole",
+        "xp": "xp"
+      },
+      "description": "digitazione da raggiungere ogni giorno"
+    },
+    "goalMinutes": {
+      "label": "minuti al giorno",
+      "description": "obiettivo giornaliero in minuti"
+    },
+    "goalWords": {
+      "label": "parole al giorno",
+      "description": "obiettivo giornaliero in parole"
+    },
+    "questDifficulty": {
+      "label": "difficoltà delle missioni giornaliere",
+      "option": {
+        "easy": "facile",
+        "normal": "normale",
+        "hard": "difficile"
+      },
+      "description": "quanto le missioni e la sfida giornaliera ti mettono alla prova e quanti XP danno. Una modifica si applica alle missioni di domani"
+    },
+    "lessonCompanion": {
+      "label": "compagno delle lezioni"
+    },
+    "commonCapitals": {
+      "label": "maiuscole nelle parole comuni"
+    },
+    "paragraphBreaks": {
+      "label": "interruzioni di paragrafo",
+      "description": "premi invio alla fine dei paragrafi"
+    },
+    "wordPool": {
+      "label": "elenco di parole",
+      "option": {
+        "200": "200 parole comuni"
+      }
+    },
+    "wordLength": {
+      "label": "lunghezza delle parole",
+      "option": {
+        "everyday": "quotidiane",
+        "some_long": "alcune parole lunghe",
+        "long": "parole lunghe",
+        "common": "quotidiane",
+        "mixed": "alcune parole lunghe"
+      },
+      "description": "parole più lunghe e difficili nei test a tempo e a parole"
+    },
+    "wordSpelling": {
+      "label": "ortografia nei test a parole",
+      "option": {
+        "both": "entrambe (come scritte)",
+        "uk": "inglese britannico (colour, centre)",
+        "us": "inglese americano (color, center)"
+      },
+      "description": "variante ortografica nei test a parole e negli allenamenti"
+    },
+    "textSize": {
+      "label": "dimensione del testo da digitare"
+    },
+    "fontFamily": {
+      "label": "carattere di digitazione"
+    },
+    "fontWeight": {
+      "label": "peso del carattere di digitazione"
+    },
+    "lineHeight": {
+      "label": "altezza delle righe di digitazione"
+    },
+    "letterSpacing": {
+      "label": "spaziatura delle lettere nella digitazione"
+    },
+    "caretStyle": {
+      "label": "stile del cursore",
+      "option": {
+        "line": "linea",
+        "block": "blocco",
+        "underline": "sottolineato"
+      }
+    },
+    "smoothCaret": {
+      "label": "cursore fluido",
+      "description": "il cursore scivola tra le lettere"
+    },
+    "focusMode": {
+      "label": "messa a fuoco",
+      "option": {
+        "line": "riga corrente",
+        "sentence": "frase",
+        "none": "disattivato"
+      },
+      "description": "attenua il testo fuori dalla riga o dalla frase"
+    },
+    "liveMetrics": {
+      "label": "ppm e precisione in tempo reale"
+    },
+    "mistakeDisplay": {
+      "label": "mostra gli errori come",
+      "option": {
+        "expected": "lettera prevista",
+        "typed": "lettera digitata"
+      }
+    },
+    "restartKey": {
+      "label": "tasto di riavvio",
+      "description": "tasti che riavviano un test",
+      "option": {
+        "tab-enter": "tab → invio",
+        "tab-tab": "tab → tab"
+      }
+    },
+    "layout": {
+      "label": "layout della tastiera"
+    },
+    "stenoMode": {
+      "label": "digito con",
+      "option": {
+        "keyboard": "una tastiera",
+        "steno": "una macchina stenografica"
+      }
+    },
+    "defaultDuration": {
+      "label": "durata predefinita del test",
+      "description": "durata di un test a tempo"
+    },
+    "defaultWordCount": {
+      "label": "numero predefinito di parole",
+      "description": "durata di un test a parole"
+    },
+    "mode": {
+      "label": "modalità",
+      "description": "chiaro, scuro o segui il sistema",
+      "option": {
+        "system": "segui il sistema",
+        "light": "chiaro",
+        "dark": "scuro"
+      }
+    },
+    "themeLight": {
+      "label": "tema chiaro",
+      "description": "colori usati in modalità chiara",
+      "option": {
+        "paper": "carta",
+        "eink": "e-ink",
+        "cream": "crema",
+        "rose": "rosa",
+        "harbour": "porto",
+        "contrast": "alto contrasto"
+      }
+    },
+    "themeDark": {
+      "label": "tema scuro",
+      "description": "colori usati in modalità scura",
+      "option": {
+        "ink": "inchiostro",
+        "dusk": "crepuscolo",
+        "eink-night": "e-ink notturno",
+        "forest": "foresta",
+        "plum": "prugna",
+        "slate": "ardesia",
+        "terminal": "terminale",
+        "contrast-night": "alto contrasto notturno"
+      }
+    },
+    "theme": {
+      "label": "tema",
+      "description": "colori per tutta l'app",
+      "option": {
+        "system": "segui il sistema",
+        "paper": "carta",
+        "ink": "inchiostro",
+        "dusk": "crepuscolo",
+        "eink": "e-ink",
+        "eink-night": "e-ink notturno",
+        "cream": "crema",
+        "rose": "rosa",
+        "harbour": "porto",
+        "forest": "foresta",
+        "plum": "prugna",
+        "slate": "ardesia",
+        "terminal": "terminale",
+        "contrast": "alto contrasto",
+        "contrast-night": "alto contrasto notturno"
+      }
+    },
+    "customThemes": {
+      "label": "i tuoi temi"
+    },
+    "typingFontSize": {
+      "label": "dimensione del testo da digitare",
+      "description": "dimensione del testo che digiti"
+    },
+    "typingFont": {
+      "label": "carattere di digitazione"
+    },
+    "typingFontWeight": {
+      "label": "peso del carattere di digitazione",
+      "description": "quanto è spesso il testo da digitare",
+      "option": {
+        "300": "300",
+        "400": "400",
+        "500": "500",
+        "600": "600",
+        "700": "700"
+      }
+    },
+    "typingLineHeight": {
+      "label": "altezza delle righe di digitazione",
+      "description": "spazio tra le righe di digitazione"
+    },
+    "typingLetterSpacing": {
+      "label": "spaziatura delle lettere nella digitazione",
+      "description": "spazio tra le lettere"
+    },
+    "caret": {
+      "label": "stile del cursore",
+      "description": "forma del cursore",
+      "option": {
+        "line": "linea",
+        "block": "blocco",
+        "underline": "sottolineato"
+      }
+    },
+    "linesAhead": {
+      "label": "righe visibili in avanti",
+      "description": "quante righe sono visibili",
+      "option": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
+    },
+    "showLiveStats": {
+      "label": "ppm e precisione in tempo reale",
+      "description": "ppm e precisione durante la digitazione"
+    },
+    "errorDisplay": {
+      "label": "mostra gli errori come",
+      "description": "cosa mostra una lettera errata",
+      "option": {
+        "expected": "lettera prevista",
+        "typed": "lettera digitata"
+      }
+    },
+    "keyboardLayout": {
+      "label": "layout della tastiera",
+      "description": "dice a Kalibre dove si trovano i tasti per valutare i vicini; non cambia ciò che digiti",
+      "option": {
+        "qwerty": "QWERTY (US)",
+        "dvorak": "Dvorak",
+        "colemak": "Colemak",
+        "colemak-dh": "Colemak-DH",
+        "workman": "Workman",
+        "azerty": "AZERTY (French)",
+        "qwertz": "QWERTZ (German)"
+      }
+    },
+    "inputMethod": {
+      "label": "digito con",
+      "description": "una macchina stenografica invia parole intere in una volta, quindi Kalibre annota solo gli errori di parole intere e mette da parte le lezioni di scrittura a tocco",
+      "option": {
+        "keyboard": "una tastiera",
+        "steno": "una macchina stenografica"
+      }
+    },
+    "capitals": {
+      "label": "maiuscole nelle parole comuni",
+      "description": "le citazioni e i tuoi testi mantengono sempre le proprie"
+    },
+    "wordList": {
+      "label": "elenco di parole",
+      "description": "quante parole comuni usare",
+      "option": {
+        "200": "200 parole comuni",
+        "1000": "1.000 parole comuni",
+        "5000": "5.000 parole comuni"
+      }
+    },
+    "customSampling": {
+      "label": "testi personalizzati",
+      "description": "testo intero o un brano",
+      "option": {
+        "passage": "brano casuale",
+        "entire": "testo intero"
+      }
+    },
+    "customQuoteLength": {
+      "label": "lunghezza del brano",
+      "description": "intervallo di caratteri per un brano personalizzato",
+      "option": {
+        "short": "breve (fino a 100 caratteri)",
+        "medium": "medio (fino a 300 caratteri)",
+        "long": "lungo (fino a 600 caratteri)",
+        "huge": "enorme (fino a 1.500 caratteri)",
+        "massive": "gigantesco (fino a 4.000 caratteri)"
+      }
+    },
+    "customNormalisation": {
+      "label": "caratteri dei testi personalizzati",
+      "description": "cosa conservano i testi personalizzati",
+      "option": {
+        "preserve": "come scritto",
+        "no-punctuation": "senza punteggiatura",
+        "letters": "solo lettere",
+        "letters-numbers": "lettere + numeri"
+      }
+    },
+    "mixedCategories": {
+      "label": "lunghezze miste delle citazioni",
+      "description": "lunghezze delle citazioni usate nei test misti",
+      "option": {
+        "short": "breve",
+        "medium": "medio",
+        "long": "lungo",
+        "huge": "enorme",
+        "massive": "gigantesco"
+      }
+    },
+    "goalXp": {
+      "label": "xp al giorno",
+      "description": "obiettivo giornaliero in xp dalla digitazione (non dai bonus); un minuto di digitazione pulita vale circa 8–15"
+    },
+    "companion": {
+      "label": "compagno delle lezioni",
+      "description": "scelto nella configurazione e conservato dal profilo",
+      "option": {
+        "cal": "Cal",
+        "libby": "Libby"
+      }
+    },
+    "mascotChatter": {
+      "label": "chiacchiere di {companion}",
+      "description": "quanto parla {companion}",
+      "option": {
+        "chatty": "chiacchierone",
+        "quiet": "solo ciò che conta"
+      }
+    },
+    "mascotSounds": {
+      "label": "suoni di {companion}",
+      "description": "piccoli cinguettii nelle lezioni (mai a metà parola), una fusa quando viene accarezzato e una risatina quando viene solleticato"
+    },
+    "mascotVolume": {
+      "label": "volume di {companion}",
+      "description": "quanto è rumoroso {companion}"
+    },
+    "uiFontSize": {
+      "label": "dimensione del testo dell'interfaccia",
+      "description": "dimensione del testo dell'interfaccia"
+    },
+    "reduceMotion": {
+      "label": "riduci movimento",
+      "description": "meno animazioni",
+      "option": {
+        "system": "segui il sistema",
+        "on": "attivo",
+        "off": "disattivato"
+      }
+    },
+    "colourVision": {
+      "label": "visione dei colori",
+      "description": "adatta i colori per il daltonismo",
+      "option": {
+        "typical": "tipica",
+        "red-green": "rosso-verde (protanopia, deuteranopia)",
+        "blue-yellow": "blu-giallo (tritanopia)",
+        "no-colour": "nessun colore"
+      }
+    },
+    "uiFont": {
+      "label": "carattere dell'interfaccia",
+      "description": "carattere per menu e testo fuori dall'area di digitazione",
+      "option": {
+        "system": "predefinito del sistema",
+        "atkinson": "Atkinson Hyperlegible",
+        "opendyslexic": "OpenDyslexic"
+      }
+    },
+    "boldText": {
+      "label": "testo in grassetto",
+      "description": "testo più pesante in tutta l'interfaccia"
+    },
+    "textSpacing": {
+      "label": "spaziatura del testo",
+      "description": "spaziatura più ampia tra lettere e parole",
+      "option": {
+        "normal": "normale",
+        "wide": "ampia"
+      }
+    },
+    "contrast": {
+      "label": "contrasto",
+      "description": "rendi più distinti testo e bordi",
+      "option": {
+        "system": "segui il sistema",
+        "normal": "normale",
+        "more": "di più"
+      }
+    },
+    "pageWidth": {
+      "label": "larghezza della pagina",
+      "description": "larghezza del contenuto della pagina",
+      "option": {
+        "narrow": "stretta (720 px)",
+        "normal": "normale (880 px)",
+        "wide": "ampia (1.000 px)",
+        "full": "larghezza completa"
+      }
+    },
+    "language": {
+      "label": "lingua",
+      "description": "lingua dell'interfaccia; ricarica dopo la modifica",
+      "option": {
+        "en-GB": "inglese (UK)",
+        "en-US": "inglese (US)",
+        "zh-CN": "简体中文 (cinese semplificato)",
+        "qps": "pseudo",
+        "qps-wide": "pseudo ampia"
+      }
+    },
+    "backupFrequency": {
+      "label": "backup automatici",
+      "description": "quando viene aggiornata la cartella di backup (Chrome ed Edge)",
+      "option": {
+        "change": "poco dopo ogni modifica",
+        "test": "dopo ogni test",
+        "5min": "al massimo ogni 5 minuti",
+        "hourly": "al massimo ogni ora",
+        "manual": "solo quando lo chiedo"
+      }
+    },
+    "updateCheck": {
+      "label": "controlla aggiornamenti",
+      "description": "con quale frequenza kalibre cerca una nuova versione; in ogni caso aspetta te",
+      "option": {
+        "5min": "ogni 5 minuti",
+        "15min": "ogni 15 minuti",
+        "hourly": "ogni ora",
+        "launch": "quando kalibre si apre",
+        "manual": "solo quando lo chiedo"
+      }
+    },
+    "enabledDatasets": {
+      "label": "dataset attivi"
+    },
+    "libraries": {
+      "label": "librerie di dataset"
+    },
+    "wordFilter": {
+      "label": "filtra le parole offensive"
+    },
+    "blockedWords": {
+      "label": "parole personali da filtrare"
+    },
+    "companionLook": {
+      "label": "aspetto di {companion}"
+    },
+    "stenoNoteShown": {
+      "label": "nota stenografica mostrata"
+    },
+    "lastVisitDay": {
+      "label": "ultima visita"
+    },
+    "calSeen": {
+      "label": "elementi di {companion} visti"
+    },
+    "calPets": {
+      "label": "volte in cui {companion} è stato accarezzato"
+    },
+    "calPokes": {
+      "label": "volte in cui {companion} ha ricevuto un colpetto"
+    },
+    "calTickles": {
+      "label": "volte in cui {companion} è stato solleticato"
+    },
+    "calPokeFits": {
+      "label": "volte in cui {companion} ha ricevuto troppi colpetti"
+    },
+    "raceNoticeSeen": {
+      "label": "avviso della gara visto"
+    },
+    "lastSeenVersion": {
+      "label": "ultima versione vista"
+    },
+    "updateTold": {
+      "label": "aggiornamento menzionato"
+    },
+    "calArmLifts": {
+      "label": "volte in cui è stato sollevato il braccio di {companion}"
+    },
+    "restartRun": {
+      "label": "ultimo avvio"
+    },
+    "calRestartBest": {
+      "label": "più riavvii rapidi consecutivi"
+    },
+    "achievementsSeen": {
+      "label": "traguardi visti"
+    },
+    "achievementsVersionSeen": {
+      "label": "versione dei traguardi vista"
+    },
+    "themeDecorations": {
+      "label": "decorazioni del tema"
+    },
+    "profileCard": {
+      "label": "scheda profilo"
+    },
+    "cardItemsSeen": {
+      "label": "elementi della scheda profilo visti"
+    },
+    "raceCardNoticeSeen": {
+      "label": "avviso della scheda gara visto"
+    },
+    "car": {
+      "label": "auto da gara"
+    },
+    "carPartsSeen": {
+      "label": "componenti dell'auto da gara visti"
+    },
+    "raceConfig": {
+      "label": "scelte della gara"
+    },
+    "raceModesNoticeSeen": {
+      "label": "avviso delle modalità di gara visto"
+    },
+    "decorationsSeen": {
+      "label": "decorazioni del tema viste"
+    },
+    "achievementsComplete": {
+      "label": "ogni traguardo"
+    },
+    "engagement": {
+      "label": "coinvolgimento"
+    },
+    "partnerLook": {
+      "label": "aspetto del partner"
+    },
+    "lessonConfig": {
+      "label": "configurazione delle lezioni"
+    },
+    "lessonPrep": {
+      "label": "fasi delle lezioni e riscaldamenti"
+    },
+    "gameConfigs": {
+      "label": "configurazioni dei giochi"
+    },
+    "lastConfig": {
+      "label": "ultima configurazione del test"
+    },
+    "numpad": {
+      "label": "ho un tastierino numerico",
+      "description": "per l'esercitazione del tastierino numerico e per indicare se Bloc Num è disattivato"
+    },
+    "numpadSeen": {
+      "label": "tastierino numerico visto"
+    },
+    "numpadTold": {
+      "label": "esercitazione del tastierino numerico menzionata"
+    },
+    "numpadOffered": {
+      "label": "esercitazione del tastierino numerico proposta"
+    },
+    "sumsConfig": {
+      "label": "configurazione delle somme"
+    },
+    "numpadConfig": {
+      "label": "configurazione del test a dieci tasti"
+    }
+  },
+  "actions": {
+    "export": "esporta impostazioni",
+    "import": "importa impostazioni"
+  },
+  "tip": {
+    "esc_change": "esc: cambia qualsiasi impostazione digitando"
+  },
+  "notice": {
+    "imported_count": "importate {count} impostazioni"
+  },
+  "data_panel": {
+    "done_the_browser_will_keep": "Fatto: il browser conserverà i tuoi dati.",
+    "the_browser_said_no_for": "Il browser ha detto di no per ora. Installare kalibre come app o aggiungerlo ai segnalibri spesso cambia la situazione; nel frattempo, conserva un backup.",
+    "this_browser_can_t_save": "Questo browser non può salvare da solo in una cartella, quindi fai il backup manualmente qui sotto. (Chrome ed Edge possono farlo automaticamente.)",
+    "choose_a_folder_on_this": "Scegli una cartella su questo computer e diventerà la tua cartella kalibre: questo profilo viene salvato lì pochi secondi dopo ogni test o modifica, insieme ai dataset e ai font che hai aggiunto. Se la cartella contiene altre cose, al suo interno viene creata una cartella “kalibre”.",
+    "saving_this_profile_and_the": "Salvataggio di questo profilo e dei dataset e font aggiunti qui nella cartella kalibre “{folderName}” · {last}.{problem}",
+    "when_an_update_changes_how": "Quando un aggiornamento cambia il modo in cui kalibre conserva i dati, tiene una copia di tutto ciò che c'era subito prima, nel caso qualcosa vada storto. Vengono mantenute le due più recenti.",
+    "what_takes_the_space": "cosa occupa spazio",
+    "bring_profiles_datasets_and_fonts": "Ripristina profili, dataset e font da una cartella kalibre: dopo aver svuotato il browser o su un altro computer. Qui non viene sovrascritto nulla. Funziona in qualsiasi browser.",
+    "shared": "condiviso",
+    "the_file_is_ready": "il file è pronto",
+    "couldn_t_save_see_settings": "impossibile salvare (vedi impostazioni → dati)",
+    "storage_persistent": "Il browser conserva i dati di kalibre finché non li elimini tu.",
+    "storage_best_effort": "Il browser potrebbe eliminare i dati di kalibre se lo spazio su disco si riduce (Safari lo fa anche dopo 7 giorni senza visite). Chiedigli di conservare i dati e mantieni un backup.",
+    "storage_unsupported": "Questo browser non può garantire di conservare i dati di kalibre, quindi mantieni un backup.",
+    "storage_using": " In uso: {used}.",
+    "overdue": "Questo profilo non riceve backup da più di {days} giorni. ",
+    "never_backed_up": "Questo profilo non ha ancora ricevuto un backup. ",
+    "last_backup": "Ultimo backup {when}. ",
+    "export_explained": "Un'esportazione è un file con la cronologia di questo profilo (salvato nelle esportazioni della cartella kalibre quando disponibile); ripristinalo con “importa un file del profilo” nel menu del profilo.",
+    "copy_line": "da {when}, subito prima che {what} cambiasse il modo di conservare i dati · {records} record",
+    "copy_app": " kalibre v{app}",
+    "copy_update": " un aggiornamento",
+    "allow_again": "consenti di nuovo",
+    "save_over_it": "salva sopra",
+    "restore_it": "ripristinalo",
+    "put_this_copy_back": "rimetti questa copia",
+    "share_it": "condividila"
+  },
+  "fonts": {
+    "default_monospace": "predefinito (monospazio)",
+    "font_names_can_only_use": "I nomi dei font possono usare solo lettere, numeri, spazi, punti, trattini e trattini bassi.",
+    "isn_t_available_on_this": "“{family}” non è disponibile su questo dispositivo, quindi viene mostrato il font predefinito.",
+    "use": "usa {family}",
+    "kb": "{fileName} · {round} KB",
+    "remove": "rimuovi {family}",
+    "list_fonts_on_this_computer": "elenca i font su questo computer",
+    "fonts_found_start_typing_a": "trovati {length} font; inizia a digitare un nome per sceglierne uno.",
+    "the_browser_did_not_allow": "Il browser non ha consentito di elencare i font. Puoi comunque digitare il nome di qualsiasi font installato.",
+    "load_a_font_file": "carica un file di font",
+    "use_default_font": "usa il font predefinito",
+    "bundled_legible": "incluso · monospazio leggibile",
+    "bundled_dyslexia": "incluso · adatto alla dislessia",
+    "sample": "the quick brown fox jumps over the lazy dog. 0123456789"
+  },
+  "settings": {
+    "github": "github",
+    "translation_note": "questa traduzione non è stata scritta o controllata da un madrelingua, quindi alcune parti potrebbero suonare strane. puoi contribuire a migliorarla su {link}.",
+    "imported": "importate {count, plural, one {# impostazione} other {# impostazioni}}",
+    "skipped": " · ignorato {what}",
+    "sections_label": "sezioni delle impostazioni"
+  },
+  "storage_screen": {
+    "measuring": "misurazione…",
+    "space_used": "spazio usato",
+    "yes": "sì, {label}",
+    "export_first": "esporta prima",
+    "kalibre_is_using_of_the": "kalibre usa {formatSize} dei {formatSize2} consentiti da questo browser.",
+    "kalibre_is_using_about": "kalibre usa circa {formatSize}.",
+    "couldn_t_measure": "impossibile misurare: {message}"
+  },
+  "theme_editor": {
+    "sample_of_this_theme": "anteprima di questo tema",
+    "needs_1": " (richiede {minimum}:1)",
+    "fix_the_colours_marked_first": "Correggi prima i colori contrassegnati con ✗",
+    "hex_value": "valore esadecimale di {label}",
+    "edit_theme": "modifica tema",
+    "a_sample_of_every_colour": "Un'anteprima di ogni colore, con le tue impostazioni di visione dei colori e contrasto. Passa sopra un colore o scegline uno per evidenziare dove viene usato.",
+    "imported": "importato “{name}”",
+    "that_file_isn_t_a": "Quel file non è un tema.",
+    "saved": "salvato “{name}”",
+    "saved_decorate": ". Decoralo dall'elenco quando vuoi.",
+    "groups": {
+      "page": "pagina",
+      "text": "testo",
+      "typing": "digitazione",
+      "charts": "grafici"
+    },
+    "tokens": {
+      "bg": "sfondo",
+      "surface": "pannelli",
+      "separator": "linee e bordi",
+      "selection": "selezione",
+      "text": "testo",
+      "textDim": "testo attenuato",
+      "accent": "accento",
+      "correct": "testo digitato",
+      "incorrect": "errori",
+      "extra": "lettere extra",
+      "caret": "cursore",
+      "chartWpm": "linea ppm",
+      "chartRaw": "linea grezza",
+      "chartError": "errori",
+      "heat1": "calore dei tasti 1",
+      "heat2": "calore dei tasti 2",
+      "heat3": "calore dei tasti 3",
+      "heat4": "calore dei tasti 4"
+    },
+    "sample_correct": "quick brown ",
+    "sample_incorrect": "fxo",
+    "sample_extra": "ss",
+    "sample_dim": " salta sopra",
+    "sample_text": "testo ",
+    "sample_link": "link",
+    "sample_selected": "selezionato",
+    "that_theme_can_t_be": "Quel tema non può essere usato: {problem}.",
+    "scheme_label": "chiaro o scuro"
+  },
+  "theme_picker": {
+    "quick_brown": "quick brown ",
+    "fxo": "fxo",
+    "ss": "ss",
+    "jumps_over": " salta sopra",
+    "surface": "superficie ",
+    "accent_link": "link in risalto",
+    "selected": "selezionato",
+    "1_text": "testo {ratio}:1",
+    "choose_theme": "{label}: scegli tema",
+    "options": "opzioni di {label}",
+    "pick": "scegli {label}"
+  },
+  "sections": {
+    "theme": "tema",
+    "typing": "digitazione",
+    "content": "contenuto",
+    "training": "allenamento",
+    "accessibility": "accessibilità",
+    "data": "dati"
+  },
+  "stepper": {
+    "decrease": "diminuisci {label}",
+    "increase": "aumenta {label}"
+  }
+}

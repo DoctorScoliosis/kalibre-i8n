@@ -52,6 +52,21 @@
       "bytes": 336988
     },
     {
+      "id": "it-IT",
+      "name": "Italiano",
+      "englishName": "Italian",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 2,
+      "version": "2026-10-03",
+      "reviewed": "machine",
+      "changes": "Filled current physical-serving gaps against kalibre-kanary",
+      "path": "locales/it-IT/manifest.json",
+      "pack": "packs/it-IT.json",
+      "sha256": "2462ea1577fd841df7b4cb7705a0b1d47d5f23317a35b439fa8794d4c462db18",
+      "bytes": 325524
+    },
+    {
       "id": "pt-BR",
       "name": "Português (Brasil)",
       "englishName": "Portuguese (Brazil)",
