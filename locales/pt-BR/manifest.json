@@ -16,9 +16,9 @@
     "sans-serif"
   ],
   "reviewed": "machine",
-  "revision": 1,
+  "revision": 2,
   "version": "2026-10-03",
-  "changes": "Initial Brazilian Portuguese candidate translation from Kalibre Kanary snapshot 450b97f; pack build",
+  "changes": "Filled current physical-serving gaps against kalibre-kanary",
   "files": {
     "about.json": "2c139d32ba8f813799f11e8271c495b9cf566ddf246d4abef057fbd3b8d84bc8",
     "achievements.json": "0e4fac24db04d49b5c8b5fc8994c89e27eaa9e160901782680725228ae6368c1",
@@ -46,6 +46,7 @@
     "themes.json": "7b8f947a3373b077e88185d0c7526123a0fff19c64c9644ed8b38c0d5423d939",
     "typing.json": "ff309c2d9fbd6520ddd163e504bfa0c3541b5b34ad996a367ae5e9dc16b1fff7",
     "wardrobe.json": "18faf01b154dc2478a590a69518ab9000adea611057ef51b0a675bb19600d25e",
-    "words.json": "5c47dd5307412666a2d3f6bbf416e2b7345aac4da14d71afbfd54d16d9475071"
+    "words.json": "5c47dd5307412666a2d3f6bbf416e2b7345aac4da14d71afbfd54d16d9475071",
+    "games": "e49919ca5fbd3271d340d47554abcecf20ae2efe1c2600a3bdf6b881c18fcbaf"
   }
 }
