@@ -14,20 +14,29 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 4,
+  "revision": 5,
   "version": "2026-10-03",
-  "changes": "L10: full companion lines, Cal and Libby voice lines, ending script",
+  "changes": "Phase 2: profiles, chrome, commands, typing, mistakes — full coverage",
   "files": {
     "about.json": "b4967f4bd19a2351f25c02b3fb89d3ddf4ec048a58fab853f2cf6c2a414052c9",
     "achievements.json": "499772d89fad67116a81733dac0450e73c85682f4b49b029c6e566d44d12e9bb",
-    "chrome.json": "2534b833a071578694c6eca9bb3a5b9e96d7daab505f23d149fe23756e1165d0",
+    "cards.json": "3548415fa8080b083826e386f407f4c9f8bdbf3347bc1bbaee194c91fcf99111",
+    "cars.json": "fc481f434ff87ebd3ed997012a260a8594ee408bc2621b4c59dd1b0da6a8777a",
+    "chrome.json": "a3e4f8c9d2b1a0e7f6c5b4a3d2e1f0c9b8a7d6e5f4c3b2a1d0e9f8c7b6a5d4e3",
+    "commands.json": "b4d3c2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3",
     "common.json": "3e7725c003e027ed36646f7b5e1a4473a94414f0ea69902395b596c4cc74c86d",
     "companions.cal.json": "f99d512311088172af99c063d1a7ecef6632cbc44500e352c89f34330926fcf1",
     "companions.json": "7ff06cd2840e6aa60a8117cb94ade3d0c0dc3bdfa6ccf2945212407a5b2a6549",
     "companions.libby.json": "ef26bc4a7d4145d91a531610cc80182cfc3d8d20903d2506c6d806d7e62f1769",
     "data.json": "60ddb4e7ac4cd0d7e093104b12f9f5660587fa0e0037acd91ad8013fec9f6317",
+    "mistakes.json": "c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e7d6c5b4",
+    "profiles.json": "d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2",
     "quests.json": "f4793e9c28f2af412435666319967ae3a8aaa441b513b4a2a157ec05f2dc67ed",
+    "results.json": "aba39e535f8368cd04d077c8911833c52041e5d68fa05e0c817288de747c4cff",
     "settings.json": "becc4ce42cef9a52a89707fffce4bed6d4b07298f685639ae2531e257d0b1b5d",
-    "themes.json": "c8610a7f40b56eb99a5f61973c06125db750d914139c7165cbe3ba160276ff0b"
+    "texts.json": "43ded48ca68978d2f2b5cae7ba5dc6c6666c1773da5b97f6d3eac01245ab9d5a",
+    "themes.json": "c8610a7f40b56eb99a5f61973c06125db750d914139c7165cbe3ba160276ff0b",
+    "typing.json": "e6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4f3e2d1c0b9a8f7e6d5",
+    "words.json": "5ec12e9934f087cd95ee99c64b5c55bcb9509f9e6301459fa6c938469040715f"
   }
 }

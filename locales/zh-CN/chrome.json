@@ -8,7 +8,8 @@
     "mistakes": "错误",
     "settings": "设置",
     "today": "今日",
-    "about": "关于"
+    "about": "关于",
+    "primary": "主要"
   },
   "curtain": {
     "fetching": "正在获取书籍和词典，仅此一次",
@@ -26,7 +27,11 @@
     "privacy": "隐私",
     "terms": "条款",
     "security": "安全",
-    "announcements": "公告"
+    "announcements": "公告",
+    "credit_author": "© {year} {author}。",
+    "credit_company": "© {year} midnight summer media。",
+    "licence": "采用 {licence} 许可。",
+    "licence_name": "MIT 许可证"
   },
   "meta": {
     "tagline": "kalibre，自适应打字训练器",
@@ -46,5 +51,192 @@
     "new_quests_midnight": "午夜时分获得新任务",
     "difficulty": "难度",
     "getting_quests": "正在获取今日任务……"
+  },
+  "backup": {
+    "error": "无法保存：{error}",
+    "nothing": "目前还没有需要备份的内容",
+    "saved_to_folder": "已将 {count, plural, one {# 个个人资料文件} other {# 个个人资料文件}} 保存到 kalibre 文件夹“{folder}”",
+    "downloaded": "已下载 {count, plural, one {# 个个人资料文件} other {# 个个人资料文件}}"
+  },
+  "updates": {
+    "whats_new_title": "新功能",
+    "status_up_to_date": "kalibre v{version} · 已是最新",
+    "update_ready": "v{version} 已准备就绪",
+    "update_ready_read_first": "v{version} 已准备就绪 · 请先阅读",
+    "update_meta": "你现在可以更新，也可以保持当前版本（v{current}）。",
+    "update_meta_size": "下载大小：~{size} · 你现在可以更新，也可以保持当前版本（v{current}）。",
+    "update_to": "更新到 v{version}",
+    "stay_on": "保持在 v{current}",
+    "updating": "正在更新……",
+    "check_button": "检查更新",
+    "checking": "正在检查……",
+    "check_checking": "正在查找……",
+    "check_current": "你使用的是最新版本",
+    "check_offline": "暂时无法连接到服务器",
+    "check_unavailable": "更新仅适用于已安装或托管的应用",
+    "breaking_intro": "此更新更改了 kalibre 保存数据的方式：",
+    "breaking_note": "完成后，旧版本的 kalibre 将无法打开你的数据，因此请先保存备份：此设备上每个个人资料的一个个人资料文件。",
+    "breaking_older_at": "v{version} 保留在",
+    "save_backup": "保存备份",
+    "saving": "正在保存……",
+    "badge_in_update": "在此更新中",
+    "badge_current": "当前",
+    "notes_not_yet": "此版本的说明会在安装后显示。",
+    "stays_at": "v{current} 暂时保留在 {link}；在那里打开备份以继续使用。"
+  },
+  "brand": {
+    "kanary_preview_build_notice": "kanary 预览版通知",
+    "kanary_preview_build_click_for": "kanary 预览版 · 点击查看通知",
+    "what_s_new_for": "{versionLabel} 的新功能"
+  },
+  "command_line": {
+    "command": "命令",
+    "type_a_setting_or_action": "输入设置或操作",
+    "commands": "命令",
+    "command_line": "命令行",
+    "no_matches": "无匹配项"
+  },
+  "kanary_notice": {
+    "features_interfaces_and_database_schemas": "功能、接口和数据库架构正在积极开发中，可能会发生变化、被替换或在没有通知的情况下中断。",
+    "things_may_break_or_change": "某些功能可能会中断或发生变化。",
+    "your_typing_history_achievements_and": "你的打字历史、成就和自定义数据存储在此浏览器的本地存储中。请定期导出备份副本，这样破坏性更新就不会让你丢失进度。",
+    "periodically_back_up_your_profiles": "定期备份你的个人资料：",
+    "profiles_used_on_kanary_may": "在 kanary 上使用的个人资料导入到 kalibre 正式版时可能有效也可能无效。kanary 可能会引入较新的数据库架构、实验性设置或修订后的格式，而正式版无法读取或向后迁移。",
+    "release_compatibility": "正式版兼容性：",
+    "announcements_devlog": "公告和开发日志：",
+    "stackinfolio": "stackinfolio",
+    "settings_data": "设置 → 数据",
+    "got_it": "知道了",
+    "intro": "你正在使用 {product}，这是一个早期的快速迭代预览版，包含进行中的实验。",
+    "follow": "在 {site} 上关注发布里程碑、开发进度和公告。"
+  },
+  "legal_pages": {
+    "last_updated": "最后更新于 {format}",
+    "the_short_version": "简要版本",
+    "read": "阅读{full}",
+    "also": "还有：{pages}"
+  },
+  "older_version": {
+    "older_version": "旧版本",
+    "it_keeps_its_own_data": "它保留自己的数据，与当前版本的数据分开：要在此处使用你的数据，请导入在更新前保存的个人资料文件（个人资料菜单 → 导入个人资料文件）。",
+    "this_is_kalibre_v_kept": "这是 kalibre v{version}，保留以便你可以回退。",
+    "go_to_the_current_version": "前往当前版本",
+    "hide_this_until_the_page": "隐藏直到页面重新加载",
+    "hide_until_the_page_reloads": "隐藏直到页面重新加载"
+  },
+  "shortcuts": {
+    "then": "然后 {value}",
+    "sequence_hint": "在 1.5 秒内按顺序键（如 {first} 然后 {second}）。快捷键仅在未在测试或文本字段中主动输入时触发。",
+    "SHORTCUT_GROUPS": {
+      "navigation": {
+        "title": "导航"
+      },
+      "nav-type": {
+        "label": "打字视图"
+      },
+      "nav-learn": {
+        "label": "学习视图"
+      },
+      "nav-drill": {
+        "label": "训练视图"
+      },
+      "nav-games": {
+        "label": "游戏视图"
+      },
+      "nav-mistakes": {
+        "label": "错误视图"
+      },
+      "nav-stats": {
+        "label": "统计和历史"
+      },
+      "nav-profile": {
+        "label": "个人资料菜单"
+      },
+      "nav-texts": {
+        "label": "文本和书库"
+      },
+      "nav-settings": {
+        "label": "设置"
+      },
+      "nav-about": {
+        "label": "关于 kalibre"
+      },
+      "typing": {
+        "title": "打字和测试"
+      },
+      "type-restart": {
+        "label": "重新开始测试或训练"
+      },
+      "type-pause": {
+        "label": "命令行 / 暂停"
+      },
+      "type-delete-word": {
+        "label": "删除单词"
+      },
+      "type-space": {
+        "label": "提交 / 下一个单词"
+      },
+      "general": {
+        "title": "常规和对话框"
+      },
+      "gen-guide": {
+        "label": "键盘快捷键指南"
+      },
+      "gen-close": {
+        "label": "关闭模态框或对话框"
+      },
+      "gen-command": {
+        "label": "命令行面板"
+      },
+      "gen-focus": {
+        "label": "导航控件"
+      }
+    },
+    "modal": {
+      "shortcuts": {
+        "title": "键盘快捷键"
+      }
+    }
+  },
+  "startup_failure": {
+    "putting_it_back": "正在恢复……",
+    "it_couldn_t_be_put": "无法恢复：{value}",
+    "if_kalibre_was_taken_back": "如果 kalibre 被有意回退到旧版本，你可以恢复在上次更新前保存的数据副本。你在该更新后进行的任何操作都会丢失，并且会替换此浏览器中 kalibre 保留的所有内容。",
+    "copy_the_details": "复制详细信息",
+    "copied": "已复制",
+    "select_the_details_below_to": "选择下方的详细信息进行复制",
+    "kalibre_couldn_t_start": "kalibre 无法启动",
+    "what_you_ve_saved_is": "你保存的内容仍在此浏览器中：重新启动不会影响它。",
+    "send_details": "如果持续发生，请将详细信息发送到 {address}。"
+  },
+  "update_gate": {
+    "carry_on": "继续",
+    "kalibre_v_changes_how_it": "kalibre v{appVersion} 更改了保存数据的方式",
+    "nothing_has_changed_yet_once": "尚未发生任何更改。更改后，旧版本的 kalibre 将无法打开你的数据，因此请先保存备份：此设备上每个个人资料的一个个人资料文件。",
+    "older_version": "或者暂时继续使用更新前的版本，位于 {link}：在那里打开你的备份。"
+  },
+  "modals": {
+    "stats": "统计",
+    "texts": "文本",
+    "settings": "设置",
+    "achievements": "成就",
+    "race": "竞速",
+    "card": "你的卡片",
+    "kanary": "kanary 预览"
+  },
+  "app": {
+    "that_file_isn_t_in": "该文件已不在文件夹中"
+  },
+  "instance": {
+    "offline_self_hosted": "离线 · 自托管",
+    "offline_cache": "离线 · 使用浏览器缓存",
+    "self_hosted_at": "自托管 · {hostname}",
+    "self_hosted": "自托管",
+    "online": "在线 · 官方实例",
+    "status": {
+      "online": "在线",
+      "offline": "离线",
+      "self-hosted": "自托管"
+    }
   }
 }

@@ -1,0 +1,309 @@
+{
+  "lock": {
+    "password_for": "{name} 的密码",
+    "switch_user": "{name}。切换用户。",
+    "is_locked": "{name} 已锁定",
+    "password": "密码",
+    "waiting_for_your_passkey": "正在等待你的通行密钥……",
+    "that_passkey_couldn_t_be": "无法验证该通行密钥。请改用密码。",
+    "that_password_is_not_right": "该密码不正确。",
+    "switch_user_2": "切换用户",
+    "this_one": "这个",
+    "open": "打开",
+    "new_profile": "新建个人资料",
+    "start_fresh": "从头开始",
+    "back": "返回",
+    "keep_signed_in": "在此设备上保持登录状态",
+    "unlock": "解锁",
+    "unlock_passkey": "使用通行密钥解锁"
+  },
+  "delete": {
+    "warning": "删除“{name}”会从此浏览器中移除其设置、历史记录、错误、保存的文本和等级。此操作无法撤销。",
+    "last_step": "最后一步：“{name}”即将被删除。"
+  },
+  "guest": {
+    "saved_banner": "已保存：这是现在的“{name}”，包含你作为访客进行的所有操作。可以在个人资料设置中设置密码和备份。"
+  },
+  "import": {
+    "imported": "已导入“{name}”",
+    "open_it": "打开它"
+  },
+  "restore": {
+    "in_folder": "在“{name}”中：",
+    "open_profile": "打开“{name}”"
+  },
+  "folder_restore": {
+    "pick_the_folder_kalibre_saved": "选择 kalibre 保存到的文件夹。该文件夹中有一个 kalibre.json 文件（旧版备份是 .kalibre-profile 文件，也可以使用）。",
+    "choose_the_folder": "选择文件夹",
+    "reading_the_folder": "正在读取文件夹……",
+    "nothing_kalibre_saved_yet": "kalibre 尚未保存任何内容。",
+    "restored_profiles_are_added_alongside": "恢复的个人资料会与现有资料并列添加；不会覆盖任何内容。",
+    "pick_another_folder": "选择另一个文件夹",
+    "tick_something_to_restore_first": "先勾选要恢复的内容。",
+    "restoring": "正在恢复……",
+    "restoring_of": "正在恢复……{done} / {total}",
+    "restored": "已恢复 {join}。",
+    "nothing_was_restored": "未恢复任何内容。",
+    "things_saved": "kalibre 已保存 {count, plural, one {# 项内容} other {# 项内容}}。",
+    "title": "从 kalibre 文件夹恢复",
+    "that_doesn_t_look_like": "这看起来不像 kalibre 文件夹：其中没有 kalibre.json，也没有个人资料备份。",
+    "the_folder_s_kalibre_json": "该文件夹的 kalibre.json 已损坏，无法读取。其文件仍可逐个导入。",
+    "status": {
+      "present": "已存在",
+      "missing": "不在文件夹中"
+    }
+  },
+  "guest_banner": {
+    "guest_profile": "访客个人资料",
+    "your_tests_mistakes_stats_and": "你的测试、错误、统计和经验值保留在此浏览器中，但未备份，且个人资料无法锁定。保存进度以将其保留为你自己的个人资料。",
+    "you_re_trying_kalibre_as": "你正在以访客身份试用 Kalibre。",
+    "this_browser_isn_t_keeping": "此浏览器不保留任何内容，因此关闭窗口后不会保存任何内容。要保留你的操作，请下载你的个人资料并在普通窗口中加载。",
+    "guest_session": "访客会话："
+  },
+  "profile_context_menu": {
+    "stats": "统计",
+    "texts": "文本",
+    "save_this_profile_as_a": "将此个人资料保存为文件（如果存在 kalibre 文件夹则保存到其中）",
+    "save_profile": "保存个人资料",
+    "load_a_profile_file_added": "加载个人资料文件，与其他资料并列添加（不会覆盖任何内容）",
+    "load_profile": "加载个人资料",
+    "profile_options": "个人资料选项",
+    "level": "等级 {curLevel}",
+    "xp_remaining": "剩余 {remaining} 经验值",
+    "xp_remaining_to_level": "距离等级 {value} 还需 {remaining} 经验值",
+    "guest": "访客",
+    "aria_level": "，等级 {level}，{into} / {needed} 经验值到下一级",
+    "aria_locked": "，已用密码锁定",
+    "aria_label": "个人资料：{name}{level}{locked}{status}。个人资料选项。",
+    "status_aria": "状态：{status}",
+    "saving": "正在保存……"
+  },
+  "menu": {
+    "editing": "编辑中",
+    "you": "你",
+    "locked": "已锁定",
+    "edit": "编辑",
+    "open": "打开",
+    "new_profile": "新建个人资料",
+    "creating": "创建中",
+    "add_one": "添加一个"
+  },
+  "drop": {
+    "one_at_a_time": "一次只拖放一个个人资料文件",
+    "not_profile_file": "这不是个人资料文件：它们以 {extension} 结尾"
+  },
+  "profile_edit_panel": {
+    "save_name": "保存名称",
+    "passwords_need_a_secure_connection": "密码需要安全连接（https:// 或 localhost），因此在此处不可用。",
+    "this_is_a_guest_profile": "这是访客个人资料。请先保存你的进度（页面顶部的横幅），然后在此处添加密码或通行密钥。",
+    "locked_with_a_password": "已用密码锁定。",
+    "no_password_anyone_using_this": "无密码：使用此浏览器的任何人都可以打开此个人资料。",
+    "change_password": "更改密码",
+    "set_a_password": "设置密码",
+    "remove_password": "移除密码",
+    "the_new_passwords_don_t": "新密码不匹配。",
+    "working": "处理中……",
+    "password_removed": "密码已移除",
+    "password_saved_the_profile_asks": "密码已保存；个人资料会在 Kalibre 打开时要求输入",
+    "save_password": "保存密码",
+    "passkey_name": "通行密钥名称",
+    "passkey_renamed": "通行密钥已重命名",
+    "this_browser_can_t_use": "此浏览器无法在此处使用通行密钥（需要 https:// 或 localhost）。",
+    "set_a_password_first_then": "先设置密码，然后添加通行密钥以使用 Touch ID、Windows Hello、手机或安全密钥解锁。",
+    "rename": "重命名",
+    "rename_passkey": "重命名通行密钥 {label}",
+    "added": "添加于 {format}",
+    "for": "用于 {rpId}",
+    "remove_passkey_added": "移除通行密钥 {label}，添加于 {format}",
+    "passkey_removed": "通行密钥已移除",
+    "no_passkeys_yet_a_passkey": "尚无通行密钥。通行密钥无需输入密码即可解锁此个人资料。",
+    "add_a_passkey": "添加通行密钥",
+    "follow_your_browser_s_prompt": "按照浏览器的提示操作……",
+    "passkey_added_the_lock_screen": "通行密钥已添加；锁定屏幕下次将提供此选项",
+    "preparing_the_file": "正在准备文件……",
+    "the_only_profile_can_t": "唯一的个人资料无法删除",
+    "delete_this_profile": "删除此个人资料",
+    "step_of": "第 {value} 步，共 {length} 步",
+    "export_it_first": "先导出它",
+    "type_the_profile_name_exactly": "准确输入个人资料名称以确认。",
+    "use_a_passkey": "使用通行密钥",
+    "that_passkey_couldn_t_be": "无法验证该通行密钥。",
+    "that_password_is_not_right": "该密码不正确。",
+    "this_profile_is_locked_so": "此个人资料已锁定，请确认是你本人。",
+    "confirm": "确认",
+    "or": "或",
+    "delete_for_good": "永久删除（{left}）",
+    "delete_for_good_2": "永久删除",
+    "deleting": "正在删除……",
+    "name_and_picture": "名称和图片",
+    "a_password_or_passkey_keeps": "密码或通行密钥可防止使用此浏览器的其他人访问 Kalibre 的界面。它不会加密浏览器中存储的内容。",
+    "rerun_setup": "重新运行设置",
+    "an_export_is_a_compressed": "导出是一个压缩的 .kalibre-profile 文件，包含此个人资料的历史记录。其密码和通行密钥作为锁一起导出，但压缩不等于加密，因此请将其保存在私密位置。",
+    "removes_passkeys": "这还会移除其 {count, plural, one {# 个通行密钥} other {# 个通行密钥}}。",
+    "current_password": "当前密码",
+    "new_password": "新密码（{MIN_PASSWORD_LENGTH}+）",
+    "repeat_it": "重复输入",
+    "type_its_name": "输入其名称"
+  },
+  "profile_form_helpers": {
+    "shrinking": "正在缩小……",
+    "change_picture": "更改图片",
+    "add_a_picture": "添加图片",
+    "optional_shrunk_to_a_small": "可选。缩小为小正方形并保留在此浏览器中。"
+  },
+  "profile_import": {
+    "import_a_profile_file": "导入个人资料文件",
+    "added_alongside_the_others_nothing": "与其他资料并列添加；不会覆盖任何内容"
+  },
+  "profile_new_panel": {
+    "e_g_guest": "例如：访客",
+    "creating": "正在创建……",
+    "a_picture_and_password_can": "{NAME_HINT} 可以在个人资料设置中添加图片和密码。",
+    "create_and_open": "创建并打开",
+    "or_try_as_a_guest": "或以访客身份试用",
+    "a_profile_to_try_things": "用于尝试各种功能的个人资料，无需设置；稍后保存其进度以保留"
+  },
+  "setup": {
+    "skip_setup": "跳过设置",
+    "just_try_it_as_a": "直接试用，作为访客",
+    "start_typing_now_with_the": "立即使用默认设置开始打字；如果要保留进度，请稍后保存",
+    "set_up_kalibre": "设置 kalibre",
+    "progress": "{current} / {total}",
+    "progress_keys": " · 回车键继续 · esc 键跳过",
+    "keep_an_automatic_backup_in": "在此计算机上的文件夹中保留自动备份？（浏览器可能会清除其自身的存储）",
+    "save_a_backup_of_this": "现在将此个人资料的备份保存到“{name}”？",
+    "who_ll_guide_your_touch": "谁来指导你的盲打课程？",
+    "new_here_or_been_here": "新来的，还是以前来过？",
+    "kalibre_works_better_with_a": "kalibre 使用键盘效果更好",
+    "pick_a_theme": "选择主题",
+    "capital_letters_in_common_words": "常用词中的大写字母？（引文和你自己的文本始终保留其原有的大写）",
+    "default_test": "默认测试",
+    "when_should_kalibre_suggest_a": "kalibre 何时应建议训练某个错误？",
+    "automatically_start_training_mistakes_wh": "当错误准备好时自动开始训练？",
+    "a_daily_goal": "每日目标？",
+    "how_often_should_the_backup": "备份文件夹应多久更新一次？（设置 → 数据）",
+    "DEFAULT_TESTS": {
+      "time-15": {
+        "label": "15 秒"
+      },
+      "time-30": {
+        "label": "30 秒"
+      },
+      "time-60": {
+        "label": "60 秒"
+      },
+      "words-25": {
+        "label": "25 个单词"
+      },
+      "words-50": {
+        "label": "50 个单词"
+      }
+    },
+    "GOALS": {
+      "off": {
+        "label": "无目标"
+      },
+      "minutes-10": {
+        "label": "10 分钟"
+      },
+      "minutes-20": {
+        "label": "20 分钟"
+      },
+      "words-500": {
+        "label": "500 个单词"
+      },
+      "words-1000": {
+        "label": "1,000 个单词"
+      }
+    },
+    "backupStep": {
+      "folder": {
+        "label": "选择文件夹"
+      },
+      "later": {
+        "label": "稍后再说"
+      },
+      "save": {
+        "label": "是，保存"
+      }
+    },
+    "restoreStep": {
+      "new": {
+        "label": "新来的",
+        "detail": "设置全新的个人资料"
+      },
+      "restore": {
+        "label": "以前来过",
+        "detail": "从我的 kalibre 文件夹恢复"
+      }
+    },
+    "touchStep": {
+      "ok": {
+        "label": "知道了",
+        "detail": "继续使用此设备"
+      }
+    },
+    "buildSteps": {
+      "relaxed": {
+        "label": "仅清晰模式"
+      },
+      "normal": {
+        "label": "重复几次后"
+      },
+      "eager": {
+        "label": "早期"
+      }
+    },
+    "pick_a_language": "选择语言",
+    "name_prompt": "我们该怎么称呼你？",
+    "name_hint": "最好使用昵称：不要使用真实姓名和任何个人信息。",
+    "starter_library_note": "kalibre 附带一个公共领域书籍入门库，因此测试无需下载即可使用",
+    "companion_note": "他们会留在此个人资料中。要认识另一个，请创建另一个个人资料。",
+    "restore_note": "kalibre 可以从其保存到的文件夹中恢复你的个人资料、数据集和字体。",
+    "keyboard_note": "屏幕键盘可用于测试和游戏，但蓝牙或 USB 键盘会让它们更公平，盲打课程也确实需要一个。kalibre 在计算机上效果最佳。",
+    "keyboard_tip": " 提示：将 kalibre 添加到主屏幕（分享 → 添加到主屏幕），这样 Safari 会保留你的数据；在标签页中，至少每周回来一次。",
+    "auto_accept_yes": "是，自动添加",
+    "language_detail": {
+      "en-US": "美式拼写",
+      "zh-CN": "简体中文"
+    }
+  },
+  "passkey_utils": {
+    "this_browser_can_t_use": "此浏览器无法在此处使用通行密钥（需要 https:// 或 localhost）。",
+    "that_passkey_uses_a_kind": "该通行密钥使用 Kalibre 无法验证的密钥类型。请尝试其他设备或浏览器。",
+    "no_passkey_for_this_profile": "此个人资料的通行密钥在此地址均不起作用。",
+    "not_a_der_signature": "不是 DER 签名",
+    "not_a_der_integer": "不是 DER 整数",
+    "integer_too_long": "整数过长",
+    "the_passkey_request_was_cancelled": "通行密钥请求已取消或超时。",
+    "that_device_already_has_a": "该设备已拥有此个人资料的通行密钥。",
+    "passkeys_aren_t_allowed_at": "此地址不允许使用通行密钥。",
+    "the_passkey_didn_t_work": "通行密钥不起作用。"
+  },
+  "avatar_utils": {
+    "choose_an_image_file": "选择图像文件。",
+    "that_image_is_too_large": "该图像太大（最多 20 MB）。",
+    "that_image_couldn_t_be": "无法读取该图像。",
+    "that_image_couldn_t_be_2": "该图像无法缩小到足够小。"
+  },
+  "kalibre_folder": {
+    "that_folder_was_made_by": "该文件夹由较新版本的 kalibre 创建。请更新此版本（重新加载以更新），然后重试。"
+  },
+  "password_utils": {
+    "passwords_need_a_secure_connection": "密码需要安全连接（https:// 或 localhost）。",
+    "use_at_least_characters": "至少使用 {MIN_PASSWORD_LENGTH} 个字符。",
+    "this_profile_is_locked_and": "此个人资料已锁定，且密码需要安全连接（https:// 或 localhost）。"
+  },
+  "profile_export_v2": {
+    "that_profile_isn_t_there": "该个人资料已不存在。"
+  },
+  "profile_file": {
+    "this_browser_can_t_open": "此浏览器无法打开压缩的个人资料文件。请尝试使用较新版本的 Chrome、Edge、Firefox 或 Safari。",
+    "the_profile_file_is_damaged": "个人资料文件已损坏（无法解压缩）。"
+  },
+  "profile_name": {
+    "email": "这看起来像电子邮件地址。请改用昵称。",
+    "phone": "这看起来像电话号码。请改用昵称。",
+    "blocked": "该名称包含 Kalibre 禁用的词语。请尝试其他名称。"
+  }
+}

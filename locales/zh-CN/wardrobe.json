@@ -1,0 +1,290 @@
+{
+  "slots": {
+    "hat": {
+      "label": "帽子",
+      "none": "无帽子"
+    },
+    "face": {
+      "label": "面部",
+      "none": "经典面部"
+    },
+    "necklace": {
+      "label": "项链",
+      "none": "无项链"
+    },
+    "braceletLeft": {
+      "label": "左手腕",
+      "none": "裸腕"
+    },
+    "braceletRight": {
+      "label": "右手腕",
+      "none": "裸腕"
+    },
+    "pants": {
+      "label": "裤子",
+      "none": "无裤子"
+    },
+    "background": {
+      "label": "背景",
+      "none": "无背景"
+    },
+    "heart": {
+      "label": "心形",
+      "none": "纯色心形"
+    },
+    "ring": {
+      "label": "戒指",
+      "none": "无戒指"
+    }
+  },
+  "party-hat": {
+    "name": "派对帽"
+  },
+  "beanie": {
+    "name": "毛线帽"
+  },
+  "cap": {
+    "name": "鸭舌帽"
+  },
+  "headphones": {
+    "name": "耳机"
+  },
+  "top-hat": {
+    "name": "高顶礼帽"
+  },
+  "wizard-hat": {
+    "name": "巫师帽"
+  },
+  "space-helmet": {
+    "name": "太空头盔"
+  },
+  "hard-hat": {
+    "name": "安全帽"
+  },
+  "explorer-hat": {
+    "name": "探险家帽"
+  },
+  "hair-bow": {
+    "name": "蝴蝶结发饰"
+  },
+  "flat-cap": {
+    "name": "平顶帽"
+  },
+  "beret": {
+    "name": "贝雷帽"
+  },
+  "sun-hat": {
+    "name": "遮阳帽"
+  },
+  "bucket-hat": {
+    "name": "渔夫帽"
+  },
+  "chef-hat": {
+    "name": "厨师帽"
+  },
+  "graduation-cap": {
+    "name": "毕业帽"
+  },
+  "crown": {
+    "name": "皇冠"
+  },
+  "round-eyes": {
+    "name": "圆眼睛"
+  },
+  "sparkly": {
+    "name": "闪亮眼睛"
+  },
+  "pixel-eyes": {
+    "name": "像素眼睛"
+  },
+  "blush": {
+    "name": "腮红"
+  },
+  "freckles": {
+    "name": "雀斑"
+  },
+  "round-glasses": {
+    "name": "圆框眼镜"
+  },
+  "monocle": {
+    "name": "单片眼镜"
+  },
+  "star-eyes": {
+    "name": "星星眼"
+  },
+  "heart-eyes": {
+    "name": "爱心眼"
+  },
+  "sleepy-lids": {
+    "name": "困倦眼睑"
+  },
+  "beads": {
+    "name": "珠串"
+  },
+  "bow-tie": {
+    "name": "领结"
+  },
+  "scarf": {
+    "name": "围巾"
+  },
+  "medal": {
+    "name": "奖章"
+  },
+  "keycap-pendant": {
+    "name": "键帽吊坠"
+  },
+  "compass": {
+    "name": "指南针"
+  },
+  "pearls": {
+    "name": "珍珠"
+  },
+  "tie": {
+    "name": "领带"
+  },
+  "locket": {
+    "name": "盒式吊坠"
+  },
+  "quill-pendant": {
+    "name": "羽毛笔吊坠"
+  },
+  "friendship-band": {
+    "name": "友谊手环"
+  },
+  "gold-band": {
+    "name": "金手环"
+  },
+  "watch": {
+    "name": "手表"
+  },
+  "key-chain": {
+    "name": "钥匙链"
+  },
+  "spiked-band": {
+    "name": "铆钉手环"
+  },
+  "trail-band": {
+    "name": "小径手环"
+  },
+  "charm-bracelet": {
+    "name": "吊饰手链"
+  },
+  "sweatband": {
+    "name": "运动手环"
+  },
+  "beaded-band": {
+    "name": "串珠手环"
+  },
+  "shorts": {
+    "name": "短裤"
+  },
+  "jeans": {
+    "name": "牛仔裤"
+  },
+  "dungarees": {
+    "name": "背带裤"
+  },
+  "kilt": {
+    "name": "苏格兰裙"
+  },
+  "skirt": {
+    "name": "裙子"
+  },
+  "cargo-pants": {
+    "name": "工装裤"
+  },
+  "pyjama-bottoms": {
+    "name": "睡衣裤"
+  },
+  "space-trousers": {
+    "name": "太空裤"
+  },
+  "theme-tile": {
+    "name": "主题瓷砖"
+  },
+  "stars": {
+    "name": "星星"
+  },
+  "bricks": {
+    "name": "砖块"
+  },
+  "leaves": {
+    "name": "树叶"
+  },
+  "paper": {
+    "name": "纸张"
+  },
+  "keyboard": {
+    "name": "键盘"
+  },
+  "rain": {
+    "name": "雨滴"
+  },
+  "waves": {
+    "name": "波浪"
+  },
+  "typewriter": {
+    "name": "打字机"
+  },
+  "bookshelf": {
+    "name": "书架"
+  },
+  "sunrise": {
+    "name": "日出"
+  },
+  "heart-star": {
+    "name": "星星"
+  },
+  "heart-note": {
+    "name": "音符"
+  },
+  "heart-key": {
+    "name": "钥匙"
+  },
+  "heart-paw": {
+    "name": "爪印"
+  },
+  "heart-flag": {
+    "name": "旗帜"
+  },
+  "heart-bolt": {
+    "name": "闪电"
+  },
+  "heart-moon": {
+    "name": "月亮"
+  },
+  "heart-leaf": {
+    "name": "树叶"
+  },
+  "heart-sun": {
+    "name": "太阳"
+  },
+  "heart-amp": {
+    "name": "“&”符号"
+  },
+  "heart-k": {
+    "name": "字母 k"
+  },
+  "ring": {
+    "name": "戒指"
+  },
+  "ui": {
+    "default_hint": "默认",
+    "locked": "已锁定",
+    "new_badge": "新",
+    "wearing_it": "佩戴中",
+    "ring_worn": "戒指：为好运而佩戴",
+    "title": "{companion} 的衣柜",
+    "tab_aria": "{label}，已解锁 {unlocked} / {total}",
+    "item_worn_aria": "{name}，佩戴中",
+    "item_locked_aria": "{name}，已锁定：{hint}",
+    "remove_all": "移除所有装饰",
+    "news_new_item": "一个新 {name}",
+    "news_new_items": "{count, plural, one {一件新物品} other {# 件新物品}}",
+    "news_earned": "哇，你为我的衣柜赢得了 {what}！",
+    "try_it_on": "试穿",
+    "status_worn": "{name}：{state}",
+    "status_hint_progress": "{name}：{hint}（{have} / {need}）",
+    "status_hint": "{name}：{hint}"
+  }
+}

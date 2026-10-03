@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "overview": "概览",
+    "periods": "按天",
+    "bests": "个人最佳",
+    "history": "历史",
+    "games": "游戏",
+    "numpad": "数字小键盘",
+    "xp": "经验值",
+    "keys": "按键",
+    "hesitations": "犹豫",
+    "mistakes": "错误"
+  },
+  "export": {
+    "csv": "csv",
+    "json": "json",
+    "game_runs": "导出游戏运行",
+    "every_test": "导出每次测试",
+    "days": "导出天数"
+  },
+  "empty": {
+    "no_tests": "尚无测试",
+    "no_tests_games_only": "尚无测试：目前只有游戏。参见统计 → 游戏。",
+    "no_tests_overview": "尚无测试。你的速度、准确率和你觉得最难的按键将显示在此处。",
+    "not_enough_typing": "输入量尚不足"
+  },
+  "overview": {
+    "average_wpm": "平均 wpm",
+    "accuracy": "准确率",
+    "tests": "测试",
+    "time_typing": "输入时间",
+    "completed": "已完成",
+    "restarted": "已重新开始",
+    "abandoned": "已放弃",
+    "not_counted": "未计入",
+    "words": "单词",
+    "characters": "字符",
+    "averages_note": "平均值和最佳值仅使用已完成的测试{notCounted, select, true {；乱按的测试不计入} other {}}",
+    "chart_heading": "{scope, select, all {所有} other {最近}} {count} {count, plural, one {次测试} other {次测试}} · wpm",
+    "chart_window_aria": "要绘制的测试数量",
+    "by_characters": "按字符"
+  },
+  "bests": {
+    "race_this": "与此竞速",
+    "empty": "完成一次测试以设定一个",
+    "stats_summary": "{survived, select, true {坚持 {survivedTime} · } other {}}{wpm} wpm · {accuracy}% · {date}"
+  },
+  "periods": {
+    "no_tests": "无测试",
+    "tests_count": "{count, plural, one {# 次测试} other {# 次测试}}",
+    "best_accuracy": "最佳 {best} · {accuracy}%",
+    "daily_goal": "每日目标：{target}",
+    "today": " · 今日 {amount}{met, select, true { ✓} other {}}",
+    "streak": " · 连续 {count, plural, one {# 天} other {# 天}}",
+    "no_daily_goal": "无每日目标。 ",
+    "set_one": "设定一个",
+    "time_typed_per_day": "每天输入时间 · 最近 30 天",
+    "day_by_day": "逐日",
+    "no_tests_last_30_days": "最近 30 天无测试",
+    "time_of_day": "一天中的时间",
+    "time_zone_note": "天数和小时数采用此设备的时区。"
+  },
+  "games": {
+    "no_games": "尚未玩过游戏。游戏位于菜单的游戏选项中。",
+    "runs_count": "{count, plural, one {# 次运行} other {# 次运行}}",
+    "last": "上次 {date}",
+    "best_run": "最佳运行：{summary}",
+    "bests_note": "最佳值计算每个游戏当前规则下的运行",
+    "bests_by_difficulty": "按难度划分的最佳值",
+    "recent_runs": "最近运行",
+    "old_rules": "{game}（旧规则）",
+    "runs": "运行",
+    "time_played": "游戏时间"
+  },
+  "numpad": {
+    "no_runs": "尚无数字小键盘运行。它们位于学习选项中的数字小键盘页面上。",
+    "ksph_note": "每小时击键数 (ksph) 计算正确输入的按键数，包括运算符和回车键",
+    "bests": "十键最佳",
+    "sums_by_kind": "按类型划分的总和",
+    "weak_spots": "薄弱环节",
+    "recent_runs": "最近运行",
+    "ten_key_tests": "十键测试",
+    "fastest": "最快",
+    "lessons_mastered": "已掌握的课程",
+    "sums_right": "正确总和",
+    "time_on_pad": "在小键盘上的时间"
+  },
+  "numpad_pane": {
+    "lesson_desc": "课程 {number}{mastered, select, true { · 已掌握} other {}}",
+    "till_desc": "till · 等级 {level}",
+    "sums_desc": "总和 · {form}",
+    "tenkey_desc": "十键 · {form} · {limit}",
+    "mix": "混合",
+    "served_count": "已提供 {count} 个",
+    "sums_right": "{right} / {answers} 正确",
+    "ksph_result": "{ksph} ksph{aborted, select, true { （提前结束）} other {}}"
+  },
+  "headings": {
+    "day": "天",
+    "tests": "测试",
+    "time": "时间",
+    "wpm": "wpm",
+    "best": "最佳",
+    "accuracy": "准确率",
+    "goal": "目标",
+    "when": "时间",
+    "source": "来源",
+    "xp": "经验值",
+    "share": "分享",
+    "entries": "输入项",
+    "length": "长度",
+    "ksph": "ksph",
+    "kind": "类型",
+    "right": "正确",
+    "average_time": "平均时间",
+    "what": "内容",
+    "result": "结果",
+    "date": "日期",
+    "ghost": "幽灵",
+    "actions": "操作",
+    "test": "测试",
+    "game": "游戏",
+    "mode": "模式",
+    "difficulty": "难度",
+    "outcome": "结果",
+    "score": "分数"
+  },
+  "hesitations": {
+    "explain": "不是错误：你输入正确的按键，但仅在你自己的按键间隔至少 {factor}× 倍后暂停（绝不低于 {minMs} 毫秒），因此它们会根据你的速度进行测量，无论你打字多快。超过 {maxS} 秒的暂停计为休息（如果你通过看着按键打字则更长）。反复出现的暂停会像错误一样被建议进行训练。",
+    "empty": "从现在开始的测试将测量犹豫。",
+    "hesitations": "犹豫",
+    "per_minute": "每分钟",
+    "tests_measured": "测量的测试",
+    "keys_pause_before": "你在其前暂停的按键",
+    "pairs_pause_inside": "你在其内暂停的字母对",
+    "words_pause_before": "你在其前暂停的单词",
+    "no_pattern_yet": "尚无模式"
+  },
+  "keys": {
+    "picker_label": "键盘布局：",
+    "dropdown_label": "键盘布局",
+    "least_accurate_keys": "最不准确的按键",
+    "slowest_keys": "最慢的按键",
+    "least_accurate_pairs": "最不准确的字母对",
+    "slowest_pairs": "最慢的字母对"
+  },
+  "mistakes": {
+    "errors_summary": "{uncorrected} 未更正 · {corrected} 已更正 · {capsLock} 大写锁定",
+    "most_common": "最常见",
+    "all_mistakes": "所有错误",
+    "keys": "按键",
+    "shift": "移位",
+    "words": "单词",
+    "between_words": "单词之间",
+    "none_yet": "尚无"
+  },
+  "xp": {
+    "blurb": "经验值来自正确输入（按准确率缩放），少量来自奖励，以及你训练掉的错误。它根据你的历史记录计算得出。",
+    "total_xp": "总经验值",
+    "last_7_days": "最近 7 天",
+    "where_from": "来源",
+    "xp_per_day": "每天经验值 · 最近 30 天"
+  },
+  "history": {
+    "replay": "回放",
+    "race": "竞速",
+    "delete": "删除",
+    "race_title": "将此运行作为幽灵在其自己的文本上竞速",
+    "no_saved_ghosts": "尚无保存的幽灵。在任何测试或回放后保存一个。",
+    "no_history": "历史记录中尚无测试",
+    "pinned": "已固定",
+    "all_tests": "所有测试",
+    "saved_ghosts": "已保存的幽灵",
+    "saved_ghosts_count": "已保存的幽灵（{count}）",
+    "pager_aria": "历史页面",
+    "pager_prev": "‹ 上一页",
+    "pager_next": "下一页 ›",
+    "pager_range": "{first}–{last} / {count}",
+    "page_aria": "第 {number} 页"
+  },
+  "shared": {
+    "level": "等级",
+    "level_aria": "到下一级的经验值",
+    "prev": "上一项",
+    "next": "下一项",
+    "prev_aria": "上一页",
+    "next_aria": "下一页",
+    "page_info": "{current} / {total}",
+    "xp": "{toLocaleString} / {toLocaleString2} 经验值",
+    "ms": "{round} 毫秒 · {round2}%",
+    "typed": "{round}% · 已输入 {toLocaleString}"
+  },
+  "hesitations_pane": {
+    "of": "{round}% · {hesitated} / {toLocaleString}"
+  },
+  "overview_pane": {
+    "recent_tests": "最近测试",
+    "group_stats": "{wpm} wpm · {accuracy}% · {count, plural, one {# 次测试} other {# 次测试}}"
+  },
+  "periods_pane": {
+    "wpm": " wpm"
+  },
+  "stats_charts": {
+    "wpm_of_recent_tests_use": "最近测试的 WPM。使用左右箭头键读取每次测试。",
+    "recent_tests": "最近测试",
+    "complete_a_couple_of_tests": "完成几次测试以查看趋势。",
+    "accuracy": "{value}% 准确率",
+    "not_enough_typing": "输入量不足",
+    "ms": "{round} 毫秒",
+    "keyboard_coloured_by_how_often": "键盘根据每个按键首次输入正确的频率着色。下表列出了相同的值。",
+    "use_the_left_and_right": "{label}。使用左右箭头键读取每天。",
+    "no_typing": "无输入",
+    "day_tests": "{count, plural, one {# 次测试} other {# 次测试}}",
+    "day_wpm": " · {wpm} wpm"
+  },
+  "stats": {
+    "sections_label": "统计部分"
+  }
+}

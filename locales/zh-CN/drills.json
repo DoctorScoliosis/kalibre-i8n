@@ -1,0 +1,53 @@
+{
+  "formats": {
+    "time": "计时",
+    "words": "单词",
+    "quote": "引文"
+  },
+  "actions": {
+    "start_drill": "开始训练",
+    "drill": "训练",
+    "drill_aria": "立即训练 {mistake}",
+    "drill_title": "立即以推荐方式仅训练 {mistake}",
+    "manage_in_mistakes": "在错误中管理",
+    "recommended": "推荐",
+    "recommended_title": "勾选现在值得训练的错误，数量以训练能承受的为限",
+    "all": "全部",
+    "none": "无",
+    "train_and_drill_these": "训练并练习这些"
+  },
+  "labels": {
+    "how": "方式",
+    "what_to_drill": "训练内容",
+    "drill_format": "训练格式",
+    "drill_length": "训练长度",
+    "quote_length": "引文长度",
+    "practise_by_area": "按区域练习",
+    "words_count": "{count, plural, one {# 个单词} other {# 个单词}}",
+    "ticked_count": "已勾选 {selected} / {total}",
+    "in_training": "训练中",
+    "ready_to_drill": "准备好训练",
+    "improving": "改进中",
+    "finding_quotes": "正在查找包含这些错误的引文……",
+    "no_quotes_found": "此长度的引文中没有包含这些错误。尝试其他长度或单词训练。",
+    "quotes_with_mistakes": "包含这些错误的引文",
+    "best_fit": "最匹配",
+    "typed_lately": "最近输入过",
+    "recommended_reason": "{recommended} 是推荐的：{reason}",
+    "ready": "准备好",
+    "due_title": "自上次训练后再次出现",
+    "not_due_title": "自上次训练后没有新的失误",
+    "rate_title": "输入时出错的频率",
+    "last_seen_title": "上次出现",
+    "usual": "通常",
+    "seen_not_trained": "已出现，尚未训练",
+    "empty_nothing_in_training": "尚无训练中的内容。继续输入：Kalibre 会建议反复出现的错误。",
+    "empty_seen_not_trained": "尚无训练中的内容。这些已出现但尚未训练：勾选要处理的错误。"
+  },
+  "status": {
+    "training": "训练中",
+    "improving": "改进中",
+    "suggested": "建议",
+    "watching": "观察中"
+  }
+}

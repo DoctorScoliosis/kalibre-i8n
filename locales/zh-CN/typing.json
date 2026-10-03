@@ -1,0 +1,174 @@
+{
+  "mode": {
+    "time": "计时",
+    "words": "单词",
+    "quote": "引文",
+    "book": "书籍",
+    "mixed": "混合",
+    "sustained": "持续",
+    "custom": "自定义",
+    "mistakes": "错误"
+  },
+  "mode_label": "模式",
+  "sustained_title": "尽可能长时间地保持速度或准确率",
+  "status": {
+    "caps_lock": "大写锁定已开启",
+    "restart": "重新开始",
+    "pause": "暂停",
+    "resume": "继续",
+    "caps_lock_label": "大写锁定",
+    "num_lock_off": "数字锁定已关闭",
+    "num_lock_off_title": "数字锁定关闭时，数字小键盘发送方向键",
+    "time_so_far": "到目前为止的时间",
+    "focus_click": "单击或按任意键以聚焦",
+    "restart_symbol": "↻ "
+  },
+  "hints": {
+    "tab_enter_restart": "tab → 回车 重新开始 · esc 命令",
+    "tab_tab_restart": "tab → tab 重新开始 · esc 命令",
+    "enter_to_restart": "回车键重新开始",
+    "tab_to_restart": "tab 键重新开始"
+  },
+  "focus": {
+    "label": "聚焦：{mode}",
+    "aria_label": "聚焦视图：{mode}。按下以更改。",
+    "off": "关闭",
+    "line": "行",
+    "sentence": "句"
+  },
+  "instructions": {
+    "standard": "输入显示的文本。空格键移动到下一个单词，退格键更正。Tab 然后回车键重新开始。Escape 打开命令行。",
+    "sustained": "将你的速度保持在目标之上或之上。低于目标三秒将结束测试。空格键移动到下一个单词，退格键更正。Tab 然后回车键重新开始。Escape 打开命令行。",
+    "accuracy": "在以稳定速度打字的同时，将你的准确率保持在目标之上或之上。低于目标五秒将结束测试。空格键移动到下一个单词，退格键更正。Tab 然后回车键重新开始。Escape 打开命令行。"
+  },
+  "mode_bar": {
+    "custom": "自定义 {unit}",
+    "enable_a_book_dataset": "启用书籍数据集",
+    "add_a_text_to_read": "添加要阅读的文本",
+    "from": "从 {percent}%",
+    "start_over": "从头开始",
+    "read_this_one_from_the": "从头开始阅读此文本",
+    "add_a_text_to_practise": "添加要练习的文本",
+    "manage": "管理",
+    "change": "更改",
+    "choose_what_and_how_to": "选择训练内容和方式",
+    "TABS": {
+      "time": {
+        "label": "计时"
+      },
+      "words": {
+        "label": "单词"
+      },
+      "quote": {
+        "label": "引文"
+      },
+      "mixed": {
+        "label": "混合"
+      },
+      "sustained": {
+        "label": "持续",
+        "title": "尽可能长时间地保持速度或准确率"
+      },
+      "custom": {
+        "label": "自定义"
+      }
+    },
+    "SUSTAINED_SOURCES": {
+      "wordstream": {
+        "label": "常用词"
+      },
+      "quotes": {
+        "label": "引文"
+      },
+      "work": {
+        "label": "书籍"
+      },
+      "text": {
+        "label": "我的文本"
+      }
+    },
+    "BOOK_ORDER_OPTIONS": {
+      "sequential": {
+        "label": "按顺序",
+        "title": "从你停止的地方继续阅读，然后是下一本书"
+      },
+      "passages": {
+        "label": "段落",
+        "title": "书中的随机段落"
+      },
+      "chunks": {
+        "label": "片段",
+        "title": "书中的随机片段"
+      }
+    },
+    "source": {
+      "wordstream": {
+        "label": "常用词"
+      },
+      "quotes": {
+        "label": "引文"
+      }
+    },
+    "nodes": {
+      "pace": {
+        "label": "速度",
+        "title": "将你最近的速度保持在目标之上或之上（3 秒恢复时间）"
+      },
+      "accuracy": {
+        "label": "准确率"
+      }
+    },
+    "lengthOptions": {
+      "entire": {
+        "label": "整个文本"
+      }
+    },
+    "custom_title": "自定义",
+    "accuracy_title": "将你最近的准确率保持在目标之上或之上，同时打字速度至少 {floor} wpm（5 秒恢复时间）",
+    "keep_up": "保持",
+    "text_source": "文本来源",
+    "text_to_read": "要阅读的文本",
+    "reading_order": "阅读顺序",
+    "text_to_practise": "要练习的文本",
+    "book_to_read": "要阅读的书籍",
+    "unit_words": "单词",
+    "unit_wpm": "wpm",
+    "unit_seconds": "秒"
+  },
+  "training_notice": {
+    "mistakes": "错误，{join}",
+    "suggested": "{count, plural, one {# 个建议} other {# 个建议}}",
+    "ready": "{count, plural, one {# 个准备好训练} other {# 个准备好训练}}"
+  },
+  "type_view_goal": {
+    "today": "✓ 今日 {formatGoalAmount}",
+    "today_2": "{floor} / 今日 {formatGoalAmount}",
+    "aria": "每日目标：今日 {done} / {target}{met}",
+    "aria_met": "，已达成"
+  },
+  "type_view_pace": {
+    "target": "目标 {target}%",
+    "target_wpm": "目标 {target} wpm",
+    "wpm": "{round} / {target} wpm",
+    "below_target_words_per_minute": "低于目标：每分钟 {target} 个单词。{seconds} 秒恢复时间。",
+    "too_slow_keep_at_least": "太慢：至少保持每分钟 {floorWpm} 个单词。{seconds} 秒恢复时间。",
+    "accuracy_below_percent_seconds_to": "准确率低于 {target} 百分比。{seconds} 秒恢复时间。",
+    "back_on_target": "回到目标。",
+    "back_on_pace": "回到节奏。"
+  },
+  "type_view": {
+    "wpm": "{round} wpm · {round2}%",
+    "test_complete_words_per_minute": "测试完成：每分钟 {round} 个单词，{toFixed} 百分比准确率，{errors} 个错误。"
+  },
+  "typing_input": {
+    "typing_input": "打字输入"
+  },
+  "type_view_book": {
+    "now_reading": "正在阅读 {title}{by}。",
+    "by_author": " 作者：{author}",
+    "now": "当前：{title}{by}"
+  },
+  "text_providers": {
+    "unknown_practice_source": "未知的练习来源“{source}”"
+  }
+}

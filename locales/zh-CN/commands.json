@@ -1,0 +1,192 @@
+{
+  "restart": {
+    "label": "重新开始",
+    "keywords": "再次 重置 重做 新 测试",
+    "meta": "测试 · 相同类型，新文本"
+  },
+  "next_text": {
+    "label": "下一个文本",
+    "keywords": "跳过 另一个",
+    "meta": "测试 · 继续下一个"
+  },
+  "time_test": {
+    "label": "计时 {duration}",
+    "keywords": "计时 秒 {duration}秒 测试",
+    "meta": "测试 · {duration} 秒测试"
+  },
+  "words_test": {
+    "label": "单词 {count}",
+    "keywords": "数量 测试 {count}",
+    "meta": "测试 · {count} 个单词"
+  },
+  "play_game": {
+    "label": "玩 {game}",
+    "keywords": "游戏 游戏 玩 有趣 {game}",
+    "meta": "游戏 · {blurb}"
+  },
+  "go_to": {
+    "label": "前往 {view}",
+    "keywords": "打开 视图 页面 显示 {view}",
+    "meta": "前往 · 页面"
+  },
+  "achievements": {
+    "label": "成就",
+    "keywords": "徽章 奖杯 里程碑 完成 获得 秘密 统计 成就",
+    "meta": "打开 · 成就"
+  },
+  "your_card": {
+    "label": "你的卡片",
+    "keywords": "个人资料 卡片 贴纸 边框 框架 光环 背景 展示 装饰 自定义 装饰",
+    "meta": "打开 · 个人资料"
+  },
+  "today": {
+    "label": "今日",
+    "keywords": "每日 任务 任务 挑战 任务 目标",
+    "meta": "前往 · 今日的任务和挑战"
+  },
+  "quote_category": {
+    "label": "引文 {category}",
+    "keywords": "段落 书籍 文本 {category}",
+    "meta": "测试 · 一条引文"
+  },
+  "mixed_quotes": {
+    "label": "混合引文",
+    "keywords": "随机 长度 引文",
+    "meta": "测试 · 每次随机长度"
+  },
+  "sustained_pace": {
+    "label": "持续速度 {wpm}",
+    "keywords": "无尽 耐力 速度 保持 维持 目标 {wpm} wpm",
+    "meta": "测试 · 尽可能长时间地保持 {wpm} wpm"
+  },
+  "sustained_accuracy": {
+    "label": "持续准确率 {accuracy}",
+    "keywords": "无尽 耐力 准确 精确 保持 维持 目标 {accuracy} 百分比",
+    "meta": "测试 · 尽可能长时间地保持 {accuracy}% 准确率"
+  },
+  "keep_reading": {
+    "label": "继续阅读",
+    "keywords": "书籍 继续 恢复 持续 小说 阅读 书签",
+    "meta": "测试 · 持续阅读你的书籍"
+  },
+  "section": {
+    "label": "{view} {section}",
+    "keywords": "前往 打开 显示 {words}",
+    "meta": "前往 · {view} 部分"
+  },
+  "continue_touch_typing": {
+    "label": "继续盲打",
+    "keywords": "学习 课程 课程 盲打 手指 基准行 下一个",
+    "meta": "学习 · 下一个要掌握的课程"
+  },
+  "learn_stage": {
+    "label": "学习阶段 {stage}：{name}",
+    "keywords": "学习 课程 课程 盲打 阶段 {stage} {name}",
+    "meta": "学习 · 课程 {first}–{last}"
+  },
+  "drill_mistakes": {
+    "label": "训练我的错误",
+    "keywords": "训练 练习 练习 训练 错误",
+    "meta": "测试 · 基于你的错误的训练"
+  },
+  "wardrobe": {
+    "label": "{companion} 的衣柜",
+    "keywords": "cal libby 同伴 吉祥物 衣柜 连衣裙 衣服 帽子 装饰 外观 自定义",
+    "meta": "学习 · 用你获得的物品装扮 {companion}"
+  },
+  "try_guest": {
+    "label": "以访客身份试用",
+    "keywords": "访客 试用 试用 临时 新 个人资料 演示",
+    "meta": "个人资料 · 新的访客个人资料；稍后保存其进度以保留"
+  },
+  "sign_out": {
+    "label": "退出",
+    "keywords": "锁定 注销 退出 退出 忘记 设备",
+    "meta": "个人资料 · 锁定直到再次输入密码"
+  },
+  "profiles": {
+    "label": "个人资料",
+    "keywords": "个人资料 账户 切换 用户 密码 通行密钥 图片 头像",
+    "meta": "打开 · 谁在打字"
+  },
+  "backup_now": {
+    "label": "立即备份",
+    "keywords": "备份 导出 个人资料 保存 历史 下载 文件",
+    "meta": "文件 · 此个人资料"
+  },
+  "load_profile": {
+    "label": "加载个人资料文件",
+    "keywords": "导入 恢复 个人资料 打开 文件 备份",
+    "meta": "文件 · 与你的个人资料并列添加"
+  },
+  "export_settings": {
+    "label": "导出设置",
+    "keywords": "下载 备份 保存 json",
+    "meta": "文件 · 设置作为 json"
+  },
+  "keyboard_shortcuts": {
+    "label": "键盘快捷键",
+    "keywords": "快捷键 热键 按键 绑定 帮助 指南 ?",
+    "meta": "帮助 · 键盘快捷键指南"
+  },
+  "race": {
+    "label": "竞速",
+    "keywords": "竞速 lan 网络 多人 朋友 对战 对手 房间 代码 主机 加入",
+    "meta": "游戏 · 与你网络上的玩家竞速"
+  },
+  "race_ghost": {
+    "label": "与幽灵竞速",
+    "keywords": "竞速 幽灵 幽灵 架子 保存 回放 对战",
+    "meta": "游戏 · 与你保存的幽灵竞速"
+  },
+  "import_ghost": {
+    "label": "导入幽灵",
+    "keywords": "导入 幽灵 文件 打开 加载 kalibre-ghost 架子",
+    "meta": "游戏 · 将 .kalibre-ghost 文件放到你的幽灵架上"
+  },
+  "race_solo": {
+    "label": "独自竞速",
+    "keywords": "竞速 单人 对手 电脑 幽灵 对战 独自",
+    "meta": "游戏 · 与电脑竞速，使用你上次选择"
+  },
+  "privacy": {
+    "label": "隐私",
+    "keywords": "隐私 政策 数据 个人 信息 存储",
+    "meta": "帮助 · kalibre 保留什么，以及在哪里"
+  },
+  "terms": {
+    "label": "条款",
+    "keywords": "使用 条款 条件 许可证 许可证 规则",
+    "meta": "帮助 · 使用条款"
+  },
+  "security": {
+    "label": "安全",
+    "keywords": "安全 漏洞 报告 bug 披露",
+    "meta": "帮助 · 报告安全问题"
+  },
+  "whats_new": {
+    "label": "新功能",
+    "keywords": "新功能 更新日志 更新 发行说明 历史",
+    "meta": "帮助 · 此版本的新功能"
+  },
+  "changelog": {
+    "label": "更新日志",
+    "keywords": "更新日志 新功能 更新 发行说明 历史 版本",
+    "meta": "帮助 · 更新日志和过去的更新"
+  },
+  "check_for_updates": {
+    "label": "检查更新",
+    "keywords": "更新 更新 升级 新版本 刷新 立即检查 最新",
+    "meta": "帮助 · 立即查找新版本"
+  },
+  "announcements": {
+    "label": "公告",
+    "keywords": "公告 更新 开发日志 历程 新闻 stackinfolio 版本 kanary",
+    "meta": "链接 · 项目历程和公告"
+  },
+  "kanary_notice": {
+    "label": "kanary 通知",
+    "keywords": "kanary beta 预览 警告 备份 兼容性 测试 构建 通知",
+    "meta": "帮助 · kanary 预览版通知和备份"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "suggested": "建议",
+    "training": "训练中",
+    "improving": "改进中",
+    "mastered": "已掌握",
+    "dismissed": "已忽略",
+    "watching": "观察中",
+    "overview": "概览",
+    "all": "全部"
+  },
+  "blurbs": {
+    "suggested": "反复出现的错误。训练它们，或忽略你不在意的。",
+    "training": "训练专注于这些错误。",
+    "improving": "自训练开始以来，错误率已减半。",
+    "mastered": "降至开始时的四分之一。如果再次出现，它们将返回训练。",
+    "dismissed": "除非你恢复它们，否则不再建议。",
+    "watching": "已看到，但还不够频繁以建议。“立即训练”无论如何都会开始训练一个。",
+    "overview": "你的手指在哪里出错，绘制在键盘上，旁边是单词和空格。每行显示最近测试中的错误率。",
+    "all": "Kalibre 记录的所有错误，无论其状态如何。"
+  },
+  "empty": {
+    "suggested": "此处尚无错误。你做得很好！",
+    "training": "训练中尚无错误。从“建议”标签页添加一些。",
+    "improving": "尚无改进。继续训练你的训练错误。",
+    "mastered": "尚无掌握。训练需要时间——坚持下去。",
+    "dismissed": "未忽略任何内容。",
+    "watching": "此处尚无内容。继续打字，模式会出现。",
+    "all": "尚无记录的错误。当你打字时，Kalibre 会在此处记录反复出现的模式。"
+  },
+  "kinds": {
+    "key": "按键",
+    "shift": "移位",
+    "swap": "字母对",
+    "omit": "遗漏",
+    "extra": "多余",
+    "word": "单词",
+    "space": "空格",
+    "insert": "多余单词",
+    "skip": "跳过单词",
+    "hesitation": "犹豫",
+    "tricky": "棘手单词"
+  },
+  "columns": {
+    "mistake": "错误",
+    "kind": "类型",
+    "status": "状态",
+    "left_in": "剩余",
+    "fixed": "已修正",
+    "tests": "测试",
+    "trend": "趋势",
+    "rate": "比率",
+    "seen": "出现次数"
+  },
+  "actions": {
+    "train": "训练",
+    "train_aria": "训练 {mistake}",
+    "train_now": "立即训练",
+    "train_now_aria": "立即训练 {mistake}",
+    "train_again": "再次训练",
+    "train_again_aria": "再次训练 {mistake}",
+    "dismiss": "忽略",
+    "dismiss_aria": "忽略 {mistake}",
+    "restore": "恢复",
+    "restore_aria": "恢复 {mistake}",
+    "drill": "练习",
+    "drill_aria": "练习 {mistake}",
+    "drill_all": "练习我的训练错误",
+    "stop": "停止",
+    "stop_aria": "停止训练 {mistake}",
+    "export": "导出",
+    "csv": "csv",
+    "json": "json"
+  },
+  "filters": {
+    "all": "全部",
+    "uncorrected": "未更正",
+    "corrected": "已更正"
+  },
+  "layouts": {
+    "list": "列表",
+    "table": "表格"
+  },
+  "labels": {
+    "by_status": "按状态分组的错误",
+    "show_on_map": "在地图上显示",
+    "show_mistakes": "显示错误",
+    "show_as": "显示为",
+    "kind_of_mistake": "错误类型",
+    "all_kinds": "所有类型",
+    "keyboard_layout": "键盘布局",
+    "sessions_count": "{count, plural, one {# 次会话} other {# 次会话}}",
+    "corrected_count": "{count} 已更正",
+    "pager_aria": "错误表格页面",
+    "no_qualifiers_mistakes": "尚无 {qualifiers} 错误{inSection, select, true {在 {section} 中} other {}}。",
+    "no_in_section": "在 {section} 中尚无错误。",
+    "training_words_note": "训练中有 {count, plural, one {# 个单词} other {# 个单词}} 存在一致错误。"
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "{label} 错误——单击以隔离",
+    "page": "第 {value} 页",
+    "of": "{first}–{last} / {length}",
+    "keyboard_mistakes_pages": "键盘错误页面",
+    "nothing_to_draw_on_this": "此键盘上尚无内容可绘制。出现多次的错误会显示在此处。",
+    "on_the_keyboard": "在键盘上",
+    "none_yet": "尚无。",
+    "with_keys_not_on_this": "{unmapped} 包含此布局上不存在的按键",
+    "words_and_spaces": "单词和空格",
+    "no_tests_yet": "尚无测试",
+    "rate_one_test": "一次测试中的错误率 {rate}",
+    "rate_over_tests": "{count, plural, one {# 次测试} other {# 次测试}}中的错误率 {from} → {to}",
+    "mark_label": "{mistake}：{rate} 的时间",
+    "started_at": "{summary} · 在 {rate} 时开始训练",
+    "keyboard_label": "键盘上绘制了 {count, plural, one {# 个错误} other {# 个错误}}。下面的列表包含相同的错误。"
+  },
+  "mistakes": {
+    "actions": "操作",
+    "no_mistakes_yet": "尚无错误。"
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": {
+        "title": "按键"
+      },
+      "shift": {
+        "title": "移位"
+      },
+      "pairs": {
+        "title": "字母对"
+      },
+      "letters": {
+        "title": "遗漏和多出的字母"
+      },
+      "words": {
+        "title": "单词"
+      },
+      "tricky": {
+        "title": "棘手单词"
+      },
+      "between": {
+        "title": "单词之间"
+      },
+      "hesitations": {
+        "title": "犹豫"
+      }
+    }
+  },
+  "legend": {
+    "meant_hit": "意图 → 实际",
+    "swapped": "交换",
+    "missed": "遗漏",
+    "extra": "多余",
+    "shift": "移位"
+  },
+  "patterns": {
+    "sound": "发音相似",
+    "homophone": "同音词",
+    "silent": "不发音字母",
+    "double": "双字母",
+    "vowel": "不明确元音",
+    "mirror": "相同手指，另一只手",
+    "wrongDouble": "错误字母重复",
+    "moved": "字母错位",
+    "ending": "省略词尾",
+    "autopilot": "熟悉的单词替代",
+    "rawSteno": "原始速记"
+  },
+  "describe": {
+    "shift": "{expected} → {typed}（移位）",
+    "omit": "遗漏 {expected}",
+    "extra": "多余 {typed}",
+    "insert": "多余单词 {typed}",
+    "skip": "跳过 {expected}",
+    "hesitation_pair": "在 {expected} 中停顿",
+    "hesitation_before": "在 {expected} 前停顿",
+    "hesitation": "犹豫",
+    "tricky": "棘手：{expected}"
+  }
+}
