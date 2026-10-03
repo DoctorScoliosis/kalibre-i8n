@@ -580,6 +580,14 @@
               "drops": {
                 "label": "brick drops",
                 "summary": "drop a brick on an enemy to damage or crush it."
+              },
+              "saboteur": {
+                "label": "saboteur",
+                "summary": "powder keg infiltrators charging the walls; crush them early to detonate the keg in the attacker ranks."
+              },
+              "ladderman": {
+                "label": "ladderman",
+                "summary": "siege engineers planting assault ladders; drop bricks to topple the ladder and cause a knockdown cascade."
               }
             },
             "controls": {
@@ -593,6 +601,9 @@
             "subDemos": {
               "i0": {
                 "label": "brick drops"
+              },
+              "i1": {
+                "label": "saboteurs and ladders"
               }
             },
             "visuals": {
@@ -601,6 +612,12 @@
               },
               "sapper-pick": {
                 "label": "sapper (chip)"
+              },
+              "saboteur-keg": {
+                "label": "saboteur (keg)"
+              },
+              "siege-ladder": {
+                "label": "siege ladder"
               },
               "catapult-siege": {
                 "label": "catapult (siege)"
@@ -1311,6 +1328,17 @@
     "wrong_kind_of_brick": "wrong kind of brick",
     "nobody_to_drop_it_on": "nobody to drop it on",
     "two_are_running_already": "two are running already",
-    "nothing_stored_there": "nothing stored there"
+    "nothing_stored_there": "nothing stored there",
+    "crushed_a_brute": "crushed a brute",
+    "crushed_a_sapper": "crushed a sapper",
+    "crushed_a_saboteur": "crushed a saboteur",
+    "crushed_a_ladderman": "crushed a ladderman",
+    "hit_a_brute": "hit a brute",
+    "hit_a_sapper": "hit a sapper",
+    "hit_a_saboteur": "hit a saboteur",
+    "hit_a_ladderman": "hit a ladderman",
+    "stunned": "stunned",
+    "keg_detonated": "powder keg detonated",
+    "ladder_toppled": "ladder toppled"
   }
 }
