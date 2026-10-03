@@ -3125,7 +3125,13 @@
         "section_critical": ", critical",
         "section_needs": ", needs bricks that {requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "powerup"
+        "powerup": "powerup",
+        "sortie_title": "garrison sortie: muster defenders into the field",
+        "sortie_ready": "deploy sortie · alt+enter",
+        "sortie_mustering": "mustering ({seconds}s)",
+        "sortie_breached": "gatehouse breached",
+        "sortie_no_bricks": "need bricks to equip",
+        "guard_title": "garrison guard: {hp}/{maxHp} HP"
       },
       "space": {
         "title": "space",
@@ -3649,6 +3655,10 @@
                   "ladderman": {
                     "label": "ladderman",
                     "summary": "siege engineers planting assault ladders; drop bricks to topple the ladder and cause a knockdown cascade."
+                  },
+                  "sortie": {
+                    "label": "garrison sortie",
+                    "summary": "muster defenders from the gatehouse into the field to intercept attackers before they reach your walls."
                   }
                 },
                 "controls": {
@@ -3657,6 +3667,9 @@
                   },
                   "i1": {
                     "action": "aim at a section or enemy"
+                  },
+                  "i2": {
+                    "action": "deploy garrison sortie to cursor column"
                   }
                 },
                 "subDemos": {
@@ -3665,6 +3678,9 @@
                   },
                   "i1": {
                     "label": "saboteurs and ladders"
+                  },
+                  "i2": {
+                    "label": "garrison sorties"
                   }
                 },
                 "visuals": {
@@ -3679,6 +3695,9 @@
                   },
                   "siege-ladder": {
                     "label": "siege ladder"
+                  },
+                  "garrison-soldier": {
+                    "label": "garrison soldier"
                   },
                   "catapult-siege": {
                     "label": "catapult (siege)"
@@ -4400,7 +4419,12 @@
         "hit_a_ladderman": "hit a ladderman",
         "stunned": "stunned",
         "keg_detonated": "powder keg detonated",
-        "ladder_toppled": "ladder toppled"
+        "ladder_toppled": "ladder toppled",
+        "sortie_deployed": "garrison sortie deployed",
+        "mustering": "garrison mustering",
+        "gate_breached": "gatehouse breached",
+        "no_bricks": "need bricks to equip",
+        "friendly_fire": "friendly fire!"
       }
     },
     "learn": {
