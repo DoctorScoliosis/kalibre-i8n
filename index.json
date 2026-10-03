@@ -57,14 +57,14 @@
       "englishName": "Portuguese (Brazil)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 1,
+      "revision": 2,
       "version": "2026-10-03",
       "reviewed": "machine",
-      "changes": "Initial Brazilian Portuguese candidate translation from Kalibre Kanary snapshot 450b97f; pack build",
+      "changes": "Filled current physical-serving gaps against kalibre-kanary",
       "path": "locales/pt-BR/manifest.json",
       "pack": "packs/pt-BR.json",
-      "sha256": "421e436ce8fe4e45602086513a689748a625601a40ade250c34a1e73c6453158",
-      "bytes": 325161
+      "sha256": "ac925917736a8e5e19a7090fec5f3815eaefd6d1bf5cac8974c5577b0ffeb44d",
+      "bytes": 327845
     },
     {
       "id": "zh-CN",
