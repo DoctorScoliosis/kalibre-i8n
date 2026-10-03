@@ -1,0 +1,53 @@
+{
+  "status":{"done":"hecho"},
+  "actions":{"swap":"cambiar","swap_title":"cambiar esta misión por otra (una vez al día)","go":"ir","go_aria":"ir: {quest}"},
+  "labels":{"today":"hoy","quests":"misiones","challenge":"desafío","daily_goal":"objetivo diario","daily_goal_label":"objetivo diario "},
+  "today":{"panel_aria":"misiones de hoy","getting":"obteniendo las misiones de hoy…","new_at_midnight":"{difficulty} · nuevas misiones a medianoche · ","difficulty":"dificultad","summary_aria":"hoy: {done} de {total} misiones completadas{challenge, select, done {, desafío completado} other {}}"},
+  "quest_note":{"xp":"+{reward} XP","challenge_done":"desafío completado: {description}","quest_done":"misión completada: {description}"},
+  "match":{
+    "tests":"{count, plural, one {una prueba} other {pruebas}}",
+    "drills":"{count, plural, one {un ejercicio} other {ejercicios}}",
+    "time":"{count, plural, one {una prueba de tiempo} other {pruebas de tiempo}}",
+    "words":"{count, plural, one {una prueba de palabras} other {pruebas de palabras}}",
+    "quote":"{count, plural, one {una cita} other {citas}}",
+    "book":"{count, plural, one {una lectura de libro} other {lecturas de libros}}",
+    "sustained":"{count, plural, one {una prueba sostenida} other {pruebas sostenidas}}",
+    "time_duration":"{count, plural, one {una prueba de {duration} segundos} other {pruebas de {duration} segundos}}",
+    "words_count":"{count, plural, one {una prueba de {wordCount} palabras} other {pruebas de {wordCount} palabras}}",
+    "quote_category":"{count, plural, one {una cita de {category}} other {citas de {category}}}"
+  },
+  "categories":{"short":"cortas","medium":"medias","long":"largas","huge":"enormes","massive":"gigantes"},
+  "game_titles":{"feed":"Feed","castle":"Castillo","space":"Espacio","spot":"Detecta"},
+  "difficulty_words":{"easy":"en fácil","normal":"en normal","hard":"en difícil"},
+  "conditions":{
+    "wpm":"{wpm}+ p. p. m.",
+    "accuracy":"{accuracy}%+ de precisión",
+    "and":" y ",
+    "at":" a {parts}",
+    "kept_going_after":", siguió durante {minutes, plural, one {# minuto} other {# minutos}}",
+    "kept_going":" siguió durante {minutes, plural, one {# minuto} other {# minutos}}"
+  },
+  "describe":{
+    "words":"escribe {count, plural, one {# palabra} other {# palabras}}",
+    "words_in":"escribe {count, plural, one {# palabra} other {# palabras}} en {match}",
+    "minutes":"escribe durante {count, plural, one {# minuto} other {# minutos}}",
+    "minutes_in":"escribe durante {count, plural, one {# minuto} other {# minutos}} en {match}",
+    "minutes_book":"escribe desde un libro durante {count, plural, one {# minuto} other {# minutos}}",
+    "tests_one":"termina {match}",
+    "tests_many":"termina {count} {match}",
+    "run":"termina {match}{conditions}",
+    "game_runs":"juega a {game} {count, plural, one {una vez} other {# veces}}",
+    "game_score":"consigue {score} en {game}",
+    "game_score_difficulty":"consigue {score} en {game} {difficulty}",
+    "game_found":"encuentra {count, plural, one {# error} other {# errores}} en una partida de {game}",
+    "lesson_run":"haz una lección de mecanografía con al menos un {accuracy}% de precisión",
+    "lessons":"{count, plural, one {haz una lección de mecanografía} other {haz # lecciones de mecanografía}}",
+    "pad_tests":"{count, plural, one {termina una prueba de diez teclas} other {termina # pruebas de diez teclas}}",
+    "pad_run":"termina una prueba de diez teclas",
+    "pad_ksph":"{ksph}+ pulsaciones por hora",
+    "pad_entries":", con {entries}+ entradas",
+    "pad_lessons":"{count, plural, one {haz una lección de teclado numérico} other {haz # lecciones de teclado numérico}}",
+    "sums":"acierta {count, plural, one {# suma} other {# sumas}}",
+    "something":"algo"
+  }
+}

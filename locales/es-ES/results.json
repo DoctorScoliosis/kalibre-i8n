@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "speed": "velocidad",
+    "accuracy": "precisión",
+    "characters": "caracteres",
+    "words": "palabras",
+    "time": "tiempo",
+    "consistency": "regularidad",
+    "best": "mejor marca personal",
+    "average": "media",
+    "tests": "pruebas"
+  },
+  "candidate": {
+    "prompt_label": "sugerencia de entrenamiento",
+    "body": "Sigues escribiendo {word} · {count, plural, one {# vez} other {# veces}} a lo largo de {sessions, plural, one {# sesión} other {# sesiones}}.",
+    "train": "entrenar",
+    "dismiss": "descartar",
+    "later": "más tarde",
+    "drill_it_now": "practicar ahora"
+  },
+  "actions": {
+    "next": "siguiente",
+    "retry": "repetir",
+    "watch_replay": "ver repetición",
+    "save_ghost": "guardar como fantasma",
+    "words": "palabras",
+    "final": "final",
+    "as_typed": "tal como se escribió"
+  },
+  "race_results": {
+    "full_stats": "estadísticas completas",
+    "your_race": "tu carrera",
+    "this_race_looked_like_key": "esta carrera parecía teclear al azar ({notCountedReason}), así que no se contabilizó: sin XP, errores ni estadísticas.",
+    "lv_to_go": " · nv {level} · faltan {value}",
+    "drill_now": "practicar ahora",
+    "counts": "errores {errors} · palabras {words}"
+  },
+  "replay_player": {
+    "test_replay": "repetición de la prueba",
+    "pinned": "fijado ✓",
+    "pinned_limit_reached_replays_unpin": "se ha alcanzado el límite de fijados ({PINNED_LOGS_CAP} repeticiones). Desfija primero una repetición anterior.",
+    "close_replay": "cerrar repetición",
+    "replay_scrubber": "control de repetición",
+    "jump_to_playhead": "saltar al indicador de reproducción ⇥",
+    "0_wpm": "0 p. p. m.",
+    "replay_timeline_zoom": "zoom de la línea de tiempo de la repetición",
+    "zoom": "zoom",
+    "restart_replay": "reiniciar repetición",
+    "play": "reproducir",
+    "saved_as_ghost": "guardado como fantasma ✓",
+    "wpm": "{round} p. p. m."
+  },
+  "result_chart": {
+    "per_second_results": "resultados por segundo",
+    "not_enough_typing_to_draw": "No hay suficiente escritura para dibujar un gráfico.",
+    "chart_zoom": "zoom del gráfico",
+    "speed_over_time_use_the": "velocidad a lo largo del tiempo. usa las flechas izquierda y derecha para leer cada segundo."
+  },
+  "results": {
+    "words_lowest_accuracy_target_kept": "{words} palabras · precisión mínima {round}% · objetivo {targetAccuracy}% · {floorWpm}+ p. p. m.",
+    "words_peak_pace_lowest_target": "{words} palabras · ritmo máximo {round} · mínimo {round2} · objetivo {targetWpm} p. p. m.",
+    "longest_above_target_raw_in": "máximo por encima del objetivo {formatDuration} · {nearMisses} · bruto {round} · {formatDuration2} en total",
+    "mistake_analysis_failed_for_this": "el análisis de errores ha fallado para esta sesión",
+    "common_mistakes": "errores habituales",
+    "show_the_words": "mostrar las palabras",
+    "expected": "se esperaba «{text}»",
+    "typed_expected": "escribiste {typed}, se esperaba {text}",
+    "deleted": "borrado",
+    "this_drill": "este ejercicio",
+    "now": "ahora {to}",
+    "race_this_drill": "correr este ejercicio",
+    "race_the_same_drill_again": "Vuelve a correr el mismo ejercicio contra un fantasma de esta partida",
+    "results": "resultados",
+    "survived": "superado",
+    "wpm": "p. p. m.",
+    "acc": "prec.",
+    "this_test_looked_like_key": "Esta prueba parecía teclear al azar ({notCountedReason}), así que no se contabilizó: sin XP, errores ni estadísticas.",
+    "suggested_for_training": "{extraSuggested} sugerido para entrenamiento",
+    "book_range": " {start} → {end}",
+    "the_end": "el final",
+    "book_words": " · {count} palabras",
+    "overdeleted": "has borrado {count, plural, one {# carácter correcto} other {# caracteres correctos}} de más después del fallo",
+    "overdeleted_cost": ", unos {cost} p. p. m.",
+    "mistake_line": "{errors} en {exposures}{share} · antes {before}",
+    "summary_line": "bruto {raw} · {spread} · {duration}",
+    "practice_words": " · {count, plural, one {# palabra de práctica} other {# palabras de práctica}}",
+    "letters_to_cover": " · todavía faltan {count, plural, one {# letra} other {# letras}} por cubrir",
+    "mistakes_ready": "{count, plural, one {# error listo} other {# errores listos}}",
+    "consistency_spread": "regularidad {consistency}% (±{wpmStdDev} p. p. m.)",
+    "consistency_none": "regularidad –"
+  }
+}

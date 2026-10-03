@@ -1,0 +1,18 @@
+{
+  "filter": {
+    "warning": "Las listas de palabras de Kalibre proceden de libros antiguos y diccionarios extensos, que incluyen insultos y otras palabras ofensivas. Con el filtro desactivado, pueden aparecer en pruebas, ejercicios, lecciones y juegos. Al desactivarlo aceptas que puedes verlas y que el autor de Kalibre no se hace responsable de ninguna ofensa que puedan causar.",
+    "turn_off": "desactivar el filtro",
+    "keep_on": "mantenerlo activado",
+    "confirm_title": "¿desactivar el filtro de palabras ofensivas?",
+    "filter_on": "filtro activado",
+    "filter_off": "filtro desactivado",
+    "placeholder": "una por línea o separadas por comas; termina con * para todas las palabras que empiecen por ella",
+    "filtered_count": "{count, plural, one {# palabra} other {# palabras}} propias filtradas",
+    "no_words": "no hay palabras propias",
+    "heading": "palabras ofensivas",
+    "toggle_label": "filtrar palabras ofensivas",
+    "own_label": "palabras propias que filtrar",
+    "explanation": "Activado: los insultos y las palabrotas más fuertes se mantienen fuera de las listas de palabras y se omiten los pasajes que las contienen. Tus propios textos y citas nunca cambian.",
+    "own_explanation": "Se guardan solo con este perfil y nunca se comparten. Se aplican mientras el filtro esté activado."
+  }
+}
