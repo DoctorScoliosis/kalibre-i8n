@@ -1,0 +1,52 @@
+{
+  "storage": {
+    "heading": "Lagerung",
+    "persistent": "Der Browser speichert die Daten von kalibre, bis Sie sie selbst löschen.",
+    "best_effort": "Der Browser kann die Daten von kalibre löschen, wenn die Festplatte niedrig läuft.",
+    "unsupported": "Dieser browser kann nicht versprechen, die daten von kalibre zu behalten, also halten sie ein backup.",
+    "keep_my_data": "Bewahre meine Daten auf"
+  },
+  "backup": {
+    "automatic_heading": "Automatisches Backup",
+    "choose_folder": "Wählen Sie einen Ordner",
+    "back_up_now": "Jetzt zurück",
+    "change_folder": "Änderungsordner",
+    "stop": "Stopp",
+    "restore": "Wiederherstellung",
+    "manual_heading": "Zurück von Hand",
+    "export_profile": "Exportieren Sie dieses Profil",
+    "share_profile": "Teilen Sie dieses Profil",
+    "exported_summary": "Ausfuhren{sessions}Prüfungen,{mistakes}Fehler und{texts}Texte{destination}",
+    "saved_to": "Bis{destination}",
+    "last_backup_time": "Letztes Backup{when}",
+    "not_backed_up_yet": "Noch nicht gesichert",
+    "problem_permission": "Der Browser braucht Ihr Go-Ahead wieder, bevor er dort schreiben kann.",
+    "problem_conflict": "Der Ordner hat eine neuere Kopie von „{name}, Gespeichert von einem anderen Browser auf{when}Es wurde also nicht überschrieben. Stellen Sie diese Kopie wieder her oder speichern Sie diese darüber.",
+    "problem_last_error": "Das letzte Backup ist fehlgeschlagen:{error}",
+    "restore_folder": "Wiederherstellen aus einem Kalibre-Ordner",
+    "update_copies": "Kopien von früheren Updates",
+    "restore_warning": "Dies ersetzt alles, was kalibre in diesem browser hält, durch diese kopie. sicher?",
+    "confirm_restore": "Ja, legen Sie es zurück",
+    "cancel": "Abbruch"
+  },
+  "guest": {
+    "banner_title": "Sie versuchen KalibreZ als Gast.",
+    "banner_body": "Ihre Tests, Fehler, Statistiken und XP werden in diesem Browser gespeichert, aber nicht gesichert und das Profil kann nicht gesperrt werden. Speichern sie ihren fortschritt, um ihn als ihr eigenes profil zu behalten.",
+    "save_progress": "Save My Progress",
+    "ephemeral_warning": "Gastsitzung: Dieser Browser behält nichts, so dass nichts gespeichert wird, wenn sich dieses Fenster schließt. Um zu behalten, was sie tun, laden sie ihr profil herunter und laden sie es in ein normales fenster.",
+    "download_profile": "Downloaden Sie mein Profil",
+    "name_profile": "Nennen Sie Ihr Profil",
+    "nickname_placeholder": "Spitzname",
+    "save": "Sparen"
+  },
+  "progress": {
+    "backing_up": "Rückhaltesysteme",
+    "preparing_export": "Vorbereitung der Ausfuhr",
+    "saving": "Sparen",
+    "phase_packing": "Verpackung",
+    "phase_compressing": "Komprimieren",
+    "job_status": "{job} · {phase} {percent}%",
+    "saved": "Gerettet",
+    "couldnt_save": "Konnte nicht speichern (siehe Einstellungen → Daten)"
+  }
+}

@@ -1,0 +1,745 @@
+{
+  "schema": {
+    "mistakeSensitivity": {
+      "label": "Fehler vorschlagen, um zu trainieren",
+      "option": {
+        "relaxed": "Nur klare Muster",
+        "normal": "Normal",
+        "eager": "Früh"
+      },
+      "description": "Wie viele Beweise vor einem Vorschlag"
+    },
+    "autoAcceptMistakes": {
+      "label": "Auto-Add-Fehler zum Training",
+      "description": "Starten Sie das Training berechtigter Fehler automatisch"
+    },
+    "adaptiveMix": {
+      "label": "Üben Sie Wörter in Word Tests",
+      "option": {
+        "light": "Ein paar",
+        "strong": "Mehr",
+        "off": "Ausgeschaltet"
+      },
+      "description": "Mix in Worten mit Fehlern beobachtet"
+    },
+    "goalType": {
+      "label": "Tägliches Ziel",
+      "option": {
+        "off": "Nicht",
+        "minutes": "Minuten",
+        "words": "Wörter",
+        "xp": "Xp"
+      },
+      "description": "Tippen für jeden Tag"
+    },
+    "goalMinutes": {
+      "label": "Minuten pro Tag",
+      "description": "Tagesziel in Minuten"
+    },
+    "goalWords": {
+      "label": "Worte am Tag",
+      "description": "Tagesziel in Worten"
+    },
+    "questDifficulty": {
+      "label": "Tägliche Quest Schwierigkeiten",
+      "option": {
+        "easy": "Leicht",
+        "normal": "Normal",
+        "hard": "Hart"
+      },
+      "description": "Wie weit Quests und die tägliche Herausforderung dich strecken und wie viel XP sie geben. Eine Änderung gilt für die Quests von morgen"
+    },
+    "lessonCompanion": {
+      "label": "Unterrichtsbegleiter"
+    },
+    "commonCapitals": {
+      "label": "Großbuchstaben in gemeinsamen Worten"
+    },
+    "paragraphBreaks": {
+      "label": "Absatzunterbrechungen",
+      "description": "Druckeintrag an Absatzenden"
+    },
+    "wordPool": {
+      "label": "Wortliste",
+      "option": {
+        "200": "200 Gemeinsame Wörter"
+      }
+    },
+    "wordLength": {
+      "label": "Wortlänge",
+      "option": {
+        "everyday": "Täglich",
+        "some_long": "Einige lange Worte",
+        "long": "Lange Worte",
+        "common": "Täglich",
+        "mixed": "Einige lange Worte"
+      },
+      "description": "Längere, härtere Wörter in Zeit- und Worttests"
+    },
+    "wordSpelling": {
+      "label": "Rechtschreibprüfungen",
+      "option": {
+        "both": "Beide (wie geschrieben)",
+        "uk": "UK English (Farbe, Mitte)",
+        "us": "US-Englisch (Farbe, Mitte)"
+      },
+      "description": "Schreibvariante in Wortprüfungen und Bohrern"
+    },
+    "textSize": {
+      "label": "Textgröße eingeben"
+    },
+    "fontFamily": {
+      "label": "Schriftart"
+    },
+    "fontWeight": {
+      "label": "Schriftgewicht"
+    },
+    "lineHeight": {
+      "label": "Typisierungslinienhöhe"
+    },
+    "letterSpacing": {
+      "label": "Tippbuchstabenabstand"
+    },
+    "caretStyle": {
+      "label": "Pflegestil",
+      "option": {
+        "line": "Linie",
+        "block": "Block",
+        "underline": "Aufheben"
+      }
+    },
+    "smoothCaret": {
+      "label": "Glatte Pflege",
+      "description": "Cursor gleitet zwischen Buchstaben"
+    },
+    "focusMode": {
+      "label": "Schwerpunkt",
+      "option": {
+        "line": "Stromleitung",
+        "sentence": "Satz",
+        "none": "Ausgeschaltet"
+      },
+      "description": "Dim Text außerhalb der Zeile oder des Satzes"
+    },
+    "liveMetrics": {
+      "label": "Live WPM und Genauigkeit"
+    },
+    "mistakeDisplay": {
+      "label": "Fehler zeigen als",
+      "option": {
+        "expected": "Erwartetes Schreiben",
+        "typed": "Typisierter Buchstabe"
+      }
+    },
+    "restartKey": {
+      "label": "Neustartschlüssel",
+      "description": "Tasten, die einen Test neu starten",
+      "option": {
+        "tab-enter": "Tab → Enter",
+        "tab-tab": "Tab → Tab"
+      }
+    },
+    "layout": {
+      "label": "Tastaturlayout"
+    },
+    "stenoMode": {
+      "label": "I Typ mit",
+      "option": {
+        "keyboard": "Eine Tastatur",
+        "steno": "Einer Stenomaschine"
+      }
+    },
+    "defaultDuration": {
+      "label": "Standardtestdauer",
+      "description": "Länge eines Zeittests"
+    },
+    "defaultWordCount": {
+      "label": "Standardwortzahl",
+      "description": "Länge eines Wörtertests"
+    },
+    "mode": {
+      "label": "Modus",
+      "description": "Hell, dunkel oder folgen Sie Ihrem System",
+      "option": {
+        "system": "Abgleichsystem",
+        "light": "Licht",
+        "dark": "Dunkel"
+      }
+    },
+    "themeLight": {
+      "label": "Lichtthema",
+      "description": "Farben im Lichtmodus",
+      "option": {
+        "paper": "Papier",
+        "eink": "E-Ink",
+        "cream": "Creme",
+        "rose": "Rose",
+        "harbour": "Hafen",
+        "contrast": "Hoher Kontrast"
+      }
+    },
+    "themeDark": {
+      "label": "Dunkles Thema",
+      "description": "Farben bei Verwendung des Dunkelmodus",
+      "option": {
+        "ink": "Tinte",
+        "dusk": "Dämmerung",
+        "eink-night": "E-Ink Nacht",
+        "forest": "Wald",
+        "plum": "Pflaumen",
+        "slate": "Schiefer",
+        "terminal": "Anschluss",
+        "contrast-night": "Nacht mit hohem Kontrast"
+      }
+    },
+    "theme": {
+      "label": "Thema",
+      "description": "Farben für die gesamte App",
+      "option": {
+        "system": "Abgleichsystem",
+        "paper": "Papier",
+        "ink": "Tinte",
+        "dusk": "Dämmerung",
+        "eink": "E-Ink",
+        "eink-night": "E-Ink Nacht",
+        "cream": "Creme",
+        "rose": "Rose",
+        "harbour": "Hafen",
+        "forest": "Wald",
+        "plum": "Pflaumen",
+        "slate": "Schiefer",
+        "terminal": "Anschluss",
+        "contrast": "Hoher Kontrast",
+        "contrast-night": "Nacht mit hohem Kontrast"
+      }
+    },
+    "customThemes": {
+      "label": "Ihre Themen"
+    },
+    "typingFontSize": {
+      "label": "Textgröße eingeben",
+      "description": "Größe des Textes, den Sie eingeben"
+    },
+    "typingFont": {
+      "label": "Schriftart"
+    },
+    "typingFontWeight": {
+      "label": "Schriftgewicht",
+      "description": "Wie fett der tipptext ist",
+      "option": {
+        "300": "300",
+        "400": "400",
+        "500": "500",
+        "600": "600",
+        "700": "700"
+      }
+    },
+    "typingLineHeight": {
+      "label": "Typisierungslinienhöhe",
+      "description": "Zwischenraum zwischen Schreibzeilen"
+    },
+    "typingLetterSpacing": {
+      "label": "Tippbuchstabenabstand",
+      "description": "Raum zwischen Buchstaben"
+    },
+    "caret": {
+      "label": "Pflegestil",
+      "description": "Form des Cursors",
+      "option": {
+        "line": "Linie",
+        "block": "Block",
+        "underline": "Aufheben"
+      }
+    },
+    "linesAhead": {
+      "label": "Linien voraus",
+      "description": "Wie viele Linien sichtbar sind",
+      "option": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
+    },
+    "showLiveStats": {
+      "label": "Live WPM und Genauigkeit",
+      "description": "Wpm und Genauigkeit beim Tippen"
+    },
+    "errorDisplay": {
+      "label": "Fehler zeigen als",
+      "description": "Was ein falscher Brief zeigt",
+      "option": {
+        "expected": "Erwartetes Schreiben",
+        "typed": "Typisierter Buchstabe"
+      }
+    },
+    "keyboardLayout": {
+      "label": "Tastaturlayout",
+      "description": "Dies sagt Kalibre, wo Schlüssel sitzen, um Nachbarn zu beurteilen; es ändert nicht, was Sie eingeben",
+      "option": {
+        "qwerty": "QWERTY (US)",
+        "dvorak": "Dvorak",
+        "colemak": "Colemak",
+        "colemak-dh": "Colemak-DH",
+        "workman": "Arbeiter",
+        "azerty": "AZERTY (Französisch)",
+        "qwertz": "QWERTZ (Deutsch)"
+      }
+    },
+    "inputMethod": {
+      "label": "I Typ mit",
+      "description": "Eine steno-maschine sendet ganze wörter auf einmal, so dass zzzk0zzz nur ganze wortfehler notiert und die touch-tipping-lektionen beiseite legt.",
+      "option": {
+        "keyboard": "Eine Tastatur",
+        "steno": "Einer Stenomaschine"
+      }
+    },
+    "capitals": {
+      "label": "Großbuchstaben in gemeinsamen Worten",
+      "description": "Zitate und Ihre Texte behalten immer ihre"
+    },
+    "wordList": {
+      "label": "Wortliste",
+      "description": "Wie viele gemeinsame Wörter zu zeichnen",
+      "option": {
+        "200": "200 Gemeinsame Wörter",
+        "1000": "1K gemeinsame Wörter",
+        "5000": "5K gemeinsame Wörter"
+      }
+    },
+    "customSampling": {
+      "label": "Custom-Texte",
+      "description": "Ganzer Text oder eine Passage",
+      "option": {
+        "passage": "Zufällige Passage",
+        "entire": "Vollständiger Text"
+      }
+    },
+    "customQuoteLength": {
+      "label": "Kanallänge",
+      "description": "Zeichenband für eine benutzerdefinierte Passage",
+      "option": {
+        "short": "Kurz (bis zu 100 Zeichen)",
+        "medium": "Medium (bis zu 300 Zeichen)",
+        "long": "Lang (bis zu 600 Zeichen)",
+        "huge": "Riesig (bis zu 1500 chars)",
+        "massive": "Massiv (bis zu 4000 chars)"
+      }
+    },
+    "customNormalisation": {
+      "label": "Benutzerdefinierte Textzeichen",
+      "description": "Was benutzerdefinierte Texte behalten",
+      "option": {
+        "preserve": "Wie geschrieben",
+        "no-punctuation": "Keine Interpunktion",
+        "letters": "Nur Buchstaben",
+        "letters-numbers": "Buchstaben + Zahlen"
+      }
+    },
+    "mixedCategories": {
+      "label": "Gemischte Angebotslängen",
+      "description": "Anführungslängen gemischter Tests",
+      "option": {
+        "short": "Kurz",
+        "medium": "Medium",
+        "long": "Lang",
+        "huge": "Groß",
+        "massive": "Massiv"
+      }
+    },
+    "goalXp": {
+      "label": "Xp am Tag",
+      "description": "Tagesziel in xp vom tippen (nicht boni); eine minute sauberes tippen verdient etwa 8-15."
+    },
+    "companion": {
+      "label": "Unterrichtsbegleiter",
+      "description": "Bei der Einrichtung ausgewählt und vom Profil beibehalten",
+      "option": {
+        "cal": "Kalk",
+        "libby": "Libby"
+      }
+    },
+    "mascotChatter": {
+      "label": "{companion}Geschwätz",
+      "description": "Wie viel{companion}Sagt",
+      "option": {
+        "chatty": "Gesprächig",
+        "quiet": "Nur was zählt"
+      }
+    },
+    "mascotSounds": {
+      "label": "{companion}Klänge",
+      "description": "Kleine Chirps im Unterricht (niemals mitten im Wort), ein Schnurren beim Streicheln und ein Kichern beim Kitzeln"
+    },
+    "mascotVolume": {
+      "label": "{companion}Volumen",
+      "description": "Wie laut{companion}Ist"
+    },
+    "uiFontSize": {
+      "label": "Schnittstellentextgröße",
+      "description": "Größe des Schnittstellentexts"
+    },
+    "reduceMotion": {
+      "label": "Reduzieren der Bewegung",
+      "description": "Weniger Animationen",
+      "option": {
+        "system": "Abgleichsystem",
+        "on": "Am",
+        "off": "Ausgeschaltet"
+      }
+    },
+    "colourVision": {
+      "label": "Farbsicht",
+      "description": "Farben auf Farbenblindheit einstellen",
+      "option": {
+        "typical": "Typisch",
+        "red-green": "Rot-grün (Protanopie, Deuteranopie)",
+        "blue-yellow": "Blaugelb (Tritanopie)",
+        "no-colour": "Keine Farbe"
+      }
+    },
+    "uiFont": {
+      "label": "Schnittstellenschrift",
+      "description": "Schriftart für Menüs und Text außerhalb des Eingabebereichs",
+      "option": {
+        "system": "Systemfehler",
+        "atkinson": "Atkinson Hyperlegible",
+        "opendyslexic": "OpenDyslexic"
+      }
+    },
+    "boldText": {
+      "label": "Fett gedruckt",
+      "description": "Schwerer Text im gesamten Interface"
+    },
+    "textSpacing": {
+      "label": "Textabstand",
+      "description": "Größerer Abstand zwischen Buchstaben und Wörtern",
+      "option": {
+        "normal": "Normal",
+        "wide": "Breit"
+      }
+    },
+    "contrast": {
+      "label": "Kontrast",
+      "description": "Machen Sie Text und Grenzen deutlicher",
+      "option": {
+        "system": "Abgleichsystem",
+        "normal": "Normal",
+        "more": "Mehr"
+      }
+    },
+    "pageWidth": {
+      "label": "Seitenbreite",
+      "description": "Breite des Seiteninhalts",
+      "option": {
+        "narrow": "Schmal (720 px)",
+        "normal": "Normal (880 px)",
+        "wide": "Breit (1000 px)",
+        "full": "Volle Breite"
+      }
+    },
+    "language": {
+      "label": "Sprache",
+      "description": "Schnittstellensprache; Neuladen nach Änderung",
+      "option": {
+        "en-GB": "Englisch (UK)",
+        "en-US": "Englisch (US)",
+        "zh-CN": "(Chinesisch vereinfacht)",
+        "qps": "Pseudonym",
+        "qps-wide": "Pseudobreit"
+      }
+    },
+    "backupFrequency": {
+      "label": "Automatische Backups",
+      "description": "Wenn der Backup-Ordner aktualisiert wird (Chrome und Edge)",
+      "option": {
+        "change": "Kurz nach jeder Änderung",
+        "test": "Nach jeder Prüfung",
+        "5min": "Höchstens alle 5 Minuten",
+        "hourly": "Höchstens jede Stunde",
+        "manual": "Nur wenn ich frage"
+      }
+    },
+    "updateCheck": {
+      "label": "Überprüfen Sie auf Updates",
+      "description": "Wie oft kalibre nach einer neuen version sucht; es wartet auf sie so oder so.",
+      "option": {
+        "5min": "Alle 5 Minuten",
+        "15min": "Alle 15 Minuten",
+        "hourly": "Jede Stunde",
+        "launch": "Wenn Kalibre öffnet",
+        "manual": "Nur wenn ich frage"
+      }
+    },
+    "enabledDatasets": {
+      "label": "Aktivierte Datensätze"
+    },
+    "libraries": {
+      "label": "Datensatzbibliotheken"
+    },
+    "wordFilter": {
+      "label": "Filter beleidigende Worte"
+    },
+    "blockedWords": {
+      "label": "Eigene Wörter zum Filtern"
+    },
+    "companionLook": {
+      "label": "{companion}’Look"
+    },
+    "stenoNoteShown": {
+      "label": "Stenonote gezeigt"
+    },
+    "lastVisitDay": {
+      "label": "Letzter Besuch"
+    },
+    "calSeen": {
+      "label": "{companion}’ Gesehene Positionen"
+    },
+    "calPets": {
+      "label": "Zeiten{companion}Wurde gestreichelt"
+    },
+    "calPokes": {
+      "label": "Zeiten{companion}Wurde gestochen"
+    },
+    "calTickles": {
+      "label": "Zeiten{companion}Wurde gekitzelt"
+    },
+    "calPokeFits": {
+      "label": "Zeiten{companion}Wurde zu viel gestochen"
+    },
+    "raceNoticeSeen": {
+      "label": "Rennanzeige gesehen"
+    },
+    "lastSeenVersion": {
+      "label": "Letzte Version gesehen"
+    },
+    "updateTold": {
+      "label": "Update erwähnt"
+    },
+    "calArmLifts": {
+      "label": "Zeiten{companion}Der Arm wurde angehoben"
+    },
+    "restartRun": {
+      "label": "Letzter Beginn"
+    },
+    "calRestartBest": {
+      "label": "Schnellste Neustarts in Folge"
+    },
+    "achievementsSeen": {
+      "label": "Geschätzte Erfolge"
+    },
+    "achievementsVersionSeen": {
+      "label": "Erfolge Version gesehen"
+    },
+    "themeDecorations": {
+      "label": "Themendekorationen"
+    },
+    "profileCard": {
+      "label": "Profilkarte"
+    },
+    "cardItemsSeen": {
+      "label": "Profilkartenstücke gesehen"
+    },
+    "raceCardNoticeSeen": {
+      "label": "Rennkartenanzeige gesehen"
+    },
+    "car": {
+      "label": "Rennwagen"
+    },
+    "carPartsSeen": {
+      "label": "Rennwagenteile gesehen"
+    },
+    "raceConfig": {
+      "label": "Rassenwahl"
+    },
+    "raceModesNoticeSeen": {
+      "label": "Rennmodi gesehen"
+    },
+    "decorationsSeen": {
+      "label": "Themendekorationen gesehen"
+    },
+    "achievementsComplete": {
+      "label": "Jede Leistung"
+    },
+    "engagement": {
+      "label": "Engagement"
+    },
+    "partnerLook": {
+      "label": "Der Look des Partners"
+    },
+    "lessonConfig": {
+      "label": "Unterrichtsaufbau"
+    },
+    "lessonPrep": {
+      "label": "Unterrichtsschritte und Warm-ups"
+    },
+    "gameConfigs": {
+      "label": "Spiel-Setups"
+    },
+    "lastConfig": {
+      "label": "Letzte Prüfkonfiguration"
+    },
+    "numpad": {
+      "label": "Ich habe ein Zahlenpad",
+      "description": "Für Zahlenpad-Übungen und zu sagen, ob Num Lock ausgeschaltet ist"
+    },
+    "numpadSeen": {
+      "label": "Anzahl Pad gesehen"
+    },
+    "numpadTold": {
+      "label": "Number Pad Praxis erwähnt"
+    },
+    "numpadOffered": {
+      "label": "Anzahl Pad Praxis angeboten"
+    },
+    "sumsConfig": {
+      "label": "Summenaufstellung"
+    },
+    "numpadConfig": {
+      "label": "Zehn-Schlüssel-Testaufbau"
+    }
+  },
+  "actions": {
+    "export": "Ausfuhreinstellungen",
+    "import": "Einfuhreinstellungen"
+  },
+  "tip": {
+    "esc_change": "Esc: Ändern Sie jede Einstellung durch Eingabe"
+  },
+  "notice": {
+    "imported_count": "Einfuhren{count}Einstellung(en)"
+  },
+  "data_panel": {
+    "done_the_browser_will_keep": "Fertig: Der Browser speichert Ihre Daten.",
+    "the_browser_said_no_for": "Der Browser sagte vorerst nein. Installieren kalibre als App oder Bookmarking es ändert sich oft, dass; in der Zwischenzeit, halten Sie ein Backup.",
+    "this_browser_can_t_save": "Dieser Browser kann nicht selbst in einem Ordner speichern, also unten von Hand sichern. (Chrome und Edge können es automatisch tun.)",
+    "choose_a_folder_on_this": "Wählen Sie einen Ordner auf diesem Computer und er wird zu Ihrem Kalibre-Ordner: Dieses Profil wird dort einige Sekunden nach jedem Test oder jeder Änderung mit den von Ihnen hinzugefügten Datensätzen und Schriftarten gespeichert. Ein Ordner mit anderen Dingen darin erhält einen \"kalibre\" -Ordner, der im Inneren erstellt wird.",
+    "saving_this_profile_and_the": "Speichern dieses Profils und der hier hinzugefügten Datensätze und Schriftarten im Kalibre-Ordner{folderName}” · {last}.{problem}",
+    "when_an_update_changes_how": "Wenn ein Update ändert, wie Kalibre Dinge speichert, behält es eine Kopie von allem von kurz zuvor, falls etwas schief gelaufen ist. Die letzten beiden werden beibehalten.",
+    "what_takes_the_space": "Was nimmt den Raum",
+    "bring_profiles_datasets_and_fonts": "Bringen Sie Profile, Datensätze und Schriftarten aus einem Kalibre-Ordner zurück: nachdem der Browser gelöscht wurde, oder auf einem anderen Computer. Hier wird nichts überschrieben. Funktioniert in jedem Browser.",
+    "shared": "Geteilt",
+    "the_file_is_ready": "Die Datei ist fertig",
+    "couldn_t_save_see_settings": "Konnte nicht gespeichert werden (siehe Einstellungen → Daten)",
+    "storage_persistent": "Der Browser speichert die Daten von kalibre, bis Sie sie selbst löschen.",
+    "storage_best_effort": "Der Browser kann die Daten von kalibre löschen, wenn die Festplatte niedrig läuft (Safari tut dies auch nach 7 Tagen ohne Besuch). Bitten Sie es, die Daten zu behalten, und halten Sie ein Backup.",
+    "storage_unsupported": "Dieser browser kann nicht versprechen, die daten von kalibre zu behalten, also halten sie ein backup.",
+    "storage_using": "Verwendung{used}.",
+    "overdue": "Dieses Profil wurde nicht mehr gesichert{days}Tage.",
+    "never_backed_up": "Dieses Profil wurde noch nicht gesichert.",
+    "last_backup": "Letztes Backup{when}. ",
+    "export_explained": "Ein Export ist eine Datei mit der Historie dieses Profils (im Export des Kalibre-Ordners gespeichert, wenn eine vorhanden ist); Wiederherstellen mit \"Profildatei importieren\" im Profilmenü.",
+    "copy_line": "Von{when}, Kurz vor{what}Geändert, wie Daten gespeichert werden ·{records}Aufzeichnungen",
+    "copy_app": "Kalibre v{app}",
+    "copy_update": "Eine Aktualisierung",
+    "allow_again": "Erneut erlauben",
+    "save_over_it": "Sparen Sie darüber hinweg",
+    "restore_it": "Wiederherstellen",
+    "put_this_copy_back": "Setzen Sie diese Kopie zurück",
+    "share_it": "Teilen Sie es"
+  },
+  "fonts": {
+    "default_monospace": "Standard (Monospace)",
+    "font_names_can_only_use": "Schriftnamen können nur Buchstaben, Zahlen, Leerzeichen, Punkte, Bindestriche und Unterstriche verwenden.",
+    "isn_t_available_on_this": "\"{family}\" Ist auf diesem Gerät nicht verfügbar, daher wird die Standardschrift angezeigt.",
+    "use": "Verwendung{family}",
+    "kb": "{fileName} · {round}KB",
+    "remove": "Entfernen{family}",
+    "list_fonts_on_this_computer": "Liste Fonts auf diesem Computer",
+    "fonts_found_start_typing_a": "{length}Schriftarten gefunden; beginnen sie, einen namen einzugeben, um einen auszuwählen.",
+    "the_browser_did_not_allow": "Der Browser erlaubte keine Auflistung von Schriftarten. Sie können weiterhin einen beliebigen installierten Schriftnamen eingeben.",
+    "load_a_font_file": "Laden einer Font-Datei",
+    "use_default_font": "Standardmäßig verwenden",
+    "bundled_legible": "Gebündelt · lesbarer Monoraum",
+    "bundled_dyslexia": "Gebündelt · Legasthenie-freundlich",
+    "sample": "Der schnelle Braunfuchs springt über den faulen Hund. 0123456789"
+  },
+  "settings": {
+    "github": "Github",
+    "translation_note": "Diese Übersetzung wurde nicht von einem Muttersprachler geschrieben oder überprüft, so dass einige davon seltsam gelesen werden können. Sie können helfen, es zu verbessern{link}.",
+    "imported": "Einfuhren{count, plural, one {# Einstellung} other {# Einstellungen}}",
+    "skipped": "· Übersprungen{what}",
+    "sections_label": "Einstellabschnitte"
+  },
+  "storage_screen": {
+    "measuring": "Mess...",
+    "space_used": "Raumnutzung",
+    "yes": "Ja,{label}",
+    "export_first": "Ausfuhr zuerst",
+    "kalibre_is_using_of_the": "Kalibre verwendet{formatSize}Von{formatSize2}Dieser Browser erlaubt es.",
+    "kalibre_is_using_about": "Kalibre verwendet ungefähr{formatSize}.",
+    "couldn_t_measure": "Konnte nicht messen:{message}"
+  },
+  "theme_editor": {
+    "sample_of_this_theme": "Muster dieses Themas",
+    "needs_1": "(Bedarf){minimum}:1)",
+    "fix_the_colours_marked_first": "Befestigen Sie die Farben markiert ✗ zuerst",
+    "hex_value": "{label}Hex-Wert",
+    "edit_theme": "Edit Theme",
+    "a_sample_of_every_colour": "Ein Muster jeder Farbe, mit Ihrer Farbvision und Kontrasteinstellungen. Bewegen Sie über eine Farbe oder wählen Sie eine, um zu skizzieren, wohin sie geht.",
+    "imported": "Eingeführt{name}\"",
+    "that_file_isn_t_a": "Diese Datei ist kein Thema.",
+    "saved": "Gespeichert{name}\"",
+    "saved_decorate": "Dekorieren Sie es aus der Liste, wann immer Sie möchten.",
+    "groups": {
+      "page": "Seite",
+      "text": "Text",
+      "typing": "Typisierung",
+      "charts": "Karten"
+    },
+    "tokens": {
+      "bg": "Hintergrund",
+      "surface": "Platten",
+      "separator": "Linien und Grenzen",
+      "selection": "Auswahl",
+      "text": "Text",
+      "textDim": "Schwacher Text",
+      "accent": "Akzent",
+      "correct": "Typisierter Text",
+      "incorrect": "Fehler",
+      "extra": "Zusätzliche Buchstaben",
+      "caret": "Pflege",
+      "chartWpm": "Wpm-Linie",
+      "chartRaw": "Rohe Linie",
+      "chartError": "Fehler",
+      "heat1": "Schlüsselwärme 1",
+      "heat2": "Schlüsselwärme 2",
+      "heat3": "Schlüsselwärme 3",
+      "heat4": "Schlüsselwärme 4"
+    },
+    "sample_correct": "Schnellbraun",
+    "sample_incorrect": "Fxo",
+    "sample_extra": "Ss",
+    "sample_dim": "Sprünge",
+    "sample_text": "Text",
+    "sample_link": "Verbindung",
+    "sample_selected": "Ausgewählt",
+    "that_theme_can_t_be": "Dieses Theme kann nicht verwendet werden:{problem}.",
+    "scheme_label": "Hell oder dunkel"
+  },
+  "theme_picker": {
+    "quick_brown": "Schnellbraun",
+    "fxo": "Fxo",
+    "ss": "Ss",
+    "jumps_over": "Sprünge",
+    "surface": "Oberfläche",
+    "accent_link": "Akzent-Link",
+    "selected": "Ausgewählt",
+    "1_text": "{ratio}1 Text",
+    "choose_theme": "{label}: Thema auswählen",
+    "options": "{label}Optionen",
+    "pick": "Pickel{label}"
+  },
+  "sections": {
+    "theme": "Thema",
+    "typing": "Typisierung",
+    "content": "Inhalt",
+    "training": "Ausbildung",
+    "accessibility": "Zugänglichkeit",
+    "data": "Daten"
+  },
+  "stepper": {
+    "decrease": "Abnahme{label}",
+    "increase": "Anstieg{label}"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "view": {
+    "card_aria": "{name}’ Karte:{described}"
+  },
+  "window": {
+    "your_card": "Ihre Karte",
+    "card_title": "Karte",
+    "cosmetics": "Kosmetika",
+    "stickers": "Aufkleber",
+    "garage": "Garage",
+    "done": "Fertig"
+  },
+  "card_view": {
+    "lv": "Lv{level}",
+    "with_after_level": "· Mit{companionName}",
+    "with_companion": "Mit{companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "So sieht Ihre Karte für andere in einem Rennen aus. Ihr Begleiter steht da, wo ein Bild wäre: Profilbilder verlassen dieses Gerät nie. Ziehen Sie einen Aufkleber, um ihn zu bewegen; Wählen Sie einen für eine Farbe, Größe und Drehung oder die Pfeile [und ] und Löschen; Esc oder ein Klick an anderer Stelle deaktiviert es.",
+    "what_your_card_wears": "Was Ihre Karte trägt",
+    "colour": "{tokenLabel}Farbe",
+    "theme_default_colour": "Thema Standardfarbe",
+    "delete_sticker": "Aufkleber löschen",
+    "sticker_arrows_move_it_and": "{name}Aufkleber: Pfeile verschieben es, [und] drehen es, löschen nimmt es ab; wählen Sie es für seine Farbe und Größe",
+    "selected_sticker_s_colour": "Farbe des ausgewählten Aufklebers",
+    "add_a_sticker": "A hinzufügen{name}Aufkleber",
+    "a_secret_sticker": "Ein geheimer Aufkleber",
+    "a_card_shows_at_most": "Eine Karte zeigt{MAX_SHOWCASE}Höchstens",
+    "remove_every_sticker": "Entfernen Sie jeden Aufkleber",
+    "nothing_to_show_off_yet": "Nichts zu zeigen noch. Ihre Erfolge werden hier sein, wenn Sie sie verdienen.",
+    "tabs": {
+      "showcase": {
+        "title": "Schaufenster",
+        "hint": "Bis zu{max}Erfolge, die Sie verdient haben"
+      },
+      "garage": {
+        "title": "Garage",
+        "hint": "Kleiden Sie Ihren Rennwagen: Es ist das, was Sie auf der Strecke fahren, und was jeder Rennsport sieht Sie"
+      }
+    },
+    "tint": "{slot}Tönung"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {
+        "title": "Grenze",
+        "hint": "Um die Karte"
+      },
+      "frame": {
+        "title": "Rahmen",
+        "hint": "Um Ihren Begleiter"
+      },
+      "aura": {
+        "title": "Aura",
+        "hint": "Ein Leuchten hinter Ihrem Begleiter"
+      },
+      "backdrop": {
+        "title": "Hintergrund",
+        "hint": "Hinter allem auf der Karte"
+      },
+      "sticker": {
+        "title": "Aufkleber",
+        "hint": "Ziehen Sie sie überall auf der Karte"
+      }
+    },
+    "items": {
+      "border-double": {
+        "name": "Doppellinie"
+      },
+      "border-stitch": {
+        "name": "Genäht"
+      },
+      "border-ribbon": {
+        "name": "Bänder"
+      },
+      "border-corners": {
+        "name": "Eckbügel"
+      },
+      "border-keycap": {
+        "name": "Keycap"
+      },
+      "border-heat": {
+        "name": "Wärme"
+      },
+      "border-neon": {
+        "name": "Neon"
+      },
+      "border-gilt": {
+        "name": "Waden"
+      },
+      "border-midnight": {
+        "name": "Mitternacht"
+      },
+      "frame-double": {
+        "name": "Doppelring"
+      },
+      "frame-dashed": {
+        "name": "Gestrichelter Ring"
+      },
+      "frame-square": {
+        "name": "Keycap Quadrat"
+      },
+      "frame-cog": {
+        "name": "Zwerg"
+      },
+      "frame-petals": {
+        "name": "Blüten"
+      },
+      "frame-orbit": {
+        "name": "Umlaufbahn"
+      },
+      "frame-laurel": {
+        "name": "Lorbe"
+      },
+      "frame-crown": {
+        "name": "Krone"
+      },
+      "aura-soft": {
+        "name": "Weiches Glühen"
+      },
+      "aura-pulse": {
+        "name": "Impuls"
+      },
+      "aura-ember": {
+        "name": "Bernstein"
+      },
+      "aura-halo": {
+        "name": "Halo"
+      },
+      "aura-aurora": {
+        "name": "Aurora"
+      },
+      "aura-prism": {
+        "name": "Prisma"
+      },
+      "backdrop-dots": {
+        "name": "Punkte"
+      },
+      "backdrop-pinstripe": {
+        "name": "Nadelstreifen"
+      },
+      "backdrop-graph": {
+        "name": "Graphenpapier"
+      },
+      "backdrop-waves": {
+        "name": "Wellen"
+      },
+      "backdrop-stars": {
+        "name": "Sternfeld"
+      },
+      "backdrop-confetti": {
+        "name": "Konfetti"
+      },
+      "sticker-star": {
+        "name": "Stern"
+      },
+      "sticker-leaf": {
+        "name": "Blatt"
+      },
+      "sticker-key": {
+        "name": "Keycap"
+      },
+      "sticker-heart": {
+        "name": "Herz"
+      },
+      "sticker-flower": {
+        "name": "Blüte"
+      },
+      "sticker-bolt": {
+        "name": "Blitze"
+      },
+      "sticker-note": {
+        "name": "Musiknoten"
+      },
+      "sticker-moon": {
+        "name": "Mond"
+      },
+      "sticker-rocket": {
+        "name": "Raketenrakete"
+      },
+      "sticker-castle": {
+        "name": "Burg"
+      },
+      "sticker-magnifier": {
+        "name": "Vergrößerung"
+      },
+      "sticker-book": {
+        "name": "Buch"
+      },
+      "sticker-flag": {
+        "name": "Markierungsflagge"
+      },
+      "sticker-crown": {
+        "name": "Krone"
+      },
+      "sticker-teacup": {
+        "name": "Teetassen"
+      },
+      "sticker-sparkle": {
+        "name": "Funkeln"
+      }
+    }
+  }
+}

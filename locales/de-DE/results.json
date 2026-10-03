@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "speed": "Drehzahl",
+    "accuracy": "Genauigkeit",
+    "characters": "Zeichen",
+    "words": "Wörter",
+    "time": "Uhrzeit",
+    "consistency": "Konsistenz",
+    "best": "Persönlich bester",
+    "average": "Durchschnitt",
+    "tests": "Prüfungen"
+  },
+  "candidate": {
+    "prompt_label": "Schulungsvorschlag",
+    "body": "Sie schreiben weiter{word} · {count, plural, one {# Uhrzeit} other {# Zeiten}}Quer{sessions, plural, one {# Sitzung} other {# Sitzungen}}.",
+    "train": "Zug",
+    "dismiss": "Entlassung",
+    "later": "Später",
+    "drill_it_now": "Bohren Sie es jetzt"
+  },
+  "actions": {
+    "next": "Nächstens",
+    "retry": "Wiederholung",
+    "watch_replay": "Wiedergabe ansehen",
+    "save_ghost": "Save als Geist",
+    "words": "Wörter",
+    "final": "Endgültig",
+    "as_typed": "Wie typisiert"
+  },
+  "race_results": {
+    "full_stats": "Vollständige Statistiken",
+    "your_race": "Dein Rennen",
+    "this_race_looked_like_key": "Dieses Rennen sah aus wie Key Mashing{notCountedReason}), So wurde es nicht gezählt: keine xp, Fehler oder Statistiken.",
+    "lv_to_go": "· Lv{level} · {value}Zu gehen",
+    "drill_now": "Bohren jetzt",
+    "counts": "Fehler{errors}· Worte{words}"
+  },
+  "replay_player": {
+    "test_replay": "Testwiederholung",
+    "pinned": "Gepinnt ✓",
+    "pinned_limit_reached_replays_unpin": "Angeheftete Grenze erreicht{PINNED_LOGS_CAP}Wiederholungen. Unpin eine ältere Wiederholung zuerst.",
+    "close_replay": "Close Replay",
+    "replay_scrubber": "Replay Scrubber",
+    "jump_to_playhead": "Springen Sie zum Playhead ⇥",
+    "0_wpm": "0 Wpm",
+    "replay_timeline_zoom": "Wiedergabe Timeline Zoom",
+    "zoom": "Zoom",
+    "restart_replay": "Neustart Replay",
+    "play": "Spiel",
+    "saved_as_ghost": "Gerettet als Geist ✓",
+    "wpm": "{round}Wpm"
+  },
+  "result_chart": {
+    "per_second_results": "Pro-Sekunde-Ergebnisse",
+    "not_enough_typing_to_draw": "Nicht genug tippen, um ein diagramm zu zeichnen.",
+    "chart_zoom": "Kartenzoo",
+    "speed_over_time_use_the": "Geschwindigkeit im Laufe der Zeit. Verwenden Sie die linke und rechte Pfeiltaste, um jede Sekunde zu lesen."
+  },
+  "results": {
+    "words_lowest_accuracy_target_kept": "{words}Wörter · geringste Genauigkeit{round}% · Ziel{targetAccuracy}% · Gehalten{floorWpm}+ Wpm",
+    "words_peak_pace_lowest_target": "{words}Wörter · Spitzengeschwindigkeit{round}· Niedrig{round2}· Ziel{targetWpm}Wpm",
+    "longest_above_target_raw_in": "Längste über dem Ziel{formatDuration} · {nearMisses}· Rohöl{round} · {formatDuration2}In allen",
+    "mistake_analysis_failed_for_this": "Fehleranalyse ist für diese Sitzung fehlgeschlagen",
+    "common_mistakes": "Häufige Fehler",
+    "show_the_words": "Zeigen Sie die Worte",
+    "expected": "Erwartet \"\"{text}\"",
+    "typed_expected": "Typisiert{typed}, Erwartet{text}",
+    "deleted": "Gelöscht",
+    "this_drill": "Dieser Bohrer",
+    "now": "Jetzt{to}",
+    "race_this_drill": "Rennen dieser Bohrer",
+    "race_the_same_drill_again": "Rennen die gleiche Bohrer wieder, gegen einen Geist dieses Laufs",
+    "results": "Ergebnisse",
+    "survived": "Überlebt",
+    "wpm": "Wpm",
+    "acc": "Acc",
+    "this_test_looked_like_key": "Dieser Test sah aus wie Key Mashing (){notCountedReason}), So wurde es nicht gezählt: keine XP, Fehler oder Statistiken.",
+    "suggested_for_training": "{extraSuggested}Vorgeschlagene Ausbildung",
+    "book_range": " {start} → {end}",
+    "the_end": "Das Ende",
+    "book_words": " · {count}Wörter",
+    "overdeleted": "Sie wurden gelöscht{count, plural, one {# Korrektes Zeichen} other {# Korrekte Zeichen}}Hinter dem Schlupf",
+    "overdeleted_cost": ", Etwa{cost}Wpm",
+    "mistake_line": "{errors}In{exposures}{share}· Vorher{before}",
+    "summary_line": "Rohöl{raw} · {spread} · {duration}",
+    "practice_words": " · {count, plural, one {# Übungswort} other {# Übungswörter}}",
+    "letters_to_cover": " · {count, plural, one {# Brief} other {# Buchstaben}}Noch abzudecken",
+    "mistakes_ready": "{count, plural, one {#Fehler bereit} other {#Fehler bereit}}",
+    "consistency_spread": "Konsistenz{consistency}% (±{wpmStdDev}Wpm",
+    "consistency_none": "Konsistenz –"
+  }
+}

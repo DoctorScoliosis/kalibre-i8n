@@ -7,6 +7,21 @@
   },
   "locales": [
     {
+      "id": "de-DE",
+      "name": "Deutsch",
+      "englishName": "German",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 1,
+      "version": "2026-10-03",
+      "reviewed": "machine",
+      "changes": "Initial German candidate translation",
+      "path": "locales/de-DE/manifest.json",
+      "pack": "packs/de-DE.json",
+      "sha256": "403c979f8cc5de596b6fbfeba37fd75083b041b45f199ab0c44e3545eeaea531",
+      "bytes": 326241
+    },
+    {
       "id": "en-GB",
       "name": "English (UK)",
       "englishName": "English (UK)",

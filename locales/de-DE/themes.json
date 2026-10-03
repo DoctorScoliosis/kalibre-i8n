@@ -1,0 +1,198 @@
+{
+  "editor": {
+    "save_theme": "Save Theme",
+    "name": "Name",
+    "light_or_dark": "Hell oder dunkel",
+    "readability": "Lesbarkeit",
+    "page": "Seite",
+    "background": "Hintergrund",
+    "panels": "Platten",
+    "lines_borders": "Linien und Grenzen",
+    "selection": "Auswahl",
+    "text": "Text",
+    "dim_text": "Schwacher Text",
+    "accent": "Akzent",
+    "typed_text": "Typisierter Text",
+    "mistakes": "Fehler",
+    "extra_letters": "Zusätzliche Buchstaben",
+    "caret": "Pflege"
+  },
+  "actions": {
+    "use": "Verwendung",
+    "edit": "Edit",
+    "decorate": "Dekorat",
+    "export": "Ausfuhren",
+    "delete": "Löschung",
+    "done": "Fertig",
+    "customise_current": "Anpassen des aktuellen Themes",
+    "import_theme": "Importieren eines Themes",
+    "decorations_for": "Dekorationen für{name}",
+    "use_theme": "Verwendung{name}",
+    "edit_theme": "Edit{name}",
+    "decorate_theme": "Dekorat{name}",
+    "export_theme": "Ausfuhren{name}",
+    "delete_theme": "Löschung{name}",
+    "copy_and_decorate": "Kopieren Sie dieses Thema und dekorieren Sie es",
+    "decorations_earned_zero": "Themendekorationen, die durch Spielen verdient werden, gehen auf eigene Themen.",
+    "decorations_earned_notice": "Du hast verdient{count, plural, one {Eine Themendekoration} other {# Themendekorationen}}Sie gehen auf Ihre eigenen Themen ein, also machen Sie eine Kopie davon zum Tragen{count, plural, one {Es} other {Sie}}.",
+    "decorations_earned_info": "Verdient durch Spielen. Sie bleiben bei diesem thema in diesem profil und sind nicht enthalten, wenn sie das thema exportieren."
+  },
+  "picker": {
+    "preview": "Vorschau",
+    "instructions": "Hover to Preview · Click or enter to apply · esc to close",
+    "close": "Nah"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "Pflege",
+      "hint": "Um den Cursor (seine Form ist eine Eingabeeinstellung)"
+    },
+    "backdrop": {
+      "title": "Hintergrund",
+      "hint": "Ein schwaches Muster hinter der Seite"
+    },
+    "frame": {
+      "title": "Rahmen",
+      "hint": "Um den Text, den Sie eingeben"
+    },
+    "keystroke": {
+      "title": "Tastendruck",
+      "hint": "Wie sich jeder typisierte Buchstabe einstellt"
+    },
+    "flourish": {
+      "title": "Blühend",
+      "hint": "Eine kleine Markierung neben der Wortmarke"
+    }
+  },
+  "decorations": {
+    "caret-glow": {
+      "name": "Weiches Glühen"
+    },
+    "caret-halo": {
+      "name": "Halo"
+    },
+    "caret-drop": {
+      "name": "Tintentropfen"
+    },
+    "caret-trail": {
+      "name": "Kometenschwanz"
+    },
+    "backdrop-dots": {
+      "name": "Rasterpunkt"
+    },
+    "backdrop-ruled": {
+      "name": "Regiertes Papier"
+    },
+    "backdrop-graph": {
+      "name": "Graphenpapier"
+    },
+    "backdrop-grain": {
+      "name": "Körner"
+    },
+    "backdrop-checks": {
+      "name": "Weichkontrollen"
+    },
+    "frame-corners": {
+      "name": "Eckzecken"
+    },
+    "frame-bookplate": {
+      "name": "Buchschild"
+    },
+    "frame-tab": {
+      "name": "Ordner Tab"
+    },
+    "frame-brackets": {
+      "name": "Halterungen"
+    },
+    "keystroke-ink": {
+      "name": "Tintenbleiche"
+    },
+    "keystroke-rise": {
+      "name": "Sanfter Anstieg"
+    },
+    "keystroke-bloom": {
+      "name": "Blüte"
+    },
+    "flourish-leaf": {
+      "name": "Blatt"
+    },
+    "flourish-star": {
+      "name": "Stern"
+    },
+    "flourish-key": {
+      "name": "Schlüssel"
+    },
+    "flourish-letter": {
+      "name": "Brief Ihres Begleiters"
+    },
+    "flourish-moon": {
+      "name": "Mond"
+    }
+  },
+  "presets": {
+    "paper": {
+      "name": "Papier"
+    },
+    "ink": {
+      "name": "Tinte"
+    },
+    "dusk": {
+      "name": "Dämmerung"
+    },
+    "eink": {
+      "name": "E-Ink"
+    },
+    "eink-night": {
+      "name": "E-Ink Nacht"
+    },
+    "cream": {
+      "name": "Creme"
+    },
+    "rose": {
+      "name": "Rose"
+    },
+    "harbour": {
+      "name": "Hafen"
+    },
+    "forest": {
+      "name": "Wald"
+    },
+    "plum": {
+      "name": "Pflaumen"
+    },
+    "slate": {
+      "name": "Schiefer"
+    },
+    "terminal": {
+      "name": "Anschluss"
+    },
+    "contrast": {
+      "name": "Hoher Kontrast"
+    },
+    "contrast-night": {
+      "name": "Nacht mit hohem Kontrast"
+    }
+  },
+  "checks": {
+    "text_bg": "Text auf der Seite",
+    "text_surface": "Text auf Tafeln",
+    "textDim_bg": "Dim Text auf der Seite",
+    "textDim_surface": "Dim Text auf Panels",
+    "correct_bg": "Typisierter Text",
+    "incorrect_bg": "Fehler",
+    "correct_textDim": "Typisierter Text hebt sich vom Text still zum Typ ab",
+    "accent_bg": "Akzent",
+    "caret_bg": "Pflege",
+    "extra_bg": "Zusätzliche Buchstaben",
+    "chartWpm_bg": "Diagramm: wpm-Linie",
+    "chartRaw_bg": "Diagramm: Rohlinie",
+    "chartError_bg": "Tabelle: Fehler",
+    "heat1_bg": "Schlüsselwärme 1",
+    "heat4_bg": "Schlüsselwärme 4",
+    "not_a_theme": "Kein Thema",
+    "needs_a_name": "Braucht einen Namen von bis zu 40 Zeichen",
+    "scheme_must_be": "Schema muss hell oder dunkel sein",
+    "bad_hex": "Farbe{token}\" Muss ein #rrggbb-Wert sein",
+    "not_readable": "Nicht ausreichend lesbar:{labels}"
+  }
+}

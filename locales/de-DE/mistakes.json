@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "suggested": "Suggeriert",
+    "training": "Ausbildung",
+    "improving": "Verbesserung",
+    "mastered": "Gemeistert",
+    "dismissed": "Entlassen",
+    "watching": "Beobachten",
+    "overview": "Übersicht",
+    "all": "Alle"
+  },
+  "blurbs": {
+    "suggested": "Fehler, die immer wieder kommen. Trainiere sie oder entlasse diejenigen, die dir egal sind.",
+    "training": "Drills konzentrieren sich auf diese.",
+    "improving": "Die Fehlerquote hat sich seit Beginn des Trainings halbiert.",
+    "mastered": "Bis zu einem Viertel davon, wo sie angefangen haben. Sie kehren zum Training zurück, wenn sie zurückkommen.",
+    "dismissed": "Nicht erneut vorgeschlagen, es sei denn, Sie stellen sie wieder her.",
+    "watching": "Gesehen, aber nicht oft genug, um noch vorzuschlagen. \"Zug jetzt\" beginnt sowieso mit dem Training.",
+    "overview": "Wo Ihre Finger schief gehen, auf der Tastatur gezeichnet, mit den Worten und Leerzeichen daneben. Jede Zeile zeigt die Fehlerrate über den letzten Tests.",
+    "all": "Jeder Fehler Kalibre hat festgestellt, unabhängig von seinem Status."
+  },
+  "empty": {
+    "suggested": "Hier noch keine Fehler. Es geht dir gut!",
+    "training": "Noch keine Fehler im Training. Fügen Sie einige von der \"vorgeschlagenen\" Registerkarte hinzu.",
+    "improving": "Noch nichts Besseres. Bohren Sie Ihre Trainingsfehler weiter.",
+    "mastered": "Noch ist nichts gemeistert. Training braucht Zeit - bleiben Sie dabei.",
+    "dismissed": "Nichts abgetan.",
+    "watching": "Hier ist noch nichts. Tippen Sie weiter und Muster werden angezeigt.",
+    "all": "Es wurden noch keine Fehler festgestellt. Während Sie eingeben, zeichnet Kalibre hier wiederkehrende Muster auf."
+  },
+  "kinds": {
+    "key": "Schlüssel",
+    "shift": "Wechsel",
+    "swap": "Briefpaar",
+    "omit": "Verfehlt",
+    "extra": "Extra",
+    "word": "Wort",
+    "space": "Raum",
+    "insert": "Extrawort",
+    "skip": "Übersprungenes Wort",
+    "hesitation": "Zögern",
+    "tricky": "Kniffliges Wort"
+  },
+  "columns": {
+    "mistake": "Fehler",
+    "kind": "Art",
+    "status": "Status",
+    "left_in": "Links in",
+    "fixed": "Fest",
+    "tests": "Prüfungen",
+    "trend": "Trend",
+    "rate": "Satz",
+    "seen": "Gesehen"
+  },
+  "actions": {
+    "train": "Zug",
+    "train_aria": "Zug{mistake}",
+    "train_now": "Zug jetzt",
+    "train_now_aria": "Zug{mistake}Jetzt",
+    "train_again": "Zug wieder",
+    "train_again_aria": "Zug{mistake}Wieder",
+    "dismiss": "Entlassung",
+    "dismiss_aria": "Entlassung{mistake}",
+    "restore": "Wiederherstellung",
+    "restore_aria": "Wiederherstellung{mistake}",
+    "drill": "Bohrloch",
+    "drill_aria": "Bohrloch{mistake}",
+    "drill_all": "Drill meine Trainingsfehler",
+    "stop": "Stopp",
+    "stop_aria": "Abbruchschulung{mistake}",
+    "export": "Ausfuhren",
+    "csv": "Csv",
+    "json": "Json"
+  },
+  "filters": {
+    "all": "Alle",
+    "uncorrected": "Nicht korrigiert",
+    "corrected": "Korrigiert"
+  },
+  "layouts": {
+    "list": "Liste",
+    "table": "Tisch"
+  },
+  "labels": {
+    "by_status": "Fehler nach Status",
+    "show_on_map": "Show auf der Karte",
+    "show_mistakes": "Fehler zeigen",
+    "show_as": "Zeigen als",
+    "kind_of_mistake": "Art des Fehlers",
+    "all_kinds": "Alle Arten",
+    "keyboard_layout": "Tastaturlayout",
+    "sessions_count": "{count, plural, one {# Sitzung} other {# Sitzungen}}",
+    "corrected_count": "{count}Korrigiert",
+    "pager_aria": "Fehlertabellen",
+    "no_qualifiers_mistakes": "Nein{qualifiers}Fehler{inSection, select, true {In{section}} other {}}Noch nicht.",
+    "no_in_section": "Keine Fehler in{section}Noch nicht.",
+    "training_words_note": "{count, plural, one {# Wort} other {# Worte}}Mit konsequenten Fehlern im Training."
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "{label}Fehler – Klicken Sie, um zu isolieren",
+    "page": "Seite{value}",
+    "of": "{first}–{last}Von{length}",
+    "keyboard_mistakes_pages": "Tastaturfehler Seiten",
+    "nothing_to_draw_on_this": "Auf dieser Tastatur ist noch nichts zu zeichnen. Fehler, die mehr als einmal gesehen wurden, zeigen sich hier.",
+    "on_the_keyboard": "Auf der Tastatur",
+    "none_yet": "Noch keine.",
+    "with_keys_not_on_this": "{unmapped}Mit Tasten nicht auf diesem Layout",
+    "words_and_spaces": "Wörter und Leerzeichen",
+    "no_tests_yet": "Noch keine Tests",
+    "rate_one_test": "Fehlerquote{rate}In einem Test",
+    "rate_over_tests": "Fehlerquote{from} → {to}Über{count, plural, one {# Prüfung} other {# Tests}}",
+    "mark_label": "{mistake}: {rate}Der Zeit",
+    "started_at": "{summary}· Beginn der Ausbildung{rate}",
+    "keyboard_label": "Tastatur mit{count, plural, one {# Fehler} other {#Fehler}}Darauf gezeichnet. Die Liste unten hat die gleichen Fehler."
+  },
+  "mistakes": {
+    "actions": "Maßnahmen",
+    "no_mistakes_yet": "Noch keine Fehler."
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": {
+        "title": "Schlüssel"
+      },
+      "shift": {
+        "title": "Wechsel"
+      },
+      "pairs": {
+        "title": "Buchstabenpaare"
+      },
+      "letters": {
+        "title": "Verpasste und zusätzliche Briefe"
+      },
+      "words": {
+        "title": "Wörter"
+      },
+      "tricky": {
+        "title": "Knifflige Worte"
+      },
+      "between": {
+        "title": "Zwischen Wörtern"
+      },
+      "hesitations": {
+        "title": "Zögern"
+      }
+    }
+  },
+  "legend": {
+    "meant_hit": "Bedeutet: Hit",
+    "swapped": "Getauscht",
+    "missed": "Verfehlt",
+    "extra": "Extra",
+    "shift": "Wechsel"
+  },
+  "patterns": {
+    "sound": "Klingt ähnlich",
+    "homophone": "Sound-alike Wort",
+    "silent": "Stillschweigender Brief",
+    "double": "Doppelbuchstaben",
+    "vowel": "Unklarer Vokal",
+    "mirror": "Derselbe Finger, andere Hand",
+    "wrongDouble": "Falscher Brief verdoppelt",
+    "moved": "Brief out of place",
+    "ending": "Fallendes Ende",
+    "autopilot": "Vertrautes Wort statt",
+    "rawSteno": "Rohsteno"
+  },
+  "describe": {
+    "shift": "{expected} → {typed}(Schicht)",
+    "omit": "Verfehlt{expected}",
+    "extra": "Extra{typed}",
+    "insert": "Extrawort{typed}",
+    "skip": "Übersprungen{expected}",
+    "hesitation_pair": "Pause{expected}",
+    "hesitation_before": "Pause vor{expected}",
+    "hesitation": "Zögern",
+    "tricky": "Schwierig:{expected}"
+  }
+}

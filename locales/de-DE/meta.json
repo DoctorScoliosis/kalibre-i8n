@@ -1,0 +1,21 @@
+{
+  "id": "de-DE",
+  "name": "Deutsch",
+  "englishName": "German",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": true,
+  "fonts": [
+    "system-ui",
+    "-apple-system",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "sans-serif"
+  ],
+  "reviewed": "machine",
+  "revision": 1,
+  "version": "2026-10-03",
+  "changes": "Initial German candidate translation"
+}

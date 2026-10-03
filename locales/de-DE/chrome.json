@@ -1,0 +1,242 @@
+{
+  "nav": {
+    "skip_to_content": "Überspringen zum Inhalt",
+    "type": "Typ",
+    "learn": "Lernen",
+    "drill": "Bohrloch",
+    "games": "Spiele",
+    "mistakes": "Fehler",
+    "settings": "Einstellungen",
+    "today": "Heute",
+    "about": "Über",
+    "primary": "Primär"
+  },
+  "curtain": {
+    "fetching": "Bücher und Wörterbuch holen, nur dieses eine Mal",
+    "taking_longer": "Das dauert länger als gewöhnlich...",
+    "reload": "Nachladung",
+    "books_downloading": "Die Bücher werden immer noch heruntergeladen. Du kannst jetzt anfangen und sie werden im Hintergrund enden.",
+    "start_without_waiting": "Start ohne Warten",
+    "still_loading": "Immer noch beladen. Überprüfen Sie Ihre Verbindung und laden Sie dann neu. Sobald kalibre hier geladen hat, funktioniert es offline.",
+    "older_tab": "Kalibre ist in einem anderen tab geöffnet, in einer älteren version. Schließen Sie diesen Tab und dieser wird weitergehen.",
+    "couldnt_load": "Kalibre konnte nicht laden. Überprüfen Sie Ihre Verbindung und laden Sie dann neu.",
+    "browser_too_old": "Dieser Browser ist zu alt für Kalibre. Ein neuer Chrome, Edge, Firefox oder Safari wird es ausführen."
+  },
+  "footer": {
+    "shortcuts": "Tastenkürzel",
+    "privacy": "Privatsphäre",
+    "terms": "Begriffe",
+    "security": "Sicherheit",
+    "announcements": "Ankündigungen",
+    "credit_author": "© {year} {author}.",
+    "credit_company": "© {year}Mitternacht Sommermedien.",
+    "licence": "Lizenziert mit dem{licence}.",
+    "licence_name": "Mit Lizenz"
+  },
+  "meta": {
+    "tagline": "Kalibre, ein adaptiver Typisierungstrainer",
+    "description": "Ihre Schreibweise. Ihre Fehler. Dein Fortschritt. Ein Tipptrainer, der Ihre wiederkehrenden Fehler lernt und sie direkt in Ihrem Browser bohrt.",
+    "alt_wordmark": "Die kalibre Wortmarke zwischen Cal und Libby, mit der Linie: Ihre Eingabe, Ihre Fehler, Ihr Fortschritt."
+  },
+  "pwa": {
+    "ios": "Auf iPhone und iPad fügen Sie Kalibre zu Ihrem Startbildschirm hinzu (in Safari: teilen → zum Startbildschirm hinzufügen). Es öffnet den Vollbildschirm und behält seine Daten, wo ein Safari-Tab nach 7 Tagen ohne Besuch verloren gehen kann.",
+    "generic": "Hinzufügen von Kalibre zu Ihrem Startbildschirm (Menü des Browsers → Hinzufügen zum Startbildschirm oder Installieren). Installiert, öffnet es den Vollbildbildschirm und der Browser ist bereit, seine Daten zu behalten."
+  },
+  "misc": {
+    "kalibre_about": "Kaliber, etwa",
+    "backup_due": "Einstellungen, Backup fällig",
+    "new_badge": "Neu",
+    "backup_progress": "Backup Fortschritte",
+    "todays_quests": "Die heutigen Quests",
+    "new_quests_midnight": "Neue Quests um Mitternacht",
+    "difficulty": "Schwierigkeit",
+    "getting_quests": "Die heutigen Quests..."
+  },
+  "backup": {
+    "error": "Ich konnte es nicht retten:{error}",
+    "nothing": "Es gibt noch nichts zu sichern",
+    "saved_to_folder": "Gerettet{count, plural, one {# Profildatei} other {# Profildateien}}Zum Kalibre-Ordner „{folder}”",
+    "downloaded": "Heruntergeladen{count, plural, one {# Profildatei} other {# Profildateien}}"
+  },
+  "updates": {
+    "whats_new_title": "Was ist neu",
+    "status_up_to_date": "Kalibre v{version}· Up to date",
+    "update_ready": "V{version}Ist bereit",
+    "update_ready_read_first": "V{version}Bereit ist · zuerst lesen",
+    "update_meta": "Sie können jetzt aktualisieren oder auf Ihrer aktuellen Version bleiben (v){current}).",
+    "update_meta_size": "Downloadgröße: ~{size}· Sie können jetzt aktualisieren oder auf Ihrer aktuellen Version bleiben (v){current}).",
+    "update_to": "Update auf v{version}",
+    "stay_on": "Bleiben Sie auf V{current}",
+    "updating": "Aktualisierung...",
+    "check_button": "Überprüfen Sie auf Updates",
+    "checking": "Überprüfung ...",
+    "check_checking": "Schauend...",
+    "check_current": "Sie sind auf der neuesten Version",
+    "check_offline": "Konnte den Server gerade nicht erreichen",
+    "check_unavailable": "Updates funktionieren nur in der installierten oder gehosteten App",
+    "breaking_intro": "Dieses Update ändert, wie kalibre Ihre Daten speichert:",
+    "breaking_note": "Sobald es fertig ist, können ältere Versionen von kalibre Ihre Daten nicht öffnen, also speichern Sie zuerst ein Backup: eine Profildatei für jedes Profil auf diesem Gerät.",
+    "breaking_older_at": "V{version}Aufenthalte in",
+    "save_backup": "Save ein Backup",
+    "saving": "Sparen...",
+    "badge_in_update": "In diesem Update",
+    "badge_current": "Aktuell",
+    "notes_not_yet": "Die Notizen für diese Version werden angezeigt, sobald sie installiert ist.",
+    "stays_at": "V{current}Aufenthalte in{link}Für eine Weile; Öffnen Sie dort ein Backup, um es weiter zu verwenden."
+  },
+  "brand": {
+    "kanary_preview_build_notice": "Kanary Preview Build Benachrichtigung",
+    "kanary_preview_build_click_for": "Kanary Preview Build · Klick für Benachrichtigung",
+    "what_s_new_for": "Was ist neu für{versionLabel}"
+  },
+  "command_line": {
+    "command": "Befehl",
+    "type_a_setting_or_action": "Geben Sie eine Einstellung oder Aktion ein",
+    "commands": "Befehle",
+    "command_line": "Befehlszeile",
+    "no_matches": "Keine Spiele"
+  },
+  "kanary_notice": {
+    "features_interfaces_and_database_schemas": "Funktionen, Schnittstellen und Datenbankschemata entwickeln sich aktiv weiter und können sich ohne vorherige Ankündigung verschieben, ersetzt oder unterbrochen werden.",
+    "things_may_break_or_change": "Dinge können brechen oder sich ändern.",
+    "your_typing_history_achievements_and": "Ihre Eingabehistorie, Erfolge und benutzerdefinierten Daten werden im lokalen Speicher dieses Browsers gespeichert. Exportieren Sie eine Backup-Kopie regelmäßig, so dass ein Update nie Ihren Fortschritt kostet.",
+    "periodically_back_up_your_profiles": "In regelmäßigen Abständen sichern Sie Ihre Profile:",
+    "profiles_used_on_kanary_may": "Profile, die auf kanary verwendet werden, können funktionieren oder nicht, wenn sie in release-versionen von kalibre importiert werden. Kanary kann neuere Datenbankschemata, experimentelle Einstellungen oder überarbeitete Formate einführen, die Versionen nicht lesen oder rückwärts migrieren können.",
+    "release_compatibility": "Freigabekompatibilität:",
+    "announcements_devlog": "Ankündigungen & Devlog:",
+    "stackinfolio": "Stackinfolio",
+    "settings_data": "Einstellungen → Daten",
+    "got_it": "Bekam es",
+    "intro": "Sie verwenden{product}, Eine frühe, sich schnell bewegende Vorschau mit laufenden Experimenten.",
+    "follow": "Folgen Sie Release-Meilensteinen, Entwicklungsfortschritten und Ankündigungen{site}."
+  },
+  "legal_pages": {
+    "last_updated": "Letzte Aktualisierung{format}",
+    "the_short_version": "Kurzfassung",
+    "read": "Lesen{full}",
+    "also": "Auch:{pages}"
+  },
+  "older_version": {
+    "older_version": "Ältere Version",
+    "it_keeps_its_own_data": "Es behält seine eigenen Daten, abgesehen von der aktuellen Version: Um Ihre hier zu verwenden, importieren Sie eine Profildatei, die vor dem Update gespeichert wurde (Profilmenü → Importieren einer Profildatei).",
+    "this_is_kalibre_v_kept": "Dies ist kalibre v{version}Behalten, damit du zurückgehen kannst.",
+    "go_to_the_current_version": "Gehen Sie zur aktuellen Version",
+    "hide_this_until_the_page": "Verstecken Sie dies, bis die Seite neu geladen wird",
+    "hide_until_the_page_reloads": "Verstecken, bis die Seite neu geladen wird"
+  },
+  "shortcuts": {
+    "then": "Dann{value}",
+    "sequence_hint": "Abfolgetasten drücken (wie{first}Dann{second}Innerhalb von 1,5 Sekunden. Verknüpfungen werden nur ausgelöst, wenn sie in Tests oder Textfeldern nicht aktiv eingegeben werden.",
+    "SHORTCUT_GROUPS": {
+      "navigation": {
+        "title": "Navigation"
+      },
+      "nav-type": {
+        "label": "Typansicht"
+      },
+      "nav-learn": {
+        "label": "Lernansicht"
+      },
+      "nav-drill": {
+        "label": "Bohreransicht"
+      },
+      "nav-games": {
+        "label": "Spieleansicht"
+      },
+      "nav-mistakes": {
+        "label": "Fehleransicht"
+      },
+      "nav-stats": {
+        "label": "Statistik & Geschichte"
+      },
+      "nav-profile": {
+        "label": "Profilmenü"
+      },
+      "nav-texts": {
+        "label": "Texte und Bibliothek"
+      },
+      "nav-settings": {
+        "label": "Einstellungen"
+      },
+      "nav-about": {
+        "label": "Über Kalibre"
+      },
+      "typing": {
+        "title": "Typisierung und Prüfungen"
+      },
+      "type-restart": {
+        "label": "Neustartprüfung oder -bohrung"
+      },
+      "type-pause": {
+        "label": "Kommandozeile / Pause"
+      },
+      "type-delete-word": {
+        "label": "Wort löschen"
+      },
+      "type-space": {
+        "label": "Einreichen / Nächstes Wort"
+      },
+      "general": {
+        "title": "Allgemein & Dialoge"
+      },
+      "gen-guide": {
+        "label": "Tastenkürzel Führung"
+      },
+      "gen-close": {
+        "label": "Close Modal oder Dialog"
+      },
+      "gen-command": {
+        "label": "Kommandozeilenpalette"
+      },
+      "gen-focus": {
+        "label": "Navigationssteuerung"
+      }
+    },
+    "modal": {
+      "shortcuts": {
+        "title": "Tastenkürzel"
+      }
+    }
+  },
+  "startup_failure": {
+    "putting_it_back": "Setzen Sie es zurück...",
+    "it_couldn_t_be_put": "Es konnte nicht zurückgestellt werden:{value}",
+    "if_kalibre_was_taken_back": "Wenn kalibre absichtlich in eine ältere version zurückgenommen wurde, können sie die kopie ihrer gespeicherten daten kurz vor der letzten aktualisierung zurücksetzen. alles, was sie nach diesem update getan haben, ist verloren, und es ersetzt alles, was kalibre in diesem browser hält.",
+    "copy_the_details": "Kopieren Sie die Angaben",
+    "copied": "Kopiert",
+    "select_the_details_below_to": "Wählen Sie unten die Details aus, um sie zu kopieren",
+    "kalibre_couldn_t_start": "Kalibre konnte nicht starten",
+    "what_you_ve_saved_is": "Was Sie gespeichert haben, ist immer noch in diesem Browser: Neustarten berührt es nicht.",
+    "send_details": "Wenn es weitergeht, senden Sie die Details an{address}."
+  },
+  "update_gate": {
+    "carry_on": "Weiterführen",
+    "kalibre_v_changes_how_it": "Kalibre v{appVersion}Ändert, wie es Ihre Daten speichert",
+    "nothing_has_changed_yet_once": "Es hat sich noch nichts geändert. Sobald dies der Fall ist, können ältere Versionen von kalibre Ihre Daten nicht öffnen, also speichern Sie zuerst ein Backup: eine Profildatei für jedes Profil auf diesem Gerät.",
+    "older_version": "Oder verwenden Sie die Version davor, bei{link}Vorerst: Öffnen Sie dort Ihr Backup."
+  },
+  "modals": {
+    "stats": "Stats",
+    "texts": "Texte",
+    "settings": "Einstellungen",
+    "achievements": "Erfolge",
+    "race": "Rennen",
+    "card": "Ihre Karte",
+    "kanary": "Kanarische Vorschau"
+  },
+  "app": {
+    "that_file_isn_t_in": "Diese Datei befindet sich nicht mehr im Ordner"
+  },
+  "instance": {
+    "offline_self_hosted": "Offline · selbst gehostet",
+    "offline_cache": "Offline · mit Browser-Cache",
+    "self_hosted_at": "Selbst gehostet ·{hostname}",
+    "self_hosted": "Selbstgehostet",
+    "online": "Online · Offizielle Instanz",
+    "status": {
+      "online": "Online",
+      "offline": "Offline",
+      "self-hosted": "Selbstgehostet"
+    }
+  }
+}

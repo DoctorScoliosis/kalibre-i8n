@@ -1,0 +1,310 @@
+{
+  "lock": {
+    "password_for": "Passwort für{name}",
+    "switch_user": "{name}Schalterbenutzer.",
+    "is_locked": "{name}Ist verriegelt",
+    "password": "Passwort",
+    "waiting_for_your_passkey": "Warten auf Ihren Passkey...",
+    "that_passkey_couldn_t_be": "Dieser Passkey konnte nicht überprüft werden. Verwenden Sie stattdessen das Passwort.",
+    "that_password_is_not_right": "Dieses Passwort ist nicht richtig.",
+    "switch_user_2": "Wechselbenutzer",
+    "this_one": "Diese eine",
+    "open": "Offen",
+    "new_profile": "Neues Profil",
+    "start_fresh": "Beginn frisch",
+    "back": "Hinten",
+    "keep_signed_in": "Halten Sie mich auf diesem Gerät angemeldet",
+    "unlock": "Entriegelung",
+    "unlock_passkey": "Entsperren mit einem Passkey"
+  },
+  "delete": {
+    "warning": "Löschung{name}\" Entfernt seine Einstellungen, Geschichte, Fehler, gespeicherte Texte und Ebene aus diesem Browser. \" Es kann nicht rückgängig gemacht werden.",
+    "last_step": "Letzter Schritt: \"{name}„Wird jetzt gelöscht."
+  },
+  "guest": {
+    "saved_banner": "Gerettet: das ist{name}Jetzt, mit allem, was du als Gast gemacht hast. Ein Passwort und Backups können in den Profileinstellungen eingerichtet werden."
+  },
+  "import": {
+    "imported": "Eingeführt{name}\" ",
+    "open_it": "Öffnen"
+  },
+  "restore": {
+    "in_folder": "In „{name}”: ",
+    "open_profile": "Offen{name}”"
+  },
+  "folder_restore": {
+    "pick_the_folder_kalibre_saved": "Wählen Sie den Ordner Kalibre gespeichert. Es hat eine kalibre.json-Datei (ältere Backups sind nur .kalibre-Profildateien, die auch funktionieren).",
+    "choose_the_folder": "Wählen Sie den Ordner",
+    "reading_the_folder": "Den Ordner lesen...",
+    "nothing_kalibre_saved_yet": "Kalibre hat noch nichts gespart.",
+    "restored_profiles_are_added_alongside": "Wiederhergestellte profile werden neben den hier hinzugefügt; nichts wird überschrieben.",
+    "pick_another_folder": "Wählen Sie einen anderen Ordner",
+    "tick_something_to_restore_first": "Ticken Sie etwas, um zuerst wiederherzustellen.",
+    "restoring": "Wiederherstellung ...",
+    "restoring_of": "Wiederherstellung ...{done}Von{total}",
+    "restored": "Wiederhergestellt{join}.",
+    "nothing_was_restored": "Nichts wurde wiederhergestellt.",
+    "things_saved": "{count, plural, one {#Sache} other {# Dinge}}Kaliber gespeichert.",
+    "title": "Wiederherstellen aus einem Kalibre-Ordner",
+    "that_doesn_t_look_like": "Das sieht nicht wie ein Kalibre-Ordner aus: Es gibt keinen kalibre.json und keine Profil-Backups.",
+    "the_folder_s_kalibre_json": "Der kalibre.json des Ordners ist beschädigt, so dass er nicht gelesen werden kann. Seine Dateien können immer noch einzeln importiert werden.",
+    "status": {
+      "present": "Bereits hier",
+      "missing": "Nicht im Ordner"
+    }
+  },
+  "guest_banner": {
+    "guest_profile": "Gästeprofil",
+    "your_tests_mistakes_stats_and": "Ihre Tests, Fehler, Statistiken und XP werden in diesem Browser gespeichert, aber nicht gesichert und das Profil kann nicht gesperrt werden. Speichern sie ihren fortschritt, um ihn als ihr eigenes profil zu behalten.",
+    "you_re_trying_kalibre_as": "Sie versuchen KalibreZ als Gast.",
+    "this_browser_isn_t_keeping": "Dieser browser behält nichts, so dass nichts gespeichert wird, wenn dieses fenster geschlossen wird. Um zu behalten, was sie tun, laden sie ihr profil herunter und laden sie es in ein normales fenster.",
+    "guest_session": "Gästesitzung:"
+  },
+  "profile_context_menu": {
+    "stats": "Stats",
+    "texts": "Texte",
+    "save_this_profile_as_a": "Speichern Sie dieses Profil als Datei (im Kalibre-Ordner, falls vorhanden)",
+    "save_profile": "Save Profil",
+    "load_a_profile_file_added": "Laden Sie eine Profildatei, die neben den anderen hinzugefügt wird (nichts wird überschrieben)",
+    "load_profile": "Lastprofil",
+    "profile_options": "Profiloptionen",
+    "level": "Höhe{curLevel}",
+    "xp_remaining": "{remaining}XP bleiben",
+    "xp_remaining_to_level": "{remaining}XP verbleibend auf Niveau{value}",
+    "guest": "Gast",
+    "aria_level": ", Ebene{level}, {into}Von{needed}XP zum nächsten",
+    "aria_locked": ", Gesperrt mit einem Passwort",
+    "aria_label": "Profil:{name}{level}{locked}{status}. Profiloptionen.",
+    "status_aria": "Status:{status}",
+    "saving": "Sparen..."
+  },
+  "menu": {
+    "editing": "Bearbeitung",
+    "you": "Sie",
+    "locked": "Verriegelt",
+    "edit": "Edit",
+    "open": "Offen",
+    "new_profile": "Neues Profil",
+    "creating": "Schaffen",
+    "add_one": "Hinzufügen einer"
+  },
+  "drop": {
+    "one_at_a_time": "Eine Profildatei auf einmal ablegen",
+    "not_profile_file": "Das ist keine Profildatei: Sie enden in{extension}"
+  },
+  "profile_edit_panel": {
+    "save_name": "Save name",
+    "passwords_need_a_secure_connection": "Passwörter benötigen eine sichere Verbindung (https:// oder localhost), daher sind sie hier nicht verfügbar.",
+    "this_is_a_guest_profile": "Dies ist ein Gastprofil. Speichern Sie zuerst Ihren Fortschritt (das Banner oben auf der Seite), und fügen Sie hier ein Passwort oder einen Passkey hinzu.",
+    "locked_with_a_password": "Gesperrt mit einem Passwort.",
+    "no_password_anyone_using_this": "Kein Passwort: Jeder, der diesen Browser benutzt, kann dieses Profil öffnen.",
+    "change_password": "Passwort ändern",
+    "set_a_password": "Ein Passwort festlegen",
+    "remove_password": "Passwort entfernen",
+    "the_new_passwords_don_t": "Die neuen Passwörter stimmen nicht überein.",
+    "working": "Arbeitend ...",
+    "password_removed": "Passwort entfernt",
+    "password_saved_the_profile_asks": "Passwort gespeichert; das Profil fragt danach, wenn Kalibre geöffnet wird",
+    "save_password": "Passwort speichern",
+    "passkey_name": "Passkey Name",
+    "passkey_renamed": "Passkey umbenannt",
+    "this_browser_can_t_use": "Dieser Browser kann hier keine Passkeys verwenden (sie benötigen https:// oder localhost).",
+    "set_a_password_first_then": "Legen Sie zuerst ein Passwort fest und fügen Sie dann einen Passkey hinzu, um ihn mit Touch ID, Windows Hello, einem Telefon oder einem Sicherheitsschlüssel zu entsperren.",
+    "rename": "Umbenennung",
+    "rename_passkey": "Umbenennung passkey{label}",
+    "added": "Zugesetzt{format}",
+    "for": "Für{rpId}",
+    "remove_passkey_added": "Passschlüssel entfernen{label}, Zugesetzt{format}",
+    "passkey_removed": "Passschlüssel entfernt",
+    "no_passkeys_yet_a_passkey": "Noch keine Passkeys. Ein Passkey entsperrt dieses Profil, ohne das Passwort einzugeben.",
+    "add_a_passkey": "Hinzufügen eines Passkeys",
+    "follow_your_browser_s_prompt": "Folgen Sie der Aufforderung Ihres Browsers...",
+    "passkey_added_the_lock_screen": "Passkey hinzugefügt; der Sperrbildschirm bietet es beim nächsten Mal",
+    "preparing_the_file": "Vorbereitung der Akte...",
+    "the_only_profile_can_t": "Das einzige Profil kann nicht gelöscht werden",
+    "delete_this_profile": "Löschen Sie dieses Profil",
+    "step_of": "Schritt{value}Von{length}",
+    "export_it_first": "Exportieren Sie es zuerst",
+    "type_the_profile_name_exactly": "Geben Sie den Profilnamen genau ein, um ihn zu bestätigen.",
+    "use_a_passkey": "Verwenden Sie einen Passkey",
+    "that_passkey_couldn_t_be": "Der Passkey konnte nicht überprüft werden.",
+    "that_password_is_not_right": "Dieses Passwort ist nicht richtig.",
+    "this_profile_is_locked_so": "Dieses profil ist gesperrt, also bestätigen sie, dass sie es sind.",
+    "confirm": "Bestätigung",
+    "or": "Oder",
+    "delete_for_good": "Löschen für gut (){left})",
+    "delete_for_good_2": "Löschen für gut",
+    "deleting": "Streichung...",
+    "name_and_picture": "Name und Bild",
+    "a_password_or_passkey_keeps": "Ein Passwort oder ein Passkey hält andere Personen, die diesen Browser verwenden, von den Bildschirmen von Kalibre fern. Es verschlüsselt nicht, was im Browser gespeichert ist.",
+    "rerun_setup": "Wiederholaufbau",
+    "an_export_is_a_compressed": "Ein Export ist eine komprimierte .kalibre-Profildatei mit der Historie dieses Profils. Sein passwort und passschlüssel kommen als schlösser daher, aber komprimiert ist nicht verschlüsselt, also halten sie es irgendwo privat.",
+    "removes_passkeys": "Dies entfernt auch{count, plural, one {Seinen Passkey} other {Seine # Passkeys}}.",
+    "current_password": "Aktuelles Passwort",
+    "new_password": "Neues Passwort{MIN_PASSWORD_LENGTH}+)",
+    "repeat_it": "Wiederholen",
+    "type_its_name": "Name des Unternehmens"
+  },
+  "profile_form_helpers": {
+    "shrinking": "Schrumpfen...",
+    "change_picture": "Änderungsbild",
+    "add_a_picture": "Hinzufügen eines Bildes",
+    "optional_shrunk_to_a_small": "Fakultativ Schrumpfte auf ein kleines Quadrat und blieb in diesem Browser."
+  },
+  "profile_import": {
+    "import_a_profile_file": "Importieren einer Profildatei",
+    "added_alongside_the_others_nothing": "Neben den anderen hinzugefügt; nichts ist überschrieben"
+  },
+  "profile_new_panel": {
+    "e_g_guest": "Z. B. Gast",
+    "creating": "Schaffung...",
+    "a_picture_and_password_can": "{NAME_HINT}Ein Bild und ein Passwort können in den Profileinstellungen hinzugefügt werden.",
+    "create_and_open": "Erstellen und Öffnen",
+    "or_try_as_a_guest": "Oder versuchen Sie es als Gast",
+    "a_profile_to_try_things": "Ein profil, um dinge auszuprobieren, ohne setup; speichern sie seinen fortschritt später, um es zu behalten."
+  },
+  "setup": {
+    "skip_setup": "Skip-Einrichtung",
+    "just_try_it_as_a": "Versuchen Sie es einfach als Gast",
+    "start_typing_now_with_the": "Tippen Sie jetzt mit den Standardeinstellungen ein; Speichern Sie Ihren Fortschritt später, wenn Sie ihn beibehalten möchten",
+    "set_up_kalibre": "Aufbau von Kalibre",
+    "progress": "{current}Von{total}",
+    "progress_keys": "· Enter to continue · esc to skip",
+    "keep_an_automatic_backup_in": "Führen Sie ein automatisches Backup in einem Ordner auf diesem Computer? (Der Browser kann seinen eigenen Speicher löschen)",
+    "save_a_backup_of_this": "Speichern Sie ein Backup dieses Profils zu „{name}„Jetzt?",
+    "who_ll_guide_your_touch": "Wer leitet Ihre Touch-Tipping-Lektionen?",
+    "new_here_or_been_here": "Neu hier oder schon einmal hier gewesen?",
+    "kalibre_works_better_with_a": "Kalibre funktioniert besser mit einer Tastatur",
+    "pick_a_theme": "Wählen Sie ein Thema",
+    "capital_letters_in_common_words": "Großbuchstaben in gängigen Worten? (Zitate und Ihre eigenen Texte behalten immer ihre)",
+    "default_test": "Standardprüfung",
+    "when_should_kalibre_suggest_a": "Wann sollte Kalibre einen Fehler beim Trainieren vorschlagen?",
+    "automatically_start_training_mistakes_wh": "Starten Sie automatisch Trainingsfehler, wenn sie bereit sind?",
+    "a_daily_goal": "Ein tägliches Ziel?",
+    "how_often_should_the_backup": "Wie oft sollte der Backup-Ordner aktualisiert werden? (Einstellungen → Daten)",
+    "DEFAULT_TESTS": {
+      "time-15": {
+        "label": "15 Sekunden"
+      },
+      "time-30": {
+        "label": "30 Sekunden"
+      },
+      "time-60": {
+        "label": "60 Sekunden"
+      },
+      "words-25": {
+        "label": "25 Wörter"
+      },
+      "words-50": {
+        "label": "50 Wörter"
+      }
+    },
+    "GOALS": {
+      "off": {
+        "label": "Kein Ziel"
+      },
+      "minutes-10": {
+        "label": "10 Minuten"
+      },
+      "minutes-20": {
+        "label": "20 Minuten"
+      },
+      "words-500": {
+        "label": "500 Wörter"
+      },
+      "words-1000": {
+        "label": "1000 Wörter"
+      }
+    },
+    "backupStep": {
+      "folder": {
+        "label": "Wählen Sie einen Ordner"
+      },
+      "later": {
+        "label": "Nicht jetzt"
+      },
+      "save": {
+        "label": "Ja, speichern Sie es"
+      }
+    },
+    "restoreStep": {
+      "new": {
+        "label": "Neu hier",
+        "detail": "Einrichten eines neuen Profils"
+      },
+      "restore": {
+        "label": "War vorher hier",
+        "detail": "Wiederherstellen aus meinem Kalibre-Ordner"
+      }
+    },
+    "touchStep": {
+      "ok": {
+        "label": "Bekam es",
+        "detail": "Weiter mit diesem Gerät"
+      }
+    },
+    "buildSteps": {
+      "relaxed": {
+        "label": "Nur klare Muster"
+      },
+      "normal": {
+        "label": "Nach einigen Wiederholungen"
+      },
+      "eager": {
+        "label": "Früh"
+      }
+    },
+    "pick_a_language": "Wählen Sie eine Sprache",
+    "name_prompt": "Wie sollen wir dich nennen?",
+    "name_hint": "Ein spitzname ist am besten: lassen sie ihren richtigen namen und alles persönliche aus.",
+    "starter_library_note": "Eine starter-bibliothek von public-domain-büchern kommt mit kalibre, so dass tests bereit sind, ohne dass sie heruntergeladen werden können.",
+    "companion_note": "Sie bleiben bei diesem Profil. Um den anderen zu treffen, machen sie ein anderes profil.",
+    "restore_note": "Kalibre kann Ihre Profile, Datensätze und Schriftarten aus dem Ordner zurückbringen, in dem sie gespeichert wurden.",
+    "keyboard_note": "Die on-screen-tastatur funktioniert für tests und spiele, aber eine bluetooth- oder usb-tastatur macht sie fairer, und die touch-tipp-lektionen brauchen wirklich einen. Kalibre funktioniert am besten auf einem Computer.",
+    "keyboard_tip": "Tipp: fügen sie kalibre zu ihrem heimbildschirm hinzu (share → add to home screen), damit safari ihre daten behält; in einem tab kommen sie mindestens einmal pro woche zurück.",
+    "auto_accept_yes": "Ja, fügen Sie sie automatisch hinzu",
+    "language_detail": {
+      "en-US": "Angepasste Schreibweise",
+      "fr-FR": "Französisch (Frankreich)",
+      "zh-CN": "Chinesisch vereinfacht"
+    }
+  },
+  "passkey_utils": {
+    "this_browser_can_t_use": "Dieser Browser kann hier keine Passkeys verwenden (sie benötigen https:// oder localhost).",
+    "that_passkey_uses_a_kind": "Dieser Passkey verwendet eine Art Schlüssel Kalibre kann nicht überprüft werden. Versuchen Sie ein anderes Gerät oder einen anderen Browser.",
+    "no_passkey_for_this_profile": "Kein passkey für dieses profil funktioniert unter dieser adresse.",
+    "not_a_der_signature": "Keine DER Unterschrift",
+    "not_a_der_integer": "Keine DER Ganzzahl",
+    "integer_too_long": "Ganzzahl zu lang",
+    "the_passkey_request_was_cancelled": "Die Passkey-Anfrage wurde abgebrochen oder zeitlich begrenzt.",
+    "that_device_already_has_a": "Dieses Gerät hat bereits einen Passkey für dieses Profil.",
+    "passkeys_aren_t_allowed_at": "Passkeys sind an dieser Adresse nicht erlaubt.",
+    "the_passkey_didn_t_work": "Der Passkey funktionierte nicht."
+  },
+  "avatar_utils": {
+    "choose_an_image_file": "Wählen Sie eine Bilddatei.",
+    "that_image_is_too_large": "Dieses Bild ist zu groß (20 MB höchstens).",
+    "that_image_couldn_t_be": "Dieses Bild konnte nicht gelesen werden.",
+    "that_image_couldn_t_be_2": "Dieses Bild konnte nicht klein genug gemacht werden."
+  },
+  "kalibre_folder": {
+    "that_folder_was_made_by": "Dieser Ordner wurde von einem neueren Kalibre erstellt. Aktualisieren Sie diese (neu laden, um zu aktualisieren), dann versuchen Sie es erneut."
+  },
+  "password_utils": {
+    "passwords_need_a_secure_connection": "Passwörter benötigen eine sichere Verbindung (https:// oder localhost).",
+    "use_at_least_characters": "Verwenden Sie mindestens{MIN_PASSWORD_LENGTH}Zeichen.",
+    "this_profile_is_locked_and": "Dieses Profil ist gesperrt und Passwörter benötigen eine sichere Verbindung (https:// oder localhost)."
+  },
+  "profile_export_v2": {
+    "that_profile_isn_t_there": "Dieses Profil ist nicht mehr da."
+  },
+  "profile_file": {
+    "this_browser_can_t_open": "Dieser Browser kann keine komprimierten Profildateien öffnen. Probieren Sie einen aktuellen Chrome, Edge, Firefox oder Safari aus.",
+    "the_profile_file_is_damaged": "Die Profildatei ist beschädigt (sie konnte nicht dekomprimiert werden)."
+  },
+  "profile_name": {
+    "email": "Das sieht aus wie eine E-Mail-Adresse. Verwenden Sie stattdessen einen Spitznamen.",
+    "phone": "Sieht aus wie eine Telefonnummer. Verwenden Sie stattdessen einen Spitznamen.",
+    "blocked": "Dieser Name hat ein Wort Kalibre hält aus. Versuchen Sie es mit einem anderen."
+  }
+}
