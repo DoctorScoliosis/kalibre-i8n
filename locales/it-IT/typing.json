@@ -30,7 +30,7 @@
     "tab_to_restart": "tab per riavviare"
   },
   "focus": {
-    "label": "focus: {mode}",
+    "label": "messa a fuoco: {mode}",
     "aria_label": "vista del focus: {mode}. Premi per cambiare.",
     "off": "disattivato",
     "line": "riga",
@@ -53,34 +53,75 @@
     "change": "cambia",
     "choose_what_and_how_to": "scegli cosa e come allenarti",
     "TABS": {
-      "time": { "label": "tempo" },
-      "words": { "label": "parole" },
-      "quote": { "label": "citazione" },
-      "mixed": { "label": "misto" },
-      "sustained": { "label": "sostenuto", "title": "Mantieni un ritmo o una precisione il più a lungo possibile" },
-      "custom": { "label": "personalizzato" }
+      "time": {
+        "label": "tempo"
+      },
+      "words": {
+        "label": "parole"
+      },
+      "quote": {
+        "label": "citazione"
+      },
+      "mixed": {
+        "label": "misto"
+      },
+      "sustained": {
+        "label": "sostenuto",
+        "title": "Mantieni un ritmo o una precisione il più a lungo possibile"
+      },
+      "custom": {
+        "label": "personalizzato"
+      }
     },
     "SUSTAINED_SOURCES": {
-      "wordstream": { "label": "parole comuni" },
-      "quotes": { "label": "citazioni" },
-      "work": { "label": "libri" },
-      "text": { "label": "i miei testi" }
+      "wordstream": {
+        "label": "parole comuni"
+      },
+      "quotes": {
+        "label": "citazioni"
+      },
+      "work": {
+        "label": "libri"
+      },
+      "text": {
+        "label": "i miei testi"
+      }
     },
     "BOOK_ORDER_OPTIONS": {
-      "sequential": { "label": "in ordine", "title": "Continua da dove ti sei fermato, poi passa al libro successivo" },
-      "passages": { "label": "brani", "title": "Brani casuali dal libro" },
-      "chunks": { "label": "segmenti", "title": "Segmenti casuali del libro" }
+      "sequential": {
+        "label": "in ordine",
+        "title": "Continua da dove ti sei fermato, poi passa al libro successivo"
+      },
+      "passages": {
+        "label": "brani",
+        "title": "Brani casuali dal libro"
+      },
+      "chunks": {
+        "label": "segmenti",
+        "title": "Segmenti casuali del libro"
+      }
     },
     "source": {
-      "wordstream": { "label": "parole comuni" },
-      "quotes": { "label": "citazioni" }
+      "wordstream": {
+        "label": "parole comuni"
+      },
+      "quotes": {
+        "label": "citazioni"
+      }
     },
     "nodes": {
-      "pace": { "label": "ritmo", "title": "Mantieni la velocità recente pari o superiore a un obiettivo (3 secondi per recuperare)" },
-      "accuracy": { "label": "precisione" }
+      "pace": {
+        "label": "ritmo",
+        "title": "Mantieni la velocità recente pari o superiore a un obiettivo (3 secondi per recuperare)"
+      },
+      "accuracy": {
+        "label": "precisione"
+      }
     },
     "lengthOptions": {
-      "entire": { "label": "testo intero" }
+      "entire": {
+        "label": "testo intero"
+      }
     },
     "custom_title": "personalizzato",
     "accuracy_title": "Mantieni la precisione recente pari o superiore a un obiettivo, digitando almeno {floor} ppm (5 secondi per recuperare)",
