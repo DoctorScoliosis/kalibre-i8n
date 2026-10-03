@@ -15,7 +15,7 @@
     "improving": "Het foutenpercentage is gehalveerd sinds de training begon.",
     "mastered": "Teruggebracht tot een kwart van het begin. Ze keren terug naar training als ze weer voorkomen.",
     "dismissed": "Worden niet opnieuw voorgesteld tenzij je ze herstelt.",
-    "watching": "Gezien, maar nog niet vaak genoeg om voor te stellen. Met "nu trainen" start je toch training voor één ervan.",
+    "watching": "Gezien, maar nog niet vaak genoeg om voor te stellen. Met \"nu trainen\" start je toch training voor één ervan.",
     "overview": "Waar je vingers de fout in gaan, weergegeven op het toetsenbord, met de woorden en spaties ernaast. Elke regel toont het foutenpercentage over recente tests.",
     "all": "Elke fout die Kalibre heeft genoteerd, ongeacht de status."
   },
