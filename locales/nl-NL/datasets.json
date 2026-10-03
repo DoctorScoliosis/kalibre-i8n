@@ -104,7 +104,7 @@
     "that_file_isn_t_a": "Dat bestand is geen Kalibre-datasetpakket of citatenlijst.",
     "each_file_must_be_under": "Elk bestand moet kleiner zijn dan 20 MB.",
     "added": "{what} toegevoegd",
-    "quoted_title": "\"{title}\",
+    "quoted_title": "\"{title}\"",
     "added_some": "{texts} toegevoegd; niet aangevinkt, zonder typbaar proza: {skipped}"
   },
   "library": {
