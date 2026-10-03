@@ -91,188 +91,552 @@
     "progress_suffix": " ({have} di {need})",
     "secret_hint": "un segreto: continua a giocare"
   },
-  "first-test": { "name": "primi passi" },
-  "tests-10": { "name": "riscaldamento" },
-  "tests-100": { "name": "cento di fila" },
-  "tests-500": { "name": "cinquecento" },
-  "tests-1000": { "name": "mille" },
-  "wpm-40": { "name": "mani ferme" },
-  "wpm-50": { "name": "trovare il ritmo" },
-  "wpm-60": { "name": "dita veloci" },
-  "wpm-70": { "name": "spedito" },
-  "wpm-80": { "name": "rapido" },
-  "wpm-100": { "name": "tre cifre" },
-  "wpm-120": { "name": "un lampo" },
-  "wpm-150": { "name": "fulmine" },
-  "perfect-30": { "name": "trenta secondi perfetti" },
-  "perfect-minute": { "name": "un minuto impeccabile" },
-  "perfect-2min": { "name": "due minuti impeccabili" },
-  "hours-1": { "name": "la prima ora" },
-  "hours-10": { "name": "dieci ore" },
-  "hours-50": { "name": "cinquanta ore" },
-  "hours-100": { "name": "cento ore" },
-  "words-10k": { "name": "diecimila parole" },
-  "words-100k": { "name": "centomila parole" },
-  "words-1m": { "name": "un milione di parole" },
-  "days-10": { "name": "dieci giorni" },
-  "days-50": { "name": "cinquanta giorni" },
-  "days-100": { "name": "cento giorni" },
-  "days-365": { "name": "un anno di giorni" },
-  "sustained-1": { "name": "tenere il ritmo" },
-  "sustained-3": { "name": "resistere" },
-  "sustained-10": { "name": "resistenza" },
-  "sustained-20": { "name": "lunga distanza" },
-  "sustained-30": { "name": "resistenza" },
-  "sustained-total-60": { "name": "un'ora, sostenuta" },
-  "sustained-total-300": { "name": "cinque ore, sostenute" },
-  "book-finished": { "name": "fino all'ultima pagina" },
-  "books-5": { "name": "non posarlo mai" },
-  "mastered-1": { "name": "sistemato" },
-  "mastered-5": { "name": "riparato" },
-  "mastered-25": { "name": "aggiustato" },
-  "mastered-100": { "name": "come nuovo" },
-  "mastered-250": { "name": "nulla da sistemare" },
-  "drills-1": { "name": "primo allenamento" },
-  "drills-10": { "name": "allenato" },
-  "drills-100": { "name": "la pratica aiuta" },
-  "first-lesson": { "name": "prima lezione" },
-  "lessons-10": { "name": "dieci lezioni" },
-  "stage-1": { "name": "riga home" },
-  "stage-2": { "name": "riga superiore" },
-  "stage-3": { "name": "tre righe" },
-  "stage-4": { "name": "maiuscole" },
-  "stage-5": { "name": "con i numeri" },
-  "stage-6": { "name": "fluente" },
-  "all-lessons": { "name": "dattilografo a tocco" },
-  "stage-1-started": { "name": "inizio della riga home" },
-  "stage-2-started": { "name": "inizio della riga superiore" },
-  "stage-3-started": { "name": "inizio della riga inferiore" },
-  "stage-4-started": { "name": "inizio delle maiuscole" },
-  "stage-5-started": { "name": "inizio dei numeri" },
-  "stage-6-started": { "name": "inizio della fluidità" },
-  "last-lesson": { "name": "fino all'ultima lezione" },
-  "first-step": { "name": "entrare nel ritmo" },
-  "stepped-lesson": { "name": "passo dopo passo" },
-  "stepped-10": { "name": "ben avviato" },
-  "first-warmup": { "name": "ben riscaldato" },
-  "warmup-mastery": { "name": "tutto d'un fiato" },
-  "step-again": { "name": "ci stai arrivando" },
-  "every-game": { "name": "provati tutti" },
-  "every-game-10": { "name": "un habitué" },
-  "every-game-50": { "name": "un appassionato" },
-  "games-100": { "name": "serata di giochi" },
-  "space-2000": { "name": "pilota asso" },
-  "space-5000": { "name": "top gun" },
-  "castle-normal": { "name": "difendi le mura" },
-  "castle-hard": { "name": "custode del castello" },
-  "spot-20": { "name": "occhio d'aquila" },
-  "spot-50": { "name": "vista da falco" },
-  "feed-30": { "name": "ben nutrito" },
-  "feed-10min": { "name": "un lungo pranzo" },
-  "hard-win": { "name": "la via difficile" },
-  "castle-easy": { "name": "prima breccia" },
-  "space-win": { "name": "scafo intatto" },
-  "space-hard-win": { "name": "scafo d'acciaio" },
-  "spot-total-100": { "name": "correzioni, in tutto" },
-  "spot-chief": { "name": "caporedattore" },
-  "buffet-host": { "name": "maestro del buffet" },
-  "full-house": { "name": "tutto pieno" },
-  "no-hints": { "name": "nessun suggerimento" },
-  "station-down": { "name": "stazione abbattuta" },
-  "shrapnel-storm": { "name": "tempesta di schegge" },
-  "stacked": { "name": "accumulatore" },
-  "autopilot-ace": { "name": "asso del pilota automatico" },
-  "dazed": { "name": "frastornato e confuso" },
-  "spoils-of-war": { "name": "bottino di guerra" },
-  "clean-sweep": { "name": "nessuna sbavatura" },
-  "beam-overload": { "name": "raggio sovraccarico" },
-  "flagship-down": { "name": "ammiraglia abbattuta" },
-  "keg-defused": { "name": "barilotto disinnescato" },
-  "ladder-toppled": { "name": "scala rovesciata" },
-  "sortie-master": { "name": "maestro delle sortite" },
-  "marathon-master": { "name": "maestro della maratona" },
-  "scroller-streak": { "name": "serie sul nastro" },
-  "race-first": { "name": "ai posti" },
-  "race-solo-win": { "name": "primo al traguardo" },
-  "race-hard-win": { "name": "li hai seminati entrambi" },
-  "race-network-win": { "name": "il più veloce nella stanza" },
-  "race-last-standing": { "name": "ultimo rimasto" },
-  "race-every-mode": { "name": "una vittoria in ogni corsia" },
-  "streak-3": { "name": "tre di fila" },
-  "streak-7": { "name": "una settimana così" },
-  "streak-14": { "name": "due settimane così" },
-  "streak-30": { "name": "un mese così" },
-  "streak-100": { "name": "cento giorni così" },
-  "streak-365": { "name": "un anno così" },
-  "level-5": { "name": "livello 5" },
-  "level-10": { "name": "livello 10" },
-  "level-15": { "name": "livello 15" },
-  "level-20": { "name": "livello 20" },
-  "level-30": { "name": "livello 30" },
-  "level-40": { "name": "livello 40" },
-  "level-50": { "name": "livello 50" },
-  "quests-10": { "name": "in missione" },
-  "quests-25": { "name": "mentalità da missione" },
-  "quests-100": { "name": "in missione continua" },
-  "quests-500": { "name": "una vita di missioni" },
-  "challenges-10": { "name": "ci sto" },
-  "challenges-50": { "name": "sfidante" },
-  "challenges-100": { "name": "non si tira indietro" },
-  "full-days-7": { "name": "set completo" },
-  "full-days-30": { "name": "trenta giorni interi" },
-  "first-text": { "name": "parole tue" },
-  "texts-3": { "name": "alcuni dei tuoi" },
-  "texts-10": { "name": "una piccola libreria" },
-  "texts-25": { "name": "uno scaffale" },
-  "page-text": { "name": "una tua pagina" },
-  "long-text": { "name": "una lunga lettura" },
-  "epic-text": { "name": "un'epopea" },
-  "pets-1": { "name": "ciao!" },
-  "pets-25": { "name": "bravo tastone" },
-  "pets-100": { "name": "migliori amici" },
-  "pets-500": { "name": "inseparabili" },
-  "pokes-1": { "name": "boop" },
-  "pokes-100": { "name": "toc toc toc" },
-  "tickles-1": { "name": "sensibile al solletico" },
-  "tickles-25": { "name": "attacco di risate" },
-  "tickles-250": { "name": "nessuna pietà" },
-  "wardrobe-10": { "name": "vestirsi bene" },
-  "wardrobe-25": { "name": "un armadio pieno" },
-  "all-slots": { "name": "vestito di tutto punto" },
-  "decorations-1": { "name": "un tocco in più" },
-  "decorations-5": { "name": "decoratore" },
-  "decorations-10": { "name": "interior designer" },
-  "decorations-all": { "name": "tutte le rifiniture" },
-  "decoration-kinds": { "name": "una per tipo" },
-  "decorated": { "name": "l'ho fatto mio" },
-  "fully-decorated": { "name": "tutte le rifiniture" },
-  "pad-first": { "name": "primo nastro" },
-  "pad-tests-25": { "name": "custode del registro" },
-  "pad-speed-5000": { "name": "mani ferme" },
-  "pad-speed-8000": { "name": "veloce sul tastierino" },
-  "pad-speed-10000": { "name": "diecimila all'ora" },
-  "pad-perfect": { "name": "conti in ordine" },
-  "pad-lesson-1": { "name": "tasti home" },
-  "pad-lessons-all": { "name": "tutto il tastierino" },
-  "pad-sums-100": { "name": "bravo con i numeri" },
-  "pad-sums-perfect": { "name": "nessuna calcolatrice" },
-  "pad-sums-level-5": { "name": "abilitato" },
-  "pad-till-25": { "name": "clienti abituali" },
-  "pad-till-60": { "name": "la coda non finisce mai" },
-  "pad-keys-10000": { "name": "diecimila tasti" },
-  "night-owl": { "name": "nottambulo" },
-  "moonlighter": { "name": "lavoratore notturno" },
-  "early-bird": { "name": "mattiniero" },
-  "flawless": { "name": "impeccabile" },
-  "marathon": { "name": "maratona" },
-  "first-try": { "name": "al primo tentativo" },
-  "pets-1000": { "name": "devoto" },
-  "poke-fit": { "name": "basta così" },
-  "restarts-3": { "name": "déjà vu" },
-  "restarts-7": { "name": "giorno della marmotta" },
-  "restarts-15": { "name": "spento e riacceso" },
-  "arm-lift": { "name": "una mano d'aiuto" },
-  "word-bomb": { "name": "si va al nucleare" },
+  "first-test": {
+    "name": "primi passi"
+  },
+  "tests-10": {
+    "name": "riscaldamento"
+  },
+  "tests-100": {
+    "name": "cento di fila"
+  },
+  "tests-500": {
+    "name": "cinquecento"
+  },
+  "tests-1000": {
+    "name": "mille"
+  },
+  "wpm-40": {
+    "name": "mani ferme"
+  },
+  "wpm-50": {
+    "name": "trovare il ritmo"
+  },
+  "wpm-60": {
+    "name": "dita veloci"
+  },
+  "wpm-70": {
+    "name": "spedito"
+  },
+  "wpm-80": {
+    "name": "rapido"
+  },
+  "wpm-100": {
+    "name": "tre cifre"
+  },
+  "wpm-120": {
+    "name": "un lampo"
+  },
+  "wpm-150": {
+    "name": "fulmine"
+  },
+  "perfect-30": {
+    "name": "trenta secondi perfetti"
+  },
+  "perfect-minute": {
+    "name": "un minuto impeccabile"
+  },
+  "perfect-2min": {
+    "name": "due minuti impeccabili"
+  },
+  "hours-1": {
+    "name": "la prima ora"
+  },
+  "hours-10": {
+    "name": "dieci ore"
+  },
+  "hours-50": {
+    "name": "cinquanta ore"
+  },
+  "hours-100": {
+    "name": "cento ore"
+  },
+  "words-10k": {
+    "name": "diecimila parole"
+  },
+  "words-100k": {
+    "name": "centomila parole"
+  },
+  "words-1m": {
+    "name": "un milione di parole"
+  },
+  "days-10": {
+    "name": "dieci giorni"
+  },
+  "days-50": {
+    "name": "cinquanta giorni"
+  },
+  "days-100": {
+    "name": "cento giorni"
+  },
+  "days-365": {
+    "name": "un anno di giorni"
+  },
+  "sustained-1": {
+    "name": "tenere il ritmo"
+  },
+  "sustained-3": {
+    "name": "resistere"
+  },
+  "sustained-10": {
+    "name": "resistenza"
+  },
+  "sustained-20": {
+    "name": "lunga distanza"
+  },
+  "sustained-30": {
+    "name": "resistenza"
+  },
+  "sustained-total-60": {
+    "name": "un'ora, sostenuta"
+  },
+  "sustained-total-300": {
+    "name": "cinque ore, sostenute"
+  },
+  "book-finished": {
+    "name": "fino all'ultima pagina"
+  },
+  "books-5": {
+    "name": "non posarlo mai"
+  },
+  "mastered-1": {
+    "name": "sistemato"
+  },
+  "mastered-5": {
+    "name": "riparato"
+  },
+  "mastered-25": {
+    "name": "aggiustato"
+  },
+  "mastered-100": {
+    "name": "come nuovo"
+  },
+  "mastered-250": {
+    "name": "nulla da sistemare"
+  },
+  "drills-1": {
+    "name": "primo allenamento"
+  },
+  "drills-10": {
+    "name": "allenato"
+  },
+  "drills-100": {
+    "name": "la pratica aiuta"
+  },
+  "first-lesson": {
+    "name": "prima lezione"
+  },
+  "lessons-10": {
+    "name": "dieci lezioni"
+  },
+  "stage-1": {
+    "name": "riga home"
+  },
+  "stage-2": {
+    "name": "riga superiore"
+  },
+  "stage-3": {
+    "name": "tre righe"
+  },
+  "stage-4": {
+    "name": "maiuscole"
+  },
+  "stage-5": {
+    "name": "con i numeri"
+  },
+  "stage-6": {
+    "name": "fluente"
+  },
+  "all-lessons": {
+    "name": "dattilografo a tocco"
+  },
+  "stage-1-started": {
+    "name": "inizio della riga home"
+  },
+  "stage-2-started": {
+    "name": "inizio della riga superiore"
+  },
+  "stage-3-started": {
+    "name": "inizio della riga inferiore"
+  },
+  "stage-4-started": {
+    "name": "inizio delle maiuscole"
+  },
+  "stage-5-started": {
+    "name": "inizio dei numeri"
+  },
+  "stage-6-started": {
+    "name": "inizio della fluidità"
+  },
+  "last-lesson": {
+    "name": "fino all'ultima lezione"
+  },
+  "first-step": {
+    "name": "entrare nel ritmo"
+  },
+  "stepped-lesson": {
+    "name": "passo dopo passo"
+  },
+  "stepped-10": {
+    "name": "ben avviato"
+  },
+  "first-warmup": {
+    "name": "ben riscaldato"
+  },
+  "warmup-mastery": {
+    "name": "tutto d'un fiato"
+  },
+  "step-again": {
+    "name": "ci stai arrivando"
+  },
+  "every-game": {
+    "name": "provati tutti"
+  },
+  "every-game-10": {
+    "name": "un habitué"
+  },
+  "every-game-50": {
+    "name": "un appassionato"
+  },
+  "games-100": {
+    "name": "serata di giochi"
+  },
+  "space-2000": {
+    "name": "pilota asso"
+  },
+  "space-5000": {
+    "name": "top gun"
+  },
+  "castle-normal": {
+    "name": "difendi le mura"
+  },
+  "castle-hard": {
+    "name": "custode del castello"
+  },
+  "spot-20": {
+    "name": "occhio d'aquila"
+  },
+  "spot-50": {
+    "name": "vista da falco"
+  },
+  "feed-30": {
+    "name": "ben nutrito"
+  },
+  "feed-10min": {
+    "name": "un lungo pranzo"
+  },
+  "hard-win": {
+    "name": "la via difficile"
+  },
+  "castle-easy": {
+    "name": "prima breccia"
+  },
+  "space-win": {
+    "name": "scafo intatto"
+  },
+  "space-hard-win": {
+    "name": "scafo d'acciaio"
+  },
+  "spot-total-100": {
+    "name": "correzioni, in tutto"
+  },
+  "spot-chief": {
+    "name": "caporedattore"
+  },
+  "buffet-host": {
+    "name": "maestro del buffet"
+  },
+  "full-house": {
+    "name": "tutto pieno"
+  },
+  "no-hints": {
+    "name": "nessun suggerimento"
+  },
+  "station-down": {
+    "name": "stazione abbattuta"
+  },
+  "shrapnel-storm": {
+    "name": "tempesta di schegge"
+  },
+  "stacked": {
+    "name": "accumulatore"
+  },
+  "autopilot-ace": {
+    "name": "asso del pilota automatico"
+  },
+  "dazed": {
+    "name": "frastornato e confuso"
+  },
+  "spoils-of-war": {
+    "name": "bottino di guerra"
+  },
+  "clean-sweep": {
+    "name": "nessuna sbavatura"
+  },
+  "beam-overload": {
+    "name": "raggio sovraccarico"
+  },
+  "flagship-down": {
+    "name": "ammiraglia abbattuta"
+  },
+  "keg-defused": {
+    "name": "barilotto disinnescato"
+  },
+  "ladder-toppled": {
+    "name": "scala rovesciata"
+  },
+  "sortie-master": {
+    "name": "maestro delle sortite"
+  },
+  "marathon-master": {
+    "name": "maestro della maratona"
+  },
+  "scroller-streak": {
+    "name": "serie sul nastro"
+  },
+  "race-first": {
+    "name": "ai posti"
+  },
+  "race-solo-win": {
+    "name": "primo al traguardo"
+  },
+  "race-hard-win": {
+    "name": "li hai seminati entrambi"
+  },
+  "race-network-win": {
+    "name": "il più veloce nella stanza"
+  },
+  "race-last-standing": {
+    "name": "ultimo rimasto"
+  },
+  "race-every-mode": {
+    "name": "una vittoria in ogni corsia"
+  },
+  "streak-3": {
+    "name": "tre di fila"
+  },
+  "streak-7": {
+    "name": "una settimana così"
+  },
+  "streak-14": {
+    "name": "due settimane così"
+  },
+  "streak-30": {
+    "name": "un mese così"
+  },
+  "streak-100": {
+    "name": "cento giorni così"
+  },
+  "streak-365": {
+    "name": "un anno così"
+  },
+  "level-5": {
+    "name": "livello 5"
+  },
+  "level-10": {
+    "name": "livello 10"
+  },
+  "level-15": {
+    "name": "livello 15"
+  },
+  "level-20": {
+    "name": "livello 20"
+  },
+  "level-30": {
+    "name": "livello 30"
+  },
+  "level-40": {
+    "name": "livello 40"
+  },
+  "level-50": {
+    "name": "livello 50"
+  },
+  "quests-10": {
+    "name": "in missione"
+  },
+  "quests-25": {
+    "name": "mentalità da missione"
+  },
+  "quests-100": {
+    "name": "in missione continua"
+  },
+  "quests-500": {
+    "name": "una vita di missioni"
+  },
+  "challenges-10": {
+    "name": "ci sto"
+  },
+  "challenges-50": {
+    "name": "sfidante"
+  },
+  "challenges-100": {
+    "name": "non si tira indietro"
+  },
+  "full-days-7": {
+    "name": "set completo"
+  },
+  "full-days-30": {
+    "name": "trenta giorni interi"
+  },
+  "first-text": {
+    "name": "parole tue"
+  },
+  "texts-3": {
+    "name": "alcuni dei tuoi"
+  },
+  "texts-10": {
+    "name": "una piccola libreria"
+  },
+  "texts-25": {
+    "name": "uno scaffale"
+  },
+  "page-text": {
+    "name": "una tua pagina"
+  },
+  "long-text": {
+    "name": "una lunga lettura"
+  },
+  "epic-text": {
+    "name": "un'epopea"
+  },
+  "pets-1": {
+    "name": "ciao!"
+  },
+  "pets-25": {
+    "name": "bravo tastone"
+  },
+  "pets-100": {
+    "name": "migliori amici"
+  },
+  "pets-500": {
+    "name": "inseparabili"
+  },
+  "pokes-1": {
+    "name": "boop"
+  },
+  "pokes-100": {
+    "name": "toc toc toc"
+  },
+  "tickles-1": {
+    "name": "sensibile al solletico"
+  },
+  "tickles-25": {
+    "name": "attacco di risate"
+  },
+  "tickles-250": {
+    "name": "nessuna pietà"
+  },
+  "wardrobe-10": {
+    "name": "vestirsi bene"
+  },
+  "wardrobe-25": {
+    "name": "un armadio pieno"
+  },
+  "all-slots": {
+    "name": "vestito di tutto punto"
+  },
+  "decorations-1": {
+    "name": "un tocco in più"
+  },
+  "decorations-5": {
+    "name": "decoratore"
+  },
+  "decorations-10": {
+    "name": "arredatore d'interni"
+  },
+  "decorations-all": {
+    "name": "tutte le rifiniture"
+  },
+  "decoration-kinds": {
+    "name": "una per tipo"
+  },
+  "decorated": {
+    "name": "l'ho fatto mio"
+  },
+  "fully-decorated": {
+    "name": "tutte le rifiniture"
+  },
+  "pad-first": {
+    "name": "primo nastro"
+  },
+  "pad-tests-25": {
+    "name": "custode del registro"
+  },
+  "pad-speed-5000": {
+    "name": "mani ferme"
+  },
+  "pad-speed-8000": {
+    "name": "veloce sul tastierino"
+  },
+  "pad-speed-10000": {
+    "name": "diecimila all'ora"
+  },
+  "pad-perfect": {
+    "name": "conti in ordine"
+  },
+  "pad-lesson-1": {
+    "name": "tasti home"
+  },
+  "pad-lessons-all": {
+    "name": "tutto il tastierino"
+  },
+  "pad-sums-100": {
+    "name": "bravo con i numeri"
+  },
+  "pad-sums-perfect": {
+    "name": "nessuna calcolatrice"
+  },
+  "pad-sums-level-5": {
+    "name": "abilitato"
+  },
+  "pad-till-25": {
+    "name": "clienti abituali"
+  },
+  "pad-till-60": {
+    "name": "la coda non finisce mai"
+  },
+  "pad-keys-10000": {
+    "name": "diecimila tasti"
+  },
+  "night-owl": {
+    "name": "nottambulo"
+  },
+  "moonlighter": {
+    "name": "lavoratore notturno"
+  },
+  "early-bird": {
+    "name": "mattiniero"
+  },
+  "flawless": {
+    "name": "impeccabile"
+  },
+  "marathon": {
+    "name": "maratona"
+  },
+  "first-try": {
+    "name": "al primo tentativo"
+  },
+  "pets-1000": {
+    "name": "devoto"
+  },
+  "poke-fit": {
+    "name": "basta così"
+  },
+  "restarts-3": {
+    "name": "déjà vu"
+  },
+  "restarts-7": {
+    "name": "giorno della marmotta"
+  },
+  "restarts-15": {
+    "name": "spento e riacceso"
+  },
+  "arm-lift": {
+    "name": "una mano d'aiuto"
+  },
+  "word-bomb": {
+    "name": "si va al nucleare"
+  },
   "achievement_badges": {
     "secret": "segreto",
     "kind": "{kind}",
