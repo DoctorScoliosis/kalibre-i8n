@@ -79,7 +79,7 @@
     "poked": "da un toque a tu compañero {count, plural, one {# vez} many {# veces} other {# veces}}",
     "tickled": "haz cosquillas a tu compañero {count, plural, one {# vez} many {# veces} other {# veces}}",
     "pokedTooMuch": "da ocho toques seguidos a tu compañero rápidamente",
-    "armLifted": "levanta el brazo colgante de la página acerca de",
+    "armLifted": "levanta el brazo colgante de la página «Acerca de»",
     "quickRestarts": "reinicia Kalibre {count, plural, one {# vez} many {# veces} other {# veces}} rápidamente, dando toques o haciendo cosquillas a tu compañero entre medias",
     "racesDone": "termina {count, plural, one {# carrera} many {# carreras} other {# carreras}}",
     "raceWins": "gana una {difficulty, select, easy {carrera fácil } normal {carrera normal } hard {carrera difícil } other {carrera }}{mode, select, sprint {sprint} endurance {de resistencia} grand_prix {gran premio} other {}} {solo, select, true {en solitario} false {en tu red} other {}}",

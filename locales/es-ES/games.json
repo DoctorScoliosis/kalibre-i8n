@@ -1,6 +1,6 @@
 {
   "feed": {
-    "title": "feed",
+    "title": "alimenta",
     "blurb": "Alimenta a una criatura hambrienta con las palabras que pide antes de que se le acabe la paciencia, o monta un bufé para una multitud.",
     "modes": {
       "prompted": "comensal exigente",
