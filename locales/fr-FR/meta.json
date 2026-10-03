@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "community",
-  "revision": 5,
+  "revision": 6,
   "version": "2026-10-03",
-  "changes": "100% complete fr-FR coverage: profile menu, backup/storage, results, learn and stats headings"
+  "changes": "Filled current Feed, Castle, Space and Spot gaps against kalibre-kanary"
 }
