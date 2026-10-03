@@ -1,6 +1,5 @@
 {
   "meta": {
-    "kalibreLocale": 1,
     "id": "it-IT",
     "name": "Italiano",
     "englishName": "Italian",
@@ -601,7 +600,7 @@
         "name": "decoratore"
       },
       "decorations-10": {
-        "name": "interior designer"
+        "name": "arredatore d'interni"
       },
       "decorations-all": {
         "name": "tutte le rifiniture"
