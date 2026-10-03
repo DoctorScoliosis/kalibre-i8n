@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "texts": "Meine Texte",
+    "texts_blurb": "Dein eigenes Schreiben, geübt genauso wie geschrieben.",
+    "quotes": "Meine Zitate",
+    "quotes_blurb": "Zitate, die Sie hinzufügen, verbinden Zitat und gemischte Tests (60 Zeichen oder mehr).",
+    "datasets": "Datensätze",
+    "datasets_blurb": "Bücher und Sammlungen, die Zitate, Wortlisten und Drills liefern."
+  },
+  "labels": {
+    "title": "Titel",
+    "text_aria": "Text",
+    "paste_placeholder": "Paste Text hier",
+    "my_texts": "Meine Texte",
+    "datasets": "Datensätze",
+    "sections_aria": "Textabschnitte",
+    "subfolders_too": "Auch Unterordner",
+    "drop_hint": "Oder Drop Dateien hier",
+    "words_count": "{count, plural, one {# Wort} other {# Worte}}",
+    "paragraphs_count": "{count, plural, one {# Absatz} other {# Absätze}}"
+  },
+  "actions": {
+    "save": "Sparen",
+    "save_changes": "Änderungen speichern",
+    "cancel": "Abbruch",
+    "practise": "Praxis",
+    "edit": "Edit",
+    "delete": "Löschung",
+    "delete_confirm": "Zu streichen?",
+    "yes_delete": "Ja, streichen",
+    "keep": "Halten",
+    "practise_aria": "Praxis{title}",
+    "edit_aria": "Edit{title}",
+    "delete_aria": "Löschung{title}",
+    "new_text": "Neuer Text",
+    "import_files": "Import .txt oder .md",
+    "import_folder": "Einen Ordner importieren"
+  },
+  "status": {
+    "saved": "Gespeichert{title}\"",
+    "updated": "Aktualisiert.{title}\"",
+    "imported": "Eingeführt{title}\"",
+    "deleted": "Gestrichen.{title}\"",
+    "no_folder_files": "Keine .txt- oder .md-Dateien in diesem Ordner",
+    "empty": "Noch keine gespeicherten Texte. Fügen Sie etwas ein, das Sie üben möchten, oder importieren Sie eine .txt-Datei. Texte bleiben auf diesem Gerät."
+  },
+  "quotes": {
+    "quote_placeholder": "Das Zitat",
+    "quote_aria": "Zitat",
+    "author_placeholder": "Wer es gesagt hat",
+    "source_placeholder": "Fakultativ",
+    "add_quote": "Add quote",
+    "author": "Autor",
+    "source": "Quelle",
+    "authors": "Autoren",
+    "sources": "Quellen",
+    "added": "Zitat hinzugefügt",
+    "updated": "Angebot aktualisiert",
+    "deleted": "Zitat gestrichen",
+    "unknown": "— Unbekannt",
+    "too_short": "· Zu kurz für Tests:{min}+ Zeichen",
+    "empty": "Fügen Sie Zitate hinzu, die Ihnen gefallen; Sie erscheinen in Zitaten und gemischten Tests. Sammlungen wie eine quotes.json-Datei können unter Datasets installiert werden."
+  },
+  "github_import": {
+    "github_s_limit_for_downloads": "Das Limit von GitHub für Downloads ohne Anmeldung wurde erreicht. Versuchen Sie es erneut in einer Stunde.",
+    "that_repository_or_folder_wasn": "Dieses Repository oder Ordner wurde nicht gefunden (es kann privat sein).",
+    "github_answered": "GitHub beantwortet{status}.",
+    "that_isn_t_a_github": "Das ist keine GitHub-Repository-Adresse (github.com/owner/repo).",
+    "no_txt_or_md_files": "Keine .txt oder .md Dateien wurden dort gefunden.",
+    "the_files_couldn_t_be": "Die Dateien konnten nicht heruntergeladen werden.",
+    "listing_files": "Dateien auflisten...",
+    "downloading_progress": "Herunterladen{current}Von{total}…"
+  },
+  "importers": {
+    "doesn_t_look_like_a": "{name}Sieht nicht aus wie eine Textdatei.",
+    "isn_t_utf_8_text": "{name}Ist kein UTF-8-Text.",
+    "only_files_can_be_imported": "{name}: Nur{ACCEPTED_EXTENSIONS}Dateien können importiert werden.",
+    "is_larger_than_5_mb": "{name}Ist größer als 5 MB.",
+    "is_empty": "{name}Ist leer."
+  },
+  "quote_collections": {
+    "no_quotes_were_found_in": "In dieser Datei wurden keine Zitate gefunden."
+  }
+}

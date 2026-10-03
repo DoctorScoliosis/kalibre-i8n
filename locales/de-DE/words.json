@@ -1,0 +1,18 @@
+{
+  "filter": {
+    "warning": "Die Wortlisten von Kalibre stammen aus alten Büchern und großen Wörterbüchern, die Verleumdungen und andere beleidigende Wörter enthalten. Wenn der Filter ausgeschaltet ist, können sie in Tests, Übungen, Lektionen und Spielen erscheinen. Wenn Sie es ausschalten, akzeptieren Sie, dass Sie sie sehen können und dass der Autor von KalibreZ nicht für eine verursachte Straftat haftet.",
+    "turn_off": "Filter ausschalten",
+    "keep_on": "Keep it on",
+    "confirm_title": "Den Offensivwortfilter ausschalten?",
+    "filter_on": "Filter auf",
+    "filter_off": "Filter ab",
+    "placeholder": "Eine pro Zeile oder durch Kommas getrennt; Ende mit * für jedes Wort, das damit beginnt",
+    "filtered_count": "{count, plural, one {# Wort} other {# Worte}}Von Ihrem eigenen Filter",
+    "no_words": "Keine eigenen Worte",
+    "heading": "Beleidigende Worte",
+    "toggle_label": "Filter beleidigende Worte",
+    "own_label": "Eigene Wörter zum Filtern",
+    "explanation": "Auf: Verleumdungen und die stärkste Profanität werden aus Wortlisten herausgehalten, und Passagen, die sie enthalten, werden übersprungen. Ihre eigenen Texte und Zitate werden nie geändert.",
+    "own_explanation": "Mit diesem profil nur gehalten, nie geteilt. Sie gelten, während der Filter eingeschaltet ist."
+  }
+}

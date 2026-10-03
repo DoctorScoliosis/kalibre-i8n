@@ -1,0 +1,137 @@
+{
+  "slots": {
+    "body": {
+      "title": "Körper",
+      "hint": "Die Form Ihres Autos"
+    },
+    "paint": {
+      "title": "Farbe",
+      "hint": "Seine Farbe, von den Farben Ihres Themas"
+    },
+    "livery": {
+      "title": "Livree",
+      "hint": "Ein Muster über der Farbe (mit einer eigenen Farbe)"
+    },
+    "wheels": {
+      "title": "Räder",
+      "hint": "Was es rollt auf"
+    },
+    "trail": {
+      "title": "Spur",
+      "hint": "Was es hinterlässt"
+    }
+  },
+  "parts": {
+    "body-hatch": {
+      "name": "Heckklappe"
+    },
+    "body-coupe": {
+      "name": "Coupé"
+    },
+    "body-beetle": {
+      "name": "Käfer"
+    },
+    "body-pickup": {
+      "name": "Abholung"
+    },
+    "body-van": {
+      "name": "Van"
+    },
+    "body-racer": {
+      "name": "Offene Räder"
+    },
+    "body-bubble": {
+      "name": "Bubble Car"
+    },
+    "paint-accent": {
+      "name": "Akzent"
+    },
+    "paint-heat-1": {
+      "name": "Bernstein"
+    },
+    "paint-heat-2": {
+      "name": "Bernstein"
+    },
+    "paint-heat-3": {
+      "name": "Sonnenaufgang"
+    },
+    "paint-heat-4": {
+      "name": "Scharlach"
+    },
+    "paint-chart-wpm": {
+      "name": "Rennstrecke"
+    },
+    "paint-text-dim": {
+      "name": "Graphit"
+    },
+    "livery-stripe": {
+      "name": "Rennstreifen"
+    },
+    "livery-checker": {
+      "name": "Kariert"
+    },
+    "livery-dots": {
+      "name": "Polka dots"
+    },
+    "livery-chevrons": {
+      "name": "Chevrone"
+    },
+    "livery-flames": {
+      "name": "Flammen"
+    },
+    "livery-split": {
+      "name": "Zweiton"
+    },
+    "livery-number": {
+      "name": "Rennnummer"
+    },
+    "livery-midnight": {
+      "name": "Mitternachtssterne"
+    },
+    "wheels-plain": {
+      "name": "Glatt"
+    },
+    "wheels-sport": {
+      "name": "Sport"
+    },
+    "wheels-chunky": {
+      "name": "Brocken"
+    },
+    "wheels-spoked": {
+      "name": "Speichen"
+    },
+    "wheels-whitewall": {
+      "name": "Whitewall"
+    },
+    "wheels-gilt": {
+      "name": "Waden"
+    },
+    "trail-dust": {
+      "name": "Staub"
+    },
+    "trail-sparks": {
+      "name": "Funken"
+    },
+    "trail-bubbles": {
+      "name": "Blasen"
+    },
+    "trail-ribbon": {
+      "name": "Bänder"
+    },
+    "trail-stars": {
+      "name": "Sternstaub"
+    }
+  },
+  "garage": {
+    "title": "Garage",
+    "tab_title": "Garage",
+    "tab_hint": "Kleiden Sie Ihren Rennwagen: Es ist das, was Sie auf der Strecke fahren, und was jeder Rennsport sieht Sie",
+    "choose_slot": "Wählen{slot}",
+    "paint_swatch": "{name}Farbe",
+    "livery_colour": "{tokenLabel}Farbe der Lackierung",
+    "usual_livery_colour": "Übliche Lackfarbe",
+    "livery_colour_2": "Farbe der Lackierung",
+    "this_is_your_car_on": "Dies ist dein Auto auf der Strecke, und an alle, die dich fahren. Es trägt immer nur Teile, die Sie verdient haben.",
+    "your_race_car": "Dein Rennwagen"
+  }
+}

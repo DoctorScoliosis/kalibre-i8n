@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "overview": "Übersicht",
+    "periods": "Am Tag",
+    "bests": "Persönliche Bestleistungen",
+    "history": "Geschichte",
+    "games": "Spiele",
+    "numpad": "Nummernschild",
+    "xp": "Xp",
+    "keys": "Schlüssel",
+    "hesitations": "Zögern",
+    "mistakes": "Fehler"
+  },
+  "export": {
+    "csv": "Csv",
+    "json": "Json",
+    "game_runs": "Export Game Runs",
+    "every_test": "Export jeder Prüfung",
+    "days": "Ausfuhrtage"
+  },
+  "empty": {
+    "no_tests": "Noch keine Tests",
+    "no_tests_games_only": "Noch keine Tests: bisher nur Spiele. Siehe Statistiken → Spiele.",
+    "no_tests_overview": "Noch keine Tests. Ihre Geschwindigkeit, Genauigkeit und die Schlüssel, die Sie am härtesten finden, werden hier angezeigt.",
+    "not_enough_typing": "Noch nicht genug Tipping"
+  },
+  "overview": {
+    "average_wpm": "Durchschnittswert wpm",
+    "accuracy": "Genauigkeit",
+    "tests": "Prüfungen",
+    "time_typing": "Zeittypisierung",
+    "completed": "Abgeschlossen",
+    "restarted": "Neustart",
+    "abandoned": "Verlassen",
+    "not_counted": "Nicht gezählt",
+    "words": "Wörter",
+    "characters": "Zeichen",
+    "averages_note": "Durchschnitte und Bestwerte verwenden nur abgeschlossene Tests{notCounted, select, true {Key-Mashed-Tests werden nicht gezählt} other {}}",
+    "chart_heading": "{scope, select, all {Alle} other {Zuletzt}} {count} {count, plural, one {Test} other {Prüfungen}}· Wpm",
+    "chart_window_aria": "Wie viele Tests zu Chart",
+    "by_characters": "Nach Zeichen"
+  },
+  "bests": {
+    "race_this": "Rennen diese",
+    "empty": "Führen Sie einen Test durch, um einen zu setzen",
+    "stats_summary": "{survived, select, true {{survivedTime}Überlebte} other {}}{wpm}Wpm ·{accuracy}% · {date}"
+  },
+  "periods": {
+    "no_tests": "Keine Prüfungen",
+    "tests_count": "{count, plural, one {# Prüfung} other {# Tests}}",
+    "best_accuracy": "Am besten{best} · {accuracy}%",
+    "daily_goal": "Tagesziel:{target}",
+    "today": "· Heute{amount}{met, select, true { ✓} other {}}",
+    "streak": "· Streifen{count, plural, one {#Tag} other {# Tage}}",
+    "no_daily_goal": "Kein tägliches Ziel.",
+    "set_one": "Satz 1",
+    "time_typed_per_day": "Typisierte Zeit pro Tag · letzte 30 Tage",
+    "day_by_day": "Tag für Tag",
+    "no_tests_last_30_days": "Keine Tests in den letzten 30 Tagen",
+    "time_of_day": "Tageszeit",
+    "time_zone_note": "Tage und Stunden befinden sich in der Zeitzone dieses Geräts."
+  },
+  "games": {
+    "no_games": "Noch keine Spiele gespielt. Spiele sind unter Spiele im Menü.",
+    "runs_count": "{count, plural, one {# Lauf} other {# Läufe}}",
+    "last": "Zuletzt{date}",
+    "best_run": "Bester Lauf:{summary}",
+    "bests_note": "Bests Count läuft nach den aktuellen Regeln jedes Spiels",
+    "bests_by_difficulty": "Bests nach Schwierigkeit",
+    "recent_runs": "Jüngster Lauf",
+    "old_rules": "{game}(Alte Regeln)",
+    "runs": "Läufe",
+    "time_played": "Spielzeit"
+  },
+  "numpad": {
+    "no_runs": "Noch läuft kein Zahlenpad. Sie sind auf der Nummer Pad Seite in lernen.",
+    "ksph_note": "Tastenanschläge pro Stunde (ksph) zählen die Tasten der korrekten Eingaben, Operatoren und Eingaben",
+    "bests": "Zehnschlüssel-Bests",
+    "sums_by_kind": "Summen nach Art",
+    "weak_spots": "Schwachstellen",
+    "recent_runs": "Jüngster Lauf",
+    "ten_key_tests": "Zehn-Schlüssel-Tests",
+    "fastest": "Schnellste",
+    "lessons_mastered": "Unterricht gemeistert",
+    "sums_right": "Richtige Summen",
+    "time_on_pad": "Zeit auf dem Pad"
+  },
+  "numpad_pane": {
+    "lesson_desc": "Unterricht{number}{mastered, select, true {· Gemeistert} other {}}",
+    "till_desc": "Bis · Niveau{level}",
+    "sums_desc": "Summen ·{form}",
+    "tenkey_desc": "Zehnschlüssel ·{form} · {limit}",
+    "mix": "Eine Mischung",
+    "served_count": "{count}Dienst",
+    "sums_right": "{right}Von{answers}Rechts",
+    "ksph_result": "{ksph}Ksph{aborted, select, true {(Früher beendet)} other {}}"
+  },
+  "headings": {
+    "day": "Tag",
+    "tests": "Prüfungen",
+    "time": "Uhrzeit",
+    "wpm": "Wpm",
+    "best": "Am besten",
+    "accuracy": "Genauigkeit",
+    "goal": "Ziel",
+    "when": "Wann",
+    "source": "Quelle",
+    "xp": "Xp",
+    "share": "Anteil",
+    "entries": "Angaben",
+    "length": "Länge",
+    "ksph": "Ksph",
+    "kind": "Art",
+    "right": "Rechts",
+    "average_time": "Durchschnittszeit",
+    "what": "Was",
+    "result": "Ergebnis",
+    "date": "Datum",
+    "ghost": "Geister",
+    "actions": "Maßnahmen",
+    "test": "Test",
+    "game": "Spiel",
+    "mode": "Modus",
+    "difficulty": "Schwierigkeit",
+    "outcome": "Ergebnis",
+    "score": "Punktzahl"
+  },
+  "hesitations": {
+    "explain": "Keine Fehler: Tasten, die Sie richtig eingegeben haben, aber nur nach einer Pause von mindestens{factor}X Ihre eigene übliche Lücke zwischen den Tasten (nie unter){minMs}Ms), also werden sie gegen Ihr Tempo gemessen, egal wie schnell Sie tippen. Pausen über{maxS}S zählen als Pause (länger, wenn Sie nach Schlüsseln suchen). Pausen, die immer wieder kommen, werden für das Training vorgeschlagen, wie Fehler.",
+    "empty": "Tests werden von nun an auf Zögern gemessen.",
+    "hesitations": "Zögern",
+    "per_minute": "Pro Minute",
+    "tests_measured": "Gemessene Prüfungen",
+    "keys_pause_before": "Tasten, vor denen Sie pausieren",
+    "pairs_pause_inside": "Briefpaare, in denen du pausierst",
+    "words_pause_before": "Wörter, vor denen du pausierst",
+    "no_pattern_yet": "Noch kein Muster"
+  },
+  "keys": {
+    "picker_label": "Tastaturlayout:",
+    "dropdown_label": "Tastaturlayout",
+    "least_accurate_keys": "Am wenigsten genaue Schlüssel",
+    "slowest_keys": "Langsamste Tasten",
+    "least_accurate_pairs": "Am wenigsten genaue Buchstabenpaare",
+    "slowest_pairs": "Langsamste Buchstabenpaare"
+  },
+  "mistakes": {
+    "errors_summary": "{uncorrected}Nicht korrigiert ·{corrected}Korrigiert ·{capsLock}Mit Verschlusskappen",
+    "most_common": "Am häufigsten",
+    "all_mistakes": "Alle Fehler",
+    "keys": "Schlüssel",
+    "shift": "Wechsel",
+    "words": "Wörter",
+    "between_words": "Zwischen Wörtern",
+    "none_yet": "Noch keine"
+  },
+  "xp": {
+    "blurb": "XP kommt von der korrekten Eingabe (skaliert nach Genauigkeit), ein wenig von Boni und von Fehlern, die Sie trainieren. Es ist aus Ihrer Geschichte heraus ausgearbeitet.",
+    "total_xp": "Gesamt-xp",
+    "last_7_days": "Letzte 7 Tage",
+    "where_from": "Woher es kam",
+    "xp_per_day": "Xp pro Tag · Letzte 30 Tage"
+  },
+  "history": {
+    "replay": "Wiederholung",
+    "race": "Rennen",
+    "delete": "Löschung",
+    "race_title": "Rennen dieser Lauf als Geist, auf seinen eigenen Text",
+    "no_saved_ghosts": "Noch keine geretteten Geister. Speichern Sie einen nach einem Test oder Replay.",
+    "no_history": "Noch keine Tests in der Geschichte",
+    "pinned": "Gestiftet",
+    "all_tests": "Alle Prüfungen",
+    "saved_ghosts": "Gerettete Geister",
+    "saved_ghosts_count": "Gerettete Geister (){count})",
+    "pager_aria": "Historische Seiten",
+    "pager_prev": "‹ Früher",
+    "pager_next": "Nächster >",
+    "pager_range": "{first}–{last}Von{count}",
+    "page_aria": "Seite{number}"
+  },
+  "shared": {
+    "level": "Höhe",
+    "level_aria": "XP zum nächsten Level",
+    "prev": "Prev",
+    "next": "Nächstens",
+    "prev_aria": "Vorherige Seite",
+    "next_aria": "Nächste Seite",
+    "page_info": "{current}Von{total}",
+    "xp": "{toLocaleString} / {toLocaleString2}Xp",
+    "ms": "{round}Ms ·{round2}%",
+    "typed": "{round}% · Typisiert{toLocaleString}"
+  },
+  "hesitations_pane": {
+    "of": "{round}% · {hesitated}Von{toLocaleString}"
+  },
+  "overview_pane": {
+    "recent_tests": "Neuere Tests",
+    "group_stats": "{wpm}Wpm ·{accuracy}% · {count, plural, one {# Prüfung} other {# Tests}}"
+  },
+  "periods_pane": {
+    "wpm": "Wpm"
+  },
+  "stats_charts": {
+    "wpm_of_recent_tests_use": "WPM der letzten Tests. Verwenden Sie die linke und rechte Pfeiltaste, um jeden Test zu lesen.",
+    "recent_tests": "Jüngste Tests",
+    "complete_a_couple_of_tests": "Führen Sie ein paar Tests durch, um einen Trend zu sehen.",
+    "accuracy": "{value}% Genauigkeit",
+    "not_enough_typing": "Zu wenig Tipping",
+    "ms": "{round}Ms",
+    "keyboard_coloured_by_how_often": "Tastatur gefärbt, wie oft jede Taste beim ersten Mal richtig eingegeben wird. In der folgenden Tabelle sind die gleichen Werte aufgeführt.",
+    "use_the_left_and_right": "{label}Verwenden Sie die linke und rechte Pfeiltaste, um jeden Tag zu lesen.",
+    "no_typing": "Keine Typisierung",
+    "day_tests": "{count, plural, one {# Prüfung} other {# Tests}}",
+    "day_wpm": " · {wpm}Wpm"
+  },
+  "stats": {
+    "sections_label": "Statistikabschnitte"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "restart": {
+    "label": "Neustart",
+    "keywords": "Wiederholen Redo New Test",
+    "meta": "Test · Gleiche Art, neuer Text"
+  },
+  "next_text": {
+    "label": "Nächster Text",
+    "keywords": "Andere überspringen",
+    "meta": "Test · Weiterfahren"
+  },
+  "time_test": {
+    "label": "Uhrzeit{duration}",
+    "keywords": "Getaktete Sekunden{duration}S Prüfung",
+    "meta": "Prüfung ·{duration}Zweite Prüfung"
+  },
+  "words_test": {
+    "label": "Wörter{count}",
+    "keywords": "Zählprüfung{count}",
+    "meta": "Prüfung ·{count}Wörter"
+  },
+  "play_game": {
+    "label": "Spiel{game}",
+    "keywords": "Spiele spielen Spaß{game}",
+    "meta": "Spiel ·{blurb}"
+  },
+  "go_to": {
+    "label": "Gehen Sie zu{view}",
+    "keywords": "Open view page show{view}",
+    "meta": "Go · Seite"
+  },
+  "achievements": {
+    "label": "Erfolge",
+    "keywords": "Abzeichen Trophäen Meilensteine getan verdient Geheimnisse stats Erfolge",
+    "meta": "Open · Erfolge"
+  },
+  "your_card": {
+    "label": "Ihre Karte",
+    "keywords": "Profilkartenaufkleber Rahmen Aura Hintergrund Showcase Kosmetik maßgeschneidert Dekor",
+    "meta": "Offenes · Profil"
+  },
+  "today": {
+    "label": "Heute",
+    "keywords": "Tägliche Quests Quest Herausforderung Aufgaben Ziele",
+    "meta": "Go · Die heutigen Quests und Herausforderungen"
+  },
+  "quote_category": {
+    "label": "Zitat{category}",
+    "keywords": "Passage Book Text{category}",
+    "meta": "Test · ein Zitat"
+  },
+  "mixed_quotes": {
+    "label": "Gemischte Angebote",
+    "keywords": "Angabe der Zufallslänge",
+    "meta": "Test · jedes Mal eine zufällige Länge"
+  },
+  "sustained_pace": {
+    "label": "Nachhaltig{wpm}",
+    "keywords": "Endloses Ausdauertempo Halten Ziel{wpm}Wpm",
+    "meta": "Test: Halten{wpm}Wpm so lange wie möglich"
+  },
+  "sustained_accuracy": {
+    "label": "Dauerhafte Genauigkeit{accuracy}",
+    "keywords": "Endlose Ausdauer genaues und präzises Halten Ziel{accuracy}Prozent",
+    "meta": "Test: Halten{accuracy}% Genauigkeit, solange Sie können"
+  },
+  "keep_reading": {
+    "label": "Weiterlesen",
+    "keywords": "Book Continue Resümee (Sustained Novel auf Bookmark)",
+    "meta": "Test · Lesen Sie durch Ihre Bücher, nachhaltig"
+  },
+  "section": {
+    "label": "{view} {section}",
+    "keywords": "Go Open Show{words}",
+    "meta": "Go ·{view}Abschnitt"
+  },
+  "continue_touch_typing": {
+    "label": "Continue Touch Typing",
+    "keywords": "Lektionen lernen Berühren Sie die Finger in der nächsten Reihe",
+    "meta": "Lernen · Die nächste Lektion zum Meistern"
+  },
+  "learn_stage": {
+    "label": "Lernphase{stage}: {name}",
+    "keywords": "Lernlektionen Touch Tipping Stage{stage} {name}",
+    "meta": "Lernen · Lehren{first}–{last}"
+  },
+  "drill_mistakes": {
+    "label": "Drill meine Fehler",
+    "keywords": "Fehler in der Zugpraxis",
+    "meta": "Test · Drills aus Ihren Fehlern"
+  },
+  "wardrobe": {
+    "label": "{companion}’ Garderobe",
+    "keywords": "Cal libby Begleiter Maskottchen Kleiderschrank Kleidung Hut Kosmetik-Outfit-Look personalisieren",
+    "meta": "Lernen · Kleid{companion}In dem, was du verdient hast"
+  },
+  "try_guest": {
+    "label": "Versuchen Sie es als Gast",
+    "keywords": "Gast Testversion temporäres neues Profil Demo",
+    "meta": "Profil · ein neues Gastprofil; speichern Sie seinen Fortschritt später, um es zu behalten"
+  },
+  "sign_out": {
+    "label": "Schilderung",
+    "keywords": "Lock Log Out Logout Sign Out Vergessen",
+    "meta": "Profil · sperren, bis das Passwort wieder gegeben ist"
+  },
+  "profiles": {
+    "label": "Profile",
+    "keywords": "Profilkonto Switch Benutzerpasswort Passkey Bild-Avatar",
+    "meta": "Open · Wer schreibt ein"
+  },
+  "backup_now": {
+    "label": "Jetzt zurück",
+    "keywords": "Backup Export Profil Save History Download Datei",
+    "meta": "Datei · dieses Profil"
+  },
+  "load_profile": {
+    "label": "Laden einer Profildatei",
+    "keywords": "Importwiederherstellungsprofil Open File Backup",
+    "meta": "Datei · neben Ihren Profilen hinzugefügt"
+  },
+  "export_settings": {
+    "label": "Ausfuhreinstellungen",
+    "keywords": "Download Backup Save Json",
+    "meta": "Datei · Einstellungen als json"
+  },
+  "keyboard_shortcuts": {
+    "label": "Tastenkürzel",
+    "keywords": "Shortcuts Hotkeys Keys Bindungen helfen zu führen?",
+    "meta": "Hilfe · Keyboard Shortcuts Guide"
+  },
+  "race": {
+    "label": "Rennen",
+    "keywords": "Race Lan Network Multiplayer Freunde gegen Room Code Host Join",
+    "meta": "Spielen · Rennen Menschen in Ihrem Netzwerk"
+  },
+  "race_ghost": {
+    "label": "Race a Ghost",
+    "keywords": "Race Ghost Ghosts Regal gerettet Wiederholung gegen",
+    "meta": "Spiel · Rennen Ihre geretteten Geister"
+  },
+  "import_ghost": {
+    "label": "Import Ghost",
+    "keywords": "Import Ghost File Open Load Kalibre-Ghost Regal",
+    "meta": "Play · Legen Sie eine .kalibre-ghost-Datei in Ihr Geisterregal"
+  },
+  "race_solo": {
+    "label": "Rennen alleine",
+    "keywords": "Rennen Solo Rivalen Computer Ghost gegen allein",
+    "meta": "Spielen · Rennen den Computer, mit Ihren letzten Entscheidungen"
+  },
+  "privacy": {
+    "label": "Privatsphäre",
+    "keywords": "Datenschutzerklärung Daten persönliche Informationen gespeichert",
+    "meta": "Hilfe · was Kalibre hält und wo"
+  },
+  "terms": {
+    "label": "Begriffe",
+    "keywords": "Nutzungsbedingungen Lizenzlizenzregeln",
+    "meta": "Hilfe · Nutzungsbedingungen"
+  },
+  "security": {
+    "label": "Sicherheit",
+    "keywords": "Meldung der Sicherheitslückenmeldung",
+    "meta": "Hilfe · Meldung eines Sicherheitsproblems"
+  },
+  "whats_new": {
+    "label": "Was ist neu",
+    "keywords": "Whats new changelog updates release notes history",
+    "meta": "Help · Was ist neu in dieser Version"
+  },
+  "changelog": {
+    "label": "Changelog",
+    "keywords": "Changelog was neue Updates Release Notes History Versionen",
+    "meta": "Hilfe · Changelog und vergangene Updates"
+  },
+  "check_for_updates": {
+    "label": "Überprüfen Sie auf Updates",
+    "keywords": "Update Updates Aktualisieren Sie die neue Version Update Check jetzt",
+    "meta": "Hilfe · Jetzt nach einer neuen Version suchen"
+  },
+  "announcements": {
+    "label": "Ankündigungen",
+    "keywords": "Ankündigungen Updates Devlog Reise News Stackinfolio Release Kanary",
+    "meta": "Links · Projektreise & Ankündigungen"
+  },
+  "kanary_notice": {
+    "label": "Kanarische Bekanntmachung",
+    "keywords": "Kanary Beta Preview Warnhinweis Backup Kompatibilität Test Build",
+    "meta": "Help · Kanary Preview Build Notice & Backups"
+  }
+}

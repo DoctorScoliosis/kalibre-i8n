@@ -1,0 +1,477 @@
+{
+  "lines": {
+    "intro": [
+      "Heute neu:{keys}. Ihre{finger}Macht die Arbeit.",
+      "{keys}Du bist nach diesem hier. Augen auf den Text, nicht deine Hände.",
+      "Legen Sie Ihre Finger auf die Hausreihe, dann gehen wir los.",
+      "Langsam und rechts schlägt schnell und falsch. Geschwindigkeit kommt von selbst.",
+      "Ooh,{keys}Ich liebe sie. Ich liebe alle Schlüssel, wirklich. Ich bin einer.",
+      "Frische Schlüssel heute:{keys}Schauen Sie nicht auf Ihre Hände. Ich werde es wissen."
+    ],
+    "tip": [
+      "Heads up,{tip}.",
+      "Psst,{tip}.",
+      "Kleines, was mir aufgefallen ist,{tip}.",
+      "Coach Cal hier:{tip}.",
+      "Winzige Spitze,{tip}.",
+      "Erzähle niemandem, was ich dir gesagt habe, aber{tip}."
+    ],
+    "encourage": [
+      "Schütteln Sie es ab. Ihr{finger}Kennt den Weg.",
+      "Wobbly ist in Ordnung. Erleichtern Sie die Geschwindigkeit eine Berührung.",
+      "Tiefatmen. Genauigkeit zuerst, dann Geschwindigkeit.",
+      "Jeder Ausrutscher lehrt deine Finger etwas.",
+      "Ich stolperte einmal über die Leertaste. Wir wackeln alle.",
+      "Ups passiert! Verlangsamen Sie es und es wird klicken.",
+      "Ihr{finger}Wacht immer noch auf. Geben Sie ihm eine Sec."
+    ],
+    "round": [
+      "Nizza-Runde:{wpm}Wpm.",
+      "Sauber! Halten Sie diesen Rhythmus.",
+      "Dieser eine floss.",
+      "{wpm}Wpm! Mein Keycap kribbelt.",
+      "Ooh, glatt. Tun Sie das noch einmal!",
+      "Tap Tap Tap, perfekt. Das ist mein Lieblingssound."
+    ],
+    "mastered": [
+      "{lesson}: Gemeistert!{next}Ist jetzt geöffnet.",
+      "Du hast es geschafft! Auf{next}.",
+      "Beherrscht! Deine Finger erinnern sich jetzt daran.",
+      "JA!{lesson}Gehört dir. Ich mache einen kleinen Tanz.",
+      "Beherrscht! Ich würde dich umarmen, aber meine Arme sind winzig.",
+      "Das ist eine Lektion in der Tasche.{next}Als nächstes!"
+    ],
+    "again": [
+      "Schließen. Noch einmal gehen?",
+      "Noch nicht ganz, aber du kommst dorthin.",
+      "Übung ist der ganze Trick. Wiederum?",
+      "Fast! Deine Finger brauchen nur noch einen Schoß.",
+      "So nah, dass ich es schmecken konnte. Wiederum?",
+      "Keine Eile. Wieder ein bisschen langsamer diesmal?"
+    ],
+    "warmup": [
+      "Aufwärmen zuerst:{keys}. Einfach.",
+      "Eine schnelle Strecke auf{keys}Und dann die Lektion.",
+      "Stretchy Time!{keys}Schön und langsam.",
+      "Lass uns die Finger aufwecken{keys}.",
+      "Aufwärmen am{keys}Wiggle deine Finger zuerst, es hilft!",
+      "Einfache Runden auf{keys}Vor der realen Sache."
+    ],
+    "keyboard": [
+      "Unterricht braucht eine echte Tastatur. Verbinden Sie eine und drücken Sie eine beliebige Taste!",
+      "Psst: Ich unterrichte Finger, nicht Daumen. Schließen Sie eine Tastatur an und tippen Sie auf eine Taste.",
+      "Eine Tastatur macht hier den Unterschied. Drücken Sie eine Taste auf eine und ich werde es wissen.",
+      "Home Row braucht eine echte Row! Schließen sie eine tastatur an und wir sind aus.",
+      "Glas ist dafür rutschig. Eine Bluetooth-Tastatur, ein Tastendruck, und wir sind bereit!",
+      "Daumen sind gut für Spiele! Lektionen wollen eine Tastatur. Drücken Sie eine Taste auf eine."
+    ],
+    "numpad": [
+      "Psst! Das war ein Zahlenpad. Zehn-Schlüssel-Praxis wartet unten, wenn Sie möchten.",
+      "Ich habe ein Zahlenpad gehört! Es gibt ein band zum tippen und lektionen, um damit zu gehen.",
+      "Number Pad gesichtet! Zehn-Key-Tests und Lektionen sind nur unten.",
+      "Ist das ein Zahlenblock, den ich höre? Ich habe Übung dafür!",
+      "Schnelle Finger auf dem Pad! Möchten Sie ein Band zum Tippen? Es ist da unten.",
+      "Ein Zahlenpad! Schauen Sie unten nach; es gibt etwas dafür."
+    ],
+    "locked": [
+      "Dieser öffnet sich nach{next}Lassen Sie uns das zuerst erledigen.",
+      "Noch nicht! Kapitän{next}Und ich lasse dich rein.",
+      "Verriegelt fest!{next}Ist der Schlüssel. Bekommen? Schlüssel?",
+      "Ooh, eifrig! Ende{next}Zuerst.",
+      "Nein, noch nicht.{next}Kommt vor diesem.",
+      "{next}Zuerst schwingt diese Tür auf."
+    ],
+    "sleepy": [
+      "Zzz ... drücken Sie eine Taste, wenn Sie bereit sind.",
+      "Immer noch da? Ich werde warten.",
+      "Ich werde nur ... ruhen meine Keycap ... zzz ...",
+      "Nimm dir Zeit. Ich gehe nirgendwohin. Winzige Beine.",
+      "Hallo? Irgendwelche Schlüssel da draußen?",
+      "Tippen Sie auf alles und ich bin zurück!"
+    ],
+    "welcome": [
+      "Hallo, ich bin Cal! In Lektion 1.1 beginnt alles.",
+      "Hi! Ich bin Cal, das Kal in Kalibre. Sollen wir mit der Hausreihe beginnen?",
+      "Hey hey! Ich bin Cal, die K-Taste. Lernen wir diese Tastatur gemeinsam.",
+      "Oh, ein neuer Freund! Ich bin Cal. Lektion 1.1 wartet auf uns."
+    ],
+    "progress": [
+      "Als nächstes:{next}. Das ist{count}Von{total}Gemeistert!",
+      "{count}Unten,{left}Zu gehen.{next}Wartet.",
+      "Willkommen zurück!{next}Ist der nächste.",
+      "{count}Unterricht in der Tasche!{next}Sieht lustig aus.",
+      "Bereit für{next}Ich bin sicher.",
+      "Nur{left}Links! Weiter zu{next}."
+    ],
+    "newStage": [
+      "Phase{stage}Fertig! Als nächstes:{name}.",
+      "Das ist Bühne{stage}Gemeistert. Auf{name}!",
+      "Phase{stage}: Erobert! Jetzt für{name}.",
+      "Eine ganze Etappe!{name}Ist der nächste. Eek, aufregend."
+    ],
+    "graduate": [
+      "Jede Lektion beherrscht. Ich bin so stolz, dass ich springen konnte.",
+      "Du kennst jetzt jeden Schlüssel. Zeigen Sie die Tipptests!",
+      "Jeder Schlüssel, jeder Finger. Du brauchst mich jetzt nicht. Behalten Sie mich trotzdem?",
+      "Absolvent! Ich habe dir einen Hut gemacht. Ich tat es nicht, aber stell es dir vor."
+    ],
+    "drowsy": [
+      "Mm... still hier. Ich werde schläfrig.",
+      "*Yawn* Immer noch da? Meine Augen werden schwer.",
+      "Also trotzdem... ich könnte gleich hier abnicken.",
+      "Soll ich etwas tun? Garn.",
+      "Ohh... die Hausreihe ist zu dieser Stunde so gemütlich.",
+      "Mein Keycap drooping. Nur ein wenig."
+    ],
+    "nod": [
+      "Zzz... Hausreihe... zzz...",
+      "Nur meine Augen ausruhen... zzz...",
+      "Zzz... noch eine Runde... zzz...",
+      "Mm... Leertasten... zzz...",
+      "Zzz... ich bin wach... zzz...",
+      "...Zzz...j...k...zzz..."
+    ],
+    "napWake": [
+      "Huh? Ich habe nur meine Augen ausgeruht!",
+      "Mm! Wach auf. Insgesamt. Was habe ich vermisst?",
+      "Oh! Du bist zurück. Ich dösen nur.",
+      "Zz—! Hallo. Hallo. Bereit, wenn du bist.",
+      "Wha—? Oh, hey. Schön zu sehen, wie du dich bewegst.",
+      "Fünf weitere... oh! Richtig. Lass uns tippen."
+    ],
+    "wake": [
+      "Huh? Oh! Hallo, ich bin Cal. Das Kal in Kalibre.",
+      "Mmf ... noch fünf Minuten ... okay, ich bin auf! Ich bin Cal.",
+      "Zz—! Ich schlief nicht. Ich bin Cal, hallo!",
+      "Wha—? Ich träumte von Spacebars. Hallo, ich bin Cal!",
+      "Oh hey! Cal hier. Helle Augen und Keycapped.",
+      "Wach auf! Wach auf. Völlig wach. Hallo, ich bin Cal."
+    ],
+    "pet": [
+      "Prrrr...",
+      "Mmm, genau hier.",
+      "Prrr. Hör nicht auf.",
+      "Hehe. Das kitzelt meine Keycap.",
+      "Prrr... bester... Tag...",
+      "Ooh, der gute Ort."
+    ],
+    "poke": [
+      "Boop! Das ist mein Keycap.",
+      "Hey! Ich bin unter Druck. Eingetragen. Vielen Dank.",
+      "Eep! Du hast meinen Aktivierungspunkt gefunden.",
+      "Poke erhalten. Verarbeitung ... noch Cal.",
+      "Hi! Ja? Du hast angerufen?",
+      "Oof. Das ist eine leichte Berührung. Gute Schreibweise."
+    ],
+    "pokeFit": [
+      "Okay, okay! Ich bin keine Spacebar!",
+      "Das ist genug poking! Ich werde anfangen, mich wie ein steckender Schlüssel zu wiederholen.",
+      "Hey! Sehe ich aus wie ein Kappenschloss für dich?",
+      "Streiche mich noch einmal und ich werde springen. Oh. Ich hüpfe."
+    ],
+    "tickle": [
+      "Hehehe! Nicht das Keycap! Hahaha!",
+      "Ahaha! Stopp! Nein, hör nicht auf! Hahaha!",
+      "Eeheehee! Das ist Betrug!",
+      "Haha! Ich bin ... hehe ... nicht ticklish!",
+      "Hahaha! Meine Stabilisatoren können es nicht nehmen!",
+      "Heehee! Ich werde zum Doppeltyp!"
+    ],
+    "armLift": [
+      "Mm... danke... zzz",
+      "Zzz... war das... mein Arm... zzz",
+      "Mmf ... halten Sie es ... auf der Linie ... zzz",
+      "Zzz ... niemand hat das gesehen ... zzz"
+    ],
+    "tickleAsleep": [
+      "Zzz... hehe... zzz",
+      "Mmf... hehe... nein... zzz",
+      "Snrk... hehehe... zzz",
+      "Zzz... nicht die... hehe... Keycap... zzz"
+    ],
+    "updateReady": [
+      "Psst: v{version}Ist bereit. Das Reload ist in der Fußzeile, wann immer Sie möchten.",
+      "Ooh, v{version}Gerade erst angekommen! Laden Sie aus der Fußzeile, wenn Sie bereit sind. Keine Eile.",
+      "Neue Version Alarm: v{version}Die Fußzeile hat das Nachladen, wann immer es passt.",
+      "V{version}Wartet in den Flügeln. Laden Sie aus der Fußzeile, wenn Sie Lust haben."
+    ],
+    "whatsNew": [
+      "Neu in v{version}: {news}!",
+      "Rate mal, was neu in v ist.{version}? {news}!",
+      "Frisch in v{version}: {news}Ooh.",
+      "V{version}Ist hier und{news}!"
+    ],
+    "newItem": [
+      "Ooh, ein neues{item}Klicken Sie mit der rechten Maustaste, um es anzuprobieren.",
+      "Schau! Ich kann das tragen{item}Jetzt. Rechtsklick auf mich.",
+      "A{item}? Für mich? Rechtsklick auf mich!",
+      "Die{item}Ich werde so gut aussehen. Rechtsklick auf mich.",
+      "Neu in meiner Garderobe: die{item}Mit der rechten Maustaste, schnell!",
+      "Ist das ein{item}Kann ich? Klicken Sie mit der rechten Maustaste!"
+    ],
+    "newItems": [
+      "Ooh,{count}Neue Dinge zum Anprobieren! Rechtsklick auf mich.",
+      "{count}Neues in meiner Garderobe! Rechtsklicken Sie auf mich, um zu sehen."
+    ],
+    "newDecoration": [
+      "Eine neue Dekoration: „{name}Einstellungen → Thema, dann dekorieren Sie eine Ihrer eigenen.",
+      "Sie haben die „{name}„Dekoration! Probieren Sie es mit einem Ihrer Themen aus."
+    ],
+    "newDecorations": [
+      "{count}Neue Themendekorationen! Settings → Thema, dann dekorieren Sie eine Ihrer eigenen.",
+      "{count}Dekorationen für Ihre Themen. Mach weiter, zieh eins an."
+    ],
+    "newCardItem": [
+      "Neu für Ihre Karte: die{name}Ihr Profil → Ihre Karte.",
+      "Ooh, der{name}Für Ihre Profilkarte. Mach weiter, probiere es aus!"
+    ],
+    "newCardItems": [
+      "{count}Neue Dinge für Ihre Karte! Ihr Profil → Ihre Karte.",
+      "Ihre Karte hat{count}Neue Dinge zum Anziehen. Ich würde sie alle tragen."
+    ],
+    "raceWon": [
+      "Zuerst über die Linie! Schön gemacht.",
+      "Sie haben gewonnen! Ich jubelte den ganzen Weg.",
+      "Whoa, du warst damals schnell. Gut gemacht!",
+      "Beat{count}Von ihnen! Willst du wieder gehen?"
+    ],
+    "raceLost": [
+      "{winner}Ich bin zuerst da. Wiederum? Du hast das.",
+      "So nah!{winner}Sie haben diesen einen gewonnen. Noch ein Mal?",
+      "Beaten by{winner}Diesmal. Aber Sie hatten ein faires Rennen!",
+      "Gutes Rennen!{winner}Kantige es. Willst du wieder gehen?"
+    ],
+    "newCarPart": [
+      "Etwas Neues für Ihren Rennwagen: die{name}Ihr Profil → Ihre Karte → Garage.",
+      "Ooh,{name}Für Ihr Auto. Mach weiter, probiere es in der Garage!"
+    ],
+    "newCarParts": [
+      "{count}Neue Teile für Ihren Rennwagen! Ihr Profil → Ihre Karte → Garage.",
+      "Ihr Auto hat{count}Neues zum Ausprobieren. Vroom!"
+    ],
+    "achievement": [
+      "Du hast verdient.{name}Es ist unter Ihrem Profil → Erfolge.",
+      "“{name}„Das habe ich gesehen. Ihr Profil → Erfolge hat es.",
+      "Leistung:{name}Sieh dich an, geh.",
+      "“{name}Ich sage es allen. Ihr Profil → Erfolge.",
+      "Schau, was du getan hast:{name}Es ist unter Ihrem Profil → Erfolge.",
+      "Ding!{name}Ihr Profil → Erfolge hat den Beweis."
+    ],
+    "achievements": [
+      "{count}Neue Errungenschaften! Werfen Sie einen Blick: Ihr Profil → Erfolge.",
+      "Whoa,{count}Erfolge auf einmal. Ihr Profil → Erfolge!"
+    ],
+    "complete": [
+      "Jede einzelne Leistung. Sie alle! Ich bin so stolz auf dich.",
+      "Das sind alle. Jede Leistung, getan. Ich weiß nicht, was ich sagen soll...",
+      "100%! Sie haben alles getan, was zu tun ist. Ich strahle."
+    ],
+    "wakeFirst": [
+      "Zzz ... weck mich zuerst ... zzz",
+      "Mmf... noch fünf Minuten...",
+      "Zzz... (erst wach)",
+      "Zzz... snrk... wha... zzz"
+    ],
+    "highfive": [
+      "High Five!",
+      "Oben oben! Nizza.",
+      "Ja! Guter Lauf.",
+      "Smack! Ow. Es lohnt sich.",
+      "Winzige Pfote, große High Five!",
+      "Woo! Das war großartig."
+    ],
+    "honeymoon": [
+      "{partner}Und ich bin in Flitterwochen! Morgen zurück.",
+      "Auf unseren Flitterwochen mit{partner}! Morgen zurück.",
+      "{partner}Und ich mache eine kleine Reise. Morgen zurück!"
+    ],
+    "challenge": [
+      "Die heutige Herausforderung:{challenge}. Bist du bereit?",
+      "Haben Sie die heutige Herausforderung gesehen?{challenge}.",
+      "Die heutige Herausforderung wartet:{challenge}.",
+      "Psst, die heutige Herausforderung:{challenge}Ich glaube an dich.",
+      "Challenge Time!{challenge}Mach weiter, du kannst.",
+      "Die heutige Herausforderung:{challenge}Ich werde von hier aus jubeln."
+    ],
+    "partner": [
+      "{partner}Und ich mache ein tolles Team.",
+      "{partner}Sagt Hallo!",
+      "{partner}Sagte, wie schön dein rhythmus ist.",
+      "{partner}Ich habe diesen Tipp gelernt, weißt du.",
+      "Sag nicht{partner}Aber du bist mein Lieblingstypist.",
+      "{partner}Ich habe deinen letzten Lauf gesehen. Sehr schön."
+    ],
+    "morning": [
+      "Morgens! Finger gestreckt? Lass uns gehen.",
+      "Guten Morgen! Ein bisschen Tippen beim Frühstück?",
+      "Rise und Type! Morgens!",
+      "Morgens! Ich bin seit Ewigkeiten wach. Nun, Sekunden.",
+      "Guten Morgen!{next}Ist bereit, wenn du bist.",
+      "Morgens, Sonnenschein. Mein Keycap ist ganz warm."
+    ],
+    "afternoon": [
+      "Nachmittag! Perfekte Zeit für ein paar Schlüssel.",
+      "Hey, guten Nachmittag! Ready to Type?",
+      "Nachmittagspause? Machen wir es zu einer Tipppause.",
+      "Oh hallo! Am Nachmittag schon? Lass uns gehen.",
+      "Guten Tag!{next}Hat gewartet.",
+      "Nachmittag! Ich habe dir einen Platz in der Hausreihe erspart."
+    ],
+    "evening": [
+      "Abends! Ein paar Schlüssel vor dem Abendessen?",
+      "Guten Abend! Lassen Sie uns mit etwas Tippen abschließen.",
+      "Hey, Abend! Schön dich zu sehen.",
+      "Schon am Abend? Die Zeit vergeht, wenn du ein Keycap bist.",
+      "Guten Abend!{next}Und die Füße hoch?",
+      "Abends! Langsam und stetig heute Abend, okay?"
+    ],
+    "night": [
+      "Bis spät? Ich auch. Nur ruhige Schlüssel.",
+      "Nachtschwärme! Lass uns sanft tippen.",
+      "Ooh, mitternacht tippen. Sehr mysteriös.",
+      "Es ist spät! Eine kurze, dann Bett?",
+      "Shh, alle schlafen. Nur wir und die Schlüssel.",
+      "Nachtschicht!{next}Dann schlafen. Deal?"
+    ],
+    "welcomeBack": [
+      "Du bist zurück! Es war{days}Tage. Ich hielt die Schlüssel warm.",
+      "{days}Tage! Ich vermisse dich. Lass uns wieder rein.",
+      "Hey, willkommen zurück! Nimm es langsam, die Finger vergessen ein wenig.",
+      "Da bist du!{days}Tage sind nichts. Lass uns gehen.",
+      "Willkommen zurück! Deine Finger erinnern sich mehr als du denkst.",
+      "Du bist hier! Ich tat nichts als ein Nickerchen für{days}Tage."
+    ],
+    "personalBest": [
+      "New Best:{wpm}Wpm! Ich habe es gesehen. Ich sah es.",
+      "{wpm}Wpm! Das ist dein schnellster ever!",
+      "Persönlich am besten!{wpm}Wpm. Ich hüpfe.",
+      "Whoa,{wpm}Wpm. Dein neuer Rekord!",
+      "Hast du das gespürt?{wpm}Wpm. Ein neues Best!",
+      "Neuer Rekord:{wpm}Wpm. Ich gestalte es. In meinem Kopf."
+    ],
+    "streak": [
+      "{days}Tage in Folge! Du bist auf einem Roll.",
+      "Das ist{days}Tage direkt vor deinem Ziel. Wow!",
+      "{days}- Day Streak! Ich zähle, keine Sorge.",
+      "{days}Tage laufen! Deine Finger müssen so glücklich sein.",
+      "Ziel erreicht{days}Tage in Folge. Legende.",
+      "{days}Tage! Schau dich an, sei alles konsequent."
+    ],
+    "themeUnreadable": [
+      "Schielen ... Schielen ... ich kann nicht lesen{what}. Können Sie?",
+      "{what}Versteckt sich vor mir. Mehr Kontrast, bitte!",
+      "Dach,{what}Blends direkt in. Meine Augen!",
+      "Ich bin ein Schlüssel und selbst ich kann nicht sehen{what}."
+    ],
+    "themeScheme": [
+      "Diese Seite sieht aus{page}Zu mir, aber es sagt{scheme}Flip \"Licht oder Dunkelheit\"?",
+      "A{page}Seite in a{scheme}Thema? Ich werde mich für das falsche Wetter anziehen!"
+    ],
+    "themeMistakes": [
+      "Warten Sie, Fehler und getippter Text sehen gleich aus. Wie werde ich das sagen?",
+      "Ihre Fehler sind verschleiert! Gib ihnen ihre eigene Farbe."
+    ],
+    "themeAccent": [
+      "Der Akzent sieht aus wie Fehler. Jeder Link fühlt sich wie ein Tippfehler an!",
+      "Verknüpft die Farbe der Fehler? Ich denke immer, ich habe etwas falsch gemacht."
+    ],
+    "themeLoud": [
+      "Whoa, dieser hintergrund ist hell. Meine Augen tanzen ein wenig.",
+      "Diese Seite ist laut! Schön für eine Minute, anstrengend für einen langen Test."
+    ],
+    "themeHeat": [
+      "Key Heat geht auf und ab! Es sollte von 1 bis 4 stärker werden.",
+      "Heiß, kalt, heiß? Die wichtigsten Wärmestufen sind außer Betrieb."
+    ],
+    "themeSameAsBase": [
+      "Frische Leinwand! Bewegen Sie eine Farbe, um zu sehen, wohin es geht.",
+      "Mach weiter, ändere etwas. Ich sage dir, was ich denke!"
+    ],
+    "themeLovely": [
+      "Oh, ich mag diesen einen. Sehr Sie.",
+      "Lesbar und hübsch. Save it, save it!",
+      "Ich würde das tragen. Eigentlich bin ich irgendwie.",
+      "Alles geht vorüber. Schöne Arbeit!"
+    ],
+    "wake@morning": [
+      "Mmf ... ist es schon Morgen? Hallo, ich bin Cal!",
+      "Morgens! Ich träumte immer noch vom Frühstück. Cal, hallo!",
+      "Oh! Die Sonne geht auf. Ich bin es, ich bin Cal."
+    ],
+    "wake@afternoon": [
+      "Huh? Nur ein kleines Mittagsschlaf! Cal, hier.",
+      "Mittagsschlaf, unterbrochen. Es lohnt sich. Hallo, ich bin Cal!",
+      "Oh hey! War das ein Snooze? Nachmittag! Ich bin Cal."
+    ],
+    "wake@evening": [
+      "Schon am Abend? Ich schlief ein! Hallo, ich bin Cal.",
+      "Mm, das Licht ist Gold geworden. Hallo, ich bin Cal.",
+      "Oh! Guten Abend. Ich bin Cal und ich bin wach. Meistens."
+    ],
+    "wake@night": [
+      "Whoa, es ist dunkel draußen! Hallo, ich bin Cal. Ruhig.",
+      "Shh ... es ist mitten in der Nacht. Hallo, ich bin Cal.",
+      "Nachtschwärme! Ich auch, anscheinend. Cal, hallo."
+    ],
+    "intro@morning": [
+      "Eine Morgenstunde. Frische Finger lernen am schnellsten.",
+      "Morgendliche Übung! Dein Gehirn ist aufgeräumt und bereit.",
+      "Guten Morgen. Lass uns das machen, bevor der Tag laut wird."
+    ],
+    "intro@afternoon": [
+      "Nachmittagsstunde! Schön und stetig.",
+      "Perfekter Nachmittag für ein paar neue Schlüssel.",
+      "Eine Lektion nach dem Mittagessen. Fett. Ich respektiere das."
+    ],
+    "intro@evening": [
+      "Abendstunde. Langsam geht es heute Abend gut.",
+      "Ein wenig Übung vor dem Tag windet sich.",
+      "Abendschlüssel! Gemütliche, hoffe ich."
+    ],
+    "intro@night": [
+      "Eine späte Lektion? Geh sanft. Müde Finger rutschen mehr.",
+      "Nachtübung. Ruhige Tasten, vorsichtige Finger.",
+      "Es ist spät, also kein Druck. Ein guter Versuch, dann ruhen."
+    ],
+    "warmup@morning": [
+      "Die Morgenfinger sind steif. Perfekt für ein Warm-up.",
+      "Ein Warm-up am Morgen? Lehrbuch.",
+      "Stretch first, es ist noch früh."
+    ],
+    "warmup@afternoon": [
+      "Warm-up! Ein kleines Wackeln, um den Nachmittag abzuschütteln.",
+      "Einbruch am Nachmittag? Warm-up wird es beheben.",
+      "Schnelles Aufwärmen, dann die echte Sache."
+    ],
+    "warmup@evening": [
+      "Abends Warm-up. Loslassen nach dem Tag.",
+      "Langer Tag? Einfache Runden zuerst.",
+      "Ein sanftes Aufwärmen für Abendfinger."
+    ],
+    "warmup@night": [
+      "Ein spätes Warm-up. Nett und weich, bitte.",
+      "Schläfrige Finger brauchen eine Strecke. Aufwärmzeit.",
+      "Warm-up zuerst. Es ist spät, keine Eile."
+    ],
+    "sleepy@morning": [
+      "Morgengähnen. Haben Sie etwas Wasser?",
+      "Zzz ... zu früh, auch für mich.",
+      "Immer noch aufwachen, denke ich."
+    ],
+    "sleepy@afternoon": [
+      "Nachmittagsdip. Stretch ein wenig?",
+      "Mm, die After-Lunch Sleepies. Ich auch.",
+      "Eine kurze Pause ist in Ordnung. Ich werde warten."
+    ],
+    "sleepy@evening": [
+      "Langer Tag, oder? Eine Pause ist erlaubt.",
+      "Abendgähnen. Ich werde hier sein.",
+      "Nimm fünf. Die Schlüssel gehen nirgendwohin."
+    ],
+    "sleepy@night": [
+      "Es ist spät... das Bett könnte noch eine Runde schlagen.",
+      "Zzz... oh, sorry. Die Nacht ist meine Nickerchenzeit.",
+      "Ruhe deine Augen. Wir werden das morgen abholen."
+    ]
+  }
+}

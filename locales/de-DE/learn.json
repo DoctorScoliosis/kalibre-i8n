@@ -1,0 +1,539 @@
+{
+  "stages": {
+    "1": {
+      "name": "Heimatreihe"
+    },
+    "2": {
+      "name": "Obere Reihe"
+    },
+    "3": {
+      "name": "Untere Reihe"
+    },
+    "4": {
+      "name": "Kapitalien"
+    },
+    "5": {
+      "name": "Zahlen"
+    },
+    "6": {
+      "name": "Fließfähigkeit"
+    }
+  },
+  "lessons": {
+    "1": {
+      "1": {
+        "title": "Linke Hand nach Hause"
+      },
+      "2": {
+        "title": "Rechte Hand nach Hause"
+      },
+      "3": {
+        "title": "Zeigefinger greifen in"
+      },
+      "4": {
+        "title": "Überprüfung der Heimatreihe"
+      }
+    },
+    "2": {
+      "1": {
+        "title": "Mittelfinger nach oben"
+      },
+      "2": {
+        "title": "Zeigefinger nach oben"
+      },
+      "3": {
+        "title": "Zeigefinger, innere Säule"
+      },
+      "4": {
+        "title": "Ringfinger nach oben"
+      },
+      "5": {
+        "title": "Kleine Finger hoch"
+      },
+      "6": {
+        "title": "Prüfung in der obersten Reihe"
+      }
+    },
+    "3": {
+      "1": {
+        "title": "Mittelfinger nach unten"
+      },
+      "2": {
+        "title": "Zeigefinger nach unten"
+      },
+      "3": {
+        "title": "Zeigefinger, innere Säule"
+      },
+      "4": {
+        "title": "Ringfinger nach unten"
+      },
+      "5": {
+        "title": "Kleine Finger nach unten"
+      },
+      "6": {
+        "title": "Überprüfung in der unteren Reihe"
+      }
+    },
+    "4": {
+      "1": {
+        "title": "Wechsel mit der Heimatreihe"
+      },
+      "2": {
+        "title": "Wechsel mit jedem Brief"
+      },
+      "3": {
+        "title": "Sätze"
+      }
+    },
+    "5": {
+      "1": {
+        "title": "Zeigefinger reichen nach oben"
+      },
+      "2": {
+        "title": "Mittelfinger reichen nach oben"
+      },
+      "3": {
+        "title": "Ringfinger reichen nach oben"
+      },
+      "4": {
+        "title": "Kleine Finger reichen nach oben"
+      },
+      "5": {
+        "title": "Kleine Fingerstrecken"
+      },
+      "6": {
+        "title": "Zahlenüberprüfung"
+      }
+    },
+    "6": {
+      "1": {
+        "title": "Die 100 häufigsten Wörter"
+      },
+      "2": {
+        "title": "Die 500 häufigsten Wörter"
+      },
+      "3": {
+        "title": "Echte Prosa"
+      },
+      "4": {
+        "title": "Über die Typprüfungen"
+      }
+    }
+  },
+  "steps": {
+    "keys": {
+      "title": "Die neuen Schlüssel selbst"
+    },
+    "mix": {
+      "title": "Die neuen Schlüssel mit dem Rest"
+    }
+  },
+  "ui": {
+    "the_steps_again": "Die Schritte wieder",
+    "steps_first": "{count}Kurze Schritte zuerst: die neuen Tasten in Mustern, dann mit den Tasten, die Sie kennen. Dann der Test.",
+    "steps_title": "Die{count}Kurze Schritte auf den neuen Tasten, dann der Test",
+    "status_mastered": "Gemeistert",
+    "status_practising": "Üben",
+    "status_ready": "Bereit",
+    "status_locked": "Verriegelt",
+    "stats_summary": "Am besten{wpm}Wpm ·{accuracy}% · {attempts, plural, one {# Versuch} other {# Versuche}}",
+    "prerequisite": "Kapitän{prereq}Erster",
+    "intro": "Lernen Sie zu tippen, ohne zu schauen, eine Gruppe von Tasten zu einer Zeit. Jede Lektion beginnt, wenn die vorhergehende gemeistert wird: 25 wpm mit 95% Genauigkeit über 30 Wörter oder mehr. Lektionen verdienen XP und zählen zu einem XP Tagesziel.",
+    "numpad_offer": "Ein Zahlenpad? Kalibre hat zehn Schlüsselübungen dafür: Unterricht, einen Test, Summen und ein Spiel.",
+    "turn_it_on": "Schalten Sie es ein",
+    "not_now": "Nicht jetzt",
+    "numpad_heading": "Nummernschild",
+    "numpad_practice": "Anzahl Pad Praxis",
+    "numpad_desc": "Lektionen, ein Zehn-Key-Test, Summen und ein Spiel",
+    "finger_guidance_fallback": "Fingerführung ist für QWERTY (US) für jetzt. Sie können die Lektionen immer noch mit Ihrem Layout verfolgen; Die Schlüssel werden so platziert, wie Sie sind.",
+    "continue_lesson": "Fortfahren:{id} {title}",
+    "start_first": "Beginnen Sie mit Lektion 1.1",
+    "all_mastered": "Jede Lektion gemeistert ✓",
+    "mastered_count": "{count}Von{total}Gemeistert",
+    "stage_heading": "Stufe{stage} · {name}",
+    "keyboard_needed": "Unterricht braucht eine echte Tastatur: Verbinden Sie eine (Bluetooth oder USB) und drücken Sie eine beliebige Taste. Tests und Spiele funktionieren mit dem On-Screen-One.",
+    "all_lessons": "Alle Lektionen",
+    "handoff_intro": "Du kennst jetzt jeden Schlüssel. Machen Sie weiter auf der Tippseite: Zeitgesteuerte Tests und Zitate bauen Geschwindigkeit auf, und Kalibre beginnt, die Fehler zu bemerken, die Sie am meisten machen, so dass Bohrer daran arbeiten können.",
+    "go_typing": "Gehen Sie zu den Typprüfungen",
+    "opens_prereq": "Diese Lektion öffnet sich einmal{prereq}Ist gemeistert.",
+    "go_to_prereq": "Gehen Sie zu{prereq}",
+    "new_keys_prefix": "Neue Schlüssel:",
+    "review_so_far": "Ein Rückblick auf alles bisher",
+    "every_key": "Jeder Schlüssel, den Sie kennen",
+    "flow": "Strom",
+    "one_stream": "1 Strom",
+    "short_rounds": "Kurze Runden",
+    "words_a_round": "{unit}Eine Runde",
+    "length": "Länge",
+    "keep_going": "Weiterfahren",
+    "timer": "Timer",
+    "none": "Nicht",
+    "start": "Beginn",
+    "straight_to_test": "Direkt zur Prüfung",
+    "start_test": "Beginn der Prüfung",
+    "warm_up_first": "Aufwärmen zuerst:{keys}",
+    "warm_up_title": "Eine kurze Runde auf{reason}(Nicht gespeichert; esc springt zum Test)",
+    "slipped_keys_note": "{keys}Letztes mal gerutscht, also kommt ein kurzes aufwärmen zuerst. Machen Sie den Test, wann immer Sie sich bereit fühlen.",
+    "take_test": "Ablegen des Tests",
+    "next_step": "Als nächstes:{title}",
+    "warm_up_again": "Wieder aufwärmen",
+    "this_step_again": "Dieser Schritt noch einmal",
+    "step_heading": "Schritt{step}Von{total} · {title}",
+    "warmup_heading": "Warmlaufen ·{keys}",
+    "accuracy_summary": "{accuracy}% Genauigkeit",
+    "ready_test": "Bereit für den Test, wann immer Sie sind.",
+    "ready_step": "Bereit für den nächsten Schritt.",
+    "slips_continue": "Ein paar Ausrutscher noch. Ein anderer Schritt kann helfen oder weitermachen, wenn Sie sich bereit fühlen.",
+    "practise_again": "Wieder üben",
+    "result_mastered": "✓ {id} {title}: Gemeistert{exclamation, select, yes {!} other {}}",
+    "result_keep_practising": "{id} {title}: Weiter üben",
+    "steno_intro": "Die Lektionen lehren Touch-Tipping auf einer Tastatur, so dass sie beiseite gelegt werden, während Sie mit einer Steno-Maschine tippen. Tests, Übungen und Spiele funktionieren wie gewohnt, und Ihr Unterrichtsfortschritt wird beibehalten.",
+    "take_test_button": "Eine Prüfung durchführen",
+    "on_keyboard_now": "Ich bin jetzt auf einer Tastatur",
+    "switch_keyboard_title": "Wechselt \"Ich tippe mit\" zurück zu einer Tastatur",
+    "needs_words": "{minWords} {unit}Oder mehr (Sie tippen){words})",
+    "needs_wpm": "{wpm}Wpm{actual}Diesmal",
+    "needs_accuracy": "{accuracy}Genauigkeit in %{actual}% Diesmal",
+    "needs_key": "Jeder neue Schlüssel bei{accuracy}%: {key}War{actual}%",
+    "needs_key_generic": "Jeder neue Schlüssel bei{accuracy}%",
+    "needs_heading": "Um es zu meistern, braucht ein Lauf:",
+    "next_open": "{id} {title}Ist jetzt geöffnet.",
+    "slips_most": "Schlüssel, die am meisten rutschten:{slips}",
+    "slips_none": "Jeder Schlüssel bei 95% oder besser dieses Mal",
+    "next_button": "Als nächstes:{id} {title}",
+    "best_run_note": "Geurteilt auf Ihrer besten 30{unit}In einer Reihe:{wpm}Wpm bei{accuracy}%",
+    "numbers_summary": "{wpm}Wpm ·{accuracy}Genauigkeit in %{words} {unit} · {clock}",
+    "xp_gained": "+{gained}Xp",
+    "level_up": "· Niveau{level}!",
+    "level_progress": "· Lv{level} · {remaining}Zu gehen",
+    "goal_met": "✓ Tagesziel erreicht ·{amount}Heute",
+    "goal_progress": "Tagesziel ·{done}Von{target}Heute",
+    "runner_finish": "Ende",
+    "runner_resume": "Wiederaufnahme",
+    "runner_paused": "Pausiert",
+    "runner_restart": "Neustart",
+    "runner_quit": "Beenden ohne Sparen",
+    "round_summary": "Rund{round}: {wpm}Wpm ·{accuracy}% — Platz für die nächste Runde",
+    "hints_prep": "Esc springt zum Test · space next{unit}",
+    "hints_normal": "Esc pause · space next{unit}"
+  },
+  "cal_wardrobe": {
+    "whose_wardrobe": "Deren Kleiderschrank",
+    "what_to_change": "Was zu ändern ist",
+    "items": "Positionen",
+    "s_wardrobe": "{name}’ Garderobe",
+    "everything_here_is_earned_by": "Alles hier wird durch Tippen verdient, nie gekauft. Rechtsklick{name}Jederzeit, um zurückzukommen."
+  },
+  "ending": {
+    "s_options": "{name}Optionen",
+    "give_the_ring": "Geben{name}Der Ring"
+  },
+  "keyboard_diagram": {
+    "finger_colours_are_for_qwerty": "Fingerfarben sind vorerst für QWERTY (US); die Lektionen funktionieren immer noch mit Ihrem Layout.",
+    "left_hand": "Linke Hand",
+    "right_hand": "Rechte Hand"
+  },
+  "learn_curriculum": {
+    "master_first": "Kapitän{prerequisiteOf}Erster",
+    "stage": "Stufe{stage} · {value}"
+  },
+  "learn_lesson": {
+    "fingers": "Finger",
+    "diagram_label": "Keyboard: Die Tasten im Unterricht{id}",
+    "new_keys_fingers": " · {fingers}",
+    "list_separator": ", "
+  },
+  "key_coach": {
+    "other_hand": "Sie haben erreicht für{key}Mit der anderen Hand: Halten Sie es an Ihrem{hand}Hand",
+    "wrong_finger": "Du hast geschlagen{typed}Für{key}: Mit dem gezeigten Finger erreichen, nicht wechseln"
+  },
+  "learn_numpad_run": {
+    "num_lock_is_off_the": "Num lock ist ausgeschaltet: das pad sendet pfeile. Drücken Sie Num Lock auf dem Pad.",
+    "time_left": "{time}Links ·{count, plural, one {# Eintrag} other {# Einträge}}",
+    "clock_start": "{time}· Der erste Schlüssel startet die Uhr",
+    "entries_count": "{done} / {total}Angaben"
+  },
+  "learn_numpad": {
+    "practice_for_the_number_pad": "Üben Sie für das Zahlenfeld: ein Zehn-Tasten-Test, Lektionen und Summen. Es ist für leute, die einen haben, also ist es aus, bis du es sagst.",
+    "ten_key_practice_lessons_from": "Zehn-Tasten-Praxis: Lektionen von den Home-Tasten nach außen, beläuft sich auf die Eingabe von einem Band mit Enter und den Operatoren, und mentale Arithmetik und eine Kasse zu laufen. Alles verdient XP.",
+    "i_don_t_have_a": "Ich habe kein Zahlenpad",
+    "turns_number_pad_practice_off": "Schaltet Zahlenpad Praxis wieder aus",
+    "from_your_last_few_runs": "Von deinen letzten Läufen. Diese werden von den Fehlern auf der Haupttastatur getrennt und hier gebohrt.",
+    "ten_key_drill": "Zehnschlüsselbohrer",
+    "sums_drill": "Summen Bohrer",
+    "diagram_weak": "Zahlenblock, gefärbt durch die Tasten, die schief gehen",
+    "diagram_mistakes": "Nummernblock, gefärbt durch Fehler",
+    "diagram": "Nummernschild",
+    "drill_keys": "Schlüssel:{keys}",
+    "drill_sums": "Summen:{kinds}",
+    "tile_lessons": "Unterricht",
+    "tile_lessons_note": "{mastered}Von{total}Gemeistert",
+    "tile_lessons_blurb": "Die Hausschlüssel 4 5 6, dann nach außen zu den Bedienern",
+    "tile_tenkey": "Zehn-Schlüssel-Test",
+    "tile_tenkey_fastest": "Dein Schnellster:{ksph}Tastenanschläge pro Stunde",
+    "tile_tenkey_none": "Noch keine Prüfung",
+    "tile_tenkey_blurb": "Mengen, ganze Zahlen oder eine Mischung mit Operatoren",
+    "tile_sums": "Summen",
+    "tile_sums_last": "Zuletzt:{right}Von{answers}Rechts",
+    "tile_sums_none": "Noch keine Summen",
+    "tile_sums_blurb": "Mentale Arithmetik: Addieren, Wegnehmen, Zeiten, Teilen und Prozentsätze",
+    "tile_till": "Bis",
+    "tile_till_best": "Ihr Bestes:{served}Dienst",
+    "tile_till_none": "Noch keine Verschiebungen",
+    "tile_till_blurb": "Ein Spiel: Die Schlange bedienen, indem Sie die Änderung ausarbeiten"
+  },
+  "learn_padlessons": {
+    "master_lesson_first": "Masterlektion{number}Erster",
+    "number_pad_lessons": "Anzahl Bremsklotzlektionen",
+    "learn_the_pad_without_looking": "Lernen Sie das Pad, ohne zu schauen, ein paar Tasten auf einmal, von den Home-Tasten 4 5 6 nach außen. Jede Lektion öffnet sich, wenn die vorhergehende gemeistert wird: die angezeigte Geschwindigkeit, 95% Genauigkeit über 25 Einträge, und jeder neue Schlüssel ist meistens richtig. Lektionen verdienen XP.",
+    "start_with_lesson_1": "Beginnen Sie mit Lektion 1",
+    "of_mastered": "{mastered}Von{length}Gemeistert",
+    "all_number_pad_lessons": "Alle Zahlenblockstunden",
+    "this_lesson_opens_once_lesson": "Diese Lektion öffnet sich einmal Lektion{number}Ist gemeistert.",
+    "go_to_lesson": "Gehe zum Unterricht{number}",
+    "to_master_it_keystrokes_an": "Um es zu meistern:{thousands}Tastenanschläge pro Stunde bei{accuracy}% Genauigkeit über{entries}Einträge und jedes neue Schlüsselrecht{keyAccuracy}Mal in 100. Legen Sie Ihre rechte Hand auf 4 5 6, mit dem erhöhten Punkt auf 5 unter dem Mittelfinger.",
+    "try_again": "Versuchen Sie es erneut",
+    "result": "Ergebnis",
+    "mastered_again": "Wieder gemastert",
+    "lesson_is_open": "Lektion{number}Ist offen.",
+    "that_s_every_number_pad": "Das ist jede Nummer Pad Lektion.",
+    "again": "Wieder",
+    "best_summary": "Am besten{ksph}Eine Stunde ·{accuracy}% · {attempts, plural, one {# Versuch} other {# Versuche}}",
+    "best_detail": "Am besten{ksph}Eine Stunde bei{accuracy}% · {attempts, plural, one {# Versuch} other {# Versuche}}",
+    "best_detail_mastered": "Gemeistert ✓ · am besten{ksph}Eine Stunde bei{accuracy}% · {attempts, plural, one {# Versuch} other {# Versuche}}",
+    "new_keys": "Neue Schlüssel:{keys}",
+    "headline": "{value}Tastenanschläge pro Stunde",
+    "to_master": "Um es zu meistern:{reasons}.",
+    "reason_separator": ", Und",
+    "reason_entries": "Alle{entries}Angaben",
+    "reason_ksph": "{target}Tastenanschläge pro Stunde (){now}Diesmal",
+    "reason_accuracy": "{target}Genauigkeit in %{now}% Diesmal",
+    "reason_key": "Jedes neue Schlüsselrecht{target}Mal in 100 (){key}War{accuracy}%)",
+    "diagram_label": "Number Pad: Die Tasten im Unterricht{number}",
+    "continue_lesson": "Fortfahren:{number} {title}",
+    "next_lesson": "Als nächstes:{number} {title}"
+  },
+  "learn_runner": {
+    "lesson": "Unterricht{id}",
+    "warm_up": "Warmlaufen",
+    "step_of": "Schritt{current}Von{total}",
+    "counter_capped_prep": "{prep} · {done} / {target} {unit}",
+    "counter_capped": "{done} / {target} {unit}",
+    "counter": "{done} {unit}",
+    "time_left": " · {time}Links",
+    "finger_line": "{key}: {finger}",
+    "shift_other_hand": "Mit Shift auf der anderen Seite",
+    "tip_suffix": " · {tip}",
+    "diagram_label": "Keyboard für den Unterricht{id}"
+  },
+  "learn_sums": {
+    "custom_number_of_questions": "Benutzerdefinierte Anzahl von Fragen",
+    "custom_number": "Zollstelle",
+    "sums": "Summen",
+    "mental_arithmetic_the_accountant_s": "Mentale Arithmetik, der Weg des Buchhalters: Eine Summe erscheint, Sie arbeiten es aus und geben die Antwort auf dem Pad ein und drücken Sie die Eingabe. Sie sind auf der Antwort markiert und wie lange es gedauert hat. Drei rechts in einer Reihe und die Summen werden härter; zwei falsch und sie lockern ab. Jede Antwort ist genau auf den Penny.",
+    "last_time_of_right_an": "Letztes Mal:{correctAnswers}Von{answers}Rechts,{seconds}Eine Antwort, up to level{peakLevel}",
+    "no_sums_yet": "Noch keine Summen",
+    "your_answer": "Deine Antwort",
+    "you_typed": "✗ {prompt} = {answerText}· Sie tippen{typed}",
+    "level": "{min} / {count}· Niveau{level}",
+    "type_the_answer_then_enter": "Geben Sie die Antwort ein und geben Sie dann ein · backspace corrects · esc öffnet die Befehlszeile",
+    "of": "{correctAnswers}Von{answers}",
+    "right": "Rechts",
+    "average_time": "Durchschnittszeit",
+    "of_2": "{right}Von{asked}",
+    "to_look_at_again": "Wiedersehen",
+    "you_typed_2": "· Sie tippen{typed}",
+    "every_answer_right": "Jede Antwort richtig.",
+    "change_the_sums": "Die Summen ändern",
+    "title_count": "Summen ·{kind}{weak} · {count, plural, one {# Frage} other {# Fragen}}",
+    "title": "Summen ·{kind}{weak}",
+    "weak_spots": "· Schwachstellen",
+    "right_headline": "{of}Rechts",
+    "questions": "Fragen",
+    "start_at_level": "Beginn auf Ebene"
+  },
+  "learn_tenkey": {
+    "your_best_for_this_ksph": "Ihr Bestes dafür:{thousands}Ksph at{round}% Genauigkeit",
+    "no_run_of_this_kind": "Noch kein Lauf dieser Art",
+    "custom_length_in_minutes": "Benutzerdefinierte Länge in Minuten",
+    "custom_length_in_entries": "Benutzerdefinierte Länge in Einträgen",
+    "custom_length": "Zolllänge",
+    "ten_key_test": "Zehn-Schlüssel-Test",
+    "amounts_arrive_one_to_a": "Beträge kommen eins zu einer Linie, wie ein Band. Geben Sie jeden auf dem Zahlenblock ein und beenden Sie ihn mit dem nach ihm gezeigten Schlüssel: Enter oder einem Operator. Das Band bewegt sich nach einem Fehler weiter, also mach weiter; Backspace korrigiert den Eintrag, auf dem du bist. Sie werden in Tastenanschlägen pro Stunde erzielt.",
+    "new_best": "Neue Besten",
+    "your_best_for_this_is": "Dein Bestes dafür ist{thousands}",
+    "not_a_wrong_key_clean": "Kein falscher Schlüssel: sauber.",
+    "change_the_test": "Ändern des Tests",
+    "keys_to_watch": "Keys to Watch:{keys}",
+    "watch_key": "{key} ({wrong}Falsch",
+    "run_title": "Zehnschlüssel ·{form} · {limit}",
+    "run_label": "Zehn-Schlüssel-Test",
+    "unit": "Einheit"
+  },
+  "learn_till": {
+    "till": "Bis",
+    "customers_queue_at_your_till": "Kunden Schlange an Ihrer Kasse. Jeder hat mit einer Notiz bezahlt: Arbeiten Sie ihre Änderung aus, tippen Sie sie auf das Pad und drücken Sie Enter. Die Geduld jedes Kunden sinkt, während er wartet, so schnell und richtig dient ihm und die nächsten Schritte nach oben. Eine falsche Antwort kostet einen Teil ihrer Geduld, und wenn drei gegangen sind, schließt sich die Kasse. Die Änderung ist immer genau auf den Penny.",
+    "your_best_customers_served_in": "Ihr Bestes:{best}Kunden auf einmal bedient",
+    "no_shifts_yet": "Noch keine Verschiebungen",
+    "open_the_till": "Öffnen Sie die Kasse",
+    "the_customer_s_patience": "Geduld des Kunden",
+    "the_change": "Die Änderung",
+    "customers_served_level_the_customers": "Kunden serviert · Ebene · die Kunden, die noch gehen können, bevor die Kasse schließt",
+    "press_enter_to_open_the": "Drücken Sie ein, um die Kasse zu öffnen",
+    "change": "{billText}· Veränderung?",
+    "waiting_behind": "{behind}Warten hinten",
+    "no_one_waiting": "Niemand wartet",
+    "served_level": "{served}Serviert · Niveau{level} · {repeat}{repeat2}",
+    "type_the_change_then_enter": "Geben Sie die Änderung ein, geben Sie dann ein · backspace korrigiert · esc öffnet die Befehlszeile",
+    "the_till_is_closed": "Die Kasse ist geschlossen",
+    "customer_served": "Kundenservice",
+    "customers_served": "Kunden bedient",
+    "your_best_is": "Dein Bestes ist{previousBest}",
+    "another_shift": "Eine weitere Verschiebung",
+    "feedback_served": "✓ Veränderung{change}",
+    "feedback_wrong": "✗ {typed}: Die Änderung war{change}",
+    "feedback_left": "Ein Kunde verlassen hat (){bill})"
+  },
+  "learn": {
+    "lessons_set_aside": "Unterricht beiseite gelegt"
+  },
+  "mascot_sounds": {
+    "play_a_sample": "Spielen Sie ein Sample",
+    "a_purr": "A purr",
+    "what_sounds_like_at_your": "Was{name}Klingt nach deinem Volumen"
+  },
+  "mascot": {
+    "open_wardrobe": "{name}: Offen{companion, select, cal {Er} libby {Und} other {Von}}Kleiderschrank",
+    "open_s_wardrobe": "{name}: Offen{name2}’ Garderobe",
+    "asleep_label": "{name}, Schlafend: wach{companion, select, cal {Er} libby {Und} other {Sie}}Bis"
+  },
+  "numpad_tape": {
+    "entries": "Angaben",
+    "the_tape": "Das Band",
+    "wrong": "Falsch"
+  },
+  "pad_lessons": {
+    "pad-1": {
+      "title": "Die Home Keys: 4 5 6"
+    },
+    "pad-2": {
+      "title": "Nach oben: 7 8 9"
+    },
+    "pad-3": {
+      "title": "Nach unten: 1 2 3"
+    },
+    "pad-4": {
+      "title": "Daumen und Punkt: 0 ."
+    },
+    "pad-5": {
+      "title": "Alle Ziffern"
+    },
+    "pad-6": {
+      "title": "Plus, mit dem kleinen Finger"
+    },
+    "pad-7": {
+      "title": "Minus"
+    },
+    "pad-8": {
+      "title": "Zeiten und Teilen"
+    },
+    "pad-9": {
+      "title": "Das gesamte Pad"
+    }
+  },
+  "fingers": {
+    "LP": "Linker kleiner Finger",
+    "LR": "Linker Ringfinger",
+    "LM": "Linker Mittelfinger",
+    "LI": "Linker Zeigefinger",
+    "T": "Daumen",
+    "RI": "Rechter Zeigefinger",
+    "RM": "Rechter Mittelfinger",
+    "RR": "Rechter Ringfinger",
+    "RP": "Rechter kleiner Finger"
+  },
+  "numpad_fingers": {
+    "RI": "Zeigefinger",
+    "RM": "Mittelfinger",
+    "RR": "Ringfinger",
+    "RP": "Kleiner Finger",
+    "T": "Daumen"
+  },
+  "key_names": {
+    "space": "Raum",
+    "comma": "Komma",
+    "full_stop": "Vollbremsung",
+    "slash": "Schrägstrich",
+    "semicolon": "Semikolon",
+    "apostrophe": "Apostroph",
+    "hyphen": "Bindestrich",
+    "equals": "Gleich"
+  },
+  "units": {
+    "sequences": "Sequenzen",
+    "words": "Wörter",
+    "sequence": "Sequenz",
+    "word": "Wort"
+  },
+  "learn_results": {
+    "diagram_label": "Tastatur gefärbt, wie oft jede Taste schief ging"
+  },
+  "entries": {
+    "a_ten_key_entry_needs": "Ein Zehn-Tasten-Eintrag benötigt mindestens eine Ziffer.",
+    "ENTRY_FORMS": {
+      "whole": {
+        "label": "Ganze Zahlen"
+      },
+      "amounts": {
+        "label": "Beträge"
+      },
+      "mixed": {
+        "label": "Gemischt mit Wirtschaftsbeteiligten"
+      }
+    }
+  },
+  "sums": {
+    "SUM_KINDS": {
+      "mixed": {
+        "label": "Eine Mischung"
+      },
+      "add": {
+        "label": "Addition"
+      },
+      "subtract": {
+        "label": "Wegnehmen"
+      },
+      "multiply": {
+        "label": "Multiplikation"
+      },
+      "divide": {
+        "label": "Teilung"
+      },
+      "percent": {
+        "label": "Prozentsätze"
+      }
+    }
+  },
+  "pad_key_names": {
+    "enter": "Eingang",
+    "plus": "Plus",
+    "minus": "Minus",
+    "times": "Zeiten",
+    "divide": "Teilung",
+    "decimal_point": "Dezimalpunkt"
+  },
+  "numpad_labels": {
+    "weak_keys": "Schwache Schlüssel",
+    "minutes": "{count}Min",
+    "entries": "{count}Angaben"
+  },
+  "numpad_sums": {
+    "kinds": {
+      "add": "Addition",
+      "subtract": "Wegnehmen",
+      "multiply": "Multiplikation",
+      "divide": "Teilung",
+      "percent": "Prozentsätze"
+    }
+  }
+}
