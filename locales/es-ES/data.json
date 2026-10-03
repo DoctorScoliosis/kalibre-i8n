@@ -1,0 +1,52 @@
+{
+  "storage": {
+    "heading": "almacenamiento",
+    "persistent": "el navegador conserva los datos de kalibre hasta que tú mismo los borres.",
+    "best_effort": "el navegador puede borrar los datos de kalibre si queda poco espacio en el disco.",
+    "unsupported": "este navegador no puede garantizar que conserve los datos de kalibre, así que guarda una copia de seguridad.",
+    "keep_my_data": "conservar mis datos"
+  },
+  "backup": {
+    "automatic_heading": "copia de seguridad automática",
+    "choose_folder": "elegir una carpeta",
+    "back_up_now": "hacer una copia ahora",
+    "change_folder": "cambiar carpeta",
+    "stop": "detener",
+    "restore": "restaurar",
+    "manual_heading": "hacer una copia manual",
+    "export_profile": "exportar este perfil",
+    "share_profile": "compartir este perfil",
+    "exported_summary": "se han exportado {sessions} pruebas, {mistakes} errores y {texts} textos{destination}",
+    "saved_to": " a {destination}",
+    "last_backup_time": "última copia {when}",
+    "not_backed_up_yet": "todavía no hay copia de seguridad",
+    "problem_permission": " el navegador necesita que vuelvas a darle permiso antes de poder escribir ahí.",
+    "problem_conflict": " la carpeta tiene una copia más reciente de «{name}», guardada desde otro navegador el {when}, así que no se ha sobrescrito. restaura esa copia o guarda esta encima.",
+    "problem_last_error": " la última copia de seguridad ha fallado: {error}",
+    "restore_folder": "restaurar desde una carpeta de kalibre",
+    "update_copies": "copias anteriores a las actualizaciones",
+    "restore_warning": "esto sustituirá todo lo que kalibre guarda en este navegador por esa copia. ¿seguro?",
+    "confirm_restore": "sí, restaurarlo",
+    "cancel": "cancelar"
+  },
+  "guest": {
+    "banner_title": "estás probando kalibre como invitado.",
+    "banner_body": "tus pruebas, errores, estadísticas y XP se guardan en este navegador, pero no tienen copia de seguridad, y el perfil no se puede bloquear. guarda tu progreso para conservarlo como tu propio perfil.",
+    "save_progress": "guardar mi progreso",
+    "ephemeral_warning": "sesión de invitado: este navegador no conservará nada, así que no se guardará nada al cerrar esta ventana. para conservar lo que hagas, descarga tu perfil y cárgalo en una ventana normal.",
+    "download_profile": "descargar mi perfil",
+    "name_profile": "poner nombre al perfil",
+    "nickname_placeholder": "un apodo",
+    "save": "guardar"
+  },
+  "progress": {
+    "backing_up": "haciendo copia de seguridad",
+    "preparing_export": "preparando la exportación",
+    "saving": "guardando",
+    "phase_packing": "empaquetando",
+    "phase_compressing": "comprimiendo",
+    "job_status": "{job} · {phase} {percent}%",
+    "saved": "guardado",
+    "couldnt_save": "no se ha podido guardar (consulta ajustes → datos)"
+  }
+}
