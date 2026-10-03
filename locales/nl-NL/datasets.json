@@ -26,10 +26,10 @@
     "a_library": "een bibliotheek"
   },
   "status": {
-    "downloading": ""{name}" downloaden…",
-    "downloading_progress": ""{name}" downloaden… {done} van {total}",
-    "downloaded": "{status, select, update {"{name}" bijgewerkt} other {"{name}" gedownload}}. het staat nu aan en werkt offline.",
-    "download_failed": ""{name}" kon niet worden gedownload: {error}",
+    "downloading": "\"{name}\" downloaden…",
+    "downloading_progress": "\"{name}\" downloaden… {done} van {total}",
+    "downloaded": "{status, select, update {\"{name}\" bijgewerkt} other {\"{name}\" gedownload}}. het staat nu aan en werkt offline.",
+    "download_failed": "\"{name}\" kon niet worden gedownload: {error}",
     "licence": "licentie: {licence}",
     "version_passages": "versie {version} · {count, plural, one {# passage} other {# passages}}",
     "library_from": "van {name}",
