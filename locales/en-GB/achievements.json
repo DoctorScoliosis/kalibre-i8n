@@ -373,6 +373,27 @@
   "clean-sweep": {
     "name": "clean sweep"
   },
+  "beam-overload": {
+    "name": "overloaded beam"
+  },
+  "flagship-down": {
+    "name": "flagship down"
+  },
+  "keg-defused": {
+    "name": "keg defused"
+  },
+  "ladder-toppled": {
+    "name": "ladder toppled"
+  },
+  "sortie-master": {
+    "name": "sortie master"
+  },
+  "marathon-master": {
+    "name": "marathon master"
+  },
+  "scroller-streak": {
+    "name": "conveyor streak"
+  },
   "race-first": {
     "name": "on your marks"
   },
