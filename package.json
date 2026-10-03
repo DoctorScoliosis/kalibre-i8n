@@ -8,7 +8,8 @@
     "sync": "node scripts/sync-canonical.mjs",
     "build": "node scripts/build-packs.mjs",
     "check": "node scripts/check-i18n.mjs",
-    "test": "node --test scripts/integrity.test.mjs && npm run build && npm run check"
+    "test": "node --test scripts/integrity.test.mjs && npm run build && npm run check",
+    "coverage": "node scripts/coverage.mjs"
   },
   "license": "MIT"
 }
