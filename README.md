@@ -103,6 +103,24 @@ npm run check
 npm test
 ```
 
+### Starting a translation branch
+
+`npm run start-translation` opens an interactive arrow-key menu of common locale tags. Choose one with ↑/↓ and Enter, or choose **Enter another BCP 47 language code…** to type any valid language tag supported by the runtime, such as `es-419`, `fr-CA`, or `ja-JP`.
+
+The command:
+
+- requires a clean `main` working tree so a translation branch always starts from a known point;
+- creates a branch named `translate/<locale>`;
+- creates `locales/<locale>/.gitkeep` immediately, so an empty started translation remains represented in Git;
+- commits that placeholder so the branch is visible even before any translation files are added;
+- refuses to start a branch when the locale directory or branch already exists.
+
+A locale code may also be supplied directly for automation or scripted hand-offs:
+
+```bash
+npm run start-translation -- es-419
+```
+
 ### Translation triage
 
 **Run the coverage report before asking an agent to translate a locale.** It compares the locale directly with the current canonical `en-GB` snapshot and reports:
