@@ -42,3 +42,22 @@ test("plural categories follow the translation's own language", () => {
   assert.match(patternProblems("{n, plural, one {#} other {#}}", "ru-RU").join(), /missing the “few” case/);
   assert.deepEqual(patternProblems("{n, plural, other {# 次}}", "zh-CN"), []);
 });
+
+test("translation plurals follow source categories while allowing target-locale categories", () => {
+  const source = new Map([["a.count", "{count, plural, one {# test} other {# tests}}"]]);
+
+  assert.deepEqual(
+    validateTranslation(source, { a: { count: "{count, plural, one {# prova} other {# prove}}" } }, "it-IT").errors,
+    [],
+  );
+
+  assert.deepEqual(
+    validateTranslation(source, { a: { count: "{count, plural, one {#} few {#} many {#} other {#}}" } }, "ru-RU").errors,
+    [],
+  );
+
+  assert.match(
+    validateTranslation(source, { a: { count: "{count, plural, other {#}}" } }, "it-IT").errors.join(),
+    /missing the “one” case the source message uses/,
+  );
+});
