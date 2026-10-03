@@ -2828,6 +2828,2783 @@
           "Riposa bene. I tasti resteranno qui."
         ]
       }
+    },
+    "data": {
+      "storage": {
+        "heading": "archiviazione",
+        "persistent": "Il browser conserva i dati di kalibre finché non li elimini tu.",
+        "best_effort": "Il browser potrebbe eliminare i dati di kalibre se lo spazio sul disco si riduce.",
+        "unsupported": "Questo browser non può garantire di conservare i dati di kalibre, quindi fai un backup.",
+        "keep_my_data": "conserva i miei dati"
+      },
+      "backup": {
+        "automatic_heading": "backup automatico",
+        "choose_folder": "scegli una cartella",
+        "back_up_now": "fai il backup ora",
+        "change_folder": "cambia cartella",
+        "stop": "ferma",
+        "restore": "ripristina",
+        "manual_heading": "backup manuale",
+        "export_profile": "esporta questo profilo",
+        "share_profile": "condividi questo profilo",
+        "exported_summary": "esportati {sessions} test, {mistakes} errori e {texts} testi{destination}",
+        "saved_to": " in {destination}",
+        "last_backup_time": "ultimo backup {when}",
+        "not_backed_up_yet": "nessun backup ancora",
+        "problem_permission": " Il browser ha bisogno di una nuova autorizzazione prima di poter scrivere lì.",
+        "problem_conflict": " La cartella contiene una copia più recente di “{name}”, salvata da un altro browser il {when}, quindi non è stata sovrascritta. Ripristina quella copia oppure salva questa al suo posto.",
+        "problem_last_error": " L'ultimo backup non è riuscito: {error}",
+        "restore_folder": "ripristina da una cartella kalibre",
+        "update_copies": "copie precedenti agli aggiornamenti",
+        "restore_warning": "questo sostituirà con quella copia tutto ciò che kalibre conserva in questo browser. sicuro?",
+        "confirm_restore": "sì, ripristinala",
+        "cancel": "annulla"
+      },
+      "guest": {
+        "banner_title": "Stai provando Kalibre come ospite.",
+        "banner_body": "I tuoi test, errori, statistiche e XP vengono conservati in questo browser, ma non salvati in un backup, e il profilo non può essere bloccato. Salva i tuoi progressi per conservarli come profilo personale.",
+        "save_progress": "salva i miei progressi",
+        "ephemeral_warning": "sessione ospite: questo browser non conserva nulla, quindi alla chiusura della finestra non viene salvato niente. per conservare ciò che fai, scarica il tuo profilo e caricalo in una finestra normale.",
+        "download_profile": "scarica il mio profilo",
+        "name_profile": "dai un nome al tuo profilo",
+        "nickname_placeholder": "un soprannome",
+        "save": "salva"
+      },
+      "progress": {
+        "backing_up": "backup in corso",
+        "preparing_export": "preparazione dell'esportazione",
+        "saving": "salvataggio",
+        "phase_packing": "impacchettamento",
+        "phase_compressing": "compressione",
+        "job_status": "{job} · {phase} {percent}%",
+        "saved": "salvato",
+        "couldnt_save": "impossibile salvare (vedi impostazioni → dati)"
+      }
+    },
+    "datasets": {
+      "actions": {
+        "download": "scarica",
+        "download_aria": "{action, select, update {aggiorna} other {scarica}} {name}",
+        "download_dataset_aria": "scarica {name}",
+        "edit_dataset_aria": "modifica {name}",
+        "passages_dataset_aria": "cambia quanti brani conserva {name}",
+        "remove_dataset_aria": "rimuovi {name}",
+        "put_back_dataset_aria": "ripristina l'originale di {name}",
+        "update": "aggiorna",
+        "update_to": "aggiorna a {version}",
+        "edit": "modifica",
+        "remove": "rimuovi",
+        "passages": "brani",
+        "install": "installa",
+        "find_more": "trova altro nella libreria",
+        "verb_update": "aggiorna",
+        "verb_download": "scarica"
+      },
+      "chips": {
+        "on_server": "su questo server",
+        "rebuilt": "ricostruito in questo browser",
+        "in_browser": "in questo browser",
+        "from_library": "da {source}",
+        "the_library": "la libreria",
+        "a_library": "una libreria"
+      },
+      "status": {
+        "downloading": "download di \"{name}\"…",
+        "downloading_progress": "download di \"{name}\"… {done} di {total}",
+        "downloaded": "{status, select, update {aggiornato} other {scaricato}} \"{name}\". è attivo e ora funziona offline.",
+        "download_failed": "impossibile scaricare \"{name}\": {error}",
+        "licence": "licenza: {licence}",
+        "version_passages": "versione {version} · {count, plural, one {# brano} other {# brani}}",
+        "library_from": "da {name}",
+        "library_remove": "rimuovi la libreria {name}",
+        "library_added": "aggiunta {name}: {count, plural, one {# dataset} other {# dataset}}.",
+        "not_reachable": "non raggiungibile"
+      },
+      "install": {
+        "include_work": "includi {title}",
+        "text_of_work": "testo di {title}",
+        "edit_draft": "modifica \"{name}\"",
+        "check_before_installing": "controlla prima di installare",
+        "add_text": "aggiungi {title}"
+      },
+      "dataset_cap": {
+        "custom_number_of_passages_per": "numero personalizzato di brani per lunghezza",
+        "passages_per_length": "brani per lunghezza",
+        "about": "circa {size} su disco",
+        "small": "{about}.",
+        "large_no_limit": "nessun limite conserva ogni brano: {about} per questi testi. è molto spazio e ci vuole un po' per costruirlo.",
+        "large": "{about}. è molto spazio e ci vuole un po' per costruirlo.",
+        "flow_pass_label": "brani tra paragrafi (estrazione a flusso)",
+        "flow_pass_hint": "Trova altri brani che attraversano i confini tra paragrafi, come scambi di battute e turni di conversazione. Aumenta le possibilità e la varietà dei brani al costo di più spazio su disco."
+      },
+      "dataset_cards": {
+        "rebuild": "ricostruisci",
+        "the_rebuilt_copy_is_kept": "{CAP_HINT} La copia ricostruita viene conservata in questo browser; rimuovendola torna disponibile l'originale.",
+        "this_dataset_may_contain_copyrighted": "Questo dataset potrebbe contenere testo protetto da copyright. Assicurati di avere il diritto di condividerlo.",
+        "update_available": "aggiornamento disponibile",
+        "back_to_the_original": "torna all'originale",
+        "drop_the_changes_made_here": "eliminare le modifiche fatte qui?",
+        "remove_it": "rimuoverlo?",
+        "yes_drop_them": "sì, elimina le modifiche",
+        "yes_remove": "sì, rimuovi",
+        "in_each_text": "{capLabel} in ogni testo",
+        "version": "versione {version}",
+        "rebuilt_summary": "ricostruito \"{name}\": {passages}{size}, {cap}.",
+        "size_suffix": ", {size}",
+        "download": "scarica",
+        "passages": "brani"
+      },
+      "dataset_install_flow": {
+        "translator_optional": "traduttore (facoltativo)",
+        "translator": "traduttore",
+        "no_typeable_prose_found": "nessuna prosa digitabile trovata",
+        "edit_the_text": "modifica il testo",
+        "change_names_remove_texts_or": "Cambia i nomi, rimuovi testi o modifica il loro contenuto. Il salvataggio ricostruisce il dataset.",
+        "name_the_dataset_fix_titles": "Dai un nome al dataset, correggi titoli e autori, escludi ciò che non è prosa e modifica un testo se ne ha bisogno.",
+        "licence": "licenza",
+        "how_many_passages": "quanti brani?",
+        "title_of_the_pasted_text": "titolo del testo incollato",
+        "paste_or_type_the_text": "incolla o digita qui il testo",
+        "text_to_add": "testo da aggiungere",
+        "add_this_text": "aggiungi questo testo",
+        "copies_go_into_the_dataset": "Le copie entrano nel dataset; i tuoi testi restano come sono.",
+        "add_the_ticked_texts": "aggiungi i testi selezionati",
+        "add_a_text": "aggiungi un testo",
+        "from_files": "da file",
+        "paste": "incolla",
+        "from_my_texts": "dai miei testi",
+        "https_github_com_owner_repo": "https://github.com/owner/repo, …/book.txt o quotes.json",
+        "address_of_a_github_repository": "indirizzo di un repository GitHub, di un file .txt o .md, di un elenco di citazioni o di un pacchetto dataset",
+        "get_it": "ottieni",
+        "import_a_dataset": "importa un dataset",
+        "a_kalibre_dataset_json_or": "un file .kalibre-dataset.json o un file .json di citazioni, oppure trascina qui i file",
+        "make_a_new_dataset": "crea un nuovo dataset",
+        "from_your_own_txt_or": "Dai tuoi file .txt o Markdown, testo incollato, i tuoi testi, un indirizzo web o un repository GitHub di file di testo. Puoi controllare tutto prima dell'installazione e aggiungere altri testi durante il processo. I dataset forniscono citazioni, l'elenco di parole e gli allenamenti e vengono memorizzati solo su questo dispositivo.",
+        "from_txt_or_md_files": "da file .txt o .md",
+        "paste_or_from_my_texts": "incolla o dai miei testi",
+        "paste_a_text": "incolla un testo",
+        "default_title": "testo {number}",
+        "that_file_isn_t_a": "Quel file non è un pacchetto dataset Kalibre né un elenco di citazioni.",
+        "each_file_must_be_under": "Ogni file deve essere inferiore a 20 MB.",
+        "added": "aggiunto {what}",
+        "quoted_title": "\"{title}\"",
+        "added_some": "aggiunti {texts}; lasciati deselezionati, senza prosa digitabile: {skipped}"
+      },
+      "library": {
+        "looking_in_the_libraries": "ricerca nelle librerie…",
+        "search_by_title_author_or": "cerca per titolo, autore o lingua",
+        "search_the_libraries": "cerca nelle librerie",
+        "downloaded": "scaricato",
+        "from_a_library_kalibre_hasn": "da una libreria che kalibre non ha controllato.",
+        "owner_repo_or_https": "owner/repo o https://…",
+        "address_of_a_library": "indirizzo di una libreria",
+        "add": "aggiungi",
+        "other_libraries": "altre librerie",
+        "anyone_can_publish_a_library": "Chiunque può pubblicare una libreria: una cartella di dataset creati con lo strumento dataset di kalibre, su GitHub o su un sito web. Kalibre non ha controllato le librerie diverse dalla propria. Contengono solo testo, ma aggiungi solo quelle di cui ti fidi.",
+        "books_and_quotes_ready_to": "Libri e citazioni pronti da digitare, dalla libreria di kalibre e da quelle che aggiungi. Un download viene conservato in questo browser, quindi funziona offline.",
+        "that_isn_t_a_library": "Quello non è un indirizzo di libreria. Prova owner/repo, un link GitHub o un indirizzo web.",
+        "a_library_address_starts_with": "L'indirizzo di una libreria inizia con https://.",
+        "that_address_has_no_kalibre": "Quell'indirizzo non contiene una libreria Kalibre (manca index.json o non è quello previsto).",
+        "couldn_t_reach_check_the": "Non è stato possibile raggiungere {addressName}. Controlla l'indirizzo o riprova quando sei online.",
+        "has_no_kalibre_library": "{addressName} non contiene una libreria Kalibre ({status}).",
+        "this_dataset_lists_a_file": "Questo dataset indica un file fuori dalla propria cartella, quindi non è stato scaricato.",
+        "this_dataset_has_too_many": "Questo dataset contiene troppi file da scaricare.",
+        "this_dataset_s_checksum_list": "L'elenco dei checksum di questo dataset non è utilizzabile, quindi non è stato scaricato.",
+        "isn_t_in_a_format": "\"{name}\" non è in un formato leggibile da questa versione di Kalibre.",
+        "doesn_t_match_the_library": "\"{name}\" non corrisponde all'indice della libreria (il suo id è {slice}).",
+        "has_no_texts": "\"{name}\" non contiene testi.",
+        "is_too_large": "{id}/{path} è troppo grande.",
+        "has_files_its_checksum_list": "\"{name}\" contiene file che il suo elenco di checksum non copre, quindi non è stato scaricato.",
+        "is_too_large_to_download": "\"{name}\" è troppo grande per essere scaricato."
+      },
+      "datasets": {
+        "where_private_files": "l'archivio privato di file di questo browser",
+        "where_database": "il database di questo browser",
+        "kept_until_cleared": " Il browser lo conserva finché non lo elimini.",
+        "kept_may_clear": " Il browser potrebbe eliminarlo se lo spazio si riduce (vedi impostazioni → dati).",
+        "storage_using": "I dataset installati sono conservati in {where}. Uso: {used} di {quota} disponibili.",
+        "storage_kept": "I dataset installati sono conservati in {where}.",
+        "installed_quotes": "installato \"{name}\": {count} citazioni (duplicati rimossi). ",
+        "saved_summary": "salvato \"{name}\": {texts}, {passages}. ",
+        "installed_summary": "installato \"{name}\": {texts}, {passages}. "
+      },
+      "dataset_draft": {
+        "untitled": "senza titolo"
+      },
+      "dataset_install": {
+        "has_no_usable_prose_it": "\"{title}\" non contiene prosa utilizzabile (servono frasi, non solo intestazioni o elenchi).",
+        "this_file_is_not_a": "Questo file non è un pacchetto dataset Kalibre."
+      }
+    },
+    "drills": {
+      "formats": {
+        "time": "tempo",
+        "words": "parole",
+        "quote": "citazione"
+      },
+      "actions": {
+        "start_drill": "inizia allenamento",
+        "drill": "allenamento",
+        "drill_aria": "allena {mistake} ora",
+        "drill_title": "allena subito solo {mistake}, il metodo consigliato",
+        "manage_in_mistakes": "gestisci in errori",
+        "recommended": "consigliati",
+        "recommended_title": "seleziona gli errori che vale la pena allenare ora, fino al limite di un allenamento",
+        "all": "tutti",
+        "none": "nessuno",
+        "train_and_drill_these": "allena e esercita questi"
+      },
+      "labels": {
+        "how": "come",
+        "what_to_drill": "cosa allenare",
+        "drill_format": "formato dell'allenamento",
+        "drill_length": "lunghezza dell'allenamento",
+        "quote_length": "lunghezza della citazione",
+        "practise_by_area": "esercita per area",
+        "words_count": "{count, plural, one {# parola} other {# parole}}",
+        "ticked_count": "{selected} di {total} selezionati",
+        "in_training": "in allenamento",
+        "ready_to_drill": "pronti per l'allenamento",
+        "improving": "in miglioramento",
+        "finding_quotes": "ricerca di citazioni con questi errori…",
+        "no_quotes_found": "Nessuna citazione di questa lunghezza contiene questi errori. Prova un'altra lunghezza o un allenamento a parole.",
+        "quotes_with_mistakes": "citazioni con questi errori",
+        "best_fit": "corrispondenza migliore",
+        "typed_lately": "digitati di recente",
+        "recommended_reason": "{recommended} è consigliato: {reason}",
+        "ready": "pronto",
+        "due_title": "Ricomparso dall'ultimo allenamento",
+        "not_due_title": "Nessun nuovo errore dall'ultimo allenamento",
+        "rate_title": "Frequenza con cui va storto durante la digitazione",
+        "last_seen_title": "Ultima volta visto",
+        "usual": "solito",
+        "seen_not_trained": "visto, non ancora allenato",
+        "empty_nothing_in_training": "Non c'è ancora nulla in allenamento. Continua a digitare: Kalibre suggerisce gli errori che continuano a ripresentarsi.",
+        "empty_seen_not_trained": "Non c'è ancora nulla in allenamento. Questi errori sono comparsi ma non sono ancora allenati: seleziona quelli su cui vuoi lavorare."
+      },
+      "status": {
+        "training": "in allenamento",
+        "improving": "in miglioramento",
+        "suggested": "suggerito",
+        "watching": "osservato"
+      }
+    },
+    "games": {
+      "feed": {
+        "title": "feed",
+        "blurb": "Dai da mangiare a una creatura affamata con le parole che chiede prima che finisca la sua pazienza, oppure gestisci un buffet per una folla.",
+        "modes": {
+          "prompted": "mangiona esigente",
+          "unprompted": "modalità spuntino",
+          "buffet": "buffet"
+        },
+        "s_not_what_i_asked": "−{seconds}s · {text}? non è quello che avevo chiesto",
+        "fed": "+{seconds}s · {text}",
+        "fed_patched": " (riparato)",
+        "fed_hinted": " (il suggerimento: metà tempo)",
+        "fed_yum": " · gnam",
+        "typo": "−{seconds}s · un refuso",
+        "typo_meant": " ({meant}?)"
+      },
+      "castle": {
+        "title": "castello",
+        "blurb": "Costruisci le mura con le parole e resisti finché gli attaccanti non si arrendono.",
+        "modes": {
+          "unprompted": "qualsiasi mattone",
+          "prompted": "mattoni speciali"
+        },
+        "the_attackers_resolve_hold_the": "La determinazione degli attaccanti: tieni il cancello e il mastio in piedi per logorarla",
+        "stockpile": "scorta",
+        "click_a_brick_to_carry": "fai clic su un mattone per prenderlo · spazio posa · maiusc+invio lascia cadere · 1–9 scegli",
+        "bricks": "{length} mattoni · {toFixed}",
+        "the_dropped_shift_to_use": "{from} ha lasciato {label} · maiusc+{slot} per usarlo",
+        "the_dropped_but_storage_is": "{from} ha lasciato {label}, ma la scorta è piena",
+        "brick_stacked": "{word} · mattone {note} {toFixed} · impilato{repeatNote}",
+        "damage": "{note} · {toFixed} danni",
+        "yard_brick_pick": "{word}: mattone {note}, forza {strength} (premi {key} per prenderlo)",
+        "yard_brick": "{word}: mattone {note}, forza {strength}",
+        "aiming_at": "mira a: {section} {integrity}/{max}",
+        "aiming_critical": " · critico",
+        "aiming_needs": " · servono mattoni che {requirement}",
+        "brick_added": "{what} · +{added} {section}",
+        "brick_named": "{word} · mattone {note}",
+        "the_castle": "il castello",
+        "powerups": {
+          "mortar": {
+            "label": "malta",
+            "help": "i mattoni lasciati cadere colpiscono con il doppio della forza"
+          },
+          "mason": {
+            "label": "muratore",
+            "help": "i mattoni contano una volta e mezza"
+          },
+          "oil": {
+            "label": "olio",
+            "help": "stordisce tutti gli attaccanti insieme"
+          },
+          "mend": {
+            "label": "riparazione",
+            "help": "ripara il cancello o il mastio più debole"
+          }
+        },
+        "foe_title": "{type}: fai clic o lascia cadere un mattone per schiacciarlo ({hp} HP)",
+        "foe_stunned": ", stordito",
+        "catapult_title": "catapulta: troppo lontana per essere raggiunta",
+        "catapult_aiming": ", mira alla {section}",
+        "section_title": "{section}: {integrity}/{max}",
+        "section_critical": ", critico",
+        "section_needs": ", servono mattoni che {requirement}",
+        "news_line": "{label}: {note}",
+        "powerup": "potenziamento",
+        "sortie_title": "sortita della guarnigione: raduna i difensori sul campo",
+        "sortie_ready": "schiera la sortita · alt+invio",
+        "sortie_mustering": "raduno ({seconds}s)",
+        "sortie_breached": "il corpo di guardia è stato sfondato",
+        "sortie_no_bricks": "servono mattoni per equipaggiare",
+        "guard_title": "guardia di guarnigione: {hp}/{maxHp} HP"
+      },
+      "space": {
+        "title": "spazio",
+        "blurb": "Muovi la nave con il mouse, spara con le parole e tienila in vita.",
+        "modes": {
+          "unprompted": "fuoco libero",
+          "prompted": "fuoco mirato"
+        },
+        "ship_health": "salute della nave",
+        "magazine": "caricatore",
+        "bomb_charge": "carica della bomba",
+        "click_enter_fires_scroll_choose": "clic / invio spara · ↑ ↓ / rotellina sceglie · backspace ×2 scarta",
+        "finish_a_word_to_load": "completa una parola per caricarla",
+        "bomb_ready_shift_enter": "bomba pronta · maiusc+invio",
+        "bomb": "bomba {floor}%",
+        "accumulator_charge": "carica del condensatore",
+        "accumulator": "condensatore {floor}%",
+        "accumulator_ready_alt_enter": "condensatore pronto ({charge}%) · alt+invio",
+        "accumulator_overload_alt_enter": "sovraccarico del condensatore! · alt+invio",
+        "ship": "nave {round}",
+        "score": "punteggio {round}",
+        "destroyed": "distrutto {value}",
+        "s_left": "rimangono {ceil}s",
+        "trigger_jammed_type_or_backspace": "grilletto inceppato · digita “{word}” oppure premi backspace due volte per scartare il colpo"
+      },
+      "spot": {
+        "title": "spot",
+        "blurb": "Trova gli errori nascosti in un brano e correggili.",
+        "modes": {
+          "prompted": "correggi bozze"
+        },
+        "was": "{errorTitle}: era “{corrupted}”",
+        "should_be": "{errorTitle}: dovrebbe essere “{original}”",
+        "was_fine": "{word} andava bene",
+        "fixed": "corretto: {original} · {errorTitle}",
+        "it_should_be": "dovrebbe essere “{original}” · {errorTitle}",
+        "repairing": "{title} · correggilo qui (← → muovi) e premi invio",
+        "repairing_retry": " · un altro tentativo",
+        "repairing_cancel": " · esc per annullare",
+        "lives": "{count}/{max} vite",
+        "streak": "serie {count}",
+        "combo": "combo ×{multiplier}",
+        "escaped": "{word} è passato oltre"
+      },
+      "ui": {
+        "pause": "pausa",
+        "paused": "in pausa",
+        "resume": "riprendi",
+        "restart": "riavvia",
+        "quit": "esci",
+        "game_over": "fine della partita",
+        "victory": "vittoria",
+        "menu_intro": "Digitazione come gioco: le tue parole diventano cibo, mattoni, colpi e riparazioni. I giochi contano per gli XP, i tuoi errori e l'obiettivo giornaliero (in base al tempo passato a digitare, non a leggere o mirare).",
+        "games_aria": "giochi",
+        "not_played": "non ancora giocato",
+        "best_summary": "record {score} · ultima partita {date}",
+        "race_record": "da solo o sulla tua rete",
+        "mode": "modalità",
+        "difficulty": "difficoltà",
+        "details": "dettagli",
+        "replay": "replay",
+        "main": "principale",
+        "demo_caption": "demo · passa sopra per giocare",
+        "play_game": "gioca a {title}",
+        "all_games": "tutti i giochi",
+        "demo_aria": "{title}: demo {label}",
+        "no_passages": "Nessun brano da correggere. Attiva un dataset in testi → dataset.",
+        "time_so_far": "tempo trascorso",
+        "end_game": "termina partita ",
+        "exit": "esci ",
+        "commands": "comandi ",
+        "hints": "esc pausa · {restartKey} riavvia",
+        "strength_chip_title": "forza: 1 per lettera, +1 per k v w y, +2 per j q x z",
+        "strength_current": "forza {strength}",
+        "strength_goal": "forza {strength} / {goal}",
+        "pause_lost_focus": "la finestra ha perso il fuoco",
+        "pause_typing_lost": "il fuoco di digitazione è stato perso",
+        "heading": "risultati di {title}",
+        "status_failed": "fine della partita",
+        "status_aborted": "terminata in anticipo",
+        "status_done": "fatto",
+        "play_again": "gioca di nuovo",
+        "change_setup": "cambia impostazioni",
+        "added_training": "aggiunto all'allenamento",
+        "mistakes_noted": "{count, plural, one { · 1 errore annotato} other { · # errori annotati}}",
+        "results_summary": "{time} · {words} parole · {wpm} ppm · {accuracy} · errori di battitura {mistypes} · correzioni {corrections}",
+        "daily_goal_title": "I giochi contano per l'obiettivo il tempo passato a digitare, non quello speso a leggere, mirare o pensare",
+        "key_mashing_note": "Questa sessione sembrava una raffica di tasti ({reason}), quindi errori e XP non sono stati conteggiati.",
+        "ghost_title": "gareggia contro un fantasma",
+        "ghost_blurb": "I tuoi fantasmi salvati, per percorso. Scegline fino a {max} su un percorso e gareggia sul suo testo, con le sue regole; i loro cronometri e il tuo partono dal primo tasto.",
+        "import_file": "importa un file fantasma",
+        "from_folder": "dalla tua cartella kalibre",
+        "drop_hint": "oppure trascinane uno sulla pagina",
+        "race_setup": "impostazioni della gara",
+        "time_left": "tempo rimanente",
+        "any_word_blurb": "Mangerò qualsiasi cosa. Le parole più forti mi saziano di più.",
+        "any_word": "qualsiasi parola",
+        "counts": "nutrito {fed} · sbagliato {wrong} · errori di battitura {mistyped}{streak, select, true { · serie {count}} other {}}",
+        "satisfaction": "soddisfazione",
+        "creatures_orders": "creature e loro ordini",
+        "waiting_guest": "in attesa del primo ospite…",
+        "served_words": "parole servite",
+        "table_status": "tavolo {count}/{cap}",
+        "yard_empty": "digita una parola per creare un mattone",
+        "calm_wave": "calma: fai scorta di mattoni · ondata {wave} di {of} tra {seconds}s",
+        "active_wave": "ondata {wave} di {of} · {count, plural, one {1 attaccante} other {# attaccanti}}{holding, select, true { · in mano} other { · non in mano}}",
+        "castle_integrity": "integrità del castello {percent}%",
+        "time_bank": "riserva di tempo",
+        "next_passage": "brano successivo ",
+        "hud_found": "brano {round} · trovati {found} di {total}",
+        "hud_score": "punteggio {score}",
+        "find_mistake": "trova un errore: punta o usa le frecce, poi fai clic o premi invio",
+        "skip_title": "vai avanti; ciò che resta conta come mancato"
+      },
+      "errors": {
+        "deletion": "lettera mancante",
+        "insertion": "lettera extra",
+        "transposition": "lettere scambiate",
+        "repeat": "tasto premuto due volte",
+        "wrongWord": "parola sbagliata",
+        "missingPunctuation": "punteggiatura mancante",
+        "wrongPunctuation": "punteggiatura errata",
+        "capitalisation": "maiuscola",
+        "whitespace": "spaziatura"
+      },
+      "feed_buffet": {
+        "patience": "pazienza",
+        "the_floor_fall_to_it": "la soglia: se ci arrivi, il buffet chiude",
+        "burnt_a_typo_counts_half": "bruciato (un errore di battitura): vale la metà",
+        "served": "servito {text}",
+        "an_order_filled_happy_guest": "ordine completato · ospite felice",
+        "a_guest_gave_up_waiting": "un ospite ha smesso di aspettare",
+        "went_stale": "{text} è diventato stantio",
+        "the_table_is_full_let": "il tavolo è pieno: lasciali mangiare prima",
+        "that_s_not_food": "{text}? non è cibo",
+        "orders_wasted_upset": "ordini {value} · sprecati {value2} · scontenti {value3}",
+        "served_burnt": " (bruciato: vale la metà)"
+      },
+      "games_results": {
+        "daily_goal_met_today": "✓ obiettivo giornaliero raggiunto · {formatGoalAmount} oggi",
+        "daily_goal_progress": "obiettivo giornaliero · {done} di {target} oggi · questa sessione {run}",
+        "run_minutes": "{clock} di digitazione",
+        "run_xp": "{xp} xp",
+        "run_words": "{words} parole"
+      },
+      "games_setup": {
+        "controls": "controlli",
+        "notes": "note",
+        "mechanic_visuals": "elementi visivi delle meccaniche",
+        "mechanics_contexts": "contesti delle meccaniche",
+        "more": "altro ▾",
+        "demonstration_variants": "varianti della dimostrazione"
+      },
+      "ghost_shelf": {
+        "kalibre_can_t_reach_your": "kalibre non può raggiungere la tua cartella: autorizzalo in impostazioni → dati",
+        "no_ghost_files_in_the": "nessun file fantasma in ghosts/ della cartella",
+        "import": "importa",
+        "no_saved_ghosts_yet_save": "nessun fantasma salvato. Salva uno dai risultati di un test, da un replay o dalla cronologia.",
+        "race_anyway": "gareggia comunque",
+        "delete_s_ghost": "elimina il fantasma di {name}",
+        "name_on_the_file": "nome nel file",
+        "saved_to": "salvato in {savedTo}",
+        "is_ready": "{fileName} è pronto",
+        "include_my_card": "includi la mia scheda",
+        "your_text_goes_in_the": "il tuo testo verrà inserito nel file.",
+        "share": "condividi",
+        "save": "{count, plural, one {salva il fantasma} other {salva # fantasmi}}"
+      },
+      "powerup_tray": {
+        "shift": "{label}: {help} (maiusc+{value})",
+        "powerups_two_at_once": "potenziamenti {length}/{storage} · due alla volta"
+      },
+      "race_card": {
+        "ghost": "fantasma",
+        "race_people_on_your_network": "gareggia con persone sulla tua rete",
+        "your_car_dress_it_in": "la tua auto. vestila in profilo → la tua scheda → garage; conquista componenti gareggiando e giocando.",
+        "race_a_demo_playing_while": "gara: una demo che si riproduce mentre ci passi sopra o le dai il fuoco",
+        "rivals": "{rulesLine} · avversari {difficulty}",
+        "RACE_CARD": {
+          "race": {
+            "title": "gara",
+            "blurb": "Gareggia contro il computer da solo, o contro persone sulla tua rete, con una citazione, parole, contro il tempo o finché riesci a mantenere il ritmo.",
+            "help": [
+              "Scegli cosa vuoi correre: una citazione, un numero di parole, un tempo, oppure sostenuto, dove vince l'ultimo che mantiene il ritmo o la precisione.",
+              "Gli avversari corrono circa alla tua velocità recente: facile un po' più lento, difficile un po' più veloce. Chi lascia lettere sbagliate paga un secondo per ciascuna.",
+              "Da solo, gareggi contro due avversari computerizzati e, dopo una sessione in quella modalità, contro un fantasma che puoi scegliere. Sulla tua rete, tutti digitano lo stesso testo nello stesso momento.",
+              "Gareggiare contro un fantasma usa i fantasmi che hai salvato, fino a tre alla volta, sul loro testo."
+            ]
+          }
+        },
+        "rivals_2": "avversari"
+      },
+      "word_quality": {
+        "close_to": " · quasi come “{variantOf}” {percent}",
+        "repeat": " · ripetizione {percent}"
+      },
+      "games_registry": {
+        "STRENGTH_MECHANIC": {
+          "strength": {
+            "label": "forza",
+            "summary": "la precisione di digitazione determina la forza della parola. 1 per lettera, +1 per K V W Y, +2 per J Q X Z. a difficoltà difficile, le varianti simili delle parole recenti contano meno."
+          }
+        },
+        "GAMES": {
+          "feed": {
+            "contexts": {
+              "getting-started": {
+                "label": "per iniziare",
+                "group": "per iniziare",
+                "summary": "digita parole per nutrire la creatura prima che finisca la sua pazienza.",
+                "highlights": [
+                  "digita una parola e premi spazio per servirla",
+                  "mantieni felice la creatura per restare in vita"
+                ],
+                "details": [
+                  "ogni parola che servi ripristina tempo. le parole più lunghe ne ripristinano di più.",
+                  "se ci metti troppo, l'umore della creatura cala e alla fine se ne va."
+                ],
+                "mechanics": {
+                  "mood": {
+                    "label": "umore",
+                    "summary": "l'umore della creatura cala nel tempo se non viene nutrita."
+                  },
+                  "patience": {
+                    "label": "pazienza",
+                    "summary": "un timer scende. servire una parola adatta ripristina tempo."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "invia parola"
+                  }
+                },
+                "visuals": {
+                  "mood-content": {
+                    "label": "contenuto"
+                  },
+                  "mood-peckish": {
+                    "label": "affamato"
+                  },
+                  "mood-starving": {
+                    "label": "affamatissimo"
+                  }
+                }
+              },
+              "creature-requests": {
+                "label": "richieste della creatura",
+                "group": "per iniziare",
+                "summary": "la creatura chiede un tipo di parola: abbinalo per ottenere tutto il tempo.",
+                "highlights": [
+                  "leggi la richiesta sopra la creatura",
+                  "una parola adatta dà tutto il tempo; una sbagliata lo fa perdere"
+                ],
+                "details": [
+                  "le richieste includono: parole brevi o lunghe, parole che iniziano con una lettera o parole che contengono determinate lettere.",
+                  "se sei fermo da un po', o hai sbagliato due volte, sulla creatura compare in trasparenza una parola adatta, che vale metà tempo."
+                ],
+                "notes": {
+                  "hard": {
+                    "text": "le richieste sono più specifiche e viene concesso meno tempo."
+                  }
+                },
+                "mechanics": {
+                  "prompts": {
+                    "label": "richieste",
+                    "summary": "la creatura mostra che tipo di parola vuole."
+                  },
+                  "hint": {
+                    "label": "suggerimento sulla pancia",
+                    "summary": "dopo un'attesa o due errori, sulla creatura compare in trasparenza una parola valida."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "invia parola"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "suggerimento sulla pancia"
+                  }
+                },
+                "visuals": {
+                  "prompt-need": {
+                    "label": "richiesta di parola"
+                  },
+                  "belly-hint": {
+                    "label": "suggerimento sulla pancia (metà tempo)"
+                  }
+                }
+              },
+              "snack-mode": {
+                "label": "modalità spuntino",
+                "group": "per iniziare",
+                "summary": "la creatura mangia qualsiasi parola: le parole più forti la riempiono di più, ma si affama più in fretta.",
+                "highlights": [
+                  "qualsiasi parola valida nutre la creatura",
+                  "le parole più lunghe e precise ripristinano più tempo"
+                ],
+                "details": [
+                  "non ci sono richieste: digita la parola che vuoi.",
+                  "la creatura consuma la propria pazienza più rapidamente che con il mangione esigente, quindi la velocità conta."
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "invia parola"
+                  }
+                },
+                "visuals": {
+                  "free-eating": {
+                    "label": "qualsiasi parola valida"
+                  },
+                  "fast-patience": {
+                    "label": "fame accelerata"
+                  }
+                }
+              },
+              "buffet": {
+                "label": "servizio a buffet",
+                "group": "per iniziare",
+                "summary": "gli ospiti ordinano diversi tipi di parola. servi le parole al tavolo e loro mangiano ciò che va bene.",
+                "highlights": [
+                  "gli ospiti arrivano con ordini di 1–3 tipi di parola",
+                  "mantieni la soddisfazione complessiva sopra la linea rossa"
+                ],
+                "details": [
+                  "digita una parola e premi spazio per metterla sul tavolo. gli ospiti mangiano ciò che corrisponde ai loro ordini.",
+                  "un ordine completato fa piacere all'ospite e aumenta la soddisfazione. un ospite che aspetta troppo se ne va scontento.",
+                  "le parole senza senso vengono buttate e riducono la soddisfazione. i refusi producono piatti bruciati che valgono metà.",
+                  "i piatti lasciati sul tavolo diventano stantii e vengono sprecati."
+                ],
+                "mechanics": {
+                  "table": {
+                    "label": "tavolo",
+                    "summary": "le parole servite vanno su un tavolo condiviso. gli ospiti mangiano ciò che corrisponde."
+                  },
+                  "satisfaction": {
+                    "label": "soddisfazione",
+                    "summary": "un indicatore 0–100. se scende alla soglia, il buffet chiude."
+                  },
+                  "orders": {
+                    "label": "ordini",
+                    "summary": "ogni ospite ha 1–3 requisiti di tipo di parola sul proprio biglietto."
+                  },
+                  "stale": {
+                    "label": "piatti stantii",
+                    "summary": "i piatti non raccolti diventano stantii e riducono la soddisfazione."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "servi la parola al tavolo"
+                  }
+                },
+                "visuals": {
+                  "guest-ticket": {
+                    "label": "biglietto dell'ordine"
+                  },
+                  "buffet-table": {
+                    "label": "tavolo di servizio"
+                  },
+                  "satisfaction-floor": {
+                    "label": "soglia di soddisfazione"
+                  }
+                }
+              }
+            }
+          },
+          "castle": {
+            "options": {
+              "waves": {
+                "label": "ondate",
+                "choices": {
+                  "endless": {
+                    "label": "senza fine"
+                  }
+                }
+              }
+            },
+            "contexts": {
+              "getting-started": {
+                "label": "per iniziare",
+                "group": "per iniziare",
+                "summary": "digita parole per creare mattoni, mira a una sezione e posali per costruire e riparare il tuo castello.",
+                "highlights": [
+                  "digita una parola per creare un mattone",
+                  "mira con le frecce o il mouse, poi premi spazio per posarlo"
+                ],
+                "details": [
+                  "le parole più lunghe creano mattoni più forti. i refusi li rendono crepati.",
+                  "il castello inizia integro, con una calma per fare scorta prima della prima ondata.",
+                  "i mattoni compaiono nella scorta; prendine uno con 1–9 o trascinalo con il mouse."
+                ],
+                "notes": {
+                  "prompted": {
+                    "text": "in modalità mattoni speciali, le sezioni sotto attacco richiedono parole specifiche. un mattone fuori specifica perde gran parte della sua forza."
+                  }
+                },
+                "mechanics": {
+                  "stockpile": {
+                    "label": "scorta",
+                    "summary": "le parole digitate diventano mattoni in attesa nel cortile. prendine uno con un numero o usa l'ultimo."
+                  },
+                  "quality": {
+                    "label": "qualità del mattone",
+                    "summary": "solido, riparato, crepato o macerie: dipende dalla lunghezza della parola e dalla precisione."
+                  },
+                  "cursor": {
+                    "label": "mira",
+                    "summary": "il cursore mostra dove andrà il prossimo mattone. muovilo con le frecce o fai clic su una sezione."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "mira a una sezione"
+                  },
+                  "i1": {
+                    "action": "posa l'ultimo mattone"
+                  },
+                  "i2": {
+                    "action": "prendi un mattone dalla scorta"
+                  }
+                },
+                "visuals": {
+                  "stockpile-yard": {
+                    "label": "cortile della scorta"
+                  },
+                  "brick-solid": {
+                    "label": "mattone solido"
+                  },
+                  "brick-cracked": {
+                    "label": "mattone crepato"
+                  }
+                }
+              },
+              "surviving": {
+                "label": "sopravvivere",
+                "group": "sopravvivere",
+                "summary": "mantieni in piedi cancello e mastio. ogni ondata perde determinazione e si ritira quando le sezioni critiche resistono.",
+                "highlights": [
+                  "il cancello e il mastio sono critici: perdere il mastio fa finire la partita",
+                  "ripara le sezioni danneggiate posandovi sopra dei mattoni"
+                ],
+                "details": [
+                  "le sezioni del castello hanno un'integrità che cala quando attaccano i nemici.",
+                  "riparare molto in media in tutto il castello consuma più rapidamente la determinazione dell'ondata.",
+                  "ogni ondata si ritira quando la sua determinazione raggiunge zero o quando tutti i suoi nemici vengono distrutti."
+                ],
+                "notes": {
+                  "hard": {
+                    "text": "i nemici arrivano più forti e in numero maggiore."
+                  }
+                },
+                "mechanics": {
+                  "sections": {
+                    "label": "sezioni del castello",
+                    "summary": "muro, torre, cancello, mastio e fondamenta. ciascuna ha la propria integrità."
+                  },
+                  "integrity": {
+                    "label": "integrità",
+                    "summary": "i punti ferita di una sezione. a zero, la sezione viene sfondata."
+                  },
+                  "resolve": {
+                    "label": "determinazione dell'ondata",
+                    "summary": "un indicatore che mostra quanto manca alla ritirata dell'ondata."
+                  },
+                  "waves": {
+                    "label": "ondate",
+                    "summary": "i nemici arrivano in ondate numerate, con pause tra una e l'altra."
+                  }
+                },
+                "visuals": {
+                  "curtain-wall": {
+                    "label": "muro di cinta"
+                  },
+                  "gatehouse": {
+                    "label": "corpo di guardia"
+                  },
+                  "great-keep": {
+                    "label": "grande mastio"
+                  },
+                  "wave-resolve": {
+                    "label": "determinazione dell'ondata"
+                  }
+                }
+              },
+              "fighting": {
+                "label": "combattere",
+                "group": "combattere",
+                "summary": "lascia cadere mattoni sui nemici per schiacciarli, oppure usa la catapulta per colpirli da lontano.",
+                "highlights": [
+                  "maiusc+invio lascia cadere un mattone sull'attaccante bersagliato",
+                  "i bruti sfondano, i guastatori rosicchiano, le catapulte lanciano massi da lontano"
+                ],
+                "details": [
+                  "un mattone lasciato cadere infligge danni pari alla sua forza.",
+                  "un nemico non schiacciato può essere stordito per un momento.",
+                  "le catapulte stanno a distanza: un arco tratteggiato mostra dove stanno mirando."
+                ],
+                "mechanics": {
+                  "brute": {
+                    "label": "bruto",
+                    "summary": "sfonda le sezioni da vicino. si stanca dopo un certo numero di colpi."
+                  },
+                  "sapper": {
+                    "label": "guastatore",
+                    "summary": "danneggia le sezioni. si sposta tra i bersagli."
+                  },
+                  "catapult": {
+                    "label": "catapulta",
+                    "summary": "scaglia massi da lontano lungo un arco parabolico. fuori dalla portata dei lanci."
+                  },
+                  "stun": {
+                    "label": "stordimento",
+                    "summary": "un mattone non letale può stordire l'attaccante, fermandolo brevemente."
+                  },
+                  "drops": {
+                    "label": "lanci di mattoni",
+                    "summary": "lascia cadere un mattone su un nemico per danneggiarlo o schiacciarlo."
+                  },
+                  "saboteur": {
+                    "label": "sabotatore",
+                    "summary": "infiltrati con barili di polvere che corrono verso le mura; schiacciali presto per far esplodere il barile tra gli attaccanti."
+                  },
+                  "ladderman": {
+                    "label": "scalatore",
+                    "summary": "ingegneri d'assedio che piantano scale d'assalto; lascia cadere mattoni per rovesciare la scala e provocare una cascata di cadute."
+                  },
+                  "sortie": {
+                    "label": "sortita della guarnigione",
+                    "summary": "raduna i difensori dal corpo di guardia sul campo per intercettare gli attaccanti prima che raggiungano le mura."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "lascia cadere un mattone sul nemico"
+                  },
+                  "i1": {
+                    "action": "mira a una sezione o a un nemico"
+                  },
+                  "i2": {
+                    "action": "schiera una sortita della guarnigione nella colonna del cursore"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "lanci di mattoni"
+                  },
+                  "i1": {
+                    "label": "sabotatori e scale"
+                  },
+                  "i2": {
+                    "label": "sortite della guarnigione"
+                  }
+                },
+                "visuals": {
+                  "brute-ram": {
+                    "label": "bruto (sfondamento)"
+                  },
+                  "sapper-pick": {
+                    "label": "guastatore (piccone)"
+                  },
+                  "saboteur-keg": {
+                    "label": "sabotatore (barile)"
+                  },
+                  "siege-ladder": {
+                    "label": "scala d'assedio"
+                  },
+                  "garrison-soldier": {
+                    "label": "soldato di guarnigione"
+                  },
+                  "catapult-siege": {
+                    "label": "catapulta (assedio)"
+                  },
+                  "boulder-arc": {
+                    "label": "arco del masso"
+                  }
+                }
+              },
+              "powering-up": {
+                "label": "potenziarsi",
+                "group": "potenziarsi",
+                "summary": "i nemici schiacciati a volte lasciano potenziamenti. conservali e attivali quando servono.",
+                "highlights": [
+                  "raccogli un potenziamento quando un nemico viene schiacciato",
+                  "attiva con maiusc+1–3 o fai clic su uno spazio"
+                ],
+                "details": [
+                  "puoi conservare fino a tre potenziamenti. due possono essere attivi contemporaneamente.",
+                  "la malta rende più forti i lanci di mattoni. il muratore fa contare di più i mattoni posati. l'olio stordisce tutti i nemici sul campo. la riparazione sistema la sezione critica più debole."
+                ],
+                "mechanics": {
+                  "mortar": {
+                    "label": "malta",
+                    "summary": "i lanci di mattoni infliggono il doppio dei danni."
+                  },
+                  "mason": {
+                    "label": "muratore",
+                    "summary": "i mattoni posati danno 1,5× forza."
+                  },
+                  "oil": {
+                    "label": "olio",
+                    "summary": "stordisce immediatamente tutti gli attaccanti sul campo."
+                  },
+                  "mend": {
+                    "label": "riparazione",
+                    "summary": "ripristina l'integrità del cancello o del mastio più debole."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "attiva il potenziamento nello spazio 1"
+                  },
+                  "i1": {
+                    "action": "attiva il potenziamento nello spazio 2"
+                  },
+                  "i2": {
+                    "action": "attiva il potenziamento nello spazio 3"
+                  }
+                },
+                "visuals": {
+                  "mortar-powerup": {
+                    "label": "malta (lanci 2×)"
+                  },
+                  "mason-powerup": {
+                    "label": "muratore (muro 1,5×)"
+                  },
+                  "oil-powerup": {
+                    "label": "olio bollente (stordisce tutti)"
+                  },
+                  "mend-powerup": {
+                    "label": "riparazione sul campo"
+                  }
+                }
+              }
+            }
+          },
+          "space": {
+            "options": {
+              "duration": {
+                "label": "durata",
+                "choices": {
+                  "endless": {
+                    "label": "senza fine"
+                  },
+                  "i1": {
+                    "label": "1 min"
+                  },
+                  "i2": {
+                    "label": "2 min"
+                  }
+                }
+              }
+            },
+            "contexts": {
+              "getting-started": {
+                "label": "per iniziare",
+                "group": "per iniziare",
+                "summary": "muovi la nave, digita parole per caricare il caricatore e spara per distruggere i nemici.",
+                "highlights": [
+                  "muovi con il mouse o le frecce",
+                  "digita una parola e premi invio per sparare"
+                ],
+                "details": [
+                  "le parole completate caricano il caricatore. premi invio per sparare il colpo scelto.",
+                  "una parola terminata con invio viene sparata subito senza passare dal caricamento.",
+                  "usa ↑ ↓ o la rotellina per scegliere quale spazio del caricatore sparare."
+                ],
+                "notes": {
+                  "prompted": {
+                    "text": "in modalità mirata, ogni nave nemica ha un requisito di parola. i colpi non corrispondenti rimbalzano."
+                  }
+                },
+                "mechanics": {
+                  "movement": {
+                    "label": "movimento",
+                    "summary": "la nave si muove orizzontalmente. usa il mouse o ← →."
+                  },
+                  "magazine": {
+                    "label": "caricatore",
+                    "summary": "le parole digitate riempiono il caricatore. invio spara. ↑ ↓ scelgono uno spazio."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "muovi la nave"
+                  },
+                  "i1": {
+                    "action": "spara il colpo scelto dal caricatore"
+                  },
+                  "i2": {
+                    "action": "scegli uno spazio del caricatore"
+                  }
+                },
+                "visuals": {
+                  "starfighter": {
+                    "label": "caccia stellare"
+                  },
+                  "magazine-slots": {
+                    "label": "spazi del caricatore"
+                  }
+                }
+              },
+              "surviving": {
+                "label": "sopravvivere",
+                "group": "sopravvivere",
+                "summary": "evita i danni, risolvi gli inceppamenti, schiva gli asteroidi e usa le navi di soccorso per riparare.",
+                "highlights": [
+                  "la nave ha salute: i colpi la riducono e arrivare a zero fa finire la partita",
+                  "digita la parola sulla nave di soccorso verde per riparare"
+                ],
+                "details": [
+                  "le parole pulite non inceppano mai. i refusi possono farlo, e le parole senza senso aumentano il rischio.",
+                  "quando il grilletto è inceppato, digita la parola mostrata per liberarlo, oppure premi due volte backspace senza testo per scartare il colpo.",
+                  "non sparare alle navi di soccorso: un colpo le guarisce meno (tranne a facile).",
+                  "gli asteroidi sono ostacoli indistruttibili. quelli grandi si dividono in pezzi quando vengono colpiti.",
+                  "i droni si agganciano con una linea tratteggiata e si tuffano dritti verso il basso. spostati.",
+                  "le navi che superano il fondo non fanno danni."
+                ],
+                "notes": {
+                  "easy": {
+                    "text": "sparare a una nave di soccorso non riduce la sua cura."
+                  }
+                },
+                "mechanics": {
+                  "health": {
+                    "label": "salute",
+                    "summary": "i punti ferita della nave. zero significa fine della partita."
+                  },
+                  "jams": {
+                    "label": "inceppamenti",
+                    "summary": "un'arma inceppata non può sparare finché non viene liberata. refusi e parole senza senso aumentano il rischio."
+                  },
+                  "asteroids": {
+                    "label": "asteroidi",
+                    "summary": "rocce che non possono essere distrutte. quelle grandi si dividono in pezzi."
+                  },
+                  "rescue": {
+                    "label": "navi di soccorso",
+                    "summary": "navi verdi con una parola. digitala per riparare lo scafo."
+                  },
+                  "drones": {
+                    "label": "droni",
+                    "summary": "si agganciano e si tuffano dritti. schiva la linea di tuffo."
+                  },
+                  "jammer": {
+                    "label": "inceppatore",
+                    "summary": "aumenta la probabilità di inceppamento finché è vivo."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "scarta il colpo scelto (risolve un inceppamento)"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "riparazione con soccorso"
+                  }
+                },
+                "visuals": {
+                  "rescue-ship": {
+                    "label": "nave di soccorso (cura)"
+                  },
+                  "dive-drone": {
+                    "label": "drone in picchiata"
+                  },
+                  "asteroid": {
+                    "label": "ostacolo asteroide"
+                  },
+                  "weapon-jam": {
+                    "label": "inceppamento dell'arma"
+                  }
+                }
+              },
+              "fighting": {
+                "label": "combattere",
+                "group": "combattere",
+                "summary": "carica il caricatore, intercetta missili e caccia e usa la bomba per ripulire il campo.",
+                "highlights": [
+                  "i missili portano una lettera: digitala senza altro testo per abbatterli",
+                  "maiusc+invio fa esplodere la bomba quando è carica",
+                  "alt+invio spara il raggio penetrante del condensatore quando è carico"
+                ],
+                "details": [
+                  "caricare parole riempie il misuratore della bomba. quando è pieno, maiusc+invio elimina tutti i missili e danneggia ogni nemico.",
+                  "le parole caricate di alta qualità caricano il condensatore. alt+invio scarica un laser verticale penetrante; il sovraccarico al 100% distrugge le navi schermate.",
+                  "le stazioni spaziali lanciano caccia che ti inseguono. digita la lettera di un caccia per abbatterlo.",
+                  "le mine terrestri esplodono in schegge quando vengono colpite, che colpiscono tutto ciò che è vicino, te compreso.",
+                  "le navi schermate subiscono colpi solo dalle parole che soddisfano il loro requisito."
+                ],
+                "notes": {
+                  "prompted": {
+                    "text": "in modalità mirata, ogni nave ha un requisito di parola da soddisfare."
+                  }
+                },
+                "mechanics": {
+                  "missiles": {
+                    "label": "missili",
+                    "summary": "portano una lettera. senza testo digitato, digitala per abbatterli all'istante."
+                  },
+                  "bomb": {
+                    "label": "bomba",
+                    "summary": "si carica mentre carichi parole. maiusc+invio la fa esplodere, elimina i missili e danneggia i nemici."
+                  },
+                  "accumulator": {
+                    "label": "raggio del condensatore",
+                    "summary": "si carica con parole pulite e di alta qualità. alt+invio spara un raggio verticale penetrante; al 100% attraversa gli scudi e vaporizza i missili."
+                  },
+                  "fighters": {
+                    "label": "caccia",
+                    "summary": "piccole navi lanciate dalle stazioni. inseguono il giocatore. digita la loro lettera per intercettarle."
+                  },
+                  "stations": {
+                    "label": "stazioni",
+                    "summary": "grandi hub che restano in quota e generano caccia."
+                  },
+                  "landmines": {
+                    "label": "mine terrestri",
+                    "summary": "mine con spuntoni. le schegge dopo la distruzione colpiscono tutto ciò che è vicino."
+                  },
+                  "shields": {
+                    "label": "scudi",
+                    "summary": "alcune navi hanno scudi che si rompono solo con parole che soddisfano un requisito."
+                  },
+                  "heavyFrigate": {
+                    "label": "fregata pesante",
+                    "summary": "prua rinforzata con barriera schermata e doppie batterie di missili."
+                  },
+                  "eliteCruiser": {
+                    "label": "incrociatore d'élite",
+                    "summary": "pesante corazzata con torrette di difesa puntuale che abbattono parole deboli (<30 potenza)."
+                  },
+                  "flagship": {
+                    "label": "ammiraglia",
+                    "summary": "enorme nave di comando modulare. distruggi le batterie d'armi e fai crollare il generatore di scudi per esporre il ponte."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "fa esplodere la bomba"
+                  },
+                  "i1": {
+                    "action": "scarica il raggio del condensatore"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "onda d'urto della bomba"
+                  },
+                  "i1": {
+                    "label": "raggio del condensatore"
+                  },
+                  "i2": {
+                    "label": "boss ammiraglia"
+                  }
+                },
+                "visuals": {
+                  "missile-token": {
+                    "label": "missile (lettera)"
+                  },
+                  "bomb-shockwave": {
+                    "label": "onda d'urto della bomba"
+                  },
+                  "capacitor-beam": {
+                    "label": "raggio penetrante del condensatore"
+                  },
+                  "heavy-frigate": {
+                    "label": "fregata pesante"
+                  },
+                  "elite-cruiser": {
+                    "label": "incrociatore d'élite"
+                  },
+                  "flagship-boss": {
+                    "label": "boss ammiraglia"
+                  },
+                  "orbital-station": {
+                    "label": "stazione orbitale"
+                  },
+                  "shrapnel-mine": {
+                    "label": "mina terrestre"
+                  }
+                }
+              },
+              "powering-up": {
+                "label": "potenziarsi",
+                "group": "potenziarsi",
+                "summary": "i nemici distrutti lasciano potenziamenti. raccoglili, conservali e attivali.",
+                "highlights": [
+                  "raccogli un potenziamento fluttuante per conservarlo",
+                  "attiva con maiusc+1–3 o fai clic su uno spazio"
+                ],
+                "details": [
+                  "puoi conservare fino a tre potenziamenti. due tipi possono essere attivi insieme; riottenere lo stesso tipo accumula il suo timer.",
+                  "doppio fuoco: ogni colpo viene sparato due volte prima di consumarsi.",
+                  "gatling: ogni lettera digitata spara un dardo istantaneo.",
+                  "scudo: una barriera assorbe i colpi per la nave.",
+                  "automa: sceglie automaticamente il colpo migliore per la minaccia più grande.",
+                  "inseguimento: le parole sparate si dirigono verso i bersagli."
+                ],
+                "mechanics": {
+                  "double": {
+                    "label": "doppio",
+                    "summary": "i colpi vengono sparati due volte prima di consumarsi."
+                  },
+                  "gatling": {
+                    "label": "gatling",
+                    "summary": "ogni lettera digitata spara un dardo di energia istantaneo."
+                  },
+                  "shield": {
+                    "label": "scudo",
+                    "summary": "una barriera di energia assorbe i colpi."
+                  },
+                  "automaton": {
+                    "label": "automa",
+                    "summary": "seleziona automaticamente il colpo migliore contro la minaccia peggiore."
+                  },
+                  "homing": {
+                    "label": "inseguimento",
+                    "summary": "le parole sparate si dirigono dinamicamente verso i bersagli."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "attiva il potenziamento nello spazio 1"
+                  },
+                  "i1": {
+                    "action": "attiva il potenziamento nello spazio 2"
+                  },
+                  "i2": {
+                    "action": "attiva il potenziamento nello spazio 3"
+                  }
+                },
+                "visuals": {
+                  "powerup-double": {
+                    "label": "doppio fuoco"
+                  },
+                  "powerup-gatling": {
+                    "label": "raffica gatling"
+                  },
+                  "powerup-shield": {
+                    "label": "barriera deflettente"
+                  },
+                  "powerup-automaton": {
+                    "label": "mira automatica"
+                  },
+                  "powerup-homing": {
+                    "label": "inseguitore"
+                  }
+                }
+              }
+            }
+          },
+          "spot": {
+            "options": {
+              "variant": {
+                "label": "gioca",
+                "choices": {
+                  "timed": {
+                    "label": "a tempo"
+                  },
+                  "endless": {
+                    "label": "senza fine"
+                  },
+                  "marathon": {
+                    "label": "maratona"
+                  },
+                  "scroller": {
+                    "label": "scorrimento"
+                  }
+                }
+              },
+              "duration": {
+                "label": "tempo"
+              }
+            },
+            "help": [
+              "Punta su una parola o muoviti con ← → (↑ ↓ per riga); fai clic o premi Invio se è sbagliata.",
+              "La parola resta al suo posto: correggila lì (← → Home End spostano il cursore, oppure fai clic dentro) e premi Invio. Ortografia, punteggiatura, maiuscole e spaziatura contano tutte.",
+              "Maiusc+Invio abbandona un brano e passa al successivo.",
+              "Trovare e correggere hanno punteggi separati; segnalare una parola corretta ti costa."
+            ],
+            "contexts": {
+              "getting-started": {
+                "label": "per iniziare",
+                "group": "per iniziare",
+                "summary": "trova gli errori nascosti in un brano e correggili.",
+                "highlights": [
+                  "punta su una parola o naviga con le frecce",
+                  "premi invio per segnalare un errore, poi digita la correzione"
+                ],
+                "details": [
+                  "i brani provengono dai libri della tua libreria. ciascuno contiene diversi errori nascosti.",
+                  "maiusc+invio abbandona un brano e passa al successivo.",
+                  "gli errori includono ortografia, punteggiatura, maiuscole, parole dal suono simile e lettere errate."
+                ],
+                "mechanics": {
+                  "errors": {
+                    "label": "tipi di errore",
+                    "summary": "ortografia, punteggiatura, maiuscole, parole dal suono simile e errori di lettere."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "muoviti tra le parole"
+                  },
+                  "i1": {
+                    "action": "muoviti tra le righe"
+                  },
+                  "i2": {
+                    "action": "segnala una parola come errata"
+                  },
+                  "i3": {
+                    "action": "passa al brano successivo"
+                  }
+                },
+                "visuals": {
+                  "passage-line": {
+                    "label": "testo del brano"
+                  },
+                  "planted-error": {
+                    "label": "errore nascosto"
+                  }
+                }
+              },
+              "finding-mistakes": {
+                "label": "trovare errori",
+                "group": "sopravvivere",
+                "summary": "scorri il brano, seleziona una parola che pensi sia sbagliata e premi invio per segnalarla.",
+                "highlights": [
+                  "passa sopra una parola o usa le frecce per selezionarla",
+                  "segnalare una parola corretta ti costa"
+                ],
+                "details": [
+                  "muoviti con ← → parola per parola o ↑ ↓ riga per riga. fai clic o passa sopra per saltare.",
+                  "trovare e correggere hanno punteggi separati.",
+                  "segnalare una parola che in realtà è corretta conta come falso segnale e costa punti."
+                ],
+                "mechanics": {
+                  "selection": {
+                    "label": "selezione delle parole",
+                    "summary": "passa sopra, fai clic o usa le frecce per selezionare una parola."
+                  },
+                  "false-flag": {
+                    "label": "falsi segnali",
+                    "summary": "segnalare una parola corretta costa punti e, in modalità senza fine, tempo."
+                  },
+                  "marathon": {
+                    "label": "resistenza della maratona",
+                    "summary": "parti con 3 vite. falsi segnali e correzioni fallite costano una vita; completare 3 brani senza errori ne ripristina una."
+                  },
+                  "scroller": {
+                    "label": "nastro scorrevole",
+                    "summary": "i brani scorrono continuamente su un nastro. intercetta gli errori prima che escano dallo schermo."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "muoviti tra le parole"
+                  },
+                  "i1": {
+                    "action": "muoviti tra le righe"
+                  },
+                  "i2": {
+                    "action": "segnala la parola selezionata"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "scansione del brano"
+                  },
+                  "i1": {
+                    "label": "resistenza della maratona"
+                  },
+                  "i2": {
+                    "label": "nastro scorrevole"
+                  }
+                },
+                "visuals": {
+                  "selected-word": {
+                    "label": "parola selezionata"
+                  },
+                  "hover-cursor": {
+                    "label": "cursore al passaggio"
+                  },
+                  "false-flag-penalty": {
+                    "label": "penalità per falso segnale"
+                  },
+                  "marathon-lives": {
+                    "label": "vite della maratona"
+                  },
+                  "scroller-belt": {
+                    "label": "nastro scorrevole"
+                  }
+                }
+              },
+              "correcting-mistakes": {
+                "label": "correggere gli errori",
+                "group": "sopravvivere",
+                "summary": "la parola segnalata resta al suo posto. correggila lì e premi invio per confermare la riparazione.",
+                "highlights": [
+                  "la parola viene modificata direttamente nel brano",
+                  "sposta il cursore con le frecce o fai clic dentro la parola"
+                ],
+                "details": [
+                  "usa ← → per spostare il cursore, Home ed End per saltare. Delete e Backspace funzionano normalmente.",
+                  "fai clic dentro la parola per posizionare il cursore.",
+                  "hai due tentativi. se falliscono entrambi, viene mostrata la parola corretta.",
+                  "premi Escape per annullare una correzione senza penalità."
+                ],
+                "mechanics": {
+                  "caret": {
+                    "label": "modifica col cursore",
+                    "summary": "sposta il cursore dentro la parola per modificare singoli caratteri."
+                  },
+                  "retries": {
+                    "label": "tentativi di riparazione",
+                    "summary": "due tentativi per correggere una parola. dopo due errori, viene mostrata la risposta."
+                  },
+                  "cancel": {
+                    "label": "annulla",
+                    "summary": "Escape annulla una correzione senza penalità."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "sposta il cursore dentro la parola"
+                  },
+                  "i1": {
+                    "action": "cursore all'inizio della parola"
+                  },
+                  "i2": {
+                    "action": "cursore alla fine della parola"
+                  },
+                  "i3": {
+                    "action": "conferma la correzione"
+                  },
+                  "i4": {
+                    "action": "annulla la correzione"
+                  },
+                  "i5": {
+                    "action": "elimina in avanti"
+                  }
+                },
+                "visuals": {
+                  "inline-caret": {
+                    "label": "cursore in linea"
+                  },
+                  "in-place-edit": {
+                    "label": "modifica sul posto"
+                  },
+                  "attempt-limit": {
+                    "label": "limite di 2 tentativi"
+                  }
+                }
+              },
+              "scoring": {
+                "label": "punteggio",
+                "group": "sopravvivere",
+                "summary": "trovare e correggere hanno punteggi separati. la modalità a tempo ha un orologio fisso; la modalità senza fine ricarica il tempo con le correzioni.",
+                "highlights": [
+                  "punteggio di rilevamento: quanti errori hai trovato",
+                  "punteggio di riparazione: quanto precisamente li hai corretti"
+                ],
+                "details": [
+                  "modalità a tempo: una durata fissa conta alla rovescia. trova e correggi il più possibile.",
+                  "modalità senza fine: il tempo scende continuamente. ogni correzione riuscita ricarica la riserva. i falsi segnali costano tempo.",
+                  "un passaggio pulito viene registrato quando tutti gli errori di un brano sono corretti senza falsi segnali."
+                ],
+                "notes": {
+                  "hard": {
+                    "text": "gli errori sono più sottili e il timer è più breve."
+                  }
+                },
+                "mechanics": {
+                  "detection": {
+                    "label": "rilevamento",
+                    "summary": "si calcola con precisione e richiamo: quanti errori reali hai trovato rispetto ai falsi segnali."
+                  },
+                  "repair": {
+                    "label": "riparazione",
+                    "summary": "si calcola in base a quanto precisamente hai corretto le parole segnalate."
+                  },
+                  "sweep": {
+                    "label": "passaggio pulito",
+                    "summary": "tutti gli errori corretti, nessun falso segnale, in un solo brano."
+                  }
+                },
+                "visuals": {
+                  "detection-score": {
+                    "label": "punteggio di rilevamento"
+                  },
+                  "repair-score": {
+                    "label": "punteggio di riparazione"
+                  },
+                  "clean-sweep": {
+                    "label": "bonus per passaggio pulito"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "minutes_choice": "{count} min"
+      },
+      "space_time": {
+        "powerups": {
+          "double": "doppio fuoco",
+          "gatling": "gatling",
+          "shield": "scudo",
+          "automaton": "automa",
+          "homing": "inseguimento"
+        },
+        "stored": "{name} conservato · maiusc+{slot} per usarlo",
+        "storage_full": "deposito pieno: {name} perso",
+        "nothing_stored": "nulla conservato qui",
+        "busy": "ce ne sono già due attivi: {name} aspetta",
+        "cant_use": "{name} non può essere usato"
+      },
+      "constraints": {
+        "min_length": "{value}+ lettere",
+        "min_length_need": "una parola lunga, {value} lettere o più",
+        "max_length": "al massimo {value} lettere",
+        "max_length_need": "una parola breve, al massimo {value} lettere",
+        "starts_with": "inizia con {letter}",
+        "starts_with_need": "qualcosa che inizi con {letter}",
+        "ends_with": "finisce con {letter}",
+        "ends_with_need": "qualcosa che finisca con {letter}",
+        "contains": "contiene {letter}",
+        "contains_need": "qualcosa con {letter} al suo interno",
+        "min_strength": "forza {value}+",
+        "min_strength_need": "una parola forte, forza {value} o più",
+        "passage_length": "{min}–{max} parole",
+        "passage_length_need": "un brano di almeno {min} parole",
+        "any_word": "qualsiasi parola",
+        "want": "Voglio {needs}.",
+        "want_any": "Voglio una parola qualsiasi."
+      },
+      "moods": {
+        "satisfied": "soddisfatto",
+        "hungry": "affamato",
+        "very_hungry": "molto affamato",
+        "urgent": "urgente",
+        "critical": "critico"
+      },
+      "space_ui": {
+        "shot": {
+          "fired": "{word} · {power} danni",
+          "fired_typo": " (un refuso: metà forza)",
+          "fired_one_left": " (1 rimasto)",
+          "fired_automaton": " · automa → {target}",
+          "fighter_down": "caccia {word} abbattuto",
+          "loaded": "{word} · caricato, {power}",
+          "fizzle": "{word} · non è una parola, si è dissolto",
+          "fizzle_jam": "{word} · non è una parola: si è dissolto e ha inceppato il grilletto",
+          "scrap_armed": "premi di nuovo backspace per scartare {word}",
+          "scrap_clear_jam": " e sbloccare il grilletto",
+          "scrap_armed_jam": "premi di nuovo backspace per sbloccare il grilletto",
+          "scrapped_word": "{word} scartato",
+          "scrapped": "scartato",
+          "jam_cleared_suffix": " · grilletto sbloccato",
+          "rescue_hit": "attenzione: hai colpito la nave di soccorso ({word})",
+          "rescue_lost": "la nave di soccorso è andata persa",
+          "jammed": "{word} ha inceppato il grilletto · resta caricato",
+          "locked": "il grilletto è inceppato",
+          "full": "{word} · il caricatore è pieno: spara prima",
+          "empty": "nulla caricato: completa prima una parola",
+          "cleared": "inceppamento risolto",
+          "intercepted": "missile {word} abbattuto",
+          "repaired": "{word} · riparato {healed}",
+          "bomb": "bomba!",
+          "bomb_not_ready": "la bomba non è ancora carica",
+          "accumulator": "scarica del raggio laser!",
+          "accumulator_not_ready": "il condensatore richiede almeno il 25% di carica",
+          "point_defense": "la difesa di punto ha intercettato {word}!",
+          "flagship_down": "ammiraglia distrutta!",
+          "gatling": "fuoco rapido · {word}",
+          "shield_absorb": "lo scudo ha assorbito il colpo di {source}!"
+        },
+        "powerup_help": {
+          "double": "ogni colpo viene sparato due volte",
+          "gatling": "ogni lettera spara un dardo",
+          "shield": "assorbe alcuni colpi al posto tuo",
+          "automaton": "sparare sceglie il colpo migliore contro la minaccia peggiore",
+          "homing": "le parole sparate seguono i nemici"
+        },
+        "powerup_label": {
+          "double": "doppio",
+          "gatling": "gatling",
+          "shield": "scudo",
+          "automaton": "automa",
+          "homing": "inseguimento"
+        }
+      },
+      "castle_notes": {
+        "solid": "solido",
+        "patched": "riparato",
+        "cracked": "crepato",
+        "mortar": "malta",
+        "rubble": "macerie",
+        "stockpile_full": "scorta piena",
+        "no_bricks_yet": "nessun mattone ancora",
+        "already_solid": "già solido",
+        "wrong_kind_of_brick": "tipo di mattone sbagliato",
+        "nobody_to_drop_it_on": "non c'è nessuno su cui lasciarlo cadere",
+        "two_are_running_already": "ce ne sono già due attivi",
+        "nothing_stored_there": "nulla conservato qui",
+        "crushed_a_brute": "hai schiacciato un bruto",
+        "crushed_a_sapper": "hai schiacciato un guastatore",
+        "crushed_a_saboteur": "hai schiacciato un sabotatore",
+        "crushed_a_ladderman": "hai schiacciato uno scalatore",
+        "hit_a_brute": "hai colpito un bruto",
+        "hit_a_sapper": "hai colpito un guastatore",
+        "hit_a_saboteur": "hai colpito un sabotatore",
+        "hit_a_ladderman": "hai colpito uno scalatore",
+        "stunned": "stordito",
+        "keg_detonated": "barile di polvere esploso",
+        "ladder_toppled": "scala rovesciata",
+        "sortie_deployed": "sortita della guarnigione schierata",
+        "mustering": "guarnigione in formazione",
+        "gate_breached": "corpo di guardia sfondato",
+        "no_bricks": "servono mattoni per equipaggiare",
+        "friendly_fire": "fuoco amico!"
+      }
+    },
+    "learn": {
+      "stages": {
+        "1": {
+          "name": "riga home"
+        },
+        "2": {
+          "name": "riga superiore"
+        },
+        "3": {
+          "name": "riga inferiore"
+        },
+        "4": {
+          "name": "maiuscole"
+        },
+        "5": {
+          "name": "numeri"
+        },
+        "6": {
+          "name": "fluidità"
+        }
+      },
+      "lessons": {
+        "1": {
+          "1": {
+            "title": "home della mano sinistra"
+          },
+          "2": {
+            "title": "home della mano destra"
+          },
+          "3": {
+            "title": "gli indici si spostano verso l'interno"
+          },
+          "4": {
+            "title": "ripasso della riga home"
+          }
+        },
+        "2": {
+          "1": {
+            "title": "i medi salgono"
+          },
+          "2": {
+            "title": "gli indici salgono"
+          },
+          "3": {
+            "title": "indici, colonna interna"
+          },
+          "4": {
+            "title": "gli anulari salgono"
+          },
+          "5": {
+            "title": "i mignoli salgono"
+          },
+          "6": {
+            "title": "ripasso della riga superiore"
+          }
+        },
+        "3": {
+          "1": {
+            "title": "i medi scendono"
+          },
+          "2": {
+            "title": "gli indici scendono"
+          },
+          "3": {
+            "title": "indici, colonna interna"
+          },
+          "4": {
+            "title": "gli anulari scendono"
+          },
+          "5": {
+            "title": "i mignoli scendono"
+          },
+          "6": {
+            "title": "ripasso della riga inferiore"
+          }
+        },
+        "4": {
+          "1": {
+            "title": "maiusc con la riga home"
+          },
+          "2": {
+            "title": "maiusc con ogni lettera"
+          },
+          "3": {
+            "title": "frasi"
+          }
+        },
+        "5": {
+          "1": {
+            "title": "gli indici si spostano verso l'alto"
+          },
+          "2": {
+            "title": "i medi si spostano verso l'alto"
+          },
+          "3": {
+            "title": "gli anulari si spostano verso l'alto"
+          },
+          "4": {
+            "title": "i mignoli si spostano verso l'alto"
+          },
+          "5": {
+            "title": "allungamenti del mignolo"
+          },
+          "6": {
+            "title": "ripasso dei numeri"
+          }
+        },
+        "6": {
+          "1": {
+            "title": "le 100 parole più comuni"
+          },
+          "2": {
+            "title": "le 500 parole più comuni"
+          },
+          "3": {
+            "title": "prosa reale"
+          },
+          "4": {
+            "title": "passa ai test di digitazione"
+          }
+        }
+      },
+      "steps": {
+        "keys": {
+          "title": "i nuovi tasti da soli"
+        },
+        "mix": {
+          "title": "i nuovi tasti con gli altri"
+        }
+      },
+      "ui": {
+        "the_steps_again": "le fasi di nuovo",
+        "steps_first": "prima {count} brevi fasi: i nuovi tasti in sequenze, poi con i tasti che conosci. Poi il test.",
+        "steps_title": "Le {count} brevi fasi sui nuovi tasti, poi il test",
+        "status_mastered": "padroneggiata",
+        "status_practising": "in esercitazione",
+        "status_ready": "pronta",
+        "status_locked": "bloccata",
+        "stats_summary": "migliore {wpm} ppm · {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+        "prerequisite": "Prima padroneggia {prereq}",
+        "intro": "Impara a digitare senza guardare, un gruppo di tasti alla volta. Ogni lezione si apre quando quella precedente è padroneggiata: 25 ppm con il 95% di precisione su almeno 30 parole. Le lezioni danno XP e contano per un obiettivo giornaliero di XP.",
+        "numpad_offer": "Un tastierino numerico? Kalibre offre esercitazioni a dieci tasti: lezioni, un test, somme e un gioco. ",
+        "turn_it_on": "attivalo",
+        "not_now": "non ora",
+        "numpad_heading": "tastierino numerico",
+        "numpad_practice": "esercitazione del tastierino numerico",
+        "numpad_desc": "lezioni, un test a dieci tasti, somme e un gioco",
+        "finger_guidance_fallback": "La guida delle dita è per QWERTY (US) per ora. Puoi comunque seguire le lezioni con il tuo layout; i tasti sono disposti come nel tuo.",
+        "continue_lesson": "continua: {id} {title}",
+        "start_first": "inizia con la lezione 1.1",
+        "all_mastered": "tutte le lezioni padroneggiate ✓",
+        "mastered_count": "{count} di {total} padroneggiate",
+        "stage_heading": "fase {stage} · {name}",
+        "keyboard_needed": "Le lezioni richiedono una tastiera vera: collegane una (bluetooth o usb) e premi un tasto qualsiasi. Test e giochi funzionano con quella su schermo.",
+        "all_lessons": "tutte le lezioni",
+        "handoff_intro": "Ora conosci tutti i tasti. Continua nella pagina di digitazione: i test a tempo e le citazioni aumentano la velocità, e Kalibre inizia a notare gli errori che fai più spesso, così gli allenamenti possono lavorarci sopra.",
+        "go_typing": "vai ai test di digitazione",
+        "opens_prereq": "Questa lezione si apre quando {prereq} è padroneggiata.",
+        "go_to_prereq": "vai a {prereq}",
+        "new_keys_prefix": "nuovi tasti: ",
+        "review_so_far": "un ripasso di tutto fin qui",
+        "every_key": "ogni tasto che conosci",
+        "flow": "flusso",
+        "one_stream": "un flusso",
+        "short_rounds": "sessioni brevi",
+        "words_a_round": "{unit} per sessione",
+        "length": "lunghezza",
+        "keep_going": "continua",
+        "timer": "cronometro",
+        "none": "nessuno",
+        "start": "inizia",
+        "straight_to_test": "vai direttamente al test",
+        "start_test": "inizia il test",
+        "warm_up_first": "prima riscaldamento: {keys}",
+        "warm_up_title": "Una breve sessione su {reason} (non salvata; Esc passa al test)",
+        "slipped_keys_note": "{keys} sono andati peggio l'ultima volta, quindi prima c'è un breve riscaldamento. Fai il test quando ti senti pronto.",
+        "take_test": "fai il test",
+        "next_step": "prossimo: {title}",
+        "warm_up_again": "riscaldati di nuovo",
+        "this_step_again": "ripeti questa fase",
+        "step_heading": "fase {step} di {total} · {title}",
+        "warmup_heading": "riscaldamento · {keys}",
+        "accuracy_summary": "{accuracy}% di precisione",
+        "ready_test": "Pronto per il test quando vuoi.",
+        "ready_step": "Pronto per la prossima fase.",
+        "slips_continue": "Restano ancora alcuni errori. Un altro tentativo potrebbe aiutare, oppure continua quando ti senti pronto.",
+        "practise_again": "esercitati di nuovo",
+        "result_mastered": "✓ {id} {title}: padroneggiata{exclamation, select, yes {!} other {}}",
+        "result_keep_practising": "{id} {title}: continua a esercitarti",
+        "steno_intro": "Le lezioni insegnano la scrittura a tocco sulla tastiera, quindi vengono messe da parte mentre digiti con una macchina stenografica. Test, allenamenti e giochi funzionano come al solito e i progressi delle lezioni vengono conservati.",
+        "take_test_button": "fai un test",
+        "on_keyboard_now": "ora sto usando una tastiera",
+        "switch_keyboard_title": "Riporta “Digito con” a tastiera",
+        "needs_words": "{minWords} {unit} o più (hai digitato {words})",
+        "needs_wpm": "{wpm} ppm ({actual} questa volta)",
+        "needs_accuracy": "{accuracy}% di precisione ({actual}% questa volta)",
+        "needs_key": "ogni nuovo tasto al {accuracy}%: {key} era al {actual}%",
+        "needs_key_generic": "ogni nuovo tasto al {accuracy}%",
+        "needs_heading": "Per padroneggiarla, una sessione deve avere:",
+        "next_open": "{id} {title} è ora aperta.",
+        "slips_most": "tasti con più errori: {slips}",
+        "slips_none": "ogni tasto al 95% o meglio questa volta",
+        "next_button": "prossima: {id} {title}",
+        "best_run_note": "valutata sui tuoi migliori 30 {unit} consecutivi: {wpm} ppm al {accuracy}%",
+        "numbers_summary": "{wpm} ppm · {accuracy}% di precisione · {words} {unit} · {clock}",
+        "xp_gained": "+{gained} xp",
+        "level_up": " · livello {level}!",
+        "level_progress": " · liv {level} · mancano {remaining}",
+        "goal_met": "✓ obiettivo giornaliero raggiunto · {amount} oggi",
+        "goal_progress": "obiettivo giornaliero · {done} di {target} oggi",
+        "runner_finish": "fine",
+        "runner_resume": "riprendi",
+        "runner_paused": "in pausa",
+        "runner_restart": "riavvia ",
+        "runner_quit": "esci senza salvare ",
+        "round_summary": "sessione {round}: {wpm} ppm · {accuracy}% — spazio per la sessione successiva",
+        "hints_prep": "esc passa al test · spazio prossimo {unit}",
+        "hints_normal": "esc pausa · spazio prossimo {unit}"
+      },
+      "cal_wardrobe": {
+        "whose_wardrobe": "di chi è il guardaroba",
+        "what_to_change": "cosa cambiare",
+        "items": "elementi",
+        "s_wardrobe": "guardaroba di {name}",
+        "everything_here_is_earned_by": "Tutto qui si conquista digitando, mai comprandolo. Fai clic destro su {name} in qualsiasi momento per tornare."
+      },
+      "ending": {
+        "s_options": "opzioni di {name}",
+        "give_the_ring": "dai a {name} l'anello"
+      },
+      "keyboard_diagram": {
+        "finger_colours_are_for_qwerty": "I colori delle dita sono per QWERTY (US) per ora; le lezioni funzionano comunque con il tuo layout.",
+        "left_hand": "mano sinistra",
+        "right_hand": "mano destra"
+      },
+      "learn_curriculum": {
+        "master_first": "padroneggia prima {prerequisiteOf}",
+        "stage": "fase {stage} · {value}"
+      },
+      "learn_lesson": {
+        "fingers": "dita",
+        "diagram_label": "tastiera: i tasti della lezione {id}",
+        "new_keys_fingers": " · {fingers}",
+        "list_separator": ", "
+      },
+      "key_coach": {
+        "other_hand": "stai cercando di usare {key} con l'altra mano: tienilo sulla mano {hand}",
+        "wrong_finger": "stai premendo {typed} per {key}: usa il dito mostrato, non cambiarlo"
+      },
+      "learn_numpad_run": {
+        "num_lock_is_off_the": "Bloc Num è disattivato: il tastierino invia frecce. Attiva Bloc Num sul tastierino.",
+        "time_left": "mancano {time} · {count, plural, one {# voce} other {# voci}}",
+        "clock_start": "{time} · il primo tasto avvia il cronometro",
+        "entries_count": "{done} / {total} voci"
+      },
+      "learn_numpad": {
+        "practice_for_the_number_pad": "Esercitazione per il tastierino numerico: un test a dieci tasti, lezioni e somme. È per chi ne ha uno, quindi resta disattivata finché non la attivi.",
+        "ten_key_practice_lessons_from": "Esercitazione a dieci tasti: lezioni dai tasti home verso l'esterno, importi da digitare come da nastro con Invio e gli operatori, calcolo mentale e una cassa. Tutto dà XP.",
+        "i_don_t_have_a": "non ho un tastierino numerico",
+        "turns_number_pad_practice_off": "disattiva di nuovo l'esercitazione del tastierino numerico",
+        "from_your_last_few_runs": "Dalle tue ultime sessioni. Queste sono tenute separate dagli errori della tastiera principale e vengono allenate qui.",
+        "ten_key_drill": "allenamento a dieci tasti",
+        "sums_drill": "allenamento con le somme",
+        "diagram_weak": "tastierino numerico, colorato in base ai tasti che causano errori",
+        "diagram_mistakes": "tastierino numerico, colorato in base agli errori",
+        "diagram": "tastierino numerico",
+        "drill_keys": "tasti: {keys}",
+        "drill_sums": "somme: {kinds}",
+        "tile_lessons": "lezioni",
+        "tile_lessons_note": "{mastered} di {total} padroneggiate",
+        "tile_lessons_blurb": "i tasti home 4 5 6, poi verso l'esterno fino agli operatori",
+        "tile_tenkey": "test a dieci tasti",
+        "tile_tenkey_fastest": "il tuo più veloce: {ksph} battute all'ora",
+        "tile_tenkey_none": "nessun test ancora",
+        "tile_tenkey_blurb": "importi, numeri interi o un misto con operatori",
+        "tile_sums": "somme",
+        "tile_sums_last": "ultima: {right} di {answers} corrette",
+        "tile_sums_none": "nessuna somma ancora",
+        "tile_sums_blurb": "calcolo mentale: addizioni, sottrazioni, moltiplicazioni, divisioni e percentuali",
+        "tile_till": "cassa",
+        "tile_till_best": "il tuo record: {served} serviti",
+        "tile_till_none": "nessun turno ancora",
+        "tile_till_blurb": "un gioco: servi la coda calcolando il resto"
+      },
+      "learn_padlessons": {
+        "master_lesson_first": "prima padroneggia la lezione {number}",
+        "number_pad_lessons": "lezioni del tastierino numerico",
+        "learn_the_pad_without_looking": "Impara il tastierino senza guardare, pochi tasti alla volta, partendo dai tasti home 4 5 6 verso l'esterno. Ogni lezione si apre quando quella precedente è padroneggiata: la velocità mostrata, 95% di precisione su 25 voci e ogni nuovo tasto usato correttamente per la maggior parte. Le lezioni danno XP.",
+        "start_with_lesson_1": "inizia con la lezione 1",
+        "of_mastered": "{mastered} di {length} padroneggiate",
+        "all_number_pad_lessons": "tutte le lezioni del tastierino numerico",
+        "this_lesson_opens_once_lesson": "Questa lezione si apre quando la lezione {number} è padroneggiata.",
+        "go_to_lesson": "vai alla lezione {number}",
+        "to_master_it_keystrokes_an": "Per padroneggiarla: {thousands} battute all'ora con {accuracy}% di precisione su {entries} voci, e ogni nuovo tasto corretto {keyAccuracy} volte su 100. Appoggia la mano destra su 4 5 6, con il rilievo del 5 sotto il dito medio.",
+        "try_again": "riprova",
+        "result": "risultato",
+        "mastered_again": "padroneggiata di nuovo",
+        "lesson_is_open": "La lezione {number} è aperta.",
+        "that_s_every_number_pad": "Queste sono tutte le lezioni del tastierino numerico.",
+        "again": "di nuovo",
+        "best_summary": "migliore {ksph} all'ora · {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+        "best_detail": "migliore {ksph} all'ora al {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+        "best_detail_mastered": "padroneggiata ✓ · migliore {ksph} all'ora al {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+        "new_keys": "nuovi tasti: {keys}",
+        "headline": "{value} battute all'ora",
+        "to_master": "Per padroneggiarla: {reasons}.",
+        "reason_separator": ", e ",
+        "reason_entries": "tutte le {entries} voci",
+        "reason_ksph": "{target} battute all'ora ({now} questa volta)",
+        "reason_accuracy": "{target}% di precisione ({now}% questa volta)",
+        "reason_key": "ogni nuovo tasto corretto {target} volte su 100 ({key} era al {accuracy}%)",
+        "diagram_label": "tastierino numerico: i tasti della lezione {number}",
+        "continue_lesson": "continua: {number} {title}",
+        "next_lesson": "prossima: {number} {title}"
+      },
+      "learn_runner": {
+        "lesson": "lezione {id}",
+        "warm_up": "riscaldamento",
+        "step_of": "fase {current} di {total}",
+        "counter_capped_prep": "{prep} · {done} / {target} {unit}",
+        "counter_capped": "{done} / {target} {unit}",
+        "counter": "{done} {unit}",
+        "time_left": " · {time} rimasti",
+        "finger_line": "{key}: {finger}",
+        "shift_other_hand": ", con maiusc sull'altra mano",
+        "tip_suffix": " · {tip}",
+        "diagram_label": "tastiera per la lezione {id}"
+      },
+      "learn_sums": {
+        "custom_number_of_questions": "numero personalizzato di domande",
+        "custom_number": "numero personalizzato",
+        "sums": "somme",
+        "mental_arithmetic_the_accountant_s": "Calcolo mentale, come farebbe un contabile: compare una somma, la risolvi e digiti la risposta sul tastierino, poi premi Invio. La valutazione considera la risposta e il tempo impiegato. Tre risposte corrette di fila rendono le somme più difficili; due sbagliate le semplificano. Ogni risposta è esatta al centesimo.",
+        "last_time_of_right_an": "ultima volta: {correctAnswers} di {answers} corrette, {seconds} per risposta, fino al livello {peakLevel}",
+        "no_sums_yet": "nessuna somma ancora",
+        "your_answer": "la tua risposta",
+        "you_typed": "✗ {prompt} = {answerText} · hai digitato {typed}",
+        "level": "{min} / {count} · livello {level}",
+        "type_the_answer_then_enter": "digita la risposta, poi invio · backspace corregge · esc apre la riga di comando",
+        "of": "{correctAnswers} di {answers}",
+        "right": "corrette",
+        "average_time": "tempo medio",
+        "of_2": "{right} di {asked}",
+        "to_look_at_again": "da rivedere",
+        "you_typed_2": " · hai digitato {typed}",
+        "every_answer_right": "tutte le risposte corrette.",
+        "change_the_sums": "cambia le somme",
+        "title_count": "somme · {kind}{weak} · {count, plural, one {# domanda} other {# domande}}",
+        "title": "somme · {kind}{weak}",
+        "weak_spots": " · punti deboli",
+        "right_headline": "{of} corrette",
+        "questions": "domande",
+        "start_at_level": "inizia al livello"
+      },
+      "learn_tenkey": {
+        "your_best_for_this_ksph": "il tuo record per questo: {thousands} ksph al {round}% di precisione",
+        "no_run_of_this_kind": "nessuna sessione di questo tipo ancora",
+        "custom_length_in_minutes": "durata personalizzata in minuti",
+        "custom_length_in_entries": "durata personalizzata in voci",
+        "custom_length": "durata personalizzata",
+        "ten_key_test": "test a dieci tasti",
+        "amounts_arrive_one_to_a": "Gli importi arrivano uno per riga, come su un nastro. Digita ciascuno sul tastierino numerico e concludilo con il tasto mostrato dopo: Invio o un operatore. Il nastro va avanti dopo un errore, quindi continua; Backspace corregge la voce su cui sei. Il punteggio è in battute all'ora.",
+        "new_best": "nuovo record",
+        "your_best_for_this_is": "il tuo record per questo è {thousands}",
+        "not_a_wrong_key_clean": "non è un tasto sbagliato: pulito.",
+        "change_the_test": "cambia il test",
+        "keys_to_watch": "tasti da osservare: {keys}",
+        "watch_key": "{key} ({wrong} errori)",
+        "run_title": "dieci tasti · {form} · {limit}",
+        "run_label": "test a dieci tasti",
+        "unit": "unità"
+      },
+      "learn_till": {
+        "till": "cassa",
+        "customers_queue_at_your_till": "I clienti fanno la coda alla tua cassa. Ognuno ha pagato con una banconota: calcola il resto, digitalo sul tastierino e premi invio. La pazienza di ogni cliente diminuisce mentre aspetta, quindi servire in fretta e correttamente fa avanzare quello successivo. Una risposta sbagliata costa un po' di pazienza e quando tre clienti se ne sono andati la cassa chiude. Il resto è sempre esatto al centesimo.",
+        "your_best_customers_served_in": "il tuo record: {best} clienti serviti in un turno",
+        "no_shifts_yet": "nessun turno ancora",
+        "open_the_till": "apri la cassa",
+        "the_customer_s_patience": "la pazienza del cliente",
+        "the_change": "il resto",
+        "customers_served_level_the_customers": "clienti serviti · livello · i clienti che possono ancora andarsene prima della chiusura della cassa",
+        "press_enter_to_open_the": "premi invio per aprire la cassa",
+        "change": "{billText} · resto?",
+        "waiting_behind": "{behind} in attesa dietro",
+        "no_one_waiting": "nessuno in attesa",
+        "served_level": "{served} serviti · livello {level} · {repeat}{repeat2}",
+        "type_the_change_then_enter": "digita il resto, poi invio · backspace corregge · esc apre la riga di comando",
+        "the_till_is_closed": "la cassa è chiusa",
+        "customer_served": " cliente servito",
+        "customers_served": " clienti serviti",
+        "your_best_is": "il tuo record è {previousBest}",
+        "another_shift": "un altro turno",
+        "feedback_served": "✓ resto {change}",
+        "feedback_wrong": "✗ {typed}: il resto era {change}",
+        "feedback_left": "un cliente se n'è andato ({bill})"
+      },
+      "learn": {
+        "lessons_set_aside": "lezioni messe da parte"
+      },
+      "mascot_sounds": {
+        "play_a_sample": "riproduci un esempio",
+        "a_purr": "un miagolio",
+        "what_sounds_like_at_your": "come suona {name} al tuo volume"
+      },
+      "mascot": {
+        "open_wardrobe": "{name}: apri il guardaroba {companion, select, cal {di lui} libby {di lei} other {loro}}",
+        "open_s_wardrobe": "{name}: apri il guardaroba di {name2}",
+        "asleep_label": "{name}, addormentato: sveglia {companion, select, cal {lui} libby {lei} other {loro}}"
+      },
+      "numpad_tape": {
+        "entries": "voci",
+        "the_tape": "il nastro",
+        "wrong": "sbagliato"
+      },
+      "pad_lessons": {
+        "pad-1": {
+          "title": "i tasti home: 4 5 6"
+        },
+        "pad-2": {
+          "title": "allunga verso l'alto: 7 8 9"
+        },
+        "pad-3": {
+          "title": "allunga verso il basso: 1 2 3"
+        },
+        "pad-4": {
+          "title": "il pollice e l'indice: 0 ."
+        },
+        "pad-5": {
+          "title": "tutte le cifre"
+        },
+        "pad-6": {
+          "title": "più, con il mignolo"
+        },
+        "pad-7": {
+          "title": "meno"
+        },
+        "pad-8": {
+          "title": "moltiplica e dividi"
+        },
+        "pad-9": {
+          "title": "tutto il tastierino"
+        }
+      },
+      "fingers": {
+        "LP": "mignolo sinistro",
+        "LR": "anulare sinistro",
+        "LM": "medio sinistro",
+        "LI": "indice sinistro",
+        "T": "pollice",
+        "RI": "indice destro",
+        "RM": "medio destro",
+        "RR": "anulare destro",
+        "RP": "mignolo destro"
+      },
+      "numpad_fingers": {
+        "RI": "indice",
+        "RM": "medio",
+        "RR": "anulare",
+        "RP": "mignolo",
+        "T": "pollice"
+      },
+      "key_names": {
+        "space": "spazio",
+        "comma": "virgola",
+        "full_stop": "punto",
+        "slash": "barra",
+        "semicolon": "punto e virgola",
+        "apostrophe": "apostrofo",
+        "hyphen": "trattino",
+        "equals": "uguale"
+      },
+      "units": {
+        "sequences": "sequenze",
+        "words": "parole",
+        "sequence": "sequenza",
+        "word": "parola"
+      },
+      "learn_results": {
+        "diagram_label": "tastiera colorata in base alla frequenza con cui ogni tasto è stato sbagliato"
+      },
+      "entries": {
+        "a_ten_key_entry_needs": "Una voce a dieci tasti richiede almeno una cifra.",
+        "ENTRY_FORMS": {
+          "whole": {
+            "label": "numeri interi"
+          },
+          "amounts": {
+            "label": "importi"
+          },
+          "mixed": {
+            "label": "misto, con operatori"
+          }
+        }
+      },
+      "sums": {
+        "SUM_KINDS": {
+          "mixed": {
+            "label": "un misto"
+          },
+          "add": {
+            "label": "addizione"
+          },
+          "subtract": {
+            "label": "sottrazione"
+          },
+          "multiply": {
+            "label": "moltiplicazione"
+          },
+          "divide": {
+            "label": "divisione"
+          },
+          "percent": {
+            "label": "percentuali"
+          }
+        }
+      },
+      "pad_key_names": {
+        "enter": "invio",
+        "plus": "più",
+        "minus": "meno",
+        "times": "per",
+        "divide": "diviso",
+        "decimal_point": "separatore decimale"
+      },
+      "numpad_labels": {
+        "weak_keys": "tasti deboli",
+        "minutes": "{count} min",
+        "entries": "{count} voci"
+      },
+      "numpad_sums": {
+        "kinds": {
+          "add": "addizione",
+          "subtract": "sottrazione",
+          "multiply": "moltiplicazione",
+          "divide": "divisione",
+          "percent": "percentuali"
+        }
+      }
+    },
+    "mistakes": {
+      "sections": {
+        "suggested": "suggeriti",
+        "training": "in allenamento",
+        "improving": "in miglioramento",
+        "mastered": "padroneggiati",
+        "dismissed": "ignorati",
+        "watching": "osservati",
+        "overview": "panoramica",
+        "all": "tutti"
+      },
+      "blurbs": {
+        "suggested": "Errori che continuano a ripresentarsi. Allenali oppure ignora quelli che non ti interessano.",
+        "training": "Gli esercizi si concentrano su questi.",
+        "improving": "Il tasso di errore si è dimezzato dall'inizio dell'allenamento.",
+        "mastered": "Sono scesi a un quarto del livello iniziale. Tornano in allenamento se ricompaiono.",
+        "dismissed": "Non vengono suggeriti di nuovo a meno che tu non li ripristini.",
+        "watching": "Visti, ma non abbastanza spesso da essere ancora suggeriti. “allena ora” avvia comunque l'allenamento di uno di essi.",
+        "overview": "Dove sbagliano le tue dita, disegnato sulla tastiera, con le parole e gli spazi accanto. Ogni riga mostra il tasso di errore nei test recenti.",
+        "all": "Ogni errore annotato da Kalibre, qualunque sia il suo stato."
+      },
+      "empty": {
+        "suggested": "Nessun errore qui, per ora. Stai andando bene!",
+        "training": "Nessun errore in allenamento, per ora. Aggiungine alcuni dalla scheda 'suggeriti'.",
+        "improving": "Nessun miglioramento, per ora. Continua ad allenare gli errori in allenamento.",
+        "mastered": "Nessun errore padroneggiato, per ora. L'allenamento richiede tempo: continua così.",
+        "dismissed": "Nessun errore ignorato.",
+        "watching": "Ancora nulla qui. Continua a digitare e emergeranno degli schemi.",
+        "all": "Nessun errore annotato, per ora. Mentre digiti, Kalibre registra qui gli schemi ricorrenti."
+      },
+      "kinds": {
+        "key": "tasto",
+        "shift": "maiusc",
+        "swap": "coppia di lettere",
+        "omit": "mancante",
+        "extra": "extra",
+        "word": "parola",
+        "space": "spazio",
+        "insert": "parola extra",
+        "skip": "parola saltata",
+        "hesitation": "esitazione",
+        "tricky": "parola difficile"
+      },
+      "columns": {
+        "mistake": "errore",
+        "kind": "tipo",
+        "status": "stato",
+        "left_in": "rimasti",
+        "fixed": "corretti",
+        "tests": "test",
+        "trend": "tendenza",
+        "rate": "tasso",
+        "seen": "visto"
+      },
+      "actions": {
+        "train": "allena",
+        "train_aria": "allena {mistake}",
+        "train_now": "allena ora",
+        "train_now_aria": "allena {mistake} ora",
+        "train_again": "allena di nuovo",
+        "train_again_aria": "allena di nuovo {mistake}",
+        "dismiss": "ignora",
+        "dismiss_aria": "ignora {mistake}",
+        "restore": "ripristina",
+        "restore_aria": "ripristina {mistake}",
+        "drill": "esercita",
+        "drill_aria": "esercita {mistake}",
+        "drill_all": "esercita i miei errori in allenamento",
+        "stop": "ferma",
+        "stop_aria": "ferma l'allenamento di {mistake}",
+        "export": "esporta ",
+        "csv": "csv",
+        "json": "json"
+      },
+      "filters": {
+        "all": "tutti",
+        "uncorrected": "non corretti",
+        "corrected": "corretti"
+      },
+      "layouts": {
+        "list": "elenco",
+        "table": "tabella"
+      },
+      "labels": {
+        "by_status": "errori per stato",
+        "show_on_map": "mostra sulla mappa",
+        "show_mistakes": "mostra errori",
+        "show_as": "mostra come",
+        "kind_of_mistake": "tipo di errore",
+        "all_kinds": "tutti i tipi",
+        "keyboard_layout": "layout della tastiera",
+        "sessions_count": "{count, plural, one {# sessione} other {# sessioni}}",
+        "corrected_count": "{count} corretti",
+        "pager_aria": "pagine della tabella degli errori",
+        "no_qualifiers_mistakes": "Nessun errore {qualifiers}{inSection, select, true { in {section}} other {}} ancora.",
+        "no_in_section": "Nessun errore in {section} ancora.",
+        "training_words_note": "{count, plural, one {# parola} other {# parole}} con errori ricorrenti in allenamento."
+      },
+      "mistake_map": {
+        "mistakes_click_to_isolate": "errori {label} – fai clic per isolare",
+        "page": "pagina {value}",
+        "of": "{first}–{last} di {length}",
+        "keyboard_mistakes_pages": "pagine degli errori della tastiera",
+        "nothing_to_draw_on_this": "Non c'è ancora nulla da disegnare su questa tastiera. Qui compaiono gli errori visti più di una volta.",
+        "on_the_keyboard": "sulla tastiera",
+        "none_yet": "Ancora nessuno.",
+        "with_keys_not_on_this": "{unmapped} con tasti non presenti in questo layout",
+        "words_and_spaces": "parole e spazi",
+        "no_tests_yet": "nessun test ancora",
+        "rate_one_test": "tasso di errore {rate} in un test",
+        "rate_over_tests": "tasso di errore {from} → {to} su {count, plural, one {# test} other {# test}}",
+        "mark_label": "{mistake}: {rate} delle volte",
+        "started_at": "{summary} · allenamento iniziato a {rate}",
+        "keyboard_label": "Tastiera con {count, plural, one {# errore} other {# errori}} disegnati sopra. L'elenco qui sotto contiene gli stessi errori."
+      },
+      "mistakes": {
+        "actions": "azioni",
+        "no_mistakes_yet": "Ancora nessun errore."
+      },
+      "mistake_kinds": {
+        "KINDS": {
+          "keys": {
+            "title": "tasti"
+          },
+          "shift": {
+            "title": "maiusc"
+          },
+          "pairs": {
+            "title": "coppie di lettere"
+          },
+          "letters": {
+            "title": "lettere mancanti ed extra"
+          },
+          "words": {
+            "title": "parole"
+          },
+          "tricky": {
+            "title": "parole difficili"
+          },
+          "between": {
+            "title": "tra le parole"
+          },
+          "hesitations": {
+            "title": "esitazioni"
+          }
+        }
+      },
+      "legend": {
+        "meant_hit": "previsto → premuto",
+        "swapped": "scambiato",
+        "missed": "mancante",
+        "extra": "extra",
+        "shift": "maiusc"
+      },
+      "patterns": {
+        "sound": "suonano uguali",
+        "homophone": "parola omofona",
+        "silent": "lettera muta",
+        "double": "lettera doppia",
+        "vowel": "vocale poco chiara",
+        "mirror": "stesso dito, altra mano",
+        "wrongDouble": "lettera sbagliata raddoppiata",
+        "moved": "lettera fuori posto",
+        "ending": "finale omesso",
+        "autopilot": "parola familiare al posto di quella corretta",
+        "rawSteno": "steno grezzo"
+      },
+      "describe": {
+        "shift": "{expected} → {typed} (maiusc)",
+        "omit": "{expected} mancante",
+        "extra": "{typed} extra",
+        "insert": "parola extra {typed}",
+        "skip": "{expected} saltata",
+        "hesitation_pair": "pausa in {expected}",
+        "hesitation_before": "pausa prima di {expected}",
+        "hesitation": "esitazione",
+        "tricky": "difficile: {expected}"
+      }
+    },
+    "profiles": {
+      "lock": {
+        "password_for": "password per {name}",
+        "switch_user": "{name}. cambia utente.",
+        "is_locked": "{name} è bloccato",
+        "password": "password",
+        "waiting_for_your_passkey": "in attesa della tua passkey…",
+        "that_passkey_couldn_t_be": "Non è stato possibile verificare quella passkey. Usa invece la password.",
+        "that_password_is_not_right": "Quella password non è corretta.",
+        "switch_user_2": "cambia utente",
+        "this_one": "questo",
+        "open": "apri",
+        "new_profile": "nuovo profilo",
+        "start_fresh": "ricomincia da zero",
+        "back": "indietro",
+        "keep_signed_in": "mantienimi connesso su questo dispositivo",
+        "unlock": "sblocca",
+        "unlock_passkey": "sblocca con una passkey"
+      },
+      "delete": {
+        "warning": "Eliminare \"{name}\" rimuove da questo browser le sue impostazioni, la cronologia, gli errori, i testi salvati e il livello. Non può essere annullato.",
+        "last_step": "Ultimo passaggio: \"{name}\" verrà eliminato ora."
+      },
+      "guest": {
+        "saved_banner": "Salvato: ora questo è \"{name}\", con tutto ciò che hai fatto come ospite. Password e backup possono essere configurati nelle impostazioni del profilo."
+      },
+      "import": {
+        "imported": "importato \"{name}\" ",
+        "open_it": "aprilo"
+      },
+      "restore": {
+        "in_folder": "in “{name}”: ",
+        "open_profile": "apri “{name}”"
+      },
+      "folder_restore": {
+        "pick_the_folder_kalibre_saved": "scegli la cartella in cui kalibre ha salvato i dati. contiene un file kalibre.json (i backup più vecchi sono solo file .kalibre-profile, che funzionano comunque).",
+        "choose_the_folder": "scegli la cartella",
+        "reading_the_folder": "lettura della cartella…",
+        "nothing_kalibre_saved_yet": "kalibre non ha ancora salvato nulla.",
+        "restored_profiles_are_added_alongside": "i profili ripristinati vengono aggiunti accanto a quelli presenti; nulla viene sovrascritto.",
+        "pick_another_folder": "scegli un'altra cartella",
+        "tick_something_to_restore_first": "seleziona prima qualcosa da ripristinare.",
+        "restoring": "ripristino…",
+        "restoring_of": "ripristino… {done} di {total}",
+        "restored": "ripristinati {join}.",
+        "nothing_was_restored": "non è stato ripristinato nulla.",
+        "things_saved": "{count, plural, one {# elemento} other {# elementi}} salvati da kalibre.",
+        "title": "ripristina da una cartella kalibre",
+        "that_doesn_t_look_like": "Quella non sembra una cartella kalibre: non contiene kalibre.json e non contiene backup dei profili.",
+        "the_folder_s_kalibre_json": "Il file kalibre.json della cartella è danneggiato, quindi non può essere letto. I suoi file possono comunque essere importati uno alla volta.",
+        "status": {
+          "present": "già presente",
+          "missing": "non nella cartella"
+        }
+      },
+      "guest_banner": {
+        "guest_profile": "profilo ospite",
+        "your_tests_mistakes_stats_and": "I tuoi test, errori, statistiche e XP vengono conservati in questo browser, ma non salvati in un backup, e il profilo non può essere bloccato. Salva i tuoi progressi per conservarli come profilo personale.",
+        "you_re_trying_kalibre_as": "Stai provando Kalibre come ospite. ",
+        "this_browser_isn_t_keeping": "questo browser non conserva nulla, quindi alla chiusura della finestra non viene salvato niente. per conservare ciò che fai, scarica il tuo profilo e caricalo in una finestra normale.",
+        "guest_session": "sessione ospite: "
+      },
+      "profile_context_menu": {
+        "stats": "statistiche",
+        "texts": "testi",
+        "save_this_profile_as_a": "Salva questo profilo come file (nella cartella kalibre, se esiste)",
+        "save_profile": "salva profilo",
+        "load_a_profile_file_added": "Carica un file del profilo, aggiunto accanto agli altri (nulla viene sovrascritto)",
+        "load_profile": "carica profilo",
+        "profile_options": "opzioni profilo",
+        "level": "livello {curLevel}",
+        "xp_remaining": "mancano {remaining} XP",
+        "xp_remaining_to_level": "mancano {remaining} XP al livello {value}",
+        "guest": "ospite",
+        "aria_level": ", livello {level}, {into} di {needed} XP verso il prossimo",
+        "aria_locked": ", bloccato con una password",
+        "aria_label": "profilo: {name}{level}{locked}{status}. Opzioni profilo.",
+        "status_aria": "stato: {status}",
+        "saving": "salvataggio…"
+      },
+      "menu": {
+        "editing": "modifica in corso",
+        "you": "tu",
+        "locked": "bloccato",
+        "edit": "modifica",
+        "open": "apri",
+        "new_profile": "nuovo profilo",
+        "creating": "creazione in corso",
+        "add_one": "aggiungine uno"
+      },
+      "drop": {
+        "one_at_a_time": "trascina un file del profilo alla volta",
+        "not_profile_file": "non è un file del profilo: terminano con {extension}"
+      },
+      "profile_edit_panel": {
+        "save_name": "salva nome",
+        "passwords_need_a_secure_connection": "Le password richiedono una connessione sicura (https:// o localhost), quindi non sono disponibili qui.",
+        "this_is_a_guest_profile": "Questo è un profilo ospite. Salva prima i tuoi progressi (dal banner in cima alla pagina), poi aggiungi qui una password o una passkey.",
+        "locked_with_a_password": "Bloccato con una password.",
+        "no_password_anyone_using_this": "Nessuna password: chiunque usi questo browser può aprire questo profilo.",
+        "change_password": "cambia password",
+        "set_a_password": "imposta una password",
+        "remove_password": "rimuovi password",
+        "the_new_passwords_don_t": "Le nuove password non coincidono.",
+        "working": "operazione in corso…",
+        "password_removed": "password rimossa",
+        "password_saved_the_profile_asks": "password salvata; il profilo la richiede quando kalibre si apre",
+        "save_password": "salva password",
+        "passkey_name": "nome della passkey",
+        "passkey_renamed": "passkey rinominata",
+        "this_browser_can_t_use": "Questo browser non può usare le passkey qui (richiedono https:// o localhost).",
+        "set_a_password_first_then": "Imposta prima una password, poi aggiungi una passkey per sbloccare con Touch ID, Windows Hello, un telefono o una chiave di sicurezza.",
+        "rename": "rinomina",
+        "rename_passkey": "rinomina passkey {label}",
+        "added": "aggiunta {format}",
+        "for": "per {rpId}",
+        "remove_passkey_added": "rimuovi passkey {label}, aggiunta {format}",
+        "passkey_removed": "passkey rimossa",
+        "no_passkeys_yet_a_passkey": "Ancora nessuna passkey. Una passkey sblocca questo profilo senza digitare la password.",
+        "add_a_passkey": "aggiungi una passkey",
+        "follow_your_browser_s_prompt": "segui la richiesta del browser…",
+        "passkey_added_the_lock_screen": "passkey aggiunta; la schermata di blocco la offrirà la prossima volta",
+        "preparing_the_file": "preparazione del file…",
+        "the_only_profile_can_t": "l'unico profilo non può essere eliminato",
+        "delete_this_profile": "elimina questo profilo",
+        "step_of": "passaggio {value} di {length}",
+        "export_it_first": "esportalo prima",
+        "type_the_profile_name_exactly": "Digita esattamente il nome del profilo per confermare.",
+        "use_a_passkey": "usa una passkey",
+        "that_passkey_couldn_t_be": "non è stato possibile verificare quella passkey.",
+        "that_password_is_not_right": "quella password non è corretta.",
+        "this_profile_is_locked_so": "questo profilo è bloccato, quindi conferma che sei tu.",
+        "confirm": "conferma",
+        "or": "oppure",
+        "delete_for_good": "elimina definitivamente ({left})",
+        "delete_for_good_2": "elimina definitivamente",
+        "deleting": "eliminazione…",
+        "name_and_picture": "nome e immagine",
+        "a_password_or_passkey_keeps": "Una password o una passkey impedisce alle altre persone che usano questo browser di accedere alle schermate di Kalibre. Non cifra ciò che è memorizzato nel browser.",
+        "rerun_setup": "ripeti la configurazione",
+        "an_export_is_a_compressed": "Un'esportazione è un file .kalibre-profile compresso con la cronologia di questo profilo. Password e passkey vengono mantenute come blocchi, ma la compressione non è cifratura, quindi conservalo in un luogo privato.",
+        "removes_passkeys": "Questo rimuove anche {count, plural, one {la sua passkey} other {le sue # passkey}}.",
+        "current_password": "password corrente",
+        "new_password": "nuova password ({MIN_PASSWORD_LENGTH}+)",
+        "repeat_it": "ripetila",
+        "type_its_name": "digita il suo nome"
+      },
+      "profile_form_helpers": {
+        "shrinking": "ridimensionamento…",
+        "change_picture": "cambia immagine",
+        "add_a_picture": "aggiungi un'immagine",
+        "optional_shrunk_to_a_small": "Facoltativo. Ridotta a un piccolo quadrato e conservata in questo browser."
+      },
+      "profile_import": {
+        "import_a_profile_file": "importa un file del profilo",
+        "added_alongside_the_others_nothing": "aggiunto accanto agli altri; nulla viene sovrascritto"
+      },
+      "profile_new_panel": {
+        "e_g_guest": "es. ospite",
+        "creating": "creazione…",
+        "a_picture_and_password_can": "{NAME_HINT} è possibile aggiungere un'immagine e una password nelle impostazioni del profilo.",
+        "create_and_open": "crea e apri",
+        "or_try_as_a_guest": "oppure prova come ospite",
+        "a_profile_to_try_things": "Un profilo per provare le cose, senza configurazione; salva in seguito i suoi progressi per conservarli"
+      },
+      "setup": {
+        "skip_setup": "salta configurazione",
+        "just_try_it_as_a": "provalo e basta, come ospite",
+        "start_typing_now_with_the": "Inizia subito a digitare con le impostazioni predefinite; salva i tuoi progressi in seguito se vuoi conservarli",
+        "set_up_kalibre": "configura kalibre",
+        "progress": "{current} di {total}",
+        "progress_keys": " · invio per continuare · esc per saltare",
+        "keep_an_automatic_backup_in": "mantieni un backup automatico in una cartella su questo computer? (il browser può cancellare il proprio spazio di archiviazione)",
+        "save_a_backup_of_this": "salvare ora un backup di questo profilo in “{name}”?",
+        "who_ll_guide_your_touch": "chi guiderà le tue lezioni di scrittura a tocco?",
+        "new_here_or_been_here": "prima volta qui o ci sei già stato?",
+        "kalibre_works_better_with_a": "kalibre funziona meglio con una tastiera",
+        "pick_a_theme": "scegli un tema",
+        "capital_letters_in_common_words": "maiuscole nelle parole comuni? (le citazioni e i tuoi testi mantengono sempre le proprie)",
+        "default_test": "test predefinito",
+        "when_should_kalibre_suggest_a": "quando dovrebbe kalibre suggerire un errore da allenare?",
+        "automatically_start_training_mistakes_wh": "avviare automaticamente l'allenamento degli errori quando sono pronti?",
+        "a_daily_goal": "un obiettivo giornaliero?",
+        "how_often_should_the_backup": "con quale frequenza aggiornare la cartella di backup? (impostazioni → dati)",
+        "DEFAULT_TESTS": {
+          "time-15": {
+            "label": "15 secondi"
+          },
+          "time-30": {
+            "label": "30 secondi"
+          },
+          "time-60": {
+            "label": "60 secondi"
+          },
+          "words-25": {
+            "label": "25 parole"
+          },
+          "words-50": {
+            "label": "50 parole"
+          }
+        },
+        "GOALS": {
+          "off": {
+            "label": "nessun obiettivo"
+          },
+          "minutes-10": {
+            "label": "10 minuti"
+          },
+          "minutes-20": {
+            "label": "20 minuti"
+          },
+          "words-500": {
+            "label": "500 parole"
+          },
+          "words-1000": {
+            "label": "1.000 parole"
+          }
+        },
+        "backupStep": {
+          "folder": {
+            "label": "scegli una cartella"
+          },
+          "later": {
+            "label": "non ora"
+          },
+          "save": {
+            "label": "sì, salvalo"
+          }
+        },
+        "restoreStep": {
+          "new": {
+            "label": "prima volta qui",
+            "detail": "configura un profilo nuovo"
+          },
+          "restore": {
+            "label": "già stato qui",
+            "detail": "ripristina dalla mia cartella kalibre"
+          }
+        },
+        "touchStep": {
+          "ok": {
+            "label": "capito",
+            "detail": "continua con questo dispositivo"
+          }
+        },
+        "buildSteps": {
+          "relaxed": {
+            "label": "solo schemi chiari"
+          },
+          "normal": {
+            "label": "dopo alcune ripetizioni"
+          },
+          "eager": {
+            "label": "presto"
+          }
+        },
+        "pick_a_language": "scegli una lingua",
+        "name_prompt": "come dobbiamo chiamarti?",
+        "name_hint": "meglio un soprannome: evita il tuo vero nome e qualsiasi dato personale.",
+        "starter_library_note": "con kalibre arriva una libreria iniziale di libri di pubblico dominio, quindi i test sono pronti senza dover scaricare nulla",
+        "companion_note": "rimane con questo profilo. per conoscere l'altro, crea un altro profilo.",
+        "restore_note": "kalibre può ripristinare profili, dataset e font dalla cartella in cui li ha salvati.",
+        "keyboard_note": "la tastiera su schermo funziona per test e giochi, ma una tastiera bluetooth o usb li rende più equi e le lezioni di scrittura a tocco ne hanno davvero bisogno. kalibre funziona meglio su un computer.",
+        "keyboard_tip": " suggerimento: aggiungi kalibre alla schermata Home (condividi → aggiungi alla schermata Home) così Safari conserva i tuoi dati; in una scheda, torna almeno una volta alla settimana.",
+        "auto_accept_yes": "sì, aggiungili automaticamente",
+        "language_detail": {
+          "en-US": "ortografia adattata",
+          "fr-FR": "francese (Francia)",
+          "zh-CN": "cinese semplificato"
+        }
+      },
+      "passkey_utils": {
+        "this_browser_can_t_use": "Questo browser non può usare le passkey qui (richiedono https:// o localhost).",
+        "that_passkey_uses_a_kind": "Quella passkey usa un tipo di chiave che Kalibre non può verificare. Prova un altro dispositivo o browser.",
+        "no_passkey_for_this_profile": "Nessuna passkey per questo profilo funziona a questo indirizzo.",
+        "not_a_der_signature": "non è una firma DER",
+        "not_a_der_integer": "non è un intero DER",
+        "integer_too_long": "intero troppo lungo",
+        "the_passkey_request_was_cancelled": "La richiesta della passkey è stata annullata o è scaduta.",
+        "that_device_already_has_a": "Quel dispositivo ha già una passkey per questo profilo.",
+        "passkeys_aren_t_allowed_at": "Le passkey non sono consentite a questo indirizzo.",
+        "the_passkey_didn_t_work": "La passkey non ha funzionato."
+      },
+      "avatar_utils": {
+        "choose_an_image_file": "Scegli un file immagine.",
+        "that_image_is_too_large": "Quell'immagine è troppo grande (massimo 20 MB).",
+        "that_image_couldn_t_be": "Non è stato possibile leggere quell'immagine.",
+        "that_image_couldn_t_be_2": "Non è stato possibile ridurre abbastanza quell'immagine."
+      },
+      "kalibre_folder": {
+        "that_folder_was_made_by": "Quella cartella è stata creata da una versione più recente di kalibre. Aggiorna questa versione (ricarica per aggiornare), poi riprova."
+      },
+      "password_utils": {
+        "passwords_need_a_secure_connection": "Le password richiedono una connessione sicura (https:// o localhost).",
+        "use_at_least_characters": "Usa almeno {MIN_PASSWORD_LENGTH} caratteri.",
+        "this_profile_is_locked_and": "Questo profilo è bloccato e le password richiedono una connessione sicura (https:// o localhost)."
+      },
+      "profile_export_v2": {
+        "that_profile_isn_t_there": "Quel profilo non esiste più."
+      },
+      "profile_file": {
+        "this_browser_can_t_open": "Questo browser non può aprire file compressi dei profili. Prova una versione recente di Chrome, Edge, Firefox o Safari.",
+        "the_profile_file_is_damaged": "Il file del profilo è danneggiato (non è stato possibile decomprimerlo)."
+      },
+      "profile_name": {
+        "email": "Sembra un indirizzo email. Usa invece un soprannome.",
+        "phone": "Sembra un numero di telefono. Usa invece un soprannome.",
+        "blocked": "Quel nome contiene una parola che Kalibre esclude. Prova un altro."
+      }
+    },
+    "quests": {
+      "status": {
+        "done": "completata"
+      },
+      "actions": {
+        "swap": "cambia",
+        "swap_title": "Cambia questa missione con un'altra (una volta al giorno)",
+        "go": "vai",
+        "go_aria": "vai: {quest}"
+      },
+      "labels": {
+        "today": "oggi",
+        "quests": "missioni",
+        "challenge": "sfida",
+        "daily_goal": "obiettivo giornaliero",
+        "daily_goal_label": "obiettivo giornaliero "
+      },
+      "today": {
+        "panel_aria": "missioni di oggi",
+        "getting": "recupero delle missioni di oggi…",
+        "new_at_midnight": "{difficulty} · nuove missioni a mezzanotte · ",
+        "difficulty": "difficoltà",
+        "summary_aria": "oggi: {done} di {total} missioni completate{challenge, select, done {, sfida completata} other {}}"
+      },
+      "quest_note": {
+        "xp": "+{reward} xp",
+        "challenge_done": "sfida completata: {description}",
+        "quest_done": "missione completata: {description}"
+      },
+      "match": {
+        "tests": "{count, plural, one {un test} other {test}}",
+        "drills": "{count, plural, one {un allenamento} other {allenamenti}}",
+        "time": "{count, plural, one {un test a tempo} other {test a tempo}}",
+        "words": "{count, plural, one {un test a parole} other {test a parole}}",
+        "quote": "{count, plural, one {una citazione} other {citazioni}}",
+        "book": "{count, plural, one {una lettura di libro} other {letture di libri}}",
+        "sustained": "{count, plural, one {un test sostenuto} other {test sostenuti}}",
+        "time_duration": "{count, plural, one {un test di {duration} secondi} other {test di {duration} secondi}}",
+        "words_count": "{count, plural, one {un test di {wordCount} parole} other {test di {wordCount} parole}}",
+        "quote_category": "{count, plural, one {una citazione {category}} other {citazioni {category}}}"
+      },
+      "categories": {
+        "short": "breve",
+        "medium": "media",
+        "long": "lunga",
+        "huge": "enorme",
+        "massive": "gigantesca"
+      },
+      "game_titles": {
+        "feed": "Feed",
+        "castle": "Castle",
+        "space": "Space",
+        "spot": "Spot"
+      },
+      "difficulty_words": {
+        "easy": "a facile",
+        "normal": "a normale",
+        "hard": "a difficile"
+      },
+      "conditions": {
+        "wpm": "{wpm}+ ppm",
+        "accuracy": "{accuracy}%+ di precisione",
+        "and": " e ",
+        "at": " a {parts}",
+        "kept_going_after": ", ha continuato per {minutes, plural, one {# minuto} other {# minuti}}",
+        "kept_going": " ha continuato per {minutes, plural, one {# minuto} other {# minuti}}"
+      },
+      "describe": {
+        "words": "digita {count, plural, one {# parola} other {# parole}}",
+        "words_in": "digita {count, plural, one {# parola} other {# parole}} in {match}",
+        "minutes": "digita per {count, plural, one {# minuto} other {# minuti}}",
+        "minutes_in": "digita per {count, plural, one {# minuto} other {# minuti}} in {match}",
+        "minutes_book": "digita da un libro per {count, plural, one {# minuto} other {# minuti}}",
+        "tests_one": "completa {match}",
+        "tests_many": "completa {count} {match}",
+        "run": "completa {match}{conditions}",
+        "game_runs": "gioca a {game} {count, plural, one {una volta} other {# volte}}",
+        "game_score": "ottieni {score} punti in {game}",
+        "game_score_difficulty": "ottieni {score} punti in {game} {difficulty}",
+        "game_found": "trova {count, plural, one {# errore} other {# errori}} in una partita di {game}",
+        "lesson_run": "completa una lezione di scrittura a tocco con almeno {accuracy}% di precisione",
+        "lessons": "{count, plural, one {fai una lezione di scrittura a tocco} other {fai # lezioni di scrittura a tocco}}",
+        "pad_tests": "{count, plural, one {completa un test del tastierino numerico} other {completa # test del tastierino numerico}}",
+        "pad_run": "completa un test del tastierino numerico",
+        "pad_ksph": "{ksph}+ battute all'ora",
+        "pad_entries": ", con almeno {entries} voci",
+        "pad_lessons": "{count, plural, one {fai una lezione di tastierino numerico} other {fai # lezioni di tastierino numerico}}",
+        "sums": "risolvi correttamente {count, plural, one {# somma} other {# somme}}",
+        "something": "qualcosa"
+      }
     }
   }
 }
