@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "community",
-    "revision": 4,
+    "revision": 5,
     "version": "2026-10-03",
-    "changes": "Complete fr-FR translations and plurals for supplement coverage pass"
+    "changes": "100% complete fr-FR coverage: profile menu, backup/storage, results, learn and stats headings"
   },
   "strings": {
     "about": {
@@ -1479,7 +1479,8 @@
         "reload_now": "recharger maintenant",
         "not_now": "pas maintenant",
         "yes": "oui",
-        "no": "non"
+        "no": "non",
+        "saving": "enregistrement…"
       },
       "plural": {
         "test": "{count, plural, one {# test} many {# tests} other {# tests}}",
@@ -1635,7 +1636,11 @@
         "then": "puis",
         "or": "ou"
       },
-      "custom": "personnalisé"
+      "custom": "personnalisé",
+      "hand": {
+        "left": "gauche",
+        "right": "droite"
+      }
     },
     "companions.cal": {
       "lines": {
@@ -1721,9 +1726,12 @@
           "{next} d'abord, puis cette porte s'ouvrira."
         ],
         "sleepy": [
-          "Bâillements du matin. Bois un peu d'eau ?",
-          "Zzz… trop tôt, même pour moi.",
-          "Je me réveille encore aussi, je pense."
+          "Zzz… appuie sur une touche dès que tu es prêt.",
+          "Toujours là ? Je t'attends.",
+          "Je vais juste… reposer ma touche… zzz…",
+          "Prends ton temps. Je ne vais nulle part. Petites pattes.",
+          "Allo ? Il y a des touches par là ?",
+          "Je m'assoupis… touche-moi quand tu veux écrire."
         ],
         "welcome": [
           "Salut, je suis Cal ! La leçon 1.1 est là où tout commence.",
@@ -2809,12 +2817,18 @@
         "manual_heading": "Sauvegarder manuellement",
         "export_profile": "Exporter ce profil",
         "share_profile": "Partager ce profil",
-        "exported_summary": "Exporté : {sessions} tests, {mistakes} erreurs et {texts} textes",
+        "exported_summary": "exporté {sessions} tests, {mistakes} erreurs et {texts} textes{destination}",
         "restore_folder": "Restaurer depuis un dossier Kalibre",
         "update_copies": "Copies avant les mises à jour",
         "restore_warning": "Cela remplace tout ce que Kalibre conserve dans ce navigateur par cette copie. Êtes-vous sûr ?",
         "confirm_restore": "Oui, restaurer",
-        "cancel": "Annuler"
+        "cancel": "Annuler",
+        "saved_to": " dans {destination}",
+        "last_backup_time": "dernière sauvegarde {when}",
+        "not_backed_up_yet": "pas encore sauvegardé",
+        "problem_permission": " Le navigateur a de nouveau besoin de votre autorisation pour y écrire.",
+        "problem_conflict": " Le dossier contient une copie plus récente de « {name} », enregistrée depuis un autre navigateur le {when}, elle n'a donc pas été écrasée. Restaurez cette copie, ou enregistrez celle-ci par-dessus.",
+        "problem_last_error": " La dernière sauvegarde a échoué : {error}"
       },
       "guest": {
         "banner_title": "Vous essayez Kalibre en tant qu'invité.",
@@ -4560,7 +4574,10 @@
         "list_separator": ", "
       },
       "learn_numpad_run": {
-        "num_lock_is_off_the": "verrouillage numérique désactivé : le pavé envoie des flèches. Appuie sur verrouillage numérique sur le pavé."
+        "num_lock_is_off_the": "verrouillage numérique désactivé : le pavé envoie des flèches. Appuie sur verrouillage numérique sur le pavé.",
+        "time_left": "{time} restant · {count, plural, one {# saisie} many {# saisies} other {# saisies}}",
+        "clock_start": "{time} · la première touche lance le chronomètre",
+        "entries_count": "{done} / {total} saisies"
       },
       "learn_numpad": {
         "practice_for_the_number_pad": "Pratique pour le pavé numérique : un test de pavé numérique, des leçons et des calculs. C'est pour les personnes qui en ont un, donc c'est désactivé jusqu'à ce que tu le dises.",
@@ -4698,7 +4715,10 @@
         "customer_served": " client servi",
         "customers_served": " clients servis",
         "your_best_is": "ton record est {previousBest}",
-        "another_shift": "une autre série"
+        "another_shift": "une autre série",
+        "feedback_served": "✓ rendu {change}",
+        "feedback_wrong": "✗ {typed} : la monnaie était de {change}",
+        "feedback_left": "un client est parti ({bill})"
       },
       "learn": {
         "lessons_set_aside": "leçons mises de côté"
@@ -4841,6 +4861,10 @@
           "divide": "division",
           "percent": "pourcentages"
         }
+      },
+      "key_coach": {
+        "other_hand": "vous avez atteint {key} avec l'autre main : gardez-le sur votre main {hand}",
+        "wrong_finger": "vous avez tapé {typed} pour {key} : utilisez le doigt indiqué, ne changez pas"
       }
     },
     "mistakes": {
@@ -5099,7 +5123,8 @@
         "aria_level": ", niveau {level}, {into} sur {needed} XP pour le suivant",
         "aria_locked": ", verrouillé avec un mot de passe",
         "aria_label": "profil : {name}{level}{locked}{status}. Options du profil.",
-        "status_aria": "statut : {status}"
+        "status_aria": "statut : {status}",
+        "saving": "enregistrement…"
       },
       "profile_edit_panel": {
         "save_name": "enregistrer le nom",
@@ -5314,6 +5339,20 @@
         "email": "Cela ressemble à une adresse e-mail. Utilisez plutôt un pseudonyme.",
         "phone": "Cela ressemble à un numéro de téléphone. Utilisez plutôt un pseudonyme.",
         "blocked": "Ce nom contient un mot que Kalibre exclut. Essayez un autre."
+      },
+      "menu": {
+        "editing": "modification",
+        "you": "vous",
+        "locked": "verrouillé",
+        "edit": "modifier",
+        "open": "ouvrir",
+        "new_profile": "nouveau profil",
+        "creating": "création",
+        "add_one": "en ajouter un"
+      },
+      "drop": {
+        "one_at_a_time": "déposez un seul fichier de profil à la fois",
+        "not_profile_file": "ceci n'est pas un fichier de profil : ils se terminent par {extension}"
       }
     },
     "quests": {
@@ -5673,7 +5712,10 @@
         "mistake_line": "{errors} dans {exposures}{share} · avant {before}",
         "summary_line": "brut {raw} · {spread} · {duration}",
         "practice_words": " · {count, plural, one {# mot de pratique} many {# mots de pratique} other {# mots de pratique}}",
-        "letters_to_cover": " · {count, plural, one {# lettre} many {# lettres} other {# lettres}} restent à couvrir"
+        "letters_to_cover": " · {count, plural, one {# lettre} many {# lettres} other {# lettres}} restent à couvrir",
+        "mistakes_ready": "{count, plural, one {# erreur prête} many {# erreurs prêtes} other {# erreurs prêtes}}",
+        "consistency_spread": "régularité {consistency} % (±{wpmStdDev} mpm)",
+        "consistency_none": "régularité –"
       }
     },
     "settings": {
@@ -6598,6 +6640,46 @@
       },
       "stats": {
         "sections_label": "sections de statistiques"
+      },
+      "numpad_pane": {
+        "lesson_desc": "leçon {number}{mastered, select, true { · maîtrisée} other {}}",
+        "till_desc": "caisse · niveau {level}",
+        "sums_desc": "calculs · {form}",
+        "tenkey_desc": "pavé numérique · {form} · {limit}",
+        "mix": "un mélange",
+        "served_count": "{count} servis",
+        "sums_right": "{right} sur {answers} corrects",
+        "ksph_result": "{ksph} fph{aborted, select, true { (interrompu)} other {}}"
+      },
+      "headings": {
+        "day": "jour",
+        "tests": "tests",
+        "time": "temps",
+        "wpm": "mpm",
+        "best": "meilleur",
+        "accuracy": "précision",
+        "goal": "objectif",
+        "when": "quand",
+        "source": "source",
+        "xp": "xp",
+        "share": "part",
+        "entries": "saisies",
+        "length": "durée",
+        "ksph": "fph",
+        "kind": "type",
+        "right": "corrects",
+        "average_time": "temps moyen",
+        "what": "quoi",
+        "result": "résultat",
+        "date": "date",
+        "ghost": "fantôme",
+        "actions": "actions",
+        "test": "test",
+        "game": "jeu",
+        "mode": "mode",
+        "difficulty": "difficulté",
+        "outcome": "résultat",
+        "score": "score"
       }
     },
     "texts": {
@@ -6669,7 +6751,9 @@
         "github_answered": "GitHub a répondu {status}.",
         "that_isn_t_a_github": "Ce n'est pas une adresse de dépôt GitHub (github.com/propriétaire/dépôt).",
         "no_txt_or_md_files": "Aucun fichier .txt ou .md n'a été trouvé là-bas.",
-        "the_files_couldn_t_be": "Les fichiers n'ont pas pu être téléchargés."
+        "the_files_couldn_t_be": "Les fichiers n'ont pas pu être téléchargés.",
+        "listing_files": "inventaire des fichiers…",
+        "downloading_progress": "téléchargement de {current} sur {total}…"
       },
       "importers": {
         "doesn_t_look_like_a": "{name} ne ressemble pas à un fichier texte.",

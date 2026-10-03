@@ -82,9 +82,12 @@
       "{next} d'abord, puis cette porte s'ouvrira."
     ],
     "sleepy": [
-      "Bâillements du matin. Bois un peu d'eau ?",
-      "Zzz… trop tôt, même pour moi.",
-      "Je me réveille encore aussi, je pense."
+      "Zzz… appuie sur une touche dès que tu es prêt.",
+      "Toujours là ? Je t'attends.",
+      "Je vais juste… reposer ma touche… zzz…",
+      "Prends ton temps. Je ne vais nulle part. Petites pattes.",
+      "Allo ? Il y a des touches par là ?",
+      "Je m'assoupis… touche-moi quand tu veux écrire."
     ],
     "welcome": [
       "Salut, je suis Cal ! La leçon 1.1 est là où tout commence.",

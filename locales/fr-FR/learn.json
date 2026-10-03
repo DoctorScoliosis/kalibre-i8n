@@ -244,7 +244,10 @@
     "list_separator": ", "
   },
   "learn_numpad_run": {
-    "num_lock_is_off_the": "verrouillage numérique désactivé : le pavé envoie des flèches. Appuie sur verrouillage numérique sur le pavé."
+    "num_lock_is_off_the": "verrouillage numérique désactivé : le pavé envoie des flèches. Appuie sur verrouillage numérique sur le pavé.",
+    "time_left": "{time} restant · {count, plural, one {# saisie} many {# saisies} other {# saisies}}",
+    "clock_start": "{time} · la première touche lance le chronomètre",
+    "entries_count": "{done} / {total} saisies"
   },
   "learn_numpad": {
     "practice_for_the_number_pad": "Pratique pour le pavé numérique : un test de pavé numérique, des leçons et des calculs. C'est pour les personnes qui en ont un, donc c'est désactivé jusqu'à ce que tu le dises.",
@@ -382,7 +385,10 @@
     "customer_served": " client servi",
     "customers_served": " clients servis",
     "your_best_is": "ton record est {previousBest}",
-    "another_shift": "une autre série"
+    "another_shift": "une autre série",
+    "feedback_served": "✓ rendu {change}",
+    "feedback_wrong": "✗ {typed} : la monnaie était de {change}",
+    "feedback_left": "un client est parti ({bill})"
   },
   "learn": {
     "lessons_set_aside": "leçons mises de côté"
@@ -525,5 +531,9 @@
       "divide": "division",
       "percent": "pourcentages"
     }
+  },
+  "key_coach": {
+    "other_hand": "vous avez atteint {key} avec l'autre main : gardez-le sur votre main {hand}",
+    "wrong_finger": "vous avez tapé {typed} pour {key} : utilisez le doigt indiqué, ne changez pas"
   }
 }

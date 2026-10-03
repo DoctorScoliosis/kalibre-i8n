@@ -16,12 +16,13 @@
     "manual_heading": "手动备份",
     "export_profile": "导出此个人资料",
     "share_profile": "分享此个人资料",
-    "exported_summary": "已导出 {sessions} 次测试、{mistakes} 个错误和 {texts} 篇文本",
+    "exported_summary": "已导出 {sessions} 次测试、{mistakes} 个错误和 {texts} 段文本{destination}",
     "restore_folder": "从 kalibre 文件夹恢复",
     "update_copies": "更新前的副本",
     "restore_warning": "这将用该副本替换 kalibre 在此浏览器中保留的所有内容。确定吗？",
     "confirm_restore": "是的，恢复它",
-    "cancel": "取消"
+    "cancel": "取消",
+    "saved_to": " 至 {destination}"
   },
   "guest": {
     "banner_title": "你正在以访客身份试用 Kalibre。",

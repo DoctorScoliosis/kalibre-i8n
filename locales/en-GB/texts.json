@@ -67,7 +67,9 @@
     "github_answered": "GitHub answered {status}.",
     "that_isn_t_a_github": "That isn’t a GitHub repository address (github.com/owner/repo).",
     "no_txt_or_md_files": "No .txt or .md files were found there.",
-    "the_files_couldn_t_be": "The files couldn’t be downloaded."
+    "the_files_couldn_t_be": "The files couldn’t be downloaded.",
+    "listing_files": "listing files…",
+    "downloading_progress": "downloading {current} of {total}…"
   },
   "importers": {
     "doesn_t_look_like_a": "{name} doesn't look like a text file.",

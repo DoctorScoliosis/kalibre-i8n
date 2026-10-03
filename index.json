@@ -18,8 +18,8 @@
       "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "19393142355c3a7c357ded407d2a8f6404908e12570a4d7e1c6d309ca359ad17",
-      "bytes": 290316
+      "sha256": "4c6714ae4d3a2967868d247cbc7259151aa8dae1207f13bfc27c116915213c29",
+      "bytes": 293567
     },
     {
       "id": "fr-FR",
@@ -27,14 +27,14 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
+      "revision": 5,
       "version": "2026-10-03",
       "reviewed": "community",
-      "changes": "Complete fr-FR translations and plurals for supplement coverage pass",
+      "changes": "100% complete fr-FR coverage: profile menu, backup/storage, results, learn and stats headings",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "f2343345a9294494c75ffce95f574fb20bdd03ccc07ccb62277edb74a045f629",
-      "bytes": 324099
+      "sha256": "4e52407a6186b9bf2a7c8e70b15a9ddfb0955842b5ba4a9539536fac87a5d9de",
+      "bytes": 327861
     },
     {
       "id": "zh-CN",
@@ -48,8 +48,8 @@
       "changes": "L10: full companion lines, Cal and Libby voice lines, ending script",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "1bc4d5fe3079070169244d439187d6caf82f7adb611d9b388d590271d9c1555a",
-      "bytes": 67445
+      "sha256": "2316274b61f601c434054f33a179ac199f32e27ae1ec932332cc32e1f5d81222",
+      "bytes": 67500
     }
   ]
 }

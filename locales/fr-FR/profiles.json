@@ -75,7 +75,8 @@
     "aria_level": ", niveau {level}, {into} sur {needed} XP pour le suivant",
     "aria_locked": ", verrouillé avec un mot de passe",
     "aria_label": "profil : {name}{level}{locked}{status}. Options du profil.",
-    "status_aria": "statut : {status}"
+    "status_aria": "statut : {status}",
+    "saving": "enregistrement…"
   },
   "profile_edit_panel": {
     "save_name": "enregistrer le nom",
@@ -290,5 +291,19 @@
     "email": "Cela ressemble à une adresse e-mail. Utilisez plutôt un pseudonyme.",
     "phone": "Cela ressemble à un numéro de téléphone. Utilisez plutôt un pseudonyme.",
     "blocked": "Ce nom contient un mot que Kalibre exclut. Essayez un autre."
+  },
+  "menu": {
+    "editing": "modification",
+    "you": "vous",
+    "locked": "verrouillé",
+    "edit": "modifier",
+    "open": "ouvrir",
+    "new_profile": "nouveau profil",
+    "creating": "création",
+    "add_one": "en ajouter un"
+  },
+  "drop": {
+    "one_at_a_time": "déposez un seul fichier de profil à la fois",
+    "not_profile_file": "ceci n'est pas un fichier de profil : ils se terminent par {extension}"
   }
 }

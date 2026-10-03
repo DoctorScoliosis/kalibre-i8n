@@ -175,5 +175,45 @@
   },
   "stats": {
     "sections_label": "sections de statistiques"
+  },
+  "numpad_pane": {
+    "lesson_desc": "leçon {number}{mastered, select, true { · maîtrisée} other {}}",
+    "till_desc": "caisse · niveau {level}",
+    "sums_desc": "calculs · {form}",
+    "tenkey_desc": "pavé numérique · {form} · {limit}",
+    "mix": "un mélange",
+    "served_count": "{count} servis",
+    "sums_right": "{right} sur {answers} corrects",
+    "ksph_result": "{ksph} fph{aborted, select, true { (interrompu)} other {}}"
+  },
+  "headings": {
+    "day": "jour",
+    "tests": "tests",
+    "time": "temps",
+    "wpm": "mpm",
+    "best": "meilleur",
+    "accuracy": "précision",
+    "goal": "objectif",
+    "when": "quand",
+    "source": "source",
+    "xp": "xp",
+    "share": "part",
+    "entries": "saisies",
+    "length": "durée",
+    "ksph": "fph",
+    "kind": "type",
+    "right": "corrects",
+    "average_time": "temps moyen",
+    "what": "quoi",
+    "result": "résultat",
+    "date": "date",
+    "ghost": "fantôme",
+    "actions": "actions",
+    "test": "test",
+    "game": "jeu",
+    "mode": "mode",
+    "difficulty": "difficulté",
+    "outcome": "résultat",
+    "score": "score"
   }
 }

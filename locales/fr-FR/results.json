@@ -84,6 +84,9 @@
     "mistake_line": "{errors} dans {exposures}{share} · avant {before}",
     "summary_line": "brut {raw} · {spread} · {duration}",
     "practice_words": " · {count, plural, one {# mot de pratique} many {# mots de pratique} other {# mots de pratique}}",
-    "letters_to_cover": " · {count, plural, one {# lettre} many {# lettres} other {# lettres}} restent à couvrir"
+    "letters_to_cover": " · {count, plural, one {# lettre} many {# lettres} other {# lettres}} restent à couvrir",
+    "mistakes_ready": "{count, plural, one {# erreur prête} many {# erreurs prêtes} other {# erreurs prêtes}}",
+    "consistency_spread": "régularité {consistency} % (±{wpmStdDev} mpm)",
+    "consistency_none": "régularité –"
   }
 }

@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "community",
-  "revision": 4,
+  "revision": 5,
   "version": "2026-10-03",
-  "changes": "Complete fr-FR translations and plurals for supplement coverage pass"
+  "changes": "100% complete fr-FR coverage: profile menu, backup/storage, results, learn and stats headings"
 }

@@ -16,12 +16,18 @@
     "manual_heading": "Sauvegarder manuellement",
     "export_profile": "Exporter ce profil",
     "share_profile": "Partager ce profil",
-    "exported_summary": "Exporté : {sessions} tests, {mistakes} erreurs et {texts} textes",
+    "exported_summary": "exporté {sessions} tests, {mistakes} erreurs et {texts} textes{destination}",
     "restore_folder": "Restaurer depuis un dossier Kalibre",
     "update_copies": "Copies avant les mises à jour",
     "restore_warning": "Cela remplace tout ce que Kalibre conserve dans ce navigateur par cette copie. Êtes-vous sûr ?",
     "confirm_restore": "Oui, restaurer",
-    "cancel": "Annuler"
+    "cancel": "Annuler",
+    "saved_to": " dans {destination}",
+    "last_backup_time": "dernière sauvegarde {when}",
+    "not_backed_up_yet": "pas encore sauvegardé",
+    "problem_permission": " Le navigateur a de nouveau besoin de votre autorisation pour y écrire.",
+    "problem_conflict": " Le dossier contient une copie plus récente de « {name} », enregistrée depuis un autre navigateur le {when}, elle n'a donc pas été écrasée. Restaurez cette copie, ou enregistrez celle-ci par-dessus.",
+    "problem_last_error": " La dernière sauvegarde a échoué : {error}"
   },
   "guest": {
     "banner_title": "Vous essayez Kalibre en tant qu'invité.",

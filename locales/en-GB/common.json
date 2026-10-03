@@ -12,7 +12,12 @@
     "reload_now": "reload now",
     "not_now": "not now",
     "yes": "yes",
-    "no": "no"
+    "no": "no",
+    "saving": "saving…"
+  },
+  "hand": {
+    "left": "left",
+    "right": "right"
   },
   "plural": {
     "test": "{count, plural, one {# test} other {# tests}}",

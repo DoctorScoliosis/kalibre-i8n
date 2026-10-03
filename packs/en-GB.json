@@ -1479,7 +1479,12 @@
         "reload_now": "reload now",
         "not_now": "not now",
         "yes": "yes",
-        "no": "no"
+        "no": "no",
+        "saving": "saving…"
+      },
+      "hand": {
+        "left": "left",
+        "right": "right"
       },
       "plural": {
         "test": "{count, plural, one {# test} other {# tests}}",
@@ -2812,7 +2817,13 @@
         "manual_heading": "back up by hand",
         "export_profile": "export this profile",
         "share_profile": "share this profile",
-        "exported_summary": "exported {sessions} tests, {mistakes} mistakes and {texts} texts",
+        "exported_summary": "exported {sessions} tests, {mistakes} mistakes and {texts} texts{destination}",
+        "saved_to": " to {destination}",
+        "last_backup_time": "last backup {when}",
+        "not_backed_up_yet": "not backed up yet",
+        "problem_permission": " The browser needs your go-ahead again before it can write there.",
+        "problem_conflict": " The folder has a newer copy of “{name}”, saved from another browser on {when}, so it wasn’t written over. Restore that copy, or save this one over it.",
+        "problem_last_error": " The last backup failed: {error}",
         "restore_folder": "restore from a kalibre folder",
         "update_copies": "copies from before updates",
         "restore_warning": "this replaces everything kalibre keeps in this browser with that copy. sure?",
@@ -4562,8 +4573,15 @@
         "new_keys_fingers": " · {fingers}",
         "list_separator": ", "
       },
+      "key_coach": {
+        "other_hand": "you've been reaching for {key} with the other hand: keep it on your {hand} hand",
+        "wrong_finger": "you've been hitting {typed} for {key}: reach with the finger shown, don't switch"
+      },
       "learn_numpad_run": {
-        "num_lock_is_off_the": "num lock is off: the pad is sending arrows. Press num lock on the pad."
+        "num_lock_is_off_the": "num lock is off: the pad is sending arrows. Press num lock on the pad.",
+        "time_left": "{time} left · {count, plural, one {# entry} other {# entries}}",
+        "clock_start": "{time} · the first key starts the clock",
+        "entries_count": "{done} / {total} entries"
       },
       "learn_numpad": {
         "practice_for_the_number_pad": "Practice for the number pad: a ten-key test, lessons and sums. It’s for people who have one, so it’s off until you say so.",
@@ -4701,7 +4719,10 @@
         "customer_served": " customer served",
         "customers_served": " customers served",
         "your_best_is": "your best is {previousBest}",
-        "another_shift": "another shift"
+        "another_shift": "another shift",
+        "feedback_served": "✓ change {change}",
+        "feedback_wrong": "✗ {typed}: the change was {change}",
+        "feedback_left": "a customer left ({bill})"
       },
       "learn": {
         "lessons_set_aside": "lessons set aside"
@@ -5102,7 +5123,22 @@
         "aria_level": ", level {level}, {into} of {needed} XP to the next",
         "aria_locked": ", locked with a password",
         "aria_label": "profile: {name}{level}{locked}{status}. Profile options.",
-        "status_aria": "status: {status}"
+        "status_aria": "status: {status}",
+        "saving": "saving…"
+      },
+      "menu": {
+        "editing": "editing",
+        "you": "you",
+        "locked": "locked",
+        "edit": "edit",
+        "open": "open",
+        "new_profile": "new profile",
+        "creating": "creating",
+        "add_one": "add one"
+      },
+      "drop": {
+        "one_at_a_time": "drop one profile file at a time",
+        "not_profile_file": "that isn't a profile file: they end in {extension}"
       },
       "profile_edit_panel": {
         "save_name": "save name",
@@ -5676,7 +5712,10 @@
         "mistake_line": "{errors} in {exposures}{share} · before {before}",
         "summary_line": "raw {raw} · {spread} · {duration}",
         "practice_words": " · {count, plural, one {# practice word} other {# practice words}}",
-        "letters_to_cover": " · {count, plural, one {# letter} other {# letters}} still to cover"
+        "letters_to_cover": " · {count, plural, one {# letter} other {# letters}} still to cover",
+        "mistakes_ready": "{count, plural, one {# mistake ready} other {# mistakes ready}}",
+        "consistency_spread": "consistency {consistency}% (±{wpmStdDev} wpm)",
+        "consistency_none": "consistency –"
       }
     },
     "settings": {
@@ -6511,6 +6550,46 @@
         "sums_right": "sums right",
         "time_on_pad": "time on the pad"
       },
+      "numpad_pane": {
+        "lesson_desc": "lesson {number}{mastered, select, true { · mastered} other {}}",
+        "till_desc": "till · level {level}",
+        "sums_desc": "sums · {form}",
+        "tenkey_desc": "ten-key · {form} · {limit}",
+        "mix": "a mix",
+        "served_count": "{count} served",
+        "sums_right": "{right} of {answers} right",
+        "ksph_result": "{ksph} ksph{aborted, select, true { (ended early)} other {}}"
+      },
+      "headings": {
+        "day": "day",
+        "tests": "tests",
+        "time": "time",
+        "wpm": "wpm",
+        "best": "best",
+        "accuracy": "accuracy",
+        "goal": "goal",
+        "when": "when",
+        "source": "source",
+        "xp": "xp",
+        "share": "share",
+        "entries": "entries",
+        "length": "length",
+        "ksph": "ksph",
+        "kind": "kind",
+        "right": "right",
+        "average_time": "average time",
+        "what": "what",
+        "result": "result",
+        "date": "date",
+        "ghost": "ghost",
+        "actions": "actions",
+        "test": "test",
+        "game": "game",
+        "mode": "mode",
+        "difficulty": "difficulty",
+        "outcome": "outcome",
+        "score": "score"
+      },
       "hesitations": {
         "explain": "Not mistakes: keys you typed correctly, but only after a pause of at least {factor}× your own usual gap between keys (never under {minMs} ms), so they're measured against your pace, however fast you type. Pauses over {maxS} s count as a break (longer if you type by looking for keys). Pauses that keep coming back are suggested for training, like mistakes.",
         "empty": "Tests from now on are measured for hesitations.",
@@ -6672,7 +6751,9 @@
         "github_answered": "GitHub answered {status}.",
         "that_isn_t_a_github": "That isn’t a GitHub repository address (github.com/owner/repo).",
         "no_txt_or_md_files": "No .txt or .md files were found there.",
-        "the_files_couldn_t_be": "The files couldn’t be downloaded."
+        "the_files_couldn_t_be": "The files couldn’t be downloaded.",
+        "listing_files": "listing files…",
+        "downloading_progress": "downloading {current} of {total}…"
       },
       "importers": {
         "doesn_t_look_like_a": "{name} doesn't look like a text file.",

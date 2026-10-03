@@ -84,6 +84,9 @@
     "mistake_line": "{errors} in {exposures}{share} · before {before}",
     "summary_line": "raw {raw} · {spread} · {duration}",
     "practice_words": " · {count, plural, one {# practice word} other {# practice words}}",
-    "letters_to_cover": " · {count, plural, one {# letter} other {# letters}} still to cover"
+    "letters_to_cover": " · {count, plural, one {# letter} other {# letters}} still to cover",
+    "mistakes_ready": "{count, plural, one {# mistake ready} other {# mistakes ready}}",
+    "consistency_spread": "consistency {consistency}% (±{wpmStdDev} wpm)",
+    "consistency_none": "consistency –"
   }
 }

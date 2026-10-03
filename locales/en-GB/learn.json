@@ -243,8 +243,15 @@
     "new_keys_fingers": " · {fingers}",
     "list_separator": ", "
   },
+  "key_coach": {
+    "other_hand": "you've been reaching for {key} with the other hand: keep it on your {hand} hand",
+    "wrong_finger": "you've been hitting {typed} for {key}: reach with the finger shown, don't switch"
+  },
   "learn_numpad_run": {
-    "num_lock_is_off_the": "num lock is off: the pad is sending arrows. Press num lock on the pad."
+    "num_lock_is_off_the": "num lock is off: the pad is sending arrows. Press num lock on the pad.",
+    "time_left": "{time} left · {count, plural, one {# entry} other {# entries}}",
+    "clock_start": "{time} · the first key starts the clock",
+    "entries_count": "{done} / {total} entries"
   },
   "learn_numpad": {
     "practice_for_the_number_pad": "Practice for the number pad: a ten-key test, lessons and sums. It’s for people who have one, so it’s off until you say so.",
@@ -382,7 +389,10 @@
     "customer_served": " customer served",
     "customers_served": " customers served",
     "your_best_is": "your best is {previousBest}",
-    "another_shift": "another shift"
+    "another_shift": "another shift",
+    "feedback_served": "✓ change {change}",
+    "feedback_wrong": "✗ {typed}: the change was {change}",
+    "feedback_left": "a customer left ({bill})"
   },
   "learn": {
     "lessons_set_aside": "lessons set aside"

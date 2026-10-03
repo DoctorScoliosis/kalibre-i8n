@@ -75,7 +75,22 @@
     "aria_level": ", level {level}, {into} of {needed} XP to the next",
     "aria_locked": ", locked with a password",
     "aria_label": "profile: {name}{level}{locked}{status}. Profile options.",
-    "status_aria": "status: {status}"
+    "status_aria": "status: {status}",
+    "saving": "saving…"
+  },
+  "menu": {
+    "editing": "editing",
+    "you": "you",
+    "locked": "locked",
+    "edit": "edit",
+    "open": "open",
+    "new_profile": "new profile",
+    "creating": "creating",
+    "add_one": "add one"
+  },
+  "drop": {
+    "one_at_a_time": "drop one profile file at a time",
+    "not_profile_file": "that isn't a profile file: they end in {extension}"
   },
   "profile_edit_panel": {
     "save_name": "save name",

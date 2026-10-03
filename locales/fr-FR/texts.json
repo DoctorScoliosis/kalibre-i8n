@@ -67,7 +67,9 @@
     "github_answered": "GitHub a répondu {status}.",
     "that_isn_t_a_github": "Ce n'est pas une adresse de dépôt GitHub (github.com/propriétaire/dépôt).",
     "no_txt_or_md_files": "Aucun fichier .txt ou .md n'a été trouvé là-bas.",
-    "the_files_couldn_t_be": "Les fichiers n'ont pas pu être téléchargés."
+    "the_files_couldn_t_be": "Les fichiers n'ont pas pu être téléchargés.",
+    "listing_files": "inventaire des fichiers…",
+    "downloading_progress": "téléchargement de {current} sur {total}…"
   },
   "importers": {
     "doesn_t_look_like_a": "{name} ne ressemble pas à un fichier texte.",
