@@ -1273,7 +1273,8 @@
           }
         }
       }
-    }
+    },
+    "minutes_choice": "{count} min"
   },
   "space_time": {
     "powerups": {
@@ -1393,6 +1394,5 @@
     "gate_breached": "corpo di guardia sfondato",
     "no_bricks": "servono mattoni per equipaggiare",
     "friendly_fire": "fuoco amico!"
-  },
-  "minutes_choice": "{count} min"
+  }
 }
