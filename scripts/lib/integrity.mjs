@@ -117,7 +117,7 @@ export function slotsOf(pattern) {
   return slots;
 }
 
-export function patternProblems(pattern, locale = "en-GB") {
+export function patternProblems(pattern, locale = "en-GB", requiredPluralCategoriesByName = null) {
   if (typeof pattern !== "string" || pattern.trim() === "") return ["message is empty"];
   if (!balanced(pattern)) return ["unbalanced braces"];
   const problems = [];
@@ -134,8 +134,9 @@ export function patternProblems(pattern, locale = "en-GB") {
           problems.push(`plural on {${node.name}}: “${name}” is not a plural category of ${locale}`);
         }
       }
-      for (const needed of categories) {
-        if (!names.includes(needed)) problems.push(`plural on {${node.name}}: missing the “${needed}” case ${locale} needs`);
+      const required = requiredPluralCategoriesByName?.get(node.name) ?? categories;
+      for (const needed of required) {
+        if (!names.includes(needed)) problems.push(`plural on {${node.name}}: missing the “${needed}” case the source message uses`);
       }
     }
   }
@@ -173,6 +174,15 @@ export function validateCanonical(files, locale = "en-GB") {
   return { errors, messages };
 }
 
+function requiredPluralCategoriesByName(pattern) {
+  const required = new Map();
+  for (const node of nodesOf(pattern)) {
+    if (node.kind !== "plural") continue;
+    required.set(node.name, new Set(Object.keys(node.cases).filter((name) => !/^=\\d+$/.test(name))));
+  }
+  return required;
+}
+
 export function validateTranslation(canonical, files, locale) {
   const { messages, problems } = flattenLocale(files);
   const errors = problems.map((p) => `[${locale}] ${p.key}: ${p.message}`);
@@ -181,8 +191,9 @@ export function validateTranslation(canonical, files, locale) {
       errors.push(`[${locale}] ${key}: orphaned key, English has no such message`);
       continue;
     }
-    for (const problem of patternProblems(text, locale)) errors.push(`[${locale}] ${key}: ${problem}`);
-    for (const problem of structureProblems(canonical.get(key), text)) errors.push(`[${locale}] ${key}: ${problem}`);
+    const source = canonical.get(key);
+    for (const problem of patternProblems(text, locale, requiredPluralCategoriesByName(source))) errors.push(`[${locale}] ${key}: ${problem}`);
+    for (const problem of structureProblems(source, text)) errors.push(`[${locale}] ${key}: ${problem}`);
   }
   return { errors, messages };
 }
