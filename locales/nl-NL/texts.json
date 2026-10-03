@@ -37,10 +37,10 @@
     "import_folder": "een map importeren"
   },
   "status": {
-    "saved": ""{title}" opgeslagen",
-    "updated": ""{title}" bijgewerkt",
-    "imported": ""{title}" geïmporteerd",
-    "deleted": ""{title}" verwijderd",
+    "saved": "\"{title}\" opgeslagen",
+    "updated": "\"{title}\" bijgewerkt",
+    "imported": "\"{title}\" geïmporteerd",
+    "deleted": "\"{title}\" verwijderd",
     "no_folder_files": "geen .txt- of .md-bestanden in die map",
     "empty": "Nog geen opgeslagen teksten. Plak iets wat je wilt oefenen of importeer een .txt-bestand. Teksten blijven op dit apparaat."
   },
