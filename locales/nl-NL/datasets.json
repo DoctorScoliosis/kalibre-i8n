@@ -66,7 +66,7 @@
     "yes_remove": "ja, verwijderen",
     "in_each_text": "{capLabel} in elke tekst",
     "version": "versie {version}",
-    "rebuilt_summary": \"{name}\" opnieuw opgebouwd: {passages}{size}, {cap}.",
+    "rebuilt_summary": "\"{name}\" opnieuw opgebouwd: {passages}{size}, {cap}.",
     "size_suffix": ", {size}",
     "download": "downloaden",
     "passages": "passages"
@@ -104,7 +104,7 @@
     "that_file_isn_t_a": "Dat bestand is geen Kalibre-datasetpakket of citatenlijst.",
     "each_file_must_be_under": "Elk bestand moet kleiner zijn dan 20 MB.",
     "added": "{what} toegevoegd",
-    "quoted_title": \"{title}\",
+    "quoted_title": "\"{title}\",
     "added_some": "{texts} toegevoegd; niet aangevinkt, zonder typbaar proza: {skipped}"
   },
   "library": {
@@ -127,12 +127,12 @@
     "this_dataset_lists_a_file": "Deze dataset verwijst naar een bestand buiten zijn eigen map, dus het is niet gedownload.",
     "this_dataset_has_too_many": "Deze dataset bevat te veel bestanden om te downloaden.",
     "this_dataset_s_checksum_list": "De checksumlijst van deze dataset is niet bruikbaar, dus hij is niet gedownload.",
-    "isn_t_in_a_format": \"{name}\" staat niet in een indeling die deze versie van Kalibre kan lezen.",
-    "doesn_t_match_the_library": \"{name}\" komt niet overeen met de index van de bibliotheek (id is {slice}).",
-    "has_no_texts": \"{name}\" bevat geen teksten.",
+    "isn_t_in_a_format": "\"{name}\" staat niet in een indeling die deze versie van Kalibre kan lezen.",
+    "doesn_t_match_the_library": "\"{name}\" komt niet overeen met de index van de bibliotheek (id is {slice}).",
+    "has_no_texts": "\"{name}\" bevat geen teksten.",
     "is_too_large": "{id}/{path} is te groot.",
-    "has_files_its_checksum_list": \"{name}\" bevat bestanden die niet door de checksumlijst worden gedekt, dus het is niet gedownload.",
-    "is_too_large_to_download": \"{name}\" is te groot om te downloaden."
+    "has_files_its_checksum_list": "\"{name}\" bevat bestanden die niet door de checksumlijst worden gedekt, dus het is niet gedownload.",
+    "is_too_large_to_download": "\"{name}\" is te groot om te downloaden."
   },
   "datasets": {
     "where_private_files": "de privé-opslag van bestanden van deze browser",
@@ -141,15 +141,15 @@
     "kept_may_clear": " De browser kan hem wissen als de ruimte bijna op is (zie instellingen → gegevens).",
     "storage_using": "Geïnstalleerde datasets worden bewaard in {where}. {used} van {quota} beschikbare ruimte wordt gebruikt.",
     "storage_kept": "Geïnstalleerde datasets worden bewaard in {where}.",
-    "installed_quotes": \"{name}\" geïnstalleerd: {count} citaten (duplicaten verwijderd). ",
-    "saved_summary": \"{name}\" opgeslagen: {texts}, {passages}. ",
-    "installed_summary": \"{name}\" geïnstalleerd: {texts}, {passages}. "
+    "installed_quotes": "\"{name}\" geïnstalleerd: {count} citaten (duplicaten verwijderd). ",
+    "saved_summary": "\"{name}\" opgeslagen: {texts}, {passages}. ",
+    "installed_summary": "\"{name}\" geïnstalleerd: {texts}, {passages}. "
   },
   "dataset_draft": {
     "untitled": "zonder titel"
   },
   "dataset_install": {
-    "has_no_usable_prose_it": \"{title}\" bevat geen bruikbaar proza (er zijn zinnen nodig, niet alleen koppen of lijsten).",
+    "has_no_usable_prose_it": "\"{title}\" bevat geen bruikbaar proza (er zijn zinnen nodig, niet alleen koppen of lijsten).",
     "this_file_is_not_a": "Dit bestand is geen Kalibre-datasetpakket."
   }
 }
