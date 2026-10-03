@@ -82,6 +82,21 @@
       "bytes": 325524
     },
     {
+      "id": "nl-NL",
+      "name": "Nederlands (Nederland)",
+      "englishName": "Dutch (Netherlands)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 1,
+      "version": "2026-10-03",
+      "reviewed": "machine",
+      "changes": "Initial Dutch (Netherlands) translation pass",
+      "path": "locales/nl-NL/manifest.json",
+      "pack": "packs/nl-NL.json",
+      "sha256": "38d36bf0f17e0d8b958cedea5d9471c4e09f9e54d8ec142b5500491c3ee113e0",
+      "bytes": 317376
+    },
+    {
       "id": "pt-BR",
       "name": "Português (Brasil)",
       "englishName": "Portuguese (Brazil)",

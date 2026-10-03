@@ -1,0 +1,87 @@
+{
+  "achievements": {
+    "hello_there": "hoi daar",
+    "good_keycap": "goede toetskap",
+    "best_friends": "beste vrienden",
+    "boop": "boop",
+    "poke_poke_poke": "por, por, por",
+    "ticklish": "kietelig",
+    "giggle_fit": "giechelbui",
+    "thats_enough": "dat is genoeg",
+    "devoted": "toegewijd"
+  },
+  "menu": {
+    "wardrobe": "garderobe",
+    "get_ring": "geef {companion, select, cal {hem} libby {haar} other {hun}} een ring",
+    "options_aria": "opties van {companion}"
+  },
+  "engagement": {
+    "title": "dit is nogal een belangrijke beslissing…",
+    "confirm_give": "geef {companion} de ring",
+    "confirm_cancel": "ik weet het niet zeker…",
+    "confirm_message": "weet je het zeker?"
+  },
+  "away": {
+    "note_hint": "een briefje",
+    "with_love_aria": "met liefde",
+    "back_tomorrow": "{partner} en ik zijn op huwelijksreis! Morgen weer terug."
+  },
+  "ending": {
+    "aria_label": "bedankt dat je kalibre hebt gespeeld",
+    "thanks": "bedankt dat je kalibre hebt gespeeld.",
+    "cal_script": [
+      {"say":"proposer","mood":"wobbly","text":"Hè? Er zit iets op mijn poot."},
+      {"reply":"het is een ring."},
+      {"say":"proposer","mood":"wobbly","text":"Een ring? Hij glimt zo. Maar… waar is hij voor?"},
+      {"reply":"hij is voor iemand van wie je houdt."},
+      {"say":"proposer","mood":"watching","text":"Iemand van wie ik… oh. OH. Ik weet precies wie."},
+      {"reply":"roep {partner}."},
+      {"say":"proposer","mood":"happy","text":"{partner}! Kun je hier even komen?"},
+      {"cue":"partnerEnters"},
+      {"say":"partner","mood":"idle","text":"Je riep? Je bent zo wiebelig. Wat is er?"},
+      {"say":"proposer","mood":"wobbly","text":"Het is een ring. Voor jou. Tenminste, als je hem wilt. Wil je?"},
+      {"say":"partner","mood":"happy","text":"O, {proposer}. Natuurlijk wil ik dat."},
+      {"cue":"partnerRing"},
+      {"say":"proposer","mood":"happy","text":"Hij past! HIJ PAST!"},
+      {"say":"partner","mood":"happy","text":"Twee toetsen, zij aan zij. Net als altijd."},
+      {"cue":"heart"},
+      {"say":"proposer","mood":"happy","text":"Zullen we gaan?"},
+      {"say":"partner","mood":"happy","text":"Ja."},
+      {"cue":"walkOut"}
+    ],
+    "libby_script": [
+      {"say":"proposer","mood":"wobbly","text":"O. Er zit iets op mijn poot."},
+      {"reply":"het is een ring."},
+      {"say":"proposer","mood":"wobbly","text":"Een ring. Hij is mooi… maar hij is niet echt van mij, hè?"},
+      {"reply":"hij is voor iemand bijzonders."},
+      {"say":"proposer","mood":"watching","text":"Iemand bijzonders. Hm. Ik denk dat ik weet wie."},
+      {"reply":"roep {partner}."},
+      {"say":"proposer","mood":"happy","text":"{partner}? Wil je even komen?"},
+      {"cue":"partnerEnters"},
+      {"say":"partner","mood":"idle","text":"Ik ben er! Wat is er? Ooh, wat is dat? Hij glimt!"},
+      {"say":"proposer","mood":"happy","text":"Het is een ring, {partner}. Hij is voor jou."},
+      {"say":"partner","mood":"happy","text":"Voor MIJ? Ja! Ja ja ja!"},
+      {"cue":"partnerRing"},
+      {"say":"proposer","mood":"happy","text":"Blijf dan even stil staan."},
+      {"say":"partner","mood":"happy","text":"Ik sta stil! Meestal."},
+      {"cue":"heart"},
+      {"say":"partner","mood":"happy","text":"Waar gaan we nu heen?"},
+      {"say":"proposer","mood":"happy","text":"Ergens moois."},
+      {"cue":"walkOut"}
+    ],
+    "cal_letter": [
+      "lieve jij,",
+      "{partner} en ik zijn even weg. op huwelijksreis! ik kan nog steeds niet geloven dat ik dat mag zeggen.",
+      "de toetsen zijn tot morgen helemaal van jou. de lessen werken nog steeds, alleen kan ik niet voor je juichen. dus juich voor jezelf, oké? hardop.",
+      "voor je het weet zijn we terug. waarschijnlijk met zand in onze toetskappen.",
+      "{proposer} & {partner}"
+    ],
+    "libby_letter": [
+      "lieve jij,",
+      "{partner} en ik zijn een dagje weg. op huwelijksreis, blijkbaar. hij stuitert sinds de ring onafgebroken rond.",
+      "de lessen zijn open terwijl we weg zijn. doe het rustig aan, neem pauzes en houd je vingers op de basisrij. daar kom je wel mee uit.",
+      "morgen zijn we terug. ik breng hem heelhuids thuis.",
+      "{proposer} & {partner}"
+    ]
+  }
+}

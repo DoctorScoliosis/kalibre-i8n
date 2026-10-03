@@ -1,0 +1,53 @@
+{
+  "formats": {
+    "time": "tijd",
+    "words": "woorden",
+    "quote": "citaat"
+  },
+  "actions": {
+    "start_drill": "oefening starten",
+    "drill": "oefenen",
+    "drill_aria": "{mistake} nu oefenen",
+    "drill_title": "Oefen nu net {mistake}, de aanbevolen manier",
+    "manage_in_mistakes": "beheren bij fouten",
+    "recommended": "aanbevolen",
+    "recommended_title": "Vink de fouten aan die nu het oefenen waard zijn, zoveel als een oefening kan bevatten",
+    "all": "alle",
+    "none": "geen",
+    "train_and_drill_these": "deze trainen en oefenen"
+  },
+  "labels": {
+    "how": "hoe",
+    "what_to_drill": "wat oefenen",
+    "drill_format": "oefenvorm",
+    "drill_length": "oefenlengte",
+    "quote_length": "citaatlengte",
+    "practise_by_area": "oefenen per gebied",
+    "words_count": "{count, plural, one {# woord} other {# woorden}}",
+    "ticked_count": "{selected} van {total} aangevinkt",
+    "in_training": "in training",
+    "ready_to_drill": "klaar om te oefenen",
+    "improving": "verbeterend",
+    "finding_quotes": "citaten met deze fouten zoeken…",
+    "no_quotes_found": "Er is geen citaat van deze lengte met deze fouten. Probeer een andere lengte, of een woordenoefening.",
+    "quotes_with_mistakes": "citaten met deze fouten",
+    "best_fit": "beste match",
+    "typed_lately": "recent getypt",
+    "recommended_reason": "{recommended} wordt aanbevolen: {reason}",
+    "ready": "klaar",
+    "due_title": "Opnieuw verschenen sinds de vorige oefening",
+    "not_due_title": "Geen nieuwe missers sinds de vorige oefening",
+    "rate_title": "Hoe vaak het misgaat tijdens het typen",
+    "last_seen_title": "Laatst gezien",
+    "usual": "gebruikelijk",
+    "seen_not_trained": "gezien, nog niet getraind",
+    "empty_nothing_in_training": "Nog niets in training. Blijf typen: Kalibre stelt fouten voor die steeds terugkomen.",
+    "empty_seen_not_trained": "Nog niets in training. Deze zijn wel voorgekomen maar nog niet getraind: vink aan waar je aan wilt werken."
+  },
+  "status": {
+    "training": "training",
+    "improving": "verbeterend",
+    "suggested": "voorgesteld",
+    "watching": "in de gaten"
+  }
+}

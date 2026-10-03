@@ -1,0 +1,18 @@
+{
+  "filter": {
+    "warning": "De woordenlijsten van Kalibre komen uit oude boeken en grote woordenboeken, waarin scheldwoorden en andere aanstootgevende woorden voorkomen. Als het filter uitstaat, kunnen ze in tests, oefeningen, lessen en spellen verschijnen. Door het uit te zetten accepteer je dat je ze kunt zien, en dat de maker van Kalibre niet aansprakelijk is voor enige belediging die daardoor wordt veroorzaakt.",
+    "turn_off": "het filter uitschakelen",
+    "keep_on": "aan laten",
+    "confirm_title": "filter voor aanstootgevende woorden uitschakelen?",
+    "filter_on": "filter aan",
+    "filter_off": "filter uit",
+    "placeholder": "één per regel, of gescheiden door komma's; eindig met * voor elk woord dat ermee begint",
+    "filtered_count": "{count, plural, one {# woord} other {# woorden}} van je eigen gefilterde woorden",
+    "no_words": "geen eigen woorden",
+    "heading": "aanstootgevende woorden",
+    "toggle_label": "aanstootgevende woorden filteren",
+    "own_label": "eigen woorden om te filteren",
+    "explanation": "Aan: scheldwoorden en de grofste krachttermen worden uit woordenlijsten gehouden en passages die ze bevatten worden overgeslagen. Je eigen teksten en citaten worden nooit gewijzigd.",
+    "own_explanation": "Alleen bij dit profiel bewaard, nooit gedeeld. Ze worden toegepast zolang het filter aanstaat."
+  }
+}

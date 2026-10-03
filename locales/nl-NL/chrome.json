@@ -1,0 +1,242 @@
+{
+  "nav": {
+    "skip_to_content": "naar inhoud",
+    "type": "typen",
+    "learn": "leren",
+    "drill": "oefenen",
+    "games": "spellen",
+    "mistakes": "fouten",
+    "settings": "instellingen",
+    "today": "vandaag",
+    "about": "over",
+    "primary": "primair"
+  },
+  "curtain": {
+    "fetching": "de boeken en woordenlijst ophalen, alleen deze keer",
+    "taking_longer": "dit duurt langer dan normaal…",
+    "reload": "opnieuw laden",
+    "books_downloading": "de boeken worden nog gedownload. je kunt nu beginnen; ze worden op de achtergrond afgemaakt.",
+    "start_without_waiting": "starten zonder te wachten",
+    "still_loading": "nog steeds bezig met laden. controleer je verbinding en laad opnieuw. zodra kalibre hier is geladen, werkt het offline.",
+    "older_tab": "kalibre is in een ander tabblad geopend met een oudere versie. sluit dat tabblad en dit gaat verder.",
+    "couldnt_load": "kalibre kon niet laden. controleer je verbinding en laad opnieuw.",
+    "browser_too_old": "deze browser is te oud voor kalibre. een recente versie van Chrome, Edge, Firefox of Safari werkt."
+  },
+  "footer": {
+    "shortcuts": "toetsenbordshortcuts",
+    "privacy": "privacy",
+    "terms": "voorwaarden",
+    "security": "beveiliging",
+    "announcements": "aankondigingen",
+    "credit_author": "© {year} {author}.",
+    "credit_company": "© {year} midnight summer media.",
+    "licence": "gelicentieerd onder de {licence}.",
+    "licence_name": "mit-licentie"
+  },
+  "meta": {
+    "tagline": "kalibre, een adaptieve typetrainer",
+    "description": "Jouw typen. Jouw fouten. Jouw voortgang. Een typetrainer die je terugkerende fouten leert kennen en ze oefent, rechtstreeks in je browser.",
+    "alt_wordmark": "Het kalibre-woordmerk tussen Cal en Libby, met de regel: jouw typen, jouw fouten, jouw voortgang."
+  },
+  "pwa": {
+    "ios": "Voeg kalibre op iPhone en iPad toe aan je beginscherm (in Safari: delen → zet op beginscherm). Het opent schermvullend en bewaart de gegevens, terwijl een Safari-tabblad ze na 7 dagen zonder bezoek kan verliezen.",
+    "generic": "Voeg kalibre toe aan je beginscherm (menu van de browser → toevoegen aan beginscherm, of installeren). Na installatie opent het schermvullend en is de browser beter ingesteld om je gegevens te bewaren."
+  },
+  "misc": {
+    "kalibre_about": "kalibre, over",
+    "backup_due": "instellingen, back-up nodig",
+    "new_badge": "nieuw",
+    "backup_progress": "voortgang van back-up",
+    "todays_quests": "missies van vandaag",
+    "new_quests_midnight": "nieuwe missies om middernacht",
+    "difficulty": "moeilijkheid",
+    "getting_quests": "Missies van vandaag ophalen…"
+  },
+  "backup": {
+    "error": "kon niet opslaan: {error}",
+    "nothing": "er is nog niets om te back-uppen",
+    "saved_to_folder": "{count, plural, one {# profielfile} other {# profielfiles}} opgeslagen in de kalibre-map “{folder}”",
+    "downloaded": "{count, plural, one {# profielfile} other {# profielfiles}} gedownload"
+  },
+  "updates": {
+    "whats_new_title": "wat is er nieuw",
+    "status_up_to_date": "kalibre v{version} · up-to-date",
+    "update_ready": "v{version} staat klaar",
+    "update_ready_read_first": "v{version} staat klaar · eerst lezen",
+    "update_meta": "je kunt nu bijwerken of op je huidige versie blijven (v{current}).",
+    "update_meta_size": "downloadgrootte: ~{size} · je kunt nu bijwerken of op je huidige versie blijven (v{current}).",
+    "update_to": "bijwerken naar v{version}",
+    "stay_on": "op v{current} blijven",
+    "updating": "bijwerken…",
+    "check_button": "op updates controleren",
+    "checking": "controleren…",
+    "check_checking": "zoeken…",
+    "check_current": "je gebruikt de nieuwste versie",
+    "check_offline": "de server kon nu niet worden bereikt",
+    "check_unavailable": "updates werken alleen in de geïnstalleerde of gehoste app",
+    "breaking_intro": "deze update verandert hoe kalibre je gegevens bewaart:",
+    "breaking_note": "als hij klaar is, kunnen oudere versies van kalibre je gegevens niet openen, dus maak eerst een back-up: één profielfile voor elk profiel op dit apparaat.",
+    "breaking_older_at": "v{version} blijft op",
+    "save_backup": "back-up opslaan",
+    "saving": "opslaan…",
+    "badge_in_update": "in deze update",
+    "badge_current": "huidig",
+    "notes_not_yet": "de notities voor deze versie verschijnen zodra hij is geïnstalleerd.",
+    "stays_at": "v{current} blijft een tijdje op {link}; open daar een back-up om het te blijven gebruiken."
+  },
+  "brand": {
+    "kanary_preview_build_notice": "melding over kanary-previewbuild",
+    "kanary_preview_build_click_for": "kanary-previewbuild · klik voor melding",
+    "what_s_new_for": "wat is er nieuw voor {versionLabel}"
+  },
+  "command_line": {
+    "command": "opdracht",
+    "type_a_setting_or_action": "typ een instelling of actie",
+    "commands": "opdrachten",
+    "command_line": "opdrachtregel",
+    "no_matches": "geen overeenkomsten"
+  },
+  "kanary_notice": {
+    "features_interfaces_and_database_schemas": "functies, interfaces en databaseschema's worden actief ontwikkeld en kunnen zonder waarschuwing veranderen, worden vervangen of kapotgaan.",
+    "things_may_break_or_change": "dingen kunnen kapotgaan of veranderen. ",
+    "your_typing_history_achievements_and": "je typgeschiedenis, prestaties en aangepaste gegevens staan in de lokale opslag van deze browser. exporteer regelmatig een back-up zodat een ingrijpende update je voortgang nooit kost.",
+    "periodically_back_up_your_profiles": "maak regelmatig een back-up van je profielen: ",
+    "profiles_used_on_kanary_may": "profielen die op kanary worden gebruikt werken mogelijk wel of niet wanneer ze in releaseversies van kalibre worden geïmporteerd. kanary kan nieuwere databaseschema's, experimentele instellingen of herziene indelingen introduceren die releaseversies niet kunnen lezen of terugwaarts migreren.",
+    "release_compatibility": "compatibiliteit met releases: ",
+    "announcements_devlog": "aankondigingen & devlog: ",
+    "stackinfolio": "stackinfolio",
+    "settings_data": "instellingen → gegevens",
+    "got_it": "begrepen",
+    "intro": "je gebruikt {product}, een vroege, snel evoluerende previewbuild met experimenten die nog in ontwikkeling zijn.",
+    "follow": "volg release-mijlpalen, ontwikkelingsvoortgang en aankondigingen op {site}."
+  },
+  "legal_pages": {
+    "last_updated": "laatst bijgewerkt {format}",
+    "the_short_version": "de korte versie",
+    "read": "lees {full}",
+    "also": "ook: {pages}"
+  },
+  "older_version": {
+    "older_version": "oudere versie",
+    "it_keeps_its_own_data": "Deze versie houdt eigen gegevens bij, apart van die van de huidige versie: om de jouwe hier te gebruiken, importeer je een profielbestand dat vóór de update is opgeslagen (profielmenu → een profielbestand importeren).",
+    "this_is_kalibre_v_kept": "Dit is kalibre v{version}, bewaard zodat je terug kunt gaan. ",
+    "go_to_the_current_version": "naar de huidige versie",
+    "hide_this_until_the_page": "verberg dit totdat de pagina opnieuw is geladen",
+    "hide_until_the_page_reloads": "verbergen totdat de pagina opnieuw is geladen"
+  },
+  "shortcuts": {
+    "then": "dan {value}",
+    "sequence_hint": "druk binnen 1,5 seconde op reeks-toetsen (zoals {first} en daarna {second}). shortcuts werken alleen wanneer je niet actief aan het typen bent in tests of tekstvelden.",
+    "SHORTCUT_GROUPS": {
+      "navigation": {
+        "title": "navigatie"
+      },
+      "nav-type": {
+        "label": "typweergave"
+      },
+      "nav-learn": {
+        "label": "leerweergave"
+      },
+      "nav-drill": {
+        "label": "oefenweergave"
+      },
+      "nav-games": {
+        "label": "spellenweergave"
+      },
+      "nav-mistakes": {
+        "label": "foutenweergave"
+      },
+      "nav-stats": {
+        "label": "statistieken & geschiedenis"
+      },
+      "nav-profile": {
+        "label": "profielmenu"
+      },
+      "nav-texts": {
+        "label": "teksten & bibliotheek"
+      },
+      "nav-settings": {
+        "label": "instellingen"
+      },
+      "nav-about": {
+        "label": "over kalibre"
+      },
+      "typing": {
+        "title": "typen & tests"
+      },
+      "type-restart": {
+        "label": "test of oefening opnieuw starten"
+      },
+      "type-pause": {
+        "label": "opdrachtregel / pauzeren"
+      },
+      "type-delete-word": {
+        "label": "woord verwijderen"
+      },
+      "type-space": {
+        "label": "verzenden / volgend woord"
+      },
+      "general": {
+        "title": "algemeen & dialogen"
+      },
+      "gen-guide": {
+        "label": "handleiding voor toetsenbordshortcuts"
+      },
+      "gen-close": {
+        "label": "modaal of dialoog sluiten"
+      },
+      "gen-command": {
+        "label": "opdrachtregelpalet"
+      },
+      "gen-focus": {
+        "label": "door besturingselementen navigeren"
+      }
+    },
+    "modal": {
+      "shortcuts": {
+        "title": "toetsenbordshortcuts"
+      }
+    }
+  },
+  "startup_failure": {
+    "putting_it_back": "terugzetten…",
+    "it_couldn_t_be_put": "kon niet worden teruggezet: {value}",
+    "if_kalibre_was_taken_back": "als kalibre expres naar een oudere versie is teruggezet, kun je de kopie van je gegevens terugzetten die vlak voor de laatste update is opgeslagen. alles wat je na die update hebt gedaan is verloren en het vervangt alles wat kalibre in deze browser bewaart.",
+    "copy_the_details": "details kopiëren",
+    "copied": "gekopieerd",
+    "select_the_details_below_to": "selecteer de onderstaande details om ze te kopiëren",
+    "kalibre_couldn_t_start": "kalibre kon niet starten",
+    "what_you_ve_saved_is": "wat je hebt opgeslagen staat nog in deze browser: opnieuw starten raakt het niet aan.",
+    "send_details": "als dit blijft gebeuren, stuur de details naar {address}."
+  },
+  "update_gate": {
+    "carry_on": "doorgaan",
+    "kalibre_v_changes_how_it": "kalibre v{appVersion} verandert hoe het je gegevens bewaart",
+    "nothing_has_changed_yet_once": "er is nog niets veranderd. zodra dat wel zo is, kunnen oudere versies van kalibre je gegevens niet openen, dus maak eerst een back-up: één profielfile voor elk profiel op dit apparaat.",
+    "older_version": "of blijf voorlopig de vorige versie gebruiken, op {link}: open daar je back-up."
+  },
+  "modals": {
+    "stats": "statistieken",
+    "texts": "teksten",
+    "settings": "instellingen",
+    "achievements": "prestaties",
+    "race": "race",
+    "card": "jouw kaart",
+    "kanary": "kanary-preview"
+  },
+  "app": {
+    "that_file_isn_t_in": "dat bestand staat niet meer in de map"
+  },
+  "instance": {
+    "offline_self_hosted": "offline · zelf gehost",
+    "offline_cache": "offline · browsercache in gebruik",
+    "self_hosted_at": "zelf gehost · {hostname}",
+    "self_hosted": "zelf gehost",
+    "online": "online · officiële instantie",
+    "status": {
+      "online": "online",
+      "offline": "offline",
+      "self-hosted": "zelf gehost"
+    }
+  }
+}

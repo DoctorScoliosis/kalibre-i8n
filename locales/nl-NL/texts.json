@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "texts": "mijn teksten",
+    "texts_blurb": "Je eigen teksten, precies zoals geschreven geoefend.",
+    "quotes": "mijn citaten",
+    "quotes_blurb": "Citaten die je toevoegt doen mee aan citaat- en gemengde tests (60 tekens of meer).",
+    "datasets": "datasets",
+    "datasets_blurb": "Boeken en verzamelingen die citaten, woordenlijsten en oefeningen leveren."
+  },
+  "labels": {
+    "title": "titel",
+    "text_aria": "tekst",
+    "paste_placeholder": "plak hier tekst",
+    "my_texts": "mijn teksten",
+    "datasets": "datasets",
+    "sections_aria": "tekstonderdelen",
+    "subfolders_too": " submappen ook",
+    "drop_hint": "of zet bestanden hier neer",
+    "words_count": "{count, plural, one {# woord} other {# woorden}}",
+    "paragraphs_count": "{count, plural, one {# alinea} other {# alinea's}}"
+  },
+  "actions": {
+    "save": "opslaan",
+    "save_changes": "wijzigingen opslaan",
+    "cancel": "annuleren",
+    "practise": "oefenen",
+    "edit": "bewerken",
+    "delete": "verwijderen",
+    "delete_confirm": "verwijderen?",
+    "yes_delete": "ja, verwijderen",
+    "keep": "behouden",
+    "practise_aria": "{title} oefenen",
+    "edit_aria": "{title} bewerken",
+    "delete_aria": "{title} verwijderen",
+    "new_text": "nieuwe tekst",
+    "import_files": ".txt of .md importeren",
+    "import_folder": "een map importeren"
+  },
+  "status": {
+    "saved": "\"{title}\" opgeslagen",
+    "updated": "\"{title}\" bijgewerkt",
+    "imported": "\"{title}\" geïmporteerd",
+    "deleted": "\"{title}\" verwijderd",
+    "no_folder_files": "geen .txt- of .md-bestanden in die map",
+    "empty": "Nog geen opgeslagen teksten. Plak iets wat je wilt oefenen of importeer een .txt-bestand. Teksten blijven op dit apparaat."
+  },
+  "quotes": {
+    "quote_placeholder": "het citaat",
+    "quote_aria": "citaat",
+    "author_placeholder": "wie zei het",
+    "source_placeholder": "optioneel",
+    "add_quote": "citaat toevoegen",
+    "author": "auteur",
+    "source": "bron",
+    "authors": "auteurs",
+    "sources": "bronnen",
+    "added": "citaat toegevoegd",
+    "updated": "citaat bijgewerkt",
+    "deleted": "citaat verwijderd",
+    "unknown": "— onbekend",
+    "too_short": " · te kort voor tests ({min}+ tekens)",
+    "empty": "Voeg citaten toe die je leuk vindt; ze verschijnen in citaat- en gemengde tests. Verzamelingen zoals een quotes.json-bestand kunnen onder datasets worden geïnstalleerd."
+  },
+  "github_import": {
+    "github_s_limit_for_downloads": "De downloadlimiet van GitHub zonder inloggen is bereikt. Probeer het over een uur opnieuw.",
+    "that_repository_or_folder_wasn": "Die repository of map is niet gevonden (mogelijk privé).",
+    "github_answered": "GitHub antwoordde {status}.",
+    "that_isn_t_a_github": "Dat is geen adres van een GitHub-repository (github.com/owner/repo).",
+    "no_txt_or_md_files": "Daar zijn geen .txt- of .md-bestanden gevonden.",
+    "the_files_couldn_t_be": "De bestanden konden niet worden gedownload.",
+    "listing_files": "bestanden weergeven…",
+    "downloading_progress": "{current} van {total} downloaden…"
+  },
+  "importers": {
+    "doesn_t_look_like_a": "{name} lijkt geen tekstbestand.",
+    "isn_t_utf_8_text": "{name} is geen UTF-8-tekst.",
+    "only_files_can_be_imported": "{name}: alleen {ACCEPTED_EXTENSIONS}-bestanden kunnen worden geïmporteerd.",
+    "is_larger_than_5_mb": "{name} is groter dan 5 MB.",
+    "is_empty": "{name} is leeg."
+  },
+  "quote_collections": {
+    "no_quotes_were_found_in": "Er zijn geen citaten gevonden in dat bestand."
+  }
+}

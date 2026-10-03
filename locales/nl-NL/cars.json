@@ -1,0 +1,137 @@
+{
+  "slots": {
+    "body": {
+      "title": "carrosserie",
+      "hint": "de vorm van je auto"
+    },
+    "paint": {
+      "title": "lak",
+      "hint": "de kleur, uit de kleuren van je thema"
+    },
+    "livery": {
+      "title": "bestickering",
+      "hint": "een patroon over de lak (met een eigen kleur)"
+    },
+    "wheels": {
+      "title": "wielen",
+      "hint": "waar hij op rijdt"
+    },
+    "trail": {
+      "title": "spoor",
+      "hint": "wat hij achterlaat"
+    }
+  },
+  "parts": {
+    "body-hatch": {
+      "name": "hatchback"
+    },
+    "body-coupe": {
+      "name": "coupé"
+    },
+    "body-beetle": {
+      "name": "kever"
+    },
+    "body-pickup": {
+      "name": "pick-up"
+    },
+    "body-van": {
+      "name": "busje"
+    },
+    "body-racer": {
+      "name": "open wieler"
+    },
+    "body-bubble": {
+      "name": "bellenauto"
+    },
+    "paint-accent": {
+      "name": "accent"
+    },
+    "paint-heat-1": {
+      "name": "gloed"
+    },
+    "paint-heat-2": {
+      "name": "amber"
+    },
+    "paint-heat-3": {
+      "name": "zonsopgang"
+    },
+    "paint-heat-4": {
+      "name": "scharlaken"
+    },
+    "paint-chart-wpm": {
+      "name": "racelijn"
+    },
+    "paint-text-dim": {
+      "name": "grafiet"
+    },
+    "livery-stripe": {
+      "name": "racestripe"
+    },
+    "livery-checker": {
+      "name": "geblokt"
+    },
+    "livery-dots": {
+      "name": "stippen"
+    },
+    "livery-chevrons": {
+      "name": "chevrons"
+    },
+    "livery-flames": {
+      "name": "vlammen"
+    },
+    "livery-split": {
+      "name": "tweekleurig"
+    },
+    "livery-number": {
+      "name": "racenummer"
+    },
+    "livery-midnight": {
+      "name": "middernachtsterren"
+    },
+    "wheels-plain": {
+      "name": "eenvoudig"
+    },
+    "wheels-sport": {
+      "name": "sport"
+    },
+    "wheels-chunky": {
+      "name": "stevig"
+    },
+    "wheels-spoked": {
+      "name": "spaakwielen"
+    },
+    "wheels-whitewall": {
+      "name": "whitewall"
+    },
+    "wheels-gilt": {
+      "name": "verguld"
+    },
+    "trail-dust": {
+      "name": "stof"
+    },
+    "trail-sparks": {
+      "name": "vonken"
+    },
+    "trail-bubbles": {
+      "name": "bellen"
+    },
+    "trail-ribbon": {
+      "name": "lint"
+    },
+    "trail-stars": {
+      "name": "sterrenstof"
+    }
+  },
+  "garage": {
+    "title": "garage",
+    "tab_title": "garage",
+    "tab_hint": "kleed je raceauto aan: dit is waarmee je op de baan rijdt en wat iedereen die tegen je racet ziet",
+    "choose_slot": "kies {slot}",
+    "paint_swatch": "{name} lak",
+    "livery_colour": "{tokenLabel} bestickeringskleur",
+    "usual_livery_colour": "gebruikelijke bestickeringskleur",
+    "livery_colour_2": "bestickeringskleur",
+    "this_is_your_car_on": "Dit is je auto op de baan en voor iedereen die tegen je racet. Hij draagt alleen onderdelen die je hebt verdiend.",
+    "your_race_car": "je raceauto"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "lines": {
+    "intro": [
+      "Nieuw vandaag: {keys}. Je {finger} doet het werk.",
+      "{keys} zijn na deze les van jou. Ogen op de tekst, niet op je handen.",
+      "Leg je vingers op de basisrij, en dan gaan we.",
+      "Langzaam en goed is beter dan snel en fout. Snelheid komt vanzelf.",
+      "Ooh, {keys}! Ik ben dol op deze. Eigenlijk ben ik dol op alle toetsen. Ik ben er zelf één.",
+      "Nieuwe toetsen vandaag: {keys}. Niet naar je handen gluren. Ik zie het."
+    ],
+    "tip": [
+      "Let op, {tip}.",
+      "Psst, {tip}.",
+      "Klein dingetje dat me opviel, {tip}.",
+      "Coach Cal hier: {tip}.",
+      "Kleine tip, {tip}.",
+      "Zeg niet dat ik het heb verteld, maar {tip}."
+    ],
+    "encourage": [
+      "Schud het van je af. Je {finger} kent de weg.",
+      "Wiebelig is prima. Haal het tempo een tikje omlaag.",
+      "Diep ademhalen. Eerst nauwkeurigheid, dan snelheid.",
+      "Elke misser leert je vingers iets.",
+      "Ik struikelde ooit over de spatiebalk. We wiebelen allemaal wel eens.",
+      "Oeps gebeurt! Doe het wat rustiger en dan valt het op zijn plek.",
+      "Je {finger} wordt nog wakker. Geef hem een seconde."
+    ],
+    "round": [
+      "Mooie ronde: {wpm} wpm.",
+      "Schoon! Houd dat ritme vast.",
+      "Die liep lekker.",
+      "{wpm} wpm! Mijn toetskap tintelt.",
+      "Ooh, soepel. Nog een keer!",
+      "Tik tik tik, perfect. Dat is mijn favoriete geluid."
+    ],
+    "mastered": [
+      "{lesson}: beheerst! {next} is nu open.",
+      "Je hebt het! Op naar {next}.",
+      "Beheerst! Je vingers onthouden dit nu.",
+      "JA! {lesson} is van jou. Ik doe een klein dansje.",
+      "Beheerst! Ik zou je knuffelen, maar mijn armen zijn piepklein.",
+      "Die les zit in de tas. {next} nu!"
+    ],
+    "again": [
+      "Bijna. Nog een keer?",
+      "Nog net niet, maar je komt er.",
+      "Oefenen is de hele truc. Nog eens?",
+      "Bijna! Je vingers hebben nog één rondje nodig.",
+      "Zo dichtbij dat ik het bijna kon proeven. Nog eens?",
+      "Geen haast. Nog een keer, deze keer iets langzamer?"
+    ],
+    "warmup": [
+      "Eerst opwarmen: {keys}. Rustig aan.",
+      "Even rekken op {keys}, dan de les.",
+      "Rektijd! {keys}, lekker langzaam.",
+      "Laten we die vingers wakker maken met {keys}.",
+      "Opwarmen met {keys}. Wiebel eerst even met je vingers, dat helpt!",
+      "Rustige rondjes op {keys} vóór het echte werk."
+    ],
+    "keyboard": [
+      "Lessen hebben een echt toetsenbord nodig. Verbind er een en druk op een toets!",
+      "Psst: ik leer vingers, geen duimen. Sluit een toetsenbord aan en tik een toets.",
+      "Een toetsenbord maakt hier echt het verschil. Druk erop op een toets en ik merk het.",
+      "De basisrij heeft een echte rij nodig! Sluit een toetsenbord aan en we gaan.",
+      "Glas is hier glad voor. Een bluetooth-toetsenbord, één druk op een toets, en we zijn klaar!",
+      "Duimen zijn prima voor spellen! Voor lessen wil ik een toetsenbord. Druk op een toets."
+    ],
+    "numpad": [
+      "Psst! Dat was een numeriek toetsenblok. Tien-toetsen oefenen wacht hieronder, als je wilt.",
+      "Ik hoorde een numeriek toetsenblok! Er staat hieronder een test en lessen ervoor.",
+      "Numeriek toetsenblok gespot! Tien-toetsentests en lessen staan hieronder.",
+      "Hoor ik daar een numeriek toetsenblok? Ik heb er oefeningen voor!",
+      "Snelle vingers op het blok! Wil je een test doen? Die staat daar beneden.",
+      "Een numeriek toetsenblok! Kijk hieronder; er is iets voor."
+    ],
+    "locked": [
+      "Deze gaat open na {next}. Laten we dat eerst doen.",
+      "Nog niet! Beheers {next} en ik laat je binnen.",
+      "Potdicht! {next} is de sleutel. Snap je hem? Sleutel?",
+      "Ooh, ongeduldig! Rond {next} eerst af.",
+      "Nee hoor, nog niet. {next} komt eerst.",
+      "Eerst {next}, dan zwaait deze deur open."
+    ],
+    "sleepy": [
+      "Zzz… druk op een toets als je klaar bent.",
+      "Ben je er nog? Ik wacht wel.",
+      "Ik ga gewoon even… op mijn toetskap rusten… zzz…",
+      "Doe rustig aan. Ik ga nergens heen. Kleine pootjes.",
+      "Hallo? Zijn er daar toetsen?",
+      "Tik iets aan en ik ben er weer!"
+    ],
+    "welcome": [
+      "Hoi, ik ben Cal! Les 1.1 is waar het begint.",
+      "Hoi! Ik ben Cal, de kal in kalibre. Zullen we met de basisrij beginnen?",
+      "Hé hé! Ik ben Cal, de K-toets. Laten we dit toetsenbord samen leren.",
+      "O, een nieuwe vriend! Ik ben Cal. Les 1.1 wacht op ons."
+    ],
+    "progress": [
+      "Hierna: {next}. Dat zijn {count} van de {total} beheerst!",
+      "{count} gedaan, nog {left}. {next} wacht.",
+      "Welkom terug! {next} is de volgende.",
+      "{count} lessen in de tas! {next} ziet er leuk uit.",
+      "Klaar voor {next}? Ik wel!",
+      "Nog maar {left}! Op naar {next}."
+    ],
+    "newStage": [
+      "Fase {stage} klaar! Hierna: {name}.",
+      "Fase {stage} beheerst. Op naar {name}!",
+      "Fase {stage}: verslagen! Nu voor {name}.",
+      "Een hele fase! {name} is de volgende. Oef, spannend."
+    ],
+    "graduate": [
+      "Elke les beheerst. Ik ben zo trots dat ik bijna ga stuiteren.",
+      "Je kent nu elke toets. Laat het zien in de typetests!",
+      "Elke toets, elke vinger. Je hebt me nu niet meer nodig. Houd me toch?",
+      "Afgestudeerd! Ik heb een hoed voor je gemaakt. Niet echt, maar stel je hem voor."
+    ],
+    "drowsy": [
+      "Mm… stil hier. Ik word slaperig.",
+      "*gaap* Ben je er nog? Mijn ogen worden zwaar.",
+      "Zo stil… ik zou hier zo in slaap kunnen vallen.",
+      "Moest ik iets doen? Gaap.",
+      "Ooh… de basisrij is zo gezellig op dit uur.",
+      "Mijn toetskap zakt een beetje weg. Heel even."
+    ],
+    "nod": [
+      "Zzz… basisrij… zzz…",
+      "Ik rust alleen even mijn ogen… zzz…",
+      "Zzz… nog één rondje… zzz…",
+      "Mm… spatiebalken… zzz…",
+      "Zzz… ik ben wakker… zzz…",
+      "…zzz… j… k… zzz…"
+    ],
+    "napWake": [
+      "Hè? Ik rustte alleen mijn ogen!",
+      "Mm! Wakker. Helemaal. Wat heb ik gemist?",
+      "O! Je bent terug. Ik deed alleen even een dutje.",
+      "Zz—! Hoi. Hallo. Klaar wanneer jij bent.",
+      "Wha—? O, hé. Leuk je te zien typen.",
+      "Nog vijf… o! Juist. Laten we typen."
+    ],
+    "wake": [
+      "Hè? O! Hoi, ik ben Cal. De kal in kalibre.",
+      "Mmf… nog vijf minuten… oké, ik ben op! Ik ben Cal.",
+      "Zz—! Ik sliep niet. Ik ben Cal, hallo!",
+      "Wha—? Ik droomde over spatiebalken. Hoi, ik ben Cal!",
+      "O hé! Cal hier. Klaarwakker en met toetskap.",
+      "Wakker! Wakker. Helemaal wakker. Hoi, ik ben Cal."
+    ],
+    "pet": ["Prrrr…","Mmm, precies daar.","Prrr. Niet stoppen.","Héhé. Dat kietelt mijn toetskap.","Prrr… beste… dag…","Ooh, de goede plek."],
+    "poke": ["Boop! Dat is mijn toetskap.","Hé! Ik ben ingedrukt. Geregistreerd. Dank je.","Eep! Je hebt mijn activeringspunt gevonden.","Por ontvangen. Bezig met verwerken… nog steeds Cal.","Hoi! Ja? Riep je?","Oef. Dat is een lichte aanraking. Goede typvorm."],
+    "pokeFit": ["Oké, oké! Ik ben geen spatiebalk!","Dat is genoeg gepor! Straks ga ik herhalen als een vastzittende toets.","Hé! Zie ik eruit als caps lock voor jou?","Nog één keer porren en ik ga stuiteren. O. Dat doe ik nu al."],
+    "tickle": ["Hihihi! Niet de toetskap! Hahaha!","Ahaha! Stop! Nee, stop niet! Hahaha!","Ehehehe! Dat is valsspelen!","Haha! Ik ben… hehe… niet kietelig!","Hahaha! Mijn stabilisatoren kunnen dit niet aan!","Hie hie! Ik ga dubbel typen!"],
+    "armLift": ["Mm… dank je… zzz","Zzz… was dat… mijn arm… zzz","Mmf… houd hem… op de lijn… zzz","Zzz… niemand heeft dat gezien… zzz"],
+    "tickleAsleep": ["Zzz… hehe… zzz","Mmf… hehe… nee… zzz","Snurk… hehehe… zzz","Zzz… niet de… hehe… toetskap… zzz"],
+    "updateReady": ["Psst: v{version} staat klaar. Opnieuw laden staat in de voettekst, wanneer je maar wilt.","Ooh, v{version} is er net! Laad opnieuw via de voettekst wanneer je klaar bent. Geen haast.","Nieuwe versie-alert: v{version}! De voettekst heeft de knop om opnieuw te laden, wanneer het uitkomt.","v{version} wacht in de coulissen. Laad opnieuw via de voettekst wanneer je zin hebt."],
+    "whatsNew": ["Nieuw in v{version}: {news}!","Raad eens wat nieuw is in v{version}? {news}!","Vers in v{version}: {news}. Ooh.","v{version} is er, en {news}!"],
+    "newItem": ["Ooh, een nieuwe {item}! Klik met rechts op mij om hem te proberen.","Kijk! Ik kan de {item} nu dragen. Klik met rechts op mij.","Een {item}? Voor mij? Klik met rechts op mij!","De {item}! Ik ga er ZO goed uitzien. Klik met rechts op mij.","Nieuw in mijn garderobe: de {item}. Klik snel met rechts op mij!","Is dat een {item}? Mag ik? Klik met rechts op mij!"],
+    "newItems": ["Ooh, {count} nieuwe dingen om te proberen! Klik met rechts op mij.","{count} nieuwe dingen in mijn garderobe! Klik met rechts op mij om ze te zien."],
+    "newDecoration": ["Een nieuwe versiering: “{name}”. Instellingen → thema, en versier er daarna een van jezelf mee.","Je hebt de versiering “{name}” verdiend! Probeer hem op een van je thema's."],
+    "newDecorations": ["{count} nieuwe thema-versieringen! Instellingen → thema, en versier er daarna een van jezelf mee.","{count} versieringen voor je thema's. Kom op, kleed er eentje aan."],
+    "newCardItem": ["Nieuw voor je kaart: de {name}! Je profiel → je kaart.","Ooh, de {name}, voor je profielkaart. Kom op, probeer hem!"],
+    "newCardItems": ["{count} nieuwe dingen voor je kaart! Je profiel → je kaart.","Je kaart heeft {count} nieuwe dingen om te dragen. Ik zou ze allemaal dragen."],
+    "raceWon": ["Als eerste over de finish! Netjes gedaan.","Je hebt gewonnen! Ik juichte de hele weg.","Wauw, je was snel deze keer. Goed gedaan!","Je hebt er {count} verslagen! Nog een keer?"],
+    "raceLost": ["{winner} was deze keer eerst. Nog een keer? Jij kunt dit.","Zo dichtbij! {winner} won deze. Nog een poging?","Deze keer verslagen door {winner}. Maar het was een eerlijke race!","Goede race! {winner} was je net voor. Nog een keer?"],
+    "newCarPart": ["Iets nieuws voor je raceauto: de {name}! Je profiel → je kaart → garage.","Ooh, {name} voor je auto. Kom op, probeer hem in de garage!"],
+    "newCarParts": ["{count} nieuwe onderdelen voor je raceauto! Je profiel → je kaart → garage.","Je auto heeft {count} nieuwe dingen om te proberen. Vroem!"],
+    "achievement": ["Je hebt “{name}” verdiend! Het staat onder je profiel → prestaties.","“{name}”! Ik zag het. Je profiel → prestaties heeft het.","Prestatie: “{name}”. Kijk jou eens.","“{name}”! Ik vertel het iedereen. Je profiel → prestaties.","Kijk wat je hebt gedaan: “{name}”. Het staat onder je profiel → prestaties.","Ding! “{name}”. Je profiel → prestaties heeft het bewijs."],
+    "achievements": ["{count} nieuwe prestaties! Kijk maar: je profiel → prestaties.","Wauw, {count} prestaties tegelijk. Je profiel → prestaties!"],
+    "complete": ["Elke afzonderlijke prestatie. Allemaal! Ik ben zo trots op je.","Dat is alles. Elke prestatie, klaar. Ik weet even niet wat ik moet zeggen…","100%! Je hebt alles gedaan wat er te doen is. Ik straal."],
+    "wakeFirst": ["Zzz… maak me eerst wakker… zzz","Mmf… nog vijf minuten…","Zzz… (por me eerst wakker)","Zzz… snurk… wha… zzz"],
+    "highfive": ["High five!","Boven! Goed gedaan.","Ja! Goede run.","Pats! Au. De moeite waard.","Kleine poot, grote high five!","Woehoe! Die was geweldig."],
+    "honeymoon": ["{partner} en ik zijn op huwelijksreis! Morgen weer terug.","Op huwelijksreis met {partner}! Morgen weer terug.","{partner} en ik maken een klein uitstapje. Morgen weer terug!"],
+    "challenge": ["Uitdaging van vandaag: {challenge}. Zin in?","Heb je de uitdaging van vandaag gezien? {challenge}.","De uitdaging van vandaag wacht: {challenge}.","Psst, uitdaging van vandaag: {challenge}. Ik geloof in je.","Tijd voor de uitdaging! {challenge}. Kom op, je kunt het.","Uitdaging van vandaag: {challenge}. Ik juich vanaf hier."],
+    "partner": ["{partner} en ik zijn een geweldig team.","{partner} zegt hallo!","{partner} zei hoe fijn je ritme is.","{partner} heeft me die tip geleerd, weet je.","Zeg het niet tegen {partner}, maar jij bent mijn favoriete typist.","{partner} en ik keken naar je vorige run. Heel goed."],
+    "morning": ["Goedemorgen! Vingers gestrekt? Daar gaan we.","Goedemorgen! Een beetje typen bij het ontbijt?","Opstaan en typen! Goedemorgen!","Goedemorgen! Ik ben al uren wakker. Nou ja, seconden.","O, goedemorgen! {next} is klaar wanneer jij bent.","Goedemorgen, zonnetje. Mijn toetskap is helemaal warm."],
+    "afternoon": ["Goedemiddag! Perfecte tijd voor een paar toetsen.","Hé, goedemiddag! Klaar om te typen?","Middagpauze? Laten we er een typinpauze van maken.","O hoi! Al middag? Daar gaan we.","Goedemiddag! {next} heeft op je gewacht.","Goedemiddag! Ik heb een plekje voor je op de basisrij bewaard."],
+    "evening": ["Goedenavond! Nog een paar toetsen voor het eten?","Goedenavond! Laten we met wat typen de dag rustig afsluiten.","Hé, avond! Leuk je te zien.","Al avond? De tijd vliegt als je een toetskap bent.","Goedenavond! {next}, en dan de voeten omhoog?","Avond! Rustig en gestaag vanavond, oké?"],
+    "night": ["Laat op? Ik ook. Alleen stille toetsen.","Nachtuil! Laten we zachtjes typen.","Ooh, typen om middernacht. Heel mysterieus.","Het is laat! Eentje kort, en dan naar bed?","Ssst, iedereen slaapt. Alleen wij en de toetsen.","Nachtdienst! {next}, en dan slapen. Deal?"],
+    "welcomeBack": ["Je bent terug! Het is {days} dagen geleden. Ik heb de toetsen warm gehouden.","{days} dagen! Ik heb je gemist. We bouwen rustig weer op.","Hé, welkom terug! Doe rustig aan, vingers vergeten een beetje.","Daar ben je! {days} dagen stelt niets voor. Daar gaan we.","Welkom terug! Je vingers onthouden meer dan je denkt.","Je bent er! Ik heb {days} dagen niets anders gedaan dan dutten."],
+    "personalBest": ["Nieuw record: {wpm} wpm! Ik zag het. IK ZAG het.","{wpm} wpm! Dat is je snelste ooit!","Persoonlijk record! {wpm} wpm. Ik stuiter.","Wauw, {wpm} wpm. Je nieuwe record!","Voelde je dat? {wpm} wpm. Een nieuw record!","Nieuw record: {wpm} wpm. Ik zet het in een lijstje. In mijn hoofd."],
+    "streak": ["{days} dagen op rij! Je bent lekker bezig.","Dat is {days} dagen achter elkaar je doel. Wauw!","{days} dagenreeks! Ik houd de tel bij, geen zorgen.","{days} dagen op rij! Je vingers moeten wel heel blij zijn.","Doel gehaald, {days} dagen achter elkaar. Legendarisch.","{days} dagen! Kijk jou eens, zo lekker consistent."],
+    "themeUnreadable": ["Knijpende ogen… ik kan {what} niet lezen. Jij wel?","{what} verstopt zich voor mij. Meer contrast, graag!","Oef, {what} valt helemaal weg. Mijn ogen!","Ik ben een toets en zelfs ik kan {what} niet zien."],
+    "themeScheme": ["Die pagina ziet er voor mij {page} uit, maar hij zegt {scheme}. “Licht of donker” omdraaien?","Een {page} pagina in een {scheme} thema? Ik kleed me dan aan voor het verkeerde weer!"],
+    "themeMistakes": ["Wacht, fouten en getypte tekst zien er hetzelfde uit. Hoe moet ik dat onderscheiden?","Je fouten zijn vermomd! Geef ze hun eigen kleur."],
+    "themeAccent": ["Het accent ziet er precies uit als fouten. Elke link voelt als een typefout!","Links in de kleur van fouten? Ik blijf denken dat ik iets fout deed."],
+    "themeLoud": ["WOAH, die achtergrond is fel! Mijn ogen doen een klein dansje.","Die pagina maakt lawaai! Leuk voor een minuutje, vermoeiend voor een lange test."],
+    "themeHeat": ["De toetshitte gaat op en neer! Hij moet sterker worden van 1 naar 4.","Heet, koud, heet? De stappen van de toetshitte staan door elkaar."],
+    "themeSameAsBase": ["Vers canvas! Ga over een kleur om te zien waar hij terechtkomt.","Kom op, verander iets. Ik zeg wel wat ik ervan vind!"],
+    "themeLovely": ["Ooh, deze vind ik leuk. Heel erg jij.","Leesbaar EN mooi. Opslaan, opslaan!","Die zou ik dragen. Eigenlijk doe ik dat een beetje al.","Alles slaagt. Mooi werk!"],
+    "wake@morning": ["Mmf… is het al ochtend? Hoi, ik ben Cal!","Goedemorgen! Ik droomde nog van ontbijt. Cal, hallo!","O! De zon is op. Ik dus ook. Ik ben Cal."],
+    "wake@afternoon": ["Hè? Gewoon een klein middagdutje! Cal hier.","Middagdutje onderbroken. De moeite waard. Hoi, ik ben Cal!","O hé! Was dat een dutje? Middag! Ik ben Cal."],
+    "wake@evening": ["Al avond? Ik was in slaap gevallen! Hoi, ik ben Cal.","Mm, het licht wordt goud. Hallo, ik ben Cal.","O! Goedenavond. Ik ben Cal, en ik ben wakker. Meestal."],
+    "wake@night": ["Wauw, het is donker buiten! Hoi, ik ben Cal. Zachtjes.","Ssst… het is midden in de nacht. Hoi, ik ben Cal.","Nachtuil! Ik blijkbaar ook. Cal, hallo."],
+    "intro@morning": ["Een ochtendles. Frisse vingers leren het snelst.","Ochtendtraining! Je hoofd is netjes en klaar.","Goedemorgen. Laten we dit doen voordat de dag luid wordt."],
+    "intro@afternoon": ["Middagles! Lekker rustig.","Perfecte middag voor een paar nieuwe toetsen.","Een les na de lunch. Gedurfd. Daar heb ik respect voor."],
+    "intro@evening": ["Avondles. Vanavond is langzaam prima.","Een beetje oefenen voordat de dag afloopt.","Avondtoetsen! Ik hoop op gezellige."],
+    "intro@night": ["Een late les? Rustig aan. Vermoeide vingers maken meer fouten.","Nachttraining. Stille toetsen, voorzichtige vingers.","Het is laat, dus geen druk. Eén goede poging, dan rust."],
+    "warmup@morning": ["Ochtendvingers zijn stijf. Perfect voor een warming-up.","Een warming-up in de ochtend? Schoolvoorbeeld.","Eerst rekken, het is nog vroeg."],
+    "warmup@afternoon": ["Warming-up! Even wiebelen om de middag af te schudden.","Middagdip? De warming-up helpt wel.","Korte warming-up, dan het echte werk."],
+    "warmup@evening": ["Avondwarming-up. Kom los na de dag.","Lange dag? Eerst rustige rondjes.","Een zachte warming-up voor avondvingers."],
+    "warmup@night": ["Een late warming-up. Lekker zacht, alsjeblieft.","Slaperige vingers hebben een rek nodig. Warming-uptijd.","Eerst opwarmen. Het is laat, geen haast."],
+    "sleepy@morning": ["Gegaap in de ochtend. Wil je wat water?","Zzz… te vroeg, zelfs voor mij.","Ik word zelf ook nog wakker, denk ik."],
+    "sleepy@afternoon": ["Middagdip. Even rekken?","Mm, de loomheid na de lunch. Ik ook.","Even pauzeren is prima. Ik wacht wel."],
+    "sleepy@evening": ["Lange dag, hè? Een pauze mag.","Avondgegaap. Ik ben hier gewoon.","Neem vijf. De toetsen lopen niet weg."],
+    "sleepy@night": ["Het is laat… bed is misschien beter dan nog één rondje.","Zzz… o, sorry. De nacht is mijn dutjestijd.","Rust je ogen. Morgen gaan we verder."]
+  }
+}
