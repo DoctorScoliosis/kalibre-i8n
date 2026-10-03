@@ -40,7 +40,7 @@
   "install": {
     "include_work": "{title} opnemen",
     "text_of_work": "tekst van {title}",
-    "edit_draft": ""{name}" bewerken",
+    "edit_draft": "\"{name}\" bewerken",
     "check_before_installing": "controleren vóór installatie",
     "add_text": "{title} toevoegen"
   },
