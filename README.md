@@ -80,18 +80,38 @@ Each language folder in `locales/<tag>/` contains a `meta.json`:
 Run validation locally with Node (built and tested on Node 26):
 
 ```bash
+# Refresh locales/en-GB from the Kalibre application checkout (../Kalibre-r1, or KALIBRE_CORE_DIR)
+npm run sync
+
+# Show exactly which JSON areas and messages a locale still needs
+npm run coverage -- zh-CN
+
+# Show every non-English locale in one report
+npm run coverage
+
+# Emit the same coverage report as JSON for agents/tools
+npm run coverage -- zh-CN --json
+
 # Build atomic packs and update index.json with new SHA-256 checksums
 npm run build
 
 # Validate JSON syntax, placeholder consistency, and key parity against en-GB
 npm run check
 
-# Refresh locales/en-GB from the Kalibre application checkout (../Kalibre-r1, or KALIBRE_CORE_DIR)
-npm run sync
-
 # Run full test suite
 npm test
 ```
+
+### Translation triage
+
+**Run the coverage report before asking an agent to translate a locale.** It compares the locale directly with the current canonical `en-GB` snapshot and reports:
+
+- missing JSON areas, with the number of source messages in each;
+- partially covered areas, with translated and missing message counts;
+- orphan keys;
+- complete areas.
+
+This avoids spending model/tool compute rediscovering which files are absent. For a focused handoff, paste the output of `npm run coverage -- <locale>` into the translation prompt and tell the agent to work only on the reported gaps.
 
 ### What the check enforces
 
