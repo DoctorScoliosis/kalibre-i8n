@@ -1,0 +1,22 @@
+{
+  "kalibreLocale": 1,
+  "id": "it-IT",
+  "name": "Italiano",
+  "englishName": "Italian",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": true,
+  "fonts": [
+    "system-ui",
+    "-apple-system",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "sans-serif"
+  ],
+  "reviewed": "machine",
+  "revision": 1,
+  "version": "2026-10-03",
+  "changes": "Initial Italian candidate translation"
+}
