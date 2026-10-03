@@ -142,7 +142,7 @@
   "theme_editor":{
     "sample_of_this_theme":"voorbeeld van dit thema","needs_1":" (heeft {minimum}:1 nodig)","fix_the_colours_marked_first":"Los eerst de kleuren met ✗ op","hex_value":"{label} hex-waarde","edit_theme":"thema bewerken",
     "a_sample_of_every_colour":"Een voorbeeld van elke kleur, met je kleurwaarneming en contrastinstellingen. Beweeg over een kleur of kies er een om te zien waar hij terechtkomt.",
-    "imported":""{name}" geïmporteerd","that_file_isn_t_a":"Dat bestand is geen thema.","saved":""{name}" opgeslagen","saved_decorate":". Versier het vanuit de lijst wanneer je wilt.",
+    "imported":"\"{name}\" geïmporteerd","that_file_isn_t_a":"Dat bestand is geen thema.","saved":"\"{name}\" opgeslagen","saved_decorate":". Versier het vanuit de lijst wanneer je wilt.",
     "groups":{"page":"pagina","text":"tekst","typing":"typen","charts":"grafieken"},
     "tokens":{"bg":"achtergrond","surface":"panelen","separator":"lijnen en randen","selection":"selectie","text":"tekst","textDim":"gedimde tekst","accent":"accent","correct":"getypte tekst","incorrect":"fouten","extra":"extra letters","caret":"cursor","chartWpm":"wpm-lijn","chartRaw":"ruwe lijn","chartError":"fouten","heat1":"toetshitte 1","heat2":"toetshitte 2","heat3":"toetshitte 3","heat4":"toetshitte 4"},
     "sample_correct":"quick brown ","sample_incorrect":"fxo","sample_extra":"ss","sample_dim":" jumps over","sample_text":"text ","sample_link":"link","sample_selected":"geselecteerd","that_theme_can_t_be":"Dat thema kan niet worden gebruikt: {problem}.","scheme_label":"licht of donker"
