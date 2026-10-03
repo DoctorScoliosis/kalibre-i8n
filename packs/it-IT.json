@@ -1,0 +1,2834 @@
+{
+  "meta": {
+    "kalibreLocale": 1,
+    "id": "it-IT",
+    "name": "Italiano",
+    "englishName": "Italian",
+    "dir": "ltr",
+    "fallback": "en-GB",
+    "lowercaseDates": true,
+    "fonts": [
+      "system-ui",
+      "-apple-system",
+      "Segoe UI",
+      "Roboto",
+      "Helvetica Neue",
+      "Arial",
+      "sans-serif"
+    ],
+    "reviewed": "machine",
+    "revision": 1,
+    "version": "2026-10-03",
+    "changes": "Initial Italian candidate translation"
+  },
+  "strings": {
+    "about": {
+      "faq": {
+        "why_name": "perché questo nome?",
+        "why_exist": "perché esiste?",
+        "who_made_it": "chi l'ha creato?",
+        "wheres_code": "dov'è il codice di kalibre?",
+        "give_star": "lascia una stella se ti piace! se vuoi dare una mano, sarebbe davvero bello. :)"
+      },
+      "heading_about": "informazioni",
+      "name_intro": "{name} {pronunciation} è un errore ortografico del tedesco {kaliber}, che a sua volta è la radice della parola inglese {calibre}, come in \"high-calibre\". è intenzionale: è così che sai che {own} l'app.",
+      "pronunciation": "(/kəˈliːbreɪ/ {guide})",
+      "pronunciation_guide": "kuh-LEE-bray",
+      "word_kaliber": "kaliber",
+      "word_calibre": "calibre",
+      "word_own": "possiedo",
+      "libre": "inoltre, la parte \"libre\" del nome significa davvero ciò che significa in {libre}: libero nel senso di libertà, non nel senso del costo, come nella birra gratis.",
+      "libre_software": "software libero",
+      "libre_aside": "(anche se, tecnicamente, è gratuito anche in termini di costo.)",
+      "shorthand": "l'abbreviazione ufficiale {kb} funziona anche come l'ovvia abbreviazione di {keyboard}. sembrava giusto per uno strumento costruito attorno a uno.",
+      "shorthand_kb": "kb",
+      "word_keyboard": "tastiera",
+      "exist_intro": "{name} è nato come progetto personale, un modo per allenarmi sugli errori specifici che continuavo a fare e sugli errori che {would} fare, invece di ripetere gli stessi esercizi. la mappa degli errori, l'allenamento adattivo, la modalità di precisione sostenuta: tutto è nato dal voler avere qualcosa che imparasse i miei schemi {my}.",
+      "word_would": "farebbe",
+      "word_my": "i miei",
+      "exist_dev": "lo uso anche durante lo sviluppo, oltre a testarne le funzioni, perché digitare qualcosa che ho già scritto è un buon modo per starci dentro.",
+      "fun_fact": "curiosità:",
+      "fun_fact_text": "in realtà mi piacciono i test di digitazione in modalità sostenuta!",
+      "made_by": "uno studente universitario di nome {author}, alias {handle}. distribuito con la {licence}.",
+      "author_name": "paul taylor miller",
+      "author_handle": "doctor scoliosis",
+      "licence_name": "licenza mit",
+      "code_heading": "dov'è il codice di {name}?",
+      "code_body": "puoi dare un'occhiata {here} su gh. lascia una stella se ti piace! se vuoi dare una mano, sarebbe davvero bello. :)",
+      "code_here": "qui"
+    },
+    "achievements": {
+      "groups": {
+        "typing": "digitazione",
+        "sustained": "sostenuto",
+        "mistakes": "errori",
+        "learn": "scrittura a tocco",
+        "numpad": "tastierino numerico",
+        "games": "giochi",
+        "habits": "abitudini",
+        "quests": "missioni giornaliere",
+        "texts": "i tuoi testi",
+        "companion": "compagno",
+        "decorations": "decorazioni del tema",
+        "secrets": "segreti"
+      },
+      "hints": {
+        "secret_keep_playing": "un segreto: continua a giocare"
+      },
+      "rules": {
+        "level": "raggiungi il livello {at}",
+        "tests": "completa {count, plural, one {# test} other {# test}}",
+        "bestWpm": "completa un test a {wpm} ppm",
+        "typingTime_hours": "digita per {count, plural, one {# ora} other {# ore}}, in tutto",
+        "typingTime_minutes": "digita per {count, plural, one {# minuto} other {# minuti}}, in tutto",
+        "perfectTest_seconds": "completa un test di almeno {seconds} secondi con precisione del 100%",
+        "perfectTest_words": "completa un test di almeno {words} parole con precisione del 100%",
+        "nightTests": "completa {count, plural, one {# test} other {# test}} tra mezzanotte e le 4",
+        "sustainedSurvived": "mantieni un test sostenuto per {count, plural, one {# minuto} other {# minuti}}",
+        "sustainedTotal": "trascorri {count, plural, one {# minuto} other {# minuti}} nei test sostenuti, in tutto",
+        "stageMastered": "padroneggia ogni lezione della fase {stage}",
+        "stageStarted": "inizia una lezione nella fase {stage}",
+        "allLessons": "padroneggia ogni lezione",
+        "lastLessonDone": "completa l'ultima lezione del percorso",
+        "stepsFinished": "completa {count, plural, one {# fase della lezione} other {# fasi della lezione}}",
+        "lessonsStepped": "affronta {count, plural, one {# lezione} other {# lezioni}} prima del test",
+        "stepsAllDoneLessons": "{count, plural, one {attraversa ogni fase di una lezione} other {attraversa ogni fase di # lezioni}}",
+        "warmupsFinished": "completa {count, plural, one {# riscaldamento} other {# riscaldamenti}}",
+        "warmupThenMastered": "padroneggia una lezione nel test subito dopo un riscaldamento",
+        "stepsRetriedReady": "ripeti una fase finché non è pronta",
+        "gameScore": "ottieni {score} in {game}",
+        "gameRuns": "gioca a {game} {count, plural, one {# volta} other {# volte}}",
+        "gameTime": "gioca a {game} per {count, plural, one {# minuto} other {# minuti}}, in tutto",
+        "gameLongest": "resisti per {count, plural, one {# minuto} other {# minuti}} in una sessione di {game}{difficulty, select, easy { a facile} normal { a normale} hard { a difficile} other {}}",
+        "gameWin": "vinci in {game}{difficulty, select, easy { a facile} normal { a normale} hard { a difficile} other {}}",
+        "spotFound": "trova {count, plural, one {# errore} other {# errori}} in una sessione di Spot",
+        "texts": "salva {count, plural, one {# testo} other {# testi}} tuoi",
+        "textWords": "salva un tuo testo di almeno {words} parole",
+        "datasetWords": "crea un dataset con un tuo testo di almeno {words}+ parole",
+        "quotes": "aggiungi {count, plural, one {# citazione} other {# citazioni}} tue",
+        "bankMastered": "padroneggia {count, plural, one {# errore} other {# errori}}",
+        "goalStreak": "raggiungi il tuo obiettivo giornaliero per {days} giorni di fila",
+        "questsDone": "completa {count, plural, one {# missione giornaliera} other {# missioni giornaliere}}",
+        "challengesDone": "completa {count, plural, one {# sfida giornaliera} other {# sfide giornaliere}}",
+        "questFullDays": "completa tutte e tre le missioni giornaliere in {days, plural, one {# giorno} other {# giorni}} (non necessariamente di fila)",
+        "padTests": "completa {count, plural, one {# test a dieci tasti} other {# test a dieci tasti}}",
+        "padKsph": "completa un test a dieci tasti a {ksph} battute all'ora con almeno il 95% di precisione",
+        "padPerfect": "completa un test a dieci tasti di almeno {entries} voci con ogni voce corretta",
+        "padLessons": "padroneggia {count, plural, one {# lezione del tastierino numerico} other {# lezioni del tastierino numerico}}",
+        "allPadLessons": "padroneggia tutte le lezioni del tastierino numerico",
+        "padSums": "risolvi correttamente {count, plural, one {# somma} other {# somme}}",
+        "padSumsPerfect": "rispondi a {answers} somme in una sessione con ogni risposta corretta",
+        "padSumsLevel": "raggiungi il livello {level} nelle somme",
+        "padTill": "servi {served} clienti in una sessione alla cassa",
+        "padKeys": "premi {count, plural, one {# tasto del tastierino numerico} other {# tasti del tastierino numerico}}, in tutto",
+        "engaged": "un segreto",
+        "wordsTyped": "digita {count, plural, one {# parola} other {# parole}}, in tutto",
+        "daysTyped": "digita per {days, plural, one {# giorno} other {# giorni}} (non necessariamente di fila)",
+        "drillsDone": "completa {count, plural, one {# allenamento} other {# allenamenti}} sui tuoi errori",
+        "earlyTests": "completa {count, plural, one {# test} other {# test}} tra le 5 e le 6",
+        "lessons": "padroneggia {count, plural, one {# lezione} other {# lezioni}}",
+        "allGameRuns": "gioca a {count, plural, one {# gioco} other {# giochi}}, in tutto",
+        "perfectFirstLesson": "{count, plural, one {completa una lezione con precisione del 100% al primo tentativo} other {completa {count} lezioni con precisione del 100% al primo tentativo}}",
+        "wardrobeUnlocked": "sblocca {count, plural, one {# elemento del guardaroba} other {# elementi del guardaroba}}",
+        "wardrobeSlots": "indossa qualcosa in ogni spazio del guardaroba",
+        "decorationsUnlocked": "sblocca {count, plural, one {# decorazione del tema} other {# decorazioni del tema}}",
+        "decorationSlots": "sblocca una decorazione del tema di ogni tipo",
+        "decorationsWorn": "{count, plural, one {decora uno dei tuoi temi} other {dai al tuo tema {count} decorazioni insieme}}",
+        "petted": "accarezza il tuo compagno {count, plural, one {# volta} other {# volte}}",
+        "poked": "dai un colpetto al tuo compagno {count, plural, one {# volta} other {# volte}}",
+        "tickled": "fai il solletico al tuo compagno {count, plural, one {# volta} other {# volte}}",
+        "pokedTooMuch": "dai otto colpetti al tuo compagno in rapida successione",
+        "armLifted": "solleva il braccio sospeso nella pagina informazioni",
+        "quickRestarts": "riavvia Kalibre {count, plural, one {# volta} other {# volte}} in rapida successione, dando un colpetto o facendo il solletico al compagno nel frattempo",
+        "racesDone": "completa {count, plural, one {# gara} other {# gare}}",
+        "raceWins": "vinci una gara {difficulty, select, easy {facile } normal {normale } hard {difficile } other {}}{mode, select, sprint {sprint } endurance {resistenza } grand_prix {gran premio } other {}}{solo, select, true {da solo} false {sulla tua rete} other {}}",
+        "raceModesWon": "{count, select, 4 {vinci una gara in rete in ogni modalità} other {vinci una gara in rete in {count, plural, one {# modalità} other {# modalità}}}}",
+        "booksFinished": "{count, plural, one {completa un intero libro in modalità sostenuta} other {completa # interi libri in modalità sostenuta}}",
+        "spotTotalFound": "trova {count, plural, one {# errore} other {# errori}} in Spot, in tutto",
+        "spaceWordBombs": "{count, plural, one {sgancia la bomba di parole in Space una volta} other {sgancia la bomba di parole in Space {count} volte}}",
+        "unknown": "sconosciuto",
+        "progress_suffix": " ({have} di {need})",
+        "secret_hint": "un segreto: continua a giocare"
+      },
+      "first-test": {
+        "name": "primi passi"
+      },
+      "tests-10": {
+        "name": "riscaldamento"
+      },
+      "tests-100": {
+        "name": "cento di fila"
+      },
+      "tests-500": {
+        "name": "cinquecento"
+      },
+      "tests-1000": {
+        "name": "mille"
+      },
+      "wpm-40": {
+        "name": "mani ferme"
+      },
+      "wpm-50": {
+        "name": "trovare il ritmo"
+      },
+      "wpm-60": {
+        "name": "dita veloci"
+      },
+      "wpm-70": {
+        "name": "spedito"
+      },
+      "wpm-80": {
+        "name": "rapido"
+      },
+      "wpm-100": {
+        "name": "tre cifre"
+      },
+      "wpm-120": {
+        "name": "un lampo"
+      },
+      "wpm-150": {
+        "name": "fulmine"
+      },
+      "perfect-30": {
+        "name": "trenta secondi perfetti"
+      },
+      "perfect-minute": {
+        "name": "un minuto impeccabile"
+      },
+      "perfect-2min": {
+        "name": "due minuti impeccabili"
+      },
+      "hours-1": {
+        "name": "la prima ora"
+      },
+      "hours-10": {
+        "name": "dieci ore"
+      },
+      "hours-50": {
+        "name": "cinquanta ore"
+      },
+      "hours-100": {
+        "name": "cento ore"
+      },
+      "words-10k": {
+        "name": "diecimila parole"
+      },
+      "words-100k": {
+        "name": "centomila parole"
+      },
+      "words-1m": {
+        "name": "un milione di parole"
+      },
+      "days-10": {
+        "name": "dieci giorni"
+      },
+      "days-50": {
+        "name": "cinquanta giorni"
+      },
+      "days-100": {
+        "name": "cento giorni"
+      },
+      "days-365": {
+        "name": "un anno di giorni"
+      },
+      "sustained-1": {
+        "name": "tenere il ritmo"
+      },
+      "sustained-3": {
+        "name": "resistere"
+      },
+      "sustained-10": {
+        "name": "resistenza"
+      },
+      "sustained-20": {
+        "name": "lunga distanza"
+      },
+      "sustained-30": {
+        "name": "resistenza"
+      },
+      "sustained-total-60": {
+        "name": "un'ora, sostenuta"
+      },
+      "sustained-total-300": {
+        "name": "cinque ore, sostenute"
+      },
+      "book-finished": {
+        "name": "fino all'ultima pagina"
+      },
+      "books-5": {
+        "name": "non posarlo mai"
+      },
+      "mastered-1": {
+        "name": "sistemato"
+      },
+      "mastered-5": {
+        "name": "riparato"
+      },
+      "mastered-25": {
+        "name": "aggiustato"
+      },
+      "mastered-100": {
+        "name": "come nuovo"
+      },
+      "mastered-250": {
+        "name": "nulla da sistemare"
+      },
+      "drills-1": {
+        "name": "primo allenamento"
+      },
+      "drills-10": {
+        "name": "allenato"
+      },
+      "drills-100": {
+        "name": "la pratica aiuta"
+      },
+      "first-lesson": {
+        "name": "prima lezione"
+      },
+      "lessons-10": {
+        "name": "dieci lezioni"
+      },
+      "stage-1": {
+        "name": "riga home"
+      },
+      "stage-2": {
+        "name": "riga superiore"
+      },
+      "stage-3": {
+        "name": "tre righe"
+      },
+      "stage-4": {
+        "name": "maiuscole"
+      },
+      "stage-5": {
+        "name": "con i numeri"
+      },
+      "stage-6": {
+        "name": "fluente"
+      },
+      "all-lessons": {
+        "name": "dattilografo a tocco"
+      },
+      "stage-1-started": {
+        "name": "inizio della riga home"
+      },
+      "stage-2-started": {
+        "name": "inizio della riga superiore"
+      },
+      "stage-3-started": {
+        "name": "inizio della riga inferiore"
+      },
+      "stage-4-started": {
+        "name": "inizio delle maiuscole"
+      },
+      "stage-5-started": {
+        "name": "inizio dei numeri"
+      },
+      "stage-6-started": {
+        "name": "inizio della fluidità"
+      },
+      "last-lesson": {
+        "name": "fino all'ultima lezione"
+      },
+      "first-step": {
+        "name": "entrare nel ritmo"
+      },
+      "stepped-lesson": {
+        "name": "passo dopo passo"
+      },
+      "stepped-10": {
+        "name": "ben avviato"
+      },
+      "first-warmup": {
+        "name": "ben riscaldato"
+      },
+      "warmup-mastery": {
+        "name": "tutto d'un fiato"
+      },
+      "step-again": {
+        "name": "ci stai arrivando"
+      },
+      "every-game": {
+        "name": "provati tutti"
+      },
+      "every-game-10": {
+        "name": "un habitué"
+      },
+      "every-game-50": {
+        "name": "un appassionato"
+      },
+      "games-100": {
+        "name": "serata di giochi"
+      },
+      "space-2000": {
+        "name": "pilota asso"
+      },
+      "space-5000": {
+        "name": "top gun"
+      },
+      "castle-normal": {
+        "name": "difendi le mura"
+      },
+      "castle-hard": {
+        "name": "custode del castello"
+      },
+      "spot-20": {
+        "name": "occhio d'aquila"
+      },
+      "spot-50": {
+        "name": "vista da falco"
+      },
+      "feed-30": {
+        "name": "ben nutrito"
+      },
+      "feed-10min": {
+        "name": "un lungo pranzo"
+      },
+      "hard-win": {
+        "name": "la via difficile"
+      },
+      "castle-easy": {
+        "name": "prima breccia"
+      },
+      "space-win": {
+        "name": "scafo intatto"
+      },
+      "space-hard-win": {
+        "name": "scafo d'acciaio"
+      },
+      "spot-total-100": {
+        "name": "correzioni, in tutto"
+      },
+      "spot-chief": {
+        "name": "caporedattore"
+      },
+      "buffet-host": {
+        "name": "maestro del buffet"
+      },
+      "full-house": {
+        "name": "tutto pieno"
+      },
+      "no-hints": {
+        "name": "nessun suggerimento"
+      },
+      "station-down": {
+        "name": "stazione abbattuta"
+      },
+      "shrapnel-storm": {
+        "name": "tempesta di schegge"
+      },
+      "stacked": {
+        "name": "accumulatore"
+      },
+      "autopilot-ace": {
+        "name": "asso del pilota automatico"
+      },
+      "dazed": {
+        "name": "frastornato e confuso"
+      },
+      "spoils-of-war": {
+        "name": "bottino di guerra"
+      },
+      "clean-sweep": {
+        "name": "nessuna sbavatura"
+      },
+      "beam-overload": {
+        "name": "raggio sovraccarico"
+      },
+      "flagship-down": {
+        "name": "ammiraglia abbattuta"
+      },
+      "keg-defused": {
+        "name": "barilotto disinnescato"
+      },
+      "ladder-toppled": {
+        "name": "scala rovesciata"
+      },
+      "sortie-master": {
+        "name": "maestro delle sortite"
+      },
+      "marathon-master": {
+        "name": "maestro della maratona"
+      },
+      "scroller-streak": {
+        "name": "serie sul nastro"
+      },
+      "race-first": {
+        "name": "ai posti"
+      },
+      "race-solo-win": {
+        "name": "primo al traguardo"
+      },
+      "race-hard-win": {
+        "name": "li hai seminati entrambi"
+      },
+      "race-network-win": {
+        "name": "il più veloce nella stanza"
+      },
+      "race-last-standing": {
+        "name": "ultimo rimasto"
+      },
+      "race-every-mode": {
+        "name": "una vittoria in ogni corsia"
+      },
+      "streak-3": {
+        "name": "tre di fila"
+      },
+      "streak-7": {
+        "name": "una settimana così"
+      },
+      "streak-14": {
+        "name": "due settimane così"
+      },
+      "streak-30": {
+        "name": "un mese così"
+      },
+      "streak-100": {
+        "name": "cento giorni così"
+      },
+      "streak-365": {
+        "name": "un anno così"
+      },
+      "level-5": {
+        "name": "livello 5"
+      },
+      "level-10": {
+        "name": "livello 10"
+      },
+      "level-15": {
+        "name": "livello 15"
+      },
+      "level-20": {
+        "name": "livello 20"
+      },
+      "level-30": {
+        "name": "livello 30"
+      },
+      "level-40": {
+        "name": "livello 40"
+      },
+      "level-50": {
+        "name": "livello 50"
+      },
+      "quests-10": {
+        "name": "in missione"
+      },
+      "quests-25": {
+        "name": "mentalità da missione"
+      },
+      "quests-100": {
+        "name": "in missione continua"
+      },
+      "quests-500": {
+        "name": "una vita di missioni"
+      },
+      "challenges-10": {
+        "name": "ci sto"
+      },
+      "challenges-50": {
+        "name": "sfidante"
+      },
+      "challenges-100": {
+        "name": "non si tira indietro"
+      },
+      "full-days-7": {
+        "name": "set completo"
+      },
+      "full-days-30": {
+        "name": "trenta giorni interi"
+      },
+      "first-text": {
+        "name": "parole tue"
+      },
+      "texts-3": {
+        "name": "alcuni dei tuoi"
+      },
+      "texts-10": {
+        "name": "una piccola libreria"
+      },
+      "texts-25": {
+        "name": "uno scaffale"
+      },
+      "page-text": {
+        "name": "una tua pagina"
+      },
+      "long-text": {
+        "name": "una lunga lettura"
+      },
+      "epic-text": {
+        "name": "un'epopea"
+      },
+      "pets-1": {
+        "name": "ciao!"
+      },
+      "pets-25": {
+        "name": "bravo tastone"
+      },
+      "pets-100": {
+        "name": "migliori amici"
+      },
+      "pets-500": {
+        "name": "inseparabili"
+      },
+      "pokes-1": {
+        "name": "boop"
+      },
+      "pokes-100": {
+        "name": "toc toc toc"
+      },
+      "tickles-1": {
+        "name": "sensibile al solletico"
+      },
+      "tickles-25": {
+        "name": "attacco di risate"
+      },
+      "tickles-250": {
+        "name": "nessuna pietà"
+      },
+      "wardrobe-10": {
+        "name": "vestirsi bene"
+      },
+      "wardrobe-25": {
+        "name": "un armadio pieno"
+      },
+      "all-slots": {
+        "name": "vestito di tutto punto"
+      },
+      "decorations-1": {
+        "name": "un tocco in più"
+      },
+      "decorations-5": {
+        "name": "decoratore"
+      },
+      "decorations-10": {
+        "name": "interior designer"
+      },
+      "decorations-all": {
+        "name": "tutte le rifiniture"
+      },
+      "decoration-kinds": {
+        "name": "una per tipo"
+      },
+      "decorated": {
+        "name": "l'ho fatto mio"
+      },
+      "fully-decorated": {
+        "name": "tutte le rifiniture"
+      },
+      "pad-first": {
+        "name": "primo nastro"
+      },
+      "pad-tests-25": {
+        "name": "custode del registro"
+      },
+      "pad-speed-5000": {
+        "name": "mani ferme"
+      },
+      "pad-speed-8000": {
+        "name": "veloce sul tastierino"
+      },
+      "pad-speed-10000": {
+        "name": "diecimila all'ora"
+      },
+      "pad-perfect": {
+        "name": "conti in ordine"
+      },
+      "pad-lesson-1": {
+        "name": "tasti home"
+      },
+      "pad-lessons-all": {
+        "name": "tutto il tastierino"
+      },
+      "pad-sums-100": {
+        "name": "bravo con i numeri"
+      },
+      "pad-sums-perfect": {
+        "name": "nessuna calcolatrice"
+      },
+      "pad-sums-level-5": {
+        "name": "abilitato"
+      },
+      "pad-till-25": {
+        "name": "clienti abituali"
+      },
+      "pad-till-60": {
+        "name": "la coda non finisce mai"
+      },
+      "pad-keys-10000": {
+        "name": "diecimila tasti"
+      },
+      "night-owl": {
+        "name": "nottambulo"
+      },
+      "moonlighter": {
+        "name": "lavoratore notturno"
+      },
+      "early-bird": {
+        "name": "mattiniero"
+      },
+      "flawless": {
+        "name": "impeccabile"
+      },
+      "marathon": {
+        "name": "maratona"
+      },
+      "first-try": {
+        "name": "al primo tentativo"
+      },
+      "pets-1000": {
+        "name": "devoto"
+      },
+      "poke-fit": {
+        "name": "basta così"
+      },
+      "restarts-3": {
+        "name": "déjà vu"
+      },
+      "restarts-7": {
+        "name": "giorno della marmotta"
+      },
+      "restarts-15": {
+        "name": "spento e riacceso"
+      },
+      "arm-lift": {
+        "name": "una mano d'aiuto"
+      },
+      "word-bomb": {
+        "name": "si va al nucleare"
+      },
+      "achievement_badges": {
+        "secret": "segreto",
+        "kind": "{kind}",
+        "kind_earned": "{kind}, conquistato",
+        "kind_trophy": "trofeo",
+        "kind_medal": "medaglia",
+        "kind_badge": "badge"
+      },
+      "achievement_note": {
+        "see_achievements": "vedi traguardi"
+      },
+      "achievements": {
+        "doesn_t_count_towards_100": "non conta verso il 100%",
+        "achievements_aren_t_available_here": "I traguardi non sono disponibili qui.",
+        "things_you_ve_done_in": "cose che hai fatto in kalibre, ricavate dalla tua cronologia, quindi conta anche tutto ciò che hai fatto prima. segreti ed extra non contano nel totale.",
+        "100_every_achievement": "100%: ogni traguardo.",
+        "achievements_aren_t_available_here_2": "I traguardi non sono disponibili qui.",
+        "earned": "conquistati",
+        "trophies": "trofei",
+        "medals": "medaglie",
+        "badges": "badge",
+        "extras": "extra",
+        "sections_label": "sezioni dei traguardi"
+      }
+    },
+    "cards": {
+      "view": {
+        "card_aria": "scheda di {name}: {described}"
+      },
+      "window": {
+        "your_card": "la tua scheda",
+        "card_title": "scheda",
+        "cosmetics": "elementi estetici",
+        "stickers": "adesivi",
+        "garage": "garage",
+        "done": "fine"
+      },
+      "card_view": {
+        "lv": "liv {level}",
+        "with_after_level": " · con {companionName}",
+        "with_companion": "con {companionName}"
+      },
+      "card_window": {
+        "this_is_how_your_card": "Ecco come appare la tua scheda agli altri durante una gara. Il tuo compagno sta dove ci sarebbe una foto: le foto del profilo non lasciano mai questo dispositivo. Trascina un adesivo per spostarlo; selezionane uno per cambiarne colore, dimensione e rotazione, oppure usa le frecce, [ e ], e Canc; Esc o un clic altrove lo deseleziona.",
+        "what_your_card_wears": "cosa indossa la tua scheda",
+        "colour": "colore {tokenLabel}",
+        "theme_default_colour": "colore predefinito del tema",
+        "delete_sticker": "elimina adesivo",
+        "sticker_arrows_move_it_and": "adesivo {name}: le frecce lo spostano, [ e ] lo ruotano, Canc lo rimuove; selezionalo per cambiarne colore e dimensione",
+        "selected_sticker_s_colour": "colore dell'adesivo selezionato",
+        "add_a_sticker": "aggiungi un adesivo {name}",
+        "a_secret_sticker": "un adesivo segreto",
+        "a_card_shows_at_most": "una scheda mostra al massimo {MAX_SHOWCASE}",
+        "remove_every_sticker": "rimuovi tutti gli adesivi",
+        "nothing_to_show_off_yet": "Non c'è ancora nulla da mostrare. Qui compariranno i tuoi traguardi man mano che li conquisti.",
+        "tabs": {
+          "showcase": {
+            "title": "vetrina",
+            "hint": "fino a {max} traguardi che hai conquistato"
+          },
+          "garage": {
+            "title": "garage",
+            "hint": "personalizza la tua auto da gara: è quella che guidi in pista e che vedono tutti quelli che gareggiano con te"
+          }
+        },
+        "tint": "{slot}Tonalità"
+      },
+      "cosmetics": {
+        "CARD_SLOTS": {
+          "border": {
+            "title": "bordo",
+            "hint": "attorno alla scheda"
+          },
+          "frame": {
+            "title": "cornice",
+            "hint": "attorno al tuo compagno"
+          },
+          "aura": {
+            "title": "aura",
+            "hint": "un bagliore dietro il tuo compagno"
+          },
+          "backdrop": {
+            "title": "sfondo",
+            "hint": "dietro tutto ciò che c'è nella scheda"
+          },
+          "sticker": {
+            "title": "adesivi",
+            "hint": "trascinali ovunque sulla scheda"
+          }
+        },
+        "items": {
+          "border-double": {
+            "name": "doppia linea"
+          },
+          "border-stitch": {
+            "name": "cucitura"
+          },
+          "border-ribbon": {
+            "name": "nastro"
+          },
+          "border-corners": {
+            "name": "parentesi angolari"
+          },
+          "border-keycap": {
+            "name": "tasto"
+          },
+          "border-heat": {
+            "name": "calore"
+          },
+          "border-neon": {
+            "name": "neon"
+          },
+          "border-gilt": {
+            "name": "dorato"
+          },
+          "border-midnight": {
+            "name": "mezzanotte"
+          },
+          "frame-double": {
+            "name": "doppio anello"
+          },
+          "frame-dashed": {
+            "name": "anello tratteggiato"
+          },
+          "frame-square": {
+            "name": "quadrato a forma di tasto"
+          },
+          "frame-cog": {
+            "name": "ingranaggio"
+          },
+          "frame-petals": {
+            "name": "petali"
+          },
+          "frame-orbit": {
+            "name": "orbita"
+          },
+          "frame-laurel": {
+            "name": "alloro"
+          },
+          "frame-crown": {
+            "name": "corona"
+          },
+          "aura-soft": {
+            "name": "bagliore morbido"
+          },
+          "aura-pulse": {
+            "name": "impulso"
+          },
+          "aura-ember": {
+            "name": "brace"
+          },
+          "aura-halo": {
+            "name": "alone"
+          },
+          "aura-aurora": {
+            "name": "aurora"
+          },
+          "aura-prism": {
+            "name": "prisma"
+          },
+          "backdrop-dots": {
+            "name": "puntini"
+          },
+          "backdrop-pinstripe": {
+            "name": "gessato"
+          },
+          "backdrop-graph": {
+            "name": "carta millimetrata"
+          },
+          "backdrop-waves": {
+            "name": "onde"
+          },
+          "backdrop-stars": {
+            "name": "cielo stellato"
+          },
+          "backdrop-confetti": {
+            "name": "coriandoli"
+          },
+          "sticker-star": {
+            "name": "stella"
+          },
+          "sticker-leaf": {
+            "name": "foglia"
+          },
+          "sticker-key": {
+            "name": "tasto"
+          },
+          "sticker-heart": {
+            "name": "cuore"
+          },
+          "sticker-flower": {
+            "name": "fiore"
+          },
+          "sticker-bolt": {
+            "name": "fulmine"
+          },
+          "sticker-note": {
+            "name": "nota musicale"
+          },
+          "sticker-moon": {
+            "name": "luna"
+          },
+          "sticker-rocket": {
+            "name": "razzo"
+          },
+          "sticker-castle": {
+            "name": "castello"
+          },
+          "sticker-magnifier": {
+            "name": "lente d'ingrandimento"
+          },
+          "sticker-book": {
+            "name": "libro"
+          },
+          "sticker-flag": {
+            "name": "bandiera a scacchi"
+          },
+          "sticker-crown": {
+            "name": "corona"
+          },
+          "sticker-teacup": {
+            "name": "tazza da tè"
+          },
+          "sticker-sparkle": {
+            "name": "scintillio"
+          }
+        }
+      }
+    },
+    "cars": {
+      "slots": {
+        "body": {
+          "title": "carrozzeria",
+          "hint": "la forma della tua auto"
+        },
+        "paint": {
+          "title": "vernice",
+          "hint": "il colore, scelto tra quelli del tuo tema"
+        },
+        "livery": {
+          "title": "livrea",
+          "hint": "un motivo sopra la vernice, con un colore proprio"
+        },
+        "wheels": {
+          "title": "ruote",
+          "hint": "su cosa rotola"
+        },
+        "trail": {
+          "title": "scia",
+          "hint": "ciò che lascia dietro di sé"
+        }
+      },
+      "parts": {
+        "body-hatch": {
+          "name": "hatchback"
+        },
+        "body-coupe": {
+          "name": "coupé"
+        },
+        "body-beetle": {
+          "name": "maggiolino"
+        },
+        "body-pickup": {
+          "name": "pickup"
+        },
+        "body-van": {
+          "name": "furgone"
+        },
+        "body-racer": {
+          "name": "monoposto"
+        },
+        "body-bubble": {
+          "name": "auto a bolla"
+        },
+        "paint-accent": {
+          "name": "accento"
+        },
+        "paint-heat-1": {
+          "name": "brace"
+        },
+        "paint-heat-2": {
+          "name": "ambra"
+        },
+        "paint-heat-3": {
+          "name": "alba"
+        },
+        "paint-heat-4": {
+          "name": "scarlatto"
+        },
+        "paint-chart-wpm": {
+          "name": "linea di gara"
+        },
+        "paint-text-dim": {
+          "name": "grafite"
+        },
+        "livery-stripe": {
+          "name": "striscia da gara"
+        },
+        "livery-checker": {
+          "name": "a scacchi"
+        },
+        "livery-dots": {
+          "name": "pois"
+        },
+        "livery-chevrons": {
+          "name": "chevron"
+        },
+        "livery-flames": {
+          "name": "fiamme"
+        },
+        "livery-split": {
+          "name": "bicolore"
+        },
+        "livery-number": {
+          "name": "numero di gara"
+        },
+        "livery-midnight": {
+          "name": "stelle di mezzanotte"
+        },
+        "wheels-plain": {
+          "name": "semplici"
+        },
+        "wheels-sport": {
+          "name": "sportive"
+        },
+        "wheels-chunky": {
+          "name": "massicce"
+        },
+        "wheels-spoked": {
+          "name": "a raggi"
+        },
+        "wheels-whitewall": {
+          "name": "a fascia bianca"
+        },
+        "wheels-gilt": {
+          "name": "dorate"
+        },
+        "trail-dust": {
+          "name": "polvere"
+        },
+        "trail-sparks": {
+          "name": "scintille"
+        },
+        "trail-bubbles": {
+          "name": "bolle"
+        },
+        "trail-ribbon": {
+          "name": "nastro"
+        },
+        "trail-stars": {
+          "name": "polvere di stelle"
+        }
+      },
+      "garage": {
+        "title": "garage",
+        "tab_title": "garage",
+        "tab_hint": "personalizza la tua auto da gara: è quella che guidi in pista e che vedono tutti quelli che gareggiano con te",
+        "choose_slot": "scegli {slot}",
+        "paint_swatch": "vernice {name}",
+        "livery_colour": "colore della livrea {tokenLabel}",
+        "usual_livery_colour": "colore abituale della livrea",
+        "livery_colour_2": "colore della livrea",
+        "this_is_your_car_on": "Questa è la tua auto in pista e quella che vedono tutti quelli che gareggiano con te. Indossa solo componenti che hai conquistato.",
+        "your_race_car": "la tua auto da gara"
+      }
+    },
+    "chrome": {
+      "nav": {
+        "skip_to_content": "vai al contenuto",
+        "type": "digita",
+        "learn": "impara",
+        "drill": "allenamento",
+        "games": "giochi",
+        "mistakes": "errori",
+        "settings": "impostazioni",
+        "today": "oggi",
+        "about": "informazioni",
+        "primary": "principale"
+      },
+      "curtain": {
+        "fetching": "recupero di libri e dizionario, solo per questa volta",
+        "taking_longer": "ci sta mettendo più del solito…",
+        "reload": "ricarica",
+        "books_downloading": "i libri stanno ancora scaricando. puoi iniziare adesso e finiranno in background.",
+        "start_without_waiting": "inizia senza aspettare",
+        "still_loading": "caricamento ancora in corso. controlla la connessione e poi ricarica. una volta caricato qui, kalibre funziona offline.",
+        "older_tab": "kalibre è aperto in un'altra scheda, con una versione precedente. chiudi quella scheda e questa continuerà.",
+        "couldnt_load": "kalibre non è riuscito a caricarsi. controlla la connessione e poi ricarica.",
+        "browser_too_old": "questo browser è troppo vecchio per kalibre. una versione recente di Chrome, Edge, Firefox o Safari lo eseguirà."
+      },
+      "footer": {
+        "shortcuts": "scorciatoie da tastiera",
+        "privacy": "privacy",
+        "terms": "termini",
+        "security": "sicurezza",
+        "announcements": "annunci",
+        "credit_author": "© {year} {author}.",
+        "credit_company": "© {year} midnight summer media.",
+        "licence": "distribuito con la {licence}.",
+        "licence_name": "licenza mit"
+      },
+      "meta": {
+        "tagline": "kalibre, un allenatore di digitazione adattivo",
+        "description": "La tua digitazione. I tuoi errori. I tuoi progressi. Un allenatore di digitazione che impara i tuoi errori ricorrenti e ti allena su di essi, direttamente nel browser.",
+        "alt_wordmark": "Il marchio kalibre tra Cal e Libby, con la frase: la tua digitazione, i tuoi errori, i tuoi progressi."
+      },
+      "pwa": {
+        "ios": "Su iPhone e iPad, aggiungi kalibre alla schermata Home (in Safari: condividi → aggiungi a Home). Si apre a schermo intero e conserva i dati, mentre una scheda Safari può perderli dopo 7 giorni senza visite.",
+        "generic": "Aggiungi kalibre alla schermata Home (menu del browser → aggiungi alla schermata Home, oppure installa). Una volta installato, si apre a schermo intero e il browser è più predisposto a conservare i dati."
+      },
+      "misc": {
+        "kalibre_about": "kalibre, informazioni",
+        "backup_due": "impostazioni, backup in attesa",
+        "new_badge": "nuovo",
+        "backup_progress": "avanzamento del backup",
+        "todays_quests": "missioni di oggi",
+        "new_quests_midnight": "nuove missioni a mezzanotte",
+        "difficulty": "difficoltà",
+        "getting_quests": "recupero delle missioni di oggi…"
+      },
+      "backup": {
+        "error": "impossibile salvarlo: {error}",
+        "nothing": "non c'è ancora nulla di cui fare il backup",
+        "saved_to_folder": "salvati {count, plural, one {# file del profilo} other {# file dei profili}} nella cartella kalibre “{folder}”",
+        "downloaded": "scaricati {count, plural, one {# file del profilo} other {# file dei profili}}"
+      },
+      "updates": {
+        "whats_new_title": "novità",
+        "status_up_to_date": "kalibre v{version} · aggiornato",
+        "update_ready": "v{version} è pronta",
+        "update_ready_read_first": "v{version} è pronta · leggi prima",
+        "update_meta": "puoi aggiornare ora oppure restare sulla versione corrente (v{current}).",
+        "update_meta_size": "dimensione del download: ~{size} · puoi aggiornare ora oppure restare sulla versione corrente (v{current}).",
+        "update_to": "aggiorna a v{version}",
+        "stay_on": "resta su v{current}",
+        "updating": "aggiornamento…",
+        "check_button": "controlla aggiornamenti",
+        "checking": "controllo…",
+        "check_checking": "ricerca…",
+        "check_current": "hai la versione più recente",
+        "check_offline": "non è stato possibile raggiungere il server in questo momento",
+        "check_unavailable": "gli aggiornamenti funzionano solo nell'app installata o ospitata",
+        "breaking_intro": "questo aggiornamento cambia il modo in cui kalibre conserva i tuoi dati:",
+        "breaking_note": "quando sarà finito, le versioni precedenti di kalibre non potranno aprire i tuoi dati, quindi salva prima un backup: un file del profilo per ogni profilo su questo dispositivo.",
+        "breaking_older_at": "v{version} rimane disponibile qui",
+        "save_backup": "salva un backup",
+        "saving": "salvataggio…",
+        "badge_in_update": "in questo aggiornamento",
+        "badge_current": "corrente",
+        "notes_not_yet": "le note di questa versione verranno mostrate dopo l'installazione.",
+        "stays_at": "v{current} rimane su {link} per un po'; apri lì un backup per continuare a usarlo."
+      },
+      "brand": {
+        "kanary_preview_build_notice": "avviso della build di anteprima kanary",
+        "kanary_preview_build_click_for": "build di anteprima kanary · fai clic per l'avviso",
+        "what_s_new_for": "novità per {versionLabel}"
+      },
+      "command_line": {
+        "command": "comando",
+        "type_a_setting_or_action": "digita un'impostazione o un'azione",
+        "commands": "comandi",
+        "command_line": "riga di comando",
+        "no_matches": "nessuna corrispondenza"
+      },
+      "kanary_notice": {
+        "features_interfaces_and_database_schemas": "funzioni, interfacce e schemi del database sono in evoluzione e possono cambiare, essere sostituiti o rompersi senza preavviso.",
+        "things_may_break_or_change": "le cose possono cambiare o smettere di funzionare. ",
+        "your_typing_history_achievements_and": "la cronologia di digitazione, i traguardi e i dati personalizzati vivono nell'archivio locale di questo browser. esporta regolarmente una copia di backup, così un aggiornamento incompatibile non costerà i tuoi progressi.",
+        "periodically_back_up_your_profiles": "fai periodicamente il backup dei tuoi profili: ",
+        "profiles_used_on_kanary_may": "i profili usati su kanary potrebbero funzionare oppure no se importati nelle versioni rilasciate di kalibre. kanary può introdurre schemi di database più nuovi, impostazioni sperimentali o formati rivisti che le versioni rilasciate non possono leggere o migrare all'indietro.",
+        "release_compatibility": "compatibilità con le versioni rilasciate: ",
+        "announcements_devlog": "annunci e devlog: ",
+        "stackinfolio": "stackinfolio",
+        "settings_data": "impostazioni → dati",
+        "got_it": "capito",
+        "intro": "stai usando {product}, una build di anteprima iniziale e in rapido movimento, con esperimenti ancora in corso.",
+        "follow": "segui le tappe delle release, i progressi dello sviluppo e gli annunci su {site}."
+      },
+      "legal_pages": {
+        "last_updated": "ultimo aggiornamento {format}",
+        "the_short_version": "in breve",
+        "read": "leggi {full}",
+        "also": "anche: {pages}"
+      },
+      "older_version": {
+        "older_version": "versione precedente",
+        "it_keeps_its_own_data": "Conserva i propri dati, separati da quelli della versione corrente: per usare qui i tuoi, importa un file del profilo salvato prima dell'aggiornamento (menu profilo → importa un file del profilo).",
+        "this_is_kalibre_v_kept": "Questa è kalibre v{version}, conservata per permetterti di tornare indietro. ",
+        "go_to_the_current_version": "vai alla versione corrente",
+        "hide_this_until_the_page": "nascondi fino al ricaricamento della pagina",
+        "hide_until_the_page_reloads": "nascondi fino al ricaricamento della pagina"
+      },
+      "shortcuts": {
+        "then": "poi {value}",
+        "sequence_hint": "premi i tasti della sequenza (come {first} poi {second}) entro 1,5 secondi. le scorciatoie si attivano solo quando non stai digitando attivamente nei test o nei campi di testo.",
+        "SHORTCUT_GROUPS": {
+          "navigation": {
+            "title": "navigazione"
+          },
+          "nav-type": {
+            "label": "vista di digitazione"
+          },
+          "nav-learn": {
+            "label": "vista apprendimento"
+          },
+          "nav-drill": {
+            "label": "vista allenamento"
+          },
+          "nav-games": {
+            "label": "vista giochi"
+          },
+          "nav-mistakes": {
+            "label": "vista errori"
+          },
+          "nav-stats": {
+            "label": "statistiche e cronologia"
+          },
+          "nav-profile": {
+            "label": "menu profilo"
+          },
+          "nav-texts": {
+            "label": "testi e libreria"
+          },
+          "nav-settings": {
+            "label": "impostazioni"
+          },
+          "nav-about": {
+            "label": "informazioni su kalibre"
+          },
+          "typing": {
+            "title": "digitazione e test"
+          },
+          "type-restart": {
+            "label": "riavvia test o allenamento"
+          },
+          "type-pause": {
+            "label": "riga di comando / pausa"
+          },
+          "type-delete-word": {
+            "label": "elimina parola"
+          },
+          "type-space": {
+            "label": "invia / parola successiva"
+          },
+          "general": {
+            "title": "generale e finestre di dialogo"
+          },
+          "gen-guide": {
+            "label": "guida alle scorciatoie da tastiera"
+          },
+          "gen-close": {
+            "label": "chiudi finestra o dialogo"
+          },
+          "gen-command": {
+            "label": "tavolozza della riga di comando"
+          },
+          "gen-focus": {
+            "label": "naviga tra i controlli"
+          }
+        },
+        "modal": {
+          "shortcuts": {
+            "title": "scorciatoie da tastiera"
+          }
+        }
+      },
+      "startup_failure": {
+        "putting_it_back": "ripristino in corso…",
+        "it_couldn_t_be_put": "non è stato possibile ripristinarlo: {value}",
+        "if_kalibre_was_taken_back": "se kalibre è stato riportato volutamente a una versione precedente, puoi ripristinare la copia dei dati salvata subito prima dell'ultimo aggiornamento. tutto ciò che hai fatto dopo quell'aggiornamento andrà perso e sostituirà tutto ciò che kalibre conserva in questo browser.",
+        "copy_the_details": "copia i dettagli",
+        "copied": "copiati",
+        "select_the_details_below_to": "seleziona i dettagli qui sotto per copiarli",
+        "kalibre_couldn_t_start": "kalibre non è riuscito ad avviarsi",
+        "what_you_ve_saved_is": "ciò che hai salvato è ancora in questo browser: ricominciare non lo tocca.",
+        "send_details": "se continua a succedere, invia i dettagli a {address}."
+      },
+      "update_gate": {
+        "carry_on": "continua",
+        "kalibre_v_changes_how_it": "kalibre v{appVersion} cambia il modo in cui conserva i tuoi dati",
+        "nothing_has_changed_yet_once": "non è ancora cambiato nulla. quando cambierà, le versioni precedenti di kalibre non potranno aprire i tuoi dati, quindi salva prima un backup: un file del profilo per ogni profilo su questo dispositivo.",
+        "older_version": "oppure continua a usare per ora la versione precedente, su {link}: apri lì il tuo backup."
+      },
+      "modals": {
+        "stats": "statistiche",
+        "texts": "testi",
+        "settings": "impostazioni",
+        "achievements": "traguardi",
+        "race": "gara",
+        "card": "la tua scheda",
+        "kanary": "anteprima kanary"
+      },
+      "app": {
+        "that_file_isn_t_in": "quel file non è più nella cartella"
+      },
+      "instance": {
+        "offline_self_hosted": "offline · autogestito",
+        "offline_cache": "offline · usando la cache del browser",
+        "self_hosted_at": "autogestito · {hostname}",
+        "self_hosted": "autogestito",
+        "online": "online · istanza ufficiale",
+        "status": {
+          "online": "online",
+          "offline": "offline",
+          "self-hosted": "autogestito"
+        }
+      }
+    },
+    "commands": {
+      "restart": {
+        "label": "riavvia",
+        "keywords": "di nuovo reimposta rifai nuovo test",
+        "meta": "test · stesso tipo, nuovo testo"
+      },
+      "next_text": {
+        "label": "testo successivo",
+        "keywords": "salta altro",
+        "meta": "test · passa oltre"
+      },
+      "time_test": {
+        "label": "tempo {duration}",
+        "keywords": "test a tempo secondi {duration}s test cronometrato",
+        "meta": "test · {duration} secondi"
+      },
+      "words_test": {
+        "label": "parole {count}",
+        "keywords": "test conteggio {count}",
+        "meta": "test · {count} parole"
+      },
+      "play_game": {
+        "label": "gioca a {game}",
+        "keywords": "gioco giochi gioca divertimento {game}",
+        "meta": "gioco · {blurb}"
+      },
+      "go_to": {
+        "label": "vai a {view}",
+        "keywords": "apri vista pagina mostra {view}",
+        "meta": "vai · pagina"
+      },
+      "achievements": {
+        "label": "traguardi",
+        "keywords": "badge trofei obiettivi completati conquistati segreti statistiche traguardi",
+        "meta": "apri · traguardi"
+      },
+      "your_card": {
+        "label": "la tua scheda",
+        "keywords": "profilo scheda adesivi bordo cornice aura sfondo vetrina elementi estetici personalizza decora",
+        "meta": "apri · profilo"
+      },
+      "today": {
+        "label": "oggi",
+        "keywords": "missioni giornaliere missioni sfida obiettivi",
+        "meta": "vai · missioni e sfida di oggi"
+      },
+      "quote_category": {
+        "label": "citazione {category}",
+        "keywords": "brano libro testo {category}",
+        "meta": "test · una citazione"
+      },
+      "mixed_quotes": {
+        "label": "citazioni miste",
+        "keywords": "casuale lunghezza citazione",
+        "meta": "test · una lunghezza casuale ogni volta"
+      },
+      "sustained_pace": {
+        "label": "sostenuto {wpm}",
+        "keywords": "senza fine resistenza ritmo mantieni conserva obiettivo {wpm} ppm",
+        "meta": "test · mantieni {wpm} ppm più a lungo possibile"
+      },
+      "sustained_accuracy": {
+        "label": "precisione sostenuta {accuracy}",
+        "keywords": "senza fine resistenza preciso accurato mantieni conserva obiettivo {accuracy} percento",
+        "meta": "test · mantieni una precisione del {accuracy}% più a lungo possibile"
+      },
+      "keep_reading": {
+        "label": "continua a leggere",
+        "keywords": "libro continua riprendi sostenuto romanzo leggi ancora segnalibro",
+        "meta": "test · continua a leggere i tuoi libri, in modalità sostenuta"
+      },
+      "section": {
+        "label": "{view} {section}",
+        "keywords": "vai apri mostra {words}",
+        "meta": "vai · sezione {view}"
+      },
+      "continue_touch_typing": {
+        "label": "continua a imparare a scrivere a tocco",
+        "keywords": "impara lezione lezioni scrittura a tocco dita riga home successivo",
+        "meta": "impara · prossima lezione da padroneggiare"
+      },
+      "learn_stage": {
+        "label": "impara fase {stage}: {name}",
+        "keywords": "impara lezione lezioni scrittura a tocco fase {stage} {name}",
+        "meta": "impara · lezioni {first}–{last}"
+      },
+      "drill_mistakes": {
+        "label": "allena i miei errori",
+        "keywords": "allena esercita esercizio allenamento errori",
+        "meta": "test · esercizi dai tuoi errori"
+      },
+      "wardrobe": {
+        "label": "guardaroba di {companion}",
+        "keywords": "cal libby compagno mascotte guardaroba vestiti cappello elementi estetici abito aspetto personalizza",
+        "meta": "impara · vesti {companion} con ciò che hai conquistato"
+      },
+      "try_guest": {
+        "label": "prova come ospite",
+        "keywords": "ospite prova versione di prova temporaneo nuovo profilo demo",
+        "meta": "profilo · nuovo profilo ospite; salva in seguito i progressi per conservarli"
+      },
+      "sign_out": {
+        "label": "esci",
+        "keywords": "blocca disconnetti logout esci dimentica dispositivo",
+        "meta": "profilo · bloccalo finché non viene nuovamente fornita la password"
+      },
+      "profiles": {
+        "label": "profili",
+        "keywords": "profilo account cambia utente password passkey foto avatar",
+        "meta": "apri · chi sta digitando"
+      },
+      "backup_now": {
+        "label": "fai il backup ora",
+        "keywords": "backup esporta profilo salva cronologia scarica file",
+        "meta": "file · questo profilo"
+      },
+      "load_profile": {
+        "label": "carica un file del profilo",
+        "keywords": "importa ripristina profilo apri file backup",
+        "meta": "file · aggiunto accanto ai tuoi profili"
+      },
+      "export_settings": {
+        "label": "esporta impostazioni",
+        "keywords": "scarica backup salva json",
+        "meta": "file · impostazioni come json"
+      },
+      "keyboard_shortcuts": {
+        "label": "scorciatoie da tastiera",
+        "keywords": "scorciatoie tasti rapidi tasti associazioni aiuto guida ?",
+        "meta": "aiuto · guida alle scorciatoie da tastiera"
+      },
+      "race": {
+        "label": "gara",
+        "keywords": "gara lan rete multigiocatore amici contro stanza codice ospita unisciti",
+        "meta": "gioca · gareggia con persone sulla tua rete"
+      },
+      "race_ghost": {
+        "label": "gareggia contro un fantasma",
+        "keywords": "gara fantasma fantasmi scaffale replay salvato contro",
+        "meta": "gioca · gareggia contro i tuoi fantasmi salvati"
+      },
+      "import_ghost": {
+        "label": "importa fantasma",
+        "keywords": "importa fantasma file apri carica kalibre-ghost scaffale",
+        "meta": "gioca · aggiungi un file .kalibre-ghost al tuo scaffale di fantasmi"
+      },
+      "race_solo": {
+        "label": "gareggia da solo",
+        "keywords": "gara solo rivali computer fantasma contro da solo",
+        "meta": "gioca · gareggia contro il computer, con le tue ultime scelte"
+      },
+      "privacy": {
+        "label": "privacy",
+        "keywords": "privacy politica dati informazioni personali memorizzati",
+        "meta": "aiuto · cosa conserva kalibre e dove"
+      },
+      "terms": {
+        "label": "termini",
+        "keywords": "termini d'uso condizioni licenza license regole",
+        "meta": "aiuto · i termini d'uso"
+      },
+      "security": {
+        "label": "sicurezza",
+        "keywords": "sicurezza vulnerabilità segnala bug divulgazione",
+        "meta": "aiuto · segnala un problema di sicurezza"
+      },
+      "whats_new": {
+        "label": "novità",
+        "keywords": "novità changelog aggiornamenti note di rilascio cronologia",
+        "meta": "aiuto · novità di questa versione"
+      },
+      "changelog": {
+        "label": "changelog",
+        "keywords": "changelog novità aggiornamenti note di rilascio cronologia versioni",
+        "meta": "aiuto · changelog e aggiornamenti precedenti"
+      },
+      "check_for_updates": {
+        "label": "controlla aggiornamenti",
+        "keywords": "aggiornamento aggiornamenti upgrade nuova versione aggiorna controlla ora più recente",
+        "meta": "aiuto · cerca ora una nuova versione"
+      },
+      "announcements": {
+        "label": "annunci",
+        "keywords": "annunci aggiornamenti devlog percorso notizie stackinfolio release kanary",
+        "meta": "link · percorso del progetto e annunci"
+      },
+      "kanary_notice": {
+        "label": "avviso kanary",
+        "keywords": "kanary beta anteprima avviso backup compatibilità test build avviso",
+        "meta": "aiuto · avviso della build di anteprima kanary e backup"
+      }
+    },
+    "common": {
+      "actions": {
+        "save": "salva",
+        "cancel": "annulla",
+        "close": "chiudi",
+        "dismiss": "ignora",
+        "done": "fine",
+        "delete": "elimina",
+        "edit": "modifica",
+        "continue": "continua",
+        "skip": "salta",
+        "reload_now": "ricarica ora",
+        "not_now": "non ora",
+        "yes": "sì",
+        "no": "no",
+        "saving": "salvataggio…"
+      },
+      "hand": {
+        "left": "sinistra",
+        "right": "destra"
+      },
+      "plural": {
+        "test": "{count, plural, one {# test} other {# test}}",
+        "minute": "{count, plural, one {# minuto} other {# minuti}}",
+        "hour": "{count, plural, one {# ora} other {# ore}}",
+        "word": "{count, plural, one {# parola} other {# parole}}",
+        "lesson": "{count, plural, one {# lezione} other {# lezioni}}",
+        "lesson_step": "{count, plural, one {# fase della lezione} other {# fasi della lezione}}",
+        "warmup": "{count, plural, one {# riscaldamento} other {# riscaldamenti}}",
+        "drill": "{count, plural, one {# esercizio} other {# esercizi}}",
+        "time": "{count, plural, one {# volta} other {# volte}}",
+        "quote": "{count, plural, one {# citazione} other {# citazioni}}",
+        "book_reading": "{count, plural, one {# lettura di un libro} other {# letture di libri}}",
+        "sustained_test": "{count, plural, one {# test sostenuto} other {# test sostenuti}}"
+      },
+      "modal": {
+        "language_reload_title": "cambiare lingua?",
+        "language_reload_body": "kalibre si ricarica per cambiare lingua. salva prima tutto ciò su cui stai lavorando: un test in corso, un testo che stai scrivendo o modifiche al tema non salvate andranno perse.",
+        "close_named": "chiudi {title}"
+      },
+      "translation": {
+        "not_checked_yet": "(non ancora controllato da un madrelingua)"
+      },
+      "colour_picker": {
+        "saturation_and_brightness": "saturazione e luminosità",
+        "hue": "tonalità",
+        "before": "prima",
+        "now": "ora",
+        "hex_value": "valore esadecimale",
+        "pick_a_colour_from_the": "scegli un colore dallo schermo",
+        "pick_from_the_screen": "scegli dallo schermo",
+        "colours_in_this_theme": "colori in questo tema",
+        "colour": "colore {label}",
+        "choose_a_colour": "{label}: {hex}, scegli un colore"
+      },
+      "theme_mode": {
+        "theme_appearance_mode": "modalità di aspetto del tema",
+        "theme_appearance": "aspetto del tema: {mode}",
+        "title": "aspetto: {mode}",
+        "mode_system": "sistema",
+        "mode_light": "chiaro",
+        "mode_dark": "scuro"
+      },
+      "color_utils": {
+        "not_a_hex_colour": "Non è un colore esadecimale: {hex}"
+      },
+      "customtextprovider": {
+        "choose_a_saved_text_to": "Scegli un testo salvato da esercitare (testi → i miei testi)."
+      },
+      "bookprovider": {
+        "add_a_text_to_read": "Aggiungi un testo da leggere (testi → i miei testi).",
+        "no_books_to_read_enable": "Nessun libro da leggere. Attiva un dataset di libri in testi → dataset."
+      },
+      "datasetmanager": {
+        "http": "{path}: HTTP {status}",
+        "unknown_dataset": "Dataset sconosciuto {datasetId}",
+        "unknown_work": "Opera sconosciuta {key}",
+        "datasets_cannot_be_stored_in": "I dataset non possono essere memorizzati in questo browser.",
+        "the_number_of_passages_has": "Il numero di brani deve essere un numero intero maggiore di 0.",
+        "only_datasets_installed_in_this": "Qui puoi rimuovere solo i dataset installati in questo browser.",
+        "doesn_t_let_other_sites": "{host} non permette ad altri siti di scaricare i suoi file. Scarica il file tu stesso e installalo dal computer.",
+        "returned": "{url} ha restituito {status}."
+      },
+      "datasetstore": {
+        "this_browser_can_t_read": "Questo browser non può leggere i file compressi del dataset.",
+        "missing_dataset_file": "File del dataset mancante {path}"
+      },
+      "drillprovider": {
+        "nothing_to_drill_yet_accept": "Non c'è ancora nulla su cui allenarti. Accetta prima un suggerimento nella pagina degli errori.",
+        "that_quote_isn_t_available": "Quella citazione non è più disponibile (il relativo dataset potrebbe essere disattivato). Scegline un'altra nella pagina dell'allenamento."
+      },
+      "fontlibrary": {
+        "fonts_must_be_files": "{name}: i font devono essere file {FONT_ACCEPT}.",
+        "is_larger_than_8_mb": "{name} supera gli 8 MB.",
+        "couldn_t_be_read_as": "{name} non può essere letto come font."
+      },
+      "mistakebank": {
+        "unknown_mistake": "Errore sconosciuto {id}"
+      },
+      "profilemanager": {
+        "the_profile_file_is_damaged": "Il file del profilo è danneggiato (battiture).",
+        "a_guest_can_t_have": "Un ospite non può avere una password.",
+        "unknown_profile": "Profilo sconosciuto {profileId}",
+        "that_picture_can_t_be": "Quell'immagine non può essere usata.",
+        "a_locked_profile_can_t": "Un profilo bloccato non può diventare un ospite.",
+        "this_profile_isn_t_a": "Questo profilo non è un ospite.",
+        "give_the_profile_a_name": "Dai un nome al profilo.",
+        "save_your_progress_first_a": "Salva prima i tuoi progressi: un profilo ospite non può avere una password.",
+        "the_current_password_is_not": "La password corrente non è corretta.",
+        "set_a_password_first_a": "Imposta prima una password; una passkey è un modo più rapido per accedervi.",
+        "that_passkey_couldn_t_be": "Non è stato possibile salvare quella passkey.",
+        "a_profile_can_have_up": "Un profilo può avere fino a {MAX_PASSKEYS} passkey.",
+        "a_passkey_needs_a_name": "Una passkey deve avere un nome.",
+        "the_last_profile_cannot_be": "L'ultimo profilo non può essere eliminato.",
+        "that_file_isn_t_a": "Quel file non è un'esportazione di un profilo Kalibre.",
+        "the_profile_file_is_damaged_2": "Il file del profilo è danneggiato ({store}).",
+        "the_profile_file_has_an": "Il file del profilo ha un blocco password non valido."
+      },
+      "quoteprovider": {
+        "no_quotes_are_available_enable": "Non sono disponibili citazioni {category}. Attiva un dataset in testi → dataset."
+      },
+      "raceprovider": {
+        "the_race_has_no_text": "La gara non ha ancora un testo.",
+        "the_race_has_no_passage": "La gara non ha ancora un brano."
+      },
+      "sessionmanager": {
+        "sustained_mode_needs_a_source": "La modalità sostenuta richiede una fonte che continui."
+      },
+      "storagemanager": {
+        "records_in_must_have_a": "I record in \"{storeName}\" devono avere un profileId",
+        "is_profile_scoped_use_getallforprofile": "\"{storeName}\" è legato al profilo; usa getAllForProfile()",
+        "indexeddb_is_not_available_in": "IndexedDB non è disponibile in questo browser",
+        "your_saved_data_couldn_t": "Non è stato possibile aggiornare i tuoi dati salvati (dalla versione {from} alla {version}): {value}",
+        "that_copy_isn_t_there": "Quella copia non è più disponibile.",
+        "transaction_aborted": "Transazione annullata"
+      },
+      "textlibrary": {
+        "the_text_is_empty": "Il testo è vuoto.",
+        "that_text_no_longer_exists": "Quel testo non esiste più."
+      },
+      "wordstreamprovider": {
+        "no_word_list_is_available": "Non è disponibile alcun elenco di parole. Attiva un dataset in testi → dataset."
+      },
+      "storage_snapshots": {
+        "the_snapshot_could_not_be": "Non è stato possibile salvare lo snapshot."
+      },
+      "counts": {
+        "quote": "{count, plural, one {# citazione} other {# citazioni}}",
+        "text": "{count, plural, one {# testo} other {# testi}}",
+        "passage": "{count, plural, one {# brano} other {# brani}}",
+        "dataset": "{count, plural, one {# dataset} other {# dataset}}",
+        "word": "{count, plural, one {# parola} other {# parole}}",
+        "paragraph": "{count, plural, one {# paragrafo} other {# paragrafi}}",
+        "profile": "{count, plural, one {# profilo} other {# profili}}",
+        "font": "{count, plural, one {# font} other {# font}}"
+      },
+      "progress_of": "{have} / {need}",
+      "difficulty": {
+        "easy": "facile",
+        "normal": "normale",
+        "hard": "difficile"
+      },
+      "keycaps": {
+        "space": "spazio",
+        "enter": "invio",
+        "shift": "maiusc",
+        "tab": "tab",
+        "esc": "esc",
+        "backspace": "backspace",
+        "ctrl": "ctrl",
+        "alt": "alt",
+        "delete": "canc",
+        "then": "poi",
+        "or": "o"
+      },
+      "custom": "personalizzato"
+    },
+    "companions.cal": {
+      "lines": {
+        "intro": [
+          "Nuovi tasti oggi: {keys}. Fa tutto il {finger}.",
+          "{keys} sono tuoi dopo questa. Occhi sul testo, non sulle mani.",
+          "Appoggia le dita sulla riga home, poi partiamo.",
+          "Lento e preciso batte veloce e sbagliato. La velocità arriva da sola.",
+          "Ooh, {keys}! Adoro questi. A dire il vero adoro tutti i tasti. Sono uno di loro.",
+          "Tasti nuovi oggi: {keys}. Non sbirciare le mani. Me ne accorgerei."
+        ],
+        "tip": [
+          "Attenzione, {tip}.",
+          "Psst, {tip}.",
+          "Piccola cosa che ho notato, {tip}.",
+          "Qui è Cal, l'allenatore: {tip}.",
+          "Piccolo consiglio, {tip}.",
+          "Non dire a nessuno che te l'ho detto, ma {tip}."
+        ],
+        "encourage": [
+          "Scuotila via. Il tuo {finger} sa la strada.",
+          "Un po' di tremolio va bene. Rallenta appena.",
+          "Un bel respiro. Prima la precisione, poi la velocità.",
+          "Ogni errore insegna qualcosa alle tue dita.",
+          "Una volta sono inciampato sulla barra spaziatrice. Capita a tutti.",
+          "Ops, succede! Rallenta e scatterà tutto al posto giusto.",
+          "Il tuo {finger} si sta ancora svegliando. Dagli un secondo."
+        ],
+        "round": [
+          "Bella sessione: {wpm} ppm.",
+          "Pulito! Mantieni quel ritmo.",
+          "Quella è filata liscia.",
+          "{wpm} ppm! Mi pizzica il copritasto.",
+          "Ooh, fluido. Rifallo!",
+          "Tap tap tap, perfetto. È il mio suono preferito."
+        ],
+        "mastered": [
+          "{lesson}: padroneggiata! {next} è aperta.",
+          "Ce l'hai fatta! Si passa a {next}.",
+          "Padroneggiata! Ora le tue dita se la ricordano.",
+          "SÌ! {lesson} è tua. Sto facendo una piccola danza.",
+          "Padroneggiata! Ti abbraccerei, ma ho le braccia minuscole.",
+          "Questa lezione è in tasca. {next}, poi!"
+        ],
+        "again": [
+          "Ci sei quasi. Un altro giro?",
+          "Non ancora, ma ci stai arrivando.",
+          "La pratica è tutto il trucco. Ancora?",
+          "Quasi! Alle tue dita serve solo un altro giro.",
+          "Sei così vicino che quasi riesco ad assaggiarlo. Ancora?",
+          "Nessuna fretta. Ancora, questa volta un po' più lentamente?"
+        ],
+        "warmup": [
+          "Prima riscaldamento: {keys}. Piano piano.",
+          "Un rapido allungamento su {keys}, poi la lezione.",
+          "Tempo di sgranchirsi! {keys}, con calma.",
+          "Svegliamo quelle dita su {keys}.",
+          "Riscaldamento su {keys}. Muovi prima le dita, aiuta!",
+          "Giri facili su {keys} prima di fare sul serio."
+        ],
+        "keyboard": [
+          "Le lezioni richiedono una tastiera vera. Collegane una e premi un tasto qualsiasi!",
+          "Psst: insegno alle dita, non ai pollici. Collega una tastiera e premi un tasto.",
+          "Qui una tastiera fa tutta la differenza. Premi un tasto e me ne accorgerò.",
+          "La riga home vuole una riga vera! Collega una tastiera e partiamo.",
+          "Il vetro non aiuta. Una tastiera bluetooth, un tasto premuto e siamo pronti!",
+          "I pollici vanno bene per i giochi! Le lezioni vogliono una tastiera. Premine un tasto."
+        ],
+        "numpad": [
+          "Psst! Quello era un tastierino numerico. L'esercitazione a dieci tasti ti aspetta qui sotto, se vuoi.",
+          "Ho sentito un tastierino numerico! C'è un nastro da digitare e delle lezioni.",
+          "Tastierino numerico individuato! Test a dieci tasti e lezioni sono proprio qui sotto.",
+          "È un tastierino numerico quello che sento? Ho un'esercitazione per lui!",
+          "Dita veloci sul tastierino! Vuoi un nastro da digitare? È lì sotto.",
+          "Un tastierino numerico! Guarda qui sotto; c'è qualcosa per lui."
+        ],
+        "locked": [
+          "Questa si apre dopo {next}. Prima sistemiamo quella.",
+          "Non ancora! Padroneggia {next} e ti faccio entrare.",
+          "Chiusa a chiave! {next} è la chiave. Capito? Chiave?",
+          "Ooh, impaziente! Completa prima {next}.",
+          "No, non ancora. {next} viene prima di questa.",
+          "Prima {next}, poi questa porta si apre."
+        ],
+        "sleepy": [
+          "Zzz… premi un tasto quando sei pronto.",
+          "Ci sei ancora? Aspetterò.",
+          "Io intanto… riposo il mio copritasto… zzz…",
+          "Prenditi il tuo tempo. Io non vado da nessuna parte. Gambe piccole.",
+          "Ehi? C'è qualche tasto là fuori?",
+          "Tocca qualcosa e sono di nuovo qui!"
+        ],
+        "welcome": [
+          "Ciao, sono Cal! La lezione 1.1 è da dove si comincia.",
+          "Ciao! Sono Cal, il kal di kalibre. Cominciamo dalla riga home?",
+          "Ehi ehi! Sono Cal, il tasto K. Impariamo insieme questa tastiera.",
+          "Oh, un nuovo amico! Sono Cal. La lezione 1.1 ci aspetta."
+        ],
+        "progress": [
+          "Prossima: {next}. Sono {count} su {total} padroneggiate!",
+          "{count} fatte, {left} rimaste. {next} aspetta.",
+          "Bentornato! La prossima è {next}.",
+          "{count} lezioni in tasca! {next} sembra divertente.",
+          "Pronto per {next}? Io sì.",
+          "Ne restano solo {left}! Avanti verso {next}."
+        ],
+        "newStage": [
+          "Fase {stage} fatta! Ora tocca a {name}.",
+          "Hai padroneggiato la fase {stage}. Si passa a {name}!",
+          "Fase {stage}: conquistata! Ora {name}.",
+          "Un'intera fase! La prossima è {name}. Eek, che emozione."
+        ],
+        "graduate": [
+          "Tutte le lezioni padroneggiate. Sono così fiero che potrei saltare.",
+          "Ora conosci ogni tasto. Vai a mostrare cosa sai fare nei test!",
+          "Ogni tasto, ogni dito. Non hai più bisogno di me. Mi tieni comunque?",
+          "Diploma! Ti ho fatto un cappello. Non è vero, ma immaginalo."
+        ],
+        "drowsy": [
+          "Mmm… qui è tranquillo. Mi sto assonnando.",
+          "*sbadiglio* Ci sei ancora? Mi si fanno pesanti gli occhi.",
+          "Tutto così fermo… potrei addormentarmi qui.",
+          "Dovevo fare qualcosa? Sbadiglio.",
+          "Ohh… la riga home è così accogliente a quest'ora.",
+          "Il mio copritasto sta cedendo. Solo un pochino."
+        ],
+        "nod": [
+          "Zzz… riga home… zzz…",
+          "Riposavo solo gli occhi… zzz…",
+          "Zzz… un altro giro… zzz…",
+          "Mmm… barre spaziatrici… zzz…",
+          "Zzz… sono sveglio… zzz…",
+          "…zzz… j… k… zzz…"
+        ],
+        "napWake": [
+          "Eh? Stavo solo riposando gli occhi!",
+          "Mmm! Sveglio. Totalmente. Cosa mi sono perso?",
+          "Oh! Sei tornato. Stavo solo sonnecchiando.",
+          "Zz—! Ciao. Salve. Pronto quando vuoi.",
+          "Cosa—? Oh, ehi. Bello vederti in movimento.",
+          "Altri cinque… oh! Giusto. Digitiamo."
+        ],
+        "wake": [
+          "Eh? Oh! Ciao, sono Cal. Il kal di kalibre.",
+          "Mmm… altri cinque minuti… okay, sono in piedi! Sono Cal.",
+          "Zz—! Non stavo dormendo. Sono Cal, ciao!",
+          "Cosa—? Stavo sognando le barre spaziatrici. Ciao, sono Cal!",
+          "Oh, ehi! Cal qui. Occhi vispi e copritasti pronti.",
+          "Sveglio! Sveglio. Completamente sveglio. Ciao, sono Cal."
+        ],
+        "pet": [
+          "Prrrr…",
+          "Mmm, proprio lì.",
+          "Prrr. Non smettere.",
+          "Hehe. Mi fa il solletico sul copritasto.",
+          "Prrr… miglior… giorno…",
+          "Ooh, il punto giusto."
+        ],
+        "poke": [
+          "Boop! Quello è il mio copritasto.",
+          "Ehi! Pressato. Registrato. Grazie.",
+          "Eep! Hai trovato il mio punto di attuazione.",
+          "Colpetto ricevuto. Elaborazione… sempre Cal.",
+          "Ciao! Sì? Mi hai chiamato?",
+          "Uff. Un tocco leggero. Buona tecnica di digitazione."
+        ],
+        "pokeFit": [
+          "Okay, okay! Non sono una barra spaziatrice!",
+          "Basta colpetti! Inizierò a ripetermi come un tasto incastrato.",
+          "Ehi! Sembro forse il Bloc Maiusc?",
+          "Un altro colpetto e rimbalzerò. Oh. Sto già rimbalzando."
+        ],
+        "tickle": [
+          "Ahahaha! Non il copritasto! Hahaha!",
+          "Ahaha! Basta! No, non smettere! Hahaha!",
+          "Eheheh! Non vale!",
+          "Haha! Sono… hehe… non sono sensibile al solletico!",
+          "Hahaha! I miei stabilizzatori non ce la fanno!",
+          "Ehehe! Inizierò a digitare il doppio!"
+        ],
+        "armLift": [
+          "Mmm… grazie… zzz",
+          "Zzz… quello era… il mio braccio… zzz",
+          "Mmmf… tienilo… sulla riga… zzz",
+          "Zzz… nessuno ha visto niente… zzz"
+        ],
+        "tickleAsleep": [
+          "Zzz… hehe… zzz",
+          "Mmmf… hehe… no… zzz",
+          "Snrk… ehehe… zzz",
+          "Zzz… non il… hehe… copritasto… zzz"
+        ],
+        "updateReady": [
+          "Psst: v{version} è pronta. Il ricaricamento è nel piè di pagina, quando vuoi.",
+          "Ooh, è arrivata v{version}! Ricarica dal piè di pagina quando sei pronto. Nessuna fretta.",
+          "Nuova versione: v{version}! Nel piè di pagina c'è il ricaricamento, quando vuoi.",
+          "v{version} aspetta dietro le quinte. Ricarica dal piè di pagina quando ti va."
+        ],
+        "whatsNew": [
+          "Novità in v{version}: {news}!",
+          "Indovina cosa c'è di nuovo in v{version}? {news}!",
+          "Fresco di v{version}: {news}. Ooh.",
+          "v{version} è qui, e c'è {news}!"
+        ],
+        "newItem": [
+          "Ooh, un nuovo {item}! Fai clic destro su di me per provarlo.",
+          "Guarda! Ora posso indossare {item}. Fai clic destro su di me.",
+          "Un {item}? Per me? Fai clic destro su di me!",
+          "{item}! Sarò BELLISSIMO. Fai clic destro su di me.",
+          "Nuovo nel mio guardaroba: {item}. Fai clic destro su di me, presto!",
+          "È {item}? Posso? Fai clic destro su di me!"
+        ],
+        "newItems": [
+          "Ooh, {count} cose nuove da provare! Fai clic destro su di me.",
+          "{count} cose nuove nel mio guardaroba! Fai clic destro per vederle."
+        ],
+        "newDecoration": [
+          "Una nuova decorazione: “{name}”. Impostazioni → tema, poi decora uno dei tuoi.",
+          "Hai conquistato la decorazione “{name}”! Provala su uno dei tuoi temi."
+        ],
+        "newDecorations": [
+          "{count} nuove decorazioni del tema! Impostazioni → tema, poi decorane uno dei tuoi.",
+          "{count} decorazioni per i tuoi temi. Dai, vestine uno."
+        ],
+        "newCardItem": [
+          "Novità per la tua scheda: {name}! Profilo → la tua scheda.",
+          "Ooh, {name}, per la tua scheda profilo. Dai, provalo!"
+        ],
+        "newCardItems": [
+          "{count} cose nuove per la tua scheda! Profilo → la tua scheda.",
+          "La tua scheda ha {count} cose nuove da indossare. Le indosserei tutte."
+        ],
+        "raceWon": [
+          "Primo al traguardo! Ben fatto.",
+          "Hai vinto! Ho fatto il tifo per tutto il percorso.",
+          "Wow, eri veloce stavolta. Ben fatto!",
+          "Ne hai battuti {count}! Facciamo un altro giro?"
+        ],
+        "raceLost": [
+          "{winner} è arrivato prima. Ancora? Ce la puoi fare.",
+          "Ci sei andato vicino! Ha vinto {winner}. Un altro giro?",
+          "Stavolta ha vinto {winner}. Però è stata una bella gara!",
+          "Bella gara! {winner} l'ha spuntata. Vuoi riprovare?"
+        ],
+        "newCarPart": [
+          "Una novità per la tua auto da gara: {name}! Profilo → la tua scheda → garage.",
+          "Ooh, {name} per la tua auto. Dai, provalo in garage!"
+        ],
+        "newCarParts": [
+          "{count} nuovi componenti per la tua auto! Profilo → la tua scheda → garage.",
+          "La tua auto ha {count} cose nuove da provare. Vroom!"
+        ],
+        "achievement": [
+          "Hai conquistato “{name}”! È in Profilo → traguardi.",
+          "“{name}”! L'ho visto. Il tuo Profilo → traguardi ce l'ha.",
+          "Traguardo: “{name}”. Guarda come vai.",
+          "“{name}”! Lo dirò a tutti. Profilo → traguardi.",
+          "Guarda cosa hai fatto: “{name}”. È in Profilo → traguardi.",
+          "Ding! “{name}”. Profilo → traguardi ha la prova."
+        ],
+        "achievements": [
+          "{count} nuovi traguardi! Dai un'occhiata: Profilo → traguardi.",
+          "Wow, {count} traguardi insieme. Profilo → traguardi!"
+        ],
+        "complete": [
+          "Ogni singolo traguardo. Tutti! Sono così fiero di te.",
+          "Sono tutti qui. Ogni traguardo, fatto. Non so cosa dire…",
+          "100%! Hai fatto tutto quello che c'era da fare. Mi si illumina il copritasto."
+        ],
+        "wakeFirst": [
+          "Zzz… prima svegliami… zzz",
+          "Mmmf… altri cinque minuti…",
+          "Zzz… (prima dammi un colpetto per svegliarmi)",
+          "Zzz… snrk… cosa… zzz"
+        ],
+        "highfive": [
+          "Cinque!",
+          "Su! Ben fatto.",
+          "Sì! Bella sessione.",
+          "Schiaffo! Ahi. Ne valeva la pena.",
+          "Zampetta piccola, cinque grande!",
+          "Woo! Quella è stata fantastica."
+        ],
+        "honeymoon": [
+          "{partner} e io siamo in luna di miele! torniamo domani.",
+          "In luna di miele con {partner}! torniamo domani.",
+          "{partner} e io facciamo una piccola gita. torniamo domani!"
+        ],
+        "challenge": [
+          "La sfida di oggi: {challenge}. Ti va?",
+          "Hai visto la sfida di oggi? {challenge}.",
+          "La sfida di oggi ti aspetta: {challenge}.",
+          "Psst, la sfida di oggi: {challenge}. Credo in te.",
+          "È ora della sfida! {challenge}. Dai, puoi farcela.",
+          "La sfida di oggi: {challenge}. Farò il tifo da qui."
+        ],
+        "partner": [
+          "{partner} e io siamo una squadra fantastica.",
+          "{partner} ti saluta!",
+          "{partner} diceva che il tuo ritmo è proprio bello.",
+          "{partner} mi ha insegnato quel consiglio, sai.",
+          "Non dirlo a {partner}, ma sei il mio dattilografo preferito.",
+          "{partner} e io abbiamo visto la tua ultima sessione. Molto bene."
+        ],
+        "morning": [
+          "Buongiorno! Dita stirate? Partiamo.",
+          "Buongiorno! Un po' di digitazione a colazione?",
+          "Su e digita! Buongiorno!",
+          "Buongiorno! Sono sveglio da un'eternità. Be', da secondi.",
+          "Oh, buongiorno! {next} è pronto quando vuoi.",
+          "Buongiorno, raggio di sole. Il mio copritasto è tutto caldo."
+        ],
+        "afternoon": [
+          "Buon pomeriggio! Momento perfetto per qualche tasto.",
+          "Ehi, buon pomeriggio! Pronto a digitare?",
+          "Pausa pomeridiana? Facciamola diventare una pausa di digitazione.",
+          "Oh, ciao! È già pomeriggio? Partiamo.",
+          "Buon pomeriggio! {next} ti sta aspettando.",
+          "Pomeriggio! Ti ho tenuto un posto sulla riga home."
+        ],
+        "evening": [
+          "Buonasera! Qualche tasto prima di cena?",
+          "Buonasera! Rallentiamo la giornata con un po' di digitazione.",
+          "Ehi, è sera! Bello vederti.",
+          "È già sera? Il tempo vola quando sei un copritasto.",
+          "Buonasera! {next}, poi piedi in alto?",
+          "Sera! Piano e costante stasera, d'accordo?"
+        ],
+        "night": [
+          "Ancora sveglio? Anch'io. Solo tasti silenziosi.",
+          "Nottambulo! Digitiamo piano.",
+          "Ooh, digitazione a mezzanotte. Molto misteriosa.",
+          "È tardi! Una breve sessione, poi a letto?",
+          "Shh, dormono tutti. Solo noi e i tasti.",
+          "Turno di notte! {next}, poi dormiamo. Affare fatto?"
+        ],
+        "welcomeBack": [
+          "Sei tornato! Sono passati {days} giorni. Ho tenuto caldi i tasti.",
+          "{days} giorni! Mi sei mancato. Ripartiamo con calma.",
+          "Ehi, bentornato! Vai piano, le dita dimenticano qualcosa.",
+          "Eccoti qui! {days} giorni non sono niente. Partiamo.",
+          "Bentornato! Le tue dita ricordano più di quanto pensi.",
+          "Sei qui! Io non ho fatto altro che dormire per {days} giorni."
+        ],
+        "personalBest": [
+          "Nuovo record: {wpm} ppm! L'ho visto. L'HO VISTO.",
+          "{wpm} ppm! È la tua velocità massima di sempre!",
+          "Record personale! {wpm} ppm. Sto saltellando.",
+          "Wow, {wpm} ppm. Il tuo nuovo record!",
+          "L'hai sentito? {wpm} ppm. Un nuovo record!",
+          "Nuovo record: {wpm} ppm. Me lo sto incorniciando. Nella mia testa."
+        ],
+        "streak": [
+          "{days} giorni di fila! Sei inarrestabile.",
+          "Sono {days} giorni di fila che raggiungi l'obiettivo. Wow!",
+          "Serie di {days} giorni! Tengo il conto, tranquillo.",
+          "{days} giorni consecutivi! Le tue dita devono essere felicissime.",
+          "Obiettivo raggiunto per {days} giorni di fila. Leggenda.",
+          "{days} giorni! Guarda come sei costante."
+        ],
+        "themeUnreadable": [
+          "Strizzo gli occhi… strizzo gli occhi… non riesco a leggere {what}. Tu sì?",
+          "{what} si nasconde da me. Più contrasto, per favore!",
+          "Uff, {what} si confonde con lo sfondo. I miei occhi!",
+          "Sono un tasto e perfino io non riesco a vedere {what}."
+        ],
+        "themeScheme": [
+          "Quella pagina sembra {page} a me, ma dice {scheme}. Cambiamo “chiaro o scuro”?",
+          "Una pagina {page} in un tema {scheme}? Mi vestirò per il tempo sbagliato!"
+        ],
+        "themeMistakes": [
+          "Aspetta, errori e testo digitato sembrano uguali. Come farò a distinguerli?",
+          "I tuoi errori sono travestiti! Dagli un colore tutto loro."
+        ],
+        "themeAccent": [
+          "L'accento sembra proprio il colore degli errori. Ogni link sembrerà un refuso!",
+          "Link dello stesso colore degli errori? Continuo a pensare di aver sbagliato qualcosa."
+        ],
+        "themeLoud": [
+          "WOW, quello sfondo è luminoso! I miei occhi stanno facendo una piccola danza.",
+          "Quella pagina è rumorosa! Bellissima per un minuto, stancante per un test lungo."
+        ],
+        "themeHeat": [
+          "Il calore dei tasti sale e scende! Dovrebbe aumentare da 1 a 4.",
+          "Caldo, freddo, caldo? I livelli del calore dei tasti sono fuori ordine."
+        ],
+        "themeSameAsBase": [
+          "Tela nuova! Passa su un colore per vedere dove va.",
+          "Dai, cambia qualcosa. Ti dirò cosa ne penso!"
+        ],
+        "themeLovely": [
+          "Ooh, questo mi piace. Molto da te.",
+          "Leggibile E bello. Salvalo, salvalo!",
+          "Lo indosserei. In realtà, in un certo senso lo sto già indossando.",
+          "Passa tutto. Ottimo lavoro!"
+        ],
+        "wake@morning": [
+          "Mmmf… è già mattina? Ciao, sono Cal!",
+          "Buongiorno! Stavo ancora sognando la colazione. Cal, ciao!",
+          "Oh! È sorto il sole. Anch'io. Sono Cal."
+        ],
+        "wake@afternoon": [
+          "Eh? Solo un pisolino pomeridiano! Cal, eccomi.",
+          "Pisolino pomeridiano interrotto. Ne valeva la pena. Ciao, sono Cal!",
+          "Oh, ehi! Era un sonnellino? Buon pomeriggio! Sono Cal."
+        ],
+        "wake@evening": [
+          "È già sera? Mi sono addormentato! Ciao, sono Cal.",
+          "Mmm, la luce è diventata dorata. Ciao, sono Cal.",
+          "Oh! Buonasera. Sono Cal e sono sveglio. Più o meno."
+        ],
+        "wake@night": [
+          "Wow, fuori è buio! Ciao, sono Cal. Piano piano.",
+          "Shh… è nel cuore della notte. Ciao, sono Cal.",
+          "Nottambulo! A quanto pare anch'io. Cal, ciao."
+        ],
+        "intro@morning": [
+          "Lezione mattutina. Le dita fresche imparano più in fretta.",
+          "Esercitazione mattutina! Il cervello è ordinato e pronto.",
+          "Buongiorno. Facciamola prima che la giornata diventi rumorosa."
+        ],
+        "intro@afternoon": [
+          "Lezione pomeridiana! Con calma e costanza.",
+          "Pomeriggio perfetto per qualche nuovo tasto.",
+          "Una lezione dopo pranzo. Audace. Apprezzo."
+        ],
+        "intro@evening": [
+          "Lezione serale. Stasera andare piano va benissimo.",
+          "Un po' di esercitazione prima che la giornata finisca.",
+          "Tasti serali! Spero siano accoglienti."
+        ],
+        "intro@night": [
+          "Una lezione a quest'ora? Piano. Le dita stanche sbagliano di più.",
+          "Esercitazione notturna. Tasti silenziosi, dita attente.",
+          "È tardi, quindi niente pressione. Un buon tentativo, poi riposo."
+        ],
+        "warmup@morning": [
+          "Le dita del mattino sono rigide. Perfette per un riscaldamento.",
+          "Riscaldamento al mattino? Da manuale.",
+          "Prima allunga le dita, è ancora presto."
+        ],
+        "warmup@afternoon": [
+          "Riscaldamento! Un po' di movimento per scrollarsi di dosso il pomeriggio.",
+          "Calo pomeridiano? Il riscaldamento lo sistema.",
+          "Riscaldamento rapido, poi si fa sul serio."
+        ],
+        "warmup@evening": [
+          "Riscaldamento serale. Sciogliamoci dopo la giornata.",
+          "Giornata lunga? Prima giri facili.",
+          "Un riscaldamento delicato per le dita della sera."
+        ],
+        "warmup@night": [
+          "Riscaldamento tardivo. Piano e leggero, per favore.",
+          "Le dita assonnate hanno bisogno di sgranchirsi. È ora del riscaldamento.",
+          "Prima riscaldamento. È tardi, nessuna fretta."
+        ],
+        "sleepy@morning": [
+          "Sbadigli mattutini. Hai dell'acqua?",
+          "Zzz… troppo presto, persino per me.",
+          "Anch'io mi sto ancora svegliando, credo."
+        ],
+        "sleepy@afternoon": [
+          "Calo pomeridiano. Un po' di stretching?",
+          "Mmm, il sonnellino dopo pranzo. Anche io.",
+          "Una breve pausa va bene. Aspetterò."
+        ],
+        "sleepy@evening": [
+          "Giornata lunga, eh? Una pausa è concessa.",
+          "Sbadigli serali. Sarò qui.",
+          "Prenditi cinque minuti. I tasti non scappano."
+        ],
+        "sleepy@night": [
+          "È tardi… forse andare a letto batte un altro giro.",
+          "Zzz… oh, scusa. La notte è la mia ora del pisolino.",
+          "Riposa gli occhi. Riprenderemo domani."
+        ]
+      }
+    },
+    "companions": {
+      "achievements": {
+        "hello_there": "ciao a te",
+        "good_keycap": "bravo tasto",
+        "best_friends": "migliori amici",
+        "boop": "boop",
+        "poke_poke_poke": "toc toc toc",
+        "ticklish": "sensibile al solletico",
+        "giggle_fit": "attacco di risate",
+        "thats_enough": "basta così",
+        "devoted": "devoto"
+      },
+      "menu": {
+        "wardrobe": "guardaroba",
+        "get_ring": "dai a {companion, select, cal {lui} libby {lei} other {loro}} un anello",
+        "options_aria": "opzioni di {companion}"
+      },
+      "engagement": {
+        "title": "questa è una decisione piuttosto importante…",
+        "confirm_give": "dai a {companion} l'anello",
+        "confirm_cancel": "non sono sicuro…",
+        "confirm_message": "sei sicuro?"
+      },
+      "away": {
+        "note_hint": "una nota",
+        "with_love_aria": "con affetto",
+        "back_tomorrow": "{partner} e io siamo in luna di miele! torniamo domani."
+      },
+      "ending": {
+        "aria_label": "grazie per aver giocato a kalibre",
+        "thanks": "grazie per aver giocato a kalibre.",
+        "cal_script": [
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "Eh? C'è qualcosa sulla mia zampa."
+          },
+          {
+            "reply": "è un anello."
+          },
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "Un anello? È così lucido. Ma… a cosa serve?"
+          },
+          {
+            "reply": "è per qualcuno che ami."
+          },
+          {
+            "say": "proposer",
+            "mood": "watching",
+            "text": "Qualcuno che… oh. OH. So esattamente chi."
+          },
+          {
+            "reply": "chiama {partner}"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "{partner}! Puoi venire qui un secondo?"
+          },
+          {
+            "cue": "partnerEnters"
+          },
+          {
+            "say": "partner",
+            "mood": "idle",
+            "text": "Mi hai chiamato? Sei tutto agitato. Che succede?"
+          },
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "È un anello. Per te. Voglio dire, se lo vuoi. Lo vuoi?"
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Oh, {proposer}. Certo che sì."
+          },
+          {
+            "cue": "partnerRing"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "Mi sta bene! MI STA BENE!"
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Due tasti, uno accanto all'altro. Proprio come sempre."
+          },
+          {
+            "cue": "heart"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "Andiamo?"
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Andiamo."
+          },
+          {
+            "cue": "walkOut"
+          }
+        ],
+        "libby_script": [
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "Oh. C'è qualcosa sulla mia zampa."
+          },
+          {
+            "reply": "è un anello."
+          },
+          {
+            "say": "proposer",
+            "mood": "wobbly",
+            "text": "Un anello. È bellissimo… ma non è davvero mio, vero?"
+          },
+          {
+            "reply": "è per qualcuno di speciale."
+          },
+          {
+            "say": "proposer",
+            "mood": "watching",
+            "text": "Qualcuno di speciale. Mm. Credo di sapere chi."
+          },
+          {
+            "reply": "chiama {partner}"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "{partner}? Vuoi venire qui un momento?"
+          },
+          {
+            "cue": "partnerEnters"
+          },
+          {
+            "say": "partner",
+            "mood": "idle",
+            "text": "Eccomi! Che succede? Ooh, cos'è quello? È luccicante!"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "È un anello, {partner}. È per te."
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "PER ME? Sì! Sì sì sì!"
+          },
+          {
+            "cue": "partnerRing"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "Ferma così, allora."
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Sono ferma! Più o meno."
+          },
+          {
+            "cue": "heart"
+          },
+          {
+            "say": "partner",
+            "mood": "happy",
+            "text": "Dove andiamo adesso?"
+          },
+          {
+            "say": "proposer",
+            "mood": "happy",
+            "text": "Da qualche parte di bello."
+          },
+          {
+            "cue": "walkOut"
+          }
+        ],
+        "cal_letter": [
+          "caro tu,",
+          "{partner} e io siamo partiti per un po'. è la nostra luna di miele! Ancora non riesco a credere di poterlo dire.",
+          "i tasti sono tutti tuoi fino a domani. le lezioni funzionano ancora, solo che non sarò qui a fare il tifo. quindi fai il tifo per te stesso, d'accordo? a voce alta.",
+          "torneremo prima che tu te ne accorga. probabilmente con un po' di sabbia nei nostri copritasti.",
+          "{proposer} & {partner}"
+        ],
+        "libby_letter": [
+          "caro tu,",
+          "{partner} e io siamo via per un giorno. una luna di miele, a quanto pare. lui non ha smesso di saltellare da quando c'è l'anello.",
+          "le lezioni sono disponibili mentre siamo via. vai piano, fai delle pause e tieni le dita sulla riga home. ti aiuterà.",
+          "torneremo domani. lo riporterò a casa tutto intero.",
+          "{proposer} & {partner}"
+        ]
+      }
+    },
+    "companions.libby": {
+      "lines": {
+        "intro": [
+          "I tasti di oggi: {keys}. Lascia guidare il {finger}.",
+          "{keys} entrano nella squadra oggi. Guarda il testo, fidati delle tue mani.",
+          "Dita sulla riga home, spalle rilassate. Pronta quando lo sei.",
+          "Prima bene, poi veloce. La velocità arriva sempre.",
+          "Ecco {keys}. All'inizio sono un po' timidi. Sii paziente con loro.",
+          "Nuovi tasti: {keys}. Niente sbirciatine. Farò finta di non aver visto."
+        ],
+        "tip": [
+          "Un consiglio al volo, {tip}.",
+          "Una cosa, {tip}.",
+          "Tra noi, {tip}.",
+          "Piano: {tip}.",
+          "Una piccola idea, {tip}.",
+          "Se posso permettermi, {tip}."
+        ],
+        "encourage": [
+          "Tranquillo. Il tuo {finger} sa cosa fare.",
+          "Gli errori capitano. Rallenta appena.",
+          "Respira. Prima fallo bene, poi fallo veloce.",
+          "Sono solo le tue dita che imparano.",
+          "Trova i rilievi su F e J. Casa è sempre lì.",
+          "Nessun problema. Azzera e riprova.",
+          "Il tuo {finger} ci sta pensando troppo. Lasciati andare."
+        ],
+        "round": [
+          "Bella sessione: {wpm} ppm.",
+          "Fluido. Continua così.",
+          "Quella è cantata da sola.",
+          "{wpm} ppm, senza nemmeno un tremolio. Bellissimo.",
+          "Mmm. Sembrava pioggia contro una finestra.",
+          "Ordinato. Molto ordinato."
+        ],
+        "mastered": [
+          "{lesson}: padroneggiata! {next} è aperta.",
+          "Fatto. {next} è la prossima.",
+          "Padroneggiata. Ora le tue mani la conoscono.",
+          "{lesson}, padroneggiata. Lo sapevo.",
+          "Eccola. {next} è pronta da aprire.",
+          "Padroneggiata, e con eleganza."
+        ],
+        "again": [
+          "Ci sei quasi. Ancora?",
+          "Quasi. Un altro tentativo?",
+          "Un altro giro e ce l'avrai.",
+          "Non questa volta. Magari la prossima. Nessuna fretta.",
+          "Quasi. Respira, poi ancora?",
+          "Sta arrivando. Lo sento nel ritmo."
+        ],
+        "warmup": [
+          "Riscaldamento: {keys}. Con calma.",
+          "Prima sciogli le dita su {keys}.",
+          "Sgranchiamoci su {keys}.",
+          "Giri delicati su {keys}.",
+          "Un riscaldamento lento su {keys}. Mani morbide.",
+          "{keys} per iniziare. Proprio nessuna fretta."
+        ],
+        "keyboard": [
+          "Le lezioni richiedono una tastiera vera. Collegane una e premi un tasto qualsiasi.",
+          "Insegno alle dita, non ai pollici. Una tastiera, poi un tasto.",
+          "Una tastiera rende tutto questo possibile. Premi un tasto e me ne accorgerò.",
+          "La riga home ha bisogno di una riga vera. Collega una tastiera quando puoi.",
+          "Gli schermi sono difficili per la scrittura a tocco. Una tastiera bluetooth risolve.",
+          "I giochi vanno bene coi pollici; le lezioni vogliono una tastiera. Premi un tasto quando è pronta."
+        ],
+        "numpad": [
+          "Ho notato un tastierino numerico. L'esercitazione a dieci tasti è qui sotto, quando vuoi.",
+          "Un tastierino numerico. Se vuoi esercitarti, l'opzione è proprio qui sotto.",
+          "Sembrava proprio un tastierino numerico. Ci sono lezioni a dieci tasti, se ti interessano.",
+          "Tastierino numerico rilevato. Un'offerta tranquilla: test e lezioni qui sotto.",
+          "Se usi spesso il tastierino, qui sotto c'è un'esercitazione. Nessuna fretta.",
+          "L'esercitazione a dieci tasti è disponibile per il tuo tastierino. Prendila o lasciala."
+        ],
+        "locked": [
+          "Prima completa {next}, poi questa sarà tua.",
+          "Non ancora. {next} la apre.",
+          "Pazienza. Prima viene {next}.",
+          "Questa aspetta {next}. Anch'io.",
+          "Bloccata, per ora. {next} ha la chiave.",
+          "Un passo alla volta: {next}, poi questa."
+        ],
+        "sleepy": [
+          "Mmm… premi un tasto quando sei pronto.",
+          "Prenditi il tuo tempo. Sono qui.",
+          "Resterò proprio qui, a riposare le ciglia.",
+          "Nessuna fretta. I tasti possono aspettare.",
+          "Mmm… qui è così tranquillo. Premi un tasto quando vuoi.",
+          "Anche riposare fa parte della pratica."
+        ],
+        "welcome": [
+          "Ciao, sono Libby! La lezione 1.1 è il punto da cui iniziare.",
+          "Ciao! Sono Libby, il libre di kalibre. Cominciamo dalla riga home?",
+          "Salve! Sono Libby, il tasto L. Aiuterò le tue dita a trovare casa.",
+          "Ciao, sono Libby. La lezione 1.1 è un buon punto di partenza."
+        ],
+        "progress": [
+          "Prossima: {next}. {count} di {total} padroneggiate!",
+          "{count} fatte, {left} rimaste. {next} aspetta.",
+          "Sei tornato! Ora tocca a {next}.",
+          "{count} padroneggiate. Stai diventando molto bravo, con discrezione.",
+          "Ne restano solo {left}. {next} sta aspettando pazientemente.",
+          "Andiamo? {next} è la prossima."
+        ],
+        "newStage": [
+          "Fase {stage}: fatta! Ora tocca a {name}.",
+          "Fase {stage} padroneggiata. {name} è la prossima!",
+          "Fase {stage}, completata. {name} è la prossima e sei pronto.",
+          "{name} è la prossima. La fase {stage} è stata un ottimo lavoro."
+        ],
+        "graduate": [
+          "Tutte le lezioni, padroneggiate. Mi sto illuminando.",
+          "Ora tutti i tasti sono tuoi. Vai e goditeli.",
+          "Ogni tasto, padroneggiato. Il mio rilievo di riferimento è orgoglioso di te.",
+          "Non hai più bisogno di me. Resterò comunque, se va bene."
+        ],
+        "drowsy": [
+          "Mmm… c'è un silenzio così tranquillo. Mi sto assonnando.",
+          "Hmm… mi si appesantiscono le ciglia.",
+          "È così pacifico qui. Potrei lasciarmi andare.",
+          "Ci sei ancora? Mi sto spegnendo un po'.",
+          "Un silenzio morbido e assonnato…",
+          "Riposerei gli occhi per un momento."
+        ],
+        "nod": [
+          "Zzz… tasti morbidi… zzz…",
+          "Mmm… solo un momento… zzz…",
+          "Zzz… riga home… zzz…",
+          "…zzz… piano e costante… zzz…",
+          "Zzz… sto ascoltando… zzz…",
+          "…zzz… l… zzz…"
+        ],
+        "napWake": [
+          "Oh! Stavo solo riposando. Ciao di nuovo.",
+          "Mmm… sei tornato. Che bello.",
+          "Eh? Oh. Mi ero addormentata. Pronta quando vuoi.",
+          "Oh, ciao. Non volevo sonnecchiare.",
+          "Mmm, scusa. È stato un bel riposo. Andiamo?",
+          "Oh! Eccoti. Ora sono sveglia."
+        ],
+        "wake": [
+          "Oh! Ciao. Sono Libby, il libre di kalibre.",
+          "Mmm… stavo solo riposando gli occhi. Ciao, sono Libby.",
+          "Eh? Oh, ciao! Sono Libby.",
+          "Oh, eccoti. Stavo pensando alla riga home. Sono Libby.",
+          "Mmm, ciao. Sono Libby. Bello vederti.",
+          "Ciao! Libby, il tasto L. Scusa, mi ero addormentata."
+        ],
+        "pet": [
+          "Prrr…",
+          "Mmm, è bello.",
+          "Prrr. Continua.",
+          "Mmm. Sei bravo in questo.",
+          "Prrr… non badare a me.",
+          "Ecco il punto giusto. Prrr."
+        ],
+        "poke": [
+          "Oh! Ciao anche a te.",
+          "Mmm? Ti serve qualcosa?",
+          "Boop. Molto delicato, grazie.",
+          "Quello è il mio rilievo di riferimento, sai.",
+          "L'ho sentito. Ciao.",
+          "Colpetto ricevuto, segnato. Continua pure."
+        ],
+        "pokeFit": [
+          "Va bene, è proprio abbastanza colpetti.",
+          "Sono un tasto, non un campanello.",
+          "Ancora uno e metto un cartello.",
+          "Toc toc toc. Sì, sono ancora qui."
+        ],
+        "tickle": [
+          "Eheh! Oh, birbante. Hehe.",
+          "Haha! Non è giusto, non posso fare il solletico a mia volta!",
+          "Hehe! Smettila! Hehe…",
+          "Oh! Haha, non lì!",
+          "Ehehe! La mia compostezza!",
+          "Pfft… hehe… sto cercando di restare calma qui!"
+        ],
+        "armLift": [
+          "Mmm… grazie… zzz",
+          "Zzz… in ordine… zzz",
+          "Mmm… ero penzolante… zzz",
+          "Zzz… molto meglio… zzz"
+        ],
+        "tickleAsleep": [
+          "Mmm… hehe… zzz",
+          "Zzz… hm… hehe…",
+          "Mmm… fa il solletico… zzz",
+          "Zzz… pfft… zzz"
+        ],
+        "updateReady": [
+          "kalibre v{version} è pronta. Il ricaricamento è nel piè di pagina, quando vuoi.",
+          "Una nuova versione, v{version}, sta aspettando. Ricarica dal piè di pagina quando ti va.",
+          "v{version} è arrivata. Nessuna fretta: il piè di pagina ha il ricaricamento.",
+          "C'è un aggiornamento, v{version}. Ricarica dal piè di pagina quando sei pronto."
+        ],
+        "whatsNew": [
+          "Novità in v{version}: {news}.",
+          "Qualcosa di nuovo in v{version}: {news}.",
+          "In v{version}, {news}. Pensavo ti avrebbe fatto piacere saperlo.",
+          "v{version} porta una piccola novità: {news}."
+        ],
+        "newItem": [
+          "Un nuovo {item}! Fai clic destro su di me, voglio provarlo.",
+          "Ooh, {item}! Fai clic destro su di me.",
+          "È {item}? Fai clic destro su di me!",
+          "{item}? Oh, è bellissimo. Fai clic destro su di me.",
+          "Qualcosa di nuovo: {item}. Fai clic destro su di me, per favore.",
+          "{item} mi aveva già conquistato. Fai clic destro su di me!"
+        ],
+        "newItems": [
+          "{count} cose nuove da provare! Fai clic destro su di me.",
+          "{count} cose nuove per il mio guardaroba! Fai clic destro su di me."
+        ],
+        "newDecoration": [
+          "Ooh, “{name}”! Mettila su un tuo tema: impostazioni → tema.",
+          "Una nuova decorazione: “{name}”. I tuoi temi la adoreranno."
+        ],
+        "newDecorations": [
+          "{count} nuove decorazioni per i tuoi temi! Impostazioni → tema.",
+          "{count} decorazioni del tema da provare. Impostazioni → tema!"
+        ],
+        "newCardItem": [
+          "Qualcosa di nuovo per la tua scheda: {name}. Profilo → la tua scheda.",
+          "{name}, per la tua scheda profilo. Ti starebbe bene."
+        ],
+        "newCardItems": [
+          "{count} cose nuove per la tua scheda. Profilo → la tua scheda.",
+          "{count} nuovi elementi per la tua scheda profilo, quando vuoi."
+        ],
+        "raceWon": [
+          "Primo al traguardo. Ben fatto.",
+          "Hai vinto. Sono contenta per te.",
+          "È stata veloce. Bella gara.",
+          "Hai battuto {count} avversari. Un altro giro, se vuoi."
+        ],
+        "raceLost": [
+          "{winner} è arrivato prima questa volta. Facciamo un altro giro?",
+          "È stata combattuta. Ha vinto {winner}, e hai gareggiato bene.",
+          "{winner} l'ha spuntata. Un altro giro, quando vuoi.",
+          "Bella gara. {winner} ha semplicemente fatto una sessione migliore."
+        ],
+        "newCarPart": [
+          "Qualcosa di nuovo per la tua auto da gara: {name}. Profilo → la tua scheda → garage.",
+          "{name}, per la tua auto. Ti starebbe bene."
+        ],
+        "newCarParts": [
+          "{count} nuovi componenti per la tua auto da gara. Profilo → la tua scheda → garage.",
+          "La tua auto ha {count} cose nuove da provare, quando vuoi."
+        ],
+        "achievement": [
+          "“{name}”! È in Profilo → traguardi.",
+          "Hai conquistato “{name}”. Profilo → traguardi.",
+          "Traguardo: “{name}”. Ben fatto.",
+          "“{name}”. Notevole, senza fare rumore. Profilo → traguardi.",
+          "Oh, “{name}”! Ora è in Profilo → traguardi.",
+          "“{name}”, conquistato. Sono contenta per te."
+        ],
+        "achievements": [
+          "{count} nuovi traguardi! Guarda in Profilo → traguardi.",
+          "{count} traguardi insieme? Profilo → traguardi!"
+        ],
+        "complete": [
+          "Ogni traguardo. Proprio tutti! Sono così orgogliosa di te.",
+          "Tutti fatti. Sono quasi senza parole…",
+          "100%. Hai fatto tutto. Mi sto illuminando."
+        ],
+        "wakeFirst": [
+          "Zzz… prima svegliami… zzz",
+          "Mmm… lasciami svegliare prima…",
+          "Zzz… (un piccolo colpetto, per favore)",
+          "Mmm… non ancora… zzz"
+        ],
+        "highfive": [
+          "Dammi il cinque!",
+          "Su! Ben giocato.",
+          "Sì! Bellissima sessione.",
+          "Zampa contro zampa. Bellissimo.",
+          "In alto! Hai digitato bene.",
+          "Piano! Però, bella sessione."
+        ],
+        "honeymoon": [
+          "{partner} e io siamo in luna di miele! Torniamo domani.",
+          "In luna di miele con {partner}! Torniamo domani.",
+          "{partner} e io facciamo una piccola gita. Torniamo domani!"
+        ],
+        "challenge": [
+          "La sfida di oggi: {challenge}. Ti va di provarci?",
+          "Hai visto la sfida di oggi? {challenge}.",
+          "La sfida di oggi è qui: {challenge}.",
+          "La sfida di oggi è {challenge}. Nessuna pressione.",
+          "Se ne hai voglia: {challenge}.",
+          "{challenge}: la sfida di oggi. Secondo me puoi farcela."
+        ],
+        "partner": [
+          "{partner} e io siamo proprio una bella squadra.",
+          "{partner} ti saluta!",
+          "{partner} diceva che il tuo ritmo è molto fluido.",
+          "{partner} continua a parlarmi delle tue belle sessioni.",
+          "Immagino che {partner} stia saltellando da qualche parte.",
+          "Per la cronaca, {partner} e io siamo orgogliosi di te."
+        ],
+        "morning": [
+          "Buongiorno. Prima il tè, poi i tasti?",
+          "Mattina. Cominciamo con calma.",
+          "Oh, buongiorno! La riga home è tutta calda.",
+          "Mattina. Mani fresche, nuovo inizio.",
+          "Buongiorno. {next} è pronta quando vuoi.",
+          "Buongiorno! Piano piano per iniziare."
+        ],
+        "afternoon": [
+          "Buon pomeriggio. Un po' di pratica?",
+          "Pomeriggio. Un bel momento per qualche minuto tranquillo.",
+          "Ciao, dattilografo del pomeriggio.",
+          "Pomeriggio! Spalle giù, dita sulla riga home.",
+          "Buon pomeriggio. {next} è qui quando vuoi.",
+          "Pomeriggio. Facciamola con calma."
+        ],
+        "evening": [
+          "Buonasera. Qualcosa di delicato stasera?",
+          "Sera. Bello finire la giornata con te.",
+          "Ciao, sera. Teniamo un ritmo leggero.",
+          "Sera! Ora i tasti sono più silenziosi.",
+          "Buonasera. {next}, se vuoi.",
+          "Sera. Qualche minuto, poi riposo."
+        ],
+        "night": [
+          "Fai tardi? Teniamola breve e tranquilla.",
+          "Ciao, nottambulo. Sono sveglia anch'io.",
+          "È tardi. Qualche tasto, poi a dormire?",
+          "Ore tranquille. Solo tu, io e la riga home.",
+          "Tarda notte. {next}, poi a letto, per favore.",
+          "Mmm, turno di notte. Abbi cura dei polsi."
+        ],
+        "welcomeBack": [
+          "Eccoti qui. {days} giorni. Bentornato.",
+          "Bentornato! Ripartiamo con calma.",
+          "{days} giorni via. I tasti non sono andati da nessuna parte.",
+          "Oh, ciao di nuovo. Ti ho conservato il posto.",
+          "Tornato dopo {days} giorni. Piano e costante, allora.",
+          "Bentornato a casa. Le tue dita ricorderanno."
+        ],
+        "personalBest": [
+          "Nuovo record: {wpm} ppm. Bellissimo.",
+          "{wpm} ppm, il tuo massimo finora. Me ne sono accorta.",
+          "Record personale: {wpm} ppm. Meritatissimo.",
+          "Oh, {wpm} ppm. È un nuovo record.",
+          "{wpm} ppm! Notevole, con discrezione.",
+          "Nuovo record, {wpm} ppm. Mi sto illuminando un po'."
+        ],
+        "streak": [
+          "{days} giorni di fila. Piano e costante.",
+          "Il tuo obiettivo, {days} giorni consecutivi. Bella abitudine.",
+          "{days} giorni di seguito. Sono discretamente impressionata.",
+          "Una serie di {days} giorni. Guarda un po' te.",
+          "{days} giorni filati. Ben fatto.",
+          "Obiettivo raggiunto per {days} giorni di fila. Questa è cura."
+        ],
+        "themeUnreadable": [
+          "Mmm. {what} è difficile da leggere. Un po' più di contrasto?",
+          "Riesco a malapena a distinguere {what}. Spostalo un po' dalla pagina.",
+          "{what} sta sussurrando. Alzagli un po' la voce.",
+          "Piano: {what} non risalta ancora abbastanza."
+        ],
+        "themeScheme": [
+          "La pagina sembra {page}, ma il tema dice {scheme}. Cambiamo “chiaro o scuro”?",
+          "Una pagina {page} contrassegnata {scheme}. Il resto dell'app si vestirà nel modo sbagliato."
+        ],
+        "themeMistakes": [
+          "Errori e testo digitato sembrano uguali. Dai agli errori un colore loro.",
+          "Non distinguo i tuoi errori dal resto. Una tonalità diversa per gli errori?"
+        ],
+        "themeAccent": [
+          "L'accento e gli errori sono gemelli. I link sembreranno errori.",
+          "Quell'accento sembra un errore. Qualcosa di più tranquillo, forse?"
+        ],
+        "themeLoud": [
+          "Quello sfondo è molto luminoso. Bello per un momento, stancante per un'ora.",
+          "Pagina piuttosto rumorosa. Più morbida e i tuoi occhi ringrazieranno."
+        ],
+        "themeHeat": [
+          "I livelli del calore dei tasti sono fuori ordine. Dovrebbero aumentare da 1 a 4.",
+          "Dal calore 1 al 4 dovrebbe crescere come un rossore lento. Questi saltano."
+        ],
+        "themeSameAsBase": [
+          "Una pagina vuota. Passa su un colore e ti mostrerò dove finisce.",
+          "Cambia ciò che vuoi. Ti dirò cosa ne penso."
+        ],
+        "themeLovely": [
+          "È bello. Delicato e facile da leggere.",
+          "Mmm. Si legge tutto bene. Salvalo.",
+          "Potrei digitarci tutto il giorno.",
+          "Passa ogni controllo e ti sta bene."
+        ],
+        "wake@morning": [
+          "Mmm… è già mattina? Ciao, sono Libby.",
+          "Oh, buongiorno. Sono Libby. Stavo solo riposando gli occhi.",
+          "La luce è così morbida. Ciao, sono Libby."
+        ],
+        "wake@afternoon": [
+          "Mmm, un pisolino pomeridiano. Ciao, sono Libby.",
+          "Oh! Ho perso la cognizione del pomeriggio. Ciao, sono Libby.",
+          "Ciao. Stavo solo riposando per un momento. Sono Libby."
+        ],
+        "wake@evening": [
+          "Oh, è già sera. Ciao, sono Libby.",
+          "Mmm, la luce della sera. Ciao, sono Libby.",
+          "Buonasera. Mi sono appisolata un po'. Sono Libby."
+        ],
+        "wake@night": [
+          "Oh, è notte. Ciao, sono Libby. Piano piano.",
+          "Mmm… è tardi. Sono Libby. Bello vederti.",
+          "Ancora sveglio? Anch'io, adesso. Sono Libby."
+        ],
+        "intro@morning": [
+          "Una lezione mattutina. Un modo tranquillo per iniziare la giornata.",
+          "Buongiorno. Una mente fresca rende un buon dattilografo.",
+          "La pratica del mattino ti si addice."
+        ],
+        "intro@afternoon": [
+          "Una lezione pomeridiana. Prendila con calma.",
+          "Buon pomeriggio. Entriamo piano piano?",
+          "Un pomeriggio tranquillo per qualche nuovo tasto."
+        ],
+        "intro@evening": [
+          "Una lezione serale. Nessuna fretta.",
+          "Un finale delicato per la giornata. Andiamo?",
+          "Buonasera. Una lezione, al tuo ritmo."
+        ],
+        "intro@night": [
+          "È tardi. Un tentativo attento è già abbastanza.",
+          "Una lezione notturna. Tasti morbidi, mani lente.",
+          "Pratica tarda. Stasera abbi cura di te."
+        ],
+        "warmup@morning": [
+          "Un riscaldamento mattutino. Le dita si svegliano piano.",
+          "Prima giri delicati. È ancora presto.",
+          "Riscaldamento ora, poi la lezione. Buona abitudine."
+        ],
+        "warmup@afternoon": [
+          "Un riscaldamento per ricominciare il pomeriggio.",
+          "Prima giri facili. Poi vediamo.",
+          "Sciogliti un po', poi cominciamo."
+        ],
+        "warmup@evening": [
+          "Riscaldamento serale. Lascia andare la giornata.",
+          "Prima riscaldamento. Oggi le tue mani hanno già fatto molto.",
+          "Giri lenti per sistemarti nella serata."
+        ],
+        "warmup@night": [
+          "Un riscaldamento delicato, visto che è tardi.",
+          "Giri gentili. Nessuna pressione a quest'ora.",
+          "Prima riscaldamento. Le mani assonnate ne hanno bisogno."
+        ],
+        "sleepy@morning": [
+          "Mmm, anch'io sono ancora un po' assonnata.",
+          "Una pausa va bene. Le mattine richiedono tempo.",
+          "Prenditi un momento. Sarò qui."
+        ],
+        "sleepy@afternoon": [
+          "Il calo pomeridiano. Un po' di stretching, forse?",
+          "Riposati un momento. È quell'ora del giorno.",
+          "Nessuna fretta. Stavo andando alla deriva anch'io."
+        ],
+        "sleepy@evening": [
+          "Oggi hai fatto molto. Una pausa va bene.",
+          "Stanchezza serale. Respira un momento.",
+          "Riposa le mani. Aspetterò."
+        ],
+        "sleepy@night": [
+          "È tardi. Dormire è un buon prossimo passo.",
+          "Mmm… buonanotte, forse? Possiamo continuare domani.",
+          "Riposa bene. I tasti resteranno qui."
+        ]
+      }
+    }
+  }
+}
