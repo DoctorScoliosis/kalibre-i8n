@@ -1,0 +1,276 @@
+{
+  "lines": {
+    "intro": [
+      "Nuovi tasti oggi: {keys}. Fa tutto il {finger}.",
+      "{keys} sono tuoi dopo questa. Occhi sul testo, non sulle mani.",
+      "Appoggia le dita sulla riga home, poi partiamo.",
+      "Lento e preciso batte veloce e sbagliato. La velocità arriva da sola.",
+      "Ooh, {keys}! Adoro questi. A dire il vero adoro tutti i tasti. Sono uno di loro.",
+      "Tasti nuovi oggi: {keys}. Non sbirciare le mani. Me ne accorgerei."
+    ],
+    "tip": [
+      "Attenzione, {tip}.",
+      "Psst, {tip}.",
+      "Piccola cosa che ho notato, {tip}.",
+      "Qui è Cal, l'allenatore: {tip}.",
+      "Piccolo consiglio, {tip}.",
+      "Non dire a nessuno che te l'ho detto, ma {tip}."
+    ],
+    "encourage": [
+      "Scuotila via. Il tuo {finger} sa la strada.",
+      "Un po' di tremolio va bene. Rallenta appena.",
+      "Un bel respiro. Prima la precisione, poi la velocità.",
+      "Ogni errore insegna qualcosa alle tue dita.",
+      "Una volta sono inciampato sulla barra spaziatrice. Capita a tutti.",
+      "Ops, succede! Rallenta e scatterà tutto al posto giusto.",
+      "Il tuo {finger} si sta ancora svegliando. Dagli un secondo."
+    ],
+    "round": [
+      "Bella sessione: {wpm} ppm.",
+      "Pulito! Mantieni quel ritmo.",
+      "Quella è filata liscia.",
+      "{wpm} ppm! Mi pizzica il copritasto.",
+      "Ooh, fluido. Rifallo!",
+      "Tap tap tap, perfetto. È il mio suono preferito."
+    ],
+    "mastered": [
+      "{lesson}: padroneggiata! {next} è aperta.",
+      "Ce l'hai fatta! Si passa a {next}.",
+      "Padroneggiata! Ora le tue dita se la ricordano.",
+      "SÌ! {lesson} è tua. Sto facendo una piccola danza.",
+      "Padroneggiata! Ti abbraccerei, ma ho le braccia minuscole.",
+      "Questa lezione è in tasca. {next}, poi!"
+    ],
+    "again": [
+      "Ci sei quasi. Un altro giro?",
+      "Non ancora, ma ci stai arrivando.",
+      "La pratica è tutto il trucco. Ancora?",
+      "Quasi! Alle tue dita serve solo un altro giro.",
+      "Sei così vicino che quasi riesco ad assaggiarlo. Ancora?",
+      "Nessuna fretta. Ancora, questa volta un po' più lentamente?"
+    ],
+    "warmup": [
+      "Prima riscaldamento: {keys}. Piano piano.",
+      "Un rapido allungamento su {keys}, poi la lezione.",
+      "Tempo di sgranchirsi! {keys}, con calma.",
+      "Svegliamo quelle dita su {keys}.",
+      "Riscaldamento su {keys}. Muovi prima le dita, aiuta!",
+      "Giri facili su {keys} prima di fare sul serio."
+    ],
+    "keyboard": [
+      "Le lezioni richiedono una tastiera vera. Collegane una e premi un tasto qualsiasi!",
+      "Psst: insegno alle dita, non ai pollici. Collega una tastiera e premi un tasto.",
+      "Qui una tastiera fa tutta la differenza. Premi un tasto e me ne accorgerò.",
+      "La riga home vuole una riga vera! Collega una tastiera e partiamo.",
+      "Il vetro non aiuta. Una tastiera bluetooth, un tasto premuto e siamo pronti!",
+      "I pollici vanno bene per i giochi! Le lezioni vogliono una tastiera. Premine un tasto."
+    ],
+    "numpad": [
+      "Psst! Quello era un tastierino numerico. L'esercitazione a dieci tasti ti aspetta qui sotto, se vuoi.",
+      "Ho sentito un tastierino numerico! C'è un nastro da digitare e delle lezioni.",
+      "Tastierino numerico individuato! Test a dieci tasti e lezioni sono proprio qui sotto.",
+      "È un tastierino numerico quello che sento? Ho un'esercitazione per lui!",
+      "Dita veloci sul tastierino! Vuoi un nastro da digitare? È lì sotto.",
+      "Un tastierino numerico! Guarda qui sotto; c'è qualcosa per lui."
+    ],
+    "locked": [
+      "Questa si apre dopo {next}. Prima sistemiamo quella.",
+      "Non ancora! Padroneggia {next} e ti faccio entrare.",
+      "Chiusa a chiave! {next} è la chiave. Capito? Chiave?",
+      "Ooh, impaziente! Completa prima {next}.",
+      "No, non ancora. {next} viene prima di questa.",
+      "Prima {next}, poi questa porta si apre."
+    ],
+    "sleepy": [
+      "Zzz… premi un tasto quando sei pronto.",
+      "Ci sei ancora? Aspetterò.",
+      "Io intanto… riposo il mio copritasto… zzz…",
+      "Prenditi il tuo tempo. Io non vado da nessuna parte. Gambe piccole.",
+      "Ehi? C'è qualche tasto là fuori?",
+      "Tocca qualcosa e sono di nuovo qui!"
+    ],
+    "welcome": [
+      "Ciao, sono Cal! La lezione 1.1 è da dove si comincia.",
+      "Ciao! Sono Cal, il kal di kalibre. Cominciamo dalla riga home?",
+      "Ehi ehi! Sono Cal, il tasto K. Impariamo insieme questa tastiera.",
+      "Oh, un nuovo amico! Sono Cal. La lezione 1.1 ci aspetta."
+    ],
+    "progress": [
+      "Prossima: {next}. Sono {count} su {total} padroneggiate!",
+      "{count} fatte, {left} rimaste. {next} aspetta.",
+      "Bentornato! La prossima è {next}.",
+      "{count} lezioni in tasca! {next} sembra divertente.",
+      "Pronto per {next}? Io sì.",
+      "Ne restano solo {left}! Avanti verso {next}."
+    ],
+    "newStage": [
+      "Fase {stage} fatta! Ora tocca a {name}.",
+      "Hai padroneggiato la fase {stage}. Si passa a {name}!",
+      "Fase {stage}: conquistata! Ora {name}.",
+      "Un'intera fase! La prossima è {name}. Eek, che emozione."
+    ],
+    "graduate": [
+      "Tutte le lezioni padroneggiate. Sono così fiero che potrei saltare.",
+      "Ora conosci ogni tasto. Vai a mostrare cosa sai fare nei test!",
+      "Ogni tasto, ogni dito. Non hai più bisogno di me. Mi tieni comunque?",
+      "Diploma! Ti ho fatto un cappello. Non è vero, ma immaginalo."
+    ],
+    "drowsy": [
+      "Mmm… qui è tranquillo. Mi sto assonnando.",
+      "*sbadiglio* Ci sei ancora? Mi si fanno pesanti gli occhi.",
+      "Tutto così fermo… potrei addormentarmi qui.",
+      "Dovevo fare qualcosa? Sbadiglio.",
+      "Ohh… la riga home è così accogliente a quest'ora.",
+      "Il mio copritasto sta cedendo. Solo un pochino."
+    ],
+    "nod": [
+      "Zzz… riga home… zzz…",
+      "Riposavo solo gli occhi… zzz…",
+      "Zzz… un altro giro… zzz…",
+      "Mmm… barre spaziatrici… zzz…",
+      "Zzz… sono sveglio… zzz…",
+      "…zzz… j… k… zzz…"
+    ],
+    "napWake": [
+      "Eh? Stavo solo riposando gli occhi!",
+      "Mmm! Sveglio. Totalmente. Cosa mi sono perso?",
+      "Oh! Sei tornato. Stavo solo sonnecchiando.",
+      "Zz—! Ciao. Salve. Pronto quando vuoi.",
+      "Cosa—? Oh, ehi. Bello vederti in movimento.",
+      "Altri cinque… oh! Giusto. Digitiamo."
+    ],
+    "wake": [
+      "Eh? Oh! Ciao, sono Cal. Il kal di kalibre.",
+      "Mmm… altri cinque minuti… okay, sono in piedi! Sono Cal.",
+      "Zz—! Non stavo dormendo. Sono Cal, ciao!",
+      "Cosa—? Stavo sognando le barre spaziatrici. Ciao, sono Cal!",
+      "Oh, ehi! Cal qui. Occhi vispi e copritasti pronti.",
+      "Sveglio! Sveglio. Completamente sveglio. Ciao, sono Cal."
+    ],
+    "pet": [
+      "Prrrr…",
+      "Mmm, proprio lì.",
+      "Prrr. Non smettere.",
+      "Hehe. Mi fa il solletico sul copritasto.",
+      "Prrr… miglior… giorno…",
+      "Ooh, il punto giusto."
+    ],
+    "poke": [
+      "Boop! Quello è il mio copritasto.",
+      "Ehi! Pressato. Registrato. Grazie.",
+      "Eep! Hai trovato il mio punto di attuazione.",
+      "Colpetto ricevuto. Elaborazione… sempre Cal.",
+      "Ciao! Sì? Mi hai chiamato?",
+      "Uff. Un tocco leggero. Buona tecnica di digitazione."
+    ],
+    "pokeFit": [
+      "Okay, okay! Non sono una barra spaziatrice!",
+      "Basta colpetti! Inizierò a ripetermi come un tasto incastrato.",
+      "Ehi! Sembro forse il Bloc Maiusc?",
+      "Un altro colpetto e rimbalzerò. Oh. Sto già rimbalzando."
+    ],
+    "tickle": [
+      "Ahahaha! Non il copritasto! Hahaha!",
+      "Ahaha! Basta! No, non smettere! Hahaha!",
+      "Eheheh! Non vale!",
+      "Haha! Sono… hehe… non sono sensibile al solletico!",
+      "Hahaha! I miei stabilizzatori non ce la fanno!",
+      "Ehehe! Inizierò a digitare il doppio!"
+    ],
+    "armLift": [
+      "Mmm… grazie… zzz",
+      "Zzz… quello era… il mio braccio… zzz",
+      "Mmmf… tienilo… sulla riga… zzz",
+      "Zzz… nessuno ha visto niente… zzz"
+    ],
+    "tickleAsleep": [
+      "Zzz… hehe… zzz",
+      "Mmmf… hehe… no… zzz",
+      "Snrk… ehehe… zzz",
+      "Zzz… non il… hehe… copritasto… zzz"
+    ],
+    "updateReady": [
+      "Psst: v{version} è pronta. Il ricaricamento è nel piè di pagina, quando vuoi.",
+      "Ooh, è arrivata v{version}! Ricarica dal piè di pagina quando sei pronto. Nessuna fretta.",
+      "Nuova versione: v{version}! Nel piè di pagina c'è il ricaricamento, quando vuoi.",
+      "v{version} aspetta dietro le quinte. Ricarica dal piè di pagina quando ti va."
+    ],
+    "whatsNew": [
+      "Novità in v{version}: {news}!",
+      "Indovina cosa c'è di nuovo in v{version}? {news}!",
+      "Fresco di v{version}: {news}. Ooh.",
+      "v{version} è qui, e c'è {news}!"
+    ],
+    "newItem": [
+      "Ooh, un nuovo {item}! Fai clic destro su di me per provarlo.",
+      "Guarda! Ora posso indossare {item}. Fai clic destro su di me.",
+      "Un {item}? Per me? Fai clic destro su di me!",
+      "{item}! Sarò BELLISSIMO. Fai clic destro su di me.",
+      "Nuovo nel mio guardaroba: {item}. Fai clic destro su di me, presto!",
+      "È {item}? Posso? Fai clic destro su di me!"
+    ],
+    "newItems": [
+      "Ooh, {count} cose nuove da provare! Fai clic destro su di me.",
+      "{count} cose nuove nel mio guardaroba! Fai clic destro per vederle."
+    ],
+    "newDecoration": [
+      "Una nuova decorazione: “{name}”. Impostazioni → tema, poi decora uno dei tuoi.",
+      "Hai conquistato la decorazione “{name}”! Provala su uno dei tuoi temi."
+    ],
+    "newDecorations": [
+      "{count} nuove decorazioni del tema! Impostazioni → tema, poi decorane uno dei tuoi.",
+      "{count} decorazioni per i tuoi temi. Dai, vestine uno."
+    ],
+    "newCardItem": [
+      "Novità per la tua scheda: {name}! Profilo → la tua scheda.",
+      "Ooh, {name}, per la tua scheda profilo. Dai, provalo!"
+    ],
+    "newCardItems": [
+      "{count} cose nuove per la tua scheda! Profilo → la tua scheda.",
+      "La tua scheda ha {count} cose nuove da indossare. Le indosserei tutte."
+    ],
+    "raceWon": [
+      "Primo al traguardo! Ben fatto.",
+      "Hai vinto! Ho fatto il tifo per tutto il percorso.",
+      "Wow, eri veloce stavolta. Ben fatto!",
+      "Ne hai battuti {count}! Facciamo un altro giro?"
+    ],
+    "raceLost": [
+      "{winner} è arrivato prima. Ancora? Ce la puoi fare.",
+      "Ci sei andato vicino! Ha vinto {winner}. Un altro giro?",
+      "Stavolta ha vinto {winner}. Però è stata una bella gara!",
+      "Bella gara! {winner} l'ha spuntata. Vuoi riprovare?"
+    ],
+    "newCarPart": [
+      "Una novità per la tua auto da gara: {name}! Profilo → la tua scheda → garage.",
+      "Ooh, {name} per la tua auto. Dai, provalo in garage!"
+    ],
+    "newCarParts": [
+      "{count} nuovi componenti per la tua auto! Profilo → la tua scheda → garage.",
+      "La tua auto ha {count} cose nuove da provare. Vroom!"
+    ],
+    "achievement": [
+      "Hai conquistato “{name}”! È in Profilo → traguardi.",
+      "“{name}”! L'ho visto. Il tuo Profilo → traguardi ce l'ha.",
+      "Traguardo: “{name}”. Guarda come vai.",
+      "“{name}”! Lo dirò a tutti. Profilo → traguardi.",
+      "Guarda cosa hai fatto: “{name}”. È in Profilo → traguardi.",
+      "Ding! “{name}”. Profilo → traguardi ha la prova."
+    ],
+    "achievements": [
+      "{count} nuovi traguardi! Dai un'occhiata: Profilo → traguardi.",
+      "Wow, {count} traguardi insieme. Profilo → traguardi!"
+    ],
+    "complete": [
+      "Ogni singolo traguardo. Tutti! Sono così fiero di te.",
+      "Sono tutti qui. Ogni traguardo, fatto. Non so cosa dire…",
+      "100%! Hai fatto tutto quello che c'era da fare. Mi si illumina il copritasto."
+    ],
+    "wakeFirst": [
+      "Zzz… prima svegliami… zzz",
+      "Mmmf… altri cinque minuti…",
+      "Zzz… (prima dammi un colpetto per svegliarmi)",
+      "Zzz… snrk… cosa… zzz"
+    ]
+  }
+}
