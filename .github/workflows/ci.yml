@@ -22,4 +22,4 @@ jobs:
           node-version: "26"
 
       - name: Run tests and build checks
-        run: npm test
+        run: node --test scripts/integrity.test.mjs scripts/core-pr-impact.test.mjs
