@@ -1,58 +1,132 @@
 {
   "stages": {
-    "1": { "name": "riga home" },
-    "2": { "name": "riga superiore" },
-    "3": { "name": "riga inferiore" },
-    "4": { "name": "maiuscole" },
-    "5": { "name": "numeri" },
-    "6": { "name": "fluidità" }
+    "1": {
+      "name": "riga home"
+    },
+    "2": {
+      "name": "riga superiore"
+    },
+    "3": {
+      "name": "riga inferiore"
+    },
+    "4": {
+      "name": "maiuscole"
+    },
+    "5": {
+      "name": "numeri"
+    },
+    "6": {
+      "name": "fluidità"
+    }
   },
   "lessons": {
     "1": {
-      "1": { "title": "home della mano sinistra" },
-      "2": { "title": "home della mano destra" },
-      "3": { "title": "gli indici si spostano verso l'interno" },
-      "4": { "title": "ripasso della riga home" }
+      "1": {
+        "title": "home della mano sinistra"
+      },
+      "2": {
+        "title": "home della mano destra"
+      },
+      "3": {
+        "title": "gli indici si spostano verso l'interno"
+      },
+      "4": {
+        "title": "ripasso della riga home"
+      }
     },
     "2": {
-      "1": { "title": "i medi salgono" },
-      "2": { "title": "gli indici salgono" },
-      "3": { "title": "indici, colonna interna" },
-      "4": { "title": "gli anulari salgono" },
-      "5": { "title": "i mignoli salgono" },
-      "6": { "title": "ripasso della riga superiore" }
+      "1": {
+        "title": "i medi salgono"
+      },
+      "2": {
+        "title": "gli indici salgono"
+      },
+      "3": {
+        "title": "indici, colonna interna"
+      },
+      "4": {
+        "title": "gli anulari salgono"
+      },
+      "5": {
+        "title": "i mignoli salgono"
+      },
+      "6": {
+        "title": "ripasso della riga superiore"
+      }
     },
     "3": {
-      "1": { "title": "i medi scendono" },
-      "2": { "title": "gli indici scendono" },
-      "3": { "title": "indici, colonna interna" },
-      "4": { "title": "gli anulari scendono" },
-      "5": { "title": "i mignoli scendono" },
-      "6": { "title": "ripasso della riga inferiore" }
+      "1": {
+        "title": "i medi scendono"
+      },
+      "2": {
+        "title": "gli indici scendono"
+      },
+      "3": {
+        "title": "indici, colonna interna"
+      },
+      "4": {
+        "title": "gli anulari scendono"
+      },
+      "5": {
+        "title": "i mignoli scendono"
+      },
+      "6": {
+        "title": "ripasso della riga inferiore"
+      }
     },
     "4": {
-      "1": { "title": "maiusc con la riga home" },
-      "2": { "title": "maiusc con ogni lettera" },
-      "3": { "title": "frasi" }
+      "1": {
+        "title": "maiusc con la riga home"
+      },
+      "2": {
+        "title": "maiusc con ogni lettera"
+      },
+      "3": {
+        "title": "frasi"
+      }
     },
     "5": {
-      "1": { "title": "gli indici si spostano verso l'alto" },
-      "2": { "title": "i medi si spostano verso l'alto" },
-      "3": { "title": "gli anulari si spostano verso l'alto" },
-      "4": { "title": "i mignoli si spostano verso l'alto" },
-      "5": { "title": "allungamenti del mignolo" },
-      "6": { "title": "ripasso dei numeri" }
+      "1": {
+        "title": "gli indici si spostano verso l'alto"
+      },
+      "2": {
+        "title": "i medi si spostano verso l'alto"
+      },
+      "3": {
+        "title": "gli anulari si spostano verso l'alto"
+      },
+      "4": {
+        "title": "i mignoli si spostano verso l'alto"
+      },
+      "5": {
+        "title": "allungamenti del mignolo"
+      },
+      "6": {
+        "title": "ripasso dei numeri"
+      }
     },
     "6": {
-      "1": { "title": "le 100 parole più comuni" },
-      "2": { "title": "le 500 parole più comuni" },
-      "3": { "title": "prosa reale" },
-      "4": { "title": "passa ai test di digitazione" }
+      "1": {
+        "title": "le 100 parole più comuni"
+      },
+      "2": {
+        "title": "le 500 parole più comuni"
+      },
+      "3": {
+        "title": "prosa reale"
+      },
+      "4": {
+        "title": "passa ai test di digitazione"
+      }
     }
   },
   "steps": {
-    "keys": { "title": "i nuovi tasti da soli" },
-    "mix": { "title": "i nuovi tasti con gli altri" }
+    "keys": {
+      "title": "i nuovi tasti da soli"
+    },
+    "mix": {
+      "title": "i nuovi tasti con gli altri"
+    }
   },
   "ui": {
     "the_steps_again": "le fasi di nuovo",
@@ -92,7 +166,7 @@
     "words_a_round": "{unit} per sessione",
     "length": "lunghezza",
     "keep_going": "continua",
-    "timer": "timer",
+    "timer": "cronometro",
     "none": "nessuno",
     "start": "inizia",
     "straight_to_test": "vai direttamente al test",
@@ -339,15 +413,33 @@
     "wrong": "sbagliato"
   },
   "pad_lessons": {
-    "pad-1": { "title": "i tasti home: 4 5 6" },
-    "pad-2": { "title": "allunga verso l'alto: 7 8 9" },
-    "pad-3": { "title": "allunga verso il basso: 1 2 3" },
-    "pad-4": { "title": "il pollice e l'indice: 0 ." },
-    "pad-5": { "title": "tutte le cifre" },
-    "pad-6": { "title": "più, con il mignolo" },
-    "pad-7": { "title": "meno" },
-    "pad-8": { "title": "moltiplica e dividi" },
-    "pad-9": { "title": "tutto il tastierino" }
+    "pad-1": {
+      "title": "i tasti home: 4 5 6"
+    },
+    "pad-2": {
+      "title": "allunga verso l'alto: 7 8 9"
+    },
+    "pad-3": {
+      "title": "allunga verso il basso: 1 2 3"
+    },
+    "pad-4": {
+      "title": "il pollice e l'indice: 0 ."
+    },
+    "pad-5": {
+      "title": "tutte le cifre"
+    },
+    "pad-6": {
+      "title": "più, con il mignolo"
+    },
+    "pad-7": {
+      "title": "meno"
+    },
+    "pad-8": {
+      "title": "moltiplica e dividi"
+    },
+    "pad-9": {
+      "title": "tutto il tastierino"
+    }
   },
   "fingers": {
     "LP": "mignolo sinistro",
@@ -389,19 +481,37 @@
   "entries": {
     "a_ten_key_entry_needs": "Una voce a dieci tasti richiede almeno una cifra.",
     "ENTRY_FORMS": {
-      "whole": { "label": "numeri interi" },
-      "amounts": { "label": "importi" },
-      "mixed": { "label": "misto, con operatori" }
+      "whole": {
+        "label": "numeri interi"
+      },
+      "amounts": {
+        "label": "importi"
+      },
+      "mixed": {
+        "label": "misto, con operatori"
+      }
     }
   },
   "sums": {
     "SUM_KINDS": {
-      "mixed": { "label": "un misto" },
-      "add": { "label": "addizione" },
-      "subtract": { "label": "sottrazione" },
-      "multiply": { "label": "moltiplicazione" },
-      "divide": { "label": "divisione" },
-      "percent": { "label": "percentuali" }
+      "mixed": {
+        "label": "un misto"
+      },
+      "add": {
+        "label": "addizione"
+      },
+      "subtract": {
+        "label": "sottrazione"
+      },
+      "multiply": {
+        "label": "moltiplicazione"
+      },
+      "divide": {
+        "label": "divisione"
+      },
+      "percent": {
+        "label": "percentuali"
+      }
     }
   },
   "pad_key_names": {
