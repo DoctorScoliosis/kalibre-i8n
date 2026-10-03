@@ -132,7 +132,7 @@
   },
   "fonts":{
     "default_monospace":"standaard (monospace)","font_names_can_only_use":"Lettertypenamen mogen alleen letters, cijfers, spaties, punten, streepjes en underscores bevatten.",
-    "isn_t_available_on_this":""{family}" is niet beschikbaar op dit apparaat, dus het standaardlettertype wordt getoond.","use":"{family} gebruiken","kb":"{fileName} · {round} KB","remove":"{family} verwijderen","list_fonts_on_this_computer":"lettertypen op deze computer weergeven",
+    "isn_t_available_on_this":"\"{family}\" is niet beschikbaar op dit apparaat, dus het standaardlettertype wordt getoond.","use":"{family} gebruiken","kb":"{fileName} · {round} KB","remove":"{family} verwijderen","list_fonts_on_this_computer":"lettertypen op deze computer weergeven",
     "fonts_found_start_typing_a":"{length} lettertypen gevonden; typ een naam om er een te kiezen.","the_browser_did_not_allow":"De browser stond niet toe lettertypen op te sommen. Je kunt nog steeds de naam van een geïnstalleerd lettertype typen.","load_a_font_file":"een lettertypebestand laden","use_default_font":"standaardlettertype gebruiken","bundled_legible":"meegeleverd · leesbare monospace","bundled_dyslexia":"meegeleverd · dyslexievriendelijk","sample":"de snelle bruine vos springt over de luie hond. 0123456789"
   },
   "settings":{
