@@ -13,7 +13,7 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 5,
+  "revision": 6,
   "version": "2026-10-04",
-  "changes": "L11: complete achievements rules/names, add missing game strings, reconcile with current en-GB"
+  "changes": "L12: remove stale achievements.rules.lastLesson after canonical reconciliation"
 }
