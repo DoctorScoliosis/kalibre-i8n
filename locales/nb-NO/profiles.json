@@ -14,11 +14,11 @@
     "start_fresh": "begynne om fra begynnelsen",
     "back": "tilbake",
     "keep_signed_in": "håll mig inloggad på denne enheten",
-    "unlock": "lås upp",
-    "unlock_passkey": "lås upp med en passnøkkel"
+    "unlock": "lås opp",
+    "unlock_passkey": "lås opp med en passnøkkel"
   },
   "delete": {
-    "warning": "Om du tar bort ”{name}” försvinner dess innstillinger, historikkk, feil, lagrede tekster og nivå fra denne nettleseren. Det går ikke å ångra.",
+    "warning": "Om du tar bort ”{name}” forsvinner dens innstillinger, historikkk, feil, lagrede tekster og nivå fra denne nettleseren. Det går ikke å ångra.",
     "last_step": "Sista steget: ”{name}” tas bort nå."
   },
   "guest": {
@@ -38,16 +38,16 @@
     "reading_the_folder": "leser mappen…",
     "nothing_kalibre_saved_yet": "kalibre har ikke lagret noe ennå.",
     "restored_profiles_are_added_alongside": "återställda profiler legges til ved siden av dem som finnes her; ingenting skrivs over.",
-    "pick_another_folder": "velg en annan mappe",
+    "pick_another_folder": "velg en annen mappe",
     "tick_something_to_restore_first": "merk noe å gjenopprette først.",
     "restoring": "gjenoppretter…",
     "restoring_of": "gjenoppretter… {done} av {total}",
-    "restored": "återställde {join}.",
-    "nothing_was_restored": "ingenting återställdes.",
+    "restored": "gjenopprettet {join}.",
+    "nothing_was_restored": "ingenting gjenopprettet.",
     "things_saved": "{count, plural, one {# sak} other {# saker}} lagret av kalibre.",
     "title": "gjenopprett fra en kalibre-mappe",
     "that_doesn_t_look_like": "Det der ser ikke ut som en kalibre-mappe: den saknar kalibre.json og profilbackupfiler.",
-    "the_folder_s_kalibre_json": "Mappens kalibre.json er skadad og kan derför ikke läsas. Filerna kan fortfarande importeras en og en.",
+    "the_folder_s_kalibre_json": "Mappens kalibre.json er skadet og kan derför ikke läsas. Filene kan fortsatt importeras en og en.",
     "status": {
       "present": "allerede her",
       "missing": "finnes ikke i mappen"
@@ -57,7 +57,7 @@
     "guest_profile": "gjestprofil",
     "your_tests_mistakes_stats_and": "Dine tester, feil, statistik og XP lagres i denne nettleseren, men sikkerhetskopieras ikke, og profilen kan ikke låsas. Lagre dine fremgang for å beholde dem i din egen profil.",
     "you_re_trying_kalibre_as": "Du prøvr kalibre som gjest. ",
-    "this_browser_isn_t_keeping": "denne nettleseren lagrer ingenting, så ingenting lagres når fönstret stängs. For å beholde det du gjør, last ner din profil og åpne den i et vanlig fönster.",
+    "this_browser_isn_t_keeping": "denne nettleseren lagrer ingenting, så ingenting lagres når vinduet lukkes. For å beholde det du gjør, last ned din profil og åpne den i et vanlig fönster.",
     "guest_session": "gjests økt: "
   },
   "profile_context_menu": {
@@ -65,12 +65,12 @@
     "texts": "tekster",
     "save_this_profile_as_a": "Lagre denne profilen som en fil (i kalibre-mappen om det finnes en)",
     "save_profile": "lagre profil",
-    "load_a_profile_file_added": "Last en profilfil, tillagd ved siden av de andre (ingenting skrivs over)",
+    "load_a_profile_file_added": "Last en profilfil, lagt til ved siden av de andre (ingenting skrivs over)",
     "load_profile": "last profil",
     "profile_options": "profilalternativ",
     "level": "nivå {curLevel}",
-    "xp_remaining": "{remaining} XP kvar",
-    "xp_remaining_to_level": "{remaining} XP kvar til nivå {value}",
+    "xp_remaining": "{remaining} XP igjen",
+    "xp_remaining_to_level": "{remaining} XP igjen til nivå {value}",
     "guest": "gjest",
     "aria_level": ", nivå {level}, {into} av {needed} XP til neste",
     "aria_locked": ", låst med et passord",
@@ -95,61 +95,61 @@
   "profile_edit_panel": {
     "save_name": "lagre navn",
     "passwords_need_a_secure_connection": "Passord trenger en sikker anslutning (https:// eller localhost), så de er ikke tilgjengelige her.",
-    "this_is_a_guest_profile": "Dette er en gjestprofil. Lagre dine fremgang først (meldingen lengst upp på siden), og legg siden til et passord eller en passnøkkel her.",
+    "this_is_a_guest_profile": "Dette er en gjestprofil. Lagre dine fremgang først (meldingen lengst opp på siden), og legg siden til et passord eller en passnøkkel her.",
     "locked_with_a_password": "Låst med et passord.",
     "no_password_anyone_using_this": "Ingenting passord: vem som helst som bruker denne nettleseren kan åpne profilen.",
     "change_password": "endre passord",
     "set_a_password": "ange et passord",
     "remove_password": "fjerne passord",
-    "the_new_passwords_don_t": "De nya passorden matchar ikke.",
+    "the_new_passwords_don_t": "De nye passorden matchar ikke.",
     "working": "arbetar…",
     "password_removed": "passord fjernet",
-    "password_saved_the_profile_asks": "passord lagret; profilen frågar etter det når Kalibre öppnas",
+    "password_saved_the_profile_asks": "passord lagret; profilen frågar etter det når Kalibre åpnes",
     "save_password": "lagre passord",
     "passkey_name": "passnøkkelns navn",
     "passkey_renamed": "passnøkkeln har bytt navn",
     "this_browser_can_t_use": "Denne nettleseren kan ikke bruke passnøkler her (de kräver https:// eller localhost).",
-    "set_a_password_first_then": "Ange først et passord og legg siden til en passnøkkel for å låsa upp med Touch ID, Windows Hello, en telefon eller en sikkerhetsnyckel.",
+    "set_a_password_first_then": "Ange først et passord og legg siden til en passnøkkel for å låsa opp med Touch ID, Windows Hello, en telefon eller en sikkerhetsnyckel.",
     "rename": "byt navn",
     "rename_passkey": "byt navn på passnøkkel {label}",
-    "added": "tillagd {format}",
+    "added": "lagt til {format}",
     "for": "for {rpId}",
-    "remove_passkey_added": "fjerne passnøkkel {label}, tillagd {format}",
+    "remove_passkey_added": "fjerne passnøkkel {label}, lagt til {format}",
     "passkey_removed": "passnøkkel borttagen",
-    "no_passkeys_yet_a_passkey": "Ingen passnøkler ennå. En passnøkkel låser upp denne profilen uten å du trenger skrive passordet.",
+    "no_passkeys_yet_a_passkey": "Ingen passnøkler ennå. En passnøkkel låser opp denne profilen uten å du trenger skrive passordet.",
     "add_a_passkey": "legg til en passnøkkel",
     "follow_your_browser_s_prompt": "följ webbläsarens instruktioner…",
-    "passkey_added_the_lock_screen": "passnøkkel tillagd; låsskärmen erbjuder den neste gång",
-    "preparing_the_file": "förbereder filen…",
+    "passkey_added_the_lock_screen": "passnøkkel lagt til; låseskjermen erbjuder den neste gång",
+    "preparing_the_file": "forbereder filen…",
     "the_only_profile_can_t": "den enda profilen kan ikke tas bort",
     "delete_this_profile": "fjerne denne profilen",
     "step_of": "steg {value} av {length}",
     "export_it_first": "eksportere den først",
-    "type_the_profile_name_exactly": "Skriv profilnamnet exakt for å bekräfta.",
+    "type_the_profile_name_exactly": "Skriv profilnamnet nøyaktig for å bekreft.",
     "use_a_passkey": "bruk en passnøkkel",
     "that_passkey_couldn_t_be": "passnøkkeln kunde ikke kontrolleres.",
     "that_password_is_not_right": "passordet er ikke riktig.",
-    "this_profile_is_locked_so": "denne profilen er låst, så bekräfta å det er du.",
-    "confirm": "bekräfta",
+    "this_profile_is_locked_so": "denne profilen er låst, så bekreft å det er du.",
+    "confirm": "bekreft",
     "or": "eller",
     "delete_for_good": "fjerne permanent ({left})",
     "delete_for_good_2": "fjerne permanent",
     "deleting": "tar bort…",
-    "name_and_picture": "navn og bild",
+    "name_and_picture": "navn og bilde",
     "a_password_or_passkey_keeps": "Et passord eller en passnøkkel hindrer andre som bruker denne nettleseren fra Kalibres visninger. Det krypterer ikke det som lagres i nettleseren.",
-    "rerun_setup": "kör konfigurationen igjen",
-    "an_export_is_a_compressed": "En export er en komprimerad .kalibre-profile-fil med denne profilens historikkk. Dess passord og passnøkler följer med som lås, men komprimering er ikke kryptering, så förvara den privat.",
-    "removes_passkeys": "Dette tar også bort {count, plural, one {dess passnøkkel} other {dess # passnøkler}}.",
+    "rerun_setup": "kjør oppsettet igjen",
+    "an_export_is_a_compressed": "En export er en komprimert .kalibre-profile-fil med denne profilens historikkk. Dens passord og passnøkler følger med som lås, men komprimering er ikke kryptering, så oppbevar den privat.",
+    "removes_passkeys": "Dette tar også bort {count, plural, one {dens passnøkkel} other {dens # passnøkler}}.",
     "current_password": "nåværende passord",
     "new_password": "nytt passord ({MIN_PASSWORD_LENGTH}+)",
     "repeat_it": "upprepa det",
-    "type_its_name": "skriv dess navn"
+    "type_its_name": "skriv dens navn"
   },
   "profile_form_helpers": {
-    "shrinking": "förminskar…",
-    "change_picture": "byt bild",
-    "add_a_picture": "legg til en bild",
-    "optional_shrunk_to_a_small": "Valfritt. Förminskas til en liten kvadrat og lagres i denne nettleseren."
+    "shrinking": "reduserer…",
+    "change_picture": "byt bilde",
+    "add_a_picture": "legg til en bilde",
+    "optional_shrunk_to_a_small": "Valgfritt. Förminskas til en liten kvadrat og lagres i denne nettleseren."
   },
   "profile_import": {
     "import_a_profile_file": "importere en profilfil",
@@ -158,10 +158,10 @@
   "profile_new_panel": {
     "e_g_guest": "t.ex. gjest",
     "creating": "skapar…",
-    "a_picture_and_password_can": "{NAME_HINT} en bild og et passord kan läggas til i profilinnstillingene.",
+    "a_picture_and_password_can": "{NAME_HINT} en bilde og et passord kan läggas til i profilinnstillingene.",
     "create_and_open": "skapa og åpne",
     "or_try_as_a_guest": "eller Prøv som gjest",
-    "a_profile_to_try_things": "En profil å Prøv saker i, uten konfiguration; lagre dess fremgang senare for å beholde den"
+    "a_profile_to_try_things": "En profil å Prøv saker i, uten konfiguration; lagre dens fremgang senare for å beholde den"
   },
   "setup": {
     "skip_setup": "hoppa over konfigurationen",
@@ -204,10 +204,10 @@
         "label": "ingenting mål"
       },
       "minutes-10": {
-        "label": "10 minåtter"
+        "label": "10 minutter"
       },
       "minutes-20": {
-        "label": "20 minåtter"
+        "label": "20 minutter"
       },
       "words-500": {
         "label": "500 ord"
@@ -256,36 +256,36 @@
     },
     "pick_a_language": "velg et språk",
     "name_prompt": "hva skal vi kalla dig?",
-    "name_hint": "et smeknamn er bäst: undvik ditt riktiga navn og personlig information.",
-    "starter_library_note": "et startbibliotek med bøker i public domain följer med kalibre, så tester er klar uten å noe trenger lastes ner",
-    "companion_note": "de följer denne profilen. Skapa en annan profil for å träffa den andre.",
+    "name_hint": "et smeknamn er best: unngå ditt riktiga navn og personlig informasjon.",
+    "starter_library_note": "et startbibliotek med bøker i public domain følger med kalibre, så tester er klar uten å noe trenger lastes ned",
+    "companion_note": "de følger denne profilen. Skapa en annen profil for å träffa den andre.",
     "restore_note": "kalibre kan gjenopprette dine profiler, datasett og skrifter fra mappen der de ble lagret.",
-    "keyboard_note": "skärmtastaturet fungerer for tester og spill, men et bluetooth- eller usb-tastatur gjør dem rättvisare, og touch typing-leksjonene kräver verkligen et. kalibre fungerer bäst på en datamaskin.",
-    "keyboard_tip": " tips: legg til kalibre på hemskärmen (dele → legg til på hemskärmen) slik at safari behåller dine data; i en flik bør du återvända minst en gång i veckan.",
+    "keyboard_note": "skjermtastaturet fungerer for tester og spill, men et bluetooth- eller usb-tastatur gjør dem rättvisare, og touch typing-leksjonene kräver virkelig et. kalibre fungerer best på en datamaskin.",
+    "keyboard_tip": " tips: legg til kalibre på hjemskjermen (dele → legg til på hjemskjermen) slik at safari behåller dine data; i en fane bør du komme tilbake minst én gang i uken.",
     "auto_accept_yes": "ja, legg til dem automatisk",
     "language_detail": {
       "en-US": "anpassad staving",
       "fr-FR": "franska (Frankrike)",
-      "zh-CN": "förenklad kinesiska"
+      "zh-CN": "forenklet kinesisk"
     }
   },
   "passkey_utils": {
     "this_browser_can_t_use": "Denne nettleseren kan ikke bruke passnøkler her (de kräver https:// eller localhost).",
-    "that_passkey_uses_a_kind": "Den passnøkkeln bruker en typ av nyckel som Kalibre ikke kan kontrollere. Prøv en annan enhet eller nettleser.",
+    "that_passkey_uses_a_kind": "Den passnøkkeln bruker en typ av nyckel som Kalibre ikke kan kontrollere. Prøv en annen enhet eller nettleser.",
     "no_passkey_for_this_profile": "Ingen passnøkkel for denne profilen fungerer på denne adressen.",
     "not_a_der_signature": "ikke en DER-signatur",
-    "not_a_der_integer": "ikke et DER-heltal",
+    "not_a_der_integer": "ikke et DER-heltall",
     "integer_too_long": "heltalet er for långt",
-    "the_passkey_request_was_cancelled": "Begäran om passnøkkel avbröts eller tog for lang tid.",
+    "the_passkey_request_was_cancelled": "Forespørselen om passnøkkel ble avbrutt eller tog for lang tid.",
     "that_device_already_has_a": "Den enheten har allerede en passnøkkel for denne profilen.",
     "passkeys_aren_t_allowed_at": "Passnøkler er ikke tillåtna på denne adressen.",
     "the_passkey_didn_t_work": "Passnyckeln fungerade ikke."
   },
   "avatar_utils": {
     "choose_an_image_file": "Velg en bildfil.",
-    "that_image_is_too_large": "Bilden er for stor (högst 20 MB).",
-    "that_image_couldn_t_be": "Bilden kunde ikke läsas.",
-    "that_image_couldn_t_be_2": "Bilden kunde ikke göras tillräckligt liten."
+    "that_image_is_too_large": "Bilden er for stor (maks 20 MB).",
+    "that_image_couldn_t_be": "Bildet kunne ikke läsas.",
+    "that_image_couldn_t_be_2": "Bildet kunne ikke gjøres lite nok."
   },
   "kalibre_folder": {
     "that_folder_was_made_by": "Den mappen ble opprettet av en nyare version av kalibre. Oppdatere denne (last om for å oppdatere) og prøv igjen."
@@ -300,11 +300,11 @@
   },
   "profile_file": {
     "this_browser_can_t_open": "Denne nettleseren kan ikke åpne komprimerade profilfiler. Prøv en gjeldende version av Chrome, Edge, Firefox eller Safari.",
-    "the_profile_file_is_damaged": "Profilfilen er skadad (den kunde ikke dekomprimeras)."
+    "the_profile_file_is_damaged": "Profilfilen er skadet (den kunde ikke dekomprimeras)."
   },
   "profile_name": {
     "email": "Det der ser ut som en e-postadress. Bruk et smeknamn i stedet.",
     "phone": "Det der ser ut som et telefonnåmmer. Bruk et smeknamn i stedet.",
-    "blocked": "Det namnet inneholder et ord som Kalibre håller borta. Försök med et annet."
+    "blocked": "Det namnet inneholder et ord som Kalibre holder borte. Prøv med et annet."
   }
 }
