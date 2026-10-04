@@ -15,7 +15,7 @@
     "improving": "Feilraten har halvert siden treningen begynte.",
     "mastered": "Nede på en fjerdedel av utgangspunktet. De går tilbake til treningen om de kommer tilbake.",
     "dismissed": "Foreslås ikke igjen om du ikke gjenoppretter dem.",
-    "watching": "Sette, men ikke tilstrekkelig ofte for å foreslås ennå. «øve nå« begynner trene et ändå.",
+    "watching": "Sett, men ikke tilstrekkelig ofte for å foreslås ennå. «øve nå« begynner trene et likevel.",
     "overview": "Var fingrarna blir feil, ritat på tastaturet, med orden og mellanslagen ved siden av. Hver rad viser feilraten over de siste testerna.",
     "all": "Hver feil som Kalibre har notert, uansett status."
   },
@@ -50,7 +50,7 @@
     "tests": "tester",
     "trend": "trend",
     "rate": "frekvens",
-    "seen": "sette"
+    "seen": "Sett"
   },
   "actions": {
     "train": "trene",
@@ -74,7 +74,7 @@
   },
   "filters": {
     "all": "alle",
-    "uncorrected": "orättade",
+    "uncorrected": "ukorrigerte",
     "corrected": "rettet"
   },
   "layouts": {
@@ -161,8 +161,8 @@
     "mirror": "samma finger, andre hånden",
     "wrongDouble": "feil bokstav dubblerad",
     "moved": "bokstav på feil plats",
-    "ending": "borttagen ändelse",
-    "autopilot": "et välbekant ord i stedet",
+    "ending": "fjernet ending",
+    "autopilot": "et velkjent ord i stedet",
     "rawSteno": "rå steno"
   },
   "describe": {
