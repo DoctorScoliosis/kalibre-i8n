@@ -1,5 +1,7 @@
 {
-  "status": { "done": "completata" },
+  "status": {
+    "done": "completata"
+  },
   "actions": {
     "swap": "cambia",
     "swap_title": "Cambia questa missione con un'altra (una volta al giorno)",
@@ -26,16 +28,16 @@
     "quest_done": "missione completata: {description}"
   },
   "match": {
-    "tests": "{count, plural, one {un test} other {test}}",
-    "drills": "{count, plural, one {un allenamento} other {allenamenti}}",
-    "time": "{count, plural, one {un test a tempo} other {test a tempo}}",
-    "words": "{count, plural, one {un test a parole} other {test a parole}}",
-    "quote": "{count, plural, one {una citazione} other {citazioni}}",
-    "book": "{count, plural, one {una lettura di libro} other {letture di libri}}",
-    "sustained": "{count, plural, one {un test sostenuto} other {test sostenuti}}",
-    "time_duration": "{count, plural, one {un test di {duration} secondi} other {test di {duration} secondi}}",
-    "words_count": "{count, plural, one {un test di {wordCount} parole} other {test di {wordCount} parole}}",
-    "quote_category": "{count, plural, one {una citazione {category}} other {citazioni {category}}}"
+    "tests": "{count, plural, one {un test} many {test} other {test}}",
+    "drills": "{count, plural, one {un allenamento} many {allenamenti} other {allenamenti}}",
+    "time": "{count, plural, one {un test a tempo} many {test a tempo} other {test a tempo}}",
+    "words": "{count, plural, one {un test a parole} many {test a parole} other {test a parole}}",
+    "quote": "{count, plural, one {una citazione} many {citazioni} other {citazioni}}",
+    "book": "{count, plural, one {una lettura di libro} many {letture di libri} other {letture di libri}}",
+    "sustained": "{count, plural, one {un test sostenuto} many {test sostenuti} other {test sostenuti}}",
+    "time_duration": "{count, plural, one {un test di {duration} secondi} many {test di {duration} secondi} other {test di {duration} secondi}}",
+    "words_count": "{count, plural, one {un test di {wordCount} parole} many {test di {wordCount} parole} other {test di {wordCount} parole}}",
+    "quote_category": "{count, plural, one {una citazione {category}} many {citazioni {category}} other {citazioni {category}}}"
   },
   "categories": {
     "short": "breve",
@@ -60,31 +62,30 @@
     "accuracy": "{accuracy}%+ di precisione",
     "and": " e ",
     "at": " a {parts}",
-    "kept_going_after": ", ha continuato per {minutes, plural, one {# minuto} other {# minuti}}",
-    "kept_going": " ha continuato per {minutes, plural, one {# minuto} other {# minuti}}"
+    "kept_going_after": ", ha continuato per {minutes, plural, one {# minuto} many {# minuti} other {# minuti}}",
+    "kept_going": " ha continuato per {minutes, plural, one {# minuto} many {# minuti} other {# minuti}}"
   },
   "describe": {
-    "words": "digita {count, plural, one {# parola} other {# parole}}",
-    "words_in": "digita {count, plural, one {# parola} other {# parole}} in {match}",
-    "minutes": "digita per {count, plural, one {# minuto} other {# minuti}}",
-    "minutes_in": "digita per {count, plural, one {# minuto} other {# minuti}} in {match}",
-    "minutes_book": "digita da un libro per {count, plural, one {# minuto} other {# minuti}}",
+    "words": "digita {count, plural, one {# parola} many {# parole} other {# parole}}",
+    "words_in": "digita {count, plural, one {# parola} many {# parole} other {# parole}} in {match}",
+    "minutes": "digita per {count, plural, one {# minuto} many {# minuti} other {# minuti}}",
+    "minutes_in": "digita per {count, plural, one {# minuto} many {# minuti} other {# minuti}} in {match}",
+    "minutes_book": "digita da un libro per {count, plural, one {# minuto} many {# minuti} other {# minuti}}",
     "tests_one": "completa {match}",
     "tests_many": "completa {count} {match}",
     "run": "completa {match}{conditions}",
-    "game_runs": "gioca a {game} {count, plural, one {una volta} other {# volte}}",
+    "game_runs": "gioca a {game} {count, plural, one {una volta} many {# volte} other {# volte}}",
     "game_score": "ottieni {score} punti in {game}",
     "game_score_difficulty": "ottieni {score} punti in {game} {difficulty}",
-    "game_found": "trova {count, plural, one {# errore} other {# errori}} in una partita di {game}",
+    "game_found": "trova {count, plural, one {# errore} many {# errori} other {# errori}} in una partita di {game}",
     "lesson_run": "completa una lezione di scrittura a tocco con almeno {accuracy}% di precisione",
-    "lessons": "{count, plural, one {fai una lezione di scrittura a tocco} other {fai # lezioni di scrittura a tocco}}",
-    "pad_tests": "{count, plural, one {completa un test del tastierino numerico} other {completa # test del tastierino numerico}}",
+    "lessons": "{count, plural, one {fai una lezione di scrittura a tocco} many {fai # lezioni di scrittura a tocco} other {fai # lezioni di scrittura a tocco}}",
+    "pad_tests": "{count, plural, one {completa un test del tastierino numerico} many {completa # test del tastierino numerico} other {completa # test del tastierino numerico}}",
     "pad_run": "completa un test del tastierino numerico",
     "pad_ksph": "{ksph}+ battute all'ora",
     "pad_entries": ", con almeno {entries} voci",
-    "pad_lessons": "{count, plural, one {fai una lezione di tastierino numerico} other {fai # lezioni di tastierino numerico}}",
-    "sums": "risolvi correttamente {count, plural, one {# somma} other {# somme}}",
+    "pad_lessons": "{count, plural, one {fai una lezione di tastierino numerico} many {fai # lezioni di tastierino numerico} other {fai # lezioni di tastierino numerico}}",
+    "sums": "risolvi correttamente {count, plural, one {# somma} many {# somme} other {# somme}}",
     "something": "qualcosa"
   }
 }
-
