@@ -27,14 +27,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 5,
+      "revision": 6,
       "version": "2026-10-04",
       "reviewed": "native",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Added the Marathon strings from Kalibre (not yet translated: other languages show them in English)",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "b0c4944db0b497a5eeb66edc1b9e2a6efb87135b1f77656452bc75d499748b68",
-      "bytes": 297147
+      "sha256": "84f53a53f1a2cf54131c698a0e2aa844893eb7a218e1751097ba9034edc9bda7",
+      "bytes": 303403
     },
     {
       "id": "es-ES",
