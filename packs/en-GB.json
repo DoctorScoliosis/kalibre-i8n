@@ -7,9 +7,9 @@
     "fallback": null,
     "lowercaseDates": true,
     "reviewed": "native",
-    "revision": 5,
+    "revision": 6,
     "version": "2026-10-04",
-    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
+    "changes": "Added the Marathon strings from Kalibre (not yet translated: other languages show them in English)"
   },
   "strings": {
     "about": {
@@ -3180,6 +3180,44 @@
         "find_mistake": "find a mistake: click a word or use the arrows, then press enter",
         "paused_fix": "{title} · press enter to carry on fixing it, or click where to start"
       },
+      "marathon": {
+        "title": "marathon",
+        "blurb": "Proofread a whole book against the clock: fixes buy time, mistakes cost it.",
+        "modes": {
+          "prompted": "proofread a book"
+        },
+        "setup": {
+          "source_label": "book",
+          "loading": "finding books that fit…",
+          "none": "no book in your datasets is {min}–{max} words for {difficulty}. the library in texts → datasets has shorter works.",
+          "unavailable": "that book couldn’t be loaded. pick another, or try again.",
+          "words": "{count, plural, one {# word} other {# words}}",
+          "pages": "{count, plural, one {# page} other {# pages}}",
+          "estimate": "about {minutes} min",
+          "by": "by {author}",
+          "list_aria": "books long enough for a marathon",
+          "details_aria": "the chosen book"
+        },
+        "hud": {
+          "time_aria": "time left",
+          "page": "page {page} of {pages}",
+          "page_found": "found {found} of {total} on this page",
+          "progress_aria": "how much of the book is cleared",
+          "gained": "+{seconds}s",
+          "lost": "−{seconds}s"
+        },
+        "summary": {
+          "score": "score",
+          "cleared": "pages",
+          "time_left": "time left",
+          "repaired": "repaired",
+          "missed": "shown",
+          "penalties": "penalties",
+          "book": "book",
+          "difficulty": "difficulty",
+          "pages": "{cleared}/{pages}"
+        }
+      },
       "ui": {
         "pause": "pause",
         "paused": "paused",
@@ -4298,6 +4336,112 @@
                   },
                   "clean-sweep": {
                     "label": "clean sweep bonus"
+                  }
+                }
+              }
+            }
+          },
+          "marathon": {
+            "help": [
+              "A whole book, page by page. Find each planted mistake (click a word or use the arrows, then Enter) and fix it in place.",
+              "Every repair adds time and every false flag or wrong repair takes some. When the clock reaches zero the run is over.",
+              "A page clears once all its mistakes are fixed or shown; clear the last page with time left to win."
+            ],
+            "contexts": {
+              "getting-started": {
+                "label": "getting started",
+                "group": "getting started",
+                "summary": "proofread a whole book from your library, page by page, before the time runs out.",
+                "highlights": [
+                  "pick a book between the difficulty’s minimum and 5,000 words",
+                  "each page clears once every mistake on it is fixed or shown"
+                ],
+                "details": [
+                  "books come from the datasets you have switched on; the full text is fetched once and kept.",
+                  "there is no skipping: a page stays until its mistakes are dealt with.",
+                  "ending the run early counts as a loss."
+                ],
+                "mechanics": {
+                  "pages": {
+                    "label": "pages",
+                    "summary": "about 150 words a page, with a mistake every 50, 40 or 30 words by difficulty."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "move between words"
+                  },
+                  "i1": {
+                    "action": "flag the selected word, or commit a fix"
+                  }
+                },
+                "visuals": {
+                  "page-progress": {
+                    "label": "page progress"
+                  },
+                  "time-bank": {
+                    "label": "time bank"
+                  }
+                }
+              },
+              "time-bank": {
+                "label": "time bank",
+                "group": "surviving",
+                "summary": "the clock only runs during play. repairs add time, mistakes take it, and zero ends the run at once.",
+                "highlights": [
+                  "a repair adds 48, 34 or 29 seconds by difficulty",
+                  "a false flag or a wrong repair costs time"
+                ],
+                "details": [
+                  "easy starts with 4 minutes, normal 3 and hard 2; the bank holds at most 7, 5 or 4.",
+                  "two wrong tries show the answer: the page can move on, but it counts as a miss.",
+                  "selecting words and moving the caret never cost time."
+                ],
+                "mechanics": {
+                  "reward": {
+                    "label": "repairs",
+                    "summary": "each fix adds time, up to the bank’s limit."
+                  },
+                  "penalty": {
+                    "label": "mistakes",
+                    "summary": "a false flag costs 4, 9 or 12 seconds; a wrong repair 5, 12 or 15."
+                  }
+                },
+                "visuals": {
+                  "time-gain": {
+                    "label": "time gained"
+                  },
+                  "time-loss": {
+                    "label": "time lost"
+                  }
+                }
+              },
+              "scoring": {
+                "label": "scoring",
+                "group": "surviving",
+                "summary": "the score is out of 1000: mostly how cleanly you fixed the book, plus the time you had left.",
+                "highlights": [
+                  "80% for repairs over every mistake, false flag and wrong repair",
+                  "20% for the time left at the end"
+                ],
+                "details": [
+                  "a perfect run that ends with a full bank scores 1000.",
+                  "shown answers are misses, not repairs.",
+                  "a run that runs out of time scores only for the part of the book it cleared."
+                ],
+                "mechanics": {
+                  "quality": {
+                    "label": "quality",
+                    "summary": "repairs divided by mistakes planted, false flags and wrong repairs."
+                  },
+                  "time": {
+                    "label": "time",
+                    "summary": "time left over the bank’s limit; nothing when the run fails."
+                  }
+                },
+                "visuals": {
+                  "final-score": {
+                    "label": "final score"
                   }
                 }
               }
