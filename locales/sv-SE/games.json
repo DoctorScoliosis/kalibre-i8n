@@ -1208,7 +1208,263 @@
             }
           }
         }
+      },
+      "spot": {
+        "options": {
+          "variant": {
+            "label": "spela",
+            "choices": {
+              "timed": {
+                "label": "tidsbegränsat"
+              },
+              "endless": {
+                "label": "ändlöst"
+              },
+              "marathon": {
+                "label": "maraton"
+              },
+              "scroller": {
+                "label": "rullband"
+              }
+            }
+          },
+          "duration": {
+            "label": "tid"
+          }
+        },
+        "help": [
+          "Peka på ett ord eller flytta med ← → (↑ ↓ radvis); klicka på det eller tryck Retur om det är fel.",
+          "Ordet ligger kvar på plats: rätta det där (← → Home End flyttar markören, eller klicka i ordet) och tryck Retur. Stavning, interpunktion, versaler och mellanslag räknas.",
+          "Skift+Retur ger upp om ett textavsnitt och går vidare till nästa.",
+          "Att hitta och rätta poängsätts separat; att markera ett korrekt ord kostar poäng."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "komma igång",
+            "group": "komma igång",
+            "summary": "hitta misstagen som planterats i ett textavsnitt och rätta dem.",
+            "highlights": [
+              "peka på ett ord eller navigera med piltangenterna",
+              "tryck retur för att markera ett misstag och skriv sedan rättningen"
+            ],
+            "details": [
+              "textavsnitt kommer från böcker i ditt bibliotek. varje avsnitt har flera planterade fel.",
+              "skift+retur ger upp om ett textavsnitt och går vidare till nästa.",
+              "felen omfattar stavning, interpunktion, versaler, ljudlika ord och bokstavsfel."
+            ],
+            "mechanics": {
+              "errors": {
+                "label": "feltyper",
+                "summary": "stavning, interpunktion, versaler, ljudlika ord och bokstavsfel."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flytta mellan ord"
+              },
+              "i1": {
+                "action": "flytta mellan rader"
+              },
+              "i2": {
+                "action": "markera ett ord som felaktigt"
+              },
+              "i3": {
+                "action": "hoppa till nästa textavsnitt"
+              }
+            },
+            "visuals": {
+              "passage-line": {
+                "label": "textavsnitt"
+              },
+              "planted-error": {
+                "label": "planterat fel"
+              }
+            }
+          },
+          "finding-mistakes": {
+            "label": "hitta misstag",
+            "group": "överlevnad",
+            "summary": "skanna textavsnittet, välj ett ord du tror är fel och tryck retur för att markera det.",
+            "highlights": [
+              "håll muspekaren över ett ord eller använd piltangenterna för att välja det",
+              "att markera ett korrekt ord kostar poäng"
+            ],
+            "details": [
+              "flytta med ← → ord för ord eller ↑ ↓ rad för rad. klicka eller håll muspekaren över för att hoppa.",
+              "att hitta och rätta poängsätts separat.",
+              "ett ord som egentligen är korrekt och markeras som fel räknas som en felmarkering och kostar poäng."
+            ],
+            "mechanics": {
+              "selection": {
+                "label": "ordval",
+                "summary": "håll muspekaren över, klicka eller använd piltangenterna för att välja ett ord."
+              },
+              "false-flag": {
+                "label": "felmarkeringar",
+                "summary": "att markera ett korrekt ord kostar poäng och (i ändlöst läge) tid."
+              },
+              "marathon": {
+                "label": "maratonuthållighet",
+                "summary": "börja med 3 liv. felmarkeringar och misslyckade rättningar kostar ett liv; tre felfria textavsnitt återställer ett."
+              },
+              "scroller": {
+                "label": "rullbandsläge",
+                "summary": "textavsnitt rullar kontinuerligt förbi på ett rullband. fånga misstagen innan de försvinner från skärmen."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flytta mellan ord"
+              },
+              "i1": {
+                "action": "flytta mellan rader"
+              },
+              "i2": {
+                "action": "markera det valda ordet"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "skanna textavsnitt"
+              },
+              "i1": {
+                "label": "maratonuthållighet"
+              },
+              "i2": {
+                "label": "rullband"
+              }
+            },
+            "visuals": {
+              "selected-word": {
+                "label": "valt ord"
+              },
+              "hover-cursor": {
+                "label": "muspekarmarkör"
+              },
+              "false-flag-penalty": {
+                "label": "straff för felmarkering"
+              },
+              "marathon-lives": {
+                "label": "maratonliv"
+              },
+              "scroller-belt": {
+                "label": "rullband"
+              }
+            }
+          },
+          "correcting-mistakes": {
+            "label": "rätta misstag",
+            "group": "överlevnad",
+            "summary": "det markerade ordet ligger kvar på plats. rätta det där och tryck retur för att genomföra rättningen.",
+            "highlights": [
+              "ordet redigeras direkt i textavsnittet",
+              "flytta markören med piltangenterna eller klicka inuti ordet"
+            ],
+            "details": [
+              "använd ← → för att flytta markören, Home och End för att hoppa. Delete och backsteg fungerar som vanligt.",
+              "klicka i ordet för att placera markören på en viss position.",
+              "du får två försök. om båda misslyckas visas det korrekta ordet.",
+              "tryck Escape för att avbryta en rättning utan straff."
+            ],
+            "mechanics": {
+              "caret": {
+                "label": "markörredigering",
+                "summary": "flytta markören inuti ordet för att redigera enskilda tecken."
+              },
+              "retries": {
+                "label": "rättningsförsök",
+                "summary": "två försök att rätta ett ord. efter två misslyckanden visas svaret."
+              },
+              "cancel": {
+                "label": "avbryt",
+                "summary": "Escape avbryter en rättning utan straff."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flytta markören inuti ordet"
+              },
+              "i1": {
+                "action": "markör till början av ordet"
+              },
+              "i2": {
+                "action": "markör till slutet av ordet"
+              },
+              "i3": {
+                "action": "genomför rättningen"
+              },
+              "i4": {
+                "action": "avbryt rättningen"
+              },
+              "i5": {
+                "action": "radera framåt"
+              }
+            },
+            "visuals": {
+              "inline-caret": {
+                "label": "inline-markör"
+              },
+              "in-place-edit": {
+                "label": "redigera på plats"
+              },
+              "attempt-limit": {
+                "label": "gräns på 2 försök"
+              }
+            }
+          },
+          "scoring": {
+            "label": "poängsättning",
+            "group": "överlevnad",
+            "summary": "att hitta och rätta poängsätts separat. tidsbegränsat läge har en fast klocka; ändlöst läge fyller på vid rättningar.",
+            "highlights": [
+              "upptäckts_poäng: hur många fel du hittade",
+              "rättningspoäng: hur träffsäkert du rättade dem"
+            ],
+            "details": [
+              "tidsbegränsat läge: en fast tid räknas ner. hitta och rätta så många du kan.",
+              "ändlöst läge: tiden minskar kontinuerligt. varje lyckad rättning fyller på banken. felmarkeringar kostar tid.",
+              "en ren svepning registreras när alla fel i ett textavsnitt är rättade utan felmarkeringar."
+            ],
+            "notes": {
+              "hard": {
+                "text": "felen är subtilare och timern är kortare."
+              }
+            },
+            "mechanics": {
+              "detection": {
+                "label": "upptäckt",
+                "summary": "poängsätts efter precision och återkallelse — hur många riktiga fel du hittade jämfört med felmarkeringar."
+              },
+              "repair": {
+                "label": "rättning",
+                "summary": "poängsätts efter hur träffsäkert du rättade de markerade orden."
+              },
+              "sweep": {
+                "label": "ren svepning",
+                "summary": "alla fel rättade, inga felmarkeringar, i ett enda textavsnitt."
+              }
+            },
+            "visuals": {
+              "detection-score": {
+                "label": "upptäcktspoäng"
+              },
+              "repair-score": {
+                "label": "rättningspoäng"
+              },
+              "clean-sweep": {
+                "label": "bonus för ren svepning"
+              }
+            }
+          }
+        }
       }
-    }
+    },
+    "STRENGTH_MECHANIC": {
+      "strength": {
+        "label": "styrka",
+        "summary": "skrivträffsäkerheten avgör ordets styrka. 1 per bokstav, +1 för K V W Y, +2 för J Q X Z. på svår räknas nära varianter av nyliga ord mindre."
+      }
+    },
+    "minutes_choice": "{count} min"
   }
 }
