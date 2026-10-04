@@ -12,7 +12,7 @@
   },
   "candidate": {
     "prompt_label": "treningsforslag",
-    "body": "Du fortsetter att skrive {word} · {count, plural, one {# gang} other {# ganger}} under {sessions, plural, one {# økt} other {# økter}}.",
+    "body": "Du fortsetter å skrive {word} · {count, plural, one {# gang} other {# ganger}} over {sessions, plural, one {# økt} other {# økter}}.",
     "train": "trene",
     "dismiss": "avvis",
     "later": "senere",
@@ -52,7 +52,7 @@
   },
   "result_chart": {
     "per_second_results": "resultat per sekund",
-    "not_enough_typing_to_draw": "Ikke tilstrekkelig med skriving for att rita ett diagram.",
+    "not_enough_typing_to_draw": "Ikke nok skriving til å tegne et diagram.",
     "chart_zoom": "diagramzoom",
     "speed_over_time_use_the": "Hastighet over tid. Bruk venstre- og høyrepilene for å lese hvert sekund."
   },
