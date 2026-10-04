@@ -91,188 +91,531 @@
     "progress_suffix": " ({have} av {need})",
     "secret_hint": "en hemlighet: fortsätt spela"
   },
-  "first-test": {"name": "första stegen"},
-  "tests-10": {"name": "uppvärmning"},
-  "tests-100": {"name": "hundra inne"},
-  "tests-500": {"name": "femhundra"},
-  "tests-1000": {"name": "tusen inne"},
-  "wpm-40": {"name": "stadiga händer"},
-  "wpm-50": {"name": "hitta rytmen"},
-  "wpm-60": {"name": "snabba fingrar"},
-  "wpm-70": {"name": "rask"},
-  "wpm-80": {"name": "snabb"},
-  "wpm-100": {"name": "tresiffrigt"},
-  "wpm-120": {"name": "en suddig rörelse"},
-  "wpm-150": {"name": "blixtsnabb"},
-  "perfect-30": {"name": "trettio rena sekunder"},
-  "perfect-minute": {"name": "en fläckfri minut"},
-  "perfect-2min": {"name": "två fläckfria minuter"},
-  "hours-1": {"name": "den första timmen"},
-  "hours-10": {"name": "tio timmar"},
-  "hours-50": {"name": "femtio timmar"},
-  "hours-100": {"name": "hundra timmar"},
-  "words-10k": {"name": "tiotusen ord"},
-  "words-100k": {"name": "hundratusen ord"},
-  "words-1m": {"name": "en miljon ord"},
-  "days-10": {"name": "tio dagar inne"},
-  "days-50": {"name": "femtio dagar inne"},
-  "days-100": {"name": "hundra dagar inne"},
-  "days-365": {"name": "ett år av dagar"},
-  "sustained-1": {"name": "håll igång"},
-  "sustained-3": {"name": "hålla ut"},
-  "sustained-10": {"name": "uthållighet"},
-  "sustained-20": {"name": "långa loppet"},
-  "sustained-30": {"name": "uthållighetsträning"},
-  "sustained-total-60": {"name": "en timme, uthålligt"},
-  "sustained-total-300": {"name": "fem timmar, uthålligt"},
-  "book-finished": {"name": "till sista sidan"},
-  "books-5": {"name": "släppte den aldrig"},
-  "mastered-1": {"name": "fixade det"},
-  "mastered-5": {"name": "lagade det"},
-  "mastered-25": {"name": "lagat"},
-  "mastered-100": {"name": "som nytt"},
-  "mastered-250": {"name": "inget kvar att fixa"},
-  "drills-1": {"name": "första övningen"},
-  "drills-10": {"name": "välövad"},
-  "drills-100": {"name": "övning ger färdighet"},
-  "first-lesson": {"name": "första lektionen"},
-  "lessons-10": {"name": "tio lektioner"},
-  "stage-1": {"name": "hemmarad"},
-  "stage-2": {"name": "översta raden"},
-  "stage-3": {"name": "tre rader"},
-  "stage-4": {"name": "versaler"},
-  "stage-5": {"name": "med siffror"},
-  "stage-6": {"name": "flytande"},
-  "all-lessons": {"name": "touch typist"},
-  "stage-1-started": {"name": "börjar med hemmaraden"},
-  "stage-2-started": {"name": "börjar med översta raden"},
-  "stage-3-started": {"name": "börjar med nedersta raden"},
-  "stage-4-started": {"name": "börjar med versaler"},
-  "stage-5-started": {"name": "börjar med siffror"},
-  "stage-6-started": {"name": "börjar med flyt"},
-  "last-lesson": {"name": "till sista lektionen"},
-  "first-step": {"name": "mjukstart"},
-  "stepped-lesson": {"name": "hela vägen steg för steg"},
-  "stepped-10": {"name": "väl inskolad"},
-  "first-warmup": {"name": "uppvärmd"},
-  "warmup-mastery": {"name": "rakt igenom"},
-  "step-again": {"name": "på väg"},
-  "every-game": {"name": "provade alla"},
-  "every-game-10": {"name": "stamgäst"},
-  "every-game-50": {"name": "hängiven"},
-  "games-100": {"name": "spelläget är på"},
-  "space-2000": {"name": "esspilot"},
-  "space-5000": {"name": "toppilot"},
-  "castle-normal": {"name": "hålla murarna"},
-  "castle-hard": {"name": "slottsväktare"},
-  "spot-20": {"name": "örnöga"},
-  "spot-50": {"name": "hököga"},
-  "feed-30": {"name": "välmatad"},
-  "feed-10min": {"name": "en lång lunch"},
-  "hard-win": {"name": "den svåra vägen"},
-  "castle-easy": {"name": "första genombrottet"},
-  "space-win": {"name": "skrovet intakt"},
-  "space-hard-win": {"name": "pansarskrov"},
-  "spot-total-100": {"name": "rättningar totalt"},
-  "spot-chief": {"name": "chefredaktör"},
-  "buffet-host": {"name": "buffévärd"},
-  "full-house": {"name": "fullt hus"},
-  "no-hints": {"name": "inga ledtrådar behövs"},
-  "station-down": {"name": "station nere"},
-  "shrapnel-storm": {"name": "splitterstorm"},
-  "stacked": {"name": "staplat"},
-  "autopilot-ace": {"name": "autopilotproffs"},
-  "dazed": {"name": "yr och förvirrad"},
-  "spoils-of-war": {"name": "krigsbyte"},
-  "clean-sweep": {"name": "rent bord"},
-  "beam-overload": {"name": "överbelastad stråle"},
-  "flagship-down": {"name": "flaggskeppet nere"},
-  "keg-defused": {"name": "fat desarmerat"},
-  "ladder-toppled": {"name": "stegen vält"},
-  "sortie-master": {"name": "sortieproffs"},
-  "marathon-master": {"name": "maratonproffs"},
-  "scroller-streak": {"name": "rullbandsvit"},
-  "race-first": {"name": "på era platser"},
-  "race-solo-win": {"name": "först till mållinjen"},
-  "race-hard-win": {"name": "körde om dem båda"},
-  "race-network-win": {"name": "snabbast i rummet"},
-  "race-last-standing": {"name": "sist kvar"},
-  "race-every-mode": {"name": "seger i varje fil"},
-  "streak-3": {"name": "tre i rad"},
-  "streak-7": {"name": "en vecka av det"},
-  "streak-14": {"name": "två veckor av det"},
-  "streak-30": {"name": "en månad av det"},
-  "streak-100": {"name": "hundra dagar av det"},
-  "streak-365": {"name": "ett år av det"},
-  "level-5": {"name": "nivå 5"},
-  "level-10": {"name": "nivå 10"},
-  "level-15": {"name": "nivå 15"},
-  "level-20": {"name": "nivå 20"},
-  "level-30": {"name": "nivå 30"},
-  "level-40": {"name": "nivå 40"},
-  "level-50": {"name": "nivå 50"},
-  "quests-10": {"name": "på uppdrag"},
-  "quests-25": {"name": "uppdragsinriktad"},
-  "quests-100": {"name": "på uppdrag"},
-  "quests-500": {"name": "ett liv av uppdrag"},
-  "challenges-10": {"name": "redo för det"},
-  "challenges-50": {"name": "utmanare"},
-  "challenges-100": {"name": "ger aldrig upp"},
-  "full-days-7": {"name": "ett fullt set"},
-  "full-days-30": {"name": "trettio fulla dagar"},
-  "first-text": {"name": "dina egna ord"},
-  "texts-3": {"name": "några egna"},
-  "texts-10": {"name": "ett litet bibliotek"},
-  "texts-25": {"name": "en bokhylla"},
-  "page-text": {"name": "en egen sida"},
-  "long-text": {"name": "en lång läsning"},
-  "epic-text": {"name": "ett epos"},
-  "pets-1": {"name": "hej där"},
-  "pets-25": {"name": "duktig tangentkåpa"},
-  "pets-100": {"name": "bästa vänner"},
-  "pets-500": {"name": "oskiljaktiga"},
-  "pokes-1": {"name": "boop"},
-  "pokes-100": {"name": "peta, peta, peta"},
-  "tickles-1": {"name": "kittlig"},
-  "tickles-25": {"name": "fnitterattack"},
-  "tickles-250": {"name": "ingen nåd"},
-  "wardrobe-10": {"name": "klä upp sig"},
-  "wardrobe-25": {"name": "en full garderob"},
-  "all-slots": {"name": "klädd till tänderna"},
-  "decorations-1": {"name": "lite stil"},
-  "decorations-5": {"name": "dekoratör"},
-  "decorations-10": {"name": "inredningsdesigner"},
-  "decorations-all": {"name": "alla detaljer"},
-  "decoration-kinds": {"name": "en av varje"},
-  "decorated": {"name": "gjorde det till mitt"},
-  "fully-decorated": {"name": "alla detaljer"},
-  "pad-first": {"name": "första remsan"},
-  "pad-tests-25": {"name": "bokhållare"},
-  "pad-speed-5000": {"name": "stadiga händer"},
-  "pad-speed-8000": {"name": "snabb på tangentbordet"},
-  "pad-speed-10000": {"name": "tiotusen i timmen"},
-  "pad-perfect": {"name": "balanserade böcker"},
-  "pad-lesson-1": {"name": "hemmatangenter"},
-  "pad-lessons-all": {"name": "hela tangentbordet"},
-  "pad-sums-100": {"name": "bra på siffror"},
-  "pad-sums-perfect": {"name": "ingen miniräknare behövs"},
-  "pad-sums-level-5": {"name": "auktoriserad"},
-  "pad-till-25": {"name": "stamkunder"},
-  "pad-till-60": {"name": "kön tar aldrig slut"},
-  "pad-keys-10000": {"name": "tiotusen tangenttryckningar"},
-  "night-owl": {"name": "nattuggla"},
-  "moonlighter": {"name": "nattjobbare"},
-  "early-bird": {"name": "morgonfågel"},
-  "flawless": {"name": "felfri"},
-  "marathon": {"name": "maraton"},
-  "first-try": {"name": "första försöket"},
-  "pets-1000": {"name": "hängiven"},
-  "poke-fit": {"name": "det räcker"},
-  "restarts-3": {"name": "déjà vu"},
-  "restarts-7": {"name": "måndag hela veckan"},
-  "restarts-15": {"name": "av och på igen"},
-  "arm-lift": {"name": "en hjälpande hand"},
-  "word-bomb": {"name": "gå nukleärt"},
+  "first-test": {
+    "name": "första stegen"
+  },
+  "tests-10": {
+    "name": "uppvärmning"
+  },
+  "tests-100": {
+    "name": "hundra inne"
+  },
+  "tests-500": {
+    "name": "femhundra"
+  },
+  "tests-1000": {
+    "name": "tusen inne"
+  },
+  "wpm-40": {
+    "name": "stadiga händer"
+  },
+  "wpm-50": {
+    "name": "hitta rytmen"
+  },
+  "wpm-60": {
+    "name": "snabba fingrar"
+  },
+  "wpm-70": {
+    "name": "rask"
+  },
+  "wpm-80": {
+    "name": "snabb"
+  },
+  "wpm-100": {
+    "name": "tresiffrigt"
+  },
+  "wpm-120": {
+    "name": "en suddig rörelse"
+  },
+  "wpm-150": {
+    "name": "blixtsnabb"
+  },
+  "perfect-30": {
+    "name": "trettio rena sekunder"
+  },
+  "perfect-minute": {
+    "name": "en fläckfri minut"
+  },
+  "perfect-2min": {
+    "name": "två fläckfria minuter"
+  },
+  "hours-1": {
+    "name": "den första timmen"
+  },
+  "hours-10": {
+    "name": "tio timmar"
+  },
+  "hours-50": {
+    "name": "femtio timmar"
+  },
+  "hours-100": {
+    "name": "hundra timmar"
+  },
+  "words-10k": {
+    "name": "tiotusen ord"
+  },
+  "words-100k": {
+    "name": "hundratusen ord"
+  },
+  "words-1m": {
+    "name": "en miljon ord"
+  },
+  "days-10": {
+    "name": "tio dagar inne"
+  },
+  "days-50": {
+    "name": "femtio dagar inne"
+  },
+  "days-100": {
+    "name": "hundra dagar inne"
+  },
+  "days-365": {
+    "name": "ett år av dagar"
+  },
+  "sustained-1": {
+    "name": "håll igång"
+  },
+  "sustained-3": {
+    "name": "hålla ut"
+  },
+  "sustained-10": {
+    "name": "uthållighet"
+  },
+  "sustained-20": {
+    "name": "långa loppet"
+  },
+  "sustained-30": {
+    "name": "uthållighetsträning"
+  },
+  "sustained-total-60": {
+    "name": "en timme, uthålligt"
+  },
+  "sustained-total-300": {
+    "name": "fem timmar, uthålligt"
+  },
+  "book-finished": {
+    "name": "till sista sidan"
+  },
+  "books-5": {
+    "name": "släppte den aldrig"
+  },
+  "mastered-1": {
+    "name": "fixade det"
+  },
+  "mastered-5": {
+    "name": "lagade det"
+  },
+  "mastered-25": {
+    "name": "lagat"
+  },
+  "mastered-100": {
+    "name": "som nytt"
+  },
+  "mastered-250": {
+    "name": "inget kvar att fixa"
+  },
+  "drills-1": {
+    "name": "första övningen"
+  },
+  "drills-10": {
+    "name": "välövad"
+  },
+  "drills-100": {
+    "name": "övning ger färdighet"
+  },
+  "first-lesson": {
+    "name": "första lektionen"
+  },
+  "lessons-10": {
+    "name": "tio lektioner"
+  },
+  "stage-1": {
+    "name": "hemmarad"
+  },
+  "stage-2": {
+    "name": "översta raden"
+  },
+  "stage-3": {
+    "name": "tre rader"
+  },
+  "stage-4": {
+    "name": "versaler"
+  },
+  "stage-5": {
+    "name": "med siffror"
+  },
+  "stage-6": {
+    "name": "flytande"
+  },
+  "all-lessons": {
+    "name": "touch typist"
+  },
+  "stage-1-started": {
+    "name": "börjar med hemmaraden"
+  },
+  "stage-2-started": {
+    "name": "börjar med översta raden"
+  },
+  "stage-3-started": {
+    "name": "börjar med nedersta raden"
+  },
+  "stage-4-started": {
+    "name": "börjar med versaler"
+  },
+  "stage-5-started": {
+    "name": "börjar med siffror"
+  },
+  "stage-6-started": {
+    "name": "börjar med flyt"
+  },
+  "last-lesson": {
+    "name": "till sista lektionen"
+  },
+  "first-step": {
+    "name": "mjukstart"
+  },
+  "stepped-lesson": {
+    "name": "hela vägen steg för steg"
+  },
+  "stepped-10": {
+    "name": "väl inskolad"
+  },
+  "first-warmup": {
+    "name": "uppvärmd"
+  },
+  "warmup-mastery": {
+    "name": "rakt igenom"
+  },
+  "step-again": {
+    "name": "på väg"
+  },
+  "every-game": {
+    "name": "provade alla"
+  },
+  "every-game-10": {
+    "name": "stamgäst"
+  },
+  "every-game-50": {
+    "name": "hängiven"
+  },
+  "games-100": {
+    "name": "spelläget är på"
+  },
+  "space-2000": {
+    "name": "esspilot"
+  },
+  "space-5000": {
+    "name": "toppilot"
+  },
+  "castle-normal": {
+    "name": "hålla murarna"
+  },
+  "castle-hard": {
+    "name": "slottsväktare"
+  },
+  "spot-20": {
+    "name": "örnöga"
+  },
+  "spot-50": {
+    "name": "hököga"
+  },
+  "feed-30": {
+    "name": "välmatad"
+  },
+  "feed-10min": {
+    "name": "en lång lunch"
+  },
+  "hard-win": {
+    "name": "den svåra vägen"
+  },
+  "castle-easy": {
+    "name": "första genombrottet"
+  },
+  "space-win": {
+    "name": "skrovet intakt"
+  },
+  "space-hard-win": {
+    "name": "pansarskrov"
+  },
+  "spot-total-100": {
+    "name": "rättningar totalt"
+  },
+  "spot-chief": {
+    "name": "chefredaktör"
+  },
+  "buffet-host": {
+    "name": "buffévärd"
+  },
+  "full-house": {
+    "name": "fullt hus"
+  },
+  "no-hints": {
+    "name": "inga ledtrådar behövs"
+  },
+  "station-down": {
+    "name": "station nere"
+  },
+  "shrapnel-storm": {
+    "name": "splitterstorm"
+  },
+  "stacked": {
+    "name": "staplat"
+  },
+  "autopilot-ace": {
+    "name": "autopilotproffs"
+  },
+  "dazed": {
+    "name": "yr och förvirrad"
+  },
+  "spoils-of-war": {
+    "name": "krigsbyte"
+  },
+  "clean-sweep": {
+    "name": "rent bord"
+  },
+  "race-first": {
+    "name": "på era platser"
+  },
+  "race-solo-win": {
+    "name": "först till mållinjen"
+  },
+  "race-hard-win": {
+    "name": "körde om dem båda"
+  },
+  "race-network-win": {
+    "name": "snabbast i rummet"
+  },
+  "race-last-standing": {
+    "name": "sist kvar"
+  },
+  "race-every-mode": {
+    "name": "seger i varje fil"
+  },
+  "streak-3": {
+    "name": "tre i rad"
+  },
+  "streak-7": {
+    "name": "en vecka av det"
+  },
+  "streak-14": {
+    "name": "två veckor av det"
+  },
+  "streak-30": {
+    "name": "en månad av det"
+  },
+  "streak-100": {
+    "name": "hundra dagar av det"
+  },
+  "streak-365": {
+    "name": "ett år av det"
+  },
+  "level-5": {
+    "name": "nivå 5"
+  },
+  "level-10": {
+    "name": "nivå 10"
+  },
+  "level-15": {
+    "name": "nivå 15"
+  },
+  "level-20": {
+    "name": "nivå 20"
+  },
+  "level-30": {
+    "name": "nivå 30"
+  },
+  "level-40": {
+    "name": "nivå 40"
+  },
+  "level-50": {
+    "name": "nivå 50"
+  },
+  "quests-10": {
+    "name": "på uppdrag"
+  },
+  "quests-25": {
+    "name": "uppdragsinriktad"
+  },
+  "quests-100": {
+    "name": "på uppdrag"
+  },
+  "quests-500": {
+    "name": "ett liv av uppdrag"
+  },
+  "challenges-10": {
+    "name": "redo för det"
+  },
+  "challenges-50": {
+    "name": "utmanare"
+  },
+  "challenges-100": {
+    "name": "ger aldrig upp"
+  },
+  "full-days-7": {
+    "name": "ett fullt set"
+  },
+  "full-days-30": {
+    "name": "trettio fulla dagar"
+  },
+  "first-text": {
+    "name": "dina egna ord"
+  },
+  "texts-3": {
+    "name": "några egna"
+  },
+  "texts-10": {
+    "name": "ett litet bibliotek"
+  },
+  "texts-25": {
+    "name": "en bokhylla"
+  },
+  "page-text": {
+    "name": "en egen sida"
+  },
+  "long-text": {
+    "name": "en lång läsning"
+  },
+  "epic-text": {
+    "name": "ett epos"
+  },
+  "pets-1": {
+    "name": "hej där"
+  },
+  "pets-25": {
+    "name": "duktig tangentkåpa"
+  },
+  "pets-100": {
+    "name": "bästa vänner"
+  },
+  "pets-500": {
+    "name": "oskiljaktiga"
+  },
+  "pokes-1": {
+    "name": "boop"
+  },
+  "pokes-100": {
+    "name": "peta, peta, peta"
+  },
+  "tickles-1": {
+    "name": "kittlig"
+  },
+  "tickles-25": {
+    "name": "fnitterattack"
+  },
+  "tickles-250": {
+    "name": "ingen nåd"
+  },
+  "wardrobe-10": {
+    "name": "klä upp sig"
+  },
+  "wardrobe-25": {
+    "name": "en full garderob"
+  },
+  "all-slots": {
+    "name": "klädd till tänderna"
+  },
+  "decorations-1": {
+    "name": "lite stil"
+  },
+  "decorations-5": {
+    "name": "dekoratör"
+  },
+  "decorations-10": {
+    "name": "inredningsdesigner"
+  },
+  "decorations-all": {
+    "name": "alla detaljer"
+  },
+  "decoration-kinds": {
+    "name": "en av varje"
+  },
+  "decorated": {
+    "name": "gjorde det till mitt"
+  },
+  "fully-decorated": {
+    "name": "alla detaljer"
+  },
+  "pad-first": {
+    "name": "första remsan"
+  },
+  "pad-tests-25": {
+    "name": "bokhållare"
+  },
+  "pad-speed-5000": {
+    "name": "stadiga händer"
+  },
+  "pad-speed-8000": {
+    "name": "snabb på tangentbordet"
+  },
+  "pad-speed-10000": {
+    "name": "tiotusen i timmen"
+  },
+  "pad-perfect": {
+    "name": "balanserade böcker"
+  },
+  "pad-lesson-1": {
+    "name": "hemmatangenter"
+  },
+  "pad-lessons-all": {
+    "name": "hela tangentbordet"
+  },
+  "pad-sums-100": {
+    "name": "bra på siffror"
+  },
+  "pad-sums-perfect": {
+    "name": "ingen miniräknare behövs"
+  },
+  "pad-sums-level-5": {
+    "name": "auktoriserad"
+  },
+  "pad-till-25": {
+    "name": "stamkunder"
+  },
+  "pad-till-60": {
+    "name": "kön tar aldrig slut"
+  },
+  "pad-keys-10000": {
+    "name": "tiotusen tangenttryckningar"
+  },
+  "night-owl": {
+    "name": "nattuggla"
+  },
+  "moonlighter": {
+    "name": "nattjobbare"
+  },
+  "early-bird": {
+    "name": "morgonfågel"
+  },
+  "flawless": {
+    "name": "felfri"
+  },
+  "marathon": {
+    "name": "maraton"
+  },
+  "first-try": {
+    "name": "första försöket"
+  },
+  "pets-1000": {
+    "name": "hängiven"
+  },
+  "poke-fit": {
+    "name": "det räcker"
+  },
+  "restarts-3": {
+    "name": "déjà vu"
+  },
+  "restarts-7": {
+    "name": "måndag hela veckan"
+  },
+  "restarts-15": {
+    "name": "av och på igen"
+  },
+  "arm-lift": {
+    "name": "en hjälpande hand"
+  },
+  "word-bomb": {
+    "name": "gå nukleärt"
+  },
   "achievement_badges": {
     "secret": "hemlig",
     "kind": "{kind}",
