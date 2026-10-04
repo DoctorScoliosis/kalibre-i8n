@@ -5,32 +5,32 @@
       "none": "ingen hatt"
     },
     "face": {
-      "label": "ansikte",
-      "none": "klassiskt ansikte"
+      "label": "ansikt",
+      "none": "klassisk ansikt"
     },
     "necklace": {
-      "label": "halsband",
-      "none": "ingenting halsband"
+      "label": "halskjede",
+      "none": "intet halskjede"
     },
     "braceletLeft": {
-      "label": "venstre handled",
-      "none": "bar handled"
+      "label": "venstre håndledd",
+      "none": "bart håndledd"
     },
     "braceletRight": {
-      "label": "høyre handled",
-      "none": "bar handled"
+      "label": "høyre håndledd",
+      "none": "bart håndledd"
     },
     "pants": {
-      "label": "byxor",
-      "none": "inga byxor"
+      "label": "bukser",
+      "none": "ingen bukser"
     },
     "background": {
-      "label": "bakgrund",
-      "none": "ingen bakgrund"
+      "label": "bakgrunn",
+      "none": "ingen bakgrunn"
     },
     "heart": {
-      "label": "hjärta",
-      "none": "enkelt hjärta"
+      "label": "hjerte",
+      "none": "enkelt hjerte"
     },
     "ring": {
       "label": "ring",
@@ -41,103 +41,103 @@
     "name": "partyhatt"
   },
   "beanie": {
-    "name": "mössa"
+    "name": "lue"
   },
   "cap": {
-    "name": "keps"
+    "name": "caps"
   },
   "headphones": {
-    "name": "hörlurar"
+    "name": "hodetelefoner"
   },
   "top-hat": {
-    "name": "hög hatt"
+    "name": "flosshatt"
   },
   "wizard-hat": {
-    "name": "trollkarlshatt"
+    "name": "trollmannshatt"
   },
   "space-helmet": {
-    "name": "rymdhjälm"
+    "name": "romhjelm"
   },
   "hard-hat": {
-    "name": "skyddshjälm"
+    "name": "vernehjelm"
   },
   "explorer-hat": {
-    "name": "upptäckarhatt"
+    "name": "utforskerhatt"
   },
   "hair-bow": {
-    "name": "hårrosett"
+    "name": "hårsløyfe"
   },
   "flat-cap": {
-    "name": "gubbkeps"
+    "name": "sixpence"
   },
   "beret": {
-    "name": "basker"
+    "name": "beret"
   },
   "sun-hat": {
     "name": "solhatt"
   },
   "bucket-hat": {
-    "name": "fiskehatt"
+    "name": "bøttehatt"
   },
   "chef-hat": {
-    "name": "kockmössa"
+    "name": "kokkehatt"
   },
   "graduation-cap": {
-    "name": "studentmössa"
+    "name": "studentlue"
   },
   "crown": {
-    "name": "krona"
+    "name": "krone"
   },
   "round-eyes": {
-    "name": "runda ögon"
+    "name": "runde øyne"
   },
   "sparkly": {
-    "name": "glittriga ögon"
+    "name": "glitrende øyne"
   },
   "pixel-eyes": {
-    "name": "pixlade ögon"
+    "name": "pikseløyne"
   },
   "blush": {
-    "name": "rodnande kinder"
+    "name": "røde kinn"
   },
   "freckles": {
-    "name": "fräknar"
+    "name": "fregner"
   },
   "round-glasses": {
-    "name": "runda glasögon"
+    "name": "runde briller"
   },
   "monocle": {
-    "name": "monokel"
+    "name": "monokkel"
   },
   "star-eyes": {
-    "name": "stjärnögon"
+    "name": "stjerneøyne"
   },
   "heart-eyes": {
-    "name": "hjärtögon"
+    "name": "hjerteøyne"
   },
   "sleepy-lids": {
-    "name": "sömniga ögonlock"
+    "name": "søvnige øyelokk"
   },
   "beads": {
-    "name": "pärlband"
+    "name": "perlekjede"
   },
   "bow-tie": {
-    "name": "fluga"
+    "name": "sløyfe"
   },
   "scarf": {
-    "name": "halsduk"
+    "name": "skjerf"
   },
   "medal": {
-    "name": "medalj"
+    "name": "medalje"
   },
   "keycap-pendant": {
-    "name": "tangentkåpehänge"
+    "name": "tastetoppanheng"
   },
   "compass": {
     "name": "kompass"
   },
   "pearls": {
-    "name": "pärlor"
+    "name": "perler"
   },
   "tie": {
     "name": "slips"
@@ -146,34 +146,34 @@
     "name": "medaljong"
   },
   "quill-pendant": {
-    "name": "fjäderhänge"
+    "name": "fjærpennanheng"
   },
   "friendship-band": {
-    "name": "vänskapsband"
+    "name": "vennskapsbånd"
   },
   "gold-band": {
-    "name": "guldarmband"
+    "name": "gullbånd"
   },
   "watch": {
-    "name": "klocka"
+    "name": "armbåndsur"
   },
   "key-chain": {
-    "name": "tangentkedja"
+    "name": "tastelenke"
   },
   "spiked-band": {
-    "name": "nitarmsband"
+    "name": "piggbånd"
   },
   "trail-band": {
-    "name": "spårarmband"
+    "name": "sporbånd"
   },
   "charm-bracelet": {
-    "name": "berlockarmband"
+    "name": "berlockarmbånd"
   },
   "sweatband": {
-    "name": "svettband"
+    "name": "svettebånd"
   },
   "beaded-band": {
-    "name": "pärlarmband"
+    "name": "perlebånd"
   },
   "shorts": {
     "name": "shorts"
@@ -182,73 +182,73 @@
     "name": "jeans"
   },
   "dungarees": {
-    "name": "hängselbyxor"
+    "name": "snekkerbukser"
   },
   "kilt": {
     "name": "kilt"
   },
   "skirt": {
-    "name": "kjol"
+    "name": "skjørt"
   },
   "cargo-pants": {
-    "name": "cargobyxor"
+    "name": "cargobukser"
   },
   "pyjama-bottoms": {
-    "name": "pyjamasbyxor"
+    "name": "pyjamasbukser"
   },
   "space-trousers": {
-    "name": "rymdbyxor"
+    "name": "rombukser"
   },
   "theme-tile": {
-    "name": "temabricka"
+    "name": "temaflise"
   },
   "stars": {
-    "name": "stjärnor"
+    "name": "stjerner"
   },
   "bricks": {
-    "name": "tegel"
+    "name": "murstein"
   },
   "leaves": {
-    "name": "löv"
+    "name": "blader"
   },
   "paper": {
-    "name": "papper"
+    "name": "papir"
   },
   "keyboard": {
-    "name": "tangentbord"
+    "name": "tastatur"
   },
   "rain": {
     "name": "regn"
   },
   "waves": {
-    "name": "vågor"
+    "name": "bølger"
   },
   "typewriter": {
-    "name": "skrivmaskin"
+    "name": "skrivemaskin"
   },
   "bookshelf": {
-    "name": "bokhylla"
+    "name": "bokhylle"
   },
   "sunrise": {
-    "name": "soluppgång"
+    "name": "soloppgang"
   },
   "heart-star": {
-    "name": "stjärna"
+    "name": "stjerne"
   },
   "heart-note": {
-    "name": "not"
+    "name": "note"
   },
   "heart-key": {
-    "name": "tangent"
+    "name": "tast"
   },
   "heart-paw": {
-    "name": "tass"
+    "name": "pote"
   },
   "heart-flag": {
-    "name": "flagga"
+    "name": "flagg"
   },
   "heart-bolt": {
-    "name": "blixt"
+    "name": "lyn"
   },
   "heart-moon": {
     "name": "måne"
@@ -260,7 +260,7 @@
     "name": "sol"
   },
   "heart-amp": {
-    "name": "et-tecknet"
+    "name": "ampersanden"
   },
   "heart-k": {
     "name": "bokstaven k"
@@ -272,17 +272,17 @@
     "default_hint": "standard",
     "locked": "låst",
     "new_badge": "ny",
-    "wearing_it": "bär den",
-    "ring_worn": "ringen: bärs for gott",
+    "wearing_it": "bruker den",
+    "ring_worn": "ringen: brukes for godt",
     "title": "{companion}s garderobe",
-    "tab_aria": "{label}, {unlocked} av {total} upplåsta",
-    "item_worn_aria": "{name}, bärs",
+    "tab_aria": "{label}, {unlocked} av {total} låste opp",
+    "item_worn_aria": "{name}, brukes",
     "item_locked_aria": "{name}, låst: {hint}",
-    "remove_all": "fjerne all utsmyckning",
+    "remove_all": "fjern all utsmykning",
     "news_new_item": "en ny {name}",
-    "news_new_items": "{count, plural, one {en ny sak} other {# nye saker}}",
-    "news_earned": "åh, du tjänade in {what} til min garderobe!",
-    "try_it_on": "prova den",
+    "news_new_items": "{count, plural, one {en ny ting} other {# nye ting}}",
+    "news_earned": "å, du tjente {what} til garderoben min!",
+    "try_it_on": "prøv den på",
     "status_worn": "{name}: {state}",
     "status_hint_progress": "{name}: {hint} ({have} av {need})",
     "status_hint": "{name}: {hint}"
