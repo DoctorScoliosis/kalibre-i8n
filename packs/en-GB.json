@@ -7,9 +7,9 @@
     "fallback": null,
     "lowercaseDates": true,
     "reviewed": "native",
-    "revision": 3,
-    "version": "2026-10-02",
-    "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording"
+    "revision": 4,
+    "version": "2026-10-04",
+    "changes": "Synced with the application after the Games 0.70 rollback"
   },
   "strings": {
     "about": {
@@ -421,27 +421,6 @@
       },
       "clean-sweep": {
         "name": "clean sweep"
-      },
-      "beam-overload": {
-        "name": "overloaded beam"
-      },
-      "flagship-down": {
-        "name": "flagship down"
-      },
-      "keg-defused": {
-        "name": "keg defused"
-      },
-      "ladder-toppled": {
-        "name": "ladder toppled"
-      },
-      "sortie-master": {
-        "name": "sortie master"
-      },
-      "marathon-master": {
-        "name": "marathon master"
-      },
-      "scroller-streak": {
-        "name": "conveyor streak"
       },
       "race-first": {
         "name": "on your marks"
@@ -3162,13 +3141,7 @@
         "section_critical": ", critical",
         "section_needs": ", needs bricks that {requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "powerup",
-        "sortie_title": "garrison sortie: muster defenders into the field",
-        "sortie_ready": "deploy sortie · alt+enter",
-        "sortie_mustering": "mustering ({seconds}s)",
-        "sortie_breached": "gatehouse breached",
-        "sortie_no_bricks": "need bricks to equip",
-        "guard_title": "garrison guard: {hp}/{maxHp} HP"
+        "powerup": "powerup"
       },
       "space": {
         "title": "space",
@@ -3184,10 +3157,6 @@
         "finish_a_word_to_load": "finish a word to load it",
         "bomb_ready_shift_enter": "bomb ready · shift+enter",
         "bomb": "bomb {floor}%",
-        "accumulator_charge": "capacitor charge",
-        "accumulator": "capacitor {floor}%",
-        "accumulator_ready_alt_enter": "capacitor ready ({charge}%) · alt+enter",
-        "accumulator_overload_alt_enter": "capacitor overload! · alt+enter",
         "ship": "ship {round}",
         "score": "score {round}",
         "destroyed": "destroyed {value}",
@@ -3207,11 +3176,7 @@
         "it_should_be": "it should be “{original}” · {errorTitle}",
         "repairing": "{title} · fix it in place (← → move) and press enter",
         "repairing_retry": " · one more try",
-        "repairing_cancel": " · esc to cancel",
-        "lives": "{count}/{max} lives",
-        "streak": "streak {count}",
-        "combo": "combo ×{multiplier}",
-        "escaped": "{word} scrolled past"
+        "repairing_cancel": " · esc to cancel"
       },
       "ui": {
         "pause": "pause",
@@ -3744,18 +3709,6 @@
                   "drops": {
                     "label": "brick drops",
                     "summary": "drop a brick on an enemy to damage or crush it."
-                  },
-                  "saboteur": {
-                    "label": "saboteur",
-                    "summary": "powder keg infiltrators charging the walls; crush them early to detonate the keg in the attacker ranks."
-                  },
-                  "ladderman": {
-                    "label": "ladderman",
-                    "summary": "siege engineers planting assault ladders; drop bricks to topple the ladder and cause a knockdown cascade."
-                  },
-                  "sortie": {
-                    "label": "garrison sortie",
-                    "summary": "muster defenders from the gatehouse into the field to intercept attackers before they reach your walls."
                   }
                 },
                 "controls": {
@@ -3764,20 +3717,11 @@
                   },
                   "i1": {
                     "action": "aim at a section or enemy"
-                  },
-                  "i2": {
-                    "action": "deploy garrison sortie to cursor column"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "brick drops"
-                  },
-                  "i1": {
-                    "label": "saboteurs and ladders"
-                  },
-                  "i2": {
-                    "label": "garrison sorties"
                   }
                 },
                 "visuals": {
@@ -3786,15 +3730,6 @@
                   },
                   "sapper-pick": {
                     "label": "sapper (chip)"
-                  },
-                  "saboteur-keg": {
-                    "label": "saboteur (keg)"
-                  },
-                  "siege-ladder": {
-                    "label": "siege ladder"
-                  },
-                  "garrison-soldier": {
-                    "label": "garrison soldier"
                   },
                   "catapult-siege": {
                     "label": "catapult (siege)"
@@ -4006,12 +3941,10 @@
                 "summary": "load the magazine, intercept missiles and fighters, and use the bomb to clear the field.",
                 "highlights": [
                   "missiles carry a letter — type it with nothing typed to shoot them down",
-                  "shift+enter detonates the bomb when charged",
-                  "alt+enter fires the piercing capacitor beam when charged"
+                  "shift+enter detonates the bomb when charged"
                 ],
                 "details": [
                   "loading words charges the bomb meter. when full, shift+enter clears all missiles and damages every enemy.",
-                  "high-quality loaded words charge the capacitor. alt+enter discharges a vertical piercing laser; overload at 100% shatters shielded ships.",
                   "space stations launch fighters that chase you. type a fighter’s letter to shoot it down.",
                   "landmines burst into shrapnel when shot, which hits everything nearby, including you.",
                   "shielded ships only take hits from words that meet their requirement."
@@ -4030,10 +3963,6 @@
                     "label": "bomb",
                     "summary": "charges as you load words. shift+enter detonates, clearing missiles and damaging enemies."
                   },
-                  "accumulator": {
-                    "label": "capacitor beam",
-                    "summary": "charges from clean and high-quality loaded words. alt+enter fires a piercing column beam; 100% overload pierces shields and vaporises missiles."
-                  },
                   "fighters": {
                     "label": "fighters",
                     "summary": "small ships launched by stations. chase the player. type their letter to intercept."
@@ -4049,37 +3978,16 @@
                   "shields": {
                     "label": "shields",
                     "summary": "some ships have shields that only break to words matching a requirement."
-                  },
-                  "heavyFrigate": {
-                    "label": "heavy frigate",
-                    "summary": "reinforced prow with shielded barrier and twin missile batteries."
-                  },
-                  "eliteCruiser": {
-                    "label": "elite cruiser",
-                    "summary": "heavy dreadnought with point-defense turrets that shoot down weak words (<30 power)."
-                  },
-                  "flagship": {
-                    "label": "flagship boss",
-                    "summary": "massive modular command vessel. Destroy weapon batteries and collapse its shield generator to expose the bridge."
                   }
                 },
                 "controls": {
                   "i0": {
                     "action": "detonate the bomb"
-                  },
-                  "i1": {
-                    "action": "discharge capacitor beam"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "bomb shockwave"
-                  },
-                  "i1": {
-                    "label": "capacitor beam"
-                  },
-                  "i2": {
-                    "label": "flagship boss"
                   }
                 },
                 "visuals": {
@@ -4088,18 +3996,6 @@
                   },
                   "bomb-shockwave": {
                     "label": "bomb shockwave"
-                  },
-                  "capacitor-beam": {
-                    "label": "piercing capacitor beam"
-                  },
-                  "heavy-frigate": {
-                    "label": "heavy frigate"
-                  },
-                  "elite-cruiser": {
-                    "label": "elite cruiser"
-                  },
-                  "flagship-boss": {
-                    "label": "flagship boss"
                   },
                   "orbital-station": {
                     "label": "orbital station"
@@ -4188,12 +4084,6 @@
                   },
                   "endless": {
                     "label": "endless"
-                  },
-                  "marathon": {
-                    "label": "marathon"
-                  },
-                  "scroller": {
-                    "label": "scroller"
                   }
                 }
               },
@@ -4271,14 +4161,6 @@
                   "false-flag": {
                     "label": "false flags",
                     "summary": "flagging a correct word costs points and (in endless mode) time."
-                  },
-                  "marathon": {
-                    "label": "marathon endurance",
-                    "summary": "start with 3 lives. false flags and failed repairs cost a life; clearing 3 passages cleanly restores one."
-                  },
-                  "scroller": {
-                    "label": "scroller conveyor",
-                    "summary": "passages continuously scroll past on a conveyor belt. catch mistakes before they scroll off screen."
                   }
                 },
                 "controls": {
@@ -4295,12 +4177,6 @@
                 "subDemos": {
                   "i0": {
                     "label": "passage scan"
-                  },
-                  "i1": {
-                    "label": "marathon endurance"
-                  },
-                  "i2": {
-                    "label": "scroller conveyor"
                   }
                 },
                 "visuals": {
@@ -4312,12 +4188,6 @@
                   },
                   "false-flag-penalty": {
                     "label": "false flag penalty"
-                  },
-                  "marathon-lives": {
-                    "label": "marathon lives"
-                  },
-                  "scroller-belt": {
-                    "label": "scroller conveyor belt"
                   }
                 }
               },
@@ -4497,10 +4367,6 @@
           "repaired": "{word} · repaired {healed}",
           "bomb": "bomb!",
           "bomb_not_ready": "the bomb isn’t charged yet",
-          "accumulator": "laser beam discharge!",
-          "accumulator_not_ready": "the capacitor needs at least 25% charge",
-          "point_defense": "point-defense intercepted {word}!",
-          "flagship_down": "flagship destroyed!",
           "gatling": "rapid fire · {word}",
           "shield_absorb": "shield absorbed {source} hit!"
         },
@@ -4531,23 +4397,7 @@
         "wrong_kind_of_brick": "wrong kind of brick",
         "nobody_to_drop_it_on": "nobody to drop it on",
         "two_are_running_already": "two are running already",
-        "nothing_stored_there": "nothing stored there",
-        "crushed_a_brute": "crushed a brute",
-        "crushed_a_sapper": "crushed a sapper",
-        "crushed_a_saboteur": "crushed a saboteur",
-        "crushed_a_ladderman": "crushed a ladderman",
-        "hit_a_brute": "hit a brute",
-        "hit_a_sapper": "hit a sapper",
-        "hit_a_saboteur": "hit a saboteur",
-        "hit_a_ladderman": "hit a ladderman",
-        "stunned": "stunned",
-        "keg_detonated": "powder keg detonated",
-        "ladder_toppled": "ladder toppled",
-        "sortie_deployed": "garrison sortie deployed",
-        "mustering": "garrison mustering",
-        "gate_breached": "gatehouse breached",
-        "no_bricks": "need bricks to equip",
-        "friendly_fire": "friendly fire!"
+        "nothing_stored_there": "nothing stored there"
       }
     },
     "learn": {
