@@ -20,7 +20,7 @@
     "getting": "Die heutigen Quests...",
     "new_at_midnight": "{difficulty} · Neue Quests um Mitternacht",
     "difficulty": "Schwierigkeit",
-    "summary_aria": "Heute: {done} Von {total} Quests erledigt{challenge, select, done {, Herausforderung erledigt} other {}}"
+    "summary_aria": "Heute: {done} Von {total} Quests erledigt {challenge, select, done {, Herausforderung erledigt} other {}}"
   },
   "quest_note": {
     "xp": "+{reward} Xp",
