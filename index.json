@@ -42,14 +42,14 @@
       "englishName": "Spanish (Spain)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
-      "version": "2026-10-03",
+      "revision": 3,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Filled current Feed, Castle, Spot and achievement gaps against kalibre-kanary",
+      "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories",
       "path": "locales/es-ES/manifest.json",
       "pack": "packs/es-ES.json",
-      "sha256": "84e30ce72915e99da350830f332d8ce7fb5b56aa9716009a7949602c75c8f45b",
-      "bytes": 332230
+      "sha256": "9078718c51c624f443f1307ae4434d0267bd741ab52ceb51a7c3fa8029671a32",
+      "bytes": 325239
     },
     {
       "id": "fr-FR",
@@ -57,14 +57,14 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 6,
-      "version": "2026-10-03",
+      "revision": 7,
+      "version": "2026-10-04",
       "reviewed": "community",
-      "changes": "Filled current Feed, Castle, Space and Spot gaps against kalibre-kanary",
+      "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "5d9066a877ad907466e6efdf4dbb981228331bd30a2aaa1506b2a3e5032435b6",
-      "bytes": 336988
+      "sha256": "b7f3f461f7279e5542508f293e8e3189f7a7babaeff5475ab56650aac125f193",
+      "bytes": 330711
     },
     {
       "id": "it-IT",
