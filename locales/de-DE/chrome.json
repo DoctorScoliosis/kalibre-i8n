@@ -29,8 +29,8 @@
     "security": "Sicherheit",
     "announcements": "Ankündigungen",
     "credit_author": "© {year} {author}.",
-    "credit_company": "© {year}Mitternacht Sommermedien.",
-    "licence": "Lizenziert mit dem{licence}.",
+    "credit_company": "© {year} Mitternacht Sommermedien.",
+    "licence": "Lizenziert mit dem {licence}.",
     "licence_name": "Mit Lizenz"
   },
   "meta": {
@@ -53,18 +53,18 @@
     "getting_quests": "Die heutigen Quests..."
   },
   "backup": {
-    "error": "Ich konnte es nicht retten:{error}",
+    "error": "Ich konnte es nicht retten: {error}",
     "nothing": "Es gibt noch nichts zu sichern",
-    "saved_to_folder": "Gerettet{count, plural, one {# Profildatei} other {# Profildateien}}Zum Kalibre-Ordner „{folder}”",
-    "downloaded": "Heruntergeladen{count, plural, one {# Profildatei} other {# Profildateien}}"
+    "saved_to_folder": "Gerettet {count, plural, one {# Profildatei} other {# Profildateien}} Zum Kalibre-Ordner „{folder}”",
+    "downloaded": "Heruntergeladen {count, plural, one {# Profildatei} other {# Profildateien}}"
   },
   "updates": {
     "whats_new_title": "Was ist neu",
-    "status_up_to_date": "Kalibre v{version}· Up to date",
-    "update_ready": "V{version}Ist bereit",
-    "update_ready_read_first": "V{version}Bereit ist · zuerst lesen",
+    "status_up_to_date": "Kalibre v{version} · Up to date",
+    "update_ready": "V{version} Ist bereit",
+    "update_ready_read_first": "V{version} Bereit ist · zuerst lesen",
     "update_meta": "Sie können jetzt aktualisieren oder auf Ihrer aktuellen Version bleiben (v){current}).",
-    "update_meta_size": "Downloadgröße: ~{size}· Sie können jetzt aktualisieren oder auf Ihrer aktuellen Version bleiben (v){current}).",
+    "update_meta_size": "Downloadgröße: ~{size} · Sie können jetzt aktualisieren oder auf Ihrer aktuellen Version bleiben (v){current}).",
     "update_to": "Update auf v{version}",
     "stay_on": "Bleiben Sie auf V{current}",
     "updating": "Aktualisierung...",
@@ -76,18 +76,18 @@
     "check_unavailable": "Updates funktionieren nur in der installierten oder gehosteten App",
     "breaking_intro": "Dieses Update ändert, wie kalibre Ihre Daten speichert:",
     "breaking_note": "Sobald es fertig ist, können ältere Versionen von kalibre Ihre Daten nicht öffnen, also speichern Sie zuerst ein Backup: eine Profildatei für jedes Profil auf diesem Gerät.",
-    "breaking_older_at": "V{version}Aufenthalte in",
+    "breaking_older_at": "V{version} Aufenthalte in",
     "save_backup": "Save ein Backup",
     "saving": "Sparen...",
     "badge_in_update": "In diesem Update",
     "badge_current": "Aktuell",
     "notes_not_yet": "Die Notizen für diese Version werden angezeigt, sobald sie installiert ist.",
-    "stays_at": "V{current}Aufenthalte in{link}Für eine Weile; Öffnen Sie dort ein Backup, um es weiter zu verwenden."
+    "stays_at": "V{current} Aufenthalte in {link} Für eine Weile; Öffnen Sie dort ein Backup, um es weiter zu verwenden."
   },
   "brand": {
     "kanary_preview_build_notice": "Kanary Preview Build Benachrichtigung",
     "kanary_preview_build_click_for": "Kanary Preview Build · Klick für Benachrichtigung",
-    "what_s_new_for": "Was ist neu für{versionLabel}"
+    "what_s_new_for": "Was ist neu für {versionLabel}"
   },
   "command_line": {
     "command": "Befehl",
@@ -107,14 +107,14 @@
     "stackinfolio": "Stackinfolio",
     "settings_data": "Einstellungen → Daten",
     "got_it": "Bekam es",
-    "intro": "Sie verwenden{product}, Eine frühe, sich schnell bewegende Vorschau mit laufenden Experimenten.",
-    "follow": "Folgen Sie Release-Meilensteinen, Entwicklungsfortschritten und Ankündigungen{site}."
+    "intro": "Sie verwenden {product}, Eine frühe, sich schnell bewegende Vorschau mit laufenden Experimenten.",
+    "follow": "Folgen Sie Release-Meilensteinen, Entwicklungsfortschritten und Ankündigungen {site}."
   },
   "legal_pages": {
-    "last_updated": "Letzte Aktualisierung{format}",
+    "last_updated": "Letzte Aktualisierung {format}",
     "the_short_version": "Kurzfassung",
-    "read": "Lesen{full}",
-    "also": "Auch:{pages}"
+    "read": "Lesen {full}",
+    "also": "Auch: {pages}"
   },
   "older_version": {
     "older_version": "Ältere Version",
@@ -125,8 +125,8 @@
     "hide_until_the_page_reloads": "Verstecken, bis die Seite neu geladen wird"
   },
   "shortcuts": {
-    "then": "Dann{value}",
-    "sequence_hint": "Abfolgetasten drücken (wie{first}Dann{second}Innerhalb von 1,5 Sekunden. Verknüpfungen werden nur ausgelöst, wenn sie in Tests oder Textfeldern nicht aktiv eingegeben werden.",
+    "then": "Dann {value}",
+    "sequence_hint": "Abfolgetasten drücken (wie {first} Dann {second}Innerhalb von 1,5 Sekunden. Verknüpfungen werden nur ausgelöst, wenn sie in Tests oder Textfeldern nicht aktiv eingegeben werden.",
     "SHORTCUT_GROUPS": {
       "navigation": {
         "title": "Navigation"
@@ -200,20 +200,20 @@
   },
   "startup_failure": {
     "putting_it_back": "Setzen Sie es zurück...",
-    "it_couldn_t_be_put": "Es konnte nicht zurückgestellt werden:{value}",
+    "it_couldn_t_be_put": "Es konnte nicht zurückgestellt werden: {value}",
     "if_kalibre_was_taken_back": "Wenn kalibre absichtlich in eine ältere version zurückgenommen wurde, können sie die kopie ihrer gespeicherten daten kurz vor der letzten aktualisierung zurücksetzen. alles, was sie nach diesem update getan haben, ist verloren, und es ersetzt alles, was kalibre in diesem browser hält.",
     "copy_the_details": "Kopieren Sie die Angaben",
     "copied": "Kopiert",
     "select_the_details_below_to": "Wählen Sie unten die Details aus, um sie zu kopieren",
     "kalibre_couldn_t_start": "Kalibre konnte nicht starten",
     "what_you_ve_saved_is": "Was Sie gespeichert haben, ist immer noch in diesem Browser: Neustarten berührt es nicht.",
-    "send_details": "Wenn es weitergeht, senden Sie die Details an{address}."
+    "send_details": "Wenn es weitergeht, senden Sie die Details an {address}."
   },
   "update_gate": {
     "carry_on": "Weiterführen",
-    "kalibre_v_changes_how_it": "Kalibre v{appVersion}Ändert, wie es Ihre Daten speichert",
+    "kalibre_v_changes_how_it": "Kalibre v{appVersion} Ändert, wie es Ihre Daten speichert",
     "nothing_has_changed_yet_once": "Es hat sich noch nichts geändert. Sobald dies der Fall ist, können ältere Versionen von kalibre Ihre Daten nicht öffnen, also speichern Sie zuerst ein Backup: eine Profildatei für jedes Profil auf diesem Gerät.",
-    "older_version": "Oder verwenden Sie die Version davor, bei{link}Vorerst: Öffnen Sie dort Ihr Backup."
+    "older_version": "Oder verwenden Sie die Version davor, bei {link}Vorerst: Öffnen Sie dort Ihr Backup."
   },
   "modals": {
     "stats": "Stats",
@@ -230,7 +230,7 @@
   "instance": {
     "offline_self_hosted": "Offline · selbst gehostet",
     "offline_cache": "Offline · mit Browser-Cache",
-    "self_hosted_at": "Selbst gehostet ·{hostname}",
+    "self_hosted_at": "Selbst gehostet · {hostname}",
     "self_hosted": "Selbstgehostet",
     "online": "Online · Offizielle Instanz",
     "status": {
