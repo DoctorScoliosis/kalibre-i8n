@@ -41,13 +41,13 @@
       "description": "daglig skall i ord"
     },
     "questDifficulty": {
-      "label": "vanskelighetsgrad for daglige oppdrag",
+      "label": "sværhedsgrad for daglige opgaver",
       "option": {
         "easy": "let",
         "normal": "normal",
         "hard": "svær"
       },
-      "description": "hvor mye oppdragene og dagens utfordring skal utfordre deg, og hvor mye XP de giver. En ændring gjelder fra morgendagens oppdrag"
+      "description": "hvor meget opgaverne og dagens udfordring skal udfordre dig, og hvor meget XP de giver. En ændring gælder fra morgendagens opgaver"
     },
     "lessonCompanion": {
       "label": "leksjonsledsager"
@@ -353,7 +353,7 @@
     },
     "companion": {
       "label": "leksjonsledsager",
-      "description": "velges vid konfiguration og følger profilen",
+      "description": "vælges ved opsætning og følger profilen",
       "option": {
         "cal": "Cal",
         "libby": "Libby"
@@ -614,7 +614,7 @@
     "the_browser_said_no_for": "Nettleseren sa nej for tillfället. Å installera kalibre som en app eller legge til et bokmärke endrer ofte dette; hatll under tiden en sikkerhedskopi.",
     "this_browser_can_t_save": "Denne nettleseren kan ikke gem til en mappe på egen hatnd, så sikkerhetskopiera manatelt nedan. (Chrome og Edge kan göra det automatisk.)",
     "choose_a_folder_on_this": "vælg en mappe på denne computer, så bliver den din kalibre-mappe: denne profil gemmes der nogle sekunder efter hver test eller ændring sammen med de datasæt og skrifter, du har tilføjet. Hvis mappen allerede indeholder andet, oprettes en «kalibre»-mappe indeni.",
-    "saving_this_profile_and_the": "gemmer denne profilen samt tilførte datasæt og skrifter i kalibre-mappen ”{folderName}” · {last}.{problem}",
+    "saving_this_profile_and_the": "gemmer denne profil samt tilføjede datasæt og skrifter i kalibre-mappen ”{folderName}” · {last}.{problem}",
     "when_an_update_changes_how": "nur en opdatering endrer hvordan kalibre gemmer saker lagres en kopia av alt fra precis før, ifall noget gick fejl. De to sidste behatlls.",
     "what_takes_the_space": "hva som tar plats",
     "bring_profiles_datasets_and_fonts": "Hent tilbake profiler, datasæt og skrifter fra en kalibre-mappe: efter å nettleseren rensats eller på en annen datamaskin. Ingenting her skrivs over. Fungerer i alle browser.",
@@ -625,8 +625,8 @@
     "storage_best_effort": "Nettleseren kan rensa kalibres data om disken begynner få slut på utrymme (Safari gør også det efter 7 dage uden besök). Be den å beholde data og hatll en sikkerhedskopi.",
     "storage_unsupported": "Denne nettleseren kan ikke lova å beholde kalibres data, så hatll en sikkerhedskopi.",
     "storage_using": " bruger {used}.",
-    "overdue": "Denne profilen har ikke sikkerhetskopiert på over {days} dage. ",
-    "never_backed_up": "Denne profilen har ikke sikkerhetskopiert ennå. ",
+    "overdue": "Denne profil er ikke blevet sikkerhedskopieret i over {days} dage. ",
+    "never_backed_up": "Denne profil er ikke blevet sikkerhedskopieret endnu. ",
     "last_backup": "sidste sikkerhedskopiering {when}. ",
     "export_explained": "En export er en fil med denne profilens historikkk (lagres i kalibre-mappens eksportmappen nur det finnes en); gendan den med ”importere en profilfil” i profilmenyn.",
     "copy_line": "fra {when}, precis før{what} endret hvordan data lagres · {records} poster",
@@ -641,7 +641,7 @@
   "fonts": {
     "default_monospace": "standard (monospace)",
     "font_names_can_only_use": "Typsnittsnamn fatr bare inneholde bokstaver, sifre, mellemrum, punkter, bindestrek og understreck.",
-    "isn_t_available_on_this": "”{family}” finnes ikke på denne enheten, så standardtypsnittet vises.",
+    "isn_t_available_on_this": "”{family}” findes ikke på denne enhed, så standardskrifttypen vises.",
     "use": "brug {family}",
     "kb": "{fileName} · {round} KB",
     "remove": "fjern {family}",
