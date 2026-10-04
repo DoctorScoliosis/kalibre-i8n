@@ -74,7 +74,7 @@
   },
   "numpad": {
     "no_runs": "ingen kjøringer med numerisk tastatur ennå. De finnes på siden for numerisk tastatur under læring.",
-    "ksph_note": "tastetrykk per time (ksph) teller tastene i korrekte oppføringer, inkludert operatorer og Enter",
+    "ksph_note": "tastetryk per time (ksph) tæller tasterne i korrekte indtastninger, inklusive operatorer og Enter",
     "bests": "ti-tasters rekorder",
     "sums_by_kind": "summer efter type",
     "weak_spots": "svaga punkter",
@@ -126,7 +126,7 @@
     "score": "poeng"
   },
   "hesitations": {
-    "explain": "Ikke fejl: taster du skrev rigtigt, men først efter en pause på minst {factor}× dit eget almindelige mellomrom mellem taster (aldri under {minMs} ms), så de matles mot tempoet dit uansett hvor hurtigt du skriver. Pauser over {maxS} s teller som et avbrudd (lengre hvis du skriver mens du leter efter taster). Pauser som gjentar seg, foreslats for trening, på samme matte som fejl.",
+    "explain": "Ikke fejl: taster, du skrev korrekt, men først efter en pause på mindst {factor}× dit eget normale mellemrum mellem taster (aldrig under {minMs} ms), måles mod dit tempo uanset hvor hurtigt du skriver. Pauser over {maxS} s tæller som en afbrydelse (længere hvis du skriver, mens du leder efter taster). Gentagne pauser foreslås til træning, på samme måde som fejl.",
     "empty": "Tester fra nå av matles også for nøling.",
     "hesitations": "tvekan",
     "per_minute": "per minut",
