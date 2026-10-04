@@ -1,0 +1,91 @@
+{
+  "status": {
+    "done": "klar"
+  },
+  "actions": {
+    "swap": "byt",
+    "swap_title": "Byt ut det här uppdraget mot ett annat (en gång om dagen)",
+    "go": "gå",
+    "go_aria": "gå: {quest}"
+  },
+  "labels": {
+    "today": "idag",
+    "quests": "uppdrag",
+    "challenge": "utmaning",
+    "daily_goal": "dagligt mål",
+    "daily_goal_label": "dagligt mål "
+  },
+  "today": {
+    "panel_aria": "dagens uppdrag",
+    "getting": "Hämtar dagens uppdrag…",
+    "new_at_midnight": "{difficulty} · nya uppdrag vid midnatt · ",
+    "difficulty": "svårighetsgrad",
+    "summary_aria": "idag: {done} av {total} uppdrag klara{challenge, select, done {, utmaning klar} other {}}"
+  },
+  "quest_note": {
+    "xp": "+{reward} xp",
+    "challenge_done": "utmaning klar: {description}",
+    "quest_done": "uppdrag klart: {description}"
+  },
+  "match": {
+    "tests": "{count, plural, one {ett test} other {tester}}",
+    "drills": "{count, plural, one {en övning} other {övningar}}",
+    "time": "{count, plural, one {ett tidstest} other {tidstester}}",
+    "words": "{count, plural, one {ett ordtest} other {ordtester}}",
+    "quote": "{count, plural, one {ett citat} other {citat}}",
+    "book": "{count, plural, one {en bokläsning} other {bokläsningar}}",
+    "sustained": "{count, plural, one {ett uthållighetstest} other {uthållighetstester}}",
+    "time_duration": "{count, plural, one {ett {duration}-sekunders test} other {{duration}-sekunders tester}}",
+    "words_count": "{count, plural, one {ett {wordCount}-ordstest} other {{wordCount}-ordstester}}",
+    "quote_category": "{count, plural, one {ett {category}-citat} other {{category}-citat}}"
+  },
+  "categories": {
+    "short": "kort",
+    "medium": "medel",
+    "long": "lång",
+    "huge": "enorm",
+    "massive": "massiv"
+  },
+  "game_titles": {
+    "feed": "Feed",
+    "castle": "Castle",
+    "space": "Space",
+    "spot": "Spot"
+  },
+  "difficulty_words": {
+    "easy": "på lätt",
+    "normal": "på normal",
+    "hard": "på svår"
+  },
+  "conditions": {
+    "wpm": "{wpm}+ wpm",
+    "accuracy": "{accuracy}%+ träffsäkerhet",
+    "and": " och ",
+    "at": " med {parts}",
+    "kept_going_after": ", fortsatte i {minutes, plural, one {# minut} other {# minuter}}",
+    "kept_going": " fortsatte i {minutes, plural, one {# minut} other {# minuter}}"
+  },
+  "describe": {
+    "words": "skriv {count, plural, one {# ord} other {# ord}}",
+    "words_in": "skriv {count, plural, one {# ord} other {# ord}} i {match}",
+    "minutes": "skriv i {count, plural, one {# minut} other {# minuter}}",
+    "minutes_in": "skriv i {count, plural, one {# minut} other {# minuter}} i {match}",
+    "minutes_book": "skriv från en bok i {count, plural, one {# minut} other {# minuter}}",
+    "tests_one": "slutför {match}",
+    "tests_many": "slutför {count} {match}",
+    "run": "slutför {match}{conditions}",
+    "game_runs": "spela {game} {count, plural, one {en gång} other {# gånger}}",
+    "game_score": "få {score} poäng i {game}",
+    "game_score_difficulty": "få {score} poäng i {game} {difficulty}",
+    "game_found": "hitta {count, plural, one {# misstag} other {# misstag}} i en {game}-körning",
+    "lesson_run": "skriv en touch typing-lektion med {accuracy}%+ träffsäkerhet",
+    "lessons": "{count, plural, one {gör en touch typing-lektion} other {gör # touch typing-lektioner}}",
+    "pad_tests": "{count, plural, one {slutför ett tiotangentstest} other {slutför # tiotangentstester}}",
+    "pad_run": "slutför ett tiotangentstest",
+    "pad_ksph": "{ksph}+ tangenttryckningar i timmen",
+    "pad_entries": ", med {entries}+ poster",
+    "pad_lessons": "{count, plural, one {gör en lektion för numeriskt tangentbord} other {gör # lektioner för numeriskt tangentbord}}",
+    "sums": "få {count, plural, one {# räknesätt} other {# räknesätt}} rätt",
+    "something": "något"
+  }
+}
