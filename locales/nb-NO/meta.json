@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "machine",
-  "revision": 4,
+  "revision": 5,
   "version": "2026-10-04",
-  "changes": "Initial Norwegian Bokmål candidate translation; Core shell, Settings/Profile, Learn/Drills/Mistakes, Results/Stats, datasets/text/data, and presentation/personalisation surfaces translated"
+  "changes": "Initial Norwegian Bokmål candidate translation; Core shell, Settings/Profile, Learn/Drills/Mistakes, Results/Stats, texts/datasets/data, and presentation/personalisation surfaces translated"
 }
