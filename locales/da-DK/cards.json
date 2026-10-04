@@ -1,0 +1,204 @@
+{
+  "view": {
+    "card_aria": "{name}s kort: {described}"
+  },
+  "window": {
+    "your_card": "dit kort",
+    "card_title": "kort",
+    "cosmetics": "udsmykning",
+    "stickers": "klistermærker",
+    "garage": "garage",
+    "done": "færdig"
+  },
+  "card_view": {
+    "lv": "niveau {level}",
+    "with_after_level": " · med {companionName}",
+    "with_companion": "med {companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "Sådan ser dit kort ud for andre i et løb. Din ledsager står der, hvor et billede ellers ville være: profilbilleder forlader aldrig denne enhed. Træk et klistermærke for at flytte det; vælg et for farve, størrelse og rotation, eller brug piletasterne, [ og ], og Delete; Esc eller et klik et andet sted fjerner valget.",
+    "what_your_card_wears": "hvad dit kort har på",
+    "colour": "{tokenLabel}-farve",
+    "theme_default_colour": "temaets standardfarve",
+    "delete_sticker": "slet klistermærke",
+    "sticker_arrows_move_it_and": "{name}-klistermærke: piletasterne flytter det, [ og ] roterer det, Delete fjerner det; vælg det for at ændre farve og størrelse",
+    "selected_sticker_s_colour": "farven på det valgte klistermærke",
+    "add_a_sticker": "tilføj et {name}-klistermærke",
+    "a_secret_sticker": "et hemmeligt klistermærke",
+    "a_card_shows_at_most": "et kort viser højst {MAX_SHOWCASE}",
+    "remove_every_sticker": "fjern alle klistermærker",
+    "nothing_to_show_off_yet": "Der er ikke noget at vise frem endnu. Dine præstationer kommer her, efterhånden som du optjener dem.",
+    "tabs": {
+      "showcase": {
+        "title": "udstillingsvindue",
+        "hint": "op til {max} præstationer, du har optjent"
+      },
+      "garage": {
+        "title": "garage",
+        "hint": "klæd din racerbil på: det er den, du kører på banen, og det, alle du konkurrerer mod, ser"
+      }
+    },
+    "tint": "{slot}-farvetone"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {
+        "title": "kant",
+        "hint": "rundt kortet"
+      },
+      "frame": {
+        "title": "ramme",
+        "hint": "rundt ledsageren din"
+      },
+      "aura": {
+        "title": "aura",
+        "hint": "et skær bak ledsageren din"
+      },
+      "backdrop": {
+        "title": "baggrund",
+        "hint": "bak alt på kortet"
+      },
+      "sticker": {
+        "title": "klistermærker",
+        "hint": "dra dem hvor som helst på kortet"
+      }
+    },
+    "items": {
+      "border-double": {
+        "name": "dobbeltlinje"
+      },
+      "border-stitch": {
+        "name": "søm"
+      },
+      "border-ribbon": {
+        "name": "bånd"
+      },
+      "border-corners": {
+        "name": "hjørnebeslag"
+      },
+      "border-keycap": {
+        "name": "tastetop"
+      },
+      "border-heat": {
+        "name": "varme"
+      },
+      "border-neon": {
+        "name": "neon"
+      },
+      "border-gilt": {
+        "name": "forgyldt"
+      },
+      "border-midnight": {
+        "name": "midnat"
+      },
+      "frame-double": {
+        "name": "dobbeltring"
+      },
+      "frame-dashed": {
+        "name": "stiplet ring"
+      },
+      "frame-square": {
+        "name": "tastetop-firkant"
+      },
+      "frame-cog": {
+        "name": "tandhjul"
+      },
+      "frame-petals": {
+        "name": "kronblade"
+      },
+      "frame-orbit": {
+        "name": "bane"
+      },
+      "frame-laurel": {
+        "name": "laurbærkrans"
+      },
+      "frame-crown": {
+        "name": "krone"
+      },
+      "aura-soft": {
+        "name": "blødt skær"
+      },
+      "aura-pulse": {
+        "name": "puls"
+      },
+      "aura-ember": {
+        "name": "gløder"
+      },
+      "aura-halo": {
+        "name": "glorie"
+      },
+      "aura-aurora": {
+        "name": "nordlys"
+      },
+      "aura-prism": {
+        "name": "prisme"
+      },
+      "backdrop-dots": {
+        "name": "prikker"
+      },
+      "backdrop-pinstripe": {
+        "name": "nålestribe"
+      },
+      "backdrop-graph": {
+        "name": "millimeterpapir"
+      },
+      "backdrop-waves": {
+        "name": "bølger"
+      },
+      "backdrop-stars": {
+        "name": "stjernehimmel"
+      },
+      "backdrop-confetti": {
+        "name": "konfetti"
+      },
+      "sticker-star": {
+        "name": "stjerne"
+      },
+      "sticker-leaf": {
+        "name": "blad"
+      },
+      "sticker-key": {
+        "name": "tastetop"
+      },
+      "sticker-heart": {
+        "name": "hjerte"
+      },
+      "sticker-flower": {
+        "name": "blomst"
+      },
+      "sticker-bolt": {
+        "name": "lyn"
+      },
+      "sticker-note": {
+        "name": "note"
+      },
+      "sticker-moon": {
+        "name": "måne"
+      },
+      "sticker-rocket": {
+        "name": "raket"
+      },
+      "sticker-castle": {
+        "name": "slot"
+      },
+      "sticker-magnifier": {
+        "name": "forstørrelsesglas"
+      },
+      "sticker-book": {
+        "name": "bog"
+      },
+      "sticker-flag": {
+        "name": "ternet flag"
+      },
+      "sticker-crown": {
+        "name": "krone"
+      },
+      "sticker-teacup": {
+        "name": "tekop"
+      },
+      "sticker-sparkle": {
+        "name": "glimmer"
+      }
+    }
+  }
+}
