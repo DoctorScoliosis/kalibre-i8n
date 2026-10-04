@@ -57,7 +57,7 @@
     "added": "citat tilføjet",
     "updated": "citat opdateret",
     "deleted": "citat slettet",
-    "unknown": "— ukjent",
+    "unknown": "— ukendt",
     "too_short": " · for kort til tests ({min}+ tegn)",
     "empty": "Tilføj citater, du kan lide; de vises i citat- og blandede tests. Samlinger som en quotes.json-fil kan installeres under datasæt."
   },
