@@ -112,6 +112,21 @@
       "bytes": 327845
     },
     {
+      "id": "sv-SE",
+      "name": "Svenska",
+      "englishName": "Swedish (Sweden)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 2,
+      "version": "2026-10-04",
+      "reviewed": "machine",
+      "changes": "Initial Swedish candidate translation; companion and narrative localisation complete",
+      "path": "locales/sv-SE/manifest.json",
+      "pack": "packs/sv-SE.json",
+      "sha256": "e02b4b0a9e20d48bffff819eba70f12bb0ebbcc6fcc45892a2886c80a71ccb7d",
+      "bytes": 318102
+    },
+    {
       "id": "zh-CN",
       "name": "简体中文",
       "englishName": "Chinese (Simplified)",
