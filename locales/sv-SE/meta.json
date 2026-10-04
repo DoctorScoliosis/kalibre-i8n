@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "machine",
-  "revision": 3,
+  "revision": 4,
   "version": "2026-10-04",
   "changes": "Reconciled Games keys after the application rollback"
 }
