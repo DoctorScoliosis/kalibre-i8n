@@ -7,7 +7,7 @@
     "filter_on": "filtro attivo",
     "filter_off": "filtro disattivato",
     "placeholder": "una per riga oppure separate da virgole; termina con * per ogni parola che inizia con questo",
-    "filtered_count": "{count, plural, one {# parola} other {# parole}} personali filtrate",
+    "filtered_count": "{count, plural, one {# parola} many {# parole} other {# parole}} personali filtrate",
     "no_words": "nessuna parola personale",
     "heading": "parole offensive",
     "toggle_label": "filtra le parole offensive",
