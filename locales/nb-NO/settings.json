@@ -218,7 +218,7 @@
     },
     "typingFontSize": {
       "label": "textstorlek i skriveområdet",
-      "description": "storleken på teksten du skriver"
+      "description": "størrelsen på teksten du skriver"
     },
     "typingFont": {
       "label": "skrivtypsnitt"
@@ -275,7 +275,7 @@
     },
     "keyboardLayout": {
       "label": "tangentbordslayout",
-      "description": "dette talar om for Kalibre var tangenterna sitter for å bedöma grannar; det ändrar ikke hva du skriver",
+      "description": "dette talar om for Kalibre var tastene sitter for å vurdere naboer; det endrer ikke hva du skriver",
       "option": {
         "qwerty": "QWERTY (US)",
         "dvorak": "Dvorak",
@@ -321,7 +321,7 @@
       "option": {
         "short": "kort (upp til 100 tegn)",
         "medium": "medel (upp til 300 tegn)",
-        "long": "långt (upp til 600 tegn)",
+        "long": "langt (opptil 600 tegn)",
         "huge": "mye långt (upp til 1 500 tegn)",
         "massive": "extremt långt (upp til 4 000 tegn)"
       }
@@ -377,7 +377,7 @@
     },
     "uiFontSize": {
       "label": "textstorlek i gränssnittet",
-      "description": "storleken på gränssnittets tekst"
+      "description": "størrelsen på gränssnittets tekst"
     },
     "reduceMotion": {
       "label": "minska rörelse",
@@ -451,13 +451,13 @@
     },
     "backupFrequency": {
       "label": "automatiske sikkerhetskopier",
-      "description": "når sikkerhetskopieringsmappen uppdateras (Chrome og Edge)",
+      "description": "når sikkerhetskopieringsmappen oppdateres (Chrome og Edge)",
       "option": {
         "change": "strax etter hver endring",
         "test": "etter hver test",
         "5min": "högst var 5:e minåt",
         "hourly": "högst hver time",
-        "manual": "bare når jag ber om det"
+        "manual": "bare når jeg ber om det"
       }
     },
     "updateCheck": {
@@ -468,7 +468,7 @@
         "15min": "var 15:e minåt",
         "hourly": "hver time",
         "launch": "når kalibre öppnas",
-        "manual": "bare når jag ber om det"
+        "manual": "bare når jeg ber om det"
       }
     },
     "enabledDatasets": {
@@ -580,7 +580,7 @@
       "label": "siste testkonfiguration"
     },
     "numpad": {
-      "label": "jag har et nåmerisk tastatur",
+      "label": "jeg har et nåmerisk tastatur",
       "description": "for øvelse med nåmerisk tastatur og for å vise om nåm lock er av"
     },
     "numpadSeen": {
@@ -611,11 +611,11 @@
   },
   "data_panel": {
     "done_the_browser_will_keep": "Klart: nettleseren kommer å beholde dine data.",
-    "the_browser_said_no_for": "Nettleseren sa nej for tillfället. Å installera kalibre som en app eller legge til et bokmärke ändrar ofte dette; håll under tiden en sikkerhetskopi.",
+    "the_browser_said_no_for": "Nettleseren sa nej for tillfället. Å installera kalibre som en app eller legge til et bokmärke endrer ofte dette; håll under tiden en sikkerhetskopi.",
     "this_browser_can_t_save": "Denne nettleseren kan ikke lagre til en mappe på egen hånd, så sikkerhetskopiera manåelt nedan. (Chrome og Edge kan göra det automatisk.)",
     "choose_a_folder_on_this": "Velg en mappe på denne datamaskinen så blir den din kalibre-mappe: denne profilen lagres der noen sekunder etter hver test eller endring, sammen med de datasett og skrifter du har lagt til. Om mappen allerede inneholder annet skapas en ”kalibre”-mappe inni.",
-    "saving_this_profile_and_the": "Lagrer denne profilen samt tillagda datasett og skrifter i kalibre-mappen ”{folderName}” · {last}.{problem}",
-    "when_an_update_changes_how": "Når en oppdatering ändrar hvordan kalibre lagrer saker lagres en kopia av alt fra precis før, ifall noe gick feil. De to siste behålls.",
+    "saving_this_profile_and_the": "Lagrer denne profilen samt tilførte datasett og skrifter i kalibre-mappen ”{folderName}” · {last}.{problem}",
+    "when_an_update_changes_how": "Når en oppdatering endrer hvordan kalibre lagrer saker lagres en kopia av alt fra precis før, ifall noe gick feil. De to siste behålls.",
     "what_takes_the_space": "hva som tar plats",
     "bring_profiles_datasets_and_fonts": "Hent tilbake profiler, datasett og skrifter fra en kalibre-mappe: etter å nettleseren rensats eller på en annan datamaskin. Ingenting her skrivs over. Fungerer i alle nettleser.",
     "shared": "delad",
@@ -629,7 +629,7 @@
     "never_backed_up": "Denne profilen har ikke sikkerhetskopiert ennå. ",
     "last_backup": "Siste sikkerhetskopiering {when}. ",
     "export_explained": "En export er en fil med denne profilens historikkk (lagres i kalibre-mappens eksportmappen når det finnes en); gjenopprett den med ”importere en profilfil” i profilmenyn.",
-    "copy_line": "fra {when}, precis før{what} ändrade hvordan data lagras · {records} poster",
+    "copy_line": "fra {when}, precis før{what} endret hvordan data lagres · {records} poster",
     "copy_app": " kalibre v{app}",
     "copy_update": " en oppdatering",
     "allow_again": "tillåt igjen",
@@ -656,7 +656,7 @@
   },
   "settings": {
     "github": "github",
-    "translation_note": "denne oversettelsen har ikke skrevet eller kontrollert av en person med svensk som morsmål, så en del kan låta merkelig. du kan hjälpa til å forbedre den på {link}.",
+    "translation_note": "denne oversettelsen har ikke skrevet eller kontrollert av en person med svensk som morsmål, så en del kan høres merkelig. du kan hjälpa til å forbedre den på {link}.",
     "imported": "importerade {count, plural, one {# inställning} other {# inställningenr}}",
     "skipped": " · hoppade over {what}",
     "sections_label": "inställningssektioner"
