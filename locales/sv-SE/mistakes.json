@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "suggested": "föreslagna",
+    "training": "träning",
+    "improving": "förbättras",
+    "mastered": "bemästrade",
+    "dismissed": "avfärdade",
+    "watching": "bevakas",
+    "overview": "översikt",
+    "all": "alla"
+  },
+  "blurbs": {
+    "suggested": "Misstag som fortsätter att komma tillbaka. Träna dem eller avfärda dem du inte bryr dig om.",
+    "training": "Övningar fokuserar på dessa.",
+    "improving": "Felfrekvensen har halverats sedan träningen började.",
+    "mastered": "Nere på en fjärdedel av utgångsläget. De återgår till träningen om de kommer tillbaka.",
+    "dismissed": "Föreslås inte igen om du inte återställer dem.",
+    "watching": "Sedda, men inte tillräckligt ofta för att föreslås ännu. ”öva nu” börjar träna ett ändå.",
+    "overview": "Var fingrarna går fel, ritat på tangentbordet, med orden och mellanslagen bredvid. Varje rad visar felfrekvensen över de senaste testerna.",
+    "all": "Varje misstag som Kalibre har noterat, oavsett status."
+  },
+  "empty": {
+    "suggested": "Inga misstag här ännu. Det går bra!",
+    "training": "Inga misstag i träningen ännu. Lägg till några från fliken ”föreslagna”.",
+    "improving": "Inget förbättras ännu. Fortsätt öva på dina träningsmisstag.",
+    "mastered": "Inget är bemästrat ännu. Träning tar tid — fortsätt.",
+    "dismissed": "Inget avfärdat.",
+    "watching": "Inget här ännu. Fortsätt skriva så dyker mönster upp.",
+    "all": "Inga misstag noterade ännu. När du skriver registrerar Kalibre återkommande mönster här."
+  },
+  "kinds": {
+    "key": "tangent",
+    "shift": "skift",
+    "swap": "bokstavspar",
+    "omit": "missad",
+    "extra": "extra",
+    "word": "ord",
+    "space": "mellanslag",
+    "insert": "extra ord",
+    "skip": "överhoppat ord",
+    "hesitation": "tvekan",
+    "tricky": "knepigt ord"
+  },
+  "columns": {
+    "mistake": "misstag",
+    "kind": "typ",
+    "status": "status",
+    "left_in": "återstår",
+    "fixed": "rättade",
+    "tests": "tester",
+    "trend": "trend",
+    "rate": "frekvens",
+    "seen": "sedda"
+  },
+  "actions": {
+    "train": "träna",
+    "train_aria": "träna {mistake}",
+    "train_now": "träna nu",
+    "train_now_aria": "träna {mistake} nu",
+    "train_again": "träna igen",
+    "train_again_aria": "träna {mistake} igen",
+    "dismiss": "avfärda",
+    "dismiss_aria": "avfärda {mistake}",
+    "restore": "återställ",
+    "restore_aria": "återställ {mistake}",
+    "drill": "öva",
+    "drill_aria": "öva på {mistake}",
+    "drill_all": "öva på mina träningsmisstag",
+    "stop": "stoppa",
+    "stop_aria": "sluta träna {mistake}",
+    "export": "exportera ",
+    "csv": "csv",
+    "json": "json"
+  },
+  "filters": {
+    "all": "alla",
+    "uncorrected": "orättade",
+    "corrected": "rättade"
+  },
+  "layouts": {
+    "list": "lista",
+    "table": "tabell"
+  },
+  "labels": {
+    "by_status": "misstag efter status",
+    "show_on_map": "visa på kartan",
+    "show_mistakes": "visa misstag",
+    "show_as": "visa som",
+    "kind_of_mistake": "typ av misstag",
+    "all_kinds": "alla typer",
+    "keyboard_layout": "tangentbordslayout",
+    "sessions_count": "{count, plural, one {# session} other {# sessioner}}",
+    "corrected_count": "{count} rättade",
+    "pager_aria": "sidor i misstagtabellen",
+    "no_qualifiers_mistakes": "Inga {qualifiers} misstag{inSection, select, true { i {section}} other {}} ännu.",
+    "no_in_section": "Inga misstag i {section} ännu.",
+    "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa misstag i träningen."
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "{label}-misstag – klicka för att isolera",
+    "page": "sida {value}",
+    "of": "{first}–{last} av {length}",
+    "keyboard_mistakes_pages": "sidor med tangentbordsmisstag",
+    "nothing_to_draw_on_this": "Inget att rita på det här tangentbordet ännu. Misstag som setts mer än en gång visas här.",
+    "on_the_keyboard": "på tangentbordet",
+    "none_yet": "Inga ännu.",
+    "with_keys_not_on_this": "{unmapped} med tangenter som inte finns på den här layouten",
+    "words_and_spaces": "ord och mellanslag",
+    "no_tests_yet": "inga tester ännu",
+    "rate_one_test": "felfrekvens {rate} i ett test",
+    "rate_over_tests": "felfrekvens {from} → {to} över {count, plural, one {# test} other {# tester}}",
+    "mark_label": "{mistake}: {rate} av gångerna",
+    "started_at": "{summary} · började träna vid {rate}",
+    "keyboard_label": "Tangentbord med {count, plural, one {# misstag} other {# misstag}} markerade. Listan nedan innehåller samma misstag."
+  },
+  "mistakes": {
+    "actions": "åtgärder",
+    "no_mistakes_yet": "Inga misstag ännu."
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": {
+        "title": "tangenter"
+      },
+      "shift": {
+        "title": "skift"
+      },
+      "pairs": {
+        "title": "bokstavspar"
+      },
+      "letters": {
+        "title": "missade och extra bokstäver"
+      },
+      "words": {
+        "title": "ord"
+      },
+      "tricky": {
+        "title": "knepiga ord"
+      },
+      "between": {
+        "title": "mellan ord"
+      },
+      "hesitations": {
+        "title": "tvekan"
+      }
+    }
+  },
+  "legend": {
+    "meant_hit": "menade → tryckte",
+    "swapped": "omkastat",
+    "missed": "missat",
+    "extra": "extra",
+    "shift": "skift"
+  },
+  "patterns": {
+    "sound": "låter lika",
+    "homophone": "ord som låter likadant",
+    "silent": "stum bokstav",
+    "double": "dubbel bokstav",
+    "vowel": "oklar vokal",
+    "mirror": "samma finger, andra handen",
+    "wrongDouble": "fel bokstav dubblerad",
+    "moved": "bokstav på fel plats",
+    "ending": "borttagen ändelse",
+    "autopilot": "ett välbekant ord i stället",
+    "rawSteno": "rå steno"
+  },
+  "describe": {
+    "shift": "{expected} → {typed} (skift)",
+    "omit": "missade {expected}",
+    "extra": "extra {typed}",
+    "insert": "extra ord {typed}",
+    "skip": "hoppade över {expected}",
+    "hesitation_pair": "paus i {expected}",
+    "hesitation_before": "paus före {expected}",
+    "hesitation": "tvekan",
+    "tricky": "knepigt: {expected}"
+  }
+}
