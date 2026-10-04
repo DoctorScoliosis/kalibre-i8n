@@ -1,0 +1,53 @@
+{
+  "formats": {
+    "time": "tid",
+    "words": "ord",
+    "quote": "citat"
+  },
+  "actions": {
+    "start_drill": "starta övning",
+    "drill": "övning",
+    "drill_aria": "öva på {mistake} nu",
+    "drill_title": "Öva bara på {mistake} nu, det rekommenderade sättet",
+    "manage_in_mistakes": "hantera under misstag",
+    "recommended": "rekommenderad",
+    "recommended_title": "Markera de misstag som är värda att öva på nu, så många som en övning kan innehålla",
+    "all": "alla",
+    "none": "inga",
+    "train_and_drill_these": "träna och öva på dessa"
+  },
+  "labels": {
+    "how": "hur",
+    "what_to_drill": "vad som ska övas",
+    "drill_format": "övningsformat",
+    "drill_length": "övningslängd",
+    "quote_length": "citatlängd",
+    "practise_by_area": "öva efter område",
+    "words_count": "{count, plural, one {# ord} other {# ord}}",
+    "ticked_count": "{selected} av {total} markerade",
+    "in_training": "i träning",
+    "ready_to_drill": "redo att öva",
+    "improving": "förbättras",
+    "finding_quotes": "letar efter citat med dessa misstag…",
+    "no_quotes_found": "Inget citat av den här längden innehåller dessa misstag. Prova en annan längd eller en ordövning.",
+    "quotes_with_mistakes": "citat med dessa misstag",
+    "best_fit": "bästa passform",
+    "typed_lately": "skrivna nyligen",
+    "recommended_reason": "{recommended} rekommenderas: {reason}",
+    "ready": "redo",
+    "due_title": "Kom tillbaka sedan den senaste övningen",
+    "not_due_title": "Inga nya fel sedan den senaste övningen",
+    "rate_title": "Hur ofta det blir fel när det skrivs",
+    "last_seen_title": "Senast sett",
+    "usual": "vanligt",
+    "seen_not_trained": "sett, ännu inte tränat",
+    "empty_nothing_in_training": "Inget i träningen ännu. Fortsätt skriva: Kalibre föreslår misstag som fortsätter att komma tillbaka.",
+    "empty_seen_not_trained": "Inget i träningen ännu. De här har dykt upp men tränas inte ännu: markera dem du vill arbeta med."
+  },
+  "status": {
+    "training": "tränas",
+    "improving": "förbättras",
+    "suggested": "föreslaget",
+    "watching": "bevakas"
+  }
+}
