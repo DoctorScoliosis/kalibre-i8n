@@ -127,8 +127,8 @@
     "sustained_mode_needs_a_source": "Utholdenhetsmodus trenger en kilde som fortsetter."
   },
   "storagemanager": {
-    "records_in_must_have_a": "Poster i "{storeName}" må ha en profileId",
-    "is_profile_scoped_use_getallforprofile": ""{storeName}" er profilavgrenset; bruk getAllForProfile()",
+    "records_in_must_have_a": "Poster i \"{storeName}\" må ha en profileId",
+    "is_profile_scoped_use_getallforprofile": "\"{storeName}\" er profilavgrenset; bruk getAllForProfile()",
     "indexeddb_is_not_available_in": "IndexedDB er ikke tilgjengelig i denne nettleseren",
     "your_saved_data_couldn_t": "De lagrede dataene dine kunne ikke oppdateres ({from} til {version}): {value}",
     "that_copy_isn_t_there": "Den kopien finnes ikke lenger.",
