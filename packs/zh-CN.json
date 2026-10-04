@@ -14,9 +14,9 @@
       "sans-serif"
     ],
     "reviewed": "community",
-    "revision": 5,
+    "revision": 6,
     "version": "2026-10-04",
-    "changes": "L11: complete achievements rules/names, add missing game strings, reconcile with current en-GB"
+    "changes": "L12: remove stale achievements.rules.lastLesson after canonical reconciliation"
   },
   "strings": {
     "about": {
@@ -86,7 +86,6 @@
         "stageMastered": "掌握第 {stage} 阶段的所有课程",
         "stageStarted": "开始第 {stage} 阶段的一节课程",
         "allLessons": "掌握所有课程",
-        "lastLesson": "完成课程中的最后一课",
         "stepsFinished": "完成 {count, plural, other {# 个课程步骤}}",
         "lessonsStepped": "在测试前进入 {count, plural, other {# 节课程}}的步骤",
         "stepsAllDoneLessons": "{count, plural, other {完成 # 节课程的所有步骤}}",
