@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 1,
-    "version": "2026-10-03",
-    "changes": "Initial German candidate translation"
+    "revision": 2,
+    "version": "2026-10-04",
+    "changes": "Reconciled Games keys after the application rollback"
   },
   "strings": {
     "about": {
@@ -430,27 +430,6 @@
       },
       "clean-sweep": {
         "name": "Sauberer Sweep"
-      },
-      "beam-overload": {
-        "name": "Überlastetes Licht"
-      },
-      "flagship-down": {
-        "name": "Flaggschiff nach unten"
-      },
-      "keg-defused": {
-        "name": "Fass entschärft"
-      },
-      "ladder-toppled": {
-        "name": "Leiter gestürzt"
-      },
-      "sortie-master": {
-        "name": "Sortiermeister"
-      },
-      "marathon-master": {
-        "name": "Marathonmaster"
-      },
-      "scroller-streak": {
-        "name": "Förderstreifen"
       },
       "race-first": {
         "name": "Auf deinen Marken"
@@ -3171,13 +3150,7 @@
         "section_critical": ", Kritisch",
         "section_needs": "Braucht Ziegelsteine, die{requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "Powerup",
-        "sortie_title": "Garnison sortie: muster Verteidiger ins Feld",
-        "sortie_ready": "Bereitstellung sortie · alt+enter",
-        "sortie_mustering": "Sammeln (){seconds}S",
-        "sortie_breached": "Gatehouse verletzt",
-        "sortie_no_bricks": "Ziegel brauchen, um auszurüsten",
-        "guard_title": "Garnisonswache:{hp}/{maxHp}HP"
+        "powerup": "Powerup"
       },
       "space": {
         "title": "Raum",
@@ -3193,10 +3166,6 @@
         "finish_a_word_to_load": "Beende ein Wort, um es zu laden",
         "bomb_ready_shift_enter": "Bombe bereit · shift+enter",
         "bomb": "Bombe{floor}%",
-        "accumulator_charge": "Kondensatorladung",
-        "accumulator": "Kondensator{floor}%",
-        "accumulator_ready_alt_enter": "Kondensator bereit{charge}% · Alt+enter",
-        "accumulator_overload_alt_enter": "Kondensatorüberlastung! · alt+enter",
         "ship": "Schiff{round}",
         "score": "Punktzahl{round}",
         "destroyed": "Zerstört{value}",
@@ -3216,11 +3185,7 @@
         "it_should_be": "Es sollte „{original}” · {errorTitle}",
         "repairing": "{title}· Fix it in place (← → move) und Enter drücken",
         "repairing_retry": "· Ein weiterer Versuch",
-        "repairing_cancel": "· Esc to cancel",
-        "lives": "{count}/{max}Leben",
-        "streak": "Streifen{count}",
-        "combo": "Combo ×{multiplier}",
-        "escaped": "{word}Scrolled Past"
+        "repairing_cancel": "· Esc to cancel"
       },
       "ui": {
         "pause": "Pause",
@@ -3753,18 +3718,6 @@
                   "drops": {
                     "label": "Ziegelsteintropfen",
                     "summary": "Lassen Sie einen Stein auf einen Feind fallen, um ihn zu beschädigen oder zu zerquetschen."
-                  },
-                  "saboteur": {
-                    "label": "Saboteur",
-                    "summary": "Pulverfassinfiltratoren, die die Wände aufladen; zerquetschen sie früh, um das Fass in den Reihen der Angreifer zu detonieren."
-                  },
-                  "ladderman": {
-                    "label": "Leitermann",
-                    "summary": "Belagerungsingenieure, die Angriffsleitern pflanzen; Steine fallen lassen, um die Leiter zu stürzen und eine Knockdown-Kaskade zu verursachen."
-                  },
-                  "sortie": {
-                    "label": "Garnison sortie",
-                    "summary": "Schützen Sie Verteidiger vom Torhaus ins Feld, um Angreifer abzufangen, bevor sie Ihre Wände erreichen."
                   }
                 },
                 "controls": {
@@ -3773,20 +3726,11 @@
                   },
                   "i1": {
                     "action": "Ziel auf einen Abschnitt oder Feind"
-                  },
-                  "i2": {
-                    "action": "Bereitstellen Garnison sortie Cursor Spalte"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "Ziegelsteintropfen"
-                  },
-                  "i1": {
-                    "label": "Saboteure und Leitern"
-                  },
-                  "i2": {
-                    "label": "Garnison sorties"
                   }
                 },
                 "visuals": {
@@ -3795,15 +3739,6 @@
                   },
                   "sapper-pick": {
                     "label": "Sapper (Chip)"
-                  },
-                  "saboteur-keg": {
-                    "label": "Saboteur (Keg)"
-                  },
-                  "siege-ladder": {
-                    "label": "Belagerungsleiter"
-                  },
-                  "garrison-soldier": {
-                    "label": "Garnison Soldat"
                   },
                   "catapult-siege": {
                     "label": "Katapult (Belagerung)"
@@ -4015,15 +3950,13 @@
                 "summary": "Laden Sie das Magazin, fangen Sie Raketen und Kämpfer ab und verwenden Sie die Bombe, um das Feld zu räumen.",
                 "highlights": [
                   "Raketen tragen einen Brief - tippen Sie es mit nichts getippt, um sie abzuschießen",
-                  "Shift+enter zündet die Bombe beim Aufladen",
-                  "Alt+enter feuert den durchdringenden Kondensatorstrahl beim Aufladen"
+                  "Shift+enter zündet die Bombe beim Aufladen"
                 ],
                 "details": [
                   "Wörter laden den Bombenzähler. Wenn er voll ist, löscht shift+enter alle Raketen und beschädigt jeden Feind.",
                   "Hochwertige geladene Wörter laden den Kondensator auf. alt+enter entlädt einen vertikalen Piercing-Laser; Überlastung bei 100% zerbricht abgeschirmte Schiffe.",
                   "Raumstationen starten Kämpfer, die dich jagen. Geben Sie einen Brief eines Kämpfers ein, um ihn abzuschießen.",
-                  "Landminen brachen beim Schuss in Schrapnell aus, was alles in der Nähe trifft, auch Sie.",
-                  "Geschützte Schiffe nehmen nur Treffer von Wörtern, die ihren Anforderungen entsprechen."
+                  "Landminen brachen beim Schuss in Schrapnell aus, was alles in der Nähe trifft, auch Sie."
                 ],
                 "notes": {
                   "prompted": {
@@ -4038,10 +3971,6 @@
                   "bomb": {
                     "label": "Bombe",
                     "summary": "Gebühren, während sie wörter laden. shift+enter detoniert, räumt Raketen und beschädigt Feinde."
-                  },
-                  "accumulator": {
-                    "label": "Kondensatorstrahl",
-                    "summary": "Gebühren für saubere und hochwertige geladene Wörter. alt+enter feuert einen durchdringenden Säulenstrahl ab; 100% Überlast durchdringt Abschirmungen und verdampft Raketen."
                   },
                   "fighters": {
                     "label": "Kämpfer",
@@ -4058,37 +3987,16 @@
                   "shields": {
                     "label": "Schilde",
                     "summary": "Einige Schiffe haben Schilde, die nur Worte brechen, die einer Anforderung entsprechen."
-                  },
-                  "heavyFrigate": {
-                    "label": "Schwere Fregatte",
-                    "summary": "Verstärkter Bug mit abgeschirmter Barriere und zwei Raketenbatterien."
-                  },
-                  "eliteCruiser": {
-                    "label": "Elite-Kreuzer",
-                    "summary": "Schwere Dreadnought mit Point-Defense-Türmen, die schwache Worte abschießen (<30 Power)."
-                  },
-                  "flagship": {
-                    "label": "Flaggschiff-Chef",
-                    "summary": "Massives modulares Kommandoschiff. Zerstöre Waffenbatterien und stürze seinen Schildgenerator ein, um die Brücke freizulegen."
                   }
                 },
                 "controls": {
                   "i0": {
                     "action": "Detonation der Bombe"
-                  },
-                  "i1": {
-                    "action": "Entladen Kondensatorstrahl"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "Bombenstoßwelle"
-                  },
-                  "i1": {
-                    "label": "Kondensatorstrahl"
-                  },
-                  "i2": {
-                    "label": "Flaggschiff-Chef"
                   }
                 },
                 "visuals": {
@@ -4097,18 +4005,6 @@
                   },
                   "bomb-shockwave": {
                     "label": "Bombenstoßwelle"
-                  },
-                  "capacitor-beam": {
-                    "label": "Durchdringender Kondensatorstrahl"
-                  },
-                  "heavy-frigate": {
-                    "label": "Schwere Fregatte"
-                  },
-                  "elite-cruiser": {
-                    "label": "Elite-Kreuzer"
-                  },
-                  "flagship-boss": {
-                    "label": "Flaggschiff-Chef"
                   },
                   "orbital-station": {
                     "label": "Orbitalstation"
@@ -4197,12 +4093,6 @@
                   },
                   "endless": {
                     "label": "Endlos"
-                  },
-                  "marathon": {
-                    "label": "Marathon"
-                  },
-                  "scroller": {
-                    "label": "Scroller"
                   }
                 }
               },
@@ -4280,14 +4170,6 @@
                   "false-flag": {
                     "label": "False Flags",
                     "summary": "Das Markieren eines korrekten Wortes kostet Punkte und (im Endlosmodus) Zeit."
-                  },
-                  "marathon": {
-                    "label": "Marathon-Ausdauer",
-                    "summary": "Beginnen Sie mit 3 Leben. Falsche Flaggen und fehlgeschlagene Reparaturen kosten ein Leben; das Löschen von 3 Passagen stellt eine sauber wieder her."
-                  },
-                  "scroller": {
-                    "label": "Scrollförderer",
-                    "summary": "Durchlässe laufend an einem Förderband vorbei. Fangen Sie Fehler auf, bevor Sie vom Bildschirm scrollen."
                   }
                 },
                 "controls": {
@@ -4304,12 +4186,6 @@
                 "subDemos": {
                   "i0": {
                     "label": "Passage-Scan"
-                  },
-                  "i1": {
-                    "label": "Marathon-Ausdauer"
-                  },
-                  "i2": {
-                    "label": "Scrollförderer"
                   }
                 },
                 "visuals": {
@@ -4321,12 +4197,6 @@
                   },
                   "false-flag-penalty": {
                     "label": "False Flag Strafe"
-                  },
-                  "marathon-lives": {
-                    "label": "Marathonleben"
-                  },
-                  "scroller-belt": {
-                    "label": "Scroll-Förderband"
                   }
                 }
               },
@@ -4506,10 +4376,6 @@
           "repaired": "{word}· Repariert{healed}",
           "bomb": "Bombe!",
           "bomb_not_ready": "Die Bombe ist noch nicht geladen",
-          "accumulator": "Laserstrahlentladung!",
-          "accumulator_not_ready": "Der Kondensator benötigt mindestens 25% Ladung",
-          "point_defense": "Punktschutz abgefangen{word}!",
-          "flagship_down": "Flaggschiff zerstört!",
           "gatling": "Schnellfeuer{word}",
           "shield_absorb": "Abschirmung absorbiert{source}Getroffen!"
         },
@@ -4540,23 +4406,7 @@
         "wrong_kind_of_brick": "Falsche Art von Stein",
         "nobody_to_drop_it_on": "Niemand, um es auf",
         "two_are_running_already": "Zwei laufen bereits",
-        "nothing_stored_there": "Nichts dort gespeichert",
-        "crushed_a_brute": "Zerkleinerung eines Tieres",
-        "crushed_a_sapper": "Einen Sapper zermalmt",
-        "crushed_a_saboteur": "Ein Saboteur zermalmt",
-        "crushed_a_ladderman": "Ein Leitermann zerquetscht",
-        "hit_a_brute": "Treffer eines Tieres",
-        "hit_a_sapper": "Einen Sapper schlagen",
-        "hit_a_saboteur": "Saboteur getroffen",
-        "hit_a_ladderman": "Schlag einen Leitermann",
-        "stunned": "Betäubt",
-        "keg_detonated": "Pulverfass detoniert",
-        "ladder_toppled": "Leiter gestürzt",
-        "sortie_deployed": "Garnison sortie im Einsatz",
-        "mustering": "Garnisonsanordnung",
-        "gate_breached": "Gatehouse verletzt",
-        "no_bricks": "Ziegel brauchen, um auszurüsten",
-        "friendly_fire": "Freundliches Feuer!"
+        "nothing_stored_there": "Nichts dort gespeichert"
       }
     },
     "learn": {
