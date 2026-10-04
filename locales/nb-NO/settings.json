@@ -26,15 +26,15 @@
       "label": "daglig mål",
       "option": {
         "off": "ingenting",
-        "minutes": "minåtter",
+        "minutes": "minutter",
         "words": "ord",
         "xp": "xp"
       },
       "description": "hvor mye du sikter på å skrive hver dag"
     },
     "goalMinutes": {
-      "label": "minåtter per dag",
-      "description": "daglig mål i minåtter"
+      "label": "minutter per dag",
+      "description": "daglig mål i minutter"
     },
     "goalWords": {
       "label": "ord per dag",
@@ -57,7 +57,7 @@
     },
     "paragraphBreaks": {
       "label": "avsnittsskift",
-      "description": "trykk enter ved slutten av stycken"
+      "description": "trykk enter ved slutten av avsnitt"
     },
     "wordPool": {
       "label": "ordliste",
@@ -143,7 +143,7 @@
       "label": "tangentbordslayout"
     },
     "stenoMode": {
-      "label": "jag skriver med",
+      "label": "jeg skriver med",
       "option": {
         "keyboard": "et tastatur",
         "steno": "en stenomaskin"
@@ -218,14 +218,14 @@
     },
     "typingFontSize": {
       "label": "textstorlek i skriveområdet",
-      "description": "storleken på texten du skriver"
+      "description": "storleken på teksten du skriver"
     },
     "typingFont": {
       "label": "skrivtypsnitt"
     },
     "typingFontWeight": {
       "label": "skrivtypsnittets vekt",
-      "description": "hvordan fet texten du skriver er",
+      "description": "hvordan fet teksten du skriver er",
       "option": {
         "300": "300",
         "400": "400",
@@ -287,7 +287,7 @@
       }
     },
     "inputMethod": {
-      "label": "jag skriver med",
+      "label": "jeg skriver med",
       "description": "en stenomaskin sender hele ord på én gang, så Kalibre noterar bare helordsfel og legger touch typing-leksjonene åt siden",
       "option": {
         "keyboard": "et tastatur",
@@ -615,7 +615,7 @@
     "this_browser_can_t_save": "Denne nettleseren kan ikke lagre til en mappe på egen hånd, så sikkerhetskopiera manåelt nedan. (Chrome og Edge kan göra det automatisk.)",
     "choose_a_folder_on_this": "Velg en mappe på denne datamaskinen så blir den din kalibre-mappe: denne profilen lagres der noen sekunder etter hver test eller endring, sammen med de datasett og skrifter du har lagt til. Om mappen allerede inneholder annet skapas en ”kalibre”-mappe inni.",
     "saving_this_profile_and_the": "Lagrer denne profilen samt tillagda datasett og skrifter i kalibre-mappen ”{folderName}” · {last}.{problem}",
-    "when_an_update_changes_how": "Når en oppdatering ändrar hvordan kalibre lagrar saker lagres en kopia av alt fra precis før, ifall noe gick feil. De to siste behålls.",
+    "when_an_update_changes_how": "Når en oppdatering ändrar hvordan kalibre lagrer saker lagres en kopia av alt fra precis før, ifall noe gick feil. De to siste behålls.",
     "what_takes_the_space": "hva som tar plats",
     "bring_profiles_datasets_and_fonts": "Hent tilbake profiler, datasett og skrifter fra en kalibre-mappe: etter å nettleseren rensats eller på en annan datamaskin. Ingenting her skrivs over. Fungerer i alle nettleser.",
     "shared": "delad",
