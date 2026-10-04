@@ -373,27 +373,6 @@
   "clean-sweep": {
     "name": "nessuna sbavatura"
   },
-  "beam-overload": {
-    "name": "raggio sovraccarico"
-  },
-  "flagship-down": {
-    "name": "ammiraglia abbattuta"
-  },
-  "keg-defused": {
-    "name": "barilotto disinnescato"
-  },
-  "ladder-toppled": {
-    "name": "scala rovesciata"
-  },
-  "sortie-master": {
-    "name": "maestro delle sortite"
-  },
-  "marathon-master": {
-    "name": "maestro della maratona"
-  },
-  "scroller-streak": {
-    "name": "serie sul nastro"
-  },
   "race-first": {
     "name": "ai posti"
   },
