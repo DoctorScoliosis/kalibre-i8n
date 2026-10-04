@@ -26,15 +26,15 @@
     "done": "Fertig",
     "customise_current": "Anpassen des aktuellen Themes",
     "import_theme": "Importieren eines Themes",
-    "decorations_for": "Dekorationen für{name}",
-    "use_theme": "Verwendung{name}",
-    "edit_theme": "Edit{name}",
-    "decorate_theme": "Dekorat{name}",
-    "export_theme": "Ausfuhren{name}",
-    "delete_theme": "Löschung{name}",
+    "decorations_for": "Dekorationen für {name}",
+    "use_theme": "Verwendung {name}",
+    "edit_theme": "Edit {name}",
+    "decorate_theme": "Dekorat {name}",
+    "export_theme": "Ausfuhren {name}",
+    "delete_theme": "Löschung {name}",
     "copy_and_decorate": "Kopieren Sie dieses Thema und dekorieren Sie es",
     "decorations_earned_zero": "Themendekorationen, die durch Spielen verdient werden, gehen auf eigene Themen.",
-    "decorations_earned_notice": "Du hast verdient{count, plural, one {Eine Themendekoration} other {# Themendekorationen}}Sie gehen auf Ihre eigenen Themen ein, also machen Sie eine Kopie davon zum Tragen{count, plural, one {Es} other {Sie}}.",
+    "decorations_earned_notice": "Du hast verdient {count, plural, one {Eine Themendekoration} other {# Themendekorationen}} Sie gehen auf Ihre eigenen Themen ein, also machen Sie eine Kopie davon zum Tragen {count, plural, one {Es} other {Sie}}.",
     "decorations_earned_info": "Verdient durch Spielen. Sie bleiben bei diesem thema in diesem profil und sind nicht enthalten, wenn sie das thema exportieren."
   },
   "picker": {
@@ -192,7 +192,7 @@
     "not_a_theme": "Kein Thema",
     "needs_a_name": "Braucht einen Namen von bis zu 40 Zeichen",
     "scheme_must_be": "Schema muss hell oder dunkel sein",
-    "bad_hex": "Farbe{token}\" Muss ein #rrggbb-Wert sein",
+    "bad_hex": "Farbe {token}\" Muss ein #rrggbb-Wert sein",
     "not_readable": "Nicht ausreichend lesbar:{labels}"
   }
 }
