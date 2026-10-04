@@ -13,7 +13,7 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 6,
+  "revision": 7,
   "version": "2026-10-04",
-  "changes": "L12: remove stale achievements.rules.lastLesson after canonical reconciliation"
+  "changes": "Reconciled Games keys after the application rollback"
 }
