@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "community",
-  "revision": 6,
-  "version": "2026-10-03",
-  "changes": "Filled current Feed, Castle, Space and Spot gaps against kalibre-kanary"
+  "revision": 7,
+  "version": "2026-10-04",
+  "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories"
 }
