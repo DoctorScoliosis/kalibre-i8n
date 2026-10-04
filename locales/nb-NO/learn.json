@@ -195,7 +195,7 @@
     "needs_wpm": "{wpm} wpm ({actual} denne gången)",
     "needs_accuracy": "{accuracy}% nøyaktighet ({actual}% denne gången)",
     "needs_key": "hver ny tast med {accuracy}%: {key} var {actual}%",
-    "needs_key_genedic": "hver ny tast med {accuracy}%",
+    "needs_key_generic": "every new key at {accuracy}%",
     "needs_heading": "For å mestre det behövs:",
     "next_open": "{id} {title} er nå öppen.",
     "slips_most": "taster med flest feil: {slips}",
@@ -215,7 +215,12 @@
     "runde_quit": "avsluta uten å lagre ",
     "round_summary": "runda {round}: {wpm} wpm · {accuracy}% — mellomrom for neste runda",
     "hints_prep": "esc hoppar til testet · mellomrom neste {unit}",
-    "hints_normal": "esc pausa · mellomrom neste {unit}"
+    "hints_normal": "esc pausa · mellomrom neste {unit}",
+    "runner_finish": "avslutt",
+    "runner_resume": "fortsett",
+    "runner_paused": "pauset",
+    "runner_restart": "start på nytt ",
+    "runner_quit": "avslutt uten å lagre "
   },
   "cal_wardrobe": {
     "whose_wardrobe": "vems garderobe",
@@ -283,19 +288,19 @@
     "tile_till_blurb": "et spill: betjäna kön gjennom å regne ut vekselen"
   },
   "learn_padlessons": {
-    "master_lesson_first": "Mestre leksjon {nåmber} først",
+    "master_lesson_first": "Mestre leksjon {number} først",
     "number_pad_lessons": "leksjoned for nåmerisk tastatur",
     "learn_the_pad_without_looking": "Lär dig tastaturet uten å se, noen taster om gangen, fra hemmatangenterna 4 5 6 og utåt. Hver leksjon öppnas når den forrige er mestret: hastigheten som vises, 95 % nøyaktighet over 25 poster og å hver ny tast til största delen blir riktig. Leksjoned gir XP.",
     "start_with_lesson_1": "begynne med leksjon 1",
     "of_mastered": "{mastered} av {length} mestret",
     "all_number_pad_lessons": "alle leksjoned for nåmerisk tastatur",
-    "this_lesson_opens_once_lesson": "Denne leksjonen öppnas når leksjon {nåmber} er mestret.",
-    "go_to_lesson": "gå til leksjon {nåmber}",
+    "this_lesson_opens_once_lesson": "Denne leksjonen öppnas når leksjon {number} er mestret.",
+    "go_to_lesson": "gå til leksjon {number}",
     "to_master_it_keystrokes_an": "For å mestre det: {thousands} tastetrykk i timen med {accuracy}% nøyaktighet over {entries} poster, og hver ny tast riktig {keyAccuracy} gånger av 100. Vila högerhanden på 4 5 6, med hevede punktet på 5 under langfingeren.",
     "try_again": "försök igjen",
     "result": "resultat",
     "mastered_again": "mestret igjen",
-    "lesson_is_open": "Leksjon {nåmber} er öppen.",
+    "lesson_is_open": "Leksjon {number} er öppen.",
     "that_s_every_number_pad": "Det var alle leksjoned for nåmerisk tastatur.",
     "again": "igjen",
     "best_summary": "bäst {ksph} i timmen · {accuracy}% · {attempts, plural, one {# försök} other {# försök}}",
@@ -309,20 +314,20 @@
     "reason_ksph": "{target} tastetrykk i timen ({now} denne gången)",
     "reason_accuracy": "{target}% nøyaktighet ({now}% denne gången)",
     "reason_key": "hver ny tast riktig {target} gånger av 100 ({key} var {accuracy}%)",
-    "diagram_label": "nåmerisk tastatur: tangenterna i leksjon {nåmber}",
-    "continue_lesson": "fortsett: {nåmber} {title}",
-    "next_lesson": "neste: {nåmber} {title}"
+    "diagram_label": "nåmerisk tastatur: tangenterna i leksjon {number}",
+    "continue_lesson": "fortsett: {number} {title}",
+    "next_lesson": "neste: {number} {title}"
   },
-  "learn_runde": {
+  "learn_runner": {
     "lesson": "leksjon {id}",
     "warm_up": "oppvarming",
     "step_of": "steg {current} av {total}",
     "counter_capped_prep": "{prep} · {done} / {target} {unit}",
     "counter_capped": "{done} / {target} {unit}",
     "counter": "{done} {unit}",
-    "time_left": " · {time} kvar",
+    "time_left": " · {time} igjen",
     "finger_line": "{key}: {finger}",
-    "shift_other_hand": ", med skift på andre hånden",
+    "shift_other_hand": ", med shift på den andre hånden",
     "tip_suffix": " · {tip}",
     "diagram_label": "tastatur for leksjon {id}"
   },
