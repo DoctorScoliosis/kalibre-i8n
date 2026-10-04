@@ -6,7 +6,7 @@
     "swap": "Swaps",
     "swap_title": "Tauschen Sie diese Suche nach einem anderen (einmal am Tag)",
     "go": "Gehen",
-    "go_aria": "Go:{quest}"
+    "go_aria": "Go: {quest}"
   },
   "labels": {
     "today": "Heute",
@@ -18,14 +18,14 @@
   "today": {
     "panel_aria": "Die heutigen Quests",
     "getting": "Die heutigen Quests...",
-    "new_at_midnight": "{difficulty}· Neue Quests um Mitternacht",
+    "new_at_midnight": "{difficulty} · Neue Quests um Mitternacht",
     "difficulty": "Schwierigkeit",
-    "summary_aria": "Heute:{done}Von{total}Quests erledigt{challenge, select, done {, Herausforderung erledigt} other {}}"
+    "summary_aria": "Heute: {done} Von {total} Quests erledigt{challenge, select, done {, Herausforderung erledigt} other {}}"
   },
   "quest_note": {
-    "xp": "+{reward}Xp",
-    "challenge_done": "Anfechtung erfolgt:{description}",
-    "quest_done": "Quest durchgeführt:{description}"
+    "xp": "+{reward} Xp",
+    "challenge_done": "Anfechtung erfolgt: {description}",
+    "quest_done": "Quest durchgeführt: {description}"
   },
   "match": {
     "tests": "{count, plural, one {A Prüfung} other {Prüfungen}}",
@@ -61,31 +61,31 @@
     "wpm": "{wpm}+ Wpm",
     "accuracy": "{accuracy}%+ Genauigkeit",
     "and": "Und",
-    "at": "Bei{parts}",
-    "kept_going_after": ", Ging weiter für{minutes, plural, one {# Minute} other {# Minuten}}",
-    "kept_going": "Weiterfahren für{minutes, plural, one {# Minute} other {# Minuten}}"
+    "at": "Bei {parts}",
+    "kept_going_after": ", Ging weiter für {minutes, plural, one {# Minute} other {# Minuten}}",
+    "kept_going": "Weiterfahren für {minutes, plural, one {# Minute} other {# Minuten}}"
   },
   "describe": {
-    "words": "Typ{count, plural, one {# Wort} other {# Worte}}",
-    "words_in": "Typ{count, plural, one {# Wort} other {# Worte}}In{match}",
-    "minutes": "Typ für{count, plural, one {# Minute} other {# Minuten}}",
-    "minutes_in": "Typ für{count, plural, one {# Minute} other {# Minuten}}In{match}",
-    "minutes_book": "Aus einem Buch für{count, plural, one {# Minute} other {# Minuten}}",
-    "tests_one": "Ende{match}",
-    "tests_many": "Ende{count} {match}",
-    "run": "Ende{match}{conditions}",
-    "game_runs": "Spiel{game} {count, plural, one {Einmal} other {# Zeiten}}",
-    "game_score": "Punktzahl{score}In{game}",
-    "game_score_difficulty": "Punktzahl{score}In{game} {difficulty}",
-    "game_found": "Finden{count, plural, one {# Fehler} other {#Fehler}}In einem{game}Lauf",
-    "lesson_run": "Tippen Sie eine Touch-Tippstunde bei{accuracy}%+ Genauigkeit",
+    "words": "Typ {count, plural, one {# Wort} other {# Worte}}",
+    "words_in": "Typ {count, plural, one {# Wort} other {# Worte}} In {match}",
+    "minutes": "Typ für {count, plural, one {# Minute} other {# Minuten}}",
+    "minutes_in": "Typ für {count, plural, one {# Minute} other {# Minuten}} In {match}",
+    "minutes_book": "Aus einem Buch für {count, plural, one {# Minute} other {# Minuten}}",
+    "tests_one": "Ende {match}",
+    "tests_many": "Ende {count} {match}",
+    "run": "Ende {match}{conditions}",
+    "game_runs": "Spiel {game} {count, plural, one {Einmal} other {# Zeiten}}",
+    "game_score": "Punktzahl {score} In {game}",
+    "game_score_difficulty": "Punktzahl {score} In {game} {difficulty}",
+    "game_found": "Finden {count, plural, one {# Fehler} other {#Fehler}} In einem {game} Lauf",
+    "lesson_run": "Tippen Sie eine Touch-Tippstunde bei {accuracy}%+ Genauigkeit",
     "lessons": "{count, plural, one {Do a Touch Tipping Lektion} other {Do # Touch Tipping Lektionen}}",
     "pad_tests": "{count, plural, one {Abschluss eines Zehn-Key-Tests} other {Abschluss # Zehn-Schlüssel-Tests}}",
     "pad_run": "Abschluss eines Zehn-Key-Tests",
     "pad_ksph": "{ksph}+ Tastenanschläge pro Stunde",
-    "pad_entries": ", Mit{entries}+ Einträge",
+    "pad_entries": ", Mit {entries}+ Einträge",
     "pad_lessons": "{count, plural, one {Do a Number Pad Lektion} other {Do # Number Pad Lektionen}}",
-    "sums": "Erhalten{count, plural, one {# Summe} other {# Summen}}Rechts",
+    "sums": "Erhalten {count, plural, one {# Summe} other {# Summen}} Rechts",
     "something": "Etwas"
   }
 }
