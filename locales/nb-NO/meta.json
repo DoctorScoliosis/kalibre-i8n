@@ -1,0 +1,12 @@
+{
+  "id": "nb-NO",
+  "name": "Norsk bokmål",
+  "englishName": "Norwegian Bokmål (Norway)",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": true,
+  "reviewed": "machine",
+  "revision": 1,
+  "version": "2026-10-04",
+  "changes": "Initial Norwegian Bokmål candidate translation"
+}
