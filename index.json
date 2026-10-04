@@ -102,14 +102,14 @@
       "englishName": "Portuguese (Brazil)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
-      "version": "2026-10-03",
+      "revision": 3,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Filled current physical-serving gaps against kalibre-kanary",
+      "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories",
       "path": "locales/pt-BR/manifest.json",
       "pack": "packs/pt-BR.json",
-      "sha256": "a4cc85a2d7f04bbf1533ce10b05a368107111e02af8eb6dd069a3851beaecd8c",
-      "bytes": 327845
+      "sha256": "ddbe81e4e6a7830f70d7c1937be058c403b4b7f61af16b533d68d390b18d260b",
+      "bytes": 321123
     },
     {
       "id": "sv-SE",
@@ -117,14 +117,14 @@
       "englishName": "Swedish (Sweden)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
+      "revision": 3,
       "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Initial Swedish candidate translation; companion and narrative localisation complete",
+      "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/sv-SE/manifest.json",
       "pack": "packs/sv-SE.json",
-      "sha256": "e02b4b0a9e20d48bffff819eba70f12bb0ebbcc6fcc45892a2886c80a71ccb7d",
-      "bytes": 318102
+      "sha256": "87bf2cd03da11760cc4529f2941a56d70851611c5a0694190c32fe7fd0c12374",
+      "bytes": 311472
     },
     {
       "id": "zh-CN",
