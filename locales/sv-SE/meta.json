@@ -1,0 +1,12 @@
+{
+  "id": "sv-SE",
+  "name": "Svenska",
+  "englishName": "Swedish (Sweden)",
+  "dir": "ltr",
+  "fallback": "en-GB",
+  "lowercaseDates": true,
+  "reviewed": "machine",
+  "revision": 1,
+  "version": "2026-10-04",
+  "changes": "Initial Swedish candidate translation"
+}
