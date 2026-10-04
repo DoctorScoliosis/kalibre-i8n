@@ -98,12 +98,12 @@
   },
   "kanary_notice": {
     "features_interfaces_and_database_schemas": "Funktionen, Schnittstellen und Datenbankschemata entwickeln sich aktiv weiter und können sich ohne vorherige Ankündigung verschieben, ersetzt oder unterbrochen werden.",
-    "things_may_break_or_change": "Dinge können brechen oder sich ändern.",
+    "things_may_break_or_change": "Dinge können brechen oder sich ändern. ",
     "your_typing_history_achievements_and": "Ihre Eingabehistorie, Erfolge und benutzerdefinierten Daten werden im lokalen Speicher dieses Browsers gespeichert. Exportieren Sie eine Backup-Kopie regelmäßig, so dass ein Update nie Ihren Fortschritt kostet.",
-    "periodically_back_up_your_profiles": "In regelmäßigen Abständen sichern Sie Ihre Profile:",
+    "periodically_back_up_your_profiles": "In regelmäßigen Abständen sichern Sie Ihre Profile: ",
     "profiles_used_on_kanary_may": "Profile, die auf kanary verwendet werden, können funktionieren oder nicht, wenn sie in release-versionen von kalibre importiert werden. Kanary kann neuere Datenbankschemata, experimentelle Einstellungen oder überarbeitete Formate einführen, die Versionen nicht lesen oder rückwärts migrieren können.",
-    "release_compatibility": "Freigabekompatibilität:",
-    "announcements_devlog": "Ankündigungen & Devlog:",
+    "release_compatibility": "Freigabekompatibilität: ",
+    "announcements_devlog": "Ankündigungen & Devlog: ",
     "stackinfolio": "Stackinfolio",
     "settings_data": "Einstellungen → Daten",
     "got_it": "Bekam es",
@@ -119,7 +119,7 @@
   "older_version": {
     "older_version": "Ältere Version",
     "it_keeps_its_own_data": "Es behält seine eigenen Daten, abgesehen von der aktuellen Version: Um Ihre hier zu verwenden, importieren Sie eine Profildatei, die vor dem Update gespeichert wurde (Profilmenü → Importieren einer Profildatei).",
-    "this_is_kalibre_v_kept": "Dies ist kalibre v {version} Behalten, damit du zurückgehen kannst.",
+    "this_is_kalibre_v_kept": "Dies ist kalibre v {version} Behalten, damit du zurückgehen kannst. ",
     "go_to_the_current_version": "Gehen Sie zur aktuellen Version",
     "hide_this_until_the_page": "Verstecken Sie dies, bis die Seite neu geladen wird",
     "hide_until_the_page_reloads": "Verstecken, bis die Seite neu geladen wird"
