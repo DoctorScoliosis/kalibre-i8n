@@ -91,208 +91,553 @@
     "progress_suffix": " ({have} van {need})",
     "secret_hint": "een geheim: blijf spelen"
   },
-  "first-test":{"name":"eerste stappen"},
-  "tests-10":{"name":"opwarmen"},
-  "tests-100":{"name":"honderd gedaan"},
-  "tests-500":{"name":"vijfhonderd"},
-  "tests-1000":{"name":"duizend gedaan"},
-  "wpm-40":{"name":"vaste handen"},
-  "wpm-50":{"name":"ritme vinden"},
-  "wpm-60":{"name":"snelle vingers"},
-  "wpm-70":{"name":"vlot"},
-  "wpm-80":{"name":"razendsnel"},
-  "wpm-100":{"name":"driecijferig"},
-  "wpm-120":{"name":"een waas"},
-  "wpm-150":{"name":"bliksem"},
-  "perfect-30":{"name":"dertig foutloze seconden"},
-  "perfect-minute":{"name":"een foutloze minuut"},
-  "perfect-2min":{"name":"twee foutloze minuten"},
-  "hours-1":{"name":"het eerste uur"},
-  "hours-10":{"name":"tien uur"},
-  "hours-50":{"name":"vijftig uur"},
-  "hours-100":{"name":"honderd uur"},
-  "words-10k":{"name":"tienduizend woorden"},
-  "words-100k":{"name":"honderdduizend woorden"},
-  "words-1m":{"name":"een miljoen woorden"},
-  "days-10":{"name":"tien dagen bezig"},
-  "days-50":{"name":"vijftig dagen bezig"},
-  "days-100":{"name":"honderd dagen bezig"},
-  "days-365":{"name":"een jaar aan dagen"},
-  "sustained-1":{"name":"volhouden"},
-  "sustained-3":{"name":"vasthouden"},
-  "sustained-10":{"name":"uithoudingsvermogen"},
-  "sustained-20":{"name":"de lange rit"},
-  "sustained-30":{"name":"duurvermogen"},
-  "sustained-total-60":{"name":"een uur aanhoudend"},
-  "sustained-total-300":{"name":"vijf uur aanhoudend"},
-  "book-finished":{"name":"tot de laatste pagina"},
-  "books-5":{"name":"nooit neergelegd"},
-  "mastered-1":{"name":"gerepareerd"},
-  "mastered-5":{"name":"opgelapt"},
-  "mastered-25":{"name":"hersteld"},
-  "mastered-100":{"name":"zo goed als nieuw"},
-  "mastered-250":{"name":"niets meer te repareren"},
-  "drills-1":{"name":"eerste oefening"},
-  "drills-10":{"name":"geoefend"},
-  "drills-100":{"name":"oefening baart kunst"},
-  "first-lesson":{"name":"eerste les"},
-  "lessons-10":{"name":"tien lessen"},
-  "stage-1":{"name":"basisrij"},
-  "stage-2":{"name":"bovenste rij"},
-  "stage-3":{"name":"drie rijen"},
-  "stage-4":{"name":"hoofdletters"},
-  "stage-5":{"name":"met de cijfers"},
-  "stage-6":{"name":"vloeiend"},
-  "all-lessons":{"name":"blindtypist"},
-  "stage-1-started":{"name":"basisrij beginnen"},
-  "stage-2-started":{"name":"bovenste rij beginnen"},
-  "stage-3-started":{"name":"onderste rij beginnen"},
-  "stage-4-started":{"name":"hoofdletters beginnen"},
-  "stage-5-started":{"name":"cijfers beginnen"},
-  "stage-6-started":{"name":"vloeiendheid beginnen"},
-  "last-lesson":{"name":"tot de laatste les"},
-  "first-step":{"name":"rustig beginnen"},
-  "stepped-lesson":{"name":"elke stap van de weg"},
-  "stepped-10":{"name":"goed opgewarmd"},
-  "first-warmup":{"name":"opgewarmd"},
-  "warmup-mastery":{"name":"rechtstreeks erdoorheen"},
-  "step-again":{"name":"bijna daar"},
-  "every-game":{"name":"alles geprobeerd"},
-  "every-game-10":{"name":"vaste speler"},
-  "every-game-50":{"name":"toegewijde speler"},
-  "games-100":{"name":"spelletjesavond"},
-  "space-2000":{"name":"top-piloot"},
-  "space-5000":{"name":"ruimtekanon"},
-  "castle-normal":{"name":"de muren houden"},
-  "castle-hard":{"name":"kasteelwachter"},
-  "spot-20":{"name":"arendsogen"},
-  "spot-50":{"name":"haviksoog"},
-  "feed-30":{"name":"goed gevoed"},
-  "feed-10min":{"name":"lange lunch"},
-  "hard-win":{"name":"de moeilijke weg"},
-  "castle-easy":{"name":"eerste bres"},
-  "space-win":{"name":"romp intact"},
-  "space-hard-win":{"name":"ijzeren romp"},
-  "spot-total-100":{"name":"correcties, alles bij elkaar"},
-  "spot-chief":{"name":"hoofdcorrector"},
-  "buffet-host":{"name":"buffethost"},
-  "full-house":{"name":"volle bak"},
-  "no-hints":{"name":"geen hints nodig"},
-  "station-down":{"name":"station uitgevallen"},
-  "shrapnel-storm":{"name":"granaatschervenstorm"},
-  "stacked":{"name":"gestapeld"},
-  "autopilot-ace":{"name":"autopilot-ster"},
-  "dazed":{"name":"duizelig en verward"},
-  "spoils-of-war":{"name":"oorlogsbuit"},
-  "clean-sweep":{"name":"grote schoonmaak"},
-  "beam-overload":{"name":"overbelaste straal"},
-  "flagship-down":{"name":"vlaggenschip neer"},
-  "keg-defused":{"name":"vat onschadelijk"},
-  "ladder-toppled":{"name":"ladder omgevallen"},
-  "sortie-master":{"name":"sortiemeester"},
-  "marathon-master":{"name":"marathonmeester"},
-  "scroller-streak":{"name":"transportbandreeks"},
-  "race-first":{"name":"op je plaatsen"},
-  "race-solo-win":{"name":"eerste over de finish"},
-  "race-hard-win":{"name":"ze allemaal voorbij"},
-  "race-network-win":{"name":"snelste in de kamer"},
-  "race-last-standing":{"name":"laatste over"},
-  "race-every-mode":{"name":"win in elke baan"},
-  "streak-3":{"name":"drie op rij"},
-  "streak-7":{"name":"een week volgehouden"},
-  "streak-14":{"name":"twee weken volgehouden"},
-  "streak-30":{"name":"een maand volgehouden"},
-  "streak-100":{"name":"honderd dagen volgehouden"},
-  "streak-365":{"name":"een jaar volgehouden"},
-  "level-5":{"name":"niveau 5"},
-  "level-10":{"name":"niveau 10"},
-  "level-15":{"name":"niveau 15"},
-  "level-20":{"name":"niveau 20"},
-  "level-30":{"name":"niveau 30"},
-  "level-40":{"name":"niveau 40"},
-  "level-50":{"name":"niveau 50"},
-  "quests-10":{"name":"op missie"},
-  "quests-25":{"name":"missiegericht"},
-  "quests-100":{"name":"missies doen"},
-  "quests-500":{"name":"een leven vol missies"},
-  "challenges-10":{"name":"er klaar voor"},
-  "challenges-50":{"name":"uitdager"},
-  "challenges-100":{"name":"geeft nooit op"},
-  "full-days-7":{"name":"volledige set"},
-  "full-days-30":{"name":"dertig volle dagen"},
-  "first-text":{"name":"jouw eigen woorden"},
-  "texts-3":{"name":"een paar van jezelf"},
-  "texts-10":{"name":"een kleine bibliotheek"},
-  "texts-25":{"name":"een boekenplank"},
-  "page-text":{"name":"een eigen pagina"},
-  "long-text":{"name":"een lange leessessie"},
-  "epic-text":{"name":"een epos"},
-  "pets-1":{"name":"hoi daar"},
-  "pets-25":{"name":"goede toetskap"},
-  "pets-100":{"name":"beste vrienden"},
-  "pets-500":{"name":"onafscheidelijk"},
-  "pokes-1":{"name":"boop"},
-  "pokes-100":{"name":"por, por, por"},
-  "tickles-1":{"name":"kietelig"},
-  "tickles-25":{"name":"giechelbui"},
-  "tickles-250":{"name":"geen genade"},
-  "wardrobe-10":{"name":"aankleden"},
-  "wardrobe-25":{"name":"een volle kast"},
-  "all-slots":{"name":"op je paasbest"},
-  "decorations-1":{"name":"een beetje flair"},
-  "decorations-5":{"name":"decorateur"},
-  "decorations-10":{"name":"interieurontwerper"},
-  "decorations-all":{"name":"alle versieringen"},
-  "decoration-kinds":{"name":"één van elk"},
-  "decorated":{"name":"van mij gemaakt"},
-  "fully-decorated":{"name":"alles erop en eraan"},
-  "pad-first":{"name":"eerste test"},
-  "pad-tests-25":{"name":"boekhouder"},
-  "pad-speed-5000":{"name":"vaste handen"},
-  "pad-speed-8000":{"name":"snel op het blok"},
-  "pad-speed-10000":{"name":"tienduizend per uur"},
-  "pad-perfect":{"name":"balans gehouden"},
-  "pad-lesson-1":{"name":"basistoetsen"},
-  "pad-lessons-all":{"name":"het hele blok"},
-  "pad-sums-100":{"name":"goed met cijfers"},
-  "pad-sums-perfect":{"name":"geen rekenmachine nodig"},
-  "pad-sums-level-5":{"name":"bevoegd"},
-  "pad-till-25":{"name":"vaste klanten"},
-  "pad-till-60":{"name":"de rij houdt nooit op"},
-  "pad-keys-10000":{"name":"tienduizend toetsen"},
-  "night-owl":{"name":"nachtuil"},
-  "moonlighter":{"name":"nachtwerker"},
-  "early-bird":{"name":"vroege vogel"},
-  "flawless":{"name":"foutloos"},
-  "marathon":{"name":"marathon"},
-  "first-try":{"name":"eerste poging"},
-  "pets-1000":{"name":"toegewijd"},
-  "poke-fit":{"name":"dat is genoeg"},
-  "restarts-3":{"name":"déjà vu"},
-  "restarts-7":{"name":"dag van de marmot"},
-  "restarts-15":{"name":"uit en weer aan"},
-  "arm-lift":{"name":"een helpende hand"},
-  "word-bomb":{"name":"nucleair gaan"},
-  "achievement_badges":{
-    "secret":"geheim",
-    "kind":"{kind}",
-    "kind_earned":"{kind}, verdiend",
-    "kind_trophy":"trofee",
-    "kind_medal":"medaille",
-    "kind_badge":"badge"
+  "first-test": {
+    "name": "eerste stappen"
   },
-  "achievement_note":{"see_achievements":"prestaties bekijken"},
-  "achievements":{
-    "doesn_t_count_towards_100":"telt niet mee voor 100%",
-    "achievements_aren_t_available_here":"Prestaties zijn hier niet beschikbaar.",
-    "things_you_ve_done_in":"dingen die je in kalibre hebt gedaan, berekend op basis van je geschiedenis, dus alles wat je eerder deed telt ook mee. geheimen en extra's tellen niet mee voor het totaal.",
-    "100_every_achievement":"100%: elke prestatie.",
-    "achievements_aren_t_available_here_2":"Prestaties zijn hier niet beschikbaar.",
-    "earned":"verdiend",
-    "trophies":"trofeeën",
-    "medals":"medailles",
-    "badges":"badges",
-    "extras":"extra's",
-    "sections_label":"prestatieonderdelen"
+  "tests-10": {
+    "name": "opwarmen"
+  },
+  "tests-100": {
+    "name": "honderd gedaan"
+  },
+  "tests-500": {
+    "name": "vijfhonderd"
+  },
+  "tests-1000": {
+    "name": "duizend gedaan"
+  },
+  "wpm-40": {
+    "name": "vaste handen"
+  },
+  "wpm-50": {
+    "name": "ritme vinden"
+  },
+  "wpm-60": {
+    "name": "snelle vingers"
+  },
+  "wpm-70": {
+    "name": "vlot"
+  },
+  "wpm-80": {
+    "name": "razendsnel"
+  },
+  "wpm-100": {
+    "name": "driecijferig"
+  },
+  "wpm-120": {
+    "name": "een waas"
+  },
+  "wpm-150": {
+    "name": "bliksem"
+  },
+  "perfect-30": {
+    "name": "dertig foutloze seconden"
+  },
+  "perfect-minute": {
+    "name": "een foutloze minuut"
+  },
+  "perfect-2min": {
+    "name": "twee foutloze minuten"
+  },
+  "hours-1": {
+    "name": "het eerste uur"
+  },
+  "hours-10": {
+    "name": "tien uur"
+  },
+  "hours-50": {
+    "name": "vijftig uur"
+  },
+  "hours-100": {
+    "name": "honderd uur"
+  },
+  "words-10k": {
+    "name": "tienduizend woorden"
+  },
+  "words-100k": {
+    "name": "honderdduizend woorden"
+  },
+  "words-1m": {
+    "name": "een miljoen woorden"
+  },
+  "days-10": {
+    "name": "tien dagen bezig"
+  },
+  "days-50": {
+    "name": "vijftig dagen bezig"
+  },
+  "days-100": {
+    "name": "honderd dagen bezig"
+  },
+  "days-365": {
+    "name": "een jaar aan dagen"
+  },
+  "sustained-1": {
+    "name": "volhouden"
+  },
+  "sustained-3": {
+    "name": "vasthouden"
+  },
+  "sustained-10": {
+    "name": "uithoudingsvermogen"
+  },
+  "sustained-20": {
+    "name": "de lange rit"
+  },
+  "sustained-30": {
+    "name": "duurvermogen"
+  },
+  "sustained-total-60": {
+    "name": "een uur aanhoudend"
+  },
+  "sustained-total-300": {
+    "name": "vijf uur aanhoudend"
+  },
+  "book-finished": {
+    "name": "tot de laatste pagina"
+  },
+  "books-5": {
+    "name": "nooit neergelegd"
+  },
+  "mastered-1": {
+    "name": "gerepareerd"
+  },
+  "mastered-5": {
+    "name": "opgelapt"
+  },
+  "mastered-25": {
+    "name": "hersteld"
+  },
+  "mastered-100": {
+    "name": "zo goed als nieuw"
+  },
+  "mastered-250": {
+    "name": "niets meer te repareren"
+  },
+  "drills-1": {
+    "name": "eerste oefening"
+  },
+  "drills-10": {
+    "name": "geoefend"
+  },
+  "drills-100": {
+    "name": "oefening baart kunst"
+  },
+  "first-lesson": {
+    "name": "eerste les"
+  },
+  "lessons-10": {
+    "name": "tien lessen"
+  },
+  "stage-1": {
+    "name": "basisrij"
+  },
+  "stage-2": {
+    "name": "bovenste rij"
+  },
+  "stage-3": {
+    "name": "drie rijen"
+  },
+  "stage-4": {
+    "name": "hoofdletters"
+  },
+  "stage-5": {
+    "name": "met de cijfers"
+  },
+  "stage-6": {
+    "name": "vloeiend"
+  },
+  "all-lessons": {
+    "name": "blindtypist"
+  },
+  "stage-1-started": {
+    "name": "basisrij beginnen"
+  },
+  "stage-2-started": {
+    "name": "bovenste rij beginnen"
+  },
+  "stage-3-started": {
+    "name": "onderste rij beginnen"
+  },
+  "stage-4-started": {
+    "name": "hoofdletters beginnen"
+  },
+  "stage-5-started": {
+    "name": "cijfers beginnen"
+  },
+  "stage-6-started": {
+    "name": "vloeiendheid beginnen"
+  },
+  "last-lesson": {
+    "name": "tot de laatste les"
+  },
+  "first-step": {
+    "name": "rustig beginnen"
+  },
+  "stepped-lesson": {
+    "name": "elke stap van de weg"
+  },
+  "stepped-10": {
+    "name": "goed opgewarmd"
+  },
+  "first-warmup": {
+    "name": "opgewarmd"
+  },
+  "warmup-mastery": {
+    "name": "rechtstreeks erdoorheen"
+  },
+  "step-again": {
+    "name": "bijna daar"
+  },
+  "every-game": {
+    "name": "alles geprobeerd"
+  },
+  "every-game-10": {
+    "name": "vaste speler"
+  },
+  "every-game-50": {
+    "name": "toegewijde speler"
+  },
+  "games-100": {
+    "name": "spelletjesavond"
+  },
+  "space-2000": {
+    "name": "top-piloot"
+  },
+  "space-5000": {
+    "name": "ruimtekanon"
+  },
+  "castle-normal": {
+    "name": "de muren houden"
+  },
+  "castle-hard": {
+    "name": "kasteelwachter"
+  },
+  "spot-20": {
+    "name": "arendsogen"
+  },
+  "spot-50": {
+    "name": "haviksoog"
+  },
+  "feed-30": {
+    "name": "goed gevoed"
+  },
+  "feed-10min": {
+    "name": "lange lunch"
+  },
+  "hard-win": {
+    "name": "de moeilijke weg"
+  },
+  "castle-easy": {
+    "name": "eerste bres"
+  },
+  "space-win": {
+    "name": "romp intact"
+  },
+  "space-hard-win": {
+    "name": "ijzeren romp"
+  },
+  "spot-total-100": {
+    "name": "correcties, alles bij elkaar"
+  },
+  "spot-chief": {
+    "name": "hoofdcorrector"
+  },
+  "buffet-host": {
+    "name": "buffethost"
+  },
+  "full-house": {
+    "name": "volle bak"
+  },
+  "no-hints": {
+    "name": "geen hints nodig"
+  },
+  "station-down": {
+    "name": "station uitgevallen"
+  },
+  "shrapnel-storm": {
+    "name": "granaatschervenstorm"
+  },
+  "stacked": {
+    "name": "gestapeld"
+  },
+  "autopilot-ace": {
+    "name": "autopilot-ster"
+  },
+  "dazed": {
+    "name": "duizelig en verward"
+  },
+  "spoils-of-war": {
+    "name": "oorlogsbuit"
+  },
+  "clean-sweep": {
+    "name": "grote schoonmaak"
+  },
+  "race-first": {
+    "name": "op je plaatsen"
+  },
+  "race-solo-win": {
+    "name": "eerste over de finish"
+  },
+  "race-hard-win": {
+    "name": "ze allemaal voorbij"
+  },
+  "race-network-win": {
+    "name": "snelste in de kamer"
+  },
+  "race-last-standing": {
+    "name": "laatste over"
+  },
+  "race-every-mode": {
+    "name": "win in elke baan"
+  },
+  "streak-3": {
+    "name": "drie op rij"
+  },
+  "streak-7": {
+    "name": "een week volgehouden"
+  },
+  "streak-14": {
+    "name": "twee weken volgehouden"
+  },
+  "streak-30": {
+    "name": "een maand volgehouden"
+  },
+  "streak-100": {
+    "name": "honderd dagen volgehouden"
+  },
+  "streak-365": {
+    "name": "een jaar volgehouden"
+  },
+  "level-5": {
+    "name": "niveau 5"
+  },
+  "level-10": {
+    "name": "niveau 10"
+  },
+  "level-15": {
+    "name": "niveau 15"
+  },
+  "level-20": {
+    "name": "niveau 20"
+  },
+  "level-30": {
+    "name": "niveau 30"
+  },
+  "level-40": {
+    "name": "niveau 40"
+  },
+  "level-50": {
+    "name": "niveau 50"
+  },
+  "quests-10": {
+    "name": "op missie"
+  },
+  "quests-25": {
+    "name": "missiegericht"
+  },
+  "quests-100": {
+    "name": "missies doen"
+  },
+  "quests-500": {
+    "name": "een leven vol missies"
+  },
+  "challenges-10": {
+    "name": "er klaar voor"
+  },
+  "challenges-50": {
+    "name": "uitdager"
+  },
+  "challenges-100": {
+    "name": "geeft nooit op"
+  },
+  "full-days-7": {
+    "name": "volledige set"
+  },
+  "full-days-30": {
+    "name": "dertig volle dagen"
+  },
+  "first-text": {
+    "name": "jouw eigen woorden"
+  },
+  "texts-3": {
+    "name": "een paar van jezelf"
+  },
+  "texts-10": {
+    "name": "een kleine bibliotheek"
+  },
+  "texts-25": {
+    "name": "een boekenplank"
+  },
+  "page-text": {
+    "name": "een eigen pagina"
+  },
+  "long-text": {
+    "name": "een lange leessessie"
+  },
+  "epic-text": {
+    "name": "een epos"
+  },
+  "pets-1": {
+    "name": "hoi daar"
+  },
+  "pets-25": {
+    "name": "goede toetskap"
+  },
+  "pets-100": {
+    "name": "beste vrienden"
+  },
+  "pets-500": {
+    "name": "onafscheidelijk"
+  },
+  "pokes-1": {
+    "name": "boop"
+  },
+  "pokes-100": {
+    "name": "por, por, por"
+  },
+  "tickles-1": {
+    "name": "kietelig"
+  },
+  "tickles-25": {
+    "name": "giechelbui"
+  },
+  "tickles-250": {
+    "name": "geen genade"
+  },
+  "wardrobe-10": {
+    "name": "aankleden"
+  },
+  "wardrobe-25": {
+    "name": "een volle kast"
+  },
+  "all-slots": {
+    "name": "op je paasbest"
+  },
+  "decorations-1": {
+    "name": "een beetje flair"
+  },
+  "decorations-5": {
+    "name": "decorateur"
+  },
+  "decorations-10": {
+    "name": "interieurontwerper"
+  },
+  "decorations-all": {
+    "name": "alle versieringen"
+  },
+  "decoration-kinds": {
+    "name": "één van elk"
+  },
+  "decorated": {
+    "name": "van mij gemaakt"
+  },
+  "fully-decorated": {
+    "name": "alles erop en eraan"
+  },
+  "pad-first": {
+    "name": "eerste test"
+  },
+  "pad-tests-25": {
+    "name": "boekhouder"
+  },
+  "pad-speed-5000": {
+    "name": "vaste handen"
+  },
+  "pad-speed-8000": {
+    "name": "snel op het blok"
+  },
+  "pad-speed-10000": {
+    "name": "tienduizend per uur"
+  },
+  "pad-perfect": {
+    "name": "balans gehouden"
+  },
+  "pad-lesson-1": {
+    "name": "basistoetsen"
+  },
+  "pad-lessons-all": {
+    "name": "het hele blok"
+  },
+  "pad-sums-100": {
+    "name": "goed met cijfers"
+  },
+  "pad-sums-perfect": {
+    "name": "geen rekenmachine nodig"
+  },
+  "pad-sums-level-5": {
+    "name": "bevoegd"
+  },
+  "pad-till-25": {
+    "name": "vaste klanten"
+  },
+  "pad-till-60": {
+    "name": "de rij houdt nooit op"
+  },
+  "pad-keys-10000": {
+    "name": "tienduizend toetsen"
+  },
+  "night-owl": {
+    "name": "nachtuil"
+  },
+  "moonlighter": {
+    "name": "nachtwerker"
+  },
+  "early-bird": {
+    "name": "vroege vogel"
+  },
+  "flawless": {
+    "name": "foutloos"
+  },
+  "marathon": {
+    "name": "marathon"
+  },
+  "first-try": {
+    "name": "eerste poging"
+  },
+  "pets-1000": {
+    "name": "toegewijd"
+  },
+  "poke-fit": {
+    "name": "dat is genoeg"
+  },
+  "restarts-3": {
+    "name": "déjà vu"
+  },
+  "restarts-7": {
+    "name": "dag van de marmot"
+  },
+  "restarts-15": {
+    "name": "uit en weer aan"
+  },
+  "arm-lift": {
+    "name": "een helpende hand"
+  },
+  "word-bomb": {
+    "name": "nucleair gaan"
+  },
+  "achievement_badges": {
+    "secret": "geheim",
+    "kind": "{kind}",
+    "kind_earned": "{kind}, verdiend",
+    "kind_trophy": "trofee",
+    "kind_medal": "medaille",
+    "kind_badge": "badge"
+  },
+  "achievement_note": {
+    "see_achievements": "prestaties bekijken"
+  },
+  "achievements": {
+    "doesn_t_count_towards_100": "telt niet mee voor 100%",
+    "achievements_aren_t_available_here": "Prestaties zijn hier niet beschikbaar.",
+    "things_you_ve_done_in": "dingen die je in kalibre hebt gedaan, berekend op basis van je geschiedenis, dus alles wat je eerder deed telt ook mee. geheimen en extra's tellen niet mee voor het totaal.",
+    "100_every_achievement": "100%: elke prestatie.",
+    "achievements_aren_t_available_here_2": "Prestaties zijn hier niet beschikbaar.",
+    "earned": "verdiend",
+    "trophies": "trofeeën",
+    "medals": "medailles",
+    "badges": "badges",
+    "extras": "extra's",
+    "sections_label": "prestatieonderdelen"
   }
 }
