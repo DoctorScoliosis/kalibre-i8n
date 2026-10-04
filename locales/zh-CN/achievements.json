@@ -30,7 +30,6 @@
     "stageMastered": "掌握第 {stage} 阶段的所有课程",
     "stageStarted": "开始第 {stage} 阶段的一节课程",
     "allLessons": "掌握所有课程",
-    "lastLesson": "完成课程中的最后一课",
     "stepsFinished": "完成 {count, plural, other {# 个课程步骤}}",
     "lessonsStepped": "在测试前进入 {count, plural, other {# 节课程}}的步骤",
     "stepsAllDoneLessons": "{count, plural, other {完成 # 节课程的所有步骤}}",
@@ -91,188 +90,552 @@
     "progress_suffix": "（{have} / {need}）",
     "secret_hint": "隐藏成就：继续玩下去"
   },
-  "first-test": { "name": "第一步" },
-  "tests-10": { "name": "热身" },
-  "tests-100": { "name": "一百次" },
-  "tests-500": { "name": "五百次" },
-  "tests-1000": { "name": "一千次" },
-  "wpm-40": { "name": "稳定的双手" },
-  "wpm-50": { "name": "找到节奏" },
-  "wpm-60": { "name": "快速的手指" },
-  "wpm-70": { "name": "轻快" },
-  "wpm-80": { "name": "敏捷" },
-  "wpm-100": { "name": "三位数" },
-  "wpm-120": { "name": "快成残影" },
-  "wpm-150": { "name": "闪电" },
-  "perfect-30": { "name": "三十秒完美" },
-  "perfect-minute": { "name": "完美一分钟" },
-  "perfect-2min": { "name": "完美两分钟" },
-  "hours-1": { "name": "第一个小时" },
-  "hours-10": { "name": "十小时" },
-  "hours-50": { "name": "五十小时" },
-  "hours-100": { "name": "一百小时" },
-  "words-10k": { "name": "一万字" },
-  "words-100k": { "name": "十万字" },
-  "words-1m": { "name": "一百万字" },
-  "days-10": { "name": "十天" },
-  "days-50": { "name": "五十天" },
-  "days-100": { "name": "一百天" },
-  "days-365": { "name": "一年如一日" },
-  "sustained-1": { "name": "坚持不懈" },
-  "sustained-3": { "name": "坚持住" },
-  "sustained-10": { "name": "耐力" },
-  "sustained-20": { "name": "长途跋涉" },
-  "sustained-30": { "name": "持久力" },
-  "sustained-total-60": { "name": "一小时，持续" },
-  "sustained-total-300": { "name": "五小时，持续" },
-  "book-finished": { "name": "直到最后一页" },
-  "books-5": { "name": "爱不释手" },
-  "mastered-1": { "name": "修好了" },
-  "mastered-5": { "name": "修补过了" },
-  "mastered-25": { "name": "修补好了" },
-  "mastered-100": { "name": "焕然一新" },
-  "mastered-250": { "name": "无需再修" },
-  "drills-1": { "name": "第一次训练" },
-  "drills-10": { "name": "训练有素" },
-  "drills-100": { "name": "熟能生巧" },
-  "first-lesson": { "name": "第一课" },
-  "lessons-10": { "name": "十课" },
-  "stage-1": { "name": "基准行" },
-  "stage-2": { "name": "上排" },
-  "stage-3": { "name": "三排" },
-  "stage-4": { "name": "大写字母" },
-  "stage-5": { "name": "数字" },
-  "stage-6": { "name": "流畅" },
-  "all-lessons": { "name": "盲打达人" },
-  "stage-1-started": { "name": "开始基准行" },
-  "stage-2-started": { "name": "开始上排" },
-  "stage-3-started": { "name": "开始下排" },
-  "stage-4-started": { "name": "开始大写" },
-  "stage-5-started": { "name": "开始数字" },
-  "stage-6-started": { "name": "开始流畅" },
-  "last-lesson": { "name": "直到最后一课" },
-  "first-step": { "name": "轻松起步" },
-  "stepped-lesson": { "name": "步步为营" },
-  "stepped-10": { "name": "渐入佳境" },
-  "first-warmup": { "name": "热身完毕" },
-  "warmup-mastery": { "name": "一气呵成" },
-  "step-again": { "name": "渐入佳境" },
-  "every-game": { "name": "全部试过了" },
-  "every-game-10": { "name": "常客" },
-  "every-game-50": { "name": "爱好者" },
-  "games-100": { "name": "游戏之夜" },
-  "space-2000": { "name": "王牌飞行员" },
-  "space-5000": { "name": "壮志凌云" },
-  "castle-normal": { "name": "守住城墙" },
-  "castle-hard": { "name": "城堡守护者" },
-  "spot-20": { "name": "鹰眼" },
-  "spot-50": { "name": "隼眼" },
-  "feed-30": { "name": "喂饱了" },
-  "feed-10min": { "name": "漫长的午餐" },
-  "hard-win": { "name": "艰难取胜" },
-  "castle-easy": { "name": "首次突破" },
-  "space-win": { "name": "船体完好" },
-  "space-hard-win": { "name": "钢铁船体" },
-  "spot-total-100": { "name": "累计纠错" },
-  "spot-chief": { "name": "首席校对员" },
-  "buffet-host": { "name": "自助餐主人" },
-  "full-house": { "name": "满堂彩" },
-  "no-hints": { "name": "无需提示" },
-  "station-down": { "name": "空间站摧毁" },
-  "shrapnel-storm": { "name": "弹片风暴" },
-  "stacked": { "name": "堆叠大师" },
-  "autopilot-ace": { "name": "自动驾驶王牌" },
-  "dazed": { "name": "晕头转向" },
-  "spoils-of-war": { "name": "战利品" },
-  "clean-sweep": { "name": "完美清除" },
-  "beam-overload": { "name": "光束过载" },
-  "flagship-down": { "name": "旗舰击沉" },
-  "keg-defused": { "name": "火药桶拆除" },
-  "ladder-toppled": { "name": "云梯推倒" },
-  "sortie-master": { "name": "出击大师" },
-  "marathon-master": { "name": "马拉松大师" },
-  "scroller-streak": { "name": "传送带连胜" },
-  "race-first": { "name": "各就各位" },
-  "race-solo-win": { "name": "率先冲线" },
-  "race-hard-win": { "name": "超越两者" },
-  "race-network-win": { "name": "房间最快" },
-  "race-last-standing": { "name": "坚持到最后" },
-  "race-every-mode": { "name": "每条赛道的胜利" },
-  "streak-3": { "name": "连续三天" },
-  "streak-7": { "name": "一周坚持" },
-  "streak-14": { "name": "两周坚持" },
-  "streak-30": { "name": "一个月坚持" },
-  "streak-100": { "name": "一百天坚持" },
-  "streak-365": { "name": "一年坚持" },
-  "level-5": { "name": "等级 5" },
-  "level-10": { "name": "等级 10" },
-  "level-15": { "name": "等级 15" },
-  "level-20": { "name": "等级 20" },
-  "level-30": { "name": "等级 30" },
-  "level-40": { "name": "等级 40" },
-  "level-50": { "name": "等级 50" },
-  "quests-10": { "name": "踏上征途" },
-  "quests-25": { "name": "任务达人" },
-  "quests-100": { "name": "任务专家" },
-  "quests-500": { "name": "任务人生" },
-  "challenges-10": { "name": "迎接挑战" },
-  "challenges-50": { "name": "挑战者" },
-  "challenges-100": { "name": "永不言败" },
-  "full-days-7": { "name": "全勤一周" },
-  "full-days-30": { "name": "全勤一月" },
-  "first-text": { "name": "你自己的文字" },
-  "texts-3": { "name": "几篇自己的" },
-  "texts-10": { "name": "小型图书馆" },
-  "texts-25": { "name": "书架" },
-  "page-text": { "name": "一页自己的" },
-  "long-text": { "name": "长篇阅读" },
-  "epic-text": { "name": "史诗" },
-  "pets-1": { "name": "你好呀" },
-  "pets-25": { "name": "乖键帽" },
-  "pets-100": { "name": "最好的朋友" },
-  "pets-500": { "name": "形影不离" },
-  "pokes-1": { "name": "啵" },
-  "pokes-100": { "name": "戳、戳、戳" },
-  "tickles-1": { "name": "怕痒" },
-  "tickles-25": { "name": "咯咯笑" },
-  "tickles-250": { "name": "毫不留情" },
-  "wardrobe-10": { "name": "打扮起来" },
-  "wardrobe-25": { "name": "满满衣柜" },
-  "all-slots": { "name": "盛装出席" },
-  "decorations-1": { "name": "一点风采" },
-  "decorations-5": { "name": "装饰师" },
-  "decorations-10": { "name": "室内设计师" },
-  "decorations-all": { "name": "所有装饰" },
-  "decoration-kinds": { "name": "每种一个" },
-  "decorated": { "name": "我的专属" },
-  "fully-decorated": { "name": "全套装饰" },
-  "pad-first": { "name": "第一条纸带" },
-  "pad-tests-25": { "name": "账本管理员" },
-  "pad-speed-5000": { "name": "稳定的双手" },
-  "pad-speed-8000": { "name": "小键盘快手" },
-  "pad-speed-10000": { "name": "每小时一万" },
-  "pad-perfect": { "name": "账目平衡" },
-  "pad-lesson-1": { "name": "基准键" },
-  "pad-lessons-all": { "name": "整个小键盘" },
-  "pad-sums-100": { "name": "擅长数字" },
-  "pad-sums-perfect": { "name": "无需计算器" },
-  "pad-sums-level-5": { "name": "特许会计师" },
-  "pad-till-25": { "name": "常客" },
-  "pad-till-60": { "name": "队伍永不停歇" },
-  "pad-keys-10000": { "name": "一万次按键" },
-  "night-owl": { "name": "夜猫子" },
-  "moonlighter": { "name": "月光族" },
-  "early-bird": { "name": "早起鸟" },
-  "flawless": { "name": "完美无瑕" },
-  "marathon": { "name": "马拉松" },
-  "first-try": { "name": "一次成功" },
-  "pets-1000": { "name": "忠诚" },
-  "poke-fit": { "name": "够了" },
-  "restarts-3": { "name": "似曾相识" },
-  "restarts-7": { "name": "土拨鼠之日" },
-  "restarts-15": { "name": "开开关关" },
-  "arm-lift": { "name": "援手" },
-  "word-bomb": { "name": "核爆" },
+  "first-test": {
+    "name": "第一步"
+  },
+  "tests-10": {
+    "name": "热身"
+  },
+  "tests-100": {
+    "name": "一百次"
+  },
+  "tests-500": {
+    "name": "五百次"
+  },
+  "tests-1000": {
+    "name": "一千次"
+  },
+  "wpm-40": {
+    "name": "稳定的双手"
+  },
+  "wpm-50": {
+    "name": "找到节奏"
+  },
+  "wpm-60": {
+    "name": "快速的手指"
+  },
+  "wpm-70": {
+    "name": "轻快"
+  },
+  "wpm-80": {
+    "name": "敏捷"
+  },
+  "wpm-100": {
+    "name": "三位数"
+  },
+  "wpm-120": {
+    "name": "快成残影"
+  },
+  "wpm-150": {
+    "name": "闪电"
+  },
+  "perfect-30": {
+    "name": "三十秒完美"
+  },
+  "perfect-minute": {
+    "name": "完美一分钟"
+  },
+  "perfect-2min": {
+    "name": "完美两分钟"
+  },
+  "hours-1": {
+    "name": "第一个小时"
+  },
+  "hours-10": {
+    "name": "十小时"
+  },
+  "hours-50": {
+    "name": "五十小时"
+  },
+  "hours-100": {
+    "name": "一百小时"
+  },
+  "words-10k": {
+    "name": "一万字"
+  },
+  "words-100k": {
+    "name": "十万字"
+  },
+  "words-1m": {
+    "name": "一百万字"
+  },
+  "days-10": {
+    "name": "十天"
+  },
+  "days-50": {
+    "name": "五十天"
+  },
+  "days-100": {
+    "name": "一百天"
+  },
+  "days-365": {
+    "name": "一年如一日"
+  },
+  "sustained-1": {
+    "name": "坚持不懈"
+  },
+  "sustained-3": {
+    "name": "坚持住"
+  },
+  "sustained-10": {
+    "name": "耐力"
+  },
+  "sustained-20": {
+    "name": "长途跋涉"
+  },
+  "sustained-30": {
+    "name": "持久力"
+  },
+  "sustained-total-60": {
+    "name": "一小时，持续"
+  },
+  "sustained-total-300": {
+    "name": "五小时，持续"
+  },
+  "book-finished": {
+    "name": "直到最后一页"
+  },
+  "books-5": {
+    "name": "爱不释手"
+  },
+  "mastered-1": {
+    "name": "修好了"
+  },
+  "mastered-5": {
+    "name": "修补过了"
+  },
+  "mastered-25": {
+    "name": "修补好了"
+  },
+  "mastered-100": {
+    "name": "焕然一新"
+  },
+  "mastered-250": {
+    "name": "无需再修"
+  },
+  "drills-1": {
+    "name": "第一次训练"
+  },
+  "drills-10": {
+    "name": "训练有素"
+  },
+  "drills-100": {
+    "name": "熟能生巧"
+  },
+  "first-lesson": {
+    "name": "第一课"
+  },
+  "lessons-10": {
+    "name": "十课"
+  },
+  "stage-1": {
+    "name": "基准行"
+  },
+  "stage-2": {
+    "name": "上排"
+  },
+  "stage-3": {
+    "name": "三排"
+  },
+  "stage-4": {
+    "name": "大写字母"
+  },
+  "stage-5": {
+    "name": "数字"
+  },
+  "stage-6": {
+    "name": "流畅"
+  },
+  "all-lessons": {
+    "name": "盲打达人"
+  },
+  "stage-1-started": {
+    "name": "开始基准行"
+  },
+  "stage-2-started": {
+    "name": "开始上排"
+  },
+  "stage-3-started": {
+    "name": "开始下排"
+  },
+  "stage-4-started": {
+    "name": "开始大写"
+  },
+  "stage-5-started": {
+    "name": "开始数字"
+  },
+  "stage-6-started": {
+    "name": "开始流畅"
+  },
+  "last-lesson": {
+    "name": "直到最后一课"
+  },
+  "first-step": {
+    "name": "轻松起步"
+  },
+  "stepped-lesson": {
+    "name": "步步为营"
+  },
+  "stepped-10": {
+    "name": "渐入佳境"
+  },
+  "first-warmup": {
+    "name": "热身完毕"
+  },
+  "warmup-mastery": {
+    "name": "一气呵成"
+  },
+  "step-again": {
+    "name": "渐入佳境"
+  },
+  "every-game": {
+    "name": "全部试过了"
+  },
+  "every-game-10": {
+    "name": "常客"
+  },
+  "every-game-50": {
+    "name": "爱好者"
+  },
+  "games-100": {
+    "name": "游戏之夜"
+  },
+  "space-2000": {
+    "name": "王牌飞行员"
+  },
+  "space-5000": {
+    "name": "壮志凌云"
+  },
+  "castle-normal": {
+    "name": "守住城墙"
+  },
+  "castle-hard": {
+    "name": "城堡守护者"
+  },
+  "spot-20": {
+    "name": "鹰眼"
+  },
+  "spot-50": {
+    "name": "隼眼"
+  },
+  "feed-30": {
+    "name": "喂饱了"
+  },
+  "feed-10min": {
+    "name": "漫长的午餐"
+  },
+  "hard-win": {
+    "name": "艰难取胜"
+  },
+  "castle-easy": {
+    "name": "首次突破"
+  },
+  "space-win": {
+    "name": "船体完好"
+  },
+  "space-hard-win": {
+    "name": "钢铁船体"
+  },
+  "spot-total-100": {
+    "name": "累计纠错"
+  },
+  "spot-chief": {
+    "name": "首席校对员"
+  },
+  "buffet-host": {
+    "name": "自助餐主人"
+  },
+  "full-house": {
+    "name": "满堂彩"
+  },
+  "no-hints": {
+    "name": "无需提示"
+  },
+  "station-down": {
+    "name": "空间站摧毁"
+  },
+  "shrapnel-storm": {
+    "name": "弹片风暴"
+  },
+  "stacked": {
+    "name": "堆叠大师"
+  },
+  "autopilot-ace": {
+    "name": "自动驾驶王牌"
+  },
+  "dazed": {
+    "name": "晕头转向"
+  },
+  "spoils-of-war": {
+    "name": "战利品"
+  },
+  "clean-sweep": {
+    "name": "完美清除"
+  },
+  "beam-overload": {
+    "name": "光束过载"
+  },
+  "flagship-down": {
+    "name": "旗舰击沉"
+  },
+  "keg-defused": {
+    "name": "火药桶拆除"
+  },
+  "ladder-toppled": {
+    "name": "云梯推倒"
+  },
+  "sortie-master": {
+    "name": "出击大师"
+  },
+  "marathon-master": {
+    "name": "马拉松大师"
+  },
+  "scroller-streak": {
+    "name": "传送带连胜"
+  },
+  "race-first": {
+    "name": "各就各位"
+  },
+  "race-solo-win": {
+    "name": "率先冲线"
+  },
+  "race-hard-win": {
+    "name": "超越两者"
+  },
+  "race-network-win": {
+    "name": "房间最快"
+  },
+  "race-last-standing": {
+    "name": "坚持到最后"
+  },
+  "race-every-mode": {
+    "name": "每条赛道的胜利"
+  },
+  "streak-3": {
+    "name": "连续三天"
+  },
+  "streak-7": {
+    "name": "一周坚持"
+  },
+  "streak-14": {
+    "name": "两周坚持"
+  },
+  "streak-30": {
+    "name": "一个月坚持"
+  },
+  "streak-100": {
+    "name": "一百天坚持"
+  },
+  "streak-365": {
+    "name": "一年坚持"
+  },
+  "level-5": {
+    "name": "等级 5"
+  },
+  "level-10": {
+    "name": "等级 10"
+  },
+  "level-15": {
+    "name": "等级 15"
+  },
+  "level-20": {
+    "name": "等级 20"
+  },
+  "level-30": {
+    "name": "等级 30"
+  },
+  "level-40": {
+    "name": "等级 40"
+  },
+  "level-50": {
+    "name": "等级 50"
+  },
+  "quests-10": {
+    "name": "踏上征途"
+  },
+  "quests-25": {
+    "name": "任务达人"
+  },
+  "quests-100": {
+    "name": "任务专家"
+  },
+  "quests-500": {
+    "name": "任务人生"
+  },
+  "challenges-10": {
+    "name": "迎接挑战"
+  },
+  "challenges-50": {
+    "name": "挑战者"
+  },
+  "challenges-100": {
+    "name": "永不言败"
+  },
+  "full-days-7": {
+    "name": "全勤一周"
+  },
+  "full-days-30": {
+    "name": "全勤一月"
+  },
+  "first-text": {
+    "name": "你自己的文字"
+  },
+  "texts-3": {
+    "name": "几篇自己的"
+  },
+  "texts-10": {
+    "name": "小型图书馆"
+  },
+  "texts-25": {
+    "name": "书架"
+  },
+  "page-text": {
+    "name": "一页自己的"
+  },
+  "long-text": {
+    "name": "长篇阅读"
+  },
+  "epic-text": {
+    "name": "史诗"
+  },
+  "pets-1": {
+    "name": "你好呀"
+  },
+  "pets-25": {
+    "name": "乖键帽"
+  },
+  "pets-100": {
+    "name": "最好的朋友"
+  },
+  "pets-500": {
+    "name": "形影不离"
+  },
+  "pokes-1": {
+    "name": "啵"
+  },
+  "pokes-100": {
+    "name": "戳、戳、戳"
+  },
+  "tickles-1": {
+    "name": "怕痒"
+  },
+  "tickles-25": {
+    "name": "咯咯笑"
+  },
+  "tickles-250": {
+    "name": "毫不留情"
+  },
+  "wardrobe-10": {
+    "name": "打扮起来"
+  },
+  "wardrobe-25": {
+    "name": "满满衣柜"
+  },
+  "all-slots": {
+    "name": "盛装出席"
+  },
+  "decorations-1": {
+    "name": "一点风采"
+  },
+  "decorations-5": {
+    "name": "装饰师"
+  },
+  "decorations-10": {
+    "name": "室内设计师"
+  },
+  "decorations-all": {
+    "name": "所有装饰"
+  },
+  "decoration-kinds": {
+    "name": "每种一个"
+  },
+  "decorated": {
+    "name": "我的专属"
+  },
+  "fully-decorated": {
+    "name": "全套装饰"
+  },
+  "pad-first": {
+    "name": "第一条纸带"
+  },
+  "pad-tests-25": {
+    "name": "账本管理员"
+  },
+  "pad-speed-5000": {
+    "name": "稳定的双手"
+  },
+  "pad-speed-8000": {
+    "name": "小键盘快手"
+  },
+  "pad-speed-10000": {
+    "name": "每小时一万"
+  },
+  "pad-perfect": {
+    "name": "账目平衡"
+  },
+  "pad-lesson-1": {
+    "name": "基准键"
+  },
+  "pad-lessons-all": {
+    "name": "整个小键盘"
+  },
+  "pad-sums-100": {
+    "name": "擅长数字"
+  },
+  "pad-sums-perfect": {
+    "name": "无需计算器"
+  },
+  "pad-sums-level-5": {
+    "name": "特许会计师"
+  },
+  "pad-till-25": {
+    "name": "常客"
+  },
+  "pad-till-60": {
+    "name": "队伍永不停歇"
+  },
+  "pad-keys-10000": {
+    "name": "一万次按键"
+  },
+  "night-owl": {
+    "name": "夜猫子"
+  },
+  "moonlighter": {
+    "name": "月光族"
+  },
+  "early-bird": {
+    "name": "早起鸟"
+  },
+  "flawless": {
+    "name": "完美无瑕"
+  },
+  "marathon": {
+    "name": "马拉松"
+  },
+  "first-try": {
+    "name": "一次成功"
+  },
+  "pets-1000": {
+    "name": "忠诚"
+  },
+  "poke-fit": {
+    "name": "够了"
+  },
+  "restarts-3": {
+    "name": "似曾相识"
+  },
+  "restarts-7": {
+    "name": "土拨鼠之日"
+  },
+  "restarts-15": {
+    "name": "开开关关"
+  },
+  "arm-lift": {
+    "name": "援手"
+  },
+  "word-bomb": {
+    "name": "核爆"
+  },
   "achievement_badges": {
     "secret": "隐藏",
     "kind": "{kind}",

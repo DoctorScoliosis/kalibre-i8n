@@ -117,14 +117,14 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
+      "revision": 6,
       "version": "2026-10-04",
       "reviewed": "community",
-      "changes": "L11: complete achievements rules/names, add missing game strings, reconcile with current en-GB",
+      "changes": "L12: remove stale achievements.rules.lastLesson after canonical reconciliation",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "2047208b38caf51e25d00df4b61a88dc46d521f061b25cfd7a738b57c8174efb",
-      "bytes": 295175
+      "sha256": "fbea8a1e9e7c9b66aeac0edb361c21738ed87a647b2fcc7eec161481d2f3b932",
+      "bytes": 295103
     }
   ]
 }

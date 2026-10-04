@@ -161,5 +161,5 @@ This avoids spending model/tool compute rediscovering which files are absent. Fo
 
 `locales/en-GB/` is a snapshot of the application's canonical English (the application owns it; `npm run sync` refreshes it, and the check fails if the two drift).
 
-- **Hard errors:** an empty or malformed English message; in any other language, a key English doesn't have (an orphan), a malformed message, a missing, added or renamed `{slot}`, a plural or select whose structure differs from English, a plural lacking `other` or a category the language needs.
+- **Hard errors:** an empty or malformed English message; in any other language, a key English doesn't have (an orphan), a malformed message, a missing, added or renamed `{slot}`, a plural or select whose structure differs from English, a plural lacking `other` or a plural category used by the English source; category names must also be valid for the target language.
 - **Allowed:** leaving a message untranslated. Kalibre falls back to English for it.
