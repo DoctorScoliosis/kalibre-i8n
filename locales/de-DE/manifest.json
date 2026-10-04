@@ -20,13 +20,13 @@
   "version": "2026-10-04",
   "changes": "Reconciled Games keys after the application rollback",
   "files": {
-    "about.json": "53617bc97e61c40be48bb8044350af5ee9997b5ce9f6f27463c07e599996c3f7",
-    "achievements.json": "93e2c562a592eaf45cd671cfc61834c613d502ba432cdda7641da89020d739fa",
-    "chrome.json": "452c0007a87b78ea3491ebf2847db14b815c4ad036d3d58dae6cb08023072d65",
-    "companions.json": "e4c1805690b24dda947563d7cfe89f85f6d52eee2e258e44da2a1615e9b20a9c",
-    "data.json": "6988c97a1952fd59d0dd928198ab1716e465a55efc964bb0ac8f4c0ecfed49bf",
-    "quests.json": "f41bebdefed578dc1e5788a91b5c2563c13776af37fec80fcf0812a85a61b52b",
-    "settings.json": "eb85a0371e741f18f76eb4c0273292eab4925d74be27a74fa83c22d74574da8a",
-    "themes.json": "1167f147a4f9b00036cc807f82b2c8e479abf1395d2ba4ca22d33d718e222da2"
+    "about.json": "178280fbd89ab2a7447ea3c3a8cf77089ddabdc695ac515a15ad8f90391093d0",
+    "achievements.json": "401e6c48ea2997a263388867628491c290891588b0514a02285b48c1d8871b1f",
+    "chrome.json": "926973d7cb5fcb019b61365b8fdf692462c7a61e91280114c678adb5575965e0",
+    "companions.json": "15215144d3c9532f22cfdd423a3408f4624e5cde1a59e9664a209734b67794fa",
+    "data.json": "e58d5f58739e40c42bef10603e7953fc8a6bad64c6c916d3fedb0448b80bea58",
+    "quests.json": "03b9b653038a7ff62be088dced56afcb21c5601db95d92c35e03ff772d16ba45",
+    "settings.json": "f91053fb8cde242ca81e15451730b458844cda30602d8b6a4bbdd392c7338b64",
+    "themes.json": "f2bcee2671960d271beee50e2a926f14fc820136349cb1e359a33fd71779cf47"
   }
 }
