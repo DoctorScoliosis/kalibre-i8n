@@ -36,7 +36,7 @@
     "words": "parole",
     "characters": "caratteri",
     "averages_note": "medie e record usano solo i test completati{notCounted, select, true {; i test a raffica di tasti non vengono conteggiati} other {}}",
-    "chart_heading": "{scope, select, all {tutti} other {ultimi}} {count} {count, plural, one {test} other {test}} · ppm",
+    "chart_heading": "{scope, select, all {tutti} other {ultimi}} {count} {count, plural, one {test} many {test} other {test}} · ppm",
     "chart_window_aria": "quanti test mostrare nel grafico",
     "by_characters": "per caratteri"
   },
@@ -47,11 +47,11 @@
   },
   "periods": {
     "no_tests": "nessun test",
-    "tests_count": "{count, plural, one {# test} other {# test}}",
+    "tests_count": "{count, plural, one {# test} many {# test} other {# test}}",
     "best_accuracy": "migliore {best} · {accuracy}%",
     "daily_goal": "obiettivo giornaliero: {target}",
     "today": " · oggi {amount}{met, select, true { ✓} other {}}",
-    "streak": " · serie {count, plural, one {# giorno} other {# giorni}}",
+    "streak": " · serie {count, plural, one {# giorno} many {# giorni} other {# giorni}}",
     "no_daily_goal": "Nessun obiettivo giornaliero. ",
     "set_one": "impostane uno",
     "time_typed_per_day": "tempo di digitazione al giorno · ultimi 30 giorni",
@@ -62,7 +62,7 @@
   },
   "games": {
     "no_games": "nessun gioco ancora. I giochi sono nella sezione giochi del menu.",
-    "runs_count": "{count, plural, one {# sessione} other {# sessioni}}",
+    "runs_count": "{count, plural, one {# sessione} many {# sessioni} other {# sessioni}}",
     "last": "ultima {date}",
     "best_run": "miglior sessione: {summary}",
     "bests_note": "i record contano le sessioni con le regole correnti di ogni gioco",
@@ -195,7 +195,7 @@
   },
   "overview_pane": {
     "recent_tests": "test recenti",
-    "group_stats": "{wpm} ppm · {accuracy}% · {count, plural, one {# test} other {# test}}"
+    "group_stats": "{wpm} ppm · {accuracy}% · {count, plural, one {# test} many {# test} other {# test}}"
   },
   "periods_pane": {
     "wpm": " ppm"
@@ -210,7 +210,7 @@
     "keyboard_coloured_by_how_often": "Tastiera colorata in base a quanto spesso ogni tasto viene digitato correttamente al primo tentativo. La tabella qui sotto mostra gli stessi valori.",
     "use_the_left_and_right": "{label}. Usa le frecce sinistra e destra per leggere ogni giorno.",
     "no_typing": "nessuna digitazione",
-    "day_tests": "{count, plural, one {# test} other {# test}}",
+    "day_tests": "{count, plural, one {# test} many {# test} other {# test}}",
     "day_wpm": " · {wpm} ppm"
   },
   "stats": {
