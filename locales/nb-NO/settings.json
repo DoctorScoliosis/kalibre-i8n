@@ -3,15 +3,15 @@
     "mistakeSensitivity": {
       "label": "foreslå feil å øve på",
       "option": {
-        "relaxed": "bare tydliga mønster",
+        "relaxed": "bare tydelige mønster",
         "normal": "normal",
-        "eager": "tidigt"
+        "eager": "tidlig"
       },
-      "description": "hvordan mye bevis som krävs før et forslag"
+      "description": "hvor mye bevis som kreves før et forslag"
     },
     "autoAcceptMistakes": {
-      "label": "legg automatisk til feil i träningen",
-      "description": "begynne automatisk trene kvalificerade feil"
+      "label": "legg automatisk til feil i treningen",
+      "description": "begynne å trene automatisk kvalifiserte feil"
     },
     "adaptiveMix": {
       "label": "øve på ord i ordtester",
@@ -20,21 +20,21 @@
         "strong": "flere",
         "off": "av"
       },
-      "description": "blanda in ord med feil som bevakas"
+      "description": "blande in ord med feil som overvåkes"
     },
     "goalType": {
       "label": "daglig mål",
       "option": {
-        "off": "inget",
-        "minutes": "minutter",
+        "off": "ingenting",
+        "minutes": "minåtter",
         "words": "ord",
         "xp": "xp"
       },
-      "description": "hvordan mye du siktar på å skrive hver dag"
+      "description": "hvor mye du sikter på å skrive hver dag"
     },
     "goalMinutes": {
-      "label": "minutter per dag",
-      "description": "daglig mål i minutter"
+      "label": "minåtter per dag",
+      "description": "daglig mål i minåtter"
     },
     "goalWords": {
       "label": "ord per dag",
@@ -47,22 +47,22 @@
         "normal": "normal",
         "hard": "vanskelig"
       },
-      "description": "hvordan mye uppdragen og dagens utmaning skal utmana dig, og hvordan mye XP de gir. En endring gäller fra morgondagens oppdrag"
+      "description": "hvor mye oppdragene og dagens utfordring skal utfordre deg, og hvor mye XP de gir. En endring gjelder fra morgendagens oppdrag"
     },
     "lessonCompanion": {
       "label": "leksjonsledsager"
     },
     "commonCapitals": {
-      "label": "store bokstaver i vanliga ord"
+      "label": "store bokstaver i vanlige ord"
     },
     "paragraphBreaks": {
-      "label": "styckebrytningar",
-      "description": "trykk enter vid slutet av stycken"
+      "label": "avsnittsskift",
+      "description": "trykk enter ved slutten av stycken"
     },
     "wordPool": {
       "label": "ordliste",
       "option": {
-        "200": "200 vanliga ord"
+        "200": "200 vanlige ord"
       }
     },
     "wordLength": {
@@ -288,23 +288,23 @@
     },
     "inputMethod": {
       "label": "jag skriver med",
-      "description": "en stenomaskin sender hele ord på én gang, så Kalibre noterar bare helordsfel og lägger touch typing-lektionerna åt sidan",
+      "description": "en stenomaskin sender hele ord på én gang, så Kalibre noterar bare helordsfel og legger touch typing-leksjonene åt siden",
       "option": {
         "keyboard": "et tastatur",
         "steno": "en stenomaskin"
       }
     },
     "capitals": {
-      "label": "store bokstaver i vanliga ord",
+      "label": "store bokstaver i vanlige ord",
       "description": "sitat og dine tekster behåller alltid sina egne"
     },
     "wordList": {
       "label": "ordliste",
-      "description": "hvordan många vanliga ord som brukes",
+      "description": "hvordan många vanlige ord som brukes",
       "option": {
-        "200": "200 vanliga ord",
-        "1000": "1k vanliga ord",
-        "5000": "5k vanliga ord"
+        "200": "200 vanlige ord",
+        "1000": "1k vanlige ord",
+        "5000": "5k vanlige ord"
       }
     },
     "customSampling": {
@@ -337,8 +337,8 @@
       }
     },
     "mixedCategories": {
-      "label": "blandade citatlängder",
-      "description": "vilka citatlängder som brukes i blandade tester",
+      "label": "blandede citatlängder",
+      "description": "vilka citatlängder som brukes i blandede tester",
       "option": {
         "short": "kort",
         "medium": "medel",
@@ -349,7 +349,7 @@
     },
     "goalXp": {
       "label": "xp per dag",
-      "description": "daglig mål i xp fra skriving (ikke bonusar); en minut med felfri skriving gir ungefär 8–15"
+      "description": "daglig mål i xp fra skriving (ikke bonåsar); en minåt med felfri skriving gir ungefär 8–15"
     },
     "companion": {
       "label": "leksjonsledsager",
@@ -361,7 +361,7 @@
     },
     "mascotChatter": {
       "label": "{companion}s prat",
-      "description": "hvordan mye {companion} säger",
+      "description": "hvor mye {companion} säger",
       "option": {
         "chatty": "pratsom",
         "quiet": "bare det viktiga"
@@ -421,7 +421,7 @@
     },
     "contrast": {
       "label": "kontrast",
-      "description": "gjør tekst og kanter tydligare",
+      "description": "gjør tekst og kanter tydeligere",
       "option": {
         "system": "följ systemet",
         "normal": "normal",
@@ -430,7 +430,7 @@
     },
     "pageWidth": {
       "label": "sidbredd",
-      "description": "bredden på sidans innhold",
+      "description": "bredden på sidens innhold",
       "option": {
         "narrow": "smal (720 px)",
         "normal": "normal (880 px)",
@@ -451,11 +451,11 @@
     },
     "backupFrequency": {
       "label": "automatiske sikkerhetskopier",
-      "description": "når säkerhetskopieringsmappen uppdateras (Chrome og Edge)",
+      "description": "når sikkerhetskopieringsmappen uppdateras (Chrome og Edge)",
       "option": {
         "change": "strax etter hver endring",
         "test": "etter hver test",
-        "5min": "högst var 5:e minut",
+        "5min": "högst var 5:e minåt",
         "hourly": "högst hver time",
         "manual": "bare når jag ber om det"
       }
@@ -464,8 +464,8 @@
       "label": "søk etter oppdateringer",
       "description": "hvordan ofte kalibre leter etter en ny version; den uppdaterar ändå bare når du ber om det",
       "option": {
-        "5min": "var 5:e minut",
-        "15min": "var 15:e minut",
+        "5min": "var 5:e minåt",
+        "15min": "var 15:e minåt",
         "hourly": "hver time",
         "launch": "når kalibre öppnas",
         "manual": "bare når jag ber om det"
@@ -568,10 +568,10 @@
       "label": "partnerns utseende"
     },
     "lessonConfig": {
-      "label": "lektionskonfiguration"
+      "label": "leksjonskonfiguration"
     },
     "lessonPrep": {
-      "label": "lektionssteg og oppvarminger"
+      "label": "leksjonssteg og oppvarminger"
     },
     "gameConfigs": {
       "label": "spelkonfigurationer"
@@ -580,17 +580,17 @@
       "label": "siste testkonfiguration"
     },
     "numpad": {
-      "label": "jag har et numerisk tastatur",
-      "description": "for øvelse med numerisk tastatur og for å vise om num lock er av"
+      "label": "jag har et nåmerisk tastatur",
+      "description": "for øvelse med nåmerisk tastatur og for å vise om nåm lock er av"
     },
     "numpadSeen": {
-      "label": "sett numerisk tastatur"
+      "label": "sett nåmerisk tastatur"
     },
     "numpadTold": {
-      "label": "numpadövning nämnd"
+      "label": "nåmpadövning nämnd"
     },
     "numpadOffered": {
-      "label": "numpadövning erbjuden"
+      "label": "nåmpadövning erbjuden"
     },
     "sumsConfig": {
       "label": "räkneuppställning"
@@ -612,12 +612,12 @@
   "data_panel": {
     "done_the_browser_will_keep": "Klart: nettleseren kommer å beholde dine data.",
     "the_browser_said_no_for": "Nettleseren sa nej for tillfället. Å installera kalibre som en app eller legge til et bokmärke ändrar ofte dette; håll under tiden en sikkerhetskopi.",
-    "this_browser_can_t_save": "Denne nettleseren kan ikke lagre til en mappe på egen hånd, så säkerhetskopiera manuelt nedan. (Chrome og Edge kan göra det automatisk.)",
-    "choose_a_folder_on_this": "Velg en mappe på denne datorn så blir den din kalibre-mappe: denne profilen sparas där noen sekunder etter hver test eller endring, tillsammans med de datasett og teckensnitt du har lagt til. Om mappen allerede inneholder annat skapas en ”kalibre”-mappe inuti.",
-    "saving_this_profile_and_the": "Lagrer denne profilen samt tillagda datasett og teckensnitt i kalibre-mappen ”{folderName}” · {last}.{problem}",
-    "when_an_update_changes_how": "Når en oppdatering ändrar hvordan kalibre lagrar saker sparas en kopia av alt fra precis før, ifall noe gick feil. De två siste behålls.",
+    "this_browser_can_t_save": "Denne nettleseren kan ikke lagre til en mappe på egen hånd, så sikkerhetskopiera manåelt nedan. (Chrome og Edge kan göra det automatisk.)",
+    "choose_a_folder_on_this": "Velg en mappe på denne datamaskinen så blir den din kalibre-mappe: denne profilen lagres der noen sekunder etter hver test eller endring, sammen med de datasett og skrifter du har lagt til. Om mappen allerede inneholder annet skapas en ”kalibre”-mappe inni.",
+    "saving_this_profile_and_the": "Lagrer denne profilen samt tillagda datasett og skrifter i kalibre-mappen ”{folderName}” · {last}.{problem}",
+    "when_an_update_changes_how": "Når en oppdatering ändrar hvordan kalibre lagrar saker lagres en kopia av alt fra precis før, ifall noe gick feil. De to siste behålls.",
     "what_takes_the_space": "hva som tar plats",
-    "bring_profiles_datasets_and_fonts": "Hent tilbake profiler, datasett og teckensnitt fra en kalibre-mappe: etter å nettleseren rensats eller på en annan datamaskin. Inget här skrivs over. Fungerer i alle nettleser.",
+    "bring_profiles_datasets_and_fonts": "Hent tilbake profiler, datasett og skrifter fra en kalibre-mappe: etter å nettleseren rensats eller på en annan datamaskin. Ingenting her skrivs over. Fungerer i alle nettleser.",
     "shared": "delad",
     "the_file_is_ready": "filen er klar",
     "couldn_t_save_see_settings": "kunde ikke lagre (se innstillinger → data)",
@@ -625,10 +625,10 @@
     "storage_best_effort": "Nettleseren kan rensa kalibres data om disken begynner få slut på utrymme (Safari gjør også det etter 7 dager uten besök). Be den å beholde data og håll en sikkerhetskopi.",
     "storage_unsupported": "Denne nettleseren kan ikke lova å beholde kalibres data, så håll en sikkerhetskopi.",
     "storage_using": " Bruker {used}.",
-    "overdue": "Denne profilen har ikke säkerhetskopierats på over {days} dager. ",
-    "never_backed_up": "Denne profilen har ikke säkerhetskopierats ennå. ",
-    "last_backup": "Siste säkerhetskopiering {when}. ",
-    "export_explained": "En export er en fil med denne profilens historik (sparas i kalibre-mappens exportmapp når det finnes en); gjenopprett den med ”importere en profilfil” i profilmenyn.",
+    "overdue": "Denne profilen har ikke sikkerhetskopiert på over {days} dager. ",
+    "never_backed_up": "Denne profilen har ikke sikkerhetskopiert ennå. ",
+    "last_backup": "Siste sikkerhetskopiering {when}. ",
+    "export_explained": "En export er en fil med denne profilens historikkk (lagres i kalibre-mappens eksportmappen når det finnes en); gjenopprett den med ”importere en profilfil” i profilmenyn.",
     "copy_line": "fra {when}, precis før{what} ändrade hvordan data lagras · {records} poster",
     "copy_app": " kalibre v{app}",
     "copy_update": " en oppdatering",
@@ -645,7 +645,7 @@
     "use": "bruk {family}",
     "kb": "{fileName} · {round} KB",
     "remove": "fjerne {family}",
-    "list_fonts_on_this_computer": "liste skrift på denne datorn",
+    "list_fonts_on_this_computer": "liste skrift på denne datamaskinen",
     "fonts_found_start_typing_a": "{length} skrift hittades; begynne skrive et navn for å velge et.",
     "the_browser_did_not_allow": "Nettleseren tillät ikke å skrift listas. Du kan fortfarande skrive namnet på vilket installerat skrift som helst.",
     "load_a_font_file": "last en typsnittsfil",
@@ -656,8 +656,8 @@
   },
   "settings": {
     "github": "github",
-    "translation_note": "denne översättningen har ikke skrivits eller kontrollerats av en person med svenska som modersmål, så en del kan låta konstigt. du kan hjälpa til å förbättra den på {link}.",
-    "imported": "importerade {count, plural, one {# inställning} other {# inställningar}}",
+    "translation_note": "denne oversettelsen har ikke skrevet eller kontrollert av en person med svensk som morsmål, så en del kan låta merkelig. du kan hjälpa til å forbedre den på {link}.",
+    "imported": "importerade {count, plural, one {# inställning} other {# inställningenr}}",
     "skipped": " · hoppade over {what}",
     "sections_label": "inställningssektioner"
   },
@@ -665,7 +665,7 @@
     "measuring": "mäter…",
     "space_used": "använt utrymme",
     "yes": "ja, {label}",
-    "export_first": "eksportere först",
+    "export_first": "eksportere først",
     "kalibre_is_using_of_the": "kalibre bruker {formatSize} av de {formatSize2} som denne nettleseren tillåter.",
     "kalibre_is_using_about": "kalibre bruker ungefär {formatSize}.",
     "couldn_t_measure": "kunde ikke mäta: {message}"
@@ -673,10 +673,10 @@
   "theme_editor": {
     "sample_of_this_theme": "eksempel på dette temat",
     "needs_1": " (kräver {minimum}:1)",
-    "fix_the_colours_marked_first": "Åtgärda först färgerna som er markerade med ✗",
+    "fix_the_colours_marked_first": "Åtgärda først färgerna som er merkde med ✗",
     "hex_value": "{label} hexvärde",
     "edit_theme": "redigera tema",
-    "a_sample_of_every_colour": "Et eksempel på hver farge, med dine innstillinger for färgseende og kontrast. Hovra over en farge eller velg en for å markera var den brukes.",
+    "a_sample_of_every_colour": "Et eksempel på hver farge, med dine innstillinger for färgseende og kontrast. Hovra over en farge eller velg en for å merk var den brukes.",
     "imported": "importerade ”{name}”",
     "that_file_isn_t_a": "Den filen er ikke et tema.",
     "saved": "lagrede ”{name}”",
@@ -713,7 +713,7 @@
     "sample_dim": " jumps over",
     "sample_text": "tekst ",
     "sample_link": "länk",
-    "sample_selected": "markerad",
+    "sample_selected": "merkd",
     "that_theme_can_t_be": "Det temat kan ikke användas: {problem}.",
     "scheme_label": "ljust eller mörkt"
   },
@@ -724,7 +724,7 @@
     "jumps_over": " jumps over",
     "surface": "panel ",
     "accent_link": "accentlänk",
-    "selected": "markerad",
+    "selected": "merkd",
     "1_text": "{ratio}:1-tekst",
     "choose_theme": "{label}: velg tema",
     "options": "{label}-alternativ",
