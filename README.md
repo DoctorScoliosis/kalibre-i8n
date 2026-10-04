@@ -106,7 +106,7 @@ npm test
 
 ### Starting a translation branch
 
-`npm run start-translation` opens an interactive arrow-key menu of common locale tags. Choose one with ↑/↓ and Enter, or choose **Enter another BCP 47 language code…** to type any valid language tag supported by the runtime, for example, `language-region` or any other valid BCP 47 language tag.
+`npm run start-translation` opens an interactive arrow-key menu of common locale tags. Choose one with ↑/↓ and Enter, or choose **Enter another BCP 47 language code…** to type any valid language tag supported by the runtime, for example, `xx-YY`, or any other valid BCP 47 language tag.
 
 The command:
 
@@ -126,7 +126,7 @@ npm run start-translation -- <locale>
 
 The repository also exposes a reusable GitHub Actions workflow at `.github/workflows/check-kalibre-pr.yml`. Kalibre's main repository can call it from pull requests to compare the PR's `src/locales/<reference-locale>/` against the PR base and report only the localisation keys introduced by that PR.
 
-The check is intentionally **non-blocking for missing translations**. It fails only for malformed reference-locale localisation data or other validation errors. A PR can therefore ship with new English strings while translations are completed independently.
+The check is intentionally **non-blocking for missing translations**. It fails only for malformed reference-locale localisation data or other validation errors. A PR can therefore ship with new reference-locale strings while translations are completed independently.
 
 The PR report includes:
 
