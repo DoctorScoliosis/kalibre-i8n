@@ -89,12 +89,12 @@
     "kind_of_mistake": "tipo di errore",
     "all_kinds": "tutti i tipi",
     "keyboard_layout": "layout della tastiera",
-    "sessions_count": "{count, plural, one {# sessione} other {# sessioni}}",
+    "sessions_count": "{count, plural, one {# sessione} many {# sessioni} other {# sessioni}}",
     "corrected_count": "{count} corretti",
     "pager_aria": "pagine della tabella degli errori",
     "no_qualifiers_mistakes": "Nessun errore {qualifiers}{inSection, select, true { in {section}} other {}} ancora.",
     "no_in_section": "Nessun errore in {section} ancora.",
-    "training_words_note": "{count, plural, one {# parola} other {# parole}} con errori ricorrenti in allenamento."
+    "training_words_note": "{count, plural, one {# parola} many {# parole} other {# parole}} con errori ricorrenti in allenamento."
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "errori {label} – fai clic per isolare",
@@ -108,10 +108,10 @@
     "words_and_spaces": "parole e spazi",
     "no_tests_yet": "nessun test ancora",
     "rate_one_test": "tasso di errore {rate} in un test",
-    "rate_over_tests": "tasso di errore {from} → {to} su {count, plural, one {# test} other {# test}}",
+    "rate_over_tests": "tasso di errore {from} → {to} su {count, plural, one {# test} many {# test} other {# test}}",
     "mark_label": "{mistake}: {rate} delle volte",
     "started_at": "{summary} · allenamento iniziato a {rate}",
-    "keyboard_label": "Tastiera con {count, plural, one {# errore} other {# errori}} disegnati sopra. L'elenco qui sotto contiene gli stessi errori."
+    "keyboard_label": "Tastiera con {count, plural, one {# errore} many {# errori} other {# errori}} disegnati sopra. L'elenco qui sotto contiene gli stessi errori."
   },
   "mistakes": {
     "actions": "azioni",
@@ -119,14 +119,30 @@
   },
   "mistake_kinds": {
     "KINDS": {
-      "keys": { "title": "tasti" },
-      "shift": { "title": "maiusc" },
-      "pairs": { "title": "coppie di lettere" },
-      "letters": { "title": "lettere mancanti ed extra" },
-      "words": { "title": "parole" },
-      "tricky": { "title": "parole difficili" },
-      "between": { "title": "tra le parole" },
-      "hesitations": { "title": "esitazioni" }
+      "keys": {
+        "title": "tasti"
+      },
+      "shift": {
+        "title": "maiusc"
+      },
+      "pairs": {
+        "title": "coppie di lettere"
+      },
+      "letters": {
+        "title": "lettere mancanti ed extra"
+      },
+      "words": {
+        "title": "parole"
+      },
+      "tricky": {
+        "title": "parole difficili"
+      },
+      "between": {
+        "title": "tra le parole"
+      },
+      "hesitations": {
+        "title": "esitazioni"
+      }
     }
   },
   "legend": {
