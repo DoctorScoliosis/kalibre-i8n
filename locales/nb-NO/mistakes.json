@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "suggested": "foreslåtte",
+    "training": "trening",
+    "improving": "bedres",
+    "mastered": "mestret",
+    "dismissed": "avfärdade",
+    "watching": "bevakas",
+    "overview": "oversikt",
+    "all": "alle"
+  },
+  "blurbs": {
+    "suggested": "Feil som fortsetter å komme tilbake. Trene dem eller avvis dem du ikke bryr dig om.",
+    "training": "Øvelser fokuserar på disse.",
+    "improving": "Felfrekvensen har halverats siden träningen började.",
+    "mastered": "Nere på en fjärdedel av utgångsläget. De återgår til träningen om de kommer tilbake.",
+    "dismissed": "Föreslås ikke igjen om du ikke återställer dem.",
+    "watching": "Sette, men ikke tillräckligt ofte for å föreslås ennå. ”øve nu” begynner trene et ändå.",
+    "overview": "Var fingrarna blir feil, ritat på tangentbordet, med orden og mellanslagen bredvid. Hver rad viser felfrekvensen over de siste testerna.",
+    "all": "Hver feil som Kalibre har noterat, oavsett status."
+  },
+  "empty": {
+    "suggested": "Inga feil här ennå. Det går bra!",
+    "training": "Inga feil i träningen ennå. Legg til noen fra fliken ”foreslåtte”.",
+    "improving": "Inget bedres ennå. Fortsett øve på dine träningsmisstag.",
+    "mastered": "Inget er bemästrat ennå. Trening tar tid — fortsett.",
+    "dismissed": "Inget avfärdat.",
+    "watching": "Inget här ennå. Fortsett skrive så dyker mønster upp.",
+    "all": "Inga feil noterte ennå. Når du skriver registrerar Kalibre gjentakende mønster här."
+  },
+  "kinds": {
+    "key": "tast",
+    "shift": "skift",
+    "swap": "bokstavspar",
+    "omit": "missad",
+    "extra": "extra",
+    "word": "ord",
+    "space": "mellomrom",
+    "insert": "extra ord",
+    "skip": "överhoppat ord",
+    "hesitation": "nøling",
+    "tricky": "vanskelig ord"
+  },
+  "columns": {
+    "mistake": "feil",
+    "kind": "typ",
+    "status": "status",
+    "left_in": "gjenstår",
+    "fixed": "rettet",
+    "tests": "tester",
+    "trend": "trend",
+    "rate": "frekvens",
+    "seen": "sette"
+  },
+  "actions": {
+    "train": "trene",
+    "train_aria": "trene {mistake}",
+    "train_now": "trene nu",
+    "train_now_aria": "trene {mistake} nu",
+    "train_again": "trene igjen",
+    "train_again_aria": "trene {mistake} igjen",
+    "dismiss": "avvis",
+    "dismiss_aria": "avvis {mistake}",
+    "restore": "gjenopprett",
+    "restore_aria": "gjenopprett {mistake}",
+    "drill": "øve",
+    "drill_aria": "øve på {mistake}",
+    "drill_all": "øve på mina träningsmisstag",
+    "stop": "stoppa",
+    "stop_aria": "slutte trene {mistake}",
+    "export": "eksportere ",
+    "csv": "csv",
+    "json": "json"
+  },
+  "filters": {
+    "all": "alle",
+    "uncorrected": "orättade",
+    "corrected": "rettet"
+  },
+  "layouts": {
+    "list": "liste",
+    "table": "tabell"
+  },
+  "labels": {
+    "by_status": "feil etter status",
+    "show_on_map": "vise på kartan",
+    "show_mistakes": "vise feil",
+    "show_as": "vise som",
+    "kind_of_mistake": "typ av feil",
+    "all_kinds": "alle typer",
+    "keyboard_layout": "tangentbordslayout",
+    "sessions_count": "{count, plural, one {# session} other {# sessioner}}",
+    "corrected_count": "{count} rettet",
+    "pager_aria": "sider i misstagtabellen",
+    "no_qualifiers_mistakes": "Inga {qualifiers} feil{inSection, select, true { i {section}} other {}} ennå.",
+    "no_in_section": "Inga feil i {section} ennå.",
+    "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa feil i träningen."
+  },
+  "mistake_map": {
+    "mistakes_click_to_isolate": "{label}-feil – klikke for å isolera",
+    "page": "side {value}",
+    "of": "{first}–{last} av {length}",
+    "keyboard_mistakes_pages": "sider med tangentbordsmisstag",
+    "nothing_to_draw_on_this": "Inget å rita på dette tangentbordet ennå. Feil som setts mer enn en gång vises här.",
+    "on_the_keyboard": "på tangentbordet",
+    "none_yet": "Ingen ennå.",
+    "with_keys_not_on_this": "{unmapped} med taster som ikke finnes på denne layouten",
+    "words_and_spaces": "ord og mellomrom",
+    "no_tests_yet": "inga tester ennå",
+    "rate_one_test": "feilrate {rate} i et test",
+    "rate_over_tests": "feilrate {from} → {to} over {count, plural, one {# test} other {# tester}}",
+    "mark_label": "{mistake}: {rate} av gångerna",
+    "started_at": "{summary} · började trene vid {rate}",
+    "keyboard_label": "Tastatur med {count, plural, one {# misstag} other {# misstag}} markerade. Listan nedan inneholder samma feil."
+  },
+  "mistakes": {
+    "actions": "handlinger",
+    "no_mistakes_yet": "Inga feil ennå."
+  },
+  "mistake_kinds": {
+    "KINDS": {
+      "keys": {
+        "title": "taster"
+      },
+      "shift": {
+        "title": "skift"
+      },
+      "pairs": {
+        "title": "bokstavspar"
+      },
+      "letters": {
+        "title": "missade og extra bokstaver"
+      },
+      "words": {
+        "title": "ord"
+      },
+      "tricky": {
+        "title": "vanskelige ord"
+      },
+      "between": {
+        "title": "mellom ord"
+      },
+      "hesitations": {
+        "title": "nøling"
+      }
+    }
+  },
+  "legend": {
+    "meant_hit": "menade → tryckte",
+    "swapped": "omkastat",
+    "missed": "missat",
+    "extra": "extra",
+    "shift": "skift"
+  },
+  "patterns": {
+    "sound": "låter lika",
+    "homophone": "ord som låter likadant",
+    "silent": "stum bokstav",
+    "double": "dubbel bokstav",
+    "vowel": "oklar vokal",
+    "mirror": "samma finger, andra hånden",
+    "wrongDouble": "feil bokstav dubblerad",
+    "moved": "bokstav på feil plats",
+    "ending": "borttagen ändelse",
+    "autopilot": "et välbekant ord i stället",
+    "rawSteno": "rå steno"
+  },
+  "describe": {
+    "shift": "{expected} → {typed} (skift)",
+    "omit": "missade {expected}",
+    "extra": "extra {typed}",
+    "insert": "extra ord {typed}",
+    "skip": "hoppade over {expected}",
+    "hesitation_pair": "paus i {expected}",
+    "hesitation_before": "paus før {expected}",
+    "hesitation": "nøling",
+    "tricky": "vanskelig: {expected}"
+  }
+}
