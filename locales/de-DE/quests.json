@@ -13,12 +13,12 @@
     "quests": "Quests",
     "challenge": "Herausforderung",
     "daily_goal": "Tägliches Ziel",
-    "daily_goal_label": "Tägliches Ziel"
+    "daily_goal_label": "Tägliches Ziel "
   },
   "today": {
     "panel_aria": "Die heutigen Quests",
     "getting": "Die heutigen Quests...",
-    "new_at_midnight": "{difficulty} · Neue Quests um Mitternacht",
+    "new_at_midnight": "{difficulty} · Neue Quests um Mitternacht ",
     "difficulty": "Schwierigkeit",
     "summary_aria": "Heute: {done} Von {total} Quests erledigt {challenge, select, done {, Herausforderung erledigt} other {}}"
   },
@@ -60,10 +60,10 @@
   "conditions": {
     "wpm": "{wpm}+ Wpm",
     "accuracy": "{accuracy}%+ Genauigkeit",
-    "and": "Und",
-    "at": "Bei {parts}",
+    "and": " Und ",
+    "at": " Bei {parts}",
     "kept_going_after": ", Ging weiter für {minutes, plural, one {# Minute} other {# Minuten}}",
-    "kept_going": "Weiterfahren für {minutes, plural, one {# Minute} other {# Minuten}}"
+    "kept_going": " Weiterfahren für {minutes, plural, one {# Minute} other {# Minuten}}"
   },
   "describe": {
     "words": "Typ {count, plural, one {# Wort} other {# Worte}}",
