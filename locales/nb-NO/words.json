@@ -1,18 +1,18 @@
 {
   "filter": {
-    "warning": "Kalibres ordlistor kommer fra gamla bøker og stora ordböcker, som inneholder skällsord og andre stötande ord. Når filtret er avstängt kan de förekomma i tester, øvelser, leksjoner og spel. Gjennom att lukke av det godkänner du att du kan få se dem og att Kalibres skapare ikke ansvarar for eventuella kränkningar som orsakas.",
-    "turn_off": "stäng av filtret",
-    "keep_on": "behåll det på",
-    "confirm_title": "lukke av filtret for stötande ord?",
+    "warning": "Kalibres ordlister kommer fra gamle bøker og store ordbøker, som inneholder skjellsord og andre støtende ord. Når filteret er av, kan de dukke opp i tester, øvelser, leksjoner og spill. Ved å slå det av godtar du at du kan se dem, og at forfatteren av Kalibre ikke er ansvarlig for eventuelle krenkelser de måtte føre til.",
+    "turn_off": "slå av filteret",
+    "keep_on": "behold det på",
+    "confirm_title": "slå av filteret for støtende ord?",
     "filter_on": "filter på",
     "filter_off": "filter av",
-    "placeholder": "ett per linje eller separerade med komma; avslutte med * for hver ord som begynner med det",
-    "filtered_count": "{count, plural, one {# eget filtrerat ord} other {# egne filtrerade ord}}",
+    "placeholder": "ett per linje eller atskilt med komma; avslutt med * for alle ord som begynner med det",
+    "filtered_count": "{count, plural, one {# eget filtrert ord} other {# egne filtrerte ord}}",
     "no_words": "ingen egne ord",
-    "heading": "stötande ord",
-    "toggle_label": "filtrere stötande ord",
-    "own_label": "egne ord att filtrere",
-    "explanation": "På: skällsord og de grövsta svordomarna hålls borta fra ordlistor og textavsnitt som inneholder dem hoppas over. Dine egne tekster og sitat ändras aldri.",
-    "own_explanation": "Sparas bare med denne profilen og delas aldri. De gäller når filtret er på."
+    "heading": "støtende ord",
+    "toggle_label": "filtrer støtende ord",
+    "own_label": "egne ord som skal filtreres",
+    "explanation": "På: skjellsord og de groveste banneordene holdes ute av ordlister, og tekstutdrag som inneholder dem hoppes over. Dine egne tekster og sitater blir aldri endret.",
+    "own_explanation": "Beholdes bare med denne profilen, aldri delt. De gjelder mens filteret er på."
   }
 }
