@@ -1,13 +1,13 @@
 {
   "stages": {
     "1": {
-      "name": "hemmarad"
+      "name": "hjemrad"
     },
     "2": {
-      "name": "översta raden"
+      "name": "øverste rad"
     },
     "3": {
-      "name": "nedersta raden"
+      "name": "nederste rad"
     },
     "4": {
       "name": "store bokstaver"
@@ -22,95 +22,95 @@
   "lessons": {
     "1": {
       "1": {
-        "title": "venstre hånd i hemmarad"
+        "title": "venstre hånd i hjemrad"
       },
       "2": {
-        "title": "høyre hånd i hemmarad"
+        "title": "høyre hånd i hjemrad"
       },
       "3": {
-        "title": "pekfingrarna når inåt"
+        "title": "pekefingrene når innover"
       },
       "4": {
-        "title": "repetition av hemmaraden"
+        "title": "repetisjon av hjemraden"
       }
     },
     "2": {
       "1": {
-        "title": "långfingrarna upp"
+        "title": "langfingrene upp"
       },
       "2": {
-        "title": "pekfingrarna upp"
+        "title": "pekefingrene upp"
       },
       "3": {
-        "title": "pekfingrarna, inre kolumnen"
+        "title": "pekefingrene, inre kolumnen"
       },
       "4": {
-        "title": "ringfingrarna upp"
+        "title": "ringfingrene upp"
       },
       "5": {
-        "title": "lillfingrarna upp"
+        "title": "lillefingrene upp"
       },
       "6": {
-        "title": "repetition av översta raden"
+        "title": "repetisjon av øverste rad"
       }
     },
     "3": {
       "1": {
-        "title": "långfingrarna ner"
+        "title": "langfingrene ner"
       },
       "2": {
-        "title": "pekfingrarna ner"
+        "title": "pekefingrene ner"
       },
       "3": {
-        "title": "pekfingrarna, inre kolumnen"
+        "title": "pekefingrene, inre kolumnen"
       },
       "4": {
-        "title": "ringfingrarna ner"
+        "title": "ringfingrene ner"
       },
       "5": {
-        "title": "lillfingrarna ner"
+        "title": "lillefingrene ner"
       },
       "6": {
-        "title": "repetition av nedersta raden"
+        "title": "repetisjon av nederste rad"
       }
     },
     "4": {
       "1": {
-        "title": "skift med hemmaraden"
+        "title": "skift med hjemraden"
       },
       "2": {
         "title": "skift med hver bokstav"
       },
       "3": {
-        "title": "meningar"
+        "title": "meningenr"
       }
     },
     "5": {
       "1": {
-        "title": "pekfingrarna når upp"
+        "title": "pekefingrene når upp"
       },
       "2": {
-        "title": "långfingrarna når upp"
+        "title": "langfingrene når upp"
       },
       "3": {
-        "title": "ringfingrarna når upp"
+        "title": "ringfingrene når upp"
       },
       "4": {
-        "title": "lillfingrarna når upp"
+        "title": "lillefingrene når upp"
       },
       "5": {
-        "title": "lillfingrarna sträcker sig"
+        "title": "lillefingrene sträcker sig"
       },
       "6": {
-        "title": "repetition av sifre"
+        "title": "repetisjon av sifre"
       }
     },
     "6": {
       "1": {
-        "title": "de 100 vanligaste orden"
+        "title": "de 100 vanligeste orden"
       },
       "2": {
-        "title": "de 500 vanligaste orden"
+        "title": "de 500 vanligeste orden"
       },
       "3": {
         "title": "riktig prosa"
@@ -130,35 +130,35 @@
   },
   "ui": {
     "the_steps_again": "stegen igjen",
-    "steps_first": "{count} korta steg först: de nya tangenterna i mønster, siden med tangenterna du kan. Siden testet.",
+    "steps_first": "{count} korta steg først: de nya tangenterna i mønster, siden med tangenterna du kan. Siden testet.",
     "steps_title": "De {count} korta stegen med de nya tangenterna, siden testet",
     "status_mastered": "mestret",
     "status_practising": "övas",
     "status_ready": "klar",
     "status_locked": "låst",
     "stats_summary": "bäst {wpm} wpm · {accuracy}% · {attempts, plural, one {# försök} other {# försök}}",
-    "prerequisite": "Bemästra {prereq} först",
+    "prerequisite": "Mestre {prereq} først",
     "intro": "Lär dig skrive uten å se, en gruppe taster i taget. Hver leksjon öppnas når den forrige er mestret: 25 wpm med 95 % nøyaktighet over minst 30 ord. Leksjoner gir XP og räknas mot et daglig XP-mål.",
-    "numpad_offer": "Har du et numerisk tastatur? Kalibre har tiotangentsövning for det: leksjoner, et test, räknesätt og et spill. ",
+    "numpad_offer": "Har du et nåmerisk tastatur? Kalibre har tiotangentsövning for det: leksjoner, et test, regnearter og et spill. ",
     "turn_it_on": "aktivera det",
-    "not_now": "ikke nu",
-    "numpad_heading": "numerisk tastatur",
-    "numpad_practice": "øvelse med numerisk tastatur",
-    "numpad_desc": "leksjoner, et tiotangentstest, räknesätt og et spill",
-    "finger_guidance_fallback": "Fingerguidning er for QWERTY (US) tills vidare. Du kan ändå följa lektionerna med din layout; tangenterna vises som på din layout.",
+    "not_now": "ikke nå",
+    "numpad_heading": "nåmerisk tastatur",
+    "numpad_practice": "øvelse med nåmerisk tastatur",
+    "numpad_desc": "leksjoner, et tiotangentstest, regnearter og et spill",
+    "finger_guidance_fallback": "Fingerguidning er for QWERTY (US) tills vidare. Du kan ändå följa leksjonene med din layout; tangenterna vises som på din layout.",
     "continue_lesson": "fortsett: {id} {title}",
     "start_first": "begynne med leksjon 1.1",
     "all_mastered": "alle leksjoner mestret ✓",
     "mastered_count": "{count} av {total} mestret",
     "stage_heading": "steg {stage} · {name}",
-    "keyboard_needed": "Lektionerna kräver et riktigt tastatur: anslut et (bluetooth eller usb) og trykk på valfri tast. Tester og spill fungerer med skärmtangentbordet.",
+    "keyboard_needed": "Leksjonene kräver et riktig tastatur: anslut et (bluetooth eller usb) og trykk på valfri tast. Tester og spill fungerer med skärmtastaturet.",
     "all_lessons": "alle leksjoner",
-    "handoff_intro": "Du kan alle taster nu. Fortsett på skrivsidan: tidsbegränsade tester og sitat bygger hastighet, og Kalibre begynner märka de feil du gjør oftast slik at øvelser kan arbeta med dem.",
+    "handoff_intro": "Du kan alle taster nå. Fortsett på skrivsiden: tidsbegränsade tester og sitat bygger hastighet, og Kalibre begynner märka de feil du gjør oftast slik at øvelser kan arbeta med dem.",
     "go_typing": "gå til skrivtesterna",
-    "opens_prereq": "Denne lektionen öppnas når {prereq} er mestret.",
+    "opens_prereq": "Denne leksjonen öppnas når {prereq} er mestret.",
     "go_to_prereq": "gå til {prereq}",
     "new_keys_prefix": "nya taster: ",
-    "review_so_far": "en repetition av alt hittills",
+    "review_so_far": "en repetisjon av alt hittills",
     "every_key": "alle taster du kan",
     "flow": "flyt",
     "one_stream": "en ström",
@@ -167,13 +167,13 @@
     "length": "längd",
     "keep_going": "fortsett",
     "timer": "timer",
-    "none": "inga",
+    "none": "ingen",
     "start": "starta",
     "straight_to_test": "direkt til testet",
     "start_test": "starta testet",
-    "warm_up_first": "värm upp först: {keys}",
-    "warm_up_title": "En kort runda på {reason} (sparas ikke; esc hoppar til testet)",
-    "slipped_keys_note": "{keys} gick feil senast, så en kort oppvarming kommer först. Ta testet når du känner dig klar.",
+    "warm_up_first": "värm upp først: {keys}",
+    "warm_up_title": "En kort runda på {reason} (lagres ikke; esc hoppar til testet)",
+    "slipped_keys_note": "{keys} gick feil senast, så en kort oppvarming kommer først. Ta testet når du känner dig klar.",
     "take_test": "gjør testet",
     "next_step": "neste: {title}",
     "warm_up_again": "värm upp igjen",
@@ -187,17 +187,17 @@
     "practise_again": "øve igjen",
     "result_mastered": "✓ {id} {title}: mestret{exclamation, select, yes {!} other {}}",
     "result_keep_practising": "{id} {title}: fortsett øve",
-    "steno_intro": "Lektionerna lär ut touch typing på tastatur, så de läggs åt sidan mens du skriver med en stenomaskin. Tester, øvelser og spill fungerer som vanligt, og dine lektionsframsteg sparas.",
+    "steno_intro": "Leksjonene lär ut touch typing på tastatur, så de legges åt siden mens du skriver med en stenomaskin. Tester, øvelser og spill fungerer som vanlig, og dine leksjonsframsteg lagres.",
     "take_test_button": "gjør et test",
-    "on_keyboard_now": "jag bruker tastatur nu",
+    "on_keyboard_now": "jag bruker tastatur nå",
     "switch_keyboard_title": "Ändrar ”jag skriver med” tilbake til et tastatur",
     "needs_words": "{minWords} {unit} eller flere (du skrev {words})",
     "needs_wpm": "{wpm} wpm ({actual} denne gången)",
     "needs_accuracy": "{accuracy}% nøyaktighet ({actual}% denne gången)",
     "needs_key": "hver ny tast med {accuracy}%: {key} var {actual}%",
     "needs_key_generic": "hver ny tast med {accuracy}%",
-    "needs_heading": "For å bemästra det behövs:",
-    "next_open": "{id} {title} er nu öppen.",
+    "needs_heading": "For å mestre det behövs:",
+    "next_open": "{id} {title} er nå öppen.",
     "slips_most": "taster med flest feil: {slips}",
     "slips_none": "alle taster med minst 95% denne gången",
     "next_button": "neste: {id} {title}",
@@ -222,19 +222,19 @@
     "what_to_change": "hva skal endres",
     "items": "gjenstand",
     "s_wardrobe": "{name}s garderobe",
-    "everything_here_is_earned_by": "Alt här tjänas gjennom å skrive, aldri gjennom köp. Högerklicka på {name} når som helst for å komme tilbake."
+    "everything_here_is_earned_by": "Alt her tjänas gjennom å skrive, aldri gjennom köp. Högerklicka på {name} når som helst for å komme tilbake."
   },
   "ending": {
     "s_options": "{name}s alternativ",
     "give_the_ring": "gi {name} ringen"
   },
   "keyboard_diagram": {
-    "finger_colours_are_for_qwerty": "Fingerfärgerna gäller QWERTY (US) tills vidare; lektionerna fungerer fortfarande med din layout.",
+    "finger_colours_are_for_qwerty": "Fingerfärgerna gjelder QWERTY (US) tills vidare; leksjonene fungerer fortfarande med din layout.",
     "left_hand": "venstre hånd",
     "right_hand": "høyre hånd"
   },
   "learn_curriculum": {
-    "master_first": "Bemästra {prerequisiteOf} först",
+    "master_first": "Mestre {prerequisiteOf} først",
     "stage": "steg {stage} · {value}"
   },
   "learn_lesson": {
@@ -244,74 +244,74 @@
     "list_separator": ", "
   },
   "key_coach": {
-    "other_hand": "du har försökt nå {key} med den andra hånden: håll den på din {hand} hånd",
+    "other_hand": "du har försökt nå {key} med den andre hånden: håll den på din {hand} hånd",
     "wrong_finger": "du har tryckt på {typed} for {key}: nå med fingret som vises, byt ikke"
   },
   "learn_numpad_run": {
-    "num_lock_is_off_the": "num lock er av: tangentbordet sender pilar. Trykk på num lock på tangentbordet.",
+    "num_lock_is_off_the": "nåm lock er av: tastaturet sender pilar. Trykk på nåm lock på tastaturet.",
     "time_left": "{time} kvar · {count, plural, one {# post} other {# poster}}",
     "clock_start": "{time} · den første tangenten startar klockan",
     "entries_count": "{done} / {total} poster"
   },
   "learn_numpad": {
-    "practice_for_the_number_pad": "Øvelse for numerisk tastatur: et tiotangentstest, leksjoner og räknesätt. Det er for personer som har et, så det er av tills du säger til.",
-    "ten_key_practice_lessons_from": "Tiotangentsövning: leksjoner fra hemmatangenterna og utåt, belopp å skrive fra en remsa med enter og operatorer samt huvudräkning og en kasse å köra. Alt gir XP.",
-    "i_don_t_have_a": "jag har inget numerisk tastatur",
-    "turns_number_pad_practice_off": "lukker av øvelse med numerisk tastatur igjen",
-    "from_your_last_few_runs": "Fra dine siste körningar. De hålls åtskilda fra misstagen på huvudtangentbordet og övas här.",
+    "practice_for_the_number_pad": "Øvelse for nåmerisk tastatur: et tiotangentstest, leksjoner og regnearter. Det er for personer som har et, så det er av tills du säger til.",
+    "ten_key_practice_lessons_from": "Tiotangentsövning: leksjoner fra hemmatangenterna og utåt, Beløp å skrive fra en remse med enter og operatorer samt huvudräkning og en kasse å köra. Alt gir XP.",
+    "i_don_t_have_a": "jag har ingenting nåmerisk tastatur",
+    "turns_number_pad_practice_off": "lukker av øvelse med nåmerisk tastatur igjen",
+    "from_your_last_few_runs": "Fra dine siste körningenr. De hålls åtskilda fra misstagen på huvudtastaturet og övas her.",
     "ten_key_drill": "tiotangentsövning",
     "sums_drill": "räkneövning",
-    "diagram_weak": "numerisk tastatur, färgat etter tangenterna som går galt",
-    "diagram_mistakes": "numerisk tastatur, färgat etter feil",
-    "diagram": "numerisk tastatur",
+    "diagram_weak": "nåmerisk tastatur, färgat etter tangenterna som går galt",
+    "diagram_mistakes": "nåmerisk tastatur, färgat etter feil",
+    "diagram": "nåmerisk tastatur",
     "drill_keys": "taster: {keys}",
-    "drill_sums": "räknesätt: {kinds}",
+    "drill_sums": "regnearter: {kinds}",
     "tile_lessons": "leksjoner",
     "tile_lessons_note": "{mastered} av {total} mestret",
     "tile_lessons_blurb": "hemmatangenterna 4 5 6, siden utåt mot operatorerna",
     "tile_tenkey": "tiotangentstest",
-    "tile_tenkey_fastest": "din raskeste: {ksph} tastetrykk i timmen",
-    "tile_tenkey_none": "inget test ennå",
-    "tile_tenkey_blurb": "belopp, heltal eller en blandning med operatorer",
-    "tile_sums": "räknesätt",
+    "tile_tenkey_fastest": "din raskeste: {ksph} tastetrykk i timen",
+    "tile_tenkey_none": "ingenting test ennå",
+    "tile_tenkey_blurb": "Beløp, heltal eller en blandning med operatorer",
+    "tile_sums": "regnearter",
     "tile_sums_last": "senast: {right} av {answers} riktig",
-    "tile_sums_none": "inga räknesätt ennå",
-    "tile_sums_blurb": "huvudräkning: addition, subtraktion, multiplikation, division og prosent",
+    "tile_sums_none": "ingen regnearter ennå",
+    "tile_sums_blurb": "huvudräkning: addisjon, subtraksjon, multiplikasjon, divisjon og prosent",
     "tile_till": "kasse",
     "tile_till_best": "ditt bästa: {served} serverade",
-    "tile_till_none": "inga pass ennå",
-    "tile_till_blurb": "et spill: betjäna kön gjennom å regne ut växeln"
+    "tile_till_none": "ingen pass ennå",
+    "tile_till_blurb": "et spill: betjäna kön gjennom å regne ut vekselen"
   },
   "learn_padlessons": {
-    "master_lesson_first": "Bemästra leksjon {number} först",
-    "number_pad_lessons": "leksjoner for numerisk tastatur",
-    "learn_the_pad_without_looking": "Lär dig tangentbordet uten å se, noen taster om gangen, fra hemmatangenterna 4 5 6 og utåt. Hver leksjon öppnas når den forrige er mestret: hastigheten som vises, 95 % nøyaktighet over 25 poster og å hver ny tast til största delen blir riktig. Leksjoner gir XP.",
+    "master_lesson_first": "Mestre leksjon {nåmber} først",
+    "number_pad_lessons": "leksjoner for nåmerisk tastatur",
+    "learn_the_pad_without_looking": "Lär dig tastaturet uten å se, noen taster om gangen, fra hemmatangenterna 4 5 6 og utåt. Hver leksjon öppnas når den forrige er mestret: hastigheten som vises, 95 % nøyaktighet over 25 poster og å hver ny tast til största delen blir riktig. Leksjoner gir XP.",
     "start_with_lesson_1": "begynne med leksjon 1",
     "of_mastered": "{mastered} av {length} mestret",
-    "all_number_pad_lessons": "alle leksjoner for numerisk tastatur",
-    "this_lesson_opens_once_lesson": "Denne lektionen öppnas når leksjon {number} er mestret.",
-    "go_to_lesson": "gå til leksjon {number}",
-    "to_master_it_keystrokes_an": "For å bemästra det: {thousands} tastetrykk i timmen med {accuracy}% nøyaktighet over {entries} poster, og hver ny tast riktig {keyAccuracy} gånger av 100. Vila högerhanden på 4 5 6, med upphöjningen på 5 under långfingret.",
+    "all_number_pad_lessons": "alle leksjoner for nåmerisk tastatur",
+    "this_lesson_opens_once_lesson": "Denne leksjonen öppnas når leksjon {nåmber} er mestret.",
+    "go_to_lesson": "gå til leksjon {nåmber}",
+    "to_master_it_keystrokes_an": "For å mestre det: {thousands} tastetrykk i timen med {accuracy}% nøyaktighet over {entries} poster, og hver ny tast riktig {keyAccuracy} gånger av 100. Vila högerhanden på 4 5 6, med hevede punktet på 5 under langfingeren.",
     "try_again": "försök igjen",
     "result": "resultat",
     "mastered_again": "mestret igjen",
-    "lesson_is_open": "Leksjon {number} er öppen.",
-    "that_s_every_number_pad": "Det var alle leksjoner for numerisk tastatur.",
+    "lesson_is_open": "Leksjon {nåmber} er öppen.",
+    "that_s_every_number_pad": "Det var alle leksjoner for nåmerisk tastatur.",
     "again": "igjen",
     "best_summary": "bäst {ksph} i timmen · {accuracy}% · {attempts, plural, one {# försök} other {# försök}}",
     "best_detail": "bäst {ksph} i timmen med {accuracy}% · {attempts, plural, one {# försök} other {# försök}}",
     "best_detail_mastered": "mestret ✓ · bäst {ksph} i timmen med {accuracy}% · {attempts, plural, one {# försök} other {# försök}}",
     "new_keys": "nya taster: {keys}",
-    "headline": "{value} tastetrykk i timmen",
-    "to_master": "For å bemästra det: {reasons}.",
+    "headline": "{value} tastetrykk i timen",
+    "to_master": "For å mestre det: {reasons}.",
     "reason_separator": ", og ",
     "reason_entries": "alle {entries} poster",
-    "reason_ksph": "{target} tastetrykk i timmen ({now} denne gången)",
+    "reason_ksph": "{target} tastetrykk i timen ({now} denne gången)",
     "reason_accuracy": "{target}% nøyaktighet ({now}% denne gången)",
     "reason_key": "hver ny tast riktig {target} gånger av 100 ({key} var {accuracy}%)",
-    "diagram_label": "numerisk tastatur: tangenterna i leksjon {number}",
-    "continue_lesson": "fortsett: {number} {title}",
-    "next_lesson": "neste: {number} {title}"
+    "diagram_label": "nåmerisk tastatur: tangenterna i leksjon {nåmber}",
+    "continue_lesson": "fortsett: {nåmber} {title}",
+    "next_lesson": "neste: {nåmber} {title}"
   },
   "learn_runner": {
     "lesson": "leksjon {id}",
@@ -322,21 +322,21 @@
     "counter": "{done} {unit}",
     "time_left": " · {time} kvar",
     "finger_line": "{key}: {finger}",
-    "shift_other_hand": ", med skift på andra hånden",
+    "shift_other_hand": ", med skift på andre hånden",
     "tip_suffix": " · {tip}",
     "diagram_label": "tastatur for leksjon {id}"
   },
   "learn_sums": {
     "custom_number_of_questions": "anpassat antall frågor",
     "custom_number": "anpassat antall",
-    "sums": "räknesätt",
-    "mental_arithmetic_the_accountant_s": "Huvudräkning, på revisorns sätt: et räknetal vises, du räknar ut det og skriver svaret på tangentbordet og trykker enter. Du bedöms på svaret og hvordan lang tid det tog. Tre riktig på rad gjør räknetalen vanskeligere; två feil gjør dem lättare. Alle svar er exakta på öret.",
+    "sums": "regnearter",
+    "mental_arithmetic_the_accountant_s": "Huvudräkning, på revisorns sätt: et regnestykke vises, du räknar ut det og skriver svaret på tastaturet og trykker enter. Du vurderes på svaret og hvor lang tid det tog. Tre riktig på rad gjør regnestykkeen vanskeligere; to feil gjør dem lettere. Alle svar er exakta på öret.",
     "last_time_of_right_an": "senast: {correctAnswers} av {answers} riktig, {seconds} per svar, upp til nivå {peakLevel}",
-    "no_sums_yet": "inga räknesätt ennå",
+    "no_sums_yet": "ingen regnearter ennå",
     "your_answer": "ditt svar",
     "you_typed": "✗ {prompt} = {answerText} · du skrev {typed}",
     "level": "{min} / {count} · nivå {level}",
-    "type_the_answer_then_enter": "skriv svaret og trykk siden enter · backsteg rättar · esc åpner kommandoraden",
+    "type_the_answer_then_enter": "skriv svaret og trykk siden enter · backsteg retter · esc åpner kommandoraden",
     "of": "{correctAnswers} av {answers}",
     "right": "riktig",
     "average_time": "genomsnittstid",
@@ -344,9 +344,9 @@
     "to_look_at_again": "å titta på igjen",
     "you_typed_2": " · du skrev {typed}",
     "every_answer_right": "alle svar riktig.",
-    "change_the_sums": "endre räknesätten",
-    "title_count": "räknesätt · {kind}{weak} · {count, plural, one {# fråga} other {# frågor}}",
-    "title": "räknesätt · {kind}{weak}",
+    "change_the_sums": "endre regnearteren",
+    "title_count": "regnearter · {kind}{weak} · {count, plural, one {# fråga} other {# frågor}}",
+    "title": "regnearter · {kind}{weak}",
     "weak_spots": " · svake punkter",
     "right_headline": "{of} riktig",
     "questions": "frågor",
@@ -355,11 +355,11 @@
   "learn_tenkey": {
     "your_best_for_this_ksph": "ditt bästa for dette: {thousands} ksph med {round}% nøyaktighet",
     "no_run_of_this_kind": "ingen körning av denne typen ennå",
-    "custom_length_in_minutes": "anpassad längd i minutter",
+    "custom_length_in_minutes": "anpassad längd i minåtter",
     "custom_length_in_entries": "anpassad längd i poster",
     "custom_length": "anpassad längd",
     "ten_key_test": "tiotangentstest",
-    "amounts_arrive_one_to_a": "Belopp kommer et per rad, som på en remsa. Skriv hver belopp på det numeriska tangentbordet og avsluta med tangenten som vises etter det: enter eller en operator. Remsan går vidare etter et feil, så fortsett; backsteg rättar posten du håller på med. Du bedöms i tastetrykk per time.",
+    "amounts_arrive_one_to_a": "Beløp kommer et per rad, som på en remse. Skriv hver Beløp på det nåmeriska tastaturet og avslutt med tasten som vises etter det: enter eller en operator. Remsan går vidare etter et feil, så fortsett; backsteg retter oppføringen du håller på med. Du vurderes i tastetrykk per time.",
     "new_best": "nytt rekord",
     "your_best_for_this_is": "ditt bästa for dette er {thousands}",
     "not_a_wrong_key_clean": "ikke en feil tast: rent.",
@@ -372,26 +372,26 @@
   },
   "learn_till": {
     "till": "kasse",
-    "customers_queue_at_your_till": "Kunder står i kø vid din kasse. Var og en har betalat med en sedel: regne ut växeln, skriv den på tangentbordet og trykk enter. Hver kunds tålmodighet minskar mens de väntar, så raskt og riktig gjør å de betjänas og neste kunde får komme fram. Et feilaktig svar kostar litt tålmodighet, og når tre har gått därifrån lukker kassan. Växeln er alltid exakt på öret.",
-    "your_best_customers_served_in": "ditt bästa: {best} kunder betjänade i en följd",
-    "no_shifts_yet": "inga pass ennå",
-    "open_the_till": "åpne kassan",
+    "customers_queue_at_your_till": "Kunder står i kø vid din kasse. Var og en har betalat med en seddel: regne ut vekselen, skriv den på tastaturet og trykk enter. Hver kunds tålmodighet minskar mens de venter, så raskt og riktig gjør å de betjenes og neste kunde får komme fram. Et feilaktig svar kostar litt tålmodighet, og når tre har gått derifrån lukker kassen. Vekselen er alltid exakt på öret.",
+    "your_best_customers_served_in": "ditt bästa: {best} Kunder betjänade i en följd",
+    "no_shifts_yet": "ingen pass ennå",
+    "open_the_till": "åpne kassen",
     "the_customer_s_patience": "kundens tålmodighet",
-    "the_change": "växeln",
-    "customers_served_level_the_customers": "betjänade kunder · nivå · kunderna som fortfarande kan gå før kassan lukker",
-    "press_enter_to_open_the": "trykk enter for å åpne kassan",
+    "the_change": "vekselen",
+    "customers_served_level_the_customers": "betjänade Kunder · nivå · kundene som fortfarande kan gå før kassen lukker",
+    "press_enter_to_open_the": "trykk enter for å åpne kassen",
     "change": "{billText} · veksel?",
-    "waiting_behind": "{behind} väntar bakom",
-    "no_one_waiting": "ingen väntar",
+    "waiting_behind": "{behind} venter bakom",
+    "no_one_waiting": "ingen venter",
     "served_level": "{served} betjänade · nivå {level} · {repeat}{repeat2}",
-    "type_the_change_then_enter": "skriv växeln og trykk siden enter · backsteg rättar · esc åpner kommandoraden",
-    "the_till_is_closed": "kassan er stängd",
+    "type_the_change_then_enter": "skriv vekselen og trykk siden enter · backsteg retter · esc åpner kommandoraden",
+    "the_till_is_closed": "kassen er stängd",
     "customer_served": " kunde betjänad",
-    "customers_served": " kunder betjänade",
+    "customers_served": " Kunder betjänade",
     "your_best_is": "ditt bästa er {previousBest}",
     "another_shift": "et pass til",
     "feedback_served": "✓ veksel {change}",
-    "feedback_wrong": "✗ {typed}: växeln var {change}",
+    "feedback_wrong": "✗ {typed}: vekselen var {change}",
     "feedback_left": "en kunde gick ({bill})"
   },
   "learn": {
@@ -409,7 +409,7 @@
   },
   "numpad_tape": {
     "entries": "poster",
-    "the_tape": "remsan",
+    "the_tape": "remsen",
     "wrong": "feil"
   },
   "pad_lessons": {
@@ -429,16 +429,16 @@
       "title": "alle sifre"
     },
     "pad-6": {
-      "title": "plus, med lillfingret"
+      "title": "plus, med lillefingeren"
     },
     "pad-7": {
-      "title": "minus"
+      "title": "minås"
     },
     "pad-8": {
       "title": "gånger og delat med"
     },
     "pad-9": {
-      "title": "hele tangentbordet"
+      "title": "hele tastaturet"
     }
   },
   "fingers": {
@@ -485,10 +485,10 @@
         "label": "heltal"
       },
       "amounts": {
-        "label": "belopp"
+        "label": "Beløp"
       },
       "mixed": {
-        "label": "blandat, med operatorer"
+        "label": "blandet, med operatorer"
       }
     }
   },
@@ -498,16 +498,16 @@
         "label": "en blandning"
       },
       "add": {
-        "label": "addition"
+        "label": "addisjon"
       },
       "subtract": {
-        "label": "subtraktion"
+        "label": "subtraksjon"
       },
       "multiply": {
-        "label": "multiplikation"
+        "label": "multiplikasjon"
       },
       "divide": {
-        "label": "division"
+        "label": "divisjon"
       },
       "percent": {
         "label": "prosent"
@@ -517,7 +517,7 @@
   "pad_key_names": {
     "enter": "enter",
     "plus": "plus",
-    "minus": "minus",
+    "minus": "minås",
     "times": "gånger",
     "divide": "delat med",
     "decimal_point": "decimaltecken"
@@ -529,10 +529,10 @@
   },
   "numpad_sums": {
     "kinds": {
-      "add": "addition",
-      "subtract": "subtraktion",
-      "multiply": "multiplikation",
-      "divide": "division",
+      "add": "addisjon",
+      "subtract": "subtraksjon",
+      "multiply": "multiplikasjon",
+      "divide": "divisjon",
       "percent": "prosent"
     }
   }
