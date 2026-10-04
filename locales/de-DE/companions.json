@@ -13,7 +13,7 @@
   "menu": {
     "wardrobe": "Kleiderschrank",
     "get_ring": "Erhalten {companion, select, cal {Er} libby {Und} other {Sie}} Ein Ring",
-    "options_aria": "{companion}Optionen"
+    "options_aria": "{companion} Optionen"
   },
   "engagement": {
     "title": "Das ist eine ziemlich wichtige Entscheidung...",
@@ -57,7 +57,7 @@
       {
         "say": "Vorschlagender",
         "mood": "Glücklich",
-        "text": "{partner}Könntest du eine Sekunde hierher kommen?"
+        "text": "{partner} Könntest du eine Sekunde hierher kommen?"
       },
       {
         "cue": "PartnerEinsteiger"
@@ -135,7 +135,7 @@
       {
         "say": "Vorschlagender",
         "mood": "Glücklich",
-        "text": "{partner}Würden Sie für einen Moment hierher kommen?"
+        "text": "{partner} Würden Sie für einen Moment hierher kommen?"
       },
       {
         "cue": "PartnerEinsteiger"
@@ -148,7 +148,7 @@
       {
         "say": "Vorschlagender",
         "mood": "Glücklich",
-        "text": "Es ist ein Ring, {partner}Es ist für dich."
+        "text": "Es ist ein Ring, {partner} Es ist für dich."
       },
       {
         "say": "Partner",
