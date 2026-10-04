@@ -1,0 +1,52 @@
+{
+  "storage": {
+    "heading": "lagring",
+    "persistent": "Browseren beholder Kalibres data, indtil du selv rydder dem.",
+    "best_effort": "Browseren kan rydde Kalibres data, hvis der bliver for lidt ledig plads på disken.",
+    "unsupported": "Denne browser kan ikke garantere at beholde Kalibres data, så sørg for at have en sikkerhedskopi.",
+    "keep_my_data": "behold mine data"
+  },
+  "backup": {
+    "automatic_heading": "automatisk sikkerhedskopiering",
+    "choose_folder": "vælg en mappe",
+    "back_up_now": "sikkerhedskopiér nu",
+    "change_folder": "skift mappe",
+    "stop": "stop",
+    "restore": "gendan",
+    "manual_heading": "sikkerhedskopiér manuelt",
+    "export_profile": "eksportér denne profil",
+    "share_profile": "del denne profil",
+    "exported_summary": "eksporterede {sessions} tests, {mistakes} fejl og {texts} tekster{destination}",
+    "saved_to": " til {destination}",
+    "last_backup_time": "sidste sikkerhedskopiering {when}",
+    "not_backed_up_yet": "ikke sikkerhedskopieret endnu",
+    "problem_permission": " Browseren skal have din tilladelse igen, før den kan skrive der.",
+    "problem_conflict": " Mappen har en nyere kopi af «{name}», gemt fra en anden browser {when}, så den blev ikke overskrevet. Gendan den kopi, eller gem denne oven på den.",
+    "problem_last_error": " Den seneste sikkerhedskopiering mislykkedes: {error}",
+    "restore_folder": "gendan fra en Kalibre-mappe",
+    "update_copies": "kopier fra før opdateringer",
+    "restore_warning": "dette erstatter alt, hvad Kalibre gemmer i denne browser, med den kopi. sikker?",
+    "confirm_restore": "ja, gendan den",
+    "cancel": "annuller"
+  },
+  "guest": {
+    "banner_title": "Du prøver Kalibre som gæst.",
+    "banner_body": "Dine tests, fejl, statistik og XP gemmes i denne browser, men sikkerhedskopieres ikke, og profilen kan ikke låses. Gem dine fremskridt for at beholde dem som din egen profil.",
+    "save_progress": "gem mine fremskridt",
+    "ephemeral_warning": "gæstesession: denne browser beholder ingenting, så intet gemmes, når vinduet lukkes. For at beholde det, du gør, download din profil og indlæs den i et almindeligt vindue.",
+    "download_profile": "download min profil",
+    "name_profile": "giv profilen et navn",
+    "nickname_placeholder": "et kaldenavn",
+    "save": "gem"
+  },
+  "progress": {
+    "backing_up": "sikkerhedskopierer",
+    "preparing_export": "forbereder eksport",
+    "saving": "gemmer",
+    "phase_packing": "pakker",
+    "phase_compressing": "komprimerer",
+    "job_status": "{job} · {phase} {percent}%",
+    "saved": "gemt",
+    "couldnt_save": "kunne ikke gemme (se indstillinger → data)"
+  }
+}

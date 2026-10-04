@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "overview": "oversikt",
+    "periods": "per dag",
+    "bests": "personlige rekorder",
+    "history": "historikk",
+    "games": "spil",
+    "numpad": "numerisk tastatur",
+    "xp": "xp",
+    "keys": "taster",
+    "hesitations": "tvekan",
+    "mistakes": "fejl"
+  },
+  "export": {
+    "csv": "csv",
+    "json": "json",
+    "game_runs": "eksporter spillkjøringer",
+    "every_test": "eksportere alle tester",
+    "days": "eksportere dage"
+  },
+  "empty": {
+    "no_tests": "ingen tester ennå",
+    "no_tests_games_only": "ingen tester ennå: kun spil så langt. Se statistikk → spil.",
+    "no_tests_overview": "ingen tester ennå. Hastigheten, nøyaktigheten og tastene du synes er vanskeligst, vises her.",
+    "not_enough_typing": "ikke tilstrekkelig med skriving ennå"
+  },
+  "overview": {
+    "average_wpm": "genomsnittlig wpm",
+    "accuracy": "nøjagtighed",
+    "tests": "tester",
+    "time_typing": "skrivtid",
+    "completed": "fullførte",
+    "restarted": "omstartade",
+    "abandoned": "forlatte",
+    "not_counted": "ikke telt",
+    "words": "ord",
+    "characters": "tegn",
+    "averages_note": "gennemsnit og rekorder bruger kun fuldførte tests{notCounted, select, true {; tests med kun tastaturmashing tælles ikke} other {}}",
+    "chart_heading": "{scope, select, all {alle} other {seneste}} {count} {count, plural, one {test} other {tests}} · wpm",
+    "chart_window_aria": "hvor mange tester som skal vises i diagrammet",
+    "by_characters": "efter tegn"
+  },
+  "bests": {
+    "race_this": "konkurrer med denne",
+    "empty": "fullfør en test for å sette en",
+    "stats_summary": "{survived, select, true {{survivedTime} overlevde · } other {}}{wpm} wpm · {accuracy}% · {date}"
+  },
+  "periods": {
+    "no_tests": "ingen tester",
+    "tests_count": "{count, plural, one {# test} other {# tester}}",
+    "best_accuracy": "best {best} · {accuracy}%",
+    "daily_goal": "daglig matl: {target}",
+    "today": " · i dag {amount}{met, select, true { ✓} other {}}",
+    "streak": " · streak {count, plural, one {# dag} other {# dage}}",
+    "no_daily_goal": "ingen daglig matl. ",
+    "set_one": "sett en",
+    "time_typed_per_day": "skrivetid per dag · sidste 30 dage",
+    "day_by_day": "dag for dag",
+    "no_tests_last_30_days": "ingen tester de sidste 30 dagene",
+    "time_of_day": "tid på dagen",
+    "time_zone_note": "dage og tider følger enhetens tidssone."
+  },
+  "games": {
+    "no_games": "ingen spil spilt ennå. spil finnes under spil i menyen.",
+    "runs_count": "{count, plural, one {# kjøring} other {# kjøringer}}",
+    "last": "sist {date}",
+    "best_run": "beste kjøring: {summary}",
+    "bests_note": "rekorder teller kjøringer efter hvert spills gældende regler",
+    "bests_by_difficulty": "rekorder efter vanskelighetsgrad",
+    "recent_runs": "sidste kjøringer",
+    "old_rules": "{game} (gamle regler)",
+    "runs": "kjøringer",
+    "time_played": "spilletid"
+  },
+  "numpad": {
+    "no_runs": "ingen kjøringer med numerisk tastatur ennå. De finnes på siden for numerisk tastatur under læring.",
+    "ksph_note": "tastetryk per time (ksph) tæller tasterne i korrekte indtastninger, inklusive operatorer og Enter",
+    "bests": "ti-tasters rekorder",
+    "sums_by_kind": "summer efter type",
+    "weak_spots": "svaga punkter",
+    "recent_runs": "sidste kjøringer",
+    "ten_key_tests": "tiotangentstester",
+    "fastest": "snabbast",
+    "lessons_mastered": "mestret leksjoner",
+    "sums_right": "rigtige summer",
+    "time_on_pad": "tid på tastaturet"
+  },
+  "numpad_pane": {
+    "lesson_desc": "leksjon {number}{mastered, select, true { · mestret} other {}}",
+    "till_desc": "kassa · nivå {level}",
+    "sums_desc": "summer · {form}",
+    "tenkey_desc": "tiotast · {form} · {limit}",
+    "mix": "en blandning",
+    "served_count": "{count} serverade",
+    "sums_right": "{right} av {answers} rigtige",
+    "ksph_result": "{ksph} ksph{aborted, select, true { (avsluttet tidlig)} other {}}"
+  },
+  "headings": {
+    "day": "dag",
+    "tests": "tester",
+    "time": "tid",
+    "wpm": "wpm",
+    "best": "best",
+    "accuracy": "nøjagtighed",
+    "goal": "matl",
+    "when": "nur",
+    "source": "kilde",
+    "xp": "xp",
+    "share": "dele",
+    "entries": "oppføringer",
+    "length": "lengde",
+    "ksph": "ksph",
+    "kind": "type",
+    "right": "rigtigt",
+    "average_time": "genomsnittstid",
+    "what": "hvad",
+    "result": "resultat",
+    "date": "dato",
+    "ghost": "spøkelse",
+    "actions": "handlinger",
+    "test": "test",
+    "game": "spil",
+    "mode": "tilstand",
+    "difficulty": "vanskelighetsgrad",
+    "outcome": "utfall",
+    "score": "poeng"
+  },
+  "hesitations": {
+    "explain": "Ikke fejl: taster, du skrev korrekt, men først efter en pause på mindst {factor}× dit eget normale mellemrum mellem taster (aldrig under {minMs} ms), måles mod dit tempo uanset hvor hurtigt du skriver. Pauser over {maxS} s tæller som en afbrydelse (længere hvis du skriver, mens du leder efter taster). Gentagne pauser foreslås til træning, på samme måde som fejl.",
+    "empty": "Tester fra nå av matles også for nøling.",
+    "hesitations": "tvekan",
+    "per_minute": "per minut",
+    "tests_measured": "matlte tester",
+    "keys_pause_before": "taster du pausar før",
+    "pairs_pause_inside": "bokstavspar du pausar i",
+    "words_pause_before": "ord du pausar før",
+    "no_pattern_yet": "ingenting mønster ennå"
+  },
+  "keys": {
+    "picker_label": "tastaturoppsett: ",
+    "dropdown_label": "tastaturoppsett",
+    "least_accurate_keys": "minst treffsikre taster",
+    "slowest_keys": "tregeste taster",
+    "least_accurate_pairs": "minst treffsikre bokstavpar",
+    "slowest_pairs": "tregeste bokstavpar"
+  },
+  "mistakes": {
+    "errors_summary": "{uncorrected} ukorrigerte · {corrected} korrigerte · {capsLock} med Caps Lock",
+    "most_common": "vanligste",
+    "all_mistakes": "alle fejl",
+    "keys": "taster",
+    "shift": "shift",
+    "words": "ord",
+    "between_words": "mellem ord",
+    "none_yet": "ingen ennå"
+  },
+  "xp": {
+    "blurb": "XP kommer fra korrekt skriving (skalert efter nøjagtighed), litt fra bonuser og fra fejl du trener bort. Det beregnes ut fra historikken din.",
+    "total_xp": "totalt xp",
+    "last_7_days": "sidste 7 dage",
+    "where_from": "hvor det kom fra",
+    "xp_per_day": "xp per dag · sidste 30 dage"
+  },
+  "history": {
+    "replay": "repris",
+    "race": "løb",
+    "delete": "fjern",
+    "race_title": "Kør mod denne kørsel som et spøgelse på dens egen tekst",
+    "no_saved_ghosts": "ingen gemte spøgelser endnu. Gem et efter en test eller en afspilning.",
+    "no_history": "ingen tester i historiken ennå",
+    "pinned": "festet",
+    "all_tests": "alle tester",
+    "saved_ghosts": "lagrede spøkelser",
+    "saved_ghosts_count": "lagrede spøkelser ({count})",
+    "pager_aria": "historikksider",
+    "pager_prev": "‹ forrige",
+    "pager_next": "næste ›",
+    "pager_range": "{first}–{last} av {count}",
+    "page_aria": "side {number}"
+  },
+  "shared": {
+    "level": "nivå",
+    "level_aria": "XP til næste nivå",
+    "prev": "forrige",
+    "next": "næste",
+    "prev_aria": "forrige side",
+    "next_aria": "næste side",
+    "page_info": "{current} av {total}",
+    "xp": "{toLocaleString} / {toLocaleString2} xp",
+    "ms": "{round} ms · {round2}%",
+    "typed": "{round}% · skrev {toLocaleString}"
+  },
+  "hesitations_pane": {
+    "of": "{round}% · {hesitated} av {toLocaleString}"
+  },
+  "overview_pane": {
+    "recent_tests": "sidste tester",
+    "group_stats": "{wpm} wpm · {accuracy}% · {count, plural, one {# test} other {# tester}}"
+  },
+  "periods_pane": {
+    "wpm": " wpm"
+  },
+  "stats_charts": {
+    "wpm_of_recent_tests_use": "WPM for de sidste testene. brug venstre- og høyrepilene for å lese hver test.",
+    "recent_tests": "Seneste tests",
+    "complete_a_couple_of_tests": "Fullfør et par tester for å se en trend.",
+    "accuracy": "{value}% nøjagtighed",
+    "not_enough_typing": "ikke tilstrekkelig med skriving",
+    "ms": "{round} ms",
+    "keyboard_coloured_by_how_often": "Tastaturet er farget efter hvor ofte hver tast skrives rigtigt på første forsøk. Tabellen nedenfor viser de samme verdiene.",
+    "use_the_left_and_right": "{label}. brug venstre- og høyrepilene for å lese hver dag.",
+    "no_typing": "ingen skriving",
+    "day_tests": "{count, plural, one {# test} other {# tester}}",
+    "day_wpm": " · {wpm} wpm"
+  },
+  "stats": {
+    "sections_label": "statistikkseksjoner"
+  }
+}

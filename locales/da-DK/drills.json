@@ -1,0 +1,53 @@
+{
+  "formats": {
+    "time": "tid",
+    "words": "ord",
+    "quote": "citat"
+  },
+  "actions": {
+    "start_drill": "starta øvelse",
+    "drill": "øvelse",
+    "drill_aria": "øve på {mistake} nå",
+    "drill_title": "Øve kun på {mistake} nå, det anbefalte matten",
+    "manage_in_mistakes": "hantera under fejl",
+    "recommended": "anbefalt",
+    "recommended_title": "Merk de fejl som er verdt å øve på nå, så mange som en øvelse kan inneholde",
+    "all": "alle",
+    "none": "ingen",
+    "train_and_drill_these": "trene og øve på disse"
+  },
+  "labels": {
+    "how": "hvordan",
+    "what_to_drill": "hva som skal øves",
+    "drill_format": "övningsformat",
+    "drill_length": "övningslängd",
+    "quote_length": "sitatlengde",
+    "practise_by_area": "øve efter omratde",
+    "words_count": "{count, plural, one {# ord} other {# ord}}",
+    "ticked_count": "{selected} av {total} merkde",
+    "in_training": "i trening",
+    "ready_to_drill": "klar å øve",
+    "improving": "bedres",
+    "finding_quotes": "leter efter citat med disse fejl…",
+    "no_quotes_found": "Ingen citater af denne længde indeholder disse fejl. Prøv en anden længde eller en ordøvelse.",
+    "quotes_with_mistakes": "citat med disse fejl",
+    "best_fit": "beste passform",
+    "typed_lately": "skrevne nyligen",
+    "recommended_reason": "{recommended} anbefales: {reason}",
+    "ready": "klar",
+    "due_title": "Kom tilbake siden den sidste övningen",
+    "not_due_title": "ingen nye fejl siden den sidste övningen",
+    "rate_title": "Hvordan ofte det gatr galt nur det skrivs",
+    "last_seen_title": "Sist sett",
+    "usual": "almindelig",
+    "seen_not_trained": "sett, ennå ikke trenet",
+    "empty_nothing_in_training": "Ingenting i treningen ennå. fortsæt skrive: Kalibre föreslatr fejl som fortsætter å komme tilbake.",
+    "empty_seen_not_trained": "Ingenting i treningen ennå. disse har dykt opp men øves ikke ennå: merk dem du vil jobbe med."
+  },
+  "status": {
+    "training": "øves",
+    "improving": "bedres",
+    "suggested": "foreslatet",
+    "watching": "overvatkes"
+  }
+}

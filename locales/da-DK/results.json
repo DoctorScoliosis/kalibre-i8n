@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "speed": "hastighed",
+    "accuracy": "nøjagtighed",
+    "characters": "tegn",
+    "words": "ord",
+    "time": "tid",
+    "consistency": "konsistens",
+    "best": "personlig rekord",
+    "average": "gjennomsnitt",
+    "tests": "tester"
+  },
+  "candidate": {
+    "prompt_label": "treningsforslag",
+    "body": "Du fortsætter å skrive {word} · {count, plural, one {# gang} other {# ganger}} over {sessions, plural, one {# økt} other {# økter}}.",
+    "train": "trene",
+    "dismiss": "afvis",
+    "later": "senere",
+    "drill_it_now": "øve på det nå"
+  },
+  "actions": {
+    "next": "næste",
+    "retry": "forsøk igen",
+    "watch_replay": "se reprise",
+    "save_ghost": "gem som spøkelse",
+    "words": "ord",
+    "final": "endelig",
+    "as_typed": "som skrevet"
+  },
+  "race_results": {
+    "full_stats": "fuld statistik",
+    "your_race": "dit løb",
+    "this_race_looked_like_key": "dette løb lignede tastaturmashing ({notCountedReason}), så det blev ikke talt: ingen XP, fejl eller statistik.",
+    "lv_to_go": " · lv {level} · {value} kvar",
+    "drill_now": "øve nå",
+    "counts": "fejl {errors} · ord {words}"
+  },
+  "replay_player": {
+    "test_replay": "testrepris",
+    "pinned": "festet ✓",
+    "pinned_limit_reached_replays_unpin": "grensen for festede repriser er nudd ({PINNED_LOGS_CAP} repriser). Løsne en eldre reprise først.",
+    "close_replay": "luk reprise",
+    "replay_scrubber": "reprise-scrubber",
+    "jump_to_playhead": "hopp til avspillingsposisjon ⇥",
+    "0_wpm": "0 wpm",
+    "replay_timeline_zoom": "zoom for reprisens tidslinje",
+    "zoom": "zoom",
+    "restart_replay": "start reprise igen",
+    "play": "spil av",
+    "saved_as_ghost": "gemt som spøgelse ✓",
+    "wpm": "{round} wpm"
+  },
+  "result_chart": {
+    "per_second_results": "resultat per sekund",
+    "not_enough_typing_to_draw": "Ikke nok skriving til å tegne et diagram.",
+    "chart_zoom": "diagramzoom",
+    "speed_over_time_use_the": "hastighed over tid. brug venstre- og høyrepilene for å lese hvert sekund."
+  },
+  "results": {
+    "words_lowest_accuracy_target_kept": "{words} ord · laveste nøjagtighed {round}% · matl {targetAccuracy}% · holdt {floorWpm}+ wpm",
+    "words_peak_pace_lowest_target": "{words} ord · høyeste tempo {round} · laveste {round2} · matl {targetWpm} wpm",
+    "longest_above_target_raw_in": "lengst over matlet {formatDuration} · {nearMisses} · rattt {round} · {formatDuration2} totalt",
+    "mistake_analysis_failed_for_this": "feilanalyse mislyktes for denne økten",
+    "common_mistakes": "almindelige fejl",
+    "show_the_words": "vis ordene",
+    "expected": "forventet «{text}»",
+    "typed_expected": "skrev {typed}, forventet {text}",
+    "deleted": "slettet",
+    "this_drill": "denne øvelsen",
+    "now": "nå {to}",
+    "race_this_drill": "kør mod denne øvelse",
+    "race_the_same_drill_again": "kør samme øvelse igen mod et spøgelse af denne kørsel",
+    "results": "resultat",
+    "survived": "overlevde",
+    "wpm": "wpm",
+    "acc": "nøjagtighed",
+    "this_test_looked_like_key": "denne testen så ut som tastaturmashing ({notCountedReason}), så den blev ikke telt: ingen XP, fejl eller statistikk.",
+    "suggested_for_training": "{extraSuggested} foreslattte for trening",
+    "book_range": " {start} → {end}",
+    "the_end": "slutten",
+    "book_words": " · {count} ord",
+    "overdeleted": "du slettet {count, plural, one {# korrekt tegn} other {# korrekte tegn}} utover fejlen",
+    "overdeleted_cost": ", cirka {cost} wpm",
+    "mistake_line": "{errors} av {exposures}{share} · tidligere {before}",
+    "summary_line": "rattt {raw} · {spread} · {duration}",
+    "practice_words": " · {count, plural, one {# øvingsord} other {# øvingsord}}",
+    "letters_to_cover": " · {count, plural, one {# bokstav} other {# bokstaver}} gjenstatr",
+    "mistakes_ready": "{count, plural, one {# fejl klar} other {# fejl klar}}",
+    "consistency_spread": "konsistens {consistency}% (±{wpmStdDev} wpm)",
+    "consistency_none": "konsistens –"
+  }
+}

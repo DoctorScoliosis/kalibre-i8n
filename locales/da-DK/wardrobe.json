@@ -1,0 +1,290 @@
+{
+  "slots": {
+    "hat": {
+      "label": "hat",
+      "none": "ingen hat"
+    },
+    "face": {
+      "label": "ansigt",
+      "none": "klassisk ansigt"
+    },
+    "necklace": {
+      "label": "halskæde",
+      "none": "intet halskæde"
+    },
+    "braceletLeft": {
+      "label": "venstre håndled",
+      "none": "bart håndled"
+    },
+    "braceletRight": {
+      "label": "højre håndled",
+      "none": "bart håndled"
+    },
+    "pants": {
+      "label": "bukser",
+      "none": "ingen bukser"
+    },
+    "background": {
+      "label": "baggrund",
+      "none": "ingen baggrund"
+    },
+    "heart": {
+      "label": "hjerte",
+      "none": "enkelt hjerte"
+    },
+    "ring": {
+      "label": "ring",
+      "none": "ingen ring"
+    }
+  },
+  "party-hat": {
+    "name": "festhat"
+  },
+  "beanie": {
+    "name": "hue"
+  },
+  "cap": {
+    "name": "kasket"
+  },
+  "headphones": {
+    "name": "hovedtelefoner"
+  },
+  "top-hat": {
+    "name": "flosshat"
+  },
+  "wizard-hat": {
+    "name": "troldmandshat"
+  },
+  "space-helmet": {
+    "name": "rumhjelm"
+  },
+  "hard-hat": {
+    "name": "sikkerhedshjelm"
+  },
+  "explorer-hat": {
+    "name": "opdagelseshat"
+  },
+  "hair-bow": {
+    "name": "hårsløjfe"
+  },
+  "flat-cap": {
+    "name": "sixpence"
+  },
+  "beret": {
+    "name": "beret"
+  },
+  "sun-hat": {
+    "name": "solhat"
+  },
+  "bucket-hat": {
+    "name": "bøllehat"
+  },
+  "chef-hat": {
+    "name": "kokkehat"
+  },
+  "graduation-cap": {
+    "name": "studenterhue"
+  },
+  "crown": {
+    "name": "krone"
+  },
+  "round-eyes": {
+    "name": "runde øjne"
+  },
+  "sparkly": {
+    "name": "glitrende øjne"
+  },
+  "pixel-eyes": {
+    "name": "pixeløjne"
+  },
+  "blush": {
+    "name": "røde kinder"
+  },
+  "freckles": {
+    "name": "fregner"
+  },
+  "round-glasses": {
+    "name": "runde briller"
+  },
+  "monocle": {
+    "name": "monokel"
+  },
+  "star-eyes": {
+    "name": "stjerneøjne"
+  },
+  "heart-eyes": {
+    "name": "hjerteøjne"
+  },
+  "sleepy-lids": {
+    "name": "søvnige øjenlåg"
+  },
+  "beads": {
+    "name": "perlehalskæde"
+  },
+  "bow-tie": {
+    "name": "sløjfe"
+  },
+  "scarf": {
+    "name": "tørklæde"
+  },
+  "medal": {
+    "name": "medalje"
+  },
+  "keycap-pendant": {
+    "name": "tastetopvedhæng"
+  },
+  "compass": {
+    "name": "kompas"
+  },
+  "pearls": {
+    "name": "perler"
+  },
+  "tie": {
+    "name": "slips"
+  },
+  "locket": {
+    "name": "medaljon"
+  },
+  "quill-pendant": {
+    "name": "fyldepenvedhæng"
+  },
+  "friendship-band": {
+    "name": "venskabsbånd"
+  },
+  "gold-band": {
+    "name": "guldbånd"
+  },
+  "watch": {
+    "name": "armbåndsur"
+  },
+  "key-chain": {
+    "name": "tastenøglering"
+  },
+  "spiked-band": {
+    "name": "pigbånd"
+  },
+  "trail-band": {
+    "name": "sporbånd"
+  },
+  "charm-bracelet": {
+    "name": "charmsarmbånd"
+  },
+  "sweatband": {
+    "name": "svedbånd"
+  },
+  "beaded-band": {
+    "name": "perlebånd"
+  },
+  "shorts": {
+    "name": "shorts"
+  },
+  "jeans": {
+    "name": "jeans"
+  },
+  "dungarees": {
+    "name": "overalls"
+  },
+  "kilt": {
+    "name": "kilt"
+  },
+  "skirt": {
+    "name": "nederdel"
+  },
+  "cargo-pants": {
+    "name": "cargo-bukser"
+  },
+  "pyjama-bottoms": {
+    "name": "pyjamasbukser"
+  },
+  "space-trousers": {
+    "name": "rumbukser"
+  },
+  "theme-tile": {
+    "name": "temaflise"
+  },
+  "stars": {
+    "name": "stjerner"
+  },
+  "bricks": {
+    "name": "mursten"
+  },
+  "leaves": {
+    "name": "blade"
+  },
+  "paper": {
+    "name": "papir"
+  },
+  "keyboard": {
+    "name": "tastatur"
+  },
+  "rain": {
+    "name": "regn"
+  },
+  "waves": {
+    "name": "bølger"
+  },
+  "typewriter": {
+    "name": "skrivemaskine"
+  },
+  "bookshelf": {
+    "name": "bogreol"
+  },
+  "sunrise": {
+    "name": "solopgang"
+  },
+  "heart-star": {
+    "name": "stjerne"
+  },
+  "heart-note": {
+    "name": "note"
+  },
+  "heart-key": {
+    "name": "tast"
+  },
+  "heart-paw": {
+    "name": "pote"
+  },
+  "heart-flag": {
+    "name": "flag"
+  },
+  "heart-bolt": {
+    "name": "lyn"
+  },
+  "heart-moon": {
+    "name": "måne"
+  },
+  "heart-leaf": {
+    "name": "blad"
+  },
+  "heart-sun": {
+    "name": "sol"
+  },
+  "heart-amp": {
+    "name": "ampersandet"
+  },
+  "heart-k": {
+    "name": "bogstavet k"
+  },
+  "ring": {
+    "name": "ring"
+  },
+  "ui": {
+    "default_hint": "standard",
+    "locked": "låst",
+    "new_badge": "ny",
+    "wearing_it": "har den på",
+    "ring_worn": "ringen: bruges på den gode måde",
+    "title": "{companion}s garderobe",
+    "tab_aria": "{label}, {unlocked} af {total} låst op",
+    "item_worn_aria": "{name}, har den på",
+    "item_locked_aria": "{name}, låst: {hint}",
+    "remove_all": "fjern al udsmykning",
+    "news_new_item": "en ny {name}",
+    "news_new_items": "{count, plural, one {en ny ting} other {# nye ting}}",
+    "news_earned": "åh, du tjente {what} til min garderobe!",
+    "try_it_on": "prøv den på",
+    "status_worn": "{name}: {state}",
+    "status_hint_progress": "{name}: {hint} ({have} af {need})",
+    "status_hint": "{name}: {hint}"
+  }
+}

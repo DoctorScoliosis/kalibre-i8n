@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "texts": "mine tekster",
+    "texts_blurb": "Din egen tekst, øvd præcis som den er skrevet.",
+    "quotes": "mine citater",
+    "quotes_blurb": "Citater, du tilføjer, bruges i citat- og blandede tests (60 tegn eller mere).",
+    "datasets": "datasæt",
+    "datasets_blurb": "Bøger og samlinger, der leverer citater, ordlister og øvelser."
+  },
+  "labels": {
+    "title": "tittel",
+    "text_aria": "tekst",
+    "paste_placeholder": "indsæt tekst her",
+    "my_texts": "mine tekster",
+    "datasets": "datasæt",
+    "sections_aria": "tekstseksjoner",
+    "subfolders_too": " også undermapper",
+    "drop_hint": "eller slipp filer her",
+    "words_count": "{count, plural, one {# ord} other {# ord}}",
+    "paragraphs_count": "{count, plural, one {# afsnit} other {# afsnit}}"
+  },
+  "actions": {
+    "save": "gem",
+    "save_changes": "gem ændringer",
+    "cancel": "annuller",
+    "practise": "øve",
+    "edit": "rediger",
+    "delete": "slet",
+    "delete_confirm": "slet?",
+    "yes_delete": "ja, slet",
+    "keep": "behold",
+    "practise_aria": "øv på {title}",
+    "edit_aria": "rediger {title}",
+    "delete_aria": "slet {title}",
+    "new_text": "ny tekst",
+    "import_files": "importér .txt eller .md",
+    "import_folder": "importér en mappe"
+  },
+  "status": {
+    "saved": "gemt «{title}»",
+    "updated": "opdateret «{title}»",
+    "imported": "importert «{title}»",
+    "deleted": "slettet «{title}»",
+    "no_folder_files": "ingen .txt- eller .md-filer i den mappe",
+    "empty": "Ingen gemte tekster endnu. Indsæt noget, du vil øve, eller importér en .txt-fil. Teksterne bliver på denne enhed."
+  },
+  "quotes": {
+    "quote_placeholder": "citatet",
+    "quote_aria": "citat",
+    "author_placeholder": "hvem sagde det",
+    "source_placeholder": "valgfrit",
+    "add_quote": "tilføj citat",
+    "author": "forfatter",
+    "source": "kilde",
+    "authors": "forfattere",
+    "sources": "kilder",
+    "added": "citat tilføjet",
+    "updated": "citat opdateret",
+    "deleted": "citat slettet",
+    "unknown": "— ukendt",
+    "too_short": " · for kort til tests ({min}+ tegn)",
+    "empty": "Tilføj citater, du kan lide; de vises i citat- og blandede tests. Samlinger som en quotes.json-fil kan installeres under datasæt."
+  },
+  "github_import": {
+    "github_s_limit_for_downloads": "GitHubs grænse for downloads uden login er nået. Prøv igen om en time.",
+    "that_repository_or_folder_wasn": "Det repository eller den mappe blev ikke fundet (den kan være privat).",
+    "github_answered": "GitHub svarede {status}.",
+    "that_isn_t_a_github": "Dette er ikke en GitHub-adresse til et repository (github.com/owner/repo).",
+    "no_txt_or_md_files": "Ingen .txt- eller .md-filer blev fundet der.",
+    "the_files_couldn_t_be": "Filerne kunne ikke downloades.",
+    "listing_files": "viser filer…",
+    "downloading_progress": "downloader {current} af {total}…"
+  },
+  "importers": {
+    "doesn_t_look_like_a": "{name} ligner ikke en tekstfil.",
+    "isn_t_utf_8_text": "{name} er ikke UTF-8-tekst.",
+    "only_files_can_be_imported": "{name}: kun {ACCEPTED_EXTENSIONS}-filer kan importeres.",
+    "is_larger_than_5_mb": "{name} er større end 5 MB.",
+    "is_empty": "{name} er tom."
+  },
+  "quote_collections": {
+    "no_quotes_were_found_in": "Der blev ikke fundet nogen citater i den fil."
+  }
+}

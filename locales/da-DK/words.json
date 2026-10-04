@@ -1,0 +1,18 @@
+{
+  "filter": {
+    "warning": "Kalibres ordlister kommer fra gamle bøger og store ordbøker, som inneholder skjellsord og andre støtende ord. nur filteret er av, kan de dukke opp i tester, øvelser, leksjoner og spil. Ved å slå det av godtar du at du kan se dem, og at forfatteren av Kalibre ikke er ansvarlig for eventuelle krenkelser de mattte føre til.",
+    "turn_off": "slå filteret fra",
+    "keep_on": "behold det slået til",
+    "confirm_title": "slå filteret for stødende ord fra?",
+    "filter_on": "filter til",
+    "filter_off": "filter fra",
+    "placeholder": "ett per linje eller atskilt med komma; avslutt med * for alle ord som begynner med det",
+    "filtered_count": "{count, plural, one {# eget filtrert ord} other {# egne filtrerte ord}}",
+    "no_words": "ingen egne ord",
+    "heading": "stødende ord",
+    "toggle_label": "filtrér stødende ord",
+    "own_label": "egne ord, der skal filtreres",
+    "explanation": "På: skjellsord og de groveste banneordene holdes ute av ordlister, og tekstutdrag som inneholder dem hoppes over. dine egne tekster og citater bliver aldri endret.",
+    "own_explanation": "Bevares kun med denne profil, deles aldrig. De gælder, mens filteret er slået til."
+  }
+}
