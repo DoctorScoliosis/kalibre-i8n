@@ -6,7 +6,7 @@ on:
     types: [opened, synchronize, reopened]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   test:
@@ -21,5 +21,22 @@ jobs:
         with:
           node-version: "26"
 
-      - name: Run tests and build checks
+      - name: Run tests
         run: node --test scripts/integrity.test.mjs scripts/core-pr-impact.test.mjs
+
+      - name: Generate packs on Swedish branch
+        if: github.event_name == 'push' && github.ref == 'refs/heads/translate/sv-SE' && !contains(github.event.head_commit.message, '[i18n] Generate localisation packs')
+        run: npm run build
+
+      - name: Commit generated packs
+        if: github.event_name == 'push' && github.ref == 'refs/heads/translate/sv-SE' && !contains(github.event.head_commit.message, '[i18n] Generate localisation packs')
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.json locales/*/manifest.json packs/*.json
+          git commit -m "[i18n] Generate localisation packs"
+          git push
