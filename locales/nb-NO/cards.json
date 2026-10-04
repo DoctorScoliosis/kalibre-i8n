@@ -5,10 +5,10 @@
   "window": {
     "your_card": "ditt kort",
     "card_title": "kort",
-    "cosmetics": "utsmyckningar",
-    "stickers": "klistermärken",
-    "garage": "garage",
-    "done": "klar"
+    "cosmetics": "utsmykning",
+    "stickers": "klistremerker",
+    "garage": "garasje",
+    "done": "ferdig"
   },
   "card_view": {
     "lv": "nivå {level}",
@@ -16,182 +16,182 @@
     "with_companion": "med {companionName}"
   },
   "card_window": {
-    "this_is_how_your_card": "Slik ser ditt kort ut for andre i ett løp. Din följeslagare står der en bild ville ha varit: profilbilder lämnar aldri denne enheten. Dra ett klistermärke for att flytta det; välj ett for farge, størrelse og rotation, eller piltangenterna, [ og ], og Delete; Esc eller ett klick noen annanstans avmarkerar det.",
-    "what_your_card_wears": "hva ditt kort bär",
-    "colour": "{tokenLabel} farge",
-    "theme_default_colour": "temats standardfärg",
-    "delete_sticker": "fjerne klistermärke",
-    "sticker_arrows_move_it_and": "{name}-klistermärke: pilar flyttar det, [ og ] roterar det, Delete tar bort det; välj det for farge og størrelse",
-    "selected_sticker_s_colour": "det valda klistermärkets farge",
-    "add_a_sticker": "legge til ett {name}-klistermärke",
-    "a_secret_sticker": "ett hemligt klistermärke",
-    "a_card_shows_at_most": "ett kort viser högst {MAX_SHOWCASE}",
-    "remove_every_sticker": "fjerne alle klistermärken",
-    "nothing_to_show_off_yet": "Ingenting att vise upp ennå. Dine prestationer hamnar her når du tjänar in dem.",
+    "this_is_how_your_card": "Slik ser kortet ditt ut for andre i et løp. Ledsageren din står der et bilde ellers ville ha vært: profilbilder forlater aldri denne enheten. Dra et klistremerke for å flytte det; velg ett for farge, størrelse og rotasjon, eller bruk piltastene, [ og ], og Delete; Esc eller et klikk et annet sted fjerner valget.",
+    "what_your_card_wears": "hva kortet ditt har på seg",
+    "colour": "{tokenLabel}-farge",
+    "theme_default_colour": "temaets standardfarge",
+    "delete_sticker": "slett klistremerke",
+    "sticker_arrows_move_it_and": "{name}-klistremerke: piltastene flytter det, [ og ] roterer det, Delete fjerner det; velg det for å endre farge og størrelse",
+    "selected_sticker_s_colour": "fargen på det valgte klistremerket",
+    "add_a_sticker": "legg til et {name}-klistremerke",
+    "a_secret_sticker": "et hemmelig klistremerke",
+    "a_card_shows_at_most": "et kort viser høyst {MAX_SHOWCASE}",
+    "remove_every_sticker": "fjern alle klistremerker",
+    "nothing_to_show_off_yet": "Ingenting å vise frem ennå. Prestasjonene dine kommer hit etter hvert som du tjener dem.",
     "tabs": {
       "showcase": {
-        "title": "visningskort",
-        "hint": "upp til {max} prestationer du har tjänat in"
+        "title": "utstillingsvindu",
+        "hint": "opptil {max} prestasjoner du har tjent"
       },
       "garage": {
-        "title": "garage",
-        "hint": "klä upp din racingbil: det er den du kör på banan og det alle du tävlar mot ser"
+        "title": "garasje",
+        "hint": "kle opp racerbanebilen din: det er den du kjører på banen, og det alle du konkurrerer mot ser"
       }
     },
-    "tint": "{slot}Ton"
+    "tint": "{slot}-fargetone"
   },
   "cosmetics": {
     "CARD_SLOTS": {
       "border": {
         "title": "kant",
-        "hint": "runt kortet"
+        "hint": "rundt kortet"
       },
       "frame": {
-        "title": "ram",
-        "hint": "runt din följeslagare"
+        "title": "ramme",
+        "hint": "rundt ledsageren din"
       },
       "aura": {
         "title": "aura",
-        "hint": "ett sken bakom din följeslagare"
+        "hint": "et skjær bak ledsageren din"
       },
       "backdrop": {
-        "title": "bakgrund",
-        "hint": "bakom alt på kortet"
+        "title": "bakgrunn",
+        "hint": "bak alt på kortet"
       },
       "sticker": {
-        "title": "klistermärken",
+        "title": "klistremerker",
         "hint": "dra dem hvor som helst på kortet"
       }
     },
     "items": {
       "border-double": {
-        "name": "dubbel linje"
+        "name": "dobbel linje"
       },
       "border-stitch": {
-        "name": "sömmad"
+        "name": "søm"
       },
       "border-ribbon": {
-        "name": "band"
+        "name": "bånd"
       },
       "border-corners": {
-        "name": "hörnbeslag"
+        "name": "hjørneklammer"
       },
       "border-keycap": {
-        "name": "tangentkåpa"
+        "name": "tastetopp"
       },
       "border-heat": {
-        "name": "hetta"
+        "name": "varme"
       },
       "border-neon": {
         "name": "neon"
       },
       "border-gilt": {
-        "name": "förgyllt"
+        "name": "forgylt"
       },
       "border-midnight": {
         "name": "midnatt"
       },
       "frame-double": {
-        "name": "dubbel ring"
+        "name": "dobbel ring"
       },
       "frame-dashed": {
-        "name": "streckad ring"
+        "name": "stiplet ring"
       },
       "frame-square": {
-        "name": "tangentkåpefyrkant"
+        "name": "tastetoppfirkant"
       },
       "frame-cog": {
-        "name": "kugghjul"
+        "name": "tannhjul"
       },
       "frame-petals": {
-        "name": "kronblad"
+        "name": "kronblader"
       },
       "frame-orbit": {
-        "name": "omloppsbana"
+        "name": "bane"
       },
       "frame-laurel": {
-        "name": "lagerkrans"
+        "name": "laurbærkrans"
       },
       "frame-crown": {
-        "name": "krona"
+        "name": "krone"
       },
       "aura-soft": {
-        "name": "mjukt sken"
+        "name": "mykt skjær"
       },
       "aura-pulse": {
         "name": "puls"
       },
       "aura-ember": {
-        "name": "glöd"
+        "name": "glør"
       },
       "aura-halo": {
-        "name": "halo"
+        "name": "glorie"
       },
       "aura-aurora": {
-        "name": "norrsken"
+        "name": "nordlys"
       },
       "aura-prism": {
-        "name": "prisma"
+        "name": "prisme"
       },
       "backdrop-dots": {
-        "name": "prickar"
+        "name": "prikker"
       },
       "backdrop-pinstripe": {
-        "name": "kritstreck"
+        "name": "nålstripe"
       },
       "backdrop-graph": {
-        "name": "rutpapper"
+        "name": "millimeterpapir"
       },
       "backdrop-waves": {
-        "name": "vågor"
+        "name": "bølger"
       },
       "backdrop-stars": {
-        "name": "stjärnhimmel"
+        "name": "stjernehimmel"
       },
       "backdrop-confetti": {
         "name": "konfetti"
       },
       "sticker-star": {
-        "name": "stjärna"
+        "name": "stjerne"
       },
       "sticker-leaf": {
         "name": "blad"
       },
       "sticker-key": {
-        "name": "tangentkåpa"
+        "name": "tastetopp"
       },
       "sticker-heart": {
-        "name": "hjärta"
+        "name": "hjerte"
       },
       "sticker-flower": {
-        "name": "blomma"
+        "name": "blomst"
       },
       "sticker-bolt": {
-        "name": "blixt"
+        "name": "lyn"
       },
       "sticker-note": {
-        "name": "not"
+        "name": "note"
       },
       "sticker-moon": {
         "name": "måne"
       },
       "sticker-rocket": {
-        "name": "raket"
+        "name": "rakett"
       },
       "sticker-castle": {
         "name": "slott"
       },
       "sticker-magnifier": {
-        "name": "förstoringsglas"
+        "name": "forstørrelsesglass"
       },
       "sticker-book": {
         "name": "bok"
       },
       "sticker-flag": {
-        "name": "rutig flagga"
+        "name": "rutete flagg"
       },
       "sticker-crown": {
-        "name": "krona"
+        "name": "krone"
       },
       "sticker-teacup": {
         "name": "tekopp"
