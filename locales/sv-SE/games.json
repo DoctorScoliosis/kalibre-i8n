@@ -892,6 +892,322 @@
             }
           }
         }
+      },
+      "space": {
+        "options": {
+          "duration": {
+            "label": "längd",
+            "choices": {
+              "endless": {
+                "label": "ändlös"
+              },
+              "i1": {
+                "label": "1 min"
+              },
+              "i2": {
+                "label": "2 min"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "komma igång",
+            "group": "komma igång",
+            "summary": "styr skeppet, skriv ord för att ladda magasinet och skjut för att förstöra fiender.",
+            "highlights": [
+              "flytta med musen eller piltangenterna",
+              "skriv ett ord och tryck retur för att skjuta"
+            ],
+            "details": [
+              "slutförda ord laddas i magasinet. tryck retur för att skjuta det valda skottet.",
+              "ett ord som slutförs med retur skjuts direkt utan att laddas först.",
+              "använd ↑ ↓ eller mushjulet för att välja vilken magasinsplats som ska avfyras."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "i målinriktat läge har varje fiendeskepp ett ordkrav. skott som inte matchar studsar bort."
+              }
+            },
+            "mechanics": {
+              "movement": {
+                "label": "rörelse",
+                "summary": "skeppet styr horisontellt. flytta med musen eller ← →."
+              },
+              "magazine": {
+                "label": "magasin",
+                "summary": "skrivna ord fyller magasinet. retur skjuter. ↑ ↓ väljer plats."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flytta skeppet"
+              },
+              "i1": {
+                "action": "skjut det valda magasinsjottet"
+              },
+              "i2": {
+                "action": "välj en magasinsplats"
+              }
+            },
+            "visuals": {
+              "starfighter": {
+                "label": "stjärnjaktplan"
+              },
+              "magazine-slots": {
+                "label": "magasinsplatser"
+              }
+            }
+          },
+          "surviving": {
+            "label": "överlevnad",
+            "group": "överlevnad",
+            "summary": "undvik skada, rensa fastkörningar, väj för asteroider och använd räddningsskepp för att reparera.",
+            "highlights": [
+              "skeppet har hälsa — träffar minskar den och noll avslutar spelet",
+              "skriv ordet på ett grönt räddningsskepp för att reparera"
+            ],
+            "details": [
+              "rena ord fastnar aldrig. skrivfel kan fastna och nonsens fastnar oftare.",
+              "när vapnet fastnat, skriv ordet som visas för att rensa det eller tryck backsteg två gånger utan text för att skrota skottet.",
+              "skjut inte räddningsskepp: en träff läker mindre (inte på lätt).",
+              "asteroider är oförstörbara hinder. stora delar spricker i flera bitar när de träffas.",
+              "drönare låser fast med en streckad linje och dyker rakt ner. styr undan.",
+              "skepp som passerar botten gör ingen skada."
+            ],
+            "notes": {
+              "easy": {
+                "text": "att skjuta ett räddningsskepp minskar inte dess läkning."
+              }
+            },
+            "mechanics": {
+              "health": {
+                "label": "hälsa",
+                "summary": "skeppets träffpoäng. noll betyder spelet är slut."
+              },
+              "jams": {
+                "label": "fastkörningar",
+                "summary": "ett fastkört vapen kan inte skjuta förrän det rensas. skrivfel och nonsens ökar risken."
+              },
+              "asteroids": {
+                "label": "asteroider",
+                "summary": "stenar som inte kan förstöras. stora delar splittras i bitar."
+              },
+              "rescue": {
+                "label": "räddningsskepp",
+                "summary": "gröna skepp med ett ord. skriv det för att reparera skrovet."
+              },
+              "drones": {
+                "label": "drönare",
+                "summary": "låser fast och dyker rakt ner. väj för dykbanan."
+              },
+              "jammer": {
+                "label": "störsändare",
+                "summary": "ökar risken för fastkörningar så länge den lever."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "skrota det valda skottet (rensar en fastkörning)"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "räddningsreparation"
+              }
+            },
+            "visuals": {
+              "rescue-ship": {
+                "label": "räddningsskepp (läkning)"
+              },
+              "dive-drone": {
+                "label": "dykdrönare"
+              },
+              "asteroid": {
+                "label": "asteroidhinder"
+              },
+              "weapon-jam": {
+                "label": "vapenfastkörning"
+              }
+            }
+          },
+          "fighting": {
+            "label": "strid",
+            "group": "strid",
+            "summary": "ladda magasinet, avvärj robotar och jaktplan och använd bomben för att rensa fältet.",
+            "highlights": [
+              "robotar bär en bokstav — skriv den utan annan text för att skjuta ner dem",
+              "skift+retur detonerar bomben när den är laddad",
+              "alt+retur avfyrar den genomträngande kondensatorstrålen när den är laddad"
+            ],
+            "details": [
+              "att ladda ord fyller bombmätaren. när den är full rensar skift+retur alla robotar och skadar alla fiender.",
+              "högkvalitativa laddade ord fyller kondensatorn. alt+retur avfyrar en lodrät genomträngande laser; överbelastning vid 100 % krossar sköldade skepp.",
+              "rymdstationer skjuter ut jaktplan som jagar dig. skriv ett jaktplans bokstav för att skjuta ner det.",
+              "landminor exploderar i splitter när de träffas och träffar allt i närheten, även dig.",
+              "sköldade skepp träffas bara av ord som uppfyller deras krav."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "i målinriktat läge har varje skepp ett ordkrav som måste matchas."
+              }
+            },
+            "mechanics": {
+              "missiles": {
+                "label": "robotar",
+                "summary": "bär en bokstavstoken. utan skriven text skriver du den för att skjuta ner dem direkt."
+              },
+              "bomb": {
+                "label": "bomb",
+                "summary": "laddas när du laddar ord. skift+retur detonerar och rensar robotar samt skadar fiender."
+              },
+              "accumulator": {
+                "label": "kondensatorstråle",
+                "summary": "laddas av rena ord med hög kvalitet. alt+retur avfyrar en genomträngande kolumnstråle; 100 % överbelastning genomborrar sköldar och förångar robotar."
+              },
+              "fighters": {
+                "label": "jaktplan",
+                "summary": "små skepp som skjuts upp från stationer. jagar spelaren. skriv deras bokstav för att avvärja dem."
+              },
+              "stations": {
+                "label": "stationer",
+                "summary": "stora nav som svävar och skapar jaktplan."
+              },
+              "landmines": {
+                "label": "landminor",
+                "summary": "spikförsedda minor. splitter vid förstörelse träffar allt i närheten."
+              },
+              "shields": {
+                "label": "sköldar",
+                "summary": "vissa skepp har sköldar som bara bryts av ord som matchar ett krav."
+              },
+              "heavyFrigate": {
+                "label": "tung fregatt",
+                "summary": "förstärkt för med skärmad barriär och dubbla robotbatterier."
+              },
+              "eliteCruiser": {
+                "label": "elitkryssare",
+                "summary": "tungt slagskepp med punktförsvarstorn som skjuter ner svaga ord (<30 styrka)."
+              },
+              "flagship": {
+                "label": "flaggskeppechef",
+                "summary": "massivt modulärt kommandofartyg. förstör vapensystemen och kollapsa dess sköldgenerator för att blotta bryggan."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "detonera bomben"
+              },
+              "i1": {
+                "action": "urladda kondensatorstrålen"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "bombchockvåg"
+              },
+              "i1": {
+                "label": "kondensatorstråle"
+              },
+              "i2": {
+                "label": "flaggskeppechef"
+              }
+            },
+            "visuals": {
+              "missile-token": {
+                "label": "robot (bokstav)"
+              },
+              "bomb-shockwave": {
+                "label": "bombchockvåg"
+              },
+              "capacitor-beam": {
+                "label": "genomträngande kondensatorstråle"
+              },
+              "heavy-frigate": {
+                "label": "tung fregatt"
+              },
+              "elite-cruiser": {
+                "label": "elitkryssare"
+              },
+              "flagship-boss": {
+                "label": "flaggskeppechef"
+              },
+              "orbital-station": {
+                "label": "omloppsstation"
+              },
+              "shrapnel-mine": {
+                "label": "landmina"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "kraftbonusar",
+            "group": "kraftbonusar",
+            "summary": "förstörda fiender tappar kraftbonusar. fånga dem, lagra dem och slå på dem.",
+            "highlights": [
+              "fånga en flytande kraftbonus för att lagra den",
+              "aktivera med skift+1–3 eller klicka på en plats"
+            ],
+            "details": [
+              "upp till tre kraftbonusar kan lagras. två sorter kan vara aktiva samtidigt; samma sort igen staplar tiden.",
+              "dubbelskott: varje skott avfyras två gånger innan det förbrukas.",
+              "kulspruta: varje skriven bokstav avfyrar en omedelbar blixt.",
+              "sköld: en barriär absorberar träffar åt skeppet.",
+              "automat: väljer automatiskt det bästa skottet mot det största hotet.",
+              "målsökande: avfyrade ord styr mot mål."
+            ],
+            "mechanics": {
+              "double": {
+                "label": "dubbel",
+                "summary": "skott avfyras två gånger innan de förbrukas."
+              },
+              "gatling": {
+                "label": "kulspruta",
+                "summary": "varje skriven bokstav avfyrar en omedelbar energibult."
+              },
+              "shield": {
+                "label": "sköld",
+                "summary": "en energibarriär absorberar träffar."
+              },
+              "automaton": {
+                "label": "automat",
+                "summary": "väljer automatiskt det bästa skottet mot det värsta hotet."
+              },
+              "homing": {
+                "label": "målsökande",
+                "summary": "avfyrade ord styr dynamiskt mot mål."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "aktivera kraftbonus plats 1"
+              },
+              "i1": {
+                "action": "aktivera kraftbonus plats 2"
+              },
+              "i2": {
+                "action": "aktivera kraftbonus plats 3"
+              }
+            },
+            "visuals": {
+              "powerup-double": {
+                "label": "dubbelskott"
+              },
+              "powerup-gatling": {
+                "label": "kulspruteström"
+              },
+              "powerup-shield": {
+                "label": "avledarbarriär"
+              },
+              "powerup-automaton": {
+                "label": "automatisk siktning"
+              },
+              "powerup-homing": {
+                "label": "målsökare"
+              }
+            }
+          }
+        }
       }
     }
   }
