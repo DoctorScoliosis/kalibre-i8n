@@ -10,23 +10,23 @@
     "all": "alle"
   },
   "blurbs": {
-    "suggested": "Feil som fortsetter å komme tilbake. Trene dem eller avvis dem du ikke bryr dig om.",
-    "training": "Øvelser fokuserar på disse.",
-    "improving": "Feilraten har halverats siden treningen begynte.",
-    "mastered": "Nere på en fjerdedel av utgangspunktet. De går tilbake til treningen om de kommer tilbake.",
+    "suggested": "Feil som fortsetter å komme tilbake. Tren dem eller avvis dem du ikke bryr deg om.",
+    "training": "Øvelser fokuserer på disse.",
+    "improving": "Feilraten har halvert siden treningen begynte.",
+    "mastered": "Nede på en fjerdedel av utgangspunktet. De går tilbake til treningen om de kommer tilbake.",
     "dismissed": "Foreslås ikke igjen om du ikke gjenoppretter dem.",
-    "watching": "Sette, men ikke tillräckligt ofte for å foreslås ennå. ”øve nå” begynner trene et ändå.",
+    "watching": "Sette, men ikke tilstrekkelig ofte for å foreslås ennå. «øve nå« begynner trene et ändå.",
     "overview": "Var fingrarna blir feil, ritat på tastaturet, med orden og mellanslagen ved siden av. Hver rad viser feilraten over de siste testerna.",
     "all": "Hver feil som Kalibre har notert, uansett status."
   },
   "empty": {
     "suggested": "Ingen feil her ennå. Det går bra!",
-    "training": "Ingen feil i treningen ennå. Legg til noen fra fliken ”foreslåtte”.",
+    "training": "Ingen feil i treningen ennå. Legg til noen fra fanen «foreslåtte«.",
     "improving": "Ingenting bedres ennå. Fortsett øve på dine treningsfeil.",
     "mastered": "Ingenting er mestret ennå. Trening tar tid — fortsett.",
-    "dismissed": "Ingenting avfärdat.",
-    "watching": "Ingenting her ennå. Fortsett skrive så dyker mønster upp.",
-    "all": "Ingen feil noterte ennå. Når du skriver registrerar Kalibre gjentakende mønster her."
+    "dismissed": "Ingenting avvist.",
+    "watching": "Ingenting her ennå. Fortsett skrive så dukker mønster opp.",
+    "all": "Ingen feil notert ennå. Når du skriver registrerer Kalibre gjentakende mønster her."
   },
   "kinds": {
     "key": "tast",
