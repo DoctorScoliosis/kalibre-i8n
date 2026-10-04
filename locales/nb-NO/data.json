@@ -1,0 +1,52 @@
+{
+  "storage": {
+    "heading": "lagring",
+    "persistent": "Nettleseren behåller Kalibres data tills du selv rensar den.",
+    "best_effort": "Nettleseren kan rensa Kalibres data om disken begynner få slut på utrymme.",
+    "unsupported": "Denne nettleseren kan ikke lova att Kalibres data sparas, så behåll en sikkerhetskopi.",
+    "keep_my_data": "behåll mina data"
+  },
+  "backup": {
+    "automatic_heading": "automatisk säkerhetskopiering",
+    "choose_folder": "välj en mappe",
+    "back_up_now": "säkerhetskopiera nå",
+    "change_folder": "byt mappe",
+    "stop": "stoppa",
+    "restore": "gjenopprett",
+    "manual_heading": "säkerhetskopiera manuelt",
+    "export_profile": "eksportere denne profilen",
+    "share_profile": "dele denne profilen",
+    "exported_summary": "exporterade {sessions} tester, {mistakes} feil og {texts} tekster{destination}",
+    "saved_to": " til {destination}",
+    "last_backup_time": "senaste säkerhetskopiering {when}",
+    "not_backed_up_yet": "ikke sikkerhetskopiert ennå",
+    "problem_permission": " Nettleseren trenger ditt godkännande igjen før den kan skrive dit.",
+    "problem_conflict": " Mappen inneholder en nyere kopia av ”{name}”, lagret fra en annen nettleser {when}, så den skrevs ikke over. Gjenopprett den kopian eller lagre denne over den.",
+    "problem_last_error": " Den senaste säkerhetskopieringen misslyckades: {error}",
+    "restore_folder": "gjenopprett fra en Kalibre-mappe",
+    "update_copies": "kopior fra før oppdateringer",
+    "restore_warning": "dette ersätter alt Kalibre lagrer i denne nettleseren med den kopian. sikker?",
+    "confirm_restore": "ja, lägg tillbaka den",
+    "cancel": "avbryt"
+  },
+  "guest": {
+    "banner_title": "Du provar Kalibre som gäst.",
+    "banner_body": "Dine tester, feil, din statistikk og XP sparas i denne nettleseren, men säkerhetskopieras ikke og profilen kan ikke låsas. Lagre dine fremgang for att behålla dem som din egen profil.",
+    "save_progress": "lagre mina fremgang",
+    "ephemeral_warning": "gästs økt: denne nettleseren behåller ingenting, så ingenting sparas når fönstret stängs. For att behålla det du gjør, laste ner din profil og läs in den i ett vanligt fönster.",
+    "download_profile": "laste ner min profil",
+    "name_profile": "namnge din profil",
+    "nickname_placeholder": "ett smeknamn",
+    "save": "lagre"
+  },
+  "progress": {
+    "backing_up": "säkerhetskopierar",
+    "preparing_export": "förbereder export",
+    "saving": "lagrer",
+    "phase_packing": "paketerar",
+    "phase_compressing": "komprimerar",
+    "job_status": "{job} · {phase} {percent}%",
+    "saved": "lagret",
+    "couldnt_save": "kunne ikke lagre (se innstillinger → data)"
+  }
+}
