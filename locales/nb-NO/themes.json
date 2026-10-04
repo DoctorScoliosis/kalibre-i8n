@@ -1,0 +1,198 @@
+{
+  "editor": {
+    "save_theme": "lagre tema",
+    "name": "namn",
+    "light_or_dark": "lys eller mørk",
+    "readability": "läsbarhet",
+    "page": "side",
+    "background": "bakgrund",
+    "panels": "paneler",
+    "lines_borders": "linjer og kanter",
+    "selection": "markering",
+    "text": "tekst",
+    "dim_text": "dämpad tekst",
+    "accent": "accent",
+    "typed_text": "skrevet tekst",
+    "mistakes": "feil",
+    "extra_letters": "extra bokstaver",
+    "caret": "markør"
+  },
+  "actions": {
+    "use": "bruk",
+    "edit": "redigera",
+    "decorate": "dekorera",
+    "export": "eksportere",
+    "delete": "fjerne",
+    "done": "klar",
+    "customise_current": "anpassa aktuellt tema",
+    "import_theme": "importere ett tema",
+    "decorations_for": "utsmyckningar for {name}",
+    "use_theme": "bruk {name}",
+    "edit_theme": "redigera {name}",
+    "decorate_theme": "dekorera {name}",
+    "export_theme": "eksportere {name}",
+    "delete_theme": "fjerne {name}",
+    "copy_and_decorate": "kopiera dette temat og dekorera det",
+    "decorations_earned_zero": "Temautsmyckningar, som tjänas gjennom spel, brukes på dine egne temaer.",
+    "decorations_earned_notice": "Du har tjänat in {count, plural, one {en temautsmyckning} other {# temautsmyckningar}}. De hör til dine egne temaer, så kopiera dette for att bära {count, plural, one {den} other {dem}}.",
+    "decorations_earned_info": "Tjänas gjennom spel. De följer dette temat på denne profilen og tas ikke med når du exporterar temat."
+  },
+  "picker": {
+    "preview": "förhandsgranska",
+    "instructions": "for muspekaren over for att förhandsgranska · klicka eller tryck Enter for att använda · Esc for att lukke",
+    "close": "stäng"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "markør",
+      "hint": "runt markøren (formen ställs in for skriving)"
+    },
+    "backdrop": {
+      "title": "bakgrund",
+      "hint": "ett svagt mønster bakom sidan"
+    },
+    "frame": {
+      "title": "ram",
+      "hint": "runt teksten du skriver"
+    },
+    "keystroke": {
+      "title": "tangenttryckning",
+      "hint": "hvordan hver skrevet bokstav landar"
+    },
+    "flourish": {
+      "title": "ornament",
+      "hint": "ett litet märke bredvid ordmärket"
+    }
+  },
+  "decorations": {
+    "caret-glow": {
+      "name": "mjukt sken"
+    },
+    "caret-halo": {
+      "name": "halo"
+    },
+    "caret-drop": {
+      "name": "bläckdroppe"
+    },
+    "caret-trail": {
+      "name": "kometsvans"
+    },
+    "backdrop-dots": {
+      "name": "pricknät"
+    },
+    "backdrop-ruled": {
+      "name": "linjerat papir"
+    },
+    "backdrop-graph": {
+      "name": "rutpapper"
+    },
+    "backdrop-grain": {
+      "name": "kornighet"
+    },
+    "backdrop-checks": {
+      "name": "mjuka rutor"
+    },
+    "frame-corners": {
+      "name": "hörnmarkeringar"
+    },
+    "frame-bookplate": {
+      "name": "boketikett"
+    },
+    "frame-tab": {
+      "name": "flik"
+    },
+    "frame-brackets": {
+      "name": "klamrar"
+    },
+    "keystroke-ink": {
+      "name": "bläcktoning"
+    },
+    "keystroke-rise": {
+      "name": "mjuk höjning"
+    },
+    "keystroke-bloom": {
+      "name": "blomning"
+    },
+    "flourish-leaf": {
+      "name": "blad"
+    },
+    "flourish-star": {
+      "name": "stjärna"
+    },
+    "flourish-key": {
+      "name": "tast"
+    },
+    "flourish-letter": {
+      "name": "din följeslagares bokstav"
+    },
+    "flourish-moon": {
+      "name": "måne"
+    }
+  },
+  "presets": {
+    "paper": {
+      "name": "paper"
+    },
+    "ink": {
+      "name": "ink"
+    },
+    "dusk": {
+      "name": "dusk"
+    },
+    "eink": {
+      "name": "e-ink"
+    },
+    "eink-night": {
+      "name": "e-ink night"
+    },
+    "cream": {
+      "name": "cream"
+    },
+    "rose": {
+      "name": "rose"
+    },
+    "harbour": {
+      "name": "harbour"
+    },
+    "forest": {
+      "name": "forest"
+    },
+    "plum": {
+      "name": "plum"
+    },
+    "slate": {
+      "name": "slate"
+    },
+    "terminal": {
+      "name": "terminal"
+    },
+    "contrast": {
+      "name": "high contrast"
+    },
+    "contrast-night": {
+      "name": "high contrast night"
+    }
+  },
+  "checks": {
+    "text_bg": "tekst på sidan",
+    "text_surface": "tekst på paneler",
+    "textDim_bg": "dämpad tekst på sidan",
+    "textDim_surface": "dämpad tekst på paneler",
+    "correct_bg": "skrevet tekst",
+    "incorrect_bg": "feil",
+    "correct_textDim": "skrevet tekst framträder mot tekst som fortsatt skal skrivas",
+    "accent_bg": "accent",
+    "caret_bg": "markør",
+    "extra_bg": "extra bokstaver",
+    "chartWpm_bg": "diagram: wpm-linje",
+    "chartRaw_bg": "diagram: rå linje",
+    "chartError_bg": "diagram: feil",
+    "heat1_bg": "tangenthetta 1",
+    "heat4_bg": "tangenthetta 4",
+    "not_a_theme": "ikke ett tema",
+    "needs_a_name": "trenger ett namn på högst 40 tegn",
+    "scheme_must_be": "schemat må vara lys eller mørk",
+    "bad_hex": "färgen ”{token}” må vara ett #rrggbb-värde",
+    "not_readable": "ikke tilstrekkelig läsbar: {labels}"
+  }
+}
