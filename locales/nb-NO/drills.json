@@ -7,13 +7,13 @@
   "actions": {
     "start_drill": "starta øvelse",
     "drill": "øvelse",
-    "drill_aria": "øve på {mistake} nu",
-    "drill_title": "Øve bare på {mistake} nu, det rekommenderade sättet",
+    "drill_aria": "øve på {mistake} nå",
+    "drill_title": "Øve bare på {mistake} nå, det rekommenderade sättet",
     "manage_in_mistakes": "hantera under feil",
     "recommended": "anbefalt",
-    "recommended_title": "Markera de feil som er värda å øve på nu, så mange som en øvelse kan innehålla",
+    "recommended_title": "Merk de feil som er värda å øve på nå, så mange som en øvelse kan innehålla",
     "all": "alle",
-    "none": "inga",
+    "none": "ingen",
     "train_and_drill_these": "trene og øve på disse"
   },
   "labels": {
@@ -24,30 +24,30 @@
     "quote_length": "sitatlengde",
     "practise_by_area": "øve etter område",
     "words_count": "{count, plural, one {# ord} other {# ord}}",
-    "ticked_count": "{selected} av {total} markerade",
+    "ticked_count": "{selected} av {total} merkde",
     "in_training": "i trening",
     "ready_to_drill": "klar å øve",
     "improving": "bedres",
     "finding_quotes": "leter etter sitat med disse feil…",
-    "no_quotes_found": "Inget sitat av denne längden inneholder disse feil. Prova en annan längd eller en ordövning.",
+    "no_quotes_found": "Ingenting sitat av denne längden inneholder disse feil. Prøv en annan längd eller en ordövning.",
     "quotes_with_mistakes": "sitat med disse feil",
     "best_fit": "bästa passform",
     "typed_lately": "skrevne nyligen",
     "recommended_reason": "{recommended} anbefales: {reason}",
     "ready": "klar",
     "due_title": "Kom tilbake siden den siste övningen",
-    "not_due_title": "Inga nya feil siden den siste övningen",
+    "not_due_title": "Ingen nya feil siden den siste övningen",
     "rate_title": "Hvordan ofte det går galt når det skrivs",
     "last_seen_title": "Senast sett",
-    "usual": "vanligt",
-    "seen_not_trained": "sett, ennå ikke tränat",
-    "empty_nothing_in_training": "Inget i träningen ennå. Fortsett skrive: Kalibre föreslår feil som fortsetter å komme tilbake.",
-    "empty_seen_not_trained": "Inget i träningen ennå. Disse har dykt upp men øves ikke ennå: markera dem du vil arbeta med."
+    "usual": "vanlig",
+    "seen_not_trained": "sett, ennå ikke trenet",
+    "empty_nothing_in_training": "Ingenting i treningen ennå. Fortsett skrive: Kalibre föreslår feil som fortsetter å komme tilbake.",
+    "empty_seen_not_trained": "Ingenting i treningen ennå. Disse har dykt upp men øves ikke ennå: merk dem du vil arbeta med."
   },
   "status": {
     "training": "øves",
     "improving": "bedres",
     "suggested": "foreslått",
-    "watching": "bevakas"
+    "watching": "overvåkes"
   }
 }
