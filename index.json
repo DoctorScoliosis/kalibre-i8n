@@ -72,14 +72,14 @@
       "englishName": "Italian",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
-      "version": "2026-10-03",
+      "revision": 3,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Filled current physical-serving gaps against kalibre-kanary",
+      "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories",
       "path": "locales/it-IT/manifest.json",
       "pack": "packs/it-IT.json",
-      "sha256": "2462ea1577fd841df7b4cb7705a0b1d47d5f23317a35b439fa8794d4c462db18",
-      "bytes": 325524
+      "sha256": "01fce7e7ba4c34a28317348b0d3d165ba9f3e30d57f6cd2ab3c91393588b7653",
+      "bytes": 321374
     },
     {
       "id": "nl-NL",
@@ -87,14 +87,14 @@
       "englishName": "Dutch (Netherlands)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 1,
-      "version": "2026-10-03",
+      "revision": 2,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Initial Dutch (Netherlands) translation pass",
+      "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/nl-NL/manifest.json",
       "pack": "packs/nl-NL.json",
-      "sha256": "38d36bf0f17e0d8b958cedea5d9471c4e09f9e54d8ec142b5500491c3ee113e0",
-      "bytes": 317376
+      "sha256": "cb6bbc7805f93fc569b7ac9e422e45280a3c6ccdfdfa8b5e4a831cbed9493cbc",
+      "bytes": 310869
     },
     {
       "id": "pt-BR",
