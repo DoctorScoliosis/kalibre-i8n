@@ -360,20 +360,20 @@
       }
     },
     "mascotChatter": {
-      "label": "{companion}Geschwätz",
-      "description": "Wie viel{companion}Sagt",
+      "label": "{companion} Geschwätz",
+      "description": "Wie viel {companion} Sagt",
       "option": {
         "chatty": "Gesprächig",
         "quiet": "Nur was zählt"
       }
     },
     "mascotSounds": {
-      "label": "{companion}Klänge",
+      "label": "{companion} Klänge",
       "description": "Kleine Chirps im Unterricht (niemals mitten im Wort), ein Schnurren beim Streicheln und ein Kichern beim Kitzeln"
     },
     "mascotVolume": {
-      "label": "{companion}Volumen",
-      "description": "Wie laut{companion}Ist"
+      "label": "{companion} Volumen",
+      "description": "Wie laut {companion} Ist"
     },
     "uiFontSize": {
       "label": "Schnittstellentextgröße",
@@ -496,16 +496,16 @@
       "label": "{companion}’ Gesehene Positionen"
     },
     "calPets": {
-      "label": "Zeiten{companion}Wurde gestreichelt"
+      "label": "Zeiten {companion} Wurde gestreichelt"
     },
     "calPokes": {
-      "label": "Zeiten{companion}Wurde gestochen"
+      "label": "Zeiten {companion} Wurde gestochen"
     },
     "calTickles": {
-      "label": "Zeiten{companion}Wurde gekitzelt"
+      "label": "Zeiten {companion} Wurde gekitzelt"
     },
     "calPokeFits": {
-      "label": "Zeiten{companion}Wurde zu viel gestochen"
+      "label": "Zeiten {companion} Wurde zu viel gestochen"
     },
     "raceNoticeSeen": {
       "label": "Rennanzeige gesehen"
@@ -517,7 +517,7 @@
       "label": "Update erwähnt"
     },
     "calArmLifts": {
-      "label": "Zeiten{companion}Der Arm wurde angehoben"
+      "label": "Zeiten {companion} Der Arm wurde angehoben"
     },
     "restartRun": {
       "label": "Letzter Beginn"
@@ -607,14 +607,14 @@
     "esc_change": "Esc: Ändern Sie jede Einstellung durch Eingabe"
   },
   "notice": {
-    "imported_count": "Einfuhren{count}Einstellung(en)"
+    "imported_count": "Einfuhren {count} Einstellung(en)"
   },
   "data_panel": {
     "done_the_browser_will_keep": "Fertig: Der Browser speichert Ihre Daten.",
     "the_browser_said_no_for": "Der Browser sagte vorerst nein. Installieren kalibre als App oder Bookmarking es ändert sich oft, dass; in der Zwischenzeit, halten Sie ein Backup.",
     "this_browser_can_t_save": "Dieser Browser kann nicht selbst in einem Ordner speichern, also unten von Hand sichern. (Chrome und Edge können es automatisch tun.)",
     "choose_a_folder_on_this": "Wählen Sie einen Ordner auf diesem Computer und er wird zu Ihrem Kalibre-Ordner: Dieses Profil wird dort einige Sekunden nach jedem Test oder jeder Änderung mit den von Ihnen hinzugefügten Datensätzen und Schriftarten gespeichert. Ein Ordner mit anderen Dingen darin erhält einen \"kalibre\" -Ordner, der im Inneren erstellt wird.",
-    "saving_this_profile_and_the": "Speichern dieses Profils und der hier hinzugefügten Datensätze und Schriftarten im Kalibre-Ordner{folderName}” · {last}.{problem}",
+    "saving_this_profile_and_the": "Speichern dieses Profils und der hier hinzugefügten Datensätze und Schriftarten im Kalibre-Ordner {folderName}” · {last}.{problem}",
     "when_an_update_changes_how": "Wenn ein Update ändert, wie Kalibre Dinge speichert, behält es eine Kopie von allem von kurz zuvor, falls etwas schief gelaufen ist. Die letzten beiden werden beibehalten.",
     "what_takes_the_space": "Was nimmt den Raum",
     "bring_profiles_datasets_and_fonts": "Bringen Sie Profile, Datensätze und Schriftarten aus einem Kalibre-Ordner zurück: nachdem der Browser gelöscht wurde, oder auf einem anderen Computer. Hier wird nichts überschrieben. Funktioniert in jedem Browser.",
@@ -624,14 +624,14 @@
     "storage_persistent": "Der Browser speichert die Daten von kalibre, bis Sie sie selbst löschen.",
     "storage_best_effort": "Der Browser kann die Daten von kalibre löschen, wenn die Festplatte niedrig läuft (Safari tut dies auch nach 7 Tagen ohne Besuch). Bitten Sie es, die Daten zu behalten, und halten Sie ein Backup.",
     "storage_unsupported": "Dieser browser kann nicht versprechen, die daten von kalibre zu behalten, also halten sie ein backup.",
-    "storage_using": "Verwendung{used}.",
-    "overdue": "Dieses Profil wurde nicht mehr gesichert{days}Tage.",
-    "never_backed_up": "Dieses Profil wurde noch nicht gesichert.",
-    "last_backup": "Letztes Backup{when}. ",
+    "storage_using": " Verwendung {used}.",
+    "overdue": "Dieses Profil wurde nicht mehr gesichert {days} Tage. ",
+    "never_backed_up": "Dieses Profil wurde noch nicht gesichert. ",
+    "last_backup": "Letztes Backup {when}. ",
     "export_explained": "Ein Export ist eine Datei mit der Historie dieses Profils (im Export des Kalibre-Ordners gespeichert, wenn eine vorhanden ist); Wiederherstellen mit \"Profildatei importieren\" im Profilmenü.",
-    "copy_line": "Von{when}, Kurz vor{what}Geändert, wie Daten gespeichert werden ·{records}Aufzeichnungen",
-    "copy_app": "Kalibre v{app}",
-    "copy_update": "Eine Aktualisierung",
+    "copy_line": "Von {when}, Kurz vor {what} Geändert, wie Daten gespeichert werden ·{records} Aufzeichnungen",
+    "copy_app": " Kalibre v {app}",
+    "copy_update": " Eine Aktualisierung",
     "allow_again": "Erneut erlauben",
     "save_over_it": "Sparen Sie darüber hinweg",
     "restore_it": "Wiederherstellen",
@@ -642,11 +642,11 @@
     "default_monospace": "Standard (Monospace)",
     "font_names_can_only_use": "Schriftnamen können nur Buchstaben, Zahlen, Leerzeichen, Punkte, Bindestriche und Unterstriche verwenden.",
     "isn_t_available_on_this": "\"{family}\" Ist auf diesem Gerät nicht verfügbar, daher wird die Standardschrift angezeigt.",
-    "use": "Verwendung{family}",
-    "kb": "{fileName} · {round}KB",
-    "remove": "Entfernen{family}",
+    "use": "Verwendung {family}",
+    "kb": "{fileName} · {round} KB",
+    "remove": "Entfernen {family}",
     "list_fonts_on_this_computer": "Liste Fonts auf diesem Computer",
-    "fonts_found_start_typing_a": "{length}Schriftarten gefunden; beginnen sie, einen namen einzugeben, um einen auszuwählen.",
+    "fonts_found_start_typing_a": "{length} Schriftarten gefunden; beginnen sie, einen namen einzugeben, um einen auszuwählen.",
     "the_browser_did_not_allow": "Der Browser erlaubte keine Auflistung von Schriftarten. Sie können weiterhin einen beliebigen installierten Schriftnamen eingeben.",
     "load_a_font_file": "Laden einer Font-Datei",
     "use_default_font": "Standardmäßig verwenden",
@@ -656,9 +656,9 @@
   },
   "settings": {
     "github": "Github",
-    "translation_note": "Diese Übersetzung wurde nicht von einem Muttersprachler geschrieben oder überprüft, so dass einige davon seltsam gelesen werden können. Sie können helfen, es zu verbessern{link}.",
-    "imported": "Einfuhren{count, plural, one {# Einstellung} other {# Einstellungen}}",
-    "skipped": "· Übersprungen{what}",
+    "translation_note": "Diese Übersetzung wurde nicht von einem Muttersprachler geschrieben oder überprüft, so dass einige davon seltsam gelesen werden können. Sie können helfen, es zu verbessern {link}.",
+    "imported": "Einfuhren {count, plural, one {# Einstellung} other {# Einstellungen}}",
+    "skipped": " · Übersprungen {what}",
     "sections_label": "Einstellabschnitte"
   },
   "storage_screen": {
@@ -666,20 +666,20 @@
     "space_used": "Raumnutzung",
     "yes": "Ja,{label}",
     "export_first": "Ausfuhr zuerst",
-    "kalibre_is_using_of_the": "Kalibre verwendet{formatSize}Von{formatSize2}Dieser Browser erlaubt es.",
-    "kalibre_is_using_about": "Kalibre verwendet ungefähr{formatSize}.",
+    "kalibre_is_using_of_the": "Kalibre verwendet {formatSize} Von {formatSize2} Dieser Browser erlaubt es.",
+    "kalibre_is_using_about": "Kalibre verwendet ungefähr {formatSize}.",
     "couldn_t_measure": "Konnte nicht messen:{message}"
   },
   "theme_editor": {
     "sample_of_this_theme": "Muster dieses Themas",
-    "needs_1": "(Bedarf){minimum}:1)",
+    "needs_1": " (Bedarf){minimum}:1)",
     "fix_the_colours_marked_first": "Befestigen Sie die Farben markiert ✗ zuerst",
-    "hex_value": "{label}Hex-Wert",
+    "hex_value": "{label} Hex-Wert",
     "edit_theme": "Edit Theme",
     "a_sample_of_every_colour": "Ein Muster jeder Farbe, mit Ihrer Farbvision und Kontrasteinstellungen. Bewegen Sie über eine Farbe oder wählen Sie eine, um zu skizzieren, wohin sie geht.",
-    "imported": "Eingeführt{name}\"",
+    "imported": "Eingeführt {name}\"",
     "that_file_isn_t_a": "Diese Datei ist kein Thema.",
-    "saved": "Gespeichert{name}\"",
+    "saved": "Gespeichert {name}\"",
     "saved_decorate": "Dekorieren Sie es aus der Liste, wann immer Sie möchten.",
     "groups": {
       "page": "Seite",
@@ -707,28 +707,28 @@
       "heat3": "Schlüsselwärme 3",
       "heat4": "Schlüsselwärme 4"
     },
-    "sample_correct": "Schnellbraun",
+    "sample_correct": "Schnellbraun ",
     "sample_incorrect": "Fxo",
     "sample_extra": "Ss",
-    "sample_dim": "Sprünge",
-    "sample_text": "Text",
+    "sample_dim": " Sprünge",
+    "sample_text": "Text ",
     "sample_link": "Verbindung",
     "sample_selected": "Ausgewählt",
     "that_theme_can_t_be": "Dieses Theme kann nicht verwendet werden:{problem}.",
     "scheme_label": "Hell oder dunkel"
   },
   "theme_picker": {
-    "quick_brown": "Schnellbraun",
+    "quick_brown": "Schnellbraun ",
     "fxo": "Fxo",
     "ss": "Ss",
-    "jumps_over": "Sprünge",
-    "surface": "Oberfläche",
+    "jumps_over": " Sprünge",
+    "surface": "Oberfläche ",
     "accent_link": "Akzent-Link",
     "selected": "Ausgewählt",
-    "1_text": "{ratio}1 Text",
+    "1_text": "{ratio} 1 Text",
     "choose_theme": "{label}: Thema auswählen",
-    "options": "{label}Optionen",
-    "pick": "Pickel{label}"
+    "options": "{label} Optionen",
+    "pick": "Pickel {label}"
   },
   "sections": {
     "theme": "Thema",
@@ -739,7 +739,7 @@
     "data": "Daten"
   },
   "stepper": {
-    "decrease": "Abnahme{label}",
-    "increase": "Anstieg{label}"
+    "decrease": "Abnahme {label}",
+    "increase": "Anstieg {label}"
   }
 }

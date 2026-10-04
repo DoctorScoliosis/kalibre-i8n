@@ -12,19 +12,19 @@
   },
   "menu": {
     "wardrobe": "Kleiderschrank",
-    "get_ring": "Erhalten{companion, select, cal {Er} libby {Und} other {Sie}}Ein Ring",
-    "options_aria": "{companion}Optionen"
+    "get_ring": "Erhalten {companion, select, cal {Er} libby {Und} other {Sie}} Ein Ring",
+    "options_aria": "{companion} Optionen"
   },
   "engagement": {
     "title": "Das ist eine ziemlich wichtige Entscheidung...",
-    "confirm_give": "Geben{companion}Der Ring",
+    "confirm_give": "Geben {companion} Der Ring",
     "confirm_cancel": "Ich bin mir nicht sicher...",
     "confirm_message": "Sind Sie sicher?"
   },
   "away": {
     "note_hint": "Ein Vermerk",
     "with_love_aria": "Mit Liebe",
-    "back_tomorrow": "{partner}Und ich bin in Flitterwochen! Morgen zurück."
+    "back_tomorrow": "{partner} Und ich bin in Flitterwochen! Morgen zurück."
   },
   "ending": {
     "aria_label": "Danke für das Spielen von Kalibre",
@@ -52,12 +52,12 @@
         "text": "Jemand, den ich... oh. OH. Ich weiß genau, wer."
       },
       {
-        "reply": "Ruf{partner}"
+        "reply": "Ruf {partner}"
       },
       {
         "say": "Vorschlagender",
         "mood": "Glücklich",
-        "text": "{partner}Könntest du eine Sekunde hierher kommen?"
+        "text": "{partner} Könntest du eine Sekunde hierher kommen?"
       },
       {
         "cue": "PartnerEinsteiger"
@@ -75,7 +75,7 @@
       {
         "say": "Partner",
         "mood": "Glücklich",
-        "text": "Oh,{proposer}. Natürlich tue ich das."
+        "text": "Oh, {proposer}. Natürlich tue ich das."
       },
       {
         "cue": "PartnerRing"
@@ -130,12 +130,12 @@
         "text": "Jemand Besonderes. Mm. Ich glaube, ich weiß wer."
       },
       {
-        "reply": "Ruf{partner}"
+        "reply": "Ruf {partner}"
       },
       {
         "say": "Vorschlagender",
         "mood": "Glücklich",
-        "text": "{partner}Würden Sie für einen Moment hierher kommen?"
+        "text": "{partner} Würden Sie für einen Moment hierher kommen?"
       },
       {
         "cue": "PartnerEinsteiger"
@@ -148,7 +148,7 @@
       {
         "say": "Vorschlagender",
         "mood": "Glücklich",
-        "text": "Es ist ein Ring,{partner}Es ist für dich."
+        "text": "Es ist ein Ring, {partner} Es ist für dich."
       },
       {
         "say": "Partner",
@@ -187,14 +187,14 @@
     ],
     "cal_letter": [
       "Lieber Du,",
-      "{partner}Und ich bin für eine Weile weg. Es sind unsere Flitterwochen! Ich kann immer noch nicht glauben, dass ich das sagen kann.",
+      "{partner} Und ich bin für eine Weile weg. Es sind unsere Flitterwochen! Ich kann immer noch nicht glauben, dass ich das sagen kann.",
       "Die Schlüssel gehören Ihnen bis morgen. Unterricht funktioniert immer noch, du wirst mich einfach nicht jubeln lassen. Also jubeln Sie für sich selbst, okay? lautstark.",
       "Zurück, bevor du es weißt. Wahrscheinlich mit Sand in unseren Keycaps.",
       "{proposer} & {partner}"
     ],
     "libby_letter": [
       "Lieber Du,",
-      "{partner}Und ich bin für einen Tag weg. Flitterwochen, anscheinend. Er hat seit dem Ring nicht aufgehört.",
+      "{partner} Und ich bin für einen Tag weg. Flitterwochen, anscheinend. Er hat seit dem Ring nicht aufgehört.",
       "Die Lektionen sind offen, während wir weg sind. Gehen Sie sanft, machen Sie Pausen und halten Sie Ihre Finger in der Hausreihe. Es wird dich richtig sehen.",
       "Morgen zurück. Ich bringe ihn in einem Stück nach Hause.",
       "{proposer} & {partner}"

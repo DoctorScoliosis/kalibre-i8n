@@ -18,8 +18,8 @@
       "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/de-DE/manifest.json",
       "pack": "packs/de-DE.json",
-      "sha256": "3d28db9f11b36943e30b94ca35da0e19f7b0c84f7c9930ae0eb56c82fdb33771",
-      "bytes": 319465
+      "sha256": "a0250449b77f566e7be62a444de8eb4c543d628398e803376e5db4bf1f42ffe8",
+      "bytes": 82745
     },
     {
       "id": "en-GB",
