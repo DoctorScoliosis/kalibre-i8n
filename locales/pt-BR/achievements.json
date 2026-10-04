@@ -639,26 +639,5 @@
     "badges": "distintivos",
     "extras": "extras",
     "sections_label": "seções de conquistas"
-  },
-  "beam-overload": {
-    "name": "feixe sobrecarregado"
-  },
-  "flagship-down": {
-    "name": "capitânia destruída"
-  },
-  "keg-defused": {
-    "name": "barril neutralizado"
-  },
-  "ladder-toppled": {
-    "name": "escada derrubada"
-  },
-  "sortie-master": {
-    "name": "mestre da sortida"
-  },
-  "marathon-master": {
-    "name": "mestre da maratona"
-  },
-  "scroller-streak": {
-    "name": "sequência na esteira"
   }
 }
