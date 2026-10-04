@@ -14,9 +14,9 @@
       "sans-serif"
     ],
     "reviewed": "community",
-    "revision": 4,
-    "version": "2026-10-03",
-    "changes": "L10: full companion lines, Cal and Libby voice lines, ending script"
+    "revision": 5,
+    "version": "2026-10-04",
+    "changes": "L11: complete achievements rules/names, add missing game strings, reconcile with current en-GB"
   },
   "strings": {
     "about": {
@@ -61,6 +61,7 @@
         "mistakes": "错误",
         "learn": "盲打",
         "numpad": "数字小键盘",
+        "games": "游戏",
         "habits": "习惯",
         "quests": "每日任务",
         "texts": "你的文本",
@@ -71,6 +72,81 @@
       "hints": {
         "secret_keep_playing": "隐藏成就：继续玩下去"
       },
+      "rules": {
+        "level": "达到等级 {at}",
+        "tests": "完成 {count, plural, other {# 次测试}}",
+        "bestWpm": "在测试中达到 {wpm} WPM",
+        "typingTime_hours": "累计打字 {count, plural, other {# 小时}}",
+        "typingTime_minutes": "累计打字 {count, plural, other {# 分钟}}",
+        "perfectTest_seconds": "在 {seconds} 秒或更长的测试中达到 100% 准确率",
+        "perfectTest_words": "在 {words} 个单词或更多的测试中达到 100% 准确率",
+        "nightTests": "在午夜到凌晨 4 点之间完成 {count, plural, other {# 次测试}}",
+        "sustainedSurvived": "在持续测试中坚持 {count, plural, other {# 分钟}}",
+        "sustainedTotal": "累计在持续测试中度过 {count, plural, other {# 分钟}}",
+        "stageMastered": "掌握第 {stage} 阶段的所有课程",
+        "stageStarted": "开始第 {stage} 阶段的一节课程",
+        "allLessons": "掌握所有课程",
+        "lastLesson": "完成课程中的最后一课",
+        "stepsFinished": "完成 {count, plural, other {# 个课程步骤}}",
+        "lessonsStepped": "在测试前进入 {count, plural, other {# 节课程}}的步骤",
+        "stepsAllDoneLessons": "{count, plural, other {完成 # 节课程的所有步骤}}",
+        "warmupsFinished": "完成 {count, plural, other {# 次热身}}",
+        "warmupThenMastered": "热身后立即在测试中掌握一节课程",
+        "stepsRetriedReady": "重试一个步骤直到准备好",
+        "gameScore": "在 {game} 中获得 {score} 分",
+        "gameRuns": "玩 {game} {count, plural, other {# 次}}",
+        "gameTime": "累计玩 {game} {count, plural, other {# 分钟}}",
+        "gameLongest": "在一次 {game} 中坚持 {count, plural, other {# 分钟}}{difficulty, select, easy {，简单难度} normal {，普通难度} hard {，困难难度} other {}}",
+        "gameWin": "赢得 {game}{difficulty, select, easy {，简单难度} normal {，普通难度} hard {，困难难度} other {}}",
+        "spotFound": "在一次找错中找到 {count, plural, other {# 个错误}}",
+        "texts": "保存 {count, plural, other {# 篇}}你自己的文本",
+        "textWords": "保存一篇 {words} 个单词或更多的你自己的文本",
+        "datasetWords": "制作一个包含你自己 {words}+ 单词文本的数据集",
+        "quotes": "添加 {count, plural, other {# 条}}你自己的引文",
+        "bankMastered": "掌握 {count, plural, other {# 个错误}}",
+        "goalStreak": "连续 {days} 天达成每日目标",
+        "questsDone": "完成 {count, plural, other {# 个每日任务}}",
+        "challengesDone": "完成 {count, plural, other {# 个每日挑战}}",
+        "questFullDays": "在 {days, plural, other {# 天}}完成所有三个每日任务（不必连续）",
+        "padTests": "完成 {count, plural, other {# 次数字键盘测试}}",
+        "padKsph": "在数字键盘测试中达到每小时 {ksph} 次击键，准确率 95% 或更高",
+        "padPerfect": "完成 {entries} 个条目或更多的数字键盘测试，全部正确",
+        "padLessons": "掌握 {count, plural, other {# 节数字键盘课程}}",
+        "allPadLessons": "掌握所有数字键盘课程",
+        "padSums": "答对 {count, plural, other {# 道}}算术题",
+        "padSumsPerfect": "在一次运行中答对 {answers} 道算术题，全部正确",
+        "padSumsLevel": "在算术中达到等级 {level}",
+        "padTill": "在一次收银机运行中服务 {served} 位顾客",
+        "padKeys": "累计按下 {count, plural, other {# 个}}数字键盘按键",
+        "engaged": "一个秘密",
+        "wordsTyped": "累计输入 {count, plural, other {# 个单词}}",
+        "daysTyped": "在 {days, plural, other {# 天}}打字（不必连续）",
+        "drillsDone": "完成 {count, plural, other {# 次}}针对你的错误的训练",
+        "earlyTests": "在凌晨 5 点到 6 点之间完成 {count, plural, other {# 次测试}}",
+        "lessons": "掌握 {count, plural, other {# 节课程}}",
+        "allGameRuns": "累计玩 {count, plural, other {# 次游戏}}",
+        "perfectFirstLesson": "{count, plural, other {在第一次尝试中以 100% 准确率完成 # 节课程}}",
+        "wardrobeUnlocked": "解锁 {count, plural, other {# 件}}衣柜物品",
+        "wardrobeSlots": "在每个衣柜槽位穿戴物品",
+        "decorationsUnlocked": "解锁 {count, plural, other {# 个}}主题装饰",
+        "decorationSlots": "解锁每种主题装饰",
+        "decorationsWorn": "{count, plural, other {为你的主题添加 # 个装饰}}",
+        "petted": "抚摸你的伙伴 {count, plural, other {# 次}}",
+        "poked": "戳你的伙伴 {count, plural, other {# 次}}",
+        "tickled": "挠你的伙伴 {count, plural, other {# 次}}",
+        "pokedTooMuch": "快速连续戳你的伙伴八次",
+        "armLifted": "在关于页面抬起悬挂的手臂",
+        "quickRestarts": "快速连续重新开始 Kalibre {count, plural, other {# 次}}，并在中间戳或挠你的伙伴",
+        "racesDone": "完成 {count, plural, other {# 场比赛}}",
+        "raceWins": "赢得一场{difficulty, select, easy {简单} normal {普通} hard {困难} other {}}{mode, select, sprint {冲刺} endurance {耐力} grand_prix {大奖赛} other {}}比赛{solo, select, true {，单人} false {，局域网} other {}}",
+        "raceModesWon": "{count, select, 4 {在每种模式的局域网比赛中获胜} other {在 {count, plural, other {# 种}}模式的局域网比赛中获胜}}",
+        "booksFinished": "{count, plural, other {在持续模式下完成 # 整本书}}",
+        "spotTotalFound": "累计在找错中找到 {count, plural, other {# 个错误}}",
+        "spaceWordBombs": "{count, plural, other {在太空中引爆 # 次单词炸弹}}",
+        "unknown": "未知",
+        "progress_suffix": "（{have} / {need}）",
+        "secret_hint": "隐藏成就：继续玩下去"
+      },
       "first-test": {
         "name": "第一步"
       },
@@ -80,6 +156,12 @@
       "tests-100": {
         "name": "一百次"
       },
+      "tests-500": {
+        "name": "五百次"
+      },
+      "tests-1000": {
+        "name": "一千次"
+      },
       "wpm-40": {
         "name": "稳定的双手"
       },
@@ -88,6 +170,9 @@
       },
       "wpm-60": {
         "name": "快速的手指"
+      },
+      "wpm-70": {
+        "name": "轻快"
       },
       "wpm-80": {
         "name": "敏捷"
@@ -107,20 +192,74 @@
       "perfect-minute": {
         "name": "完美一分钟"
       },
+      "perfect-2min": {
+        "name": "完美两分钟"
+      },
       "hours-1": {
         "name": "第一个小时"
+      },
+      "hours-10": {
+        "name": "十小时"
+      },
+      "hours-50": {
+        "name": "五十小时"
+      },
+      "hours-100": {
+        "name": "一百小时"
+      },
+      "words-10k": {
+        "name": "一万字"
+      },
+      "words-100k": {
+        "name": "十万字"
+      },
+      "words-1m": {
+        "name": "一百万字"
+      },
+      "days-10": {
+        "name": "十天"
+      },
+      "days-50": {
+        "name": "五十天"
+      },
+      "days-100": {
+        "name": "一百天"
+      },
+      "days-365": {
+        "name": "一年如一日"
       },
       "sustained-1": {
         "name": "坚持不懈"
       },
+      "sustained-3": {
+        "name": "坚持住"
+      },
       "sustained-10": {
         "name": "耐力"
+      },
+      "sustained-20": {
+        "name": "长途跋涉"
       },
       "sustained-30": {
         "name": "持久力"
       },
+      "sustained-total-60": {
+        "name": "一小时，持续"
+      },
+      "sustained-total-300": {
+        "name": "五小时，持续"
+      },
+      "book-finished": {
+        "name": "直到最后一页"
+      },
+      "books-5": {
+        "name": "爱不释手"
+      },
       "mastered-1": {
         "name": "修好了"
+      },
+      "mastered-5": {
+        "name": "修补过了"
       },
       "mastered-25": {
         "name": "修补好了"
@@ -128,14 +267,38 @@
       "mastered-100": {
         "name": "焕然一新"
       },
+      "mastered-250": {
+        "name": "无需再修"
+      },
+      "drills-1": {
+        "name": "第一次训练"
+      },
+      "drills-10": {
+        "name": "训练有素"
+      },
+      "drills-100": {
+        "name": "熟能生巧"
+      },
+      "first-lesson": {
+        "name": "第一课"
+      },
+      "lessons-10": {
+        "name": "十课"
+      },
       "stage-1": {
         "name": "基准行"
       },
       "stage-2": {
         "name": "上排"
       },
+      "stage-3": {
+        "name": "三排"
+      },
       "stage-4": {
         "name": "大写字母"
+      },
+      "stage-5": {
+        "name": "数字"
       },
       "stage-6": {
         "name": "流畅"
@@ -143,11 +306,65 @@
       "all-lessons": {
         "name": "盲打达人"
       },
+      "stage-1-started": {
+        "name": "开始基准行"
+      },
+      "stage-2-started": {
+        "name": "开始上排"
+      },
+      "stage-3-started": {
+        "name": "开始下排"
+      },
+      "stage-4-started": {
+        "name": "开始大写"
+      },
+      "stage-5-started": {
+        "name": "开始数字"
+      },
+      "stage-6-started": {
+        "name": "开始流畅"
+      },
+      "last-lesson": {
+        "name": "直到最后一课"
+      },
+      "first-step": {
+        "name": "轻松起步"
+      },
+      "stepped-lesson": {
+        "name": "步步为营"
+      },
+      "stepped-10": {
+        "name": "渐入佳境"
+      },
+      "first-warmup": {
+        "name": "热身完毕"
+      },
+      "warmup-mastery": {
+        "name": "一气呵成"
+      },
+      "step-again": {
+        "name": "渐入佳境"
+      },
       "every-game": {
         "name": "全部试过了"
       },
+      "every-game-10": {
+        "name": "常客"
+      },
+      "every-game-50": {
+        "name": "爱好者"
+      },
+      "games-100": {
+        "name": "游戏之夜"
+      },
       "space-2000": {
         "name": "王牌飞行员"
+      },
+      "space-5000": {
+        "name": "壮志凌云"
+      },
+      "castle-normal": {
+        "name": "守住城墙"
       },
       "castle-hard": {
         "name": "城堡守护者"
@@ -155,56 +372,224 @@
       "spot-20": {
         "name": "鹰眼"
       },
+      "spot-50": {
+        "name": "隼眼"
+      },
+      "feed-30": {
+        "name": "喂饱了"
+      },
+      "feed-10min": {
+        "name": "漫长的午餐"
+      },
+      "hard-win": {
+        "name": "艰难取胜"
+      },
+      "castle-easy": {
+        "name": "首次突破"
+      },
+      "space-win": {
+        "name": "船体完好"
+      },
+      "space-hard-win": {
+        "name": "钢铁船体"
+      },
+      "spot-total-100": {
+        "name": "累计纠错"
+      },
+      "spot-chief": {
+        "name": "首席校对员"
+      },
+      "buffet-host": {
+        "name": "自助餐主人"
+      },
+      "full-house": {
+        "name": "满堂彩"
+      },
+      "no-hints": {
+        "name": "无需提示"
+      },
+      "station-down": {
+        "name": "空间站摧毁"
+      },
+      "shrapnel-storm": {
+        "name": "弹片风暴"
+      },
+      "stacked": {
+        "name": "堆叠大师"
+      },
+      "autopilot-ace": {
+        "name": "自动驾驶王牌"
+      },
+      "dazed": {
+        "name": "晕头转向"
+      },
+      "spoils-of-war": {
+        "name": "战利品"
+      },
+      "clean-sweep": {
+        "name": "完美清除"
+      },
+      "beam-overload": {
+        "name": "光束过载"
+      },
+      "flagship-down": {
+        "name": "旗舰击沉"
+      },
+      "keg-defused": {
+        "name": "火药桶拆除"
+      },
+      "ladder-toppled": {
+        "name": "云梯推倒"
+      },
+      "sortie-master": {
+        "name": "出击大师"
+      },
+      "marathon-master": {
+        "name": "马拉松大师"
+      },
+      "scroller-streak": {
+        "name": "传送带连胜"
+      },
+      "race-first": {
+        "name": "各就各位"
+      },
+      "race-solo-win": {
+        "name": "率先冲线"
+      },
+      "race-hard-win": {
+        "name": "超越两者"
+      },
+      "race-network-win": {
+        "name": "房间最快"
+      },
+      "race-last-standing": {
+        "name": "坚持到最后"
+      },
+      "race-every-mode": {
+        "name": "每条赛道的胜利"
+      },
       "streak-3": {
         "name": "连续三天"
       },
       "streak-7": {
         "name": "一周坚持"
       },
+      "streak-14": {
+        "name": "两周坚持"
+      },
       "streak-30": {
         "name": "一个月坚持"
       },
-      "night-owl": {
-        "name": "夜猫子"
+      "streak-100": {
+        "name": "一百天坚持"
       },
-      "early-bird": {
-        "name": "早起鸟"
+      "streak-365": {
+        "name": "一年坚持"
       },
-      "flawless": {
-        "name": "完美无瑕"
+      "level-5": {
+        "name": "等级 5"
       },
-      "marathon": {
-        "name": "马拉松"
+      "level-10": {
+        "name": "等级 10"
       },
-      "restarts-7": {
-        "name": "土拨鼠之日"
+      "level-15": {
+        "name": "等级 15"
       },
-      "restarts-3": {
-        "name": "似曾相识"
+      "level-20": {
+        "name": "等级 20"
       },
-      "word-bomb": {
-        "name": "核爆"
+      "level-30": {
+        "name": "等级 30"
       },
-      "pad-first": {
-        "name": "第一条纸带"
+      "level-40": {
+        "name": "等级 40"
       },
-      "pad-tests-25": {
-        "name": "账本管理员"
+      "level-50": {
+        "name": "等级 50"
       },
-      "pad-speed-8000": {
-        "name": "小键盘快手"
+      "quests-10": {
+        "name": "踏上征途"
       },
-      "pad-speed-10000": {
-        "name": "每小时一万"
+      "quests-25": {
+        "name": "任务达人"
       },
-      "pad-perfect": {
-        "name": "账目平衡"
+      "quests-100": {
+        "name": "任务专家"
       },
-      "pad-sums-level-5": {
-        "name": "特许会计师"
+      "quests-500": {
+        "name": "任务人生"
       },
-      "pad-till-60": {
-        "name": "队伍永不停歇"
+      "challenges-10": {
+        "name": "迎接挑战"
+      },
+      "challenges-50": {
+        "name": "挑战者"
+      },
+      "challenges-100": {
+        "name": "永不言败"
+      },
+      "full-days-7": {
+        "name": "全勤一周"
+      },
+      "full-days-30": {
+        "name": "全勤一月"
+      },
+      "first-text": {
+        "name": "你自己的文字"
+      },
+      "texts-3": {
+        "name": "几篇自己的"
+      },
+      "texts-10": {
+        "name": "小型图书馆"
+      },
+      "texts-25": {
+        "name": "书架"
+      },
+      "page-text": {
+        "name": "一页自己的"
+      },
+      "long-text": {
+        "name": "长篇阅读"
+      },
+      "epic-text": {
+        "name": "史诗"
+      },
+      "pets-1": {
+        "name": "你好呀"
+      },
+      "pets-25": {
+        "name": "乖键帽"
+      },
+      "pets-100": {
+        "name": "最好的朋友"
+      },
+      "pets-500": {
+        "name": "形影不离"
+      },
+      "pokes-1": {
+        "name": "啵"
+      },
+      "pokes-100": {
+        "name": "戳、戳、戳"
+      },
+      "tickles-1": {
+        "name": "怕痒"
+      },
+      "tickles-25": {
+        "name": "咯咯笑"
+      },
+      "tickles-250": {
+        "name": "毫不留情"
+      },
+      "wardrobe-10": {
+        "name": "打扮起来"
+      },
+      "wardrobe-25": {
+        "name": "满满衣柜"
+      },
+      "all-slots": {
+        "name": "盛装出席"
       },
       "decorations-1": {
         "name": "一点风采"
@@ -218,35 +603,119 @@
       "decorations-all": {
         "name": "所有装饰"
       },
+      "decoration-kinds": {
+        "name": "每种一个"
+      },
       "decorated": {
         "name": "我的专属"
       },
       "fully-decorated": {
         "name": "全套装饰"
       },
-      "first-text": {
-        "name": "你自己的文字"
+      "pad-first": {
+        "name": "第一条纸带"
       },
-      "texts-10": {
-        "name": "小型图书馆"
+      "pad-tests-25": {
+        "name": "账本管理员"
       },
-      "long-text": {
-        "name": "长篇阅读"
+      "pad-speed-5000": {
+        "name": "稳定的双手"
       },
-      "epic-text": {
-        "name": "史诗"
+      "pad-speed-8000": {
+        "name": "小键盘快手"
       },
-      "race-first": {
-        "name": "各就各位"
+      "pad-speed-10000": {
+        "name": "每小时一万"
       },
-      "race-solo-win": {
-        "name": "率先冲线"
+      "pad-perfect": {
+        "name": "账目平衡"
       },
-      "race-network-win": {
-        "name": "房间最快"
+      "pad-lesson-1": {
+        "name": "基准键"
       },
-      "race-last-standing": {
-        "name": "坚持到最后"
+      "pad-lessons-all": {
+        "name": "整个小键盘"
+      },
+      "pad-sums-100": {
+        "name": "擅长数字"
+      },
+      "pad-sums-perfect": {
+        "name": "无需计算器"
+      },
+      "pad-sums-level-5": {
+        "name": "特许会计师"
+      },
+      "pad-till-25": {
+        "name": "常客"
+      },
+      "pad-till-60": {
+        "name": "队伍永不停歇"
+      },
+      "pad-keys-10000": {
+        "name": "一万次按键"
+      },
+      "night-owl": {
+        "name": "夜猫子"
+      },
+      "moonlighter": {
+        "name": "月光族"
+      },
+      "early-bird": {
+        "name": "早起鸟"
+      },
+      "flawless": {
+        "name": "完美无瑕"
+      },
+      "marathon": {
+        "name": "马拉松"
+      },
+      "first-try": {
+        "name": "一次成功"
+      },
+      "pets-1000": {
+        "name": "忠诚"
+      },
+      "poke-fit": {
+        "name": "够了"
+      },
+      "restarts-3": {
+        "name": "似曾相识"
+      },
+      "restarts-7": {
+        "name": "土拨鼠之日"
+      },
+      "restarts-15": {
+        "name": "开开关关"
+      },
+      "arm-lift": {
+        "name": "援手"
+      },
+      "word-bomb": {
+        "name": "核爆"
+      },
+      "achievement_badges": {
+        "secret": "隐藏",
+        "kind": "{kind}",
+        "kind_earned": "{kind}，已获得",
+        "kind_trophy": "奖杯",
+        "kind_medal": "奖章",
+        "kind_badge": "徽章"
+      },
+      "achievement_note": {
+        "see_achievements": "查看成就"
+      },
+      "achievements": {
+        "doesn_t_count_towards_100": "不计入 100%",
+        "achievements_aren_t_available_here": "此处无法使用成就。",
+        "things_you_ve_done_in": "你在 kalibre 中所做的事，根据你的历史记录计算，所以你之前做的一切都算数。隐藏成就和额外成就不计入总数。",
+        "100_every_achievement": "100%：所有成就。",
+        "achievements_aren_t_available_here_2": "此处无法使用成就。",
+        "earned": "已获得",
+        "trophies": "奖杯",
+        "medals": "奖章",
+        "badges": "徽章",
+        "extras": "额外",
+        "sections_label": "成就分类"
       }
     },
     "cards": {

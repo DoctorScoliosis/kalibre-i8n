@@ -117,14 +117,14 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-03",
+      "revision": 5,
+      "version": "2026-10-04",
       "reviewed": "community",
-      "changes": "L10: full companion lines, Cal and Libby voice lines, ending script",
+      "changes": "L11: complete achievements rules/names, add missing game strings, reconcile with current en-GB",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "2f4d93cae770a150cf36d262bc882ded95fabb072a6926bcb3a4a78b35517d45",
-      "bytes": 280463
+      "sha256": "2047208b38caf51e25d00df4b61a88dc46d521f061b25cfd7a738b57c8174efb",
+      "bytes": 295175
     }
   ]
 }
