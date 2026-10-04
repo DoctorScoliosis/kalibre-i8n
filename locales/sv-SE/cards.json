@@ -1,0 +1,99 @@
+{
+  "view": {
+    "card_aria": "{name}s kort: {described}"
+  },
+  "window": {
+    "your_card": "ditt kort",
+    "card_title": "kort",
+    "cosmetics": "utsmyckningar",
+    "stickers": "klistermärken",
+    "garage": "garage",
+    "done": "klar"
+  },
+  "card_view": {
+    "lv": "nivå {level}",
+    "with_after_level": " · med {companionName}",
+    "with_companion": "med {companionName}"
+  },
+  "card_window": {
+    "this_is_how_your_card": "Så här ser ditt kort ut för andra i ett lopp. Din följeslagare står där en bild skulle ha varit: profilbilder lämnar aldrig den här enheten. Dra ett klistermärke för att flytta det; välj ett för färg, storlek och rotation, eller piltangenterna, [ och ], och Delete; Esc eller ett klick någon annanstans avmarkerar det.",
+    "what_your_card_wears": "vad ditt kort bär",
+    "colour": "{tokenLabel} färg",
+    "theme_default_colour": "temats standardfärg",
+    "delete_sticker": "ta bort klistermärke",
+    "sticker_arrows_move_it_and": "{name}-klistermärke: pilar flyttar det, [ och ] roterar det, Delete tar bort det; välj det för färg och storlek",
+    "selected_sticker_s_colour": "det valda klistermärkets färg",
+    "add_a_sticker": "lägg till ett {name}-klistermärke",
+    "a_secret_sticker": "ett hemligt klistermärke",
+    "a_card_shows_at_most": "ett kort visar högst {MAX_SHOWCASE}",
+    "remove_every_sticker": "ta bort alla klistermärken",
+    "nothing_to_show_off_yet": "Inget att visa upp ännu. Dina prestationer hamnar här när du tjänar in dem.",
+    "tabs": {
+      "showcase": {
+        "title": "visningskort",
+        "hint": "upp till {max} prestationer du har tjänat in"
+      },
+      "garage": {
+        "title": "garage",
+        "hint": "klä upp din racingbil: det är den du kör på banan och det alla du tävlar mot ser"
+      }
+    },
+    "tint": "{slot}Ton"
+  },
+  "cosmetics": {
+    "CARD_SLOTS": {
+      "border": {"title": "kant", "hint": "runt kortet"},
+      "frame": {"title": "ram", "hint": "runt din följeslagare"},
+      "aura": {"title": "aura", "hint": "ett sken bakom din följeslagare"},
+      "backdrop": {"title": "bakgrund", "hint": "bakom allt på kortet"},
+      "sticker": {"title": "klistermärken", "hint": "dra dem var som helst på kortet"}
+    },
+    "items": {
+      "border-double": {"name": "dubbel linje"},
+      "border-stitch": {"name": "sömmad"},
+      "border-ribbon": {"name": "band"},
+      "border-corners": {"name": "hörnbeslag"},
+      "border-keycap": {"name": "tangentkåpa"},
+      "border-heat": {"name": "hetta"},
+      "border-neon": {"name": "neon"},
+      "border-gilt": {"name": "förgyllt"},
+      "border-midnight": {"name": "midnatt"},
+      "frame-double": {"name": "dubbel ring"},
+      "frame-dashed": {"name": "streckad ring"},
+      "frame-square": {"name": "tangentkåpefyrkant"},
+      "frame-cog": {"name": "kugghjul"},
+      "frame-petals": {"name": "kronblad"},
+      "frame-orbit": {"name": "omloppsbana"},
+      "frame-laurel": {"name": "lagerkrans"},
+      "frame-crown": {"name": "krona"},
+      "aura-soft": {"name": "mjukt sken"},
+      "aura-pulse": {"name": "puls"},
+      "aura-ember": {"name": "glöd"},
+      "aura-halo": {"name": "halo"},
+      "aura-aurora": {"name": "norrsken"},
+      "aura-prism": {"name": "prisma"},
+      "backdrop-dots": {"name": "prickar"},
+      "backdrop-pinstripe": {"name": "kritstreck"},
+      "backdrop-graph": {"name": "rutpapper"},
+      "backdrop-waves": {"name": "vågor"},
+      "backdrop-stars": {"name": "stjärnhimmel"},
+      "backdrop-confetti": {"name": "konfetti"},
+      "sticker-star": {"name": "stjärna"},
+      "sticker-leaf": {"name": "blad"},
+      "sticker-key": {"name": "tangentkåpa"},
+      "sticker-heart": {"name": "hjärta"},
+      "sticker-flower": {"name": "blomma"},
+      "sticker-bolt": {"name": "blixt"},
+      "sticker-note": {"name": "not"},
+      "sticker-moon": {"name": "måne"},
+      "sticker-rocket": {"name": "raket"},
+      "sticker-castle": {"name": "slott"},
+      "sticker-magnifier": {"name": "förstoringsglas"},
+      "sticker-book": {"name": "bok"},
+      "sticker-flag": {"name": "rutig flagga"},
+      "sticker-crown": {"name": "krona"},
+      "sticker-teacup": {"name": "tekopp"},
+      "sticker-sparkle": {"name": "glitter"}
+    }
+  }
+}
