@@ -1,0 +1,52 @@
+{
+  "storage": {
+    "heading": "lagring",
+    "persistent": "Webbläsaren behåller Kalibres data tills du själv rensar den.",
+    "best_effort": "Webbläsaren kan rensa Kalibres data om disken börjar få slut på utrymme.",
+    "unsupported": "Den här webbläsaren kan inte lova att Kalibres data sparas, så behåll en säkerhetskopia.",
+    "keep_my_data": "behåll mina data"
+  },
+  "backup": {
+    "automatic_heading": "automatisk säkerhetskopiering",
+    "choose_folder": "välj en mapp",
+    "back_up_now": "säkerhetskopiera nu",
+    "change_folder": "byt mapp",
+    "stop": "stoppa",
+    "restore": "återställ",
+    "manual_heading": "säkerhetskopiera manuellt",
+    "export_profile": "exportera den här profilen",
+    "share_profile": "dela den här profilen",
+    "exported_summary": "exporterade {sessions} tester, {mistakes} misstag och {texts} texter{destination}",
+    "saved_to": " till {destination}",
+    "last_backup_time": "senaste säkerhetskopiering {when}",
+    "not_backed_up_yet": "inte säkerhetskopierad ännu",
+    "problem_permission": " Webbläsaren behöver ditt godkännande igen innan den kan skriva dit.",
+    "problem_conflict": " Mappen innehåller en nyare kopia av ”{name}”, sparad från en annan webbläsare {when}, så den skrevs inte över. Återställ den kopian eller spara den här över den.",
+    "problem_last_error": " Den senaste säkerhetskopieringen misslyckades: {error}",
+    "restore_folder": "återställ från en Kalibre-mapp",
+    "update_copies": "kopior från före uppdateringar",
+    "restore_warning": "det här ersätter allt Kalibre sparar i den här webbläsaren med den kopian. säker?",
+    "confirm_restore": "ja, lägg tillbaka den",
+    "cancel": "avbryt"
+  },
+  "guest": {
+    "banner_title": "Du provar Kalibre som gäst.",
+    "banner_body": "Dina tester, misstag, din statistik och XP sparas i den här webbläsaren, men säkerhetskopieras inte och profilen kan inte låsas. Spara dina framsteg för att behålla dem som din egen profil.",
+    "save_progress": "spara mina framsteg",
+    "ephemeral_warning": "gästs session: den här webbläsaren behåller inget, så inget sparas när fönstret stängs. För att behålla det du gör, ladda ner din profil och läs in den i ett vanligt fönster.",
+    "download_profile": "ladda ner min profil",
+    "name_profile": "namnge din profil",
+    "nickname_placeholder": "ett smeknamn",
+    "save": "spara"
+  },
+  "progress": {
+    "backing_up": "säkerhetskopierar",
+    "preparing_export": "förbereder export",
+    "saving": "sparar",
+    "phase_packing": "paketerar",
+    "phase_compressing": "komprimerar",
+    "job_status": "{job} · {phase} {percent}%",
+    "saved": "sparad",
+    "couldnt_save": "kunde inte spara (se inställningar → data)"
+  }
+}
