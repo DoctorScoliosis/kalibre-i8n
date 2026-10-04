@@ -14,12 +14,12 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 5,
+  "revision": 6,
   "version": "2026-10-04",
-  "changes": "L11: complete achievements rules/names, add missing game strings, reconcile with current en-GB",
+  "changes": "L12: remove stale achievements.rules.lastLesson after canonical reconciliation",
   "files": {
     "about.json": "9f71539a14d5e23f192a4cac6f73ab3f6c9849fe764679b5beb9ceba275b4c73",
-    "achievements.json": "88e613de9c7e1edf6d423597cc14c58e9bac720733070f32df079c27ebbc7b0c",
+    "achievements.json": "9b87672094d374a7005e4f383c3e82d913e33f59a1de6e3e9ea50c1bc2fa8234",
     "cards.json": "6276fc2996a66b5c92225212660b663ee8ccc03fc6dfff95ef30b375116373ed",
     "cars.json": "960c5b29c3c0721ad7c503916cfdcb69e783c6a3095b6977dcd697a82a735f2b",
     "chrome.json": "f0ca5a00f68ef8f9661053c4ae1bac2ee2598c21ba9b9d2e609a639cb15811f1",
