@@ -1,0 +1,242 @@
+{
+  "nav": {
+    "skip_to_content": "hoppa till innehållet",
+    "type": "skriv",
+    "learn": "lär dig",
+    "drill": "öva",
+    "games": "spel",
+    "mistakes": "misstag",
+    "settings": "inställningar",
+    "today": "idag",
+    "about": "om",
+    "primary": "primär"
+  },
+  "curtain": {
+    "fetching": "hämtar böckerna och ordlistan, bara den här gången",
+    "taking_longer": "det här tar längre tid än vanligt…",
+    "reload": "ladda om",
+    "books_downloading": "böckerna laddas fortfarande ner. du kan börja nu så blir de klara i bakgrunden.",
+    "start_without_waiting": "börja utan att vänta",
+    "still_loading": "laddar fortfarande. kontrollera anslutningen och ladda sedan om. när kalibre har laddats här fungerar det offline.",
+    "older_tab": "kalibre är öppet i en annan flik, med en äldre version. stäng den fliken så fortsätter den här.",
+    "couldnt_load": "kalibre kunde inte laddas. kontrollera anslutningen och ladda sedan om.",
+    "browser_too_old": "den här webbläsaren är för gammal för kalibre. en aktuell version av Chrome, Edge, Firefox eller Safari fungerar."
+  },
+  "footer": {
+    "shortcuts": "kortkommandon",
+    "privacy": "integritet",
+    "terms": "villkor",
+    "security": "säkerhet",
+    "announcements": "meddelanden",
+    "credit_author": "© {year} {author}.",
+    "credit_company": "© {year} midnight summer media.",
+    "licence": "licensierad med {licence}.",
+    "licence_name": "mit-licens"
+  },
+  "meta": {
+    "tagline": "kalibre, en adaptiv skrivtränare",
+    "description": "Ditt skrivande. Dina misstag. Dina framsteg. En skrivtränare som lär sig dina återkommande misstag och övar på dem, direkt i webbläsaren.",
+    "alt_wordmark": "kalibres ordmärke mellan Cal och Libby, med raden: ditt skrivande, dina misstag, dina framsteg."
+  },
+  "pwa": {
+    "ios": "På iPhone och iPad kan du lägga till kalibre på hemskärmen (i Safari: dela → lägg till på hemskärmen). Det öppnas i helskärm och behåller sina data, medan en Safari-flik kan förlora dem efter 7 dagar utan besök.",
+    "generic": "Lägg till kalibre på hemskärmen (webbläsarens meny → lägg till på hemskärmen, eller installera). Som installerad app öppnas den i helskärm och webbläsaren är bättre på att behålla dess data."
+  },
+  "misc": {
+    "kalibre_about": "kalibre, om",
+    "backup_due": "inställningar, säkerhetskopiering behövs",
+    "new_badge": "ny",
+    "backup_progress": "säkerhetskopieringsförlopp",
+    "todays_quests": "dagens uppdrag",
+    "new_quests_midnight": "nya uppdrag vid midnatt",
+    "difficulty": "svårighetsgrad",
+    "getting_quests": "Hämtar dagens uppdrag…"
+  },
+  "backup": {
+    "error": "kunde inte spara: {error}",
+    "nothing": "det finns inget att säkerhetskopiera ännu",
+    "saved_to_folder": "sparade {count, plural, one {# profilfil} other {# profilfiler}} i kalibres mapp ”{folder}”",
+    "downloaded": "hämtade {count, plural, one {# profilfil} other {# profilfiler}}"
+  },
+  "updates": {
+    "whats_new_title": "vad är nytt",
+    "status_up_to_date": "kalibre v{version} · aktuell",
+    "update_ready": "v{version} är redo",
+    "update_ready_read_first": "v{version} är redo · läs först",
+    "update_meta": "du kan uppdatera nu eller stanna på din nuvarande version (v{current}).",
+    "update_meta_size": "nedladdning: ~{size} · du kan uppdatera nu eller stanna på din nuvarande version (v{current}).",
+    "update_to": "uppdatera till v{version}",
+    "stay_on": "stanna på v{current}",
+    "updating": "uppdaterar…",
+    "check_button": "sök efter uppdateringar",
+    "checking": "söker…",
+    "check_checking": "letar…",
+    "check_current": "du har den senaste versionen",
+    "check_offline": "kunde inte nå servern just nu",
+    "check_unavailable": "uppdateringar fungerar bara i den installerade eller hostade appen",
+    "breaking_intro": "den här uppdateringen ändrar hur kalibre sparar dina data:",
+    "breaking_note": "när den är klar kan äldre versioner av kalibre inte öppna dina data, så spara först en säkerhetskopia: en profilfil för varje profil på den här enheten.",
+    "breaking_older_at": "v{version} finns kvar på",
+    "save_backup": "spara en säkerhetskopia",
+    "saving": "sparar…",
+    "badge_in_update": "i den här uppdateringen",
+    "badge_current": "aktuell",
+    "notes_not_yet": "anteckningarna för den här versionen visas när den har installerats.",
+    "stays_at": "v{current} finns kvar på {link} ett tag; öppna en säkerhetskopia där för att fortsätta använda den."
+  },
+  "brand": {
+    "kanary_preview_build_notice": "meddelande om kanary-förhandsversion",
+    "kanary_preview_build_click_for": "kanary-förhandsversion · klicka för meddelandet",
+    "what_s_new_for": "vad är nytt i {versionLabel}"
+  },
+  "command_line": {
+    "command": "kommando",
+    "type_a_setting_or_action": "skriv en inställning eller åtgärd",
+    "commands": "kommandon",
+    "command_line": "kommandorad",
+    "no_matches": "inga träffar"
+  },
+  "kanary_notice": {
+    "features_interfaces_and_database_schemas": "funktioner, gränssnitt och databasscheman utvecklas aktivt och kan ändras, ersättas eller sluta fungera utan förvarning.",
+    "things_may_break_or_change": "saker kan gå sönder eller ändras. ",
+    "your_typing_history_achievements_and": "din skrivhistorik, dina prestationer och dina egna data finns i den här webbläsarens lokala lagring. exportera regelbundet en säkerhetskopia så att en uppdatering som bryter bakåtkompatibilitet aldrig kostar dina framsteg.",
+    "periodically_back_up_your_profiles": "säkerhetskopiera dina profiler regelbundet: ",
+    "profiles_used_on_kanary_may": "profiler som används i kanary kanske fungerar eller kanske inte fungerar om de importeras till släppta versioner av kalibre. kanary kan införa nyare databasscheman, experimentella inställningar eller reviderade format som släppta versioner inte kan läsa eller migrera bakåt.",
+    "release_compatibility": "kompatibilitet med släppversioner: ",
+    "announcements_devlog": "meddelanden och utvecklingslogg: ",
+    "stackinfolio": "stackinfolio",
+    "settings_data": "inställningar → data",
+    "got_it": "förstått",
+    "intro": "du använder {product}, en tidig och snabbt föränderlig förhandsversion med experiment som fortfarande utvecklas.",
+    "follow": "följ milstolpar för släpp, utvecklingsframsteg och meddelanden på {site}."
+  },
+  "legal_pages": {
+    "last_updated": "senast uppdaterad {format}",
+    "the_short_version": "den korta versionen",
+    "read": "läs {full}",
+    "also": "även: {pages}"
+  },
+  "older_version": {
+    "older_version": "äldre version",
+    "it_keeps_its_own_data": "den behåller sina egna data, separerade från den aktuella versionens: för att använda dina här, importera en profilfil som sparades före uppdateringen (profilmeny → importera en profilfil).",
+    "this_is_kalibre_v_kept": "det här är kalibre v{version}, sparad så att du kan gå tillbaka. ",
+    "go_to_the_current_version": "gå till den aktuella versionen",
+    "hide_this_until_the_page": "dölj detta tills sidan laddas om",
+    "hide_until_the_page_reloads": "dölj tills sidan laddas om"
+  },
+  "shortcuts": {
+    "then": "sedan {value}",
+    "sequence_hint": "tryck på sekvensknappar (som {first} och sedan {second}) inom 1,5 sekunder. kortkommandon aktiveras bara när du inte aktivt skriver i tester eller textfält.",
+    "SHORTCUT_GROUPS": {
+      "navigation": {
+        "title": "navigering"
+      },
+      "nav-type": {
+        "label": "skrivvy"
+      },
+      "nav-learn": {
+        "label": "lärvy"
+      },
+      "nav-drill": {
+        "label": "övningsvy"
+      },
+      "nav-games": {
+        "label": "spelvy"
+      },
+      "nav-mistakes": {
+        "label": "misstagsvy"
+      },
+      "nav-stats": {
+        "label": "statistik och historik"
+      },
+      "nav-profile": {
+        "label": "profilmeny"
+      },
+      "nav-texts": {
+        "label": "texter och bibliotek"
+      },
+      "nav-settings": {
+        "label": "inställningar"
+      },
+      "nav-about": {
+        "label": "om kalibre"
+      },
+      "typing": {
+        "title": "skrivning och tester"
+      },
+      "type-restart": {
+        "label": "starta om test eller övning"
+      },
+      "type-pause": {
+        "label": "kommandorad / pausa"
+      },
+      "type-delete-word": {
+        "label": "ta bort ord"
+      },
+      "type-space": {
+        "label": "skicka / nästa ord"
+      },
+      "general": {
+        "title": "allmänt och dialogrutor"
+      },
+      "gen-guide": {
+        "label": "guide till kortkommandon"
+      },
+      "gen-close": {
+        "label": "stäng modal eller dialogruta"
+      },
+      "gen-command": {
+        "label": "kommandoradens palett"
+      },
+      "gen-focus": {
+        "label": "navigera bland kontroller"
+      }
+    },
+    "modal": {
+      "shortcuts": {
+        "title": "kortkommandon"
+      }
+    }
+  },
+  "startup_failure": {
+    "putting_it_back": "lägger tillbaka…",
+    "it_couldn_t_be_put": "kunde inte läggas tillbaka: {value}",
+    "if_kalibre_was_taken_back": "om kalibre medvetet återställdes till en äldre version kan du lägga tillbaka kopian av dina data som sparades precis innan den senast uppdaterades. allt du gjorde efter den uppdateringen är förlorat, och kopian ersätter allt kalibre sparar i den här webbläsaren.",
+    "copy_the_details": "kopiera detaljerna",
+    "copied": "kopierat",
+    "select_the_details_below_to": "markera detaljerna nedan för att kopiera dem",
+    "kalibre_couldn_t_start": "kalibre kunde inte starta",
+    "what_you_ve_saved_is": "det du har sparat finns fortfarande i den här webbläsaren: att börja om påverkar inte det.",
+    "send_details": "om det fortsätter att hända, skicka detaljerna till {address}."
+  },
+  "update_gate": {
+    "carry_on": "fortsätt",
+    "kalibre_v_changes_how_it": "kalibre v{appVersion} ändrar hur dina data sparas",
+    "nothing_has_changed_yet_once": "ingenting har ändrats ännu. när det har gjort det kan äldre versioner av kalibre inte öppna dina data, så spara först en säkerhetskopia: en profilfil för varje profil på den här enheten.",
+    "older_version": "eller fortsätt använda versionen före den, på {link}, tills vidare: öppna din säkerhetskopia där."
+  },
+  "modals": {
+    "stats": "statistik",
+    "texts": "texter",
+    "settings": "inställningar",
+    "achievements": "prestationer",
+    "race": "lopp",
+    "card": "ditt kort",
+    "kanary": "kanary-förhandsvisning"
+  },
+  "app": {
+    "that_file_isn_t_in": "den filen finns inte längre i mappen"
+  },
+  "instance": {
+    "offline_self_hosted": "offline · egen drift",
+    "offline_cache": "offline · använder webbläsarens cache",
+    "self_hosted_at": "egen drift · {hostname}",
+    "self_hosted": "egen drift",
+    "online": "online · officiell instans",
+    "status": {
+      "online": "online",
+      "offline": "offline",
+      "self-hosted": "egen drift"
+    }
+  }
+}
