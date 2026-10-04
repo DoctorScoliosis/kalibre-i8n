@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 3,
+    "revision": 4,
     "version": "2026-10-04",
-    "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories"
+    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
   },
   "strings": {
     "about": {
@@ -3185,7 +3185,9 @@
         "it_should_be": "debería ser «{original}» · {errorTitle}",
         "repairing": "{title} · corrígelo aquí (← → mueve el cursor) y pulsa intro",
         "repairing_retry": " · un intento más",
-        "repairing_cancel": " · esc para cancelar"
+        "repairing_cancel": " · esc para cancelar",
+        "find_mistake": "encuentra un error: haz clic en una palabra o usa las flechas y después pulsa intro",
+        "paused_fix": "{title} · pulsa intro para seguir corrigiéndolo o haz clic donde quieras empezar"
       },
       "ui": {
         "pause": "pausa",
@@ -3254,7 +3256,6 @@
         "next_passage": "siguiente pasaje ",
         "hud_found": "pasaje {round} · encontrados {found} de {total}",
         "hud_score": "puntuación {score}",
-        "find_mistake": "encuentra un error: señala o usa las flechas y después haz clic o pulsa intro",
         "skip_title": "seguir adelante; lo que quede cuenta como omitido"
       },
       "errors": {
@@ -4103,7 +4104,7 @@
                 "group": "primeros pasos",
                 "summary": "encuentra los errores plantados en un pasaje y corrígelos.",
                 "highlights": [
-                  "señala una palabra o navega con las flechas",
+                  "haz clic en una palabra o muévete con las flechas",
                   "pulsa intro para marcar un error y después escribe la corrección"
                 ],
                 "details": [
@@ -4145,18 +4146,18 @@
                 "group": "sobrevivir",
                 "summary": "recorre el pasaje, selecciona una palabra que creas incorrecta y pulsa intro para marcarla.",
                 "highlights": [
-                  "pasa el cursor por encima de una palabra o usa las flechas para seleccionarla",
+                  "haz clic en una palabra o usa las flechas para seleccionarla",
                   "marcar una palabra correcta te penaliza"
                 ],
                 "details": [
-                  "muévete con ← → palabra por palabra o ↑ ↓ línea por línea. haz clic o pasa el cursor para saltar.",
+                  "muévete con ← → palabra por palabra o ↑ ↓ línea por línea. haz clic en una palabra para saltar a ella; haz clic fuera para quitar la selección.",
                   "encontrar y corregir se puntúan por separado.",
                   "marcar una palabra que en realidad es correcta cuenta como falso positivo y resta puntos."
                 ],
                 "mechanics": {
                   "selection": {
                     "label": "selección de palabras",
-                    "summary": "pasa el cursor, haz clic o usa las flechas para seleccionar una palabra."
+                    "summary": "haz clic o usa las flechas para seleccionar una palabra. seleccionar no penaliza; solo intro marca."
                   },
                   "false-flag": {
                     "label": "falsos positivos",
@@ -4183,8 +4184,8 @@
                   "selected-word": {
                     "label": "palabra seleccionada"
                   },
-                  "hover-cursor": {
-                    "label": "cursor del ratón"
+                  "click-select": {
+                    "label": "clic para seleccionar"
                   },
                   "false-flag-penalty": {
                     "label": "penalización por falso positivo"
@@ -4203,7 +4204,8 @@
                   "usa ← → para mover el cursor, Inicio y Fin para saltar. Supr y retroceso funcionan como siempre.",
                   "haz clic dentro de la palabra para colocar el cursor en una posición concreta.",
                   "tienes dos intentos. si fallas los dos, se muestra la palabra correcta.",
-                  "pulsa esc para cancelar una reparación sin penalización."
+                  "pulsa esc para cancelar una reparación sin penalización.",
+                  "si haces clic en otra palabra a mitad de una corrección, la corrección te espera tal como la dejaste hasta que vuelvas a hacer clic en ella."
                 ],
                 "mechanics": {
                   "caret": {

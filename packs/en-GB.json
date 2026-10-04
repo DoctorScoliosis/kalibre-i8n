@@ -7,9 +7,9 @@
     "fallback": null,
     "lowercaseDates": true,
     "reviewed": "native",
-    "revision": 4,
+    "revision": 5,
     "version": "2026-10-04",
-    "changes": "Synced with the application after the Games 0.70 rollback"
+    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
   },
   "strings": {
     "about": {
@@ -3176,7 +3176,9 @@
         "it_should_be": "it should be “{original}” · {errorTitle}",
         "repairing": "{title} · fix it in place (← → move) and press enter",
         "repairing_retry": " · one more try",
-        "repairing_cancel": " · esc to cancel"
+        "repairing_cancel": " · esc to cancel",
+        "find_mistake": "find a mistake: click a word or use the arrows, then press enter",
+        "paused_fix": "{title} · press enter to carry on fixing it, or click where to start"
       },
       "ui": {
         "pause": "pause",
@@ -4103,7 +4105,7 @@
                 "group": "getting started",
                 "summary": "find the mistakes planted in a passage and put them right.",
                 "highlights": [
-                  "point at a word or navigate with arrow keys",
+                  "click a word or move with the arrow keys",
                   "press enter to flag a mistake, then type the fix"
                 ],
                 "details": [
@@ -4145,18 +4147,18 @@
                 "group": "surviving",
                 "summary": "scan the passage, select a word you think is wrong, and press enter to flag it.",
                 "highlights": [
-                  "hover over a word or use arrow keys to select it",
+                  "click a word or use the arrow keys to select it",
                   "flagging a correct word costs you"
                 ],
                 "details": [
-                  "move with ← → word by word, or ↑ ↓ line by line. click or hover to jump.",
+                  "move with ← → word by word, or ↑ ↓ line by line. click a word to jump; click away to clear.",
                   "finding and fixing are scored separately.",
                   "flagging a word that’s actually correct counts as a false flag and costs points."
                 ],
                 "mechanics": {
                   "selection": {
                     "label": "word selection",
-                    "summary": "hover, click or use arrow keys to select a word."
+                    "summary": "click or use the arrow keys to select a word. selecting is free; only enter flags."
                   },
                   "false-flag": {
                     "label": "false flags",
@@ -4183,11 +4185,14 @@
                   "selected-word": {
                     "label": "selected word"
                   },
-                  "hover-cursor": {
-                    "label": "hover cursor"
+                  "click-select": {
+                    "label": "click to select"
                   },
                   "false-flag-penalty": {
                     "label": "false flag penalty"
+                  },
+                  "hover-cursor": {
+                    "label": "hover cursor"
                   }
                 }
               },
@@ -4203,7 +4208,8 @@
                   "use ← → to move the caret, home and end to jump. delete and backspace work as usual.",
                   "click inside the word to place the caret at a specific position.",
                   "you get two attempts. if both fail, the correct word is revealed.",
-                  "press escape to cancel a repair without penalty."
+                  "press escape to cancel a repair without penalty.",
+                  "click another word mid-fix and the fix waits, as you left it, for you to click back."
                 ],
                 "mechanics": {
                   "caret": {
