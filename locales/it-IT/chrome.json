@@ -55,8 +55,8 @@
   "backup": {
     "error": "impossibile salvarlo: {error}",
     "nothing": "non c'è ancora nulla di cui fare il backup",
-    "saved_to_folder": "salvati {count, plural, one {# file del profilo} other {# file dei profili}} nella cartella kalibre “{folder}”",
-    "downloaded": "scaricati {count, plural, one {# file del profilo} other {# file dei profili}}"
+    "saved_to_folder": "salvati {count, plural, one {# file del profilo} many {# file dei profili} other {# file dei profili}} nella cartella kalibre “{folder}”",
+    "downloaded": "scaricati {count, plural, one {# file del profilo} many {# file dei profili} other {# file dei profili}}"
   },
   "updates": {
     "whats_new_title": "novità",
@@ -128,29 +128,75 @@
     "then": "poi {value}",
     "sequence_hint": "premi i tasti della sequenza (come {first} poi {second}) entro 1,5 secondi. le scorciatoie si attivano solo quando non stai digitando attivamente nei test o nei campi di testo.",
     "SHORTCUT_GROUPS": {
-      "navigation": { "title": "navigazione" },
-      "nav-type": { "label": "vista di digitazione" },
-      "nav-learn": { "label": "vista apprendimento" },
-      "nav-drill": { "label": "vista allenamento" },
-      "nav-games": { "label": "vista giochi" },
-      "nav-mistakes": { "label": "vista errori" },
-      "nav-stats": { "label": "statistiche e cronologia" },
-      "nav-profile": { "label": "menu profilo" },
-      "nav-texts": { "label": "testi e libreria" },
-      "nav-settings": { "label": "impostazioni" },
-      "nav-about": { "label": "informazioni su kalibre" },
-      "typing": { "title": "digitazione e test" },
-      "type-restart": { "label": "riavvia test o allenamento" },
-      "type-pause": { "label": "riga di comando / pausa" },
-      "type-delete-word": { "label": "elimina parola" },
-      "type-space": { "label": "invia / parola successiva" },
-      "general": { "title": "generale e finestre di dialogo" },
-      "gen-guide": { "label": "guida alle scorciatoie da tastiera" },
-      "gen-close": { "label": "chiudi finestra o dialogo" },
-      "gen-command": { "label": "tavolozza della riga di comando" },
-      "gen-focus": { "label": "naviga tra i controlli" }
+      "navigation": {
+        "title": "navigazione"
+      },
+      "nav-type": {
+        "label": "vista di digitazione"
+      },
+      "nav-learn": {
+        "label": "vista apprendimento"
+      },
+      "nav-drill": {
+        "label": "vista allenamento"
+      },
+      "nav-games": {
+        "label": "vista giochi"
+      },
+      "nav-mistakes": {
+        "label": "vista errori"
+      },
+      "nav-stats": {
+        "label": "statistiche e cronologia"
+      },
+      "nav-profile": {
+        "label": "menu profilo"
+      },
+      "nav-texts": {
+        "label": "testi e libreria"
+      },
+      "nav-settings": {
+        "label": "impostazioni"
+      },
+      "nav-about": {
+        "label": "informazioni su kalibre"
+      },
+      "typing": {
+        "title": "digitazione e test"
+      },
+      "type-restart": {
+        "label": "riavvia test o allenamento"
+      },
+      "type-pause": {
+        "label": "riga di comando / pausa"
+      },
+      "type-delete-word": {
+        "label": "elimina parola"
+      },
+      "type-space": {
+        "label": "invia / parola successiva"
+      },
+      "general": {
+        "title": "generale e finestre di dialogo"
+      },
+      "gen-guide": {
+        "label": "guida alle scorciatoie da tastiera"
+      },
+      "gen-close": {
+        "label": "chiudi finestra o dialogo"
+      },
+      "gen-command": {
+        "label": "tavolozza della riga di comando"
+      },
+      "gen-focus": {
+        "label": "naviga tra i controlli"
+      }
     },
-    "modal": { "shortcuts": { "title": "scorciatoie da tastiera" } }
+    "modal": {
+      "shortcuts": {
+        "title": "scorciatoie da tastiera"
+      }
+    }
   },
   "startup_failure": {
     "putting_it_back": "ripristino in corso…",
