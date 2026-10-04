@@ -623,6 +623,275 @@
             }
           }
         }
+      },
+      "castle": {
+        "options": {
+          "waves": {
+            "label": "vågor",
+            "choices": {
+              "endless": {
+                "label": "ändlös"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "komma igång",
+            "group": "komma igång",
+            "summary": "skriv ord för att göra tegel, sikta på en sektion och lägg dem för att bygga och reparera slottet.",
+            "highlights": [
+              "skriv ett ord för att göra ett tegel",
+              "sikta med pilarna eller musen och tryck mellanslag för att lägga det"
+            ],
+            "details": [
+              "längre ord ger starkare tegel. skrivfel ger spruckna tegel.",
+              "slottet börjar helt, med ett lugnt skede för att bygga upp ett lager före första vågen.",
+              "tegel hamnar i lagret; välj ett med 1–9 eller dra det med musen."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "i läget med specialtegel behöver sektioner under attack särskilda ord. ett tegel som inte följer kravet förlorar det mesta av sin styrka."
+              }
+            },
+            "mechanics": {
+              "stockpile": {
+                "label": "lager",
+                "summary": "skrivna ord blir tegel som väntar på gården. välj ett med en siffertangent eller använd det nyaste."
+              },
+              "quality": {
+                "label": "tegelkvalitet",
+                "summary": "helt, lagat, sprucket eller ruinmassa — beror på ordlängd och träffsäkerhet."
+              },
+              "cursor": {
+                "label": "siktning",
+                "summary": "markören visar var nästa tegel hamnar. flytta den med pilarna eller klicka på en sektion."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "sikta på en sektion"
+              },
+              "i1": {
+                "action": "lägg det nyaste teglet"
+              },
+              "i2": {
+                "action": "välj ett tegel från lagret"
+              }
+            },
+            "visuals": {
+              "stockpile-yard": {
+                "label": "lagergård"
+              },
+              "brick-solid": {
+                "label": "helt tegel"
+              },
+              "brick-cracked": {
+                "label": "sprucket tegel"
+              }
+            }
+          },
+          "surviving": {
+            "label": "överlevnad",
+            "group": "överlevnad",
+            "summary": "håll porten och borgen stående. varje våg tappar beslutsamhet och retirerar när kritiska sektioner håller.",
+            "highlights": [
+              "porten och borgen är kritiska — om borgen går förlorad är spelet slut",
+              "reparera skadade sektioner genom att lägga tegel på dem"
+            ],
+            "details": [
+              "slottets sektioner har integritet som sjunker när fiender anfaller.",
+              "hög genomsnittlig reparation över hela slottet tömmer vågens beslutsamhet snabbare.",
+              "varje våg retirerar när beslutsamheten når noll, eller när alla dess fiender är förstörda."
+            ],
+            "notes": {
+              "hard": {
+                "text": "fienderna kommer starkare och i större antal."
+              }
+            },
+            "mechanics": {
+              "sections": {
+                "label": "slottssektioner",
+                "summary": "mur, torn, port, borg och fundament. varje del har sin egen integritet."
+              },
+              "integrity": {
+                "label": "integritet",
+                "summary": "en sektions hälsopoäng. når den noll bryts sektionen."
+              },
+              "resolve": {
+                "label": "vågens beslutsamhet",
+                "summary": "en mätare som visar hur nära vågen är att retirera."
+              },
+              "waves": {
+                "label": "vågor",
+                "summary": "fiender anländer i numrerade vågor, med lugna pauser emellan."
+              }
+            },
+            "visuals": {
+              "curtain-wall": {
+                "label": "ringmur"
+              },
+              "gatehouse": {
+                "label": "porthus"
+              },
+              "great-keep": {
+                "label": "stora borgen"
+              },
+              "wave-resolve": {
+                "label": "vågens beslutsamhet"
+              }
+            }
+          },
+          "fighting": {
+            "label": "strid",
+            "group": "strid",
+            "summary": "släpp tegel på fiender för att krossa dem eller använd katapulten för att träffa på avstånd.",
+            "highlights": [
+              "skift+retur släpper ett tegel på den utvalda angriparen",
+              "råskinnare stångar, sappörer hackar och katapulter slungar sten från avstånd"
+            ],
+            "details": [
+              "ett tegelsläpp gör skada motsvarande teglets styrka.",
+              "en fiende som inte krossas kan bedövas en stund.",
+              "katapulter står på avstånd: en streckad båge visar vart en siktar."
+            ],
+            "mechanics": {
+              "brute": {
+                "label": "råskinnare",
+                "summary": "stångar sektioner på nära håll. tröttnar efter ett visst antal slag."
+              },
+              "sapper": {
+                "label": "sappör",
+                "summary": "hackar på sektioner. vandrar mellan mål."
+              },
+              "catapult": {
+                "label": "katapult",
+                "summary": "slungar sten från avstånd längs en parabolisk båge. utom räckhåll för tegelsläpp."
+              },
+              "stun": {
+                "label": "bedövning",
+                "summary": "ett tegelsläpp som inte är dödligt kan bedöva angriparen kortvarigt."
+              },
+              "drops": {
+                "label": "tegelsläpp",
+                "summary": "släpp ett tegel på en fiende för att skada eller krossa den."
+              },
+              "saboteur": {
+                "label": "sabotör",
+                "summary": "infiltratörer med krutkaggar som stormar murarna; krossa dem tidigt för att detonera kaggen bland angriparna."
+              },
+              "ladderman": {
+                "label": "stegbärare",
+                "summary": "belägringsingenjörer som sätter upp stormstegar; släpp tegel för att välta stegen och skapa en kedjereaktion."
+              },
+              "sortie": {
+                "label": "garnisonsutfall",
+                "summary": "samla försvarare från porthuset på fältet för att stoppa angripare innan de når murarna."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "släpp tegel på fiende"
+              },
+              "i1": {
+                "action": "sikta på en sektion eller fiende"
+              },
+              "i2": {
+                "action": "skicka ut garnisonsutfall till markörens kolumn"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "tegelsläpp"
+              },
+              "i1": {
+                "label": "sabotörer och stegar"
+              },
+              "i2": {
+                "label": "garnisonsutfall"
+              }
+            },
+            "visuals": {
+              "brute-ram": {
+                "label": "råskinnare (stångning)"
+              },
+              "sapper-pick": {
+                "label": "sappör (hackning)"
+              },
+              "saboteur-keg": {
+                "label": "sabotör (krutkagge)"
+              },
+              "siege-ladder": {
+                "label": "belägringsstege"
+              },
+              "garrison-soldier": {
+                "label": "garnisonssoldat"
+              },
+              "catapult-siege": {
+                "label": "katapult (belägring)"
+              },
+              "boulder-arc": {
+                "label": "stenbåge"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "kraftbonusar",
+            "group": "kraftbonusar",
+            "summary": "krossade fiender tappar ibland kraftbonusar. lagra dem och slå på dem när du behöver dem.",
+            "highlights": [
+              "fånga en kraftbonus när en fiende krossas",
+              "aktivera med skift+1–3 eller klicka på en plats"
+            ],
+            "details": [
+              "upp till tre kraftbonusar kan lagras. två kan vara aktiva samtidigt.",
+              "murbruk gör tegelsläpp hårdare. muraren gör lagda tegel mer värda. olja bedövar alla fiender på fältet. laga reparerar den svagaste kritiska sektionen."
+            ],
+            "mechanics": {
+              "mortar": {
+                "label": "murbruk",
+                "summary": "tegelsläpp gör dubbel skada."
+              },
+              "mason": {
+                "label": "murare",
+                "summary": "lagda tegel ger 1,5× styrka."
+              },
+              "oil": {
+                "label": "olja",
+                "summary": "bedövar alla angripare på fältet omedelbart."
+              },
+              "mend": {
+                "label": "laga",
+                "summary": "återställer integriteten hos den svagaste porten eller borgen."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "aktivera kraftbonus plats 1"
+              },
+              "i1": {
+                "action": "aktivera kraftbonus plats 2"
+              },
+              "i2": {
+                "action": "aktivera kraftbonus plats 3"
+              }
+            },
+            "visuals": {
+              "mortar-powerup": {
+                "label": "murbruk (2× tegelsläpp)"
+              },
+              "mason-powerup": {
+                "label": "murare (1,5× mur)"
+              },
+              "oil-powerup": {
+                "label": "kokande olja (bedöva alla)"
+              },
+              "mend-powerup": {
+                "label": "fältlagning (reparation)"
+              }
+            }
+          }
+        }
       }
     }
   }
