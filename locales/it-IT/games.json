@@ -21,7 +21,7 @@
     "serving_tray_full_state": "vassoio pieno · servi prima",
     "serving_queued": "{text} in coda · vassoio {count}/{capacity}",
     "serving_tray_full": "il vassoio è pieno — servi prima",
-    "serving_wasted": " · −{seconds}s · {count, plural, one {1 parola sprecata} other {# parole sprecate}}",
+    "serving_wasted": " · −{seconds}s · {count, plural, one {1 parola sprecata} many {# parole sprecate} other {# parole sprecate}}",
     "serving_served": "servito · {matched}/{total} corrispondenti",
     "serving_nothing_matched": "nessuna corrispondenza — tempo perso",
     "prepared": "{text} preparato",
@@ -80,13 +80,7 @@
     "section_critical": ", critico",
     "section_needs": ", servono mattoni che {requirement}",
     "news_line": "{label}: {note}",
-    "powerup": "potenziamento",
-    "sortie_title": "sortita della guarnigione: raduna i difensori sul campo",
-    "sortie_ready": "schiera la sortita · alt+invio",
-    "sortie_mustering": "raduno ({seconds}s)",
-    "sortie_breached": "il corpo di guardia è stato sfondato",
-    "sortie_no_bricks": "servono mattoni per equipaggiare",
-    "guard_title": "guardia di guarnigione: {hp}/{maxHp} HP"
+    "powerup": "potenziamento"
   },
   "space": {
     "title": "spazio",
@@ -102,10 +96,6 @@
     "finish_a_word_to_load": "completa una parola per caricarla",
     "bomb_ready_shift_enter": "bomba pronta · maiusc+invio",
     "bomb": "bomba {floor}%",
-    "accumulator_charge": "carica del condensatore",
-    "accumulator": "condensatore {floor}%",
-    "accumulator_ready_alt_enter": "condensatore pronto ({charge}%) · alt+invio",
-    "accumulator_overload_alt_enter": "sovraccarico del condensatore! · alt+invio",
     "ship": "nave {round}",
     "score": "punteggio {round}",
     "destroyed": "distrutto {value}",
@@ -125,11 +115,7 @@
     "it_should_be": "dovrebbe essere “{original}” · {errorTitle}",
     "repairing": "{title} · correggilo qui (← → muovi) e premi invio",
     "repairing_retry": " · un altro tentativo",
-    "repairing_cancel": " · esc per annullare",
-    "lives": "{count}/{max} vite",
-    "streak": "serie {count}",
-    "combo": "combo ×{multiplier}",
-    "escaped": "{word} è passato oltre"
+    "repairing_cancel": " · esc per annullare"
   },
   "ui": {
     "pause": "pausa",
@@ -171,7 +157,7 @@
     "play_again": "gioca di nuovo",
     "change_setup": "cambia impostazioni",
     "added_training": "aggiunto all'allenamento",
-    "mistakes_noted": "{count, plural, one { · 1 errore annotato} other { · # errori annotati}}",
+    "mistakes_noted": "{count, plural, one { · 1 errore annotato} many { · # errori annotati} other { · # errori annotati}}",
     "results_summary": "{time} · {words} parole · {wpm} ppm · {accuracy} · errori di battitura {mistypes} · correzioni {corrections}",
     "daily_goal_title": "I giochi contano per l'obiettivo il tempo passato a digitare, non quello speso a leggere, mirare o pensare",
     "key_mashing_note": "Questa sessione sembrava una raffica di tasti ({reason}), quindi errori e XP non sono stati conteggiati.",
@@ -192,7 +178,7 @@
     "table_status": "tavolo {count}/{cap}",
     "yard_empty": "digita una parola per creare un mattone",
     "calm_wave": "calma: fai scorta di mattoni · ondata {wave} di {of} tra {seconds}s",
-    "active_wave": "ondata {wave} di {of} · {count, plural, one {1 attaccante} other {# attaccanti}}{holding, select, true { · in mano} other { · non in mano}}",
+    "active_wave": "ondata {wave} di {of} · {count, plural, one {1 attaccante} many {# attaccanti} other {# attaccanti}}{holding, select, true { · in mano} other { · non in mano}}",
     "castle_integrity": "integrità del castello {percent}%",
     "time_bank": "riserva di tempo",
     "next_passage": "brano successivo ",
@@ -253,7 +239,7 @@
     "include_my_card": "includi la mia scheda",
     "your_text_goes_in_the": "il tuo testo verrà inserito nel file.",
     "share": "condividi",
-    "save": "{count, plural, one {salva il fantasma} other {salva # fantasmi}}"
+    "save": "{count, plural, one {salva il fantasma} many {salva # fantasmi} other {salva # fantasmi}}"
   },
   "powerup_tray": {
     "shift": "{label}: {help} (maiusc+{value})",
@@ -653,18 +639,6 @@
               "drops": {
                 "label": "lanci di mattoni",
                 "summary": "lascia cadere un mattone su un nemico per danneggiarlo o schiacciarlo."
-              },
-              "saboteur": {
-                "label": "sabotatore",
-                "summary": "infiltrati con barili di polvere che corrono verso le mura; schiacciali presto per far esplodere il barile tra gli attaccanti."
-              },
-              "ladderman": {
-                "label": "scalatore",
-                "summary": "ingegneri d'assedio che piantano scale d'assalto; lascia cadere mattoni per rovesciare la scala e provocare una cascata di cadute."
-              },
-              "sortie": {
-                "label": "sortita della guarnigione",
-                "summary": "raduna i difensori dal corpo di guardia sul campo per intercettare gli attaccanti prima che raggiungano le mura."
               }
             },
             "controls": {
@@ -673,20 +647,11 @@
               },
               "i1": {
                 "action": "mira a una sezione o a un nemico"
-              },
-              "i2": {
-                "action": "schiera una sortita della guarnigione nella colonna del cursore"
               }
             },
             "subDemos": {
               "i0": {
                 "label": "lanci di mattoni"
-              },
-              "i1": {
-                "label": "sabotatori e scale"
-              },
-              "i2": {
-                "label": "sortite della guarnigione"
               }
             },
             "visuals": {
@@ -695,15 +660,6 @@
               },
               "sapper-pick": {
                 "label": "guastatore (piccone)"
-              },
-              "saboteur-keg": {
-                "label": "sabotatore (barile)"
-              },
-              "siege-ladder": {
-                "label": "scala d'assedio"
-              },
-              "garrison-soldier": {
-                "label": "soldato di guarnigione"
               },
               "catapult-siege": {
                 "label": "catapulta (assedio)"
@@ -915,15 +871,13 @@
             "summary": "carica il caricatore, intercetta missili e caccia e usa la bomba per ripulire il campo.",
             "highlights": [
               "i missili portano una lettera: digitala senza altro testo per abbatterli",
-              "maiusc+invio fa esplodere la bomba quando è carica",
-              "alt+invio spara il raggio penetrante del condensatore quando è carico"
+              "maiusc+invio fa esplodere la bomba quando è carica"
             ],
             "details": [
               "caricare parole riempie il misuratore della bomba. quando è pieno, maiusc+invio elimina tutti i missili e danneggia ogni nemico.",
               "le parole caricate di alta qualità caricano il condensatore. alt+invio scarica un laser verticale penetrante; il sovraccarico al 100% distrugge le navi schermate.",
               "le stazioni spaziali lanciano caccia che ti inseguono. digita la lettera di un caccia per abbatterlo.",
-              "le mine terrestri esplodono in schegge quando vengono colpite, che colpiscono tutto ciò che è vicino, te compreso.",
-              "le navi schermate subiscono colpi solo dalle parole che soddisfano il loro requisito."
+              "le mine terrestri esplodono in schegge quando vengono colpite, che colpiscono tutto ciò che è vicino, te compreso."
             ],
             "notes": {
               "prompted": {
@@ -938,10 +892,6 @@
               "bomb": {
                 "label": "bomba",
                 "summary": "si carica mentre carichi parole. maiusc+invio la fa esplodere, elimina i missili e danneggia i nemici."
-              },
-              "accumulator": {
-                "label": "raggio del condensatore",
-                "summary": "si carica con parole pulite e di alta qualità. alt+invio spara un raggio verticale penetrante; al 100% attraversa gli scudi e vaporizza i missili."
               },
               "fighters": {
                 "label": "caccia",
@@ -958,37 +908,16 @@
               "shields": {
                 "label": "scudi",
                 "summary": "alcune navi hanno scudi che si rompono solo con parole che soddisfano un requisito."
-              },
-              "heavyFrigate": {
-                "label": "fregata pesante",
-                "summary": "prua rinforzata con barriera schermata e doppie batterie di missili."
-              },
-              "eliteCruiser": {
-                "label": "incrociatore d'élite",
-                "summary": "pesante corazzata con torrette di difesa puntuale che abbattono parole deboli (<30 potenza)."
-              },
-              "flagship": {
-                "label": "ammiraglia",
-                "summary": "enorme nave di comando modulare. distruggi le batterie d'armi e fai crollare il generatore di scudi per esporre il ponte."
               }
             },
             "controls": {
               "i0": {
                 "action": "fa esplodere la bomba"
-              },
-              "i1": {
-                "action": "scarica il raggio del condensatore"
               }
             },
             "subDemos": {
               "i0": {
                 "label": "onda d'urto della bomba"
-              },
-              "i1": {
-                "label": "raggio del condensatore"
-              },
-              "i2": {
-                "label": "boss ammiraglia"
               }
             },
             "visuals": {
@@ -997,18 +926,6 @@
               },
               "bomb-shockwave": {
                 "label": "onda d'urto della bomba"
-              },
-              "capacitor-beam": {
-                "label": "raggio penetrante del condensatore"
-              },
-              "heavy-frigate": {
-                "label": "fregata pesante"
-              },
-              "elite-cruiser": {
-                "label": "incrociatore d'élite"
-              },
-              "flagship-boss": {
-                "label": "boss ammiraglia"
               },
               "orbital-station": {
                 "label": "stazione orbitale"
@@ -1097,12 +1014,6 @@
               },
               "endless": {
                 "label": "senza fine"
-              },
-              "marathon": {
-                "label": "maratona"
-              },
-              "scroller": {
-                "label": "scorrimento"
               }
             }
           },
@@ -1180,14 +1091,6 @@
               "false-flag": {
                 "label": "falsi segnali",
                 "summary": "segnalare una parola corretta costa punti e, in modalità senza fine, tempo."
-              },
-              "marathon": {
-                "label": "resistenza della maratona",
-                "summary": "parti con 3 vite. falsi segnali e correzioni fallite costano una vita; completare 3 brani senza errori ne ripristina una."
-              },
-              "scroller": {
-                "label": "nastro scorrevole",
-                "summary": "i brani scorrono continuamente su un nastro. intercetta gli errori prima che escano dallo schermo."
               }
             },
             "controls": {
@@ -1204,12 +1107,6 @@
             "subDemos": {
               "i0": {
                 "label": "scansione del brano"
-              },
-              "i1": {
-                "label": "resistenza della maratona"
-              },
-              "i2": {
-                "label": "nastro scorrevole"
               }
             },
             "visuals": {
@@ -1221,12 +1118,6 @@
               },
               "false-flag-penalty": {
                 "label": "penalità per falso segnale"
-              },
-              "marathon-lives": {
-                "label": "vite della maratona"
-              },
-              "scroller-belt": {
-                "label": "nastro scorrevole"
               }
             }
           },
@@ -1406,10 +1297,6 @@
       "repaired": "{word} · riparato {healed}",
       "bomb": "bomba!",
       "bomb_not_ready": "la bomba non è ancora carica",
-      "accumulator": "scarica del raggio laser!",
-      "accumulator_not_ready": "il condensatore richiede almeno il 25% di carica",
-      "point_defense": "la difesa di punto ha intercettato {word}!",
-      "flagship_down": "ammiraglia distrutta!",
       "gatling": "fuoco rapido · {word}",
       "shield_absorb": "lo scudo ha assorbito il colpo di {source}!"
     },
@@ -1440,22 +1327,6 @@
     "wrong_kind_of_brick": "tipo di mattone sbagliato",
     "nobody_to_drop_it_on": "non c'è nessuno su cui lasciarlo cadere",
     "two_are_running_already": "ce ne sono già due attivi",
-    "nothing_stored_there": "nulla conservato qui",
-    "crushed_a_brute": "hai schiacciato un bruto",
-    "crushed_a_sapper": "hai schiacciato un guastatore",
-    "crushed_a_saboteur": "hai schiacciato un sabotatore",
-    "crushed_a_ladderman": "hai schiacciato uno scalatore",
-    "hit_a_brute": "hai colpito un bruto",
-    "hit_a_sapper": "hai colpito un guastatore",
-    "hit_a_saboteur": "hai colpito un sabotatore",
-    "hit_a_ladderman": "hai colpito uno scalatore",
-    "stunned": "stordito",
-    "keg_detonated": "barile di polvere esploso",
-    "ladder_toppled": "scala rovesciata",
-    "sortie_deployed": "sortita della guarnigione schierata",
-    "mustering": "guarnigione in formazione",
-    "gate_breached": "corpo di guardia sfondato",
-    "no_bricks": "servono mattoni per equipaggiare",
-    "friendly_fire": "fuoco amico!"
+    "nothing_stored_there": "nulla conservato qui"
   }
 }
