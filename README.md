@@ -5,7 +5,7 @@ Independent, versioned localisation packs for [Kalibre](https://github.com/Docto
 ## Why this repository exists
 
 Localisation in Kalibre is decoupled into this repository so that:
-1. **No app releases needed for language updates:** Translating a new string or correcting a typo in Chinese, French, or Spanish does not require bumping the core application version or triggering a full app deployment.
+1. **No app releases needed for language updates:** Adding a new translation or correcting an existing translation does not require bumping the core application version or triggering a full app deployment.
 2. **Independent language revisions:** Each language pack maintains its own ascending integer `revision` (following the pattern of Kalibre's library datasets). Kalibre polls `index.json` and can update an individual language pack seamlessly.
 3. **Translator accessibility:** Translators work with modular, clean JSON files without needing to build the main typing trainer application or navigate its engine code.
 4. **100% offline capability:** When selected by a user, Kalibre downloads the language pack from this repository and caches it locally (in IndexedDB/CacheStorage). Once cached, Kalibre remains fully functional offline.
@@ -24,10 +24,10 @@ kalibre-i8n/
 │   ├── coverage.mjs          # Reports missing/partial translation areas and message counts
 │   └── start-translation.mjs # Starts an interactive translation branch and tracks empty locale dirs
 ├── packs/                    # Atomic, single-fetch packs downloaded by Kalibre
-│   ├── en-GB.json
-│   └── zh-CN.json
+│   ├── <reference-locale>.json
+│   └── <locale>.json
 └── locales/                  # Modular source files for translators
-    ├── en-GB/                # Reference source locale
+    ├── <reference-locale>/   # Canonical reference locale
     │   ├── meta.json         # Language metadata and review status
     │   ├── chrome.json       # UI navigation, curtain, footer, modals
     │   ├── settings.json     # Settings schema labels, descriptions, and options
@@ -37,7 +37,7 @@ kalibre-i8n/
     │   ├── data.json         # Backup, restore, and storage strings
     │   ├── companions.json   # Companion interactions and reactions
     │   └── about.json        # FAQ and about page information
-    └── zh-CN/                # Chinese (Simplified) locale pack
+    └── <locale>/             # Translation locale pack
         ├── meta.json
         └── ...
 ```
@@ -50,17 +50,17 @@ Each language folder in `locales/<tag>/` contains a `meta.json`:
 
 ```json
 {
-  "id": "zh-CN",
-  "name": "简体中文",
-  "englishName": "Chinese (Simplified)",
+  "id": "xx-YY",
+  "name": "Example Language",
+  "englishName": "Example Language",
   "dir": "ltr",
-  "fallback": "en-GB",
+  "fallback": "<reference-locale>",
   "lowercaseDates": false,
-  "fonts": ["system-ui", "-apple-system", "PingFang SC", "Microsoft YaHei", "sans-serif"],
+  "fonts": ["system-ui", "sans-serif"],
   "reviewed": "community",
   "revision": 1,
   "version": "2026-10-02",
-  "changes": "Initial Chinese (Simplified) candidate from Qwen with DeepSeek review"
+  "changes": "Initial candidate translation"
 }
 ```
 
@@ -73,7 +73,7 @@ Each language folder in `locales/<tag>/` contains a `meta.json`:
 
 1. **Tone**: Kalibre's interface is calm, quiet, and friendly. Avoid exclamation-heavy marketing language or nagging tone.
 2. **Placeholders**: Keep all `{placeholder}` tokens intact (e.g. `{count}`, `{sessions}`, `{game}`). They are replaced at runtime with dynamic numbers or names.
-3. **Reference**: `locales/en-GB/` is the canonical reference. All keys should match between the reference locale and your translation.
+3. **Reference**: The canonical reference locale is the source of truth. All keys should match between the reference locale and each translation.
 
 ---
 
@@ -82,22 +82,22 @@ Each language folder in `locales/<tag>/` contains a `meta.json`:
 Run validation locally with Node (built and tested on Node 26):
 
 ```bash
-# Refresh locales/en-GB from the Kalibre application checkout (../Kalibre-r1, or KALIBRE_CORE_DIR)
+# Refresh the canonical reference locale from the Kalibre application checkout (../Kalibre-r1, or KALIBRE_CORE_DIR)
 npm run sync
 
 # Show exactly which JSON areas and messages a locale still needs
-npm run coverage -- zh-CN
+npm run coverage -- <locale>
 
-# Show every non-English locale in one report
+# Show every translation locale in one report
 npm run coverage
 
 # Emit the same coverage report as JSON for agents/tools
-npm run coverage -- zh-CN --json
+npm run coverage -- <locale> --json
 
 # Build atomic packs and update index.json with new SHA-256 checksums
 npm run build
 
-# Validate JSON syntax, placeholder consistency, and key parity against en-GB
+# Validate JSON syntax, placeholder consistency, and key parity against the reference locale
 npm run check
 
 # Run full test suite
@@ -106,7 +106,7 @@ npm test
 
 ### Starting a translation branch
 
-`npm run start-translation` opens an interactive arrow-key menu of common locale tags. Choose one with ↑/↓ and Enter, or choose **Enter another BCP 47 language code…** to type any valid language tag supported by the runtime, such as `es-419`, `fr-CA`, or `ja-JP`.
+`npm run start-translation` opens an interactive arrow-key menu of common locale tags. Choose one with ↑/↓ and Enter, or choose **Enter another BCP 47 language code…** to type any valid language tag supported by the runtime, for example, `xx-YY`, or any other valid BCP 47 language tag.
 
 The command:
 
@@ -119,36 +119,36 @@ The command:
 A locale code may also be supplied directly for automation or scripted hand-offs:
 
 ```bash
-npm run start-translation -- es-419
+npm run start-translation -- <locale>
 ```
 
 ### Core application PR checks
 
-The repository also exposes a reusable GitHub Actions workflow at `.github/workflows/check-kalibre-pr.yml`. Kalibre's main repository can call it from pull requests to compare the PR's `src/locales/en-GB/` against the PR base and report only the localisation keys introduced by that PR.
+The repository also exposes a reusable GitHub Actions workflow at `.github/workflows/check-kalibre-pr.yml`. Kalibre's main repository can call it from pull requests to compare the PR's `src/locales/<reference-locale>/` against the PR base and report only the localisation keys introduced by that PR.
 
-The check is intentionally **non-blocking for missing translations**. It fails only for malformed English localisation data or other validation errors. A PR can therefore ship with new English strings while translations are completed independently.
+The check is intentionally **non-blocking for missing translations**. It fails only for malformed reference-locale localisation data or other validation errors. A PR can therefore ship with new reference-locale strings while translations are completed independently.
 
 The PR report includes:
 
-- new English localisation keys introduced by the PR;
+- new reference-locale localisation keys introduced by the PR;
 - per-locale counts of those keys already translated versus missing;
 - the exact missing keys for each locale;
-- English strings whose source text changed, which may require translation review;
-- English keys removed by the PR that may later become orphaned in translation packs.
+- reference-locale strings whose source text changed, which may require translation review;
+- reference-locale keys removed by the PR that may later become orphaned in translation packs.
 
 Local runs can inspect two Kalibre checkouts directly:
 
 ```bash
 npm run check-core-pr -- \
-  --current ../Kalibre-r1/src/locales/en-GB \
-  --base ../Kalibre-r1-base/src/locales/en-GB
+  --current ../Kalibre-r1/src/locales/<reference-locale> \
+  --base ../Kalibre-r1-base/src/locales/<reference-locale>
 ```
 
-The canonical snapshot and locale directory default to this repository's `locales/en-GB` and `locales/` paths, respectively.
+The canonical snapshot and locale directory default to this repository's reference-locale path and `locales/` path, respectively.
 
 ### Translation triage
 
-**Run the coverage report before asking an agent to translate a locale.** It compares the locale directly with the current canonical `en-GB` snapshot and reports:
+**Run the coverage report before asking an agent to translate a locale.** It compares the locale directly with the current canonical reference snapshot and reports:
 
 - missing JSON areas, with the number of source messages in each;
 - partially covered areas, with translated and missing message counts;
@@ -159,7 +159,7 @@ This avoids spending model/tool compute rediscovering which files are absent. Fo
 
 ### What the check enforces
 
-`locales/en-GB/` is a snapshot of the application's canonical English (the application owns it; `npm run sync` refreshes it, and the check fails if the two drift).
+`locales/<reference-locale>/` is a snapshot of the application's canonical reference locale (the application owns it; `npm run sync` refreshes it, and the check fails if the two drift).
 
-- **Hard errors:** an empty or malformed English message; in any other language, a key English doesn't have (an orphan), a malformed message, a missing, added or renamed `{slot}`, a plural or select whose structure differs from English, a plural lacking `other` or a plural category used by the English source; category names must also be valid for the target language.
-- **Allowed:** leaving a message untranslated. Kalibre falls back to English for it.
+- **Hard errors:** an empty or malformed reference-locale message; in any translation, a key the reference locale does not have (an orphan), a malformed message, a missing, added or renamed `{slot}`, a plural or select whose structure differs from the reference, a plural lacking `other` or a plural category used by the reference message; category names must also be valid for the target locale.
+- **Allowed:** leaving a message untranslated. Kalibre falls back to the reference locale for it.
