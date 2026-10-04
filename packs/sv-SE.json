@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "machine",
-    "revision": 2,
+    "revision": 3,
     "version": "2026-10-04",
-    "changes": "Initial Swedish candidate translation; companion and narrative localisation complete"
+    "changes": "Reconciled Games keys after the application rollback"
   },
   "strings": {
     "about": {
@@ -421,27 +421,6 @@
       },
       "clean-sweep": {
         "name": "rent bord"
-      },
-      "beam-overload": {
-        "name": "överbelastad stråle"
-      },
-      "flagship-down": {
-        "name": "flaggskeppet nere"
-      },
-      "keg-defused": {
-        "name": "fat desarmerat"
-      },
-      "ladder-toppled": {
-        "name": "stegen vält"
-      },
-      "sortie-master": {
-        "name": "sortieproffs"
-      },
-      "marathon-master": {
-        "name": "maratonproffs"
-      },
-      "scroller-streak": {
-        "name": "rullbandsvit"
       },
       "race-first": {
         "name": "på era platser"
@@ -3162,13 +3141,7 @@
         "section_critical": ", kritiskt",
         "section_needs": ", behöver tegel som {requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "kraftbonus",
-        "sortie_title": "garnisonsutfall: samla försvarare på fältet",
-        "sortie_ready": "skicka ut utfall · alt+retur",
-        "sortie_mustering": "samlar ({seconds}s)",
-        "sortie_breached": "porthuset genombrott",
-        "sortie_no_bricks": "behöver tegel för utrustning",
-        "guard_title": "garnisonsvakt: {hp}/{maxHp} HP"
+        "powerup": "kraftbonus"
       },
       "space": {
         "title": "rymd",
@@ -3184,10 +3157,6 @@
         "finish_a_word_to_load": "slutför ett ord för att ladda det",
         "bomb_ready_shift_enter": "bomb redo · skift+retur",
         "bomb": "bomb {floor}%",
-        "accumulator_charge": "kondensatorladdning",
-        "accumulator": "kondensator {floor}%",
-        "accumulator_ready_alt_enter": "kondensator redo ({charge}%) · alt+retur",
-        "accumulator_overload_alt_enter": "kondensator överbelastad! · alt+retur",
         "ship": "skepp {round}",
         "score": "poäng {round}",
         "destroyed": "förstörde {value}",
@@ -3207,11 +3176,7 @@
         "it_should_be": "det ska vara ”{original}” · {errorTitle}",
         "repairing": "{title} · rätta på plats (← → flytta) och tryck retur",
         "repairing_retry": " · ett försök till",
-        "repairing_cancel": " · esc för att avbryta",
-        "lives": "{count}/{max} liv",
-        "streak": "svit {count}",
-        "combo": "kombination ×{multiplier}",
-        "escaped": "{word} rullade förbi"
+        "repairing_cancel": " · esc för att avbryta"
       },
       "ui": {
         "pause": "paus",
@@ -3432,10 +3397,6 @@
           "repaired": "{word} · reparerade {healed}",
           "bomb": "bomb!",
           "bomb_not_ready": "bomben är inte laddad ännu",
-          "accumulator": "laserstråle urladdad!",
-          "accumulator_not_ready": "kondensatorn behöver minst 25 % laddning",
-          "point_defense": "punktförsvar sköt ner {word}!",
-          "flagship_down": "flaggskepp förstört!",
           "gatling": "snabbeld · {word}",
           "shield_absorb": "skölden absorberade träffen från {source}!"
         },
@@ -3466,23 +3427,7 @@
         "wrong_kind_of_brick": "fel sorts tegel",
         "nobody_to_drop_it_on": "ingen att släppa det på",
         "two_are_running_already": "två körs redan",
-        "nothing_stored_there": "inget lagrat där",
-        "crushed_a_brute": "krossade en råskinnare",
-        "crushed_a_sapper": "krossade en sappör",
-        "crushed_a_saboteur": "krossade en sabotör",
-        "crushed_a_ladderman": "krossade en stegbärare",
-        "hit_a_brute": "träffade en råskinnare",
-        "hit_a_sapper": "träffade en sappör",
-        "hit_a_saboteur": "träffade en sabotör",
-        "hit_a_ladderman": "träffade en stegbärare",
-        "stunned": "bedövad",
-        "keg_detonated": "krutkagge detonerad",
-        "ladder_toppled": "stegen vält",
-        "sortie_deployed": "garnisonsutfall utsänt",
-        "mustering": "garnison samlas",
-        "gate_breached": "porthus genomborrat",
-        "no_bricks": "behöver tegel för utrustning",
-        "friendly_fire": "vådabeskjutning!"
+        "nothing_stored_there": "inget lagrat där"
       },
       "games_registry": {
         "GAMES": {
@@ -3857,18 +3802,6 @@
                   "drops": {
                     "label": "tegelsläpp",
                     "summary": "släpp ett tegel på en fiende för att skada eller krossa den."
-                  },
-                  "saboteur": {
-                    "label": "sabotör",
-                    "summary": "infiltratörer med krutkaggar som stormar murarna; krossa dem tidigt för att detonera kaggen bland angriparna."
-                  },
-                  "ladderman": {
-                    "label": "stegbärare",
-                    "summary": "belägringsingenjörer som sätter upp stormstegar; släpp tegel för att välta stegen och skapa en kedjereaktion."
-                  },
-                  "sortie": {
-                    "label": "garnisonsutfall",
-                    "summary": "samla försvarare från porthuset på fältet för att stoppa angripare innan de når murarna."
                   }
                 },
                 "controls": {
@@ -3877,20 +3810,11 @@
                   },
                   "i1": {
                     "action": "sikta på en sektion eller fiende"
-                  },
-                  "i2": {
-                    "action": "skicka ut garnisonsutfall till markörens kolumn"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "tegelsläpp"
-                  },
-                  "i1": {
-                    "label": "sabotörer och stegar"
-                  },
-                  "i2": {
-                    "label": "garnisonsutfall"
                   }
                 },
                 "visuals": {
@@ -3899,15 +3823,6 @@
                   },
                   "sapper-pick": {
                     "label": "sappör (hackning)"
-                  },
-                  "saboteur-keg": {
-                    "label": "sabotör (krutkagge)"
-                  },
-                  "siege-ladder": {
-                    "label": "belägringsstege"
-                  },
-                  "garrison-soldier": {
-                    "label": "garnisonssoldat"
                   },
                   "catapult-siege": {
                     "label": "katapult (belägring)"
@@ -4119,15 +4034,13 @@
                 "summary": "ladda magasinet, avvärj robotar och jaktplan och använd bomben för att rensa fältet.",
                 "highlights": [
                   "robotar bär en bokstav — skriv den utan annan text för att skjuta ner dem",
-                  "skift+retur detonerar bomben när den är laddad",
-                  "alt+retur avfyrar den genomträngande kondensatorstrålen när den är laddad"
+                  "skift+retur detonerar bomben när den är laddad"
                 ],
                 "details": [
                   "att ladda ord fyller bombmätaren. när den är full rensar skift+retur alla robotar och skadar alla fiender.",
                   "högkvalitativa laddade ord fyller kondensatorn. alt+retur avfyrar en lodrät genomträngande laser; överbelastning vid 100 % krossar sköldade skepp.",
                   "rymdstationer skjuter ut jaktplan som jagar dig. skriv ett jaktplans bokstav för att skjuta ner det.",
-                  "landminor exploderar i splitter när de träffas och träffar allt i närheten, även dig.",
-                  "sköldade skepp träffas bara av ord som uppfyller deras krav."
+                  "landminor exploderar i splitter när de träffas och träffar allt i närheten, även dig."
                 ],
                 "notes": {
                   "prompted": {
@@ -4142,10 +4055,6 @@
                   "bomb": {
                     "label": "bomb",
                     "summary": "laddas när du laddar ord. skift+retur detonerar och rensar robotar samt skadar fiender."
-                  },
-                  "accumulator": {
-                    "label": "kondensatorstråle",
-                    "summary": "laddas av rena ord med hög kvalitet. alt+retur avfyrar en genomträngande kolumnstråle; 100 % överbelastning genomborrar sköldar och förångar robotar."
                   },
                   "fighters": {
                     "label": "jaktplan",
@@ -4162,37 +4071,16 @@
                   "shields": {
                     "label": "sköldar",
                     "summary": "vissa skepp har sköldar som bara bryts av ord som matchar ett krav."
-                  },
-                  "heavyFrigate": {
-                    "label": "tung fregatt",
-                    "summary": "förstärkt för med skärmad barriär och dubbla robotbatterier."
-                  },
-                  "eliteCruiser": {
-                    "label": "elitkryssare",
-                    "summary": "tungt slagskepp med punktförsvarstorn som skjuter ner svaga ord (<30 styrka)."
-                  },
-                  "flagship": {
-                    "label": "flaggskeppechef",
-                    "summary": "massivt modulärt kommandofartyg. förstör vapensystemen och kollapsa dess sköldgenerator för att blotta bryggan."
                   }
                 },
                 "controls": {
                   "i0": {
                     "action": "detonera bomben"
-                  },
-                  "i1": {
-                    "action": "urladda kondensatorstrålen"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "bombchockvåg"
-                  },
-                  "i1": {
-                    "label": "kondensatorstråle"
-                  },
-                  "i2": {
-                    "label": "flaggskeppechef"
                   }
                 },
                 "visuals": {
@@ -4201,18 +4089,6 @@
                   },
                   "bomb-shockwave": {
                     "label": "bombchockvåg"
-                  },
-                  "capacitor-beam": {
-                    "label": "genomträngande kondensatorstråle"
-                  },
-                  "heavy-frigate": {
-                    "label": "tung fregatt"
-                  },
-                  "elite-cruiser": {
-                    "label": "elitkryssare"
-                  },
-                  "flagship-boss": {
-                    "label": "flaggskeppechef"
                   },
                   "orbital-station": {
                     "label": "omloppsstation"
@@ -4301,12 +4177,6 @@
                   },
                   "endless": {
                     "label": "ändlöst"
-                  },
-                  "marathon": {
-                    "label": "maraton"
-                  },
-                  "scroller": {
-                    "label": "rullband"
                   }
                 }
               },
@@ -4384,14 +4254,6 @@
                   "false-flag": {
                     "label": "felmarkeringar",
                     "summary": "att markera ett korrekt ord kostar poäng och (i ändlöst läge) tid."
-                  },
-                  "marathon": {
-                    "label": "maratonuthållighet",
-                    "summary": "börja med 3 liv. felmarkeringar och misslyckade rättningar kostar ett liv; tre felfria textavsnitt återställer ett."
-                  },
-                  "scroller": {
-                    "label": "rullbandsläge",
-                    "summary": "textavsnitt rullar kontinuerligt förbi på ett rullband. fånga misstagen innan de försvinner från skärmen."
                   }
                 },
                 "controls": {
@@ -4408,12 +4270,6 @@
                 "subDemos": {
                   "i0": {
                     "label": "skanna textavsnitt"
-                  },
-                  "i1": {
-                    "label": "maratonuthållighet"
-                  },
-                  "i2": {
-                    "label": "rullband"
                   }
                 },
                 "visuals": {
@@ -4425,12 +4281,6 @@
                   },
                   "false-flag-penalty": {
                     "label": "straff för felmarkering"
-                  },
-                  "marathon-lives": {
-                    "label": "maratonliv"
-                  },
-                  "scroller-belt": {
-                    "label": "rullband"
                   }
                 }
               },
