@@ -115,7 +115,9 @@
     "it_should_be": "Es sollte „{original}” · {errorTitle}",
     "repairing": "{title}· Fix it in place (← → move) und Enter drücken",
     "repairing_retry": "· Ein weiterer Versuch",
-    "repairing_cancel": "· Esc to cancel"
+    "repairing_cancel": "· Esc to cancel",
+    "find_mistake": "Einen Fehler finden: Klicken Sie auf ein Wort oder verwenden Sie die Pfeile, dann drücken Sie Enter",
+    "paused_fix": "{title} · Drücken Sie Enter, um die Korrektur fortzusetzen, oder klicken Sie auf die Stelle, an der Sie weitermachen möchten"
   },
   "ui": {
     "pause": "Pause",
@@ -184,7 +186,6 @@
     "next_passage": "Nächster Durchgang",
     "hud_found": "Durchgang{round}· Gefunden{found}Von{total}",
     "hud_score": "Punktzahl{score}",
-    "find_mistake": "Einen Fehler finden: Zeigen oder verwenden Sie die Pfeile, dann klicken oder drücken Sie Enter",
     "skip_title": "Gehen Sie weiter; was übrig bleibt, zählt als verpasst"
   },
   "errors": {
@@ -1042,7 +1043,7 @@
             "group": "Beginnen",
             "summary": "Finden Sie die Fehler, die in einer Passage gepflanzt wurden, und korrigieren Sie sie.",
             "highlights": [
-              "Zeigen Sie auf ein Wort oder navigieren Sie mit Pfeiltasten",
+              "Klicken Sie auf ein Wort oder bewegen Sie sich mit den Pfeiltasten",
               "Drücken Sie Enter, um einen Fehler zu markieren, und geben Sie dann den Fix ein"
             ],
             "details": [
@@ -1084,18 +1085,18 @@
             "group": "Überleben",
             "summary": "Scannen Sie die Passage, wählen Sie ein Wort, das Sie für falsch halten, und drücken Sie die Eingabe, um es zu markieren.",
             "highlights": [
-              "Bewegen Sie den Mauszeiger über ein Wort oder verwenden Sie Pfeiltasten, um es auszuwählen",
+              "Klicken Sie auf ein Wort oder verwenden Sie die Pfeiltasten, um es auszuwählen",
               "Markierung eines korrekten Wortes kostet Sie"
             ],
             "details": [
-              "Bewegen Sie sich mit ← → Wort für Wort oder ↑ ↓ Zeile für Zeile. Klicken oder Schweben, um zu springen.",
+              "Bewegen Sie sich mit ← → Wort für Wort oder ↑ ↓ Zeile für Zeile. Klicken Sie auf ein Wort, um dorthin zu springen; klicken Sie daneben, um die Auswahl aufzuheben.",
               "Findung und Fixierung werden separat bewertet.",
               "Das markieren eines wortes, das tatsächlich korrekt ist, zählt als falsche flagge und kostet punkte."
             ],
             "mechanics": {
               "selection": {
                 "label": "Wortauswahl",
-                "summary": "Schweben, klicken oder verwenden Sie Pfeiltasten, um ein Wort auszuwählen."
+                "summary": "Klicken Sie oder verwenden Sie die Pfeiltasten, um ein Wort auszuwählen. Auswählen kostet nichts; erst Enter markiert."
               },
               "false-flag": {
                 "label": "False Flags",
@@ -1122,8 +1123,8 @@
               "selected-word": {
                 "label": "Ausgewähltes Wort"
               },
-              "hover-cursor": {
-                "label": "Hover Cursor"
+              "click-select": {
+                "label": "Zum Auswählen klicken"
               },
               "false-flag-penalty": {
                 "label": "False Flag Strafe"
@@ -1142,7 +1143,8 @@
               "Verwenden Sie ← →, um die Pflege zu bewegen, nach Hause und Ende zu springen. Löschen und Backspace funktionieren wie gewohnt.",
               "Klicken Sie in das Wort, um den Caret an einer bestimmten Position zu platzieren.",
               "Du bekommst zwei Versuche. Wenn beide versagen, wird das richtige Wort offenbart.",
-              "Presseflucht, um eine Reparatur ohne Strafe abzusagen."
+              "Presseflucht, um eine Reparatur ohne Strafe abzusagen.",
+              "Klicken Sie während einer Korrektur auf ein anderes Wort, bleibt die Korrektur so erhalten, wie Sie sie verlassen haben, bis Sie zurückklicken."
             ],
             "mechanics": {
               "caret": {

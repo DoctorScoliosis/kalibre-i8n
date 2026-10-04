@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 3,
+    "revision": 4,
     "version": "2026-10-04",
-    "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories"
+    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
   },
   "strings": {
     "about": {
@@ -3185,7 +3185,9 @@
         "it_should_be": "dovrebbe essere “{original}” · {errorTitle}",
         "repairing": "{title} · correggilo qui (← → muovi) e premi invio",
         "repairing_retry": " · un altro tentativo",
-        "repairing_cancel": " · esc per annullare"
+        "repairing_cancel": " · esc per annullare",
+        "find_mistake": "trova un errore: fai clic su una parola o usa le frecce, poi premi invio",
+        "paused_fix": "{title} · premi invio per continuare a correggerlo, oppure fai clic dove vuoi iniziare"
       },
       "ui": {
         "pause": "pausa",
@@ -3254,7 +3256,6 @@
         "next_passage": "brano successivo ",
         "hud_found": "brano {round} · trovati {found} di {total}",
         "hud_score": "punteggio {score}",
-        "find_mistake": "trova un errore: punta o usa le frecce, poi fai clic o premi invio",
         "skip_title": "vai avanti; ciò che resta conta come mancato"
       },
       "errors": {
@@ -4103,7 +4104,7 @@
                 "group": "per iniziare",
                 "summary": "trova gli errori nascosti in un brano e correggili.",
                 "highlights": [
-                  "punta su una parola o naviga con le frecce",
+                  "fai clic su una parola o muoviti con le frecce",
                   "premi invio per segnalare un errore, poi digita la correzione"
                 ],
                 "details": [
@@ -4145,18 +4146,18 @@
                 "group": "sopravvivere",
                 "summary": "scorri il brano, seleziona una parola che pensi sia sbagliata e premi invio per segnalarla.",
                 "highlights": [
-                  "passa sopra una parola o usa le frecce per selezionarla",
+                  "fai clic su una parola o usa le frecce per selezionarla",
                   "segnalare una parola corretta ti costa"
                 ],
                 "details": [
-                  "muoviti con ← → parola per parola o ↑ ↓ riga per riga. fai clic o passa sopra per saltare.",
+                  "muoviti con ← → parola per parola o ↑ ↓ riga per riga. fai clic su una parola per saltarci; fai clic altrove per deselezionare.",
                   "trovare e correggere hanno punteggi separati.",
                   "segnalare una parola che in realtà è corretta conta come falso segnale e costa punti."
                 ],
                 "mechanics": {
                   "selection": {
                     "label": "selezione delle parole",
-                    "summary": "passa sopra, fai clic o usa le frecce per selezionare una parola."
+                    "summary": "fai clic o usa le frecce per selezionare una parola. selezionare non costa nulla; solo invio segnala."
                   },
                   "false-flag": {
                     "label": "falsi segnali",
@@ -4183,8 +4184,8 @@
                   "selected-word": {
                     "label": "parola selezionata"
                   },
-                  "hover-cursor": {
-                    "label": "cursore al passaggio"
+                  "click-select": {
+                    "label": "clic per selezionare"
                   },
                   "false-flag-penalty": {
                     "label": "penalità per falso segnale"
@@ -4203,7 +4204,8 @@
                   "usa ← → per spostare il cursore, Home ed End per saltare. Delete e Backspace funzionano normalmente.",
                   "fai clic dentro la parola per posizionare il cursore.",
                   "hai due tentativi. se falliscono entrambi, viene mostrata la parola corretta.",
-                  "premi Escape per annullare una correzione senza penalità."
+                  "premi Escape per annullare una correzione senza penalità.",
+                  "se fai clic su un’altra parola a metà correzione, la correzione resta com’era finché non ci fai di nuovo clic."
                 ],
                 "mechanics": {
                   "caret": {

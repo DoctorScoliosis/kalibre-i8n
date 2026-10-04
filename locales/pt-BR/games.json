@@ -115,7 +115,9 @@
     "it_should_be": "deveria ser “{original}” · {errorTitle}",
     "repairing": "{title} · corrija no lugar (← → para mover) e pressione enter",
     "repairing_retry": " · mais uma tentativa",
-    "repairing_cancel": " · esc para cancelar"
+    "repairing_cancel": " · esc para cancelar",
+    "find_mistake": "encontre um erro: clique em uma palavra ou use as setas, depois pressione enter",
+    "paused_fix": "{title} · pressione enter para continuar a correção ou clique onde quer começar"
   },
   "ui": {
     "pause": "pausa",
@@ -184,7 +186,6 @@
     "next_passage": "próximo trecho ",
     "hud_found": "trecho {round} · encontrados {found} de {total}",
     "hud_score": "pontuação {score}",
-    "find_mistake": "encontre um erro: aponte ou use as setas, depois clique ou pressione enter",
     "skip_title": "seguir em frente; o que restar conta como perdido"
   },
   "errors": {
@@ -1033,7 +1034,7 @@
             "group": "começando",
             "summary": "encontre os erros plantados em um trecho e corrija-os.",
             "highlights": [
-              "aponte para uma palavra ou navegue com as setas",
+              "clique em uma palavra ou mova-se com as setas",
               "pressione Enter para marcar um erro e depois digite a correção"
             ],
             "details": [
@@ -1075,18 +1076,18 @@
             "group": "sobrevivendo",
             "summary": "varra o trecho, selecione uma palavra que você acha errada e pressione Enter para marcá-la.",
             "highlights": [
-              "passe o mouse sobre uma palavra ou use as setas para selecioná-la",
+              "clique em uma palavra ou use as setas para selecioná-la",
               "marcar uma palavra correta custa pontos"
             ],
             "details": [
-              "mova com ← → palavra por palavra ou ↑ ↓ linha por linha. clique ou passe o mouse para pular.",
+              "mova com ← → palavra por palavra ou ↑ ↓ linha por linha. clique em uma palavra para pular até ela; clique fora para desmarcar.",
               "encontrar e corrigir têm pontuação separada.",
               "marcar uma palavra que está correta conta como marcação falsa e custa pontos."
             ],
             "mechanics": {
               "selection": {
                 "label": "seleção de palavra",
-                "summary": "passe o mouse, clique ou use as setas para selecionar uma palavra."
+                "summary": "clique ou use as setas para selecionar uma palavra. selecionar não custa nada; só o enter marca."
               },
               "false-flag": {
                 "label": "marcações falsas",
@@ -1113,8 +1114,8 @@
               "selected-word": {
                 "label": "palavra selecionada"
               },
-              "hover-cursor": {
-                "label": "cursor sob o mouse"
+              "click-select": {
+                "label": "clique para selecionar"
               },
               "false-flag-penalty": {
                 "label": "penalidade por marcação falsa"
@@ -1133,7 +1134,8 @@
               "use ← → para mover o cursor, Home e End para saltar. Delete e Backspace funcionam normalmente.",
               "clique dentro da palavra para colocar o cursor em uma posição específica.",
               "você tem duas tentativas. se ambas falharem, a palavra correta aparece.",
-              "pressione Escape para cancelar um reparo sem penalidade."
+              "pressione Escape para cancelar um reparo sem penalidade.",
+              "clique em outra palavra no meio de uma correção e ela espera, do jeito que você deixou, até você clicar de volta."
             ],
             "mechanics": {
               "caret": {

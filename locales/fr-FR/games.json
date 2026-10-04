@@ -115,7 +115,9 @@
     "it_should_be": "il devrait être « {original} » · {errorTitle}",
     "repairing": "{title} · corrigez-le sur place (← → déplacer) et appuyez sur entrée",
     "repairing_retry": " · un autre essai",
-    "repairing_cancel": " · échap pour annuler"
+    "repairing_cancel": " · échap pour annuler",
+    "find_mistake": "trouvez une erreur : cliquez sur un mot ou utilisez les flèches, puis appuyez sur entrée",
+    "paused_fix": "{title} · appuyez sur entrée pour reprendre la correction, ou cliquez là où vous voulez commencer"
   },
   "ui": {
     "pause": "pause",
@@ -184,7 +186,6 @@
     "next_passage": "passage suivant ",
     "hud_found": "passage {round} · trouvé {found} sur {total}",
     "hud_score": "score {score}",
-    "find_mistake": "trouvez une erreur : pointez ou utilisez les flèches, puis cliquez ou appuyez sur entrée",
     "skip_title": "Passez ; ce qui reste compte comme manqué"
   },
   "errors": {
@@ -1022,7 +1023,7 @@
             "group": "pour commencer",
             "summary": "trouvez les erreurs plantées dans un passage et corrigez-les.",
             "highlights": [
-              "pointez sur un mot ou naviguez avec les flèches",
+              "cliquez sur un mot ou déplacez-vous avec les flèches",
               "appuyez sur entrée pour signaler une erreur, puis tapez la correction"
             ],
             "details": [
@@ -1064,18 +1065,18 @@
             "group": "survivre",
             "summary": "scannez le passage, sélectionnez un mot que vous pensez être incorrect, et appuyez sur entrée pour le signaler.",
             "highlights": [
-              "survolez un mot ou utilisez les flèches pour le sélectionner",
+              "cliquez sur un mot ou utilisez les flèches pour le sélectionner",
               "signaler un mot correct vous pénalise"
             ],
             "details": [
-              "déplacez-vous avec ←→ mot par mot, ou ↑↓ ligne par ligne. cliquez ou survolez pour sauter.",
+              "déplacez-vous avec ←→ mot par mot, ou ↑↓ ligne par ligne. cliquez sur un mot pour y sauter ; cliquez ailleurs pour désélectionner.",
               "trouver et corriger sont notés séparément.",
               "signaler un mot qui est en fait correct compte comme un faux signalement et coûte des points."
             ],
             "mechanics": {
               "selection": {
                 "label": "sélection de mot",
-                "summary": "survol, clic ou flèches pour sélectionner un mot."
+                "summary": "cliquez ou utilisez les flèches pour sélectionner un mot. sélectionner ne coûte rien ; seule la touche entrée signale."
               },
               "false-flag": {
                 "label": "faux signalements",
@@ -1102,8 +1103,8 @@
               "selected-word": {
                 "label": "mot sélectionné"
               },
-              "hover-cursor": {
-                "label": "curseur de survol"
+              "click-select": {
+                "label": "cliquer pour sélectionner"
               },
               "false-flag-penalty": {
                 "label": "pénalité de faux signalement"
@@ -1122,7 +1123,8 @@
               "utilisez ←→ pour déplacer le curseur, début et fin pour sauter. supprimer et retour arrière fonctionnent normalement.",
               "cliquez dans le mot pour placer le curseur à une position spécifique.",
               "vous avez deux tentatives. si les deux échouent, le mot correct est révélé.",
-              "appuyez sur échap pour annuler une correction sans pénalité."
+              "appuyez sur échap pour annuler une correction sans pénalité.",
+              "cliquez sur un autre mot en cours de correction : la correction vous attend telle que vous l’avez laissée, jusqu’à ce que vous cliquiez de nouveau dessus."
             ],
             "mechanics": {
               "caret": {
