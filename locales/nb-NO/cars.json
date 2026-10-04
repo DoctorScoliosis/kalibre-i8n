@@ -1,0 +1,137 @@
+{
+  "slots": {
+    "body": {
+      "title": "karosseri",
+      "hint": "formen på bilen din"
+    },
+    "paint": {
+      "title": "lakk",
+      "hint": "fargen, fra fargene i temaet ditt"
+    },
+    "livery": {
+      "title": "dekor",
+      "hint": "et mønster over lakken (med egen farge)"
+    },
+    "wheels": {
+      "title": "hjul",
+      "hint": "det den ruller på"
+    },
+    "trail": {
+      "title": "spor",
+      "hint": "det den etterlater seg"
+    }
+  },
+  "parts": {
+    "body-hatch": {
+      "name": "halvkombi"
+    },
+    "body-coupe": {
+      "name": "coupé"
+    },
+    "body-beetle": {
+      "name": "boble"
+    },
+    "body-pickup": {
+      "name": "pickup"
+    },
+    "body-van": {
+      "name": "varebil"
+    },
+    "body-racer": {
+      "name": "åpen racer"
+    },
+    "body-bubble": {
+      "name": "boble"
+    },
+    "paint-accent": {
+      "name": "aksent"
+    },
+    "paint-heat-1": {
+      "name": "glør"
+    },
+    "paint-heat-2": {
+      "name": "rav"
+    },
+    "paint-heat-3": {
+      "name": "soloppgang"
+    },
+    "paint-heat-4": {
+      "name": "skarlagenrød"
+    },
+    "paint-chart-wpm": {
+      "name": "racinglinje"
+    },
+    "paint-text-dim": {
+      "name": "grafitt"
+    },
+    "livery-stripe": {
+      "name": "racingstripe"
+    },
+    "livery-checker": {
+      "name": "rutete"
+    },
+    "livery-dots": {
+      "name": "polkadotter"
+    },
+    "livery-chevrons": {
+      "name": "chevronger"
+    },
+    "livery-flames": {
+      "name": "flammer"
+    },
+    "livery-split": {
+      "name": "to-tonet"
+    },
+    "livery-number": {
+      "name": "løpsnummer"
+    },
+    "livery-midnight": {
+      "name": "midnattstjerner"
+    },
+    "wheels-plain": {
+      "name": "enkle"
+    },
+    "wheels-sport": {
+      "name": "sport"
+    },
+    "wheels-chunky": {
+      "name": "kraftige"
+    },
+    "wheels-spoked": {
+      "name": "eikede"
+    },
+    "wheels-whitewall": {
+      "name": "whitewall"
+    },
+    "wheels-gilt": {
+      "name": "forgylte"
+    },
+    "trail-dust": {
+      "name": "støv"
+    },
+    "trail-sparks": {
+      "name": "gnister"
+    },
+    "trail-bubbles": {
+      "name": "bobler"
+    },
+    "trail-ribbon": {
+      "name": "bånd"
+    },
+    "trail-stars": {
+      "name": "stjernestøv"
+    }
+  },
+  "garage": {
+    "title": "garasje",
+    "tab_title": "garasje",
+    "tab_hint": "kle opp racerbanebilen din: det er den du kjører på banen, og det alle du konkurrerer mot ser",
+    "choose_slot": "velg {slot}",
+    "paint_swatch": "{name}-lakk",
+    "livery_colour": "{tokenLabel}-dekorfarge",
+    "usual_livery_colour": "vanlig dekorfarge",
+    "livery_colour_2": "dekorfarge",
+    "this_is_your_car_on": "Dette er bilen din på banen, og for alle du konkurrerer mot. Den har bare på seg deler du har tjent inn.",
+    "your_race_car": "racerbilen din"
+  }
+}

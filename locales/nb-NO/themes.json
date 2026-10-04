@@ -1,0 +1,198 @@
+{
+  "editor": {
+    "save_theme": "lagre tema",
+    "name": "navn",
+    "light_or_dark": "lys eller mørk",
+    "readability": "lesbarhet",
+    "page": "side",
+    "background": "bakgrunn",
+    "panels": "paneler",
+    "lines_borders": "linjer og kanter",
+    "selection": "markering",
+    "text": "tekst",
+    "dim_text": "dempet tekst",
+    "accent": "aksent",
+    "typed_text": "skrevet tekst",
+    "mistakes": "feil",
+    "extra_letters": "ekstra bokstaver",
+    "caret": "markør"
+  },
+  "actions": {
+    "use": "bruk",
+    "edit": "rediger",
+    "decorate": "dekorer",
+    "export": "eksporter",
+    "delete": "slett",
+    "done": "ferdig",
+    "customise_current": "tilpass gjeldende tema",
+    "import_theme": "importer et tema",
+    "decorations_for": "dekorasjoner for {name}",
+    "use_theme": "bruk {name}",
+    "edit_theme": "rediger {name}",
+    "decorate_theme": "dekorer {name}",
+    "export_theme": "eksporter {name}",
+    "delete_theme": "slett {name}",
+    "copy_and_decorate": "kopier dette temaet og dekorer det",
+    "decorations_earned_zero": "Temadekorasjoner, som du tjener ved å spille, brukes på dine egne temaer.",
+    "decorations_earned_notice": "Du har tjent {count, plural, one {en temadekorasjon} other {# temadekorasjoner}}. De brukes på dine egne temaer, så lag en kopi av dette for å bruke {count, plural, one {den} other {dem}}.",
+    "decorations_earned_info": "Tjenes ved å spille. De følger dette temaet på denne profilen og blir ikke tatt med når du eksporterer temaet."
+  },
+  "picker": {
+    "preview": "forhåndsvisning",
+    "instructions": "hold pekeren over for å forhåndsvise · klikk eller trykk Enter for å bruke · Esc for å lukke",
+    "close": "lukk"
+  },
+  "decorationSlots": {
+    "caret": {
+      "title": "markør",
+      "hint": "rundt markøren (formen er en skriveinnstilling)"
+    },
+    "backdrop": {
+      "title": "bakgrunn",
+      "hint": "et svakt mønster bak siden"
+    },
+    "frame": {
+      "title": "ramme",
+      "hint": "rundt teksten du skriver"
+    },
+    "keystroke": {
+      "title": "tastetrykk",
+      "hint": "hvordan hver skrevne bokstav faller på plass"
+    },
+    "flourish": {
+      "title": "ornament",
+      "hint": "et lite merke ved siden av ordmerket"
+    }
+  },
+  "decorations": {
+    "caret-glow": {
+      "name": "mykt skjær"
+    },
+    "caret-halo": {
+      "name": "glorie"
+    },
+    "caret-drop": {
+      "name": "blekkdråpe"
+    },
+    "caret-trail": {
+      "name": "komethale"
+    },
+    "backdrop-dots": {
+      "name": "prikkemønster"
+    },
+    "backdrop-ruled": {
+      "name": "linjert papir"
+    },
+    "backdrop-graph": {
+      "name": "millimeterpapir"
+    },
+    "backdrop-grain": {
+      "name": "korn"
+    },
+    "backdrop-checks": {
+      "name": "myke ruter"
+    },
+    "frame-corners": {
+      "name": "hjørnemerker"
+    },
+    "frame-bookplate": {
+      "name": "boketikett"
+    },
+    "frame-tab": {
+      "name": "mappefane"
+    },
+    "frame-brackets": {
+      "name": "klammer"
+    },
+    "keystroke-ink": {
+      "name": "blekkfading"
+    },
+    "keystroke-rise": {
+      "name": "mild heving"
+    },
+    "keystroke-bloom": {
+      "name": "blomstring"
+    },
+    "flourish-leaf": {
+      "name": "blad"
+    },
+    "flourish-star": {
+      "name": "stjerne"
+    },
+    "flourish-key": {
+      "name": "tast"
+    },
+    "flourish-letter": {
+      "name": "ledsagerens bokstav"
+    },
+    "flourish-moon": {
+      "name": "måne"
+    }
+  },
+  "presets": {
+    "paper": {
+      "name": "papir"
+    },
+    "ink": {
+      "name": "blekk"
+    },
+    "dusk": {
+      "name": "skumring"
+    },
+    "eink": {
+      "name": "e-blekk"
+    },
+    "eink-night": {
+      "name": "e-blekk natt"
+    },
+    "cream": {
+      "name": "krem"
+    },
+    "rose": {
+      "name": "rose"
+    },
+    "harbour": {
+      "name": "havn"
+    },
+    "forest": {
+      "name": "skog"
+    },
+    "plum": {
+      "name": "plomme"
+    },
+    "slate": {
+      "name": "skifer"
+    },
+    "terminal": {
+      "name": "terminal"
+    },
+    "contrast": {
+      "name": "høy kontrast"
+    },
+    "contrast-night": {
+      "name": "høy kontrast natt"
+    }
+  },
+  "checks": {
+    "text_bg": "tekst på siden",
+    "text_surface": "tekst på paneler",
+    "textDim_bg": "dempet tekst på siden",
+    "textDim_surface": "dempet tekst på paneler",
+    "correct_bg": "skrevet tekst",
+    "incorrect_bg": "feil",
+    "correct_textDim": "skrevet tekst skiller seg fra tekst som fortsatt skal skrives",
+    "accent_bg": "aksent",
+    "caret_bg": "markør",
+    "extra_bg": "ekstra bokstaver",
+    "chartWpm_bg": "diagram: wpm-linje",
+    "chartRaw_bg": "diagram: rålinje",
+    "chartError_bg": "diagram: feil",
+    "heat1_bg": "tastvarme 1",
+    "heat4_bg": "tastvarme 4",
+    "not_a_theme": "ikke et tema",
+    "needs_a_name": "trenger et navn på høyst 40 tegn",
+    "scheme_must_be": "skjemaet må være lys eller mørk",
+    "bad_hex": "fargen «{token}» må være en #rrggbb-verdi",
+    "not_readable": "ikke lesbart nok: {labels}"
+  }
+}

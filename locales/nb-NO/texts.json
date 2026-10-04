@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "texts": "mine tekster",
+    "texts_blurb": "Din egen tekst, øvd akkurat slik den er skrevet.",
+    "quotes": "mine sitater",
+    "quotes_blurb": "Sitater du legger til, blir med i sitat- og blandede tester (60 tegn eller mer).",
+    "datasets": "datasett",
+    "datasets_blurb": "Bøker og samlinger som leverer sitater, ordlister og øvelser."
+  },
+  "labels": {
+    "title": "tittel",
+    "text_aria": "tekst",
+    "paste_placeholder": "lim inn tekst her",
+    "my_texts": "mine tekster",
+    "datasets": "datasett",
+    "sections_aria": "tekstseksjoner",
+    "subfolders_too": " også undermapper",
+    "drop_hint": "eller slipp filer her",
+    "words_count": "{count, plural, one {# ord} other {# ord}}",
+    "paragraphs_count": "{count, plural, one {# avsnitt} other {# avsnitt}}"
+  },
+  "actions": {
+    "save": "lagre",
+    "save_changes": "lagre endringer",
+    "cancel": "avbryt",
+    "practise": "øv",
+    "edit": "rediger",
+    "delete": "slett",
+    "delete_confirm": "slette?",
+    "yes_delete": "ja, slett",
+    "keep": "behold",
+    "practise_aria": "øv på {title}",
+    "edit_aria": "rediger {title}",
+    "delete_aria": "slett {title}",
+    "new_text": "ny tekst",
+    "import_files": "importer .txt eller .md",
+    "import_folder": "importer en mappe"
+  },
+  "status": {
+    "saved": "lagret «{title}»",
+    "updated": "oppdatert «{title}»",
+    "imported": "importert «{title}»",
+    "deleted": "slettet «{title}»",
+    "no_folder_files": "ingen .txt- eller .md-filer i den mappen",
+    "empty": "Ingen lagrede tekster ennå. Lim inn noe du vil øve på, eller importer en .txt-fil. Tekstene blir på denne enheten."
+  },
+  "quotes": {
+    "quote_placeholder": "sitatet",
+    "quote_aria": "sitat",
+    "author_placeholder": "hvem sa det",
+    "source_placeholder": "valgfritt",
+    "add_quote": "legg til sitat",
+    "author": "forfatter",
+    "source": "kilde",
+    "authors": "forfattere",
+    "sources": "kilder",
+    "added": "sitat lagt til",
+    "updated": "sitat oppdatert",
+    "deleted": "sitat slettet",
+    "unknown": "— ukjent",
+    "too_short": " · for kort for tester ({min}+ tegn)",
+    "empty": "Legg til sitater du liker; de vises i sitat- og blandede tester. Samlinger som en quotes.json-fil kan installeres under datasett."
+  },
+  "github_import": {
+    "github_s_limit_for_downloads": "GitHubs grense for nedlastinger uten innlogging er nådd. Prøv igjen om en time.",
+    "that_repository_or_folder_wasn": "Fant ikke repositoriet eller mappen (den kan være privat).",
+    "github_answered": "GitHub svarte {status}.",
+    "that_isn_t_a_github": "Dette er ikke en GitHub-adresse til et repositorium (github.com/owner/repo).",
+    "no_txt_or_md_files": "Ingen .txt- eller .md-filer ble funnet der.",
+    "the_files_couldn_t_be": "Filene kunne ikke lastes ned.",
+    "listing_files": "viser filer…",
+    "downloading_progress": "laster ned {current} av {total}…"
+  },
+  "importers": {
+    "doesn_t_look_like_a": "{name} ser ikke ut som en tekstfil.",
+    "isn_t_utf_8_text": "{name} er ikke UTF-8-tekst.",
+    "only_files_can_be_imported": "{name}: bare {ACCEPTED_EXTENSIONS}-filer kan importeres.",
+    "is_larger_than_5_mb": "{name} er større enn 5 MB.",
+    "is_empty": "{name} er tom."
+  },
+  "quote_collections": {
+    "no_quotes_were_found_in": "Det ble ikke funnet noen sitater i den filen."
+  }
+}

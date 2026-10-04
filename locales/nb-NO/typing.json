@@ -1,0 +1,174 @@
+{
+  "mode": {
+    "time": "tid",
+    "words": "ord",
+    "quote": "sitat",
+    "book": "bok",
+    "mixed": "blandet",
+    "sustained": "utholdenhet",
+    "custom": "egendefinert",
+    "mistakes": "feil"
+  },
+  "mode_label": "modus",
+  "sustained_title": "Hold et tempo eller en nøyaktighet så lenge du kan",
+  "status": {
+    "caps_lock": "caps lock er på",
+    "restart": "start på nytt",
+    "pause": "pause",
+    "resume": "fortsett",
+    "caps_lock_label": "caps lock",
+    "num_lock_off": "num lock er av",
+    "num_lock_off_title": "nummertastaturet sender piltaster når num lock er av",
+    "time_so_far": "tid så langt",
+    "focus_click": "klikk eller trykk på en tast for å fokusere",
+    "restart_symbol": "↻ "
+  },
+  "hints": {
+    "tab_enter_restart": "tab → enter starter på nytt · esc kommandoer",
+    "tab_tab_restart": "tab → tab starter på nytt · esc kommandoer",
+    "enter_to_restart": "enter for å starte på nytt",
+    "tab_to_restart": "tab for å starte på nytt"
+  },
+  "focus": {
+    "label": "fokus: {mode}",
+    "aria_label": "fokusvisning: {mode}. Trykk for å endre.",
+    "off": "av",
+    "line": "linje",
+    "sentence": "setning"
+  },
+  "instructions": {
+    "standard": "Skriv teksten som vises. Mellomrom går til neste ord, og Backspace retter. Tab og deretter Enter starter på nytt. Escape åpner kommandolinjen.",
+    "sustained": "Hold tempoet ditt på eller over målet. Tre sekunder under målet avslutter testen. Mellomrom går til neste ord, og Backspace retter. Tab og deretter Enter starter på nytt. Escape åpner kommandolinjen.",
+    "accuracy": "Hold nøyaktigheten din på eller over målet mens du skriver i et jevnt tempo. Fem sekunder under målet avslutter testen. Mellomrom går til neste ord, og Backspace retter. Tab og deretter Enter starter på nytt. Escape åpner kommandolinjen."
+  },
+  "mode_bar": {
+    "custom": "egendefinert {unit}",
+    "enable_a_book_dataset": "aktiver et bokdatasett",
+    "add_a_text_to_read": "legg til en tekst å lese",
+    "from": "fra {percent} %",
+    "start_over": "begynn på nytt",
+    "read_this_one_from_the": "Les denne fra begynnelsen",
+    "add_a_text_to_practise": "legg til en tekst å øve på",
+    "manage": "administrer",
+    "change": "endre",
+    "choose_what_and_how_to": "Velg hva og hvordan du vil øve",
+    "TABS": {
+      "time": {
+        "label": "tid"
+      },
+      "words": {
+        "label": "ord"
+      },
+      "quote": {
+        "label": "sitat"
+      },
+      "mixed": {
+        "label": "blandet"
+      },
+      "sustained": {
+        "label": "utholdenhet",
+        "title": "Hold et tempo eller en nøyaktighet så lenge du kan"
+      },
+      "custom": {
+        "label": "egendefinert"
+      }
+    },
+    "SUSTAINED_SOURCES": {
+      "wordstream": {
+        "label": "vanlige ord"
+      },
+      "quotes": {
+        "label": "sitater"
+      },
+      "work": {
+        "label": "bøker"
+      },
+      "text": {
+        "label": "mine tekster"
+      }
+    },
+    "BOOK_ORDER_OPTIONS": {
+      "sequential": {
+        "label": "i rekkefølge",
+        "title": "Fortsett der du sluttet, og deretter neste bok"
+      },
+      "passages": {
+        "label": "passasjer",
+        "title": "Tilfeldige tekstpassasjer fra boken"
+      },
+      "chunks": {
+        "label": "deler",
+        "title": "Tilfeldige tekststrekninger fra boken"
+      }
+    },
+    "source": {
+      "wordstream": {
+        "label": "vanlige ord"
+      },
+      "quotes": {
+        "label": "sitater"
+      }
+    },
+    "nodes": {
+      "pace": {
+        "label": "tempo",
+        "title": "Hold den nylige hastigheten din på eller over et mål (3 sekunder til å hente deg inn)"
+      },
+      "accuracy": {
+        "label": "nøyaktighet"
+      }
+    },
+    "lengthOptions": {
+      "entire": {
+        "label": "hele teksten"
+      }
+    },
+    "custom_title": "egendefinert",
+    "accuracy_title": "Hold den nylige nøyaktigheten din på eller over et mål, med minst {floor} wpm (5 sekunder til å hente deg inn)",
+    "keep_up": "hold tritt",
+    "text_source": "tekstkilde",
+    "text_to_read": "tekst å lese",
+    "reading_order": "leserekkefølge",
+    "text_to_practise": "tekst å øve på",
+    "book_to_read": "bok å lese",
+    "unit_words": "ord",
+    "unit_wpm": "wpm",
+    "unit_seconds": "sekunder"
+  },
+  "training_notice": {
+    "mistakes": "feil, {join}",
+    "suggested": "{count, plural, one {# foreslått} other {# foreslåtte}}",
+    "ready": "{count, plural, one {# klar til øving} other {# klare til øving}}"
+  },
+  "type_view_goal": {
+    "today": "✓ {formatGoalAmount} i dag",
+    "today_2": "{floor} / {formatGoalAmount} i dag",
+    "aria": "daglig mål: {done} av {target} i dag{met}",
+    "aria_met": ", nådd"
+  },
+  "type_view_pace": {
+    "target": "mål {target} %",
+    "target_wpm": "mål {target} wpm",
+    "wpm": "{round} / {target} wpm",
+    "below_target_words_per_minute": "Under målet: {target} ord per minutt. {seconds} sekunder til å hente deg inn.",
+    "too_slow_keep_at_least": "For sakte: hold minst {floorWpm} ord per minutt. {seconds} sekunder til å hente deg inn.",
+    "accuracy_below_percent_seconds_to": "Nøyaktighet under {target} prosent. {seconds} sekunder til å hente deg inn.",
+    "back_on_target": "Tilbake på målet.",
+    "back_on_pace": "Tilbake på tempo."
+  },
+  "type_view": {
+    "wpm": "{round} wpm · {round2} %",
+    "test_complete_words_per_minute": "Test fullført: {round} ord per minutt, {toFixed} prosent nøyaktighet, {errors} feil."
+  },
+  "typing_input": {
+    "typing_input": "skrivefelt"
+  },
+  "type_view_book": {
+    "now_reading": "Leser nå {title}{by}.",
+    "by_author": " av {author}",
+    "now": "nå: {title}{by}"
+  },
+  "text_providers": {
+    "unknown_practice_source": "Ukjent øvingskilde \"{source}\""
+  }
+}
