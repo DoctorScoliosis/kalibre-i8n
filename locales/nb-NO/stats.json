@@ -2,9 +2,9 @@
   "sections": {
     "overview": "oversikt",
     "periods": "per dag",
-    "bests": "personliga rekord",
+    "bests": "personlige rekorder",
     "history": "historikk",
-    "games": "spel",
+    "games": "spill",
     "numpad": "numerisk tastatur",
     "xp": "xp",
     "keys": "taster",
@@ -14,14 +14,14 @@
   "export": {
     "csv": "csv",
     "json": "json",
-    "game_runs": "eksportere spelkörningar",
+    "game_runs": "eksporter spillkjøringer",
     "every_test": "eksportere alle tester",
     "days": "eksportere dager"
   },
   "empty": {
     "no_tests": "ingen tester ennå",
-    "no_tests_games_only": "Ingen tester ennå: bare spel hittills. Se statistikk → spel.",
-    "no_tests_overview": "Ingen tester ennå. Din hastighet, nøyaktighet og de taster du har svårast for vises her.",
+    "no_tests_games_only": "Ingen tester ennå: bare spill så langt. Se statistikk → spill.",
+    "no_tests_overview": "Ingen tester ennå. Hastigheten, nøyaktigheten og tastene du synes er vanskeligst, vises her.",
     "not_enough_typing": "ikke tilstrekkelig med skriving ennå"
   },
   "overview": {
@@ -29,21 +29,21 @@
     "accuracy": "nøyaktighet",
     "tests": "tester",
     "time_typing": "skrivtid",
-    "completed": "slutförda",
+    "completed": "fullførte",
     "restarted": "omstartade",
-    "abandoned": "övergivna",
-    "not_counted": "ikke räknade",
+    "abandoned": "forlatte",
+    "not_counted": "ikke telt",
     "words": "ord",
     "characters": "tegn",
-    "averages_note": "gjennomsnitt og rekord bruker bare slutförda tester{notCounted, select, true {; tester som bare er tangentbordsmatning räknas ikke} other {}}",
-    "chart_heading": "{scope, select, all {alla} other {senaste}} {count} {count, plural, one {test} other {tester}} · wpm",
-    "chart_window_aria": "hvordan många tester som skal vises i diagrammet",
+    "averages_note": "gjennomsnitt og rekorder bruker bare fullførte tester{notCounted, select, true {; tester med bare tastaturmashing telles ikke} other {}}",
+    "chart_heading": "{scope, select, all {alle} other {siste}} {count} {count, plural, one {test} other {tester}} · wpm",
+    "chart_window_aria": "hvor mange tester som skal vises i diagrammet",
     "by_characters": "etter tegn"
   },
   "bests": {
-    "race_this": "tävla mot denne",
-    "empty": "slutför ett test for att sätta ett",
-    "stats_summary": "{survived, select, true {{survivedTime} klarade · } other {}}{wpm} wpm · {accuracy}% · {date}"
+    "race_this": "konkurrer med denne",
+    "empty": "fullfør en test for å sette en",
+    "stats_summary": "{survived, select, true {{survivedTime} overlevde · } other {}}{wpm} wpm · {accuracy}% · {date}"
   },
   "periods": {
     "no_tests": "ingen tester",
@@ -51,49 +51,49 @@
     "best_accuracy": "best {best} · {accuracy}%",
     "daily_goal": "daglig mål: {target}",
     "today": " · i dag {amount}{met, select, true { ✓} other {}}",
-    "streak": " · svit {count, plural, one {# dag} other {# dager}}",
-    "no_daily_goal": "Ingenting daglig mål. ",
-    "set_one": "ställ in ett",
-    "time_typed_per_day": "skrivtid per dag · senaste 30 dagarna",
+    "streak": " · rekke {count, plural, one {# dag} other {# dager}}",
+    "no_daily_goal": "Ingen daglig mål. ",
+    "set_one": "sett en",
+    "time_typed_per_day": "skrivetid per dag · siste 30 dager",
     "day_by_day": "dag for dag",
-    "no_tests_last_30_days": "ingen tester de senaste 30 dagarna",
+    "no_tests_last_30_days": "ingen tester de siste 30 dagene",
     "time_of_day": "tid på dagen",
-    "time_zone_note": "Dager og tider följer enhetens tidszon."
+    "time_zone_note": "Dager og tider følger enhetens tidssone."
   },
   "games": {
-    "no_games": "ingen spel spelade ennå. Spel finnes under spel i menyn.",
-    "runs_count": "{count, plural, one {# körning} other {# körningar}}",
+    "no_games": "ingen spill spilt ennå. Spill finnes under spill i menyen.",
+    "runs_count": "{count, plural, one {# kjøring} other {# kjøringer}}",
     "last": "sist {date}",
-    "best_run": "beste körning: {summary}",
-    "bests_note": "rekord räknas fra körningar enligt hver spels aktuella regler",
-    "bests_by_difficulty": "rekord etter svårighetsgrad",
-    "recent_runs": "senaste körningarna",
-    "old_rules": "{game} (gamla regler)",
-    "runs": "körningar",
-    "time_played": "speltid"
+    "best_run": "beste kjøring: {summary}",
+    "bests_note": "rekorder teller kjøringer etter hvert spills gjeldende regler",
+    "bests_by_difficulty": "rekorder etter vanskelighetsgrad",
+    "recent_runs": "siste kjøringer",
+    "old_rules": "{game} (gamle regler)",
+    "runs": "kjøringer",
+    "time_played": "spilletid"
   },
   "numpad": {
-    "no_runs": "ingen körningar med numerisk tastatur ennå. De finnes på sidan for numerisk tastatur under lär.",
-    "ksph_note": "tangenttryckningar per time (ksph) räknar tangenterna i korrekta oppføringer, inklusive operatorer og enter",
-    "bests": "tiotangentsrekord",
-    "sums_by_kind": "räknesätt etter type",
+    "no_runs": "ingen kjøringer med numerisk tastatur ennå. De finnes på siden for numerisk tastatur under læring.",
+    "ksph_note": "tastetrykk per time (ksph) teller tastene i korrekte oppføringer, inkludert operatorer og Enter",
+    "bests": "ti-tasters rekorder",
+    "sums_by_kind": "summer etter type",
     "weak_spots": "svaga punkter",
-    "recent_runs": "senaste körningarna",
+    "recent_runs": "siste kjøringer",
     "ten_key_tests": "tiotangentstester",
     "fastest": "snabbast",
     "lessons_mastered": "mestret leksjoner",
-    "sums_right": "rätta svar",
+    "sums_right": "riktige summer",
     "time_on_pad": "tid på tastaturet"
   },
   "numpad_pane": {
     "lesson_desc": "leksjon {number}{mastered, select, true { · mestret} other {}}",
     "till_desc": "kassa · nivå {level}",
-    "sums_desc": "räknesätt · {form}",
+    "sums_desc": "summer · {form}",
     "tenkey_desc": "tiotast · {form} · {limit}",
     "mix": "en blandning",
     "served_count": "{count} serverade",
-    "sums_right": "{right} av {answers} riktig",
-    "ksph_result": "{ksph} ksph{aborted, select, true { (avsluttet tidigt)} other {}}"
+    "sums_right": "{right} av {answers} riktige",
+    "ksph_result": "{ksph} ksph{aborted, select, true { (avsluttet tidlig)} other {}}"
   },
   "headings": {
     "day": "dag",
@@ -116,37 +116,37 @@
     "what": "hva",
     "result": "resultat",
     "date": "dato",
-    "ghost": "spöke",
-    "actions": "åtgärder",
+    "ghost": "spøkelse",
+    "actions": "handlinger",
     "test": "test",
-    "game": "spel",
-    "mode": "läge",
-    "difficulty": "svårighetsgrad",
+    "game": "spill",
+    "mode": "modus",
+    "difficulty": "vanskelighetsgrad",
     "outcome": "utfall",
     "score": "poeng"
   },
   "hesitations": {
-    "explain": "Ikke feil: taster du skrev riktig, men först etter en paus på minst {factor}× ditt eget vanlige mellanrum mellom tangenterna (aldri under {minMs} ms), så de mäts mot ditt tempo oavsett hvordan raskt du skriver. Pauser over {maxS} s räknas som ett avbrott (lengre om du skriver gjennom att leta etter taster). Pauser som återkommer föreslås for trening, precis som feil.",
-    "empty": "Fra og med nå mäts tester også etter tvekan.",
+    "explain": "Ikke feil: taster du skrev riktig, men først etter en pause på minst {factor}× ditt eget vanlige mellomrom mellom taster (aldri under {minMs} ms), så de måles mot tempoet ditt uansett hvor raskt du skriver. Pauser over {maxS} s teller som et avbrudd (lengre hvis du skriver mens du leter etter taster). Pauser som gjentar seg, foreslås for trening, på samme måte som feil.",
+    "empty": "Tester fra nå av måles også for nøling.",
     "hesitations": "tvekan",
     "per_minute": "per minutt",
-    "tests_measured": "mätta tester",
+    "tests_measured": "målte tester",
     "keys_pause_before": "taster du pausar før",
     "pairs_pause_inside": "bokstavspar du pausar i",
     "words_pause_before": "ord du pausar før",
     "no_pattern_yet": "ingenting mønster ennå"
   },
   "keys": {
-    "picker_label": "tangentbordslayout: ",
-    "dropdown_label": "tangentbordslayout",
-    "least_accurate_keys": "minst träffsäkra taster",
-    "slowest_keys": "långsammaste taster",
-    "least_accurate_pairs": "minst träffsäkra bokstavspar",
-    "slowest_pairs": "långsammaste bokstavspar"
+    "picker_label": "tastaturoppsett: ",
+    "dropdown_label": "tastaturoppsett",
+    "least_accurate_keys": "minst treffsikre taster",
+    "slowest_keys": "tregeste taster",
+    "least_accurate_pairs": "minst treffsikre bokstavpar",
+    "slowest_pairs": "tregeste bokstavpar"
   },
   "mistakes": {
-    "errors_summary": "{uncorrected} orättade · {corrected} rettet · {capsLock} med caps lock",
-    "most_common": "vanligast",
+    "errors_summary": "{uncorrected} ukorrigerte · {corrected} korrigerte · {capsLock} med Caps Lock",
+    "most_common": "vanligste",
     "all_mistakes": "alle feil",
     "keys": "taster",
     "shift": "shift",
@@ -155,25 +155,25 @@
     "none_yet": "ingen ennå"
   },
   "xp": {
-    "blurb": "XP kommer fra korrekt skriving (skalat etter nøyaktighet), lite fra bonusar og fra feil du trener bort. Det räknas ut fra din historikk.",
+    "blurb": "XP kommer fra korrekt skriving (skalert etter nøyaktighet), litt fra bonuser og fra feil du trener bort. Det beregnes ut fra historikken din.",
     "total_xp": "totalt xp",
-    "last_7_days": "senaste 7 dagarna",
+    "last_7_days": "siste 7 dager",
     "where_from": "hvor det kom fra",
-    "xp_per_day": "xp per dag · senaste 30 dagarna"
+    "xp_per_day": "xp per dag · siste 30 dager"
   },
   "history": {
     "replay": "repris",
     "race": "løp",
     "delete": "fjerne",
-    "race_title": "Tävla mot denne körningen som ett spöke, på dens egen tekst",
-    "no_saved_ghosts": "ingen lagrede spöken ennå. Lagre ett etter ett test eller en repris.",
+    "race_title": "Konkurrer mot denne kjøringen som et spøkelse, på dens egen tekst",
+    "no_saved_ghosts": "ingen lagrede spøkelser ennå. Lagre ett etter en test eller en reprise.",
     "no_history": "ingen tester i historiken ennå",
-    "pinned": "fäst",
+    "pinned": "festet",
     "all_tests": "alle tester",
-    "saved_ghosts": "lagrede spöken",
-    "saved_ghosts_count": "lagrede spöken ({count})",
-    "pager_aria": "historiksidor",
-    "pager_prev": "‹ föregående",
+    "saved_ghosts": "lagrede spøkelser",
+    "saved_ghosts_count": "lagrede spøkelser ({count})",
+    "pager_aria": "historikksider",
+    "pager_prev": "‹ forrige",
     "pager_next": "neste ›",
     "pager_range": "{first}–{last} av {count}",
     "page_aria": "side {number}"
@@ -181,9 +181,9 @@
   "shared": {
     "level": "nivå",
     "level_aria": "XP til neste nivå",
-    "prev": "föreg.",
+    "prev": "forrige",
     "next": "neste",
-    "prev_aria": "föregående side",
+    "prev_aria": "forrige side",
     "next_aria": "neste side",
     "page_info": "{current} av {total}",
     "xp": "{toLocaleString} / {toLocaleString2} xp",
@@ -194,26 +194,26 @@
     "of": "{round}% · {hesitated} av {toLocaleString}"
   },
   "overview_pane": {
-    "recent_tests": "senaste tester",
+    "recent_tests": "siste tester",
     "group_stats": "{wpm} wpm · {accuracy}% · {count, plural, one {# test} other {# tester}}"
   },
   "periods_pane": {
     "wpm": " wpm"
   },
   "stats_charts": {
-    "wpm_of_recent_tests_use": "WPM for senaste testerna. Bruk venstre- og högerpiltangenterna for att lese hver test.",
-    "recent_tests": "Senaste tester",
-    "complete_a_couple_of_tests": "Slutför ett par tester for att se en trend.",
+    "wpm_of_recent_tests_use": "WPM for de siste testene. Bruk venstre- og høyrepilene for å lese hver test.",
+    "recent_tests": "Siste tester",
+    "complete_a_couple_of_tests": "Fullfør et par tester for å se en trend.",
     "accuracy": "{value}% nøyaktighet",
     "not_enough_typing": "ikke tilstrekkelig med skriving",
     "ms": "{round} ms",
-    "keyboard_coloured_by_how_often": "Tastaturet er färgat etter hvordan ofte hver tast skrivs riktig på første försöket. Tabellen nedan viser samma värden.",
-    "use_the_left_and_right": "{label}. Bruk venstre- og högerpiltangenterna for att lese hver dag.",
+    "keyboard_coloured_by_how_often": "Tastaturet er farget etter hvor ofte hver tast skrives riktig på første forsøk. Tabellen nedenfor viser de samme verdiene.",
+    "use_the_left_and_right": "{label}. Bruk venstre- og høyrepilene for å lese hver dag.",
     "no_typing": "ingen skriving",
     "day_tests": "{count, plural, one {# test} other {# tester}}",
     "day_wpm": " · {wpm} wpm"
   },
   "stats": {
-    "sections_label": "statistiksektioner"
+    "sections_label": "statistikkseksjoner"
   }
 }
