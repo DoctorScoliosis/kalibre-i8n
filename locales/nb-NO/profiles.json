@@ -35,7 +35,7 @@
   "folder_restore": {
     "pick_the_folder_kalibre_saved": "velg mappen der kalibre lagrede. Den inneholder en kalibre.json-fil (eldre sikkerhetskopier er bare .kalibre-profile-filer, som også fungerer).",
     "choose_the_folder": "velg mappen",
-    "reading_the_folder": "läser mappen…",
+    "reading_the_folder": "leser mappen…",
     "nothing_kalibre_saved_yet": "kalibre har ikke lagret noe ennå.",
     "restored_profiles_are_added_alongside": "återställda profiler legges til ved siden av dem som finnes her; ingenting skrivs over.",
     "pick_another_folder": "velg en annan mappe",
@@ -136,7 +136,7 @@
     "delete_for_good_2": "fjerne permanent",
     "deleting": "tar bort…",
     "name_and_picture": "navn og bild",
-    "a_password_or_passkey_keeps": "Et passord eller en passnøkkel hindrer andre som bruker denne nettleseren fra Kalibres vyer. Det krypterer ikke det som lagras i nettleseren.",
+    "a_password_or_passkey_keeps": "Et passord eller en passnøkkel hindrer andre som bruker denne nettleseren fra Kalibres visninger. Det krypterer ikke det som lagres i nettleseren.",
     "rerun_setup": "kör konfigurationen igjen",
     "an_export_is_a_compressed": "En export er en komprimerad .kalibre-profile-fil med denne profilens historikkk. Dess passord og passnøkler följer med som lås, men komprimering er ikke kryptering, så förvara den privat.",
     "removes_passkeys": "Dette tar også bort {count, plural, one {dess passnøkkel} other {dess # passnøkler}}.",
@@ -181,7 +181,7 @@
     "when_should_kalibre_suggest_a": "når skal kalibre foreslå et feil å øve på?",
     "automatically_start_training_mistakes_wh": "begynne å trene automatisk feil når de er klar?",
     "a_daily_goal": "et daglig mål?",
-    "how_often_should_the_backup": "hvordan ofte skal sikkerhetskopieringsmappen uppdateras? (innstillinger → data)",
+    "how_often_should_the_backup": "hvordan ofte skal sikkerhetskopieringsmappen oppdateres? (innstillinger → data)",
     "DEFAULT_TESTS": {
       "time-15": {
         "label": "15 sekunder"
@@ -259,7 +259,7 @@
     "name_hint": "et smeknamn er bäst: undvik ditt riktiga navn og personlig information.",
     "starter_library_note": "et startbibliotek med bøker i public domain följer med kalibre, så tester er klar uten å noe trenger lastes ner",
     "companion_note": "de följer denne profilen. Skapa en annan profil for å träffa den andre.",
-    "restore_note": "kalibre kan gjenopprette dine profiler, datasett og skrifter fra mappen der de lagredes.",
+    "restore_note": "kalibre kan gjenopprette dine profiler, datasett og skrifter fra mappen der de ble lagret.",
     "keyboard_note": "skärmtastaturet fungerer for tester og spill, men et bluetooth- eller usb-tastatur gjør dem rättvisare, og touch typing-leksjonene kräver verkligen et. kalibre fungerer bäst på en datamaskin.",
     "keyboard_tip": " tips: legg til kalibre på hemskärmen (dele → legg til på hemskärmen) slik at safari behåller dine data; i en flik bør du återvända minst en gång i veckan.",
     "auto_accept_yes": "ja, legg til dem automatisk",
@@ -288,7 +288,7 @@
     "that_image_couldn_t_be_2": "Bilden kunde ikke göras tillräckligt liten."
   },
   "kalibre_folder": {
-    "that_folder_was_made_by": "Den mappen skapades av en nyare version av kalibre. Oppdatere denne (last om for å oppdatere) og försök igjen."
+    "that_folder_was_made_by": "Den mappen ble opprettet av en nyare version av kalibre. Oppdatere denne (last om for å oppdatere) og prøv igjen."
   },
   "password_utils": {
     "passwords_need_a_secure_connection": "Passord trenger en sikker anslutning (https:// eller localhost).",
