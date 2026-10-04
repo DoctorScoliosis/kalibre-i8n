@@ -401,5 +401,229 @@
     "gate_breached": "porthus genomborrat",
     "no_bricks": "behöver tegel för utrustning",
     "friendly_fire": "vådabeskjutning!"
+  },
+  "games_registry": {
+    "GAMES": {
+      "feed": {
+        "options": {
+          "serving": {
+            "label": "serveringsbricka",
+            "choices": {
+              "off": {
+                "label": "av"
+              },
+              "on": {
+                "label": "på"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "komma igång",
+            "group": "komma igång",
+            "summary": "skriv ord för att ladda skeden och bär sedan maten till varelsen.",
+            "highlights": [
+              "skriv ett ord för att ladda det på skeden",
+              "klicka och dra skeden till varelsen för att servera"
+            ],
+            "details": [
+              "varje ord du serverar återställer tid. längre ord ger mer.",
+              "håll varelsen glad för att överleva; fel mål eller missar gör att maten blir kvar på skeden."
+            ],
+            "mechanics": {
+              "mood": {
+                "label": "humör",
+                "summary": "varelsens humör sjunker med tiden om den inte matas."
+              },
+              "patience": {
+                "label": "tålamod",
+                "summary": "en timer räknar ner. att servera ett ord som passar återställer tid."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "ladda skeden med ett ord"
+              }
+            },
+            "visuals": {
+              "mood-content": {
+                "label": "mätt"
+              },
+              "mood-peckish": {
+                "label": "småhungrig"
+              },
+              "mood-starving": {
+                "label": "utsvulten"
+              }
+            }
+          },
+          "creature-requests": {
+            "label": "varelsen önskar",
+            "group": "komma igång",
+            "summary": "varelsen ber om en sorts ord — matcha det för att få full tid.",
+            "highlights": [
+              "läs uppmaningen ovanför varelsen",
+              "ett matchande ord ger full tid; ett felaktigt ord kostar tid"
+            ],
+            "details": [
+              "önskemålen omfattar korta eller långa ord, ord som börjar med en bokstav eller ord som innehåller vissa bokstäver.",
+              "fastnat en stund eller missat två gånger? ett ord som passar visas svagt på varelsen och är värt halva tiden."
+            ],
+            "notes": {
+              "hard": {
+                "text": "uppmaningarna är mer specifika och du får mindre tid."
+              }
+            },
+            "mechanics": {
+              "prompts": {
+                "label": "uppmaningar",
+                "summary": "varelsen visar vilken sorts ord den vill ha."
+              },
+              "hint": {
+                "label": "magledtråd",
+                "summary": "efter inaktivitet eller två missar visas ett giltigt ord svagt på varelsen."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "ladda skeden med ett ord"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "magledtråd"
+              }
+            },
+            "visuals": {
+              "prompt-need": {
+                "label": "orduppmaning"
+              },
+              "belly-hint": {
+                "label": "magledtråd (halva tiden)"
+              }
+            }
+          },
+          "snack-mode": {
+            "label": "snackläge",
+            "group": "komma igång",
+            "summary": "varelsen äter vilket ord som helst — starkare ord fyller den mer, men den blir hungrigare snabbare.",
+            "highlights": [
+              "vilket giltigt ord som helst matar varelsen",
+              "längre och mer träffsäkra ord återställer mer tid"
+            ],
+            "details": [
+              "det finns inga uppmaningar: skriv vilket ord du vill.",
+              "varelsen tappar tålamodet snabbare än i kräsen ätare, så hastigheten spelar roll."
+            ],
+            "controls": {
+              "i0": {
+                "action": "ladda skeden med ett ord"
+              }
+            },
+            "visuals": {
+              "free-eating": {
+                "label": "vilket giltigt ord som helst"
+              },
+              "fast-patience": {
+                "label": "accelererad hunger"
+              }
+            }
+          },
+          "buffet": {
+            "label": "bufféservering",
+            "group": "komma igång",
+            "summary": "gäster beställer flera sorters ord. servera ord till bordet så äter de det som passar.",
+            "highlights": [
+              "gäster anländer med beställningar på 1–3 ordtyper",
+              "håll den sammanlagda tillfredsställelsen över den röda linjen"
+            ],
+            "details": [
+              "skriv ett ord och tryck mellanslag för att lägga det på bordet. gästerna äter det som matchar deras beställningar.",
+              "en fylld beställning gör gästen nöjd och höjer tillfredsställelsen. en gäst som väntar för länge går därifrån missnöjd.",
+              "nonsensord kastas och sänker tillfredsställelsen. skrivfel ger brända rätter värda hälften.",
+              "rätter som lämnas på bordet blir gamla och går till spillo."
+            ],
+            "mechanics": {
+              "table": {
+                "label": "bord",
+                "summary": "serverade ord läggs på ett gemensamt bord. gästerna äter det som matchar."
+              },
+              "satisfaction": {
+                "label": "tillfredsställelse",
+                "summary": "en mätare från 0–100. om den sjunker till bottenlinjen stänger buffén."
+              },
+              "orders": {
+                "label": "beställningar",
+                "summary": "varje gäst har 1–3 krav på ordtyp på sin biljett."
+              },
+              "stale": {
+                "label": "gamla rätter",
+                "summary": "oupplockade rätter blir gamla och sänker tillfredsställelsen."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "servera ord till bordet"
+              }
+            },
+            "visuals": {
+              "guest-ticket": {
+                "label": "beställningsbiljett"
+              },
+              "buffet-table": {
+                "label": "serveringsbord"
+              },
+              "satisfaction-floor": {
+                "label": "tillfredsställelsens botten"
+              }
+            }
+          },
+          "serving": {
+            "label": "fysisk servering",
+            "group": "komma igång",
+            "summary": "ladda ord på skeden och bär den fysiskt till varelsen för att servera.",
+            "highlights": [
+              "skriv ett ord för att ladda det på skeden",
+              "klicka på skeden, dra den till varelsen och släpp för att servera"
+            ],
+            "details": [
+              "matchande ord matar varelsen och återställer tid; fel ord kostar tid.",
+              "släpp utanför varelsen för att behålla maten och försöka igen.",
+              "tryck Escape för att avbryta maten på skeden."
+            ],
+            "mechanics": {
+              "spoon": {
+                "label": "sked",
+                "summary": "ett giltigt skrivet ord laddar skeden. klicka och dra för att servera."
+              },
+              "targeting": {
+                "label": "målsökning",
+                "summary": "håll muspekaren över varelsen för att markera den och släpp sedan för att leverera maten."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "ladda skeden"
+              },
+              "i1": {
+                "action": "bär och servera"
+              },
+              "i2": {
+                "action": "avbryt mat"
+              }
+            },
+            "visuals": {
+              "loaded-spoon": {
+                "label": "laddad sked"
+              },
+              "creature-highlight": {
+                "label": "målmarkering"
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
