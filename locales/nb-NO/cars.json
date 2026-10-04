@@ -1,0 +1,137 @@
+{
+  "slots": {
+    "body": {
+      "title": "karosseri",
+      "hint": "formen på din bil"
+    },
+    "paint": {
+      "title": "lack",
+      "hint": "dens farge, fra temats farger"
+    },
+    "livery": {
+      "title": "dekor",
+      "hint": "ett mønster over lacken (med egen farge)"
+    },
+    "wheels": {
+      "title": "hjul",
+      "hint": "det den rullar på"
+    },
+    "trail": {
+      "title": "spor",
+      "hint": "det den lämnar etter sig"
+    }
+  },
+  "parts": {
+    "body-hatch": {
+      "name": "halvkombi"
+    },
+    "body-coupe": {
+      "name": "coupé"
+    },
+    "body-beetle": {
+      "name": "bubbla"
+    },
+    "body-pickup": {
+      "name": "pickup"
+    },
+    "body-van": {
+      "name": "skåpbil"
+    },
+    "body-racer": {
+      "name": "åpen racer"
+    },
+    "body-bubble": {
+      "name": "bubbla"
+    },
+    "paint-accent": {
+      "name": "accent"
+    },
+    "paint-heat-1": {
+      "name": "glöd"
+    },
+    "paint-heat-2": {
+      "name": "bärnsten"
+    },
+    "paint-heat-3": {
+      "name": "soluppgång"
+    },
+    "paint-heat-4": {
+      "name": "scharlakansröd"
+    },
+    "paint-chart-wpm": {
+      "name": "racinglinje"
+    },
+    "paint-text-dim": {
+      "name": "grafit"
+    },
+    "livery-stripe": {
+      "name": "racingrand"
+    },
+    "livery-checker": {
+      "name": "rutigt"
+    },
+    "livery-dots": {
+      "name": "prickar"
+    },
+    "livery-chevrons": {
+      "name": "chevrongaller"
+    },
+    "livery-flames": {
+      "name": "lågor"
+    },
+    "livery-split": {
+      "name": "tvåton"
+    },
+    "livery-number": {
+      "name": "startnummer"
+    },
+    "livery-midnight": {
+      "name": "midnattsstjärnor"
+    },
+    "wheels-plain": {
+      "name": "enkla"
+    },
+    "wheels-sport": {
+      "name": "sport"
+    },
+    "wheels-chunky": {
+      "name": "kraftiga"
+    },
+    "wheels-spoked": {
+      "name": "ekrade"
+    },
+    "wheels-whitewall": {
+      "name": "whitewall"
+    },
+    "wheels-gilt": {
+      "name": "förgyllda"
+    },
+    "trail-dust": {
+      "name": "damm"
+    },
+    "trail-sparks": {
+      "name": "gnistor"
+    },
+    "trail-bubbles": {
+      "name": "bubblor"
+    },
+    "trail-ribbon": {
+      "name": "band"
+    },
+    "trail-stars": {
+      "name": "stjärnstoft"
+    }
+  },
+  "garage": {
+    "title": "garage",
+    "tab_title": "garage",
+    "tab_hint": "klä upp din racingbil: det er den du kör på banan og det alle du tävlar mot ser",
+    "choose_slot": "välj {slot}",
+    "paint_swatch": "{name}-lack",
+    "livery_colour": "{tokenLabel} dekorfärg",
+    "usual_livery_colour": "vanlig dekorfärg",
+    "livery_colour_2": "dekorfärg",
+    "this_is_your_car_on": "Dette er din bil på banan og for alle du tävlar mot. Den bär bare deler du har tjänat in.",
+    "your_race_car": "din racingbil"
+  }
+}
