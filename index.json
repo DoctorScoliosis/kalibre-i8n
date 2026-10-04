@@ -12,14 +12,14 @@
       "englishName": "German",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 1,
-      "version": "2026-10-03",
+      "revision": 2,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Initial German candidate translation",
+      "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/de-DE/manifest.json",
       "pack": "packs/de-DE.json",
-      "sha256": "403c979f8cc5de596b6fbfeba37fd75083b041b45f199ab0c44e3545eeaea531",
-      "bytes": 326241
+      "sha256": "3d28db9f11b36943e30b94ca35da0e19f7b0c84f7c9930ae0eb56c82fdb33771",
+      "bytes": 319465
     },
     {
       "id": "en-GB",
@@ -27,14 +27,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 3,
-      "version": "2026-10-02",
+      "revision": 4,
+      "version": "2026-10-04",
       "reviewed": "native",
-      "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording",
+      "changes": "Synced with the application after the Games 0.70 rollback",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "695cfe683367e52f69e2d3db815f41f0c99f716bd7e348ae0e3c93bf5f541835",
-      "bytes": 303206
+      "sha256": "e20a45603957bea65528efc65b05a54ffba8fcffb77443733d843bb07065a8c6",
+      "bytes": 296678
     },
     {
       "id": "es-ES",
