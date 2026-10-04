@@ -13,7 +13,7 @@
     "new_profile": "ny profil",
     "start_fresh": "begynne om fra begynnelsen",
     "back": "tilbake",
-    "keep_signed_in": "hatll mig inloggad på denne enheten",
+    "keep_signed_in": "hold mig logget ind på denne enhed",
     "unlock": "lats opp",
     "unlock_passkey": "lats opp med en adgangsnøgle"
   },
@@ -55,7 +55,7 @@
   },
   "guest_banner": {
     "guest_profile": "gjestprofil",
-    "your_tests_mistakes_stats_and": "dine tester, fejl, statistik og XP lagres i denne nettleseren, men sikkerhetskopieras ikke, og profilen kan ikke latsas. gem dine fremgang for å beholde dem i din egen profil.",
+    "your_tests_mistakes_stats_and": "Dine tests, fejl, statistik og XP gemmes i denne browser, men sikkerhedskopieres ikke, og profilen kan ikke låses. Gem dine fremskridt for at beholde dem i din egen profil.",
     "you_re_trying_kalibre_as": "Du prøvr kalibre som gjest. ",
     "this_browser_isn_t_keeping": "denne nettleseren gemmer ingenting, så ingenting lagres nur vinduet lukkes. For å beholde det du gør, last ned din profil og åpne den i et almindelig fönster.",
     "guest_session": "gjests økt: "
@@ -63,7 +63,7 @@
   "profile_context_menu": {
     "stats": "statistik",
     "texts": "tekster",
-    "save_this_profile_as_a": "gem denne profilen som en fil (i kalibre-mappen om det finnes en)",
+    "save_this_profile_as_a": "gem denne profil som en fil (i kalibre-mappen, hvis den findes)",
     "save_profile": "gem profil",
     "load_a_profile_file_added": "Last en profilfil, lagt til ved siden av de andre (ingenting skrivs over)",
     "load_profile": "last profil",
@@ -97,14 +97,14 @@
     "passwords_need_a_secure_connection": "adgangskode trenger en sikker anslutning (https:// eller localhost), så de er ikke tilgængelige her.",
     "this_is_a_guest_profile": "Dette er en gjestprofil. gem dine fremgang først (meldingen lengst opp på siden), og legg siden til et adgangskode eller en adgangsnøgle her.",
     "locked_with_a_password": "Latst med et adgangskode.",
-    "no_password_anyone_using_this": "Ingenting adgangskode: vem som helst som bruger denne nettleseren kan åpne profilen.",
+    "no_password_anyone_using_this": "Ingen adgangskode: enhver, der bruger denne browser, kan åbne profilen.",
     "change_password": "ændre adgangskode",
     "set_a_password": "ange et adgangskode",
     "remove_password": "fjern adgangskode",
     "the_new_passwords_don_t": "De nye passorden matchar ikke.",
     "working": "arbetar…",
     "password_removed": "adgangskode fjernet",
-    "password_saved_the_profile_asks": "adgangskode gemt; profilen fratgar efter det nur Kalibre åpnes",
+    "password_saved_the_profile_asks": "adgangskode gemt; profilen låses derefter, når Kalibre åbnes",
     "save_password": "gem adgangskode",
     "passkey_name": "passnøkkelns navn",
     "passkey_renamed": "passnøkkeln har bytt navn",
@@ -116,12 +116,12 @@
     "for": "for {rpId}",
     "remove_passkey_added": "fjern adgangsnøgle {label}, tilføjet {format}",
     "passkey_removed": "adgangsnøgle borttagen",
-    "no_passkeys_yet_a_passkey": "ingen adgangsnøgler ennå. En adgangsnøgle latser opp denne profilen uden å du trenger skrive passordet.",
+    "no_passkeys_yet_a_passkey": "ingen adgangsnøgler endnu. En adgangsnøgle låser denne profil op, uden at du behøver skrive adgangskoden.",
     "add_a_passkey": "legg til en adgangsnøgle",
     "follow_your_browser_s_prompt": "följ webbläsarens instruktioner…",
     "passkey_added_the_lock_screen": "adgangsnøgle lagt til; latseskjermen erbjuder den næste gatng",
     "preparing_the_file": "forbereder filen…",
-    "the_only_profile_can_t": "den enda profilen kan ikke tas bort",
+    "the_only_profile_can_t": "den eneste profil kan ikke fjernes",
     "delete_this_profile": "slet denne profil",
     "step_of": "steg {value} av {length}",
     "export_it_first": "eksportere den først",
@@ -129,7 +129,7 @@
     "use_a_passkey": "brug en adgangsnøgle",
     "that_passkey_couldn_t_be": "passnøkkeln kunde ikke kontrolleres.",
     "that_password_is_not_right": "passordet er ikke rigtigt.",
-    "this_profile_is_locked_so": "denne profilen er latst, så bekreft å det er du.",
+    "this_profile_is_locked_so": "denne profil er låst, så bekræft, at det er dig.",
     "confirm": "bekreft",
     "or": "eller",
     "delete_for_good": "slet permanent ({left})",
@@ -171,7 +171,7 @@
     "progress": "{current} av {total}",
     "progress_keys": " · enter for å fortsette · esc for å hoppa over",
     "keep_an_automatic_backup_in": "beholde en automatisk sikkerhedskopi i en mappe på denne datamaskinen? (nettleseren kan rensa sin egen lagring)",
-    "save_a_backup_of_this": "gem en sikkerhedskopi av denne profilen i ”{name}” nå?",
+    "save_a_backup_of_this": "gem en sikkerhedskopi af denne profil i ”{name}” nu?",
     "who_ll_guide_your_touch": "vem skal guida dig gjennom touch typing-leksjonene?",
     "new_here_or_been_here": "ny her eller varit her förut?",
     "kalibre_works_better_with_a": "kalibre fungerer bättre med et tastatur",
@@ -240,7 +240,7 @@
     "touchStep": {
       "ok": {
         "label": "førstattt",
-        "detail": "fortsæt med denne enheten"
+        "detail": "fortsæt med denne enhed"
       }
     },
     "buildSteps": {
@@ -258,7 +258,7 @@
     "name_prompt": "hva skal vi kalla dig?",
     "name_hint": "et smeknamn er best: unngå dit riktiga navn og personlig informasjon.",
     "starter_library_note": "et startbibliotek med bøger i public domain følger med kalibre, så tester er klar uden å noget trenger lastes ned",
-    "companion_note": "de følger denne profilen. Skapa en annen profil for å träffa den andre.",
+    "companion_note": "de følger denne profil. Opret en anden profil for at møde den anden.",
     "restore_note": "kalibre kan gjenopprette dine profiler, datasæt og skrifter fra mappen der de blev gemt.",
     "keyboard_note": "skjermtastaturet fungerer for tester og spil, men et bluetooth- eller usb-tastatur gør dem rättvisare, og touch typing-leksjonene kräver virkelig et. kalibre fungerer best på en datamaskin.",
     "keyboard_tip": " tips: legg til kalibre på hjemskjermen (dele → legg til på hjemskjermen) slik at safari behatller dine data; i en fane bør du komme tilbake minst én gang i uken.",
@@ -272,12 +272,12 @@
   "passkey_utils": {
     "this_browser_can_t_use": "Denne nettleseren kan ikke bruke adgangsnøgler her (de kräver https:// eller localhost).",
     "that_passkey_uses_a_kind": "Den passnøkkeln bruger en typ av nyckel som Kalibre ikke kan kontrollere. Prøv en annen enhet eller browser.",
-    "no_passkey_for_this_profile": "ingen adgangsnøgle for denne profilen fungerer på denne adressen.",
+    "no_passkey_for_this_profile": "ingen adgangsnøgle for denne profil fungerer på denne adresse.",
     "not_a_der_signature": "ikke en DER-signatur",
     "not_a_der_integer": "ikke et DER-heltall",
     "integer_too_long": "heltalet er for latngt",
     "the_passkey_request_was_cancelled": "Forespørselen om adgangsnøgle blev avbrutt eller tog for lang tid.",
-    "that_device_already_has_a": "Den enheten har allerede en adgangsnøgle for denne profilen.",
+    "that_device_already_has_a": "Den enhed har allerede en adgangsnøgle for denne profil.",
     "passkeys_aren_t_allowed_at": "adgangsnøgler er ikke tillattna på denne adressen.",
     "the_passkey_didn_t_work": "Passnyckeln fungerade ikke."
   },
@@ -293,10 +293,10 @@
   "password_utils": {
     "passwords_need_a_secure_connection": "adgangskode trenger en sikker anslutning (https:// eller localhost).",
     "use_at_least_characters": "brug minst {MIN_PASSWORD_LENGTH} tegn.",
-    "this_profile_is_locked_and": "Denne profilen er latst, og adgangskode kräver en sikker anslutning (https:// eller localhost)."
+    "this_profile_is_locked_and": "Denne profil er låst, og adgangskode kræver en sikker forbindelse (https:// eller localhost)."
   },
   "profile_export_v2": {
-    "that_profile_isn_t_there": "Den profilen finnes ikke lengre."
+    "that_profile_isn_t_there": "Den profil findes ikke længere."
   },
   "profile_file": {
     "this_browser_can_t_open": "Denne nettleseren kan ikke åpne komprimerade profilfiler. Prøv en gældende version av Chrome, Edge, Firefox eller Safari.",
