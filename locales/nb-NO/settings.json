@@ -1,0 +1,745 @@
+{
+  "schema": {
+    "mistakeSensitivity": {
+      "label": "foreslå feil å øve på",
+      "option": {
+        "relaxed": "bare tydliga mønster",
+        "normal": "normal",
+        "eager": "tidigt"
+      },
+      "description": "hvordan mye bevis som krävs før et forslag"
+    },
+    "autoAcceptMistakes": {
+      "label": "legg automatisk til feil i träningen",
+      "description": "begynne automatisk trene kvalificerade feil"
+    },
+    "adaptiveMix": {
+      "label": "øve på ord i ordtester",
+      "option": {
+        "light": "noen",
+        "strong": "flere",
+        "off": "av"
+      },
+      "description": "blanda in ord med feil som bevakas"
+    },
+    "goalType": {
+      "label": "daglig mål",
+      "option": {
+        "off": "inget",
+        "minutes": "minutter",
+        "words": "ord",
+        "xp": "xp"
+      },
+      "description": "hvordan mye du siktar på å skrive hver dag"
+    },
+    "goalMinutes": {
+      "label": "minutter per dag",
+      "description": "daglig mål i minutter"
+    },
+    "goalWords": {
+      "label": "ord per dag",
+      "description": "daglig mål i ord"
+    },
+    "questDifficulty": {
+      "label": "vanskelighetsgrad for daglige oppdrag",
+      "option": {
+        "easy": "lett",
+        "normal": "normal",
+        "hard": "vanskelig"
+      },
+      "description": "hvordan mye uppdragen og dagens utmaning skal utmana dig, og hvordan mye XP de gir. En endring gäller fra morgondagens oppdrag"
+    },
+    "lessonCompanion": {
+      "label": "leksjonsledsager"
+    },
+    "commonCapitals": {
+      "label": "store bokstaver i vanliga ord"
+    },
+    "paragraphBreaks": {
+      "label": "styckebrytningar",
+      "description": "trykk enter vid slutet av stycken"
+    },
+    "wordPool": {
+      "label": "ordliste",
+      "option": {
+        "200": "200 vanliga ord"
+      }
+    },
+    "wordLength": {
+      "label": "ordlängd",
+      "option": {
+        "everyday": "dagligdagse",
+        "some_long": "noen lange ord",
+        "long": "lange ord",
+        "common": "dagligdagse",
+        "mixed": "noen lange ord"
+      },
+      "description": "lengre og vanskeligere ord i tids- og ordtester"
+    },
+    "wordSpelling": {
+      "label": "staving i ordtester",
+      "option": {
+        "both": "begge (som skrevne)",
+        "uk": "brittisk engelska (colour, centre)",
+        "us": "amerikansk engelska (color, center)"
+      },
+      "description": "stavningsvariant i ordtester og øvelser"
+    },
+    "textSize": {
+      "label": "textstorlek i skriveområdet"
+    },
+    "fontFamily": {
+      "label": "skrivtypsnitt"
+    },
+    "fontWeight": {
+      "label": "skrivtypsnittets vekt"
+    },
+    "lineHeight": {
+      "label": "linjehøyde i skriveområdet"
+    },
+    "letterSpacing": {
+      "label": "bokstavavstand i skriveområdet"
+    },
+    "caretStyle": {
+      "label": "markörstil",
+      "option": {
+        "line": "linje",
+        "block": "block",
+        "underline": "understrykning"
+      }
+    },
+    "smoothCaret": {
+      "label": "mjuk markør",
+      "description": "markøren glider mellom bokstäverna"
+    },
+    "focusMode": {
+      "label": "fokus",
+      "option": {
+        "line": "gjeldende rad",
+        "sentence": "setning",
+        "none": "av"
+      },
+      "description": "dempe ned tekst utanför raden eller meningen"
+    },
+    "liveMetrics": {
+      "label": "live-wpm og nøyaktighet"
+    },
+    "mistakeDisplay": {
+      "label": "vise feil som",
+      "option": {
+        "expected": "förväntad bokstav",
+        "typed": "skrevet bokstav"
+      }
+    },
+    "restartKey": {
+      "label": "omstartstangent",
+      "description": "taster som startar om et test",
+      "option": {
+        "tab-enter": "tab → enter",
+        "tab-tab": "tab → tab"
+      }
+    },
+    "layout": {
+      "label": "tangentbordslayout"
+    },
+    "stenoMode": {
+      "label": "jag skriver med",
+      "option": {
+        "keyboard": "et tastatur",
+        "steno": "en stenomaskin"
+      }
+    },
+    "defaultDuration": {
+      "label": "standardlängd for test",
+      "description": "längden på et tidstest"
+    },
+    "defaultWordCount": {
+      "label": "standardantal ord",
+      "description": "längden på et ordtest"
+    },
+    "mode": {
+      "label": "läge",
+      "description": "ljust, mörkt eller följ systemet",
+      "option": {
+        "system": "följ systemet",
+        "light": "ljust",
+        "dark": "mörkt"
+      }
+    },
+    "themeLight": {
+      "label": "ljust tema",
+      "description": "farger når ljust läge brukes",
+      "option": {
+        "paper": "paper",
+        "eink": "e-ink",
+        "cream": "cream",
+        "rose": "rose",
+        "harbour": "harbour",
+        "contrast": "hög kontrast"
+      }
+    },
+    "themeDark": {
+      "label": "mörkt tema",
+      "description": "farger når mörkt läge brukes",
+      "option": {
+        "ink": "ink",
+        "dusk": "dusk",
+        "eink-night": "e-ink night",
+        "forest": "forest",
+        "plum": "plum",
+        "slate": "slate",
+        "terminal": "terminal",
+        "contrast-night": "hög nattkontrast"
+      }
+    },
+    "theme": {
+      "label": "tema",
+      "description": "farger for hele appen",
+      "option": {
+        "system": "följ systemet",
+        "paper": "paper",
+        "ink": "ink",
+        "dusk": "dusk",
+        "eink": "e-ink",
+        "eink-night": "e-ink night",
+        "cream": "cream",
+        "rose": "rose",
+        "harbour": "harbour",
+        "forest": "forest",
+        "plum": "plum",
+        "slate": "slate",
+        "terminal": "terminal",
+        "contrast": "hög kontrast",
+        "contrast-night": "hög nattkontrast"
+      }
+    },
+    "customThemes": {
+      "label": "dine temaer"
+    },
+    "typingFontSize": {
+      "label": "textstorlek i skriveområdet",
+      "description": "storleken på texten du skriver"
+    },
+    "typingFont": {
+      "label": "skrivtypsnitt"
+    },
+    "typingFontWeight": {
+      "label": "skrivtypsnittets vekt",
+      "description": "hvordan fet texten du skriver er",
+      "option": {
+        "300": "300",
+        "400": "400",
+        "500": "500",
+        "600": "600",
+        "700": "700"
+      }
+    },
+    "typingLineHeight": {
+      "label": "linjehøyde i skriveområdet",
+      "description": "mellanrum mellom skrivrader"
+    },
+    "typingLetterSpacing": {
+      "label": "bokstavavstand i skriveområdet",
+      "description": "mellanrum mellom bokstaver"
+    },
+    "caret": {
+      "label": "markörstil",
+      "description": "markörens form",
+      "option": {
+        "line": "linje",
+        "block": "block",
+        "underline": "understrykning"
+      }
+    },
+    "linesAhead": {
+      "label": "rader framåt",
+      "description": "hvordan många rader som vises",
+      "option": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
+    },
+    "showLiveStats": {
+      "label": "live-wpm og nøyaktighet",
+      "description": "wpm og nøyaktighet mens du skriver"
+    },
+    "errorDisplay": {
+      "label": "vise feil som",
+      "description": "hva en feil bokstav viser",
+      "option": {
+        "expected": "förväntad bokstav",
+        "typed": "skrevet bokstav"
+      }
+    },
+    "keyboardLayout": {
+      "label": "tangentbordslayout",
+      "description": "dette talar om for Kalibre var tangenterna sitter for å bedöma grannar; det ändrar ikke hva du skriver",
+      "option": {
+        "qwerty": "QWERTY (US)",
+        "dvorak": "Dvorak",
+        "colemak": "Colemak",
+        "colemak-dh": "Colemak-DH",
+        "workman": "Workman",
+        "azerty": "AZERTY (French)",
+        "qwertz": "QWERTZ (German)"
+      }
+    },
+    "inputMethod": {
+      "label": "jag skriver med",
+      "description": "en stenomaskin sender hele ord på én gang, så Kalibre noterar bare helordsfel og lägger touch typing-lektionerna åt sidan",
+      "option": {
+        "keyboard": "et tastatur",
+        "steno": "en stenomaskin"
+      }
+    },
+    "capitals": {
+      "label": "store bokstaver i vanliga ord",
+      "description": "sitat og dine tekster behåller alltid sina egne"
+    },
+    "wordList": {
+      "label": "ordliste",
+      "description": "hvordan många vanliga ord som brukes",
+      "option": {
+        "200": "200 vanliga ord",
+        "1000": "1k vanliga ord",
+        "5000": "5k vanliga ord"
+      }
+    },
+    "customSampling": {
+      "label": "egne tekster",
+      "description": "hele texten eller et avsnitt",
+      "option": {
+        "passage": "slumpmässigt avsnitt",
+        "entire": "hele texten"
+      }
+    },
+    "customQuoteLength": {
+      "label": "avsnittslängd",
+      "description": "teckenintervall for et eget avsnitt",
+      "option": {
+        "short": "kort (upp til 100 tegn)",
+        "medium": "medel (upp til 300 tegn)",
+        "long": "långt (upp til 600 tegn)",
+        "huge": "mye långt (upp til 1 500 tegn)",
+        "massive": "extremt långt (upp til 4 000 tegn)"
+      }
+    },
+    "customNormalisation": {
+      "label": "tegn i egne tekster",
+      "description": "hva egne tekster behåller",
+      "option": {
+        "preserve": "som skrevne",
+        "no-punctuation": "ingen interpunktion",
+        "letters": "bare bokstaver",
+        "letters-numbers": "bokstaver + sifre"
+      }
+    },
+    "mixedCategories": {
+      "label": "blandade citatlängder",
+      "description": "vilka citatlängder som brukes i blandade tester",
+      "option": {
+        "short": "kort",
+        "medium": "medel",
+        "long": "lang",
+        "huge": "mye lang",
+        "massive": "extremt lang"
+      }
+    },
+    "goalXp": {
+      "label": "xp per dag",
+      "description": "daglig mål i xp fra skriving (ikke bonusar); en minut med felfri skriving gir ungefär 8–15"
+    },
+    "companion": {
+      "label": "leksjonsledsager",
+      "description": "väljs vid konfiguration og följer profilen",
+      "option": {
+        "cal": "Cal",
+        "libby": "Libby"
+      }
+    },
+    "mascotChatter": {
+      "label": "{companion}s prat",
+      "description": "hvordan mye {companion} säger",
+      "option": {
+        "chatty": "pratsom",
+        "quiet": "bare det viktiga"
+      }
+    },
+    "mascotSounds": {
+      "label": "{companion}s lyd",
+      "description": "små kvitter under leksjoner (aldri mitt i et ord), et spinn når den klappas og et fniss når den kittlas"
+    },
+    "mascotVolume": {
+      "label": "{companion}s volum",
+      "description": "hvordan högt {companion} hörs"
+    },
+    "uiFontSize": {
+      "label": "textstorlek i gränssnittet",
+      "description": "storleken på gränssnittets tekst"
+    },
+    "reduceMotion": {
+      "label": "minska rörelse",
+      "description": "färre animationer",
+      "option": {
+        "system": "följ systemet",
+        "on": "på",
+        "off": "av"
+      }
+    },
+    "colourVision": {
+      "label": "färgseende",
+      "description": "anpassa farger for färgblindhet",
+      "option": {
+        "typical": "typiskt",
+        "red-green": "röd-grön (protanopi, deuteranopi)",
+        "blue-yellow": "blå-gul (tritanopi)",
+        "no-colour": "uten farge"
+      }
+    },
+    "uiFont": {
+      "label": "gränssnittstypsnitt",
+      "description": "skrift for menyer og tekst utanför skriveområdet",
+      "option": {
+        "system": "systemets standard",
+        "atkinson": "Atkinson Hyperlegible",
+        "opendyslexic": "OpenDyslexic"
+      }
+    },
+    "boldText": {
+      "label": "fet tekst",
+      "description": "kraftigare tekst i hele gränssnittet"
+    },
+    "textSpacing": {
+      "label": "textavstånd",
+      "description": "större avstånd mellom bokstaver og ord",
+      "option": {
+        "normal": "normalt",
+        "wide": "brett"
+      }
+    },
+    "contrast": {
+      "label": "kontrast",
+      "description": "gjør tekst og kanter tydligare",
+      "option": {
+        "system": "följ systemet",
+        "normal": "normal",
+        "more": "mer"
+      }
+    },
+    "pageWidth": {
+      "label": "sidbredd",
+      "description": "bredden på sidans innhold",
+      "option": {
+        "narrow": "smal (720 px)",
+        "normal": "normal (880 px)",
+        "wide": "bred (1 000 px)",
+        "full": "full bredde"
+      }
+    },
+    "language": {
+      "label": "språk",
+      "description": "gränssnittsspråk; last om etter endring",
+      "option": {
+        "en-GB": "English (UK)",
+        "en-US": "English (US)",
+        "zh-CN": "简体中文 (Chinese Simplified)",
+        "qps": "pseudo",
+        "qps-wide": "pseudo wide"
+      }
+    },
+    "backupFrequency": {
+      "label": "automatiske sikkerhetskopier",
+      "description": "når säkerhetskopieringsmappen uppdateras (Chrome og Edge)",
+      "option": {
+        "change": "strax etter hver endring",
+        "test": "etter hver test",
+        "5min": "högst var 5:e minut",
+        "hourly": "högst hver time",
+        "manual": "bare når jag ber om det"
+      }
+    },
+    "updateCheck": {
+      "label": "søk etter oppdateringer",
+      "description": "hvordan ofte kalibre leter etter en ny version; den uppdaterar ändå bare når du ber om det",
+      "option": {
+        "5min": "var 5:e minut",
+        "15min": "var 15:e minut",
+        "hourly": "hver time",
+        "launch": "når kalibre öppnas",
+        "manual": "bare når jag ber om det"
+      }
+    },
+    "enabledDatasets": {
+      "label": "aktiverade datasett"
+    },
+    "libraries": {
+      "label": "datasetbibliotek"
+    },
+    "wordFilter": {
+      "label": "filtrera stötande ord"
+    },
+    "blockedWords": {
+      "label": "egne ord å filtrera"
+    },
+    "companionLook": {
+      "label": "{companion}s utseende"
+    },
+    "stenoNoteShown": {
+      "label": "stenonotering vist"
+    },
+    "lastVisitDay": {
+      "label": "siste besöket"
+    },
+    "calSeen": {
+      "label": "{companion}s gjenstand sette"
+    },
+    "calPets": {
+      "label": "gånger {companion} klappats"
+    },
+    "calPokes": {
+      "label": "gånger {companion} petats"
+    },
+    "calTickles": {
+      "label": "gånger {companion} kittlats"
+    },
+    "calPokeFits": {
+      "label": "gånger {companion} petats for mye"
+    },
+    "raceNoticeSeen": {
+      "label": "lopmeddelande sett"
+    },
+    "lastSeenVersion": {
+      "label": "senast sette version"
+    },
+    "updateTold": {
+      "label": "oppdatering nämnd"
+    },
+    "calArmLifts": {
+      "label": "gånger {companion}s arm lyfts"
+    },
+    "restartRun": {
+      "label": "siste start"
+    },
+    "calRestartBest": {
+      "label": "flest snabba omstarter på rad"
+    },
+    "achievementsSeen": {
+      "label": "sette prestationer"
+    },
+    "achievementsVersionSeen": {
+      "label": "sedd prestationsversion"
+    },
+    "themeDecorations": {
+      "label": "temadekorationer"
+    },
+    "profileCard": {
+      "label": "profilkort"
+    },
+    "cardItemsSeen": {
+      "label": "sette profilkortsobjekt"
+    },
+    "raceCardNoticeSeen": {
+      "label": "sett melding om tävlingskort"
+    },
+    "car": {
+      "label": "tävlingsbil"
+    },
+    "carPartsSeen": {
+      "label": "sette bildeler"
+    },
+    "raceConfig": {
+      "label": "løpsvalg"
+    },
+    "raceModesNoticeSeen": {
+      "label": "sett melding om tävlingslägen"
+    },
+    "decorationsSeen": {
+      "label": "sette temadekorationer"
+    },
+    "achievementsComplete": {
+      "label": "alle prestationer"
+    },
+    "engagement": {
+      "label": "engagemang"
+    },
+    "partnerLook": {
+      "label": "partnerns utseende"
+    },
+    "lessonConfig": {
+      "label": "lektionskonfiguration"
+    },
+    "lessonPrep": {
+      "label": "lektionssteg og oppvarminger"
+    },
+    "gameConfigs": {
+      "label": "spelkonfigurationer"
+    },
+    "lastConfig": {
+      "label": "siste testkonfiguration"
+    },
+    "numpad": {
+      "label": "jag har et numerisk tastatur",
+      "description": "for øvelse med numerisk tastatur og for å vise om num lock er av"
+    },
+    "numpadSeen": {
+      "label": "sett numerisk tastatur"
+    },
+    "numpadTold": {
+      "label": "numpadövning nämnd"
+    },
+    "numpadOffered": {
+      "label": "numpadövning erbjuden"
+    },
+    "sumsConfig": {
+      "label": "räkneuppställning"
+    },
+    "numpadConfig": {
+      "label": "tiotangentstestets konfiguration"
+    }
+  },
+  "actions": {
+    "export": "eksportere innstillinger",
+    "import": "importere innstillinger"
+  },
+  "tip": {
+    "esc_change": "esc: endre valfri innstilling gjennom å skrive"
+  },
+  "notice": {
+    "imported_count": "importerade {count} innstilling(ar)"
+  },
+  "data_panel": {
+    "done_the_browser_will_keep": "Klart: nettleseren kommer å beholde dine data.",
+    "the_browser_said_no_for": "Nettleseren sa nej for tillfället. Å installera kalibre som en app eller legge til et bokmärke ändrar ofte dette; håll under tiden en sikkerhetskopi.",
+    "this_browser_can_t_save": "Denne nettleseren kan ikke lagre til en mappe på egen hånd, så säkerhetskopiera manuelt nedan. (Chrome og Edge kan göra det automatisk.)",
+    "choose_a_folder_on_this": "Velg en mappe på denne datorn så blir den din kalibre-mappe: denne profilen sparas där noen sekunder etter hver test eller endring, tillsammans med de datasett og teckensnitt du har lagt til. Om mappen allerede inneholder annat skapas en ”kalibre”-mappe inuti.",
+    "saving_this_profile_and_the": "Lagrer denne profilen samt tillagda datasett og teckensnitt i kalibre-mappen ”{folderName}” · {last}.{problem}",
+    "when_an_update_changes_how": "Når en oppdatering ändrar hvordan kalibre lagrar saker sparas en kopia av alt fra precis før, ifall noe gick feil. De två siste behålls.",
+    "what_takes_the_space": "hva som tar plats",
+    "bring_profiles_datasets_and_fonts": "Hent tilbake profiler, datasett og teckensnitt fra en kalibre-mappe: etter å nettleseren rensats eller på en annan datamaskin. Inget här skrivs over. Fungerer i alle nettleser.",
+    "shared": "delad",
+    "the_file_is_ready": "filen er klar",
+    "couldn_t_save_see_settings": "kunde ikke lagre (se innstillinger → data)",
+    "storage_persistent": "Nettleseren behåller kalibres data tills du selv rensar den.",
+    "storage_best_effort": "Nettleseren kan rensa kalibres data om disken begynner få slut på utrymme (Safari gjør også det etter 7 dager uten besök). Be den å beholde data og håll en sikkerhetskopi.",
+    "storage_unsupported": "Denne nettleseren kan ikke lova å beholde kalibres data, så håll en sikkerhetskopi.",
+    "storage_using": " Bruker {used}.",
+    "overdue": "Denne profilen har ikke säkerhetskopierats på over {days} dager. ",
+    "never_backed_up": "Denne profilen har ikke säkerhetskopierats ennå. ",
+    "last_backup": "Siste säkerhetskopiering {when}. ",
+    "export_explained": "En export er en fil med denne profilens historik (sparas i kalibre-mappens exportmapp når det finnes en); gjenopprett den med ”importere en profilfil” i profilmenyn.",
+    "copy_line": "fra {when}, precis før{what} ändrade hvordan data lagras · {records} poster",
+    "copy_app": " kalibre v{app}",
+    "copy_update": " en oppdatering",
+    "allow_again": "tillåt igjen",
+    "save_over_it": "lagre over den",
+    "restore_it": "gjenopprett den",
+    "put_this_copy_back": "legg tilbake denne kopian",
+    "share_it": "dele den"
+  },
+  "fonts": {
+    "default_monospace": "standard (monospace)",
+    "font_names_can_only_use": "Typsnittsnamn får bare innehålla bokstaver, sifre, mellomrom, punkter, bindestrek og understreck.",
+    "isn_t_available_on_this": "”{family}” finnes ikke på denne enheten, så standardtypsnittet vises.",
+    "use": "bruk {family}",
+    "kb": "{fileName} · {round} KB",
+    "remove": "fjerne {family}",
+    "list_fonts_on_this_computer": "liste skrift på denne datorn",
+    "fonts_found_start_typing_a": "{length} skrift hittades; begynne skrive et navn for å velge et.",
+    "the_browser_did_not_allow": "Nettleseren tillät ikke å skrift listas. Du kan fortfarande skrive namnet på vilket installerat skrift som helst.",
+    "load_a_font_file": "last en typsnittsfil",
+    "use_default_font": "bruk standardtypsnitt",
+    "bundled_legible": "medföljande · lättläst monospace",
+    "bundled_dyslexia": "medföljande · dyslexivänligt",
+    "sample": "the quick brown fox jumps over the lazy dog. 0123456789"
+  },
+  "settings": {
+    "github": "github",
+    "translation_note": "denne översättningen har ikke skrivits eller kontrollerats av en person med svenska som modersmål, så en del kan låta konstigt. du kan hjälpa til å förbättra den på {link}.",
+    "imported": "importerade {count, plural, one {# inställning} other {# inställningar}}",
+    "skipped": " · hoppade over {what}",
+    "sections_label": "inställningssektioner"
+  },
+  "storage_screen": {
+    "measuring": "mäter…",
+    "space_used": "använt utrymme",
+    "yes": "ja, {label}",
+    "export_first": "eksportere först",
+    "kalibre_is_using_of_the": "kalibre bruker {formatSize} av de {formatSize2} som denne nettleseren tillåter.",
+    "kalibre_is_using_about": "kalibre bruker ungefär {formatSize}.",
+    "couldn_t_measure": "kunde ikke mäta: {message}"
+  },
+  "theme_editor": {
+    "sample_of_this_theme": "eksempel på dette temat",
+    "needs_1": " (kräver {minimum}:1)",
+    "fix_the_colours_marked_first": "Åtgärda först färgerna som er markerade med ✗",
+    "hex_value": "{label} hexvärde",
+    "edit_theme": "redigera tema",
+    "a_sample_of_every_colour": "Et eksempel på hver farge, med dine innstillinger for färgseende og kontrast. Hovra over en farge eller velg en for å markera var den brukes.",
+    "imported": "importerade ”{name}”",
+    "that_file_isn_t_a": "Den filen er ikke et tema.",
+    "saved": "lagrede ”{name}”",
+    "saved_decorate": ". Dekorera det fra listan når du vil.",
+    "groups": {
+      "page": "side",
+      "text": "tekst",
+      "typing": "skriving",
+      "charts": "diagram"
+    },
+    "tokens": {
+      "bg": "bakgrund",
+      "surface": "paneler",
+      "separator": "linjer og kanter",
+      "selection": "markering",
+      "text": "tekst",
+      "textDim": "nedtonad tekst",
+      "accent": "accent",
+      "correct": "skrevet tekst",
+      "incorrect": "feil",
+      "extra": "extra bokstaver",
+      "caret": "markør",
+      "chartWpm": "wpm-linje",
+      "chartRaw": "rålinje",
+      "chartError": "feil",
+      "heat1": "tangentvärme 1",
+      "heat2": "tangentvärme 2",
+      "heat3": "tangentvärme 3",
+      "heat4": "tangentvärme 4"
+    },
+    "sample_correct": "quick brown ",
+    "sample_incorrect": "fxo",
+    "sample_extra": "ss",
+    "sample_dim": " jumps over",
+    "sample_text": "tekst ",
+    "sample_link": "länk",
+    "sample_selected": "markerad",
+    "that_theme_can_t_be": "Det temat kan ikke användas: {problem}.",
+    "scheme_label": "ljust eller mörkt"
+  },
+  "theme_picker": {
+    "quick_brown": "quick brown ",
+    "fxo": "fxo",
+    "ss": "ss",
+    "jumps_over": " jumps over",
+    "surface": "panel ",
+    "accent_link": "accentlänk",
+    "selected": "markerad",
+    "1_text": "{ratio}:1-tekst",
+    "choose_theme": "{label}: velg tema",
+    "options": "{label}-alternativ",
+    "pick": "velg {label}"
+  },
+  "sections": {
+    "theme": "tema",
+    "typing": "skriving",
+    "content": "innhold",
+    "training": "trening",
+    "accessibility": "tillgänglighet",
+    "data": "data"
+  },
+  "stepper": {
+    "decrease": "minska {label}",
+    "increase": "öka {label}"
+  }
+}
