@@ -373,27 +373,6 @@
   "clean-sweep": {
     "name": "Sauberer Sweep"
   },
-  "beam-overload": {
-    "name": "Überlastetes Licht"
-  },
-  "flagship-down": {
-    "name": "Flaggschiff nach unten"
-  },
-  "keg-defused": {
-    "name": "Fass entschärft"
-  },
-  "ladder-toppled": {
-    "name": "Leiter gestürzt"
-  },
-  "sortie-master": {
-    "name": "Sortiermeister"
-  },
-  "marathon-master": {
-    "name": "Marathonmaster"
-  },
-  "scroller-streak": {
-    "name": "Förderstreifen"
-  },
   "race-first": {
     "name": "Auf deinen Marken"
   },

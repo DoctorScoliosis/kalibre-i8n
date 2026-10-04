@@ -23,7 +23,7 @@
     "drill_length": "lunghezza dell'allenamento",
     "quote_length": "lunghezza della citazione",
     "practise_by_area": "esercita per area",
-    "words_count": "{count, plural, one {# parola} other {# parole}}",
+    "words_count": "{count, plural, one {# parola} many {# parole} other {# parole}}",
     "ticked_count": "{selected} di {total} selezionati",
     "in_training": "in allenamento",
     "ready_to_drill": "pronti per l'allenamento",

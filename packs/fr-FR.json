@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "community",
-    "revision": 6,
-    "version": "2026-10-03",
-    "changes": "Filled current Feed, Castle, Space and Spot gaps against kalibre-kanary"
+    "revision": 7,
+    "version": "2026-10-04",
+    "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories"
   },
   "strings": {
     "about": {
@@ -3082,7 +3082,7 @@
         "serving_tray_full_state": "plateau plein · servez d'abord",
         "serving_queued": "{text} en attente · plateau {count}/{capacity}",
         "serving_tray_full": "le plateau est plein — servez d'abord",
-        "serving_wasted": " · −{seconds}s · {count, plural, one {1 mot gaspillé} other {# mots gaspillés}}",
+        "serving_wasted": " · −{seconds}s · {count, plural, one {1 mot gaspillé} many {# mots gaspillés} other {# mots gaspillés}}",
         "serving_served": "servi · {matched}/{total} correspondants",
         "serving_nothing_matched": "aucune correspondance — temps perdu",
         "prepared": "{text} préparé",
@@ -3141,13 +3141,7 @@
         "section_critical": ", critique",
         "section_needs": ", nécessite des briques {requirement}",
         "news_line": "{label} : {note}",
-        "powerup": "bonus",
-        "sortie_title": "sortie de la garnison : rassemblez les défenseurs sur le terrain",
-        "sortie_ready": "déployez la sortie · alt+entrée",
-        "sortie_mustering": "rassemblement ({seconds}s)",
-        "sortie_breached": "poste de garde percé",
-        "sortie_no_bricks": "il faut des briques pour équiper",
-        "guard_title": "garde de garnison : {hp}/{maxHp} PV"
+        "powerup": "bonus"
       },
       "space": {
         "title": "espace",
@@ -3167,11 +3161,7 @@
         "score": "score {round}",
         "destroyed": "détruit {value}",
         "s_left": "{ceil}s restant",
-        "trigger_jammed_type_or_backspace": "canon bloqué · tapez « {word} », ou retour arrière deux fois pour annuler",
-        "accumulator_charge": "charge du condensateur",
-        "accumulator": "condensateur {floor}%",
-        "accumulator_ready_alt_enter": "condensateur prêt ({charge}%) · alt+entrée",
-        "accumulator_overload_alt_enter": "surcharge du condensateur ! · alt+entrée"
+        "trigger_jammed_type_or_backspace": "canon bloqué · tapez « {word} », ou retour arrière deux fois pour annuler"
       },
       "spot": {
         "title": "repérage",
@@ -3186,11 +3176,7 @@
         "it_should_be": "il devrait être « {original} » · {errorTitle}",
         "repairing": "{title} · corrigez-le sur place (← → déplacer) et appuyez sur entrée",
         "repairing_retry": " · un autre essai",
-        "repairing_cancel": " · échap pour annuler",
-        "lives": "{count}/{max} vies",
-        "streak": "série {count}",
-        "combo": "combo ×{multiplier}",
-        "escaped": "{word} a défilé"
+        "repairing_cancel": " · échap pour annuler"
       },
       "ui": {
         "pause": "pause",
@@ -3703,18 +3689,6 @@
                   "sapper": {
                     "label": "sapeur",
                     "summary": "rognent les sections. se déplacent entre les cibles."
-                  },
-                  "saboteur": {
-                    "label": "saboteur",
-                    "summary": "des infiltrés aux barils de poudre chargent les murs ; écrasez-les tôt pour faire exploser le baril dans les rangs ennemis."
-                  },
-                  "ladderman": {
-                    "label": "poseur d'échelle",
-                    "summary": "des ingénieurs de siège installent des échelles d'assaut ; lâchez des briques pour faire tomber l'échelle et provoquer une réaction en chaîne."
-                  },
-                  "sortie": {
-                    "label": "sortie de la garnison",
-                    "summary": "rassemblez les défenseurs depuis le poste de garde pour intercepter les attaquants avant qu'ils n'atteignent vos murs."
                   }
                 },
                 "controls": {
@@ -3723,20 +3697,11 @@
                   },
                   "i1": {
                     "action": "lâcher une brique pour écraser"
-                  },
-                  "i2": {
-                    "action": "déployer la sortie de la garnison dans la colonne du curseur"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "brique écrasante"
-                  },
-                  "i1": {
-                    "label": "saboteurs et échelles"
-                  },
-                  "i2": {
-                    "label": "sorties de la garnison"
                   }
                 },
                 "visuals": {
@@ -3751,15 +3716,6 @@
                   },
                   "sapper-pick": {
                     "label": "sapeur (pioche)"
-                  },
-                  "saboteur-keg": {
-                    "label": "saboteur (baril)"
-                  },
-                  "siege-ladder": {
-                    "label": "échelle de siège"
-                  },
-                  "garrison-soldier": {
-                    "label": "soldat de la garnison"
                   }
                 }
               },
@@ -4002,41 +3958,16 @@
                   "shields": {
                     "label": "boucliers",
                     "summary": "certains vaisseaux ont des boucliers qui ne se brisent qu'avec des mots répondant à une exigence."
-                  },
-                  "accumulator": {
-                    "label": "rayon du condensateur",
-                    "summary": "se charge avec les mots chargés propres et de bonne qualité. alt+entrée tire un rayon vertical perforant ; à 100 %, il traverse les boucliers et vaporise les missiles."
-                  },
-                  "heavyFrigate": {
-                    "label": "frégate lourde",
-                    "summary": "proue renforcée avec barrière protégée et deux batteries de missiles."
-                  },
-                  "eliteCruiser": {
-                    "label": "croiseur d'élite",
-                    "summary": "cuirassé lourd avec tourelles de défense rapprochée qui abattent les mots faibles (<30 de puissance)."
-                  },
-                  "flagship": {
-                    "label": "vaisseau amiral",
-                    "summary": "immense vaisseau de commandement modulaire. détruisez les batteries d'armes et effondrez son générateur de bouclier pour exposer la passerelle."
                   }
                 },
                 "controls": {
                   "i0": {
                     "action": "déclencher la bombe"
-                  },
-                  "i1": {
-                    "action": "décharger le rayon du condensateur"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "onde de choc de la bombe"
-                  },
-                  "i1": {
-                    "label": "rayon du condensateur"
-                  },
-                  "i2": {
-                    "label": "vaisseau amiral"
                   }
                 },
                 "visuals": {
@@ -4051,18 +3982,6 @@
                   },
                   "shrapnel-mine": {
                     "label": "mine terrestre"
-                  },
-                  "capacitor-beam": {
-                    "label": "rayon du condensateur perforant"
-                  },
-                  "heavy-frigate": {
-                    "label": "frégate lourde"
-                  },
-                  "elite-cruiser": {
-                    "label": "croiseur d'élite"
-                  },
-                  "flagship-boss": {
-                    "label": "vaisseau amiral"
                   }
                 }
               },
@@ -4145,12 +4064,6 @@
                   },
                   "endless": {
                     "label": "sans fin"
-                  },
-                  "marathon": {
-                    "label": "marathon"
-                  },
-                  "scroller": {
-                    "label": "défilement"
                   }
                 }
               },
@@ -4228,14 +4141,6 @@
                   "false-flag": {
                     "label": "faux signalements",
                     "summary": "signaler un mot correct coûte des points et (en mode sans fin) du temps."
-                  },
-                  "marathon": {
-                    "label": "endurance marathon",
-                    "summary": "commencez avec 3 vies. les faux signalements et les réparations ratées coûtent une vie ; trois passages corrigés sans erreur en restaurent une."
-                  },
-                  "scroller": {
-                    "label": "convoyeur de défilement",
-                    "summary": "les passages défilent continuellement sur un tapis roulant. repérez les erreurs avant qu'elles ne sortent de l'écran."
                   }
                 },
                 "controls": {
@@ -4252,12 +4157,6 @@
                 "subDemos": {
                   "i0": {
                     "label": "analyse du passage"
-                  },
-                  "i1": {
-                    "label": "endurance marathon"
-                  },
-                  "i2": {
-                    "label": "convoyeur de défilement"
                   }
                 },
                 "visuals": {
@@ -4269,12 +4168,6 @@
                   },
                   "false-flag-penalty": {
                     "label": "pénalité de faux signalement"
-                  },
-                  "marathon-lives": {
-                    "label": "vies du marathon"
-                  },
-                  "scroller-belt": {
-                    "label": "tapis roulant de défilement"
                   }
                 }
               },
@@ -4450,23 +4343,7 @@
         "wrong_kind_of_brick": "mauvais type de brique",
         "nobody_to_drop_it_on": "personne sur qui la lâcher",
         "two_are_running_already": "deux sont déjà en cours",
-        "nothing_stored_there": "rien stocké ici",
-        "crushed_a_brute": "brute écrasée",
-        "crushed_a_sapper": "sapeur écrasé",
-        "crushed_a_saboteur": "saboteur écrasé",
-        "crushed_a_ladderman": "poseur d'échelle écrasé",
-        "hit_a_brute": "brute touchée",
-        "hit_a_sapper": "sapeur touché",
-        "hit_a_saboteur": "saboteur touché",
-        "hit_a_ladderman": "poseur d'échelle touché",
-        "stunned": "étourdi",
-        "keg_detonated": "baril de poudre explosé",
-        "ladder_toppled": "échelle renversée",
-        "sortie_deployed": "sortie de la garnison déployée",
-        "mustering": "garnison en rassemblement",
-        "gate_breached": "poste de garde percé",
-        "no_bricks": "il faut des briques pour équiper",
-        "friendly_fire": "feu ami !"
+        "nothing_stored_there": "rien stocké ici"
       },
       "space_ui": {
         "shot": {
@@ -4496,11 +4373,7 @@
           "bomb": "bombe !",
           "bomb_not_ready": "la bombe n'est pas encore chargée",
           "gatling": "tir rapide · {word}",
-          "shield_absorb": "le bouclier a absorbé le coup de {source} !",
-          "accumulator": "décharge du rayon laser !",
-          "accumulator_not_ready": "le condensateur nécessite au moins 25 % de charge",
-          "point_defense": "la défense rapprochée a intercepté {word} !",
-          "flagship_down": "vaisseau amiral détruit !"
+          "shield_absorb": "le bouclier a absorbé le coup de {source} !"
         },
         "powerup_help": {
           "double": "chaque tir tire deux fois",

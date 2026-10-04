@@ -12,14 +12,14 @@
       "englishName": "German",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 1,
-      "version": "2026-10-03",
+      "revision": 2,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Initial German candidate translation",
+      "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/de-DE/manifest.json",
       "pack": "packs/de-DE.json",
-      "sha256": "403c979f8cc5de596b6fbfeba37fd75083b041b45f199ab0c44e3545eeaea531",
-      "bytes": 326241
+      "sha256": "3d28db9f11b36943e30b94ca35da0e19f7b0c84f7c9930ae0eb56c82fdb33771",
+      "bytes": 319465
     },
     {
       "id": "en-GB",
@@ -27,14 +27,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 3,
-      "version": "2026-10-02",
+      "revision": 4,
+      "version": "2026-10-04",
       "reviewed": "native",
-      "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording",
+      "changes": "Synced with the application after the Games 0.70 rollback",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "695cfe683367e52f69e2d3db815f41f0c99f716bd7e348ae0e3c93bf5f541835",
-      "bytes": 303206
+      "sha256": "e20a45603957bea65528efc65b05a54ffba8fcffb77443733d843bb07065a8c6",
+      "bytes": 296678
     },
     {
       "id": "es-ES",
@@ -42,14 +42,14 @@
       "englishName": "Spanish (Spain)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
-      "version": "2026-10-03",
+      "revision": 3,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Filled current Feed, Castle, Spot and achievement gaps against kalibre-kanary",
+      "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories",
       "path": "locales/es-ES/manifest.json",
       "pack": "packs/es-ES.json",
-      "sha256": "84e30ce72915e99da350830f332d8ce7fb5b56aa9716009a7949602c75c8f45b",
-      "bytes": 332230
+      "sha256": "9078718c51c624f443f1307ae4434d0267bd741ab52ceb51a7c3fa8029671a32",
+      "bytes": 325239
     },
     {
       "id": "fr-FR",
@@ -57,14 +57,14 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 6,
-      "version": "2026-10-03",
+      "revision": 7,
+      "version": "2026-10-04",
       "reviewed": "community",
-      "changes": "Filled current Feed, Castle, Space and Spot gaps against kalibre-kanary",
+      "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "5d9066a877ad907466e6efdf4dbb981228331bd30a2aaa1506b2a3e5032435b6",
-      "bytes": 336988
+      "sha256": "b7f3f461f7279e5542508f293e8e3189f7a7babaeff5475ab56650aac125f193",
+      "bytes": 330711
     },
     {
       "id": "it-IT",
@@ -72,14 +72,14 @@
       "englishName": "Italian",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
-      "version": "2026-10-03",
+      "revision": 3,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Filled current physical-serving gaps against kalibre-kanary",
+      "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories",
       "path": "locales/it-IT/manifest.json",
       "pack": "packs/it-IT.json",
-      "sha256": "2462ea1577fd841df7b4cb7705a0b1d47d5f23317a35b439fa8794d4c462db18",
-      "bytes": 325524
+      "sha256": "01fce7e7ba4c34a28317348b0d3d165ba9f3e30d57f6cd2ab3c91393588b7653",
+      "bytes": 321374
     },
     {
       "id": "nl-NL",
@@ -87,14 +87,14 @@
       "englishName": "Dutch (Netherlands)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 1,
-      "version": "2026-10-03",
+      "revision": 2,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Initial Dutch (Netherlands) translation pass",
+      "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/nl-NL/manifest.json",
       "pack": "packs/nl-NL.json",
-      "sha256": "38d36bf0f17e0d8b958cedea5d9471c4e09f9e54d8ec142b5500491c3ee113e0",
-      "bytes": 317376
+      "sha256": "cb6bbc7805f93fc569b7ac9e422e45280a3c6ccdfdfa8b5e4a831cbed9493cbc",
+      "bytes": 310869
     },
     {
       "id": "pt-BR",
@@ -102,14 +102,14 @@
       "englishName": "Portuguese (Brazil)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
-      "version": "2026-10-03",
+      "revision": 3,
+      "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Filled current physical-serving gaps against kalibre-kanary",
+      "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories",
       "path": "locales/pt-BR/manifest.json",
       "pack": "packs/pt-BR.json",
-      "sha256": "a4cc85a2d7f04bbf1533ce10b05a368107111e02af8eb6dd069a3851beaecd8c",
-      "bytes": 327845
+      "sha256": "ddbe81e4e6a7830f70d7c1937be058c403b4b7f61af16b533d68d390b18d260b",
+      "bytes": 321123
     },
     {
       "id": "sv-SE",
@@ -117,14 +117,14 @@
       "englishName": "Swedish (Sweden)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 2,
+      "revision": 3,
       "version": "2026-10-04",
       "reviewed": "machine",
-      "changes": "Initial Swedish candidate translation; companion and narrative localisation complete",
+      "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/sv-SE/manifest.json",
       "pack": "packs/sv-SE.json",
-      "sha256": "e02b4b0a9e20d48bffff819eba70f12bb0ebbcc6fcc45892a2886c80a71ccb7d",
-      "bytes": 318102
+      "sha256": "87bf2cd03da11760cc4529f2941a56d70851611c5a0694190c32fe7fd0c12374",
+      "bytes": 311472
     },
     {
       "id": "zh-CN",
@@ -132,14 +132,14 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 6,
+      "revision": 7,
       "version": "2026-10-04",
       "reviewed": "community",
-      "changes": "L12: remove stale achievements.rules.lastLesson after canonical reconciliation",
+      "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "fbea8a1e9e7c9b66aeac0edb361c21738ed87a647b2fcc7eec161481d2f3b932",
-      "bytes": 295103
+      "sha256": "b1aed84b51068a38952d41f345b6f7e13c786747257e4005c39accb15ecd829a",
+      "bytes": 294610
     }
   ]
 }

@@ -6,7 +6,7 @@
   "fallback": null,
   "lowercaseDates": true,
   "reviewed": "native",
-  "revision": 3,
-  "version": "2026-10-02",
-  "changes": "Synced with the application: L9 text moves, plural-aware messages, quest and race wording"
+  "revision": 4,
+  "version": "2026-10-04",
+  "changes": "Synced with the application after the Games 0.70 rollback"
 }

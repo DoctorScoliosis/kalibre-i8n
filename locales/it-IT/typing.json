@@ -137,8 +137,8 @@
   },
   "training_notice": {
     "mistakes": "errori, {join}",
-    "suggested": "{count, plural, one {# suggerito} other {# suggeriti}}",
-    "ready": "{count, plural, one {# pronto per l'allenamento} other {# pronti per l'allenamento}}"
+    "suggested": "{count, plural, one {# suggerito} many {# suggeriti} other {# suggeriti}}",
+    "ready": "{count, plural, one {# pronto per l'allenamento} many {# pronti per l'allenamento} other {# pronti per l'allenamento}}"
   },
   "type_view_goal": {
     "today": "✓ {formatGoalAmount} oggi",

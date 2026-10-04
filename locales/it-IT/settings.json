@@ -657,7 +657,7 @@
   "settings": {
     "github": "github",
     "translation_note": "questa traduzione non è stata scritta o controllata da un madrelingua, quindi alcune parti potrebbero suonare strane. puoi contribuire a migliorarla su {link}.",
-    "imported": "importate {count, plural, one {# impostazione} other {# impostazioni}}",
+    "imported": "importate {count, plural, one {# impostazione} many {# impostazioni} other {# impostazioni}}",
     "skipped": " · ignorato {what}",
     "sections_label": "sezioni delle impostazioni"
   },

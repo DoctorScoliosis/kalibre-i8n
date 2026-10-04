@@ -1,92 +1,273 @@
 {
   "slots": {
-    "hat": { "label": "cappello", "none": "nessun cappello" },
-    "face": { "label": "viso", "none": "viso classico" },
-    "necklace": { "label": "collana", "none": "nessuna collana" },
-    "braceletLeft": { "label": "polso sinistro", "none": "polso scoperto" },
-    "braceletRight": { "label": "polso destro", "none": "polso scoperto" },
-    "pants": { "label": "pantaloni", "none": "nessun pantalone" },
-    "background": { "label": "sfondo", "none": "nessuno sfondo" },
-    "heart": { "label": "cuore", "none": "cuore semplice" },
-    "ring": { "label": "anello", "none": "nessun anello" }
+    "hat": {
+      "label": "cappello",
+      "none": "nessun cappello"
+    },
+    "face": {
+      "label": "viso",
+      "none": "viso classico"
+    },
+    "necklace": {
+      "label": "collana",
+      "none": "nessuna collana"
+    },
+    "braceletLeft": {
+      "label": "polso sinistro",
+      "none": "polso scoperto"
+    },
+    "braceletRight": {
+      "label": "polso destro",
+      "none": "polso scoperto"
+    },
+    "pants": {
+      "label": "pantaloni",
+      "none": "nessun pantalone"
+    },
+    "background": {
+      "label": "sfondo",
+      "none": "nessuno sfondo"
+    },
+    "heart": {
+      "label": "cuore",
+      "none": "cuore semplice"
+    },
+    "ring": {
+      "label": "anello",
+      "none": "nessun anello"
+    }
   },
-  "party-hat": { "name": "cappello da festa" },
-  "beanie": { "name": "berretto" },
-  "cap": { "name": "cappellino" },
-  "headphones": { "name": "cuffie" },
-  "top-hat": { "name": "cilindro" },
-  "wizard-hat": { "name": "cappello da mago" },
-  "space-helmet": { "name": "casco spaziale" },
-  "hard-hat": { "name": "elmetto da lavoro" },
-  "explorer-hat": { "name": "cappello da esploratore" },
-  "hair-bow": { "name": "fiocco per capelli" },
-  "flat-cap": { "name": "coppola" },
-  "beret": { "name": "basco" },
-  "sun-hat": { "name": "cappello da sole" },
-  "bucket-hat": { "name": "cappello a secchiello" },
-  "chef-hat": { "name": "cappello da chef" },
-  "graduation-cap": { "name": "tocco da laurea" },
-  "crown": { "name": "corona" },
-  "round-eyes": { "name": "occhi rotondi" },
-  "sparkly": { "name": "occhi scintillanti" },
-  "pixel-eyes": { "name": "occhi pixelati" },
-  "blush": { "name": "guance arrossate" },
-  "freckles": { "name": "lentiggini" },
-  "round-glasses": { "name": "occhiali rotondi" },
-  "monocle": { "name": "monocolo" },
-  "star-eyes": { "name": "occhi a stella" },
-  "heart-eyes": { "name": "occhi a cuore" },
-  "sleepy-lids": { "name": "palpebre assonnate" },
-  "beads": { "name": "collana di perline" },
-  "bow-tie": { "name": "papillon" },
-  "scarf": { "name": "sciarpa" },
-  "medal": { "name": "medaglia" },
-  "keycap-pendant": { "name": "ciondolo a forma di tasto" },
-  "compass": { "name": "bussola" },
-  "pearls": { "name": "perle" },
-  "tie": { "name": "cravatta" },
-  "locket": { "name": "ciondolo portafoto" },
-  "quill-pendant": { "name": "ciondolo con piuma" },
-  "friendship-band": { "name": "braccialetto dell'amicizia" },
-  "gold-band": { "name": "fede d'oro" },
-  "watch": { "name": "orologio" },
-  "key-chain": { "name": "catena di tasti" },
-  "spiked-band": { "name": "bracciale borchiato" },
-  "trail-band": { "name": "bracciale della scia" },
-  "charm-bracelet": { "name": "braccialetto con ciondoli" },
-  "sweatband": { "name": "fascia antisudore" },
-  "beaded-band": { "name": "bracciale di perline" },
-  "shorts": { "name": "pantaloncini" },
-  "jeans": { "name": "jeans" },
-  "dungarees": { "name": "salopette" },
-  "kilt": { "name": "kilt" },
-  "skirt": { "name": "gonna" },
-  "cargo-pants": { "name": "pantaloni cargo" },
-  "pyjama-bottoms": { "name": "pantaloni del pigiama" },
-  "space-trousers": { "name": "pantaloni spaziali" },
-  "theme-tile": { "name": "tessera del tema" },
-  "stars": { "name": "stelle" },
-  "bricks": { "name": "mattoni" },
-  "leaves": { "name": "foglie" },
-  "paper": { "name": "carta" },
-  "keyboard": { "name": "tastiera" },
-  "rain": { "name": "pioggia" },
-  "waves": { "name": "onde" },
-  "typewriter": { "name": "macchina da scrivere" },
-  "bookshelf": { "name": "libreria" },
-  "sunrise": { "name": "alba" },
-  "heart-star": { "name": "stella" },
-  "heart-note": { "name": "nota" },
-  "heart-key": { "name": "tasto" },
-  "heart-paw": { "name": "zampa" },
-  "heart-flag": { "name": "bandiera" },
-  "heart-bolt": { "name": "fulmine" },
-  "heart-moon": { "name": "luna" },
-  "heart-leaf": { "name": "foglia" },
-  "heart-sun": { "name": "sole" },
-  "heart-amp": { "name": "la e commerciale" },
-  "heart-k": { "name": "la lettera k" },
-  "ring": { "name": "anello" },
+  "party-hat": {
+    "name": "cappello da festa"
+  },
+  "beanie": {
+    "name": "berretto"
+  },
+  "cap": {
+    "name": "cappellino"
+  },
+  "headphones": {
+    "name": "cuffie"
+  },
+  "top-hat": {
+    "name": "cilindro"
+  },
+  "wizard-hat": {
+    "name": "cappello da mago"
+  },
+  "space-helmet": {
+    "name": "casco spaziale"
+  },
+  "hard-hat": {
+    "name": "elmetto da lavoro"
+  },
+  "explorer-hat": {
+    "name": "cappello da esploratore"
+  },
+  "hair-bow": {
+    "name": "fiocco per capelli"
+  },
+  "flat-cap": {
+    "name": "coppola"
+  },
+  "beret": {
+    "name": "basco"
+  },
+  "sun-hat": {
+    "name": "cappello da sole"
+  },
+  "bucket-hat": {
+    "name": "cappello a secchiello"
+  },
+  "chef-hat": {
+    "name": "cappello da chef"
+  },
+  "graduation-cap": {
+    "name": "tocco da laurea"
+  },
+  "crown": {
+    "name": "corona"
+  },
+  "round-eyes": {
+    "name": "occhi rotondi"
+  },
+  "sparkly": {
+    "name": "occhi scintillanti"
+  },
+  "pixel-eyes": {
+    "name": "occhi pixelati"
+  },
+  "blush": {
+    "name": "guance arrossate"
+  },
+  "freckles": {
+    "name": "lentiggini"
+  },
+  "round-glasses": {
+    "name": "occhiali rotondi"
+  },
+  "monocle": {
+    "name": "monocolo"
+  },
+  "star-eyes": {
+    "name": "occhi a stella"
+  },
+  "heart-eyes": {
+    "name": "occhi a cuore"
+  },
+  "sleepy-lids": {
+    "name": "palpebre assonnate"
+  },
+  "beads": {
+    "name": "collana di perline"
+  },
+  "bow-tie": {
+    "name": "papillon"
+  },
+  "scarf": {
+    "name": "sciarpa"
+  },
+  "medal": {
+    "name": "medaglia"
+  },
+  "keycap-pendant": {
+    "name": "ciondolo a forma di tasto"
+  },
+  "compass": {
+    "name": "bussola"
+  },
+  "pearls": {
+    "name": "perle"
+  },
+  "tie": {
+    "name": "cravatta"
+  },
+  "locket": {
+    "name": "ciondolo portafoto"
+  },
+  "quill-pendant": {
+    "name": "ciondolo con piuma"
+  },
+  "friendship-band": {
+    "name": "braccialetto dell'amicizia"
+  },
+  "gold-band": {
+    "name": "fede d'oro"
+  },
+  "watch": {
+    "name": "orologio"
+  },
+  "key-chain": {
+    "name": "catena di tasti"
+  },
+  "spiked-band": {
+    "name": "bracciale borchiato"
+  },
+  "trail-band": {
+    "name": "bracciale della scia"
+  },
+  "charm-bracelet": {
+    "name": "braccialetto con ciondoli"
+  },
+  "sweatband": {
+    "name": "fascia antisudore"
+  },
+  "beaded-band": {
+    "name": "bracciale di perline"
+  },
+  "shorts": {
+    "name": "pantaloncini"
+  },
+  "jeans": {
+    "name": "jeans"
+  },
+  "dungarees": {
+    "name": "salopette"
+  },
+  "kilt": {
+    "name": "kilt"
+  },
+  "skirt": {
+    "name": "gonna"
+  },
+  "cargo-pants": {
+    "name": "pantaloni cargo"
+  },
+  "pyjama-bottoms": {
+    "name": "pantaloni del pigiama"
+  },
+  "space-trousers": {
+    "name": "pantaloni spaziali"
+  },
+  "theme-tile": {
+    "name": "tessera del tema"
+  },
+  "stars": {
+    "name": "stelle"
+  },
+  "bricks": {
+    "name": "mattoni"
+  },
+  "leaves": {
+    "name": "foglie"
+  },
+  "paper": {
+    "name": "carta"
+  },
+  "keyboard": {
+    "name": "tastiera"
+  },
+  "rain": {
+    "name": "pioggia"
+  },
+  "waves": {
+    "name": "onde"
+  },
+  "typewriter": {
+    "name": "macchina da scrivere"
+  },
+  "bookshelf": {
+    "name": "libreria"
+  },
+  "sunrise": {
+    "name": "alba"
+  },
+  "heart-star": {
+    "name": "stella"
+  },
+  "heart-note": {
+    "name": "nota"
+  },
+  "heart-key": {
+    "name": "tasto"
+  },
+  "heart-paw": {
+    "name": "zampa"
+  },
+  "heart-flag": {
+    "name": "bandiera"
+  },
+  "heart-bolt": {
+    "name": "fulmine"
+  },
+  "heart-moon": {
+    "name": "luna"
+  },
+  "heart-leaf": {
+    "name": "foglia"
+  },
+  "heart-sun": {
+    "name": "sole"
+  },
+  "heart-amp": {
+    "name": "la e commerciale"
+  },
+  "heart-k": {
+    "name": "la lettera k"
+  },
+  "ring": {
+    "name": "anello"
+  },
   "ui": {
     "default_hint": "predefinito",
     "locked": "bloccato",
@@ -99,7 +280,7 @@
     "item_locked_aria": "{name}, bloccato: {hint}",
     "remove_all": "rimuovi tutti gli elementi estetici",
     "news_new_item": "un nuovo {name}",
-    "news_new_items": "{count, plural, one {una cosa nuova} other {# cose nuove}}",
+    "news_new_items": "{count, plural, one {una cosa nuova} many {# cose nuove} other {# cose nuove}}",
     "news_earned": "oh, hai conquistato {what} per il mio guardaroba!",
     "try_it_on": "provalo",
     "status_worn": "{name}: {state}",

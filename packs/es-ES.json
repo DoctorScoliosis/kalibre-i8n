@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 2,
-    "version": "2026-10-03",
-    "changes": "Filled current Feed, Castle, Spot and achievement gaps against kalibre-kanary"
+    "revision": 3,
+    "version": "2026-10-04",
+    "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories"
   },
   "strings": {
     "about": {
@@ -697,27 +697,6 @@
         "badges": "insignias",
         "extras": "extras",
         "sections_label": "secciones de logros"
-      },
-      "beam-overload": {
-        "name": "rayo sobrecargado"
-      },
-      "flagship-down": {
-        "name": "nave insignia derribada"
-      },
-      "keg-defused": {
-        "name": "barril desactivado"
-      },
-      "ladder-toppled": {
-        "name": "escalera derribada"
-      },
-      "sortie-master": {
-        "name": "maestro de salidas"
-      },
-      "marathon-master": {
-        "name": "maestro del maratón"
-      },
-      "scroller-streak": {
-        "name": "racha de cinta"
       }
     },
     "cards": {
@@ -3112,7 +3091,7 @@
         "serving_tray_full_state": "bandeja llena · sirve primero",
         "serving_queued": "{text} en cola · bandeja {count}/{capacity}",
         "serving_tray_full": "la bandeja está llena — sirve primero",
-        "serving_wasted": " · −{seconds}s · {count, plural, one {1 palabra desperdiciada} other {# palabras desperdiciadas}}",
+        "serving_wasted": " · −{seconds}s · {count, plural, one {1 palabra desperdiciada} many {# palabras desperdiciadas} other {# palabras desperdiciadas}}",
         "serving_served": "servido · {matched}/{total} coinciden",
         "serving_nothing_matched": "nada coincide — se perdió tiempo",
         "prepared": "{text} preparado",
@@ -3171,13 +3150,7 @@
         "section_critical": ", crítico",
         "section_needs": ", necesita ladrillos que {requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "potenciador",
-        "sortie_title": "salida de la guarnición: reúne a los defensores en el campo",
-        "sortie_ready": "despliega la salida · alt+enter",
-        "sortie_mustering": "reunión ({seconds}s)",
-        "sortie_breached": "puerta de entrada vulnerada",
-        "sortie_no_bricks": "se necesitan ladrillos para equipar",
-        "guard_title": "guardia de guarnición: {hp}/{maxHp} PV"
+        "powerup": "potenciador"
       },
       "space": {
         "title": "espacio",
@@ -3197,11 +3170,7 @@
         "score": "puntuación {round}",
         "destroyed": "destruidos {value}",
         "s_left": "quedan {ceil}s",
-        "trigger_jammed_type_or_backspace": "gatillo atascado · escribe «{word}» o pulsa retroceso dos veces para desechar un disparo",
-        "accumulator_charge": "carga del condensador",
-        "accumulator": "condensador {floor}%",
-        "accumulator_ready_alt_enter": "condensador listo ({charge}%) · alt+intro",
-        "accumulator_overload_alt_enter": "¡condensador sobrecargado! · alt+intro"
+        "trigger_jammed_type_or_backspace": "gatillo atascado · escribe «{word}» o pulsa retroceso dos veces para desechar un disparo"
       },
       "spot": {
         "title": "detecta",
@@ -3216,11 +3185,7 @@
         "it_should_be": "debería ser «{original}» · {errorTitle}",
         "repairing": "{title} · corrígelo aquí (← → mueve el cursor) y pulsa intro",
         "repairing_retry": " · un intento más",
-        "repairing_cancel": " · esc para cancelar",
-        "lives": "{count}/{max} vidas",
-        "streak": "racha {count}",
-        "combo": "combo ×{multiplier}",
-        "escaped": "{word} pasó de largo"
+        "repairing_cancel": " · esc para cancelar"
       },
       "ui": {
         "pause": "pausa",
@@ -3744,18 +3709,6 @@
                   "drops": {
                     "label": "lanzamientos de ladrillos",
                     "summary": "lanza un ladrillo contra un enemigo para dañarlo o aplastarlo."
-                  },
-                  "saboteur": {
-                    "label": "saboteador",
-                    "summary": "infiltrados con barriles de pólvora que cargan contra las murallas; aplástalos pronto para hacer explotar el barril entre las filas atacantes."
-                  },
-                  "ladderman": {
-                    "label": "colocador de escaleras",
-                    "summary": "ingenieros de asedio que colocan escaleras de asalto; deja caer ladrillos para derribar la escalera y provocar una cadena de derribos."
-                  },
-                  "sortie": {
-                    "label": "salida de la guarnición",
-                    "summary": "reúne defensores desde la puerta de entrada y llévalos al campo para interceptar a los atacantes antes de que lleguen a tus murallas."
                   }
                 },
                 "controls": {
@@ -3764,20 +3717,11 @@
                   },
                   "i1": {
                     "action": "apuntar a una sección o enemigo"
-                  },
-                  "i2": {
-                    "action": "despliega la salida de la guarnición en la columna del cursor"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "lanzamientos de ladrillos"
-                  },
-                  "i1": {
-                    "label": "saboteadores y escaleras"
-                  },
-                  "i2": {
-                    "label": "salidas de la guarnición"
                   }
                 },
                 "visuals": {
@@ -3792,15 +3736,6 @@
                   },
                   "boulder-arc": {
                     "label": "arco de la piedra"
-                  },
-                  "saboteur-keg": {
-                    "label": "saboteador (barril)"
-                  },
-                  "siege-ladder": {
-                    "label": "escalera de asedio"
-                  },
-                  "garrison-soldier": {
-                    "label": "soldado de la guarnición"
                   }
                 }
               },
@@ -4006,14 +3941,12 @@
                 "summary": "llena el cargador, intercepta misiles y cazas, y usa la bomba para despejar el campo.",
                 "highlights": [
                   "los misiles llevan una letra: escríbela sin tener nada escrito para derribarlos",
-                  "mayús+intro detona la bomba cuando está cargada",
-                  "alt+intro dispara el rayo perforante del condensador cuando está cargado"
+                  "mayús+intro detona la bomba cuando está cargada"
                 ],
                 "details": [
                   "cargar palabras llena el medidor de la bomba. cuando está lleno, mayús+intro elimina todos los misiles y daña a todos los enemigos.",
                   "las estaciones espaciales lanzan cazas que te persiguen. escribe la letra de un caza para derribarlo.",
                   "las minas espaciales estallan en metralla al recibir un disparo y golpean a todo lo cercano, incluyéndote.",
-                  "las naves con escudo solo reciben impactos de palabras que cumplan su requisito.",
                   "las naves con escudo solo reciben impactos de palabras que cumplan su requisito."
                 ],
                 "notes": {
@@ -4045,41 +3978,16 @@
                   "shields": {
                     "label": "escudos",
                     "summary": "algunas naves tienen escudos que solo se rompen con palabras que cumplan un requisito."
-                  },
-                  "accumulator": {
-                    "label": "rayo del condensador",
-                    "summary": "se carga con palabras limpias y de alta calidad. alt+intro dispara un rayo vertical perforante; al 100 % de sobrecarga atraviesa escudos y vaporiza misiles."
-                  },
-                  "heavyFrigate": {
-                    "label": "fragata pesada",
-                    "summary": "proa reforzada con barrera de escudo y dos baterías de misiles."
-                  },
-                  "eliteCruiser": {
-                    "label": "crucero de élite",
-                    "summary": "acorazado pesado con torretas de defensa puntual que derriban palabras débiles (menos de 30 de potencia)."
-                  },
-                  "flagship": {
-                    "label": "buque insignia",
-                    "summary": "nave de mando modular enorme. Destruye las baterías de armas y derriba su generador de escudos para dejar el puente al descubierto."
                   }
                 },
                 "controls": {
                   "i0": {
                     "action": "detonar la bomba"
-                  },
-                  "i1": {
-                    "action": "disparar el rayo del condensador"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "onda expansiva de la bomba"
-                  },
-                  "i1": {
-                    "label": "rayo del condensador"
-                  },
-                  "i2": {
-                    "label": "buque insignia"
                   }
                 },
                 "visuals": {
@@ -4094,18 +4002,6 @@
                   },
                   "shrapnel-mine": {
                     "label": "mina espacial"
-                  },
-                  "capacitor-beam": {
-                    "label": "rayo perforante del condensador"
-                  },
-                  "heavy-frigate": {
-                    "label": "fragata pesada"
-                  },
-                  "elite-cruiser": {
-                    "label": "crucero de élite"
-                  },
-                  "flagship-boss": {
-                    "label": "buque insignia"
                   }
                 }
               },
@@ -4188,12 +4084,6 @@
                   },
                   "endless": {
                     "label": "sin fin"
-                  },
-                  "marathon": {
-                    "label": "maratón"
-                  },
-                  "scroller": {
-                    "label": "desplazador"
                   }
                 }
               },
@@ -4271,14 +4161,6 @@
                   "false-flag": {
                     "label": "falsos positivos",
                     "summary": "marcar una palabra correcta resta puntos y (en modo sin fin) tiempo."
-                  },
-                  "marathon": {
-                    "label": "resistencia de maratón",
-                    "summary": "empieza con 3 vidas. las falsas alarmas y las reparaciones fallidas cuestan una vida; despejar 3 pasajes sin errores restaura una."
-                  },
-                  "scroller": {
-                    "label": "cinta transportadora",
-                    "summary": "los pasajes se desplazan continuamente por una cinta transportadora. atrapa los errores antes de que salgan de la pantalla."
                   }
                 },
                 "controls": {
@@ -4295,12 +4177,6 @@
                 "subDemos": {
                   "i0": {
                     "label": "recorrido del pasaje"
-                  },
-                  "i1": {
-                    "label": "resistencia de maratón"
-                  },
-                  "i2": {
-                    "label": "cinta transportadora"
                   }
                 },
                 "visuals": {
@@ -4312,12 +4188,6 @@
                   },
                   "false-flag-penalty": {
                     "label": "penalización por falso positivo"
-                  },
-                  "marathon-lives": {
-                    "label": "vidas de maratón"
-                  },
-                  "scroller-belt": {
-                    "label": "cinta transportadora"
                   }
                 }
               },
@@ -4498,11 +4368,7 @@
           "bomb": "¡bomba!",
           "bomb_not_ready": "la bomba todavía no está cargada",
           "gatling": "fuego rápido · {word}",
-          "shield_absorb": "¡el escudo ha absorbido el impacto de {source}!",
-          "accumulator": "¡descarga del rayo láser!",
-          "accumulator_not_ready": "el condensador necesita al menos un 25 % de carga",
-          "point_defense": "¡la defensa puntual ha interceptado {word}!",
-          "flagship_down": "¡buque insignia destruido!"
+          "shield_absorb": "¡el escudo ha absorbido el impacto de {source}!"
         },
         "powerup_help": {
           "double": "cada disparo sale dos veces",
@@ -4531,23 +4397,7 @@
         "wrong_kind_of_brick": "tipo de ladrillo incorrecto",
         "nobody_to_drop_it_on": "no hay nadie sobre quien lanzarlo",
         "two_are_running_already": "ya hay dos activos",
-        "nothing_stored_there": "no hay nada guardado ahí",
-        "crushed_a_brute": "bruto aplastado",
-        "crushed_a_sapper": "zapador aplastado",
-        "crushed_a_saboteur": "saboteador aplastado",
-        "crushed_a_ladderman": "colocador de escaleras aplastado",
-        "hit_a_brute": "bruto alcanzado",
-        "hit_a_sapper": "zapador alcanzado",
-        "hit_a_saboteur": "saboteador alcanzado",
-        "hit_a_ladderman": "colocador de escaleras alcanzado",
-        "stunned": "aturdido",
-        "keg_detonated": "barril de pólvora detonado",
-        "ladder_toppled": "escalera derribada",
-        "sortie_deployed": "salida de la guarnición desplegada",
-        "mustering": "guarnición reuniéndose",
-        "gate_breached": "puerta de entrada vulnerada",
-        "no_bricks": "se necesitan ladrillos para equipar",
-        "friendly_fire": "¡fuego amigo!"
+        "nothing_stored_there": "no hay nada guardado ahí"
       }
     },
     "learn": {

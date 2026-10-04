@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "machine",
-  "revision": 1,
-  "version": "2026-10-03",
-  "changes": "Initial Dutch (Netherlands) translation pass"
+  "revision": 2,
+  "version": "2026-10-04",
+  "changes": "Reconciled Games keys after the application rollback"
 }

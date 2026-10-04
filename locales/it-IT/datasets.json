@@ -31,10 +31,10 @@
     "downloaded": "{status, select, update {aggiornato} other {scaricato}} \"{name}\". è attivo e ora funziona offline.",
     "download_failed": "impossibile scaricare \"{name}\": {error}",
     "licence": "licenza: {licence}",
-    "version_passages": "versione {version} · {count, plural, one {# brano} other {# brani}}",
+    "version_passages": "versione {version} · {count, plural, one {# brano} many {# brani} other {# brani}}",
     "library_from": "da {name}",
     "library_remove": "rimuovi la libreria {name}",
-    "library_added": "aggiunta {name}: {count, plural, one {# dataset} other {# dataset}}.",
+    "library_added": "aggiunta {name}: {count, plural, one {# dataset} many {# dataset} other {# dataset}}.",
     "not_reachable": "non raggiungibile"
   },
   "install": {

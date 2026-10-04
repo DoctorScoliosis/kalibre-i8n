@@ -14,9 +14,9 @@
       "sans-serif"
     ],
     "reviewed": "community",
-    "revision": 6,
+    "revision": 7,
     "version": "2026-10-04",
-    "changes": "L12: remove stale achievements.rules.lastLesson after canonical reconciliation"
+    "changes": "Reconciled Games keys after the application rollback"
   },
   "strings": {
     "about": {
@@ -427,27 +427,6 @@
       },
       "clean-sweep": {
         "name": "完美清除"
-      },
-      "beam-overload": {
-        "name": "光束过载"
-      },
-      "flagship-down": {
-        "name": "旗舰击沉"
-      },
-      "keg-defused": {
-        "name": "火药桶拆除"
-      },
-      "ladder-toppled": {
-        "name": "云梯推倒"
-      },
-      "sortie-master": {
-        "name": "出击大师"
-      },
-      "marathon-master": {
-        "name": "马拉松大师"
-      },
-      "scroller-streak": {
-        "name": "传送带连胜"
       },
       "race-first": {
         "name": "各就各位"

@@ -16,8 +16,8 @@
     "sections_aria": "sezioni dei testi",
     "subfolders_too": " anche sottocartelle",
     "drop_hint": "oppure trascina qui i file",
-    "words_count": "{count, plural, one {# parola} other {# parole}}",
-    "paragraphs_count": "{count, plural, one {# paragrafo} other {# paragrafi}}"
+    "words_count": "{count, plural, one {# parola} many {# parole} other {# parole}}",
+    "paragraphs_count": "{count, plural, one {# paragrafo} many {# paragrafi} other {# paragrafi}}"
   },
   "actions": {
     "save": "salva",

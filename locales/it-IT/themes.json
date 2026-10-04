@@ -34,7 +34,7 @@
     "delete_theme": "elimina {name}",
     "copy_and_decorate": "copia questo tema e decoralo",
     "decorations_earned_zero": "Le decorazioni dei temi, ottenute giocando, si applicano ai temi personali.",
-    "decorations_earned_notice": "Hai ottenuto {count, plural, one {una decorazione del tema} other {# decorazioni del tema}}. Si applicano ai tuoi temi, quindi crea una copia di questo per indossare {count, plural, one {la decorazione} other {le decorazioni}}.",
+    "decorations_earned_notice": "Hai ottenuto {count, plural, one {una decorazione del tema} many {# decorazioni del tema} other {# decorazioni del tema}}. Si applicano ai tuoi temi, quindi crea una copia di questo per indossare {count, plural, one {la decorazione} many {le decorazioni} other {le decorazioni}}.",
     "decorations_earned_info": "Ottenute giocando. Restano con questo tema su questo profilo e non vengono incluse quando esporti il tema."
   },
   "picker": {
@@ -65,43 +65,113 @@
     }
   },
   "decorations": {
-    "caret-glow": { "name": "bagliore morbido" },
-    "caret-halo": { "name": "alone" },
-    "caret-drop": { "name": "goccia d'inchiostro" },
-    "caret-trail": { "name": "coda di cometa" },
-    "backdrop-dots": { "name": "griglia di puntini" },
-    "backdrop-ruled": { "name": "carta rigata" },
-    "backdrop-graph": { "name": "carta millimetrata" },
-    "backdrop-grain": { "name": "grana" },
-    "backdrop-checks": { "name": "quadretti morbidi" },
-    "frame-corners": { "name": "segni agli angoli" },
-    "frame-bookplate": { "name": "ex libris" },
-    "frame-tab": { "name": "linguetta di cartella" },
-    "frame-brackets": { "name": "parentesi" },
-    "keystroke-ink": { "name": "dissolvenza d'inchiostro" },
-    "keystroke-rise": { "name": "salita delicata" },
-    "keystroke-bloom": { "name": "fioritura" },
-    "flourish-leaf": { "name": "foglia" },
-    "flourish-star": { "name": "stella" },
-    "flourish-key": { "name": "tasto" },
-    "flourish-letter": { "name": "lettera del tuo compagno" },
-    "flourish-moon": { "name": "luna" }
+    "caret-glow": {
+      "name": "bagliore morbido"
+    },
+    "caret-halo": {
+      "name": "alone"
+    },
+    "caret-drop": {
+      "name": "goccia d'inchiostro"
+    },
+    "caret-trail": {
+      "name": "coda di cometa"
+    },
+    "backdrop-dots": {
+      "name": "griglia di puntini"
+    },
+    "backdrop-ruled": {
+      "name": "carta rigata"
+    },
+    "backdrop-graph": {
+      "name": "carta millimetrata"
+    },
+    "backdrop-grain": {
+      "name": "grana"
+    },
+    "backdrop-checks": {
+      "name": "quadretti morbidi"
+    },
+    "frame-corners": {
+      "name": "segni agli angoli"
+    },
+    "frame-bookplate": {
+      "name": "ex libris"
+    },
+    "frame-tab": {
+      "name": "linguetta di cartella"
+    },
+    "frame-brackets": {
+      "name": "parentesi"
+    },
+    "keystroke-ink": {
+      "name": "dissolvenza d'inchiostro"
+    },
+    "keystroke-rise": {
+      "name": "salita delicata"
+    },
+    "keystroke-bloom": {
+      "name": "fioritura"
+    },
+    "flourish-leaf": {
+      "name": "foglia"
+    },
+    "flourish-star": {
+      "name": "stella"
+    },
+    "flourish-key": {
+      "name": "tasto"
+    },
+    "flourish-letter": {
+      "name": "lettera del tuo compagno"
+    },
+    "flourish-moon": {
+      "name": "luna"
+    }
   },
   "presets": {
-    "paper": { "name": "carta" },
-    "ink": { "name": "inchiostro" },
-    "dusk": { "name": "crepuscolo" },
-    "eink": { "name": "e-ink" },
-    "eink-night": { "name": "e-ink notturno" },
-    "cream": { "name": "crema" },
-    "rose": { "name": "rosa" },
-    "harbour": { "name": "porto" },
-    "forest": { "name": "foresta" },
-    "plum": { "name": "prugna" },
-    "slate": { "name": "ardesia" },
-    "terminal": { "name": "terminale" },
-    "contrast": { "name": "alto contrasto" },
-    "contrast-night": { "name": "alto contrasto notturno" }
+    "paper": {
+      "name": "carta"
+    },
+    "ink": {
+      "name": "inchiostro"
+    },
+    "dusk": {
+      "name": "crepuscolo"
+    },
+    "eink": {
+      "name": "e-ink"
+    },
+    "eink-night": {
+      "name": "e-ink notturno"
+    },
+    "cream": {
+      "name": "crema"
+    },
+    "rose": {
+      "name": "rosa"
+    },
+    "harbour": {
+      "name": "porto"
+    },
+    "forest": {
+      "name": "foresta"
+    },
+    "plum": {
+      "name": "prugna"
+    },
+    "slate": {
+      "name": "ardesia"
+    },
+    "terminal": {
+      "name": "terminale"
+    },
+    "contrast": {
+      "name": "alto contrasto"
+    },
+    "contrast-night": {
+      "name": "alto contrasto notturno"
+    }
   },
   "checks": {
     "text_bg": "testo sulla pagina",

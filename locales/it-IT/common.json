@@ -20,18 +20,18 @@
     "right": "destra"
   },
   "plural": {
-    "test": "{count, plural, one {# test} other {# test}}",
-    "minute": "{count, plural, one {# minuto} other {# minuti}}",
-    "hour": "{count, plural, one {# ora} other {# ore}}",
-    "word": "{count, plural, one {# parola} other {# parole}}",
-    "lesson": "{count, plural, one {# lezione} other {# lezioni}}",
-    "lesson_step": "{count, plural, one {# fase della lezione} other {# fasi della lezione}}",
-    "warmup": "{count, plural, one {# riscaldamento} other {# riscaldamenti}}",
-    "drill": "{count, plural, one {# esercizio} other {# esercizi}}",
-    "time": "{count, plural, one {# volta} other {# volte}}",
-    "quote": "{count, plural, one {# citazione} other {# citazioni}}",
-    "book_reading": "{count, plural, one {# lettura di un libro} other {# letture di libri}}",
-    "sustained_test": "{count, plural, one {# test sostenuto} other {# test sostenuti}}"
+    "test": "{count, plural, one {# test} many {# test} other {# test}}",
+    "minute": "{count, plural, one {# minuto} many {# minuti} other {# minuti}}",
+    "hour": "{count, plural, one {# ora} many {# ore} other {# ore}}",
+    "word": "{count, plural, one {# parola} many {# parole} other {# parole}}",
+    "lesson": "{count, plural, one {# lezione} many {# lezioni} other {# lezioni}}",
+    "lesson_step": "{count, plural, one {# fase della lezione} many {# fasi della lezione} other {# fasi della lezione}}",
+    "warmup": "{count, plural, one {# riscaldamento} many {# riscaldamenti} other {# riscaldamenti}}",
+    "drill": "{count, plural, one {# esercizio} many {# esercizi} other {# esercizi}}",
+    "time": "{count, plural, one {# volta} many {# volte} other {# volte}}",
+    "quote": "{count, plural, one {# citazione} many {# citazioni} other {# citazioni}}",
+    "book_reading": "{count, plural, one {# lettura di un libro} many {# letture di libri} other {# letture di libri}}",
+    "sustained_test": "{count, plural, one {# test sostenuto} many {# test sostenuti} other {# test sostenuti}}"
   },
   "modal": {
     "language_reload_title": "cambiare lingua?",
@@ -145,14 +145,14 @@
     "the_snapshot_could_not_be": "Non è stato possibile salvare lo snapshot."
   },
   "counts": {
-    "quote": "{count, plural, one {# citazione} other {# citazioni}}",
-    "text": "{count, plural, one {# testo} other {# testi}}",
-    "passage": "{count, plural, one {# brano} other {# brani}}",
-    "dataset": "{count, plural, one {# dataset} other {# dataset}}",
-    "word": "{count, plural, one {# parola} other {# parole}}",
-    "paragraph": "{count, plural, one {# paragrafo} other {# paragrafi}}",
-    "profile": "{count, plural, one {# profilo} other {# profili}}",
-    "font": "{count, plural, one {# font} other {# font}}"
+    "quote": "{count, plural, one {# citazione} many {# citazioni} other {# citazioni}}",
+    "text": "{count, plural, one {# testo} many {# testi} other {# testi}}",
+    "passage": "{count, plural, one {# brano} many {# brani} other {# brani}}",
+    "dataset": "{count, plural, one {# dataset} many {# dataset} other {# dataset}}",
+    "word": "{count, plural, one {# parola} many {# parole} other {# parole}}",
+    "paragraph": "{count, plural, one {# paragrafo} many {# paragrafi} other {# paragrafi}}",
+    "profile": "{count, plural, one {# profilo} many {# profili} other {# profili}}",
+    "font": "{count, plural, one {# font} many {# font} other {# font}}"
   },
   "progress_of": "{have} / {need}",
   "difficulty": {

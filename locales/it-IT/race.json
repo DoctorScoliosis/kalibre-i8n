@@ -40,7 +40,7 @@
     "race_again": "gareggia di nuovo",
     "enter_a_rest_stop_left": "invio: pit stop ({left} rimasti)",
     "room": "stanza {code}",
-    "pit_stop_hint": "invio: un pit stop per sistemare {words, plural, one {# parola sbagliata} other {# parole sbagliate}} (costa un paio di secondi)",
+    "pit_stop_hint": "invio: un pit stop per sistemare {words, plural, one {# parola sbagliata} many {# parole sbagliate} other {# parole sbagliate}} (costa un paio di secondi)",
     "ok_let_s_race": "ok, gareggiamo",
     "host_a_race": "ospita una gara",
     "start_the_race": "inizia la gara",
@@ -154,7 +154,7 @@
     "result_survived": "{place}. {time} di sopravvivenza · {first}",
     "still_going": " · ancora in corso",
     "result_standard": "{place}. {time}{penalty} · {wpm} ppm · {accuracy}{pits}",
-    "pits": " · {count, plural, one {# pit stop} other {# pit stop}}",
+    "pits": " · {count, plural, one {# pit stop} many {# pit stop} other {# pit stop}}",
     "place_one": "{place}°",
     "place_two": "{place}°",
     "place_few": "{place}°",
@@ -178,4 +178,3 @@
     "to_finish": "{seconds} s per finire"
   }
 }
-

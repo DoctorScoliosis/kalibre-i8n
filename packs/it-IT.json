@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 2,
-    "version": "2026-10-03",
-    "changes": "Filled current physical-serving gaps against kalibre-kanary"
+    "revision": 3,
+    "version": "2026-10-04",
+    "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories"
   },
   "strings": {
     "about": {
@@ -76,75 +76,75 @@
       },
       "rules": {
         "level": "raggiungi il livello {at}",
-        "tests": "completa {count, plural, one {# test} other {# test}}",
+        "tests": "completa {count, plural, one {# test} many {# test} other {# test}}",
         "bestWpm": "completa un test a {wpm} ppm",
-        "typingTime_hours": "digita per {count, plural, one {# ora} other {# ore}}, in tutto",
-        "typingTime_minutes": "digita per {count, plural, one {# minuto} other {# minuti}}, in tutto",
+        "typingTime_hours": "digita per {count, plural, one {# ora} many {# ore} other {# ore}}, in tutto",
+        "typingTime_minutes": "digita per {count, plural, one {# minuto} many {# minuti} other {# minuti}}, in tutto",
         "perfectTest_seconds": "completa un test di almeno {seconds} secondi con precisione del 100%",
         "perfectTest_words": "completa un test di almeno {words} parole con precisione del 100%",
-        "nightTests": "completa {count, plural, one {# test} other {# test}} tra mezzanotte e le 4",
-        "sustainedSurvived": "mantieni un test sostenuto per {count, plural, one {# minuto} other {# minuti}}",
-        "sustainedTotal": "trascorri {count, plural, one {# minuto} other {# minuti}} nei test sostenuti, in tutto",
+        "nightTests": "completa {count, plural, one {# test} many {# test} other {# test}} tra mezzanotte e le 4",
+        "sustainedSurvived": "mantieni un test sostenuto per {count, plural, one {# minuto} many {# minuti} other {# minuti}}",
+        "sustainedTotal": "trascorri {count, plural, one {# minuto} many {# minuti} other {# minuti}} nei test sostenuti, in tutto",
         "stageMastered": "padroneggia ogni lezione della fase {stage}",
         "stageStarted": "inizia una lezione nella fase {stage}",
         "allLessons": "padroneggia ogni lezione",
         "lastLessonDone": "completa l'ultima lezione del percorso",
-        "stepsFinished": "completa {count, plural, one {# fase della lezione} other {# fasi della lezione}}",
-        "lessonsStepped": "affronta {count, plural, one {# lezione} other {# lezioni}} prima del test",
-        "stepsAllDoneLessons": "{count, plural, one {attraversa ogni fase di una lezione} other {attraversa ogni fase di # lezioni}}",
-        "warmupsFinished": "completa {count, plural, one {# riscaldamento} other {# riscaldamenti}}",
+        "stepsFinished": "completa {count, plural, one {# fase della lezione} many {# fasi della lezione} other {# fasi della lezione}}",
+        "lessonsStepped": "affronta {count, plural, one {# lezione} many {# lezioni} other {# lezioni}} prima del test",
+        "stepsAllDoneLessons": "{count, plural, one {attraversa ogni fase di una lezione} many {attraversa ogni fase di # lezioni} other {attraversa ogni fase di # lezioni}}",
+        "warmupsFinished": "completa {count, plural, one {# riscaldamento} many {# riscaldamenti} other {# riscaldamenti}}",
         "warmupThenMastered": "padroneggia una lezione nel test subito dopo un riscaldamento",
         "stepsRetriedReady": "ripeti una fase finché non è pronta",
         "gameScore": "ottieni {score} in {game}",
-        "gameRuns": "gioca a {game} {count, plural, one {# volta} other {# volte}}",
-        "gameTime": "gioca a {game} per {count, plural, one {# minuto} other {# minuti}}, in tutto",
-        "gameLongest": "resisti per {count, plural, one {# minuto} other {# minuti}} in una sessione di {game}{difficulty, select, easy { a facile} normal { a normale} hard { a difficile} other {}}",
+        "gameRuns": "gioca a {game} {count, plural, one {# volta} many {# volte} other {# volte}}",
+        "gameTime": "gioca a {game} per {count, plural, one {# minuto} many {# minuti} other {# minuti}}, in tutto",
+        "gameLongest": "resisti per {count, plural, one {# minuto} many {# minuti} other {# minuti}} in una sessione di {game}{difficulty, select, easy { a facile} normal { a normale} hard { a difficile} other {}}",
         "gameWin": "vinci in {game}{difficulty, select, easy { a facile} normal { a normale} hard { a difficile} other {}}",
-        "spotFound": "trova {count, plural, one {# errore} other {# errori}} in una sessione di Spot",
-        "texts": "salva {count, plural, one {# testo} other {# testi}} tuoi",
+        "spotFound": "trova {count, plural, one {# errore} many {# errori} other {# errori}} in una sessione di Spot",
+        "texts": "salva {count, plural, one {# testo} many {# testi} other {# testi}} tuoi",
         "textWords": "salva un tuo testo di almeno {words} parole",
         "datasetWords": "crea un dataset con un tuo testo di almeno {words}+ parole",
-        "quotes": "aggiungi {count, plural, one {# citazione} other {# citazioni}} tue",
-        "bankMastered": "padroneggia {count, plural, one {# errore} other {# errori}}",
+        "quotes": "aggiungi {count, plural, one {# citazione} many {# citazioni} other {# citazioni}} tue",
+        "bankMastered": "padroneggia {count, plural, one {# errore} many {# errori} other {# errori}}",
         "goalStreak": "raggiungi il tuo obiettivo giornaliero per {days} giorni di fila",
-        "questsDone": "completa {count, plural, one {# missione giornaliera} other {# missioni giornaliere}}",
-        "challengesDone": "completa {count, plural, one {# sfida giornaliera} other {# sfide giornaliere}}",
-        "questFullDays": "completa tutte e tre le missioni giornaliere in {days, plural, one {# giorno} other {# giorni}} (non necessariamente di fila)",
-        "padTests": "completa {count, plural, one {# test a dieci tasti} other {# test a dieci tasti}}",
+        "questsDone": "completa {count, plural, one {# missione giornaliera} many {# missioni giornaliere} other {# missioni giornaliere}}",
+        "challengesDone": "completa {count, plural, one {# sfida giornaliera} many {# sfide giornaliere} other {# sfide giornaliere}}",
+        "questFullDays": "completa tutte e tre le missioni giornaliere in {days, plural, one {# giorno} many {# giorni} other {# giorni}} (non necessariamente di fila)",
+        "padTests": "completa {count, plural, one {# test a dieci tasti} many {# test a dieci tasti} other {# test a dieci tasti}}",
         "padKsph": "completa un test a dieci tasti a {ksph} battute all'ora con almeno il 95% di precisione",
         "padPerfect": "completa un test a dieci tasti di almeno {entries} voci con ogni voce corretta",
-        "padLessons": "padroneggia {count, plural, one {# lezione del tastierino numerico} other {# lezioni del tastierino numerico}}",
+        "padLessons": "padroneggia {count, plural, one {# lezione del tastierino numerico} many {# lezioni del tastierino numerico} other {# lezioni del tastierino numerico}}",
         "allPadLessons": "padroneggia tutte le lezioni del tastierino numerico",
-        "padSums": "risolvi correttamente {count, plural, one {# somma} other {# somme}}",
+        "padSums": "risolvi correttamente {count, plural, one {# somma} many {# somme} other {# somme}}",
         "padSumsPerfect": "rispondi a {answers} somme in una sessione con ogni risposta corretta",
         "padSumsLevel": "raggiungi il livello {level} nelle somme",
         "padTill": "servi {served} clienti in una sessione alla cassa",
-        "padKeys": "premi {count, plural, one {# tasto del tastierino numerico} other {# tasti del tastierino numerico}}, in tutto",
+        "padKeys": "premi {count, plural, one {# tasto del tastierino numerico} many {# tasti del tastierino numerico} other {# tasti del tastierino numerico}}, in tutto",
         "engaged": "un segreto",
-        "wordsTyped": "digita {count, plural, one {# parola} other {# parole}}, in tutto",
-        "daysTyped": "digita per {days, plural, one {# giorno} other {# giorni}} (non necessariamente di fila)",
-        "drillsDone": "completa {count, plural, one {# allenamento} other {# allenamenti}} sui tuoi errori",
-        "earlyTests": "completa {count, plural, one {# test} other {# test}} tra le 5 e le 6",
-        "lessons": "padroneggia {count, plural, one {# lezione} other {# lezioni}}",
-        "allGameRuns": "gioca a {count, plural, one {# gioco} other {# giochi}}, in tutto",
-        "perfectFirstLesson": "{count, plural, one {completa una lezione con precisione del 100% al primo tentativo} other {completa {count} lezioni con precisione del 100% al primo tentativo}}",
-        "wardrobeUnlocked": "sblocca {count, plural, one {# elemento del guardaroba} other {# elementi del guardaroba}}",
+        "wordsTyped": "digita {count, plural, one {# parola} many {# parole} other {# parole}}, in tutto",
+        "daysTyped": "digita per {days, plural, one {# giorno} many {# giorni} other {# giorni}} (non necessariamente di fila)",
+        "drillsDone": "completa {count, plural, one {# allenamento} many {# allenamenti} other {# allenamenti}} sui tuoi errori",
+        "earlyTests": "completa {count, plural, one {# test} many {# test} other {# test}} tra le 5 e le 6",
+        "lessons": "padroneggia {count, plural, one {# lezione} many {# lezioni} other {# lezioni}}",
+        "allGameRuns": "gioca a {count, plural, one {# gioco} many {# giochi} other {# giochi}}, in tutto",
+        "perfectFirstLesson": "{count, plural, one {completa una lezione con precisione del 100% al primo tentativo} many {completa {count} lezioni con precisione del 100% al primo tentativo} other {completa {count} lezioni con precisione del 100% al primo tentativo}}",
+        "wardrobeUnlocked": "sblocca {count, plural, one {# elemento del guardaroba} many {# elementi del guardaroba} other {# elementi del guardaroba}}",
         "wardrobeSlots": "indossa qualcosa in ogni spazio del guardaroba",
-        "decorationsUnlocked": "sblocca {count, plural, one {# decorazione del tema} other {# decorazioni del tema}}",
+        "decorationsUnlocked": "sblocca {count, plural, one {# decorazione del tema} many {# decorazioni del tema} other {# decorazioni del tema}}",
         "decorationSlots": "sblocca una decorazione del tema di ogni tipo",
-        "decorationsWorn": "{count, plural, one {decora uno dei tuoi temi} other {dai al tuo tema {count} decorazioni insieme}}",
-        "petted": "accarezza il tuo compagno {count, plural, one {# volta} other {# volte}}",
-        "poked": "dai un colpetto al tuo compagno {count, plural, one {# volta} other {# volte}}",
-        "tickled": "fai il solletico al tuo compagno {count, plural, one {# volta} other {# volte}}",
+        "decorationsWorn": "{count, plural, one {decora uno dei tuoi temi} many {dai al tuo tema {count} decorazioni insieme} other {dai al tuo tema {count} decorazioni insieme}}",
+        "petted": "accarezza il tuo compagno {count, plural, one {# volta} many {# volte} other {# volte}}",
+        "poked": "dai un colpetto al tuo compagno {count, plural, one {# volta} many {# volte} other {# volte}}",
+        "tickled": "fai il solletico al tuo compagno {count, plural, one {# volta} many {# volte} other {# volte}}",
         "pokedTooMuch": "dai otto colpetti al tuo compagno in rapida successione",
         "armLifted": "solleva il braccio sospeso nella pagina informazioni",
-        "quickRestarts": "riavvia Kalibre {count, plural, one {# volta} other {# volte}} in rapida successione, dando un colpetto o facendo il solletico al compagno nel frattempo",
-        "racesDone": "completa {count, plural, one {# gara} other {# gare}}",
+        "quickRestarts": "riavvia Kalibre {count, plural, one {# volta} many {# volte} other {# volte}} in rapida successione, dando un colpetto o facendo il solletico al compagno nel frattempo",
+        "racesDone": "completa {count, plural, one {# gara} many {# gare} other {# gare}}",
         "raceWins": "vinci una gara {difficulty, select, easy {facile } normal {normale } hard {difficile } other {}}{mode, select, sprint {sprint } endurance {resistenza } grand_prix {gran premio } other {}}{solo, select, true {da solo} false {sulla tua rete} other {}}",
-        "raceModesWon": "{count, select, 4 {vinci una gara in rete in ogni modalità} other {vinci una gara in rete in {count, plural, one {# modalità} other {# modalità}}}}",
-        "booksFinished": "{count, plural, one {completa un intero libro in modalità sostenuta} other {completa # interi libri in modalità sostenuta}}",
-        "spotTotalFound": "trova {count, plural, one {# errore} other {# errori}} in Spot, in tutto",
-        "spaceWordBombs": "{count, plural, one {sgancia la bomba di parole in Space una volta} other {sgancia la bomba di parole in Space {count} volte}}",
+        "raceModesWon": "{count, select, 4 {vinci una gara in rete in ogni modalità} other {vinci una gara in rete in {count, plural, one {# modalità} many {# modalità} other {# modalità}}}}",
+        "booksFinished": "{count, plural, one {completa un intero libro in modalità sostenuta} many {completa # interi libri in modalità sostenuta} other {completa # interi libri in modalità sostenuta}}",
+        "spotTotalFound": "trova {count, plural, one {# errore} many {# errori} other {# errori}} in Spot, in tutto",
+        "spaceWordBombs": "{count, plural, one {sgancia la bomba di parole in Space una volta} many {sgancia la bomba di parole in Space {count} volte} other {sgancia la bomba di parole in Space {count} volte}}",
         "unknown": "sconosciuto",
         "progress_suffix": " ({have} di {need})",
         "secret_hint": "un segreto: continua a giocare"
@@ -430,27 +430,6 @@
       },
       "clean-sweep": {
         "name": "nessuna sbavatura"
-      },
-      "beam-overload": {
-        "name": "raggio sovraccarico"
-      },
-      "flagship-down": {
-        "name": "ammiraglia abbattuta"
-      },
-      "keg-defused": {
-        "name": "barilotto disinnescato"
-      },
-      "ladder-toppled": {
-        "name": "scala rovesciata"
-      },
-      "sortie-master": {
-        "name": "maestro delle sortite"
-      },
-      "marathon-master": {
-        "name": "maestro della maratona"
-      },
-      "scroller-streak": {
-        "name": "serie sul nastro"
       },
       "race-first": {
         "name": "ai posti"
@@ -1118,8 +1097,8 @@
       "backup": {
         "error": "impossibile salvarlo: {error}",
         "nothing": "non c'è ancora nulla di cui fare il backup",
-        "saved_to_folder": "salvati {count, plural, one {# file del profilo} other {# file dei profili}} nella cartella kalibre “{folder}”",
-        "downloaded": "scaricati {count, plural, one {# file del profilo} other {# file dei profili}}"
+        "saved_to_folder": "salvati {count, plural, one {# file del profilo} many {# file dei profili} other {# file dei profili}} nella cartella kalibre “{folder}”",
+        "downloaded": "scaricati {count, plural, one {# file del profilo} many {# file dei profili} other {# file dei profili}}"
       },
       "updates": {
         "whats_new_title": "novità",
@@ -1517,18 +1496,18 @@
         "right": "destra"
       },
       "plural": {
-        "test": "{count, plural, one {# test} other {# test}}",
-        "minute": "{count, plural, one {# minuto} other {# minuti}}",
-        "hour": "{count, plural, one {# ora} other {# ore}}",
-        "word": "{count, plural, one {# parola} other {# parole}}",
-        "lesson": "{count, plural, one {# lezione} other {# lezioni}}",
-        "lesson_step": "{count, plural, one {# fase della lezione} other {# fasi della lezione}}",
-        "warmup": "{count, plural, one {# riscaldamento} other {# riscaldamenti}}",
-        "drill": "{count, plural, one {# esercizio} other {# esercizi}}",
-        "time": "{count, plural, one {# volta} other {# volte}}",
-        "quote": "{count, plural, one {# citazione} other {# citazioni}}",
-        "book_reading": "{count, plural, one {# lettura di un libro} other {# letture di libri}}",
-        "sustained_test": "{count, plural, one {# test sostenuto} other {# test sostenuti}}"
+        "test": "{count, plural, one {# test} many {# test} other {# test}}",
+        "minute": "{count, plural, one {# minuto} many {# minuti} other {# minuti}}",
+        "hour": "{count, plural, one {# ora} many {# ore} other {# ore}}",
+        "word": "{count, plural, one {# parola} many {# parole} other {# parole}}",
+        "lesson": "{count, plural, one {# lezione} many {# lezioni} other {# lezioni}}",
+        "lesson_step": "{count, plural, one {# fase della lezione} many {# fasi della lezione} other {# fasi della lezione}}",
+        "warmup": "{count, plural, one {# riscaldamento} many {# riscaldamenti} other {# riscaldamenti}}",
+        "drill": "{count, plural, one {# esercizio} many {# esercizi} other {# esercizi}}",
+        "time": "{count, plural, one {# volta} many {# volte} other {# volte}}",
+        "quote": "{count, plural, one {# citazione} many {# citazioni} other {# citazioni}}",
+        "book_reading": "{count, plural, one {# lettura di un libro} many {# letture di libri} other {# letture di libri}}",
+        "sustained_test": "{count, plural, one {# test sostenuto} many {# test sostenuti} other {# test sostenuti}}"
       },
       "modal": {
         "language_reload_title": "cambiare lingua?",
@@ -1642,14 +1621,14 @@
         "the_snapshot_could_not_be": "Non è stato possibile salvare lo snapshot."
       },
       "counts": {
-        "quote": "{count, plural, one {# citazione} other {# citazioni}}",
-        "text": "{count, plural, one {# testo} other {# testi}}",
-        "passage": "{count, plural, one {# brano} other {# brani}}",
-        "dataset": "{count, plural, one {# dataset} other {# dataset}}",
-        "word": "{count, plural, one {# parola} other {# parole}}",
-        "paragraph": "{count, plural, one {# paragrafo} other {# paragrafi}}",
-        "profile": "{count, plural, one {# profilo} other {# profili}}",
-        "font": "{count, plural, one {# font} other {# font}}"
+        "quote": "{count, plural, one {# citazione} many {# citazioni} other {# citazioni}}",
+        "text": "{count, plural, one {# testo} many {# testi} other {# testi}}",
+        "passage": "{count, plural, one {# brano} many {# brani} other {# brani}}",
+        "dataset": "{count, plural, one {# dataset} many {# dataset} other {# dataset}}",
+        "word": "{count, plural, one {# parola} many {# parole} other {# parole}}",
+        "paragraph": "{count, plural, one {# paragrafo} many {# paragrafi} other {# paragrafi}}",
+        "profile": "{count, plural, one {# profilo} many {# profili} other {# profili}}",
+        "font": "{count, plural, one {# font} many {# font} other {# font}}"
       },
       "progress_of": "{have} / {need}",
       "difficulty": {
@@ -2914,10 +2893,10 @@
         "downloaded": "{status, select, update {aggiornato} other {scaricato}} \"{name}\". è attivo e ora funziona offline.",
         "download_failed": "impossibile scaricare \"{name}\": {error}",
         "licence": "licenza: {licence}",
-        "version_passages": "versione {version} · {count, plural, one {# brano} other {# brani}}",
+        "version_passages": "versione {version} · {count, plural, one {# brano} many {# brani} other {# brani}}",
         "library_from": "da {name}",
         "library_remove": "rimuovi la libreria {name}",
-        "library_added": "aggiunta {name}: {count, plural, one {# dataset} other {# dataset}}.",
+        "library_added": "aggiunta {name}: {count, plural, one {# dataset} many {# dataset} other {# dataset}}.",
         "not_reachable": "non raggiungibile"
       },
       "install": {
@@ -3061,7 +3040,7 @@
         "drill_length": "lunghezza dell'allenamento",
         "quote_length": "lunghezza della citazione",
         "practise_by_area": "esercita per area",
-        "words_count": "{count, plural, one {# parola} other {# parole}}",
+        "words_count": "{count, plural, one {# parola} many {# parole} other {# parole}}",
         "ticked_count": "{selected} di {total} selezionati",
         "in_training": "in allenamento",
         "ready_to_drill": "pronti per l'allenamento",
@@ -3112,7 +3091,7 @@
         "serving_tray_full_state": "vassoio pieno · servi prima",
         "serving_queued": "{text} in coda · vassoio {count}/{capacity}",
         "serving_tray_full": "il vassoio è pieno — servi prima",
-        "serving_wasted": " · −{seconds}s · {count, plural, one {1 parola sprecata} other {# parole sprecate}}",
+        "serving_wasted": " · −{seconds}s · {count, plural, one {1 parola sprecata} many {# parole sprecate} other {# parole sprecate}}",
         "serving_served": "servito · {matched}/{total} corrispondenti",
         "serving_nothing_matched": "nessuna corrispondenza — tempo perso",
         "prepared": "{text} preparato",
@@ -3171,13 +3150,7 @@
         "section_critical": ", critico",
         "section_needs": ", servono mattoni che {requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "potenziamento",
-        "sortie_title": "sortita della guarnigione: raduna i difensori sul campo",
-        "sortie_ready": "schiera la sortita · alt+invio",
-        "sortie_mustering": "raduno ({seconds}s)",
-        "sortie_breached": "il corpo di guardia è stato sfondato",
-        "sortie_no_bricks": "servono mattoni per equipaggiare",
-        "guard_title": "guardia di guarnigione: {hp}/{maxHp} HP"
+        "powerup": "potenziamento"
       },
       "space": {
         "title": "spazio",
@@ -3193,10 +3166,6 @@
         "finish_a_word_to_load": "completa una parola per caricarla",
         "bomb_ready_shift_enter": "bomba pronta · maiusc+invio",
         "bomb": "bomba {floor}%",
-        "accumulator_charge": "carica del condensatore",
-        "accumulator": "condensatore {floor}%",
-        "accumulator_ready_alt_enter": "condensatore pronto ({charge}%) · alt+invio",
-        "accumulator_overload_alt_enter": "sovraccarico del condensatore! · alt+invio",
         "ship": "nave {round}",
         "score": "punteggio {round}",
         "destroyed": "distrutto {value}",
@@ -3216,11 +3185,7 @@
         "it_should_be": "dovrebbe essere “{original}” · {errorTitle}",
         "repairing": "{title} · correggilo qui (← → muovi) e premi invio",
         "repairing_retry": " · un altro tentativo",
-        "repairing_cancel": " · esc per annullare",
-        "lives": "{count}/{max} vite",
-        "streak": "serie {count}",
-        "combo": "combo ×{multiplier}",
-        "escaped": "{word} è passato oltre"
+        "repairing_cancel": " · esc per annullare"
       },
       "ui": {
         "pause": "pausa",
@@ -3262,7 +3227,7 @@
         "play_again": "gioca di nuovo",
         "change_setup": "cambia impostazioni",
         "added_training": "aggiunto all'allenamento",
-        "mistakes_noted": "{count, plural, one { · 1 errore annotato} other { · # errori annotati}}",
+        "mistakes_noted": "{count, plural, one { · 1 errore annotato} many { · # errori annotati} other { · # errori annotati}}",
         "results_summary": "{time} · {words} parole · {wpm} ppm · {accuracy} · errori di battitura {mistypes} · correzioni {corrections}",
         "daily_goal_title": "I giochi contano per l'obiettivo il tempo passato a digitare, non quello speso a leggere, mirare o pensare",
         "key_mashing_note": "Questa sessione sembrava una raffica di tasti ({reason}), quindi errori e XP non sono stati conteggiati.",
@@ -3283,7 +3248,7 @@
         "table_status": "tavolo {count}/{cap}",
         "yard_empty": "digita una parola per creare un mattone",
         "calm_wave": "calma: fai scorta di mattoni · ondata {wave} di {of} tra {seconds}s",
-        "active_wave": "ondata {wave} di {of} · {count, plural, one {1 attaccante} other {# attaccanti}}{holding, select, true { · in mano} other { · non in mano}}",
+        "active_wave": "ondata {wave} di {of} · {count, plural, one {1 attaccante} many {# attaccanti} other {# attaccanti}}{holding, select, true { · in mano} other { · non in mano}}",
         "castle_integrity": "integrità del castello {percent}%",
         "time_bank": "riserva di tempo",
         "next_passage": "brano successivo ",
@@ -3344,7 +3309,7 @@
         "include_my_card": "includi la mia scheda",
         "your_text_goes_in_the": "il tuo testo verrà inserito nel file.",
         "share": "condividi",
-        "save": "{count, plural, one {salva il fantasma} other {salva # fantasmi}}"
+        "save": "{count, plural, one {salva il fantasma} many {salva # fantasmi} other {salva # fantasmi}}"
       },
       "powerup_tray": {
         "shift": "{label}: {help} (maiusc+{value})",
@@ -3744,18 +3709,6 @@
                   "drops": {
                     "label": "lanci di mattoni",
                     "summary": "lascia cadere un mattone su un nemico per danneggiarlo o schiacciarlo."
-                  },
-                  "saboteur": {
-                    "label": "sabotatore",
-                    "summary": "infiltrati con barili di polvere che corrono verso le mura; schiacciali presto per far esplodere il barile tra gli attaccanti."
-                  },
-                  "ladderman": {
-                    "label": "scalatore",
-                    "summary": "ingegneri d'assedio che piantano scale d'assalto; lascia cadere mattoni per rovesciare la scala e provocare una cascata di cadute."
-                  },
-                  "sortie": {
-                    "label": "sortita della guarnigione",
-                    "summary": "raduna i difensori dal corpo di guardia sul campo per intercettare gli attaccanti prima che raggiungano le mura."
                   }
                 },
                 "controls": {
@@ -3764,20 +3717,11 @@
                   },
                   "i1": {
                     "action": "mira a una sezione o a un nemico"
-                  },
-                  "i2": {
-                    "action": "schiera una sortita della guarnigione nella colonna del cursore"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "lanci di mattoni"
-                  },
-                  "i1": {
-                    "label": "sabotatori e scale"
-                  },
-                  "i2": {
-                    "label": "sortite della guarnigione"
                   }
                 },
                 "visuals": {
@@ -3786,15 +3730,6 @@
                   },
                   "sapper-pick": {
                     "label": "guastatore (piccone)"
-                  },
-                  "saboteur-keg": {
-                    "label": "sabotatore (barile)"
-                  },
-                  "siege-ladder": {
-                    "label": "scala d'assedio"
-                  },
-                  "garrison-soldier": {
-                    "label": "soldato di guarnigione"
                   },
                   "catapult-siege": {
                     "label": "catapulta (assedio)"
@@ -4006,15 +3941,13 @@
                 "summary": "carica il caricatore, intercetta missili e caccia e usa la bomba per ripulire il campo.",
                 "highlights": [
                   "i missili portano una lettera: digitala senza altro testo per abbatterli",
-                  "maiusc+invio fa esplodere la bomba quando è carica",
-                  "alt+invio spara il raggio penetrante del condensatore quando è carico"
+                  "maiusc+invio fa esplodere la bomba quando è carica"
                 ],
                 "details": [
                   "caricare parole riempie il misuratore della bomba. quando è pieno, maiusc+invio elimina tutti i missili e danneggia ogni nemico.",
                   "le parole caricate di alta qualità caricano il condensatore. alt+invio scarica un laser verticale penetrante; il sovraccarico al 100% distrugge le navi schermate.",
                   "le stazioni spaziali lanciano caccia che ti inseguono. digita la lettera di un caccia per abbatterlo.",
-                  "le mine terrestri esplodono in schegge quando vengono colpite, che colpiscono tutto ciò che è vicino, te compreso.",
-                  "le navi schermate subiscono colpi solo dalle parole che soddisfano il loro requisito."
+                  "le mine terrestri esplodono in schegge quando vengono colpite, che colpiscono tutto ciò che è vicino, te compreso."
                 ],
                 "notes": {
                   "prompted": {
@@ -4029,10 +3962,6 @@
                   "bomb": {
                     "label": "bomba",
                     "summary": "si carica mentre carichi parole. maiusc+invio la fa esplodere, elimina i missili e danneggia i nemici."
-                  },
-                  "accumulator": {
-                    "label": "raggio del condensatore",
-                    "summary": "si carica con parole pulite e di alta qualità. alt+invio spara un raggio verticale penetrante; al 100% attraversa gli scudi e vaporizza i missili."
                   },
                   "fighters": {
                     "label": "caccia",
@@ -4049,37 +3978,16 @@
                   "shields": {
                     "label": "scudi",
                     "summary": "alcune navi hanno scudi che si rompono solo con parole che soddisfano un requisito."
-                  },
-                  "heavyFrigate": {
-                    "label": "fregata pesante",
-                    "summary": "prua rinforzata con barriera schermata e doppie batterie di missili."
-                  },
-                  "eliteCruiser": {
-                    "label": "incrociatore d'élite",
-                    "summary": "pesante corazzata con torrette di difesa puntuale che abbattono parole deboli (<30 potenza)."
-                  },
-                  "flagship": {
-                    "label": "ammiraglia",
-                    "summary": "enorme nave di comando modulare. distruggi le batterie d'armi e fai crollare il generatore di scudi per esporre il ponte."
                   }
                 },
                 "controls": {
                   "i0": {
                     "action": "fa esplodere la bomba"
-                  },
-                  "i1": {
-                    "action": "scarica il raggio del condensatore"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "onda d'urto della bomba"
-                  },
-                  "i1": {
-                    "label": "raggio del condensatore"
-                  },
-                  "i2": {
-                    "label": "boss ammiraglia"
                   }
                 },
                 "visuals": {
@@ -4088,18 +3996,6 @@
                   },
                   "bomb-shockwave": {
                     "label": "onda d'urto della bomba"
-                  },
-                  "capacitor-beam": {
-                    "label": "raggio penetrante del condensatore"
-                  },
-                  "heavy-frigate": {
-                    "label": "fregata pesante"
-                  },
-                  "elite-cruiser": {
-                    "label": "incrociatore d'élite"
-                  },
-                  "flagship-boss": {
-                    "label": "boss ammiraglia"
                   },
                   "orbital-station": {
                     "label": "stazione orbitale"
@@ -4188,12 +4084,6 @@
                   },
                   "endless": {
                     "label": "senza fine"
-                  },
-                  "marathon": {
-                    "label": "maratona"
-                  },
-                  "scroller": {
-                    "label": "scorrimento"
                   }
                 }
               },
@@ -4271,14 +4161,6 @@
                   "false-flag": {
                     "label": "falsi segnali",
                     "summary": "segnalare una parola corretta costa punti e, in modalità senza fine, tempo."
-                  },
-                  "marathon": {
-                    "label": "resistenza della maratona",
-                    "summary": "parti con 3 vite. falsi segnali e correzioni fallite costano una vita; completare 3 brani senza errori ne ripristina una."
-                  },
-                  "scroller": {
-                    "label": "nastro scorrevole",
-                    "summary": "i brani scorrono continuamente su un nastro. intercetta gli errori prima che escano dallo schermo."
                   }
                 },
                 "controls": {
@@ -4295,12 +4177,6 @@
                 "subDemos": {
                   "i0": {
                     "label": "scansione del brano"
-                  },
-                  "i1": {
-                    "label": "resistenza della maratona"
-                  },
-                  "i2": {
-                    "label": "nastro scorrevole"
                   }
                 },
                 "visuals": {
@@ -4312,12 +4188,6 @@
                   },
                   "false-flag-penalty": {
                     "label": "penalità per falso segnale"
-                  },
-                  "marathon-lives": {
-                    "label": "vite della maratona"
-                  },
-                  "scroller-belt": {
-                    "label": "nastro scorrevole"
                   }
                 }
               },
@@ -4497,10 +4367,6 @@
           "repaired": "{word} · riparato {healed}",
           "bomb": "bomba!",
           "bomb_not_ready": "la bomba non è ancora carica",
-          "accumulator": "scarica del raggio laser!",
-          "accumulator_not_ready": "il condensatore richiede almeno il 25% di carica",
-          "point_defense": "la difesa di punto ha intercettato {word}!",
-          "flagship_down": "ammiraglia distrutta!",
           "gatling": "fuoco rapido · {word}",
           "shield_absorb": "lo scudo ha assorbito il colpo di {source}!"
         },
@@ -4531,23 +4397,7 @@
         "wrong_kind_of_brick": "tipo di mattone sbagliato",
         "nobody_to_drop_it_on": "non c'è nessuno su cui lasciarlo cadere",
         "two_are_running_already": "ce ne sono già due attivi",
-        "nothing_stored_there": "nulla conservato qui",
-        "crushed_a_brute": "hai schiacciato un bruto",
-        "crushed_a_sapper": "hai schiacciato un guastatore",
-        "crushed_a_saboteur": "hai schiacciato un sabotatore",
-        "crushed_a_ladderman": "hai schiacciato uno scalatore",
-        "hit_a_brute": "hai colpito un bruto",
-        "hit_a_sapper": "hai colpito un guastatore",
-        "hit_a_saboteur": "hai colpito un sabotatore",
-        "hit_a_ladderman": "hai colpito uno scalatore",
-        "stunned": "stordito",
-        "keg_detonated": "barile di polvere esploso",
-        "ladder_toppled": "scala rovesciata",
-        "sortie_deployed": "sortita della guarnigione schierata",
-        "mustering": "guarnigione in formazione",
-        "gate_breached": "corpo di guardia sfondato",
-        "no_bricks": "servono mattoni per equipaggiare",
-        "friendly_fire": "fuoco amico!"
+        "nothing_stored_there": "nulla conservato qui"
       }
     },
     "learn": {
@@ -4688,7 +4538,7 @@
         "status_practising": "in esercitazione",
         "status_ready": "pronta",
         "status_locked": "bloccata",
-        "stats_summary": "migliore {wpm} ppm · {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+        "stats_summary": "migliore {wpm} ppm · {accuracy}% · {attempts, plural, one {# tentativo} many {# tentativi} other {# tentativi}}",
         "prerequisite": "Prima padroneggia {prereq}",
         "intro": "Impara a digitare senza guardare, un gruppo di tasti alla volta. Ogni lezione si apre quando quella precedente è padroneggiata: 25 ppm con il 95% di precisione su almeno 30 parole. Le lezioni danno XP e contano per un obiettivo giornaliero di XP.",
         "numpad_offer": "Un tastierino numerico? Kalibre offre esercitazioni a dieci tasti: lezioni, un test, somme e un gioco. ",
@@ -4801,7 +4651,7 @@
       },
       "learn_numpad_run": {
         "num_lock_is_off_the": "Bloc Num è disattivato: il tastierino invia frecce. Attiva Bloc Num sul tastierino.",
-        "time_left": "mancano {time} · {count, plural, one {# voce} other {# voci}}",
+        "time_left": "mancano {time} · {count, plural, one {# voce} many {# voci} other {# voci}}",
         "clock_start": "{time} · il primo tasto avvia il cronometro",
         "entries_count": "{done} / {total} voci"
       },
@@ -4850,9 +4700,9 @@
         "lesson_is_open": "La lezione {number} è aperta.",
         "that_s_every_number_pad": "Queste sono tutte le lezioni del tastierino numerico.",
         "again": "di nuovo",
-        "best_summary": "migliore {ksph} all'ora · {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
-        "best_detail": "migliore {ksph} all'ora al {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
-        "best_detail_mastered": "padroneggiata ✓ · migliore {ksph} all'ora al {accuracy}% · {attempts, plural, one {# tentativo} other {# tentativi}}",
+        "best_summary": "migliore {ksph} all'ora · {accuracy}% · {attempts, plural, one {# tentativo} many {# tentativi} other {# tentativi}}",
+        "best_detail": "migliore {ksph} all'ora al {accuracy}% · {attempts, plural, one {# tentativo} many {# tentativi} other {# tentativi}}",
+        "best_detail_mastered": "padroneggiata ✓ · migliore {ksph} all'ora al {accuracy}% · {attempts, plural, one {# tentativo} many {# tentativi} other {# tentativi}}",
         "new_keys": "nuovi tasti: {keys}",
         "headline": "{value} battute all'ora",
         "to_master": "Per padroneggiarla: {reasons}.",
@@ -4897,7 +4747,7 @@
         "you_typed_2": " · hai digitato {typed}",
         "every_answer_right": "tutte le risposte corrette.",
         "change_the_sums": "cambia le somme",
-        "title_count": "somme · {kind}{weak} · {count, plural, one {# domanda} other {# domande}}",
+        "title_count": "somme · {kind}{weak} · {count, plural, one {# domanda} many {# domande} other {# domande}}",
         "title": "somme · {kind}{weak}",
         "weak_spots": " · punti deboli",
         "right_headline": "{of} corrette",
@@ -5180,12 +5030,12 @@
         "kind_of_mistake": "tipo di errore",
         "all_kinds": "tutti i tipi",
         "keyboard_layout": "layout della tastiera",
-        "sessions_count": "{count, plural, one {# sessione} other {# sessioni}}",
+        "sessions_count": "{count, plural, one {# sessione} many {# sessioni} other {# sessioni}}",
         "corrected_count": "{count} corretti",
         "pager_aria": "pagine della tabella degli errori",
         "no_qualifiers_mistakes": "Nessun errore {qualifiers}{inSection, select, true { in {section}} other {}} ancora.",
         "no_in_section": "Nessun errore in {section} ancora.",
-        "training_words_note": "{count, plural, one {# parola} other {# parole}} con errori ricorrenti in allenamento."
+        "training_words_note": "{count, plural, one {# parola} many {# parole} other {# parole}} con errori ricorrenti in allenamento."
       },
       "mistake_map": {
         "mistakes_click_to_isolate": "errori {label} – fai clic per isolare",
@@ -5199,10 +5049,10 @@
         "words_and_spaces": "parole e spazi",
         "no_tests_yet": "nessun test ancora",
         "rate_one_test": "tasso di errore {rate} in un test",
-        "rate_over_tests": "tasso di errore {from} → {to} su {count, plural, one {# test} other {# test}}",
+        "rate_over_tests": "tasso di errore {from} → {to} su {count, plural, one {# test} many {# test} other {# test}}",
         "mark_label": "{mistake}: {rate} delle volte",
         "started_at": "{summary} · allenamento iniziato a {rate}",
-        "keyboard_label": "Tastiera con {count, plural, one {# errore} other {# errori}} disegnati sopra. L'elenco qui sotto contiene gli stessi errori."
+        "keyboard_label": "Tastiera con {count, plural, one {# errore} many {# errori} other {# errori}} disegnati sopra. L'elenco qui sotto contiene gli stessi errori."
       },
       "mistakes": {
         "actions": "azioni",
@@ -5314,7 +5164,7 @@
         "restoring_of": "ripristino… {done} di {total}",
         "restored": "ripristinati {join}.",
         "nothing_was_restored": "non è stato ripristinato nulla.",
-        "things_saved": "{count, plural, one {# elemento} other {# elementi}} salvati da kalibre.",
+        "things_saved": "{count, plural, one {# elemento} many {# elementi} other {# elementi}} salvati da kalibre.",
         "title": "ripristina da una cartella kalibre",
         "that_doesn_t_look_like": "Quella non sembra una cartella kalibre: non contiene kalibre.json e non contiene backup dei profili.",
         "the_folder_s_kalibre_json": "Il file kalibre.json della cartella è danneggiato, quindi non può essere letto. I suoi file possono comunque essere importati uno alla volta.",
@@ -5409,7 +5259,7 @@
         "a_password_or_passkey_keeps": "Una password o una passkey impedisce alle altre persone che usano questo browser di accedere alle schermate di Kalibre. Non cifra ciò che è memorizzato nel browser.",
         "rerun_setup": "ripeti la configurazione",
         "an_export_is_a_compressed": "Un'esportazione è un file .kalibre-profile compresso con la cronologia di questo profilo. Password e passkey vengono mantenute come blocchi, ma la compressione non è cifratura, quindi conservalo in un luogo privato.",
-        "removes_passkeys": "Questo rimuove anche {count, plural, one {la sua passkey} other {le sue # passkey}}.",
+        "removes_passkeys": "Questo rimuove anche {count, plural, one {la sua passkey} many {le sue # passkey} other {le sue # passkey}}.",
         "current_password": "password corrente",
         "new_password": "nuova password ({MIN_PASSWORD_LENGTH}+)",
         "repeat_it": "ripetila",
@@ -5608,16 +5458,16 @@
         "quest_done": "missione completata: {description}"
       },
       "match": {
-        "tests": "{count, plural, one {un test} other {test}}",
-        "drills": "{count, plural, one {un allenamento} other {allenamenti}}",
-        "time": "{count, plural, one {un test a tempo} other {test a tempo}}",
-        "words": "{count, plural, one {un test a parole} other {test a parole}}",
-        "quote": "{count, plural, one {una citazione} other {citazioni}}",
-        "book": "{count, plural, one {una lettura di libro} other {letture di libri}}",
-        "sustained": "{count, plural, one {un test sostenuto} other {test sostenuti}}",
-        "time_duration": "{count, plural, one {un test di {duration} secondi} other {test di {duration} secondi}}",
-        "words_count": "{count, plural, one {un test di {wordCount} parole} other {test di {wordCount} parole}}",
-        "quote_category": "{count, plural, one {una citazione {category}} other {citazioni {category}}}"
+        "tests": "{count, plural, one {un test} many {test} other {test}}",
+        "drills": "{count, plural, one {un allenamento} many {allenamenti} other {allenamenti}}",
+        "time": "{count, plural, one {un test a tempo} many {test a tempo} other {test a tempo}}",
+        "words": "{count, plural, one {un test a parole} many {test a parole} other {test a parole}}",
+        "quote": "{count, plural, one {una citazione} many {citazioni} other {citazioni}}",
+        "book": "{count, plural, one {una lettura di libro} many {letture di libri} other {letture di libri}}",
+        "sustained": "{count, plural, one {un test sostenuto} many {test sostenuti} other {test sostenuti}}",
+        "time_duration": "{count, plural, one {un test di {duration} secondi} many {test di {duration} secondi} other {test di {duration} secondi}}",
+        "words_count": "{count, plural, one {un test di {wordCount} parole} many {test di {wordCount} parole} other {test di {wordCount} parole}}",
+        "quote_category": "{count, plural, one {una citazione {category}} many {citazioni {category}} other {citazioni {category}}}"
       },
       "categories": {
         "short": "breve",
@@ -5642,30 +5492,30 @@
         "accuracy": "{accuracy}%+ di precisione",
         "and": " e ",
         "at": " a {parts}",
-        "kept_going_after": ", ha continuato per {minutes, plural, one {# minuto} other {# minuti}}",
-        "kept_going": " ha continuato per {minutes, plural, one {# minuto} other {# minuti}}"
+        "kept_going_after": ", ha continuato per {minutes, plural, one {# minuto} many {# minuti} other {# minuti}}",
+        "kept_going": " ha continuato per {minutes, plural, one {# minuto} many {# minuti} other {# minuti}}"
       },
       "describe": {
-        "words": "digita {count, plural, one {# parola} other {# parole}}",
-        "words_in": "digita {count, plural, one {# parola} other {# parole}} in {match}",
-        "minutes": "digita per {count, plural, one {# minuto} other {# minuti}}",
-        "minutes_in": "digita per {count, plural, one {# minuto} other {# minuti}} in {match}",
-        "minutes_book": "digita da un libro per {count, plural, one {# minuto} other {# minuti}}",
+        "words": "digita {count, plural, one {# parola} many {# parole} other {# parole}}",
+        "words_in": "digita {count, plural, one {# parola} many {# parole} other {# parole}} in {match}",
+        "minutes": "digita per {count, plural, one {# minuto} many {# minuti} other {# minuti}}",
+        "minutes_in": "digita per {count, plural, one {# minuto} many {# minuti} other {# minuti}} in {match}",
+        "minutes_book": "digita da un libro per {count, plural, one {# minuto} many {# minuti} other {# minuti}}",
         "tests_one": "completa {match}",
         "tests_many": "completa {count} {match}",
         "run": "completa {match}{conditions}",
-        "game_runs": "gioca a {game} {count, plural, one {una volta} other {# volte}}",
+        "game_runs": "gioca a {game} {count, plural, one {una volta} many {# volte} other {# volte}}",
         "game_score": "ottieni {score} punti in {game}",
         "game_score_difficulty": "ottieni {score} punti in {game} {difficulty}",
-        "game_found": "trova {count, plural, one {# errore} other {# errori}} in una partita di {game}",
+        "game_found": "trova {count, plural, one {# errore} many {# errori} other {# errori}} in una partita di {game}",
         "lesson_run": "completa una lezione di scrittura a tocco con almeno {accuracy}% di precisione",
-        "lessons": "{count, plural, one {fai una lezione di scrittura a tocco} other {fai # lezioni di scrittura a tocco}}",
-        "pad_tests": "{count, plural, one {completa un test del tastierino numerico} other {completa # test del tastierino numerico}}",
+        "lessons": "{count, plural, one {fai una lezione di scrittura a tocco} many {fai # lezioni di scrittura a tocco} other {fai # lezioni di scrittura a tocco}}",
+        "pad_tests": "{count, plural, one {completa un test del tastierino numerico} many {completa # test del tastierino numerico} other {completa # test del tastierino numerico}}",
         "pad_run": "completa un test del tastierino numerico",
         "pad_ksph": "{ksph}+ battute all'ora",
         "pad_entries": ", con almeno {entries} voci",
-        "pad_lessons": "{count, plural, one {fai una lezione di tastierino numerico} other {fai # lezioni di tastierino numerico}}",
-        "sums": "risolvi correttamente {count, plural, one {# somma} other {# somme}}",
+        "pad_lessons": "{count, plural, one {fai una lezione di tastierino numerico} many {fai # lezioni di tastierino numerico} other {fai # lezioni di tastierino numerico}}",
+        "sums": "risolvi correttamente {count, plural, one {# somma} many {# somme} other {# somme}}",
         "something": "qualcosa"
       }
     },
@@ -5711,7 +5561,7 @@
         "race_again": "gareggia di nuovo",
         "enter_a_rest_stop_left": "invio: pit stop ({left} rimasti)",
         "room": "stanza {code}",
-        "pit_stop_hint": "invio: un pit stop per sistemare {words, plural, one {# parola sbagliata} other {# parole sbagliate}} (costa un paio di secondi)",
+        "pit_stop_hint": "invio: un pit stop per sistemare {words, plural, one {# parola sbagliata} many {# parole sbagliate} other {# parole sbagliate}} (costa un paio di secondi)",
         "ok_let_s_race": "ok, gareggiamo",
         "host_a_race": "ospita una gara",
         "start_the_race": "inizia la gara",
@@ -5825,7 +5675,7 @@
         "result_survived": "{place}. {time} di sopravvivenza · {first}",
         "still_going": " · ancora in corso",
         "result_standard": "{place}. {time}{penalty} · {wpm} ppm · {accuracy}{pits}",
-        "pits": " · {count, plural, one {# pit stop} other {# pit stop}}",
+        "pits": " · {count, plural, one {# pit stop} many {# pit stop} other {# pit stop}}",
         "place_one": "{place}°",
         "place_two": "{place}°",
         "place_few": "{place}°",
@@ -5863,7 +5713,7 @@
       },
       "candidate": {
         "prompt_label": "suggerimento di allenamento",
-        "body": "Continui a digitare {word} · {count, plural, one {# volta} other {# volte}} in {sessions, plural, one {# sessione} other {# sessioni}}.",
+        "body": "Continui a digitare {word} · {count, plural, one {# volta} many {# volte} other {# volte}} in {sessions, plural, one {# sessione} many {# sessioni} other {# sessioni}}.",
         "train": "allena",
         "dismiss": "ignora",
         "later": "più tardi",
@@ -5930,13 +5780,13 @@
         "book_range": " {start} → {end}",
         "the_end": "la fine",
         "book_words": " · {count} parole",
-        "overdeleted": "hai eliminato {count, plural, one {# carattere corretto} other {# caratteri corretti}} oltre l'errore",
+        "overdeleted": "hai eliminato {count, plural, one {# carattere corretto} many {# caratteri corretti} other {# caratteri corretti}} oltre l'errore",
         "overdeleted_cost": ", circa {cost} ppm",
         "mistake_line": "{errors} su {exposures}{share} · prima {before}",
         "summary_line": "grezzo {raw} · {spread} · {duration}",
-        "practice_words": " · {count, plural, one {# parola di esercitazione} other {# parole di esercitazione}}",
-        "letters_to_cover": " · {count, plural, one {# lettera} other {# lettere}} ancora da coprire",
-        "mistakes_ready": "{count, plural, one {# errore pronto} other {# errori pronti}}",
+        "practice_words": " · {count, plural, one {# parola di esercitazione} many {# parole di esercitazione} other {# parole di esercitazione}}",
+        "letters_to_cover": " · {count, plural, one {# lettera} many {# lettere} other {# lettere}} ancora da coprire",
+        "mistakes_ready": "{count, plural, one {# errore pronto} many {# errori pronti} other {# errori pronti}}",
         "consistency_spread": "costanza {consistency}% (±{wpmStdDev} ppm)",
         "consistency_none": "costanza –"
       }
@@ -6600,7 +6450,7 @@
       "settings": {
         "github": "github",
         "translation_note": "questa traduzione non è stata scritta o controllata da un madrelingua, quindi alcune parti potrebbero suonare strane. puoi contribuire a migliorarla su {link}.",
-        "imported": "importate {count, plural, one {# impostazione} other {# impostazioni}}",
+        "imported": "importate {count, plural, one {# impostazione} many {# impostazioni} other {# impostazioni}}",
         "skipped": " · ignorato {what}",
         "sections_label": "sezioni delle impostazioni"
       },
@@ -6724,7 +6574,7 @@
         "words": "parole",
         "characters": "caratteri",
         "averages_note": "medie e record usano solo i test completati{notCounted, select, true {; i test a raffica di tasti non vengono conteggiati} other {}}",
-        "chart_heading": "{scope, select, all {tutti} other {ultimi}} {count} {count, plural, one {test} other {test}} · ppm",
+        "chart_heading": "{scope, select, all {tutti} other {ultimi}} {count} {count, plural, one {test} many {test} other {test}} · ppm",
         "chart_window_aria": "quanti test mostrare nel grafico",
         "by_characters": "per caratteri"
       },
@@ -6735,11 +6585,11 @@
       },
       "periods": {
         "no_tests": "nessun test",
-        "tests_count": "{count, plural, one {# test} other {# test}}",
+        "tests_count": "{count, plural, one {# test} many {# test} other {# test}}",
         "best_accuracy": "migliore {best} · {accuracy}%",
         "daily_goal": "obiettivo giornaliero: {target}",
         "today": " · oggi {amount}{met, select, true { ✓} other {}}",
-        "streak": " · serie {count, plural, one {# giorno} other {# giorni}}",
+        "streak": " · serie {count, plural, one {# giorno} many {# giorni} other {# giorni}}",
         "no_daily_goal": "Nessun obiettivo giornaliero. ",
         "set_one": "impostane uno",
         "time_typed_per_day": "tempo di digitazione al giorno · ultimi 30 giorni",
@@ -6750,7 +6600,7 @@
       },
       "games": {
         "no_games": "nessun gioco ancora. I giochi sono nella sezione giochi del menu.",
-        "runs_count": "{count, plural, one {# sessione} other {# sessioni}}",
+        "runs_count": "{count, plural, one {# sessione} many {# sessioni} other {# sessioni}}",
         "last": "ultima {date}",
         "best_run": "miglior sessione: {summary}",
         "bests_note": "i record contano le sessioni con le regole correnti di ogni gioco",
@@ -6883,7 +6733,7 @@
       },
       "overview_pane": {
         "recent_tests": "test recenti",
-        "group_stats": "{wpm} ppm · {accuracy}% · {count, plural, one {# test} other {# test}}"
+        "group_stats": "{wpm} ppm · {accuracy}% · {count, plural, one {# test} many {# test} other {# test}}"
       },
       "periods_pane": {
         "wpm": " ppm"
@@ -6898,7 +6748,7 @@
         "keyboard_coloured_by_how_often": "Tastiera colorata in base a quanto spesso ogni tasto viene digitato correttamente al primo tentativo. La tabella qui sotto mostra gli stessi valori.",
         "use_the_left_and_right": "{label}. Usa le frecce sinistra e destra per leggere ogni giorno.",
         "no_typing": "nessuna digitazione",
-        "day_tests": "{count, plural, one {# test} other {# test}}",
+        "day_tests": "{count, plural, one {# test} many {# test} other {# test}}",
         "day_wpm": " · {wpm} ppm"
       },
       "stats": {
@@ -6923,8 +6773,8 @@
         "sections_aria": "sezioni dei testi",
         "subfolders_too": " anche sottocartelle",
         "drop_hint": "oppure trascina qui i file",
-        "words_count": "{count, plural, one {# parola} other {# parole}}",
-        "paragraphs_count": "{count, plural, one {# paragrafo} other {# paragrafi}}"
+        "words_count": "{count, plural, one {# parola} many {# parole} other {# parole}}",
+        "paragraphs_count": "{count, plural, one {# paragrafo} many {# paragrafi} other {# paragrafi}}"
       },
       "actions": {
         "save": "salva",
@@ -7025,7 +6875,7 @@
         "delete_theme": "elimina {name}",
         "copy_and_decorate": "copia questo tema e decoralo",
         "decorations_earned_zero": "Le decorazioni dei temi, ottenute giocando, si applicano ai temi personali.",
-        "decorations_earned_notice": "Hai ottenuto {count, plural, one {una decorazione del tema} other {# decorazioni del tema}}. Si applicano ai tuoi temi, quindi crea una copia di questo per indossare {count, plural, one {la decorazione} other {le decorazioni}}.",
+        "decorations_earned_notice": "Hai ottenuto {count, plural, one {una decorazione del tema} many {# decorazioni del tema} other {# decorazioni del tema}}. Si applicano ai tuoi temi, quindi crea una copia di questo per indossare {count, plural, one {la decorazione} many {le decorazioni} other {le decorazioni}}.",
         "decorations_earned_info": "Ottenute giocando. Restano con questo tema su questo profilo e non vengono incluse quando esporti il tema."
       },
       "picker": {
@@ -7326,8 +7176,8 @@
       },
       "training_notice": {
         "mistakes": "errori, {join}",
-        "suggested": "{count, plural, one {# suggerito} other {# suggeriti}}",
-        "ready": "{count, plural, one {# pronto per l'allenamento} other {# pronti per l'allenamento}}"
+        "suggested": "{count, plural, one {# suggerito} many {# suggeriti} other {# suggeriti}}",
+        "ready": "{count, plural, one {# pronto per l'allenamento} many {# pronti per l'allenamento} other {# pronti per l'allenamento}}"
       },
       "type_view_goal": {
         "today": "✓ {formatGoalAmount} oggi",
@@ -7643,7 +7493,7 @@
         "item_locked_aria": "{name}, bloccato: {hint}",
         "remove_all": "rimuovi tutti gli elementi estetici",
         "news_new_item": "un nuovo {name}",
-        "news_new_items": "{count, plural, one {una cosa nuova} other {# cose nuove}}",
+        "news_new_items": "{count, plural, one {una cosa nuova} many {# cose nuove} other {# cose nuove}}",
         "news_earned": "oh, hai conquistato {what} per il mio guardaroba!",
         "try_it_on": "provalo",
         "status_worn": "{name}: {state}",
@@ -7660,7 +7510,7 @@
         "filter_on": "filtro attivo",
         "filter_off": "filtro disattivato",
         "placeholder": "una per riga oppure separate da virgole; termina con * per ogni parola che inizia con questo",
-        "filtered_count": "{count, plural, one {# parola} other {# parole}} personali filtrate",
+        "filtered_count": "{count, plural, one {# parola} many {# parole} other {# parole}} personali filtrate",
         "no_words": "nessuna parola personale",
         "heading": "parole offensive",
         "toggle_label": "filtra le parole offensive",

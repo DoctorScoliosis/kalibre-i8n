@@ -44,7 +44,7 @@
     "restoring_of": "ripristino… {done} di {total}",
     "restored": "ripristinati {join}.",
     "nothing_was_restored": "non è stato ripristinato nulla.",
-    "things_saved": "{count, plural, one {# elemento} other {# elementi}} salvati da kalibre.",
+    "things_saved": "{count, plural, one {# elemento} many {# elementi} other {# elementi}} salvati da kalibre.",
     "title": "ripristina da una cartella kalibre",
     "that_doesn_t_look_like": "Quella non sembra una cartella kalibre: non contiene kalibre.json e non contiene backup dei profili.",
     "the_folder_s_kalibre_json": "Il file kalibre.json della cartella è danneggiato, quindi non può essere letto. I suoi file possono comunque essere importati uno alla volta.",
@@ -139,7 +139,7 @@
     "a_password_or_passkey_keeps": "Una password o una passkey impedisce alle altre persone che usano questo browser di accedere alle schermate di Kalibre. Non cifra ciò che è memorizzato nel browser.",
     "rerun_setup": "ripeti la configurazione",
     "an_export_is_a_compressed": "Un'esportazione è un file .kalibre-profile compresso con la cronologia di questo profilo. Password e passkey vengono mantenute come blocchi, ma la compressione non è cifratura, quindi conservalo in un luogo privato.",
-    "removes_passkeys": "Questo rimuove anche {count, plural, one {la sua passkey} other {le sue # passkey}}.",
+    "removes_passkeys": "Questo rimuove anche {count, plural, one {la sua passkey} many {le sue # passkey} other {le sue # passkey}}.",
     "current_password": "password corrente",
     "new_password": "nuova password ({MIN_PASSWORD_LENGTH}+)",
     "repeat_it": "ripetila",
@@ -183,35 +183,76 @@
     "a_daily_goal": "un obiettivo giornaliero?",
     "how_often_should_the_backup": "con quale frequenza aggiornare la cartella di backup? (impostazioni → dati)",
     "DEFAULT_TESTS": {
-      "time-15": { "label": "15 secondi" },
-      "time-30": { "label": "30 secondi" },
-      "time-60": { "label": "60 secondi" },
-      "words-25": { "label": "25 parole" },
-      "words-50": { "label": "50 parole" }
+      "time-15": {
+        "label": "15 secondi"
+      },
+      "time-30": {
+        "label": "30 secondi"
+      },
+      "time-60": {
+        "label": "60 secondi"
+      },
+      "words-25": {
+        "label": "25 parole"
+      },
+      "words-50": {
+        "label": "50 parole"
+      }
     },
     "GOALS": {
-      "off": { "label": "nessun obiettivo" },
-      "minutes-10": { "label": "10 minuti" },
-      "minutes-20": { "label": "20 minuti" },
-      "words-500": { "label": "500 parole" },
-      "words-1000": { "label": "1.000 parole" }
+      "off": {
+        "label": "nessun obiettivo"
+      },
+      "minutes-10": {
+        "label": "10 minuti"
+      },
+      "minutes-20": {
+        "label": "20 minuti"
+      },
+      "words-500": {
+        "label": "500 parole"
+      },
+      "words-1000": {
+        "label": "1.000 parole"
+      }
     },
     "backupStep": {
-      "folder": { "label": "scegli una cartella" },
-      "later": { "label": "non ora" },
-      "save": { "label": "sì, salvalo" }
+      "folder": {
+        "label": "scegli una cartella"
+      },
+      "later": {
+        "label": "non ora"
+      },
+      "save": {
+        "label": "sì, salvalo"
+      }
     },
     "restoreStep": {
-      "new": { "label": "prima volta qui", "detail": "configura un profilo nuovo" },
-      "restore": { "label": "già stato qui", "detail": "ripristina dalla mia cartella kalibre" }
+      "new": {
+        "label": "prima volta qui",
+        "detail": "configura un profilo nuovo"
+      },
+      "restore": {
+        "label": "già stato qui",
+        "detail": "ripristina dalla mia cartella kalibre"
+      }
     },
     "touchStep": {
-      "ok": { "label": "capito", "detail": "continua con questo dispositivo" }
+      "ok": {
+        "label": "capito",
+        "detail": "continua con questo dispositivo"
+      }
     },
     "buildSteps": {
-      "relaxed": { "label": "solo schemi chiari" },
-      "normal": { "label": "dopo alcune ripetizioni" },
-      "eager": { "label": "presto" }
+      "relaxed": {
+        "label": "solo schemi chiari"
+      },
+      "normal": {
+        "label": "dopo alcune ripetizioni"
+      },
+      "eager": {
+        "label": "presto"
+      }
     },
     "pick_a_language": "scegli una lingua",
     "name_prompt": "come dobbiamo chiamarti?",
