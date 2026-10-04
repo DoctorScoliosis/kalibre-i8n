@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 2,
-    "version": "2026-10-03",
-    "changes": "Filled current physical-serving gaps against kalibre-kanary"
+    "revision": 3,
+    "version": "2026-10-04",
+    "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories"
   },
   "strings": {
     "about": {
@@ -697,27 +697,6 @@
         "badges": "distintivos",
         "extras": "extras",
         "sections_label": "seções de conquistas"
-      },
-      "beam-overload": {
-        "name": "feixe sobrecarregado"
-      },
-      "flagship-down": {
-        "name": "capitânia destruída"
-      },
-      "keg-defused": {
-        "name": "barril neutralizado"
-      },
-      "ladder-toppled": {
-        "name": "escada derrubada"
-      },
-      "sortie-master": {
-        "name": "mestre da sortida"
-      },
-      "marathon-master": {
-        "name": "mestre da maratona"
-      },
-      "scroller-streak": {
-        "name": "sequência na esteira"
       }
     },
     "cards": {
@@ -3112,7 +3091,7 @@
         "serving_tray_full_state": "bandeja cheia · sirva primeiro",
         "serving_queued": "{text} na fila · bandeja {count}/{capacity}",
         "serving_tray_full": "a bandeja está cheia — sirva primeiro",
-        "serving_wasted": " · −{seconds}s · {count, plural, one {1 palavra desperdiçada} other {# palavras desperdiçadas}}",
+        "serving_wasted": " · −{seconds}s · {count, plural, one {1 palavra desperdiçada} many {# palavras desperdiçadas} other {# palavras desperdiçadas}}",
         "serving_served": "servido · {matched}/{total} correspondentes",
         "serving_nothing_matched": "nada correspondeu — tempo perdido",
         "prepared": "{text} preparado",
@@ -3171,13 +3150,7 @@
         "section_critical": ", crítico",
         "section_needs": ", precisa de tijolos que {requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "power-up",
-        "sortie_title": "sortida da guarnição: reúna defensores no campo",
-        "sortie_ready": "enviar sortida · alt+enter",
-        "sortie_mustering": "reunindo ({seconds}s)",
-        "sortie_breached": "portaria rompida",
-        "sortie_no_bricks": "é preciso ter tijolos para equipar",
-        "guard_title": "guarda da guarnição: {hp}/{maxHp} HP"
+        "powerup": "power-up"
       },
       "space": {
         "title": "space",
@@ -3193,10 +3166,6 @@
         "finish_a_word_to_load": "termine uma palavra para carregá-la",
         "bomb_ready_shift_enter": "bomba pronta · shift+enter",
         "bomb": "bomba {floor}%",
-        "accumulator_charge": "carga do capacitor",
-        "accumulator": "capacitor {floor}%",
-        "accumulator_ready_alt_enter": "capacitor pronto ({charge}%) · alt+enter",
-        "accumulator_overload_alt_enter": "sobrecarga do capacitor! · alt+enter",
         "ship": "nave {round}",
         "score": "pontuação {round}",
         "destroyed": "destruídos {value}",
@@ -3216,11 +3185,7 @@
         "it_should_be": "deveria ser “{original}” · {errorTitle}",
         "repairing": "{title} · corrija no lugar (← → para mover) e pressione enter",
         "repairing_retry": " · mais uma tentativa",
-        "repairing_cancel": " · esc para cancelar",
-        "lives": "{count}/{max} vidas",
-        "streak": "sequência {count}",
-        "combo": "combo ×{multiplier}",
-        "escaped": "{word} passou pela tela"
+        "repairing_cancel": " · esc para cancelar"
       },
       "ui": {
         "pause": "pausa",
@@ -3744,18 +3709,6 @@
                   "drops": {
                     "label": "tijolos soltos",
                     "summary": "solte um tijolo sobre um inimigo para danificá-lo ou esmagá-lo."
-                  },
-                  "saboteur": {
-                    "label": "sabotador",
-                    "summary": "infiltradores com barris de pólvora avançam contra as muralhas; esmague-os cedo para detonar o barril no meio dos atacantes."
-                  },
-                  "ladderman": {
-                    "label": "homem da escada",
-                    "summary": "engenheiros de cerco posicionam escadas de assalto; solte tijolos para derrubar a escada e provocar uma cascata de quedas."
-                  },
-                  "sortie": {
-                    "label": "sortida da guarnição",
-                    "summary": "reúna defensores da portaria e envie-os ao campo para interceptar atacantes antes que alcancem suas muralhas."
                   }
                 },
                 "controls": {
@@ -3764,20 +3717,11 @@
                   },
                   "i1": {
                     "action": "mirar em uma seção ou inimigo"
-                  },
-                  "i2": {
-                    "action": "enviar a sortida da guarnição para a coluna mirado"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "tijolos soltos"
-                  },
-                  "i1": {
-                    "label": "sabotadores e escadas"
-                  },
-                  "i2": {
-                    "label": "sortidas da guarnição"
                   }
                 },
                 "visuals": {
@@ -3787,20 +3731,11 @@
                   "sapper-pick": {
                     "label": "sapador (desgaste)"
                   },
-                  "saboteur-keg": {
-                    "label": "sabotador (barril)"
-                  },
-                  "siege-ladder": {
-                    "label": "escada de cerco"
-                  },
                   "catapult-siege": {
                     "label": "catapulta (cerco)"
                   },
                   "boulder-arc": {
                     "label": "arco da pedra"
-                  },
-                  "garrison-soldier": {
-                    "label": "soldado da guarnição"
                   }
                 }
               },
@@ -4006,15 +3941,13 @@
                 "summary": "carregue o pente, intercepte mísseis e caças e use a bomba para limpar o campo.",
                 "highlights": [
                   "mísseis carregam uma letra — digite-a sem nada digitado para abatê-los",
-                  "shift+enter detona a bomba quando carregada",
-                  "alt+enter dispara o feixe perfurante do capacitor quando carregado"
+                  "shift+enter detona a bomba quando carregada"
                 ],
                 "details": [
                   "carregar palavras enche o medidor da bomba. quando cheio, shift+enter elimina todos os mísseis e danifica todos os inimigos.",
                   "palavras carregadas de alta qualidade carregam o capacitor. alt+enter descarrega um laser vertical perfurante; a sobrecarga a 100% destrói naves com escudo.",
                   "estações espaciais lançam caças que perseguem você. digite a letra de um caça para abatê-lo.",
-                  "minas terrestres explodem em estilhaços quando atingidas, acertando tudo por perto, inclusive você.",
-                  "naves com escudo só recebem dano de palavras que atendam ao requisito."
+                  "minas terrestres explodem em estilhaços quando atingidas, acertando tudo por perto, inclusive você."
                 ],
                 "notes": {
                   "prompted": {
@@ -4029,10 +3962,6 @@
                   "bomb": {
                     "label": "bomba",
                     "summary": "carrega enquanto você completa palavras. shift+enter detona, elimina mísseis e causa dano aos inimigos."
-                  },
-                  "accumulator": {
-                    "label": "feixe do capacitor",
-                    "summary": "carrega com palavras limpas e de alta qualidade. alt+enter dispara um feixe vertical perfurante; sobrecarga a 100% atravessa escudos e vaporiza mísseis."
                   },
                   "fighters": {
                     "label": "caças",
@@ -4049,37 +3978,16 @@
                   "shields": {
                     "label": "escudos",
                     "summary": "algumas naves têm escudos que só quebram com palavras que atendam a um requisito."
-                  },
-                  "heavyFrigate": {
-                    "label": "fragata pesada",
-                    "summary": "proa reforçada com barreira de escudo e duas baterias de mísseis."
-                  },
-                  "eliteCruiser": {
-                    "label": "cruzador de elite",
-                    "summary": "supernave pesada com torres de defesa pontual que derrubam palavras fracas (<30 de força)."
-                  },
-                  "flagship": {
-                    "label": "chefão capitânia",
-                    "summary": "enorme nave de comando modular. destrua as baterias de armas e derrube o gerador de escudo para expor a ponte."
                   }
                 },
                 "controls": {
                   "i0": {
                     "action": "detonar a bomba"
-                  },
-                  "i1": {
-                    "action": "descarregar o feixe do capacitor"
                   }
                 },
                 "subDemos": {
                   "i0": {
                     "label": "onda de choque da bomba"
-                  },
-                  "i1": {
-                    "label": "feixe do capacitor"
-                  },
-                  "i2": {
-                    "label": "chefão capitânia"
                   }
                 },
                 "visuals": {
@@ -4088,18 +3996,6 @@
                   },
                   "bomb-shockwave": {
                     "label": "onda de choque da bomba"
-                  },
-                  "capacitor-beam": {
-                    "label": "feixe perfurante do capacitor"
-                  },
-                  "heavy-frigate": {
-                    "label": "fragata pesada"
-                  },
-                  "elite-cruiser": {
-                    "label": "cruzador de elite"
-                  },
-                  "flagship-boss": {
-                    "label": "chefão capitânia"
                   },
                   "orbital-station": {
                     "label": "estação orbital"
@@ -4188,12 +4084,6 @@
                   },
                   "endless": {
                     "label": "sem fim"
-                  },
-                  "marathon": {
-                    "label": "maratona"
-                  },
-                  "scroller": {
-                    "label": "rolador"
                   }
                 }
               },
@@ -4271,14 +4161,6 @@
                   "false-flag": {
                     "label": "marcações falsas",
                     "summary": "marcar uma palavra correta custa pontos e (no modo sem fim) tempo."
-                  },
-                  "marathon": {
-                    "label": "resistência de maratona",
-                    "summary": "comece com 3 vidas. marcações falsas e reparos malsucedidos custam uma vida; limpar 3 trechos sem erros devolve uma."
-                  },
-                  "scroller": {
-                    "label": "rolador contínuo",
-                    "summary": "os trechos passam continuamente como numa esteira. encontre os erros antes que saiam da tela."
                   }
                 },
                 "controls": {
@@ -4295,12 +4177,6 @@
                 "subDemos": {
                   "i0": {
                     "label": "varredura do trecho"
-                  },
-                  "i1": {
-                    "label": "resistência de maratona"
-                  },
-                  "i2": {
-                    "label": "rolador contínuo"
                   }
                 },
                 "visuals": {
@@ -4312,12 +4188,6 @@
                   },
                   "false-flag-penalty": {
                     "label": "penalidade por marcação falsa"
-                  },
-                  "marathon-lives": {
-                    "label": "vidas da maratona"
-                  },
-                  "scroller-belt": {
-                    "label": "esteira do rolador"
                   }
                 }
               },
@@ -4497,10 +4367,6 @@
           "repaired": "{word} · reparado {healed}",
           "bomb": "bomba!",
           "bomb_not_ready": "a bomba ainda não está carregada",
-          "accumulator": "descarga do feixe laser!",
-          "accumulator_not_ready": "o capacitor precisa de pelo menos 25% de carga",
-          "point_defense": "defesa pontual interceptou {word}!",
-          "flagship_down": "capitânia destruída!",
           "gatling": "fogo rápido · {word}",
           "shield_absorb": "o escudo absorveu o impacto de {source}!"
         },
@@ -4531,23 +4397,7 @@
         "wrong_kind_of_brick": "tipo errado de tijolo",
         "nobody_to_drop_it_on": "ninguém para soltar sobre",
         "two_are_running_already": "dois já estão em funcionamento",
-        "nothing_stored_there": "nada guardado aqui",
-        "crushed_a_brute": "esmagou um brutamontes",
-        "crushed_a_sapper": "esmagou um sapador",
-        "crushed_a_saboteur": "esmagou um sabotador",
-        "crushed_a_ladderman": "esmagou um homem da escada",
-        "hit_a_brute": "acertou um brutamontes",
-        "hit_a_sapper": "acertou um sapador",
-        "hit_a_saboteur": "acertou um sabotador",
-        "hit_a_ladderman": "acertou um homem da escada",
-        "stunned": "atordoado",
-        "keg_detonated": "barril de pólvora detonado",
-        "ladder_toppled": "escada derrubada",
-        "sortie_deployed": "sortida da guarnição enviada",
-        "mustering": "reunindo a guarnição",
-        "gate_breached": "portaria rompida",
-        "no_bricks": "é preciso ter tijolos para equipar",
-        "friendly_fire": "fogo amigo!"
+        "nothing_stored_there": "nada guardado aqui"
       }
     },
     "learn": {
