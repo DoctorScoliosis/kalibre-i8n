@@ -115,7 +115,9 @@
     "it_should_be": "det ska vara ”{original}” · {errorTitle}",
     "repairing": "{title} · rätta på plats (← → flytta) och tryck retur",
     "repairing_retry": " · ett försök till",
-    "repairing_cancel": " · esc för att avbryta"
+    "repairing_cancel": " · esc för att avbryta",
+    "find_mistake": "hitta ett misstag: klicka på ett ord eller använd pilarna och tryck sedan retur",
+    "paused_fix": "{title} · tryck retur för att fortsätta rätta, eller klicka där du vill börja"
   },
   "ui": {
     "pause": "paus",
@@ -184,7 +186,6 @@
     "next_passage": "nästa textavsnitt ",
     "hud_found": "textavsnitt {round} · hittade {found} av {total}",
     "hud_score": "poäng {score}",
-    "find_mistake": "hitta ett misstag: peka eller använd pilarna, klicka sedan eller tryck retur",
     "skip_title": "gå vidare; det som är kvar räknas som missat"
   },
   "errors": {
@@ -1135,7 +1136,7 @@
             "group": "komma igång",
             "summary": "hitta misstagen som planterats i ett textavsnitt och rätta dem.",
             "highlights": [
-              "peka på ett ord eller navigera med piltangenterna",
+              "klicka på ett ord eller flytta med piltangenterna",
               "tryck retur för att markera ett misstag och skriv sedan rättningen"
             ],
             "details": [
@@ -1177,18 +1178,18 @@
             "group": "överlevnad",
             "summary": "skanna textavsnittet, välj ett ord du tror är fel och tryck retur för att markera det.",
             "highlights": [
-              "håll muspekaren över ett ord eller använd piltangenterna för att välja det",
+              "klicka på ett ord eller använd piltangenterna för att välja det",
               "att markera ett korrekt ord kostar poäng"
             ],
             "details": [
-              "flytta med ← → ord för ord eller ↑ ↓ rad för rad. klicka eller håll muspekaren över för att hoppa.",
+              "flytta med ← → ord för ord eller ↑ ↓ rad för rad. klicka på ett ord för att hoppa dit; klicka bredvid för att avmarkera.",
               "att hitta och rätta poängsätts separat.",
               "ett ord som egentligen är korrekt och markeras som fel räknas som en felmarkering och kostar poäng."
             ],
             "mechanics": {
               "selection": {
                 "label": "ordval",
-                "summary": "håll muspekaren över, klicka eller använd piltangenterna för att välja ett ord."
+                "summary": "klicka eller använd piltangenterna för att välja ett ord. att välja kostar inget; bara retur markerar."
               },
               "false-flag": {
                 "label": "felmarkeringar",
@@ -1215,8 +1216,8 @@
               "selected-word": {
                 "label": "valt ord"
               },
-              "hover-cursor": {
-                "label": "muspekarmarkör"
+              "click-select": {
+                "label": "klicka för att välja"
               },
               "false-flag-penalty": {
                 "label": "straff för felmarkering"
@@ -1235,7 +1236,8 @@
               "använd ← → för att flytta markören, Home och End för att hoppa. Delete och backsteg fungerar som vanligt.",
               "klicka i ordet för att placera markören på en viss position.",
               "du får två försök. om båda misslyckas visas det korrekta ordet.",
-              "tryck Escape för att avbryta en rättning utan straff."
+              "tryck Escape för att avbryta en rättning utan straff.",
+              "klickar du på ett annat ord mitt i en rättning väntar rättningen, som du lämnade den, tills du klickar tillbaka."
             ],
             "mechanics": {
               "caret": {

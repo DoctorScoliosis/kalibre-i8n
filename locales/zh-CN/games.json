@@ -99,7 +99,9 @@
     "it_should_be": "应为“{original}” · {errorTitle}",
     "repairing": "{title} · 在原处修改（← → 移动）并按回车",
     "repairing_retry": " · 再试一次",
-    "repairing_cancel": " · Esc 取消"
+    "repairing_cancel": " · Esc 取消",
+    "find_mistake": "找出错误：点击单词或使用方向键选择，然后按回车",
+    "paused_fix": "{title} · 按回车继续修改，或点击要开始编辑的位置"
   },
   "ui": {
     "pause": "暂停",
@@ -168,7 +170,6 @@
     "next_passage": "下一段落 ",
     "hud_found": "第 {round} 段 · 发现 {found} / {total}",
     "hud_score": "得分 {score}",
-    "find_mistake": "找出错误：用鼠标指向或使用方向键，然后点击或按回车",
     "skip_title": "继续；剩下的计为未找到"
   },
   "errors": {
@@ -970,7 +971,7 @@
             "group": "入门",
             "summary": "找出段落中埋藏的错误并修正它们。",
             "highlights": [
-              "指向单词或用方向键导航",
+              "点击单词或用方向键移动",
               "按回车标记错误，然后输入修正"
             ],
             "details": [
@@ -1012,18 +1013,18 @@
             "group": "生存",
             "summary": "扫描段落，选择一个你认为错误的单词，然后按回车标记它。",
             "highlights": [
-              "悬停在单词上或使用方向键选择它",
+              "点击单词或使用方向键选择它",
               "标记正确的单词会扣分"
             ],
             "details": [
-              "用 ← → 逐词移动，或 ↑ ↓ 逐行移动。点击或悬停以跳转。",
+              "用 ← → 逐词移动，或 ↑ ↓ 逐行移动。点击单词即可跳转；点击空白处取消选择。",
               "发现和修复分别计分。",
               "标记实际上正确的单词计为误报并扣分。"
             ],
             "mechanics": {
               "selection": {
                 "label": "单词选择",
-                "summary": "悬停、点击或使用方向键选择单词。"
+                "summary": "点击或使用方向键选择单词。选择不扣分，只有按回车才会标记。"
               },
               "false-flag": {
                 "label": "误报",
@@ -1050,8 +1051,8 @@
               "selected-word": {
                 "label": "选中的单词"
               },
-              "hover-cursor": {
-                "label": "悬停光标"
+              "click-select": {
+                "label": "点击选择"
               },
               "false-flag-penalty": {
                 "label": "误报惩罚"
@@ -1070,7 +1071,8 @@
               "使用 ← → 移动光标，Home 和 End 跳转。Delete 和 Backspace 照常工作。",
               "在单词内点击以将光标放置在特定位置。",
               "你有两次尝试机会。如果都失败，将显示正确的单词。",
-              "按 Esc 取消修复而不受惩罚。"
+              "按 Esc 取消修复而不受惩罚。",
+              "修改中途点击其他单词，未完成的修改会原样保留，等你点回来继续。"
             ],
             "mechanics": {
               "caret": {

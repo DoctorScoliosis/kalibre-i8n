@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "community",
-  "revision": 7,
+  "revision": 8,
   "version": "2026-10-04",
-  "changes": "Reconciled Games keys after the application rollback; normalised locale plural categories"
+  "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
 }
