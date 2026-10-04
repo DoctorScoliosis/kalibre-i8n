@@ -1,129 +1,129 @@
 {
   "editor": {
     "save_theme": "lagre tema",
-    "name": "namn",
+    "name": "navn",
     "light_or_dark": "lys eller mørk",
-    "readability": "läsbarhet",
+    "readability": "lesbarhet",
     "page": "side",
-    "background": "bakgrund",
+    "background": "bakgrunn",
     "panels": "paneler",
     "lines_borders": "linjer og kanter",
     "selection": "markering",
     "text": "tekst",
-    "dim_text": "dämpad tekst",
-    "accent": "accent",
+    "dim_text": "dempet tekst",
+    "accent": "aksent",
     "typed_text": "skrevet tekst",
     "mistakes": "feil",
-    "extra_letters": "extra bokstaver",
+    "extra_letters": "ekstra bokstaver",
     "caret": "markør"
   },
   "actions": {
     "use": "bruk",
-    "edit": "redigera",
-    "decorate": "dekorera",
-    "export": "eksportere",
-    "delete": "fjerne",
-    "done": "klar",
-    "customise_current": "anpassa aktuellt tema",
-    "import_theme": "importere ett tema",
-    "decorations_for": "utsmyckningar for {name}",
+    "edit": "rediger",
+    "decorate": "dekorer",
+    "export": "eksporter",
+    "delete": "slett",
+    "done": "ferdig",
+    "customise_current": "tilpass gjeldende tema",
+    "import_theme": "importer et tema",
+    "decorations_for": "dekorasjoner for {name}",
     "use_theme": "bruk {name}",
-    "edit_theme": "redigera {name}",
-    "decorate_theme": "dekorera {name}",
-    "export_theme": "eksportere {name}",
-    "delete_theme": "fjerne {name}",
-    "copy_and_decorate": "kopiera dette temat og dekorera det",
-    "decorations_earned_zero": "Temautsmyckningar, som tjänas gjennom spel, brukes på dine egne temaer.",
-    "decorations_earned_notice": "Du har tjänat in {count, plural, one {en temautsmyckning} other {# temautsmyckningar}}. De hör til dine egne temaer, så kopiera dette for att bära {count, plural, one {den} other {dem}}.",
-    "decorations_earned_info": "Tjänas gjennom spel. De följer dette temat på denne profilen og tas ikke med når du exporterar temat."
+    "edit_theme": "rediger {name}",
+    "decorate_theme": "dekorer {name}",
+    "export_theme": "eksporter {name}",
+    "delete_theme": "slett {name}",
+    "copy_and_decorate": "kopier dette temaet og dekorer det",
+    "decorations_earned_zero": "Temadekorasjoner, som du tjener ved å spille, brukes på dine egne temaer.",
+    "decorations_earned_notice": "Du har tjent {count, plural, one {en temadekorasjon} other {# temadekorasjoner}}. De brukes på dine egne temaer, så lag en kopi av dette for å bruke {count, plural, one {den} other {dem}}.",
+    "decorations_earned_info": "Tjenes ved å spille. De følger dette temaet på denne profilen og blir ikke tatt med når du eksporterer temaet."
   },
   "picker": {
-    "preview": "förhandsgranska",
-    "instructions": "for muspekaren over for att förhandsgranska · klicka eller tryck Enter for att använda · Esc for att lukke",
-    "close": "stäng"
+    "preview": "forhåndsvisning",
+    "instructions": "hold pekeren over for å forhåndsvise · klikk eller trykk Enter for å bruke · Esc for å lukke",
+    "close": "lukk"
   },
   "decorationSlots": {
     "caret": {
       "title": "markør",
-      "hint": "runt markøren (formen ställs in for skriving)"
+      "hint": "rundt markøren (formen er en skriveinnstilling)"
     },
     "backdrop": {
-      "title": "bakgrund",
-      "hint": "ett svagt mønster bakom sidan"
+      "title": "bakgrunn",
+      "hint": "et svakt mønster bak siden"
     },
     "frame": {
-      "title": "ram",
-      "hint": "runt teksten du skriver"
+      "title": "ramme",
+      "hint": "rundt teksten du skriver"
     },
     "keystroke": {
-      "title": "tangenttryckning",
-      "hint": "hvordan hver skrevet bokstav landar"
+      "title": "tastetrykk",
+      "hint": "hvordan hver skrevne bokstav faller på plass"
     },
     "flourish": {
       "title": "ornament",
-      "hint": "ett litet märke bredvid ordmärket"
+      "hint": "et lite merke ved siden av ordmerket"
     }
   },
   "decorations": {
     "caret-glow": {
-      "name": "mjukt sken"
+      "name": "mykt skjær"
     },
     "caret-halo": {
-      "name": "halo"
+      "name": "glorie"
     },
     "caret-drop": {
-      "name": "bläckdroppe"
+      "name": "blekkdråpe"
     },
     "caret-trail": {
-      "name": "kometsvans"
+      "name": "komethale"
     },
     "backdrop-dots": {
-      "name": "pricknät"
+      "name": "prikkemønster"
     },
     "backdrop-ruled": {
-      "name": "linjerat papir"
+      "name": "linjert papir"
     },
     "backdrop-graph": {
-      "name": "rutpapper"
+      "name": "millimeterpapir"
     },
     "backdrop-grain": {
-      "name": "kornighet"
+      "name": "korn"
     },
     "backdrop-checks": {
-      "name": "mjuka rutor"
+      "name": "myke ruter"
     },
     "frame-corners": {
-      "name": "hörnmarkeringar"
+      "name": "hjørnemerker"
     },
     "frame-bookplate": {
       "name": "boketikett"
     },
     "frame-tab": {
-      "name": "flik"
+      "name": "mappefane"
     },
     "frame-brackets": {
-      "name": "klamrar"
+      "name": "klammer"
     },
     "keystroke-ink": {
-      "name": "bläcktoning"
+      "name": "blekkfading"
     },
     "keystroke-rise": {
-      "name": "mjuk höjning"
+      "name": "mild heving"
     },
     "keystroke-bloom": {
-      "name": "blomning"
+      "name": "blomstring"
     },
     "flourish-leaf": {
       "name": "blad"
     },
     "flourish-star": {
-      "name": "stjärna"
+      "name": "stjerne"
     },
     "flourish-key": {
       "name": "tast"
     },
     "flourish-letter": {
-      "name": "din följeslagares bokstav"
+      "name": "ledsagerens bokstav"
     },
     "flourish-moon": {
       "name": "måne"
@@ -131,68 +131,68 @@
   },
   "presets": {
     "paper": {
-      "name": "paper"
+      "name": "papir"
     },
     "ink": {
-      "name": "ink"
+      "name": "blekk"
     },
     "dusk": {
-      "name": "dusk"
+      "name": "skumring"
     },
     "eink": {
-      "name": "e-ink"
+      "name": "e-blekk"
     },
     "eink-night": {
-      "name": "e-ink night"
+      "name": "e-blekk natt"
     },
     "cream": {
-      "name": "cream"
+      "name": "krem"
     },
     "rose": {
       "name": "rose"
     },
     "harbour": {
-      "name": "harbour"
+      "name": "havn"
     },
     "forest": {
-      "name": "forest"
+      "name": "skog"
     },
     "plum": {
-      "name": "plum"
+      "name": "plomme"
     },
     "slate": {
-      "name": "slate"
+      "name": "skifer"
     },
     "terminal": {
       "name": "terminal"
     },
     "contrast": {
-      "name": "high contrast"
+      "name": "høy kontrast"
     },
     "contrast-night": {
-      "name": "high contrast night"
+      "name": "høy kontrast natt"
     }
   },
   "checks": {
-    "text_bg": "tekst på sidan",
+    "text_bg": "tekst på siden",
     "text_surface": "tekst på paneler",
-    "textDim_bg": "dämpad tekst på sidan",
-    "textDim_surface": "dämpad tekst på paneler",
+    "textDim_bg": "dempet tekst på siden",
+    "textDim_surface": "dempet tekst på paneler",
     "correct_bg": "skrevet tekst",
     "incorrect_bg": "feil",
-    "correct_textDim": "skrevet tekst framträder mot tekst som fortsatt skal skrivas",
-    "accent_bg": "accent",
+    "correct_textDim": "skrevet tekst skiller seg fra tekst som fortsatt skal skrives",
+    "accent_bg": "aksent",
     "caret_bg": "markør",
-    "extra_bg": "extra bokstaver",
+    "extra_bg": "ekstra bokstaver",
     "chartWpm_bg": "diagram: wpm-linje",
-    "chartRaw_bg": "diagram: rå linje",
+    "chartRaw_bg": "diagram: rålinje",
     "chartError_bg": "diagram: feil",
-    "heat1_bg": "tangenthetta 1",
-    "heat4_bg": "tangenthetta 4",
-    "not_a_theme": "ikke ett tema",
-    "needs_a_name": "trenger ett namn på högst 40 tegn",
-    "scheme_must_be": "schemat må vara lys eller mørk",
-    "bad_hex": "färgen ”{token}” må vara ett #rrggbb-värde",
-    "not_readable": "ikke tilstrekkelig läsbar: {labels}"
+    "heat1_bg": "tastvarme 1",
+    "heat4_bg": "tastvarme 4",
+    "not_a_theme": "ikke et tema",
+    "needs_a_name": "trenger et navn på høyst 40 tegn",
+    "scheme_must_be": "skjemaet må være lys eller mørk",
+    "bad_hex": "fargen «{token}» må være en #rrggbb-verdi",
+    "not_readable": "ikke lesbart nok: {labels}"
   }
 }
