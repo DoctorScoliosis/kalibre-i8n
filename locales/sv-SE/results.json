@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "speed": "hastighet",
+    "accuracy": "träffsäkerhet",
+    "characters": "tecken",
+    "words": "ord",
+    "time": "tid",
+    "consistency": "jämnhet",
+    "best": "personligt rekord",
+    "average": "genomsnitt",
+    "tests": "tester"
+  },
+  "candidate": {
+    "prompt_label": "träningsförslag",
+    "body": "Du fortsätter att skriva {word} · {count, plural, one {# gång} other {# gånger}} under {sessions, plural, one {# session} other {# sessioner}}.",
+    "train": "träna",
+    "dismiss": "avfärda",
+    "later": "senare",
+    "drill_it_now": "öva på det nu"
+  },
+  "actions": {
+    "next": "nästa",
+    "retry": "försök igen",
+    "watch_replay": "titta på repris",
+    "save_ghost": "spara som spöke",
+    "words": "ord",
+    "final": "slutligt",
+    "as_typed": "som skrivet"
+  },
+  "race_results": {
+    "full_stats": "fullständig statistik",
+    "your_race": "ditt lopp",
+    "this_race_looked_like_key": "det här loppet såg ut som tangentbordsmatning ({notCountedReason}), så det räknades inte: ingen xp, inga misstag eller statistik.",
+    "lv_to_go": " · lv {level} · {value} kvar",
+    "drill_now": "öva nu",
+    "counts": "fel {errors} · ord {words}"
+  },
+  "replay_player": {
+    "test_replay": "testrepris",
+    "pinned": "fäst ✓",
+    "pinned_limit_reached_replays_unpin": "gränsen för fästa repriser är nådd ({PINNED_LOGS_CAP} repriser). Ta bort en äldre fästning först.",
+    "close_replay": "stäng repris",
+    "replay_scrubber": "reprisreglage",
+    "jump_to_playhead": "gå till uppspelningsposition ⇥",
+    "0_wpm": "0 wpm",
+    "replay_timeline_zoom": "zoom för repristidslinje",
+    "zoom": "zoom",
+    "restart_replay": "starta om repris",
+    "play": "spela",
+    "saved_as_ghost": "sparad som spöke ✓",
+    "wpm": "{round} wpm"
+  },
+  "result_chart": {
+    "per_second_results": "resultat per sekund",
+    "not_enough_typing_to_draw": "Inte tillräckligt med skrivning för att rita ett diagram.",
+    "chart_zoom": "diagramzoom",
+    "speed_over_time_use_the": "Hastighet över tid. Använd vänster- och högerpiltangenterna för att läsa varje sekund."
+  },
+  "results": {
+    "words_lowest_accuracy_target_kept": "{words} ord · lägsta träffsäkerhet {round}% · mål {targetAccuracy}% · höll {floorWpm}+ wpm",
+    "words_peak_pace_lowest_target": "{words} ord · högsta tempo {round} · lägsta {round2} · mål {targetWpm} wpm",
+    "longest_above_target_raw_in": "längst över målet {formatDuration} · {nearMisses} · rått {round} · {formatDuration2} totalt",
+    "mistake_analysis_failed_for_this": "misstagsanalysen misslyckades för den här sessionen",
+    "common_mistakes": "vanliga misstag",
+    "show_the_words": "visa orden",
+    "expected": "förväntade ”{text}”",
+    "typed_expected": "skrev {typed}, förväntade {text}",
+    "deleted": "raderat",
+    "this_drill": "den här övningen",
+    "now": "nu {to}",
+    "race_this_drill": "tävla i den här övningen",
+    "race_the_same_drill_again": "Tävla i samma övning igen mot ett spöke av den här körningen",
+    "results": "resultat",
+    "survived": "klarade",
+    "wpm": "wpm",
+    "acc": "träffsäkerhet",
+    "this_test_looked_like_key": "Det här testet såg ut som tangentbordsmatning ({notCountedReason}), så det räknades inte: ingen XP, inga misstag eller statistik.",
+    "suggested_for_training": "{extraSuggested} föreslagna för träning",
+    "book_range": " {start} → {end}",
+    "the_end": "slutet",
+    "book_words": " · {count} ord",
+    "overdeleted": "du raderade {count, plural, one {# korrekt tecken} other {# korrekta tecken}} utöver felskrivningen",
+    "overdeleted_cost": ", cirka {cost} wpm",
+    "mistake_line": "{errors} av {exposures}{share} · tidigare {before}",
+    "summary_line": "rått {raw} · {spread} · {duration}",
+    "practice_words": " · {count, plural, one {# övningsord} other {# övningsord}}",
+    "letters_to_cover": " · {count, plural, one {# bokstav} other {# bokstäver}} återstår",
+    "mistakes_ready": "{count, plural, one {# misstag redo} other {# misstag redo}}",
+    "consistency_spread": "jämnhet {consistency}% (±{wpmStdDev} wpm)",
+    "consistency_none": "jämnhet –"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "achievements": {
+    "hello_there": "hej där",
+    "good_keycap": "bra tangentknapp",
+    "best_friends": "bästa vänner",
+    "boop": "boop",
+    "poke_poke_poke": "peta, peta, peta",
+    "ticklish": "kittlig",
+    "giggle_fit": "skrattanfall",
+    "thats_enough": "det räcker",
+    "devoted": "hängiven"
+  },
+  "menu": {
+    "wardrobe": "garderob",
+    "get_ring": "ge {companion, select, cal {honom} libby {henne} other {dem}} en ring",
+    "options_aria": "{companion}s alternativ"
+  },
+  "engagement": {
+    "title": "det här är ett ganska viktigt beslut…",
+    "confirm_give": "ge {companion} ringen",
+    "confirm_cancel": "jag är inte säker…",
+    "confirm_message": "är du säker?"
+  },
+  "away": {
+    "note_hint": "en lapp",
+    "with_love_aria": "med kärlek",
+    "back_tomorrow": "{partner} och jag är bortresta på smekmånad! Tillbaka i morgon."
+  },
+  "ending": {
+    "aria_label": "tack för att du spelar kalibre",
+    "thanks": "tack för att du spelar kalibre.",
+    "cal_script": [
+      {"say":"proposer","mood":"wobbly","text":"Va? Det är något på min tass."},
+      {"reply":"det är en ring."},
+      {"say":"proposer","mood":"wobbly","text":"En ring? Den är så glänsande. Men… vad är den till för?"},
+      {"reply":"den är till för någon du älskar."},
+      {"say":"proposer","mood":"watching","text":"Någon jag… åh. ÅH. Jag vet precis vem."},
+      {"reply":"ring {partner}"},
+      {"say":"proposer","mood":"happy","text":"{partner}! Kan du komma hit en stund?"},
+      {"cue":"partnerEnters"},
+      {"say":"partner","mood":"idle","text":"Du ringde? Du är så rastlös. Vad är det?"},
+      {"say":"proposer","mood":"wobbly","text":"Det är en ring. Till dig. Jag menar, om du vill ha den. Vill du?"},
+      {"say":"partner","mood":"happy","text":"Åh, {proposer}. Självklart vill jag det."},
+      {"cue":"partnerRing"},
+      {"say":"proposer","mood":"happy","text":"Den passar! Den PASSAR!"},
+      {"say":"partner","mood":"happy","text":"Två tangenter, sida vid sida. Precis som alltid."},
+      {"cue":"heart"},
+      {"say":"proposer","mood":"happy","text":"Ska vi gå?"},
+      {"say":"partner","mood":"happy","text":"Det gör vi."},
+      {"cue":"walkOut"}
+    ],
+    "libby_script": [
+      {"say":"proposer","mood":"wobbly","text":"Åh. Det är något på min tass."},
+      {"reply":"det är en ring."},
+      {"say":"proposer","mood":"wobbly","text":"En ring. Den är fin… men den är egentligen inte min, eller hur?"},
+      {"reply":"den är till för någon särskild."},
+      {"say":"proposer","mood":"watching","text":"Någon särskild. Mm. Jag tror att jag vet vem."},
+      {"reply":"ring {partner}"},
+      {"say":"proposer","mood":"happy","text":"{partner}? Kan du komma hit en stund?"},
+      {"cue":"partnerEnters"},
+      {"say":"partner","mood":"idle","text":"Jag är här! Vad händer? Ooh, vad är det där? Den glänser!"},
+      {"say":"proposer","mood":"happy","text":"Det är en ring, {partner}. Den är till dig."},
+      {"say":"partner","mood":"happy","text":"Till MIG? Ja! Ja ja ja!"},
+      {"cue":"partnerRing"},
+      {"say":"proposer","mood":"happy","text":"Stå stilla då."},
+      {"say":"partner","mood":"happy","text":"Jag står still! För det mesta."},
+      {"cue":"heart"},
+      {"say":"partner","mood":"happy","text":"Vart går vi nu?"},
+      {"say":"proposer","mood":"happy","text":"Någon härlig stans."},
+      {"cue":"walkOut"}
+    ],
+    "cal_letter": [
+      "kära du,",
+      "{partner} och jag har åkt iväg en liten stund. det är vår smekmånad! Jag kan fortfarande inte fatta att jag får säga det.",
+      "tangenterna är helt dina fram till i morgon. lektionerna fungerar fortfarande, men du har inte mig som hejar. så heja på dig själv, okej? högt.",
+      "tillbaka innan du vet ordet av. förmodligen med sand i våra tangentknappar.",
+      "{proposer} & {partner}"
+    ],
+    "libby_letter": [
+      "kära du,",
+      "{partner} och jag är borta en dag. en smekmånad, tydligen. han har inte slutat hoppa omkring sedan ringen.",
+      "lektionerna är öppna medan vi är borta. ta det lugnt, ta pauser och håll fingrarna på hemraden. det kommer att hjälpa dig.",
+      "tillbaka i morgon. Jag tar hem honom i ett stycke.",
+      "{proposer} & {partner}"
+    ]
+  }
+}

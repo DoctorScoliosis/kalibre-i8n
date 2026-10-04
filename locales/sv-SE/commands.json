@@ -1,0 +1,192 @@
+{
+  "restart": {
+    "label": "starta om",
+    "keywords": "igen återställ gör om nytt test",
+    "meta": "test · samma typ, ny text"
+  },
+  "next_text": {
+    "label": "nästa text",
+    "keywords": "hoppa över en annan",
+    "meta": "test · gå vidare"
+  },
+  "time_test": {
+    "label": "tid {duration}",
+    "keywords": "tidtagning sekunder {duration}s test",
+    "meta": "test · {duration} sekunders test"
+  },
+  "words_test": {
+    "label": "ord {count}",
+    "keywords": "antal test {count}",
+    "meta": "test · {count} ord"
+  },
+  "play_game": {
+    "label": "spela {game}",
+    "keywords": "spel spela kul {game}",
+    "meta": "spel · {blurb}"
+  },
+  "go_to": {
+    "label": "gå till {view}",
+    "keywords": "öppna vy sida visa {view}",
+    "meta": "gå · sida"
+  },
+  "achievements": {
+    "label": "prestationer",
+    "keywords": "märken troféer milstolpar klart intjänade hemligheter statistik prestationer",
+    "meta": "öppna · prestationer"
+  },
+  "your_card": {
+    "label": "ditt kort",
+    "keywords": "profilkort klistermärken ram kant aura bakgrund visning kosmetik anpassa dekorera",
+    "meta": "öppna · profil"
+  },
+  "today": {
+    "label": "i dag",
+    "keywords": "dagliga uppdrag uppdrag utmaning uppgifter mål",
+    "meta": "gå · dagens uppdrag och utmaning"
+  },
+  "quote_category": {
+    "label": "citat {category}",
+    "keywords": "stycke bok text {category}",
+    "meta": "test · ett citat"
+  },
+  "mixed_quotes": {
+    "label": "blandade citat",
+    "keywords": "slumpmässig längd citat",
+    "meta": "test · slumpmässig längd varje gång"
+  },
+  "sustained_pace": {
+    "label": "uthållighet {wpm}",
+    "keywords": "oändlig uthållighet tempo håll kvar mål {wpm} wpm",
+    "meta": "test · håll {wpm} wpm så länge du kan"
+  },
+  "sustained_accuracy": {
+    "label": "uthållighet träffsäkerhet {accuracy}",
+    "keywords": "oändlig uthållighet exakt noggrann håll kvar mål {accuracy} procent",
+    "meta": "test · håll {accuracy} % träffsäkerhet så länge du kan"
+  },
+  "keep_reading": {
+    "label": "fortsätt läsa",
+    "keywords": "bok fortsätt återuppta uthållighet roman läs vidare bokmärke",
+    "meta": "test · fortsätt genom dina böcker, uthållighet"
+  },
+  "section": {
+    "label": "{view} {section}",
+    "keywords": "gå öppna visa {words}",
+    "meta": "gå · {view}-avsnitt"
+  },
+  "continue_touch_typing": {
+    "label": "fortsätt med touch typing",
+    "keywords": "lär lär dig lektion lektioner touch typing fingrar hemrad nästa",
+    "meta": "lärande · nästa lektion att bemästra"
+  },
+  "learn_stage": {
+    "label": "lär dig steg {stage}: {name}",
+    "keywords": "lär lektion lektioner touch typing steg {stage} {name}",
+    "meta": "lärande · lektioner {first}–{last}"
+  },
+  "drill_mistakes": {
+    "label": "träna mina misstag",
+    "keywords": "träna öva träning fel",
+    "meta": "test · övningar från dina misstag"
+  },
+  "wardrobe": {
+    "label": "{companion}s garderob",
+    "keywords": "cal libby följeslagare maskot garderob kläder hatt kosmetik outfit utseende anpassa",
+    "meta": "lärande · klä {companion} i det du har tjänat in"
+  },
+  "try_guest": {
+    "label": "prova som gäst",
+    "keywords": "gäst prova test tillfällig ny profil demo",
+    "meta": "profil · en ny gästprofil; spara dess framsteg senare för att behålla dem"
+  },
+  "sign_out": {
+    "label": "logga ut",
+    "keywords": "lås logga ut glöm enhet",
+    "meta": "profil · lås den tills lösenordet anges igen"
+  },
+  "profiles": {
+    "label": "profiler",
+    "keywords": "profil konto byt användare lösenord passnyckel bild avatar",
+    "meta": "öppna · vem som skriver"
+  },
+  "backup_now": {
+    "label": "säkerhetskopiera nu",
+    "keywords": "säkerhetskopia export profil spara historik ladda ner fil",
+    "meta": "fil · den här profilen"
+  },
+  "load_profile": {
+    "label": "läs in en profilfil",
+    "keywords": "importera återställ profil öppna fil säkerhetskopia",
+    "meta": "fil · läggs till bredvid dina profiler"
+  },
+  "export_settings": {
+    "label": "exportera inställningar",
+    "keywords": "ladda ner säkerhetskopia spara json",
+    "meta": "fil · inställningar som json"
+  },
+  "keyboard_shortcuts": {
+    "label": "kortkommandon",
+    "keywords": "kortkommandon snabbkommandon tangenter bindningar hjälp guide ?",
+    "meta": "hjälp · guide till kortkommandon"
+  },
+  "race": {
+    "label": "lopp",
+    "keywords": "lopp lan nätverk multiplayer vänner mot rumskod värd anslut",
+    "meta": "spela · tävla mot personer på ditt nätverk"
+  },
+  "race_ghost": {
+    "label": "kör mot ett spöke",
+    "keywords": "lopp spöke spöken hylla sparad repris mot",
+    "meta": "spela · tävla mot dina sparade spöken"
+  },
+  "import_ghost": {
+    "label": "importera spöke",
+    "keywords": "importera spöke fil öppna läs in kalibre-ghost hylla",
+    "meta": "spela · lägg en .kalibre-ghost-fil på din spökehylla"
+  },
+  "race_solo": {
+    "label": "kör lopp på egen hand",
+    "keywords": "lopp solo motståndare dator spöke mot ensam",
+    "meta": "spela · tävla mot datorn med dina senaste val"
+  },
+  "privacy": {
+    "label": "integritet",
+    "keywords": "integritetspolicy data personuppgifter lagrade",
+    "meta": "hjälp · vad kalibre sparar och var"
+  },
+  "terms": {
+    "label": "villkor",
+    "keywords": "användarvillkor villkor licens regler",
+    "meta": "hjälp · användarvillkoren"
+  },
+  "security": {
+    "label": "säkerhet",
+    "keywords": "säkerhetsproblem sårbarhet rapportera bugg avslöjande",
+    "meta": "hjälp · rapportera ett säkerhetsproblem"
+  },
+  "whats_new": {
+    "label": "vad är nytt",
+    "keywords": "vad är nytt ändringslogg uppdateringar versionsanteckningar historik",
+    "meta": "hjälp · vad som är nytt i den här versionen"
+  },
+  "changelog": {
+    "label": "ändringslogg",
+    "keywords": "ändringslogg vad är nytt uppdateringar versionsanteckningar historik versioner",
+    "meta": "hjälp · ändringslogg och tidigare uppdateringar"
+  },
+  "check_for_updates": {
+    "label": "sök efter uppdateringar",
+    "keywords": "uppdatering uppdateringar uppgradera ny version ladda om sök nu senaste",
+    "meta": "hjälp · leta efter en ny version nu"
+  },
+  "announcements": {
+    "label": "annonseringar",
+    "keywords": "annonseringar uppdateringar devlog resa nyheter stackinfolio release kanary",
+    "meta": "länkar · projektets resa och annonseringar"
+  },
+  "kanary_notice": {
+    "label": "kanary-meddelande",
+    "keywords": "kanary beta förhandsversion varning säkerhetskopia kompatibilitet testversion bygge meddelande",
+    "meta": "hjälp · meddelande om kanary-förhandsversion och säkerhetskopior"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "texts": "mina texter",
+    "texts_blurb": "Din egen text, övad precis som den är skriven.",
+    "quotes": "mina citat",
+    "quotes_blurb": "Citat du lägger till ingår i citat- och blandade tester (60 tecken eller mer).",
+    "datasets": "dataset",
+    "datasets_blurb": "Böcker och samlingar som tillhandahåller citat, ordlistor och övningar."
+  },
+  "labels": {
+    "title": "titel",
+    "text_aria": "text",
+    "paste_placeholder": "klistra in text här",
+    "my_texts": "mina texter",
+    "datasets": "dataset",
+    "sections_aria": "textsektioner",
+    "subfolders_too": " även undermappar",
+    "drop_hint": "eller släpp filer här",
+    "words_count": "{count, plural, one {# ord} other {# ord}}",
+    "paragraphs_count": "{count, plural, one {# stycke} other {# stycken}}"
+  },
+  "actions": {
+    "save": "spara",
+    "save_changes": "spara ändringar",
+    "cancel": "avbryt",
+    "practise": "öva",
+    "edit": "redigera",
+    "delete": "ta bort",
+    "delete_confirm": "ta bort?",
+    "yes_delete": "ja, ta bort",
+    "keep": "behåll",
+    "practise_aria": "öva på {title}",
+    "edit_aria": "redigera {title}",
+    "delete_aria": "ta bort {title}",
+    "new_text": "ny text",
+    "import_files": "importera .txt eller .md",
+    "import_folder": "importera en mapp"
+  },
+  "status": {
+    "saved": "sparade ”{title}”",
+    "updated": "uppdaterade ”{title}”",
+    "imported": "importerade ”{title}”",
+    "deleted": "tog bort ”{title}”",
+    "no_folder_files": "inga .txt- eller .md-filer i den mappen",
+    "empty": "Inga sparade texter ännu. Klistra in något du vill öva på eller importera en .txt-fil. Texterna stannar på den här enheten."
+  },
+  "quotes": {
+    "quote_placeholder": "citatet",
+    "quote_aria": "citat",
+    "author_placeholder": "vem sa det",
+    "source_placeholder": "valfritt",
+    "add_quote": "lägg till citat",
+    "author": "författare",
+    "source": "källa",
+    "authors": "författare",
+    "sources": "källor",
+    "added": "citat tillagt",
+    "updated": "citat uppdaterat",
+    "deleted": "citat borttaget",
+    "unknown": "— okänd",
+    "too_short": " · för kort för tester ({min}+ tecken)",
+    "empty": "Lägg till citat du gillar; de visas i citat- och blandade tester. Samlingar som en quotes.json-fil kan installeras under dataset."
+  },
+  "github_import": {
+    "github_s_limit_for_downloads": "GitHubs gräns för nedladdningar utan inloggning har nåtts. Försök igen om en timme.",
+    "that_repository_or_folder_wasn": "Det arkivet eller den mappen hittades inte (den kan vara privat).",
+    "github_answered": "GitHub svarade {status}.",
+    "that_isn_t_a_github": "Det där är inte en GitHub-adress till ett arkiv (github.com/owner/repo).",
+    "no_txt_or_md_files": "Inga .txt- eller .md-filer hittades där.",
+    "the_files_couldn_t_be": "Filerna kunde inte laddas ner.",
+    "listing_files": "listar filer…",
+    "downloading_progress": "laddar ner {current} av {total}…"
+  },
+  "importers": {
+    "doesn_t_look_like_a": "{name} ser inte ut som en textfil.",
+    "isn_t_utf_8_text": "{name} är inte UTF-8-text.",
+    "only_files_can_be_imported": "{name}: bara {ACCEPTED_EXTENSIONS}-filer kan importeras.",
+    "is_larger_than_5_mb": "{name} är större än 5 MB.",
+    "is_empty": "{name} är tom."
+  },
+  "quote_collections": {
+    "no_quotes_were_found_in": "Inga citat hittades i den filen."
+  }
+}

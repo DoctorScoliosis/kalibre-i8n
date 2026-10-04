@@ -1,0 +1,477 @@
+{
+  "lines": {
+    "intro": [
+      "Dagens tangenter: {keys}. Låt din {finger} leda.",
+      "{keys} går med i laget i dag. Titta på texten, lita på händerna.",
+      "Fingrarna hemma, axlarna ner. Redo när du är.",
+      "Rätt först, snabbt senare. Farten kommer alltid.",
+      "Möt {keys}. De är blyga i början. Ha tålamod med dem.",
+      "Nya tangenter: {keys}. Inget tjuvkikande. Jag låtsas att jag inte såg."
+    ],
+    "tip": [
+      "Ett snabbt tips, {tip}.",
+      "En sak, {tip}.",
+      "Mellan oss, {tip}.",
+      "Försiktigt: {tip}.",
+      "En liten tanke, {tip}.",
+      "Om jag får säga det, {tip}."
+    ],
+    "encourage": [
+      "Lugnt. Din {finger} klarar det.",
+      "Missar händer. Sakta ner lite.",
+      "Andas. Gör rätt först, sedan snabbt.",
+      "Det där är bara dina fingrar som lär sig.",
+      "Hitta upphöjningarna på F och J. Hem är alltid där.",
+      "Ingen skada skedd. Börja om och kör igen.",
+      "Din {finger} tänker för mycket. Låt den bara glida."
+    ],
+    "round": [
+      "Fin omgång: {wpm} wpm.",
+      "Jämnt. Fortsätt så.",
+      "Den där sjöng.",
+      "{wpm} wpm, och inte ett enda vingel. Fint.",
+      "Mm. Det lät som regn mot ett fönster.",
+      "Snyggt. Väldigt snyggt."
+    ],
+    "mastered": [
+      "{lesson}: bemästrad! {next} är öppen.",
+      "Klart och klart. {next} härnäst.",
+      "Bemästrad. Dina händer kan det nu.",
+      "{lesson}, bemästrad. Jag visste att du skulle klara det.",
+      "Där är den. {next} väntar på att öppnas.",
+      "Bemästrad, och med stil dessutom."
+    ],
+    "again": [
+      "Så nära. Igen?",
+      "Nästan där. En gång till?",
+      "En gång till så sitter det.",
+      "Inte den här gången. Kanske nästa. Ingen brådska.",
+      "Nästan där. Andas, sedan igen?",
+      "Det kommer. Jag kan höra det i rytmen."
+    ],
+    "warmup": [
+      "Uppvärmning: {keys}. Fint och lugnt.",
+      "Lossa upp på {keys} först.",
+      "Låt oss mjuka upp på {keys}.",
+      "Lugna varv på {keys} först.",
+      "En långsam uppvärmning på {keys}. Mjuka händer.",
+      "{keys} till att börja med. Ingen brådska alls."
+    ],
+    "keyboard": [
+      "Lektioner behöver ett riktigt tangentbord. Anslut ett och tryck på valfri tangent.",
+      "Jag lär fingrar, inte tummar. Ett tangentbord, sedan ett tangenttryck.",
+      "Ett tangentbord gör att det här fungerar. Tryck på en tangent så märker jag det.",
+      "Hemraden behöver en riktig rad. Anslut ett tangentbord när du kan.",
+      "Skärmar är svåra för touch typing. Ett Bluetooth-tangentbord löser det.",
+      "Spel fungerar med tummen; lektioner vill ha ett tangentbord. Tryck på en tangent när det är redo."
+    ],
+    "numpad": [
+      "Jag märkte ett numeriskt tangentbord. Tiotangentsträning finns nedanför när du vill.",
+      "Ett numeriskt tangentbord. Om du vill träna på det finns alternativet precis nedanför.",
+      "Det där lät som ett numeriskt tangentbord. Tiotangentlektioner finns där om du vill.",
+      "Numeriskt tangentbord upptäckt. Ett stillsamt erbjudande: test och lektioner nedanför.",
+      "Om du använder plattan mycket finns det träning för den nedanför. Ingen brådska.",
+      "Tiotangentträning finns för ditt numeriska tangentbord. Ta det eller lämna det."
+    ],
+    "locked": [
+      "Gör klart {next} först, så är den här din.",
+      "Inte än. {next} öppnar den.",
+      "Tålamod. {next} kommer först.",
+      "Den här väntar på {next}. Det gör jag också.",
+      "Låst, än så länge. {next} har nyckeln.",
+      "Ett steg i taget: {next}, sedan den här."
+    ],
+    "sleepy": [
+      "Mm… tryck på en tangent när du är redo.",
+      "Ta din tid. Jag är här.",
+      "Jag är kvar här och vilar mina ögonfransar.",
+      "Ingen brådska. Tangenterna finns kvar.",
+      "Mm… tyst här inne. Tryck när du vill.",
+      "Vila är också en del av träningen."
+    ],
+    "welcome": [
+      "Hej, jag är Libby! Lektion 1.1 är platsen att börja.",
+      "Hej! Jag är Libby, libre i kalibre. Hemraden först?",
+      "Hej! Jag är Libby, L-tangenten. Jag hjälper dina fingrar att hitta hem.",
+      "Hej, jag är Libby. Lektion 1.1 är en bra början."
+    ],
+    "progress": [
+      "Nästa: {next}. {count} av {total} bemästrade!",
+      "{count} klara, {left} kvar. {next} väntar.",
+      "Du är tillbaka! {next} är på tur.",
+      "{count} bemästrade. Du blir tyst och stilla väldigt bra.",
+      "Bara {left} kvar. {next} väntar tålmodigt.",
+      "Ska vi? {next} är nästa."
+    ],
+    "newStage": [
+      "Steg {stage}: klart! Nu till {name}.",
+      "Steg {stage} bemästrat. {name} härnäst!",
+      "Steg {stage}, klart. {name} är nästa, och du är redo.",
+      "{name} härnäst. Steg {stage} var fint arbete."
+    ],
+    "graduate": [
+      "Varje lektion, bemästrad. Jag strålar.",
+      "Alla tangenter är dina nu. Gå och njut av dem.",
+      "Varje tangent, bemästrad. Min hemknöl är stolt över dig.",
+      "Du behöver mig inte nu. Jag stannar ändå, om det är okej."
+    ],
+    "drowsy": [
+      "Mm… det är så tyst. Jag blir lite sömnig.",
+      "Hm… mina ögonfransar blir tunga.",
+      "Så fridfullt här. Jag kanske somnar.",
+      "Är du kvar? Jag bleknar lite.",
+      "En mjuk, sömnig sorts tystnad…",
+      "Jag ska vila ögonen en stund."
+    ],
+    "nod": [
+      "Zzz… mjuka tangenter… zzz…",
+      "Mm… bara en liten stund… zzz…",
+      "Zzz… hemrad… zzz…",
+      "…zzz… långsamt och stadigt… zzz…",
+      "Zzz… jag lyssnar… zzz…",
+      "…zzz… l… zzz…"
+    ],
+    "napWake": [
+      "Åh! Jag vilade bara. Hej igen.",
+      "Mm… du är tillbaka. Härligt.",
+      "Hm? Åh. Jag somnade till. Redo när du är.",
+      "Åh, hej. Jag menade inte att somna.",
+      "Mm, förlåt. Det var en bra vila. Ska vi?",
+      "Åh! Där är du. Jag är vaken nu."
+    ],
+    "wake": [
+      "Åh! Hej. Jag är Libby, libre i kalibre.",
+      "Mm… bara vilar ögonen. Hej, jag är Libby.",
+      "Hm? Åh, hej! Jag är Libby.",
+      "Åh, du är här. Jag tänkte på hemraden. Jag är Libby.",
+      "Mm, hej. Jag är Libby. Kul att se dig.",
+      "Hej! Libby, L-tangenten. Förlåt, jag slumrade till."
+    ],
+    "pet": [
+      "Prrr…",
+      "Mm, det där är skönt.",
+      "Prrr. Fortsätt.",
+      "Mm. Du är bra på det där.",
+      "Prrr… bry dig inte om mig.",
+      "Där ja. Prrr."
+    ],
+    "poke": [
+      "Åh! Hej på dig också.",
+      "Mm? Behövde du något?",
+      "Boop. Väldigt försiktigt, tack.",
+      "Det där är min hemknöl, du vet.",
+      "Jag kände det. Hej.",
+      "Petad, noterat. Fortsätt."
+    ],
+    "pokeFit": [
+      "Okej, det räcker med petandet nu.",
+      "Jag är en tangent, inte en dörrklocka.",
+      "En till så sätter jag upp en skylt.",
+      "Peta, peta, peta. Ja, jag är fortfarande här."
+    ],
+    "tickle": [
+      "Hee! Åh, din rackare. Hehe.",
+      "Haha! Det där är inte rättvist, jag kan inte kittla tillbaka!",
+      "Hehe! Sluta! Hehe…",
+      "Åh! Haha, inte där!",
+      "Hehehe! Min fattning!",
+      "Pfft… hehe… jag försöker vara lugn här!"
+    ],
+    "armLift": [
+      "Mm… tack… zzz",
+      "Zzz… prydligt… zzz",
+      "Mm… jag hängde där… zzz",
+      "Zzz… mycket bättre… zzz"
+    ],
+    "tickleAsleep": [
+      "Mm… hehe… zzz",
+      "Zzz… hm… hehe…",
+      "Mm… det där kittlas… zzz",
+      "Zzz… pfft… zzz"
+    ],
+    "updateReady": [
+      "kalibre v{version} är redo. Omladdningen finns i sidfoten när du vill.",
+      "En ny version, v{version}, väntar. Ladda om från sidfoten när det passar.",
+      "v{version} har kommit. Ingen brådska: sidfoten har omladdningen.",
+      "Det finns en uppdatering, v{version}. Ladda om från sidfoten när du är redo."
+    ],
+    "whatsNew": [
+      "Nytt i v{version}: {news}.",
+      "Något nytt i v{version}: {news}.",
+      "I v{version}, {news}. Tänkte att du ville veta.",
+      "v{version} kommer med något nytt: {news}."
+    ],
+    "newItem": [
+      "En ny {item}! Högerklicka på mig, jag vill prova den.",
+      "Ooh, {item}! Högerklicka på mig.",
+      "Är det en {item}? Högerklicka på mig!",
+      "{item}? Åh, den är fin. Högerklicka på mig.",
+      "Något nytt: {item}. Högerklicka på mig, snälla.",
+      "Jag har spanat in {item}. Högerklicka på mig!"
+    ],
+    "newItems": [
+      "{count} nya saker att prova! Högerklicka på mig.",
+      "{count} nya saker till min garderob! Högerklicka på mig."
+    ],
+    "newDecoration": [
+      "Ooh, ”{name}”! Sätt den på ett eget tema: inställningar → tema.",
+      "En ny utsmyckning: ”{name}”. Dina teman kommer att älska den."
+    ],
+    "newDecorations": [
+      "{count} nya utsmyckningar till dina teman! Inställningar → tema.",
+      "{count} temautsmyckningar att prova. Inställningar → tema!"
+    ],
+    "newCardItem": [
+      "Något nytt till ditt kort: {name}. Din profil → ditt kort.",
+      "{name}, till ditt profilkort. Den skulle passa dig."
+    ],
+    "newCardItems": [
+      "{count} nya saker till ditt kort. Din profil → ditt kort.",
+      "{count} nya delar till ditt profilkort, när du vill."
+    ],
+    "raceWon": [
+      "Först över mållinjen. Snyggt gjort.",
+      "Du vann. Jag är glad för din skull.",
+      "Det där gick snabbt. Bra lopp.",
+      "Du slog {count} av dem. En gång till, om du vill."
+    ],
+    "raceLost": [
+      "{winner} kom först i mål den här gången. Ska vi köra igen?",
+      "Ett jämnt lopp. {winner} vann, och du körde bra.",
+      "{winner} knep det. En gång till, när du vill.",
+      "Bra lopp. {winner} hade bara den bättre körningen."
+    ],
+    "newCarPart": [
+      "Något nytt till din tävlingsbil: {name}. Din profil → ditt kort → garage.",
+      "{name}, till din bil. Den skulle passa dig."
+    ],
+    "newCarParts": [
+      "{count} nya delar till din tävlingsbil. Din profil → ditt kort → garage.",
+      "Din bil har {count} nya saker att prova, när du vill."
+    ],
+    "achievement": [
+      "”{name}”! Den finns under din profil → prestationer.",
+      "Du fick ”{name}”. Din profil → prestationer.",
+      "Prestation: ”{name}”. Snyggt gjort.",
+      "”{name}”. Diskret imponerande. Din profil → prestationer.",
+      "Åh, ”{name}”! Din profil → prestationer har den nu.",
+      "”{name}”, intjänad. Jag är glad för din skull."
+    ],
+    "achievements": [
+      "{count} nya prestationer! Se din profil → prestationer.",
+      "{count} prestationer på en gång? Din profil → prestationer!"
+    ],
+    "complete": [
+      "Varenda prestation. Varenda en! Jag är så stolt över dig.",
+      "Alla klara. Jag är lite mållös…",
+      "100 %. Du gjorde allt. Jag strålar."
+    ],
+    "wakeFirst": [
+      "Zzz… väck mig först… zzz",
+      "Mm… låt mig vakna först…",
+      "Zzz… (en liten petning, tack)",
+      "Mm… inte än… zzz"
+    ],
+    "highfive": [
+      "High five!",
+      "Upp med handen! Bra spelat.",
+      "Ja! Härligt lopp.",
+      "Tass mot tass. Härligt.",
+      "Upp i luften! Bra skrivet.",
+      "Försiktigt! Men fint lopp."
+    ],
+    "honeymoon": [
+      "{partner} och jag är bortresta på smekmånad! Tillbaka i morgon.",
+      "Iväg på smekmånad med {partner}! Tillbaka i morgon.",
+      "{partner} och jag tar en liten tur. Tillbaka i morgon!"
+    ],
+    "challenge": [
+      "Dagens utmaning: {challenge}. Lust att prova?",
+      "Sett dagens utmaning? {challenge}.",
+      "Dagens utmaning är här: {challenge}.",
+      "Dagens utmaning är {challenge}. Ingen press.",
+      "Om du känner för det: {challenge}.",
+      "{challenge}: dagens utmaning. Jag tror att du klarar det."
+    ],
+    "partner": [
+      "{partner} och jag är ett härligt team.",
+      "{partner} hälsar!",
+      "{partner} sa att din rytm är så jämn.",
+      "{partner} berättar hela tiden om dina bra lopp.",
+      "{partner} studsar nog omkring någonstans, skulle jag tro.",
+      "{partner} och jag är stolta över dig, bara så du vet."
+    ],
+    "morning": [
+      "God morgon. Te först, sedan tangenter?",
+      "Morgon. Vi börjar försiktigt.",
+      "Åh, god morgon! Hemraden är redan uppvärmd.",
+      "Morgon. Nya händer, ny start.",
+      "God morgon. {next} är redo när du är.",
+      "Morgon! Fint och långsamt till att börja med."
+    ],
+    "afternoon": [
+      "God eftermiddag. Lite träning?",
+      "Eftermiddag. Bra tid för några stadiga minuter.",
+      "Hej, eftermiddagsskrivare.",
+      "Eftermiddag! Ner med axlarna, fingrarna hem.",
+      "God eftermiddag. {next} är här när du är.",
+      "Eftermiddag. Låt oss göra den lugn."
+    ],
+    "evening": [
+      "God kväll. Något lugnt i kväll?",
+      "Kväll. Mysigt att avsluta dagen med dig.",
+      "Hej kväll. Vi håller det lätt.",
+      "Kväll! Tangenterna är tystare nu.",
+      "God kväll. {next}, om du vill.",
+      "Kväll. Några minuter, sedan vila."
+    ],
+    "night": [
+      "Sent? Låt oss hålla det kort och mjukt.",
+      "Hej nattuggla. Jag är också vaken.",
+      "Det är sent. Några tangenter, sedan sova?",
+      "Tysta timmar. Bara du, jag och hemraden.",
+      "Sen natt. {next}, sedan sängen, tack.",
+      "Mm, nattpasset. Var snäll mot handlederna."
+    ],
+    "welcomeBack": [
+      "Där är du. {days} dagar. Välkommen tillbaka.",
+      "Välkommen tillbaka! Vi mjukstartar.",
+      "{days} dagar borta. Tangenterna gick ingenstans.",
+      "Åh, hej igen. Jag sparade din plats.",
+      "Tillbaka efter {days} dagar. Långsamt och stadigt, då.",
+      "Välkommen hem. Dina fingrar kommer ihåg."
+    ],
+    "personalBest": [
+      "Nytt rekord: {wpm} wpm. Fint.",
+      "{wpm} wpm, ditt snabbaste hittills. Jag märkte det.",
+      "Personligt rekord: {wpm} wpm. Välförtjänt.",
+      "Åh, {wpm} wpm. Det är ett nytt rekord.",
+      "{wpm} wpm! Diskret imponerande.",
+      "Nytt rekord, {wpm} wpm. Jag strålar lite."
+    ],
+    "streak": [
+      "{days} dagar i rad. Lugnt och fint.",
+      "Ditt mål, {days} dagar i rad. Härlig vana.",
+      "{days} dagar på raken. Jag är tyst imponerad.",
+      "En {days}-dagars svit. Titta på dig.",
+      "{days} dagar i sträck. Bra jobbat.",
+      "Mål nått {days} dagar i rad. Det är omtanke."
+    ],
+    "themeUnreadable": [
+      "Hm. {what} är svårt att läsa. Lite mer kontrast?",
+      "Jag kan knappt urskilja {what}. Flytta det lite längre från sidan.",
+      "{what} viskar. Låt det synas lite mer.",
+      "Försiktigt: {what} sticker inte ut tillräckligt än."
+    ],
+    "themeScheme": [
+      "Sidan ser {page} ut, men temat säger {scheme}. Byta ”ljust eller mörkt”?",
+      "En {page} sida märkt {scheme}. Resten av appen kommer att klä sig fel."
+    ],
+    "themeMistakes": [
+      "Misstag och skriven text ser likadana ut. Ge misstagen sin egen färg.",
+      "Jag kan inte skilja dina missar från resten. En annan nyans för misstagen?"
+    ],
+    "themeAccent": [
+      "Accentfärgen och misstagen är tvillingar. Länkar kommer att se ut som fel.",
+      "Den accentfärgen ser ut som ett misstag. Något lugnare, kanske?"
+    ],
+    "themeLoud": [
+      "Den bakgrunden är väldigt ljus. Snäll en stund, tröttande i en timme.",
+      "Ganska högljudd sida. Mjukare, så tackar dina ögon dig."
+    ],
+    "themeHeat": [
+      "Tangentvärmens steg ligger i fel ordning. De ska bli djupare från 1 till 4.",
+      "Värme 1 till 4 ska byggas upp, som en långsam rodnad. De hoppar runt."
+    ],
+    "themeSameAsBase": [
+      "En tom sida. Hovra över en färg så visar jag var den hamnar.",
+      "Ändra vad du vill. Jag säger vad jag tycker."
+    ],
+    "themeLovely": [
+      "Det är fint. Milt och lätt att läsa.",
+      "Mm. Allt är lättläst. Spara det.",
+      "Snyggt gjort. Jag skulle kunna skriva på den hela dagen.",
+      "Allt klarar sig, och det passar dig."
+    ],
+    "wake@morning": [
+      "Mm… redan morgon? Hej, jag är Libby.",
+      "Åh, god morgon. Jag är Libby. Vilar bara ögonen.",
+      "Ljuset är så mjukt. Hej, jag är Libby."
+    ],
+    "wake@afternoon": [
+      "Mm, en eftermiddagslur. Hej, jag är Libby.",
+      "Åh! Jag tappade bort eftermiddagen. Hej, jag är Libby.",
+      "Hej. Jag vilade bara ett ögonblick. Jag är Libby."
+    ],
+    "wake@evening": [
+      "Åh, redan kväll. Hej, jag är Libby.",
+      "Mm, kvällsljuset. Hej, jag är Libby.",
+      "God kväll. Jag slumrade till lite. Jag är Libby."
+    ],
+    "wake@night": [
+      "Åh, det är natt. Hej, jag är Libby. Tyst.",
+      "Mm… det är sent. Jag är Libby. Kul att se dig.",
+      "Fortfarande vaken? Det är jag med nu. Jag är Libby."
+    ],
+    "intro@morning": [
+      "En morgonlektion. Ett lugnt sätt att börja dagen.",
+      "God morgon. Fräscha sinnen gör bra typister.",
+      "Morgonträning passar dig."
+    ],
+    "intro@afternoon": [
+      "En eftermiddagslektion. Ta den stadigt.",
+      "God eftermiddag. Ska vi mjukstarta?",
+      "En lugn eftermiddag för några nya tangenter."
+    ],
+    "intro@evening": [
+      "En kvällslektion. Ingen brådska alls.",
+      "Ett mjukt slut på dagen. Ska vi?",
+      "God kväll. En lektion, i ditt eget tempo."
+    ],
+    "intro@night": [
+      "Det är sent. Ett försiktigt försök räcker.",
+      "En nattlektion. Mjuka tangenter, långsamma händer.",
+      "Sen träning. Var snäll mot dig själv i kväll."
+    ],
+    "warmup@morning": [
+      "Morgonuppvärmning. Fingrar vaknar långsamt.",
+      "Mjuka varv först. Det är fortfarande tidigt.",
+      "Uppvärmning nu, sedan lektionen. Bra vana."
+    ],
+    "warmup@afternoon": [
+      "En uppvärmning för att nollställa eftermiddagen.",
+      "Lätta varv först. Sedan får vi se.",
+      "Lossa upp lite, sedan börjar vi."
+    ],
+    "warmup@evening": [
+      "Kvällsuppvärmning. Låt dagen rinna av.",
+      "Uppvärmning först. Dina händer har gjort mycket i dag.",
+      "Långsamma varv för att komma till ro i kvällen."
+    ],
+    "warmup@night": [
+      "En mjuk uppvärmning, eftersom det är sent.",
+      "Lugna varv. Ingen press vid den här tiden.",
+      "Uppvärmning först. Sömniga händer behöver det."
+    ],
+    "sleepy@morning": [
+      "Mm, jag är fortfarande lite sömnig själv.",
+      "En paus är okej. Morgnar tar tid.",
+      "Ta en stund. Jag är här."
+    ],
+    "sleepy@afternoon": [
+      "Eftermiddagslugnet. En liten stretch, kanske?",
+      "Vila en stund. Det är den tiden på dagen.",
+      "Ingen brådska. Jag höll också på att somna."
+    ],
+    "sleepy@evening": [
+      "Du har gjort mycket i dag. En paus är okej.",
+      "Kvällströtthet. Andas en stund.",
+      "Vila händerna. Jag väntar."
+    ],
+    "sleepy@night": [
+      "Det är sent. Sömn är ett bra nästa steg.",
+      "Mm… god natt, kanske? Vi kan fortsätta i morgon.",
+      "Vila ordentligt. Tangenterna finns kvar."
+    ]
+  }
+}

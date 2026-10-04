@@ -1,0 +1,18 @@
+{
+  "filter": {
+    "warning": "Kalibres ordlistor kommer från gamla böcker och stora ordböcker, som innehåller skällsord och andra stötande ord. När filtret är avstängt kan de förekomma i tester, övningar, lektioner och spel. Genom att stänga av det godkänner du att du kan få se dem och att Kalibres skapare inte ansvarar för eventuella kränkningar som orsakas.",
+    "turn_off": "stäng av filtret",
+    "keep_on": "behåll det på",
+    "confirm_title": "stänga av filtret för stötande ord?",
+    "filter_on": "filter på",
+    "filter_off": "filter av",
+    "placeholder": "ett per rad eller separerade med kommatecken; avsluta med * för varje ord som börjar med det",
+    "filtered_count": "{count, plural, one {# eget filtrerat ord} other {# egna filtrerade ord}}",
+    "no_words": "inga egna ord",
+    "heading": "stötande ord",
+    "toggle_label": "filtrera stötande ord",
+    "own_label": "egna ord att filtrera",
+    "explanation": "På: skällsord och de grövsta svordomarna hålls borta från ordlistor och textavsnitt som innehåller dem hoppas över. Dina egna texter och citat ändras aldrig.",
+    "own_explanation": "Sparas bara med den här profilen och delas aldrig. De gäller när filtret är på."
+  }
+}

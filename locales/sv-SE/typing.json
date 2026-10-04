@@ -1,0 +1,174 @@
+{
+  "mode": {
+    "time": "tid",
+    "words": "ord",
+    "quote": "citat",
+    "book": "bok",
+    "mixed": "blandat",
+    "sustained": "uthållighet",
+    "custom": "anpassat",
+    "mistakes": "misstag"
+  },
+  "mode_label": "läge",
+  "sustained_title": "Håll ett tempo eller en träffsäkerhet så länge du kan",
+  "status": {
+    "caps_lock": "caps lock är på",
+    "restart": "starta om",
+    "pause": "pausa",
+    "resume": "fortsätt",
+    "caps_lock_label": "caps lock",
+    "num_lock_off": "num lock är av",
+    "num_lock_off_title": "det numeriska tangentbordet skickar piltangenter när num lock är av",
+    "time_so_far": "tid hittills",
+    "focus_click": "klicka eller tryck på valfri tangent för att fokusera",
+    "restart_symbol": "↻ "
+  },
+  "hints": {
+    "tab_enter_restart": "tabb → retur startar om · esc kommandon",
+    "tab_tab_restart": "tabb → tabb startar om · esc kommandon",
+    "enter_to_restart": "tryck retur för att starta om",
+    "tab_to_restart": "tryck tabb för att starta om"
+  },
+  "focus": {
+    "label": "fokus: {mode}",
+    "aria_label": "fokusvy: {mode}. Tryck för att ändra.",
+    "off": "av",
+    "line": "rad",
+    "sentence": "mening"
+  },
+  "instructions": {
+    "standard": "Skriv texten som visas. Mellanslag går till nästa ord och backsteg rättar. Tabb och sedan retur startar om. Escape öppnar kommandoraden.",
+    "sustained": "Håll ditt tempo på eller över målet. Tre sekunder under det avslutar testet. Mellanslag går till nästa ord och backsteg rättar. Tabb och sedan retur startar om. Escape öppnar kommandoraden.",
+    "accuracy": "Håll din träffsäkerhet på eller över målet medan du skriver i ett jämnt tempo. Fem sekunder under det avslutar testet. Mellanslag går till nästa ord och backsteg rättar. Tabb och sedan retur startar om. Escape öppnar kommandoraden."
+  },
+  "mode_bar": {
+    "custom": "anpassad {unit}",
+    "enable_a_book_dataset": "aktivera ett bokdataset",
+    "add_a_text_to_read": "lägg till en text att läsa",
+    "from": "från {percent} %",
+    "start_over": "börja om",
+    "read_this_one_from_the": "Läs den här från början",
+    "add_a_text_to_practise": "lägg till en text att öva på",
+    "manage": "hantera",
+    "change": "ändra",
+    "choose_what_and_how_to": "Välj vad och hur du vill öva",
+    "TABS": {
+      "time": {
+        "label": "tid"
+      },
+      "words": {
+        "label": "ord"
+      },
+      "quote": {
+        "label": "citat"
+      },
+      "mixed": {
+        "label": "blandat"
+      },
+      "sustained": {
+        "label": "uthållighet",
+        "title": "Håll ett tempo eller en träffsäkerhet så länge du kan"
+      },
+      "custom": {
+        "label": "anpassat"
+      }
+    },
+    "SUSTAINED_SOURCES": {
+      "wordstream": {
+        "label": "vanliga ord"
+      },
+      "quotes": {
+        "label": "citat"
+      },
+      "work": {
+        "label": "böcker"
+      },
+      "text": {
+        "label": "mina texter"
+      }
+    },
+    "BOOK_ORDER_OPTIONS": {
+      "sequential": {
+        "label": "i ordning",
+        "title": "Fortsätt där du slutade och gå sedan vidare till nästa bok"
+      },
+      "passages": {
+        "label": "avsnitt",
+        "title": "Slumpmässiga avsnitt från boken"
+      },
+      "chunks": {
+        "label": "delar",
+        "title": "Slumpmässiga delar av boken"
+      }
+    },
+    "source": {
+      "wordstream": {
+        "label": "vanliga ord"
+      },
+      "quotes": {
+        "label": "citat"
+      }
+    },
+    "nodes": {
+      "pace": {
+        "label": "tempo",
+        "title": "Håll din senaste hastighet på eller över ett mål (3 sekunder att återhämta sig)"
+      },
+      "accuracy": {
+        "label": "träffsäkerhet"
+      }
+    },
+    "lengthOptions": {
+      "entire": {
+        "label": "hela texten"
+      }
+    },
+    "custom_title": "anpassat",
+    "accuracy_title": "Håll din senaste träffsäkerhet på eller över ett mål och skriv minst {floor} wpm (5 sekunder att återhämta sig)",
+    "keep_up": "håll uppe",
+    "text_source": "textkälla",
+    "text_to_read": "text att läsa",
+    "reading_order": "läsordning",
+    "text_to_practise": "text att öva på",
+    "book_to_read": "bok att läsa",
+    "unit_words": "ord",
+    "unit_wpm": "wpm",
+    "unit_seconds": "sekunder"
+  },
+  "training_notice": {
+    "mistakes": "misstag, {join}",
+    "suggested": "{count, plural, one {# föreslaget} other {# föreslagna}}",
+    "ready": "{count, plural, one {# redo att öva} other {# redo att öva}}"
+  },
+  "type_view_goal": {
+    "today": "✓ {formatGoalAmount} idag",
+    "today_2": "{floor} / {formatGoalAmount} idag",
+    "aria": "dagligt mål: {done} av {target} idag{met}",
+    "aria_met": ", uppnått"
+  },
+  "type_view_pace": {
+    "target": "mål {target} %",
+    "target_wpm": "mål {target} wpm",
+    "wpm": "{round} / {target} wpm",
+    "below_target_words_per_minute": "Under målet: {target} ord per minut. {seconds} sekunder att återhämta sig.",
+    "too_slow_keep_at_least": "För långsamt: håll minst {floorWpm} ord per minut. {seconds} sekunder att återhämta sig.",
+    "accuracy_below_percent_seconds_to": "Träffsäkerhet under {target} procent. {seconds} sekunder att återhämta sig.",
+    "back_on_target": "Tillbaka på målet.",
+    "back_on_pace": "Tillbaka i tempo."
+  },
+  "type_view": {
+    "wpm": "{round} wpm · {round2} %",
+    "test_complete_words_per_minute": "Testet är klart: {round} ord per minut, {toFixed} procents träffsäkerhet, {errors} fel."
+  },
+  "typing_input": {
+    "typing_input": "skrivinmatning"
+  },
+  "type_view_book": {
+    "now_reading": "Läser nu {title}{by}.",
+    "by_author": " av {author}",
+    "now": "nu: {title}{by}"
+  },
+  "text_providers": {
+    "unknown_practice_source": "Okänd övningskälla \"{source}\""
+  }
+}
