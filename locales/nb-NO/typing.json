@@ -169,6 +169,6 @@
     "now": "nå: {title}{by}"
   },
   "text_providers": {
-    "unknown_practice_source": "Ukjent øvingskilde "{source}""
+    "unknown_practice_source": "Ukjent øvingskilde \"{source}\""
   }
 }
