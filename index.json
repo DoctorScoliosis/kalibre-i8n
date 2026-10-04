@@ -132,14 +132,14 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 6,
+      "revision": 7,
       "version": "2026-10-04",
       "reviewed": "community",
-      "changes": "L12: remove stale achievements.rules.lastLesson after canonical reconciliation",
+      "changes": "Reconciled Games keys after the application rollback",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "fbea8a1e9e7c9b66aeac0edb361c21738ed87a647b2fcc7eec161481d2f3b932",
-      "bytes": 295103
+      "sha256": "b1aed84b51068a38952d41f345b6f7e13c786747257e4005c39accb15ecd829a",
+      "bytes": 294610
     }
   ]
 }
