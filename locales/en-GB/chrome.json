@@ -13,6 +13,7 @@
   },
   "curtain": {
     "fetching": "fetching the books and dictionary, just this once",
+    "report_problem": "report a problem",
     "taking_longer": "this is taking longer than usual…",
     "reload": "reload",
     "books_downloading": "the books are still downloading. you can start now, and they'll finish in the background.",
@@ -20,7 +21,8 @@
     "still_loading": "still loading. check your connection, then reload. once kalibre has loaded here, it works offline.",
     "older_tab": "kalibre is open in another tab, on an older version. close that tab and this one will carry on.",
     "couldnt_load": "kalibre couldn't load. check your connection, then reload.",
-    "browser_too_old": "this browser is too old for kalibre. a recent Chrome, Edge, Firefox or Safari will run it."
+    "browser_too_old": "this browser is too old for kalibre. a recent Chrome, Edge, Firefox or Safari will run it.",
+    "go_back_to_previous": "go back to v{version}"
   },
   "footer": {
     "shortcuts": "keyboard shortcuts",
@@ -207,7 +209,14 @@
     "select_the_details_below_to": "select the details below to copy them",
     "kalibre_couldn_t_start": "kalibre couldn’t start",
     "what_you_ve_saved_is": "what you’ve saved is still in this browser: starting again doesn’t touch it.",
-    "send_details": "if it keeps happening, send the details to {address}."
+    "send_details": "if it keeps happening, send the details to {address}.",
+    "previous_version_available": "the previous kalibre version (v{version}) is still downloaded on this device.",
+    "rollback_keeps_data": "going back changes the app files, not your saved data. if the older version says your data is newer, put back the copy from before the update.",
+    "go_back_to": "go back to v{version}",
+    "confirm_go_back_to": "yes, go back to v{version}",
+    "going_back": "going back…",
+    "couldn_t_go_back": "couldn’t go back: {error}",
+    "previous_version_unavailable": "the previous version is no longer available"
   },
   "update_gate": {
     "carry_on": "carry on",
