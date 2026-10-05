@@ -27,14 +27,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 6,
-      "version": "2026-10-04",
+      "revision": 7,
+      "version": "2026-10-05",
       "reviewed": "native",
-      "changes": "Added the Marathon strings from Kalibre (not yet translated: other languages show them in English)",
+      "changes": "Synced Release C Scroller strings and reconciled deferred canonical chrome, settings, and companion wording drift",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "84f53a53f1a2cf54131c698a0e2aa844893eb7a218e1751097ba9034edc9bda7",
-      "bytes": 303403
+      "sha256": "68ad0b11c5037ed2c3d85faffef3a0fd2f3ae337d01e9af7b943294171998f8c",
+      "bytes": 314011
     },
     {
       "id": "es-ES",
