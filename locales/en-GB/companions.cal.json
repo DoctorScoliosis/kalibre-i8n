@@ -199,7 +199,7 @@
       "New in v{version}: {news}!",
       "Guess what’s new in v{version}? {news}!",
       "Fresh in v{version}: {news}. Ooh.",
-      "v{version} is here, and {news}!"
+      "v{version} is here. It brings {news}."
     ],
     "newItem": [
       "Ooh, a new {item}! Right-click me to try it on.",
