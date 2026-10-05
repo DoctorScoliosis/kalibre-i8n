@@ -668,7 +668,10 @@
     "export_first": "export first",
     "kalibre_is_using_of_the": "kalibre is using {formatSize} of the {formatSize2} this browser allows it.",
     "kalibre_is_using_about": "kalibre is using about {formatSize}.",
-    "couldn_t_measure": "couldn’t measure: {message}"
+    "couldn_t_measure": "couldn’t measure: {message}",
+    "profile_breakdown": "what makes up this profile",
+    "downloaded_from_libraries": "downloaded from libraries",
+    "imported_by_you": "imported by you"
   },
   "theme_editor": {
     "sample_of_this_theme": "sample of this theme",
@@ -736,7 +739,8 @@
     "content": "content",
     "training": "training",
     "accessibility": "accessibility",
-    "data": "data"
+    "data": "data",
+    "manage-data": "manage data"
   },
   "stepper": {
     "decrease": "decrease {label}",
