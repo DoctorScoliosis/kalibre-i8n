@@ -157,6 +157,70 @@
       "pages": "{cleared}/{pages}"
     }
   },
+  "scroller": {
+    "title": "scroller",
+    "blurb": "Proofread a passage or a whole book as it scrolls up: fix each mistake before its line leaves the top.",
+    "modes": {
+      "passage": "proofread a passage",
+      "book": "proofread a book"
+    },
+    "setup": {
+      "label_passage": "next passage",
+      "label_book": "book",
+      "loading_passage": "finding the next passage…",
+      "loading_book": "finding books that fit…",
+      "none_passage": "no passage in your datasets is {min}–{max} words for {difficulty}. the library in texts → datasets has more.",
+      "none_book": "no book in your datasets is {min}–{max} words. the library in texts → datasets has longer works.",
+      "unavailable": "that source couldn’t be loaded. try again, or pick another.",
+      "words": "{count, plural, one {# word} other {# words}}",
+      "estimate": "about {minutes} min",
+      "by": "by {author}",
+      "rotation": "passages come round in turn: each run plays the next one.",
+      "passage_aria": "the next passage",
+      "list_aria": "books that fit",
+      "details_aria": "the chosen book"
+    },
+    "hud": {
+      "lives_aria": "lives: {lives} of {max}",
+      "lost": "−1 life · {cause}",
+      "restored": "+1 life · {cause}",
+      "streak": "streak {streak}/{goal}",
+      "progress_aria": "how much of the source has scrolled past",
+      "boundary_aria": "failure boundary: a mistake whose line crosses it costs a life"
+    },
+    "causes": {
+      "falseFlag": "false flag",
+      "wrongRepair": "wrong repair",
+      "missed": "scrolled away",
+      "streak": "repairs in a row",
+      "complex": "complex fix",
+      "recovery": "recovery mistake"
+    },
+    "status": {
+      "find": "catch each mistake before its line reaches the top: click a word or use the arrows, then press enter",
+      "missed": "{count, plural, one {a mistake scrolled away} other {# mistakes scrolled away}}",
+      "out_of_lives": "out of lives",
+      "finished": "finished"
+    },
+    "recovery": {
+      "aria": "recovery chance: fix it first time to win back a life"
+    },
+    "summary": {
+      "score": "score",
+      "progress": "progress",
+      "progress_passage": "{percent}% of the passage",
+      "progress_book": "{percent}% of the book",
+      "finished": "finished",
+      "lives": "lives left",
+      "lives_value": "{lives}/{max}",
+      "repaired": "repaired",
+      "missed": "missed",
+      "penalties": "penalties",
+      "restored": "lives restored",
+      "source": "source",
+      "difficulty": "difficulty"
+    }
+  },
   "ui": {
     "pause": "pause",
     "paused": "paused",
@@ -224,7 +288,6 @@
     "next_passage": "next passage ",
     "hud_found": "passage {round} · found {found} of {total}",
     "hud_score": "score {score}",
-    "find_mistake": "find a mistake: point or use the arrows, then click or press enter",
     "skip_title": "Move on; what’s left counts as missed"
   },
   "errors": {
@@ -1167,9 +1230,6 @@
               },
               "false-flag-penalty": {
                 "label": "false flag penalty"
-              },
-              "hover-cursor": {
-                "label": "hover cursor"
               }
             }
           },
@@ -1376,6 +1436,161 @@
               "time": {
                 "label": "time",
                 "summary": "time left over the bank’s limit; nothing when the run fails."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "final score"
+              }
+            }
+          }
+        }
+      },
+      "scroller": {
+        "help": [
+          "Proofread a passage, or a whole book, as it scrolls up. Find each planted mistake (click a word or use the arrows, then Enter) and fix it in place before its line crosses the top rule.",
+          "You have five lives. A false flag, a wrong repair, or a mistake left to scroll away each costs one.",
+          "Lives come back from repairs in a row, complex fixes and glowing recovery mistakes, one at a time."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "getting started",
+            "group": "getting started",
+            "summary": "proofread a passage or a whole book as it scrolls up, and fix each mistake before its line leaves the top.",
+            "highlights": [
+              "a mistake still unfixed when its line crosses the top rule costs a life",
+              "you have five lives, and the run ends the moment they are gone"
+            ],
+            "details": [
+              "there is no timer: the text scrolls at a steady pace for the difficulty, and stops while you pause.",
+              "select a word and press enter to flag it, then fix it in place, as in spot.",
+              "ending a run early counts as a loss."
+            ],
+            "mechanics": {
+              "scrolling": {
+                "label": "scrolling",
+                "summary": "every line stays on screen for the same time, whatever the size of the window."
+              },
+              "boundary": {
+                "label": "the top rule",
+                "summary": "a mistake still unresolved when its line crosses it is lost."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "move between words"
+              },
+              "i1": {
+                "action": "move between lines"
+              },
+              "i2": {
+                "action": "flag the selected word, or commit a fix"
+              }
+            },
+            "visuals": {
+              "boundary": {
+                "label": "top rule"
+              },
+              "lives": {
+                "label": "lives"
+              }
+            }
+          },
+          "lives-and-recovery": {
+            "label": "lives and recovery",
+            "group": "surviving",
+            "summary": "you have five lives. each can be won back, but never more than one by a single fix.",
+            "highlights": [
+              "a false flag, a wrong repair or a mistake left to scroll away each cost one life",
+              "ten repairs in a row, a complex fix or a recovery mistake each win one back"
+            ],
+            "details": [
+              "a recovery mistake glows. fix it first time to win a life; a wrong first try forfeits the chance.",
+              "any lost life starts the repair streak again.",
+              "two wrong tries show the answer, and that mistake can no longer be lost by scrolling away."
+            ],
+            "mechanics": {
+              "lives": {
+                "label": "lives",
+                "summary": "five at most. zero ends the run at once."
+              },
+              "streak": {
+                "label": "streak",
+                "summary": "ten repairs in a row win a life back, if you are below five."
+              },
+              "complex": {
+                "label": "complex fixes",
+                "summary": "a mistake that needs more than one edit to put right wins a life back."
+              },
+              "recovery": {
+                "label": "recovery mistakes",
+                "summary": "rare, and they glow: fix one first time for a life."
+              }
+            },
+            "visuals": {
+              "life-pips": {
+                "label": "life pips"
+              },
+              "recovery-aura": {
+                "label": "recovery glow"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "recovery chance"
+              }
+            }
+          },
+          "passages-and-books": {
+            "label": "passages and books",
+            "group": "playing",
+            "summary": "passage mode plays one passage from your datasets; book mode plays a whole book from start to end.",
+            "highlights": [
+              "passages come round in turn: each run plays the next one",
+              "books are chosen from the ones that fit"
+            ],
+            "details": [
+              "a passage is real text, in its own order, chosen by the difficulty.",
+              "a book is fetched once and kept, and plays from its first word to its last.",
+              "a book that stops fitting is never swapped for another."
+            ],
+            "mechanics": {
+              "passages": {
+                "label": "passages",
+                "summary": "no choosing and no skipping: the next one in turn."
+              },
+              "books": {
+                "label": "books",
+                "summary": "a long run: a whole book, an hour or more."
+              }
+            },
+            "visuals": {
+              "source": {
+                "label": "source"
+              }
+            }
+          },
+          "scoring": {
+            "label": "scoring",
+            "group": "surviving",
+            "summary": "the score is out of 1000: mostly how cleanly you fixed what you reached, plus the lives you finished with.",
+            "highlights": [
+              "80% for repairs over every mistake reached, false flag and wrong repair, scaled by how far you got",
+              "20% for the lives left at the end"
+            ],
+            "details": [
+              "finishing the whole source counts as all of it; a run that fails counts what had scrolled past, with no lives.",
+              "shown answers and lost mistakes are never repairs.",
+              "there is no combo or multiplier."
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "quality",
+                "summary": "repairs divided by mistakes reached, false flags and wrong repairs."
+              },
+              "lives": {
+                "label": "lives",
+                "summary": "lives left over five; nothing when the run fails."
               }
             },
             "visuals": {
