@@ -100,7 +100,15 @@
     "score": "score {round}",
     "destroyed": "destroyed {value}",
     "s_left": "{ceil}s left",
-    "trigger_jammed_type_or_backspace": "trigger jammed · type “{word}”, or backspace twice to scrap a shot"
+    "trigger_jammed_type_or_backspace": "trigger jammed · type “{word}”, or backspace twice to scrap a shot",
+    "accumulator": "payload {charge}/{capacity}",
+    "accumulator_meter": "accumulator payload",
+    "accumulator_warning": {
+      "near": "near capacity",
+      "over": "over capacity: careful",
+      "critical": "the next word overloads"
+    },
+    "accumulator_pending": "{word} · space to send to the magazine"
   },
   "spot": {
     "title": "spot",
@@ -346,7 +354,8 @@
   },
   "powerup_tray": {
     "shift": "{label}: {help} (shift+{value})",
-    "powerups_two_at_once": "powerups {length}/{storage} · two at once"
+    "powerups_two_at_once": "powerups {length}/{storage} · two at once",
+    "running": "running"
   },
   "race_card": {
     "ghost": "ghost",
@@ -1053,7 +1062,8 @@
             "summary": "destroyed enemies drop powerups. catch them, store them, and switch them on.",
             "highlights": [
               "catch a floating powerup to store it",
-              "activate with shift+1–3 or click a slot"
+              "activate with shift+1–3 or click a slot",
+              "the accumulator is a powerup that gathers words into one payload: space adds a word, space with nothing typed releases it"
             ],
             "details": [
               "up to three powerups can be stored. two kinds can be active at once; the same kind again stacks its timer.",
@@ -1061,7 +1071,8 @@
               "gatling: every letter typed fires an instant bolt.",
               "shield: a barrier absorbs hits for the ship.",
               "automaton: automatically picks the best shot for the biggest threat.",
-              "homing: fired words steer toward targets."
+              "homing: fired words steer toward targets.",
+              "the accumulator doesn't stack and has no timer. it never fires on its own: past its limit the ship overloads, destroying nearby enemies, and the run ends. a typo finished with space is held until you fix it; enter fires it as it is."
             ],
             "mechanics": {
               "double": {
@@ -1083,6 +1094,10 @@
               "homing": {
                 "label": "homing",
                 "summary": "fired words steer dynamically toward targets."
+              },
+              "accumulator": {
+                "label": "accumulator",
+                "summary": "words finished with space build one payload; space with nothing typed releases it as a single heavy shot."
               }
             },
             "controls": {
@@ -1094,6 +1109,9 @@
               },
               "i2": {
                 "action": "activate powerup slot 3"
+              },
+              "i3": {
+                "action": "add a word to the payload, or release it when nothing is typed"
               }
             },
             "visuals": {
@@ -1111,6 +1129,17 @@
               },
               "powerup-homing": {
                 "label": "homing seeker"
+              },
+              "powerup-accumulator": {
+                "label": "accumulator meter"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "accumulator"
+              },
+              "i1": {
+                "label": "overload"
               }
             }
           }
@@ -1610,13 +1639,17 @@
       "gatling": "gatling",
       "shield": "shield",
       "automaton": "automaton",
-      "homing": "homing"
+      "homing": "homing",
+      "accumulator": "accumulator"
     },
     "stored": "{name} stored · shift+{slot} to use",
     "storage_full": "storage full: {name} lost",
     "nothing_stored": "nothing stored there",
     "busy": "two are running already: {name} waits",
-    "cant_use": "{name} can’t be used"
+    "cant_use": "{name} can’t be used",
+    "on": "{name} on",
+    "stacked": "{name} stacked",
+    "running": "{name} is already running"
   },
   "constraints": {
     "min_length": "{value}+ letters",
@@ -1672,21 +1705,30 @@
       "bomb": "bomb!",
       "bomb_not_ready": "the bomb isn’t charged yet",
       "gatling": "rapid fire · {word}",
-      "shield_absorb": "shield absorbed {source} hit!"
+      "shield_absorb": "shield absorbed {source} hit!",
+      "accumulated": "{word} · added to the payload, +{power}",
+      "held_typo": "{word} · a typo is held: fix it, or enter fires it as it is",
+      "pending": "{word} · fixed: space again sends it to the magazine",
+      "routed": "{word} · sent to the magazine",
+      "released": "payload released · {power} damage",
+      "nothing_charged": "nothing charged yet: add a word first",
+      "overload": "overload!"
     },
     "powerup_help": {
       "double": "each shot fires twice",
       "gatling": "every letter fires a bolt",
       "shield": "takes a few hits for you",
       "automaton": "firing picks the best shot for the worst threat",
-      "homing": "fired words steer towards enemies"
+      "homing": "fired words steer towards enemies",
+      "accumulator": "space adds a word to one payload · space with nothing typed releases it"
     },
     "powerup_label": {
       "double": "double",
       "gatling": "gatling",
       "shield": "shield",
       "automaton": "automaton",
-      "homing": "homing"
+      "homing": "homing",
+      "accumulator": "accumulator"
     }
   },
   "castle_notes": {
