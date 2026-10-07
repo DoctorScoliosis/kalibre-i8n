@@ -7,9 +7,9 @@
   "fallback": null,
   "lowercaseDates": true,
   "reviewed": "native",
-  "revision": 8,
-  "version": "2026-10-06",
-  "changes": "Synced Release D Space Accumulator strings from Kalibre v0.76.0.1",
+  "revision": 9,
+  "version": "2026-10-07",
+  "changes": "Synced Release E Space Boss strings from Kalibre v0.77.0.1 (PR #53)",
   "files": {
     "about.json": "e21cd9a37c82e0d682ce20d6998ea330a3891103de4da2570c1fac3cc55b4000",
     "achievements.json": "1556d671f9e27dcea8fd1a4ff973531ef73ba5c38f86994c881f140747f66230",
@@ -38,6 +38,6 @@
     "typing.json": "b7c0d3c07a0e593b5ca1f8528a9b04fb4011182d526f3b4eeb0fad4c13a7984d",
     "wardrobe.json": "a5e000568053ba49f33dec1fa044eaeff6307a319032e9f6e68fade86771c240",
     "words.json": "5ec12e9934f087cd95ee99c64b5c55bcb9509f9e6301459fa6c938469040715f",
-    "games": "324e4fadb796d6fb535e90aef749d82e446360281f98600d11cf11bf2a4c753a"
+    "games": "53c2155c6ec11672bb2b518cb246dcd8698a9e25aaa73db59b33a05f3ac0a21f"
   }
 }
