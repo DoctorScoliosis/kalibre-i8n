@@ -27,14 +27,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 8,
-      "version": "2026-10-06",
+      "revision": 9,
+      "version": "2026-10-07",
       "reviewed": "native",
-      "changes": "Synced Release D Space Accumulator strings from Kalibre v0.76.0.1",
+      "changes": "Synced Release E Space Boss strings from Kalibre v0.77.0.1 (PR #53)",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "cfe23edf1c8e671001b3db14c000bce83d8352cd47662e5faf68ea90329563ca",
-      "bytes": 316206
+      "sha256": "9e4f2e611b965c05dc0d8035e6d3f3387f522f98817ef685b75f24d83d423efc",
+      "bytes": 320307
     },
     {
       "id": "es-ES",
