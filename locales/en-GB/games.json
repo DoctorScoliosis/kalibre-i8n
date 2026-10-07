@@ -108,7 +108,19 @@
       "over": "over capacity: careful",
       "critical": "the next word overloads"
     },
-    "accumulator_pending": "{word} · space to send to the magazine"
+    "accumulator_pending": "{word} · space to send to the magazine",
+    "boss": {
+      "meter": "mothership hull",
+      "hull": "mothership {percent}%",
+      "no_time_limit": "no time limit",
+      "side": {
+        "left": "left",
+        "right": "right"
+      }
+    },
+    "summary": {
+      "bosses": "bosses down"
+    }
   },
   "spot": {
     "title": "spot",
@@ -1142,6 +1154,63 @@
                 "label": "overload"
               }
             }
+          },
+          "boss": {
+            "label": "the mothership",
+            "group": "the mothership",
+            "summary": "a huge mothership arrives with its own word requirement, two gatlings, dogfighters and landmines. bring it down to clear the encounter.",
+            "highlights": [
+              "the mothership only takes words that meet its current requirement, and the requirement changes every few seconds",
+              "its two gatlings take any word: destroy one and half of the bullets stop for good",
+              "a timed run ends in a final mothership: defeat it to win, and once it arrives there is no time limit"
+            ],
+            "details": [
+              "in an endless run a mothership arrives after every so many waves of ordinary play, and returns the run to normal when it falls. each one is a little tougher than the last.",
+              "in a timed run there is one mothership, when the clock runs out. you win by defeating it. losing the ship first, or at the same moment, is a loss.",
+              "the badge above the mothership shows what it wants now. when it changes, the previous requirement still counts for a moment, so shots already in flight are fair.",
+              "gatling bullets carry no letters and cannot be shot down: steer out of the way. a shield absorbs a whole burst as one hit.",
+              "dogfighters weave across the field and sidestep your shots, but not explosions. they never ram, and they have no requirement.",
+              "the word bomb hurts the mothership and its gatlings only a little, but clears missiles and bullets and destroys dogfighters. an accumulator payload ignores the requirement. an overload never touches the mothership.",
+              "while the mothership is here only asteroids arrive on their own. rescue ships keep coming."
+            ],
+            "mechanics": {
+              "mothership": {
+                "label": "mothership",
+                "summary": "a large ship with finite health, shown as a meter beside your own."
+              },
+              "requirements": {
+                "label": "changing requirement",
+                "summary": "the word it wants changes every few seconds, faster on harder settings."
+              },
+              "gatlings": {
+                "label": "gatlings",
+                "summary": "two guns that fire bursts of bullets across the field. destroyed ones stay destroyed."
+              },
+              "dogfighters": {
+                "label": "dogfighters",
+                "summary": "small ships with no letters that weave, dodge shots and fire short bursts."
+              },
+              "milestones": {
+                "label": "milestones",
+                "summary": "endless runs meet a mothership every few waves; timed runs end with one."
+              }
+            },
+            "visuals": {
+              "mothership-hull": {
+                "label": "mothership and hull meter"
+              },
+              "boss-gatling": {
+                "label": "gatling burst"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "mothership"
+              },
+              "i1": {
+                "label": "gatlings"
+              }
+            }
           }
         }
       },
@@ -1712,7 +1781,12 @@
       "routed": "{word} · sent to the magazine",
       "released": "payload released · {power} damage",
       "nothing_charged": "nothing charged yet: add a word first",
-      "overload": "overload!"
+      "overload": "overload!",
+      "boss_incoming": "the mothership is coming",
+      "boss_requirement": "the mothership now wants {requirement}",
+      "boss_gatling_down": "{side} gatling down",
+      "boss_defeated": "the mothership is down",
+      "dogfighter_down": "dogfighter down"
     },
     "powerup_help": {
       "double": "each shot fires twice",
