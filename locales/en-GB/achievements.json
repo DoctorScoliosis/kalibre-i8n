@@ -344,34 +344,44 @@
     "name": "chief proofreader"
   },
   "buffet-host": {
-    "name": "buffet host"
+    "name": "buffet host",
+    "says": "keep a Feed buffet open for 5 minutes"
   },
   "full-house": {
-    "name": "full house"
+    "name": "full house",
+    "says": "fill 50 buffet orders in Feed, all told"
   },
   "no-hints": {
-    "name": "no hints needed"
+    "name": "no hints needed",
+    "says": "last 3 minutes as Feed’s fussy eater without feeding it a hinted word"
   },
   "station-down": {
-    "name": "station down"
+    "name": "station down",
+    "says": "destroy a space station in Space"
   },
   "shrapnel-storm": {
-    "name": "shrapnel storm"
+    "name": "shrapnel storm",
+    "says": "destroy 3 enemies with one landmine’s shrapnel in Space"
   },
   "stacked": {
-    "name": "stacked"
+    "name": "stacked",
+    "says": "run two powerups at once in Space"
   },
   "autopilot-ace": {
-    "name": "autopilot ace"
+    "name": "autopilot ace",
+    "says": "destroy 10 enemies with the automaton in Space, all told"
   },
   "dazed": {
-    "name": "dazed and confused"
+    "name": "dazed and confused",
+    "says": "stun 25 attackers in Castle, all told"
   },
   "spoils-of-war": {
-    "name": "spoils of war"
+    "name": "spoils of war",
+    "says": "use 10 powerups in Castle, all told"
   },
   "clean-sweep": {
-    "name": "clean sweep"
+    "name": "clean sweep",
+    "says": "fix every mistake in a Spot passage without flagging a correct word"
   },
   "race-first": {
     "name": "on your marks"
@@ -639,5 +649,21 @@
     "badges": "badges",
     "extras": "extras",
     "sections_label": "achievement sections"
+  },
+  "siege-breaker": {
+    "name": "siege breaker",
+    "says": "destroy 10 catapults in Castle, all told"
+  },
+  "bomb-disposal": {
+    "name": "bomb disposal",
+    "says": "disarm 25 sticks of dynamite in Castle, all told"
+  },
+  "bucket-brigade": {
+    "name": "bucket brigade",
+    "says": "put out 25 fires in Castle, all told"
+  },
+  "giant-killer": {
+    "name": "giant killer",
+    "says": "bring down a giant in Castle"
   }
 }

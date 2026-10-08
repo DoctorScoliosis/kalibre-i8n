@@ -8,7 +8,7 @@
     "sync": "node scripts/sync-canonical.mjs",
     "build": "node scripts/build-packs.mjs",
     "check": "node scripts/check-i18n.mjs",
-    "test": "node --test scripts/integrity.test.mjs scripts/core-pr-impact.test.mjs && npm run build && npm run check",
+    "test": "node --test scripts/integrity.test.mjs scripts/core-pr-impact.test.mjs scripts/build-packs.test.mjs && npm run build && npm run check",
     "coverage": "node scripts/coverage.mjs",
     "start-translation": "node scripts/start-translation.mjs",
     "check-core-pr": "node scripts/check-core-pr.mjs"

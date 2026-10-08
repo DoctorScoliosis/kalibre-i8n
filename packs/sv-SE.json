@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "machine",
-    "revision": 4,
-    "version": "2026-10-04",
-    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
+    "revision": 5,
+    "version": "2026-10-08",
+    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
   },
   "strings": {
     "about": {
@@ -3103,8 +3103,6 @@
         "stockpile": "lager",
         "click_a_brick_to_carry": "klicka på ett tegel för att bära det · mellanslag lägger · skift+retur släpper · 1–9 väljer",
         "bricks": "{length} tegel · {toFixed}",
-        "the_dropped_shift_to_use": "den {from} släppte {label} · skift+{slot} för att använda",
-        "the_dropped_but_storage_is": "den {from} släppte {label}, men lagret är fullt",
         "brick_stacked": "{word} · {note} tegel {toFixed} · staplat{repeatNote}",
         "damage": "{note} · {toFixed} skada",
         "yard_brick_pick": "{word}: {note} tegel, styrka {strength} (tryck {key} för att plocka)",
@@ -3133,10 +3131,7 @@
             "help": "reparerar den svagaste porten eller borgen"
           }
         },
-        "foe_title": "{type}: klicka eller släpp tegel för att krossa ({hp} HP)",
         "foe_stunned": ", bedövad",
-        "catapult_title": "katapult: utom räckhåll i fjärran",
-        "catapult_aiming": ", siktar på {section}",
         "section_title": "{section}: {integrity}/{max}",
         "section_critical": ", kritiskt",
         "section_needs": ", behöver tegel som {requirement}",
@@ -3773,7 +3768,6 @@
               "fighting": {
                 "label": "strid",
                 "group": "strid",
-                "summary": "släpp tegel på fiender för att krossa dem eller använd katapulten för att träffa på avstånd.",
                 "highlights": [
                   "skift+retur släpper ett tegel på den utvalda angriparen",
                   "råskinnare stångar, sappörer hackar och katapulter slungar sten från avstånd"
@@ -3793,8 +3787,7 @@
                     "summary": "hackar på sektioner. vandrar mellan mål."
                   },
                   "catapult": {
-                    "label": "katapult",
-                    "summary": "slungar sten från avstånd längs en parabolisk båge. utom räckhåll för tegelsläpp."
+                    "label": "katapult"
                   },
                   "stun": {
                     "label": "bedövning",

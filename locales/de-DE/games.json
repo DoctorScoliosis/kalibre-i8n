@@ -42,8 +42,6 @@
     "stockpile": "Lagerbestände",
     "click_a_brick_to_carry": "Klicken Sie auf einen Ziegelstein, um ihn zu tragen · Platz legt · Shift + Enter Drops · 1-9 Pick",
     "bricks": "{length}Steine ·{toFixed}",
-    "the_dropped_shift_to_use": "Das{from}Gefallen{label}· Shift+{slot}Zu verwenden",
-    "the_dropped_but_storage_is": "Das{from}Gefallen{label}, Aber der Speicher ist voll",
     "brick_stacked": "{word} · {note}Ziegel{toFixed}· Gestapelt{repeatNote}",
     "damage": "{note} · {toFixed}Schäden",
     "yard_brick_pick": "{word}: {note}Ziegelstein, Festigkeit{strength}(Presse){key}Zu wählen",
@@ -72,10 +70,7 @@
         "help": "Reparatur der schwächsten Tor oder halten"
       }
     },
-    "foe_title": "{type}: Click or Drop Stone to Crush (Deutsche Übersetzung){hp}HP",
     "foe_stunned": ", Betäubt",
-    "catapult_title": "Katapult: außer Reichweite in der Ferne",
-    "catapult_aiming": "Mit Blick auf die{section}",
     "section_title": "{section}: {integrity}/{max}",
     "section_critical": ", Kritisch",
     "section_needs": "Braucht Ziegelsteine, die{requirement}",
@@ -619,7 +614,6 @@
           "fighting": {
             "label": "Kämpfen",
             "group": "Kämpfen",
-            "summary": "Lege Ziegelsteine auf Feinde, um sie zu zerquetschen, oder benutze das Katapult, um sie aus der Ferne zu treffen.",
             "highlights": [
               "Shift+enter lässt einen Stein auf den gezielten Angreifer fallen",
               "Brutes Ram, Sappers Chip, Katapulte lob Felsbrocken aus der Ferne"
@@ -639,8 +633,7 @@
                 "summary": "Chips an Abschnitten. Wandert zwischen Zielen."
               },
               "catapult": {
-                "label": "Katapult",
-                "summary": "Schleudert Felsbrocken aus der Ferne entlang eines Parabelbogens. aus dem Fallbereich."
+                "label": "Katapult"
               },
               "stun": {
                 "label": "Betäubung",

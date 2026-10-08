@@ -42,8 +42,6 @@
     "stockpile": "stockpile",
     "click_a_brick_to_carry": "click a brick to carry it · space lays · shift+enter drops · 1–9 pick",
     "bricks": "{length} bricks · {toFixed}",
-    "the_dropped_shift_to_use": "the {from} dropped {label} · shift+{slot} to use",
-    "the_dropped_but_storage_is": "the {from} dropped {label}, but storage is full",
     "brick_stacked": "{word} · {note} brick {toFixed} · stacked{repeatNote}",
     "damage": "{note} · {toFixed} damage",
     "yard_brick_pick": "{word}: {note} brick, strength {strength} (press {key} to pick)",
@@ -72,15 +70,101 @@
         "help": "repairs the weakest gate or keep"
       }
     },
-    "foe_title": "{type}: click or drop brick to crush ({hp} HP)",
     "foe_stunned": ", stunned",
-    "catapult_title": "catapult: out of reach in the distance",
-    "catapult_aiming": ", aiming at the {section}",
     "section_title": "{section}: {integrity}/{max}",
     "section_critical": ", critical",
     "section_needs": ", needs bricks that {requirement}",
     "news_line": "{label}: {note}",
-    "powerup": "powerup"
+    "powerup": "powerup",
+    "units": {
+      "brute": "brute",
+      "sapper": "sapper",
+      "catapult": "catapult",
+      "operator": "operator",
+      "anarchist": "anarchist",
+      "giant": "giant"
+    },
+    "sections": {
+      "west-tower": "west tower",
+      "west-wall": "west wall",
+      "inner-west-wall": "inner west wall",
+      "gate": "gate",
+      "inner-east-wall": "inner east wall",
+      "east-wall": "east wall",
+      "east-tower": "east tower",
+      "west-foundation": "west foundation",
+      "keep": "keep",
+      "east-foundation": "east foundation"
+    },
+    "kinds": {
+      "wall": "wall",
+      "tower": "tower",
+      "gate": "gate",
+      "foundation": "base",
+      "keep": "keep"
+    },
+    "marks": {
+      "critical": "critical",
+      "breach": "breach",
+      "requirement": "!"
+    },
+    "summary": {
+      "held": "held",
+      "overrun": "overrun",
+      "waves": "waves",
+      "bricks_laid": "bricks laid",
+      "crushed": "crushed",
+      "strongest": "strongest",
+      "damage_taken": "damage taken",
+      "sections_lost": "sections lost",
+      "catapults_destroyed": "catapults destroyed",
+      "fires_out": "fires out"
+    },
+    "titles": {
+      "foe": {
+        "brute": "brute: click or drop brick to crush ({hp} HP)",
+        "sapper": "sapper: click or drop brick to crush ({hp} HP)",
+        "anarchist": "anarchist: click or drop brick to crush ({hp} HP)",
+        "giant": "giant: only a strong word stuns it, and weak bricks glance off ({hp} HP)"
+      },
+      "catapult": "catapult: {state} · {ammo} · frame {percent}%",
+      "catapult_aiming": ", aiming at the {section}",
+      "operator": "operator: click or hurl a brick to bring down ({hp}% left)",
+      "rubble": "rubble: a catapult was wrecked here",
+      "repair_crew": "repair crew: click or hurl a brick to stop the work ({hp}% left · {percent}% done)",
+      "dynamite": "dynamite: {seconds, plural, one {# second} other {# seconds}} to go · click to disarm",
+      "fire": "fire: {percent}% of its burn left · put it out with the bucket",
+      "strong_word": "a strong word is needed: weak bricks barely hurt it and cannot stun it"
+    },
+    "siege": {
+      "state": {
+        "arriving": "crew walking in",
+        "setup": "setting up",
+        "carrying": "carrying a rock",
+        "loading": "loading",
+        "aiming": "aiming",
+        "releasing": "releasing",
+        "unmanned": "no crew",
+        "empty": "out of rocks",
+        "destroyed": "wrecked",
+        "repairing": "being repaired"
+      },
+      "ammo": "{count, plural, =0 {no rocks left} one {# rock left} other {# rocks left}}"
+    },
+    "cursor": {
+      "site_catapult": "aiming at: catapult · {state} · {ammo}",
+      "site_rubble": "aiming at: rubble where a catapult stood",
+      "site_empty": "aiming at: the siege line · nothing here"
+    },
+    "sabotage": {
+      "fuse": "{seconds}s"
+    },
+    "bucket": {
+      "label": "bucket",
+      "title": "bucket: {water}/{capacity} water · click it, then a fire (or press 0, then space)",
+      "title_armed": "bucket ready: click a fire, or press space on one (esc puts it down)",
+      "level": "{water}/{capacity}"
+    }
   },
   "space": {
     "title": "space",
@@ -745,15 +829,16 @@
           "fighting": {
             "label": "fighting",
             "group": "fighting",
-            "summary": "drop bricks on enemies to crush them, or use the catapult to hit them from afar.",
             "highlights": [
               "shift+enter drops a brick on the targeted attacker",
-              "brutes ram, sappers chip, catapults lob boulders from a distance"
+              "brutes ram, sappers chip, catapults lob boulders: hurl a brick to stop the crew",
+              "a giant needs a strong word"
             ],
             "details": [
               "a brick drop deals damage equal to the brick’s strength.",
               "an enemy that isn’t crushed may be stunned for a moment.",
-              "catapults station at a distance: a dashed arc shows where one is aiming."
+              "catapults sit at the back of the field with a crew: a dashed arc shows where one is aiming. hurl a brick at the crew or the frame.",
+              "a giant has far more health. weak bricks barely hurt it and cannot stun it: only a strong word will."
             ],
             "mechanics": {
               "brute": {
@@ -766,7 +851,7 @@
               },
               "catapult": {
                 "label": "catapult",
-                "summary": "hurls boulders from afar along a parabolic arc. out of drop range."
+                "about": "sits at the back of the field with a crew and a pile of rocks, and hurls boulders along a parabolic arc. hurl a brick at it or its crew to stop it."
               },
               "stun": {
                 "label": "stun",
@@ -775,6 +860,10 @@
               "drops": {
                 "label": "brick drops",
                 "summary": "drop a brick on an enemy to damage or crush it."
+              },
+              "giant": {
+                "label": "giant",
+                "summary": "a huge ram that never tires. it needs a strong word: weak bricks barely hurt it and cannot stun it."
               }
             },
             "controls": {
@@ -788,6 +877,9 @@
             "subDemos": {
               "i0": {
                 "label": "brick drops"
+              },
+              "i1": {
+                "label": "a giant"
               }
             },
             "visuals": {
@@ -802,8 +894,12 @@
               },
               "boulder-arc": {
                 "label": "boulder arc"
+              },
+              "giant-stomp": {
+                "label": "giant (stomp)"
               }
-            }
+            },
+            "intro": "drop bricks on attackers to crush them, and hurl bricks at the catapults out in the field."
           },
           "powering-up": {
             "label": "powering up",
@@ -858,6 +954,132 @@
               },
               "mend-powerup": {
                 "label": "field mend (repair)"
+              }
+            }
+          },
+          "siege": {
+            "label": "siege",
+            "group": "siege",
+            "summary": "catapults and their crews work at the back of the field. stop the crew, wreck the frame, or let the rocks run out.",
+            "highlights": [
+              "a crew carries rocks and loads the catapult: watch the arc",
+              "hurl a brick at the crew or the frame: click it, or move the cursor up and press shift+enter"
+            ],
+            "details": [
+              "each catapult has a crew of one and a pile of rocks. the crew carries a rock, loads it, aims and lets go.",
+              "bring the crew down and the catapult stops. a rock already loaded stays loaded, but nobody can fire it.",
+              "a hard enough hit on the frame while it aims spills the rock. wreck the frame and it becomes rubble.",
+              "a later wave can send a crew to repair the rubble. stop that crew and the rubble stays."
+            ],
+            "mechanics": {
+              "crew": {
+                "label": "crew",
+                "summary": "carries a rock from the pile to the cup. bring it down to stop the catapult."
+              },
+              "rocks": {
+                "label": "rocks",
+                "summary": "each catapult starts with a few rocks. one is spent every time it is loaded."
+              },
+              "interrupt": {
+                "label": "interrupt",
+                "summary": "a hard hit on the frame while it aims spills the rock."
+              },
+              "rubble": {
+                "label": "rubble",
+                "summary": "a wrecked catapult leaves rubble. a repair crew may come back for it."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "move up to the siege line"
+              },
+              "i1": {
+                "action": "hurl a brick at the crew, then the frame"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "a catapult’s loop"
+              },
+              "i1": {
+                "label": "stop a shot"
+              }
+            },
+            "visuals": {
+              "catapult-crew": {
+                "label": "catapult and crew"
+              },
+              "rock-pile": {
+                "label": "rock pile"
+              },
+              "rubble-heap": {
+                "label": "rubble"
+              },
+              "repair-crew": {
+                "label": "repair crew"
+              }
+            }
+          },
+          "sabotage": {
+            "label": "sabotage",
+            "group": "sabotage",
+            "summary": "anarchists plant dynamite and throw firebrands. disarm the dynamite, put out the fires, or bring the anarchist down.",
+            "highlights": [
+              "dynamite has a lit fuse: click it, or press backspace on its section",
+              "any word fills the bucket: ready it and pour it on a fire"
+            ],
+            "details": [
+              "an anarchist crouches to plant dynamite on a wall or tower, or throws a firebrand over the walls at a base or the keep.",
+              "dynamite blasts its section, hurts the sections beside it and everything standing at its foot. disarm it before the fuse runs out.",
+              "a fire burns its section until it burns out. on harder settings it can spread. a section that falls takes its fire with it.",
+              "any typed word can fill the bucket, by the strength it has as a brick. press 0 with bricks picked, or click a brick and then the bucket. press 0 with nothing picked, or click the bucket, then a burning section to pour. esc puts it down."
+            ],
+            "mechanics": {
+              "anarchist": {
+                "label": "anarchist",
+                "summary": "plants dynamite or throws a firebrand, one after the other. bring it down to stop what it has not done yet."
+              },
+              "dynamite": {
+                "label": "dynamite",
+                "summary": "a lit fuse on a wall or tower. blasts the section, its neighbours and what stands at its foot."
+              },
+              "fire": {
+                "label": "fire",
+                "summary": "burns a base or the keep, and on harder settings can spread to a neighbour."
+              },
+              "bucket": {
+                "label": "bucket",
+                "summary": "any word fills it by its brick strength. one pour puts out one fire."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "disarm the dynamite on the section"
+              },
+              "i1": {
+                "action": "fill the bucket, or ready it to pour"
+              },
+              "i2": {
+                "action": "pour on the burning section"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "dynamite"
+              },
+              "i1": {
+                "label": "firefighting"
+              }
+            },
+            "visuals": {
+              "dynamite-fuse": {
+                "label": "dynamite and fuse"
+              },
+              "fire-flame": {
+                "label": "fire"
+              },
+              "water-bucket": {
+                "label": "water bucket"
               }
             }
           }
@@ -1853,6 +2075,69 @@
     "wrong_kind_of_brick": "wrong kind of brick",
     "nobody_to_drop_it_on": "nobody to drop it on",
     "two_are_running_already": "two are running already",
-    "nothing_stored_there": "nothing stored there"
+    "nothing_stored_there": "nothing stored there",
+    "crushed": {
+      "brute": "crushed a brute",
+      "sapper": "crushed a sapper",
+      "catapult": "smashed a catapult",
+      "operator": "brought down an operator",
+      "anarchist": "crushed an anarchist",
+      "giant": "brought down a giant"
+    },
+    "hit": {
+      "brute": "hit a brute",
+      "sapper": "hit a sapper",
+      "catapult": "hit a catapult",
+      "operator": "hit an operator",
+      "anarchist": "hit an anarchist",
+      "giant": "hit a giant"
+    },
+    "hit_stunned": {
+      "brute": "hit a brute · stunned",
+      "sapper": "hit a sapper · stunned",
+      "catapult": "hit a catapult · stunned",
+      "operator": "hit an operator · stunned",
+      "anarchist": "hit an anarchist · stunned",
+      "giant": "hit a giant · stunned"
+    },
+    "dropped_stored": {
+      "brute": "the brute dropped {label} · shift+{slot} to use",
+      "sapper": "the sapper dropped {label} · shift+{slot} to use",
+      "catapult": "the catapult dropped {label} · shift+{slot} to use",
+      "operator": "the operator dropped {label} · shift+{slot} to use",
+      "anarchist": "the anarchist dropped {label} · shift+{slot} to use",
+      "giant": "the giant dropped {label} · shift+{slot} to use"
+    },
+    "dropped_full": {
+      "brute": "the brute dropped {label}, but storage is full",
+      "sapper": "the sapper dropped {label}, but storage is full",
+      "catapult": "the catapult dropped {label}, but storage is full",
+      "operator": "the operator dropped {label}, but storage is full",
+      "anarchist": "the anarchist dropped {label}, but storage is full",
+      "giant": "the giant dropped {label}, but storage is full"
+    },
+    "laid_many": "{count, plural, one {# brick} other {# bricks}}",
+    "powerup_on": "on",
+    "powerup_stacked": "stacked",
+    "attackers_stunned": "{count, plural, one {# attacker stunned} other {# attackers stunned}}",
+    "section_mended": "{section} mended",
+    "shot_interrupted": "shot interrupted",
+    "cannot_build": "nothing to build out here",
+    "alert": {
+      "catapult_destroyed": "a catapult is wrecked",
+      "repair_crew": "a crew heads for the rubble",
+      "repair_done": "a catapult is rebuilt",
+      "repair_failed": "the repair crew is down: the rubble stays",
+      "dynamite_placed": "dynamite planted at the {section}",
+      "fire_started": "fire at the {section}",
+      "critical_danger": "the {section} is in danger"
+    },
+    "dynamite_disarmed": "dynamite disarmed",
+    "water_filled": "+{added} water · {water}/{capacity}",
+    "water_overflow": "+{added} water · {lost} spilled · {water}/{capacity}",
+    "not_enough_water": "the bucket needs {cost} water to pour",
+    "nothing_burning": "nothing burning there",
+    "water_poured": "fire put out",
+    "bucket_armed": "bucket ready · space pours on a burning section"
   }
 }

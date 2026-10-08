@@ -66,6 +66,7 @@ Each language folder in `locales/<tag>/` contains a `meta.json`:
 
 - **`reviewed`**: `"native"` (reviewed/written by a native speaker), `"community"` (community reviewed), or `"machine"` (machine translated). Kalibre displays an honest, quiet note when a language has not been checked by a native speaker yet.
 - **`revision`**: Whole integer (`1, 2, 3...`) that strictly increments on every update. Kalibre uses this to determine when a newer translation is available.
+- **`published`** (optional, default `true`): `false` keeps a locale's files here, partial work and all, but gets it no manifest, no pack and no `index.json` entry, so Kalibre never offers it (`npm run build` honours it and `npm run check` asserts it).
 
 ---
 

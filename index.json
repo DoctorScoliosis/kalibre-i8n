@@ -12,14 +12,14 @@
       "englishName": "German",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 3,
-      "version": "2026-10-04",
+      "revision": 4,
+      "version": "2026-10-08",
       "reviewed": "machine",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/de-DE/manifest.json",
       "pack": "packs/de-DE.json",
-      "sha256": "2c5ae880c22bde6cc529cf7d0ef8a2e50cd40a276f78c5c1815a12703ebd4707",
-      "bytes": 320241
+      "sha256": "38d8a7c7f1698ac8c9ddd91b96ecbacc267882485f481d4e78acfe5b599e9600",
+      "bytes": 319597
     },
     {
       "id": "en-GB",
@@ -27,14 +27,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 10,
+      "revision": 11,
       "version": "2026-10-08",
       "reviewed": "native",
-      "changes": "Synced Release F Space Elite strings from Kalibre v0.78.0.1 (PR #54)",
+      "changes": "Synced Release G Castle Siege strings from Kalibre v0.79.0.1",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "9e093bfd9ba10d7a0ac7851faf2f3428737cee67ed11cd0732b13a954e82cdfa",
-      "bytes": 322328
+      "sha256": "cac4f47abd3945839bed4cc249a20f5dbef26c8be6da7c3084eb54d1e3db4c51",
+      "bytes": 336356
     },
     {
       "id": "es-ES",
@@ -42,14 +42,14 @@
       "englishName": "Spanish (Spain)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-04",
+      "revision": 5,
+      "version": "2026-10-08",
       "reviewed": "machine",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/es-ES/manifest.json",
       "pack": "packs/es-ES.json",
-      "sha256": "b2b303f72e0290dc9b8926b878290ce4499435f27c61abba4d79b2fac9558ab2",
-      "bytes": 325574
+      "sha256": "c641334ddda9f29e0566f31b76d18b117332f450341aded14c2032a871b3917f",
+      "bytes": 324930
     },
     {
       "id": "fr-FR",
@@ -57,14 +57,14 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 8,
-      "version": "2026-10-04",
+      "revision": 9,
+      "version": "2026-10-08",
       "reviewed": "community",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "0b1da7c2483ab9dc085ed43a2a949b046a9df3848d0764fa3f49108a2864f698",
-      "bytes": 331143
+      "sha256": "2c2b71748d6d062d11ecdf5a8db9f7520d3d22a5dad95545d612de49e18f7873",
+      "bytes": 330541
     },
     {
       "id": "it-IT",
@@ -72,14 +72,14 @@
       "englishName": "Italian",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-04",
+      "revision": 5,
+      "version": "2026-10-08",
       "reviewed": "machine",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/it-IT/manifest.json",
       "pack": "packs/it-IT.json",
-      "sha256": "170b65868a6133cc0cd26b331658130110e32acb9c0902f65170fc600ce9c92d",
-      "bytes": 321699
+      "sha256": "b1240ba4290ccb76989e8b01932e7322dcae9d4562220be6aa7d668327809bb8",
+      "bytes": 321069
     },
     {
       "id": "nl-NL",
@@ -87,14 +87,14 @@
       "englishName": "Dutch (Netherlands)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 3,
-      "version": "2026-10-04",
+      "revision": 4,
+      "version": "2026-10-08",
       "reviewed": "machine",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/nl-NL/manifest.json",
       "pack": "packs/nl-NL.json",
-      "sha256": "b4896af08d60493440854a35cec08a70af3a777a3541c621da7e23cf75e392c9",
-      "bytes": 311059
+      "sha256": "0a2fc590b0af50c87b796732a4817d75d317b8988f43dd4276bd4e25e7c30a3f",
+      "bytes": 310470
     },
     {
       "id": "pt-BR",
@@ -102,14 +102,14 @@
       "englishName": "Portuguese (Brazil)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-04",
+      "revision": 5,
+      "version": "2026-10-08",
       "reviewed": "machine",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/pt-BR/manifest.json",
       "pack": "packs/pt-BR.json",
-      "sha256": "0e35b0b1d0d0a42f2cb6c81e42dbe44511503e86674450d6b49e78571dc3ab6a",
-      "bytes": 321427
+      "sha256": "f77e0f86f9b3c8da72c97dbe6db54af4e8b7818309e3bbda59c2eaf9283fbf10",
+      "bytes": 320840
     },
     {
       "id": "sv-SE",
@@ -117,14 +117,14 @@
       "englishName": "Swedish (Sweden)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-04",
+      "revision": 5,
+      "version": "2026-10-08",
       "reviewed": "machine",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/sv-SE/manifest.json",
       "pack": "packs/sv-SE.json",
-      "sha256": "c42dc441ebf8986d8d6e39cf33b247a1b3277f3b0504dbadba37e6ef12018c24",
-      "bytes": 311791
+      "sha256": "174caa227345c7e84aca7493f46b258a94c9a91f9fa2bdbde88189277f51c417",
+      "bytes": 311165
     },
     {
       "id": "zh-CN",
@@ -132,14 +132,14 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 8,
-      "version": "2026-10-04",
+      "revision": 9,
+      "version": "2026-10-08",
       "reviewed": "community",
-      "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "87db01a9c2d6843e9b40b304d2d483f3858b57e36e2379c731dbdc2a7dc469bf",
-      "bytes": 294904
+      "sha256": "ddf913d2a0d62c3e0d26188906f9753fec73e95e6a61d1ac0b933ecaed239ef2",
+      "bytes": 294347
     }
   ]
 }
