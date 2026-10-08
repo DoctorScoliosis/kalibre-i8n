@@ -27,14 +27,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 9,
-      "version": "2026-10-07",
+      "revision": 10,
+      "version": "2026-10-08",
       "reviewed": "native",
-      "changes": "Synced Release E Space Boss strings from Kalibre v0.77.0.1 (PR #53)",
+      "changes": "Synced Release F Space Elite strings from Kalibre v0.78.0.1 (PR #54)",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "9e4f2e611b965c05dc0d8035e6d3f3387f522f98817ef685b75f24d83d423efc",
-      "bytes": 320307
+      "sha256": "9e093bfd9ba10d7a0ac7851faf2f3428737cee67ed11cd0732b13a954e82cdfa",
+      "bytes": 322328
     },
     {
       "id": "es-ES",
