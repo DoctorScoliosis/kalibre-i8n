@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "community",
-    "revision": 8,
-    "version": "2026-10-04",
-    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
+    "revision": 9,
+    "version": "2026-10-08",
+    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
   },
   "strings": {
     "about": {
@@ -3103,8 +3103,6 @@
         "stockpile": "stock",
         "click_a_brick_to_carry": "cliquez sur une brique pour la porter · espace pose · maj+entrée dépose · 1-9 choisir",
         "bricks": "{length} briques · {toFixed}",
-        "the_dropped_shift_to_use": "{from} a déposé {label} · maj+{slot} pour utiliser",
-        "the_dropped_but_storage_is": "{from} a déposé {label}, mais le stockage est plein",
         "brick_stacked": "{word} · {note} brique {toFixed} · empilé{repeatNote}",
         "damage": "{note} · {toFixed} dégâts",
         "yard_brick_pick": "{word} : {note} brique, force {strength} (appuyez sur {key} pour choisir)",
@@ -3133,10 +3131,7 @@
             "help": "répare la porte ou le donjon le plus faible"
           }
         },
-        "foe_title": "{type} : cliquez ou déposez une brique pour écraser ({hp} PV)",
         "foe_stunned": ", étourdi",
-        "catapult_title": "catapulte : hors de portée dans la distance",
-        "catapult_aiming": ", vise {section}",
         "section_title": "{section} : {integrity}/{max}",
         "section_critical": ", critique",
         "section_needs": ", nécessite des briques {requirement}",
@@ -3660,7 +3655,6 @@
               "fighting": {
                 "label": "combattre",
                 "group": "combattre",
-                "summary": "lâchez des briques sur les attaquants pour les écraser et infliger des dégâts.",
                 "highlights": [
                   "cliquez sur un attaquant puis lâchez une brique dessus",
                   "les briques plus fortes infligent plus de dégâts"
@@ -3680,8 +3674,7 @@
                     "summary": "frappent les sections de près. se fatiguent après un nombre défini de coups."
                   },
                   "catapult": {
-                    "label": "catapulte",
-                    "summary": "lancent des rochers de loin selon un arc parabolique. hors de portée de lâcher."
+                    "label": "catapulte"
                   },
                   "drops": {
                     "label": "lâchers de brique",

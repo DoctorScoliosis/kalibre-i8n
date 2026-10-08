@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 4,
-    "version": "2026-10-04",
-    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
+    "revision": 5,
+    "version": "2026-10-08",
+    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
   },
   "strings": {
     "about": {
@@ -3112,8 +3112,6 @@
         "stockpile": "scorta",
         "click_a_brick_to_carry": "fai clic su un mattone per prenderlo · spazio posa · maiusc+invio lascia cadere · 1–9 scegli",
         "bricks": "{length} mattoni · {toFixed}",
-        "the_dropped_shift_to_use": "{from} ha lasciato {label} · maiusc+{slot} per usarlo",
-        "the_dropped_but_storage_is": "{from} ha lasciato {label}, ma la scorta è piena",
         "brick_stacked": "{word} · mattone {note} {toFixed} · impilato{repeatNote}",
         "damage": "{note} · {toFixed} danni",
         "yard_brick_pick": "{word}: mattone {note}, forza {strength} (premi {key} per prenderlo)",
@@ -3142,10 +3140,7 @@
             "help": "ripara il cancello o il mastio più debole"
           }
         },
-        "foe_title": "{type}: fai clic o lascia cadere un mattone per schiacciarlo ({hp} HP)",
         "foe_stunned": ", stordito",
-        "catapult_title": "catapulta: troppo lontana per essere raggiunta",
-        "catapult_aiming": ", mira alla {section}",
         "section_title": "{section}: {integrity}/{max}",
         "section_critical": ", critico",
         "section_needs": ", servono mattoni che {requirement}",
@@ -3680,7 +3675,6 @@
               "fighting": {
                 "label": "combattere",
                 "group": "combattere",
-                "summary": "lascia cadere mattoni sui nemici per schiacciarli, oppure usa la catapulta per colpirli da lontano.",
                 "highlights": [
                   "maiusc+invio lascia cadere un mattone sull'attaccante bersagliato",
                   "i bruti sfondano, i guastatori rosicchiano, le catapulte lanciano massi da lontano"
@@ -3700,8 +3694,7 @@
                     "summary": "danneggia le sezioni. si sposta tra i bersagli."
                   },
                   "catapult": {
-                    "label": "catapulta",
-                    "summary": "scaglia massi da lontano lungo un arco parabolico. fuori dalla portata dei lanci."
+                    "label": "catapulta"
                   },
                   "stun": {
                     "label": "stordimento",

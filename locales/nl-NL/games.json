@@ -42,8 +42,6 @@
     "stockpile": "voorraad",
     "click_a_brick_to_carry": "klik op een steen om hem te dragen · spatie legt neer · shift+enter laat vallen · 1–9 kiezen",
     "bricks": "{length} stenen · {toFixed}",
-    "the_dropped_shift_to_use": "{from} liet {label} vallen · shift+{slot} om te gebruiken",
-    "the_dropped_but_storage_is": "{from} liet {label} vallen, maar de opslag is vol",
     "brick_stacked": "{word} · {note}-steen {toFixed} · gestapeld{repeatNote}",
     "damage": "{note} · {toFixed} schade",
     "yard_brick_pick": "{word}: {note}-steen, sterkte {strength} (druk op {key} om te kiezen)",
@@ -72,10 +70,7 @@
         "help": "herstelt de zwakste poort of keep"
       }
     },
-    "foe_title": "{type}: klik of laat een steen vallen om te verpletteren ({hp} HP)",
     "foe_stunned": ", verdoofd",
-    "catapult_title": "katapult: buiten bereik in de verte",
-    "catapult_aiming": ", gericht op de {section}",
     "section_title": "{section}: {integrity}/{max}",
     "section_critical": ", kritiek",
     "section_needs": ", heeft stenen nodig die {requirement}",
@@ -619,7 +614,6 @@
           "fighting": {
             "label": "fighting",
             "group": "fighting",
-            "summary": "drop bricks on enemies to crush them, or use the catapult to hit them from afar.",
             "highlights": [
               "shift+enter drops a brick on the targeted attacker",
               "brutes ram, sappers chip, catapults lob boulders from a distance"
@@ -639,8 +633,7 @@
                 "summary": "chips at sections. wanders between targets."
               },
               "catapult": {
-                "label": "catapult",
-                "summary": "hurls boulders from afar along a parabolic arc. out of drop range."
+                "label": "catapult"
               },
               "stun": {
                 "label": "stun",

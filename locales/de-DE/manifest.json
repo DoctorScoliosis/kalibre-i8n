@@ -16,9 +16,9 @@
     "sans-serif"
   ],
   "reviewed": "machine",
-  "revision": 3,
-  "version": "2026-10-04",
-  "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A",
+  "revision": 4,
+  "version": "2026-10-08",
+  "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
   "files": {
     "about.json": "178280fbd89ab2a7447ea3c3a8cf77089ddabdc695ac515a15ad8f90391093d0",
     "achievements.json": "401e6c48ea2997a263388867628491c290891588b0514a02285b48c1d8871b1f",
@@ -33,7 +33,7 @@
     "data.json": "e58d5f58739e40c42bef10603e7953fc8a6bad64c6c916d3fedb0448b80bea58",
     "datasets.json": "70c8801d950f8d589585ce3faa3e488b440b5eef332b6f50185baa57e9bc1281",
     "drills.json": "0bb8d5a6ce69d7b1a346628950786af82d6fbb7bb121c146bd39ed90363779cf",
-    "games.json": "5b662a5b642e8b60009d5da79cab011346e70619e0619385d00bb48262a1f39a",
+    "games.json": "eff9dd49d5bc95081fc4a6ab1a04fabf0d5e1723ca1436f98b9b8896e50fd8cd",
     "learn.json": "ccf9088d5b602a9cc3317a012fd6301c4b522dc7ce67a2f538d5e6676e8aff8a",
     "mistakes.json": "9e76ddf913a41d0e86df075a12970a5a71fcc638938e89d2ef44502d07fad326",
     "profiles.json": "14703ed28d1fe1be52326f95963cd8b411a0e491fbb52b4d301e9c2a74683dd8",

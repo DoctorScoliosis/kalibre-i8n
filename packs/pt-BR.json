@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 4,
-    "version": "2026-10-04",
-    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
+    "revision": 5,
+    "version": "2026-10-08",
+    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
   },
   "strings": {
     "about": {
@@ -3112,8 +3112,6 @@
         "stockpile": "estoque",
         "click_a_brick_to_carry": "clique em um tijolo para carregá-lo · espaço coloca · shift+enter solta · 1–9 escolhem",
         "bricks": "{length} tijolos · {toFixed}",
-        "the_dropped_shift_to_use": "{from} soltou {label} · shift+{slot} para usar",
-        "the_dropped_but_storage_is": "{from} soltou {label}, mas o estoque está cheio",
         "brick_stacked": "{word} · tijolo {note} {toFixed} · empilhado{repeatNote}",
         "damage": "{note} · {toFixed} de dano",
         "yard_brick_pick": "{word}: tijolo {note}, força {strength} (pressione {key} para pegar)",
@@ -3142,10 +3140,7 @@
             "help": "repara o portão ou torre de menagem mais fracos"
           }
         },
-        "foe_title": "{type}: clique ou solte um tijolo para esmagar ({hp} HP)",
         "foe_stunned": ", atordoado",
-        "catapult_title": "catapulta: fora de alcance ao longe",
-        "catapult_aiming": ", mirando em {section}",
         "section_title": "{section}: {integrity}/{max}",
         "section_critical": ", crítico",
         "section_needs": ", precisa de tijolos que {requirement}",
@@ -3680,7 +3675,6 @@
               "fighting": {
                 "label": "lutando",
                 "group": "lutando",
-                "summary": "solte tijolos sobre os inimigos para esmagá-los ou use a catapulta para acertá-los de longe.",
                 "highlights": [
                   "shift+enter solta um tijolo sobre o atacante mirado",
                   "brutamontes investem, sapadores desgastam, catapultas lançam pedras à distância"
@@ -3700,8 +3694,7 @@
                     "summary": "desgasta as seções. vagueia entre alvos."
                   },
                   "catapult": {
-                    "label": "catapulta",
-                    "summary": "arremessa pedras de longe em um arco parabólico. fora do alcance de queda."
+                    "label": "catapulta"
                   },
                   "stun": {
                     "label": "atordoamento",

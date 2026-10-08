@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 4,
-    "version": "2026-10-04",
-    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
+    "revision": 5,
+    "version": "2026-10-08",
+    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
   },
   "strings": {
     "about": {
@@ -3112,8 +3112,6 @@
         "stockpile": "reserva",
         "click_a_brick_to_carry": "haz clic en un ladrillo para cogerlo · espacio lo coloca · mayús+intro lo lanza · 1–9 para elegir",
         "bricks": "{length} ladrillos · {toFixed}",
-        "the_dropped_shift_to_use": "el {from} ha soltado {label} · mayús+{slot} para usarlo",
-        "the_dropped_but_storage_is": "el {from} ha soltado {label}, pero la reserva está llena",
         "brick_stacked": "{word} · ladrillo {note} {toFixed} · acumulado{repeatNote}",
         "damage": "{note} · {toFixed} de daño",
         "yard_brick_pick": "{word}: ladrillo {note}, fuerza {strength} (pulsa {key} para cogerlo)",
@@ -3142,10 +3140,7 @@
             "help": "repara la puerta o el torreón más débil"
           }
         },
-        "foe_title": "{type}: haz clic o suelta un ladrillo para aplastarlo ({hp} PS)",
         "foe_stunned": ", aturdido",
-        "catapult_title": "catapulta: fuera de alcance, a lo lejos",
-        "catapult_aiming": ", apuntando a {section}",
         "section_title": "{section}: {integrity}/{max}",
         "section_critical": ", crítico",
         "section_needs": ", necesita ladrillos que {requirement}",
@@ -3680,7 +3675,6 @@
               "fighting": {
                 "label": "combate",
                 "group": "combate",
-                "summary": "lanza ladrillos contra los enemigos para aplastarlos o usa la catapulta para golpearlos desde lejos.",
                 "highlights": [
                   "mayús+intro lanza un ladrillo contra el atacante seleccionado",
                   "los brutos embisten, los zapadores desgastan y las catapultas lanzan piedras desde lejos"
@@ -3700,8 +3694,7 @@
                     "summary": "desgasta las secciones. se mueve entre objetivos."
                   },
                   "catapult": {
-                    "label": "catapulta",
-                    "summary": "lanza piedras desde lejos siguiendo un arco parabólico. fuera del alcance de los lanzamientos."
+                    "label": "catapulta"
                   },
                   "stun": {
                     "label": "aturdir",

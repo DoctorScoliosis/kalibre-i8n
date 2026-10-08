@@ -15,7 +15,7 @@
     "sans-serif"
   ],
   "reviewed": "machine",
-  "revision": 3,
-  "version": "2026-10-04",
-  "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
+  "revision": 4,
+  "version": "2026-10-08",
+  "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
 }

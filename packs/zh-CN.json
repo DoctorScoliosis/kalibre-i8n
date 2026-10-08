@@ -14,9 +14,9 @@
       "sans-serif"
     ],
     "reviewed": "community",
-    "revision": 8,
-    "version": "2026-10-04",
-    "changes": "Synced the Spot click-to-select help and new Spot strings from Kalibre Release A"
+    "revision": 9,
+    "version": "2026-10-08",
+    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
   },
   "strings": {
     "about": {
@@ -3093,8 +3093,6 @@
         "stockpile": "储备",
         "click_a_brick_to_carry": "点击砖块搬运 · 空格放置 · Shift+回车丢弃 · 1-9 选择",
         "bricks": "{length} 块砖 · {toFixed}",
-        "the_dropped_shift_to_use": "{from} 丢弃了 {label} · Shift+{slot} 使用",
-        "the_dropped_but_storage_is": "{from} 丢弃了 {label}，但储备已满",
         "brick_stacked": "{word} · {note} 砖块 {toFixed} · 已堆叠{repeatNote}",
         "damage": "{note} · {toFixed} 伤害",
         "yard_brick_pick": "{word}：{note} 砖块，强度 {strength}（按 {key} 拾取）",
@@ -3123,10 +3121,7 @@
             "help": "修复最脆弱的城门或主堡"
           }
         },
-        "foe_title": "{type}：点击或丢弃砖块砸击（{hp} 生命值）",
         "foe_stunned": "，已眩晕",
-        "catapult_title": "投石机：在远处射程之外",
-        "catapult_aiming": "，正瞄准 {section}",
         "section_title": "{section}：{integrity}/{max}",
         "section_critical": "，危险",
         "section_needs": "，需要满足 {requirement} 的砖块",
@@ -3614,7 +3609,6 @@
               "fighting": {
                 "label": "战斗",
                 "group": "战斗",
-                "summary": "将砖块丢在敌人身上砸碎它们，或使用投石机从远处攻击它们。",
                 "highlights": [
                   "Shift+回车 将砖块丢在目标攻击者身上",
                   "暴徒撞击，工兵凿击，投石机从远处投掷巨石"
@@ -3634,8 +3628,7 @@
                     "summary": "凿击部分。在目标之间游荡。"
                   },
                   "catapult": {
-                    "label": "投石机",
-                    "summary": "从远处沿抛物线弧线投掷巨石。超出丢砖范围。"
+                    "label": "投石机"
                   },
                   "stun": {
                     "label": "眩晕",
