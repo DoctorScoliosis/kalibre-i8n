@@ -116,10 +116,13 @@
       "side": {
         "left": "left",
         "right": "right"
-      }
+      },
+      "damage": "damage dealt {damage}",
+      "elite_meter": "damage dealt to the mothership"
     },
     "summary": {
-      "bosses": "bosses down"
+      "bosses": "bosses down",
+      "boss_damage": "mothership damage"
     }
   },
   "spot": {
@@ -875,6 +878,17 @@
                 "label": "2 min"
               }
             }
+          },
+          "variant": {
+            "label": "run",
+            "choices": {
+              "standard": {
+                "label": "standard"
+              },
+              "elite": {
+                "label": "elite"
+              }
+            }
           }
         },
         "contexts": {
@@ -1162,7 +1176,9 @@
             "highlights": [
               "the mothership only takes words that meet its current requirement, and the requirement changes every few seconds",
               "its two gatlings take any word: destroy one and half of the bullets stop for good",
-              "a timed run ends in a final mothership: defeat it to win, and once it arrives there is no time limit"
+              "a timed run ends in a final mothership: defeat it to win, and once it arrives there is no time limit",
+              "an elite run has no winning move against the mothership: it cannot be brought down, so the damage you deal is your score",
+              "a destroyed gatling is rebuilt after a quiet spell, and the rebuild is shown before it returns"
             ],
             "details": [
               "in an endless run a mothership arrives after every so many waves of ordinary play, and returns the run to normal when it falls. each one is a little tougher than the last.",
@@ -1171,7 +1187,10 @@
               "gatling bullets carry no letters and cannot be shot down: steer out of the way. a shield absorbs a whole burst as one hit.",
               "dogfighters weave across the field and sidestep your shots, but not explosions. they never ram, and they have no requirement.",
               "the word bomb hurts the mothership and its gatlings only a little, but clears missiles and bullets and destroys dogfighters. an accumulator payload ignores the requirement. an overload never touches the mothership.",
-              "while the mothership is here only asteroids arrive on their own. rescue ships keep coming."
+              "while the mothership is here only asteroids arrive on their own. rescue ships keep coming.",
+              "an elite run starts with the mothership already here and lasts the same length on every difficulty. holding out until the time is up completes it.",
+              "the meter beside your ship counts damage dealt, not health left, and never reaches full.",
+              "a destroyed gatling stays quiet for a while, then shows an outline and a ring filling for fifteen seconds before it fires again. harder settings rebuild sooner and send more ships."
             ],
             "mechanics": {
               "mothership": {
@@ -1193,6 +1212,14 @@
               "milestones": {
                 "label": "milestones",
                 "summary": "endless runs meet a mothership every few waves; timed runs end with one."
+              },
+              "elite": {
+                "label": "elite run",
+                "summary": "the mothership cannot be brought down. survive until time is up; damage dealt is your score."
+              },
+              "regeneration": {
+                "label": "gatling rebuild",
+                "summary": "a destroyed gatling is rebuilt after a quiet spell, with a visible countdown."
               }
             },
             "visuals": {
@@ -1201,6 +1228,9 @@
               },
               "boss-gatling": {
                 "label": "gatling burst"
+              },
+              "elite-meter": {
+                "label": "damage dealt meter"
               }
             },
             "subDemos": {
@@ -1209,6 +1239,9 @@
               },
               "i1": {
                 "label": "gatlings"
+              },
+              "i2": {
+                "label": "elite run"
               }
             }
           }
@@ -1786,7 +1819,10 @@
       "boss_requirement": "the mothership now wants {requirement}",
       "boss_gatling_down": "{side} gatling down",
       "boss_defeated": "the mothership is down",
-      "dogfighter_down": "dogfighter down"
+      "dogfighter_down": "dogfighter down",
+      "boss_gatling_rebuilding": "{side} gatling rebuilding",
+      "boss_gatling_back": "{side} gatling is back",
+      "boss_survived": "time is up: you held out against the mothership"
     },
     "powerup_help": {
       "double": "each shot fires twice",
