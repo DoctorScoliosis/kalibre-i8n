@@ -665,5 +665,9 @@
   "giant-killer": {
     "name": "giant killer",
     "says": "bring down a giant in Castle"
+  },
+  "reinforcements": {
+    "name": "reinforcements",
+    "says": "send out 100 soldiers in Castle, all told"
   }
 }
