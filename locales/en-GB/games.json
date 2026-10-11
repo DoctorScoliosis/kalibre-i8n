@@ -82,7 +82,8 @@
       "catapult": "catapult",
       "operator": "operator",
       "anarchist": "anarchist",
-      "giant": "giant"
+      "giant": "giant",
+      "soldier": "soldier"
     },
     "sections": {
       "west-tower": "west tower",
@@ -118,7 +119,8 @@
       "damage_taken": "damage taken",
       "sections_lost": "sections lost",
       "catapults_destroyed": "catapults destroyed",
-      "fires_out": "fires out"
+      "fires_out": "fires out",
+      "soldiers_sent": "soldiers sent"
     },
     "titles": {
       "foe": {
@@ -164,6 +166,16 @@
       "title": "bucket: {water}/{capacity} water · click it, then a fire (or press 0, then space)",
       "title_armed": "bucket ready: click a fire, or press space on one (esc puts it down)",
       "level": "{water}/{capacity}"
+    },
+    "garrison": {
+      "cooldown": "{seconds}s until it is ready",
+      "ready": "ready to send soldiers",
+      "next_size": "next: {count, plural, one {# soldier} other {# soldiers}}",
+      "deployed": "{count, plural, one {# soldier out} other {# soldiers out}}",
+      "spawning": "sending soldiers: {count, plural, =0 {the last is out} one {# more to come} other {# more to come}}",
+      "cancelled": "the wave it was readying is lost with it",
+      "destroyed": "lost: no soldiers until it is built up again",
+      "friendly_fire_on": "friendly fire on"
     }
   },
   "space": {
@@ -1080,6 +1092,51 @@
               },
               "water-bucket": {
                 "label": "water bucket"
+              }
+            }
+          },
+          "defence": {
+            "label": "defence",
+            "group": "defence",
+            "summary": "your two bases send soldiers by themselves while a wave is on. they fight the nearest attacker and draw its blows away from the walls.",
+            "highlights": [
+              "each base fills a ring, and shows how many soldiers its next wave holds",
+              "nothing to press: a ready base sends its soldiers when an enemy wave is on"
+            ],
+            "details": [
+              "the two bases are the foundations behind the gate. each one counts down, is ready, then sends a wave of soldiers once an enemy wave is on. every wave is bigger than the last, up to a limit, and the wait between waves grows.",
+              "soldiers walk to the nearest brute, sapper or anarchist and fight it. a brute or sapper that is fighting a soldier strikes the soldier instead of the wall, and an anarchist stops what it was doing. a giant is never drawn off: it keeps ramming, and its stomp hurts the soldiers beside it.",
+              "a base lost while it counts down never sends that wave. a base lost while it is sending finishes the wave it began. build a lost base up again and its countdown starts afresh.",
+              "on hard, bricks you drop on an attacker also hurt the soldiers standing beside it. soldiers go home when the enemy retreats."
+            ],
+            "mechanics": {
+              "bases": {
+                "label": "bases",
+                "summary": "the foundations. a ring fills as one counts down, a pip shows each soldier in its next wave, and a tick shows it is ready."
+              },
+              "soldiers": {
+                "label": "soldiers",
+                "summary": "small helmets that fight the nearest attacker. they cannot be aimed at, and they go home when the enemy retreats."
+              },
+              "friendly_fire": {
+                "label": "friendly fire",
+                "summary": "hard only: dropped bricks hurt soldiers standing beside the attacker they fall on."
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "soldiers"
+              },
+              "i1": {
+                "label": "a lost base"
+              }
+            },
+            "visuals": {
+              "base-ring": {
+                "label": "base and its ring"
+              },
+              "soldier-helmet": {
+                "label": "soldier"
               }
             }
           }
@@ -2130,7 +2187,8 @@
       "repair_failed": "the repair crew is down: the rubble stays",
       "dynamite_placed": "dynamite planted at the {section}",
       "fire_started": "fire at the {section}",
-      "critical_danger": "the {section} is in danger"
+      "critical_danger": "the {section} is in danger",
+      "base_ready": "the {section} is ready to send soldiers"
     },
     "dynamite_disarmed": "dynamite disarmed",
     "water_filled": "+{added} water · {water}/{capacity}",
