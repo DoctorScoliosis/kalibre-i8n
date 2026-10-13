@@ -27,14 +27,14 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 12,
-      "version": "2026-10-11",
+      "revision": 13,
+      "version": "2026-10-13",
       "reviewed": "native",
-      "changes": "Synced Release H Castle Defence strings from Kalibre v0.80.0.1",
+      "changes": "Synced Release I Castle Climb strings from Kalibre (kanary/castle-climb-implementation, draft PR #65; not yet released)",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "cf2d5252d6e86030b4a22c4a3076c2b2cfd5e7f4f02aa9de0b3e4114a8bd33bc",
-      "bytes": 339933
+      "sha256": "525c677e526982e1ffc2851230c900d8dd200cd811637e3a3c94addb2746a57b",
+      "bytes": 354136
     },
     {
       "id": "es-ES",

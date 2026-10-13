@@ -7,9 +7,9 @@
     "fallback": null,
     "lowercaseDates": true,
     "reviewed": "native",
-    "revision": 12,
-    "version": "2026-10-11",
-    "changes": "Synced Release H Castle Defence strings from Kalibre v0.80.0.1"
+    "revision": 13,
+    "version": "2026-10-13",
+    "changes": "Synced Release I Castle Climb strings from Kalibre (kanary/castle-climb-implementation, draft PR #65; not yet released)"
   },
   "strings": {
     "about": {
@@ -718,6 +718,18 @@
       "reinforcements": {
         "name": "reinforcements",
         "says": "send out 100 soldiers in Castle, all told"
+      },
+      "king-safe": {
+        "name": "king safe",
+        "says": "win a Castle climb"
+      },
+      "off-the-wall": {
+        "name": "off the wall",
+        "says": "push 20 ladders off the tower in Castle, all told"
+      },
+      "cut-loose": {
+        "name": "cut loose",
+        "says": "cut 20 grapples loose in Castle, all told"
       }
     },
     "cards": {
@@ -3183,7 +3195,8 @@
           "operator": "operator",
           "anarchist": "anarchist",
           "giant": "giant",
-          "soldier": "soldier"
+          "soldier": "soldier",
+          "rogue": "rogue"
         },
         "sections": {
           "west-tower": "west tower",
@@ -3220,7 +3233,15 @@
           "sections_lost": "sections lost",
           "catapults_destroyed": "catapults destroyed",
           "fires_out": "fires out",
-          "soldiers_sent": "soldiers sent"
+          "soldiers_sent": "soldiers sent",
+          "floors_held": "floors held",
+          "climbers_downed": "climbers downed",
+          "breaches": "breaches",
+          "ladders_pushed": "ladders pushed",
+          "ropes_cut": "ropes cut",
+          "defeated": "lost to",
+          "defeat_guard": "the guard fell",
+          "defeat_king": "the king got away"
         },
         "titles": {
           "foe": {
@@ -3276,6 +3297,125 @@
           "cancelled": "the wave it was readying is lost with it",
           "destroyed": "lost: no soldiers until it is built up again",
           "friendly_fire_on": "friendly fire on"
+        },
+        "climb": {
+          "the_tower": "the tower",
+          "hint": "Click to throw a brick from the window · Space drops one · Backspace pushes a ladder off or cuts a rope loose · or click the ladder or rope",
+          "king": "the king",
+          "side": {
+            "left": "left",
+            "right": "right"
+          },
+          "window_title": "{side} window, floor {floor}",
+          "window_needs": " · needs {requirement}",
+          "cursor_window": "the {side} window, floor {floor}",
+          "rogue_title": "{kit} rogue · {hp} hit points",
+          "kit": {
+            "ladder": "ladder",
+            "grapple": "grapple"
+          },
+          "limping": " · limping",
+          "ladder_title": "ladder · click to push it off the wall",
+          "rope_title": "rope · click to cut it loose",
+          "floors_held": "floors held {held}/{total}",
+          "breaches": "breaches {count}/{limit}",
+          "resolve_title": "The rogues’ resolve: while no one is inside, it wears down",
+          "interior": {
+            "label": "the tower cut open, with the ground round it: rooms, stairs, the lobby and its door, the well, the king, the guard and whoever is inside",
+            "hint": "← → walk · ↑/↓ stairs · shift sprints · first brick equips automatically · click an enemy to throw · click stockpile or press 1–9 to switch · bash tool for close range",
+            "windows_need": "the windows ask: {needs}",
+            "inside": "{count, plural, =0 {no one inside} one {# rogue inside} other {# rogues inside}}",
+            "king_title": {
+              "calm": "the king is safe",
+              "alarmed": "the king is alarmed: a rogue is inside",
+              "danger": "the king is in danger",
+              "captured": "the king has been taken: stop the carrier",
+              "dropped": "the king is down: reach him and escort him back to the throne",
+              "escorting": "the king is being escorted back to the throne",
+              "safe": "the king is secured"
+            },
+            "guard_title": "you · health {health} · breath {breath}",
+            "intruder_title": "{name} inside · room {floor} · {hp} hit points · {left} from the goal",
+            "carrying_note": " · carrying the king",
+            "variant": {
+              "rogue": "rogue",
+              "scribe": "scribe",
+              "bruiser": "bruiser",
+              "knight": "knight",
+              "arsonist": "arsonist",
+              "soaker": "soaker",
+              "runner": "runner"
+            },
+            "needs_strength": "hit {value}+",
+            "well_title": {
+              "well": "the well: with the water tool, click it to take the bucket",
+              "empty": "the well: click it with the water tool to fill your bucket",
+              "filling": "filling: stay at the well",
+              "full": "the well: your bucket is full"
+            },
+            "exit_title": "the escape line: a carrier past here has the king away",
+            "fire_title": "fire · {seconds} s left",
+            "wet_title": "wet floor · {seconds} s left",
+            "barricade_title": {
+              "building": "a barricade being built · stay beside it",
+              "intact": "a barricade · {hp} left",
+              "damaged": "a damaged barricade · {hp} left",
+              "burning": "a burning barricade · {hp} left"
+            },
+            "anchor_title": {
+              "stairs": "a place to build, in front of the stairs · {cost} bricks",
+              "landing": "a place to build, at the top of the stairs · {cost} bricks",
+              "door": "a place to build, in front of the door · {cost} bricks"
+            },
+            "loose_title": "{word} · {left} of {of} throws left · click to pick it up when you are next to it",
+            "tool": {
+              "combat": "throw",
+              "bash": "bash",
+              "water": "water",
+              "barricade": "barricade"
+            },
+            "tool_help": {
+              "combat": "click a specific enemy to throw at it, or click a point to aim manually; no nearest-enemy auto-aim",
+              "bash": "click a nearby enemy to bash with the brick; a strong hit wears it down",
+              "water": "a click at the well takes the bucket and fills it; a click on a fire pours it",
+              "barricade": "click a place to build, then confirm"
+            },
+            "tools_label": "what a click does",
+            "reload": "take a brick",
+            "reload_help": "the first available brick equips automatically; space or enter equips one when your hand is empty",
+            "rescue": "escort the king",
+            "build": "build",
+            "build_cost": "build · {cost} bricks",
+            "clear": "take it down",
+            "health": "health {value}",
+            "breath": "breath {value}",
+            "hand": "in hand: {word} · {strength} · {left} of {of} throws left",
+            "uses_left": "{left}/{of} throws left",
+            "hand_empty": "nothing in hand",
+            "bucket": {
+              "well": "bucket: at the well",
+              "empty": "bucket: empty",
+              "filling": "bucket: filling {percent}%",
+              "full": "bucket: full"
+            },
+            "where": {
+              "room": "you are in room {floor}",
+              "lobby": "you are in the lobby",
+              "outside": "you are outside",
+              "behind": "you are behind the tower"
+            },
+            "prompt": {
+              "up": "↑ up the stairs",
+              "down": "↓ down the stairs",
+              "door_in": "↑ in through the door",
+              "line_up": "↑ climb",
+              "line_down": "↓ climb down",
+              "well": "at the well",
+              "pickup": "click a brick to pick it up",
+              "rescue": "escort the king",
+              "push": "backspace pushes or cuts"
+            }
+          }
         }
       },
       "space": {
@@ -3460,6 +3600,8 @@
         "main": "main",
         "demo_caption": "demo · hover to play",
         "play_game": "play {title}",
+        "needs_keyboard": "the climb is played with a physical keyboard: the guard is walked with the arrow keys and bricks are typed. press a key on a keyboard to unlock it",
+        "needs_keyboard_note": "the climb needs a physical keyboard. press any key on one to unlock it",
         "all_games": "all games",
         "demo_aria": "{title}: {label} demo",
         "no_passages": "No passages to proofread. Enable a dataset in texts → datasets.",
@@ -3827,6 +3969,17 @@
                 "choices": {
                   "endless": {
                     "label": "endless"
+                  }
+                }
+              },
+              "variant": {
+                "label": "version",
+                "choices": {
+                  "siege": {
+                    "label": "the siege"
+                  },
+                  "climb": {
+                    "label": "the climb"
                   }
                 }
               }
@@ -4237,6 +4390,68 @@
                   },
                   "soldier-helmet": {
                     "label": "soldier"
+                  }
+                }
+              },
+              "climb": {
+                "label": "the climb",
+                "group": "the climb",
+                "summary": "rogues raise ladders and throw grapples at the tower, and the ones who get in go up its stairs for the king. walk the rooms and the ground yourself, aim every brick, and keep the king safe at the top.",
+                "highlights": [
+                  "the tower is cut open: watch a rogue come in at a window, cross the room and take the stairs for the king, and go after the one who carries him off",
+                  "you walk it yourself: up the stairs, out through the door, to the well for water. every brick is aimed with the pointer and can be picked up again"
+                ],
+                "details": [
+                  "the tower has a few rooms, one above the other, a lobby below them with a door to the ground, and the king on his throne in the room at the top. a rogue who climbs to a window and gets in walks across the room to the foot of the stairs and up them. the first to reach the top of the stairs out of the lowest room still standing takes that room for good, and the rogues start again from the windows of the one above. you go where you choose: nothing a rogue does moves you.",
+                  "a rogue who reaches the king picks him up and carries him back down the stairs and out of the door. stop it with bricks: when it falls it drops him where it fell, and you must reach him to secure him. if it gets him past the line outside, or you are brought down, the run is lost.",
+                  "bricks are thrown by hand: space or enter takes one, a click throws it where the pointer is, and a brick that has landed can be picked up again until it wears out. scribes want a word of a certain length, bruisers a heavy hit, knights both; arsonists and soakers set a floor alight or make it wet, and a runner on a wet floor slips. fetch water from the well to put a fire out, and build a barricade from the stockpile to hold a stair."
+                ],
+                "mechanics": {
+                  "floors": {
+                    "label": "floors",
+                    "summary": "the lowest room standing is the one the rogues climb to. one that gets to the top of its stairs takes it for good, and the fight moves up a room; you stay where you are."
+                  },
+                  "ladders": {
+                    "label": "ladders",
+                    "summary": "built at the foot of the tower, then raised. push one off the wall (or click it) and its climber falls and the rogues must build again."
+                  },
+                  "grapples": {
+                    "label": "grapples",
+                    "summary": "a hook thrown up to the sill. cut the rope loose (or click it) and its climber falls; the rogue fetches the hook and throws again."
+                  },
+                  "impacts": {
+                    "label": "impacts",
+                    "summary": "a brick hits as hard as its word and its speed, more on the head than on the legs. a brick that misses is lost."
+                  }
+                },
+                "controls": {
+                  "i0": {
+                    "action": "walk (shift sprints); up and down take the stairs, the door and ladders at a landing"
+                  },
+                  "i1": {
+                    "action": "space or enter takes a brick; click throws it where the pointer is"
+                  },
+                  "i2": {
+                    "action": "backspace pushes a ladder off or cuts a rope loose at a window you are beside"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "pushing ladders"
+                  },
+                  "i1": {
+                    "label": "cutting ropes"
+                  },
+                  "i2": {
+                    "label": "a floor falls"
+                  }
+                },
+                "visuals": {
+                  "climb-tower": {
+                    "label": "the tower"
+                  },
+                  "climb-rogue": {
+                    "label": "a rogue"
                   }
                 }
               }
@@ -5231,6 +5446,7 @@
         "already_solid": "already solid",
         "wrong_kind_of_brick": "wrong kind of brick",
         "nobody_to_drop_it_on": "nobody to drop it on",
+        "bash_no_target": "no enemy close enough to bash",
         "two_are_running_already": "two are running already",
         "nothing_stored_there": "nothing stored there",
         "crushed": {
@@ -5239,7 +5455,8 @@
           "catapult": "smashed a catapult",
           "operator": "brought down an operator",
           "anarchist": "crushed an anarchist",
-          "giant": "brought down a giant"
+          "giant": "brought down a giant",
+          "rogue": "brought down a rogue"
         },
         "hit": {
           "brute": "hit a brute",
@@ -5247,7 +5464,8 @@
           "catapult": "hit a catapult",
           "operator": "hit an operator",
           "anarchist": "hit an anarchist",
-          "giant": "hit a giant"
+          "giant": "hit a giant",
+          "rogue": "hit a rogue"
         },
         "hit_stunned": {
           "brute": "hit a brute · stunned",
@@ -5255,7 +5473,8 @@
           "catapult": "hit a catapult · stunned",
           "operator": "hit an operator · stunned",
           "anarchist": "hit an anarchist · stunned",
-          "giant": "hit a giant · stunned"
+          "giant": "hit a giant · stunned",
+          "rogue": "hit a rogue · stunned"
         },
         "dropped_stored": {
           "brute": "the brute dropped {label} · shift+{slot} to use",
@@ -5263,7 +5482,8 @@
           "catapult": "the catapult dropped {label} · shift+{slot} to use",
           "operator": "the operator dropped {label} · shift+{slot} to use",
           "anarchist": "the anarchist dropped {label} · shift+{slot} to use",
-          "giant": "the giant dropped {label} · shift+{slot} to use"
+          "giant": "the giant dropped {label} · shift+{slot} to use",
+          "rogue": "the rogue dropped {label} · shift+{slot} to use"
         },
         "dropped_full": {
           "brute": "the brute dropped {label}, but storage is full",
@@ -5271,7 +5491,8 @@
           "catapult": "the catapult dropped {label}, but storage is full",
           "operator": "the operator dropped {label}, but storage is full",
           "anarchist": "the anarchist dropped {label}, but storage is full",
-          "giant": "the giant dropped {label}, but storage is full"
+          "giant": "the giant dropped {label}, but storage is full",
+          "rogue": "the rogue dropped {label}, but storage is full"
         },
         "laid_many": "{count, plural, one {# brick} other {# bricks}}",
         "powerup_on": "on",
@@ -5288,7 +5509,15 @@
           "dynamite_placed": "dynamite planted at the {section}",
           "fire_started": "fire at the {section}",
           "critical_danger": "the {section} is in danger",
-          "base_ready": "the {section} is ready to send soldiers"
+          "base_ready": "the {section} is ready to send soldiers",
+          "breach": "a rogue is inside",
+          "floor_lost": "a floor has fallen",
+          "king_in_danger": "the king is in danger",
+          "king_captured": "the king has been taken: stop the carrier",
+          "king_dropped": "the king is down: reach him",
+          "king_escorting": "you have the king: escort him back to the throne",
+          "king_safe": "the king is secured",
+          "blaze": "fire in room {floor}"
         },
         "dynamite_disarmed": "dynamite disarmed",
         "water_filled": "+{added} water · {water}/{capacity}",
@@ -5296,7 +5525,43 @@
         "not_enough_water": "the bucket needs {cost} water to pour",
         "nothing_burning": "nothing burning there",
         "water_poured": "fire put out",
-        "bucket_armed": "bucket ready · space pours on a burning section"
+        "bucket_armed": "bucket ready · space pours on a burning section",
+        "ladder_pushed": "ladder pushed off the wall",
+        "ladder_broken": "ladder smashed",
+        "grapple_cut": "grapple cut loose",
+        "knocked_down": "knocked off",
+        "brick_missed": "missed",
+        "out_of_reach": "out of reach",
+        "nothing_to_push": "nothing to push off or cut loose here",
+        "resisted": "resisted: its word or your strength was not enough",
+        "reloaded": "a brick in hand",
+        "already_holding": "already holding a brick",
+        "empty_handed": "nothing in hand: space or enter takes a brick",
+        "cannot_throw_now": "not now",
+        "picked_up": "picked up",
+        "nothing_to_pick_up": "no brick there",
+        "too_far": "too far: walk closer",
+        "no_stairs_here": "no stairs, door or ladder here",
+        "fell_from_line": "fell from the line",
+        "slipped": "slipped on the wet floor",
+        "no_bucket": "fetch the bucket from the well first",
+        "bucket_taken": "bucket taken: click the well again to fill it",
+        "bucket_empty": "the bucket is empty: fill it at the well",
+        "bucket_full": "the bucket is full",
+        "bucket_filled": "bucket full: carry it to the fire",
+        "filling": "filling: stay at the well",
+        "filling_stopped": "filling stopped: the water is lost",
+        "doused": "fire put out",
+        "nothing_to_pour_on": "nothing burning there",
+        "no_anchor_there": "no place to build there",
+        "barricade_started": "building: stay beside it",
+        "barricade_built": "barricade built",
+        "barricade_broken": "a barricade broke",
+        "barricade_cleared": "barricade taken down",
+        "not_enough_bricks": "not enough bricks in the stockpile",
+        "king_escorting": "escorting the king back to the throne",
+        "king_secured": "the king is secured",
+        "king_needs_no_help": "the king needs no help"
       }
     },
     "learn": {

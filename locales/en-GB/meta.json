@@ -6,7 +6,7 @@
   "fallback": null,
   "lowercaseDates": true,
   "reviewed": "native",
-  "revision": 12,
-  "version": "2026-10-11",
-  "changes": "Synced Release H Castle Defence strings from Kalibre v0.80.0.1"
+  "revision": 13,
+  "version": "2026-10-13",
+  "changes": "Synced Release I Castle Climb strings from Kalibre (kanary/castle-climb-implementation, draft PR #65; not yet released)"
 }
