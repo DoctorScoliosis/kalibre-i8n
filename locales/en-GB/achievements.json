@@ -669,5 +669,17 @@
   "reinforcements": {
     "name": "reinforcements",
     "says": "send out 100 soldiers in Castle, all told"
+  },
+  "king-safe": {
+    "name": "king safe",
+    "says": "win a Castle climb"
+  },
+  "off-the-wall": {
+    "name": "off the wall",
+    "says": "push 20 ladders off the tower in Castle, all told"
+  },
+  "cut-loose": {
+    "name": "cut loose",
+    "says": "cut 20 grapples loose in Castle, all told"
   }
 }
