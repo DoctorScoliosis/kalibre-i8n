@@ -6,6 +6,7 @@ import { flattenLocale } from "./integrity.mjs";
 const sha256 = (content) => crypto.createHash("sha256").update(content).digest("hex");
 
 // Read only message files. flattenLocale handles nested objects, arrays, and translator-only _notes.
+// Coverage measures non-empty message-key presence, not wording quality or native-speaker review.
 function readContentStrings(dir) {
   const files = fs.readdirSync(dir)
     .filter((file) => file.endsWith(".json") && file !== "meta.json" && file !== "manifest.json")
