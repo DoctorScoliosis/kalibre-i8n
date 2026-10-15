@@ -18,14 +18,19 @@ function loadJson(file) {
 }
 
 function leafKeys(value, prefix = "", out = new Set()) {
-  if (!value || typeof value !== "object") {
-    if (typeof value === "string" && prefix) out.add(prefix);
+  if (typeof value === "string") {
+    if (prefix && value.trim().length > 0) out.add(prefix);
     return out;
   }
+  if (Array.isArray(value)) {
+    value.forEach((child, index) => leafKeys(child, prefix ? `${prefix}.${index}` : String(index), out));
+    return out;
+  }
+  if (!value || typeof value !== "object") return out;
   for (const [key, child] of Object.entries(value)) {
+    if (key === "_notes") continue;
     const next = prefix ? `${prefix}.${key}` : key;
-    if (typeof child === "string") out.add(next);
-    else if (child && typeof child === "object" && !Array.isArray(child)) leafKeys(child, next, out);
+    leafKeys(child, next, out);
   }
   return out;
 }
