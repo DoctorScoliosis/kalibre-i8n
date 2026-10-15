@@ -7,9 +7,9 @@
     "fallback": null,
     "lowercaseDates": true,
     "reviewed": "native",
-    "revision": 13,
-    "version": "2026-10-13",
-    "changes": "Synced Release I Castle Climb strings from Kalibre (kanary/castle-climb-implementation, draft PR #65; not yet released)"
+    "revision": 14,
+    "version": "2026-10-15",
+    "changes": "Synced Kalibre common accessibility strings and added the translation progress label"
   },
   "strings": {
     "about": {
@@ -1554,10 +1554,12 @@
       "modal": {
         "language_reload_title": "change language?",
         "language_reload_body": "kalibre reloads to change language. save anything you're working on first: a test in progress, a text you're writing or theme edits that aren't saved will be lost.",
-        "close_named": "close {title}"
+        "close_named": "close {title}",
+        "headerless_accessible_name_required": "Headerless modals require an accessible name."
       },
       "translation": {
-        "not_checked_yet": "(not checked by a native speaker yet)"
+        "not_checked_yet": "(not checked by a native speaker yet)",
+        "progress": "translation progress: {percent}%"
       },
       "colour_picker": {
         "saturation_and_brightness": "saturation and brightness",
