@@ -363,6 +363,7 @@
     "repairing": "{title} · fix it in place (← → move) and press enter",
     "repairing_retry": " · one more try",
     "repairing_cancel": " · esc to cancel",
+    "editing_word": "editing word · press enter to confirm · esc to cancel",
     "find_mistake": "find a mistake: click a word or use the arrows, then press enter",
     "paused_fix": "{title} · press enter to carry on fixing it, or click where to start"
   },
@@ -506,6 +507,7 @@
     "heading": "{title} results",
     "status_failed": "game over",
     "status_aborted": "ended early",
+    "abandoned_completion_note": "ended early · does not count towards completion achievements",
     "status_done": "done",
     "play_again": "play again",
     "change_setup": "change setup",
@@ -576,7 +578,9 @@
     "mechanic_visuals": "mechanic visuals",
     "mechanics_contexts": "mechanics contexts",
     "more": "more ▾",
-    "demonstration_variants": "demonstration variants"
+    "demonstration_variants": "demonstration variants",
+    "game_information": "game information",
+    "game_configuration": "game configuration"
   },
   "ghost_shelf": {
     "kalibre_can_t_reach_your": "kalibre can’t reach your folder: allow it in settings → data",

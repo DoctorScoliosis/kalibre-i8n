@@ -7,6 +7,8 @@
     "passages_dataset_aria": "change how many passages {name} keeps",
     "remove_dataset_aria": "remove {name}",
     "put_back_dataset_aria": "put back the original {name}",
+    "view_details_aria": "view details for {name}",
+    "details": "details",
     "update": "update",
     "update_to": "update to {version}",
     "edit": "edit",
@@ -30,6 +32,9 @@
     "downloading_progress": "downloading \"{name}\"… {done} of {total}",
     "downloaded": "{status, select, update {updated} other {downloaded}} \"{name}\". it’s switched on, and works offline now.",
     "download_failed": "couldn’t download \"{name}\": {error}",
+    "rebuilding_started": "rebuilding passages…",
+    "updating_started": "updating dataset…",
+    "removing_started": "removing dataset…",
     "licence": "licence: {licence}",
     "version_passages": "version {version} · {count, plural, one {# passage} other {# passages}}",
     "library_from": "from {name}",
@@ -42,6 +47,8 @@
     "text_of_work": "text of {title}",
     "edit_draft": "edit \"{name}\"",
     "check_before_installing": "check before installing",
+    "maximum_recalculate_label": "recalculate passages to maximum extent (no limit + flow extraction)",
+    "maximum_recalculate_hint": "Keeps every possible passage across paragraph boundaries for maximum variety. Takes more storage.",
     "add_text": "add {title}"
   },
   "dataset_cap": {
@@ -69,7 +76,8 @@
     "rebuilt_summary": "rebuilt \"{name}\": {passages}{size}, {cap}.",
     "size_suffix": ", {size}",
     "download": "download",
-    "passages": "passages"
+    "passages": "passages",
+    "maximum_preset_btn": "maximum"
   },
   "dataset_install_flow": {
     "translator_optional": "translator (optional)",
@@ -132,7 +140,25 @@
     "has_no_texts": "\"{name}\" has no texts.",
     "is_too_large": "{id}/{path} is too large.",
     "has_files_its_checksum_list": "\"{name}\" has files its checksum list doesn’t cover, so it wasn’t downloaded.",
-    "is_too_large_to_download": "\"{name}\" is too large to download."
+    "is_too_large_to_download": "\"{name}\" is too large to download.",
+    "already_added": "That library is already in the chooser.",
+    "checking_library": "Checking library…",
+    "chooser_hint": "Choose a library to browse its books and quote collections. Each library has its own dataset list.",
+    "chooser_count": "{count, plural, one {# library available} other {# libraries available}}",
+    "downloadable_count": "{count, plural, one {# dataset available to download} other {# datasets available to download}}",
+    "last_updated": "Last updated {date}",
+    "last_updated_unknown": "Last-updated date unavailable",
+    "browse_datasets": "Browse datasets",
+    "open_library": "Browse datasets in {name}",
+    "add_library_heading": "Add another library",
+    "add_library_hint": "Add a public Kalibre library by owner/repo or HTTPS address. The library's datasets will be listed separately.",
+    "search_this_library": "Search this library's datasets",
+    "no_matching_datasets": "No datasets match this search.",
+    "no_datasets_available": "This library has no datasets available.",
+    "more_results": "{count, plural, one {# more dataset; narrow your search to see it} other {# more datasets; narrow your search to see them}}",
+    "unavailable_count": "{count, plural, one {# library could not be reached} other {# libraries could not be reached}}",
+    "third_party_disclaimer": "From a third-party library; Kalibre has not checked this content.",
+    "browser_column": "dataset results column"
   },
   "datasets": {
     "where_private_files": "this browser's private file storage",
@@ -151,5 +177,47 @@
   "dataset_install": {
     "has_no_usable_prose_it": "\"{title}\" has no usable prose (it needs sentences, not just headings or lists).",
     "this_file_is_not_a": "This file is not a Kalibre dataset package."
+  },
+  "search": {
+    "placeholder": "search datasets by title, author or licence…",
+    "aria_label": "search datasets",
+    "clear": "clear",
+    "clear_aria": "clear search query",
+    "no_matches": "no datasets match \"{query}\"",
+    "matching_count": "{count, plural, one {# matching dataset} other {# matching datasets}}"
+  },
+  "sort": {
+    "label": "sort by",
+    "name": "name",
+    "passages": "passages",
+    "texts": "texts",
+    "size": "size",
+    "asc": "ascending",
+    "desc": "descending",
+    "toggle_direction": "toggle sort direction: currently {direction}"
+  },
+  "pagination": {
+    "nav_aria": "dataset pages",
+    "prev": "previous page",
+    "next": "next page",
+    "page_of": "page {current} of {total}",
+    "total_count": "({count, plural, one {# dataset} other {# datasets}})"
+  },
+  "details": {
+    "quotes_summary": "{count, plural, one {# quote} other {# quotes}} in this collection",
+    "no_books": "no books found in this dataset",
+    "table_title": "title",
+    "table_words": "words",
+    "table_passages": "passages",
+    "table_composition": "composition",
+    "total_books": "total ({count, plural, one {# book} other {# books}})",
+    "table_author": "author",
+    "composition_sort_by": "sort by size",
+    "composition_total": "total passages",
+    "composition_small": "small",
+    "composition_medium": "medium",
+    "composition_large": "large",
+    "composition_huge": "huge",
+    "composition_massive": "massive"
   }
 }

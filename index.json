@@ -17,7 +17,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4440,
-        "totalMessages": 5135
+        "totalMessages": 5444
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/de-DE/manifest.json",
@@ -35,14 +35,14 @@
       "version": "2026-10-15",
       "reviewed": "native",
       "translationProgress": {
-        "translatedMessages": 5135,
-        "totalMessages": 5135
+        "translatedMessages": 5444,
+        "totalMessages": 5444
       },
       "changes": "Synced Kalibre common accessibility strings and added the translation progress label",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "94a70fb238338bee55abf8b640dbd0c72694495a5f6f989c65fecba85b0883ea",
-      "bytes": 354253
+      "sha256": "11032ed30519f235e6cc5c76cff6b8d2d32fbbb49a70e27caf4aa7e9a8891955",
+      "bytes": 374388
     },
     {
       "id": "es-ES",
@@ -55,7 +55,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4435,
-        "totalMessages": 5135
+        "totalMessages": 5444
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/es-ES/manifest.json",
@@ -74,7 +74,7 @@
       "reviewed": "community",
       "translationProgress": {
         "translatedMessages": 4434,
-        "totalMessages": 5135
+        "totalMessages": 5444
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/fr-FR/manifest.json",
@@ -93,7 +93,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4435,
-        "totalMessages": 5135
+        "totalMessages": 5444
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/it-IT/manifest.json",
@@ -112,7 +112,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4439,
-        "totalMessages": 5135
+        "totalMessages": 5444
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/nl-NL/manifest.json",
@@ -131,7 +131,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4435,
-        "totalMessages": 5135
+        "totalMessages": 5444
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/pt-BR/manifest.json",
@@ -150,7 +150,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4440,
-        "totalMessages": 5135
+        "totalMessages": 5444
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/sv-SE/manifest.json",
@@ -169,7 +169,7 @@
       "reviewed": "community",
       "translationProgress": {
         "translatedMessages": 4402,
-        "totalMessages": 5135
+        "totalMessages": 5444
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/zh-CN/manifest.json",

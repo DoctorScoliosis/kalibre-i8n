@@ -66,6 +66,12 @@
     "drill": "drill",
     "drill_aria": "drill {mistake}",
     "drill_all": "drill my training mistakes",
+    "train_selected": "train selected",
+    "train_all": "train all",
+    "select_mistake": "select {mistake}",
+    "select_all": "select all",
+    "view_trend": "view trend for {mistake}",
+    "view_trend_title": "Inspect trend for {mistake}",
     "stop": "stop",
     "stop_aria": "stop training {mistake}",
     "export": "export ",
@@ -94,7 +100,8 @@
     "pager_aria": "mistake table pages",
     "no_qualifiers_mistakes": "No {qualifiers} mistakes{inSection, select, true { in {section}} other {}} yet.",
     "no_in_section": "No mistakes in {section} yet.",
-    "training_words_note": "{count, plural, one {# word} other {# words}} with consistent mistakes in training."
+    "training_words_note": "{count, plural, one {# word} other {# words}} with consistent mistakes in training.",
+    "selected_count": "{count, plural, one {# selected} other {# selected}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label} mistakes – click to isolate",
@@ -175,5 +182,21 @@
     "hesitation_before": "pause before {expected}",
     "hesitation": "hesitation",
     "tricky": "tricky: {expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · error rate trend",
+    "table_caption": "Test history and error rates for {mistake}",
+    "test_column_date": "date",
+    "test_column_source": "test",
+    "test_column_exposures": "typed",
+    "test_column_errors": "mistakes",
+    "test_column_rate": "error rate",
+    "point_info": "{date} · {source} · {errors} of {exposures} mistakes ({rate})",
+    "started_baseline": "started at {rate}",
+    "goal_improving": "improving ({rate})",
+    "goal_mastered": "mastered ({rate})",
+    "zoom": "zoom",
+    "no_data": "not enough test history with this mistake yet",
+    "test_source_default": "test"
   }
 }

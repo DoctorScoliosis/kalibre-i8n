@@ -175,6 +175,8 @@
         "cream": "cream",
         "rose": "rose",
         "harbour": "harbour",
+        "nordic": "nordic",
+        "copper": "copper",
         "contrast": "high contrast"
       }
     },
@@ -188,6 +190,8 @@
         "forest": "forest",
         "plum": "plum",
         "slate": "slate",
+        "cyber": "cyber",
+        "amber": "amber",
         "terminal": "terminal",
         "contrast-night": "high contrast night"
       }
@@ -208,6 +212,10 @@
         "forest": "forest",
         "plum": "plum",
         "slate": "slate",
+        "nordic": "nordic",
+        "copper": "copper",
+        "cyber": "cyber",
+        "amber": "amber",
         "terminal": "terminal",
         "contrast": "high contrast",
         "contrast-night": "high contrast night"
@@ -215,6 +223,9 @@
     },
     "customThemes": {
       "label": "your themes"
+    },
+    "customVisionProfiles": {
+      "label": "custom vision profiles"
     },
     "typingFontSize": {
       "label": "typing text size",
@@ -227,11 +238,15 @@
       "label": "typing font weight",
       "description": "how bold the typing text is",
       "option": {
-        "300": "300",
-        "400": "400",
-        "500": "500",
-        "600": "600",
-        "700": "700"
+        "100": "thin",
+        "200": "extra light",
+        "300": "light",
+        "400": "regular",
+        "500": "medium",
+        "600": "semibold",
+        "700": "bold",
+        "800": "extra bold",
+        "900": "black"
       }
     },
     "typingLineHeight": {
@@ -440,6 +455,7 @@
     },
     "language": {
       "label": "language",
+      "picker_title": "language select",
       "description": "interface language; reload after changing",
       "option": {
         "en-GB": "English (UK)",
@@ -518,6 +534,21 @@
     },
     "calArmLifts": {
       "label": "times {companion}’s arm was lifted"
+    },
+    "calPetsToSleep": {
+      "label": "times {companion} was petted to sleep"
+    },
+    "calEarlyWakes": {
+      "label": "times {companion} was awakened early"
+    },
+    "calOvernightSleep": {
+      "label": "{companion} overnight sleep progress"
+    },
+    "calOvernightDone": {
+      "label": "overnight companion sleep achievement earned"
+    },
+    "calShutdown": {
+      "label": "{companion} shutdown state"
     },
     "restartRun": {
       "label": "last start"
@@ -710,10 +741,10 @@
       "heat3": "key heat 3",
       "heat4": "key heat 4"
     },
-    "sample_correct": "quick brown ",
-    "sample_incorrect": "fxo",
-    "sample_extra": "ss",
-    "sample_dim": " jumps over",
+    "sample_correct": "hello ",
+    "sample_incorrect": "wor",
+    "sample_extra": "l",
+    "sample_dim": "d!",
     "sample_text": "text ",
     "sample_link": "link",
     "sample_selected": "selected",
@@ -745,5 +776,39 @@
   "stepper": {
     "decrease": "decrease {label}",
     "increase": "increase {label}"
+  },
+  "vision_tester": {
+    "open_tester": "test surface & custom profiles",
+    "title": "colour vision test surface",
+    "modes_heading": "vision modes & filters",
+    "current_mode": "active: {name}",
+    "previewing_mode": "previewing: {name}",
+    "apply": "apply mode",
+    "cancel": "cancel",
+    "close": "close",
+    "custom_profiles": "custom profiles",
+    "create_profile": "new custom profile",
+    "edit_profile": "edit profile",
+    "delete_profile": "delete profile",
+    "profile_name": "profile name",
+    "export": "export profile",
+    "import": "import profile",
+    "import_error": "import failed: {reason}",
+    "import_invalid_json": "Invalid JSON format",
+    "import_invalid_envelope": "Invalid format envelope",
+    "import_unsupported_version": "Unsupported profile version: {version}",
+    "imported": "imported profile \"{name}\"",
+    "sample_heading": "live semantic sample",
+    "sample_caption": "Samples reflect real typing text, errors, extra letters, chart lines, heat ramps and status indicators.",
+    "disclaimer": "Adjustments are for interface accessibility and distinction. They do not diagnose or treat vision conditions.",
+    "validation_error": "cannot save profile: {reason}",
+    "duplicate_name": "A profile named \"{name}\" already exists.",
+    "monotonic_hint": "Heat ramp must preserve strictly ordered luminance.",
+    "monochrome_hint": "Essential UI tokens must remain distinguishable.",
+    "status_ok": "healthy",
+    "status_warn": "review",
+    "status_fail": "issue",
+    "tap_to_preview": "preview",
+    "reset_to_preset": "reset"
   }
 }

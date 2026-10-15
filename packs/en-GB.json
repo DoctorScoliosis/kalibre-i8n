@@ -129,6 +129,9 @@
         "tickled": "tickle your companion {count, plural, one {# time} other {# times}}",
         "pokedTooMuch": "poke your companion eight times in quick succession",
         "armLifted": "lift the hanging arm on the about page",
+        "petsToSleep": "pet your companion back to sleep {count, plural, one {# time} other {# times}}",
+        "earlyWakes": "wake your companion shortly after they fall asleep {count, plural, one {# time} other {# times}}",
+        "overnightSleep": "let your companion sleep for {hours, plural, one {# hour} other {# hours}} overnight on the about page",
         "quickRestarts": "restart Kalibre {count, plural, one {# time} other {# times}} in quick succession, poking or tickling your companion in between",
         "racesDone": "finish {count, plural, one {# race} other {# races}}",
         "raceWins": "win a {difficulty, select, easy {easy } normal {normal } hard {hard } other {}}{mode, select, sprint {sprint } endurance {endurance } grand_prix {grand prix } other {}}race {solo, select, true {on your own} false {on your network} other {}}",
@@ -170,6 +173,9 @@
       "wpm-80": {
         "name": "swift"
       },
+      "wpm-90": {
+        "name": "ninety words"
+      },
       "wpm-100": {
         "name": "triple digits"
       },
@@ -203,6 +209,9 @@
       "words-10k": {
         "name": "ten thousand words"
       },
+      "words-50k": {
+        "name": "fifty thousand"
+      },
       "words-100k": {
         "name": "a hundred thousand words"
       },
@@ -230,6 +239,9 @@
       "sustained-10": {
         "name": "stamina"
       },
+      "sustained-15": {
+        "name": "fifteen minutes"
+      },
       "sustained-20": {
         "name": "the long haul"
       },
@@ -245,6 +257,9 @@
       "book-finished": {
         "name": "to the last page"
       },
+      "books-3": {
+        "name": "trilogy"
+      },
       "books-5": {
         "name": "never put it down"
       },
@@ -257,6 +272,9 @@
       "mastered-25": {
         "name": "mended"
       },
+      "mastered-50": {
+        "name": "fifty fixed"
+      },
       "mastered-100": {
         "name": "good as new"
       },
@@ -268,6 +286,9 @@
       },
       "drills-10": {
         "name": "drilled"
+      },
+      "drills-25": {
+        "name": "drill sergeant"
       },
       "drills-100": {
         "name": "practice makes"
@@ -675,6 +696,15 @@
       "word-bomb": {
         "name": "going nuclear"
       },
+      "sweet-dreams": {
+        "name": "sweet dreams"
+      },
+      "early-wake": {
+        "name": "already?"
+      },
+      "overnight-sleep": {
+        "name": "sound asleep"
+      },
       "achievement_badges": {
         "secret": "secret",
         "kind": "{kind}",
@@ -754,12 +784,19 @@
         "what_your_card_wears": "what your card wears",
         "colour": "{tokenLabel} colour",
         "theme_default_colour": "theme default colour",
+        "rotate_left": "turn left",
+        "rotate_right": "turn right",
+        "scale_smaller": "smaller",
+        "scale_bigger": "bigger",
         "delete_sticker": "delete sticker",
         "sticker_arrows_move_it_and": "{name} sticker: arrows move it, [ and ] turn it, delete takes it off; select it for its colour and size",
         "selected_sticker_s_colour": "selected sticker’s colour",
+        "blend_into": "blend into",
+        "showcase_achievements": "showcase achievements",
         "add_a_sticker": "add a {name} sticker",
         "a_secret_sticker": "a secret sticker",
         "a_card_shows_at_most": "a card shows {MAX_SHOWCASE} at most",
+        "a_card_holds_at_most_stickers": "a card holds {max} stickers at most",
         "remove_every_sticker": "remove every sticker",
         "nothing_to_show_off_yet": "Nothing to show off yet. Your achievements will be here as you earn them.",
         "tabs": {
@@ -1070,7 +1107,8 @@
         "usual_livery_colour": "usual livery colour",
         "livery_colour_2": "livery colour",
         "this_is_your_car_on": "This is your car on the track, and to everyone racing you. It only ever wears parts you’ve earned.",
-        "your_race_car": "your race car"
+        "your_race_car": "your race car",
+        "open_garage": "open garage"
       }
     },
     "chrome": {
@@ -1097,7 +1135,14 @@
         "older_tab": "kalibre is open in another tab, on an older version. close that tab and this one will carry on.",
         "couldnt_load": "kalibre couldn't load. check your connection, then reload.",
         "browser_too_old": "this browser is too old for kalibre. a recent Chrome, Edge, Firefox or Safari will run it.",
-        "go_back_to_previous": "go back to v{version}"
+        "go_back_to_previous": "go back to v{version}",
+        "fact_label": "did you know?",
+        "fact_category_keyboards": "keyboards",
+        "fact_category_typing": "typing",
+        "fact_category_linguistics": "linguistics",
+        "fact_category_literature": "literature",
+        "fact_category_features": "kalibre",
+        "fact_category_general": "trivia"
       },
       "footer": {
         "shortcuts": "keyboard shortcuts",
@@ -1159,7 +1204,11 @@
         "badge_in_update": "in this update",
         "badge_current": "current",
         "notes_not_yet": "the notes for this version show once it’s installed.",
-        "stays_at": "v{current} stays at {link} for a while; open a backup there to keep using it."
+        "stays_at": "v{current} stays at {link} for a while; open a backup there to keep using it.",
+        "changelog_title": "changelog",
+        "view_all_releases": "view full changelog",
+        "view_latest_only": "view latest update only",
+        "historical_releases_count": "{count} earlier {count, plural, one {release} other {releases}}"
       },
       "brand": {
         "kanary_preview_build_notice": "kanary preview build notice",
@@ -1844,6 +1893,22 @@
           "Oh hey! Cal here. Bright-eyed and keycapped.",
           "Awake! Awake. Totally awake. Hi, I’m Cal."
         ],
+        "yawn": [
+          "*yaaawn*… getting very sleepy…",
+          "*yawn* So cozy… eyes getting heavy…",
+          "*yaaaawn*… you give the best head scratches…"
+        ],
+        "earlyWake": [
+          "Already? But I just curled up…",
+          "Mmh… back awake already?",
+          "Wha—? But you just tucked me in!",
+          "Already? I barely had time to start dreaming…"
+        ],
+        "overnightSleep": [
+          "*snore*… mmh… still fast asleep… such a peaceful night…",
+          "*soft breathing*… seven hours of sweet dreams… zzz…",
+          "Zzz… what a restful night… sound asleep…"
+        ],
         "pet": [
           "Prrrr…",
           "Mmm, right there.",
@@ -1886,6 +1951,18 @@
           "Snrk… hehehe… zzz",
           "Zzz… not the… hehe… keycap… zzz"
         ],
+        "laughingFit": [
+          "Bwahaha! Overload! Buffer… overflow… shutting down…",
+          "Ahahaha! Key bounce critical! Rebooting in three, two… *thud*",
+          "Hahaha! Too many giggles! System crash! *bzzzt*",
+          "Hehehe! I can’t— hahaha— my circuits are tingling! Shutting down!"
+        ],
+        "reboot": [
+          "*chime* System restored. Let’s pretend that tickle never happened.",
+          "Beep boop! Fresh restart. Please tell me you’re done tickling.",
+          "Back online! My keys are recalibrated and strictly no-tickle zones.",
+          "Whoa. What a ride. Ready to type again whenever you are!"
+        ],
         "updateReady": [
           "Psst: v{version} is ready. The reload’s in the footer, whenever you like.",
           "Ooh, v{version} just arrived! Reload from the footer when you’re ready. No rush.",
@@ -1906,6 +1983,30 @@
           "New in my wardrobe: the {item}. Right-click me, quick!",
           "Is that a {item}? Can I? Right-click me!"
         ],
+        "newItem_hat": [
+          "A new hat: the {item}! Right-click me to try it on.",
+          "Ooh, the {item}! Hats are the best. Right-click me!"
+        ],
+        "newItem_face": [
+          "A new face style: {item}! Right-click me to try it on.",
+          "Look at these eyes! {item}! Right-click me, quick!"
+        ],
+        "newItem_necklace": [
+          "A new necklace: the {item}! Right-click me to try it on.",
+          "Ooh, the {item}! So stylish. Right-click me!"
+        ],
+        "newItem_bracelet": [
+          "A new wristband: the {item}! Right-click me to try it on.",
+          "Ooh, the {item} for my wrist! Right-click me!"
+        ],
+        "newItem_pants": [
+          "New bottoms: {item}! Right-click me to try them on.",
+          "Ooh, {item}! Brand new trousers. Right-click me!"
+        ],
+        "newItem_background": [
+          "A new background tile: {item}! Right-click me to try it on.",
+          "Ooh, the {item} background! Right-click me, quick!"
+        ],
         "newItems": [
           "Ooh, {count} new things to try on! Right-click me.",
           "{count} new things in my wardrobe! Right-click me to see."
@@ -1921,6 +2022,26 @@
         "newCardItem": [
           "New for your card: the {name}! Your profile → your card.",
           "Ooh, the {name}, for your profile card. Go on, try it!"
+        ],
+        "newCardItem_border": [
+          "A new border for your card: the {name}! Frame your style!",
+          "Ooh, the {name} border! Go on, try it on your card!"
+        ],
+        "newCardItem_frame": [
+          "A new picture frame for your card: the {name}! Show it off!",
+          "Ooh, the {name} frame! Go on, try it on your card!"
+        ],
+        "newCardItem_aura": [
+          "A new aura for your profile card: the {name}! Shine on!",
+          "Ooh, the {name} aura! Go on, try it on your card!"
+        ],
+        "newCardItem_backdrop": [
+          "A new backdrop for your card: the {name}! Check your profile.",
+          "Ooh, the {name} backdrop! Set the scene on your card!"
+        ],
+        "newCardItem_sticker": [
+          "A new sticker for your card: the {name}! Stick it on!",
+          "Ooh, a {name} sticker! Go on, decorate your card!"
         ],
         "newCardItems": [
           "{count} new things for your card! Your profile → your card.",
@@ -1939,12 +2060,32 @@
           "Good race! {winner} edged it. Want to go again?"
         ],
         "newCarPart": [
-          "Something new for your race car: the {name}! Your profile → your card → garage.",
-          "Ooh, {name} for your car. Go on, try it in the garage!"
+          "Something new for your race car: {name}! Your profile → your card → garage.",
+          "Ooh, a new look for your car: {name}! Go on, try it in the garage!"
+        ],
+        "newCarPart_body": [
+          "A new body for your race car: the {name}! Take it to the garage!",
+          "Ooh, a new car: the {name}! Take it for a spin in the garage!"
+        ],
+        "newCarPart_paint": [
+          "A new paint colour for your car: {name}! Check the garage.",
+          "Ooh, {name} paint for your car! Try it on in the garage!"
+        ],
+        "newCarPart_livery": [
+          "A new livery for your race car: {name}! Check the garage.",
+          "Ooh, a {name} livery! Go on, style it in the garage!"
+        ],
+        "newCarPart_wheels": [
+          "New wheels for your race car: {name}! Try them in the garage.",
+          "Ooh, {name} wheels! Go on, roll into the garage!"
+        ],
+        "newCarPart_trail": [
+          "A new trail for your car: {name}! Go on, try it in the garage!",
+          "Ooh, {name} for your car’s trail! Smoke ’em!"
         ],
         "newCarParts": [
-          "{count} new parts for your race car! Your profile → your card → garage.",
-          "Your car has {count} new things to try. Vroom!"
+          "{count} new customisations for your race car! Your profile → your card → garage.",
+          "Your car has {count} new looks to try. Vroom!"
         ],
         "achievement": [
           "You earned “{name}”! It’s under your profile → achievements.",
@@ -2524,6 +2665,22 @@
           "Mm, hello. I’m Libby. Nice to see you.",
           "Hi! Libby, the L key. Sorry, I dozed off."
         ],
+        "yawn": [
+          "*yawn*… my eyelids feel heavy…",
+          "*yaaaawn*… so warm and calm…",
+          "*yawn*… drifting off already…"
+        ],
+        "earlyWake": [
+          "Already? I was just falling asleep.",
+          "Hm? Awoken so soon?",
+          "Already? I had only just drifted off.",
+          "Up already? My eyes were barely closed."
+        ],
+        "overnightSleep": [
+          "*soft purr*… resting peacefully through the night…",
+          "*gentle breathing*… sound asleep all through the night…",
+          "Zzz… seven hours of undisturbed rest…"
+        ],
         "pet": [
           "Prrr…",
           "Mm, that’s nice.",
@@ -2566,6 +2723,18 @@
           "Mm… that tickles… zzz",
           "Zzz… pfft… zzz"
         ],
+        "laughingFit": [
+          "Pfft— hahahaha! Stop! System overload… going offline…",
+          "Hahaha! My composure… completely compromised… shutting down…",
+          "Ahaha! Too much! Internal buffer full… collapsing…",
+          "Hehe! No more, I beg you! Safe mode… engaging…"
+        ],
+        "reboot": [
+          "System restored. Now let us return to proper typing, shall we?",
+          "Back online. I have filed an official protest against tickling.",
+          "Diagnostics clear. Let us never speak of that collapse again.",
+          "Chime sounded, posture corrected. Ready when you are."
+        ],
         "updateReady": [
           "kalibre v{version} is ready. The reload is in the footer, whenever you like.",
           "A new version, v{version}, is waiting. Reload from the footer when it suits you.",
@@ -2586,6 +2755,30 @@
           "Something new: the {item}. Right-click me, please.",
           "I’ve had my eye on the {item}. Right-click me!"
         ],
+        "newItem_hat": [
+          "A new hat: the {item}. Right-click me to try it on.",
+          "The {item}. A lovely hat to wear."
+        ],
+        "newItem_face": [
+          "A new face style: {item}. Right-click me to try it on.",
+          "The {item}. A fresh look for my face."
+        ],
+        "newItem_necklace": [
+          "A new necklace: the {item}. Right-click me to try it on.",
+          "The {item}. It would suit me nicely."
+        ],
+        "newItem_bracelet": [
+          "A new wristband: the {item}. Right-click me to try it on.",
+          "The {item}. A lovely addition for my wrist."
+        ],
+        "newItem_pants": [
+          "New bottoms: {item}. Right-click me to try them on.",
+          "{item}. I think they would suit me."
+        ],
+        "newItem_background": [
+          "A new background tile: {item}. Right-click me to try it on.",
+          "The {item} background. It frames the space nicely."
+        ],
         "newItems": [
           "{count} new things to try on! Right-click me.",
           "{count} new things for my wardrobe! Right-click me."
@@ -2601,6 +2794,26 @@
         "newCardItem": [
           "Something new for your card: the {name}. Your profile → your card.",
           "The {name}, for your profile card. It would suit you."
+        ],
+        "newCardItem_border": [
+          "A new border for your card: the {name}. Your profile → your card.",
+          "The {name} border. It frames your card nicely."
+        ],
+        "newCardItem_frame": [
+          "A new picture frame for your card: the {name}. Your profile → your card.",
+          "The {name} frame. It would suit your portrait."
+        ],
+        "newCardItem_aura": [
+          "A new aura for your card: the {name}. Your profile → your card.",
+          "The {name} aura. It would suit your card."
+        ],
+        "newCardItem_backdrop": [
+          "A new backdrop for your card: the {name}. Your profile → your card.",
+          "The {name} backdrop. It sets off your card nicely."
+        ],
+        "newCardItem_sticker": [
+          "A new sticker for your card: the {name}. Your profile → your card.",
+          "The {name} sticker. It would look nice on your card."
         ],
         "newCardItems": [
           "{count} new things for your card. Your profile → your card.",
@@ -2619,12 +2832,32 @@
           "Good race. {winner} just had the better run."
         ],
         "newCarPart": [
-          "Something new for your race car: the {name}. Your profile → your card → garage.",
-          "The {name}, for your car. It would suit you."
+          "Something new for your race car: {name}. Your profile → your card → garage.",
+          "A new look for your car: {name}. It would suit you."
+        ],
+        "newCarPart_body": [
+          "A new car body: the {name}. Your profile → your card → garage.",
+          "The {name} body. It would suit your garage."
+        ],
+        "newCarPart_paint": [
+          "A new paint colour: {name}. Your profile → your card → garage.",
+          "The {name} paint. A fresh colour for your car."
+        ],
+        "newCarPart_livery": [
+          "A new livery: {name}. Your profile → your card → garage.",
+          "The {name} livery. A new style for your car."
+        ],
+        "newCarPart_wheels": [
+          "New wheels for your car: {name}. Your profile → your card → garage.",
+          "The {name} wheels. They would suit your car."
+        ],
+        "newCarPart_trail": [
+          "A new trail for your car: {name}. Your profile → your card → garage.",
+          "The {name} trail. It would look great behind your car."
         ],
         "newCarParts": [
-          "{count} new parts for your race car. Your profile → your card → garage.",
-          "Your car has {count} new things to try, whenever you like."
+          "{count} new customisations for your race car. Your profile → your card → garage.",
+          "Your car has {count} new looks to try, whenever you like."
         ],
         "achievement": [
           "“{name}”! It’s under your profile → achievements.",
@@ -2913,6 +3146,8 @@
         "passages_dataset_aria": "change how many passages {name} keeps",
         "remove_dataset_aria": "remove {name}",
         "put_back_dataset_aria": "put back the original {name}",
+        "view_details_aria": "view details for {name}",
+        "details": "details",
         "update": "update",
         "update_to": "update to {version}",
         "edit": "edit",
@@ -2936,6 +3171,9 @@
         "downloading_progress": "downloading \"{name}\"… {done} of {total}",
         "downloaded": "{status, select, update {updated} other {downloaded}} \"{name}\". it’s switched on, and works offline now.",
         "download_failed": "couldn’t download \"{name}\": {error}",
+        "rebuilding_started": "rebuilding passages…",
+        "updating_started": "updating dataset…",
+        "removing_started": "removing dataset…",
         "licence": "licence: {licence}",
         "version_passages": "version {version} · {count, plural, one {# passage} other {# passages}}",
         "library_from": "from {name}",
@@ -2948,6 +3186,8 @@
         "text_of_work": "text of {title}",
         "edit_draft": "edit \"{name}\"",
         "check_before_installing": "check before installing",
+        "maximum_recalculate_label": "recalculate passages to maximum extent (no limit + flow extraction)",
+        "maximum_recalculate_hint": "Keeps every possible passage across paragraph boundaries for maximum variety. Takes more storage.",
         "add_text": "add {title}"
       },
       "dataset_cap": {
@@ -2975,7 +3215,8 @@
         "rebuilt_summary": "rebuilt \"{name}\": {passages}{size}, {cap}.",
         "size_suffix": ", {size}",
         "download": "download",
-        "passages": "passages"
+        "passages": "passages",
+        "maximum_preset_btn": "maximum"
       },
       "dataset_install_flow": {
         "translator_optional": "translator (optional)",
@@ -3038,7 +3279,25 @@
         "has_no_texts": "\"{name}\" has no texts.",
         "is_too_large": "{id}/{path} is too large.",
         "has_files_its_checksum_list": "\"{name}\" has files its checksum list doesn’t cover, so it wasn’t downloaded.",
-        "is_too_large_to_download": "\"{name}\" is too large to download."
+        "is_too_large_to_download": "\"{name}\" is too large to download.",
+        "already_added": "That library is already in the chooser.",
+        "checking_library": "Checking library…",
+        "chooser_hint": "Choose a library to browse its books and quote collections. Each library has its own dataset list.",
+        "chooser_count": "{count, plural, one {# library available} other {# libraries available}}",
+        "downloadable_count": "{count, plural, one {# dataset available to download} other {# datasets available to download}}",
+        "last_updated": "Last updated {date}",
+        "last_updated_unknown": "Last-updated date unavailable",
+        "browse_datasets": "Browse datasets",
+        "open_library": "Browse datasets in {name}",
+        "add_library_heading": "Add another library",
+        "add_library_hint": "Add a public Kalibre library by owner/repo or HTTPS address. The library's datasets will be listed separately.",
+        "search_this_library": "Search this library's datasets",
+        "no_matching_datasets": "No datasets match this search.",
+        "no_datasets_available": "This library has no datasets available.",
+        "more_results": "{count, plural, one {# more dataset; narrow your search to see it} other {# more datasets; narrow your search to see them}}",
+        "unavailable_count": "{count, plural, one {# library could not be reached} other {# libraries could not be reached}}",
+        "third_party_disclaimer": "From a third-party library; Kalibre has not checked this content.",
+        "browser_column": "dataset results column"
       },
       "datasets": {
         "where_private_files": "this browser's private file storage",
@@ -3057,6 +3316,48 @@
       "dataset_install": {
         "has_no_usable_prose_it": "\"{title}\" has no usable prose (it needs sentences, not just headings or lists).",
         "this_file_is_not_a": "This file is not a Kalibre dataset package."
+      },
+      "search": {
+        "placeholder": "search datasets by title, author or licence…",
+        "aria_label": "search datasets",
+        "clear": "clear",
+        "clear_aria": "clear search query",
+        "no_matches": "no datasets match \"{query}\"",
+        "matching_count": "{count, plural, one {# matching dataset} other {# matching datasets}}"
+      },
+      "sort": {
+        "label": "sort by",
+        "name": "name",
+        "passages": "passages",
+        "texts": "texts",
+        "size": "size",
+        "asc": "ascending",
+        "desc": "descending",
+        "toggle_direction": "toggle sort direction: currently {direction}"
+      },
+      "pagination": {
+        "nav_aria": "dataset pages",
+        "prev": "previous page",
+        "next": "next page",
+        "page_of": "page {current} of {total}",
+        "total_count": "({count, plural, one {# dataset} other {# datasets}})"
+      },
+      "details": {
+        "quotes_summary": "{count, plural, one {# quote} other {# quotes}} in this collection",
+        "no_books": "no books found in this dataset",
+        "table_title": "title",
+        "table_words": "words",
+        "table_passages": "passages",
+        "table_composition": "composition",
+        "total_books": "total ({count, plural, one {# book} other {# books}})",
+        "table_author": "author",
+        "composition_sort_by": "sort by size",
+        "composition_total": "total passages",
+        "composition_small": "small",
+        "composition_medium": "medium",
+        "composition_large": "large",
+        "composition_huge": "huge",
+        "composition_massive": "massive"
       }
     },
     "drills": {
@@ -3073,6 +3374,7 @@
         "manage_in_mistakes": "manage in mistakes",
         "recommended": "recommended",
         "recommended_title": "Tick the mistakes that are worth drilling now, as many as a drill can carry",
+        "recommended_set": "recommended set",
         "all": "all",
         "none": "none",
         "train_and_drill_these": "train and drill these"
@@ -3092,6 +3394,8 @@
         "finding_quotes": "finding quotes with these mistakes…",
         "no_quotes_found": "No quote of this length has these mistakes in it. Try another length, or a words drill.",
         "quotes_with_mistakes": "quotes with these mistakes",
+        "quotes_selected": "{selected} of {total} selected",
+        "recommended_set_title": "Select the best matching quotes for these mistakes",
         "best_fit": "best fit",
         "typed_lately": "typed lately",
         "recommended_reason": "{recommended} is recommended: {reason}",
@@ -3477,6 +3781,7 @@
         "repairing": "{title} · fix it in place (← → move) and press enter",
         "repairing_retry": " · one more try",
         "repairing_cancel": " · esc to cancel",
+        "editing_word": "editing word · press enter to confirm · esc to cancel",
         "find_mistake": "find a mistake: click a word or use the arrows, then press enter",
         "paused_fix": "{title} · press enter to carry on fixing it, or click where to start"
       },
@@ -3620,6 +3925,7 @@
         "heading": "{title} results",
         "status_failed": "game over",
         "status_aborted": "ended early",
+        "abandoned_completion_note": "ended early · does not count towards completion achievements",
         "status_done": "done",
         "play_again": "play again",
         "change_setup": "change setup",
@@ -3690,7 +3996,9 @@
         "mechanic_visuals": "mechanic visuals",
         "mechanics_contexts": "mechanics contexts",
         "more": "more ▾",
-        "demonstration_variants": "demonstration variants"
+        "demonstration_variants": "demonstration variants",
+        "game_information": "game information",
+        "game_configuration": "game configuration"
       },
       "ghost_shelf": {
         "kalibre_can_t_reach_your": "kalibre can’t reach your folder: allow it in settings → data",
@@ -5692,11 +6000,35 @@
         "keys": {
           "title": "the new keys on their own"
         },
+        "pairs": {
+          "title": "key pairs and patterns"
+        },
+        "vowels": {
+          "title": "vowels and common letters"
+        },
+        "reaches": {
+          "title": "reaching from the home row"
+        },
         "mix": {
           "title": "the new keys with the rest"
         }
       },
+      "tiers": {
+        "bronze": "bronze",
+        "silver": "silver",
+        "gold": "gold",
+        "diamond": "diamond"
+      },
       "ui": {
+        "step_count": "{count, plural, one {# step} other {# steps}}",
+        "lesson_steps_badge": "{count, plural, one {# step} other {# steps}}",
+        "result_tier_achieved": "{tier} achieved: {id} {title}",
+        "tier_next_heading": "To reach {nextTier}, aim for:",
+        "tier_diamond_achieved": "★ diamond perfection: {id} {title}!",
+        "preview_step_1": "step 1",
+        "preview_step_2": "step 2",
+        "preview_all": "all",
+        "preview_keys_label": "Lesson keys preview",
         "the_steps_again": "the steps again",
         "steps_first": "{count} short steps first: the new keys in patterns, then with the keys you know. Then the test.",
         "steps_title": "The {count} short steps on the new keys, then the test",
@@ -5973,7 +6305,9 @@
       "mascot": {
         "open_wardrobe": "{name}: open {companion, select, cal {his} libby {her} other {their}} wardrobe",
         "open_s_wardrobe": "{name}: open {name2}’s wardrobe",
-        "asleep_label": "{name}, asleep: wake {companion, select, cal {him} libby {her} other {them}} up"
+        "asleep_label": "{name}, asleep: wake {companion, select, cal {him} libby {her} other {them}} up",
+        "shutdown_label": "{name}, shut down: tap to reboot {companion, select, cal {him} libby {her} other {them}}",
+        "booting_label": "{name}, booting up"
       },
       "numpad_tape": {
         "entries": "entries",
@@ -6173,6 +6507,12 @@
         "drill": "drill",
         "drill_aria": "drill {mistake}",
         "drill_all": "drill my training mistakes",
+        "train_selected": "train selected",
+        "train_all": "train all",
+        "select_mistake": "select {mistake}",
+        "select_all": "select all",
+        "view_trend": "view trend for {mistake}",
+        "view_trend_title": "Inspect trend for {mistake}",
         "stop": "stop",
         "stop_aria": "stop training {mistake}",
         "export": "export ",
@@ -6201,7 +6541,8 @@
         "pager_aria": "mistake table pages",
         "no_qualifiers_mistakes": "No {qualifiers} mistakes{inSection, select, true { in {section}} other {}} yet.",
         "no_in_section": "No mistakes in {section} yet.",
-        "training_words_note": "{count, plural, one {# word} other {# words}} with consistent mistakes in training."
+        "training_words_note": "{count, plural, one {# word} other {# words}} with consistent mistakes in training.",
+        "selected_count": "{count, plural, one {# selected} other {# selected}}"
       },
       "mistake_map": {
         "mistakes_click_to_isolate": "{label} mistakes – click to isolate",
@@ -6282,6 +6623,22 @@
         "hesitation_before": "pause before {expected}",
         "hesitation": "hesitation",
         "tricky": "tricky: {expected}"
+      },
+      "trend_detail": {
+        "trend_title": "{mistake} · error rate trend",
+        "table_caption": "Test history and error rates for {mistake}",
+        "test_column_date": "date",
+        "test_column_source": "test",
+        "test_column_exposures": "typed",
+        "test_column_errors": "mistakes",
+        "test_column_rate": "error rate",
+        "point_info": "{date} · {source} · {errors} of {exposures} mistakes ({rate})",
+        "started_baseline": "started at {rate}",
+        "goal_improving": "improving ({rate})",
+        "goal_mastered": "mastered ({rate})",
+        "zoom": "zoom",
+        "no_data": "not enough test history with this mistake yet",
+        "test_source_default": "test"
       }
     },
     "profiles": {
@@ -6435,7 +6792,16 @@
         "shrinking": "shrinking…",
         "change_picture": "change picture",
         "add_a_picture": "add a picture",
-        "optional_shrunk_to_a_small": "Optional. Shrunk to a small square and kept in this browser."
+        "optional_shrunk_to_a_small": "Optional. Shrunk to a small square and kept in this browser.",
+        "take_photo": "take a photo",
+        "capture_photo": "capture",
+        "retake_photo": "retake",
+        "use_photo": "use photo",
+        "camera_preview": "camera preview",
+        "camera_not_available": "Camera is not available in this browser.",
+        "camera_permission_denied": "Camera permission was denied.",
+        "camera_not_found": "No camera was found on this device.",
+        "camera_error": "Could not access the camera."
       },
       "profile_import": {
         "import_a_profile_file": "import a profile file",
@@ -6818,6 +7184,9 @@
         "mode_sustained": "sustained",
         "ghost_off": "no ghost",
         "ghost_wpm": "{wpm} wpm",
+        "ghost_pace_survived": "{wpm} wpm · {time} survived",
+        "ghost_accuracy_survived": "{accuracy} · {time} survived",
+        "ghost_survived": "{time} survived",
         "ghost_when": " · {date}",
         "ghost_best": "your best",
         "ghost_last": "your last run",
@@ -7134,6 +7503,8 @@
             "cream": "cream",
             "rose": "rose",
             "harbour": "harbour",
+            "nordic": "nordic",
+            "copper": "copper",
             "contrast": "high contrast"
           }
         },
@@ -7147,6 +7518,8 @@
             "forest": "forest",
             "plum": "plum",
             "slate": "slate",
+            "cyber": "cyber",
+            "amber": "amber",
             "terminal": "terminal",
             "contrast-night": "high contrast night"
           }
@@ -7167,6 +7540,10 @@
             "forest": "forest",
             "plum": "plum",
             "slate": "slate",
+            "nordic": "nordic",
+            "copper": "copper",
+            "cyber": "cyber",
+            "amber": "amber",
             "terminal": "terminal",
             "contrast": "high contrast",
             "contrast-night": "high contrast night"
@@ -7174,6 +7551,9 @@
         },
         "customThemes": {
           "label": "your themes"
+        },
+        "customVisionProfiles": {
+          "label": "custom vision profiles"
         },
         "typingFontSize": {
           "label": "typing text size",
@@ -7186,11 +7566,15 @@
           "label": "typing font weight",
           "description": "how bold the typing text is",
           "option": {
-            "300": "300",
-            "400": "400",
-            "500": "500",
-            "600": "600",
-            "700": "700"
+            "100": "thin",
+            "200": "extra light",
+            "300": "light",
+            "400": "regular",
+            "500": "medium",
+            "600": "semibold",
+            "700": "bold",
+            "800": "extra bold",
+            "900": "black"
           }
         },
         "typingLineHeight": {
@@ -7399,6 +7783,7 @@
         },
         "language": {
           "label": "language",
+          "picker_title": "language select",
           "description": "interface language; reload after changing",
           "option": {
             "en-GB": "English (UK)",
@@ -7477,6 +7862,21 @@
         },
         "calArmLifts": {
           "label": "times {companion}’s arm was lifted"
+        },
+        "calPetsToSleep": {
+          "label": "times {companion} was petted to sleep"
+        },
+        "calEarlyWakes": {
+          "label": "times {companion} was awakened early"
+        },
+        "calOvernightSleep": {
+          "label": "{companion} overnight sleep progress"
+        },
+        "calOvernightDone": {
+          "label": "overnight companion sleep achievement earned"
+        },
+        "calShutdown": {
+          "label": "{companion} shutdown state"
         },
         "restartRun": {
           "label": "last start"
@@ -7669,10 +8069,10 @@
           "heat3": "key heat 3",
           "heat4": "key heat 4"
         },
-        "sample_correct": "quick brown ",
-        "sample_incorrect": "fxo",
-        "sample_extra": "ss",
-        "sample_dim": " jumps over",
+        "sample_correct": "hello ",
+        "sample_incorrect": "wor",
+        "sample_extra": "l",
+        "sample_dim": "d!",
         "sample_text": "text ",
         "sample_link": "link",
         "sample_selected": "selected",
@@ -7704,6 +8104,40 @@
       "stepper": {
         "decrease": "decrease {label}",
         "increase": "increase {label}"
+      },
+      "vision_tester": {
+        "open_tester": "test surface & custom profiles",
+        "title": "colour vision test surface",
+        "modes_heading": "vision modes & filters",
+        "current_mode": "active: {name}",
+        "previewing_mode": "previewing: {name}",
+        "apply": "apply mode",
+        "cancel": "cancel",
+        "close": "close",
+        "custom_profiles": "custom profiles",
+        "create_profile": "new custom profile",
+        "edit_profile": "edit profile",
+        "delete_profile": "delete profile",
+        "profile_name": "profile name",
+        "export": "export profile",
+        "import": "import profile",
+        "import_error": "import failed: {reason}",
+        "import_invalid_json": "Invalid JSON format",
+        "import_invalid_envelope": "Invalid format envelope",
+        "import_unsupported_version": "Unsupported profile version: {version}",
+        "imported": "imported profile \"{name}\"",
+        "sample_heading": "live semantic sample",
+        "sample_caption": "Samples reflect real typing text, errors, extra letters, chart lines, heat ramps and status indicators.",
+        "disclaimer": "Adjustments are for interface accessibility and distinction. They do not diagnose or treat vision conditions.",
+        "validation_error": "cannot save profile: {reason}",
+        "duplicate_name": "A profile named \"{name}\" already exists.",
+        "monotonic_hint": "Heat ramp must preserve strictly ordered luminance.",
+        "monochrome_hint": "Essential UI tokens must remain distinguishable.",
+        "status_ok": "healthy",
+        "status_warn": "review",
+        "status_fail": "issue",
+        "tap_to_preview": "preview",
+        "reset_to_preset": "reset"
       }
     },
     "stats": {
@@ -7986,7 +8420,12 @@
         "deleted": "quote deleted",
         "unknown": "— unknown",
         "too_short": " · too short for tests ({min}+ characters)",
-        "empty": "Add quotes you like; they appear in quote and mixed tests. Collections such as a quotes.json file can be installed under datasets."
+        "empty": "Add quotes you like; they appear in quote and mixed tests. Collections such as a quotes.json file can be installed under datasets.",
+        "options_aria": "quote options",
+        "previous_page": "previous",
+        "next_page": "next",
+        "page_status": "page {page} of {pages}",
+        "pagination_aria": "my quotes pages"
       },
       "github_import": {
         "github_s_limit_for_downloads": "GitHub’s limit for downloads without signing in was reached. Try again in an hour.",
@@ -8182,6 +8621,18 @@
         },
         "contrast-night": {
           "name": "high contrast night"
+        },
+        "nordic": {
+          "name": "nordic"
+        },
+        "copper": {
+          "name": "copper"
+        },
+        "cyber": {
+          "name": "cyber"
+        },
+        "amber": {
+          "name": "amber"
         }
       },
       "checks": {

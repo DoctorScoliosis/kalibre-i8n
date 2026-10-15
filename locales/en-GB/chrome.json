@@ -22,7 +22,14 @@
     "older_tab": "kalibre is open in another tab, on an older version. close that tab and this one will carry on.",
     "couldnt_load": "kalibre couldn't load. check your connection, then reload.",
     "browser_too_old": "this browser is too old for kalibre. a recent Chrome, Edge, Firefox or Safari will run it.",
-    "go_back_to_previous": "go back to v{version}"
+    "go_back_to_previous": "go back to v{version}",
+    "fact_label": "did you know?",
+    "fact_category_keyboards": "keyboards",
+    "fact_category_typing": "typing",
+    "fact_category_linguistics": "linguistics",
+    "fact_category_literature": "literature",
+    "fact_category_features": "kalibre",
+    "fact_category_general": "trivia"
   },
   "footer": {
     "shortcuts": "keyboard shortcuts",
@@ -84,7 +91,11 @@
     "badge_in_update": "in this update",
     "badge_current": "current",
     "notes_not_yet": "the notes for this version show once it’s installed.",
-    "stays_at": "v{current} stays at {link} for a while; open a backup there to keep using it."
+    "stays_at": "v{current} stays at {link} for a while; open a backup there to keep using it.",
+    "changelog_title": "changelog",
+    "view_all_releases": "view full changelog",
+    "view_latest_only": "view latest update only",
+    "historical_releases_count": "{count} earlier {count, plural, one {release} other {releases}}"
   },
   "brand": {
     "kanary_preview_build_notice": "kanary preview build notice",

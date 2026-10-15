@@ -149,7 +149,16 @@
     "shrinking": "shrinking…",
     "change_picture": "change picture",
     "add_a_picture": "add a picture",
-    "optional_shrunk_to_a_small": "Optional. Shrunk to a small square and kept in this browser."
+    "optional_shrunk_to_a_small": "Optional. Shrunk to a small square and kept in this browser.",
+    "take_photo": "take a photo",
+    "capture_photo": "capture",
+    "retake_photo": "retake",
+    "use_photo": "use photo",
+    "camera_preview": "camera preview",
+    "camera_not_available": "Camera is not available in this browser.",
+    "camera_permission_denied": "Camera permission was denied.",
+    "camera_not_found": "No camera was found on this device.",
+    "camera_error": "Could not access the camera."
   },
   "profile_import": {
     "import_a_profile_file": "import a profile file",

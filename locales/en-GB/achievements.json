@@ -80,6 +80,9 @@
     "tickled": "tickle your companion {count, plural, one {# time} other {# times}}",
     "pokedTooMuch": "poke your companion eight times in quick succession",
     "armLifted": "lift the hanging arm on the about page",
+    "petsToSleep": "pet your companion back to sleep {count, plural, one {# time} other {# times}}",
+    "earlyWakes": "wake your companion shortly after they fall asleep {count, plural, one {# time} other {# times}}",
+    "overnightSleep": "let your companion sleep for {hours, plural, one {# hour} other {# hours}} overnight on the about page",
     "quickRestarts": "restart Kalibre {count, plural, one {# time} other {# times}} in quick succession, poking or tickling your companion in between",
     "racesDone": "finish {count, plural, one {# race} other {# races}}",
     "raceWins": "win a {difficulty, select, easy {easy } normal {normal } hard {hard } other {}}{mode, select, sprint {sprint } endurance {endurance } grand_prix {grand prix } other {}}race {solo, select, true {on your own} false {on your network} other {}}",
@@ -121,6 +124,9 @@
   "wpm-80": {
     "name": "swift"
   },
+  "wpm-90": {
+    "name": "ninety words"
+  },
   "wpm-100": {
     "name": "triple digits"
   },
@@ -154,6 +160,9 @@
   "words-10k": {
     "name": "ten thousand words"
   },
+  "words-50k": {
+    "name": "fifty thousand"
+  },
   "words-100k": {
     "name": "a hundred thousand words"
   },
@@ -181,6 +190,9 @@
   "sustained-10": {
     "name": "stamina"
   },
+  "sustained-15": {
+    "name": "fifteen minutes"
+  },
   "sustained-20": {
     "name": "the long haul"
   },
@@ -196,6 +208,9 @@
   "book-finished": {
     "name": "to the last page"
   },
+  "books-3": {
+    "name": "trilogy"
+  },
   "books-5": {
     "name": "never put it down"
   },
@@ -208,6 +223,9 @@
   "mastered-25": {
     "name": "mended"
   },
+  "mastered-50": {
+    "name": "fifty fixed"
+  },
   "mastered-100": {
     "name": "good as new"
   },
@@ -219,6 +237,9 @@
   },
   "drills-10": {
     "name": "drilled"
+  },
+  "drills-25": {
+    "name": "drill sergeant"
   },
   "drills-100": {
     "name": "practice makes"
@@ -625,6 +646,15 @@
   },
   "word-bomb": {
     "name": "going nuclear"
+  },
+  "sweet-dreams": {
+    "name": "sweet dreams"
+  },
+  "early-wake": {
+    "name": "already?"
+  },
+  "overnight-sleep": {
+    "name": "sound asleep"
   },
   "achievement_badges": {
     "secret": "secret",

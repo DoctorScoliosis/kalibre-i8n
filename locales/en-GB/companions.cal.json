@@ -147,6 +147,22 @@
       "Oh hey! Cal here. Bright-eyed and keycapped.",
       "Awake! Awake. Totally awake. Hi, I’m Cal."
     ],
+    "yawn": [
+      "*yaaawn*… getting very sleepy…",
+      "*yawn* So cozy… eyes getting heavy…",
+      "*yaaaawn*… you give the best head scratches…"
+    ],
+    "earlyWake": [
+      "Already? But I just curled up…",
+      "Mmh… back awake already?",
+      "Wha—? But you just tucked me in!",
+      "Already? I barely had time to start dreaming…"
+    ],
+    "overnightSleep": [
+      "*snore*… mmh… still fast asleep… such a peaceful night…",
+      "*soft breathing*… seven hours of sweet dreams… zzz…",
+      "Zzz… what a restful night… sound asleep…"
+    ],
     "pet": [
       "Prrrr…",
       "Mmm, right there.",
@@ -189,6 +205,18 @@
       "Snrk… hehehe… zzz",
       "Zzz… not the… hehe… keycap… zzz"
     ],
+    "laughingFit": [
+      "Bwahaha! Overload! Buffer… overflow… shutting down…",
+      "Ahahaha! Key bounce critical! Rebooting in three, two… *thud*",
+      "Hahaha! Too many giggles! System crash! *bzzzt*",
+      "Hehehe! I can’t— hahaha— my circuits are tingling! Shutting down!"
+    ],
+    "reboot": [
+      "*chime* System restored. Let’s pretend that tickle never happened.",
+      "Beep boop! Fresh restart. Please tell me you’re done tickling.",
+      "Back online! My keys are recalibrated and strictly no-tickle zones.",
+      "Whoa. What a ride. Ready to type again whenever you are!"
+    ],
     "updateReady": [
       "Psst: v{version} is ready. The reload’s in the footer, whenever you like.",
       "Ooh, v{version} just arrived! Reload from the footer when you’re ready. No rush.",
@@ -209,6 +237,30 @@
       "New in my wardrobe: the {item}. Right-click me, quick!",
       "Is that a {item}? Can I? Right-click me!"
     ],
+    "newItem_hat": [
+      "A new hat: the {item}! Right-click me to try it on.",
+      "Ooh, the {item}! Hats are the best. Right-click me!"
+    ],
+    "newItem_face": [
+      "A new face style: {item}! Right-click me to try it on.",
+      "Look at these eyes! {item}! Right-click me, quick!"
+    ],
+    "newItem_necklace": [
+      "A new necklace: the {item}! Right-click me to try it on.",
+      "Ooh, the {item}! So stylish. Right-click me!"
+    ],
+    "newItem_bracelet": [
+      "A new wristband: the {item}! Right-click me to try it on.",
+      "Ooh, the {item} for my wrist! Right-click me!"
+    ],
+    "newItem_pants": [
+      "New bottoms: {item}! Right-click me to try them on.",
+      "Ooh, {item}! Brand new trousers. Right-click me!"
+    ],
+    "newItem_background": [
+      "A new background tile: {item}! Right-click me to try it on.",
+      "Ooh, the {item} background! Right-click me, quick!"
+    ],
     "newItems": [
       "Ooh, {count} new things to try on! Right-click me.",
       "{count} new things in my wardrobe! Right-click me to see."
@@ -224,6 +276,26 @@
     "newCardItem": [
       "New for your card: the {name}! Your profile → your card.",
       "Ooh, the {name}, for your profile card. Go on, try it!"
+    ],
+    "newCardItem_border": [
+      "A new border for your card: the {name}! Frame your style!",
+      "Ooh, the {name} border! Go on, try it on your card!"
+    ],
+    "newCardItem_frame": [
+      "A new picture frame for your card: the {name}! Show it off!",
+      "Ooh, the {name} frame! Go on, try it on your card!"
+    ],
+    "newCardItem_aura": [
+      "A new aura for your profile card: the {name}! Shine on!",
+      "Ooh, the {name} aura! Go on, try it on your card!"
+    ],
+    "newCardItem_backdrop": [
+      "A new backdrop for your card: the {name}! Check your profile.",
+      "Ooh, the {name} backdrop! Set the scene on your card!"
+    ],
+    "newCardItem_sticker": [
+      "A new sticker for your card: the {name}! Stick it on!",
+      "Ooh, a {name} sticker! Go on, decorate your card!"
     ],
     "newCardItems": [
       "{count} new things for your card! Your profile → your card.",
@@ -242,12 +314,32 @@
       "Good race! {winner} edged it. Want to go again?"
     ],
     "newCarPart": [
-      "Something new for your race car: the {name}! Your profile → your card → garage.",
-      "Ooh, {name} for your car. Go on, try it in the garage!"
+      "Something new for your race car: {name}! Your profile → your card → garage.",
+      "Ooh, a new look for your car: {name}! Go on, try it in the garage!"
+    ],
+    "newCarPart_body": [
+      "A new body for your race car: the {name}! Take it to the garage!",
+      "Ooh, a new car: the {name}! Take it for a spin in the garage!"
+    ],
+    "newCarPart_paint": [
+      "A new paint colour for your car: {name}! Check the garage.",
+      "Ooh, {name} paint for your car! Try it on in the garage!"
+    ],
+    "newCarPart_livery": [
+      "A new livery for your race car: {name}! Check the garage.",
+      "Ooh, a {name} livery! Go on, style it in the garage!"
+    ],
+    "newCarPart_wheels": [
+      "New wheels for your race car: {name}! Try them in the garage.",
+      "Ooh, {name} wheels! Go on, roll into the garage!"
+    ],
+    "newCarPart_trail": [
+      "A new trail for your car: {name}! Go on, try it in the garage!",
+      "Ooh, {name} for your car’s trail! Smoke ’em!"
     ],
     "newCarParts": [
-      "{count} new parts for your race car! Your profile → your card → garage.",
-      "Your car has {count} new things to try. Vroom!"
+      "{count} new customisations for your race car! Your profile → your card → garage.",
+      "Your car has {count} new looks to try. Vroom!"
     ],
     "achievement": [
       "You earned “{name}”! It’s under your profile → achievements.",
