@@ -36,10 +36,12 @@
   "modal": {
     "language_reload_title": "change language?",
     "language_reload_body": "kalibre reloads to change language. save anything you're working on first: a test in progress, a text you're writing or theme edits that aren't saved will be lost.",
-    "close_named": "close {title}"
+    "close_named": "close {title}",
+    "headerless_accessible_name_required": "Headerless modals require an accessible name."
   },
   "translation": {
-    "not_checked_yet": "(not checked by a native speaker yet)"
+    "not_checked_yet": "(not checked by a native speaker yet)",
+    "progress": "translation progress: {percent}%"
   },
   "colour_picker": {
     "saturation_and_brightness": "saturation and brightness",

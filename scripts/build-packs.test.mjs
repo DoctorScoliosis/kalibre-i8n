@@ -37,13 +37,44 @@ test("an unpublished locale gets no manifest, no pack and no index entry; the ot
   const result = buildPacks({ rootDir: repo.rootDir });
   assert.deepEqual(result.built, ["en-GB", "xx-XX"]);
   assert.deepEqual(result.unpublished, ["yy-YY"]);
-  assert.deepEqual(JSON.parse(repo.read("index.json")).locales.map((item) => item.id), ["en-GB", "xx-XX"]);
+  const index = JSON.parse(repo.read("index.json"));
+  assert.deepEqual(index.locales.map((item) => item.id), ["en-GB", "xx-XX"]);
+  assert.deepEqual(index.locales.find((item) => item.id === "en-GB").translationProgress, { translatedMessages: 2, totalMessages: 2 });
+  assert.deepEqual(index.locales.find((item) => item.id === "xx-XX").translationProgress, { translatedMessages: 1, totalMessages: 2 });
   assert.ok(repo.exists("packs/en-GB.json") && repo.exists("packs/xx-XX.json"));
   assert.ok(repo.exists("locales/xx-XX/manifest.json"));
   assert.equal(repo.exists("packs/yy-YY.json"), false);
   assert.equal(repo.exists("locales/yy-YY/manifest.json"), false);
   // Its own files are kept exactly as they were.
   assert.ok(repo.exists("locales/yy-YY/common.json") && repo.exists("locales/yy-YY/meta.json"));
+});
+
+test("translation progress counts non-empty canonical message keys, including nested arrays", () => {
+  const repo = fixture();
+  repo.write("locales/en-GB/common.json", {
+    greeting: { hello: "hello {name}", count: "{count, plural, one {# test} other {# tests}}" },
+    lines: ["first", "second"]
+  });
+  repo.write("locales/xx-XX/common.json", {
+    greeting: { hello: "bonjour {name}" },
+    lines: ["premier"]
+  });
+  buildPacks({ rootDir: repo.rootDir });
+  const index = JSON.parse(repo.read("index.json"));
+  assert.deepEqual(index.locales.find((item) => item.id === "xx-XX").translationProgress, {
+    translatedMessages: 2,
+    totalMessages: 4
+  });
+  assert.deepEqual(checkRepository({ rootDir: repo.rootDir }).errors, []);
+});
+
+test("the check detects stale translation progress metadata", () => {
+  const repo = fixture();
+  buildPacks({ rootDir: repo.rootDir });
+  const index = JSON.parse(repo.read("index.json"));
+  index.locales.find((item) => item.id === "xx-XX").translationProgress.translatedMessages = 2;
+  repo.write("index.json", index);
+  assert.ok(checkRepository({ rootDir: repo.rootDir }).errors.some((error) => error.includes("translationProgress") && error.includes("xx-XX")));
 });
 
 test("a stale pack or manifest left by an earlier build goes", () => {

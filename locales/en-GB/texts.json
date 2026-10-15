@@ -59,7 +59,12 @@
     "deleted": "quote deleted",
     "unknown": "— unknown",
     "too_short": " · too short for tests ({min}+ characters)",
-    "empty": "Add quotes you like; they appear in quote and mixed tests. Collections such as a quotes.json file can be installed under datasets."
+    "empty": "Add quotes you like; they appear in quote and mixed tests. Collections such as a quotes.json file can be installed under datasets.",
+    "options_aria": "quote options",
+    "previous_page": "previous",
+    "next_page": "next",
+    "page_status": "page {page} of {pages}",
+    "pagination_aria": "my quotes pages"
   },
   "github_import": {
     "github_s_limit_for_downloads": "GitHub’s limit for downloads without signing in was reached. Try again in an hour.",

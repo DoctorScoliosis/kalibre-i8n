@@ -25,6 +25,7 @@ export function checkRepository({ rootDir, coreDir = null }) {
   // 1. index.json and the packs it lists
   const indexPath = path.join(rootDir, "index.json");
   const indexed = new Set();
+  const indexedEntries = new Map();
   if (!fs.existsSync(indexPath)) {
     errors.push("Missing index.json");
   } else {
@@ -32,6 +33,7 @@ export function checkRepository({ rootDir, coreDir = null }) {
     if (index.kalibreI18nIndex !== 1) errors.push("index.json missing kalibreI18nIndex: 1");
     for (const item of index.locales || []) {
       indexed.add(item.id);
+      indexedEntries.set(item.id, item);
       const packPath = path.join(rootDir, item.pack);
       if (!fs.existsSync(packPath)) errors.push(`Pack file missing: ${item.pack}`);
       else if (sha256(fs.readFileSync(packPath, "utf8")) !== item.sha256) {
@@ -48,6 +50,15 @@ export function checkRepository({ rootDir, coreDir = null }) {
   }
   const canonical = validateCanonical(loadLocale(enDir));
   errors.push(...canonical.errors);
+  const canonicalKeys = new Set([...canonical.messages]
+    .filter(([, text]) => typeof text === "string" && text.trim().length > 0)
+    .map(([key]) => key));
+  const canonicalProgress = indexedEntries.get("en-GB")?.translationProgress;
+  if (fs.existsSync(indexPath) && (!canonicalProgress
+    || canonicalProgress.translatedMessages !== canonicalKeys.size
+    || canonicalProgress.totalMessages !== canonicalKeys.size)) {
+    errors.push("en-GB: translationProgress does not match canonical messages; run npm run build");
+  }
 
   // 2b. The en-GB copy here must be the application's own en-GB, when that checkout is beside this one.
   const coreEn = coreDir ? path.join(coreDir, "src/locales/en-GB") : null;
@@ -84,8 +95,17 @@ export function checkRepository({ rootDir, coreDir = null }) {
 
     const result = validateTranslation(canonical.messages, files, tag);
     errors.push(...result.errors);
-    const translated = [...result.messages.keys()].filter((k) => canonical.messages.has(k)).length;
-    report.push(`${tag}: ${translated}/${canonical.messages.size} messages translated, the rest fall back to en-GB${isPublished(meta) ? "" : " (unpublished)"}`);
+    const translated = [...result.messages]
+      .filter(([key, text]) => canonicalKeys.has(key) && typeof text === "string" && text.trim().length > 0)
+      .length;
+    report.push(`${tag}: ${translated}/${canonicalKeys.size} messages translated, the rest fall back to en-GB${isPublished(meta) ? "" : " (unpublished)"}`);
+
+    const progress = indexedEntries.get(tag)?.translationProgress;
+    if (fs.existsSync(indexPath) && isPublished(meta) && (!progress
+      || progress.translatedMessages !== translated
+      || progress.totalMessages !== canonicalKeys.size)) {
+      errors.push(`${tag}: translationProgress does not match message keys; run npm run build`);
+    }
 
     // 4. What is published is exactly what is in the index: an unpublished locale must not be offered,
     //    and a published one must be.

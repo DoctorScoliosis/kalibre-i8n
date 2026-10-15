@@ -1,8 +1,36 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { flattenLocale } from "./integrity.mjs";
 
 const sha256 = (content) => crypto.createHash("sha256").update(content).digest("hex");
+
+// Read only message files. flattenLocale handles nested objects, arrays, and translator-only _notes.
+// Coverage measures non-empty message-key presence, not wording quality or native-speaker review.
+function readContentStrings(dir) {
+  const files = fs.readdirSync(dir)
+    .filter((file) => file.endsWith(".json") && file !== "meta.json" && file !== "manifest.json")
+    .sort();
+  return Object.fromEntries(files.map((file) => [
+    file.replace(/\.json$/, ""),
+    JSON.parse(fs.readFileSync(path.join(dir, file), "utf8"))
+  ]));
+}
+
+function nonEmptyMessageKeys(strings) {
+  const { messages } = flattenLocale(strings);
+  return new Set([...messages]
+    .filter(([, text]) => typeof text === "string" && text.trim().length > 0)
+    .map(([key]) => key));
+}
+
+function translationProgress(strings, canonicalKeys) {
+  const { messages } = flattenLocale(strings);
+  const translatedMessages = [...messages]
+    .filter(([key, text]) => canonicalKeys.has(key) && typeof text === "string" && text.trim().length > 0)
+    .length;
+  return { translatedMessages, totalMessages: canonicalKeys.size };
+}
 
 // A locale is published unless its meta.json says `"published": false`. An unpublished locale keeps its
 // files here (its partial translation is work to come) but gets no manifest, no pack and no entry in
@@ -15,6 +43,10 @@ export function buildPacks({ rootDir }) {
   const localesDir = path.join(rootDir, "locales");
   const packsDir = path.join(rootDir, "packs");
   fs.mkdirSync(packsDir, { recursive: true });
+
+  const canonicalDir = path.join(localesDir, "en-GB");
+  if (!fs.existsSync(canonicalDir)) throw new Error("Cannot calculate translation progress: missing locales/en-GB");
+  const canonicalKeys = nonEmptyMessageKeys(readContentStrings(canonicalDir));
 
   const localeDirs = fs.readdirSync(localesDir, { withFileTypes: true })
     .filter((d) => d.isDirectory())
@@ -75,6 +107,7 @@ export function buildPacks({ rootDir }) {
       revision: meta.revision || 1,
       version: meta.version || "1.0.0",
       reviewed: meta.reviewed || "community",
+      translationProgress: translationProgress(strings, canonicalKeys),
       changes: meta.changes || "",
       path: `locales/${tag}/manifest.json`,
       pack: `packs/${packFile}`,

@@ -171,6 +171,18 @@
     },
     "contrast-night": {
       "name": "high contrast night"
+    },
+    "nordic": {
+      "name": "nordic"
+    },
+    "copper": {
+      "name": "copper"
+    },
+    "cyber": {
+      "name": "cyber"
+    },
+    "amber": {
+      "name": "amber"
     }
   },
   "checks": {

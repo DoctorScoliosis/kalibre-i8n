@@ -12,6 +12,7 @@
     "manage_in_mistakes": "manage in mistakes",
     "recommended": "recommended",
     "recommended_title": "Tick the mistakes that are worth drilling now, as many as a drill can carry",
+    "recommended_set": "recommended set",
     "all": "all",
     "none": "none",
     "train_and_drill_these": "train and drill these"
@@ -31,6 +32,8 @@
     "finding_quotes": "finding quotes with these mistakes…",
     "no_quotes_found": "No quote of this length has these mistakes in it. Try another length, or a words drill.",
     "quotes_with_mistakes": "quotes with these mistakes",
+    "quotes_selected": "{selected} of {total} selected",
+    "recommended_set_title": "Select the best matching quotes for these mistakes",
     "best_fit": "best fit",
     "typed_lately": "typed lately",
     "recommended_reason": "{recommended} is recommended: {reason}",

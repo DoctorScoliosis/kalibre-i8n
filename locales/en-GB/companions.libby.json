@@ -147,6 +147,22 @@
       "Mm, hello. I’m Libby. Nice to see you.",
       "Hi! Libby, the L key. Sorry, I dozed off."
     ],
+    "yawn": [
+      "*yawn*… my eyelids feel heavy…",
+      "*yaaaawn*… so warm and calm…",
+      "*yawn*… drifting off already…"
+    ],
+    "earlyWake": [
+      "Already? I was just falling asleep.",
+      "Hm? Awoken so soon?",
+      "Already? I had only just drifted off.",
+      "Up already? My eyes were barely closed."
+    ],
+    "overnightSleep": [
+      "*soft purr*… resting peacefully through the night…",
+      "*gentle breathing*… sound asleep all through the night…",
+      "Zzz… seven hours of undisturbed rest…"
+    ],
     "pet": [
       "Prrr…",
       "Mm, that’s nice.",
@@ -189,6 +205,18 @@
       "Mm… that tickles… zzz",
       "Zzz… pfft… zzz"
     ],
+    "laughingFit": [
+      "Pfft— hahahaha! Stop! System overload… going offline…",
+      "Hahaha! My composure… completely compromised… shutting down…",
+      "Ahaha! Too much! Internal buffer full… collapsing…",
+      "Hehe! No more, I beg you! Safe mode… engaging…"
+    ],
+    "reboot": [
+      "System restored. Now let us return to proper typing, shall we?",
+      "Back online. I have filed an official protest against tickling.",
+      "Diagnostics clear. Let us never speak of that collapse again.",
+      "Chime sounded, posture corrected. Ready when you are."
+    ],
     "updateReady": [
       "kalibre v{version} is ready. The reload is in the footer, whenever you like.",
       "A new version, v{version}, is waiting. Reload from the footer when it suits you.",
@@ -209,6 +237,30 @@
       "Something new: the {item}. Right-click me, please.",
       "I’ve had my eye on the {item}. Right-click me!"
     ],
+    "newItem_hat": [
+      "A new hat: the {item}. Right-click me to try it on.",
+      "The {item}. A lovely hat to wear."
+    ],
+    "newItem_face": [
+      "A new face style: {item}. Right-click me to try it on.",
+      "The {item}. A fresh look for my face."
+    ],
+    "newItem_necklace": [
+      "A new necklace: the {item}. Right-click me to try it on.",
+      "The {item}. It would suit me nicely."
+    ],
+    "newItem_bracelet": [
+      "A new wristband: the {item}. Right-click me to try it on.",
+      "The {item}. A lovely addition for my wrist."
+    ],
+    "newItem_pants": [
+      "New bottoms: {item}. Right-click me to try them on.",
+      "{item}. I think they would suit me."
+    ],
+    "newItem_background": [
+      "A new background tile: {item}. Right-click me to try it on.",
+      "The {item} background. It frames the space nicely."
+    ],
     "newItems": [
       "{count} new things to try on! Right-click me.",
       "{count} new things for my wardrobe! Right-click me."
@@ -224,6 +276,26 @@
     "newCardItem": [
       "Something new for your card: the {name}. Your profile → your card.",
       "The {name}, for your profile card. It would suit you."
+    ],
+    "newCardItem_border": [
+      "A new border for your card: the {name}. Your profile → your card.",
+      "The {name} border. It frames your card nicely."
+    ],
+    "newCardItem_frame": [
+      "A new picture frame for your card: the {name}. Your profile → your card.",
+      "The {name} frame. It would suit your portrait."
+    ],
+    "newCardItem_aura": [
+      "A new aura for your card: the {name}. Your profile → your card.",
+      "The {name} aura. It would suit your card."
+    ],
+    "newCardItem_backdrop": [
+      "A new backdrop for your card: the {name}. Your profile → your card.",
+      "The {name} backdrop. It sets off your card nicely."
+    ],
+    "newCardItem_sticker": [
+      "A new sticker for your card: the {name}. Your profile → your card.",
+      "The {name} sticker. It would look nice on your card."
     ],
     "newCardItems": [
       "{count} new things for your card. Your profile → your card.",
@@ -242,12 +314,32 @@
       "Good race. {winner} just had the better run."
     ],
     "newCarPart": [
-      "Something new for your race car: the {name}. Your profile → your card → garage.",
-      "The {name}, for your car. It would suit you."
+      "Something new for your race car: {name}. Your profile → your card → garage.",
+      "A new look for your car: {name}. It would suit you."
+    ],
+    "newCarPart_body": [
+      "A new car body: the {name}. Your profile → your card → garage.",
+      "The {name} body. It would suit your garage."
+    ],
+    "newCarPart_paint": [
+      "A new paint colour: {name}. Your profile → your card → garage.",
+      "The {name} paint. A fresh colour for your car."
+    ],
+    "newCarPart_livery": [
+      "A new livery: {name}. Your profile → your card → garage.",
+      "The {name} livery. A new style for your car."
+    ],
+    "newCarPart_wheels": [
+      "New wheels for your car: {name}. Your profile → your card → garage.",
+      "The {name} wheels. They would suit your car."
+    ],
+    "newCarPart_trail": [
+      "A new trail for your car: {name}. Your profile → your card → garage.",
+      "The {name} trail. It would look great behind your car."
     ],
     "newCarParts": [
-      "{count} new parts for your race car. Your profile → your card → garage.",
-      "Your car has {count} new things to try, whenever you like."
+      "{count} new customisations for your race car. Your profile → your card → garage.",
+      "Your car has {count} new looks to try, whenever you like."
     ],
     "achievement": [
       "“{name}”! It’s under your profile → achievements.",

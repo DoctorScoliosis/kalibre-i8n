@@ -16,7 +16,7 @@ Localisation in Kalibre is decoupled into this repository so that:
 
 ```
 kalibre-i8n/
-├── index.json                # Master index of available locales, revisions, and checksums
+├── index.json                # Master index of available locales, revisions, checksums, and coverage counts
 ├── package.json              # Tooling commands (zero runtime dependencies)
 ├── scripts/
 │   ├── build-packs.mjs       # Bundles modular files into single-file packs and updates index.json
@@ -67,6 +67,23 @@ Each language folder in `locales/<tag>/` contains a `meta.json`:
 - **`reviewed`**: `"native"` (reviewed/written by a native speaker), `"community"` (community reviewed), or `"machine"` (machine translated). Kalibre displays an honest, quiet note when a language has not been checked by a native speaker yet.
 - **`revision`**: Whole integer (`1, 2, 3...`) that strictly increments on every update. Kalibre uses this to determine when a newer translation is available.
 - **`published`** (optional, default `true`): `false` keeps a locale's files here, partial work and all, but gets it no manifest, no pack and no `index.json` entry, so Kalibre never offers it (`npm run build` honours it and `npm run check` asserts it).
+
+---
+
+## Translation progress in index.json
+
+Each published entry in `index.json` includes generated `translationProgress` metadata:
+
+```json
+"translationProgress": {
+  "translatedMessages": 4120,
+  "totalMessages": 5400
+}
+```
+
+These counts are calculated by `npm run build` from non-empty string message keys present in both the locale pack and canonical `en-GB`. Nested arrays count as message entries and `_notes` do not. Missing or empty messages fall back to English and do not count as translated; orphan keys do not increase coverage. The UI derives the percentage from these counts. Progress measures completeness, not translation quality or native-speaker review status.
+
+Do not edit these counts by hand. `npm run check` compares them with the source locale files and fails if the generated metadata is stale.
 
 ---
 

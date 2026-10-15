@@ -124,11 +124,35 @@
     "keys": {
       "title": "the new keys on their own"
     },
+    "pairs": {
+      "title": "key pairs and patterns"
+    },
+    "vowels": {
+      "title": "vowels and common letters"
+    },
+    "reaches": {
+      "title": "reaching from the home row"
+    },
     "mix": {
       "title": "the new keys with the rest"
     }
   },
+  "tiers": {
+    "bronze": "bronze",
+    "silver": "silver",
+    "gold": "gold",
+    "diamond": "diamond"
+  },
   "ui": {
+    "step_count": "{count, plural, one {# step} other {# steps}}",
+    "lesson_steps_badge": "{count, plural, one {# step} other {# steps}}",
+    "result_tier_achieved": "{tier} achieved: {id} {title}",
+    "tier_next_heading": "To reach {nextTier}, aim for:",
+    "tier_diamond_achieved": "★ diamond perfection: {id} {title}!",
+    "preview_step_1": "step 1",
+    "preview_step_2": "step 2",
+    "preview_all": "all",
+    "preview_keys_label": "Lesson keys preview",
     "the_steps_again": "the steps again",
     "steps_first": "{count} short steps first: the new keys in patterns, then with the keys you know. Then the test.",
     "steps_title": "The {count} short steps on the new keys, then the test",
@@ -405,7 +429,9 @@
   "mascot": {
     "open_wardrobe": "{name}: open {companion, select, cal {his} libby {her} other {their}} wardrobe",
     "open_s_wardrobe": "{name}: open {name2}’s wardrobe",
-    "asleep_label": "{name}, asleep: wake {companion, select, cal {him} libby {her} other {them}} up"
+    "asleep_label": "{name}, asleep: wake {companion, select, cal {him} libby {her} other {them}} up",
+    "shutdown_label": "{name}, shut down: tap to reboot {companion, select, cal {him} libby {her} other {them}}",
+    "booting_label": "{name}, booting up"
   },
   "numpad_tape": {
     "entries": "entries",
