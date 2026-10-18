@@ -51,6 +51,13 @@
     "ios": "On iPhone and iPad, add kalibre to your home screen (in Safari: share → add to home screen). It opens full screen and keeps its data, where a Safari tab can lose it after 7 days without a visit.",
     "generic": "Add kalibre to your home screen (the browser's menu → add to home screen, or install). Installed, it opens full screen, and the browser is readier to keep its data."
   },
+  "device_gate": {
+    "document_title": "kalibre · larger screen required",
+    "title": "kalibre needs a larger screen",
+    "phone": "phones are not supported. kalibre's typing surface, tools and games need more space than a phone can offer.",
+    "platforms": "use a computer, an iPad running iPadOS, or an Android tablet. a landscape view is a comfortable fit.",
+    "keyboard": "a physical keyboard is recommended for longer typing sessions, but it is not required. on-screen keyboards remain supported on tablets."
+  },
   "misc": {
     "kalibre_about": "kalibre, about",
     "backup_due": "settings, backup due",
