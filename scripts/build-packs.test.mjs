@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { buildPacks, isPublished } from "./lib/build.mjs";
+import { COVERAGE_END, COVERAGE_START, buildPacks, coverageTable, isPublished } from "./lib/build.mjs";
 import { checkRepository } from "./lib/check.mjs";
 
 // The build and the check, on a throwaway repository: one reference locale, one published translation, one
@@ -134,4 +134,25 @@ test("the check fails a pack whose hash no longer matches, and a published flag 
   other.write("locales/yy-YY/meta.json", { id: "yy-YY", name: "yy", englishName: "yy", revision: 1, published: "no" });
   buildPacks({ rootDir: other.rootDir });
   assert.ok(checkRepository({ rootDir: other.rootDir }).errors.some((error) => error.includes("published must be true or false")));
+});
+
+test("the README coverage table is generated from the index and checked for staleness", () => {
+  const { rootDir, write, read } = fixture();
+  write("README.md", `# x\n\n${COVERAGE_START}\n${COVERAGE_END}\n\nafter\n`);
+  buildPacks({ rootDir });
+  const readme = read("README.md");
+  assert.match(readme, /\| 🇽🇽 xx-XX \| xx-XX \| `xx-XX` \| █████░░░░░ 50% \| 1 \/ 2 \| 1 \| community \|/);
+  assert.doesNotMatch(readme, /en-GB`/);
+  assert.doesNotMatch(readme, /yy-YY/);
+  assert.match(readme, /after\n$/);
+  assert.deepEqual(checkRepository({ rootDir }).errors, []);
+
+  write("README.md", readme.replace("50%", "90%"));
+  assert.ok(checkRepository({ rootDir }).errors.some((error) => error.includes("coverage table is stale")));
+});
+
+test("the coverage table rounds down, so a language is never shown as complete too early", () => {
+  const table = coverageTable([{ id: "de-DE", name: "Deutsch", englishName: "German", reviewed: "machine", translationProgress: { translatedMessages: 5449, totalMessages: 5450 } }]);
+  assert.match(table, /█████████░ 99% \| 5,449 \/ 5,450 \| 1 \| machine/);
+  assert.match(table, /🇩🇪 Deutsch \| German \|/);
 });
