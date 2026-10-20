@@ -12,18 +12,18 @@
       "englishName": "German",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-08",
+      "revision": 5,
+      "version": "2026-10-21",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4440,
-        "totalMessages": 5531
+        "translatedMessages": 4443,
+        "totalMessages": 5534
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Translated adaptive passage-budget settings",
       "path": "locales/de-DE/manifest.json",
       "pack": "packs/de-DE.json",
-      "sha256": "38d8a7c7f1698ac8c9ddd91b96ecbacc267882485f481d4e78acfe5b599e9600",
-      "bytes": 319597
+      "sha256": "61ae2edaf462af8735cd5683662187c93ec55841c9d9ea3f0572ae2ca4a1ae73",
+      "bytes": 319973
     },
     {
       "id": "en-GB",
@@ -31,18 +31,18 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 16,
-      "version": "2026-10-20",
+      "revision": 17,
+      "version": "2026-10-21",
       "reviewed": "native",
       "translationProgress": {
-        "translatedMessages": 5531,
-        "totalMessages": 5531
+        "translatedMessages": 5534,
+        "totalMessages": 5534
       },
-      "changes": "Synced Kalibre Wikipedia import, dataset language filtering, and mistake map strings",
+      "changes": "Added adaptive passage-budget settings",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "63b04a8e8847f6d84bd2df136a789d59ee3483650ab2a0b97bbb5f8b984d6c06",
-      "bytes": 381086
+      "sha256": "b690aa11c329c6518ee6b7ed2513e25e28f305122ac29b8c44fdd054bba12483",
+      "bytes": 381405
     },
     {
       "id": "es-ES",
@@ -50,18 +50,18 @@
       "englishName": "Spanish (Spain)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
-      "version": "2026-10-08",
+      "revision": 6,
+      "version": "2026-10-21",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4435,
-        "totalMessages": 5531
+        "translatedMessages": 4438,
+        "totalMessages": 5534
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Translated adaptive passage-budget settings",
       "path": "locales/es-ES/manifest.json",
       "pack": "packs/es-ES.json",
-      "sha256": "c641334ddda9f29e0566f31b76d18b117332f450341aded14c2032a871b3917f",
-      "bytes": 324930
+      "sha256": "959f49ac0b226e7d05ed33f6d07854612d96e353db07d972c76f146422482fe2",
+      "bytes": 325308
     },
     {
       "id": "fr-FR",
@@ -69,18 +69,18 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 9,
-      "version": "2026-10-08",
+      "revision": 10,
+      "version": "2026-10-21",
       "reviewed": "community",
       "translationProgress": {
-        "translatedMessages": 4434,
-        "totalMessages": 5531
+        "translatedMessages": 4437,
+        "totalMessages": 5534
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Translated adaptive passage-budget settings",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "2c2b71748d6d062d11ecdf5a8db9f7520d3d22a5dad95545d612de49e18f7873",
-      "bytes": 330541
+      "sha256": "83fafbc82864bf42148436ad84bb4e4e15f8577426561e69d684cd15c4957ca5",
+      "bytes": 330956
     },
     {
       "id": "it-IT",
@@ -88,18 +88,18 @@
       "englishName": "Italian",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
-      "version": "2026-10-08",
+      "revision": 6,
+      "version": "2026-10-21",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4435,
-        "totalMessages": 5531
+        "translatedMessages": 4438,
+        "totalMessages": 5534
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Translated adaptive passage-budget settings",
       "path": "locales/it-IT/manifest.json",
       "pack": "packs/it-IT.json",
-      "sha256": "b1240ba4290ccb76989e8b01932e7322dcae9d4562220be6aa7d668327809bb8",
-      "bytes": 321069
+      "sha256": "fa74609430a268c39f65c4a4b78f83ee9ee1bbf9b988705d870996749ea0d46f",
+      "bytes": 321446
     },
     {
       "id": "nl-NL",
@@ -107,18 +107,18 @@
       "englishName": "Dutch (Netherlands)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-08",
+      "revision": 5,
+      "version": "2026-10-21",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4439,
-        "totalMessages": 5531
+        "translatedMessages": 4442,
+        "totalMessages": 5534
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Translated adaptive passage-budget settings",
       "path": "locales/nl-NL/manifest.json",
       "pack": "packs/nl-NL.json",
-      "sha256": "0a2fc590b0af50c87b796732a4817d75d317b8988f43dd4276bd4e25e7c30a3f",
-      "bytes": 310470
+      "sha256": "c19bb2d28b4c46386ac9f5fa6d11c592e442f6da526e6545acf7cf57b04d2b20",
+      "bytes": 310818
     },
     {
       "id": "pt-BR",
@@ -126,18 +126,18 @@
       "englishName": "Portuguese (Brazil)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
-      "version": "2026-10-08",
+      "revision": 6,
+      "version": "2026-10-21",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4435,
-        "totalMessages": 5531
+        "translatedMessages": 4438,
+        "totalMessages": 5534
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Translated adaptive passage-budget settings",
       "path": "locales/pt-BR/manifest.json",
       "pack": "packs/pt-BR.json",
-      "sha256": "f77e0f86f9b3c8da72c97dbe6db54af4e8b7818309e3bbda59c2eaf9283fbf10",
-      "bytes": 320840
+      "sha256": "02080c2f63db254931a300e978985ce300aff2ecc99e329f3f4d1827e8ac02f7",
+      "bytes": 321213
     },
     {
       "id": "sv-SE",
@@ -145,18 +145,18 @@
       "englishName": "Swedish (Sweden)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
-      "version": "2026-10-08",
+      "revision": 6,
+      "version": "2026-10-21",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4440,
-        "totalMessages": 5531
+        "translatedMessages": 4443,
+        "totalMessages": 5534
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Translated adaptive passage-budget settings",
       "path": "locales/sv-SE/manifest.json",
       "pack": "packs/sv-SE.json",
-      "sha256": "174caa227345c7e84aca7493f46b258a94c9a91f9fa2bdbde88189277f51c417",
-      "bytes": 311165
+      "sha256": "c3e2fd61ea7e18a31333bad731a8d7bf6f107f233537f7d789a9e6b5556ba832",
+      "bytes": 311544
     },
     {
       "id": "zh-CN",
@@ -164,18 +164,18 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 9,
-      "version": "2026-10-08",
+      "revision": 10,
+      "version": "2026-10-21",
       "reviewed": "community",
       "translationProgress": {
-        "translatedMessages": 4402,
-        "totalMessages": 5531
+        "translatedMessages": 4405,
+        "totalMessages": 5534
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Translated adaptive passage-budget settings",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "ddf913d2a0d62c3e0d26188906f9753fec73e95e6a61d1ac0b933ecaed239ef2",
-      "bytes": 294347
+      "sha256": "7f59c1a6d56aa330f2eb83a1afd2b4faabc4931c56208e6c59ccb61cc2960719",
+      "bytes": 294704
     }
   ]
 }
