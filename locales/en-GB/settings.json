@@ -493,6 +493,9 @@
     "libraries": {
       "label": "dataset libraries"
     },
+    "hideIncompatibleDatasets": {
+      "label": "hide datasets in other languages"
+    },
     "wordFilter": {
       "label": "filter offensive words"
     },
@@ -730,6 +733,7 @@
       "textDim": "dim text",
       "accent": "accent",
       "correct": "typed text",
+      "corrected": "first correction",
       "incorrect": "mistakes",
       "extra": "extra letters",
       "caret": "caret",

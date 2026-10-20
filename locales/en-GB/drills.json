@@ -45,12 +45,33 @@
     "usual": "usual",
     "seen_not_trained": "seen, not trained yet",
     "empty_nothing_in_training": "Nothing in training yet. Keep typing: Kalibre suggests mistakes that keep coming back.",
-    "empty_seen_not_trained": "Nothing in training yet. These have come up but aren’t trained yet: tick the ones to work on."
+    "empty_seen_not_trained": "Nothing in training yet. These have come up but aren’t trained yet: tick the ones to work on.",
+    "drill_plan": "drill plan",
+    "drill_mode": "drill mode",
+    "selected_mistakes_count": "{count, plural, one {# mistake selected} other {# mistakes selected}}",
+    "selected_quotes_count": "{count, plural, one {# quote selected} other {# quotes selected}}",
+    "remove_mistake": "remove {mistake}",
+    "show_all_chips": "show all {count}",
+    "show_fewer_chips": "show fewer",
+    "show_full_list": "show all {count} mistakes",
+    "hide_full_list": "hide full list",
+    "more_hits": "+{count} more",
+    "show_fewer_hits": "show fewer",
+    "quote_progress": "quote {current} of {total}",
+    "drilling_targets": "drilling {targets}",
+    "drilling_mistakes": "drilling your mistakes",
+    "quote_mode": "quote drill",
+    "words_mode": "{count} words drill",
+    "no_targets_selected": "Select at least one mistake to drill.",
+    "no_quotes_selected": "Select at least one quote to drill."
   },
   "status": {
     "training": "training",
     "improving": "improving",
     "suggested": "suggested",
     "watching": "watching"
+  },
+  "errors": {
+    "aborted": "operation was cancelled"
   }
 }

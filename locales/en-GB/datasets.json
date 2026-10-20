@@ -77,7 +77,8 @@
     "size_suffix": ", {size}",
     "download": "download",
     "passages": "passages",
-    "maximum_preset_btn": "maximum"
+    "maximum_preset_btn": "maximum",
+    "incompatible_warning": "this dataset's language doesn't match your interface language, so it stays out of drills."
   },
   "dataset_install_flow": {
     "translator_optional": "translator (optional)",
@@ -113,7 +114,27 @@
     "each_file_must_be_under": "Each file must be under 20 MB.",
     "added": "added {what}",
     "quoted_title": "\"{title}\"",
-    "added_some": "added {texts}; left unticked, with no typeable prose: {skipped}"
+    "added_some": "added {texts}; left unticked, with no typeable prose: {skipped}",
+    "language": "language",
+    "language_hint": "language of this dataset",
+    "from_wikipedia": "from Wikipedia",
+    "wikipedia_heading": "import from Wikipedia",
+    "wikipedia_articles_label": "articles or web addresses (one per line)",
+    "wikipedia_articles_placeholder": "Solar System\nde:Albert Einstein\nhttps://en.wikipedia.org/wiki/Earth",
+    "wikipedia_search_placeholder": "search Wikipedia articles…",
+    "wikipedia_search_button": "search",
+    "wikipedia_searching": "searching Wikipedia…",
+    "wikipedia_no_search_results": "no matching articles found",
+    "wikipedia_disambiguation_title": "choose an article for \"{title}\"",
+    "wikipedia_disambiguation_hint": "This title is a disambiguation page. Pick the intended article or articles:",
+    "wikipedia_disambiguation_add": "add selected",
+    "wikipedia_privacy_note": "this asks wikipedia for the articles, so wikimedia sees your address and the titles or words you give.",
+    "wikipedia_licensing_notice": "most wikipedia text is available under CC BY-SA 4.0 and the GNU Free Documentation License (GFDL), but exceptions and other terms may apply. kalibre extracts and cleans article text, so the result may differ from the source. before exporting or sharing, preserve the article's attribution and licence links, identify changes, and follow any applicable share-alike terms. check the licence details attached to each article. wikipedia and wikimedia do not endorse kalibre.",
+    "wikipedia_licensing_acknowledge": "I understand and agree",
+    "wikipedia_licensing_reopen": "licensing notice",
+    "wikipedia_fetch_button": "fetch articles",
+    "wikipedia_cancel_button": "cancel fetch",
+    "wikipedia_skipped_summary": "{count, plural, one {# article skipped} other {# articles skipped}}"
   },
   "library": {
     "looking_in_the_libraries": "looking in the libraries…",
@@ -158,7 +179,10 @@
     "more_results": "{count, plural, one {# more dataset; narrow your search to see it} other {# more datasets; narrow your search to see them}}",
     "unavailable_count": "{count, plural, one {# library could not be reached} other {# libraries could not be reached}}",
     "third_party_disclaimer": "From a third-party library; Kalibre has not checked this content.",
-    "browser_column": "dataset results column"
+    "browser_column": "dataset results column",
+    "incompatible_warning": "this dataset's language doesn't match your interface language, so it stays out of drills.",
+    "hide_incompatible_label": "hide datasets in other languages",
+    "hidden_incompatible_count": "({count, plural, one {# hidden in another language} other {# hidden in other languages}})"
   },
   "datasets": {
     "where_private_files": "this browser's private file storage",
@@ -169,14 +193,17 @@
     "storage_kept": "Installed datasets are kept in {where}.",
     "installed_quotes": "installed \"{name}\": {count} quotes (duplicates removed). ",
     "saved_summary": "saved \"{name}\": {texts}, {passages}. ",
-    "installed_summary": "installed \"{name}\": {texts}, {passages}. "
+    "installed_summary": "installed \"{name}\": {texts}, {passages}. ",
+    "hide_incompatible_label": "hide datasets in other languages",
+    "hidden_incompatible_count": "({count, plural, one {# hidden in another language} other {# hidden in other languages}})"
   },
   "dataset_draft": {
     "untitled": "untitled"
   },
   "dataset_install": {
     "has_no_usable_prose_it": "\"{title}\" has no usable prose (it needs sentences, not just headings or lists).",
-    "this_file_is_not_a": "This file is not a Kalibre dataset package."
+    "this_file_is_not_a": "This file is not a Kalibre dataset package.",
+    "language_required": "Language is required to build a dataset."
   },
   "search": {
     "placeholder": "search datasets by title, author or licence…",
