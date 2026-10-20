@@ -7,6 +7,25 @@
   },
   "locales": [
     {
+      "id": "da-DK",
+      "name": "Dansk",
+      "englishName": "Danish (Denmark)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 5,
+      "version": "2026-10-21",
+      "reviewed": "machine",
+      "translationProgress": {
+        "translatedMessages": 5531,
+        "totalMessages": 5531
+      },
+      "changes": "Complete Danish translations; 100% key coverage across all 27 areas",
+      "path": "locales/da-DK/manifest.json",
+      "pack": "packs/da-DK.json",
+      "sha256": "512d978b57af92a76ef5f05d071339c5e202b51785b2526d9db7037ba32c2022",
+      "bytes": 395454
+    },
+    {
       "id": "de-DE",
       "name": "Deutsch",
       "englishName": "German",

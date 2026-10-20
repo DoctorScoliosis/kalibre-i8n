@@ -1,121 +1,145 @@
 {
   "sections": {
-    "suggested": "foreslattte",
-    "training": "trening",
-    "improving": "bedres",
+    "suggested": "foreslåede",
+    "training": "træning",
+    "improving": "forbedring",
     "mastered": "mestret",
-    "dismissed": "avviste",
-    "watching": "overvatkes",
-    "overview": "oversikt",
+    "dismissed": "afvist",
+    "watching": "observeres",
+    "overview": "oversigt",
     "all": "alle"
   },
   "blurbs": {
-    "suggested": "fejl som fortsætter å komme tilbake. Tren dem eller afvis dem du ikke bryr deg om.",
+    "suggested": "Fejl, der bliver ved med at dukke op. Træn dem, eller afvis dem, du ikke vil fokusere på.",
     "training": "Øvelser fokuserer på disse.",
-    "improving": "Feilraten har halvert siden treningen begynte.",
-    "mastered": "Nede på en fjerdedel av utgangspunktet. De gatr tilbake til treningen om de kommer tilbake.",
-    "dismissed": "Foreslats ikke igen om du ikke gjenoppretter dem.",
-    "watching": "Sett, men ikke tilstrekkelig ofte for å foreslats ennå. «øve nå« begynner trene et likevel.",
-    "overview": "Var fingrarna bliver fejl, ritat på tastaturet, med orden og mellanslagen ved siden av. hver rad viser feilraten over de sidste testerna.",
-    "all": "hver fejl som Kalibre har notert, uansett status."
+    "improving": "Fejlraten er halveret, siden træningen begyndte.",
+    "mastered": "Nede på en fjerdedel af udgangspunktet. De vender tilbage til træning, hvis de opstår igen.",
+    "dismissed": "Foreslås ikke igen, medmindre du gendanner dem.",
+    "watching": "Registreret, men endnu ikke ofte nok til at foreslå. \"træn nu\" starter alligevel træning af en af dem.",
+    "overview": "Hvor dine fingre laver fejl, indtegnet på tastaturet med tilhørende ord og mellemrum. Hver linje viser fejlraten over seneste test.",
+    "all": "Enhver fejl, Kalibre har registreret, uanset status."
   },
   "empty": {
-    "suggested": "ingen fejl her ennå. Det gatr bra!",
-    "training": "ingen fejl i treningen ennå. Legg til nogen fra fanen «foreslattte«.",
-    "improving": "Ingenting bedres ennå. fortsæt øve på dine treningsfeil.",
-    "mastered": "Ingenting er mestret ennå. Trening tar tid — fortsæt.",
-    "dismissed": "Ingenting avvist.",
-    "watching": "Ingenting her ennå. fortsæt skrive så dukker mønster opp.",
-    "all": "ingen fejl notert ennå. nur du skriver, registrerer Kalibre gjentakende mønster her."
+    "suggested": "Ingen fejl her endnu. Godt klaret!",
+    "training": "Ingen fejl under træning endnu. Tilføj nogle fra fanen 'foreslåede'.",
+    "improving": "Ingen forbedringer endnu. Bliv ved med at øve dine træningsfejl.",
+    "mastered": "Intet mestret endnu. Træning tager tid – hæng i.",
+    "dismissed": "Intet afvist.",
+    "watching": "Intet her endnu. Fortsæt med at skrive, så vil mønstre vise sig.",
+    "all": "Ingen fejl registreret endnu. Efterhånden som du taster, registrerer Kalibre tilbagevendende mønstre her."
   },
   "kinds": {
     "key": "tast",
-    "shift": "skift",
-    "swap": "bokstavspar",
-    "omit": "bommet",
-    "extra": "extra",
+    "shift": "shift",
+    "swap": "bogstavpar",
+    "omit": "udeladt",
+    "extra": "ekstra",
     "word": "ord",
     "space": "mellemrum",
-    "insert": "extra ord",
-    "skip": "hoppet over ord",
-    "hesitation": "nøling",
-    "tricky": "svær ord"
+    "insert": "ekstra ord",
+    "skip": "sprunget ord over",
+    "hesitation": "tøven",
+    "tricky": "svært ord"
   },
   "columns": {
     "mistake": "fejl",
-    "kind": "typ",
+    "kind": "type",
     "status": "status",
-    "left_in": "gjenstatr",
+    "left_in": "tilbage",
     "fixed": "rettet",
-    "tests": "tester",
-    "trend": "trend",
-    "rate": "frekvens",
-    "seen": "Sett"
+    "tests": "test",
+    "trend": "tendens",
+    "rate": "fejlrate",
+    "seen": "set"
   },
   "actions": {
-    "train": "trene",
-    "train_aria": "trene {mistake}",
-    "train_now": "trene nå",
-    "train_now_aria": "trene {mistake} nå",
-    "train_again": "trene igen",
-    "train_again_aria": "trene {mistake} igen",
+    "train": "træn",
+    "train_aria": "træn {mistake}",
+    "train_now": "træn nu",
+    "train_now_aria": "træn {mistake} nu",
+    "train_again": "træn igen",
+    "train_again_aria": "træn {mistake} igen",
     "dismiss": "afvis",
     "dismiss_aria": "afvis {mistake}",
     "restore": "gendan",
     "restore_aria": "gendan {mistake}",
-    "drill": "øve",
-    "drill_aria": "øve på {mistake}",
-    "drill_all": "øve på mina treningsfeil",
-    "stop": "stoppa",
-    "stop_aria": "slutte trene {mistake}",
-    "export": "eksportere ",
+    "drill": "øvelse",
+    "drill_aria": "øv {mistake}",
+    "drill_all": "øv mine træningsfejl",
+    "train_selected": "træn valgte",
+    "train_all": "træn alle",
+    "select_mistake": "vælg {mistake}",
+    "select_all": "vælg alle",
+    "view_trend": "vis tendens for {mistake}",
+    "view_trend_title": "Undersøg tendens for {mistake}",
+    "stop": "stop",
+    "stop_aria": "stop træning af {mistake}",
+    "export": "eksportér ",
     "csv": "csv",
     "json": "json"
   },
   "filters": {
     "all": "alle",
-    "uncorrected": "ukorrigerte",
-    "corrected": "rettet"
+    "uncorrected": "ukorrigerede",
+    "corrected": "korrigerede"
   },
   "layouts": {
     "list": "liste",
-    "table": "tabell"
+    "table": "tabel"
   },
   "labels": {
     "by_status": "fejl efter status",
-    "show_on_map": "vise på kartan",
-    "show_mistakes": "vise fejl",
-    "show_as": "vise som",
-    "kind_of_mistake": "typ av fejl",
+    "show_on_map": "vis på kortet",
+    "show_mistakes": "vis fejl",
+    "show_as": "vis som",
+    "kind_of_mistake": "fejltype",
     "all_kinds": "alle typer",
-    "keyboard_layout": "tangentbordslayout",
+    "keyboard_layout": "tastaturlayout",
     "sessions_count": "{count, plural, one {# session} other {# sessioner}}",
     "corrected_count": "{count} rettet",
-    "pager_aria": "sider i misstagtabellen",
-    "no_qualifiers_mistakes": "ingen {qualifiers} fejl{inSection, select, true { i {section}} other {}} ennå.",
-    "no_in_section": "ingen fejl i {section} ennå.",
-    "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa fejl i treningen."
+    "pager_aria": "fejltabelsider",
+    "no_qualifiers_mistakes": "Ingen {qualifiers} fejl{inSection, select, true { i {section}} other {}} endnu.",
+    "no_in_section": "Ingen fejl i {section} endnu.",
+    "training_words_note": "{count, plural, one {# ord} other {# ord}} med vedvarende fejl under træning.",
+    "selected_count": "{count, plural, one {# valgt} other {# valgte}}"
   },
   "mistake_map": {
-    "mistakes_click_to_isolate": "{label}-fejl – klikke for å isolera",
+    "mistakes_click_to_isolate": "{label} fejl – klik for at isolere",
     "page": "side {value}",
-    "of": "{first}–{last} av {length}",
-    "keyboard_mistakes_pages": "sider med tangentbordsmisstag",
-    "nothing_to_draw_on_this": "Ingenting å rita på dette tastaturet ennå. fejl som setts mer enn en gatng vises her.",
+    "of": "{first}–{last} af {length}",
+    "keyboard_mistakes_pages": "tastaturfejlsider",
+    "nothing_to_draw_on_this": "Intet at tegne på dette tastatur endnu. Fejl set mere end én gang vises her.",
     "on_the_keyboard": "på tastaturet",
-    "none_yet": "ingen ennå.",
-    "with_keys_not_on_this": "{unmapped} med taster som ikke findes på denne layouten",
+    "none_yet": "Ingen endnu.",
+    "with_keys_not_on_this": "{unmapped} med taster, der ikke findes på dette layout",
     "words_and_spaces": "ord og mellemrum",
-    "no_tests_yet": "ingen tester ennå",
-    "rate_one_test": "feilrate {rate} i et test",
-    "rate_over_tests": "feilrate {from} → {to} over {count, plural, one {# test} other {# tester}}",
-    "mark_label": "{mistake}: {rate} av gatngerna",
-    "started_at": "{summary} · begynte trene vid {rate}",
-    "keyboard_label": "Tastatur med {count, plural, one {# misstag} other {# misstag}} merkde. Listan nedan inneholder samma fejl."
+    "no_tests_yet": "ingen test endnu",
+    "rate_one_test": "fejlrate {rate} i én test",
+    "rate_over_tests": "fejlrate {from} → {to} over {count, plural, one {# test} other {# test}}",
+    "mark_label": "{mistake}: {rate} af gangene",
+    "started_at": "{summary} · startede træning ved {rate}",
+    "keyboard_label": "Tastatur med {count, plural, one {# fejl} other {# fejl}} tegnet på det. Listen nedenfor viser de samme fejl.",
+    "key_with_mistakes": "{key} ({count, plural, one {# fejl} other {# fejl}}) – klik for at isolere",
+    "key_no_mistakes": "{key} (ingen fejl registreret)",
+    "key_isolated": "tast {key}",
+    "key_isolated_summary": "{count, plural, one {# fejl} other {# fejl}} på eller afvigende mod denne tast",
+    "show_all_keys": "vis alle taster",
+    "show_all_keys_aria": "nulstil tastisolering og vis alle fejl",
+    "no_key_mistakes": "Ingen fejl registreret for {key}.",
+    "no_words_for_key": "Ingen ord eller mellemrum registreret for {key}.",
+    "illustrates_mistake": "i {mistake}",
+    "rel_outgoing": "mente {expected} → tastede {typed}",
+    "rel_incoming": "afvigelse fra {expected}",
+    "rel_missed": "udeladt",
+    "rel_extra": "ekstra",
+    "rel_shift": "shift",
+    "rel_swapped": "ombyttet med {other}",
+    "rel_persistent": "vedvarende",
+    "space_key_name": "mellemrum"
   },
   "mistakes": {
     "actions": "handlinger",
-    "no_mistakes_yet": "ingen fejl ennå."
+    "no_mistakes_yet": "Ingen fejl endnu."
   },
   "mistake_kinds": {
     "KINDS": {
@@ -123,57 +147,73 @@
         "title": "taster"
       },
       "shift": {
-        "title": "skift"
+        "title": "shift"
       },
       "pairs": {
-        "title": "bokstavspar"
+        "title": "bogstavpar"
       },
       "letters": {
-        "title": "bommete og extra bokstaver"
+        "title": "manglende og ekstra bogstaver"
       },
       "words": {
         "title": "ord"
       },
       "tricky": {
-        "title": "vanskelige ord"
+        "title": "svære ord"
       },
       "between": {
         "title": "mellem ord"
       },
       "hesitations": {
-        "title": "nøling"
+        "title": "tøven"
       }
     }
   },
   "legend": {
-    "meant_hit": "menade → tryckte",
-    "swapped": "omkastat",
-    "missed": "missat",
-    "extra": "extra",
-    "shift": "skift"
+    "meant_hit": "mente → tastede",
+    "swapped": "ombyttet",
+    "missed": "udeladt",
+    "extra": "ekstra",
+    "shift": "shift"
   },
   "patterns": {
-    "sound": "latter lika",
-    "homophone": "ord som latter likadant",
-    "silent": "stum bokstav",
-    "double": "dubbel bokstav",
-    "vowel": "oklar vokal",
-    "mirror": "samma finger, andre hatnden",
-    "wrongDouble": "fejl bokstav dubblerad",
-    "moved": "bokstav på fejl plats",
-    "ending": "fjernet ending",
-    "autopilot": "et velkjent ord i stedet",
+    "sound": "lyder ens",
+    "homophone": "homofont ord",
+    "silent": "stumt bogstav",
+    "double": "dobbeltbogstav",
+    "vowel": "uklar vokal",
+    "mirror": "samme finger, anden hånd",
+    "wrongDouble": "forkert bogstav fordoblet",
+    "moved": "bogstav på forkert plads",
+    "ending": "udeladt endelse",
+    "autopilot": "kendt ord i stedet",
     "rawSteno": "rå steno"
   },
   "describe": {
-    "shift": "{expected} → {typed} (skift)",
-    "omit": "bommete {expected}",
-    "extra": "extra {typed}",
-    "insert": "extra ord {typed}",
-    "skip": "hoppade over {expected}",
-    "hesitation_pair": "paus i {expected}",
-    "hesitation_before": "paus før {expected}",
-    "hesitation": "nøling",
-    "tricky": "svær: {expected}"
+    "shift": "{expected} → {typed} (shift)",
+    "omit": "udelod {expected}",
+    "extra": "ekstra {typed}",
+    "insert": "ekstra ord {typed}",
+    "skip": "sprang over {expected}",
+    "hesitation_pair": "pause i {expected}",
+    "hesitation_before": "pause før {expected}",
+    "hesitation": "tøven",
+    "tricky": "svært: {expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · fejlratetendens",
+    "table_caption": "Testhistorik og fejlrate for {mistake}",
+    "test_column_date": "dato",
+    "test_column_source": "test",
+    "test_column_exposures": "tastet",
+    "test_column_errors": "fejl",
+    "test_column_rate": "fejlrate",
+    "point_info": "{date} · {source} · {errors} af {exposures} fejl ({rate})",
+    "started_baseline": "startede ved {rate}",
+    "goal_improving": "forbedrer sig ({rate})",
+    "goal_mastered": "mestret ({rate})",
+    "zoom": "zoom",
+    "no_data": "ikke nok testhistorik med denne fejl endnu",
+    "test_source_default": "test"
   }
 }

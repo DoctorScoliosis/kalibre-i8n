@@ -10,7 +10,7 @@
     "continue": "fortsæt",
     "skip": "spring over",
     "reload_now": "genindlæs nu",
-    "not_now": "ikke nå",
+    "not_now": "ikke nu",
     "yes": "ja",
     "no": "nej",
     "saving": "gemmer…"
@@ -20,36 +20,39 @@
     "right": "højre"
   },
   "plural": {
-    "test": "{count, plural, one {# test} other {# tester}}",
+    "test": "{count, plural, one {# test} other {# test}}",
     "minute": "{count, plural, one {# minut} other {# minutter}}",
     "hour": "{count, plural, one {# time} other {# timer}}",
     "word": "{count, plural, one {# ord} other {# ord}}",
     "lesson": "{count, plural, one {# lektion} other {# lektioner}}",
     "lesson_step": "{count, plural, one {# lektionstrin} other {# lektionstrin}}",
-    "warmup": "{count, plural, one {# opvarmning} other {# oppvarminger}}",
+    "warmup": "{count, plural, one {# opvarmning} other {# opvarmninger}}",
     "drill": "{count, plural, one {# øvelse} other {# øvelser}}",
     "time": "{count, plural, one {# gang} other {# gange}}",
     "quote": "{count, plural, one {# citat} other {# citater}}",
     "book_reading": "{count, plural, one {# boglæsning} other {# boglæsninger}}",
-    "sustained_test": "{count, plural, one {# udholdenhedstest} other {# udholdenhedstests}}"
+    "sustained_test": "{count, plural, one {# udholdenhedstest} other {# udholdenhedstest}}"
   },
   "modal": {
-    "language_reload_title": "ændre sprog?",
-    "language_reload_body": "kalibre genindlæses for at ændre sprog. Gem det, du arbejder med, først: en igangværende test, en tekst du skriver, eller temaændringer, der ikke er gemt, går tabt.",
-    "close_named": "luk {title}"
+    "language_reload_title": "skift sprog?",
+    "language_reload_body": "kalibre genindlæses for at skifte sprog. gem det, du arbejder på, først: en igangværende test, en tekst du skriver, eller temaændringer, der ikke er gemt, vil gå tabt.",
+    "close_named": "luk {title}",
+    "headerless_accessible_name_required": "Overskriftsløse modaler kræver et tilgængeligt navn."
   },
   "translation": {
-    "not_checked_yet": "(ikke kontrolleret af en modersmålstalende endnu)"
+    "not_checked_yet": "(ikke gennemgået af en modersmålstaler endnu)",
+    "progress": "oversættelsesfremgang: {percent}%",
+    "remaining": "{count, plural, one {# besked stadig på engelsk} other {# beskeder stadig på engelsk}}"
   },
   "colour_picker": {
-    "saturation_and_brightness": "metning og lysstyrke",
+    "saturation_and_brightness": "mætning og lysstyrke",
     "hue": "farvetone",
     "before": "før",
-    "now": "nå",
-    "hex_value": "heks-verdi",
-    "pick_a_colour_from_the": "vælg en farve fra skjermen",
-    "pick_from_the_screen": "vælg fra skjermen",
-    "colours_in_this_theme": "farver i dette temaet",
+    "now": "nu",
+    "hex_value": "hex-værdi",
+    "pick_a_colour_from_the": "vælg en farve fra skærmen",
+    "pick_from_the_screen": "vælg fra skærmen",
+    "colours_in_this_theme": "farver i dette tema",
     "colour": "{label}-farve",
     "choose_a_colour": "{label}: {hex}, vælg en farve"
   },
@@ -62,75 +65,75 @@
     "mode_dark": "mørk"
   },
   "color_utils": {
-    "not_a_hex_colour": "Ikke en heks-farve: {hex}"
+    "not_a_hex_colour": "Ikke en hex-farve: {hex}"
   },
   "customtextprovider": {
-    "choose_a_saved_text_to": "vælg en gemt tekst at øve (tekster → mine tekster)"
+    "choose_a_saved_text_to": "Vælg en gemt tekst at øve (tekster → mine tekster)."
   },
   "bookprovider": {
-    "add_a_text_to_read": "tilføj en tekst at læse (tekster → mine tekster)",
+    "add_a_text_to_read": "Tilføj en tekst at læse (tekster → mine tekster).",
     "no_books_to_read_enable": "Ingen bøger at læse. Aktivér et bogdatasæt i tekster → datasæt."
   },
   "datasetmanager": {
     "http": "{path}: HTTP {status}",
-    "unknown_dataset": "Ukjent datasæt {datasetId}",
+    "unknown_dataset": "Ukendt datasæt {datasetId}",
     "unknown_work": "Ukendt værk {key}",
-    "datasets_cannot_be_stored_in": "datasæt kan ikke lagres i denne browseren.",
-    "the_number_of_passages_has": "Antallet af tekstuddrag skal være et helt tal over 0.",
-    "only_datasets_installed_in_this": "Her kan kun datasæt, der er installeret i denne browser, fjernes.",
-    "doesn_t_let_other_sites": "{host} tillader ikke, at andre websteder downloader filerne. Download filen selv og installer den fra din computer i stedet.",
-    "returned": "{url} returnerte {status}."
+    "datasets_cannot_be_stored_in": "Datasæt kan ikke gemmes i denne browser.",
+    "the_number_of_passages_has": "Antallet af tekststykker skal være et helt tal over 0.",
+    "only_datasets_installed_in_this": "Kun datasæt installeret i denne browser kan fjernes her.",
+    "doesn_t_let_other_sites": "{host} tillader ikke, at andre websteder downloader dets filer. Download filen selv og installer den fra din computer i stedet.",
+    "returned": "{url} svarede med {status}."
   },
   "datasetstore": {
-    "this_browser_can_t_read": "Denne browseren kan ikke læse de komprimerte datafilene.",
-    "missing_dataset_file": "Manglende datafil {path}"
+    "this_browser_can_t_read": "Denne browser kan ikke læse de komprimerede datasætfiler.",
+    "missing_dataset_file": "Mangler datasætfil {path}"
   },
   "drillprovider": {
-    "nothing_to_drill_yet_accept": "Ingenting å øve på ennå. Godta et forslag på fejl-siden først.",
-    "that_quote_isn_t_available": "Det citat er ikke længere tilgængeligt (datasættet kan være slået fra). Vælg et andet på øvelsessiden."
+    "nothing_to_drill_yet_accept": "Intet at øve på endnu. Acceptér et forslag på fejlsiden først.",
+    "that_quote_isn_t_available": "Dette citat er ikke længere tilgængeligt (dets datasæt kan være slået fra). Vælg et andet på øvelsessiden."
   },
   "fontlibrary": {
-    "fonts_must_be_files": "{name}: skrifter må være {FONT_ACCEPT}-filer.",
-    "is_larger_than_8_mb": "{name} er større enn 8 MB.",
-    "couldn_t_be_read_as": "{name} kunne ikke leses som en skrift."
+    "fonts_must_be_files": "{name}: skrifttyper skal være {FONT_ACCEPT}-filer.",
+    "is_larger_than_8_mb": "{name} er større end 8 MB.",
+    "couldn_t_be_read_as": "{name} kunne ikke læses som en skrifttype."
   },
   "mistakebank": {
-    "unknown_mistake": "Ukjent fejl {id}"
+    "unknown_mistake": "Ukendt fejl {id}"
   },
   "profilemanager": {
-    "the_profile_file_is_damaged": "Profilfilen er skadet (tastetryk).",
+    "the_profile_file_is_damaged": "Profilfilen er beskadiget (tastetryk).",
     "a_guest_can_t_have": "En gæst kan ikke have en adgangskode.",
-    "unknown_profile": "Ukjent profil {profileId}",
-    "that_picture_can_t_be": "Det bildet kan ikke bruges.",
+    "unknown_profile": "Ukendt profil {profileId}",
+    "that_picture_can_t_be": "Dette billede kan ikke bruges.",
     "a_locked_profile_can_t": "En låst profil kan ikke blive en gæst.",
     "this_profile_isn_t_a": "Denne profil er ikke en gæst.",
     "give_the_profile_a_name": "Giv profilen et navn.",
-    "save_your_progress_first_a": "Gem dit fremskridt først: en gæsteprofil kan ikke have en adgangskode.",
-    "the_current_password_is_not": "Den nuværende adgangskode er ikke korrekt.",
-    "set_a_password_first_a": "Angiv en adgangskode først; en adgangsnøgle er en hurtigere måde at logge ind på.",
+    "save_your_progress_first_a": "Gem dine fremskridt først: en gæsteprofil kan ikke have en adgangskode.",
+    "the_current_password_is_not": "Den aktuelle adgangskode er ikke rigtig.",
+    "set_a_password_first_a": "Opret en adgangskode først; en adgangsnøgle er en hurtigere måde at logge ind på.",
     "that_passkey_couldn_t_be": "Adgangsnøglen kunne ikke gemmes.",
     "a_profile_can_have_up": "En profil kan have op til {MAX_PASSKEYS} adgangsnøgler.",
     "a_passkey_needs_a_name": "En adgangsnøgle skal have et navn.",
     "the_last_profile_cannot_be": "Den sidste profil kan ikke slettes.",
-    "that_file_isn_t_a": "Den filen er ikke en Kalibre-profileksport.",
-    "the_profile_file_is_damaged_2": "Profilfilen er skadet ({store}).",
-    "the_profile_file_has_an": "Profilfilen har en ugyldig passordlats."
+    "that_file_isn_t_a": "Den fil er ikke en Kalibre-profileksport.",
+    "the_profile_file_is_damaged_2": "Profilfilen er beskadiget ({store}).",
+    "the_profile_file_has_an": "Profilfilen har en ugyldig adgangskodelås."
   },
   "quoteprovider": {
-    "no_quotes_are_available_enable": "Ingen {category}-citater er tilgængelige. Aktiver et datasæt i tekster → datasæt."
+    "no_quotes_are_available_enable": "Ingen {category}-citater er tilgængelige. Aktivér et datasæt i tekster → datasæt."
   },
   "raceprovider": {
     "the_race_has_no_text": "Løbet har ingen tekst endnu.",
-    "the_race_has_no_passage": "Løbet har ingen tekstpassage endnu."
+    "the_race_has_no_passage": "Løbet har intet tekststykke endnu."
   },
   "sessionmanager": {
     "sustained_mode_needs_a_source": "Udholdenhedstilstand kræver en kilde, der fortsætter."
   },
   "storagemanager": {
-    "records_in_must_have_a": "Poster i \\\"{storeName}\\\" skal have en profileId",
-    "is_profile_scoped_use_getallforprofile": "\\\"{storeName}\\\" er profilafgrænset; brug getAllForProfile()",
+    "records_in_must_have_a": "Poster i \"{storeName}\" skal have et profileId",
+    "is_profile_scoped_use_getallforprofile": "\"{storeName}\" er profilafgrænset; brug getAllForProfile()",
     "indexeddb_is_not_available_in": "IndexedDB er ikke tilgængelig i denne browser",
-    "your_saved_data_couldn_t": "Dine gemte data kunne ikke opdateres (fra {from} til {version}): {value}",
+    "your_saved_data_couldn_t": "Dine gemte data kunne ikke opdateres (fra version {from} til {version}): {value}",
     "that_copy_isn_t_there": "Den kopi findes ikke længere.",
     "transaction_aborted": "Transaktionen blev afbrudt"
   },
@@ -139,20 +142,20 @@
     "that_text_no_longer_exists": "Den tekst findes ikke længere."
   },
   "wordstreamprovider": {
-    "no_word_list_is_available": "Der er ingen ordliste tilgængelig. Aktivér et datasæt i tekster → datasæt."
+    "no_word_list_is_available": "Ingen ordliste er tilgængelig. Aktivér et datasæt i tekster → datasæt."
   },
   "storage_snapshots": {
-    "the_snapshot_could_not_be": "øjeblikksbildet kunne ikke lagres."
+    "the_snapshot_could_not_be": "Øjebliksbilledet kunne ikke gemmes."
   },
   "counts": {
     "quote": "{count, plural, one {# citat} other {# citater}}",
     "text": "{count, plural, one {# tekst} other {# tekster}}",
-    "passage": "{count, plural, one {# tekstpassasje} other {# tekstpassasjer}}",
+    "passage": "{count, plural, one {# tekststykke} other {# tekststykker}}",
     "dataset": "{count, plural, one {# datasæt} other {# datasæt}}",
     "word": "{count, plural, one {# ord} other {# ord}}",
     "paragraph": "{count, plural, one {# afsnit} other {# afsnit}}",
     "profile": "{count, plural, one {# profil} other {# profiler}}",
-    "font": "{count, plural, one {# skrift} other {# skrifter}}"
+    "font": "{count, plural, one {# skrifttype} other {# skrifttyper}}"
   },
   "progress_of": "{have} / {need}",
   "difficulty": {
@@ -170,7 +173,7 @@
     "ctrl": "ctrl",
     "alt": "alt",
     "delete": "delete",
-    "then": "deretter",
+    "then": "derefter",
     "or": "eller"
   },
   "custom": "tilpasset"
