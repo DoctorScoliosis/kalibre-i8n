@@ -15,7 +15,8 @@
     "typed_text": "已输入文本",
     "mistakes": "错误",
     "extra_letters": "多余字母",
-    "caret": "光标"
+    "caret": "光标",
+    "corrected": "首次更正"
   },
   "actions": {
     "use": "使用",
@@ -65,43 +66,125 @@
     }
   },
   "decorations": {
-    "caret-glow": {"name": "柔光"},
-    "caret-halo": {"name": "光晕"},
-    "caret-drop": {"name": "墨滴"},
-    "caret-trail": {"name": "彗星尾"},
-    "backdrop-dots": {"name": "点阵"},
-    "backdrop-ruled": {"name": "横线纸"},
-    "backdrop-graph": {"name": "方格纸"},
-    "backdrop-grain": {"name": "纹理"},
-    "backdrop-checks": {"name": "柔格"},
-    "frame-corners": {"name": "角标"},
-    "frame-bookplate": {"name": "藏书票"},
-    "frame-tab": {"name": "文件夹标签"},
-    "frame-brackets": {"name": "括号"},
-    "keystroke-ink": {"name": "墨迹淡出"},
-    "keystroke-rise": {"name": "轻柔浮现"},
-    "keystroke-bloom": {"name": "绽放"},
-    "flourish-leaf": {"name": "叶子"},
-    "flourish-star": {"name": "星星"},
-    "flourish-key": {"name": "键帽"},
-    "flourish-letter": {"name": "你伙伴的字母"},
-    "flourish-moon": {"name": "月亮"}
+    "caret-glow": {
+      "name": "柔光"
+    },
+    "caret-halo": {
+      "name": "光晕"
+    },
+    "caret-drop": {
+      "name": "墨滴"
+    },
+    "caret-trail": {
+      "name": "彗星尾"
+    },
+    "backdrop-dots": {
+      "name": "点阵"
+    },
+    "backdrop-ruled": {
+      "name": "横线纸"
+    },
+    "backdrop-graph": {
+      "name": "方格纸"
+    },
+    "backdrop-grain": {
+      "name": "纹理"
+    },
+    "backdrop-checks": {
+      "name": "柔格"
+    },
+    "frame-corners": {
+      "name": "角标"
+    },
+    "frame-bookplate": {
+      "name": "藏书票"
+    },
+    "frame-tab": {
+      "name": "文件夹标签"
+    },
+    "frame-brackets": {
+      "name": "括号"
+    },
+    "keystroke-ink": {
+      "name": "墨迹淡出"
+    },
+    "keystroke-rise": {
+      "name": "轻柔浮现"
+    },
+    "keystroke-bloom": {
+      "name": "绽放"
+    },
+    "flourish-leaf": {
+      "name": "叶子"
+    },
+    "flourish-star": {
+      "name": "星星"
+    },
+    "flourish-key": {
+      "name": "键帽"
+    },
+    "flourish-letter": {
+      "name": "你伙伴的字母"
+    },
+    "flourish-moon": {
+      "name": "月亮"
+    }
   },
   "presets": {
-    "paper": {"name": "纸张"},
-    "ink": {"name": "墨水"},
-    "dusk": {"name": "黄昏"},
-    "eink": {"name": "电子墨水"},
-    "eink-night": {"name": "电子墨水夜间"},
-    "cream": {"name": "奶油"},
-    "rose": {"name": "玫瑰"},
-    "harbour": {"name": "港湾"},
-    "forest": {"name": "森林"},
-    "plum": {"name": "梅紫"},
-    "slate": {"name": "石板"},
-    "terminal": {"name": "终端"},
-    "contrast": {"name": "高对比度"},
-    "contrast-night": {"name": "高对比度夜间"}
+    "paper": {
+      "name": "纸张"
+    },
+    "ink": {
+      "name": "墨水"
+    },
+    "dusk": {
+      "name": "黄昏"
+    },
+    "eink": {
+      "name": "电子墨水"
+    },
+    "eink-night": {
+      "name": "电子墨水夜间"
+    },
+    "cream": {
+      "name": "奶油"
+    },
+    "rose": {
+      "name": "玫瑰"
+    },
+    "harbour": {
+      "name": "港湾"
+    },
+    "forest": {
+      "name": "森林"
+    },
+    "plum": {
+      "name": "梅紫"
+    },
+    "slate": {
+      "name": "石板"
+    },
+    "terminal": {
+      "name": "终端"
+    },
+    "contrast": {
+      "name": "高对比度"
+    },
+    "contrast-night": {
+      "name": "高对比度夜间"
+    },
+    "nordic": {
+      "name": "北欧"
+    },
+    "copper": {
+      "name": "黄铜"
+    },
+    "cyber": {
+      "name": "赛博"
+    },
+    "amber": {
+      "name": "琥珀"
+    }
   },
   "checks": {
     "text_bg": "页面文本",
@@ -123,6 +206,7 @@
     "needs_a_name": "需要一个最多 40 个字符的名称",
     "scheme_must_be": "方案必须为浅色或深色",
     "bad_hex": "颜色“{token}”必须是 #rrggbb 格式的值",
-    "not_readable": "可读性不足：{labels}"
+    "not_readable": "可读性不足：{labels}",
+    "corrected_bg": "首次更正"
   }
 }

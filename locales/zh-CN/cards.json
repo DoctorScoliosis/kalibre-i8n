@@ -38,62 +38,174 @@
         "hint": "装扮你的赛车：这是你在赛道上驾驶的车，也是所有与你对战的人看到的"
       }
     },
-    "tint": "{slot}色调"
+    "tint": "{slot}色调",
+    "rotate_left": "向左旋转",
+    "rotate_right": "向右旋转",
+    "scale_smaller": "缩小",
+    "scale_bigger": "放大",
+    "blend_into": "融入背景",
+    "showcase_achievements": "展示成就",
+    "a_card_holds_at_most_stickers": "名片最多容纳 {max} 个贴纸"
   },
   "cosmetics": {
     "CARD_SLOTS": {
-      "border": {"title": "边框", "hint": "围绕名片"},
-      "frame": {"title": "框架", "hint": "围绕你的伙伴"},
-      "aura": {"title": "光环", "hint": "你的伙伴背后的光晕"},
-      "backdrop": {"title": "背景", "hint": "名片上所有内容的背后"},
-      "sticker": {"title": "贴纸", "hint": "可拖动到名片任意位置"}
+      "border": {
+        "title": "边框",
+        "hint": "围绕名片"
+      },
+      "frame": {
+        "title": "框架",
+        "hint": "围绕你的伙伴"
+      },
+      "aura": {
+        "title": "光环",
+        "hint": "你的伙伴背后的光晕"
+      },
+      "backdrop": {
+        "title": "背景",
+        "hint": "名片上所有内容的背后"
+      },
+      "sticker": {
+        "title": "贴纸",
+        "hint": "可拖动到名片任意位置"
+      }
     },
     "items": {
-      "border-double": {"name": "双线"},
-      "border-stitch": {"name": "缝线"},
-      "border-ribbon": {"name": "丝带"},
-      "border-corners": {"name": "角标"},
-      "border-keycap": {"name": "键帽"},
-      "border-heat": {"name": "热度"},
-      "border-neon": {"name": "霓虹"},
-      "border-gilt": {"name": "镀金"},
-      "border-midnight": {"name": "午夜"},
-      "frame-double": {"name": "双环"},
-      "frame-dashed": {"name": "虚线环"},
-      "frame-square": {"name": "键帽方框"},
-      "frame-cog": {"name": "齿轮"},
-      "frame-petals": {"name": "花瓣"},
-      "frame-orbit": {"name": "轨道"},
-      "frame-laurel": {"name": "桂冠"},
-      "frame-crown": {"name": "王冠"},
-      "aura-soft": {"name": "柔光"},
-      "aura-pulse": {"name": "脉冲"},
-      "aura-ember": {"name": "余烬"},
-      "aura-halo": {"name": "光环"},
-      "aura-aurora": {"name": "极光"},
-      "aura-prism": {"name": "棱镜"},
-      "backdrop-dots": {"name": "点阵"},
-      "backdrop-pinstripe": {"name": "细条纹"},
-      "backdrop-graph": {"name": "方格纸"},
-      "backdrop-waves": {"name": "波浪"},
-      "backdrop-stars": {"name": "星空"},
-      "backdrop-confetti": {"name": "彩纸"},
-      "sticker-star": {"name": "星星"},
-      "sticker-leaf": {"name": "叶子"},
-      "sticker-key": {"name": "键帽"},
-      "sticker-heart": {"name": "爱心"},
-      "sticker-flower": {"name": "花朵"},
-      "sticker-bolt": {"name": "闪电"},
-      "sticker-note": {"name": "音符"},
-      "sticker-moon": {"name": "月亮"},
-      "sticker-rocket": {"name": "火箭"},
-      "sticker-castle": {"name": "城堡"},
-      "sticker-magnifier": {"name": "放大镜"},
-      "sticker-book": {"name": "书本"},
-      "sticker-flag": {"name": "方格旗"},
-      "sticker-crown": {"name": "王冠"},
-      "sticker-teacup": {"name": "茶杯"},
-      "sticker-sparkle": {"name": "闪光"}
+      "border-double": {
+        "name": "双线"
+      },
+      "border-stitch": {
+        "name": "缝线"
+      },
+      "border-ribbon": {
+        "name": "丝带"
+      },
+      "border-corners": {
+        "name": "角标"
+      },
+      "border-keycap": {
+        "name": "键帽"
+      },
+      "border-heat": {
+        "name": "热度"
+      },
+      "border-neon": {
+        "name": "霓虹"
+      },
+      "border-gilt": {
+        "name": "镀金"
+      },
+      "border-midnight": {
+        "name": "午夜"
+      },
+      "frame-double": {
+        "name": "双环"
+      },
+      "frame-dashed": {
+        "name": "虚线环"
+      },
+      "frame-square": {
+        "name": "键帽方框"
+      },
+      "frame-cog": {
+        "name": "齿轮"
+      },
+      "frame-petals": {
+        "name": "花瓣"
+      },
+      "frame-orbit": {
+        "name": "轨道"
+      },
+      "frame-laurel": {
+        "name": "桂冠"
+      },
+      "frame-crown": {
+        "name": "王冠"
+      },
+      "aura-soft": {
+        "name": "柔光"
+      },
+      "aura-pulse": {
+        "name": "脉冲"
+      },
+      "aura-ember": {
+        "name": "余烬"
+      },
+      "aura-halo": {
+        "name": "光环"
+      },
+      "aura-aurora": {
+        "name": "极光"
+      },
+      "aura-prism": {
+        "name": "棱镜"
+      },
+      "backdrop-dots": {
+        "name": "点阵"
+      },
+      "backdrop-pinstripe": {
+        "name": "细条纹"
+      },
+      "backdrop-graph": {
+        "name": "方格纸"
+      },
+      "backdrop-waves": {
+        "name": "波浪"
+      },
+      "backdrop-stars": {
+        "name": "星空"
+      },
+      "backdrop-confetti": {
+        "name": "彩纸"
+      },
+      "sticker-star": {
+        "name": "星星"
+      },
+      "sticker-leaf": {
+        "name": "叶子"
+      },
+      "sticker-key": {
+        "name": "键帽"
+      },
+      "sticker-heart": {
+        "name": "爱心"
+      },
+      "sticker-flower": {
+        "name": "花朵"
+      },
+      "sticker-bolt": {
+        "name": "闪电"
+      },
+      "sticker-note": {
+        "name": "音符"
+      },
+      "sticker-moon": {
+        "name": "月亮"
+      },
+      "sticker-rocket": {
+        "name": "火箭"
+      },
+      "sticker-castle": {
+        "name": "城堡"
+      },
+      "sticker-magnifier": {
+        "name": "放大镜"
+      },
+      "sticker-book": {
+        "name": "书本"
+      },
+      "sticker-flag": {
+        "name": "方格旗"
+      },
+      "sticker-crown": {
+        "name": "王冠"
+      },
+      "sticker-teacup": {
+        "name": "茶杯"
+      },
+      "sticker-sparkle": {
+        "name": "闪光"
+      }
     }
   }
 }

@@ -20,7 +20,16 @@
     "still_loading": "laddar fortfarande. kontrollera anslutningen och ladda sedan om. när kalibre har laddats här fungerar det offline.",
     "older_tab": "kalibre är öppet i en annan flik, med en äldre version. stäng den fliken så fortsätter den här.",
     "couldnt_load": "kalibre kunde inte laddas. kontrollera anslutningen och ladda sedan om.",
-    "browser_too_old": "den här webbläsaren är för gammal för kalibre. en aktuell version av Chrome, Edge, Firefox eller Safari fungerar."
+    "browser_too_old": "den här webbläsaren är för gammal för kalibre. en aktuell version av Chrome, Edge, Firefox eller Safari fungerar.",
+    "report_problem": "rapportera ett problem",
+    "go_back_to_previous": "gå tillbaka till v{version}",
+    "fact_label": "visste du att…?",
+    "fact_category_keyboards": "tangentbord",
+    "fact_category_typing": "maskinskrivning",
+    "fact_category_linguistics": "lingvistik",
+    "fact_category_literature": "litteratur",
+    "fact_category_features": "kalibre",
+    "fact_category_general": "kuriosa"
   },
   "footer": {
     "shortcuts": "kortkommandon",
@@ -82,7 +91,11 @@
     "badge_in_update": "i den här uppdateringen",
     "badge_current": "aktuell",
     "notes_not_yet": "anteckningarna för den här versionen visas när den har installerats.",
-    "stays_at": "v{current} finns kvar på {link} ett tag; öppna en säkerhetskopia där för att fortsätta använda den."
+    "stays_at": "v{current} finns kvar på {link} ett tag; öppna en säkerhetskopia där för att fortsätta använda den.",
+    "changelog_title": "ändringslogg",
+    "view_all_releases": "visa hela ändringsloggen",
+    "view_latest_only": "visa endast senaste uppdateringen",
+    "historical_releases_count": "{count} tidigare {count, plural, one {version} other {versioner}}"
   },
   "brand": {
     "kanary_preview_build_notice": "meddelande om kanary-förhandsversion",
@@ -207,7 +220,14 @@
     "select_the_details_below_to": "markera detaljerna nedan för att kopiera dem",
     "kalibre_couldn_t_start": "kalibre kunde inte starta",
     "what_you_ve_saved_is": "det du har sparat finns fortfarande i den här webbläsaren: att börja om påverkar inte det.",
-    "send_details": "om det fortsätter att hända, skicka detaljerna till {address}."
+    "send_details": "om det fortsätter att hända, skicka detaljerna till {address}.",
+    "previous_version_available": "den tidigare kalibre-versionen (v{version}) finns fortfarande nedladdad på den här enheten.",
+    "rollback_keeps_data": "att gå tillbaka ändrar appfilerna, inte dina sparade data. om den äldre versionen säger att dina data är nyare, återställ kopian från före uppdateringen.",
+    "go_back_to": "gå tillbaka till v{version}",
+    "confirm_go_back_to": "ja, gå tillbaka till v{version}",
+    "going_back": "går tillbaka…",
+    "couldn_t_go_back": "kunde inte gå tillbaka: {error}",
+    "previous_version_unavailable": "den tidigare versionen är inte längre tillgänglig"
   },
   "update_gate": {
     "carry_on": "fortsätt",
@@ -238,5 +258,12 @@
       "offline": "offline",
       "self-hosted": "egen drift"
     }
+  },
+  "device_gate": {
+    "document_title": "kalibre · större skärm krävs",
+    "title": "kalibre behöver en större skärm",
+    "phone": "telefoner stöds inte. kalibres skrivyta, verktyg och spel behöver mer utrymme än vad en telefon kan erbjuda.",
+    "platforms": "använd en dator, en iPad med iPadOS eller en Android-surfplatta. liggande läge är mest bekvämt.",
+    "keyboard": "ett fysiskt tangentbord rekommenderas för längre skrivpass, men är inget krav. skärmtangentbord stöds fortfarande på surfplattor."
   }
 }

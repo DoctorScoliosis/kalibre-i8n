@@ -739,7 +739,14 @@
             "hint": "Kleiden Sie Ihren Rennwagen: Es ist das, was Sie auf der Strecke fahren, und was jeder Rennsport sieht Sie"
           }
         },
-        "tint": "{slot}Tönung"
+        "tint": "{slot}Tönung",
+        "rotate_left": "nach links drehen",
+        "rotate_right": "nach rechts drehen",
+        "scale_smaller": "kleiner",
+        "scale_bigger": "größer",
+        "blend_into": "überblenden in",
+        "showcase_achievements": "Erfolge präsentieren",
+        "a_card_holds_at_most_stickers": "Eine Karte fasst höchstens {max} Sticker"
       },
       "cosmetics": {
         "CARD_SLOTS": {
@@ -1037,7 +1044,8 @@
         "usual_livery_colour": "Übliche Lackfarbe",
         "livery_colour_2": "Farbe der Lackierung",
         "this_is_your_car_on": "Dies ist dein Auto auf der Strecke, und an alle, die dich fahren. Es trägt immer nur Teile, die Sie verdient haben.",
-        "your_race_car": "Dein Rennwagen"
+        "your_race_car": "Dein Rennwagen",
+        "open_garage": "Garage öffnen"
       }
     },
     "chrome": {
@@ -1062,7 +1070,16 @@
         "still_loading": "Immer noch beladen. Überprüfen Sie Ihre Verbindung und laden Sie dann neu. Sobald kalibre hier geladen hat, funktioniert es offline.",
         "older_tab": "Kalibre ist in einem anderen tab geöffnet, in einer älteren version. Schließen Sie diesen Tab und dieser wird weitergehen.",
         "couldnt_load": "Kalibre konnte nicht laden. Überprüfen Sie Ihre Verbindung und laden Sie dann neu.",
-        "browser_too_old": "Dieser Browser ist zu alt für Kalibre. Ein neuer Chrome, Edge, Firefox oder Safari wird es ausführen."
+        "browser_too_old": "Dieser Browser ist zu alt für Kalibre. Ein neuer Chrome, Edge, Firefox oder Safari wird es ausführen.",
+        "report_problem": "ein Problem melden",
+        "go_back_to_previous": "zurück zu v{version}",
+        "fact_label": "schon gewusst?",
+        "fact_category_keyboards": "Tastaturen",
+        "fact_category_typing": "Tippen",
+        "fact_category_linguistics": "Linguistik",
+        "fact_category_literature": "Literatur",
+        "fact_category_features": "Kalibre",
+        "fact_category_general": "Wissenswertes"
       },
       "footer": {
         "shortcuts": "Tastenkürzel",
@@ -1124,7 +1141,11 @@
         "badge_in_update": "In diesem Update",
         "badge_current": "Aktuell",
         "notes_not_yet": "Die Notizen für diese Version werden angezeigt, sobald sie installiert ist.",
-        "stays_at": "V {current} Aufenthalte in {link} Für eine Weile; Öffnen Sie dort ein Backup, um es weiter zu verwenden."
+        "stays_at": "V {current} Aufenthalte in {link} Für eine Weile; Öffnen Sie dort ein Backup, um es weiter zu verwenden.",
+        "changelog_title": "Änderungsprotokoll",
+        "view_all_releases": "vollständiges Änderungsprotokoll anzeigen",
+        "view_latest_only": "nur das neueste Update anzeigen",
+        "historical_releases_count": "{count} frühere {count, plural, one {Version} other {Versionen}}"
       },
       "brand": {
         "kanary_preview_build_notice": "Kanary Preview Build Benachrichtigung",
@@ -1249,7 +1270,14 @@
         "select_the_details_below_to": "Wählen Sie unten die Details aus, um sie zu kopieren",
         "kalibre_couldn_t_start": "Kalibre konnte nicht starten",
         "what_you_ve_saved_is": "Was Sie gespeichert haben, ist immer noch in diesem Browser: Neustarten berührt es nicht.",
-        "send_details": "Wenn es weitergeht, senden Sie die Details an {address}."
+        "send_details": "Wenn es weitergeht, senden Sie die Details an {address}.",
+        "previous_version_available": "Die vorherige Version von Kalibre (v{version}) ist auf diesem Gerät noch heruntergeladen.",
+        "rollback_keeps_data": "Das Zurückgehen ändert die Anwendungsdateien, nicht Ihre gespeicherten Daten. Wenn die ältere Version meldet, dass Ihre Daten neuer sind, stellen Sie die Kopie von vor dem Update wieder her.",
+        "go_back_to": "zurück zu v{version}",
+        "confirm_go_back_to": "Ja, zurück zu v{version}",
+        "going_back": "zurückkehren…",
+        "couldn_t_go_back": "Zurückgehen fehlgeschlagen: {error}",
+        "previous_version_unavailable": "die vorherige Version ist nicht mehr verfügbar"
       },
       "update_gate": {
         "carry_on": "Weiterführen",
@@ -1280,6 +1308,13 @@
           "offline": "Offline",
           "self-hosted": "Selbstgehostet"
         }
+      },
+      "device_gate": {
+        "document_title": "Kalibre · größerer Bildschirm erforderlich",
+        "title": "Kalibre benötigt einen größeren Bildschirm",
+        "phone": "Smartphones werden nicht unterstützt. Die Tippfläche, Werkzeuge und Spiele von Kalibre benötigen mehr Platz, als ein Smartphone bieten kann.",
+        "platforms": "Verwenden Sie einen Computer, ein iPad mit iPadOS oder ein Android-Tablet. Eine Querformatansicht ist am angenehmsten.",
+        "keyboard": "Für längere Tipp-Sitzungen wird eine physische Tastatur empfohlen, sie ist jedoch nicht erforderlich. Bildschirmtastaturen auf Tablets werden weiterhin unterstützt."
       }
     },
     "commands": {
@@ -1512,10 +1547,13 @@
       "modal": {
         "language_reload_title": "Sprache ändern?",
         "language_reload_body": "Kalibre wird neu geladen, um die Sprache zu ändern. Speichern Sie alles, an dem Sie zuerst arbeiten: Ein Test in Arbeit, ein Text, den Sie schreiben, oder Themenbearbeitungen, die nicht gespeichert sind, gehen verloren.",
-        "close_named": "Nah{title}"
+        "close_named": "Nah{title}",
+        "headerless_accessible_name_required": "Modale Dialoge ohne Kopfzeile erfordern einen Barrierefreiheitsnamen."
       },
       "translation": {
-        "not_checked_yet": "(Noch nicht von einem Muttersprachler überprüft)"
+        "not_checked_yet": "(Noch nicht von einem Muttersprachler überprüft)",
+        "progress": "Übersetzungsfortschritt: {percent} %",
+        "remaining": "{count, plural, one {# Nachricht noch auf Englisch} other {# Nachrichten noch auf Englisch}}"
       },
       "colour_picker": {
         "saturation_and_brightness": "Sättigung und Helligkeit",
@@ -5273,7 +5311,16 @@
         "shrinking": "Schrumpfen...",
         "change_picture": "Änderungsbild",
         "add_a_picture": "Hinzufügen eines Bildes",
-        "optional_shrunk_to_a_small": "Fakultativ Schrumpfte auf ein kleines Quadrat und blieb in diesem Browser."
+        "optional_shrunk_to_a_small": "Fakultativ Schrumpfte auf ein kleines Quadrat und blieb in diesem Browser.",
+        "take_photo": "Foto aufnehmen",
+        "capture_photo": "aufnehmen",
+        "retake_photo": "wiederholen",
+        "use_photo": "Foto verwenden",
+        "camera_preview": "Kameravorschau",
+        "camera_not_available": "Kamera ist in diesem Browser nicht verfügbar.",
+        "camera_permission_denied": "Kamerazugriff wurde verweigert.",
+        "camera_not_found": "Keine Kamera auf diesem Gerät gefunden.",
+        "camera_error": "Zugriff auf die Kamera fehlgeschlagen."
       },
       "profile_import": {
         "import_a_profile_file": "Importieren einer Profildatei",
@@ -5700,7 +5747,10 @@
         "with_lap": " · {lap}",
         "time_left": "{time}Links",
         "last_standing": "{time}· Letzter Sieg",
-        "to_finish": "{seconds}S bis zum Ende"
+        "to_finish": "{seconds}S bis zum Ende",
+        "ghost_pace_survived": "{wpm} WPM · {time} überlebt",
+        "ghost_accuracy_survived": "{accuracy} · {time} überlebt",
+        "ghost_survived": "{time} überlebt"
       }
     },
     "results": {
@@ -6860,7 +6910,8 @@
         "typed_text": "Typisierter Text",
         "mistakes": "Fehler",
         "extra_letters": "Zusätzliche Buchstaben",
-        "caret": "Pflege"
+        "caret": "Pflege",
+        "corrected": "erste Korrektur"
       },
       "actions": {
         "use": "Verwendung",
@@ -7016,6 +7067,18 @@
         },
         "contrast-night": {
           "name": "Nacht mit hohem Kontrast"
+        },
+        "nordic": {
+          "name": "Nordisch"
+        },
+        "copper": {
+          "name": "Kupfer"
+        },
+        "cyber": {
+          "name": "Cyber"
+        },
+        "amber": {
+          "name": "Bernstein"
         }
       },
       "checks": {
@@ -7038,7 +7101,8 @@
         "needs_a_name": "Braucht einen Namen von bis zu 40 Zeichen",
         "scheme_must_be": "Schema muss hell oder dunkel sein",
         "bad_hex": "Farbe {token}\" Muss ein #rrggbb-Wert sein",
-        "not_readable": "Nicht ausreichend lesbar:{labels}"
+        "not_readable": "Nicht ausreichend lesbar:{labels}",
+        "corrected_bg": "erste Korrektur"
       }
     },
     "typing": {

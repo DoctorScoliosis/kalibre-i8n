@@ -38,7 +38,14 @@
         "hint": "habillez votre voiture de course : c'est ce que vous conduisez sur la piste, et ce que tout le monde voit en vous affrontant"
       }
     },
-    "tint": "{slot}Teinte"
+    "tint": "{slot}Teinte",
+    "rotate_left": "tourner à gauche",
+    "rotate_right": "tourner à droite",
+    "scale_smaller": "plus petit",
+    "scale_bigger": "plus grand",
+    "blend_into": "fondre dans",
+    "showcase_achievements": "mettre en avant les succès",
+    "a_card_holds_at_most_stickers": "une carte contient au maximum {max} autocollants"
   },
   "cosmetics": {
     "CARD_SLOTS": {

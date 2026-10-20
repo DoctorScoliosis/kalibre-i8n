@@ -20,7 +20,16 @@
     "still_loading": "nog steeds bezig met laden. controleer je verbinding en laad opnieuw. zodra kalibre hier is geladen, werkt het offline.",
     "older_tab": "kalibre is in een ander tabblad geopend met een oudere versie. sluit dat tabblad en dit gaat verder.",
     "couldnt_load": "kalibre kon niet laden. controleer je verbinding en laad opnieuw.",
-    "browser_too_old": "deze browser is te oud voor kalibre. een recente versie van Chrome, Edge, Firefox of Safari werkt."
+    "browser_too_old": "deze browser is te oud voor kalibre. een recente versie van Chrome, Edge, Firefox of Safari werkt.",
+    "report_problem": "een probleem melden",
+    "go_back_to_previous": "terugkeren naar v{version}",
+    "fact_label": "wist je dat?",
+    "fact_category_keyboards": "toetsenborden",
+    "fact_category_typing": "typen",
+    "fact_category_linguistics": "taalkunde",
+    "fact_category_literature": "literatuur",
+    "fact_category_features": "kalibre",
+    "fact_category_general": "weetjes"
   },
   "footer": {
     "shortcuts": "toetsenbordshortcuts",
@@ -82,7 +91,11 @@
     "badge_in_update": "in deze update",
     "badge_current": "huidig",
     "notes_not_yet": "de notities voor deze versie verschijnen zodra hij is geïnstalleerd.",
-    "stays_at": "v{current} blijft een tijdje op {link}; open daar een back-up om het te blijven gebruiken."
+    "stays_at": "v{current} blijft een tijdje op {link}; open daar een back-up om het te blijven gebruiken.",
+    "changelog_title": "wijzigingslogboek",
+    "view_all_releases": "volledig wijzigingslogboek bekijken",
+    "view_latest_only": "alleen de nieuwste update bekijken",
+    "historical_releases_count": "{count} eerdere {count, plural, one {versie} other {versies}}"
   },
   "brand": {
     "kanary_preview_build_notice": "melding over kanary-previewbuild",
@@ -207,7 +220,14 @@
     "select_the_details_below_to": "selecteer de onderstaande details om ze te kopiëren",
     "kalibre_couldn_t_start": "kalibre kon niet starten",
     "what_you_ve_saved_is": "wat je hebt opgeslagen staat nog in deze browser: opnieuw starten raakt het niet aan.",
-    "send_details": "als dit blijft gebeuren, stuur de details naar {address}."
+    "send_details": "als dit blijft gebeuren, stuur de details naar {address}.",
+    "previous_version_available": "de vorige versie van kalibre (v{version}) is nog steeds gedownload op dit apparaat.",
+    "rollback_keeps_data": "teruggaan wijzigt de app-bestanden, niet je opgeslagen gegevens. als de oudere versie meldt dat je gegevens nieuwer zijn, plaats dan de kopie van vóór de update terug.",
+    "go_back_to": "terugkeren naar v{version}",
+    "confirm_go_back_to": "ja, terugkeren naar v{version}",
+    "going_back": "terugkeren…",
+    "couldn_t_go_back": "kon niet terugkeren: {error}",
+    "previous_version_unavailable": "de vorige versie is niet meer beschikbaar"
   },
   "update_gate": {
     "carry_on": "doorgaan",
@@ -238,5 +258,12 @@
       "offline": "offline",
       "self-hosted": "zelf gehost"
     }
+  },
+  "device_gate": {
+    "document_title": "kalibre · groter scherm vereist",
+    "title": "kalibre heeft een groter scherm nodig",
+    "phone": "telefoons worden niet ondersteund. het typoppervlak, de hulpmiddelen en de spellen van kalibre hebben meer ruimte nodig dan een telefoon kan bieden.",
+    "platforms": "gebruik een computer, een iPad met iPadOS of een Android-tablet. weergave in liggende stand past het best.",
+    "keyboard": "een fysiek toetsenbord wordt aanbevolen voor langere typesessies, maar is niet vereist. schermtoetsenborden worden op tablets nog steeds ondersteund."
   }
 }

@@ -15,7 +15,8 @@
     "typed_text": "texto escrito",
     "mistakes": "errores",
     "extra_letters": "letras adicionales",
-    "caret": "cursor"
+    "caret": "cursor",
+    "corrected": "primera corrección"
   },
   "actions": {
     "use": "usar",
@@ -171,6 +172,18 @@
     },
     "contrast-night": {
       "name": "noche de alto contraste"
+    },
+    "nordic": {
+      "name": "nórdico"
+    },
+    "copper": {
+      "name": "cobre"
+    },
+    "cyber": {
+      "name": "cyber"
+    },
+    "amber": {
+      "name": "ámbar"
     }
   },
   "checks": {
@@ -193,6 +206,7 @@
     "needs_a_name": "necesita un nombre de hasta 40 caracteres",
     "scheme_must_be": "el esquema debe ser claro u oscuro",
     "bad_hex": "el color «{token}» debe tener un valor #rrggbb",
-    "not_readable": "no es suficientemente legible: {labels}"
+    "not_readable": "no es suficientemente legible: {labels}",
+    "corrected_bg": "primera corrección"
   }
 }

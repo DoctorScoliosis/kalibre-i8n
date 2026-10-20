@@ -36,10 +36,13 @@
   "modal": {
     "language_reload_title": "¿cambiar de idioma?",
     "language_reload_body": "kalibre se recarga para cambiar de idioma. guarda antes lo que estés haciendo: una prueba en curso, un texto que estés escribiendo o cambios de tema que no se hayan guardado se perderán.",
-    "close_named": "cerrar {title}"
+    "close_named": "cerrar {title}",
+    "headerless_accessible_name_required": "Los modales sin encabezado requieren un nombre accesible."
   },
   "translation": {
-    "not_checked_yet": "(todavía no revisado por un hablante nativo)"
+    "not_checked_yet": "(todavía no revisado por un hablante nativo)",
+    "progress": "progreso de la traducción: {percent}%",
+    "remaining": "{count, plural, one {# mensaje aún en inglés} other {# mensajes aún en inglés}}"
   },
   "colour_picker": {
     "saturation_and_brightness": "saturación y brillo",

@@ -175,6 +175,9 @@
     "with_lap": " · {lap}",
     "time_left": "{time} restantes",
     "last_standing": "{time} · vence o último de pé",
-    "to_finish": "{seconds} s para terminar"
+    "to_finish": "{seconds} s para terminar",
+    "ghost_pace_survived": "{wpm} ppm · {time} sobrevivido",
+    "ghost_accuracy_survived": "{accuracy} · {time} sobrevivido",
+    "ghost_survived": "{time} sobrevivido"
   }
 }

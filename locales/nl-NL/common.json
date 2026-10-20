@@ -36,10 +36,13 @@
   "modal": {
     "language_reload_title": "taal wijzigen?",
     "language_reload_body": "kalibre wordt opnieuw geladen om de taal te wijzigen. sla eerst op waar je aan werkt: een test die bezig is, een tekst die je schrijft of niet-opgeslagen themawijzigingen gaan verloren.",
-    "close_named": "{title} sluiten"
+    "close_named": "{title} sluiten",
+    "headerless_accessible_name_required": "Modale vensters zonder kop vereisen een toegankelijke naam."
   },
   "translation": {
-    "not_checked_yet": "(nog niet door een moedertaalspreker gecontroleerd)"
+    "not_checked_yet": "(nog niet door een moedertaalspreker gecontroleerd)",
+    "progress": "vertaalvoortgang: {percent}%",
+    "remaining": "{count, plural, one {# bericht nog in het Engels} other {# berichten nog in het Engels}}"
   },
   "colour_picker": {
     "saturation_and_brightness": "verzadiging en helderheid",

@@ -15,7 +15,8 @@
     "typed_text": "texte tapé",
     "mistakes": "erreurs",
     "extra_letters": "lettres supplémentaires",
-    "caret": "curseur"
+    "caret": "curseur",
+    "corrected": "première correction"
   },
   "actions": {
     "use": "utiliser",
@@ -171,6 +172,18 @@
     },
     "contrast-night": {
       "name": "contraste élevé nuit"
+    },
+    "nordic": {
+      "name": "nordique"
+    },
+    "copper": {
+      "name": "cuivre"
+    },
+    "cyber": {
+      "name": "cyber"
+    },
+    "amber": {
+      "name": "ambre"
     }
   },
   "checks": {
@@ -193,6 +206,7 @@
     "needs_a_name": "a besoin d'un nom de 40 caractères maximum",
     "scheme_must_be": "le schéma doit être clair ou sombre",
     "bad_hex": "la couleur \"{token}\" doit être une valeur #rrggbb",
-    "not_readable": "pas assez lisible : {labels}"
+    "not_readable": "pas assez lisible : {labels}",
+    "corrected_bg": "première correction"
   }
 }

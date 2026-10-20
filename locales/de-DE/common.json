@@ -36,10 +36,13 @@
   "modal": {
     "language_reload_title": "Sprache ändern?",
     "language_reload_body": "Kalibre wird neu geladen, um die Sprache zu ändern. Speichern Sie alles, an dem Sie zuerst arbeiten: Ein Test in Arbeit, ein Text, den Sie schreiben, oder Themenbearbeitungen, die nicht gespeichert sind, gehen verloren.",
-    "close_named": "Nah{title}"
+    "close_named": "Nah{title}",
+    "headerless_accessible_name_required": "Modale Dialoge ohne Kopfzeile erfordern einen Barrierefreiheitsnamen."
   },
   "translation": {
-    "not_checked_yet": "(Noch nicht von einem Muttersprachler überprüft)"
+    "not_checked_yet": "(Noch nicht von einem Muttersprachler überprüft)",
+    "progress": "Übersetzungsfortschritt: {percent} %",
+    "remaining": "{count, plural, one {# Nachricht noch auf Englisch} other {# Nachrichten noch auf Englisch}}"
   },
   "colour_picker": {
     "saturation_and_brightness": "Sättigung und Helligkeit",

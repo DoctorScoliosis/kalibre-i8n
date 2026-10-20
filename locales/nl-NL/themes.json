@@ -15,7 +15,8 @@
     "typed_text": "getypte tekst",
     "mistakes": "fouten",
     "extra_letters": "extra letters",
-    "caret": "cursor"
+    "caret": "cursor",
+    "corrected": "eerste correctie"
   },
   "actions": {
     "use": "gebruiken",
@@ -65,43 +66,125 @@
     }
   },
   "decorations": {
-    "caret-glow": {"name": "zachte gloed"},
-    "caret-halo": {"name": "halo"},
-    "caret-drop": {"name": "inktdruppel"},
-    "caret-trail": {"name": "komeetstaart"},
-    "backdrop-dots": {"name": "stippenraster"},
-    "backdrop-ruled": {"name": "gelinieerd papier"},
-    "backdrop-graph": {"name": "ruitjespapier"},
-    "backdrop-grain": {"name": "korrel"},
-    "backdrop-checks": {"name": "zachte ruiten"},
-    "frame-corners": {"name": "hoekmarkeringen"},
-    "frame-bookplate": {"name": "boekplaat"},
-    "frame-tab": {"name": "tabblad"},
-    "frame-brackets": {"name": "haken"},
-    "keystroke-ink": {"name": "inktvervaging"},
-    "keystroke-rise": {"name": "zachte stijging"},
-    "keystroke-bloom": {"name": "bloei"},
-    "flourish-leaf": {"name": "blad"},
-    "flourish-star": {"name": "ster"},
-    "flourish-key": {"name": "sleutel"},
-    "flourish-letter": {"name": "de letter van je metgezel"},
-    "flourish-moon": {"name": "maan"}
+    "caret-glow": {
+      "name": "zachte gloed"
+    },
+    "caret-halo": {
+      "name": "halo"
+    },
+    "caret-drop": {
+      "name": "inktdruppel"
+    },
+    "caret-trail": {
+      "name": "komeetstaart"
+    },
+    "backdrop-dots": {
+      "name": "stippenraster"
+    },
+    "backdrop-ruled": {
+      "name": "gelinieerd papier"
+    },
+    "backdrop-graph": {
+      "name": "ruitjespapier"
+    },
+    "backdrop-grain": {
+      "name": "korrel"
+    },
+    "backdrop-checks": {
+      "name": "zachte ruiten"
+    },
+    "frame-corners": {
+      "name": "hoekmarkeringen"
+    },
+    "frame-bookplate": {
+      "name": "boekplaat"
+    },
+    "frame-tab": {
+      "name": "tabblad"
+    },
+    "frame-brackets": {
+      "name": "haken"
+    },
+    "keystroke-ink": {
+      "name": "inktvervaging"
+    },
+    "keystroke-rise": {
+      "name": "zachte stijging"
+    },
+    "keystroke-bloom": {
+      "name": "bloei"
+    },
+    "flourish-leaf": {
+      "name": "blad"
+    },
+    "flourish-star": {
+      "name": "ster"
+    },
+    "flourish-key": {
+      "name": "sleutel"
+    },
+    "flourish-letter": {
+      "name": "de letter van je metgezel"
+    },
+    "flourish-moon": {
+      "name": "maan"
+    }
   },
   "presets": {
-    "paper": {"name": "papier"},
-    "ink": {"name": "inkt"},
-    "dusk": {"name": "schemering"},
-    "eink": {"name": "e-inkt"},
-    "eink-night": {"name": "e-inkt nacht"},
-    "cream": {"name": "crème"},
-    "rose": {"name": "roos"},
-    "harbour": {"name": "haven"},
-    "forest": {"name": "bos"},
-    "plum": {"name": "pruim"},
-    "slate": {"name": "leisteen"},
-    "terminal": {"name": "terminal"},
-    "contrast": {"name": "hoog contrast"},
-    "contrast-night": {"name": "hoog contrast nacht"}
+    "paper": {
+      "name": "papier"
+    },
+    "ink": {
+      "name": "inkt"
+    },
+    "dusk": {
+      "name": "schemering"
+    },
+    "eink": {
+      "name": "e-inkt"
+    },
+    "eink-night": {
+      "name": "e-inkt nacht"
+    },
+    "cream": {
+      "name": "crème"
+    },
+    "rose": {
+      "name": "roos"
+    },
+    "harbour": {
+      "name": "haven"
+    },
+    "forest": {
+      "name": "bos"
+    },
+    "plum": {
+      "name": "pruim"
+    },
+    "slate": {
+      "name": "leisteen"
+    },
+    "terminal": {
+      "name": "terminal"
+    },
+    "contrast": {
+      "name": "hoog contrast"
+    },
+    "contrast-night": {
+      "name": "hoog contrast nacht"
+    },
+    "nordic": {
+      "name": "noords"
+    },
+    "copper": {
+      "name": "koper"
+    },
+    "cyber": {
+      "name": "cyber"
+    },
+    "amber": {
+      "name": "amber"
+    }
   },
   "checks": {
     "text_bg": "tekst op de pagina",
@@ -123,6 +206,7 @@
     "needs_a_name": "heeft een naam van maximaal 40 tekens nodig",
     "scheme_must_be": "schema moet licht of donker zijn",
     "bad_hex": "kleur \"{token}\" moet een #rrggbb-waarde zijn",
-    "not_readable": "niet leesbaar genoeg: {labels}"
+    "not_readable": "niet leesbaar genoeg: {labels}",
+    "corrected_bg": "eerste correctie"
   }
 }

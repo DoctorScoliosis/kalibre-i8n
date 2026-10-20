@@ -175,6 +175,9 @@
     "with_lap": " · {lap}",
     "time_left": "mancano {time}",
     "last_standing": "{time} · vince l'ultimo rimasto",
-    "to_finish": "{seconds} s per finire"
+    "to_finish": "{seconds} s per finire",
+    "ghost_pace_survived": "{wpm} ppm · {time} resistito",
+    "ghost_accuracy_survived": "{accuracy} · {time} resistito",
+    "ghost_survived": "{time} resistito"
   }
 }

@@ -32,10 +32,13 @@
   "modal": {
     "language_reload_title": "changer de langue ?",
     "language_reload_body": "Kalibre redémarre pour changer de langue. Enregistrez d'abord ce que vous êtes en train de faire : un test en cours, un texte que vous écrivez ou des modifications de thème non enregistrées seront perdus.",
-    "close_named": "fermer {title}"
+    "close_named": "fermer {title}",
+    "headerless_accessible_name_required": "Les fenêtres modales sans en-tête nécessitent un nom accessible."
   },
   "translation": {
-    "not_checked_yet": "(pas encore vérifié par un locuteur natif)"
+    "not_checked_yet": "(pas encore vérifié par un locuteur natif)",
+    "progress": "progression de la traduction : {percent} %",
+    "remaining": "{count, plural, one {# message encore en anglais} other {# messages encore en anglais}}"
   },
   "colour_picker": {
     "saturation_and_brightness": "saturation et luminosité",

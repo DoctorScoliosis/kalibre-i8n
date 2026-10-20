@@ -15,7 +15,8 @@
     "typed_text": "Typisierter Text",
     "mistakes": "Fehler",
     "extra_letters": "Zusätzliche Buchstaben",
-    "caret": "Pflege"
+    "caret": "Pflege",
+    "corrected": "erste Korrektur"
   },
   "actions": {
     "use": "Verwendung",
@@ -171,6 +172,18 @@
     },
     "contrast-night": {
       "name": "Nacht mit hohem Kontrast"
+    },
+    "nordic": {
+      "name": "Nordisch"
+    },
+    "copper": {
+      "name": "Kupfer"
+    },
+    "cyber": {
+      "name": "Cyber"
+    },
+    "amber": {
+      "name": "Bernstein"
     }
   },
   "checks": {
@@ -193,6 +206,7 @@
     "needs_a_name": "Braucht einen Namen von bis zu 40 Zeichen",
     "scheme_must_be": "Schema muss hell oder dunkel sein",
     "bad_hex": "Farbe {token}\" Muss ein #rrggbb-Wert sein",
-    "not_readable": "Nicht ausreichend lesbar:{labels}"
+    "not_readable": "Nicht ausreichend lesbar:{labels}",
+    "corrected_bg": "erste Korrektur"
   }
 }

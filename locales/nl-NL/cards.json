@@ -38,7 +38,14 @@
         "hint": "kleed je raceauto aan: dit is waarmee je op de baan rijdt en wat iedereen die tegen je racet ziet"
       }
     },
-    "tint": "{slot}tint"
+    "tint": "{slot}tint",
+    "rotate_left": "naar links draaien",
+    "rotate_right": "naar rechts draaien",
+    "scale_smaller": "kleiner",
+    "scale_bigger": "groter",
+    "blend_into": "overvloeien in",
+    "showcase_achievements": "prestaties tonen",
+    "a_card_holds_at_most_stickers": "een kaart kan maximaal {max} stickers bevatten"
   },
   "cosmetics": {
     "CARD_SLOTS": {

@@ -149,7 +149,16 @@
     "shrinking": "ridimensionamento…",
     "change_picture": "cambia immagine",
     "add_a_picture": "aggiungi un'immagine",
-    "optional_shrunk_to_a_small": "Facoltativo. Ridotta a un piccolo quadrato e conservata in questo browser."
+    "optional_shrunk_to_a_small": "Facoltativo. Ridotta a un piccolo quadrato e conservata in questo browser.",
+    "take_photo": "scatta una foto",
+    "capture_photo": "scatta",
+    "retake_photo": "ripeti",
+    "use_photo": "usa foto",
+    "camera_preview": "anteprima fotocamera",
+    "camera_not_available": "La fotocamera non è disponibile in questo browser.",
+    "camera_permission_denied": "L’autorizzazione per la fotocamera è stata negata.",
+    "camera_not_found": "Nessuna fotocamera trovata su questo dispositivo.",
+    "camera_error": "Impossibile accedere alla fotocamera."
   },
   "profile_import": {
     "import_a_profile_file": "importa un file del profilo",

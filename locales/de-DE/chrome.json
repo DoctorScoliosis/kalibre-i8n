@@ -20,7 +20,16 @@
     "still_loading": "Immer noch beladen. Überprüfen Sie Ihre Verbindung und laden Sie dann neu. Sobald kalibre hier geladen hat, funktioniert es offline.",
     "older_tab": "Kalibre ist in einem anderen tab geöffnet, in einer älteren version. Schließen Sie diesen Tab und dieser wird weitergehen.",
     "couldnt_load": "Kalibre konnte nicht laden. Überprüfen Sie Ihre Verbindung und laden Sie dann neu.",
-    "browser_too_old": "Dieser Browser ist zu alt für Kalibre. Ein neuer Chrome, Edge, Firefox oder Safari wird es ausführen."
+    "browser_too_old": "Dieser Browser ist zu alt für Kalibre. Ein neuer Chrome, Edge, Firefox oder Safari wird es ausführen.",
+    "report_problem": "ein Problem melden",
+    "go_back_to_previous": "zurück zu v{version}",
+    "fact_label": "schon gewusst?",
+    "fact_category_keyboards": "Tastaturen",
+    "fact_category_typing": "Tippen",
+    "fact_category_linguistics": "Linguistik",
+    "fact_category_literature": "Literatur",
+    "fact_category_features": "Kalibre",
+    "fact_category_general": "Wissenswertes"
   },
   "footer": {
     "shortcuts": "Tastenkürzel",
@@ -82,7 +91,11 @@
     "badge_in_update": "In diesem Update",
     "badge_current": "Aktuell",
     "notes_not_yet": "Die Notizen für diese Version werden angezeigt, sobald sie installiert ist.",
-    "stays_at": "V {current} Aufenthalte in {link} Für eine Weile; Öffnen Sie dort ein Backup, um es weiter zu verwenden."
+    "stays_at": "V {current} Aufenthalte in {link} Für eine Weile; Öffnen Sie dort ein Backup, um es weiter zu verwenden.",
+    "changelog_title": "Änderungsprotokoll",
+    "view_all_releases": "vollständiges Änderungsprotokoll anzeigen",
+    "view_latest_only": "nur das neueste Update anzeigen",
+    "historical_releases_count": "{count} frühere {count, plural, one {Version} other {Versionen}}"
   },
   "brand": {
     "kanary_preview_build_notice": "Kanary Preview Build Benachrichtigung",
@@ -207,7 +220,14 @@
     "select_the_details_below_to": "Wählen Sie unten die Details aus, um sie zu kopieren",
     "kalibre_couldn_t_start": "Kalibre konnte nicht starten",
     "what_you_ve_saved_is": "Was Sie gespeichert haben, ist immer noch in diesem Browser: Neustarten berührt es nicht.",
-    "send_details": "Wenn es weitergeht, senden Sie die Details an {address}."
+    "send_details": "Wenn es weitergeht, senden Sie die Details an {address}.",
+    "previous_version_available": "Die vorherige Version von Kalibre (v{version}) ist auf diesem Gerät noch heruntergeladen.",
+    "rollback_keeps_data": "Das Zurückgehen ändert die Anwendungsdateien, nicht Ihre gespeicherten Daten. Wenn die ältere Version meldet, dass Ihre Daten neuer sind, stellen Sie die Kopie von vor dem Update wieder her.",
+    "go_back_to": "zurück zu v{version}",
+    "confirm_go_back_to": "Ja, zurück zu v{version}",
+    "going_back": "zurückkehren…",
+    "couldn_t_go_back": "Zurückgehen fehlgeschlagen: {error}",
+    "previous_version_unavailable": "die vorherige Version ist nicht mehr verfügbar"
   },
   "update_gate": {
     "carry_on": "Weiterführen",
@@ -238,5 +258,12 @@
       "offline": "Offline",
       "self-hosted": "Selbstgehostet"
     }
+  },
+  "device_gate": {
+    "document_title": "Kalibre · größerer Bildschirm erforderlich",
+    "title": "Kalibre benötigt einen größeren Bildschirm",
+    "phone": "Smartphones werden nicht unterstützt. Die Tippfläche, Werkzeuge und Spiele von Kalibre benötigen mehr Platz, als ein Smartphone bieten kann.",
+    "platforms": "Verwenden Sie einen Computer, ein iPad mit iPadOS oder ein Android-Tablet. Eine Querformatansicht ist am angenehmsten.",
+    "keyboard": "Für längere Tipp-Sitzungen wird eine physische Tastatur empfohlen, sie ist jedoch nicht erforderlich. Bildschirmtastaturen auf Tablets werden weiterhin unterstützt."
   }
 }

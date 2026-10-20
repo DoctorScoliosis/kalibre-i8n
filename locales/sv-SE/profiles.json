@@ -149,7 +149,16 @@
     "shrinking": "förminskar…",
     "change_picture": "byt bild",
     "add_a_picture": "lägg till en bild",
-    "optional_shrunk_to_a_small": "Valfritt. Förminskas till en liten kvadrat och sparas i den här webbläsaren."
+    "optional_shrunk_to_a_small": "Valfritt. Förminskas till en liten kvadrat och sparas i den här webbläsaren.",
+    "take_photo": "ta ett foto",
+    "capture_photo": "ta bild",
+    "retake_photo": "ta om",
+    "use_photo": "använd foto",
+    "camera_preview": "kameraförhandsvisning",
+    "camera_not_available": "Kamera är inte tillgänglig i den här webbläsaren.",
+    "camera_permission_denied": "Kameratillstånd nekades.",
+    "camera_not_found": "Ingen kamera hittades på den här enheten.",
+    "camera_error": "Kunde inte komma åt kameran."
   },
   "profile_import": {
     "import_a_profile_file": "importera en profilfil",

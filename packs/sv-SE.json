@@ -730,7 +730,14 @@
             "hint": "klä upp din racingbil: det är den du kör på banan och det alla du tävlar mot ser"
           }
         },
-        "tint": "{slot}Ton"
+        "tint": "{slot}Ton",
+        "rotate_left": "rotera åt vänster",
+        "rotate_right": "rotera åt höger",
+        "scale_smaller": "mindre",
+        "scale_bigger": "större",
+        "blend_into": "tona in i",
+        "showcase_achievements": "visa upp framsteg",
+        "a_card_holds_at_most_stickers": "ett kort rymmer högst {max} klistermärken"
       },
       "cosmetics": {
         "CARD_SLOTS": {
@@ -1028,7 +1035,8 @@
         "usual_livery_colour": "vanlig dekorfärg",
         "livery_colour_2": "dekorfärg",
         "this_is_your_car_on": "Det här är din bil på banan och för alla du tävlar mot. Den bär bara delar du har tjänat in.",
-        "your_race_car": "din racingbil"
+        "your_race_car": "din racingbil",
+        "open_garage": "öppna garaget"
       }
     },
     "chrome": {
@@ -1053,7 +1061,16 @@
         "still_loading": "laddar fortfarande. kontrollera anslutningen och ladda sedan om. när kalibre har laddats här fungerar det offline.",
         "older_tab": "kalibre är öppet i en annan flik, med en äldre version. stäng den fliken så fortsätter den här.",
         "couldnt_load": "kalibre kunde inte laddas. kontrollera anslutningen och ladda sedan om.",
-        "browser_too_old": "den här webbläsaren är för gammal för kalibre. en aktuell version av Chrome, Edge, Firefox eller Safari fungerar."
+        "browser_too_old": "den här webbläsaren är för gammal för kalibre. en aktuell version av Chrome, Edge, Firefox eller Safari fungerar.",
+        "report_problem": "rapportera ett problem",
+        "go_back_to_previous": "gå tillbaka till v{version}",
+        "fact_label": "visste du att…?",
+        "fact_category_keyboards": "tangentbord",
+        "fact_category_typing": "maskinskrivning",
+        "fact_category_linguistics": "lingvistik",
+        "fact_category_literature": "litteratur",
+        "fact_category_features": "kalibre",
+        "fact_category_general": "kuriosa"
       },
       "footer": {
         "shortcuts": "kortkommandon",
@@ -1115,7 +1132,11 @@
         "badge_in_update": "i den här uppdateringen",
         "badge_current": "aktuell",
         "notes_not_yet": "anteckningarna för den här versionen visas när den har installerats.",
-        "stays_at": "v{current} finns kvar på {link} ett tag; öppna en säkerhetskopia där för att fortsätta använda den."
+        "stays_at": "v{current} finns kvar på {link} ett tag; öppna en säkerhetskopia där för att fortsätta använda den.",
+        "changelog_title": "ändringslogg",
+        "view_all_releases": "visa hela ändringsloggen",
+        "view_latest_only": "visa endast senaste uppdateringen",
+        "historical_releases_count": "{count} tidigare {count, plural, one {version} other {versioner}}"
       },
       "brand": {
         "kanary_preview_build_notice": "meddelande om kanary-förhandsversion",
@@ -1240,7 +1261,14 @@
         "select_the_details_below_to": "markera detaljerna nedan för att kopiera dem",
         "kalibre_couldn_t_start": "kalibre kunde inte starta",
         "what_you_ve_saved_is": "det du har sparat finns fortfarande i den här webbläsaren: att börja om påverkar inte det.",
-        "send_details": "om det fortsätter att hända, skicka detaljerna till {address}."
+        "send_details": "om det fortsätter att hända, skicka detaljerna till {address}.",
+        "previous_version_available": "den tidigare kalibre-versionen (v{version}) finns fortfarande nedladdad på den här enheten.",
+        "rollback_keeps_data": "att gå tillbaka ändrar appfilerna, inte dina sparade data. om den äldre versionen säger att dina data är nyare, återställ kopian från före uppdateringen.",
+        "go_back_to": "gå tillbaka till v{version}",
+        "confirm_go_back_to": "ja, gå tillbaka till v{version}",
+        "going_back": "går tillbaka…",
+        "couldn_t_go_back": "kunde inte gå tillbaka: {error}",
+        "previous_version_unavailable": "den tidigare versionen är inte längre tillgänglig"
       },
       "update_gate": {
         "carry_on": "fortsätt",
@@ -1271,6 +1299,13 @@
           "offline": "offline",
           "self-hosted": "egen drift"
         }
+      },
+      "device_gate": {
+        "document_title": "kalibre · större skärm krävs",
+        "title": "kalibre behöver en större skärm",
+        "phone": "telefoner stöds inte. kalibres skrivyta, verktyg och spel behöver mer utrymme än vad en telefon kan erbjuda.",
+        "platforms": "använd en dator, en iPad med iPadOS eller en Android-surfplatta. liggande läge är mest bekvämt.",
+        "keyboard": "ett fysiskt tangentbord rekommenderas för längre skrivpass, men är inget krav. skärmtangentbord stöds fortfarande på surfplattor."
       }
     },
     "commands": {
@@ -1503,10 +1538,13 @@
       "modal": {
         "language_reload_title": "byta språk?",
         "language_reload_body": "kalibre laddar om för att byta språk. spara först det du arbetar med: ett pågående test, en text du skriver eller temaändringar som inte har sparats går förlorade.",
-        "close_named": "stäng {title}"
+        "close_named": "stäng {title}",
+        "headerless_accessible_name_required": "Modala fönster utan rubrik kräver ett tillgängligt namn."
       },
       "translation": {
-        "not_checked_yet": "(ännu inte kontrollerat av en person med svenska som modersmål)"
+        "not_checked_yet": "(ännu inte kontrollerat av en person med svenska som modersmål)",
+        "progress": "översättningsframsteg: {percent}%",
+        "remaining": "{count, plural, one {# meddelande kvar på engelska} other {# meddelanden kvar på engelska}}"
       },
       "colour_picker": {
         "saturation_and_brightness": "mättnad och ljusstyrka",
@@ -5264,7 +5302,16 @@
         "shrinking": "förminskar…",
         "change_picture": "byt bild",
         "add_a_picture": "lägg till en bild",
-        "optional_shrunk_to_a_small": "Valfritt. Förminskas till en liten kvadrat och sparas i den här webbläsaren."
+        "optional_shrunk_to_a_small": "Valfritt. Förminskas till en liten kvadrat och sparas i den här webbläsaren.",
+        "take_photo": "ta ett foto",
+        "capture_photo": "ta bild",
+        "retake_photo": "ta om",
+        "use_photo": "använd foto",
+        "camera_preview": "kameraförhandsvisning",
+        "camera_not_available": "Kamera är inte tillgänglig i den här webbläsaren.",
+        "camera_permission_denied": "Kameratillstånd nekades.",
+        "camera_not_found": "Ingen kamera hittades på den här enheten.",
+        "camera_error": "Kunde inte komma åt kameran."
       },
       "profile_import": {
         "import_a_profile_file": "importera en profilfil",
@@ -5691,7 +5738,10 @@
         "with_lap": " · {lap}",
         "time_left": "{time} kvar",
         "last_standing": "{time} · den sista kvar vinner",
-        "to_finish": "{seconds} s kvar till mål"
+        "to_finish": "{seconds} s kvar till mål",
+        "ghost_pace_survived": "{wpm} wpm · {time} överlevde",
+        "ghost_accuracy_survived": "{accuracy} · {time} överlevde",
+        "ghost_survived": "{time} överlevde"
       }
     },
     "results": {
@@ -6851,7 +6901,8 @@
         "typed_text": "skriven text",
         "mistakes": "misstag",
         "extra_letters": "extra bokstäver",
-        "caret": "markör"
+        "caret": "markör",
+        "corrected": "första rättelsen"
       },
       "actions": {
         "use": "använd",
@@ -7007,6 +7058,18 @@
         },
         "contrast-night": {
           "name": "high contrast night"
+        },
+        "nordic": {
+          "name": "nordisk"
+        },
+        "copper": {
+          "name": "koppar"
+        },
+        "cyber": {
+          "name": "cyber"
+        },
+        "amber": {
+          "name": "bärnsten"
         }
       },
       "checks": {
@@ -7029,7 +7092,8 @@
         "needs_a_name": "behöver ett namn på högst 40 tecken",
         "scheme_must_be": "schemat måste vara ljust eller mörkt",
         "bad_hex": "färgen ”{token}” måste vara ett #rrggbb-värde",
-        "not_readable": "inte tillräckligt läsbar: {labels}"
+        "not_readable": "inte tillräckligt läsbar: {labels}",
+        "corrected_bg": "första rättelsen"
       }
     },
     "typing": {

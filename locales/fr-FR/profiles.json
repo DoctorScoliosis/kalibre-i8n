@@ -135,7 +135,16 @@
     "shrinking": "réduction…",
     "change_picture": "changer l'image",
     "add_a_picture": "ajouter une image",
-    "optional_shrunk_to_a_small": "Optionnel. Réduit en un petit carré et conservé dans ce navigateur."
+    "optional_shrunk_to_a_small": "Optionnel. Réduit en un petit carré et conservé dans ce navigateur.",
+    "take_photo": "prendre une photo",
+    "capture_photo": "capturer",
+    "retake_photo": "reprendre",
+    "use_photo": "utiliser la photo",
+    "camera_preview": "aperçu de l’appareil photo",
+    "camera_not_available": "L’appareil photo n’est pas disponible dans ce navigateur.",
+    "camera_permission_denied": "L’accès à l’appareil photo a été refusé.",
+    "camera_not_found": "Aucun appareil photo trouvé sur cet appareil.",
+    "camera_error": "Impossible d’accéder à l’appareil photo."
   },
   "profile_import": {
     "import_a_profile_file": "importer un fichier de profil",
@@ -251,7 +260,8 @@
     "auto_accept_yes": "oui, les ajouter automatiquement",
     "language_detail": {
       "en-US": "orthographe adaptée",
-      "zh-CN": "Chinois simplifié"
+      "zh-CN": "Chinois simplifié",
+      "fr-FR": "Français (France)"
     }
   },
   "passkey_utils": {

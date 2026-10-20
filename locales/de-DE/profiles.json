@@ -149,7 +149,16 @@
     "shrinking": "Schrumpfen...",
     "change_picture": "Änderungsbild",
     "add_a_picture": "Hinzufügen eines Bildes",
-    "optional_shrunk_to_a_small": "Fakultativ Schrumpfte auf ein kleines Quadrat und blieb in diesem Browser."
+    "optional_shrunk_to_a_small": "Fakultativ Schrumpfte auf ein kleines Quadrat und blieb in diesem Browser.",
+    "take_photo": "Foto aufnehmen",
+    "capture_photo": "aufnehmen",
+    "retake_photo": "wiederholen",
+    "use_photo": "Foto verwenden",
+    "camera_preview": "Kameravorschau",
+    "camera_not_available": "Kamera ist in diesem Browser nicht verfügbar.",
+    "camera_permission_denied": "Kamerazugriff wurde verweigert.",
+    "camera_not_found": "Keine Kamera auf diesem Gerät gefunden.",
+    "camera_error": "Zugriff auf die Kamera fehlgeschlagen."
   },
   "profile_import": {
     "import_a_profile_file": "Importieren einer Profildatei",

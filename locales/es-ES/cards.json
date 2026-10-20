@@ -38,7 +38,14 @@
         "hint": "viste tu coche de carreras: es lo que conduces en la pista y lo que ve todo el mundo que compite contigo"
       }
     },
-    "tint": "{slot}Tinte"
+    "tint": "{slot}Tinte",
+    "rotate_left": "girar a la izquierda",
+    "rotate_right": "girar a la derecha",
+    "scale_smaller": "más pequeño",
+    "scale_bigger": "más grande",
+    "blend_into": "fundir con",
+    "showcase_achievements": "mostrar logros",
+    "a_card_holds_at_most_stickers": "una tarjeta admite como máximo {max} pegatinas"
   },
   "cosmetics": {
     "CARD_SLOTS": {

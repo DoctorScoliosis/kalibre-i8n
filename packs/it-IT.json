@@ -739,7 +739,14 @@
             "hint": "personalizza la tua auto da gara: è quella che guidi in pista e che vedono tutti quelli che gareggiano con te"
           }
         },
-        "tint": "{slot}Tonalità"
+        "tint": "{slot}Tonalità",
+        "rotate_left": "ruota a sinistra",
+        "rotate_right": "ruota a destra",
+        "scale_smaller": "più piccolo",
+        "scale_bigger": "più grande",
+        "blend_into": "sfuma in",
+        "showcase_achievements": "mostra obiettivi",
+        "a_card_holds_at_most_stickers": "una scheda contiene al massimo {max} adesivi"
       },
       "cosmetics": {
         "CARD_SLOTS": {
@@ -1037,7 +1044,8 @@
         "usual_livery_colour": "colore abituale della livrea",
         "livery_colour_2": "colore della livrea",
         "this_is_your_car_on": "Questa è la tua auto in pista e quella che vedono tutti quelli che gareggiano con te. Indossa solo componenti che hai conquistato.",
-        "your_race_car": "la tua auto da gara"
+        "your_race_car": "la tua auto da gara",
+        "open_garage": "apri il garage"
       }
     },
     "chrome": {
@@ -1062,7 +1070,16 @@
         "still_loading": "caricamento ancora in corso. controlla la connessione e poi ricarica. una volta caricato qui, kalibre funziona offline.",
         "older_tab": "kalibre è aperto in un'altra scheda, con una versione precedente. chiudi quella scheda e questa continuerà.",
         "couldnt_load": "kalibre non è riuscito a caricarsi. controlla la connessione e poi ricarica.",
-        "browser_too_old": "questo browser è troppo vecchio per kalibre. una versione recente di Chrome, Edge, Firefox o Safari lo eseguirà."
+        "browser_too_old": "questo browser è troppo vecchio per kalibre. una versione recente di Chrome, Edge, Firefox o Safari lo eseguirà.",
+        "report_problem": "segnala un problema",
+        "go_back_to_previous": "torna a v{version}",
+        "fact_label": "lo sapevi?",
+        "fact_category_keyboards": "tastiere",
+        "fact_category_typing": "digitazione",
+        "fact_category_linguistics": "linguistica",
+        "fact_category_literature": "letteratura",
+        "fact_category_features": "kalibre",
+        "fact_category_general": "curiosità"
       },
       "footer": {
         "shortcuts": "scorciatoie da tastiera",
@@ -1124,7 +1141,11 @@
         "badge_in_update": "in questo aggiornamento",
         "badge_current": "corrente",
         "notes_not_yet": "le note di questa versione verranno mostrate dopo l'installazione.",
-        "stays_at": "v{current} rimane su {link} per un po'; apri lì un backup per continuare a usarlo."
+        "stays_at": "v{current} rimane su {link} per un po'; apri lì un backup per continuare a usarlo.",
+        "changelog_title": "registro delle modifiche",
+        "view_all_releases": "visualizza il registro completo delle modifiche",
+        "view_latest_only": "visualizza solo l’ultimo aggiornamento",
+        "historical_releases_count": "{count} {count, plural, one {versione precedente} other {versioni precedenti}}"
       },
       "brand": {
         "kanary_preview_build_notice": "avviso della build di anteprima kanary",
@@ -1249,7 +1270,14 @@
         "select_the_details_below_to": "seleziona i dettagli qui sotto per copiarli",
         "kalibre_couldn_t_start": "kalibre non è riuscito ad avviarsi",
         "what_you_ve_saved_is": "ciò che hai salvato è ancora in questo browser: ricominciare non lo tocca.",
-        "send_details": "se continua a succedere, invia i dettagli a {address}."
+        "send_details": "se continua a succedere, invia i dettagli a {address}.",
+        "previous_version_available": "la versione precedente di kalibre (v{version}) è ancora scaricata su questo dispositivo.",
+        "rollback_keeps_data": "tornare indietro modifica i file dell’app, non i dati salvati. se la versione precedente indica che i dati sono più recenti, ripristina la copia creata prima dell’aggiornamento.",
+        "go_back_to": "torna a v{version}",
+        "confirm_go_back_to": "sì, torna a v{version}",
+        "going_back": "ritorno in corso…",
+        "couldn_t_go_back": "impossibile tornare indietro: {error}",
+        "previous_version_unavailable": "la versione precedente non è più disponibile"
       },
       "update_gate": {
         "carry_on": "continua",
@@ -1280,6 +1308,13 @@
           "offline": "offline",
           "self-hosted": "autogestito"
         }
+      },
+      "device_gate": {
+        "document_title": "kalibre · schermo più grande richiesto",
+        "title": "kalibre ha bisogno di uno schermo più grande",
+        "phone": "i telefoni non sono supportati. l’area di digitazione, gli strumenti e i giochi di kalibre richiedono più spazio di quanto uno smartphone possa offrire.",
+        "platforms": "usa un computer, un iPad con iPadOS o un tablet Android. la visualizzazione orizzontale è la più confortevole.",
+        "keyboard": "si consiglia una tastiera fisica per sessioni di digitazione prolungate, ma non è obbligatoria. le tastiere su schermo rimangono supportate sui tablet."
       }
     },
     "commands": {
@@ -1512,10 +1547,13 @@
       "modal": {
         "language_reload_title": "cambiare lingua?",
         "language_reload_body": "kalibre si ricarica per cambiare lingua. salva prima tutto ciò su cui stai lavorando: un test in corso, un testo che stai scrivendo o modifiche al tema non salvate andranno perse.",
-        "close_named": "chiudi {title}"
+        "close_named": "chiudi {title}",
+        "headerless_accessible_name_required": "I modali senza intestazione richiedono un nome accessibile."
       },
       "translation": {
-        "not_checked_yet": "(non ancora controllato da un madrelingua)"
+        "not_checked_yet": "(non ancora controllato da un madrelingua)",
+        "progress": "avanzamento della traduzione: {percent}%",
+        "remaining": "{count, plural, one {# messaggio ancora in inglese} other {# messaggi ancora in inglese}}"
       },
       "colour_picker": {
         "saturation_and_brightness": "saturazione e luminosità",
@@ -5264,7 +5302,16 @@
         "shrinking": "ridimensionamento…",
         "change_picture": "cambia immagine",
         "add_a_picture": "aggiungi un'immagine",
-        "optional_shrunk_to_a_small": "Facoltativo. Ridotta a un piccolo quadrato e conservata in questo browser."
+        "optional_shrunk_to_a_small": "Facoltativo. Ridotta a un piccolo quadrato e conservata in questo browser.",
+        "take_photo": "scatta una foto",
+        "capture_photo": "scatta",
+        "retake_photo": "ripeti",
+        "use_photo": "usa foto",
+        "camera_preview": "anteprima fotocamera",
+        "camera_not_available": "La fotocamera non è disponibile in questo browser.",
+        "camera_permission_denied": "L’autorizzazione per la fotocamera è stata negata.",
+        "camera_not_found": "Nessuna fotocamera trovata su questo dispositivo.",
+        "camera_error": "Impossibile accedere alla fotocamera."
       },
       "profile_import": {
         "import_a_profile_file": "importa un file del profilo",
@@ -5691,7 +5738,10 @@
         "with_lap": " · {lap}",
         "time_left": "mancano {time}",
         "last_standing": "{time} · vince l'ultimo rimasto",
-        "to_finish": "{seconds} s per finire"
+        "to_finish": "{seconds} s per finire",
+        "ghost_pace_survived": "{wpm} ppm · {time} resistito",
+        "ghost_accuracy_survived": "{accuracy} · {time} resistito",
+        "ghost_survived": "{time} resistito"
       }
     },
     "results": {
@@ -6851,7 +6901,8 @@
         "typed_text": "testo digitato",
         "mistakes": "errori",
         "extra_letters": "lettere extra",
-        "caret": "cursore"
+        "caret": "cursore",
+        "corrected": "prima correzione"
       },
       "actions": {
         "use": "usa",
@@ -7007,6 +7058,18 @@
         },
         "contrast-night": {
           "name": "alto contrasto notturno"
+        },
+        "nordic": {
+          "name": "nordico"
+        },
+        "copper": {
+          "name": "rame"
+        },
+        "cyber": {
+          "name": "cyber"
+        },
+        "amber": {
+          "name": "ambra"
         }
       },
       "checks": {
@@ -7029,7 +7092,8 @@
         "needs_a_name": "richiede un nome di massimo 40 caratteri",
         "scheme_must_be": "lo schema deve essere chiaro o scuro",
         "bad_hex": "il colore \"{token}\" deve essere un valore #rrggbb",
-        "not_readable": "leggibilità insufficiente: {labels}"
+        "not_readable": "leggibilità insufficiente: {labels}",
+        "corrected_bg": "prima correzione"
       }
     },
     "typing": {

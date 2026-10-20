@@ -736,7 +736,14 @@
             "hint": "装扮你的赛车：这是你在赛道上驾驶的车，也是所有与你对战的人看到的"
           }
         },
-        "tint": "{slot}色调"
+        "tint": "{slot}色调",
+        "rotate_left": "向左旋转",
+        "rotate_right": "向右旋转",
+        "scale_smaller": "缩小",
+        "scale_bigger": "放大",
+        "blend_into": "融入背景",
+        "showcase_achievements": "展示成就",
+        "a_card_holds_at_most_stickers": "名片最多容纳 {max} 个贴纸"
       },
       "cosmetics": {
         "CARD_SLOTS": {
@@ -1034,7 +1041,8 @@
         "usual_livery_colour": "常用彩绘颜色",
         "livery_colour_2": "彩绘颜色",
         "this_is_your_car_on": "这是你的赛车在赛道上的样子，也是所有与你对战的人看到的。它只会佩戴你获得的部件。",
-        "your_race_car": "你的赛车"
+        "your_race_car": "你的赛车",
+        "open_garage": "打开车库"
       }
     },
     "chrome": {
@@ -1059,7 +1067,16 @@
         "still_loading": "仍在加载。请检查你的网络连接，然后重新加载。kalibre 在此处加载完成后，即可离线使用。",
         "older_tab": "kalibre 在另一个标签页中打开，版本较旧。关闭该标签页，此标签页将继续运行。",
         "couldnt_load": "kalibre 无法加载。请检查你的网络连接，然后重新加载。",
-        "browser_too_old": "此浏览器太旧，无法运行 kalibre。请使用最新版本的 Chrome、Edge、Firefox 或 Safari。"
+        "browser_too_old": "此浏览器太旧，无法运行 kalibre。请使用最新版本的 Chrome、Edge、Firefox 或 Safari。",
+        "report_problem": "报告问题",
+        "go_back_to_previous": "返回到 v{version}",
+        "fact_label": "你知道吗？",
+        "fact_category_keyboards": "键盘",
+        "fact_category_typing": "打字",
+        "fact_category_linguistics": "语言学",
+        "fact_category_literature": "文学",
+        "fact_category_features": "kalibre",
+        "fact_category_general": "冷知识"
       },
       "footer": {
         "shortcuts": "键盘快捷键",
@@ -1121,7 +1138,11 @@
         "badge_in_update": "在此更新中",
         "badge_current": "当前",
         "notes_not_yet": "此版本的说明会在安装后显示。",
-        "stays_at": "v{current} 暂时保留在 {link}；在那里打开备份以继续使用。"
+        "stays_at": "v{current} 暂时保留在 {link}；在那里打开备份以继续使用。",
+        "changelog_title": "更新日志",
+        "view_all_releases": "查看完整更新日志",
+        "view_latest_only": "仅查看最新更新",
+        "historical_releases_count": "{count, plural, other {更早的 # 个版本}}"
       },
       "brand": {
         "kanary_preview_build_notice": "kanary 预览版通知",
@@ -1246,7 +1267,14 @@
         "select_the_details_below_to": "选择下方的详细信息进行复制",
         "kalibre_couldn_t_start": "kalibre 无法启动",
         "what_you_ve_saved_is": "你保存的内容仍在此浏览器中：重新启动不会影响它。",
-        "send_details": "如果持续发生，请将详细信息发送到 {address}。"
+        "send_details": "如果持续发生，请将详细信息发送到 {address}。",
+        "previous_version_available": "kalibre 的上一版本（v{version}）仍保存在此设备上。",
+        "rollback_keeps_data": "回退版本只会更改应用文件，不会影响您保存的数据。如果旧版本提示数据版本较新，请恢复更新前保存的备份副本。",
+        "go_back_to": "返回到 v{version}",
+        "confirm_go_back_to": "确认，返回到 v{version}",
+        "going_back": "正在回退……",
+        "couldn_t_go_back": "无法回退：{error}",
+        "previous_version_unavailable": "上一版本已不可用"
       },
       "update_gate": {
         "carry_on": "继续",
@@ -1277,6 +1305,13 @@
           "offline": "离线",
           "self-hosted": "自托管"
         }
+      },
+      "device_gate": {
+        "document_title": "kalibre · 需要更大的屏幕",
+        "title": "kalibre 需要更大的屏幕",
+        "phone": "不支持手机设备。kalibre 的打字界面、练习工具和游戏所需要的空间超出了手机屏幕所能提供的范围。",
+        "platforms": "请使用电脑、运行 iPadOS 的 iPad 或 Android 平板电脑。横屏模式体验最佳。",
+        "keyboard": "对于长时间的打字练习，建议使用实体键盘，但这并非强制要求。平板电脑上的虚拟键盘依然受支持。"
       }
     },
     "commands": {
@@ -1509,10 +1544,13 @@
       "modal": {
         "language_reload_title": "更换语言？",
         "language_reload_body": "kalibre 需要重新加载以更改语言。请先保存正在进行的内容：进行中的测试、正在编写的文本或未保存的主题编辑都将丢失。",
-        "close_named": "关闭 {title}"
+        "close_named": "关闭 {title}",
+        "headerless_accessible_name_required": "无标题模态框需要提供无障碍名称。"
       },
       "translation": {
-        "not_checked_yet": "(尚未由母语者审核)"
+        "not_checked_yet": "(尚未由母语者审核)",
+        "progress": "翻译进度：{percent}%",
+        "remaining": "{count, plural, other {还有 # 条消息为英文}}"
       },
       "colour_picker": {
         "saturation_and_brightness": "饱和度与亮度",
@@ -5198,7 +5236,16 @@
         "shrinking": "正在缩小……",
         "change_picture": "更改图片",
         "add_a_picture": "添加图片",
-        "optional_shrunk_to_a_small": "可选。缩小为小正方形并保留在此浏览器中。"
+        "optional_shrunk_to_a_small": "可选。缩小为小正方形并保留在此浏览器中。",
+        "take_photo": "拍摄照片",
+        "capture_photo": "拍摄",
+        "retake_photo": "重拍",
+        "use_photo": "使用照片",
+        "camera_preview": "相机预览",
+        "camera_not_available": "此浏览器无法使用相机。",
+        "camera_permission_denied": "相机访问权限被拒绝。",
+        "camera_not_found": "在此设备上未找到相机。",
+        "camera_error": "无法访问相机。"
       },
       "profile_import": {
         "import_a_profile_file": "导入个人资料文件",
@@ -5314,7 +5361,8 @@
         "auto_accept_yes": "是，自动添加",
         "language_detail": {
           "en-US": "美式拼写",
-          "zh-CN": "简体中文"
+          "zh-CN": "简体中文",
+          "fr-FR": "法语（法国）"
         }
       },
       "passkey_utils": {
@@ -5624,7 +5672,10 @@
         "with_lap": " · {lap}",
         "time_left": "剩余 {time}",
         "last_standing": "{time} · 最后坚持者获胜",
-        "to_finish": "还有 {seconds} 秒完成"
+        "to_finish": "还有 {seconds} 秒完成",
+        "ghost_pace_survived": "{wpm} wpm · 坚持了 {time}",
+        "ghost_accuracy_survived": "{accuracy} · 坚持了 {time}",
+        "ghost_survived": "坚持了 {time}"
       }
     },
     "results": {
@@ -6784,7 +6835,8 @@
         "typed_text": "已输入文本",
         "mistakes": "错误",
         "extra_letters": "多余字母",
-        "caret": "光标"
+        "caret": "光标",
+        "corrected": "首次更正"
       },
       "actions": {
         "use": "使用",
@@ -6940,6 +6992,18 @@
         },
         "contrast-night": {
           "name": "高对比度夜间"
+        },
+        "nordic": {
+          "name": "北欧"
+        },
+        "copper": {
+          "name": "黄铜"
+        },
+        "cyber": {
+          "name": "赛博"
+        },
+        "amber": {
+          "name": "琥珀"
         }
       },
       "checks": {
@@ -6962,7 +7026,8 @@
         "needs_a_name": "需要一个最多 40 个字符的名称",
         "scheme_must_be": "方案必须为浅色或深色",
         "bad_hex": "颜色“{token}”必须是 #rrggbb 格式的值",
-        "not_readable": "可读性不足：{labels}"
+        "not_readable": "可读性不足：{labels}",
+        "corrected_bg": "首次更正"
       }
     },
     "typing": {

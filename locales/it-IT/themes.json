@@ -15,7 +15,8 @@
     "typed_text": "testo digitato",
     "mistakes": "errori",
     "extra_letters": "lettere extra",
-    "caret": "cursore"
+    "caret": "cursore",
+    "corrected": "prima correzione"
   },
   "actions": {
     "use": "usa",
@@ -171,6 +172,18 @@
     },
     "contrast-night": {
       "name": "alto contrasto notturno"
+    },
+    "nordic": {
+      "name": "nordico"
+    },
+    "copper": {
+      "name": "rame"
+    },
+    "cyber": {
+      "name": "cyber"
+    },
+    "amber": {
+      "name": "ambra"
     }
   },
   "checks": {
@@ -193,6 +206,7 @@
     "needs_a_name": "richiede un nome di massimo 40 caratteri",
     "scheme_must_be": "lo schema deve essere chiaro o scuro",
     "bad_hex": "il colore \"{token}\" deve essere un valore #rrggbb",
-    "not_readable": "leggibilità insufficiente: {labels}"
+    "not_readable": "leggibilità insufficiente: {labels}",
+    "corrected_bg": "prima correzione"
   }
 }

@@ -20,7 +20,16 @@
     "still_loading": "toujours en cours de chargement. vérifiez votre connexion, puis rechargez. une fois que kalibre est chargé ici, il fonctionne hors ligne.",
     "older_tab": "kalibre est ouvert dans un autre onglet, sur une version plus ancienne. fermez cet onglet et celui-ci continuera.",
     "couldnt_load": "kalibre n'a pas pu se charger. vérifiez votre connexion, puis rechargez.",
-    "browser_too_old": "ce navigateur est trop ancien pour kalibre. une version récente de chrome, edge, firefox ou safari est requise."
+    "browser_too_old": "ce navigateur est trop ancien pour kalibre. une version récente de chrome, edge, firefox ou safari est requise.",
+    "report_problem": "signaler un problème",
+    "go_back_to_previous": "revenir à la v{version}",
+    "fact_label": "le saviez-vous ?",
+    "fact_category_keyboards": "claviers",
+    "fact_category_typing": "frappe",
+    "fact_category_linguistics": "linguistique",
+    "fact_category_literature": "littérature",
+    "fact_category_features": "kalibre",
+    "fact_category_general": "anecdotes"
   },
   "footer": {
     "shortcuts": "raccourcis clavier",
@@ -82,7 +91,11 @@
     "badge_in_update": "dans cette mise à jour",
     "badge_current": "actuel",
     "notes_not_yet": "les notes pour cette version s'affichent une fois installée.",
-    "stays_at": "v{current} reste à {link} pendant un certain temps ; ouvrez une sauvegarde là-bas pour continuer à l'utiliser."
+    "stays_at": "v{current} reste à {link} pendant un certain temps ; ouvrez une sauvegarde là-bas pour continuer à l'utiliser.",
+    "changelog_title": "journal des modifications",
+    "view_all_releases": "afficher tout le journal des modifications",
+    "view_latest_only": "afficher uniquement la dernière mise à jour",
+    "historical_releases_count": "{count} {count, plural, one {version précédente} other {versions précédentes}}"
   },
   "brand": {
     "kanary_preview_build_notice": "avis de version d'aperçu kanary",
@@ -207,7 +220,14 @@
     "select_the_details_below_to": "sélectionnez les détails ci-dessous pour les copier",
     "kalibre_couldn_t_start": "kalibre n'a pas pu démarrer",
     "what_you_ve_saved_is": "ce que vous avez enregistré est toujours dans ce navigateur : recommencer n'y touche pas.",
-    "send_details": "si cela continue à se produire, envoyez les détails à {address}."
+    "send_details": "si cela continue à se produire, envoyez les détails à {address}.",
+    "previous_version_available": "la version précédente de kalibre (v{version}) est toujours téléchargée sur cet appareil.",
+    "rollback_keeps_data": "revenir en arrière modifie les fichiers de l’application, pas vos données enregistrées. si l’ancienne version indique que vos données sont plus récentes, restaurez la copie d’avant la mise à jour.",
+    "go_back_to": "revenir à la v{version}",
+    "confirm_go_back_to": "oui, revenir à la v{version}",
+    "going_back": "retour en cours…",
+    "couldn_t_go_back": "impossible de revenir en arrière : {error}",
+    "previous_version_unavailable": "la version précédente n’est plus disponible"
   },
   "update_gate": {
     "carry_on": "continuer",
@@ -238,5 +258,12 @@
       "offline": "hors ligne",
       "self-hosted": "auto-hébergé"
     }
+  },
+  "device_gate": {
+    "document_title": "kalibre · écran plus grand requis",
+    "title": "kalibre a besoin d’un écran plus grand",
+    "phone": "les téléphones ne sont pas pris en charge. l’espace de frappe, les outils et les jeux de kalibre nécessitent plus d’espace qu’un téléphone ne peut en offrir.",
+    "platforms": "utilisez un ordinateur, un iPad sous iPadOS ou une tablette Android. l’affichage en mode paysage est particulièrement adapté.",
+    "keyboard": "un clavier physique est recommandé pour les longues séances de frappe, mais il n’est pas obligatoire. les claviers virtuels restent pris en charge sur tablette."
   }
 }

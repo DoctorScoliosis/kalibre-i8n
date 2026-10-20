@@ -175,6 +175,9 @@
     "with_lap": " · {lap}",
     "time_left": "{time}Links",
     "last_standing": "{time}· Letzter Sieg",
-    "to_finish": "{seconds}S bis zum Ende"
+    "to_finish": "{seconds}S bis zum Ende",
+    "ghost_pace_survived": "{wpm} WPM · {time} überlebt",
+    "ghost_accuracy_survived": "{accuracy} · {time} überlebt",
+    "ghost_survived": "{time} überlebt"
   }
 }

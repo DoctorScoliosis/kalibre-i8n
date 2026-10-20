@@ -149,7 +149,16 @@
     "shrinking": "正在缩小……",
     "change_picture": "更改图片",
     "add_a_picture": "添加图片",
-    "optional_shrunk_to_a_small": "可选。缩小为小正方形并保留在此浏览器中。"
+    "optional_shrunk_to_a_small": "可选。缩小为小正方形并保留在此浏览器中。",
+    "take_photo": "拍摄照片",
+    "capture_photo": "拍摄",
+    "retake_photo": "重拍",
+    "use_photo": "使用照片",
+    "camera_preview": "相机预览",
+    "camera_not_available": "此浏览器无法使用相机。",
+    "camera_permission_denied": "相机访问权限被拒绝。",
+    "camera_not_found": "在此设备上未找到相机。",
+    "camera_error": "无法访问相机。"
   },
   "profile_import": {
     "import_a_profile_file": "导入个人资料文件",
@@ -265,7 +274,8 @@
     "auto_accept_yes": "是，自动添加",
     "language_detail": {
       "en-US": "美式拼写",
-      "zh-CN": "简体中文"
+      "zh-CN": "简体中文",
+      "fr-FR": "法语（法国）"
     }
   },
   "passkey_utils": {

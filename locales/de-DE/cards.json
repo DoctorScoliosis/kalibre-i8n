@@ -38,7 +38,14 @@
         "hint": "Kleiden Sie Ihren Rennwagen: Es ist das, was Sie auf der Strecke fahren, und was jeder Rennsport sieht Sie"
       }
     },
-    "tint": "{slot}Tönung"
+    "tint": "{slot}Tönung",
+    "rotate_left": "nach links drehen",
+    "rotate_right": "nach rechts drehen",
+    "scale_smaller": "kleiner",
+    "scale_bigger": "größer",
+    "blend_into": "überblenden in",
+    "showcase_achievements": "Erfolge präsentieren",
+    "a_card_holds_at_most_stickers": "Eine Karte fasst höchstens {max} Sticker"
   },
   "cosmetics": {
     "CARD_SLOTS": {

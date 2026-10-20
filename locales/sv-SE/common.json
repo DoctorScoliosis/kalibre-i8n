@@ -36,10 +36,13 @@
   "modal": {
     "language_reload_title": "byta språk?",
     "language_reload_body": "kalibre laddar om för att byta språk. spara först det du arbetar med: ett pågående test, en text du skriver eller temaändringar som inte har sparats går förlorade.",
-    "close_named": "stäng {title}"
+    "close_named": "stäng {title}",
+    "headerless_accessible_name_required": "Modala fönster utan rubrik kräver ett tillgängligt namn."
   },
   "translation": {
-    "not_checked_yet": "(ännu inte kontrollerat av en person med svenska som modersmål)"
+    "not_checked_yet": "(ännu inte kontrollerat av en person med svenska som modersmål)",
+    "progress": "översättningsframsteg: {percent}%",
+    "remaining": "{count, plural, one {# meddelande kvar på engelska} other {# meddelanden kvar på engelska}}"
   },
   "colour_picker": {
     "saturation_and_brightness": "mättnad och ljusstyrka",

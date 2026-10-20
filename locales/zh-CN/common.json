@@ -36,10 +36,13 @@
   "modal": {
     "language_reload_title": "更换语言？",
     "language_reload_body": "kalibre 需要重新加载以更改语言。请先保存正在进行的内容：进行中的测试、正在编写的文本或未保存的主题编辑都将丢失。",
-    "close_named": "关闭 {title}"
+    "close_named": "关闭 {title}",
+    "headerless_accessible_name_required": "无标题模态框需要提供无障碍名称。"
   },
   "translation": {
-    "not_checked_yet": "(尚未由母语者审核)"
+    "not_checked_yet": "(尚未由母语者审核)",
+    "progress": "翻译进度：{percent}%",
+    "remaining": "{count, plural, other {还有 # 条消息为英文}}"
   },
   "colour_picker": {
     "saturation_and_brightness": "饱和度与亮度",

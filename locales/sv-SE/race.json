@@ -175,6 +175,9 @@
     "with_lap": " · {lap}",
     "time_left": "{time} kvar",
     "last_standing": "{time} · den sista kvar vinner",
-    "to_finish": "{seconds} s kvar till mål"
+    "to_finish": "{seconds} s kvar till mål",
+    "ghost_pace_survived": "{wpm} wpm · {time} överlevde",
+    "ghost_accuracy_survived": "{accuracy} · {time} överlevde",
+    "ghost_survived": "{time} överlevde"
   }
 }

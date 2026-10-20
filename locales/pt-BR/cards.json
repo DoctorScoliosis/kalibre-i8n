@@ -38,7 +38,14 @@
         "hint": "vista seu carro de corrida: é o que você dirige na pista e o que todos que correm contra você veem"
       }
     },
-    "tint": "{slot}Tonalidade"
+    "tint": "{slot}Tonalidade",
+    "rotate_left": "girar para a esquerda",
+    "rotate_right": "girar para a direita",
+    "scale_smaller": "menor",
+    "scale_bigger": "maior",
+    "blend_into": "mesclar com",
+    "showcase_achievements": "destacar conquistas",
+    "a_card_holds_at_most_stickers": "um cartão suporta no máximo {max} adesivos"
   },
   "cosmetics": {
     "CARD_SLOTS": {

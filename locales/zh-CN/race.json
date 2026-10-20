@@ -175,6 +175,9 @@
     "with_lap": " · {lap}",
     "time_left": "剩余 {time}",
     "last_standing": "{time} · 最后坚持者获胜",
-    "to_finish": "还有 {seconds} 秒完成"
+    "to_finish": "还有 {seconds} 秒完成",
+    "ghost_pace_survived": "{wpm} wpm · 坚持了 {time}",
+    "ghost_accuracy_survived": "{accuracy} · 坚持了 {time}",
+    "ghost_survived": "坚持了 {time}"
   }
 }
