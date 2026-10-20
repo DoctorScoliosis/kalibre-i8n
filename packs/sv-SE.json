@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "machine",
-    "revision": 5,
-    "version": "2026-10-08",
-    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
+    "revision": 6,
+    "version": "2026-10-21",
+    "changes": "Translated adaptive passage-budget settings"
   },
   "strings": {
     "about": {
@@ -2900,6 +2900,9 @@
       "dataset_cap": {
         "custom_number_of_passages_per": "anpassat antal textavsnitt per längd",
         "passages_per_length": "textavsnitt per längd",
+        "preset_adaptive": "adaptiv",
+        "label_adaptive": "adaptiva textavsnitt per längd",
+        "hint": "Hur många textavsnitt varje text behåller för varje citatlängd, från kort till mycket lång. Adaptivt behåller fler textavsnitt för längre texter, upp till en praktisk gräns; de andra alternativen behåller högst ett fast antal eller alla textavsnitt. Fler textavsnitt ger större variation och tar mer utrymme.",
         "about": "cirka {size} på disken",
         "small": "{about}.",
         "large_no_limit": "utan gräns sparas varje textavsnitt: {about} för dessa texter. Det tar mycket plats och tar en stund att bygga.",
