@@ -535,13 +535,13 @@
       "feed": {
         "options": {
           "serving": {
-            "label": "serving tray",
+            "label": "serveerdienblad",
             "choices": {
               "off": {
-                "label": "off"
+                "label": "uit"
               },
               "on": {
-                "label": "on"
+                "label": "aan"
               }
             }
           }
@@ -708,45 +708,45 @@
             }
           },
           "serving": {
-            "label": "physical serving",
-            "group": "getting started",
-            "summary": "load words onto the spoon and physically carry them to the creature to serve.",
+            "label": "fysiek serveren",
+            "group": "eerste stappen",
+            "summary": "Laad woorden op de lepel en breng ze fysiek naar het wezen om het te voeren.",
             "highlights": [
-              "type a word to load it onto the spoon",
-              "click the spoon, drag it to the creature, and release to serve"
+              "Typ een woord om het op de lepel te laden",
+              "Klik op de lepel, sleep naar het wezen en laat los om te serveren"
             ],
             "details": [
-              "matching words feed the creature and restore time; wrong words cost time.",
-              "drop outside the creature to keep the food and try again.",
-              "press escape to cancel the food on the spoon."
+              "Overeenkomende woorden voeren het wezen en herstellen tijd; verkeerde woorden kosten tijd.",
+              "Laat buiten het wezen los om het voedsel te behouden en opnieuw te proberen.",
+              "Druk op Escape om het voedsel op de lepel te annuleren."
             ],
             "mechanics": {
               "spoon": {
-                "label": "spoon",
-                "summary": "a valid typed word loads the spoon. click and drag to serve."
+                "label": "lepel",
+                "summary": "Een geldig getypt woord laadt de lepel. Klik en sleep om te serveren."
               },
               "targeting": {
-                "label": "targeting",
-                "summary": "hover over the creature to highlight it, then release to deliver the food."
+                "label": "richten",
+                "summary": "Beweeg over het wezen om het te markeren en laat los om het voedsel te bezorgen."
               }
             },
             "controls": {
               "i0": {
-                "action": "load spoon"
+                "action": "lepel laden"
               },
               "i1": {
-                "action": "carry and serve"
+                "action": "dragen en serveren"
               },
               "i2": {
-                "action": "cancel food"
+                "action": "voedsel annuleren"
               }
             },
             "visuals": {
               "loaded-spoon": {
-                "label": "loaded spoon"
+                "label": "geladen lepel"
               },
               "creature-highlight": {
-                "label": "target highlight"
+                "label": "doelmarkering"
               }
             }
           }
@@ -759,6 +759,17 @@
             "choices": {
               "endless": {
                 "label": "endless"
+              }
+            }
+          },
+          "variant": {
+            "label": "versie",
+            "choices": {
+              "siege": {
+                "label": "de belegering"
+              },
+              "climb": {
+                "label": "de torenbeklimming"
               }
             }
           }
@@ -875,12 +886,14 @@
             "group": "fighting",
             "highlights": [
               "shift+enter drops a brick on the targeted attacker",
-              "brutes ram, sappers chip, catapults lob boulders from a distance"
+              "brutes ram, sappers chip, catapults lob boulders from a distance",
+              "een reus vereist een sterk woord"
             ],
             "details": [
               "a brick drop deals damage equal to the brick’s strength.",
               "an enemy that isn’t crushed may be stunned for a moment.",
-              "catapults station at a distance: a dashed arc shows where one is aiming."
+              "catapults station at a distance: a dashed arc shows where one is aiming.",
+              "een reus heeft veel meer gezondheid. Zwakke stenen deren hem nauwelijks en verdoven niet: alleen een sterk woord heeft effect."
             ],
             "mechanics": {
               "brute": {
@@ -892,7 +905,8 @@
                 "summary": "chips at sections. wanders between targets."
               },
               "catapult": {
-                "label": "catapult"
+                "label": "catapult",
+                "about": "Staat achter in het veld met bemanning en rotsen en slingert keien in een hoge boog. Werp een steen op het wapen of de bediener om het te stoppen."
               },
               "stun": {
                 "label": "stun",
@@ -901,6 +915,10 @@
               "drops": {
                 "label": "brick drops",
                 "summary": "drop a brick on an enemy to damage or crush it."
+              },
+              "giant": {
+                "label": "reus",
+                "summary": "Een kolossale stormram die nooit moe wordt. Vereist een sterk woord: zwakke stenen deren hem nauwelijks en kunnen hem niet verdoven."
               }
             },
             "controls": {
@@ -914,6 +932,9 @@
             "subDemos": {
               "i0": {
                 "label": "brick drops"
+              },
+              "i1": {
+                "label": "een reus"
               }
             },
             "visuals": {
@@ -928,8 +949,12 @@
               },
               "boulder-arc": {
                 "label": "boulder arc"
+              },
+              "giant-stomp": {
+                "label": "reus (stampen)"
               }
-            }
+            },
+            "intro": "Laat stenen op aanvallers vallen om ze te verpletteren en slinger stenen naar katapulten in het veld."
           },
           "powering-up": {
             "label": "powering up",
@@ -986,6 +1011,239 @@
                 "label": "field mend (repair)"
               }
             }
+          },
+          "siege": {
+            "group": "belegering",
+            "label": "belegering",
+            "summary": "Katapulten en hun bemanning opereren achter in het veld. Schakel de bedieners uit, vernietig het frame of laat hun rotsen opraken.",
+            "details": [
+              "Elke katapult heeft één bediener en een stapel rotsen. De bediener draagt een rots, laadt, richt en vuurt.",
+              "Schakel de bediener uit en de katapult stopt. Een reeds geladen rots blijft liggen, maar niemand kan hem afvuren.",
+              "Een harde treffer op het frame tijdens het richten laat de rots vallen. Vernietig het frame om het in puin te veranderen.",
+              "Latere golven kunnen een reparatieploeg naar het puin sturen. Houd hen tegen zodat het puin blijft liggen."
+            ],
+            "highlights": [
+              "Bedieners dragen rotsen en laden de katapult: let op de werpboog",
+              "Slinger een steen naar de bediener of het frame: klik erop of beweeg de cursor omhoog en druk op Shift+Enter"
+            ],
+            "controls": {
+              "i0": {
+                "action": "naar boven bewegen naar de belegeringslinie"
+              },
+              "i1": {
+                "action": "steen slingeren naar bediener, dan naar het frame"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "katapultcyclus"
+              },
+              "i1": {
+                "label": "een schot stoppen"
+              }
+            },
+            "mechanics": {
+              "crew": {
+                "label": "bemanning",
+                "summary": "Draagt rotsen van de stapel naar de lepel. Schakel hen uit om de katapult te stoppen."
+              },
+              "rocks": {
+                "label": "rotsen",
+                "summary": "Elke katapult start met een beperkte voorraad. Bij elke laadbeurt wordt er één verbruikt."
+              },
+              "interrupt": {
+                "label": "onderbreken",
+                "summary": "Een harde klap op het frame tijdens het richten laat de rots vallen."
+              },
+              "rubble": {
+                "label": "puin",
+                "summary": "Een vernielde katapult laat puin achter. Een reparatieploeg kan proberen hem te herbouwen."
+              }
+            },
+            "visuals": {
+              "catapult-crew": {
+                "label": "katapult en bemanning"
+              },
+              "rock-pile": {
+                "label": "rotsstapel"
+              },
+              "rubble-heap": {
+                "label": "puinhoop"
+              },
+              "repair-crew": {
+                "label": "reparatieploeg"
+              }
+            }
+          },
+          "sabotage": {
+            "group": "sabotage",
+            "label": "sabotage",
+            "summary": "Anarchisten plaatsen dynamiet en gooien brandfakkels. Ontmantel dynamiet, blus branden of schakel de anarchist uit.",
+            "details": [
+              "Dynamiet tikt af met een brandende lont op de muur. Ontmantel het door te klikken of op Backspace te drukken in die sectie voor de explosie.",
+              "Vuur verspreidt zich en verzwakt muren continu. Een sectie die instort neemt zijn vuur mee naar beneden.",
+              "Elk getypt woord kan de emmer vullen volgens zijn steenkracht. Druk op 0 met een gekozen steen of klik op de steen en dan op de emmer. Druk leeg op 0 om te gieten.",
+              "elk getypt woord kan de emmer vullen volgens zijn steenkracht. Druk op 0 met gekozen stenen, of klik op een steen en dan op de emmer. Druk op 0 zonder keuze of klik op de emmer en dan op een brandende sectie om te gieten. Esc zet hem neer."
+            ],
+            "highlights": [
+              "Dynamiet heeft een brandende lont: klik erop of druk op Backspace in die sectie",
+              "Elk woord vult de emmer: houd hem klaar en giet over een brand"
+            ],
+            "controls": {
+              "i0": {
+                "action": "dynamiet in de sectie ontmantelen"
+              },
+              "i1": {
+                "action": "emmer vullen of klaarmaken om te gieten"
+              },
+              "i2": {
+                "action": "gieten over de brandende sectie"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "dynamiet"
+              },
+              "i1": {
+                "label": "brandbestrijding"
+              }
+            },
+            "mechanics": {
+              "anarchist": {
+                "label": "anarchist",
+                "summary": "Plaatst dynamiet of gooit fakkels achter elkaar. Schakel hem uit om verdere schade te voorkomen."
+              },
+              "dynamite": {
+                "label": "dynamiet",
+                "summary": "Brandende lont op muur of toren. Verwoest de sectie, buren en wat aan de voet staat."
+              },
+              "fire": {
+                "label": "brand",
+                "summary": "Verbrandt een basis of donjon, en kan op hogere niveaus overslaan naar buren."
+              },
+              "bucket": {
+                "label": "emmer",
+                "summary": "Elk woord vult hem volgens steenkracht. Eén gietbeurt blust één brand."
+              }
+            },
+            "visuals": {
+              "dynamite-fuse": {
+                "label": "dynamiet en lont"
+              },
+              "fire-flame": {
+                "label": "brand"
+              },
+              "water-bucket": {
+                "label": "wateremmer"
+              }
+            }
+          },
+          "defence": {
+            "group": "verdediging",
+            "label": "verdediging",
+            "summary": "De twee bases sturen golven soldaten om de muren te verdedigen. Houd ze intact en let op voor eigen vuur.",
+            "details": [
+              "De twee bases zijn de funderingen achter de poort. Elke telt af, staat paraat en stuurt soldaten zodra er een vijandelijke golf is.",
+              "Soldaten lopen naar de dichtstbijzijnde bruut, sappeur of anarchist en vallen hem aan. Beziggehouden aanvallers slaan soldaten in plaats van muren.",
+              "Een basis die verloren gaat tijdens het aftellen verliest die golf. Een basis die tijdens het uitzenden valt voltooit de reeds vertrokken troepen.",
+              "Op moeilijk verwonden vallende stenen ook eigen soldaten naast de aanvaller. Soldaten keren terug wanneer de vijand wijkt."
+            ],
+            "highlights": [
+              "Soldaten rukken uit vanuit de funderingen en binden aanvallers in gevecht",
+              "Houd de funderingen intact om steeds grotere ondersteuningsgolven te sturen"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "soldaten uitzenden"
+              },
+              "i1": {
+                "label": "vijanden afleiden"
+              }
+            },
+            "mechanics": {
+              "bases": {
+                "label": "funderingbases",
+                "summary": "Verzamelen troepen en zenden steungolven uit bij vijandelijk contact."
+              },
+              "soldiers": {
+                "label": "soldaten",
+                "summary": "Vechten tegen bruten en sappeurs om muren te ontlasten."
+              },
+              "friendly_fire": {
+                "label": "eigen vuur",
+                "summary": "Alleen op moeilijk: vallende stenen verwonden ook soldaten die naast het doelwit staan."
+              }
+            },
+            "visuals": {
+              "soldier-helmet": {
+                "label": "soldaat"
+              },
+              "base-ring": {
+                "label": "basis en ring"
+              }
+            }
+          },
+          "climb": {
+            "group": "de torenbeklimming",
+            "label": "de torenbeklimming",
+            "summary": "Schurken zetten ladders op en werpen enterhaken naar de toren om de trappen naar de koning te bestormen. Loop zelf door de kamers, mik elke steen en bescherm de koning.",
+            "details": [
+              "De toren heeft meerdere kamers boven elkaar, een hal beneden met buitendeur en de koning op zijn troon bovenaan. Een schurk die binnenkomt loopt naar de trap en klimt omhoog.",
+              "Bereikt een schurk de koning, dan grijpt hij hem vast en daalt af naar buiten. Stop hem met stenen: als hij valt laat hij de koning vallen en moet je hem bereiken om hem veilig te stellen.",
+              "Stenen werp je met de hand: spatie pakt er een, een klik werpt naar de aanwijzer. Schrijvers eisen lange woorden, vechtjassen harde klappen, ridders beide; brandstichters stichten brand en plensgooiers maken de vloer nat."
+            ],
+            "highlights": [
+              "De toren in doorsnede: zie schurken door vensters binnendringen en jaag op de ontvoerder",
+              "Loop er zelf rond: trappen op, door de deur naar de put voor water. Elke steen wordt met de hand gericht"
+            ],
+            "controls": {
+              "i0": {
+                "action": "lopen (Shift sprint); omhoog en omlaag nemen trappen, deuren en ladders"
+              },
+              "i1": {
+                "action": "spatie of Enter pakt steen; klik werpt naar de aanwijzer"
+              },
+              "i2": {
+                "action": "backspace duwt ladder weg of snijdt touw door bij dichtbijgelegen venster"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "ladders wegduwen"
+              },
+              "i1": {
+                "label": "touwen doorsnijden"
+              },
+              "i2": {
+                "label": "verdieping valt"
+              }
+            },
+            "mechanics": {
+              "floors": {
+                "label": "verdiepingen",
+                "summary": "Schurken beklimmen de laagste nog staande kamer. Bereikt er een de top van de trap, dan is die kamer voorgoed verloren."
+              },
+              "ladders": {
+                "label": "ladders",
+                "summary": "Aan de voet gebouwd en opgericht. Duw ze weg zodat de klimmer naar beneden valt."
+              },
+              "grapples": {
+                "label": "enterhaken",
+                "summary": "Een haak aan de vensterbank. Snijd het touw door zodat de klimmer valt."
+              },
+              "impacts": {
+                "label": "impact",
+                "summary": "Een steen raakt volgens woordkracht en snelheid; voltreffers op het hoofd richten meer schade aan."
+              }
+            },
+            "visuals": {
+              "climb-tower": {
+                "label": "de toren"
+              },
+              "climb-rogue": {
+                "label": "schurk"
+              }
+            }
           }
         }
       },
@@ -1002,6 +1260,17 @@
               },
               "i2": {
                 "label": "2 min"
+              }
+            }
+          },
+          "variant": {
+            "label": "variant",
+            "choices": {
+              "standard": {
+                "label": "standaard"
+              },
+              "elite": {
+                "label": "elite"
               }
             }
           }
@@ -1203,7 +1472,8 @@
             "summary": "destroyed enemies drop powerups. catch them, store them, and switch them on.",
             "highlights": [
               "catch a floating powerup to store it",
-              "activate with shift+1–3 or click a slot"
+              "activate with shift+1–3 or click a slot",
+              "de accumulator is een power-up die woorden bundelt in één lading: spatie voegt een woord toe, spatie zonder getypte tekst vuurt het af"
             ],
             "details": [
               "up to three powerups can be stored. two kinds can be active at once; the same kind again stacks its timer.",
@@ -1211,7 +1481,8 @@
               "gatling: every letter typed fires an instant bolt.",
               "shield: a barrier absorbs hits for the ship.",
               "automaton: automatically picks the best shot for the biggest threat.",
-              "homing: fired words steer toward targets."
+              "homing: fired words steer toward targets.",
+              "de accumulator stapelt niet en heeft geen timer. Hij vuurt nooit uit zichzelf: voorbij de limiet raakt het schip overbelast, vernietigt nabije vijanden en eindigt de run. Een typefout beëindigd met spatie wordt vastgehouden tot je hem herstelt; Enter vuurt hem direct af."
             ],
             "mechanics": {
               "double": {
@@ -1233,6 +1504,10 @@
               "homing": {
                 "label": "homing",
                 "summary": "fired words steer dynamically toward targets."
+              },
+              "accumulator": {
+                "label": "accumulator",
+                "summary": "Woorden voltooid met spatie bouwen lading op; spatie zonder tekst vuurt een enkel zwaar schot af."
               }
             },
             "controls": {
@@ -1244,6 +1519,9 @@
               },
               "i2": {
                 "action": "activate powerup slot 3"
+              },
+              "i3": {
+                "action": "voeg een woord toe aan de lading, of vuur af zonder getypte tekst"
               }
             },
             "visuals": {
@@ -1261,6 +1539,93 @@
               },
               "powerup-homing": {
                 "label": "homing seeker"
+              },
+              "powerup-accumulator": {
+                "label": "accumulatormeter"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "accumulator"
+              },
+              "i1": {
+                "label": "overbelasting"
+              }
+            }
+          },
+          "boss": {
+            "group": "het moederschip",
+            "label": "het moederschip",
+            "summary": "Een gigantisch moederschip arriveert met een eigen woordvereiste, twee gatlings, onderscheppers en mijnen. Haal het neer om het gevecht te winnen.",
+            "details": [
+              "In een eindeloze run arriveert een moederschip na een reeks gewone golven en keert de run terug naar normaal wanneer het valt. Elk moederschip is taaier dan het vorige.",
+              "In een tijdrun is er één moederschip wanneer de klok afloopt. Je wint door het te verslaan; verlies van je schip is een nederlaag.",
+              "Het insigne boven het schip toont de huidige vereiste. Bij verandering telt de vorige nog even door voor schoten die al onderweg zijn.",
+              "Gatlingkogels bevatten geen letters en kunnen niet worden neergeschoten: ontwijk ze. Een schild absorbeert een heel salvo als één treffer.",
+              "Onderscheppers doorkruisen het veld en ontwijken schoten, maar geen explosies. Ze rammen nooit en hebben geen vereiste.",
+              "De woordbom beschadigt het moederschip en de wapens slechts licht, maar ruimt raketten en kogels op en vernietigt onderscheppers. Accumulatorladingen negeren de vereiste.",
+              "Terwijl het moederschip aanwezig is, verschijnen alleen asteroïden vanzelf. Reddingsschepen blijven arriveren.",
+              "Een eliterun start direct bij het moederschip en duurt op elke moeilijkheidsgraad even lang. Standhouden tot de tijd om is voltooit de uitdaging.",
+              "De meter naast je schip meet toegebrachte schade, niet resterende gezondheid, en raakt nooit helemaal vol.",
+              "Een vernietigde gatling blijft even stil en toont dan vijftien seconden lang een ring en contour voordat hij weer vuurt. Hogere niveaus repareren sneller."
+            ],
+            "highlights": [
+              "Het moederschip accepteert alleen woorden die voldoen aan zijn vereiste, die elke paar seconden wisselt",
+              "Zijn twee gatlings accepteren elk woord: vernietig er een om de helft van de kogels definitief te stoppen",
+              "Een tijdrun eindigt in een finaal moederschip: versla het om te winnen zonder tijdslimiet",
+              "Een eliterun kent geen overwinning op het moederschip: overleef tot de tijd om is en de toegebrachte schade is je score",
+              "Een vernietigde gatling wordt herbouwd na een korte pauze met een zichtbare aftelling"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "moederschip"
+              },
+              "i1": {
+                "label": "gatlings"
+              },
+              "i2": {
+                "label": "eliterun"
+              }
+            },
+            "mechanics": {
+              "mothership": {
+                "label": "moederschip",
+                "summary": "Een kolossaal schip met beperkte gezondheid, getoond als een meter naast die van jezelf."
+              },
+              "requirements": {
+                "label": "wisselende vereiste",
+                "summary": "Het gevraagde woord wisselt elke paar seconden, sneller op hogere moeilijkheidsgraden."
+              },
+              "gatlings": {
+                "label": "gatlings",
+                "summary": "Twee geschutten die salvo's kogels over het veld vuren. Vernietigde blijven uitgeschakeld."
+              },
+              "dogfighters": {
+                "label": "onderscheppers",
+                "summary": "Kleine schepen zonder letters die manoeuvreren, schoten ontwijken en korte salvo's afvuren."
+              },
+              "milestones": {
+                "label": "mijlpalen",
+                "summary": "Eindeloze runs ontmoeten elke paar golven een moederschip; tijdruns eindigen ermee."
+              },
+              "elite": {
+                "label": "eliterun",
+                "summary": "Het moederschip kan niet worden neergehaald. Overleef tot de tijd om is; toegebrachte schade is je score."
+              },
+              "regeneration": {
+                "label": "gatlingherbouw",
+                "summary": "Een vernietigde gatling wordt herbouwd na een pauze met een zichtbare aftelklok."
+              }
+            },
+            "visuals": {
+              "mothership-hull": {
+                "label": "moederschip en rompmeter"
+              },
+              "boss-gatling": {
+                "label": "gatlingsalvo"
+              },
+              "elite-meter": {
+                "label": "schademeter"
               }
             }
           }
@@ -1377,6 +1742,9 @@
               },
               "false-flag-penalty": {
                 "label": "false flag penalty"
+              },
+              "click-select": {
+                "label": "klik om te selecteren"
               }
             }
           },
@@ -1482,6 +1850,267 @@
               },
               "clean-sweep": {
                 "label": "clean sweep bonus"
+              }
+            }
+          }
+        }
+      },
+      "marathon": {
+        "help": [
+          "Een heel boek, pagina voor pagina. Vind elke ingebouwde fout (klik op een woord of gebruik de pijltjes, dan Enter) en herstel hem ter plekke.",
+          "Elke reparatie voegt tijd toe en elk vals alarm of verkeerde poging kost tijd. Als de klok op nul staat, is de run voorbij.",
+          "Een pagina is voltooid zodra alle fouten hersteld of getoond zijn; voltooi de laatste pagina met resterende tijd om te winnen."
+        ],
+        "contexts": {
+          "getting-started": {
+            "group": "eerste stappen",
+            "label": "eerste stappen",
+            "summary": "Corrigeer een heel boek uit je bibliotheek, pagina voor pagina, voordat de tijd op is.",
+            "details": [
+              "Boeken komen uit je geactiveerde verzamelingen; de volledige tekst wordt eenmalig opgehaald en bewaard.",
+              "Overslaan is niet mogelijk: een pagina blijft staan tot alle fouten zijn afgehandeld.",
+              "Voortijdig beëindigen telt als een nederlaag."
+            ],
+            "highlights": [
+              "Kies een boek tussen het minimum van de moeilijkheidsgraad en 5.000 woorden",
+              "Elke pagina wordt voltooid zodra alle fouten hersteld of getoond zijn"
+            ],
+            "controls": {
+              "i0": {
+                "action": "tussen woorden bewegen"
+              },
+              "i1": {
+                "action": "geselecteerd woord markeren of herstelling bevestigen"
+              }
+            },
+            "mechanics": {
+              "pages": {
+                "label": "pagina's",
+                "summary": "Ongeveer 150 woorden per pagina, met een fout elke 50, 40 of 30 woorden afhankelijk van de moeilijkheid."
+              }
+            },
+            "visuals": {
+              "page-progress": {
+                "label": "paginavoortgang"
+              },
+              "time-bank": {
+                "label": "tijdbank"
+              }
+            }
+          },
+          "time-bank": {
+            "group": "overleven",
+            "label": "tijdbank",
+            "summary": "De klok loopt alleen tijdens het spelen. Reparaties voegen tijd toe, fouten kosten tijd, en nul beëindigt de run meteen.",
+            "details": [
+              "Makkelijk start met 4 minuten, normaal met 3 en moeilijk met 2; de bank bevat maximaal 7, 5 of 4 minuten.",
+              "Twee foute pogingen tonen het antwoord: de pagina kan verder, maar het telt als een misser.",
+              "Woorden selecteren en de cursor verplaatsen kost nooit tijd."
+            ],
+            "highlights": [
+              "Een reparatie voegt 48, 34 of 29 seconden toe afhankelijk van de moeilijkheid",
+              "Een vals alarm of foute reparatie kost tijd"
+            ],
+            "mechanics": {
+              "reward": {
+                "label": "reparaties",
+                "summary": "Elke correctie voegt tijd toe, tot de limiet van de bank."
+              },
+              "penalty": {
+                "label": "fouten",
+                "summary": "Een vals alarm kost 4, 9 of 12 seconden; een verkeerde reparatie 5, 12 of 15."
+              }
+            },
+            "visuals": {
+              "time-gain": {
+                "label": "tijdwinst"
+              },
+              "time-loss": {
+                "label": "tijdverlies"
+              }
+            }
+          },
+          "scoring": {
+            "group": "overleven",
+            "label": "score",
+            "summary": "De score is op 1000: vooral hoe netjes je het boek hebt gecorrigeerd, plus de resterende tijd.",
+            "details": [
+              "Een perfecte run die eindigt met een volle bank scoort 1000 punten.",
+              "Getoonde antwoorden tellen als missers, niet als reparaties.",
+              "Als de tijd opraakt, scoort de run alleen voor het voltooide deel van het boek."
+            ],
+            "highlights": [
+              "80% voor reparaties over alle fouten, valse alarmen en verkeerde pogingen",
+              "20% voor de resterende tijd aan het einde"
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "kwaliteit",
+                "summary": "Reparaties gedeeld door geplaatste fouten, valse alarmen en verkeerde pogingen."
+              },
+              "time": {
+                "label": "tijd",
+                "summary": "Resterende tijd boven de limiet van de bank; nul bij een mislukte run."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "eindscore"
+              }
+            }
+          }
+        }
+      },
+      "scroller": {
+        "help": [
+          "Corrigeer een passage of een heel boek terwijl het omhoog scrollt. Vind elke geplaatste fout (klik op een woord of gebruik de pijltjes, dan Enter) en herstel hem voordat zijn regel de bovenste lijn passeert.",
+          "Je hebt vijf levens. Een vals alarm, een foute reparatie of een weggescrollde fout kost elk één leven.",
+          "Levens komen één voor één terug door reeksen successen, complexe reparaties en oplichtende herstelfouten."
+        ],
+        "contexts": {
+          "getting-started": {
+            "group": "eerste stappen",
+            "label": "eerste stappen",
+            "summary": "Corrigeer een passage of een heel boek terwijl het omhoog scrolt en herstel elke fout voordat de regel bovenaan verdwijnt.",
+            "details": [
+              "Er is geen timer: de tekst scrolt in een vast tempo voor de moeilijkheid en stopt bij pauze.",
+              "Selecteer een woord en druk op Enter om het te markeren, en verbeter het ter plekke.",
+              "Voortijdig beëindigen telt als een nederlaag."
+            ],
+            "highlights": [
+              "Een nog niet opgeloste fout die de bovenste lijn passeert kost een leven",
+              "Je hebt vijf levens en de run stopt zodra ze op zijn"
+            ],
+            "controls": {
+              "i0": {
+                "action": "tussen woorden bewegen"
+              },
+              "i1": {
+                "action": "tussen regels bewegen"
+              },
+              "i2": {
+                "action": "geselecteerd woord markeren of herstelling bevestigen"
+              }
+            },
+            "mechanics": {
+              "scrolling": {
+                "label": "scrollen",
+                "summary": "Elke regel blijft even lang in beeld, ongeacht de venstergrootte."
+              },
+              "boundary": {
+                "label": "bovenste lijn",
+                "summary": "Een fout die onopgelost de bovenste lijn passeert is definitief verloren."
+              }
+            },
+            "visuals": {
+              "lives": {
+                "label": "levens"
+              },
+              "boundary": {
+                "label": "bovenste lijn"
+              }
+            }
+          },
+          "lives-and-recovery": {
+            "group": "overleven",
+            "label": "levens en herstel",
+            "summary": "Je hebt vijf levens. Elk leven kan worden herwonnen, maar nooit meer dan één per reparatie.",
+            "details": [
+              "Een herstelfout licht op. Los hem bij de eerste poging op voor een leven; een foute eerste poging verspeelt de kans.",
+              "Elk verloren leven reset de reeks opeenvolgende reparaties.",
+              "Twee foute pogingen tonen het antwoord; die fout kan dan niet meer verloren gaan door weg te scrollen."
+            ],
+            "highlights": [
+              "Vals alarm, foute reparatie of weggescrollde fout kosten elk één leven",
+              "Tien opeenvolgende reparaties, een complexe herstelling of een herstelfout leveren een leven terug"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "herstelkans"
+              }
+            },
+            "mechanics": {
+              "lives": {
+                "label": "levens",
+                "summary": "Maximaal vijf. Nul beëindigt de run meteen."
+              },
+              "streak": {
+                "label": "reeks",
+                "summary": "Tien reparaties op rij leveren een leven terug als je onder de vijf zit."
+              },
+              "complex": {
+                "label": "complexe herstellingen",
+                "summary": "Een fout die meer dan één bewerking vereist om op te lossen levert een leven terug."
+              },
+              "recovery": {
+                "label": "herstelfouten",
+                "summary": "Zeldzaam en oplichtend: los er een bij de eerste poging op voor een leven."
+              }
+            },
+            "visuals": {
+              "life-pips": {
+                "label": "levensstippen"
+              },
+              "recovery-aura": {
+                "label": "herstelgloed"
+              }
+            }
+          },
+          "passages-and-books": {
+            "group": "spelen",
+            "label": "passages en boeken",
+            "summary": "De passagemodus speelt een fragment; de boekmodus doorloopt een heel werk van begin tot eind.",
+            "details": [
+              "Een passage is een echte tekst in originele volgorde, afgestemd op de moeilijkheid.",
+              "Een boek wordt eenmalig opgehaald en bewaard, en van het eerste tot het laatste woord gespeeld.",
+              "Een boek dat niet meer past wordt niet tussentijds vervangen."
+            ],
+            "highlights": [
+              "Passages wisselen elkaar om de beurt af bij elke run",
+              "Boeken worden gekozen uit de passende werken"
+            ],
+            "mechanics": {
+              "passages": {
+                "label": "passages",
+                "summary": "Geen keuze en niet overslaan: de volgende op rij."
+              },
+              "books": {
+                "label": "boeken",
+                "summary": "Een lange run: een heel boek, een uur of langer."
+              }
+            },
+            "visuals": {
+              "source": {
+                "label": "bron"
+              }
+            }
+          },
+          "scoring": {
+            "group": "overleven",
+            "label": "score",
+            "summary": "De score is op 1000: vooral hoe netjes je de bereikte fouten hebt opgelost, plus resterende levens.",
+            "details": [
+              "Het voltooien van het hele werk levert de volledige waardering op; falen telt alleen de afgelegde afstand zonder levensbonus.",
+              "Getoonde antwoorden en verloren fouten tellen nooit als reparaties.",
+              "Er zijn geen combo's of vermenigvuldigers."
+            ],
+            "highlights": [
+              "80% voor reparaties over bereikte fouten, valse alarmen en foute pogingen, geschaald naar voortgang",
+              "20% voor de resterende levens aan het einde"
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "kwaliteit",
+                "summary": "Reparaties gedeeld door bereikte fouten, valse alarmen en foute pogingen."
+              },
+              "lives": {
+                "label": "levens",
+                "summary": "Resterende levens op vijf; nul bij een mislukte run."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "eindscore"
               }
             }
           }

@@ -4018,13 +4018,13 @@
           "feed": {
             "options": {
               "serving": {
-                "label": "Servierschale",
+                "label": "Serviertablett",
                 "choices": {
                   "off": {
-                    "label": "Ausgeschaltet"
+                    "label": "Aus"
                   },
                   "on": {
-                    "label": "Am"
+                    "label": "Ein"
                   }
                 }
               }
@@ -4191,37 +4191,37 @@
                 }
               },
               "serving": {
-                "label": "Körperliche Versorgung",
-                "group": "Beginnen",
-                "summary": "Laden Sie Wörter auf den Löffel und tragen Sie sie physisch zur Kreatur, um zu dienen.",
+                "label": "Physisches Servieren",
+                "group": "Erste Schritte",
+                "summary": "Lade Wörter auf den Löffel und trage sie physisch zur Kreatur, um sie zu füttern.",
                 "highlights": [
-                  "Geben Sie ein Wort ein, um es auf den Löffel zu laden",
-                  "Klicken Sie auf den Löffel, ziehen Sie ihn zur Kreatur und lassen Sie ihn los, um zu dienen"
+                  "Tippe ein Wort, um es auf den Löffel zu laden",
+                  "Klicke auf den Löffel, ziehe ihn zur Kreatur und lasse zum Servieren los"
                 ],
                 "details": [
-                  "Passende Wörter füttern die Kreatur und stellen die Zeit wieder her; falsche Worte kosten Zeit.",
-                  "Fallen außerhalb der Kreatur, um das Essen zu halten und versuchen Sie es erneut.",
-                  "Presse entkommen, um das Essen auf dem Löffel zu stornieren."
+                  "Passende Wörter füttern die Kreatur und bringen Zeit zurück; falsche Wörter kosten Zeit.",
+                  "Lasse außerhalb der Kreatur los, um die Speise zu behalten und es erneut zu versuchen.",
+                  "Drücke Escape, um die Speise auf dem Löffel zu verwerfen."
                 ],
                 "mechanics": {
                   "spoon": {
                     "label": "Löffel",
-                    "summary": "Ein gültiges getipptes Wort lädt den Löffel. Klicken und ziehen, um zu dienen."
+                    "summary": "Ein gültig getipptes Wort belädt den Löffel. Klicke und ziehe zum Servieren."
                   },
                   "targeting": {
-                    "label": "Ausrichtung",
-                    "summary": "Schwebe über die Kreatur, um sie hervorzuheben, dann loszulassen, um das Essen zu liefern."
+                    "label": "Zielen",
+                    "summary": "Bewege den Zeiger über die Kreatur zum Hervorheben und lasse los, um zu füttern."
                   }
                 },
                 "controls": {
                   "i0": {
-                    "action": "Ladelöffel"
+                    "action": "Löffel beladen"
                   },
                   "i1": {
-                    "action": "Tragen und Servieren"
+                    "action": "tragen und servieren"
                   },
                   "i2": {
-                    "action": "Stornierung von Lebensmitteln"
+                    "action": "Speise verwerfen"
                   }
                 },
                 "visuals": {
@@ -4229,7 +4229,7 @@
                     "label": "Beladener Löffel"
                   },
                   "creature-highlight": {
-                    "label": "Zielmarkierung"
+                    "label": "Zielhervorhebung"
                   }
                 }
               }
@@ -4242,6 +4242,17 @@
                 "choices": {
                   "endless": {
                     "label": "Endlos"
+                  }
+                }
+              },
+              "variant": {
+                "label": "Version",
+                "choices": {
+                  "siege": {
+                    "label": "Die Belagerung"
+                  },
+                  "climb": {
+                    "label": "Der Turmsturm"
                   }
                 }
               }
@@ -4358,12 +4369,14 @@
                 "group": "Kämpfen",
                 "highlights": [
                   "Shift+enter lässt einen Stein auf den gezielten Angreifer fallen",
-                  "Brutes Ram, Sappers Chip, Katapulte lob Felsbrocken aus der Ferne"
+                  "Brutes Ram, Sappers Chip, Katapulte lob Felsbrocken aus der Ferne",
+                  "ein Riese erfordert ein starkes Wort"
                 ],
                 "details": [
                   "Ein Steintropfen verursacht Schaden, der der Stärke des Steins entspricht.",
                   "Ein Feind, der nicht zerquetscht wird, kann für einen Moment betäubt werden.",
-                  "Katapultstation in einiger Entfernung: Ein gestrichelter Bogen zeigt, wohin man zielt."
+                  "Katapultstation in einiger Entfernung: Ein gestrichelter Bogen zeigt, wohin man zielt.",
+                  "ein Riese hat weit mehr Gesundheit. Schwache Steine richten kaum Schaden an und können ihn nicht betäuben: Nur ein starkes Wort wirkt."
                 ],
                 "mechanics": {
                   "brute": {
@@ -4375,7 +4388,8 @@
                     "summary": "Chips an Abschnitten. Wandert zwischen Zielen."
                   },
                   "catapult": {
-                    "label": "Katapult"
+                    "label": "Katapult",
+                    "about": "Steht hinten im Feld mit Bedienung und Felsstapel und schleudert Felsbrocken in hoher Parabelbahn. Wirf einen Stein auf das Katapult oder seine Bedienung, um es aufzuhalten."
                   },
                   "stun": {
                     "label": "Betäubung",
@@ -4384,6 +4398,10 @@
                   "drops": {
                     "label": "Ziegelsteintropfen",
                     "summary": "Lassen Sie einen Stein auf einen Feind fallen, um ihn zu beschädigen oder zu zerquetschen."
+                  },
+                  "giant": {
+                    "label": "Riese",
+                    "summary": "Ein riesiger Rammbock, der niemals ermüdet. Er erfordert ein starkes Wort: Schwache Steine verletzen ihn kaum und können ihn nicht betäuben."
                   }
                 },
                 "controls": {
@@ -4397,6 +4415,9 @@
                 "subDemos": {
                   "i0": {
                     "label": "Ziegelsteintropfen"
+                  },
+                  "i1": {
+                    "label": "ein Riese"
                   }
                 },
                 "visuals": {
@@ -4411,8 +4432,12 @@
                   },
                   "boulder-arc": {
                     "label": "Felsbogen"
+                  },
+                  "giant-stomp": {
+                    "label": "Riese (Stampfen)"
                   }
-                }
+                },
+                "intro": "Lasse Steine auf Angreifer fallen, um sie zu zerschmettern, und schleudere Steine auf die Katapulte im Feld."
               },
               "powering-up": {
                 "label": "Hochfahren",
@@ -4469,6 +4494,239 @@
                     "label": "Ausbesserung (Reparatur)"
                   }
                 }
+              },
+              "siege": {
+                "group": "Belagerung",
+                "label": "Belagerung",
+                "summary": "Katapulte und ihre Bedienungen agieren im hinteren Feld. Schalte die Bedienung aus, zerstöre das Gestell oder lass ihnen die Felsen ausgehen.",
+                "details": [
+                  "Jedes Katapult hat eine Bedienung und einen Felsstapel. Die Bedienung trägt einen Felsen, lädt, zielt und feuert.",
+                  "Schalte die Bedienung aus, um das Katapult zu stoppen. Ein geladener Fels bleibt liegen, kann aber nicht abgefeuert werden.",
+                  "Ein starker Treffer auf das Gestell während des Zielens lässt den Felsen fallen. Zerstöre das Gestell, um es in Trümmer zu verwandeln.",
+                  "Spätere Wellen können Reparaturgruppen zu den Trümmern senden. Halte sie auf, damit die Trümmer bleiben."
+                ],
+                "highlights": [
+                  "Bedienungen tragen Felsen und laden das Katapult: Achte auf die Wurfbahn",
+                  "Wirf einen Stein auf Bedienung oder Gestell: anklicken oder Zeiger nach oben bewegen und Umschalt+Eingabe drücken"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "nach oben zur Belagerungslinie bewegen"
+                  },
+                  "i1": {
+                    "action": "Stein auf Bedienung schleudern, dann auf das Gestell"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "Katapult-Ablauf"
+                  },
+                  "i1": {
+                    "label": "Schuss abwehren"
+                  }
+                },
+                "mechanics": {
+                  "crew": {
+                    "label": "Bedienung",
+                    "summary": "Trägt Felsen vom Stapel zur Ladeschale. Schalte sie aus, um das Katapult anzuhalten."
+                  },
+                  "rocks": {
+                    "label": "Felsen",
+                    "summary": "Jedes Katapult startet mit wenigen Felsen. Bei jedem Laden wird einer verbraucht."
+                  },
+                  "interrupt": {
+                    "label": "Unterbrechen",
+                    "summary": "Ein harter Treffer auf das Gestell während des Zielens lässt den Felsen fallen."
+                  },
+                  "rubble": {
+                    "label": "Trümmer",
+                    "summary": "Ein zerstörtes Katapult hinterlässt Trümmer. Reparaturgruppen können versuchen, es wieder aufzubauen."
+                  }
+                },
+                "visuals": {
+                  "catapult-crew": {
+                    "label": "Katapult und Bedienung"
+                  },
+                  "rock-pile": {
+                    "label": "Felsstapel"
+                  },
+                  "rubble-heap": {
+                    "label": "Trümmerhaufen"
+                  },
+                  "repair-crew": {
+                    "label": "Reparaturgruppe"
+                  }
+                }
+              },
+              "sabotage": {
+                "group": "Sabotage",
+                "label": "Sabotage",
+                "summary": "Anarchisten platzieren Dynamit und werfen Brandfackeln. Entschärfe Dynamit, lösche Brände oder schalte den Anarchisten aus.",
+                "details": [
+                  "Dynamit tickt an der Mauer herab. Entschärfe es per Klick oder Rücktaste im Abschnitt, bevor es explodiert.",
+                  "Feuer breitet sich aus und schwächt Mauern stetig. Ein Abschnitt, der einstürzt, reißt sein Feuer mit in die Tiefe.",
+                  "Jedes getippte Wort kann den Eimer füllen, entsprechend seiner Steinstärke. Drücke 0 mit gewählten Steinen oder klicke den Stein und dann den Eimer. Drücke 0 ohne Auswahl zum Löschen.",
+                  "jedes getippte Wort kann den Eimer füllen, entsprechend seiner Steinstärke. Drücke 0 mit ausgewählten Steinen oder klicke einen Stein und dann den Eimer. Drücke 0 ohne Auswahl oder klicke den Eimer und dann auf einen brennenden Abschnitt zum Löschen. Esc setzt ihn ab."
+                ],
+                "highlights": [
+                  "Dynamit hat eine brennende Lunte: Anklicken oder Rücktaste im betroffenen Abschnitt",
+                  "Jedes Wort füllt den Eimer: Bereithalten und auf ein Feuer gießen"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "Dynamit am Abschnitt entschärfen"
+                  },
+                  "i1": {
+                    "action": "Eimer füllen oder zum Ausgießen bereithalten"
+                  },
+                  "i2": {
+                    "action": "auf den brennenden Abschnitt gießen"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "Dynamit"
+                  },
+                  "i1": {
+                    "label": "Brandbekämpfung"
+                  }
+                },
+                "mechanics": {
+                  "anarchist": {
+                    "label": "Anarchist",
+                    "summary": "Platziert Dynamit oder wirft Brandfackeln hintereinander. Schalte ihn aus, um weiteres Unheil zu verhindern."
+                  },
+                  "dynamite": {
+                    "label": "Dynamit",
+                    "summary": "Brennende Lunte an Mauer oder Turm. Zerstört den Abschnitt, Nachbarn und was am Fuß steht."
+                  },
+                  "fire": {
+                    "label": "Feuer",
+                    "summary": "Verbrennt Fundament oder Bergfried und kann auf höheren Stufen überspringen."
+                  },
+                  "bucket": {
+                    "label": "Eimer",
+                    "summary": "Jedes Wort füllt ihn gemäß Steinstärke. Ein Guss löscht einen Brand."
+                  }
+                },
+                "visuals": {
+                  "dynamite-fuse": {
+                    "label": "Dynamit und Lunte"
+                  },
+                  "fire-flame": {
+                    "label": "Feuer"
+                  },
+                  "water-bucket": {
+                    "label": "Wassereimer"
+                  }
+                }
+              },
+              "defence": {
+                "group": "Verteidigung",
+                "label": "Verteidigung",
+                "summary": "Die beiden Basen entsenden Wellen von Soldaten, um die Mauern zu verteidigen. Halte die Basen instand und schütze deine Truppen vor Eigenbeschuss.",
+                "details": [
+                  "Die zwei Basen sind die Fundamente hinter dem Tor. Jede zählt herunter, ist bereit und entsendet eine Welle Soldaten bei Feindangriff. Jede Welle wird größer.",
+                  "Soldaten marschieren zum nächsten Schläger, Pionier oder Anarchisten und kämpfen gegen ihn. Kämpfende Angreifer schlagen Soldaten statt Mauern.",
+                  "Geht eine Basis beim Herunterzählen verloren, entfällt die Welle. Geht sie während des Entsendens verloren, schließt sie die Welle ab.",
+                  "Auf Schwer verletzen abgeworfene Steine auch eigene Soldaten neben dem Angreifer. Soldaten kehren heim, wenn Feinde weichen."
+                ],
+                "highlights": [
+                  "Soldaten rücken aus den Fundamenten vor und binden Angreifer im Nahkampf",
+                  "Halte die Fundamente intakt, um größere Verstärkungswellen zu sichern"
+                ],
+                "subDemos": {
+                  "i0": {
+                    "label": "Soldaten rücken aus"
+                  },
+                  "i1": {
+                    "label": "Feinde ablenken"
+                  }
+                },
+                "mechanics": {
+                  "bases": {
+                    "label": "Fundament-Basen",
+                    "summary": "Bauen Truppen auf und entsenden Wellen bei Feindkontakt."
+                  },
+                  "soldiers": {
+                    "label": "Soldaten",
+                    "summary": "Kämpfen gegen Schläger und Pioniere, um Mauern zu entlasten."
+                  },
+                  "friendly_fire": {
+                    "label": "Eigenbeschuss",
+                    "summary": "Nur auf Schwer: Herabfallende Steine verletzen auch Soldaten, die neben dem Ziel stehen."
+                  }
+                },
+                "visuals": {
+                  "soldier-helmet": {
+                    "label": "Soldat"
+                  },
+                  "base-ring": {
+                    "label": "Basis und Ring"
+                  }
+                }
+              },
+              "climb": {
+                "group": "Der Turmsturm",
+                "label": "Der Turmsturm",
+                "summary": "Schurken stellen Leitern auf und werfen Enterhaken an den Turm, um die Treppen zum König zu erstürmen. Gehe selbst durch die Räume, ziele mit Steinen und beschütze den König.",
+                "details": [
+                  "Der Turm hat mehrere Etagen übereinander, eine Eingangshalle unten mit Außentür und den König auf seinem Thron ganz oben. Ein eindringender Schurke läuft zur Treppe und steigt hinauf.",
+                  "Erreicht ein Schurke den König, trägt er ihn die Treppe hinab und durch die Tür nach draußen. Halte ihn mit Steinen auf: Fällt er, lässt er den König fallen. Erreicht er die Außenlinie, ist der Lauf verloren.",
+                  "Steine werden von Hand geworfen: Leertaste rüstet einen aus, Klick wirft zum Zeiger. Schreiber verlangen bestimmte Wortlängen, Raufbolde harte Treffer, Ritter beides; Brandstifter legen Feuer, Platscher machen den Boden nass."
+                ],
+                "highlights": [
+                  "Der Turm im Querschnitt: Sieh Schurken durch Fenster einsteigen und jage dem Entführer nach",
+                  "Gehe selbst umher: Treppen rauf, durch die Tür zum Brunnen für Wasser. Jeder Stein wird von Hand gezielt"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "gehen (Umschalt sprintet); Auf/Ab nimmt Treppen, Türen und Leitern"
+                  },
+                  "i1": {
+                    "action": "Leertaste oder Eingabe nimmt Stein; Klick wirft zum Zeiger"
+                  },
+                  "i2": {
+                    "action": "Rücktaste stößt Leiter um oder trennt Seil am nahen Fenster"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "Leitern umstoßen"
+                  },
+                  "i1": {
+                    "label": "Seile kappen"
+                  },
+                  "i2": {
+                    "label": "Etage fällt"
+                  }
+                },
+                "mechanics": {
+                  "floors": {
+                    "label": "Etagen",
+                    "summary": "Schurken erklimmen die unterste stehende Etage. Erreicht einer das Treppenende, fällt die Etage dauerhaft."
+                  },
+                  "ladders": {
+                    "label": "Leitern",
+                    "summary": "Am Turmfuß gebaut und aufgerichtet. Stoße sie von der Mauer, damit der Kletterer stürzt."
+                  },
+                  "grapples": {
+                    "label": "Enterhaken",
+                    "summary": "Ein Seilhaken am Fenstersims. Kappe das Seil, damit der Kletterer abstürzt."
+                  },
+                  "impacts": {
+                    "label": "Trefferwirkung",
+                    "summary": "Ein Stein trifft gemäß Wortlänge und Wurfgeschwindigkeit; Kopftreffer richten mehr an."
+                  }
+                },
+                "visuals": {
+                  "climb-tower": {
+                    "label": "Der Turm"
+                  },
+                  "climb-rogue": {
+                    "label": "Schurke"
+                  }
+                }
               }
             }
           },
@@ -4485,6 +4743,17 @@
                   },
                   "i2": {
                     "label": "2 Min"
+                  }
+                }
+              },
+              "variant": {
+                "label": "Modus",
+                "choices": {
+                  "standard": {
+                    "label": "Standard"
+                  },
+                  "elite": {
+                    "label": "Elite"
                   }
                 }
               }
@@ -4686,7 +4955,8 @@
                 "summary": "Zerstörte Feinde lassen Powerups fallen. Fangen Sie sie, speichern Sie sie und schalten Sie sie ein.",
                 "highlights": [
                   "Fangen Sie ein schwimmendes Powerup, um es zu speichern",
-                  "Aktivieren Sie mit Shift+1-3 oder klicken Sie auf einen Slot"
+                  "Aktivieren Sie mit Shift+1-3 oder klicken Sie auf einen Slot",
+                  "der Akkumulator ist ein Powerup, das Wörter zu einer Ladung bündelt: Leertaste fügt ein Wort hinzu, Leertaste ohne Eingabe feuert es ab"
                 ],
                 "details": [
                   "Bis zu drei Powerups können gespeichert werden. Zwei Arten können gleichzeitig aktiv sein; die gleiche Art stapelt wieder ihren Timer.",
@@ -4694,7 +4964,8 @@
                   "Gatling: Jeder eingegebene Buchstabe feuert einen Sofortbolzen ab.",
                   "Schild: eine Barriere absorbiert Treffer für das Schiff.",
                   "Automat: wählt automatisch den besten Schuss für die größte Bedrohung.",
-                  "Homing: Gefeuerte Worte steuern auf Ziele zu."
+                  "Homing: Gefeuerte Worte steuern auf Ziele zu.",
+                  "der Akkumulator stapelt nicht und hat keinen Timer. Er feuert nie von selbst: Über dem Limit überlädt das Schiff, zerstört nahe Feinde und der Lauf endet. Ein mit Leertaste beendeter Tippfehler wird gehalten, bis du ihn korrigierst; Eingabetaste feuert ihn direkt ab."
                 ],
                 "mechanics": {
                   "double": {
@@ -4716,6 +4987,10 @@
                   "homing": {
                     "label": "Hominging",
                     "summary": "Gefeuerte Wörter steuern dynamisch auf Ziele zu."
+                  },
+                  "accumulator": {
+                    "label": "Akkumulator",
+                    "summary": "Mit Leertaste beendete Wörter bauen eine Ladung auf; Leertaste ohne Eingabe feuert einen schweren Schuss ab."
                   }
                 },
                 "controls": {
@@ -4727,6 +5002,9 @@
                   },
                   "i2": {
                     "action": "Powerup-Slot 3 aktivieren"
+                  },
+                  "i3": {
+                    "action": "Wort zur Ladung hinzufügen oder abfeuern, wenn nichts getippt ist"
                   }
                 },
                 "visuals": {
@@ -4744,6 +5022,93 @@
                   },
                   "powerup-homing": {
                     "label": "Suchende Suchende"
+                  },
+                  "powerup-accumulator": {
+                    "label": "Akkumulator-Anzeige"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "Akkumulator"
+                  },
+                  "i1": {
+                    "label": "Überladung"
+                  }
+                }
+              },
+              "boss": {
+                "group": "Das Mutterschiff",
+                "label": "Das Mutterschiff",
+                "summary": "Ein riesiges Mutterschiff rückt mit Wortanforderung, zwei Gatlings, Abfangjägern und Minen an. Schalte es aus, um den Kampf zu gewinnen.",
+                "details": [
+                  "Im Endlosmodus erscheint das Mutterschiff nach einer Reihe normaler Wellen und setzt den Lauf nach seinem Fall fort. Jedes ist etwas zäher als das vorherige.",
+                  "Im Zeitmodus gibt es ein Mutterschiff nach Ablauf der Zeit. Du gewinnst durch seinen Sieg. Ein eigener Schiffbruch ist eine Niederlage.",
+                  "Die Anzeige über dem Schiff zeigt die aktuelle Anforderung. Beim Wechsel gilt die vorherige noch kurz weiter, sodass fliegende Schüsse zählen.",
+                  "Gatling-Kugeln tragen keine Buchstaben und können nicht abgeschossen werden: Weiche aus. Schilde absorbieren eine ganze Salve als einen Treffer.",
+                  "Abfangjäger kreuzen das Feld und weichen Schüssen aus, aber keinen Explosionen. Sie rammen nicht und haben keine Wortanforderung.",
+                  "Die Wortbombe schadet Mutterschiff und Gatlings nur wenig, räumt aber Raketen und Kugeln ab und zerstört Abfangjäger. Akkumulatorgeschosse ignorieren Anforderungen. Überladungen berühren das Mutterschiff nicht.",
+                  "Während das Mutterschiff da ist, erscheinen nur Asteroiden von selbst. Rettungsschiffe treffen weiter ein.",
+                  "Ein Elite-Lauf startet direkt beim Mutterschiff und dauert auf jeder Stufe gleich lang. Bis zum Zeitablauf durchzuhalten schließt ihn ab.",
+                  "Die Anzeige neben dem Schiff zählt verursachten Schaden, keine Restgesundheit, und wird nie ganz voll.",
+                  "Eine zerstörte Gatling pausiert kurz, zeigt dann Umriss und Füllring für 15 Sekunden, bevor sie wieder feuert. Höhere Stufen reparieren schneller."
+                ],
+                "highlights": [
+                  "Das Mutterschiff nimmt nur Wörter an, die seiner Anforderung entsprechen, und diese wechselt alle paar Sekunden",
+                  "Seine zwei Gatlings nehmen jedes Wort: Zerstöre eine, um die Hälfte der Geschosse dauerhaft zu stoppen",
+                  "Ein Zeitlauf endet im finalen Mutterschiff: Besiege es zum Sieg ohne weiteres Zeitlimit",
+                  "Im Elite-Lauf kann das Mutterschiff nicht zerstört werden: Überlebe und maximiere den Schaden für deine Wertung",
+                  "Eine zerstörte Gatling wird nach kurzer Pause repariert, was vorher angezeigt wird"
+                ],
+                "subDemos": {
+                  "i0": {
+                    "label": "Mutterschiff"
+                  },
+                  "i1": {
+                    "label": "Gatlings"
+                  },
+                  "i2": {
+                    "label": "Elite-Lauf"
+                  }
+                },
+                "mechanics": {
+                  "mothership": {
+                    "label": "Mutterschiff",
+                    "summary": "Ein großes Schiff mit begrenzten Trefferpunkten, dargestellt als Balken neben deinem eigenen."
+                  },
+                  "requirements": {
+                    "label": "Wechselnde Anforderung",
+                    "summary": "Das gewünschte Wort wechselt alle paar Sekunden, auf höheren Stufen noch schneller."
+                  },
+                  "gatlings": {
+                    "label": "Gatlings",
+                    "summary": "Zwei Geschütze feuern Kugelsalven über das Feld. Zerstörte bleiben zerstört."
+                  },
+                  "dogfighters": {
+                    "label": "Abfangjäger",
+                    "summary": "Kleine Schiffe ohne Buchstaben, die ausweichen und kurze Salven abgeben."
+                  },
+                  "milestones": {
+                    "label": "Meilensteine",
+                    "summary": "Endlosläufe treffen alle paar Wellen auf ein Mutterschiff; Zeitläufe enden damit."
+                  },
+                  "elite": {
+                    "label": "Elite-Lauf",
+                    "summary": "Das Mutterschiff kann nicht zerstört werden. Überlebe bis Zeitablauf; erzielter Schaden ist deine Wertung."
+                  },
+                  "regeneration": {
+                    "label": "Gatling-Reparatur",
+                    "summary": "Eine zerstörte Gatling wird nach kurzer Pause mit sichtbarem Countdown wieder aufgebaut."
+                  }
+                },
+                "visuals": {
+                  "mothership-hull": {
+                    "label": "Mutterschiff und Rumpfanzeige"
+                  },
+                  "boss-gatling": {
+                    "label": "Gatling-Salve"
+                  },
+                  "elite-meter": {
+                    "label": "Schadensanzeige"
                   }
                 }
               }
@@ -4968,6 +5333,267 @@
                   },
                   "clean-sweep": {
                     "label": "Clean Sweep Bonus"
+                  }
+                }
+              }
+            }
+          },
+          "marathon": {
+            "help": [
+              "Ein ganzes Buch, Seite für Seite. Finde jeden eingebauten Fehler (Wort anklicken oder Pfeiltasten, dann Eingabe) und korrigiere ihn an Ort und Stelle.",
+              "Jede Reparatur bringt Zeit und jeder Fehlalarm oder Fehlversuch kostet Zeit. Erreicht die Uhr null, ist der Durchlauf vorbei.",
+              "Eine Seite ist geschafft, sobald alle Fehler behoben oder aufgedeckt sind; schließe die letzte Seite vor Ablauf der Zeit ab, um zu gewinnen."
+            ],
+            "contexts": {
+              "getting-started": {
+                "group": "Erste Schritte",
+                "label": "Erste Schritte",
+                "summary": "Lies Korrektur an einem ganzen Buch aus deiner Bibliothek, Seite für Seite, bevor die Zeit abläuft.",
+                "details": [
+                  "Bücher stammen aus deinen aktivierten Sammlungen; der Volltext wird einmal geladen und behalten.",
+                  "Es gibt kein Überspringen: Eine Seite bleibt, bis ihre Fehler behoben sind.",
+                  "Ein vorzeitiges Beenden zählt als Niederlage."
+                ],
+                "highlights": [
+                  "Wähle ein Buch zwischen dem Mindestumfang der Schwierigkeit und 5.000 Wörtern",
+                  "Jede Seite schließt ab, sobald alle Fehler behoben oder aufgedeckt wurden"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "zwischen Wörtern wechseln"
+                  },
+                  "i1": {
+                    "action": "ausgewähltes Wort markieren oder Korrektur bestätigen"
+                  }
+                },
+                "mechanics": {
+                  "pages": {
+                    "label": "Seiten",
+                    "summary": "Etwa 150 Wörter pro Seite, mit einem Fehler alle 50, 40 oder 30 Wörter je nach Schwierigkeit."
+                  }
+                },
+                "visuals": {
+                  "page-progress": {
+                    "label": "Seitenfortschritt"
+                  },
+                  "time-bank": {
+                    "label": "Zeitkonto"
+                  }
+                }
+              },
+              "time-bank": {
+                "group": "Überleben",
+                "label": "Zeitkonto",
+                "summary": "Die Uhr läuft nur während des Spiels. Reparaturen bringen Zeit, Fehler kosten Zeit, und Null beendet den Durchlauf sofort.",
+                "details": [
+                  "Leicht startet mit 4 Minuten, Normal mit 3 und Schwer mit 2; das Konto fasst maximal 7, 5 oder 4 Minuten.",
+                  "Zwei Fehlversuche decken die Antwort auf: Die Seite geht weiter, zählt aber als Fehlschlag.",
+                  "Wortauswahl und Cursorbewegung kosten niemals Zeit."
+                ],
+                "highlights": [
+                  "Eine Reparatur bringt 48, 34 oder 29 Sekunden je nach Schwierigkeit",
+                  "Ein Fehlalarm oder falscher Reparaturversuch kostet Zeit"
+                ],
+                "mechanics": {
+                  "reward": {
+                    "label": "Reparaturen",
+                    "summary": "Jede Korrektur bringt Zeit ein, bis zum Limit des Zeitkontos."
+                  },
+                  "penalty": {
+                    "label": "Fehler",
+                    "summary": "Ein Fehlalarm kostet 4, 9 oder 12 Sekunden; eine falsche Korrektur 5, 12 oder 15 Sekunden."
+                  }
+                },
+                "visuals": {
+                  "time-gain": {
+                    "label": "Zeitgewinn"
+                  },
+                  "time-loss": {
+                    "label": "Zeitverlust"
+                  }
+                }
+              },
+              "scoring": {
+                "group": "Überleben",
+                "label": "Wertung",
+                "summary": "Die Punktzahl geht bis 1000: hauptsächlich wie sauber du das Buch korrigiert hast, plus verbleibende Zeit.",
+                "details": [
+                  "Ein perfekter Durchlauf mit vollem Zeitkonto erzielt 1000 Punkte.",
+                  "Aufgedeckte Antworten zählen als Fehlschläge, nicht als Reparaturen.",
+                  "Läuft die Zeit ab, zählt die Wertung nur für den geschafften Teil des Buches."
+                ],
+                "highlights": [
+                  "80% für Reparaturen gemessen an Fehlern, Fehlalarmen und Fehlversuchen",
+                  "20% für die am Ende verbleibende Restzeit"
+                ],
+                "mechanics": {
+                  "quality": {
+                    "label": "Qualität",
+                    "summary": "Reparaturen geteilt durch eingebaute Fehler, Fehlalarme und Fehlversuche."
+                  },
+                  "time": {
+                    "label": "Zeit",
+                    "summary": "Restzeit im Verhältnis zum Limit des Kontos; null bei Scheitern."
+                  }
+                },
+                "visuals": {
+                  "final-score": {
+                    "label": "Endwertung"
+                  }
+                }
+              }
+            }
+          },
+          "scroller": {
+            "help": [
+              "Lies Korrektur an einer Passage oder einem ganzen Buch während des Bildlaufs. Finde jeden eingebauten Fehler (Wort anklicken oder Pfeiltasten, dann Eingabe) und korrigiere ihn, bevor die Zeile die obere Begrenzung passiert.",
+              "Du hast fünf Leben. Ein Fehlalarm, eine falsche Korrektur oder ein vorbeiscrollender Fehler kostet jeweils ein Leben.",
+              "Leben kehren durch Serien korrekter Treffer, komplexe Korrekturen und leuchtende Erholungsfehler einzeln zurück."
+            ],
+            "contexts": {
+              "getting-started": {
+                "group": "Erste Schritte",
+                "label": "Erste Schritte",
+                "summary": "Lies Korrektur an einer Passage oder einem ganzen Buch im Aufwärtslauf und behebe jeden Fehler, bevor die Zeile oben verschwindet.",
+                "details": [
+                  "Es gibt keinen Timer: Der Text läuft im festen Tempo der Schwierigkeit und stoppt bei Pause.",
+                  "Wähle ein Wort und drücke Eingabe zum Markieren, dann verbessere es direkt im Text.",
+                  "Vorzeitiges Beenden zählt als Niederlage."
+                ],
+                "highlights": [
+                  "Ein noch ungelöster Fehler beim Passieren der oberen Linie kostet ein Leben",
+                  "Du hast fünf Leben; der Durchlauf endet sofort, wenn sie aufgebraucht sind"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "zwischen Wörtern wechseln"
+                  },
+                  "i1": {
+                    "action": "zwischen Zeilen wechseln"
+                  },
+                  "i2": {
+                    "action": "ausgewähltes Wort markieren oder Korrektur bestätigen"
+                  }
+                },
+                "mechanics": {
+                  "scrolling": {
+                    "label": "Bildlauf",
+                    "summary": "Jede Zeile bleibt unabhängig von der Fenstergröße gleich lange auf dem Bildschirm."
+                  },
+                  "boundary": {
+                    "label": "Obere Linie",
+                    "summary": "Ein noch ungelöster Fehler geht verloren, sobald seine Zeile die Linie überschreitet."
+                  }
+                },
+                "visuals": {
+                  "lives": {
+                    "label": "Leben"
+                  },
+                  "boundary": {
+                    "label": "Obere Linie"
+                  }
+                }
+              },
+              "lives-and-recovery": {
+                "group": "Überleben",
+                "label": "Leben und Erholung",
+                "summary": "Du hast fünf Leben. Jedes kann zurückgewonnen werden, aber nie mehr als eines pro Reparatur.",
+                "details": [
+                  "Ein Erholungsfehler leuchtet. Behebe ihn beim ersten Versuch für ein Leben; ein Fehlversuch verwirkt die Chance.",
+                  "Jedes verlorene Leben setzt die Serie zurück.",
+                  "Zwei Fehlversuche decken die Antwort auf; dieser Fehler geht dann beim Vorbeilaufen nicht mehr als Leben verloren."
+                ],
+                "highlights": [
+                  "Fehlalarm, Fehlversuch oder vorbeilaufender Fehler kosten je ein Leben",
+                  "Zehn Reparaturen in Folge, eine komplexe Korrektur oder ein Erholungsfehler bringen ein Leben zurück"
+                ],
+                "subDemos": {
+                  "i0": {
+                    "label": "Erholungschance"
+                  }
+                },
+                "mechanics": {
+                  "lives": {
+                    "label": "Leben",
+                    "summary": "Maximal fünf. Null beendet den Durchlauf sofort."
+                  },
+                  "streak": {
+                    "label": "Serie",
+                    "summary": "Zehn Reparaturen in Folge bringen ein Leben zurück, wenn du unter fünf bist."
+                  },
+                  "complex": {
+                    "label": "Komplexe Korrekturen",
+                    "summary": "Ein Fehler, der mehrere Bearbeitungsschritte erfordert, bringt ein Leben zurück."
+                  },
+                  "recovery": {
+                    "label": "Erholungsfehler",
+                    "summary": "Selten und leuchtend: Behebe einen im ersten Anlauf für ein Leben."
+                  }
+                },
+                "visuals": {
+                  "life-pips": {
+                    "label": "Lebenspunkte"
+                  },
+                  "recovery-aura": {
+                    "label": "Erholungsleuchten"
+                  }
+                }
+              },
+              "passages-and-books": {
+                "group": "Spielen",
+                "label": "Passagen und Bücher",
+                "summary": "Der Passagen-Modus spielt einen Textabschnitt; der Buch-Modus spielt ein ganzes Buch von Anfang bis Ende.",
+                "details": [
+                  "Eine Passage ist ein echter Text in Originalreihenfolge, passend zur Schwierigkeit.",
+                  "Ein Buch wird einmal geladen und behalten und vom ersten bis zum letzten Wort gespielt.",
+                  "Ein Buch, das nicht mehr passt, wird nicht getauscht."
+                ],
+                "highlights": [
+                  "Passagen wechseln sich der Reihe nach ab",
+                  "Bücher werden aus den passenden Werken gewählt"
+                ],
+                "mechanics": {
+                  "passages": {
+                    "label": "Passagen",
+                    "summary": "Keine Auswahl und kein Überspringen: die nächste der Reihe nach."
+                  },
+                  "books": {
+                    "label": "Bücher",
+                    "summary": "Ein langer Durchlauf: ein ganzes Buch, eine Stunde oder mehr."
+                  }
+                },
+                "visuals": {
+                  "source": {
+                    "label": "Quelle"
+                  }
+                }
+              },
+              "scoring": {
+                "group": "Überleben",
+                "label": "Wertung",
+                "summary": "Die Punktzahl geht bis 1000: hauptsächlich wie sauber du den Text korrigiert hast, plus verbleibende Leben.",
+                "details": [
+                  "Ein vollendeter Durchlauf zählt vollständig; bei Scheitern zählt der passierte Teil ohne Lebensbonus.",
+                  "Aufgedeckte und vorbeigelaufene Fehler zählen nicht als Reparaturen.",
+                  "Es gibt keine Multiplikatoren."
+                ],
+                "highlights": [
+                  "80% für Reparaturen bezogen auf erreichte Fehler, Fehlalarme und Fehlversuche, skaliert nach Fortschritt",
+                  "20% für verbleibende Leben am Ende"
+                ],
+                "mechanics": {
+                  "quality": {
+                    "label": "Qualität",
+                    "summary": "Reparaturen geteilt durch erreichte Fehler, Fehlalarme und Fehlversuche."
+                  },
+                  "lives": {
+                    "label": "Leben",
+                    "summary": "Restliche Leben im Verhältnis zu fünf; null bei Scheitern."
+                  }
+                },
+                "visuals": {
+                  "final-score": {
+                    "label": "Endwertung"
                   }
                 }
               }

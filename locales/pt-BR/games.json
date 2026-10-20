@@ -696,16 +696,16 @@
           },
           "serving": {
             "label": "serviço físico",
-            "group": "começando",
-            "summary": "carregue palavras na colher e leve-as fisicamente até a criatura para servir.",
+            "group": "primeiros passos",
+            "summary": "Carregue palavras na colher e leve-as fisicamente à criatura para alimentá-la.",
             "mechanics": {
               "spoon": {
                 "label": "colher",
-                "summary": "uma palavra válida digitada carrega a colher. clique e arraste para servir."
+                "summary": "Uma palavra válida digitada carrega a colher. Clique e arraste para servir."
               },
               "targeting": {
-                "label": "direcionamento",
-                "summary": "passe o cursor sobre a criatura para destacá-la e solte para entregar a comida."
+                "label": "mira",
+                "summary": "Passe o cursor sobre a criatura para destacá-la e solte para entregar a comida."
               }
             },
             "controls": {
@@ -726,7 +726,16 @@
               "creature-highlight": {
                 "label": "alvo destacado"
               }
-            }
+            },
+            "details": [
+              "Palavras corretas alimentam a criatura e devolvem tempo; palavras erradas custam tempo.",
+              "Solte fora da criatura para guardar a comida e tentar de novo.",
+              "Pressione Esc para cancelar a comida na colher."
+            ],
+            "highlights": [
+              "Digite uma palavra para carregá-la na colher",
+              "Clique na colher, arraste até a criatura e solte para servir"
+            ]
           }
         },
         "options": {
@@ -734,10 +743,10 @@
             "label": "bandeja de servir",
             "choices": {
               "off": {
-                "label": "desligado"
+                "label": "desativado"
               },
               "on": {
-                "label": "ligado"
+                "label": "ativado"
               }
             }
           }
@@ -750,6 +759,17 @@
             "choices": {
               "endless": {
                 "label": "sem fim"
+              }
+            }
+          },
+          "variant": {
+            "label": "versão",
+            "choices": {
+              "siege": {
+                "label": "o cerco"
+              },
+              "climb": {
+                "label": "a escalada"
               }
             }
           }
@@ -866,12 +886,14 @@
             "group": "lutando",
             "highlights": [
               "shift+enter solta um tijolo sobre o atacante mirado",
-              "brutamontes investem, sapadores desgastam, catapultas lançam pedras à distância"
+              "brutamontes investem, sapadores desgastam, catapultas lançam pedras à distância",
+              "um gigante precisa de uma palavra forte"
             ],
             "details": [
               "soltar um tijolo causa dano igual à força do tijolo.",
               "um inimigo que não é esmagado pode ficar atordoado por um momento.",
-              "catapultas ficam à distância: um arco tracejado mostra para onde uma delas está mirando."
+              "catapultas ficam à distância: um arco tracejado mostra para onde uma delas está mirando.",
+              "um gigante tem muito mais vida. Tijolos fracos mal ferem e não conseguem atordoá-lo: apenas uma palavra forte surtirá efeito."
             ],
             "mechanics": {
               "brute": {
@@ -883,7 +905,8 @@
                 "summary": "desgasta as seções. vagueia entre alvos."
               },
               "catapult": {
-                "label": "catapulta"
+                "label": "catapulta",
+                "about": "Posicionada no fundo com operadores e pedras, arremessa rochas em parábola. Atire um tijolo nela ou em seu operador para pará-la."
               },
               "stun": {
                 "label": "atordoamento",
@@ -892,6 +915,10 @@
               "drops": {
                 "label": "tijolos soltos",
                 "summary": "solte um tijolo sobre um inimigo para danificá-lo ou esmagá-lo."
+              },
+              "giant": {
+                "label": "gigante",
+                "summary": "Um aríete colossal incansável. Exige uma palavra forte: tijolos fracos mal ferem e não conseguem atordoá-lo."
               }
             },
             "controls": {
@@ -905,6 +932,9 @@
             "subDemos": {
               "i0": {
                 "label": "tijolos soltos"
+              },
+              "i1": {
+                "label": "um gigante"
               }
             },
             "visuals": {
@@ -919,8 +949,12 @@
               },
               "boulder-arc": {
                 "label": "arco da pedra"
+              },
+              "giant-stomp": {
+                "label": "gigante (pisoteamento)"
               }
-            }
+            },
+            "intro": "Solte tijolos sobre os invasores para esmagá-los e arremesse tijolos contra as catapultas no campo."
           },
           "powering-up": {
             "label": "ganhando poderes",
@@ -977,6 +1011,239 @@
                 "label": "reparo de campo (restaurar)"
               }
             }
+          },
+          "siege": {
+            "group": "cerco",
+            "label": "cerco",
+            "summary": "As catapultas e seus operadores atuam no fundo do campo. Detenha os operadores, destrua a armação ou esgote suas pedras.",
+            "details": [
+              "Cada catapulta tem um operador e uma pilha de pedras. O operador carrega uma pedra, mira e solta o disparo.",
+              "Derrube o operador e a catapulta para. Uma pedra já carregada fica no lugar, mas ninguém consegue dispará-la.",
+              "Um acerto forte na armação durante a mira derruba a pedra. Destrua a armação para reduzi-la a destroços.",
+              "Ondas posteriores podem enviar equipes de reparo aos destroços. Impeça-as para que os destroços continuem no chão."
+            ],
+            "highlights": [
+              "Operadores carregam pedras e municiam a catapulta: observe a parábola",
+              "Arremesse um tijolo no operador ou na armação: clique ou leve o cursor para cima e pressione Shift+Enter"
+            ],
+            "controls": {
+              "i0": {
+                "action": "subir até a linha de cerco"
+              },
+              "i1": {
+                "action": "arremessar tijolo no operador, depois na armação"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "ciclo da catapulta"
+              },
+              "i1": {
+                "label": "interromper um disparo"
+              }
+            },
+            "mechanics": {
+              "crew": {
+                "label": "operadores",
+                "summary": "Transportam pedras da pilha até a concha. Derrube-os para paralisar a catapulta."
+              },
+              "rocks": {
+                "label": "pedras",
+                "summary": "Cada catapulta começa com poucas pedras. Uma é gasta a cada recarga."
+              },
+              "interrupt": {
+                "label": "interrupção",
+                "summary": "Um impacto violento na armação durante a mira derruba a pedra."
+              },
+              "rubble": {
+                "label": "destroços",
+                "summary": "Uma catapulta destruída deixa destroços. Uma equipe de reparo pode tentar reconstruí-la."
+              }
+            },
+            "visuals": {
+              "catapult-crew": {
+                "label": "catapulta e operador"
+              },
+              "rock-pile": {
+                "label": "pilha de pedras"
+              },
+              "rubble-heap": {
+                "label": "monte de destroços"
+              },
+              "repair-crew": {
+                "label": "equipe de reparo"
+              }
+            }
+          },
+          "sabotage": {
+            "group": "sabotagem",
+            "label": "sabotagem",
+            "summary": "Anarquistas instalam dinamite e lançam tochas acesas. Desarme a dinamite, apague os incêndios ou derrube o anarquista.",
+            "details": [
+              "A dinamite queima com pavio no muro. Desarme clicando ou pressionando Backspace na seção antes da explosão.",
+              "O fogo se alastra e enfraquece os muros de forma contínua. Uma seção que cai leva suas chamas consigo.",
+              "Qualquer palavra digitada enche o balde conforme sua força de tijolo. Pressione 0 com tijolo escolhido ou clique no tijolo e depois no balde. Pressione 0 vazio para despejar.",
+              "qualquer palavra digitada pode encher o balde conforme sua força de tijolo. Pressione 0 com tijolos escolhidos, ou clique em um tijolo e depois no balde. Pressione 0 sem nada escolhido ou clique no balde e depois em uma seção em chamas para despejar. Esc o solta."
+            ],
+            "highlights": [
+              "A dinamite tem pavio aceso: clique nela ou pressione Backspace na seção afetada",
+              "Qualquer palavra enche o balde: apronte-o e despeje sobre o fogo"
+            ],
+            "controls": {
+              "i0": {
+                "action": "desarmar a dinamite na seção"
+              },
+              "i1": {
+                "action": "encher o balde ou prepará-lo para despejar"
+              },
+              "i2": {
+                "action": "despejar na seção em chamas"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "dinamite"
+              },
+              "i1": {
+                "label": "combate a incêndios"
+              }
+            },
+            "mechanics": {
+              "anarchist": {
+                "label": "anarquista",
+                "summary": "Instala dinamite ou joga tochas uma atrás da outra. Derrube-o para conter seus estragos."
+              },
+              "dynamite": {
+                "label": "dinamite",
+                "summary": "Pavio aceso em muro ou torre. Detona a seção, vizinhos e o que estiver aos pés."
+              },
+              "fire": {
+                "label": "fogo",
+                "summary": "Queima uma base ou a torre de menagem, podendo passar aos vizinhos em dificuldades altas."
+              },
+              "bucket": {
+                "label": "balde",
+                "summary": "Qualquer palavra o enche de acordo com a força. Um despejo extingue um fogo."
+              }
+            },
+            "visuals": {
+              "dynamite-fuse": {
+                "label": "dinamite e pavio"
+              },
+              "fire-flame": {
+                "label": "fogo"
+              },
+              "water-bucket": {
+                "label": "balde de água"
+              }
+            }
+          },
+          "defence": {
+            "group": "defesa",
+            "label": "defesa",
+            "summary": "As duas bases enviam ondas de soldados para defender os muros. Mantenha-as em pé e tome cuidado com o fogo amigo.",
+            "details": [
+              "As duas bases são as fundações atrás do portão. Cada uma faz uma contagem, fica pronta e despacha soldados perante o inimigo.",
+              "Os soldados marcham até o bruto, sapador ou anarquista mais próximo e o enfrentam. Inimigos ocupados atacam soldados em vez das muralhas.",
+              "Uma base perdida durante a contagem perde aquela onda. Uma base destruída durante o envio conclui os soldados já saídos.",
+              "No difícil, tijolos soltos ferem também soldados aliados aos pés do alvo. Soldados voltam quando o inimigo recua."
+            ],
+            "highlights": [
+              "Soldados saem das fundações e prendem os invasores em combate corpo a corpo",
+              "Mantenha as fundações intactas para enviar ondas de apoio cada vez maiores"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "envio de soldados"
+              },
+              "i1": {
+                "label": "distrair inimigos"
+              }
+            },
+            "mechanics": {
+              "bases": {
+                "label": "bases das fundações",
+                "summary": "Alistam tropas e enviam ondas de apoio no contato com o inimigo."
+              },
+              "soldiers": {
+                "label": "soldados",
+                "summary": "Lutam contra brutos e sapadores para aliviar a pressão nas muralhas."
+              },
+              "friendly_fire": {
+                "label": "fogo amigo",
+                "summary": "Apenas no difícil: tijolos caídos ferem também soldados aliados ao lado do alvo."
+              }
+            },
+            "visuals": {
+              "soldier-helmet": {
+                "label": "soldado"
+              },
+              "base-ring": {
+                "label": "base e seu anel"
+              }
+            }
+          },
+          "climb": {
+            "group": "a escalada",
+            "label": "a escalada",
+            "summary": "Ladinos erguem escadas e lançam ganchos para subir pelas escadas até o rei. Ande pelos cômodos, mire cada tijolo e defenda a coroa.",
+            "details": [
+              "A torre tem vários cômodos sobrepostos, um saguão com porta para fora e o rei no trono no alto. Um ladino que entra cruza a sala rumo às escadas.",
+              "Se um ladino alcançar o rei, ele o carrega escada abaixo até a saída. Impeça-o com tijolos: ao cair, ele solta o rei e você deve alcançá-lo para resgatá-lo.",
+              "Tijolos são jogados à mão: espaço pega um, clique arremessa na direção do cursor. Escribas querem palavras longas, valentões golpes duros, cavaleiros ambos; incendiários botam fogo e molhadores molham o chão."
+            ],
+            "highlights": [
+              "A torre em corte: veja ladinos entrarem pelas janelas e corra atrás de quem tentar levar o rei",
+              "Mova-se pessoalmente: suba escadas, saia pela porta para buscar água no poço. Cada tijolo é mirado à mão"
+            ],
+            "controls": {
+              "i0": {
+                "action": "andar (Shift corre); cima e baixo usam escadas, portas e degraus"
+              },
+              "i1": {
+                "action": "espaço ou Enter pega tijolo; clique arremessa na mira"
+              },
+              "i2": {
+                "action": "backspace empurra escada ou corta corda na janela próxima"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "empurrar escadas"
+              },
+              "i1": {
+                "label": "cortar cordas"
+              },
+              "i2": {
+                "label": "queda de um andar"
+              }
+            },
+            "mechanics": {
+              "floors": {
+                "label": "andares",
+                "summary": "Os ladinos escalam até o cômodo mais baixo em pé. Se um alcançar o topo da escada, conquista a sala de vez."
+              },
+              "ladders": {
+                "label": "escadas",
+                "summary": "Montadas na base e erguidas. Empurre-as para fazer o escalador despencar."
+              },
+              "grapples": {
+                "label": "ganchos",
+                "summary": "Um gancho jogado no parapeito. Corte a corda para derrubar o invasor."
+              },
+              "impacts": {
+                "label": "impactos",
+                "summary": "Um tijolo bate conforme o tamanho da palavra e a velocidade; acertos na cabeça causam mais dano."
+              }
+            },
+            "visuals": {
+              "climb-tower": {
+                "label": "a torre"
+              },
+              "climb-rogue": {
+                "label": "ladino"
+              }
+            }
           }
         }
       },
@@ -993,6 +1260,17 @@
               },
               "i2": {
                 "label": "2 min"
+              }
+            }
+          },
+          "variant": {
+            "label": "variante",
+            "choices": {
+              "standard": {
+                "label": "padrão"
+              },
+              "elite": {
+                "label": "elite"
               }
             }
           }
@@ -1194,7 +1472,8 @@
             "summary": "inimigos destruídos deixam power-ups. pegue-os, guarde-os e ative-os.",
             "highlights": [
               "pegue um power-up flutuante para guardá-lo",
-              "ative com shift+1–3 ou clique em um espaço"
+              "ative com shift+1–3 ou clique em um espaço",
+              "o acumulador é uma melhoria que reúne palavras em uma única carga: espaço adiciona uma palavra, espaço sem nada digitado a libera"
             ],
             "details": [
               "até três power-ups podem ser guardados. dois tipos podem estar ativos de uma vez; o mesmo tipo novamente acumula o cronômetro.",
@@ -1202,7 +1481,8 @@
               "gatling: cada letra digitada dispara um projétil instantâneo.",
               "escudo: uma barreira absorve impactos contra a nave.",
               "autômato: escolhe automaticamente o melhor tiro para a maior ameaça.",
-              "rastreio: palavras disparadas se dirigem aos alvos."
+              "rastreio: palavras disparadas se dirigem aos alvos.",
+              "o acumulador não acumula e não tem cronômetro. Ele nunca dispara sozinho: além do limite a nave sobrecarrega, destruindo inimigos próximos, e a partida termina. Um erro de digitação finalizado com espaço fica retido até que você o corrija; Enter o dispara como está."
             ],
             "mechanics": {
               "double": {
@@ -1224,6 +1504,10 @@
               "homing": {
                 "label": "rastreio",
                 "summary": "palavras disparadas se orientam dinamicamente para os alvos."
+              },
+              "accumulator": {
+                "label": "acumulador",
+                "summary": "Palavras finalizadas com espaço acumulam carga; apertar espaço sem texto dispara um tiro único devastador."
               }
             },
             "controls": {
@@ -1235,6 +1519,9 @@
               },
               "i2": {
                 "action": "ativar o espaço 3 do power-up"
+              },
+              "i3": {
+                "action": "adicionar uma palavra à carga, ou liberá-la sem digitar nada"
               }
             },
             "visuals": {
@@ -1252,6 +1539,93 @@
               },
               "powerup-homing": {
                 "label": "buscador com rastreio"
+              },
+              "powerup-accumulator": {
+                "label": "medidor do acumulador"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "acumulador"
+              },
+              "i1": {
+                "label": "sobrecarga"
+              }
+            }
+          },
+          "boss": {
+            "group": "a nave-mãe",
+            "label": "a nave-mãe",
+            "summary": "Uma imensa nave-mãe surge com seu próprio requisito de palavras, duas metralhadoras, interceptadores e minas. Derrube-a para vencer.",
+            "details": [
+              "No modo sem fim, uma nave-mãe surge após várias ondas comuns e o jogo volta ao normal quando ela cai. Cada uma é mais resistente.",
+              "No modo com tempo, há uma única nave-mãe ao zerar o relógio. Você vence ao derrotá-la; ser destruído é derrota.",
+              "A insígnia sobre a nave indica o requisito atual. Ao mudar, o requisito anterior continua valendo por um instante para tiros em voo.",
+              "Os projéteis de metralhadora não têm letras e não podem ser destruídos: desvie. Um escudo absorve uma rajada inteira como um só impacto.",
+              "Os interceptadores ziguezagueiam pelo campo e desviam de tiros, mas não de explosões. Nunca colidem e não têm requisitos.",
+              "A bomba de palavras causa pouco dano à nave-mãe e suas armas, mas limpa mísseis e projéteis e destrói interceptadores. A carga do acumulador ignora requisitos.",
+              "Enquanto a nave-mãe estiver presente, apenas asteroides chegam por conta própria. Naves de resgate continuam vindo.",
+              "Uma partida de elite começa diretamente com a nave-mãe e dura o mesmo tempo em qualquer dificuldade. Resistir até o fim completa o desafio.",
+              "O medidor ao lado da sua nave conta dano causado, não vida restante, e nunca chega a encher completamente.",
+              "Uma metralhadora destruída fica inativa por um tempo e depois exibe uma contagem de 15 segundos antes de atirar de novo. Níveis maiores reparam mais rápido."
+            ],
+            "highlights": [
+              "A nave-mãe aceita apenas palavras que atendam ao requisito atual, que muda a cada poucos segundos",
+              "Suas duas metralhadoras aceitam qualquer palavra: destruir uma elimina metade dos tiros de forma definitiva",
+              "Uma partida com tempo termina na nave-mãe final: derrote-a para vencer sem limite de tempo",
+              "Uma partida de elite não permite abater a nave-mãe: sobreviva e o dano causado será sua pontuação",
+              "Uma metralhadora destruída é reconstruída após uma pausa, com aviso visível antes de voltar a atirar"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "nave-mãe"
+              },
+              "i1": {
+                "label": "metralhadoras"
+              },
+              "i2": {
+                "label": "partida de elite"
+              }
+            },
+            "mechanics": {
+              "mothership": {
+                "label": "nave-mãe",
+                "summary": "Uma nave colossal com vida finita, mostrada em um medidor ao lado do seu."
+              },
+              "requirements": {
+                "label": "requisito variável",
+                "summary": "A palavra exigida muda a cada poucos segundos, ainda mais rápido em dificuldades altas."
+              },
+              "gatlings": {
+                "label": "metralhadoras",
+                "summary": "Duas armas que disparam rajadas pelo campo. Destruídas, param de disparar."
+              },
+              "dogfighters": {
+                "label": "interceptadores",
+                "summary": "Pequenas naves sem letras que manobram, desviam de tiros e disparam rajadas curtas."
+              },
+              "milestones": {
+                "label": "marcos",
+                "summary": "Partidas sem fim encontram uma nave-mãe a cada poucas ondas; partidas com tempo terminam nela."
+              },
+              "elite": {
+                "label": "partida de elite",
+                "summary": "A nave-mãe é indestrutível. Sobreviva até o fim do tempo; o dano causado é sua pontuação."
+              },
+              "regeneration": {
+                "label": "reconstrução da metralhadora",
+                "summary": "Uma metralhadora destruída é reparada após uma pausa com contagem regressiva visível."
+              }
+            },
+            "visuals": {
+              "mothership-hull": {
+                "label": "nave-mãe e medidor de casco"
+              },
+              "boss-gatling": {
+                "label": "rajada de metralhadora"
+              },
+              "elite-meter": {
+                "label": "medidor de dano causado"
               }
             }
           }
@@ -1476,6 +1850,267 @@
               },
               "clean-sweep": {
                 "label": "bônus de varredura completa"
+              }
+            }
+          }
+        }
+      },
+      "marathon": {
+        "help": [
+          "Um livro inteiro, página por página. Encontre cada erro inserido (clique em uma palavra ou use as setas, depois Enter) e corrija-o no local.",
+          "Cada reparo adiciona tempo e cada alarme falso ou tentativa incorreta custa tempo. Quando o relógio zerar, a partida termina.",
+          "Uma página é concluída quando todos os erros são corrigidos ou revelados; termine a última página com tempo de sobra para vencer."
+        ],
+        "contexts": {
+          "getting-started": {
+            "group": "primeiros passos",
+            "label": "primeiros passos",
+            "summary": "Revise um livro inteiro da sua biblioteca, página por página, antes que o tempo se esgote.",
+            "details": [
+              "Os livros vêm dos conjuntos de dados ativados; o texto completo é baixado uma vez e mantido.",
+              "Não há como pular: uma página permanece até que todos os erros sejam resolvidos.",
+              "Encerrar a partida antes da hora conta como derrota."
+            ],
+            "highlights": [
+              "Escolha um livro entre o mínimo da dificuldade e 5.000 palavras",
+              "Cada página é concluída quando todos os erros são corrigidos ou revelados"
+            ],
+            "controls": {
+              "i0": {
+                "action": "mover entre palavras"
+              },
+              "i1": {
+                "action": "marcar a palavra selecionada ou confirmar correção"
+              }
+            },
+            "mechanics": {
+              "pages": {
+                "label": "páginas",
+                "summary": "Cerca de 150 palavras por página, com um erro a cada 50, 40 ou 30 palavras conforme a dificuldade."
+              }
+            },
+            "visuals": {
+              "page-progress": {
+                "label": "progresso da página"
+              },
+              "time-bank": {
+                "label": "banco de tempo"
+              }
+            }
+          },
+          "time-bank": {
+            "group": "sobrevivência",
+            "label": "banco de tempo",
+            "summary": "O relógio só corre durante o jogo. Reparos adicionam tempo, erros custam tempo, e zero encerra a partida de imediato.",
+            "details": [
+              "Fácil começa com 4 minutos, normal com 3 e difícil com 2; o banco armazena no máximo 7, 5 ou 4 minutos.",
+              "Duas tentativas erradas revelam a resposta: a página avança, mas conta como erro.",
+              "Selecionar palavras e mover o cursor nunca custa tempo."
+            ],
+            "highlights": [
+              "Um reparo adiciona 48, 34 ou 29 segundos conforme a dificuldade",
+              "Um alarme falso ou correção errada custa tempo"
+            ],
+            "mechanics": {
+              "reward": {
+                "label": "reparos",
+                "summary": "Cada correção adiciona tempo, até o limite do banco."
+              },
+              "penalty": {
+                "label": "erros",
+                "summary": "Um alarme falso custa 4, 9 ou 12 segundos; uma correção errada custa 5, 12 ou 15."
+              }
+            },
+            "visuals": {
+              "time-gain": {
+                "label": "tempo ganho"
+              },
+              "time-loss": {
+                "label": "tempo perdido"
+              }
+            }
+          },
+          "scoring": {
+            "group": "sobrevivência",
+            "label": "pontuação",
+            "summary": "A pontuação é sobre 1000: depende da limpeza das suas correções e do tempo restante ao final.",
+            "details": [
+              "Uma partida perfeita terminada com o banco cheio marca 1000 pontos.",
+              "Respostas reveladas contam como erros, não como reparos.",
+              "Se o tempo acabar, a pontuação considera apenas a parte do livro concluída."
+            ],
+            "highlights": [
+              "80% por reparos sobre o total de erros, alarmes falsos e tentativas incorretas",
+              "20% pelo tempo restante ao final"
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "qualidade",
+                "summary": "Reparos divididos por erros inseridos, alarmes falsos e tentativas incorretas."
+              },
+              "time": {
+                "label": "tempo",
+                "summary": "Tempo restante além do limite do banco; zero em caso de derrota."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "pontuação final"
+              }
+            }
+          }
+        }
+      },
+      "scroller": {
+        "help": [
+          "Revise um trecho ou um livro inteiro conforme ele sobe na tela. Encontre cada erro (clique em uma palavra ou use as setas, depois Enter) e corrija-o antes que a linha cruze a linha superior.",
+          "Você tem cinco vidas. Um alarme falso, uma correção errada ou um erro que sobe para fora da tela custa uma vida cada.",
+          "As vidas são recuperadas por sequências de acertos, correções complexas e erros brilhantes de recuperação, uma por vez."
+        ],
+        "contexts": {
+          "getting-started": {
+            "group": "primeiros passos",
+            "label": "primeiros passos",
+            "summary": "Revise um trecho ou um livro inteiro enquanto ele sobe e corrija cada erro antes que sua linha saia pelo topo.",
+            "details": [
+              "Não há cronômetro: o texto sobe em velocidade constante para a dificuldade e para durante a pausa.",
+              "Selecione uma palavra e pressione Enter para marcá-la, corrigindo-a diretamente no local.",
+              "Encerrar a partida antes da hora conta como derrota."
+            ],
+            "highlights": [
+              "Um erro não resolvido que cruze a linha superior custa uma vida",
+              "Você tem cinco vidas e a partida termina no instante em que se esgotarem"
+            ],
+            "controls": {
+              "i0": {
+                "action": "mover entre palavras"
+              },
+              "i1": {
+                "action": "mover entre linhas"
+              },
+              "i2": {
+                "action": "marcar a palavra selecionada ou confirmar correção"
+              }
+            },
+            "mechanics": {
+              "scrolling": {
+                "label": "rolagem",
+                "summary": "Cada linha permanece na tela pelo mesmo período, independentemente do tamanho da janela."
+              },
+              "boundary": {
+                "label": "linha superior",
+                "summary": "Um erro que ultrapassar a linha sem resolução é perdido em definitivo."
+              }
+            },
+            "visuals": {
+              "lives": {
+                "label": "vidas"
+              },
+              "boundary": {
+                "label": "linha superior"
+              }
+            }
+          },
+          "lives-and-recovery": {
+            "group": "sobrevivência",
+            "label": "vidas e recuperação",
+            "summary": "Você tem cinco vidas. Cada uma pode ser recuperada, mas nunca mais de uma por correção.",
+            "details": [
+              "Um erro de recuperação brilha. Acerte de primeira para ganhar uma vida; uma tentativa errada perde a chance.",
+              "Qualquer vida perdida reinicia a sequência de reparos consecutivos.",
+              "Duas tentativas erradas revelam a resposta; esse erro não tirará mais vidas ao sair da tela."
+            ],
+            "highlights": [
+              "Alarme falso, correção errada ou erro esquecido custam uma vida cada",
+              "Dez reparos seguidos, uma correção complexa ou um erro de recuperação devolvem uma vida"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "chance de recuperação"
+              }
+            },
+            "mechanics": {
+              "lives": {
+                "label": "vidas",
+                "summary": "Cinco no máximo. Zero encerra a partida de imediato."
+              },
+              "streak": {
+                "label": "sequência",
+                "summary": "Dez reparos seguidos devolvem uma vida se você estiver abaixo de cinco."
+              },
+              "complex": {
+                "label": "correções complexas",
+                "summary": "Um erro que precise de mais de uma edição para ser arrumado devolve uma vida."
+              },
+              "recovery": {
+                "label": "erros de recuperação",
+                "summary": "Raros e brilhantes: corrija um de primeira para ganhar uma vida."
+              }
+            },
+            "visuals": {
+              "life-pips": {
+                "label": "pontos de vida"
+              },
+              "recovery-aura": {
+                "label": "brilho de recuperação"
+              }
+            }
+          },
+          "passages-and-books": {
+            "group": "jogando",
+            "label": "trechos e livros",
+            "summary": "O modo trecho joga uma passagem; o modo livro joga uma obra inteira do início ao fim.",
+            "details": [
+              "Um trecho é texto autêntico em sua ordem original, escolhido pela dificuldade.",
+              "Um livro é baixado uma só vez e jogado da primeira à última palavra.",
+              "Um livro que deixe de ser compatível não é trocado no meio do caminho."
+            ],
+            "highlights": [
+              "Os trechos se revezam por turnos a cada partida",
+              "Os livros são selecionados entre os que se ajustam à dificuldade"
+            ],
+            "mechanics": {
+              "passages": {
+                "label": "trechos",
+                "summary": "Sem escolha nem pulo: o próximo da vez."
+              },
+              "books": {
+                "label": "livros",
+                "summary": "Uma partida longa: um livro inteiro, por uma hora ou mais."
+              }
+            },
+            "visuals": {
+              "source": {
+                "label": "fonte"
+              }
+            }
+          },
+          "scoring": {
+            "group": "sobrevivência",
+            "label": "pontuação",
+            "summary": "A pontuação é sobre 1000: depende da exatidão das suas correções e das vidas restantes.",
+            "details": [
+              "Concluir o texto todo concede a pontuação máxima; falhar pontua apenas o percurso sem bônus de vidas.",
+              "Respostas reveladas e erros perdidos nunca contam como reparos.",
+              "Não há combos ou multiplicadores."
+            ],
+            "highlights": [
+              "80% por reparos sobre erros alcançados, alarmes falsos e tentativas erradas, escalado pelo percurso",
+              "20% pelas vidas restantes ao final"
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "qualidade",
+                "summary": "Reparos divididos por erros alcançados, alarmes falsos e tentativas incorretas."
+              },
+              "lives": {
+                "label": "vidas",
+                "summary": "Vidas restantes sobre cinco; zero em caso de derrota."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "pontuação final"
               }
             }
           }

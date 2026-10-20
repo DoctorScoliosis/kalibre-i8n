@@ -688,16 +688,16 @@
           },
           "serving": {
             "label": "service physique",
-            "group": "pour commencer",
-            "summary": "chargez des mots sur la cuillère et apportez-les physiquement à la créature pour les servir.",
+            "group": "premiers pas",
+            "summary": "Chargez des mots sur la cuillère et portez-les physiquement à la créature pour la nourrir.",
             "mechanics": {
               "spoon": {
                 "label": "cuillère",
-                "summary": "un mot valide saisi charge la cuillère. cliquez et faites-la glisser pour servir."
+                "summary": "Un mot valide tapé charge la cuillère. Cliquez et glissez pour servir."
               },
               "targeting": {
-                "label": "ciblage",
-                "summary": "survolez la créature pour la mettre en évidence, puis relâchez pour livrer la nourriture."
+                "label": "visée",
+                "summary": "Survolez la créature pour la mettre en surbrillance, puis relâchez pour livrer la nourriture."
               }
             },
             "controls": {
@@ -716,9 +716,18 @@
                 "label": "cuillère chargée"
               },
               "creature-highlight": {
-                "label": "cible mise en évidence"
+                "label": "cible mise en surbrillance"
               }
-            }
+            },
+            "details": [
+              "Les mots corrects nourrissent la créature et redonnent du temps ; les mots erronés en coûtent.",
+              "Relâchez en dehors de la créature pour garder la nourriture et réessayer.",
+              "Appuyez sur Échap pour annuler la nourriture sur la cuillère."
+            ],
+            "highlights": [
+              "Tapez un mot pour le charger sur la cuillère",
+              "Cliquez sur la cuillère, glissez-la vers la créature et relâchez pour servir"
+            ]
           }
         },
         "options": {
@@ -742,6 +751,17 @@
             "choices": {
               "endless": {
                 "label": "sans fin"
+              }
+            }
+          },
+          "variant": {
+            "label": "version",
+            "choices": {
+              "siege": {
+                "label": "le siège"
+              },
+              "climb": {
+                "label": "l'escalade"
               }
             }
           }
@@ -858,12 +878,14 @@
             "group": "combattre",
             "highlights": [
               "cliquez sur un attaquant puis lâchez une brique dessus",
-              "les briques plus fortes infligent plus de dégâts"
+              "les briques plus fortes infligent plus de dégâts",
+              "un géant requiert un mot puissant"
             ],
             "details": [
               "chaque type d'attaquant a une santé différente.",
               "les catapultes sont hors de portée directe.",
-              "utilisez le mortier pour infliger des dégâts de zone."
+              "utilisez le mortier pour infliger des dégâts de zone.",
+              "un géant a bien plus de santé. Les briques faibles le blessent à peine et ne peuvent l'étourdir : seul un mot fort y parviendra."
             ],
             "mechanics": {
               "stun": {
@@ -875,7 +897,8 @@
                 "summary": "frappent les sections de près. se fatiguent après un nombre défini de coups."
               },
               "catapult": {
-                "label": "catapulte"
+                "label": "catapulte",
+                "about": "Postée au fond avec servants et rochers, elle projette des blocs en cloche. Jetez une brique dessus ou sur son servant pour la stopper."
               },
               "drops": {
                 "label": "lâchers de brique",
@@ -884,6 +907,10 @@
               "sapper": {
                 "label": "sapeur",
                 "summary": "rognent les sections. se déplacent entre les cibles."
+              },
+              "giant": {
+                "label": "géant",
+                "summary": "Un bélier colossal infatigable. Il requiert un mot puissant : les briques faibles l'égratignent à peine et ne l'étourdissent pas."
               }
             },
             "controls": {
@@ -897,6 +924,9 @@
             "subDemos": {
               "i0": {
                 "label": "brique écrasante"
+              },
+              "i1": {
+                "label": "un géant"
               }
             },
             "visuals": {
@@ -911,8 +941,12 @@
               },
               "sapper-pick": {
                 "label": "sapeur (pioche)"
+              },
+              "giant-stomp": {
+                "label": "géant (piétinement)"
               }
-            }
+            },
+            "intro": "Lâchez des briques sur les assaillants pour les écraser, et projetez des briques sur les catapultes dans la plaine."
           },
           "powering-up": {
             "label": "bonus",
@@ -969,6 +1003,239 @@
                 "label": "réparation de terrain"
               }
             }
+          },
+          "siege": {
+            "group": "siège",
+            "label": "siège",
+            "summary": "Les catapultes et leurs servants opèrent au fond du champ de bataille. Abattez les servants, brisez l'affût ou attendez l'épuisement des rochers.",
+            "details": [
+              "Chaque catapulte dispose d'un servant et d'un tas de rochers. Le servant porte un rocher, charge, vise et tire.",
+              "Abattez le servant et la catapulte s'immobilise. Un rocher déjà en place le reste, mais personne ne peut le lancer.",
+              "Un coup franc porté à l'affût pendant la visée fait chuter le rocher. Brisez l'affût pour le réduire en décombres.",
+              "Des vagues ultérieures peuvent dépêcher une équipe pour réparer les décombres. Stoppez-la pour laisser le tas en ruines."
+            ],
+            "highlights": [
+              "Les servants chargent les rochers dans la catapulte : surveillez la trajectoire",
+              "Lancez une brique sur le servant ou l'affût : cliquez ou levez le curseur et pressez Maj+Entrée"
+            ],
+            "controls": {
+              "i0": {
+                "action": "monter vers la ligne de siège"
+              },
+              "i1": {
+                "action": "lancer une brique sur le servant, puis sur l'affût"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "cycle de catapulte"
+              },
+              "i1": {
+                "label": "interrompre un tir"
+              }
+            },
+            "mechanics": {
+              "crew": {
+                "label": "servants",
+                "summary": "Transportent les blocs du tas à la cuillère. Neutralisez-les pour neutraliser l'engin."
+              },
+              "rocks": {
+                "label": "rochers",
+                "summary": "Chaque catapulte démarre avec un stock limité. Un rocher est consommé à chaque chargement."
+              },
+              "interrupt": {
+                "label": "interruption",
+                "summary": "Un choc puissant sur l'affût pendant la visée fait choir le rocher."
+              },
+              "rubble": {
+                "label": "décombres",
+                "summary": "Une catapulte brisée laisse des ruines. Une équipe de réparation peut tenter de la rebâtir."
+              }
+            },
+            "visuals": {
+              "catapult-crew": {
+                "label": "catapulte et servants"
+              },
+              "rock-pile": {
+                "label": "tas de rochers"
+              },
+              "rubble-heap": {
+                "label": "amas de décombres"
+              },
+              "repair-crew": {
+                "label": "équipe de réparation"
+              }
+            }
+          },
+          "sabotage": {
+            "group": "sabotage",
+            "label": "sabotage",
+            "summary": "Les anarchistes posent de la dynamite et jettent des torches. Désamorcez la dynamite, éteignez les incendies ou abattez l'anarchiste.",
+            "details": [
+              "La dynamite brûle par sa mèche sur le mur. Désamorcez-la en cliquant ou par Retour arrière sur sa section avant l'explosion.",
+              "Le feu se propage et dégrade continuellement les murs. Une section qui s'effondre emporte ses flammes avec elle.",
+              "Tout mot tapé remplit le seau selon sa force de brique. Pressez 0 avec une brique choisie, ou cliquez la brique puis le seau. Pressez 0 à vide pour verser.",
+              "tout mot tapé remplit le seau selon sa force de brique. Pressez 0 avec des briques sélectionnées, ou cliquez sur une brique puis sur le seau. Pressez 0 à vide ou cliquez sur le seau puis sur une section en flammes pour verser. Échap le pose."
+            ],
+            "highlights": [
+              "La dynamite a une mèche allumée : cliquez ou pressez Retour arrière sur sa section",
+              "Tout mot remplit le seau : préparez-le et versez sur un incendie"
+            ],
+            "controls": {
+              "i0": {
+                "action": "désamorcer la dynamite sur la section"
+              },
+              "i1": {
+                "action": "remplir le seau ou le préparer à verser"
+              },
+              "i2": {
+                "action": "verser sur la section en flammes"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "dynamite"
+              },
+              "i1": {
+                "label": "lutte contre l'incendie"
+              }
+            },
+            "mechanics": {
+              "anarchist": {
+                "label": "anarchiste",
+                "summary": "Pose de la dynamite ou lance des torches coup sur coup. Abattez-le pour couper court à ses méfaits."
+              },
+              "dynamite": {
+                "label": "dynamite",
+                "summary": "Mèche allumée sur un mur ou une tour. Dévaste la section, ses voisines et ce qui se trouve au pied."
+              },
+              "fire": {
+                "label": "feu",
+                "summary": "Brûle une base ou le donjon, et peut se propager aux sections voisines en difficulté supérieure."
+              },
+              "bucket": {
+                "label": "seau",
+                "summary": "Tout mot le remplit selon sa force. Un déversement éteint un incendie."
+              }
+            },
+            "visuals": {
+              "dynamite-fuse": {
+                "label": "dynamite et mèche"
+              },
+              "fire-flame": {
+                "label": "feu"
+              },
+              "water-bucket": {
+                "label": "seau d'eau"
+              }
+            }
+          },
+          "defence": {
+            "group": "défense",
+            "label": "défense",
+            "summary": "Les deux bases dépêchent des vagues de soldats pour défendre les murs. Préservez-les et prenez garde au tir ami.",
+            "details": [
+              "Les deux bases sont les fondations situées derrière la porte. Chacune effectue un décompte, se tient prête et déploie des soldats à l'arrivée d'ennemis.",
+              "Les soldats s'avancent vers la brute, le sapeur ou l'anarchiste le plus proche et l'attaquent. Les ennemis occupés frappent les soldats au lieu des remparts.",
+              "Une base perdue pendant son décompte annule sa vague. Une base détruite en plein déploiement achève les troupes déjà envoyées.",
+              "En mode difficile, les briques lâchées blessent aussi les soldats alliés au pied du mur. Les soldats rentrent quand l'ennemi reflue."
+            ],
+            "highlights": [
+              "Les soldats sortent des fondations et occupent les assaillants au corps à corps",
+              "Préservez les fondations pour envoyer des renforts de plus en plus nombreux"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "déploiement de soldats"
+              },
+              "i1": {
+                "label": "dévier les ennemis"
+              }
+            },
+            "mechanics": {
+              "bases": {
+                "label": "bases des fondations",
+                "summary": "Rassemble des troupes et déploie des vagues de soutien face à l'ennemi."
+              },
+              "soldiers": {
+                "label": "soldats",
+                "summary": "Combattent brutes et sapeurs pour soulager la pression sur les murailles."
+              },
+              "friendly_fire": {
+                "label": "tir ami",
+                "summary": "En difficile seulement : les briques tombées blessent les soldats alliés proches de la cible."
+              }
+            },
+            "visuals": {
+              "soldier-helmet": {
+                "label": "soldat"
+              },
+              "base-ring": {
+                "label": "base et son anneau"
+              }
+            }
+          },
+          "climb": {
+            "group": "l'escalade",
+            "label": "l'escalade",
+            "summary": "Des brigands dressent des échelles et lancent des grappins pour grimper vers le roi. Parcourez les pièces, visez avec chaque brique et protégez la couronne.",
+            "details": [
+              "La tour compte plusieurs pièces étagées, un hall d'entrée avec porte vers l'extérieur et le roi sur son trône au sommet. Un brigand entré par une fenêtre gagne l'escalier.",
+              "Si un brigand atteint le roi, il l'empoigne et redescend vers la porte. Arrêtez-le à coups de briques : en tombant, il lâche le roi et vous devez le rejoindre pour le sécuriser.",
+              "Les briques se jettent à la main : espace en prend une, un clic la lance vers le curseur. Les scribes réclament des mots longs, les batailleurs des coups puissants, les chevaliers les deux ; les incendiaires mettent le feu et les aspergeurs trempent le sol."
+            ],
+            "highlights": [
+              "La tour en coupe : observez les brigands entrer par les fenêtres et poursuivez le ravisseur",
+              "Déplacez-vous vous-même : montez l'escalier, sortez puiser de l'eau. Chaque brique est visée à la main"
+            ],
+            "controls": {
+              "i0": {
+                "action": "marcher (Maj sprinte) ; haut et bas prennent escaliers, portes et échelles"
+              },
+              "i1": {
+                "action": "espace ou Entrée prend une brique ; clic lance vers le pointeur"
+              },
+              "i2": {
+                "action": "retour arrière repousse l'échelle ou coupe la corde à la fenêtre proche"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "repousser les échelles"
+              },
+              "i1": {
+                "label": "couper les cordes"
+              },
+              "i2": {
+                "label": "chute d'un étage"
+              }
+            },
+            "mechanics": {
+              "floors": {
+                "label": "étages",
+                "summary": "Les brigands escaladent la pièce inférieure encore debout. Si l'un gagne le haut de son escalier, il s'empare de la pièce pour de bon."
+              },
+              "ladders": {
+                "label": "échelles",
+                "summary": "Bâties au pied de la tour puis hissées. Repoussez-les pour faire chuter le grimpeur."
+              },
+              "grapples": {
+                "label": "grappins",
+                "summary": "Un crochet lancé au rebord. Coupez la corde pour faire choir l'assaillant."
+              },
+              "impacts": {
+                "label": "impacts",
+                "summary": "Une brique frappe selon la longueur de son mot et sa vitesse ; toucher la tête fait bien plus de dégâts."
+              }
+            },
+            "visuals": {
+              "climb-tower": {
+                "label": "la tour"
+              },
+              "climb-rogue": {
+                "label": "brigand"
+              }
+            }
           }
         }
       },
@@ -985,6 +1252,17 @@
               },
               "i2": {
                 "label": "2 min"
+              }
+            }
+          },
+          "variant": {
+            "label": "variante",
+            "choices": {
+              "standard": {
+                "label": "standard"
+              },
+              "elite": {
+                "label": "élite"
               }
             }
           }
@@ -1186,7 +1464,8 @@
             "summary": "les ennemis détruits lâchent des bonus. attrapez-les, stockez-les, et activez-les.",
             "highlights": [
               "attrapez un bonus flottant pour le stocker",
-              "activez avec maj+1-3 ou cliquez sur un emplacement"
+              "activez avec maj+1-3 ou cliquez sur un emplacement",
+              "l'accumulateur est un bonus qui concentre les mots en un seul tir : espace ajoute un mot, espace à vide le libère"
             ],
             "details": [
               "jusqu'à trois bonus peuvent être stockés. deux kinds peuvent être actifs à la fois.",
@@ -1194,7 +1473,8 @@
               "gatling : chaque lettre tapée tire un projectile instantané.",
               "bouclier : une barrière absorbe les impacts pour le vaisseau.",
               "automate : sélectionne automatiquement le meilleur tir pour la plus grande menace.",
-              "recherche : les mots tirés se dirigent vers les cibles."
+              "recherche : les mots tirés se dirigent vers les cibles.",
+              "l'accumulateur ne se cumule pas et n'a pas de compte à rebours. Il ne tire jamais de lui-même : au-delà de sa limite, le vaisseau surcharge, détruit les ennemis proches et la partie prend fin. Une faute terminée par espace est retenue jusqu'à correction ; Entrée la tire telle quelle."
             ],
             "mechanics": {
               "double": {
@@ -1216,6 +1496,10 @@
               "homing": {
                 "label": "recherche",
                 "summary": "les mots tirés se dirigent dynamiquement vers les cibles."
+              },
+              "accumulator": {
+                "label": "accumulateur",
+                "summary": "Les mots terminés par espace chargent un projectile ; appuyer sur espace sans mot libère un tir unique dévastateur."
               }
             },
             "controls": {
@@ -1227,6 +1511,9 @@
               },
               "i2": {
                 "action": "activer l'emplacement de bonus 3"
+              },
+              "i3": {
+                "action": "ajouter un mot à la charge, ou la libérer sans rien taper"
               }
             },
             "visuals": {
@@ -1244,6 +1531,93 @@
               },
               "powerup-homing": {
                 "label": "recherche de cible"
+              },
+              "powerup-accumulator": {
+                "label": "jauge d'accumulateur"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "accumulateur"
+              },
+              "i1": {
+                "label": "surcharge"
+              }
+            }
+          },
+          "boss": {
+            "group": "le vaisseau mère",
+            "label": "le vaisseau mère",
+            "summary": "Un immense vaisseau mère fait son apparition avec sa propre exigence de mots, deux mitrailleuses, des chasseurs et des mines. Abattez-le pour triompher.",
+            "details": [
+              "En mode sans fin, un vaisseau mère surgit après plusieurs vagues ordinaires et la partie reprend son cours quand il tombe. Chacun est plus résistant que le précédent.",
+              "En mode chronométré, il n'y a qu'un vaisseau mère lorsque le temps expire. Vous gagnez en le terrassant ; être détruit entraîne la défaite.",
+              "L'insigne au-dessus du vaisseau indique son exigence actuelle. Lors d'un changement, l'ancienne exigence reste valable un court instant pour valider les tirs en vol.",
+              "Les balles de mitrailleuse n'ont pas de lettres et ne peuvent être détruites : esquivez-les. Un bouclier absorbe une rafale entière en un seul impact.",
+              "Les chasseurs sillonnent la zone et esquivent vos tirs, mais pas les explosions. Ils n'éperonnent jamais et n'ont pas d'exigence.",
+              "La bombe de mots blesse peu le vaisseau mère et ses tourelles, mais élimine missiles, balles et chasseurs. La charge de l'accumulateur ignore les exigences.",
+              "Tant que le vaisseau mère est là, seuls les astéroïdes apparaissent d'eux-mêmes. Les capsules de secours continuent d'arriver.",
+              "Une partie élite débute avec le vaisseau mère déjà sur place et dure le même temps à chaque difficulté. Tenir jusqu'au bout valide le défi.",
+              "La jauge près de votre vaisseau compte les dégâts infligés, non la santé restante, et ne se remplit jamais totalement.",
+              "Une mitrailleuse détruite reste inactive un temps puis montre un compte à rebours de 15 secondes avant de rouvrir le feu. Les niveaux élevés réparent plus vite."
+            ],
+            "highlights": [
+              "Le vaisseau mère n'accepte que les mots conformes à son exigence courante, qui change toutes les quelques secondes",
+              "Ses deux mitrailleuses prennent n'importe quel mot : détruisez-en une pour supprimer la moitié des tirs",
+              "Une partie chronométrée s'achève sur le vaisseau mère final : battez-le pour gagner sans limite de temps",
+              "Une partie élite ne permet pas d'abattre le vaisseau mère : survivez et vos dégâts constitueront votre score",
+              "Une mitrailleuse détruite est reconstruite après un répit, signalée par un décompte visible"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "vaisseau mère"
+              },
+              "i1": {
+                "label": "mitrailleuses"
+              },
+              "i2": {
+                "label": "partie élite"
+              }
+            },
+            "mechanics": {
+              "mothership": {
+                "label": "vaisseau mère",
+                "summary": "Un vaisseau titanesque à la santé limitée, représentée par une jauge près de la vôtre."
+              },
+              "requirements": {
+                "label": "exigence changeante",
+                "summary": "Le mot recherché change toutes les quelques secondes, encore plus vite en difficulté élevée."
+              },
+              "gatlings": {
+                "label": "mitrailleuses",
+                "summary": "Deux canons qui balayent l'espace de rafales. Une fois détruites, elles cessent de tirer."
+              },
+              "dogfighters": {
+                "label": "chasseurs d'escarmouche",
+                "summary": "Petits vaisseaux sans lettres qui virent, esquivent les tirs et tirent de courtes salves."
+              },
+              "milestones": {
+                "label": "jalons",
+                "summary": "Les parties sans fin croisent un vaisseau mère toutes les quelques vagues ; les contre-la-montre s'achèvent dessus."
+              },
+              "elite": {
+                "label": "partie élite",
+                "summary": "Le vaisseau mère est indestructible. Survivez jusqu'à la fin du temps ; les dégâts sont votre score."
+              },
+              "regeneration": {
+                "label": "reconstruction de mitrailleuse",
+                "summary": "Une mitrailleuse détruite réapparaît après une pause et un décompte visible."
+              }
+            },
+            "visuals": {
+              "mothership-hull": {
+                "label": "vaisseau mère et jauge de coque"
+              },
+              "boss-gatling": {
+                "label": "rafale de mitrailleuse"
+              },
+              "elite-meter": {
+                "label": "jauge de dégâts infligés"
               }
             }
           }
@@ -1468,6 +1842,267 @@
               },
               "clean-sweep": {
                 "label": "bonus coup de balai"
+              }
+            }
+          }
+        }
+      },
+      "marathon": {
+        "help": [
+          "Un livre entier, page par page. Trouvez chaque faute insérée (cliquez sur un mot ou utilisez les flèches, puis Entrée) et corrigez-la sur place.",
+          "Chaque correction rapporte du temps et chaque fausse alerte ou erreur en coûte. Quand l'horloge atteint zéro, la partie s'achève.",
+          "Une page est validée lorsque toutes ses fautes sont corrigées ou révélées ; franchissez la dernière page avec du temps restant pour l'emporter."
+        ],
+        "contexts": {
+          "getting-started": {
+            "group": "premiers pas",
+            "label": "premiers pas",
+            "summary": "Relisez un livre entier de votre bibliothèque, page par page, avant la fin du temps imparti.",
+            "details": [
+              "Les livres proviennent de vos corpus activés ; le texte intégral est téléchargé une seule fois et conservé.",
+              "Aucun saut n'est permis : une page reste affichée jusqu'à la résolution de toutes ses fautes.",
+              "Quitter prématurément compte comme une défaite."
+            ],
+            "highlights": [
+              "Choisissez un livre entre le minimum de la difficulté et 5 000 mots",
+              "Chaque page se termine lorsque toutes ses fautes sont corrigées ou révélées"
+            ],
+            "controls": {
+              "i0": {
+                "action": "passer d'un mot à l'autre"
+              },
+              "i1": {
+                "action": "signaler le mot sélectionné ou valider la correction"
+              }
+            },
+            "mechanics": {
+              "pages": {
+                "label": "pages",
+                "summary": "Environ 150 mots par page, avec une faute tous les 50, 40 ou 30 mots selon la difficulté."
+              }
+            },
+            "visuals": {
+              "page-progress": {
+                "label": "progression de page"
+              },
+              "time-bank": {
+                "label": "banque de temps"
+              }
+            }
+          },
+          "time-bank": {
+            "group": "survie",
+            "label": "banque de temps",
+            "summary": "L'horloge ne tourne que pendant le jeu. Les corrections ajoutent du temps, les fautes en retirent, et zéro met immédiatement fin à la partie.",
+            "details": [
+              "Facile commence à 4 minutes, normal à 3 et difficile à 2 ; la réserve peut contenir au maximum 7, 5 ou 4 minutes.",
+              "Deux essais manqués révèlent la solution : la page peut avancer, mais cela compte comme un échec.",
+              "Sélectionner des mots et déplacer le curseur ne coûte jamais de temps."
+            ],
+            "highlights": [
+              "Une correction rapporte 48, 34 ou 29 secondes selon la difficulté",
+              "Une fausse alerte ou une mauvaise correction retire du temps"
+            ],
+            "mechanics": {
+              "reward": {
+                "label": "corrections",
+                "summary": "Chaque réparation ajoute du temps, dans la limite de la réserve."
+              },
+              "penalty": {
+                "label": "fautes",
+                "summary": "Une fausse alerte coûte 4, 9 ou 12 secondes ; une mauvaise correction 5, 12 ou 15."
+              }
+            },
+            "visuals": {
+              "time-gain": {
+                "label": "temps gagné"
+              },
+              "time-loss": {
+                "label": "temps perdu"
+              }
+            }
+          },
+          "scoring": {
+            "group": "survie",
+            "label": "score",
+            "summary": "Le score est sur 1000 : il mesure la propreté de vos corrections et le temps restant.",
+            "details": [
+              "Une partie parfaite terminée avec une réserve pleine rapporte 1000 points.",
+              "Les solutions révélées comptent comme des échecs, pas comme des corrections.",
+              "Si le temps s'épuise, le score ne comptabilise que la portion du livre terminée."
+            ],
+            "highlights": [
+              "80 % pour les corrections sur le total des fautes, fausses alertes et mauvaises tentatives",
+              "20 % pour le temps restant à la fin"
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "qualité",
+                "summary": "Corrections divisées par les fautes insérées, fausses alertes et mauvaises tentatives."
+              },
+              "time": {
+                "label": "temps",
+                "summary": "Temps restant au-delà de la réserve ; nul si la partie échoue."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "score final"
+              }
+            }
+          }
+        }
+      },
+      "scroller": {
+        "help": [
+          "Relisez un passage ou un livre entier pendant qu'il défile vers le haut. Trouvez chaque faute (cliquez sur un mot ou utilisez les flèches, puis Entrée) et corrigez-la avant que sa ligne ne franchisse la ligne supérieure.",
+          "Vous avez cinq vies. Une fausse alerte, une mauvaise correction ou une faute qui s'échappe coûte une vie chacune.",
+          "Les vies se regagnent grâce à des séries de réussites, des corrections complexes ou des fautes de récupération lumineuses, une à une."
+        ],
+        "contexts": {
+          "getting-started": {
+            "group": "premiers pas",
+            "label": "premiers pas",
+            "summary": "Relisez un passage ou un livre entier pendant son ascension et corrigez chaque faute avant que sa ligne ne sorte en haut.",
+            "details": [
+              "Il n'y a pas de chronomètre : le texte défile à vitesse constante selon la difficulté et s'arrête en pause.",
+              "Sélectionnez un mot et appuyez sur Entrée pour le signaler, puis corrigez-le sur place.",
+              "Quitter la partie prématurément compte comme une défaite."
+            ],
+            "highlights": [
+              "Une faute non résolue qui franchit la ligne supérieure coûte une vie",
+              "Vous avez cinq vies et la partie s'achève dès qu'elles sont épuisées"
+            ],
+            "controls": {
+              "i0": {
+                "action": "passer d'un mot à l'autre"
+              },
+              "i1": {
+                "action": "passer d'une ligne à l'autre"
+              },
+              "i2": {
+                "action": "signaler le mot sélectionné ou valider la correction"
+              }
+            },
+            "mechanics": {
+              "scrolling": {
+                "label": "défilement",
+                "summary": "Chaque ligne reste affichée la même durée, quelle que soit la taille de la fenêtre."
+              },
+              "boundary": {
+                "label": "ligne supérieure",
+                "summary": "Une faute non résolue qui franchit la ligne est définitivement perdue."
+              }
+            },
+            "visuals": {
+              "lives": {
+                "label": "vies"
+              },
+              "boundary": {
+                "label": "ligne supérieure"
+              }
+            }
+          },
+          "lives-and-recovery": {
+            "group": "survie",
+            "label": "vies et récupération",
+            "summary": "Vous disposez de cinq vies. Chacune peut être récupérée, mais jamais plus d'une par correction.",
+            "details": [
+              "Une faute de récupération brille. Corrigez-la du premier coup pour gagner une vie ; un premier essai manqué annule l'opportunité.",
+              "Toute vie perdue réinitialise la série de corrections.",
+              "Deux essais manqués révèlent la réponse ; cette faute ne retirera plus de vie en quittant l'écran."
+            ],
+            "highlights": [
+              "Fausse alerte, mauvaise correction ou faute envolée coûtent chacune une vie",
+              "Dix corrections consécutives, une correction complexe ou une faute de récupération rendent une vie"
+            ],
+            "subDemos": {
+              "i0": {
+                "label": "opportunité de récupération"
+              }
+            },
+            "mechanics": {
+              "lives": {
+                "label": "vies",
+                "summary": "Cinq au maximum. Zéro met immédiatement fin à la partie."
+              },
+              "streak": {
+                "label": "série",
+                "summary": "Dix corrections d'affilée rendent une vie si vous en avez moins de cinq."
+              },
+              "complex": {
+                "label": "corrections complexes",
+                "summary": "Une faute nécessitant plusieurs modifications pour être résolue rapporte une vie."
+              },
+              "recovery": {
+                "label": "fautes de récupération",
+                "summary": "Rares et lumineuses : corrigez-en une du premier coup pour gagner une vie."
+              }
+            },
+            "visuals": {
+              "life-pips": {
+                "label": "points de vie"
+              },
+              "recovery-aura": {
+                "label": "lueur de récupération"
+              }
+            }
+          },
+          "passages-and-books": {
+            "group": "jeu",
+            "label": "passages et livres",
+            "summary": "Le mode passage joue un extrait ; le mode livre parcourt un ouvrage entier du début à la fin.",
+            "details": [
+              "Un passage est un texte authentique dans son ordre d'origine, choisi selon la difficulté.",
+              "Un livre est téléchargé une seule fois et joué du premier jusqu'au dernier mot.",
+              "Un livre devenu incompatible n'est pas remplacé en cours de route."
+            ],
+            "highlights": [
+              "Les passages se succèdent à tour de rôle à chaque partie",
+              "Les livres sont choisis parmi ceux adaptés à la difficulté"
+            ],
+            "mechanics": {
+              "passages": {
+                "label": "passages",
+                "summary": "Ni choix ni saut : le suivant à son tour."
+              },
+              "books": {
+                "label": "livres",
+                "summary": "Une longue session : un livre entier, pendant une heure ou plus."
+              }
+            },
+            "visuals": {
+              "source": {
+                "label": "source"
+              }
+            }
+          },
+          "scoring": {
+            "group": "survie",
+            "label": "score",
+            "summary": "Le score est sur 1000 : il dépend de la justesse de vos corrections et des vies conservées.",
+            "details": [
+              "Terminer l'intégralité du texte donne la valeur maximale ; échouer ne compte que le trajet parcouru sans bonus de vies.",
+              "Les réponses révélées et les fautes perdues ne comptent jamais comme des réparations.",
+              "Il n'y a aucun multiplicateur."
+            ],
+            "highlights": [
+              "80 % pour les corrections sur les fautes rencontrées, fausses alertes et échecs, pondéré par la distance",
+              "20 % pour les vies restantes à la fin"
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "qualité",
+                "summary": "Corrections divisées par les fautes rencontrées, fausses alertes et tentatives manquées."
+              },
+              "lives": {
+                "label": "vies",
+                "summary": "Vies restantes par rapport à cinq ; zéro en cas d'échec."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "score final"
               }
             }
           }

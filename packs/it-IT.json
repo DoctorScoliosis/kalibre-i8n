@@ -4178,28 +4178,28 @@
                 }
               },
               "serving": {
-                "label": "servizio fisico",
+                "label": "portata fisica",
                 "group": "per iniziare",
-                "summary": "carica le parole sul cucchiaio e portale fisicamente alla creatura per servirle.",
+                "summary": "Carica le parole sul cucchiaio e portale fisicamente alla creatura per nutrirla.",
                 "mechanics": {
                   "spoon": {
                     "label": "cucchiaio",
-                    "summary": "una parola valida digitata carica il cucchiaio. fai clic e trascina per servire."
+                    "summary": "Una parola valida digitata carica il cucchiaio. Fai clic e trascina per servire."
                   },
                   "targeting": {
                     "label": "puntamento",
-                    "summary": "passa il cursore sulla creatura per evidenziarla, poi rilascia per consegnare il cibo."
+                    "summary": "Passa sopra la creatura per evidenziarla, poi rilascia per consegnare il cibo."
                   }
                 },
                 "controls": {
                   "i0": {
-                    "action": "carica il cucchiaio"
+                    "action": "carica cucchiaio"
                   },
                   "i1": {
                     "action": "porta e servi"
                   },
                   "i2": {
-                    "action": "annulla il cibo"
+                    "action": "annulla cibo"
                   }
                 },
                 "visuals": {
@@ -4209,12 +4209,21 @@
                   "creature-highlight": {
                     "label": "bersaglio evidenziato"
                   }
-                }
+                },
+                "details": [
+                  "Le parole corrette nutrono la creatura e restituiscono tempo; quelle errate ne consumano.",
+                  "Rilascia fuori dalla creatura per conservare il cibo e riprovare.",
+                  "Premi Esc per annullare il cibo sul cucchiaio."
+                ],
+                "highlights": [
+                  "Digita una parola per caricarla sul cucchiaio",
+                  "Fai clic sul cucchiaio, trascinalo verso la creatura e rilascia per servire"
+                ]
               }
             },
             "options": {
               "serving": {
-                "label": "vassoio di servizio",
+                "label": "vassoio da portata",
                 "choices": {
                   "off": {
                     "label": "disattivato"
@@ -4233,6 +4242,17 @@
                 "choices": {
                   "endless": {
                     "label": "senza fine"
+                  }
+                }
+              },
+              "variant": {
+                "label": "versione",
+                "choices": {
+                  "siege": {
+                    "label": "l'assedio"
+                  },
+                  "climb": {
+                    "label": "la scalata"
                   }
                 }
               }
@@ -4349,12 +4369,14 @@
                 "group": "combattere",
                 "highlights": [
                   "maiusc+invio lascia cadere un mattone sull'attaccante bersagliato",
-                  "i bruti sfondano, i guastatori rosicchiano, le catapulte lanciano massi da lontano"
+                  "i bruti sfondano, i guastatori rosicchiano, le catapulte lanciano massi da lontano",
+                  "un gigante richiede una parola forte"
                 ],
                 "details": [
                   "un mattone lasciato cadere infligge danni pari alla sua forza.",
                   "un nemico non schiacciato può essere stordito per un momento.",
-                  "le catapulte stanno a distanza: un arco tratteggiato mostra dove stanno mirando."
+                  "le catapulte stanno a distanza: un arco tratteggiato mostra dove stanno mirando.",
+                  "un gigante possiede molta più salute. I mattoni deboli lo scalfiscono appena e non lo stordiscono: solo una parola forte può farlo."
                 ],
                 "mechanics": {
                   "brute": {
@@ -4366,7 +4388,8 @@
                     "summary": "danneggia le sezioni. si sposta tra i bersagli."
                   },
                   "catapult": {
-                    "label": "catapulta"
+                    "label": "catapulta",
+                    "about": "Posizionata in fondo con equipaggio e massi, scaglia proiettili ad arco parabolico. Lancia un mattone contro l'arma o il suo operatore per fermarla."
                   },
                   "stun": {
                     "label": "stordimento",
@@ -4375,6 +4398,10 @@
                   "drops": {
                     "label": "lanci di mattoni",
                     "summary": "lascia cadere un mattone su un nemico per danneggiarlo o schiacciarlo."
+                  },
+                  "giant": {
+                    "label": "gigante",
+                    "summary": "Un ariete titanico instancabile. Richiede una parola forte: i mattoni deboli lo scalfiscono appena e non lo stordiscono."
                   }
                 },
                 "controls": {
@@ -4388,6 +4415,9 @@
                 "subDemos": {
                   "i0": {
                     "label": "lanci di mattoni"
+                  },
+                  "i1": {
+                    "label": "un gigante"
                   }
                 },
                 "visuals": {
@@ -4402,8 +4432,12 @@
                   },
                   "boulder-arc": {
                     "label": "arco del masso"
+                  },
+                  "giant-stomp": {
+                    "label": "gigante (pestamento)"
                   }
-                }
+                },
+                "intro": "Lascia cadere mattoni sugli assalitori per schiacciarli, e scaglia mattoni contro le catapulte nella pianura."
               },
               "powering-up": {
                 "label": "potenziarsi",
@@ -4460,6 +4494,239 @@
                     "label": "riparazione sul campo"
                   }
                 }
+              },
+              "siege": {
+                "group": "assedio",
+                "label": "assedio",
+                "summary": "Le catapulte e i loro operatori agiscono in fondo al campo. Ferma gli operatori, distruggi il telaio o lascia che i massi si esauriscano.",
+                "details": [
+                  "Ogni catapulta ha un operatore e una pila di massi. L'operatore porta un masso, carica, mira e scaglia.",
+                  "Abbatti l'operatore e la catapulta si fermerà. Un masso già caricato rimarrà in posizione, ma nessuno potrà spararlo.",
+                  "Un colpo forte al telaio mentre prende la mira farà cadere il masso. Distruggi il telaio per ridurlo in macerie.",
+                  "Ondate successive possono inviare squadre di riparazione tra le macerie. Fermale affinché le macerie rimangano tali."
+                ],
+                "highlights": [
+                  "Gli operatori portano massi e caricano la catapulta: osserva l'arco di tiro",
+                  "Lancia un mattone all'operatore o al telaio: fai clic o sposta il cursore in alto e premi Maiusc+Invio"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "avanza verso la linea d'assedio"
+                  },
+                  "i1": {
+                    "action": "scaglia un mattone all'operatore, poi al telaio"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "ciclo della catapulta"
+                  },
+                  "i1": {
+                    "label": "interrompere un colpo"
+                  }
+                },
+                "mechanics": {
+                  "crew": {
+                    "label": "equipaggio",
+                    "summary": "Trasporta i massi dalla pila alla coppa. Neutralizzalo per fermare la catapulta."
+                  },
+                  "rocks": {
+                    "label": "massi",
+                    "summary": "Ogni catapulta parte con una scorta limitata. Un masso si consuma a ogni caricamento."
+                  },
+                  "interrupt": {
+                    "label": "interruzione",
+                    "summary": "Un colpo violento al telaio mentre prende la mira fa cadere il masso."
+                  },
+                  "rubble": {
+                    "label": "macerie",
+                    "summary": "Una catapulta distrutta lascia macerie. Una squadra di riparazione potrebbe tentare di ricostruirla."
+                  }
+                },
+                "visuals": {
+                  "catapult-crew": {
+                    "label": "catapulta ed equipaggio"
+                  },
+                  "rock-pile": {
+                    "label": "pila di massi"
+                  },
+                  "rubble-heap": {
+                    "label": "cumulo di macerie"
+                  },
+                  "repair-crew": {
+                    "label": "squadra di riparazione"
+                  }
+                }
+              },
+              "sabotage": {
+                "group": "sabotaggio",
+                "label": "sabotaggio",
+                "summary": "Gli anarchici piazzano dinamite e lanciano torce incendiarie. Disinnesca la dinamite, spegni gli incendi o abbatti l'anarchico.",
+                "details": [
+                  "La dinamite brucia con una miccia sul muro. Disinnescala facendo clic o premendo Backspace sulla sua sezione prima che esploda.",
+                  "Il fuoco si propaga e indebolisce costantemente le mura. Una sezione che crolla trascina con sé le proprie fiamme.",
+                  "Qualsiasi parola digitata riempie il secchio in base alla sua forza. Premi 0 con mattone selezionato o fai clic sul mattone e poi sul secchio. Premi 0 a vuoto per versare.",
+                  "qualsiasi parola digitata riempie il secchio in base alla sua forza come mattone. Premi 0 con mattoni selezionati, o fai clic su un mattone e poi sul secchio. Premi 0 a vuoto o fai clic sul secchio e poi su una sezione in fiamme per versare. Esc lo posa."
+                ],
+                "highlights": [
+                  "La dinamite ha la miccia accesa: fai clic o premi Backspace sulla sua sezione",
+                  "Qualsiasi parola riempie il secchio: preparalo e versalo su un incendio"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "disinnesca la dinamite sulla sezione"
+                  },
+                  "i1": {
+                    "action": "riempi il secchio o preparalo a versare"
+                  },
+                  "i2": {
+                    "action": "versa sulla sezione in fiamme"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "dinamite"
+                  },
+                  "i1": {
+                    "label": "lotta agli incendi"
+                  }
+                },
+                "mechanics": {
+                  "anarchist": {
+                    "label": "anarchico",
+                    "summary": "Piazza dinamite o scaglia torce una dopo l'altra. Abbattilo per fermare le sue azioni."
+                  },
+                  "dynamite": {
+                    "label": "dinamite",
+                    "summary": "Miccia accesa su mura o torre. Devasta la sezione, quelle vicine e ciò che sta alla base."
+                  },
+                  "fire": {
+                    "label": "incendio",
+                    "summary": "Brucia una base o il mastio, e può propagarsi alle sezioni adiacenti a difficoltà più alte."
+                  },
+                  "bucket": {
+                    "label": "secchio",
+                    "summary": "Qualsiasi parola lo riempie in base alla forza del mattone. Un getto estingue un incendio."
+                  }
+                },
+                "visuals": {
+                  "dynamite-fuse": {
+                    "label": "dinamite e miccia"
+                  },
+                  "fire-flame": {
+                    "label": "fuoco"
+                  },
+                  "water-bucket": {
+                    "label": "secchio d'acqua"
+                  }
+                }
+              },
+              "defence": {
+                "group": "difesa",
+                "label": "difesa",
+                "summary": "Le due basi inviano ondate di soldati per difendere le mura. Preservale e fai attenzione al fuoco amico.",
+                "details": [
+                  "Le due basi sono le fondamenta dietro la porta. Ciascuna conta alla rovescia, si prepara e schiera soldati all'arrivo dei nemici.",
+                  "I soldati avanzano verso il bruto, guastatore o anarchico più vicino e lo affrontano. I nemici impegnati colpiscono i soldati invece delle mura.",
+                  "Una base perduta durante il conto alla rovescia annulla la propria ondata. Una base distrutta durante lo schieramento completa i soldati già usciti.",
+                  "In modalità difficile, i mattoni lasciati cadere feriscono anche i soldati alleati alla base del bersaglio. I soldati rientrano quando il nemico si ritira."
+                ],
+                "highlights": [
+                  "I soldati escono dalle fondamenta e intrattengono gli assalitori in combattimento",
+                  "Conserva intatte le fondamenta per schierare ondate di supporto sempre più consistenti"
+                ],
+                "subDemos": {
+                  "i0": {
+                    "label": "schieramento soldati"
+                  },
+                  "i1": {
+                    "label": "distrarre nemici"
+                  }
+                },
+                "mechanics": {
+                  "bases": {
+                    "label": "basi delle fondamenta",
+                    "summary": "Arruolano truppe e inviano ondate di supporto a contatto col nemico."
+                  },
+                  "soldiers": {
+                    "label": "soldati",
+                    "summary": "Combattono bruti e guastatori per alleggerire la pressione sulle mura."
+                  },
+                  "friendly_fire": {
+                    "label": "fuoco amico",
+                    "summary": "Solo in difficile: i mattoni caduti feriscono anche i soldati alleati vicini al bersaglio."
+                  }
+                },
+                "visuals": {
+                  "soldier-helmet": {
+                    "label": "soldato"
+                  },
+                  "base-ring": {
+                    "label": "base e il suo anello"
+                  }
+                }
+              },
+              "climb": {
+                "group": "la scalata",
+                "label": "la scalata",
+                "summary": "I briganti innalzano scale e lanciano rampini per salire le scale verso il re. Percorri le stanze, mira con ciascun mattone e difendi la corona.",
+                "details": [
+                  "La torre è composta da stanze sovrapposte, un atrio inferiore con porta verso l'esterno e il re sul trono in cima. Un brigante entrato da una finestra attraversa la stanza verso le scale.",
+                  "Se un brigante raggiunge il re, lo afferra e scende le scale verso l'uscita. Fermalo coi mattoni: cadendo lascerà il re e dovrai raggiungerlo per metterlo al sicuro.",
+                  "I mattoni si scagliano a mano: spazio ne equipaggia uno, un clic lancia verso il cursore. Gli scribi esigono parole lunghe, gli attaccabrighe colpi duri, i cavalieri entrambi; gli incendiari appiccano il fuoco e i bagnatori bagnano il pavimento."
+                ],
+                "highlights": [
+                  "La torre in sezione: osserva i briganti entrare dalle finestre e insegui chi tenta di rapire il re",
+                  "Muoviti di persona: sali le scale, esci dalla porta per attingere acqua al pozzo. Ogni mattone è mirato a mano"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "cammina (Maiusc scatta); su e giù usano scale, porte e scale a pioli"
+                  },
+                  "i1": {
+                    "action": "spazio o Invio prende mattone; clic lancia verso il puntatore"
+                  },
+                  "i2": {
+                    "action": "backspace respinge la scala o taglia la corda alla finestra vicina"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "respingere le scale"
+                  },
+                  "i1": {
+                    "label": "tagliare le corde"
+                  },
+                  "i2": {
+                    "label": "caduta di un piano"
+                  }
+                },
+                "mechanics": {
+                  "floors": {
+                    "label": "piani",
+                    "summary": "I briganti scalano verso la stanza inferiore ancora in piedi. Se uno raggiunge la cima della scala, conquista la stanza per sempre."
+                  },
+                  "ladders": {
+                    "label": "scale",
+                    "summary": "Costruite alla base della torre e poi innalzate. Respingile per far cadere lo scalatore."
+                  },
+                  "grapples": {
+                    "label": "rampini",
+                    "summary": "Un gancio lanciato al davanzale. Taglia la corda per far precipitare il brigante."
+                  },
+                  "impacts": {
+                    "label": "impatti",
+                    "summary": "Un mattone colpisce in base alla lunghezza della parola e alla velocità; colpire alla testa infligge danni maggiori."
+                  }
+                },
+                "visuals": {
+                  "climb-tower": {
+                    "label": "la torre"
+                  },
+                  "climb-rogue": {
+                    "label": "brigante"
+                  }
+                }
               }
             }
           },
@@ -4476,6 +4743,17 @@
                   },
                   "i2": {
                     "label": "2 min"
+                  }
+                }
+              },
+              "variant": {
+                "label": "variante",
+                "choices": {
+                  "standard": {
+                    "label": "standard"
+                  },
+                  "elite": {
+                    "label": "élite"
                   }
                 }
               }
@@ -4677,7 +4955,8 @@
                 "summary": "i nemici distrutti lasciano potenziamenti. raccoglili, conservali e attivali.",
                 "highlights": [
                   "raccogli un potenziamento fluttuante per conservarlo",
-                  "attiva con maiusc+1–3 o fai clic su uno spazio"
+                  "attiva con maiusc+1–3 o fai clic su uno spazio",
+                  "l'accumulatore è un potenziamento che raccoglie parole in un unico carico: spazio aggiunge una parola, spazio a vuoto la rilascia"
                 ],
                 "details": [
                   "puoi conservare fino a tre potenziamenti. due tipi possono essere attivi insieme; riottenere lo stesso tipo accumula il suo timer.",
@@ -4685,7 +4964,8 @@
                   "gatling: ogni lettera digitata spara un dardo istantaneo.",
                   "scudo: una barriera assorbe i colpi per la nave.",
                   "automa: sceglie automaticamente il colpo migliore per la minaccia più grande.",
-                  "inseguimento: le parole sparate si dirigono verso i bersagli."
+                  "inseguimento: le parole sparate si dirigono verso i bersagli.",
+                  "l'accumulatore non si accumula e non ha timer. Non spara mai da solo: oltre il limite la nave si sovraccarica distruggendo i nemici vicini, e la partita finisce. Un refuso terminato con spazio resta bloccato finché non lo correggi; Invio lo spara così com'è."
                 ],
                 "mechanics": {
                   "double": {
@@ -4707,6 +4987,10 @@
                   "homing": {
                     "label": "inseguimento",
                     "summary": "le parole sparate si dirigono dinamicamente verso i bersagli."
+                  },
+                  "accumulator": {
+                    "label": "accumulatore",
+                    "summary": "Le parole completate con spazio accumulano carica; premere spazio senza testo rilascia un devastante colpo singolo."
                   }
                 },
                 "controls": {
@@ -4718,6 +5002,9 @@
                   },
                   "i2": {
                     "action": "attiva il potenziamento nello spazio 3"
+                  },
+                  "i3": {
+                    "action": "aggiungi una parola al carico, o rilascialo senza digitare nulla"
                   }
                 },
                 "visuals": {
@@ -4735,6 +5022,93 @@
                   },
                   "powerup-homing": {
                     "label": "inseguitore"
+                  },
+                  "powerup-accumulator": {
+                    "label": "indicatore dell'accumulatore"
+                  }
+                },
+                "subDemos": {
+                  "i0": {
+                    "label": "accumulatore"
+                  },
+                  "i1": {
+                    "label": "sovraccarico"
+                  }
+                }
+              },
+              "boss": {
+                "group": "la nave madre",
+                "label": "la nave madre",
+                "summary": "Un'enorme nave madre sopraggiunge con il proprio requisito di parole, due mitragliatrici, caccia e mine. Abbattila per vincere lo scontro.",
+                "details": [
+                  "Nella modalità senza fine, una nave madre appare dopo diverse ondate ordinarie e il gioco riprende quando cade. Ciascuna è più resistente della precedente.",
+                  "Nella modalità a tempo, c'è una sola nave madre allo scadere del tempo. Sconfiggerla conferisce la vittoria; la distruzione della propria nave è una sconfitta.",
+                  "Il distintivo sopra la nave indica il requisito attuale. Al cambio, il precedente resta valido un istante per convalidare i colpi già in volo.",
+                  "I proiettili delle mitragliatrici non hanno lettere e non si possono abbattere: scansali. Uno scudo assorbe un'intera raffica come un colpo singolo.",
+                  "I caccia serpeggiano sul campo e schivano i tuoi tiri, ma non le esplosioni. Non speronano mai e non hanno requisiti.",
+                  "La bomba di parole danneggia poco la nave madre e le torrette, ma ripulisce missili e proiettili e distrugge i caccia. La carica dell'accumulatore ignora i requisiti.",
+                  "Mentre la nave madre è presente, solo gli asteroidi compaiono spontaneamente. Le navette di soccorso continuano ad arrivare.",
+                  "Una partita élite inizia direttamente con la nave madre e dura lo stesso tempo per ogni difficoltà. Resistere fino alla fine supera la sfida.",
+                  "L'indicatore accanto alla tua nave misura il danno inflitto, non la salute residua, e non si riempie mai del tutto.",
+                  "Una mitragliatrice distrutta resta inattiva un tempo e poi mostra un conteggio di 15 secondi prima di fare fuoco di nuovo. Difficoltà maggiori riparano prima."
+                ],
+                "highlights": [
+                  "La nave madre accetta solo parole conformi al requisito corrente, che cambia ogni pochi secondi",
+                  "Le sue due mitragliatrici accettano qualsiasi parola: distruggerne una elimina la metà dei proiettili",
+                  "Una partita a tempo termina con la nave madre finale: sconfiggila per vincere senza limiti di tempo",
+                  "Una partita élite non permette di abbattere la nave madre: sopravvivi e il danno inflitto sarà il tuo punteggio",
+                  "Una mitragliatrice distrutta viene ricostruita dopo una pausa, segnalata da un conteggio visibile"
+                ],
+                "subDemos": {
+                  "i0": {
+                    "label": "nave madre"
+                  },
+                  "i1": {
+                    "label": "mitragliatrici"
+                  },
+                  "i2": {
+                    "label": "partita élite"
+                  }
+                },
+                "mechanics": {
+                  "mothership": {
+                    "label": "nave madre",
+                    "summary": "Una nave mastodontica dalla salute limitata, mostrata in un indicatore accanto al tuo."
+                  },
+                  "requirements": {
+                    "label": "requisito mutevole",
+                    "summary": "La parola richiesta cambia ogni pochi secondi, più velocemente a difficoltà superiori."
+                  },
+                  "gatlings": {
+                    "label": "mitragliatrici",
+                    "summary": "Due bocche da fuoco che sparano raffiche sull'area. Una volta distrutte, smettono di sparare."
+                  },
+                  "dogfighters": {
+                    "label": "caccia da scontro",
+                    "summary": "Piccole navi senza lettere che virano, schivano i colpi e sparano brevi raffiche."
+                  },
+                  "milestones": {
+                    "label": "traguardi",
+                    "summary": "Le partite senza fine incontrano una nave madre ogni poche ondate; quelle a tempo terminano con essa."
+                  },
+                  "elite": {
+                    "label": "partita élite",
+                    "summary": "La nave madre è indistruttibile. Sopravvivi fino allo scadere del tempo; il danno inflitto è il tuo punteggio."
+                  },
+                  "regeneration": {
+                    "label": "ricostruzione mitragliatrice",
+                    "summary": "Una mitragliatrice distrutta viene riparata dopo una pausa accompagnata da un conto alla rovescia visibile."
+                  }
+                },
+                "visuals": {
+                  "mothership-hull": {
+                    "label": "nave madre e indicatore scafo"
+                  },
+                  "boss-gatling": {
+                    "label": "raffica di mitragliatrice"
+                  },
+                  "elite-meter": {
+                    "label": "indicatore danno inflitto"
                   }
                 }
               }
@@ -4959,6 +5333,267 @@
                   },
                   "clean-sweep": {
                     "label": "bonus per passaggio pulito"
+                  }
+                }
+              }
+            }
+          },
+          "marathon": {
+            "help": [
+              "Un libro intero, pagina dopo pagina. Trova ogni errore inserito (fai clic su una parola o usa le frecce, poi Invio) e correggilo sul posto.",
+              "Ogni correzione aggiunge tempo e ogni falso allarme o tentativo errato ne toglie. Quando l'orologio segna zero, la partita finisce.",
+              "Una pagina si supera quando tutti i suoi errori sono corretti o mostrati; supera l'ultima pagina prima dello scadere del tempo per vincere."
+            ],
+            "contexts": {
+              "getting-started": {
+                "group": "per iniziare",
+                "label": "per iniziare",
+                "summary": "Correggi un intero libro dalla tua libreria, pagina dopo pagina, prima che scada il tempo.",
+                "details": [
+                  "I libri provengono dalle tue raccolte attive; il testo integrale viene scaricato una volta e conservato.",
+                  "Non è possibile saltare: una pagina rimane finché tutti i suoi errori non vengono risolti.",
+                  "Terminare la partita prima del tempo conta come sconfitta."
+                ],
+                "highlights": [
+                  "Scegli un libro tra la lunghezza minima della difficoltà e 5.000 parole",
+                  "Ogni pagina si conclude quando tutti i suoi errori sono corretti o rivelati"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "muoviti tra le parole"
+                  },
+                  "i1": {
+                    "action": "segnala la parola selezionata o conferma correzione"
+                  }
+                },
+                "mechanics": {
+                  "pages": {
+                    "label": "pagine",
+                    "summary": "Circa 150 parole per pagina, con un errore ogni 50, 40 o 30 parole in base alla difficoltà."
+                  }
+                },
+                "visuals": {
+                  "page-progress": {
+                    "label": "progresso della pagina"
+                  },
+                  "time-bank": {
+                    "label": "banca del tempo"
+                  }
+                }
+              },
+              "time-bank": {
+                "group": "sopravvivenza",
+                "label": "banca del tempo",
+                "summary": "L'orologio scorre solo durante il gioco. Le correzioni aggiungono tempo, gli errori ne tolgono, e raggiungere lo zero conclude la partita all'istante.",
+                "details": [
+                  "Facile inizia con 4 minuti, normale con 3 e difficile con 2; la riserva contiene al massimo 7, 5 o 4 minuti.",
+                  "Due tentativi errati mostrano la soluzione: la pagina avanza, ma conta come fallimento.",
+                  "Selezionare parole e muovere il cursore non consuma mai tempo."
+                ],
+                "highlights": [
+                  "Una correzione aggiunge 48, 34 o 29 secondi in base alla difficoltà",
+                  "Un falso allarme o una correzione errata toglie tempo"
+                ],
+                "mechanics": {
+                  "reward": {
+                    "label": "correzioni",
+                    "summary": "Ogni riparazione aggiunge tempo, fino al limite della riserva."
+                  },
+                  "penalty": {
+                    "label": "errori",
+                    "summary": "Un falso allarme costa 4, 9 o 12 secondi; un tentativo errato 5, 12 o 15."
+                  }
+                },
+                "visuals": {
+                  "time-gain": {
+                    "label": "tempo guadagnato"
+                  },
+                  "time-loss": {
+                    "label": "tempo perso"
+                  }
+                }
+              },
+              "scoring": {
+                "group": "sopravvivenza",
+                "label": "punteggio",
+                "summary": "Il punteggio è su 1000: premia la precisione delle tue correzioni e il tempo rimasto al termine.",
+                "details": [
+                  "Una partita perfetta conclusa a riserva piena vale 1000 punti.",
+                  "Le soluzioni mostrate contano come fallimenti, non come correzioni.",
+                  "Se il tempo si esaurisce, il punteggio calcola solo la porzione di libro completata."
+                ],
+                "highlights": [
+                  "80% per correzioni rispetto al totale di errori, falsi allarmi e tentativi errati",
+                  "20% per il tempo rimasto al termine"
+                ],
+                "mechanics": {
+                  "quality": {
+                    "label": "qualità",
+                    "summary": "Correzioni divise per errori inseriti, falsi allarmi e tentativi errati."
+                  },
+                  "time": {
+                    "label": "tempo",
+                    "summary": "Tempo residuo oltre la riserva; zero in caso di fallimento."
+                  }
+                },
+                "visuals": {
+                  "final-score": {
+                    "label": "punteggio finale"
+                  }
+                }
+              }
+            }
+          },
+          "scroller": {
+            "help": [
+              "Correggi una lettura o un libro intero mentre scorre verso l'alto. Trova ogni errore (fai clic su una parola o usa le frecce, poi Invio) e correggilo prima che la sua riga superi la linea superiore.",
+              "Hai cinque vite. Un falso allarme, una correzione errata o un errore lasciato scorrere via costa una vita ciascuno.",
+              "Le vite tornano con serie di successi, correzioni complesse ed errori luminosi di recupero, una alla volta."
+            ],
+            "contexts": {
+              "getting-started": {
+                "group": "per iniziare",
+                "label": "per iniziare",
+                "summary": "Correggi una lettura o un libro intero durante la salita e risolvi ogni errore prima che la riga esca in alto.",
+                "details": [
+                  "Non c'è timer: il testo scorre alla velocità fissa della difficoltà e si ferma in pausa.",
+                  "Seleziona una parola e premi Invio per segnalarla, poi correggila direttamente sul posto.",
+                  "Terminare la partita prima del tempo conta come sconfitta."
+                ],
+                "highlights": [
+                  "Un errore non risolto che supera la linea superiore costa una vita",
+                  "Hai cinque vite e la partita termina non appena si esauriscono"
+                ],
+                "controls": {
+                  "i0": {
+                    "action": "muoviti tra le parole"
+                  },
+                  "i1": {
+                    "action": "muoviti tra le righe"
+                  },
+                  "i2": {
+                    "action": "segnala la parola selezionata o conferma correzione"
+                  }
+                },
+                "mechanics": {
+                  "scrolling": {
+                    "label": "scorrimento",
+                    "summary": "Ogni riga resta sullo schermo per lo stesso tempo, a prescindere dalle dimensioni della finestra."
+                  },
+                  "boundary": {
+                    "label": "linea superiore",
+                    "summary": "Un errore che supera la linea senza essere risolto è definitivamente perso."
+                  }
+                },
+                "visuals": {
+                  "lives": {
+                    "label": "vite"
+                  },
+                  "boundary": {
+                    "label": "linea superiore"
+                  }
+                }
+              },
+              "lives-and-recovery": {
+                "group": "sopravvivenza",
+                "label": "vite e recupero",
+                "summary": "Hai cinque vite. Ciascuna può essere recuperata, ma mai più di una per singola correzione.",
+                "details": [
+                  "Un errore di recupero brilla. Risolvilo al primo tentativo per ottenere una vita; un errore perde l'occasione.",
+                  "Ogni vita persa azzera la serie di correzioni consecutive.",
+                  "Due tentativi errati mostrano la soluzione; quell'errore non toglierà più vita uscendo dallo schermo."
+                ],
+                "highlights": [
+                  "Falso allarme, correzione errata o errore fuggito costano una vita ciascuno",
+                  "Dieci correzioni di fila, una correzione complessa o un errore di recupero restituiscono una vita"
+                ],
+                "subDemos": {
+                  "i0": {
+                    "label": "occasione di recupero"
+                  }
+                },
+                "mechanics": {
+                  "lives": {
+                    "label": "vite",
+                    "summary": "Cinque al massimo. Zero conclude immediatamente la partita."
+                  },
+                  "streak": {
+                    "label": "serie",
+                    "summary": "Dieci correzioni consecutive restituiscono una vita se ne hai meno di cinque."
+                  },
+                  "complex": {
+                    "label": "correzioni complesse",
+                    "summary": "Un errore che richiede più modifiche per essere risolto restituisce una vita."
+                  },
+                  "recovery": {
+                    "label": "errori di recupero",
+                    "summary": "Rari e luminosi: risolvine uno al primo colpo per guadagnare una vita."
+                  }
+                },
+                "visuals": {
+                  "life-pips": {
+                    "label": "indicatori di vita"
+                  },
+                  "recovery-aura": {
+                    "label": "alone di recupero"
+                  }
+                }
+              },
+              "passages-and-books": {
+                "group": "gioco",
+                "label": "brani e libri",
+                "summary": "La modalità brano riproduce un estratto; la modalità libro riproduce un intero volume dall'inizio alla fine.",
+                "details": [
+                  "Un brano è un testo autentico nel suo ordine originale, scelto in base alla difficoltà.",
+                  "Un libro viene scaricato una sola volta e giocato dalla prima all'ultima parola.",
+                  "Un libro divenuto non compatibile non viene sostituito in corsa."
+                ],
+                "highlights": [
+                  "I brani si susseguono a turno in ogni partita",
+                  "I libri vengono scelti tra quelli adatti alla difficoltà"
+                ],
+                "mechanics": {
+                  "passages": {
+                    "label": "brani",
+                    "summary": "Nessuna scelta né salto: il successivo a turno."
+                  },
+                  "books": {
+                    "label": "libri",
+                    "summary": "Una partita lunga: un libro intero, per un'ora o più."
+                  }
+                },
+                "visuals": {
+                  "source": {
+                    "label": "fonte"
+                  }
+                }
+              },
+              "scoring": {
+                "group": "sopravvivenza",
+                "label": "punteggio",
+                "summary": "Il punteggio è su 1000: calcola la precisione delle correzioni e le vite rimaste al termine.",
+                "details": [
+                  "Completare l'intero testo assegna il massimo; fallire calcola solo la porzione percorsa senza bonus vite.",
+                  "Le soluzioni rivelate e gli errori perduti non contano mai come correzioni.",
+                  "Non esistono combo o moltiplicatori."
+                ],
+                "highlights": [
+                  "80% per correzioni rispetto a errori incontrati, falsi allarmi e tentativi errati, pesato sul percorso",
+                  "20% per le vite rimaste al termine"
+                ],
+                "mechanics": {
+                  "quality": {
+                    "label": "qualità",
+                    "summary": "Correzioni divise per errori incontrati, falsi allarmi e tentativi errati."
+                  },
+                  "lives": {
+                    "label": "vite",
+                    "summary": "Vite rimaste su cinque; zero in caso di fallimento."
+                  }
+                },
+                "visuals": {
+                  "final-score": {
+                    "label": "punteggio finale"
                   }
                 }
               }
