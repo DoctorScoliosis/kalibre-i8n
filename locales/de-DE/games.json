@@ -7,24 +7,24 @@
       "unprompted": "Snack-Modus",
       "buffet": "Buffet"
     },
-    "s_not_what_i_asked": "−{seconds}S ·{text}Nicht das, wonach ich gefragt habe",
-    "fed": "+{seconds}S ·{text}",
+    "s_not_what_i_asked": "−{seconds} s · {text}: nicht das, wonach gefragt wurde",
+    "fed": "+{seconds} s · {text}",
     "fed_patched": "(Geflickt)",
     "fed_hinted": "(Hinweis: Halbzeit)",
     "fed_yum": "· Yum",
-    "typo": "−{seconds}S · a typo",
+    "typo": "−{seconds} s · ein Tippfehler",
     "typo_meant": " ({meant}?)",
     "serving_tray_label": "Servierschale",
     "serving_tray_help": "Klicken Sie auf den Löffel, um es zu tragen, ziehen Sie zu Kreatur",
     "serving_tray_empty": "Geben Sie ein Wort ein, um den Löffel zu laden",
-    "serving_tray_count": "Schale{count}/{capacity}",
+    "serving_tray_count": "Tablett {count}/{capacity}",
     "serving_tray_full_state": "Tablett voll · zuerst dienen",
-    "serving_queued": "{text}Schlange · Tray{count}/{capacity}",
+    "serving_queued": "{text} in Warteschlange · Tablett {count}/{capacity}",
     "serving_tray_full": "Tablett ist voll - zuerst dienen",
-    "serving_wasted": " · −{seconds}S ·{count, plural, one {1 Wort verschwendet} other {# Wörter verschwendet}}",
-    "serving_served": "Bedient ·{matched}/{total}Übereinstimmend",
+    "serving_wasted": " · −{seconds} s · {count, plural, one {1 Wort verschwendet} other {# Wörter verschwendet}}",
+    "serving_served": "Serviert · {matched}/{total} passend",
     "serving_nothing_matched": "Nicht übereinstimmend — Zeitverlust",
-    "prepared": "{text}Zubereitet",
+    "prepared": "{text} zubereitet",
     "cancelled": "Stornierung von Lebensmitteln",
     "carrying": "Die Nahrung zum Geschöpf tragen",
     "spoon_pickup": "Klicken und Drag to Servieren",
@@ -41,16 +41,16 @@
     "the_attackers_resolve_hold_the": "Die Entschlossenheit der Angreifer: Halten Sie das Tor und tragen Sie es weiter ab",
     "stockpile": "Lagerbestände",
     "click_a_brick_to_carry": "Klicken Sie auf einen Ziegelstein, um ihn zu tragen · Platz legt · Shift + Enter Drops · 1-9 Pick",
-    "bricks": "{length}Steine ·{toFixed}",
-    "brick_stacked": "{word} · {note}Ziegel{toFixed}· Gestapelt{repeatNote}",
-    "damage": "{note} · {toFixed}Schäden",
-    "yard_brick_pick": "{word}: {note}Ziegelstein, Festigkeit{strength}(Presse){key}Zu wählen",
-    "yard_brick": "{word}: {note}Ziegelstein, Festigkeit{strength}",
+    "bricks": "{length} Steine · {toFixed}",
+    "brick_stacked": "{word} · {note} Ziegel {toFixed} · gestapelt{repeatNote}",
+    "damage": "{note} · {toFixed} Schaden",
+    "yard_brick_pick": "{word}: {note} Ziegel, Stärke {strength} (drücke {key} zur Auswahl)",
+    "yard_brick": "{word}: {note} Ziegel, Stärke {strength}",
     "aiming_at": "Ziel ist es,{section} {integrity}/{max}",
     "aiming_critical": "· Kritisch",
-    "aiming_needs": "· Braucht Steine, die{requirement}",
+    "aiming_needs": "· benötigt Steine, die {requirement}",
     "brick_added": "{what} · +{added} {section}",
-    "brick_named": "{word} · {note}Ziegel",
+    "brick_named": "{word} · {note} Ziegel",
     "the_castle": "Die Burg",
     "powerups": {
       "mortar": {
@@ -73,7 +73,7 @@
     "foe_stunned": ", Betäubt",
     "section_title": "{section}: {integrity}/{max}",
     "section_critical": ", Kritisch",
-    "section_needs": "Braucht Ziegelsteine, die{requirement}",
+    "section_needs": "Benötigt Ziegel, die {requirement}",
     "news_line": "{label}: {note}",
     "powerup": "Powerup",
     "units": {
@@ -319,12 +319,12 @@
     "click_enter_fires_scroll_choose": "Click / enter fires · ↑ ↓ / scroll select · backspace ×2 scraps",
     "finish_a_word_to_load": "Beende ein Wort, um es zu laden",
     "bomb_ready_shift_enter": "Bombe bereit · shift+enter",
-    "bomb": "Bombe{floor}%",
-    "ship": "Schiff{round}",
-    "score": "Punktzahl{round}",
-    "destroyed": "Zerstört{value}",
-    "s_left": "{ceil}S links",
-    "trigger_jammed_type_or_backspace": "Auslöser gestaut · Typ{word}, Oder Backspace zweimal, um einen Schuss zu verschrotten",
+    "bomb": "Bombe {floor}%",
+    "ship": "Schiff {round}",
+    "score": "Punktzahl {round}",
+    "destroyed": "Zerstört: {value}",
+    "s_left": "{ceil} s verbleibend",
+    "trigger_jammed_type_or_backspace": "Abzug blockiert · tippe {word} oder drücke zweimal Backspace, um den Schuss zu verwerfen",
     "accumulator": "Nutzlast {charge}/{capacity}",
     "accumulator_meter": "Akkumulator-Nutzlast",
     "accumulator_warning": {
@@ -355,9 +355,9 @@
     "modes": {
       "prompted": "Korrektor"
     },
-    "was": "{errorTitle}: War{corrupted}”",
-    "should_be": "{errorTitle}: Sollte sein{original}”",
-    "was_fine": "{word}War fein",
+    "was": "{errorTitle}: war „{corrupted}“",
+    "should_be": "{errorTitle}: sollte sein „{original}“",
+    "was_fine": "{word} war in Ordnung",
     "fixed": "Fest:{original} · {errorTitle}",
     "it_should_be": "Es sollte „{original}” · {errorTitle}",
     "repairing": "{title}· Fix it in place (← → move) und Enter drücken",
@@ -378,7 +378,7 @@
     "menu_intro": "Tippen als Spiel: Ihre Worte werden zu Essen, Ziegeln, Schüssen und Reparaturen. Spiele zählen auf XP, Ihre Fehler und Ihr tägliches Ziel (wenn Sie tippen, nicht lesen oder zielen).",
     "games_aria": "Spiele",
     "not_played": "Noch nicht gespielt",
-    "best_summary": "Am besten{score}· Zuletzt gespielt{date}",
+    "best_summary": "Bester: {score} · zuletzt gespielt: {date}",
     "race_record": "Allein oder in Ihrem Netzwerk",
     "mode": "Modus",
     "difficulty": "Schwierigkeit",
@@ -386,21 +386,21 @@
     "replay": "Wiederholung",
     "main": "Hauptbestandteil",
     "demo_caption": "Demo · Hover to Play",
-    "play_game": "Spiel{title}",
+    "play_game": "{title} spielen",
     "all_games": "Alle Spiele",
-    "demo_aria": "{title}: {label}Demontage",
+    "demo_aria": "{title}: {label}-Demo",
     "no_passages": "Keine Passagen zum Korrekturlesen. Aktivieren Sie einen Dataset in Texten → Datasets.",
     "time_so_far": "Bisherige Zeit",
     "end_game": "Endspiel",
     "exit": "Ausgang",
     "commands": "Befehle",
-    "hints": "Esc Pause ·{restartKey}Neustart",
+    "hints": "Esc Pause · {restartKey} Neustart",
     "strength_chip_title": "Stärke: 1 pro Buchstabe, +1 für k v w y, +2 für j q x z",
-    "strength_current": "Festigkeit{strength}",
-    "strength_goal": "Festigkeit{strength} / {goal}",
+    "strength_current": "Stärke {strength}",
+    "strength_goal": "Stärke {strength} / {goal}",
     "pause_lost_focus": "Das Fenster verliert den Fokus",
     "pause_typing_lost": "Tipping Focus ging verloren",
-    "heading": "{title}Ergebnisse",
+    "heading": "{title}-Ergebnisse",
     "status_failed": "Spiel über",
     "status_aborted": "Ende früh",
     "status_done": "Fertig",
@@ -408,7 +408,7 @@
     "change_setup": "Änderungsaufbau",
     "added_training": "Ergänzung der Ausbildung",
     "mistakes_noted": "{count, plural, one {· 1 Fehler notiert} other {· # Fehler notiert}}",
-    "results_summary": "{time} · {words}Wörter ·{wpm}Wpm ·{accuracy}· Falsch getippt{mistypes}· Korrigiert{corrections}",
+    "results_summary": "{time} · {words} Wörter · {wpm} WPM · {accuracy} · Vertipper: {mistypes} · korrigiert: {corrections}",
     "daily_goal_title": "Spiele zählen ihre tippzeit auf das ziel, nicht die zeit, die sie mit lesen, zielen oder denken verbringen.",
     "key_mashing_note": "Dieser Lauf sah aus wie Key Mashing (){reason}), So dass seine Fehler und XP nicht gezählt wurden.",
     "ghost_title": "Race a Ghost",
@@ -420,20 +420,20 @@
     "time_left": "Verbleibende Zeit",
     "any_word_blurb": "Ich werde alles essen. Stärkere Worte füllen mich mehr.",
     "any_word": "Beliebige Wörter",
-    "counts": "Gefüttert{fed}· Falsch{wrong}· Falsch getippt{mistyped}{streak, select, true {· Streifen{count}} other {}}",
+    "counts": "Gefüttert: {fed} · falsch: {wrong} · vertippt: {mistyped}{streak, select, true { · Serie: {count}} other {}}",
     "satisfaction": "Zufriedenheit",
     "creatures_orders": "Kreaturen und ihre Ordnungen",
     "waiting_guest": "Warten auf den ersten Gast...",
     "served_words": "Zugestellte Wörter",
-    "table_status": "Schale{count}/{cap}",
+    "table_status": "Tablett {count}/{cap}",
     "yard_empty": "Geben Sie ein Wort ein, um einen Stein zu machen",
-    "calm_wave": "Ruhig: Vorrat an Ziegeln · Welle{wave}Von{of}In{seconds}S",
-    "active_wave": "Welle{wave}Von{of} · {count, plural, one {1 Angreifer} other {#Angreifer}}{holding, select, true {· Betrieb} other {· Nicht halten}}",
-    "castle_integrity": "Burg{percent}%",
+    "calm_wave": "Ruhephase: Ziegel horten · Welle {wave} von {of} in {seconds} s",
+    "active_wave": "Welle {wave} von {of} · {count, plural, one {1 Angreifer} other {# Angreifer}}{holding, select, true { · hält stand} other { · hält nicht stand}}",
+    "castle_integrity": "Burg {percent}%",
     "time_bank": "Zeitbank",
     "next_passage": "Nächster Durchgang",
-    "hud_found": "Durchgang{round}· Gefunden{found}Von{total}",
-    "hud_score": "Punktzahl{score}",
+    "hud_found": "Durchgang {round} · {found} von {total} gefunden",
+    "hud_score": "Punktzahl: {score}",
     "skip_title": "Gehen Sie weiter; was übrig bleibt, zählt als verpasst",
     "needs_keyboard": "Der Aufstieg wird mit einer physischen Tastatur gespielt: Die Wache wird mit den Pfeiltasten bewegt und Ziegelsteine werden getippt. Drücken Sie eine Taste auf der Tastatur, um ihn freizuschalten",
     "needs_keyboard_note": "Der Aufstieg erfordert eine physische Tastatur. Drücken Sie eine beliebige Taste darauf, um ihn freizuschalten",
@@ -454,21 +454,21 @@
     "patience": "Geduld",
     "the_floor_fall_to_it": "Den Boden: fallen und das Buffet schließt",
     "burnt_a_typo_counts_half": "Verbrannt (ein Tippfehler): die Hälfte zählt",
-    "served": "Dienst{text}",
+    "served": "Serviert: {text}",
     "an_order_filled_happy_guest": "Bestellung gefüllt · glücklicher Gast",
     "a_guest_gave_up_waiting": "Ein Gast gab das Warten auf",
-    "went_stale": "{text}Ging abgestanden",
+    "went_stale": "{text} wurde alt",
     "the_table_is_full_let": "Das Tablett ist voll: Tragen Sie es zuerst zu den Gästen",
-    "that_s_not_food": "{text}Das ist kein Essen",
-    "orders_wasted_upset": "Aufträge{value}· Verschwendet{value2}· Verstimmung{value3}",
+    "that_s_not_food": "{text} ist kein Essen",
+    "orders_wasted_upset": "Bestellungen: {value} · verschwendet: {value2} · unzufrieden: {value3}",
     "served_burnt": "(Verbrannt: zählt die Hälfte)"
   },
   "games_results": {
-    "daily_goal_met_today": "✓ Tagesziel erreicht ·{formatGoalAmount}Heute",
-    "daily_goal_progress": "Tagesziel ·{done}Von{target}Heute · Dieser Lauf{run}",
-    "run_minutes": "{clock}Typisierung",
-    "run_xp": "{xp}Xp",
-    "run_words": "{words}Wörter"
+    "daily_goal_met_today": "✓ Tagesziel erreicht · {formatGoalAmount} heute",
+    "daily_goal_progress": "Tagesziel · {done} von {target} heute · dieser Lauf: {run}",
+    "run_minutes": "{clock} getippt",
+    "run_xp": "{xp} XP",
+    "run_words": "{words} Wörter"
   },
   "games_setup": {
     "controls": "Kontrollen",
@@ -486,10 +486,10 @@
     "import": "Einfuhr",
     "no_saved_ghosts_yet_save": "Noch keine geretteten Geister. Speichern Sie eine von den Ergebnissen eines Tests, einer Wiederholung oder Ihrer Geschichte.",
     "race_anyway": "Rennen sowieso",
-    "delete_s_ghost": "Löschung{name}Gespenst",
+    "delete_s_ghost": "Geist von {name} löschen",
     "name_on_the_file": "Name in der Datei",
-    "saved_to": "Gerettet{savedTo}",
-    "is_ready": "{fileName}Ist bereit",
+    "saved_to": "Gespeichert unter {savedTo}",
+    "is_ready": "{fileName} ist bereit",
     "include_my_card": "Schließe meine Karte ein",
     "your_text_goes_in_the": "Ihr Text geht in die Datei.",
     "share": "Anteil",
@@ -497,7 +497,7 @@
   },
   "powerup_tray": {
     "shift": "{label}: {help}(Schicht +){value})",
-    "powerups_two_at_once": "Powerups{length}/{storage}· Zwei auf einmal",
+    "powerups_two_at_once": "Power-ups {length}/{storage} · zwei gleichzeitig",
     "running": "aktiv"
   },
   "race_card": {
@@ -505,7 +505,7 @@
     "race_people_on_your_network": "Rennen Menschen in Ihrem Netzwerk",
     "your_car_dress_it_in": "Ihr Auto. kleiden Sie es in Ihr Profil → Ihre Karte → Garage; verdienen Sie Teile durch Rennen und Spielen.",
     "race_a_demo_playing_while": "Rasse: eine Demo, spielen, während sie schwebte oder konzentrierte",
-    "rivals": "{rulesLine}· Rivalen{difficulty}",
+    "rivals": "{rulesLine} · Rivalen: {difficulty}",
     "RACE_CARD": {
       "race": {
         "title": "Rennen",
@@ -522,7 +522,7 @@
   },
   "word_quality": {
     "close_to": "· In der Nähe von „{variantOf}” {percent}",
-    "repeat": "· Wiederholung{percent}"
+    "repeat": "· Wiederholung {percent}"
   },
   "games_registry": {
     "STRENGTH_MECHANIC": {
@@ -1327,7 +1327,7 @@
           "surviving": {
             "label": "Überleben",
             "group": "Überleben",
-            "summary": "Vermeiden Sie Schäden, löschen Sie Staus, weichen Sie Asteroiden aus und verwenden Sie Rettungsschiffe zur Reparatur.",
+            "summary": "Vermeide Schaden, behebe Ladehemmungen, weiche Asteroiden aus und nutze Rettungsschiffe zur Reparatur.",
             "highlights": [
               "Das Schiff hat Gesundheit - Hits reduzieren es, und Null beendet das Spiel",
               "Geben Sie das Wort auf einem grünen Rettungsschiff ein, um es zu reparieren"
@@ -1351,8 +1351,8 @@
                 "summary": "Die Trefferpunkte des Schiffes. Null bedeutet Game Over."
               },
               "jams": {
-                "label": "Konfitüren",
-                "summary": "Eine eingeklemmte Waffe kann nicht feuern, bis sie gelöscht ist. Tippfehler und Unsinn erhöhen das Marmeladerisiko."
+                "label": "Ladehemmungen",
+                "summary": "Eine blockierte Waffe kann erst wieder feuern, wenn die Ladehemmung behoben ist. Tippfehler und sinnloses Tippen erhöhen das Risiko einer Ladehemmung."
               },
               "asteroids": {
                 "label": "Asteroiden",
@@ -1368,12 +1368,12 @@
               },
               "jammer": {
                 "label": "Störsender",
-                "summary": "Erhöht die Wahrscheinlichkeit von Marmeladen während des Lebens."
+                "summary": "Erhöht die Wahrscheinlichkeit von Ladehemmungen, solange es aktiv ist."
               }
             },
             "controls": {
               "i0": {
-                "action": "Verschrottung des gewählten Schusses (Clears a Marmelade)"
+                "action": "Ausgewählten Schuss verwerfen (behebt eine Ladehemmung)"
               }
             },
             "subDemos": {
@@ -1392,7 +1392,7 @@
                 "label": "Asteroidenhindernis"
               },
               "weapon-jam": {
-                "label": "Waffenstaus"
+                "label": "Ladehemmung"
               }
             }
           },
@@ -2117,7 +2117,7 @@
         }
       }
     },
-    "minutes_choice": "{count}Min"
+    "minutes_choice": "{count} Min."
   },
   "space_time": {
     "powerups": {
@@ -2128,32 +2128,32 @@
       "homing": "Hominging",
       "accumulator": "Akkumulator"
     },
-    "stored": "{name}Gespeichert · shift+{slot}Zu verwenden",
-    "storage_full": "Vollständige Lagerung:{name}Verloren",
+    "stored": "{name} gespeichert · Shift+{slot} zum Aktivieren",
+    "storage_full": "Speicher voll: {name} verloren",
     "nothing_stored": "Nichts dort gespeichert",
-    "busy": "Zwei laufen bereits:{name}Wartezeiten",
-    "cant_use": "{name}Kann nicht verwendet werden",
+    "busy": "Bereits zwei aktiv: {name} wartet",
+    "cant_use": "{name} kann nicht genutzt werden",
     "on": "{name} aktiv",
     "stacked": "{name} gestapelt",
     "running": "{name} ist bereits aktiv"
   },
   "constraints": {
     "min_length": "{value}+ Buchstaben",
-    "min_length_need": "Ein langes Wort,{value}Buchstaben oder mehr",
-    "max_length": "{value}Höchstens Buchstaben",
-    "max_length_need": "Ein kurzes Wort,{value}Höchstens Buchstaben",
-    "starts_with": "Beginnt mit{letter}",
-    "starts_with_need": "Etwas, das mit{letter}",
-    "ends_with": "Enden mit{letter}",
-    "ends_with_need": "Etwas endet in{letter}",
-    "contains": "Hat{letter}",
-    "contains_need": "Etwas mit{letter}In ihm",
-    "min_strength": "Festigkeit{value}+",
-    "min_strength_need": "Ein starkes Wort, Stärke{value}Oder mehr",
-    "passage_length": "{min}–{max}Wörter",
-    "passage_length_need": "Einen Durchgang von{min}Wörter oder mehr",
+    "min_length_need": "Ein langes Wort, {value} Buchstaben oder mehr",
+    "max_length": "{value} Buchstaben höchstens",
+    "max_length_need": "Ein kurzes Wort, {value} Buchstaben höchstens",
+    "starts_with": "Beginnt mit {letter}",
+    "starts_with_need": "Etwas, das mit {letter} beginnt",
+    "ends_with": "Endet auf {letter}",
+    "ends_with_need": "Etwas, das auf {letter} endet",
+    "contains": "Enthält {letter}",
+    "contains_need": "Etwas, das {letter} enthält",
+    "min_strength": "Stärke {value}+",
+    "min_strength_need": "Ein starkes Wort, Stärke {value} oder mehr",
+    "passage_length": "{min}–{max} Wörter",
+    "passage_length_need": "Eine Passage von {min} Wörtern oder mehr",
     "any_word": "Beliebige Wörter",
-    "want": "Ich will{needs}.",
+    "want": "Gewünscht: {needs}.",
     "want_any": "Ich will ein Wort."
   },
   "moods": {
@@ -2165,33 +2165,33 @@
   },
   "space_ui": {
     "shot": {
-      "fired": "{word} · {power}Schäden",
+      "fired": "{word} · {power} Schaden",
       "fired_typo": "(Ein Tippfehler: halbe Stärke)",
       "fired_one_left": "(1 Links)",
-      "fired_automaton": "· Automaten{target}",
-      "fighter_down": "Kämpfer{word}Abgeschossen",
-      "loaded": "{word}· Beladen,{power}",
-      "fizzle": "{word}· Kein Wort, es verpuffte",
-      "fizzle_jam": "{word}· Kein Wort: es verpuffte und klemmte den Abzug",
-      "scrap_armed": "Backspace wieder zu verschrotten{word}",
-      "scrap_clear_jam": "Und räumen Sie den Jam",
-      "scrap_armed_jam": "Backspace wieder, um den Jam zu löschen",
-      "scrapped_word": "{word}Schrott",
-      "scrapped": "Schrott",
-      "jam_cleared_suffix": "· Marmelade beseitigt",
-      "rescue_hit": "Vorsicht: Sie treffen das Rettungsschiff (){word})",
+      "fired_automaton": "· Automat → {target}",
+      "fighter_down": "Jäger {word} abgeschossen",
+      "loaded": "{word} · geladen, {power}",
+      "fizzle": "{word} · kein Wort, verpufft",
+      "fizzle_jam": "{word} · kein Wort: verpufft und blockiert den Abzug",
+      "scrap_armed": "Erneut Backspace drücken, um {word} zu verwerfen",
+      "scrap_clear_jam": " und die Ladehemmung beheben",
+      "scrap_armed_jam": "Erneut Backspace drücken, um die Ladehemmung zu beheben",
+      "scrapped_word": "{word} · verworfen",
+      "scrapped": "verworfen",
+      "jam_cleared_suffix": " · Ladehemmung behoben",
+      "rescue_hit": "Vorsicht: Rettungsschiff getroffen ({word})",
       "rescue_lost": "Das Rettungsschiff ging verloren",
-      "jammed": "{word}Den Auslöser blockiert · er bleibt geladen",
-      "locked": "Der Auslöser ist blockiert",
-      "full": "{word}· Das Magazin ist voll: Feuer zuerst",
-      "empty": "Nichts geladen: Beende ein Wort zuerst",
-      "cleared": "Marmelade beseitigt",
-      "intercepted": "Flugkörper{word}Abgeschossen",
-      "repaired": "{word}· Repariert{healed}",
+      "jammed": "{word} blockiert den Abzug · bleibt geladen",
+      "locked": "Der Abzug ist blockiert",
+      "full": "{word} · Magazin voll: erst abfeuern",
+      "empty": "Nichts geladen: erst ein Wort abtippen",
+      "cleared": "Ladehemmung behoben",
+      "intercepted": "Rakete {word} abgeschossen",
+      "repaired": "{word} · {healed} repariert",
       "bomb": "Bombe!",
       "bomb_not_ready": "Die Bombe ist noch nicht geladen",
-      "gatling": "Schnellfeuer{word}",
-      "shield_absorb": "Abschirmung absorbiert{source}Getroffen!",
+      "gatling": "Schnellfeuer · {word}",
+      "shield_absorb": "Schild absorbiert Treffer von {source}!",
       "accumulated": "{word} · zur Nutzlast hinzugefügt, +{power}",
       "held_typo": "{word} · ein Tippfehler wird gehalten: Korrigieren oder Enter drücken, um so zu feuern",
       "pending": "{word} · korrigiert: erneute Leertaste sendet es an das Magazin",

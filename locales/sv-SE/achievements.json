@@ -3,7 +3,7 @@
     "typing": "skrivning",
     "sustained": "uthållighet",
     "mistakes": "misstag",
-    "learn": "touch typing",
+    "learn": "touchskrivning",
     "numpad": "numeriskt tangentbord",
     "games": "spel",
     "habits": "vanor",
@@ -251,7 +251,7 @@
     "name": "flytande"
   },
   "all-lessons": {
-    "name": "touch typist"
+    "name": "touchskrivare"
   },
   "stage-1-started": {
     "name": "börjar med hemmaraden"

@@ -1,6 +1,6 @@
 {
   "feed": {
-    "title": "feed",
+    "title": "voeren",
     "blurb": "Voer een hongerig wezen de woorden waar het om vraagt voordat zijn geduld op is, of organiseer een buffet voor een menigte.",
     "modes": {
       "prompted": "kieskeurige eter",
@@ -350,7 +350,7 @@
     }
   },
   "spot": {
-    "title": "spot",
+    "title": "foutzoeker",
     "blurb": "Vind de fouten die in een passage zijn geplant en zet ze recht.",
     "modes": {
       "prompted": "proeflezen"
@@ -383,7 +383,7 @@
     "mode": "modus",
     "difficulty": "moeilijkheid",
     "details": "details",
-    "replay": "replay",
+    "replay": "opnieuw spelen",
     "main": "hoofdmenu",
     "demo_caption": "demo · beweeg erover om te spelen",
     "play_game": "{title} spelen",
@@ -501,7 +501,7 @@
     "running": "actief"
   },
   "race_card": {
-    "ghost": "ghost",
+    "ghost": "geest",
     "race_people_on_your_network": "race tegen mensen op je netwerk",
     "your_car_dress_it_in": "je auto. kleed hem aan via je profiel → je kaart → garage; verdien onderdelen door te racen en te spelen.",
     "race_a_demo_playing_while": "race: een demo die speelt wanneer je erover gaat of focust",
@@ -527,8 +527,8 @@
   "games_registry": {
     "STRENGTH_MECHANIC": {
       "strength": {
-        "label": "strength",
-        "summary": "typing accuracy determines word strength. 1 per letter, +1 for K V W Y, +2 for J Q X Z. on hard, close variants of recent words count for less."
+        "label": "kracht",
+        "summary": "typnauwkeurigheid bepaalt de woordkracht. 1 per letter, +1 voor K V W Y, +2 voor J Q X Z. op moeilijk tellen nauwe varianten van recente woorden voor minder mee."
       }
     },
     "GAMES": {
@@ -548,162 +548,162 @@
         },
         "contexts": {
           "getting-started": {
-            "label": "getting started",
-            "group": "getting started",
-            "summary": "type words to load the spoon, then carry them to feed the creature.",
+            "label": "eerste stappen",
+            "group": "eerste stappen",
+            "summary": "typ woorden om de lepel te vullen en voer daarmee het wezen.",
             "highlights": [
-              "type a word to load it onto the spoon",
-              "click and drag the spoon to the creature to serve"
+              "typ een woord om het op de lepel te laden",
+              "klik en sleep de lepel naar het wezen om te serveren"
             ],
             "details": [
-              "each word you serve restores time. longer words restore more.",
-              "keep the creature happy to stay alive; wrong targets or misses keep the food on the spoon."
+              "elk geserveerd woord herstelt tijd; langere woorden herstellen meer.",
+              "houd het wezen tevreden om te overleven; verkeerde doelen of missers houden het eten op de lepel."
             ],
             "mechanics": {
               "mood": {
-                "label": "mood",
-                "summary": "the creature’s mood drops over time if it isn’t fed."
+                "label": "humeur",
+                "summary": "het humeur van het wezen daalt na verloop van tijd als het niet gevoerd wordt."
               },
               "patience": {
-                "label": "patience",
-                "summary": "a timer counts down. serving a word that fits restores time."
+                "label": "geduld",
+                "summary": "een timer loopt af. het serveren van een passend woord herstelt tijd."
               }
             },
             "controls": {
               "i0": {
-                "action": "load spoon with word"
+                "action": "vul lepel met woord"
               }
             },
             "visuals": {
               "mood-content": {
-                "label": "content"
+                "label": "tevreden"
               },
               "mood-peckish": {
-                "label": "peckish"
+                "label": "trek"
               },
               "mood-starving": {
-                "label": "starving"
+                "label": "uitgehongerd"
               }
             }
           },
           "creature-requests": {
-            "label": "creature requests",
-            "group": "getting started",
-            "summary": "the creature asks for a kind of word — match it to earn full time.",
+            "label": "wensen van het wezen",
+            "group": "eerste stappen",
+            "summary": "het wezen vraagt om een specifiek soort woord — voldoe eraan om volledige tijd te verdienen.",
             "highlights": [
-              "read the prompt above the creature",
-              "a matching word earns full time; a wrong one costs time"
+              "lees de aanwijzing boven het wezen",
+              "een passend woord geeft volledige tijd; een verkeerd woord kost tijd"
             ],
             "details": [
-              "requests include: short or long words, words starting with a letter, or words containing certain letters.",
-              "stuck for a while, or missed twice? a word that fits shows faintly on the creature, worth half the time."
+              "verzoeken omvatten: korte of lange woorden, woorden beginnend met een letter, of woorden met bepaalde letters.",
+              "even vastgelopen, of twee missers? een passend woord verschijnt vaag op de buik van het wezen, goed voor de halve tijd."
             ],
             "notes": {
               "hard": {
-                "text": "prompts are more specific and less time is given."
+                "text": "aanwijzingen zijn specifieker en er wordt minder tijd gegeven."
               }
             },
             "mechanics": {
               "prompts": {
-                "label": "prompts",
-                "summary": "the creature shows what kind of word it wants."
+                "label": "aanwijzingen",
+                "summary": "het wezen toont welk soort woord het wil hebben."
               },
               "hint": {
-                "label": "belly hint",
-                "summary": "after idling or two misses, a valid word appears faintly on the creature."
+                "label": "buikhint",
+                "summary": "na stilzitten of twee missers verschijnt een geldig woord vaag op het wezen."
               }
             },
             "controls": {
               "i0": {
-                "action": "load spoon with word"
+                "action": "vul lepel met woord"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "belly hint"
+                "label": "buikhint"
               }
             },
             "visuals": {
               "prompt-need": {
-                "label": "word prompt"
+                "label": "woordaanwijzing"
               },
               "belly-hint": {
-                "label": "belly hint (half time)"
+                "label": "buikhint (halve tijd)"
               }
             }
           },
           "snack-mode": {
-            "label": "snack mode",
-            "group": "getting started",
-            "summary": "the creature eats any word — stronger words fill it up more, but it gets hungry faster.",
+            "label": "snackmodus",
+            "group": "eerste stappen",
+            "summary": "het wezen eet elk woord — sterkere woorden vullen meer, maar het krijgt sneller honger.",
             "highlights": [
-              "any valid word feeds the creature",
-              "longer and more accurate words restore more time"
+              "elk geldig woord voedt het wezen",
+              "langere en nauwkeurigere woorden herstellen meer tijd"
             ],
             "details": [
-              "there are no prompts: type whatever word you like.",
-              "the creature drains its patience faster than in fussy eater, so speed matters."
+              "er zijn geen aanwijzingen: typ elk gewenst woord.",
+              "het geduld van het wezen raakt sneller op dan bij kieskeurige eter, dus snelheid telt."
             ],
             "controls": {
               "i0": {
-                "action": "load spoon with word"
+                "action": "vul lepel met woord"
               }
             },
             "visuals": {
               "free-eating": {
-                "label": "any valid word"
+                "label": "elk geldig woord"
               },
               "fast-patience": {
-                "label": "accelerated hunger"
+                "label": "versnelde honger"
               }
             }
           },
           "buffet": {
-            "label": "buffet service",
-            "group": "getting started",
-            "summary": "guests order several kinds of word. serve words to the table and they eat what fits.",
+            "label": "buffetservice",
+            "group": "eerste stappen",
+            "summary": "gasten bestellen verschillende soorten woorden. serveer woorden aan tafel en ze eten wat past.",
             "highlights": [
-              "guests arrive with orders of 1–3 word types",
-              "keep overall satisfaction above the red line"
+              "gasten arriveren met bestellingen van 1–3 woordtypen",
+              "houd de algehele tevredenheid boven de rode lijn"
             ],
             "details": [
-              "type a word and press space to put it on the table. guests eat what matches their orders.",
-              "a filled order pleases the guest and raises satisfaction. a guest who waits too long leaves upset.",
-              "nonsense words are tossed and hurt satisfaction. typos produce burnt dishes worth half.",
-              "dishes left on the table go stale and are wasted."
+              "typ een woord en druk op spatie om het op tafel te zetten. gasten eten wat aansluit bij hun bestelling.",
+              "een voltooide bestelling stemt de gast tevreden en verhoogt de tevredenheid. een gast die te lang wacht vertrekt ontstemd.",
+              "onzinwoorden worden weggegooid en schaden de tevredenheid. typfouten leveren aangebrande gerechten op die half meetellen.",
+              "gerechten die op tafel blijven staan worden oud en gaan verloren."
             ],
             "mechanics": {
               "table": {
-                "label": "table",
-                "summary": "served words go on a shared table. guests eat what matches."
+                "label": "tafel",
+                "summary": "geserveerde woorden komen op een gedeelde tafel. gasten eten wat past."
               },
               "satisfaction": {
-                "label": "satisfaction",
-                "summary": "a 0–100 meter. if it falls to the floor line, the buffet closes."
+                "label": "tevredenheid",
+                "summary": "een meter van 0–100. zakt deze naar de ondergrens, dan sluit het buffet."
               },
               "orders": {
-                "label": "orders",
-                "summary": "each guest has 1–3 word-type requirements on their ticket."
+                "label": "bestellingen",
+                "summary": "elke gast heeft 1–3 woordtype-eisen op het bestelbonnetje."
               },
               "stale": {
-                "label": "stale dishes",
-                "summary": "uncollected dishes go stale and hurt satisfaction."
+                "label": "oude gerechten",
+                "summary": "ongenade gerechten worden oud en schaden de tevredenheid."
               }
             },
             "controls": {
               "i0": {
-                "action": "serve word to table"
+                "action": "serveer woord aan tafel"
               }
             },
             "visuals": {
               "guest-ticket": {
-                "label": "order ticket"
+                "label": "bestelbon"
               },
               "buffet-table": {
-                "label": "serving table"
+                "label": "serveertafel"
               },
               "satisfaction-floor": {
-                "label": "satisfaction floor"
+                "label": "tevredenheidsondergrens"
               }
             }
           },
@@ -755,10 +755,10 @@
       "castle": {
         "options": {
           "waves": {
-            "label": "waves",
+            "label": "aanvalsgolven",
             "choices": {
               "endless": {
-                "label": "endless"
+                "label": "eindeloos"
               }
             }
           },
@@ -776,145 +776,145 @@
         },
         "contexts": {
           "getting-started": {
-            "label": "getting started",
-            "group": "getting started",
-            "summary": "type words to make bricks, aim at a section, and lay them to build and repair your castle.",
+            "label": "eerste stappen",
+            "group": "eerste stappen",
+            "summary": "typ woorden om stenen te maken, richt op een sectie en plaats ze om je kasteel te bouwen en repareren.",
             "highlights": [
-              "type a word to make a brick",
-              "aim with the arrows or mouse, then press space to lay it"
+              "typ een woord om een steen te maken",
+              "richt met pijltjestoetsen of muis en druk op spatie om te metselen"
             ],
             "details": [
-              "longer words make stronger bricks. typos make cracked ones.",
-              "the castle starts whole, with a calm to stock up before the first wave.",
-              "bricks appear in the stockpile; pick one with 1–9 or drag it with the mouse."
+              "langere woorden leveren sterkere stenen op. typfouten maken gebarsten stenen.",
+              "het kasteel begint intact, met een rustperiode om voorraad op te bouwen voor de eerste golf.",
+              "stenen verschijnen in de voorraad; kies er een met 1–9 of sleep met de muis."
             ],
             "notes": {
               "prompted": {
-                "text": "in special bricks mode, sections under attack need specific words. an off-spec brick loses most of its strength."
+                "text": "in speciale-stenenmodus vereisen aangevallen secties specifieke woorden. een afwijkende steen verliest het merendeel van zijn kracht."
               }
             },
             "mechanics": {
               "stockpile": {
-                "label": "stockpile",
-                "summary": "typed words become bricks waiting in the yard. pick one with a number key or use the newest."
+                "label": "voorraad",
+                "summary": "getypte woorden worden stenen die op de werf wachten. kies er een met een cijfertoets of gebruik de nieuwste."
               },
               "quality": {
-                "label": "brick quality",
-                "summary": "solid, patched, cracked or rubble — depends on word length and typing accuracy."
+                "label": "steenkwaliteit",
+                "summary": "massief, opgelapt, gebarsten of puin — hangt af van woordlengte en typnauwkeurigheid."
               },
               "cursor": {
-                "label": "aiming",
-                "summary": "the cursor shows where the next brick will go. move it with arrows or click a section."
+                "label": "richten",
+                "summary": "de cursor toont waar de volgende steen terechtkomt. beweeg met pijlen of klik op een sectie."
               }
             },
             "controls": {
               "i0": {
-                "action": "aim at a section"
+                "action": "richt op een sectie"
               },
               "i1": {
-                "action": "lay the newest brick"
+                "action": "plaats de nieuwste steen"
               },
               "i2": {
-                "action": "pick a brick from the stockpile"
+                "action": "kies een steen uit de voorraad"
               }
             },
             "visuals": {
               "stockpile-yard": {
-                "label": "stockpile yard"
+                "label": "opslagwerf"
               },
               "brick-solid": {
-                "label": "solid brick"
+                "label": "massieve steen"
               },
               "brick-cracked": {
-                "label": "cracked brick"
+                "label": "gebarsten steen"
               }
             }
           },
           "surviving": {
-            "label": "surviving",
-            "group": "surviving",
-            "summary": "keep the gate and the keep standing. each wave loses heart and retreats when critical sections hold.",
+            "label": "overleven",
+            "group": "overleven",
+            "summary": "houd de poort en de donjon overeind. elke golf verliest moed en trekt zich terug als kritieke secties standhouden.",
             "highlights": [
-              "the gate and the keep are critical — losing the keep ends the game",
-              "repair damaged sections by laying bricks on them"
+              "de poort en de donjon zijn cruciaal — verlies van de donjon betekent game over",
+              "repareer beschadigde secties door er stenen op te metselen"
             ],
             "details": [
-              "castle sections have integrity that drops when enemies attack.",
-              "high average repair across the castle drains the wave’s resolve faster.",
-              "each wave retreats when its resolve reaches zero, or when all its enemies are destroyed."
+              "kasteelsecties hebben een weerstand die daalt wanneer vijanden aanvallen.",
+              "een hoge gemiddelde reparatiegraad door het hele kasteel breekt de strijdlust van de golf sneller.",
+              "elke golf trekt zich terug wanneer de strijdlust nul bereikt, of wanneer alle vijanden verslagen zijn."
             ],
             "notes": {
               "hard": {
-                "text": "enemies arrive stronger and in larger numbers."
+                "text": "vijanden zijn sterker en komen in grotere getale."
               }
             },
             "mechanics": {
               "sections": {
-                "label": "castle sections",
-                "summary": "wall, tower, gate, keep and foundations. each has its own integrity."
+                "label": "kasteelsecties",
+                "summary": "muur, toren, poort, donjon en fundamenten. elk met eigen weerstand."
               },
               "integrity": {
-                "label": "integrity",
-                "summary": "a section’s hit points. reaches zero and the section is breached."
+                "label": "weerstand",
+                "summary": "de trefferpunten van een sectie. bereikt dit nul, dan is de sectie doorbroken."
               },
               "resolve": {
-                "label": "wave resolve",
-                "summary": "a meter showing how close the wave is to retreating."
+                "label": "strijdlust van de golf",
+                "summary": "een meter die toont hoe dicht de golf bij terugtrekking is."
               },
               "waves": {
-                "label": "waves",
-                "summary": "enemies arrive in numbered waves, with calms in between."
+                "label": "golven",
+                "summary": "vijanden komen in genummerde golven, met rustperioden ertussen."
               }
             },
             "visuals": {
               "curtain-wall": {
-                "label": "curtain wall"
+                "label": "weermuur"
               },
               "gatehouse": {
-                "label": "gatehouse"
+                "label": "poortgebouw"
               },
               "great-keep": {
-                "label": "great keep"
+                "label": "grote donjon"
               },
               "wave-resolve": {
-                "label": "wave resolve"
+                "label": "golfstrijdlust"
               }
             }
           },
           "fighting": {
-            "label": "fighting",
-            "group": "fighting",
+            "label": "gevecht",
+            "group": "gevecht",
             "highlights": [
-              "shift+enter drops a brick on the targeted attacker",
+              "shift+enter werpt een steen op de gerichte aanvaller",
               "brutes ram, sappers chip, catapults lob boulders from a distance",
               "een reus vereist een sterk woord"
             ],
             "details": [
-              "a brick drop deals damage equal to the brick’s strength.",
-              "an enemy that isn’t crushed may be stunned for a moment.",
+              "een vallende steen brengt schade toe gelijk aan de kracht van de steen.",
+              "een vijand die niet verpletterd wordt kan even verdoofd raken.",
               "catapults station at a distance: a dashed arc shows where one is aiming.",
               "een reus heeft veel meer gezondheid. Zwakke stenen deren hem nauwelijks en verdoven niet: alleen een sterk woord heeft effect."
             ],
             "mechanics": {
               "brute": {
-                "label": "brute",
-                "summary": "rams sections up close. tires after a set number of blows."
+                "label": "bruut",
+                "summary": "beukt van dichtbij op secties. raakt vermoeid na een vast aantal slagen."
               },
               "sapper": {
-                "label": "sapper",
-                "summary": "chips at sections. wanders between targets."
+                "label": "sappeur",
+                "summary": "hakt secties af. dwaalt tussen verschillende doelen."
               },
               "catapult": {
-                "label": "catapult",
+                "label": "katapult",
                 "about": "Staat achter in het veld met bemanning en rotsen en slingert keien in een hoge boog. Werp een steen op het wapen of de bediener om het te stoppen."
               },
               "stun": {
-                "label": "stun",
-                "summary": "a non-lethal brick drop may stun the attacker, halting it briefly."
+                "label": "verdoven",
+                "summary": "een niet-dodelijke steenworp kan de aanvaller verdoven en tijdelijk stoppen."
               },
               "drops": {
-                "label": "brick drops",
-                "summary": "drop a brick on an enemy to damage or crush it."
+                "label": "stenen werpen",
+                "summary": "werp een steen op een vijand om schade toe te brengen of te verpletteren."
               },
               "giant": {
                 "label": "reus",
@@ -923,15 +923,15 @@
             },
             "controls": {
               "i0": {
-                "action": "drop brick on enemy"
+                "action": "werp steen op vijand"
               },
               "i1": {
-                "action": "aim at a section or enemy"
+                "action": "richt op een sectie of vijand"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "brick drops"
+                "label": "stenen werpen"
               },
               "i1": {
                 "label": "een reus"
@@ -939,16 +939,16 @@
             },
             "visuals": {
               "brute-ram": {
-                "label": "brute (ram)"
+                "label": "bruut (rammen)"
               },
               "sapper-pick": {
-                "label": "sapper (chip)"
+                "label": "sappeur (hakken)"
               },
               "catapult-siege": {
-                "label": "catapult (siege)"
+                "label": "katapult (belegering)"
               },
               "boulder-arc": {
-                "label": "boulder arc"
+                "label": "rotsbaan"
               },
               "giant-stomp": {
                 "label": "reus (stampen)"
@@ -957,58 +957,58 @@
             "intro": "Laat stenen op aanvallers vallen om ze te verpletteren en slinger stenen naar katapulten in het veld."
           },
           "powering-up": {
-            "label": "powering up",
-            "group": "powering up",
-            "summary": "crushed enemies sometimes drop powerups. store them and switch them on when you need them.",
+            "label": "krachtversterking",
+            "group": "krachtversterking",
+            "summary": "verpletterde vijanden laten soms power-ups vallen. bewaar ze en activeer ze wanneer nodig.",
             "highlights": [
-              "catch a powerup when an enemy is crushed",
-              "activate with shift+1–3 or click a slot"
+              "vang een power-up wanneer een vijand verpletterd wordt",
+              "activeer met shift+1–3 of klik op een vak"
             ],
             "details": [
-              "up to three powerups can be stored. two can be active at once.",
-              "mortar makes brick drops hit harder. mason makes laid bricks count for more. oil stuns all enemies on the field. mend repairs the weakest critical section."
+              "tot drie power-ups kunnen worden bewaard. twee kunnen tegelijk actief zijn.",
+              "mortel laat vallende stenen harder treffen. metselaar laat gemetselde stenen zwaarder meetellen. olie verdooft alle vijanden op het veld. herstel repareert de zwakste kritieke sectie."
             ],
             "mechanics": {
               "mortar": {
-                "label": "mortar",
-                "summary": "brick drops deal double damage."
+                "label": "mortel",
+                "summary": "vallende stenen richten dubbele schade aan."
               },
               "mason": {
-                "label": "mason",
-                "summary": "placed bricks grant 1.5× strength."
+                "label": "metselaar",
+                "summary": "geplaatste stenen bieden 1,5× zoveel kracht."
               },
               "oil": {
-                "label": "oil",
-                "summary": "stuns all attackers on the field immediately."
+                "label": "olie",
+                "summary": "verdooft direct alle aanvallers op het veld."
               },
               "mend": {
-                "label": "mend",
-                "summary": "restores integrity to the weakest gate or keep."
+                "label": "noodherstel",
+                "summary": "herstelt weerstand van de zwakste poort of donjon."
               }
             },
             "controls": {
               "i0": {
-                "action": "activate powerup slot 1"
+                "action": "activeer power-upvak 1"
               },
               "i1": {
-                "action": "activate powerup slot 2"
+                "action": "activeer power-upvak 2"
               },
               "i2": {
-                "action": "activate powerup slot 3"
+                "action": "activeer power-upvak 3"
               }
             },
             "visuals": {
               "mortar-powerup": {
-                "label": "mortar (2× drops)"
+                "label": "mortel (2× worpschade)"
               },
               "mason-powerup": {
-                "label": "mason (1.5× wall)"
+                "label": "metselaar (1,5× muur)"
               },
               "oil-powerup": {
-                "label": "boiling oil (stun all)"
+                "label": "kokende olie (verdoof alles)"
               },
               "mend-powerup": {
-                "label": "field mend (repair)"
+                "label": "veldherstel (reparatie)"
               }
             }
           },
@@ -1224,7 +1224,7 @@
                 "summary": "Schurken beklimmen de laagste nog staande kamer. Bereikt er een de top van de trap, dan is die kamer voorgoed verloren."
               },
               "ladders": {
-                "label": "ladders",
+                "label": "stormladders",
                 "summary": "Aan de voet gebouwd en opgericht. Duw ze weg zodat de klimmer naar beneden valt."
               },
               "grapples": {
@@ -1250,10 +1250,10 @@
       "space": {
         "options": {
           "duration": {
-            "label": "length",
+            "label": "duur",
             "choices": {
               "endless": {
-                "label": "endless"
+                "label": "eindeloos"
               },
               "i1": {
                 "label": "1 min"
@@ -1277,233 +1277,233 @@
         },
         "contexts": {
           "getting-started": {
-            "label": "getting started",
-            "group": "getting started",
-            "summary": "steer the ship, type words to load the magazine, and fire to destroy enemies.",
+            "label": "eerste stappen",
+            "group": "eerste stappen",
+            "summary": "stuur het schip, typ woorden om het magazijn te laden en vuur om vijanden te vernietigen.",
             "highlights": [
-              "move with the mouse or arrow keys",
-              "type a word and press enter to fire"
+              "beweeg met de muis of de pijltjestoetsen",
+              "typ een woord en druk op enter om te vuren"
             ],
             "details": [
-              "finished words load into the magazine. press enter to fire the chosen shot.",
-              "a word finished with enter fires it at once without loading first.",
-              "use ↑ ↓ or the scroll wheel to choose which magazine slot to fire."
+              "voltooide woorden laden in het magazijn. druk op enter om het gekozen schot af te vuren.",
+              "een woord afgesloten met enter vuurt direct zonder eerst in het magazijn te laden.",
+              "gebruik ↑ ↓ of het muiswiel om te kiezen welk magazijnvak je afvuurt."
             ],
             "notes": {
               "prompted": {
-                "text": "in targeted mode, every enemy ship has a word requirement. non-matching shots bounce off."
+                "text": "in doelgerichte modus heeft elk vijandelijk schip een woordeis. niet-passende schoten ketsen af."
               }
             },
             "mechanics": {
               "movement": {
-                "label": "movement",
-                "summary": "the ship steers horizontally. move with the mouse or ← →."
+                "label": "beweging",
+                "summary": "het schip stuurt horizontaal. beweeg met de muis of ← →."
               },
               "magazine": {
-                "label": "magazine",
-                "summary": "typed words fill the magazine. enter fires. ↑ ↓ choose a slot."
+                "label": "magazijn",
+                "summary": "getypte woorden vullen het magazijn. enter vuurt. ↑ ↓ kiezen een vak."
               }
             },
             "controls": {
               "i0": {
-                "action": "move the ship"
+                "action": "stuur het schip"
               },
               "i1": {
-                "action": "fire the chosen magazine shot"
+                "action": "vuur het gekozen magazijnschot"
               },
               "i2": {
-                "action": "choose a magazine slot"
+                "action": "kies een magazijnvak"
               }
             },
             "visuals": {
               "starfighter": {
-                "label": "starfighter"
+                "label": "sterrenjager"
               },
               "magazine-slots": {
-                "label": "magazine slots"
+                "label": "magazijnvakken"
               }
             }
           },
           "surviving": {
-            "label": "surviving",
-            "group": "surviving",
-            "summary": "avoid damage, clear jams, dodge asteroids, and use rescue ships to repair.",
+            "label": "overleven",
+            "group": "overleven",
+            "summary": "vermijd schade, hef blokkades op, ontwijk asteroïden en gebruik reddingsschepen voor reparaties.",
             "highlights": [
-              "the ship has health — hits reduce it, and zero ends the game",
-              "type the word on a green rescue ship to repair"
+              "het schip heeft bepantsering — treffers verlagen dit en nul betekent game over",
+              "typ het woord op een groen reddingsschip om te repareren"
             ],
             "details": [
-              "clean words never jam. typos might, and nonsense jams more often.",
-              "when jammed, type the word shown to clear it, or press backspace twice with nothing typed to scrap the shot.",
-              "don’t shoot rescue ships: a hit one heals less (not on easy).",
-              "asteroids are indestructible obstacles. big ones break into several pieces when shot.",
-              "drones lock on with a dashed line and dive straight down. steer away.",
-              "ships that get past the bottom do no harm."
+              "foutloze woorden blokkeren nooit. typfouten soms, en onzinwoorden blokkeren vaker.",
+              "bij een blokkade typ je het getoonde woord om deze op te heffen, of druk je tweemaal op backspace om het schot te wissen.",
+              "schiet niet op reddingsschepen: een geraakt schip geneest minder (behalve op makkelijk).",
+              "asteroïden zijn onverwoestbare obstakels. grote breken bij beschieting in meerdere stukken.",
+              "drones richten zich met een stippellijn op je en duiken recht omlaag. stuur opzij.",
+              "schepen die onderaan voorbijglippen richten geen schade aan."
             ],
             "notes": {
               "easy": {
-                "text": "shooting a rescue ship doesn’t reduce its healing."
+                "text": "op een reddingsschip schieten verlaagt de genezing niet."
               }
             },
             "mechanics": {
               "health": {
-                "label": "health",
-                "summary": "the ship’s hit points. zero means game over."
+                "label": "pantser",
+                "summary": "de trefferpunten van het schip. nul betekent game over."
               },
               "jams": {
-                "label": "jams",
-                "summary": "a jammed gun can’t fire until cleared. typos and nonsense raise the jam risk."
+                "label": "blokkades",
+                "summary": "een geblokkeerd wapen kan niet vuren tot het vrij is. typfouten en onzin verhogen het risico."
               },
               "asteroids": {
-                "label": "asteroids",
-                "summary": "rocks that can’t be destroyed. big ones split into pieces."
+                "label": "asteroïden",
+                "summary": "rotsen die niet vernietigd kunnen worden. grote breken in stukken."
               },
               "rescue": {
-                "label": "rescue ships",
-                "summary": "green ships with a word. type it to repair the hull."
+                "label": "reddingsschepen",
+                "summary": "groene schepen met een woord. typ het om de romp te repareren."
               },
               "drones": {
-                "label": "drones",
-                "summary": "lock on and dive straight down. dodge the dive line."
+                "label": "duikdrones",
+                "summary": "richten zich op je en duiken recht naar beneden. ontwijk de duiklijn."
               },
               "jammer": {
-                "label": "jammer",
-                "summary": "increases the chance of jams while alive."
+                "label": "stoorzender",
+                "summary": "verhoogt de kans op blokkades zolang deze actief is."
               }
             },
             "controls": {
               "i0": {
-                "action": "scrap the chosen shot (clears a jam)"
+                "action": "wis het gekozen schot (heft blokkade op)"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "rescue repair"
+                "label": "reddingsreparatie"
               }
             },
             "visuals": {
               "rescue-ship": {
-                "label": "rescue ship (heal)"
+                "label": "reddingsschip (herstel)"
               },
               "dive-drone": {
-                "label": "dive drone"
+                "label": "duikdrone"
               },
               "asteroid": {
-                "label": "asteroid obstacle"
+                "label": "asteroïde-obstakel"
               },
               "weapon-jam": {
-                "label": "weapon jam"
+                "label": "wapenblokkade"
               }
             }
           },
           "fighting": {
-            "label": "fighting",
-            "group": "fighting",
-            "summary": "load the magazine, intercept missiles and fighters, and use the bomb to clear the field.",
+            "label": "gevecht",
+            "group": "gevecht",
+            "summary": "laad het magazijn, onderschep raketten en jagers en gebruik de bom om het veld schoon te vegen.",
             "highlights": [
-              "missiles carry a letter — type it with nothing typed to shoot them down",
-              "shift+enter detonates the bomb when charged"
+              "raketten dragen een letter — typ deze zonder actieve invoer om ze neer te halen",
+              "shift+enter laat de bom ontploffen wanneer deze is opgeladen"
             ],
             "details": [
-              "loading words charges the bomb meter. when full, shift+enter clears all missiles and damages every enemy.",
+              "woorden laden vult de bommeter. wanneer vol veegt shift+enter alle raketten weg en beschadigt elke vijand.",
               "high-quality loaded words charge the capacitor. alt+enter discharges a vertical piercing laser; overload at 100% shatters shielded ships.",
               "space stations launch fighters that chase you. type a fighter’s letter to shoot it down.",
               "landmines burst into shrapnel when shot, which hits everything nearby, including you."
             ],
             "notes": {
               "prompted": {
-                "text": "in targeted mode, every ship has a word requirement that must be matched."
+                "text": "in doelgerichte modus heeft elk schip een woordeis waaraan voldaan moet worden."
               }
             },
             "mechanics": {
               "missiles": {
-                "label": "missiles",
-                "summary": "carry a letter token. with nothing typed, type it to shoot them down instantly."
+                "label": "raketten",
+                "summary": "dragen een letter. typ deze met een lege invoer om ze direct neer te halen."
               },
               "bomb": {
-                "label": "bomb",
-                "summary": "charges as you load words. shift+enter detonates, clearing missiles and damaging enemies."
+                "label": "bom",
+                "summary": "laadt op terwijl je woorden laadt. shift+enter ontsteekt de bom, wist raketten en beschadigt vijanden."
               },
               "fighters": {
-                "label": "fighters",
-                "summary": "small ships launched by stations. chase the player. type their letter to intercept."
+                "label": "jagers",
+                "summary": "kleine schepen gelanceerd door stations. jagen op de speler. typ hun letter om ze te onderscheppen."
               },
               "stations": {
                 "label": "stations",
-                "summary": "large hubs that hover and spawn fighters."
+                "summary": "grote knooppunten die zweven en jagers lanceren."
               },
               "landmines": {
-                "label": "landmines",
-                "summary": "spiked mines. shrapnel on destruction hits everything nearby."
+                "label": "mijnen",
+                "summary": "puntige mijnen. rondvliegende scherven bij vernietiging raken alles in de buurt."
               },
               "shields": {
-                "label": "shields",
-                "summary": "some ships have shields that only break to words matching a requirement."
+                "label": "schilden",
+                "summary": "sommige schepen hebben schilden die alleen breken met woorden die aan een eis voldoen."
               }
             },
             "controls": {
               "i0": {
-                "action": "detonate the bomb"
+                "action": "breng de bom tot ontploffing"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "bomb shockwave"
+                "label": "schokgolf van bom"
               }
             },
             "visuals": {
               "missile-token": {
-                "label": "missile (letter)"
+                "label": "raket (letter)"
               },
               "bomb-shockwave": {
-                "label": "bomb shockwave"
+                "label": "bom-schokgolf"
               },
               "orbital-station": {
-                "label": "orbital station"
+                "label": "orbitaal station"
               },
               "shrapnel-mine": {
-                "label": "landmine"
+                "label": "mijn"
               }
             }
           },
           "powering-up": {
-            "label": "powering up",
-            "group": "powering up",
-            "summary": "destroyed enemies drop powerups. catch them, store them, and switch them on.",
+            "label": "krachtversterking",
+            "group": "krachtversterking",
+            "summary": "vernietigde vijanden laten power-ups vallen. vang ze, sla ze op en schakel ze in.",
             "highlights": [
-              "catch a floating powerup to store it",
-              "activate with shift+1–3 or click a slot",
+              "vang een zwevende power-up om deze op te slaan",
+              "activeer met shift+1–3 of klik op een vak",
               "de accumulator is een power-up die woorden bundelt in één lading: spatie voegt een woord toe, spatie zonder getypte tekst vuurt het af"
             ],
             "details": [
-              "up to three powerups can be stored. two kinds can be active at once; the same kind again stacks its timer.",
-              "double fire: each shot fires twice before being spent.",
-              "gatling: every letter typed fires an instant bolt.",
-              "shield: a barrier absorbs hits for the ship.",
-              "automaton: automatically picks the best shot for the biggest threat.",
-              "homing: fired words steer toward targets.",
+              "tot drie power-ups kunnen worden bewaard. twee soorten kunnen tegelijk actief zijn; dezelfde soort stapelt de tijd op.",
+              "dubbelvuur: elk schot vuurt tweemaal voordat het verbruikt is.",
+              "snelvuur: elke getypte letter vuurt direct een energiestraal af.",
+              "schild: een barrière absorbeert treffers voor het schip.",
+              "automaat: kiest automatisch het beste schot voor de grootste dreiging.",
+              "doelzoekend: afgevuurde woorden sturen dynamisch naar doelwitten.",
               "de accumulator stapelt niet en heeft geen timer. Hij vuurt nooit uit zichzelf: voorbij de limiet raakt het schip overbelast, vernietigt nabije vijanden en eindigt de run. Een typefout beëindigd met spatie wordt vastgehouden tot je hem herstelt; Enter vuurt hem direct af."
             ],
             "mechanics": {
               "double": {
-                "label": "double",
-                "summary": "shots fire twice before being spent."
+                "label": "dubbelvuur",
+                "summary": "schoten vuren tweemaal voordat ze verbruikt zijn."
               },
               "gatling": {
-                "label": "gatling",
-                "summary": "every letter typed fires an instant energy bolt."
+                "label": "snelvuur",
+                "summary": "elke getypte letter vuurt direct een energiestraal af."
               },
               "shield": {
-                "label": "shield",
-                "summary": "an energy barrier absorbs hits."
+                "label": "schild",
+                "summary": "een energiebarrière vangt treffers op."
               },
               "automaton": {
-                "label": "automaton",
-                "summary": "auto-selects the best shot for the worst threat."
+                "label": "automaat",
+                "summary": "selecteert automatisch het beste schot voor het gevaarlijkste doelwit."
               },
               "homing": {
-                "label": "homing",
-                "summary": "fired words steer dynamically toward targets."
+                "label": "doelzoekend",
+                "summary": "afgevuurde woorden sturen dynamisch richting doelwitten."
               },
               "accumulator": {
                 "label": "accumulator",
@@ -1512,13 +1512,13 @@
             },
             "controls": {
               "i0": {
-                "action": "activate powerup slot 1"
+                "action": "activeer power-upvak 1"
               },
               "i1": {
-                "action": "activate powerup slot 2"
+                "action": "activeer power-upvak 2"
               },
               "i2": {
-                "action": "activate powerup slot 3"
+                "action": "activeer power-upvak 3"
               },
               "i3": {
                 "action": "voeg een woord toe aan de lading, of vuur af zonder getypte tekst"
@@ -1526,19 +1526,19 @@
             },
             "visuals": {
               "powerup-double": {
-                "label": "double fire"
+                "label": "dubbelvuur"
               },
               "powerup-gatling": {
-                "label": "gatling stream"
+                "label": "snelvuurstroom"
               },
               "powerup-shield": {
-                "label": "deflector barrier"
+                "label": "afweerschild"
               },
               "powerup-automaton": {
-                "label": "automaton aim"
+                "label": "automatisch richten"
               },
               "powerup-homing": {
-                "label": "homing seeker"
+                "label": "doelzoekende jager"
               },
               "powerup-accumulator": {
                 "label": "accumulatormeter"
@@ -1581,7 +1581,7 @@
                 "label": "moederschip"
               },
               "i1": {
-                "label": "gatlings"
+                "label": "snelvuurkanonnen"
               },
               "i2": {
                 "label": "eliterun"
@@ -1597,7 +1597,7 @@
                 "summary": "Het gevraagde woord wisselt elke paar seconden, sneller op hogere moeilijkheidsgraden."
               },
               "gatlings": {
-                "label": "gatlings",
+                "label": "snelvuurkanonnen",
                 "summary": "Twee geschutten die salvo's kogels over het veld vuren. Vernietigde blijven uitgeschakeld."
               },
               "dogfighters": {
@@ -1634,114 +1634,114 @@
       "spot": {
         "options": {
           "variant": {
-            "label": "play",
+            "label": "speelwijze",
             "choices": {
               "timed": {
-                "label": "timed"
+                "label": "met tijd"
               },
               "endless": {
-                "label": "endless"
+                "label": "eindeloos"
               }
             }
           },
           "duration": {
-            "label": "time"
+            "label": "tijd"
           }
         },
         "help": [
-          "Point at a word or move with ← → (↑ ↓ by line); click it or press Enter if it’s wrong.",
-          "The word stays in place: fix it there (← → Home End move the caret, or click in it) and press Enter. Spelling, punctuation, capitals and spacing all count.",
-          "Shift+Enter gives up on a passage and moves to the next.",
-          "Finding and fixing are scored separately; flagging a correct word costs you."
+          "Wijs een woord aan of navigeer met ← → (↑ ↓ per regel); klik erop of druk op Enter als het fout is.",
+          "Het woord blijft staan: verbeter het ter plekke (← → Home End verplaatsen de cursor, of klik erin) en druk op Enter. Spelling, leestekens, hoofdletters en spaties tellen allemaal mee.",
+          "Shift+Enter slaat een passage over en gaat door naar de volgende.",
+          "Opsporen en verbeteren worden apart beoordeeld; een correct woord markeren kost punten."
         ],
         "contexts": {
           "getting-started": {
-            "label": "getting started",
-            "group": "getting started",
-            "summary": "find the mistakes planted in a passage and put them right.",
+            "label": "eerste stappen",
+            "group": "eerste stappen",
+            "summary": "vind de opzettelijke fouten in een passage en herstel ze.",
             "highlights": [
-              "click a word or move with the arrow keys",
-              "press enter to flag a mistake, then type the fix"
+              "klik op een woord of navigeer met de pijltjestoetsen",
+              "druk op enter om een fout te markeren en typ vervolgens de correctie"
             ],
             "details": [
-              "passages come from books in your library. each has several planted errors.",
-              "shift+enter gives up on a passage and moves to the next.",
-              "errors include spelling, punctuation, capitalisation, sound-alikes and letter slips."
+              "passages komen uit boeken in je bibliotheek. elk bevat meerdere opzettelijke fouten.",
+              "shift+enter geeft een passage op en gaat naar de volgende.",
+              "fouten omvatten spelling, interpunctie, hoofdlettergebruik, klankgelijken en letterverwisselingen."
             ],
             "mechanics": {
               "errors": {
-                "label": "error types",
-                "summary": "spelling, punctuation, capitalisation, sound-alikes and letter slips."
+                "label": "fouttypen",
+                "summary": "spelling, leestekens, hoofdlettergebruik, homofonen en letterfouten."
               }
             },
             "controls": {
               "i0": {
-                "action": "move between words"
+                "action": "navigeer tussen woorden"
               },
               "i1": {
-                "action": "move between lines"
+                "action": "navigeer tussen regels"
               },
               "i2": {
-                "action": "flag a word as wrong"
+                "action": "markeer woord als fout"
               },
               "i3": {
-                "action": "skip to next passage"
+                "action": "sla over naar volgende passage"
               }
             },
             "visuals": {
               "passage-line": {
-                "label": "passage text"
+                "label": "passagetekst"
               },
               "planted-error": {
-                "label": "planted error"
+                "label": "opzettelijke fout"
               }
             }
           },
           "finding-mistakes": {
-            "label": "finding mistakes",
-            "group": "surviving",
-            "summary": "scan the passage, select a word you think is wrong, and press enter to flag it.",
+            "label": "fouten opsporen",
+            "group": "overleven",
+            "summary": "scan de passage, selecteer een woord dat volgens jou fout is en druk op enter om het te markeren.",
             "highlights": [
-              "click a word or use the arrow keys to select it",
-              "flagging a correct word costs you"
+              "klik op een woord of gebruik de pijltjestoetsen om het te selecteren",
+              "een correct woord markeren kost punten"
             ],
             "details": [
-              "move with ← → word by word, or ↑ ↓ line by line. click a word to jump; click away to clear.",
-              "finding and fixing are scored separately.",
-              "flagging a word that’s actually correct counts as a false flag and costs points."
+              "beweeg met ← → woord voor woord, of ↑ ↓ regel voor regel. klik op een woord om te springen; klik ernaast om te wissen.",
+              "opsporen en corrigeren worden apart beoordeeld.",
+              "een woord markeren dat eigenlijk correct is telt als vals alarm en kost punten."
             ],
             "mechanics": {
               "selection": {
-                "label": "word selection",
-                "summary": "click or use the arrow keys to select a word. selecting is free; only enter flags."
+                "label": "woordselectie",
+                "summary": "klik of gebruik de pijltjestoetsen om een woord te selecteren. selecteren is gratis; alleen enter markeert."
               },
               "false-flag": {
-                "label": "false flags",
-                "summary": "flagging a correct word costs points and (in endless mode) time."
+                "label": "vals alarm",
+                "summary": "een correct woord markeren kost punten en (in eindeloze modus) tijd."
               }
             },
             "controls": {
               "i0": {
-                "action": "move between words"
+                "action": "navigeer tussen woorden"
               },
               "i1": {
-                "action": "move between lines"
+                "action": "navigeer tussen regels"
               },
               "i2": {
-                "action": "flag the selected word"
+                "action": "markeer het geselecteerde woord"
               }
             },
             "subDemos": {
               "i0": {
-                "label": "passage scan"
+                "label": "passagescan"
               }
             },
             "visuals": {
               "selected-word": {
-                "label": "selected word"
+                "label": "geselecteerd woord"
               },
               "false-flag-penalty": {
-                "label": "false flag penalty"
+                "label": "straf voor vals alarm"
               },
               "click-select": {
                 "label": "klik om te selecteren"
@@ -1749,107 +1749,107 @@
             }
           },
           "correcting-mistakes": {
-            "label": "correcting mistakes",
-            "group": "surviving",
-            "summary": "the flagged word stays in place. fix it there and press enter to commit the repair.",
+            "label": "fouten herstellen",
+            "group": "overleven",
+            "summary": "het gemarkeerde woord blijft op zijn plek. herstel het daar en druk op enter om de correctie te bevestigen.",
             "highlights": [
-              "the word is edited directly in the passage",
-              "move the caret with arrow keys or click inside the word"
+              "het woord wordt direct in de passage bewerkt",
+              "verplaats de cursor met de pijltjestoetsen of klik in het woord"
             ],
             "details": [
-              "use ← → to move the caret, home and end to jump. delete and backspace work as usual.",
-              "click inside the word to place the caret at a specific position.",
-              "you get two attempts. if both fail, the correct word is revealed.",
-              "press escape to cancel a repair without penalty.",
-              "click another word mid-fix and the fix waits, as you left it, for you to click back."
+              "gebruik ← → om de cursor te verplaatsen, home en end om te springen. delete en backspace werken zoals gebruikelijk.",
+              "klik in het woord om de cursor op een specifieke positie te plaatsen.",
+              "je krijgt twee pogingen. mislukken beide, dan wordt het juiste woord onthuld.",
+              "druk op escape om een reparatie zonder straf te annuleren.",
+              "klik tijdens het herstellen op een ander woord en de reparatie blijft wachten tot je terugklikt."
             ],
             "mechanics": {
               "caret": {
-                "label": "caret editing",
-                "summary": "move the cursor inside the word to edit individual characters."
+                "label": "cursorbewerking",
+                "summary": "verplaats de cursor in het woord om afzonderlijke tekens te bewerken."
               },
               "retries": {
-                "label": "repair attempts",
-                "summary": "two tries to fix a word. after two failures, the answer is shown."
+                "label": "herkansingen",
+                "summary": "twee pogingen om een woord te repareren. na twee mislukkingen wordt het antwoord getoond."
               },
               "cancel": {
-                "label": "cancel",
-                "summary": "escape cancels a repair without penalty."
+                "label": "annuleren",
+                "summary": "escape annuleert een reparatie zonder strafpunten."
               }
             },
             "controls": {
               "i0": {
-                "action": "move caret inside the word"
+                "action": "verplaats cursor in het woord"
               },
               "i1": {
-                "action": "caret to start of word"
+                "action": "cursor naar begin van woord"
               },
               "i2": {
-                "action": "caret to end of word"
+                "action": "cursor naar einde van woord"
               },
               "i3": {
-                "action": "commit the repair"
+                "action": "bevestig de reparatie"
               },
               "i4": {
-                "action": "cancel repair"
+                "action": "annuleer reparatie"
               },
               "i5": {
-                "action": "delete forward"
+                "action": "voorwaarts wissen"
               }
             },
             "visuals": {
               "inline-caret": {
-                "label": "inline caret"
+                "label": "cursor in tekst"
               },
               "in-place-edit": {
-                "label": "in-place edit"
+                "label": "ter plekke bewerken"
               },
               "attempt-limit": {
-                "label": "2 attempts limit"
+                "label": "limiet van 2 pogingen"
               }
             }
           },
           "scoring": {
-            "label": "scoring",
-            "group": "surviving",
-            "summary": "finding and fixing are scored separately. timed mode has a fixed clock; endless tops up on repairs.",
+            "label": "scoretelling",
+            "group": "overleven",
+            "summary": "opsporen en herstellen worden apart gescoord. tijdmodus heeft een vaste klok; eindeloos vult tijd aan bij herstel.",
             "highlights": [
-              "detection score: how many errors you found",
-              "repair score: how accurately you fixed them"
+              "detectiescore: hoeveel fouten je hebt gevonden",
+              "herstelscore: hoe nauwkeurig je ze hebt gerepareerd"
             ],
             "details": [
-              "timed mode: a fixed duration counts down. find and fix as many as you can.",
-              "endless mode: time drains continuously. each successful repair tops up the bank. false flags cost time.",
-              "a clean sweep is recorded when all errors in a passage are repaired with no false flags."
+              "tijdmodus: een vaste duur telt af. vind en herstel er zoveel mogelijk.",
+              "eindeloze modus: tijd loopt voortdurend af. elke succesvolle reparatie vult de tijdreserve aan. vals alarm kost tijd.",
+              "een vlekkeloze ronde wordt geregistreerd wanneer alle fouten in een passage hersteld zijn zonder vals alarm."
             ],
             "notes": {
               "hard": {
-                "text": "errors are subtler and the timer is shorter."
+                "text": "fouten zijn subtieler en de timer is korter."
               }
             },
             "mechanics": {
               "detection": {
-                "label": "detection",
-                "summary": "scored by precision and recall — how many real errors you found versus false flags."
+                "label": "detectie",
+                "summary": "gescoord op precisie en opkomst — hoeveel echte fouten je vond tegenover vals alarm."
               },
               "repair": {
-                "label": "repair",
-                "summary": "scored by how accurately you fixed the flagged words."
+                "label": "reparatie",
+                "summary": "gescoord op hoe nauwkeurig je de gemarkeerde woorden herstelde."
               },
               "sweep": {
-                "label": "clean sweep",
-                "summary": "all errors repaired, no false flags, on a single passage."
+                "label": "vlekkeloze ronde",
+                "summary": "alle fouten hersteld zonder vals alarm in één passage."
               }
             },
             "visuals": {
               "detection-score": {
-                "label": "detection score"
+                "label": "detectiescore"
               },
               "repair-score": {
-                "label": "repair score"
+                "label": "herstelscore"
               },
               "clean-sweep": {
-                "label": "clean sweep bonus"
+                "label": "bonus vlekkeloze ronde"
               }
             }
           }
@@ -2121,11 +2121,11 @@
   },
   "space_time": {
     "powerups": {
-      "double": "dubbel vuur",
-      "gatling": "gatling",
+      "double": "dubbelvuur",
+      "gatling": "snelvuur",
       "shield": "schild",
       "automaton": "automaat",
-      "homing": "zoekend",
+      "homing": "doelzoekend",
       "accumulator": "accumulator"
     },
     "stored": "{name} opgeslagen · shift+{slot} om te gebruiken",
@@ -2165,33 +2165,33 @@
   },
   "space_ui": {
     "shot": {
-      "fired": "{word} · {power} damage",
-      "fired_typo": " (a typo: half strength)",
-      "fired_one_left": " (1 left)",
-      "fired_automaton": " · automaton → {target}",
-      "fighter_down": "fighter {word} shot down",
-      "loaded": "{word} · loaded, {power}",
-      "fizzle": "{word} · not a word, it fizzled",
-      "fizzle_jam": "{word} · not a word: it fizzled and jammed the trigger",
-      "scrap_armed": "backspace again to scrap {word}",
-      "scrap_clear_jam": " and clear the jam",
-      "scrap_armed_jam": "backspace again to clear the jam",
-      "scrapped_word": "{word} scrapped",
-      "scrapped": "scrapped",
-      "jam_cleared_suffix": " · jam cleared",
-      "rescue_hit": "careful: you hit the rescue ship ({word})",
-      "rescue_lost": "the rescue ship was lost",
-      "jammed": "{word} jammed the trigger · it stays loaded",
-      "locked": "the trigger is jammed",
-      "full": "{word} · the magazine is full: fire first",
-      "empty": "nothing loaded: finish a word first",
-      "cleared": "jam cleared",
-      "intercepted": "missile {word} shot down",
-      "repaired": "{word} · repaired {healed}",
-      "bomb": "bomb!",
-      "bomb_not_ready": "the bomb isn’t charged yet",
-      "gatling": "rapid fire · {word}",
-      "shield_absorb": "shield absorbed {source} hit!",
+      "fired": "{word} · {power} schade",
+      "fired_typo": " (een typfout: halve kracht)",
+      "fired_one_left": " (nog 1 over)",
+      "fired_automaton": " · automaat → {target}",
+      "fighter_down": "jager {word} neergehaald",
+      "loaded": "{word} · geladen, {power}",
+      "fizzle": "{word} · geen geldig woord, ging in rook op",
+      "fizzle_jam": "{word} · geen geldig woord: ging in rook op en blokkeerde de trekker",
+      "scrap_armed": "druk nogmaals op backspace om {word} te wissen",
+      "scrap_clear_jam": " en de blokkade op te heffen",
+      "scrap_armed_jam": "druk nogmaals op backspace om de blokkade op te heffen",
+      "scrapped_word": "{word} gewist",
+      "scrapped": "gewist",
+      "jam_cleared_suffix": " · blokkade opgeheven",
+      "rescue_hit": "voorzichtig: je raakte het reddingsschip ({word})",
+      "rescue_lost": "het reddingsschip is verloren gegaan",
+      "jammed": "{word} blokkeerde de trekker · blijft geladen",
+      "locked": "de trekker is geblokkeerd",
+      "full": "{word} · het magazijn is vol: vuur eerst",
+      "empty": "niets geladen: typ eerst een woord af",
+      "cleared": "blokkade opgeheven",
+      "intercepted": "raket {word} neergehaald",
+      "repaired": "{word} · {healed} gerepareerd",
+      "bomb": "bom!",
+      "bomb_not_ready": "de bom is nog niet opgeladen",
+      "gatling": "snelvuur · {word}",
+      "shield_absorb": "schild absorbeerde treffer van {source}!",
       "accumulated": "{word} · toegevoegd aan lading, +{power}",
       "held_typo": "{word} · typfout vastgehouden: corrigeer het, of druk op Enter om zo te vuren",
       "pending": "{word} · gecorrigeerd: nogmaals spatie stuurt het naar het magazijn",
@@ -2217,11 +2217,11 @@
       "accumulator": "spatie voegt een woord toe aan de lading · spatie zonder invoer vuurt deze af"
     },
     "powerup_label": {
-      "double": "dubbel",
-      "gatling": "gatling",
+      "double": "dubbelvuur",
+      "gatling": "snelvuur",
       "shield": "schild",
       "automaton": "automaat",
-      "homing": "zoekend",
+      "homing": "doelzoekend",
       "accumulator": "accumulator"
     }
   },

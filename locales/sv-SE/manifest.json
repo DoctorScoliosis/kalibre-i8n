@@ -12,7 +12,7 @@
   "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
   "files": {
     "about.json": "58e92fe8cef952c33ae96c4c33472e057d467fdfd68bda762a6a26a9af2a61c6",
-    "achievements.json": "9a1246bdd286044dcbe56785712d5fa230673008e17e48f551f5a10d8d8d3fc5",
+    "achievements.json": "81659373cd5b6f12973172230391293bd79b555dc2116b777b00e59f4821cdbc",
     "cards.json": "0674df5bf72b4d28a71111a9c9f319448093dd7e86049f58b51bcdbfb456c772",
     "cars.json": "f52ba51d0025f1cb98971c10f12fc2b8c82ab1604ee88ead04a5e76d236533e4",
     "chrome.json": "810cf3eb9a2a4797d4553aa95d0424a8751fe5363eed1d5a76497bc5b6df688a",
@@ -24,7 +24,7 @@
     "data.json": "4f925ad893f6b253fa06c05638144ab72a0d8241b452afd79d8309393fc9204e",
     "datasets.json": "2ba37c844eec5e946a48c4e925467a6ea1b43ff65abfc815370912656fa00f0d",
     "drills.json": "eb74b60823d905e91dc29aaac8da7e82b0dd81eb351839c0ddfb45f956fadd4a",
-    "games.json": "a768e0dea97a6c2fe2c460fa54b011f259e08e5baf1ada8e99c5a021e01a796f",
+    "games.json": "ebe8602daaff90a685a032c4a270dd56d8ef2a2d51c54f24bf17d724f7c54fe8",
     "learn.json": "d355822a61475672839ee886e1b462cfc1c67092c03825896bc48151fda80bf9",
     "mistakes.json": "9c2ef93eedec651cca05a130b2cd034358b542a0022d74b15233f238a5ed3da9",
     "profiles.json": "f343b902c5c1a615ba370f76285e0754b35fcd08b88733b99183dbdf636117c8",
@@ -34,7 +34,7 @@
     "settings.json": "a295dd8ab639ab274263269547de57bab209be53d31914fc7ebc4a4df9ce78fe",
     "stats.json": "0394177bb87750bccc8bd842372932205eea30acf0de436316c3d1476ff1ba1b",
     "texts.json": "381e18d161f7044635f4a90383078aba581a9c944aeebc0952970666bd659ed8",
-    "themes.json": "ec5aa68e1b3cf64b5b6f2805db08d2c2cd4791f5a7e3c2e06759fb597c79705c",
+    "themes.json": "02e2d126121fc984789082b7eb05841f985feae6dc9b2044d831f323987a3637",
     "typing.json": "d3e10ed5f28149015674039670978bfed898fb838333dd91e3218e141ffa9271",
     "wardrobe.json": "296f16897c7514d09bbaa7cfd2ed158e46b827cd708dcf5a6548948110e885e4",
     "words.json": "84a8bf1a816ff70aa6b771e5d892acac855aa748861f7378d763e99327aefded"

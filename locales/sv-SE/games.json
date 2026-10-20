@@ -580,17 +580,17 @@
       "fizzle_jam": "{word} · inte ett ord: det fizzlade och fastnade avtryckaren",
       "scrap_armed": "backsteg igen för att skrota {word}",
       "scrap_clear_jam": " och rensa fastkörningen",
-      "scrap_armed_jam": "backsteg igen för att rensa fastkörningen",
+      "scrap_armed_jam": "tryck backsteg igen för att häva blockeringen",
       "scrapped_word": "{word} skrotat",
       "scrapped": "skrotat",
-      "jam_cleared_suffix": " · fastkörning rensad",
+      "jam_cleared_suffix": " · blockering hävd",
       "rescue_hit": "försiktigt: du träffade räddningsskeppet ({word})",
       "rescue_lost": "räddningsskeppet gick förlorat",
-      "jammed": "{word} fastnade avtryckaren · det förblir laddat",
+      "jammed": "{word} blockerade avtryckaren · förblir laddat",
       "locked": "avtryckaren har fastnat",
       "full": "{word} · magasinet är fullt: skjut först",
       "empty": "inget laddat: slutför ett ord först",
-      "cleared": "fastkörning rensad",
+      "cleared": "blockering hävd",
       "intercepted": "robot {word} nedskjuten",
       "repaired": "{word} · reparerade {healed}",
       "bomb": "bomb!",
@@ -1555,7 +1555,7 @@
           "surviving": {
             "label": "överlevnad",
             "group": "överlevnad",
-            "summary": "undvik skada, rensa fastkörningar, väj för asteroider och använd räddningsskepp för att reparera.",
+            "summary": "undvik skada, åtgärda vapenstopp, väj för asteroider och använd räddningsskepp för att reparera.",
             "highlights": [
               "skeppet har hälsa — träffar minskar den och noll avslutar spelet",
               "skriv ordet på ett grönt räddningsskepp för att reparera"
@@ -1579,8 +1579,8 @@
                 "summary": "skeppets träffpoäng. noll betyder spelet är slut."
               },
               "jams": {
-                "label": "fastkörningar",
-                "summary": "ett fastkört vapen kan inte skjuta förrän det rensas. skrivfel och nonsens ökar risken."
+                "label": "vapenstopp",
+                "summary": "ett blockerat vapen kan inte avfyras förrän felet åtgärdats. skrivfel och nonsens ökar risken för vapenstopp."
               },
               "asteroids": {
                 "label": "asteroider",
@@ -1596,12 +1596,12 @@
               },
               "jammer": {
                 "label": "störsändare",
-                "summary": "ökar risken för fastkörningar så länge den lever."
+                "summary": "ökar risken för vapenstopp så länge den är aktiv."
               }
             },
             "controls": {
               "i0": {
-                "action": "skrota det valda skottet (rensar en fastkörning)"
+                "action": "kassera det valda skottet (häver blockeringen)"
               }
             },
             "subDemos": {
@@ -1620,7 +1620,7 @@
                 "label": "asteroidhinder"
               },
               "weapon-jam": {
-                "label": "vapenfastkörning"
+                "label": "vapenstopp"
               }
             }
           },
