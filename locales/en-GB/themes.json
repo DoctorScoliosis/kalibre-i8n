@@ -13,6 +13,7 @@
     "dim_text": "dim text",
     "accent": "accent",
     "typed_text": "typed text",
+    "corrected": "first correction",
     "mistakes": "mistakes",
     "extra_letters": "extra letters",
     "caret": "caret"
@@ -191,6 +192,7 @@
     "textDim_bg": "dim text on the page",
     "textDim_surface": "dim text on panels",
     "correct_bg": "typed text",
+    "corrected_bg": "first correction",
     "incorrect_bg": "mistakes",
     "correct_textDim": "typed text stands out from text still to type",
     "accent_bg": "accent",

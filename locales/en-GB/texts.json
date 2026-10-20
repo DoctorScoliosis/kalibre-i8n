@@ -76,6 +76,21 @@
     "listing_files": "listing files…",
     "downloading_progress": "downloading {current} of {total}…"
   },
+  "wikipedia_import": {
+    "checking_wikipedia": "checking wikipedia…",
+    "downloading_progress": "fetching {title} ({current} of {total})…",
+    "rate_limited": "Wikipedia is rate-limiting requests. Pausing…",
+    "server_lagged": "Wikipedia servers are busy. Pausing…",
+    "request_failed": "Wikipedia answered {status}.",
+    "network_error": "Couldn’t reach Wikipedia. Check your connection.",
+    "no_articles_found": "No matching Wikipedia articles were found.",
+    "no_prose_in_article": "\"{title}\" contains no usable prose paragraphs.",
+    "disambiguation_detected": "\"{title}\" is a disambiguation page.",
+    "cancelled": "Import cancelled.",
+    "unsupported_edition": "The Wikipedia edition \"{wiki}\" is not supported.",
+    "mixed_editions_declined": "A dataset cannot mix different Wikipedia editions. \"{current}\" cannot be mixed with \"{incoming}\".",
+    "export_blocked_licence": "Export blocked: This dataset contains Wikipedia material with unresolved or incomplete licence terms. Check the licence details on each article before redistributing."
+  },
   "importers": {
     "doesn_t_look_like_a": "{name} doesn't look like a text file.",
     "isn_t_utf_8_text": "{name} isn't UTF-8 text.",

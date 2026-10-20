@@ -431,7 +431,8 @@
     "open_s_wardrobe": "{name}: open {name2}’s wardrobe",
     "asleep_label": "{name}, asleep: wake {companion, select, cal {him} libby {her} other {them}} up",
     "shutdown_label": "{name}, shut down: tap to reboot {companion, select, cal {him} libby {her} other {them}}",
-    "booting_label": "{name}, booting up"
+    "booting_label": "{name}, booting up",
+    "dismiss_message": "activate to dismiss this message"
   },
   "numpad_tape": {
     "entries": "entries",
