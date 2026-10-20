@@ -89,7 +89,10 @@
     "spaceWordBombs": "{count, plural, one {Feuer das Wort Bombe in Space einmal} other {Feuer das Wort Bombe in Spac e{count}Zeiten}}",
     "unknown": "Unbekannt",
     "progress_suffix": " ({have} Von {need})",
-    "secret_hint": "Ein Geheimnis: weiterspielen"
+    "secret_hint": "Ein Geheimnis: weiterspielen",
+    "petsToSleep": "streicheln Sie Ihren Begleiter {count, plural, one {# Mal} other {# Mal}} in den Schlaf",
+    "earlyWakes": "wecken Sie Ihren Begleiter kurz nach dem Einschlafen {count, plural, one {# Mal} other {# Mal}} auf",
+    "overnightSleep": "lassen Sie Ihren Begleiter über Nacht auf der Über-Seite für {hours, plural, one {# Stunde} other {# Stunden}} schlafen"
   },
   "first-test": {
     "name": "Erste Schritte"
@@ -344,34 +347,44 @@
     "name": "Hauptkorrekturleser"
   },
   "buffet-host": {
-    "name": "Buffet-Host"
+    "name": "Buffet-Host",
+    "says": "halten Sie ein Feed-Büfett 5 Minuten lang geöffnet"
   },
   "full-house": {
-    "name": "Volles Haus"
+    "name": "Volles Haus",
+    "says": "erfüllen Sie insgesamt 50 Büfett-Bestellungen in Feed"
   },
   "no-hints": {
-    "name": "Keine Hinweise nötig"
+    "name": "Keine Hinweise nötig",
+    "says": "überstehen Sie 3 Minuten als heikler Esser in Feed, ohne ihm ein angedeutetes Wort zu füttern"
   },
   "station-down": {
-    "name": "Station nach unten"
+    "name": "Station nach unten",
+    "says": "zerstören Sie eine Raumstation in Space"
   },
   "shrapnel-storm": {
-    "name": "Splittersturm"
+    "name": "Splittersturm",
+    "says": "zerstören Sie 3 Gegner mit dem Schrapnell einer Landmine in Space"
   },
   "stacked": {
-    "name": "Gestapelt"
+    "name": "Gestapelt",
+    "says": "nutzen Sie zwei Powerups gleichzeitig in Space"
   },
   "autopilot-ace": {
-    "name": "Autopilot-Ace"
+    "name": "Autopilot-Ace",
+    "says": "zerstören Sie insgesamt 10 Gegner mit dem Automaten in Space"
   },
   "dazed": {
-    "name": "Benommen und verwirrt"
+    "name": "Benommen und verwirrt",
+    "says": "betäuben Sie insgesamt 25 Angreifer in Castle"
   },
   "spoils-of-war": {
-    "name": "Kriegsbeute"
+    "name": "Kriegsbeute",
+    "says": "nutzen Sie insgesamt 10 Powerups in Castle"
   },
   "clean-sweep": {
-    "name": "Sauberer Sweep"
+    "name": "Sauberer Sweep",
+    "says": "korrigieren Sie jeden Fehler in einer Spot-Passage, ohne ein korrektes Wort zu markieren"
   },
   "race-first": {
     "name": "Auf deinen Marken"
@@ -639,5 +652,64 @@
     "badges": "Abzeichen",
     "extras": "Extras",
     "sections_label": "Leistungsabschnitte"
+  },
+  "wpm-90": {
+    "name": "neunzig Wörter"
+  },
+  "words-50k": {
+    "name": "fünfzigtausend"
+  },
+  "sustained-15": {
+    "name": "fünfzehn Minuten"
+  },
+  "books-3": {
+    "name": "Trilogie"
+  },
+  "mastered-50": {
+    "name": "fünfzig gemeistert"
+  },
+  "drills-25": {
+    "name": "Drill-Sergeant"
+  },
+  "sweet-dreams": {
+    "name": "süße Träume"
+  },
+  "early-wake": {
+    "name": "jetzt schon?"
+  },
+  "overnight-sleep": {
+    "name": "tief und fest"
+  },
+  "siege-breaker": {
+    "name": "Belagerungsbrecher",
+    "says": "zerstören Sie insgesamt 10 Katapulte in Castle"
+  },
+  "bomb-disposal": {
+    "name": "Bombenentschärfung",
+    "says": "entschärfen Sie insgesamt 25 Dynamitstangen in Castle"
+  },
+  "bucket-brigade": {
+    "name": "Eimerkette",
+    "says": "löschen Sie insgesamt 25 Feuer in Castle"
+  },
+  "giant-killer": {
+    "name": "Riesentöter",
+    "says": "bringen Sie einen Riesen in Castle zu Fall"
+  },
+  "reinforcements": {
+    "name": "Verstärkung",
+    "says": "senden Sie insgesamt 100 Soldaten in Castle aus"
+  },
+  "king-safe": {
+    "name": "König in Sicherheit",
+    "says": "gewinnen Sie einen Castle-Aufstieg"
+  },
+  "off-the-wall": {
+    "name": "von der Mauer",
+    "says": "stoßen Sie insgesamt 20 Leitern vom Turm in Castle"
+  },
+  "cut-loose": {
+    "name": "abgeschnitten",
+    "says": "kappen Sie insgesamt 20 Enterhaken in Castle"
   }
 }

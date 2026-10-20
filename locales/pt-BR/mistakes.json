@@ -70,7 +70,13 @@
     "stop_aria": "parar o treinamento de {mistake}",
     "export": "exportar ",
     "csv": "csv",
-    "json": "json"
+    "json": "json",
+    "train_selected": "treinar selecionados",
+    "train_all": "treinar todos",
+    "select_mistake": "selecionar {mistake}",
+    "select_all": "selecionar todos",
+    "view_trend": "ver tendência de {mistake}",
+    "view_trend_title": "Inspecionar tendência de {mistake}"
   },
   "filters": {
     "all": "todos",
@@ -94,7 +100,8 @@
     "pager_aria": "páginas da tabela de erros",
     "no_qualifiers_mistakes": "Nenhum erro de {qualifiers}{inSection, select, true { em {section}} other {}} ainda.",
     "no_in_section": "Nenhum erro em {section} ainda.",
-    "training_words_note": "{count, plural, one {# palavra} many {# palavras} other {# palavras}} com erros consistentes em treinamento."
+    "training_words_note": "{count, plural, one {# palavra} many {# palavras} other {# palavras}} com erros consistentes em treinamento.",
+    "selected_count": "{count, plural, one {# selecionado} other {# selecionados}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "erros de {label} – clique para isolar",
@@ -111,7 +118,24 @@
     "rate_over_tests": "taxa de erro {from} → {to} em {count, plural, one {# teste} many {# testes} other {# testes}}",
     "mark_label": "{mistake}: {rate} das vezes",
     "started_at": "{summary} · começou o treinamento em {rate}",
-    "keyboard_label": "Teclado com {count, plural, one {# erro} many {# erros} other {# erros}} desenhados nele. A lista abaixo contém os mesmos erros."
+    "keyboard_label": "Teclado com {count, plural, one {# erro} many {# erros} other {# erros}} desenhados nele. A lista abaixo contém os mesmos erros.",
+    "key_with_mistakes": "{key} ({count, plural, one {# erro} other {# erros}}) – clique para isolar",
+    "key_no_mistakes": "{key} (nenhum erro registrado)",
+    "key_isolated": "tecla {key}",
+    "key_isolated_summary": "{count, plural, one {# erro} other {# erros}} nesta tecla ou desviando para ela",
+    "show_all_keys": "mostrar todas as teclas",
+    "show_all_keys_aria": "limpar isolamento de tecla e mostrar todos os erros",
+    "no_key_mistakes": "Nenhum erro registrado para {key}.",
+    "no_words_for_key": "Nenhuma palavra ou espaço registrado para {key}.",
+    "illustrates_mistake": "em {mistake}",
+    "rel_outgoing": "pretendido {expected} → digitado {typed}",
+    "rel_incoming": "desvio de {expected}",
+    "rel_missed": "perdido",
+    "rel_extra": "extra",
+    "rel_shift": "shift",
+    "rel_swapped": "trocado com {other}",
+    "rel_persistent": "persistente",
+    "space_key_name": "espaço"
   },
   "mistakes": {
     "actions": "ações",
@@ -175,5 +199,21 @@
     "hesitation_before": "pausa antes de {expected}",
     "hesitation": "hesitação",
     "tricky": "difícil: {expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · tendência da taxa de erro",
+    "table_caption": "Histórico de testes e taxas de erro para {mistake}",
+    "test_column_date": "data",
+    "test_column_source": "teste",
+    "test_column_exposures": "digitado",
+    "test_column_errors": "erros",
+    "test_column_rate": "taxa de erro",
+    "point_info": "{date} · {source} · {errors} de {exposures} erros ({rate})",
+    "started_baseline": "começou em {rate}",
+    "goal_improving": "melhorando ({rate})",
+    "goal_mastered": "dominado ({rate})",
+    "zoom": "zoom",
+    "no_data": "ainda não há histórico de testes suficiente com este erro",
+    "test_source_default": "teste"
   }
 }

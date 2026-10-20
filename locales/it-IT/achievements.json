@@ -89,7 +89,10 @@
     "spaceWordBombs": "{count, plural, one {sgancia la bomba di parole in Space una volta} many {sgancia la bomba di parole in Space {count} volte} other {sgancia la bomba di parole in Space {count} volte}}",
     "unknown": "sconosciuto",
     "progress_suffix": " ({have} di {need})",
-    "secret_hint": "un segreto: continua a giocare"
+    "secret_hint": "un segreto: continua a giocare",
+    "petsToSleep": "accarezza il tuo compagno per farlo riaddormentare {count, plural, one {# volta} other {# volte}}",
+    "earlyWakes": "sveglia il tuo compagno poco dopo essersi addormentato {count, plural, one {# volta} other {# volte}}",
+    "overnightSleep": "lascia dormire il tuo compagno per {hours, plural, one {# ora} other {# ore}} durante la notte nella pagina Info"
   },
   "first-test": {
     "name": "primi passi"
@@ -344,34 +347,44 @@
     "name": "caporedattore"
   },
   "buffet-host": {
-    "name": "maestro del buffet"
+    "name": "maestro del buffet",
+    "says": "tieni aperto un buffet di Feed per 5 minuti"
   },
   "full-house": {
-    "name": "tutto pieno"
+    "name": "tutto pieno",
+    "says": "soddisfa 50 ordini del buffet in Feed in totale"
   },
   "no-hints": {
-    "name": "nessun suggerimento"
+    "name": "nessun suggerimento",
+    "says": "resisti 3 minuti come mangiatore difficile in Feed senza dargli una parola con suggerimento"
   },
   "station-down": {
-    "name": "stazione abbattuta"
+    "name": "stazione abbattuta",
+    "says": "distruggi una stazione spaziale in Space"
   },
   "shrapnel-storm": {
-    "name": "tempesta di schegge"
+    "name": "tempesta di schegge",
+    "says": "distruggi 3 nemici con le schegge di una mina in Space"
   },
   "stacked": {
-    "name": "accumulatore"
+    "name": "accumulatore",
+    "says": "attiva due potenziamenti contemporaneamente in Space"
   },
   "autopilot-ace": {
-    "name": "asso del pilota automatico"
+    "name": "asso del pilota automatico",
+    "says": "distruggi 10 nemici con l’automa in Space in totale"
   },
   "dazed": {
-    "name": "frastornato e confuso"
+    "name": "frastornato e confuso",
+    "says": "stordisci 25 assalitori in Castle in totale"
   },
   "spoils-of-war": {
-    "name": "bottino di guerra"
+    "name": "bottino di guerra",
+    "says": "usa 10 potenziamenti in Castle in totale"
   },
   "clean-sweep": {
-    "name": "nessuna sbavatura"
+    "name": "nessuna sbavatura",
+    "says": "correggi tutti gli errori in un brano di Spot senza segnalare parole corrette"
   },
   "race-first": {
     "name": "ai posti"
@@ -639,5 +652,64 @@
     "badges": "badge",
     "extras": "extra",
     "sections_label": "sezioni dei traguardi"
+  },
+  "wpm-90": {
+    "name": "novanta parole"
+  },
+  "words-50k": {
+    "name": "cinquantamila"
+  },
+  "sustained-15": {
+    "name": "quindici minuti"
+  },
+  "books-3": {
+    "name": "trilogia"
+  },
+  "mastered-50": {
+    "name": "cinquanta corretti"
+  },
+  "drills-25": {
+    "name": "sergente istruttore"
+  },
+  "sweet-dreams": {
+    "name": "sogni d’oro"
+  },
+  "early-wake": {
+    "name": "già sveglio?"
+  },
+  "overnight-sleep": {
+    "name": "sonno profondo"
+  },
+  "siege-breaker": {
+    "name": "spezza-assedio",
+    "says": "distruggi 10 catapulte in Castle in totale"
+  },
+  "bomb-disposal": {
+    "name": "artificiere",
+    "says": "disinnesca 25 candelotti di dinamite in Castle in totale"
+  },
+  "bucket-brigade": {
+    "name": "catena dei secchi",
+    "says": "spegni 25 incendi in Castle in totale"
+  },
+  "giant-killer": {
+    "name": "cacciatore di giganti",
+    "says": "abbatti un gigante in Castle"
+  },
+  "reinforcements": {
+    "name": "rinforzi",
+    "says": "invia 100 soldati in Castle in totale"
+  },
+  "king-safe": {
+    "name": "re al sicuro",
+    "says": "vinci una scalata in Castle"
+  },
+  "off-the-wall": {
+    "name": "giù dalle mura",
+    "says": "spingi 20 scale giù dalla torre in Castle in totale"
+  },
+  "cut-loose": {
+    "name": "taglia le corde",
+    "says": "taglia 20 rampini in Castle in totale"
   }
 }

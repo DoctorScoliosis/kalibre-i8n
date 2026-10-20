@@ -15,7 +15,9 @@
     "install": "安装",
     "find_more": "在书库中查找更多",
     "verb_update": "更新",
-    "verb_download": "下载"
+    "verb_download": "下载",
+    "view_details_aria": "查看 {name} 的详情",
+    "details": "详情"
   },
   "chips": {
     "on_server": "在此服务器上",
@@ -35,14 +37,19 @@
     "library_from": "来自 {name}",
     "library_remove": "移除书库 {name}",
     "library_added": "已添加 {name}：{count, plural, other {# 个数据集}}。",
-    "not_reachable": "无法访问"
+    "not_reachable": "无法访问",
+    "rebuilding_started": "正在重建练习段落……",
+    "updating_started": "正在更新数据集……",
+    "removing_started": "正在移除数据集……"
   },
   "install": {
     "include_work": "包含 {title}",
     "text_of_work": "{title} 的文本",
     "edit_draft": "编辑“{name}”",
     "check_before_installing": "安装前检查",
-    "add_text": "添加 {title}"
+    "add_text": "添加 {title}",
+    "maximum_recalculate_label": "最大范围重新计算段落（无限制 + 流式提取）",
+    "maximum_recalculate_hint": "跨越段落边界保留所有可能的练习段落，以获得最大的丰富度。需要占用更多存储空间。"
   },
   "dataset_cap": {
     "custom_number_of_passages_per": "每个长度的自定义段落数",
@@ -69,7 +76,9 @@
     "rebuilt_summary": "已重建“{name}”：{passages}{size}，{cap}。",
     "size_suffix": "，{size}",
     "download": "下载",
-    "passages": "段落"
+    "passages": "段落",
+    "maximum_preset_btn": "最大化",
+    "incompatible_warning": "此数据集的语言与界面语言不匹配，因此不会包含在专项练习中。"
   },
   "dataset_install_flow": {
     "translator_optional": "译者（可选）",
@@ -105,7 +114,27 @@
     "each_file_must_be_under": "每个文件必须小于 20 MB。",
     "added": "已添加 {what}",
     "quoted_title": "“{title}”",
-    "added_some": "已添加 {texts}；未勾选，无可输入散文：{skipped}"
+    "added_some": "已添加 {texts}；未勾选，无可输入散文：{skipped}",
+    "language": "语言",
+    "language_hint": "此数据集的语言",
+    "from_wikipedia": "来自维基百科",
+    "wikipedia_heading": "从维基百科导入",
+    "wikipedia_articles_label": "文章标题或网址（每行一个）",
+    "wikipedia_articles_placeholder": "太阳系\nzh:阿尔伯特·爱因斯坦\nhttps://zh.wikipedia.org/wiki/地球",
+    "wikipedia_search_placeholder": "搜索维基百科文章……",
+    "wikipedia_search_button": "搜索",
+    "wikipedia_searching": "正在搜索维基百科……",
+    "wikipedia_no_search_results": "未找到匹配的文章",
+    "wikipedia_disambiguation_title": "为“{title}”选择文章",
+    "wikipedia_disambiguation_hint": "此标题为消歧义页面。请选择目标文章：",
+    "wikipedia_disambiguation_add": "添加所选文章",
+    "wikipedia_privacy_note": "此操作会向维基百科请求文章，因此维基媒体能看到您的 IP 地址以及您提供的标题或关键词。",
+    "wikipedia_licensing_notice": "大多数维基百科文本均在 CC BY-SA 4.0 和 GNU 自由文档许可证（GFDL）下提供，但可能存在例外情况和其他条款。kalibre 会提取并清理文章文本，因此提取结果可能与原文有所差异。在导出或分享之前，请保留文章的署名及许可证链接，指明修改之处，并遵守适用的“相同方式共享”条款。在分发之前，请检查每篇文章附带的许可证详情。维基百科和维基媒体基金会并未认可或代言 kalibre。",
+    "wikipedia_licensing_acknowledge": "我理解并同意",
+    "wikipedia_licensing_reopen": "许可证须知",
+    "wikipedia_fetch_button": "获取文章",
+    "wikipedia_cancel_button": "取消获取",
+    "wikipedia_skipped_summary": "{count, plural, other {已跳过 # 篇文章}}"
   },
   "library": {
     "looking_in_the_libraries": "正在书库中查找……",
@@ -132,7 +161,28 @@
     "has_no_texts": "“{name}”没有文本。",
     "is_too_large": "{id}/{path} 太大。",
     "has_files_its_checksum_list": "“{name}”包含其校验和列表未涵盖的文件，因此未下载。",
-    "is_too_large_to_download": "“{name}”太大，无法下载。"
+    "is_too_large_to_download": "“{name}”太大，无法下载。",
+    "already_added": "该库已存在于选择器中。",
+    "checking_library": "正在检查库……",
+    "chooser_hint": "选择一个库以浏览其包含的图书和引文集。每个库拥有独立的数据集列表。",
+    "chooser_count": "{count, plural, other {共 # 个可用库}}",
+    "downloadable_count": "{count, plural, other {共 # 个可下载的数据集}}",
+    "last_updated": "最后更新于 {date}",
+    "last_updated_unknown": "最后更新日期不可用",
+    "browse_datasets": "浏览数据集",
+    "open_library": "浏览 {name} 中的数据集",
+    "add_library_heading": "添加其他库",
+    "add_library_hint": "通过所有者/仓库或 HTTPS 地址添加公开的 Kalibre 库。其数据集将单独列出。",
+    "search_this_library": "搜索此库中的数据集",
+    "no_matching_datasets": "没有符合此搜索条件的数据集。",
+    "no_datasets_available": "此库暂无可用的数据集。",
+    "more_results": "{count, plural, other {还有 # 个数据集；请缩小搜索范围以查看}}",
+    "unavailable_count": "{count, plural, other {有 # 个库无法访问}}",
+    "third_party_disclaimer": "来自第三方库；Kalibre 尚未审核其内容。",
+    "browser_column": "数据集结果列",
+    "incompatible_warning": "此数据集的语言与界面语言不匹配，因此不会包含在专项练习中。",
+    "hide_incompatible_label": "隐藏其他语言的数据集",
+    "hidden_incompatible_count": "（{count, plural, other {已隐藏 # 个其他语言的数据集}}）"
   },
   "datasets": {
     "where_private_files": "此浏览器的私有文件存储",
@@ -143,13 +193,58 @@
     "storage_kept": "已安装的数据集保留在 {where} 中。",
     "installed_quotes": "已安装“{name}”：{count} 个引文（已移除重复项）。 ",
     "saved_summary": "已保存“{name}”：{texts}，{passages}。 ",
-    "installed_summary": "已安装“{name}”：{texts}，{passages}。 "
+    "installed_summary": "已安装“{name}”：{texts}，{passages}。 ",
+    "hide_incompatible_label": "隐藏其他语言的数据集",
+    "hidden_incompatible_count": "（{count, plural, other {已隐藏 # 个其他语言的数据集}}）"
   },
   "dataset_draft": {
     "untitled": "无标题"
   },
   "dataset_install": {
     "has_no_usable_prose_it": "“{title}”没有可用的散文（它需要句子，而不仅仅是标题或列表）。",
-    "this_file_is_not_a": "此文件不是 Kalibre 数据包。"
+    "this_file_is_not_a": "此文件不是 Kalibre 数据包。",
+    "language_required": "构建数据集必须指定语言。"
+  },
+  "search": {
+    "placeholder": "按标题、作者或许可证搜索数据集……",
+    "aria_label": "搜索数据集",
+    "clear": "清除",
+    "clear_aria": "清除搜索关键词",
+    "no_matches": "未找到匹配“{query}”的数据集",
+    "matching_count": "{count, plural, other {找到 # 个匹配的数据集}}"
+  },
+  "sort": {
+    "label": "排序方式",
+    "name": "名称",
+    "passages": "段落数",
+    "texts": "文本数",
+    "size": "大小",
+    "asc": "升序",
+    "desc": "降序",
+    "toggle_direction": "切换排序方向：当前为{direction}"
+  },
+  "pagination": {
+    "nav_aria": "数据集页面导航",
+    "prev": "上一页",
+    "next": "下一页",
+    "page_of": "第 {current} 页 / 共 {total} 页",
+    "total_count": "（{count, plural, other {共 # 个数据集}}）"
+  },
+  "details": {
+    "quotes_summary": "此合集中共包含 {count, plural, other {# 条引文}}",
+    "no_books": "在此数据集中未找到图书",
+    "table_title": "标题",
+    "table_words": "词数",
+    "table_passages": "段落数",
+    "table_composition": "构成比例",
+    "total_books": "总计（{count, plural, other {共 # 本书}}）",
+    "table_author": "作者",
+    "composition_sort_by": "按篇幅排序",
+    "composition_total": "段落总计",
+    "composition_small": "短篇",
+    "composition_medium": "中篇",
+    "composition_large": "长篇",
+    "composition_huge": "巨篇",
+    "composition_massive": "超大篇"
   }
 }

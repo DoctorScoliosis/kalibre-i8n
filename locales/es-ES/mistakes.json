@@ -70,7 +70,13 @@
     "stop_aria": "detener el entrenamiento de {mistake}",
     "export": "exportar ",
     "csv": "csv",
-    "json": "json"
+    "json": "json",
+    "train_selected": "practicar seleccionados",
+    "train_all": "practicar todos",
+    "select_mistake": "seleccionar {mistake}",
+    "select_all": "seleccionar todos",
+    "view_trend": "ver tendencia de {mistake}",
+    "view_trend_title": "Examinar tendencia de {mistake}"
   },
   "filters": {
     "all": "todos",
@@ -94,7 +100,8 @@
     "pager_aria": "páginas de la tabla de errores",
     "no_qualifiers_mistakes": "Todavía no hay errores de {qualifiers}{inSection, select, true { en {section}} other {}}.",
     "no_in_section": "Todavía no hay errores en {section}.",
-    "training_words_note": "{count, plural, one {# palabra} many {# palabras} other {# palabras}} con errores constantes en entrenamiento."
+    "training_words_note": "{count, plural, one {# palabra} many {# palabras} other {# palabras}} con errores constantes en entrenamiento.",
+    "selected_count": "{count, plural, one {# seleccionado} other {# seleccionados}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "errores de {label} – haz clic para aislar",
@@ -111,7 +118,24 @@
     "rate_over_tests": "tasa de error {from} → {to} en {count, plural, one {# prueba} many {# pruebas} other {# pruebas}}",
     "mark_label": "{mistake}: {rate} de las veces",
     "started_at": "{summary} · empezó el entrenamiento con {rate}",
-    "keyboard_label": "Teclado con {count, plural, one {# error} many {# errores} other {# errores}} dibujados. La lista de abajo contiene los mismos errores."
+    "keyboard_label": "Teclado con {count, plural, one {# error} many {# errores} other {# errores}} dibujados. La lista de abajo contiene los mismos errores.",
+    "key_with_mistakes": "{key} ({count, plural, one {# error} other {# errores}}) – clic para aislar",
+    "key_no_mistakes": "{key} (sin errores registrados)",
+    "key_isolated": "tecla {key}",
+    "key_isolated_summary": "{count, plural, one {# error} other {# errores}} en o desviados hacia esta tecla",
+    "show_all_keys": "mostrar todas las teclas",
+    "show_all_keys_aria": "borrar aislamiento de tecla y mostrar todos los errores",
+    "no_key_mistakes": "No hay errores registrados para {key}.",
+    "no_words_for_key": "No hay palabras ni espacios registrados para {key}.",
+    "illustrates_mistake": "en {mistake}",
+    "rel_outgoing": "querías {expected} → pulsaste {typed}",
+    "rel_incoming": "desvío desde {expected}",
+    "rel_missed": "omitido",
+    "rel_extra": "adicional",
+    "rel_shift": "mayús",
+    "rel_swapped": "intercambiado con {other}",
+    "rel_persistent": "persistente",
+    "space_key_name": "espacio"
   },
   "mistakes": {
     "actions": "acciones",
@@ -175,5 +199,21 @@
     "hesitation_before": "pausa antes de {expected}",
     "hesitation": "vacilación",
     "tricky": "difícil: {expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · tendencia de tasa de error",
+    "table_caption": "Historial de pruebas y tasas de error para {mistake}",
+    "test_column_date": "fecha",
+    "test_column_source": "prueba",
+    "test_column_exposures": "escrito",
+    "test_column_errors": "errores",
+    "test_column_rate": "tasa de error",
+    "point_info": "{date} · {source} · {errors} de {exposures} errores ({rate})",
+    "started_baseline": "comenzó en {rate}",
+    "goal_improving": "mejorando ({rate})",
+    "goal_mastered": "dominado ({rate})",
+    "zoom": "zoom",
+    "no_data": "aún no hay suficiente historial de pruebas con este error",
+    "test_source_default": "prueba"
   }
 }

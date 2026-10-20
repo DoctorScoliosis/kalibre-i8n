@@ -147,7 +147,10 @@
         "spaceWordBombs": "{count, plural, one {dispare a bomba de palavras no Space uma vez} many {dispare a bomba de palavras no Space {count} vezes} other {dispare a bomba de palavras no Space {count} vezes}}",
         "unknown": "desconhecido",
         "progress_suffix": " ({have} de {need})",
-        "secret_hint": "um segredo: continue jogando"
+        "secret_hint": "um segredo: continue jogando",
+        "petsToSleep": "acaricie seu companheiro para dormir {count, plural, one {# vez} other {# vezes}}",
+        "earlyWakes": "acorde seu companheiro logo após ele adormecer {count, plural, one {# vez} other {# vezes}}",
+        "overnightSleep": "deixe seu companheiro dormir por {hours, plural, one {# hora} other {# horas}} durante a noite na página sobre"
       },
       "first-test": {
         "name": "primeiros passos"
@@ -402,34 +405,44 @@
         "name": "chefe da revisão"
       },
       "buffet-host": {
-        "name": "anfitrião do buffet"
+        "name": "anfitrião do buffet",
+        "says": "mantenha um bufê do Feed aberto por 5 minutos"
       },
       "full-house": {
-        "name": "casa cheia"
+        "name": "casa cheia",
+        "says": "atenda a 50 pedidos de bufê no Feed no total"
       },
       "no-hints": {
-        "name": "sem dicas necessárias"
+        "name": "sem dicas necessárias",
+        "says": "resista 3 minutos como comilão exigente no Feed sem alimentá-lo com palavras com dica"
       },
       "station-down": {
-        "name": "estação fora do ar"
+        "name": "estação fora do ar",
+        "says": "destrua uma estação espacial no Space"
       },
       "shrapnel-storm": {
-        "name": "tempestade de estilhaços"
+        "name": "tempestade de estilhaços",
+        "says": "destrua 3 inimigos com os estilhaços de uma mina terrestre no Space"
       },
       "stacked": {
-        "name": "empilhado"
+        "name": "empilhado",
+        "says": "ative dois poderes ao mesmo tempo no Space"
       },
       "autopilot-ace": {
-        "name": "ás do piloto automático"
+        "name": "ás do piloto automático",
+        "says": "destrua 10 inimigos com o autômato no Space no total"
       },
       "dazed": {
-        "name": "atordoado e confuso"
+        "name": "atordoado e confuso",
+        "says": "atordoe 25 atacantes no Castle no total"
       },
       "spoils-of-war": {
-        "name": "espólios de guerra"
+        "name": "espólios de guerra",
+        "says": "use 10 poderes no Castle no total"
       },
       "clean-sweep": {
-        "name": "varredura completa"
+        "name": "varredura completa",
+        "says": "corrija todos os erros de um trecho no Spot sem sinalizar palavras corretas"
       },
       "race-first": {
         "name": "aos seus lugares"
@@ -697,6 +710,65 @@
         "badges": "distintivos",
         "extras": "extras",
         "sections_label": "seções de conquistas"
+      },
+      "wpm-90": {
+        "name": "noventa palavras"
+      },
+      "words-50k": {
+        "name": "cinquenta mil"
+      },
+      "sustained-15": {
+        "name": "quinze minutos"
+      },
+      "books-3": {
+        "name": "trilogia"
+      },
+      "mastered-50": {
+        "name": "cinquenta corrigidos"
+      },
+      "drills-25": {
+        "name": "sargento instrutor"
+      },
+      "sweet-dreams": {
+        "name": "bons sonhos"
+      },
+      "early-wake": {
+        "name": "já?"
+      },
+      "overnight-sleep": {
+        "name": "sono profundo"
+      },
+      "siege-breaker": {
+        "name": "quebrador de cerco",
+        "says": "destrua 10 catapultas no Castle no total"
+      },
+      "bomb-disposal": {
+        "name": "desarme de bombas",
+        "says": "desarme 25 bananas de dinamite no Castle no total"
+      },
+      "bucket-brigade": {
+        "name": "brigada do balde",
+        "says": "apague 25 incêndios no Castle no total"
+      },
+      "giant-killer": {
+        "name": "matador de gigantes",
+        "says": "derrube um gigante no Castle"
+      },
+      "reinforcements": {
+        "name": "reforços",
+        "says": "envie 100 soldados no Castle no total"
+      },
+      "king-safe": {
+        "name": "rei a salvo",
+        "says": "vença uma escalada no Castle"
+      },
+      "off-the-wall": {
+        "name": "fora da muralha",
+        "says": "empurre 20 escadas da torre no Castle no total"
+      },
+      "cut-loose": {
+        "name": "cortar amarras",
+        "says": "corte 20 ganchos no Castle no total"
       }
     },
     "cards": {
@@ -2915,7 +2987,9 @@
         "install": "instalar",
         "find_more": "encontrar mais na biblioteca",
         "verb_update": "atualizar",
-        "verb_download": "baixar"
+        "verb_download": "baixar",
+        "view_details_aria": "ver detalhes de {name}",
+        "details": "detalhes"
       },
       "chips": {
         "on_server": "neste servidor",
@@ -2935,14 +3009,19 @@
         "library_from": "de {name}",
         "library_remove": "remover a biblioteca {name}",
         "library_added": "adicionada {name}: {count, plural, one {# conjunto de dados} many {# conjuntos de dados} other {# conjuntos de dados}}.",
-        "not_reachable": "inalcançável"
+        "not_reachable": "inalcançável",
+        "rebuilding_started": "reconstruindo trechos…",
+        "updating_started": "atualizando conjunto de dados…",
+        "removing_started": "removendo conjunto de dados…"
       },
       "install": {
         "include_work": "incluir {title}",
         "text_of_work": "texto de {title}",
         "edit_draft": "editar \"{name}\"",
         "check_before_installing": "verificar antes de instalar",
-        "add_text": "adicionar {title}"
+        "add_text": "adicionar {title}",
+        "maximum_recalculate_label": "recalcular trechos ao máximo (sem limite + extração contínua)",
+        "maximum_recalculate_hint": "Mantém todos os trechos possíveis cruzando limites de parágrafo para máxima variedade. Ocupa mais espaço."
       },
       "dataset_cap": {
         "custom_number_of_passages_per": "número personalizado de trechos por comprimento",
@@ -2969,7 +3048,9 @@
         "rebuilt_summary": "reconstruído \"{name}\": {passages}{size}, {cap}.",
         "size_suffix": ", {size}",
         "download": "baixar",
-        "passages": "trechos"
+        "passages": "trechos",
+        "maximum_preset_btn": "máximo",
+        "incompatible_warning": "o idioma deste conjunto de dados não coincide com o da interface, portanto ele fica fora dos treinos."
       },
       "dataset_install_flow": {
         "translator_optional": "tradutor (opcional)",
@@ -3005,7 +3086,27 @@
         "each_file_must_be_under": "Cada arquivo deve ter menos de 20 MB.",
         "added": "adicionado {what}",
         "quoted_title": "\"{title}\"",
-        "added_some": "adicionados {texts}; deixados desmarcados, sem prosa digitável: {skipped}"
+        "added_some": "adicionados {texts}; deixados desmarcados, sem prosa digitável: {skipped}",
+        "language": "idioma",
+        "language_hint": "idioma deste conjunto de dados",
+        "from_wikipedia": "da Wikipédia",
+        "wikipedia_heading": "importar da Wikipédia",
+        "wikipedia_articles_label": "artigos ou endereços web (um por linha)",
+        "wikipedia_articles_placeholder": "Sistema Solar\npt:Albert Einstein\nhttps://pt.wikipedia.org/wiki/Terra",
+        "wikipedia_search_placeholder": "pesquisar artigos da Wikipédia…",
+        "wikipedia_search_button": "pesquisar",
+        "wikipedia_searching": "pesquisando na Wikipédia…",
+        "wikipedia_no_search_results": "nenhum artigo correspondente encontrado",
+        "wikipedia_disambiguation_title": "escolha um artigo para «{title}»",
+        "wikipedia_disambiguation_hint": "Este título é uma página de desambiguação. Escolha o artigo ou artigos desejados:",
+        "wikipedia_disambiguation_add": "adicionar selecionados",
+        "wikipedia_privacy_note": "isso solicita os artigos à Wikipédia; portanto, a Wikimedia vê seu endereço IP e os títulos ou palavras fornecidos.",
+        "wikipedia_licensing_notice": "A maior parte do texto da Wikipédia está disponível sob a licença CC BY-SA 4.0 e a Licença de Documentação Livre GNU (GFDL), mas exceções e outros termos podem se aplicar. O Kalibre extrai e limpa o texto dos artigos, portanto o resultado pode diferir do original. Antes de exportar ou compartilhar, preserve a atribuição e os links de licença do artigo, identifique as alterações e siga os termos aplicáveis de compartilhamento pela mesma licença. Verifique os detalhes de licença anexados a cada artigo. A Wikipédia e a Wikimedia não endossam o Kalibre.",
+        "wikipedia_licensing_acknowledge": "Entendo e concordo",
+        "wikipedia_licensing_reopen": "aviso de licença",
+        "wikipedia_fetch_button": "buscar artigos",
+        "wikipedia_cancel_button": "cancelar busca",
+        "wikipedia_skipped_summary": "{count, plural, one {# artigo ignorado} other {# artigos ignorados}}"
       },
       "library": {
         "looking_in_the_libraries": "procurando nas bibliotecas…",
@@ -3032,7 +3133,28 @@
         "has_no_texts": "\"{name}\" não tem textos.",
         "is_too_large": "{id}/{path} é grande demais.",
         "has_files_its_checksum_list": "\"{name}\" tem arquivos que sua lista de checksums não cobre, então ele não foi baixado.",
-        "is_too_large_to_download": "\"{name}\" é grande demais para baixar."
+        "is_too_large_to_download": "\"{name}\" é grande demais para baixar.",
+        "already_added": "Essa biblioteca já está no seletor.",
+        "checking_library": "Verificando biblioteca…",
+        "chooser_hint": "Escolha uma biblioteca para explorar seus livros e coleções de citações. Cada biblioteca possui sua própria lista.",
+        "chooser_count": "{count, plural, one {# biblioteca disponível} other {# bibliotecas disponíveis}}",
+        "downloadable_count": "{count, plural, one {# conjunto de dados disponível para download} other {# conjuntos de dados disponíveis para download}}",
+        "last_updated": "Última atualização em {date}",
+        "last_updated_unknown": "Data de atualização indisponível",
+        "browse_datasets": "Navegar pelos conjuntos de dados",
+        "open_library": "Navegar pelos conjuntos de dados em {name}",
+        "add_library_heading": "Adicionar outra biblioteca",
+        "add_library_hint": "Adicione uma biblioteca pública do Kalibre por proprietário/repositório ou endereço HTTPS. Seus conjuntos serão listados separadamente.",
+        "search_this_library": "Pesquisar nos conjuntos de dados desta biblioteca",
+        "no_matching_datasets": "Nenhum conjunto de dados corresponde a esta pesquisa.",
+        "no_datasets_available": "Esta biblioteca não possui conjuntos de dados disponíveis.",
+        "more_results": "{count, plural, one {# conjunto de dados a mais; refine sua busca} other {# conjuntos de dados a mais; refine sua busca}}",
+        "unavailable_count": "{count, plural, one {# biblioteca inacessível} other {# bibliotecas inacessíveis}}",
+        "third_party_disclaimer": "De uma biblioteca de terceiros; o Kalibre não verificou este conteúdo.",
+        "browser_column": "coluna de resultados de conjuntos de dados",
+        "incompatible_warning": "o idioma deste conjunto de dados não coincide com o da interface, portanto ele fica fora dos treinos.",
+        "hide_incompatible_label": "ocultar conjuntos de dados em outros idiomas",
+        "hidden_incompatible_count": "({count, plural, one {# oculto em outro idioma} other {# ocultos em outros idiomas}})"
       },
       "datasets": {
         "where_private_files": "o armazenamento privado de arquivos deste navegador",
@@ -3043,14 +3165,59 @@
         "storage_kept": "Os conjuntos de dados instalados ficam em {where}.",
         "installed_quotes": "citações instaladas \"{name}\": {count} (duplicatas removidas). ",
         "saved_summary": "salvo \"{name}\": {texts}, {passages}. ",
-        "installed_summary": "instalado \"{name}\": {texts}, {passages}. "
+        "installed_summary": "instalado \"{name}\": {texts}, {passages}. ",
+        "hide_incompatible_label": "ocultar conjuntos de dados em outros idiomas",
+        "hidden_incompatible_count": "({count, plural, one {# oculto em outro idioma} other {# ocultos em outros idiomas}})"
       },
       "dataset_draft": {
         "untitled": "sem título"
       },
       "dataset_install": {
         "has_no_usable_prose_it": "\"{title}\" não tem prosa utilizável (precisa de frases, não apenas títulos ou listas).",
-        "this_file_is_not_a": "Este arquivo não é um pacote de conjunto de dados do Kalibre."
+        "this_file_is_not_a": "Este arquivo não é um pacote de conjunto de dados do Kalibre.",
+        "language_required": "Um idioma é obrigatório para construir um conjunto de dados."
+      },
+      "search": {
+        "placeholder": "pesquisar conjuntos de dados por título, autor ou licença…",
+        "aria_label": "pesquisar conjuntos de dados",
+        "clear": "limpar",
+        "clear_aria": "limpar consulta de pesquisa",
+        "no_matches": "nenhum conjunto de dados corresponde a «{query}»",
+        "matching_count": "{count, plural, one {# conjunto de dados correspondente} other {# conjuntos de dados correspondentes}}"
+      },
+      "sort": {
+        "label": "ordenar por",
+        "name": "nome",
+        "passages": "trechos",
+        "texts": "textos",
+        "size": "tamanho",
+        "asc": "crescente",
+        "desc": "decrescente",
+        "toggle_direction": "alternar direção da ordenação: atualmente {direction}"
+      },
+      "pagination": {
+        "nav_aria": "páginas de conjuntos de dados",
+        "prev": "página anterior",
+        "next": "próxima página",
+        "page_of": "página {current} de {total}",
+        "total_count": "({count, plural, one {# conjunto de dados} other {# conjuntos de dados}})"
+      },
+      "details": {
+        "quotes_summary": "{count, plural, one {# citação} other {# citações}} nesta coleção",
+        "no_books": "nenhum livro encontrado neste conjunto de dados",
+        "table_title": "título",
+        "table_words": "palavras",
+        "table_passages": "trechos",
+        "table_composition": "composição",
+        "total_books": "total ({count, plural, one {# livro} other {# livros}})",
+        "table_author": "autor",
+        "composition_sort_by": "ordenar por tamanho",
+        "composition_total": "total de trechos",
+        "composition_small": "pequeno",
+        "composition_medium": "médio",
+        "composition_large": "grande",
+        "composition_huge": "muito grande",
+        "composition_massive": "maciço"
       }
     },
     "drills": {
@@ -5095,7 +5262,13 @@
         "stop_aria": "parar o treinamento de {mistake}",
         "export": "exportar ",
         "csv": "csv",
-        "json": "json"
+        "json": "json",
+        "train_selected": "treinar selecionados",
+        "train_all": "treinar todos",
+        "select_mistake": "selecionar {mistake}",
+        "select_all": "selecionar todos",
+        "view_trend": "ver tendência de {mistake}",
+        "view_trend_title": "Inspecionar tendência de {mistake}"
       },
       "filters": {
         "all": "todos",
@@ -5119,7 +5292,8 @@
         "pager_aria": "páginas da tabela de erros",
         "no_qualifiers_mistakes": "Nenhum erro de {qualifiers}{inSection, select, true { em {section}} other {}} ainda.",
         "no_in_section": "Nenhum erro em {section} ainda.",
-        "training_words_note": "{count, plural, one {# palavra} many {# palavras} other {# palavras}} com erros consistentes em treinamento."
+        "training_words_note": "{count, plural, one {# palavra} many {# palavras} other {# palavras}} com erros consistentes em treinamento.",
+        "selected_count": "{count, plural, one {# selecionado} other {# selecionados}}"
       },
       "mistake_map": {
         "mistakes_click_to_isolate": "erros de {label} – clique para isolar",
@@ -5136,7 +5310,24 @@
         "rate_over_tests": "taxa de erro {from} → {to} em {count, plural, one {# teste} many {# testes} other {# testes}}",
         "mark_label": "{mistake}: {rate} das vezes",
         "started_at": "{summary} · começou o treinamento em {rate}",
-        "keyboard_label": "Teclado com {count, plural, one {# erro} many {# erros} other {# erros}} desenhados nele. A lista abaixo contém os mesmos erros."
+        "keyboard_label": "Teclado com {count, plural, one {# erro} many {# erros} other {# erros}} desenhados nele. A lista abaixo contém os mesmos erros.",
+        "key_with_mistakes": "{key} ({count, plural, one {# erro} other {# erros}}) – clique para isolar",
+        "key_no_mistakes": "{key} (nenhum erro registrado)",
+        "key_isolated": "tecla {key}",
+        "key_isolated_summary": "{count, plural, one {# erro} other {# erros}} nesta tecla ou desviando para ela",
+        "show_all_keys": "mostrar todas as teclas",
+        "show_all_keys_aria": "limpar isolamento de tecla e mostrar todos os erros",
+        "no_key_mistakes": "Nenhum erro registrado para {key}.",
+        "no_words_for_key": "Nenhuma palavra ou espaço registrado para {key}.",
+        "illustrates_mistake": "em {mistake}",
+        "rel_outgoing": "pretendido {expected} → digitado {typed}",
+        "rel_incoming": "desvio de {expected}",
+        "rel_missed": "perdido",
+        "rel_extra": "extra",
+        "rel_shift": "shift",
+        "rel_swapped": "trocado com {other}",
+        "rel_persistent": "persistente",
+        "space_key_name": "espaço"
       },
       "mistakes": {
         "actions": "ações",
@@ -5200,6 +5391,22 @@
         "hesitation_before": "pausa antes de {expected}",
         "hesitation": "hesitação",
         "tricky": "difícil: {expected}"
+      },
+      "trend_detail": {
+        "trend_title": "{mistake} · tendência da taxa de erro",
+        "table_caption": "Histórico de testes e taxas de erro para {mistake}",
+        "test_column_date": "data",
+        "test_column_source": "teste",
+        "test_column_exposures": "digitado",
+        "test_column_errors": "erros",
+        "test_column_rate": "taxa de erro",
+        "point_info": "{date} · {source} · {errors} de {exposures} erros ({rate})",
+        "started_baseline": "começou em {rate}",
+        "goal_improving": "melhorando ({rate})",
+        "goal_mastered": "dominado ({rate})",
+        "zoom": "zoom",
+        "no_data": "ainda não há histórico de testes suficiente com este erro",
+        "test_source_default": "teste"
       }
     },
     "profiles": {
@@ -6064,7 +6271,9 @@
             "cream": "creme",
             "rose": "rosa",
             "harbour": "porto",
-            "contrast": "alto contraste"
+            "contrast": "alto contraste",
+            "nordic": "nórdico",
+            "copper": "cobre"
           }
         },
         "themeDark": {
@@ -6078,7 +6287,9 @@
             "plum": "ameixa",
             "slate": "ardósia",
             "terminal": "terminal",
-            "contrast-night": "alto contraste noturno"
+            "contrast-night": "alto contraste noturno",
+            "cyber": "cyber",
+            "amber": "âmbar"
           }
         },
         "theme": {
@@ -6099,7 +6310,11 @@
             "slate": "ardósia",
             "terminal": "terminal",
             "contrast": "alto contraste",
-            "contrast-night": "alto contraste noturno"
+            "contrast-night": "alto contraste noturno",
+            "nordic": "nórdico",
+            "copper": "cobre",
+            "cyber": "cyber",
+            "amber": "âmbar"
           }
         },
         "customThemes": {
@@ -6116,11 +6331,15 @@
           "label": "peso da fonte de digitação",
           "description": "quão negrito é o texto digitado",
           "option": {
+            "100": "fina",
+            "200": "extraleve",
             "300": "300",
             "400": "400",
             "500": "500",
             "600": "600",
-            "700": "700"
+            "700": "700",
+            "800": "extranegrito",
+            "900": "pesada"
           }
         },
         "typingLineHeight": {
@@ -6336,7 +6555,8 @@
             "zh-CN": "简体中文 (chinês simplificado)",
             "qps": "pseudo",
             "qps-wide": "pseudo ampla"
-          }
+          },
+          "picker_title": "seleção de idioma"
         },
         "backupFrequency": {
           "label": "backups automáticos",
@@ -6486,6 +6706,27 @@
         },
         "numpadConfig": {
           "label": "configuração do teste de dez teclas"
+        },
+        "customVisionProfiles": {
+          "label": "perfis de visão personalizados"
+        },
+        "hideIncompatibleDatasets": {
+          "label": "ocultar conjuntos de dados em outros idiomas"
+        },
+        "calPetsToSleep": {
+          "label": "vezes que {companion} adormeceu com carinho"
+        },
+        "calEarlyWakes": {
+          "label": "vezes que {companion} foi acordado cedo"
+        },
+        "calOvernightSleep": {
+          "label": "progresso do sono noturno de {companion}"
+        },
+        "calOvernightDone": {
+          "label": "conquista de sono noturno do companheiro obtida"
+        },
+        "calShutdown": {
+          "label": "estado de desligamento de {companion}"
         }
       },
       "actions": {
@@ -6557,7 +6798,10 @@
         "export_first": "exportar primeiro",
         "kalibre_is_using_of_the": "o kalibre está usando {formatSize} dos {formatSize2} que este navegador permite.",
         "kalibre_is_using_about": "o kalibre está usando cerca de {formatSize}.",
-        "couldn_t_measure": "não foi possível medir: {message}"
+        "couldn_t_measure": "não foi possível medir: {message}",
+        "profile_breakdown": "o que compõe este perfil",
+        "downloaded_from_libraries": "baixado de bibliotecas",
+        "imported_by_you": "importado por você"
       },
       "theme_editor": {
         "sample_of_this_theme": "amostra deste tema",
@@ -6594,7 +6838,8 @@
           "heat1": "calor das teclas 1",
           "heat2": "calor das teclas 2",
           "heat3": "calor das teclas 3",
-          "heat4": "calor das teclas 4"
+          "heat4": "calor das teclas 4",
+          "corrected": "primeira correção"
         },
         "sample_correct": "rápida raposa ",
         "sample_incorrect": "fxo",
@@ -6625,11 +6870,46 @@
         "content": "conteúdo",
         "training": "treinamento",
         "accessibility": "acessibilidade",
-        "data": "dados"
+        "data": "dados",
+        "manage-data": "gerenciar dados"
       },
       "stepper": {
         "decrease": "diminuir {label}",
         "increase": "aumentar {label}"
+      },
+      "vision_tester": {
+        "open_tester": "área de testes e perfis personalizados",
+        "title": "área de testes de visão cromática",
+        "modes_heading": "modos de visão e filtros",
+        "current_mode": "ativo: {name}",
+        "previewing_mode": "prévia: {name}",
+        "apply": "aplicar modo",
+        "cancel": "cancelar",
+        "close": "fechar",
+        "custom_profiles": "perfis personalizados",
+        "create_profile": "novo perfil personalizado",
+        "edit_profile": "editar perfil",
+        "delete_profile": "excluir perfil",
+        "profile_name": "nome do perfil",
+        "export": "exportar perfil",
+        "import": "importar perfil",
+        "import_error": "falha na importação: {reason}",
+        "import_invalid_json": "Formato JSON inválido",
+        "import_invalid_envelope": "Estrutura de formato inválida",
+        "import_unsupported_version": "Versão de perfil não suportada: {version}",
+        "imported": "perfil «{name}» importado",
+        "sample_heading": "amostra semântica em tempo real",
+        "sample_caption": "As amostras mostram texto real de digitação, erros, letras extras, linhas de gráfico, escalas térmicas e indicadores de status.",
+        "disclaimer": "Os ajustes destinam-se à acessibilidade e distinção da interface. Não diagnosticam nem tratam problemas de visão.",
+        "validation_error": "não foi possível salvar o perfil: {reason}",
+        "duplicate_name": "Já existe um perfil com o nome «{name}».",
+        "monotonic_hint": "A escala térmica deve manter uma luminância estritamente ordenada.",
+        "monochrome_hint": "Os elementos essenciais da interface devem permanecer distinguíveis.",
+        "status_ok": "saudável",
+        "status_warn": "revisar",
+        "status_fail": "problema",
+        "tap_to_preview": "prévia",
+        "reset_to_preset": "redefinir"
       }
     },
     "stats": {

@@ -138,7 +138,10 @@
         "spaceWordBombs": "{count, plural, one {avfyra ord-bomben i Space en gång} other {avfyra ord-bomben i Space {count} gånger}}",
         "unknown": "okänt",
         "progress_suffix": " ({have} av {need})",
-        "secret_hint": "en hemlighet: fortsätt spela"
+        "secret_hint": "en hemlighet: fortsätt spela",
+        "petsToSleep": "klappa din följeslagare till sömns {count, plural, one {# gång} other {# gånger}}",
+        "earlyWakes": "väck din följeslagare strax efter att den somnat {count, plural, one {# gång} other {# gånger}}",
+        "overnightSleep": "låt din följeslagare sova i {hours, plural, one {# timme} other {# timmar}} under natten på Om-sidan"
       },
       "first-test": {
         "name": "första stegen"
@@ -393,34 +396,44 @@
         "name": "chefredaktör"
       },
       "buffet-host": {
-        "name": "buffévärd"
+        "name": "buffévärd",
+        "says": "håll en Feed-buffé öppen i 5 minuter"
       },
       "full-house": {
-        "name": "fullt hus"
+        "name": "fullt hus",
+        "says": "leverera 50 buffébeställningar i Feed totalt"
       },
       "no-hints": {
-        "name": "inga ledtrådar behövs"
+        "name": "inga ledtrådar behövs",
+        "says": "härda ut 3 minuter som kräsen ätare i Feed utan att mata den med ett antytt ord"
       },
       "station-down": {
-        "name": "station nere"
+        "name": "station nere",
+        "says": "förstör en rymdstation i Space"
       },
       "shrapnel-storm": {
-        "name": "splitterstorm"
+        "name": "splitterstorm",
+        "says": "förstör 3 fiender med splittret från en landmina i Space"
       },
       "stacked": {
-        "name": "staplat"
+        "name": "staplat",
+        "says": "aktivera två powerups samtidigt i Space"
       },
       "autopilot-ace": {
-        "name": "autopilotproffs"
+        "name": "autopilotproffs",
+        "says": "förstör 10 fiender med automaten i Space totalt"
       },
       "dazed": {
-        "name": "yr och förvirrad"
+        "name": "yr och förvirrad",
+        "says": "bedöva 25 anfallare i Castle totalt"
       },
       "spoils-of-war": {
-        "name": "krigsbyte"
+        "name": "krigsbyte",
+        "says": "använd 10 powerups i Castle totalt"
       },
       "clean-sweep": {
-        "name": "rent bord"
+        "name": "rent bord",
+        "says": "rätta varje fel i ett Spot-avsnitt utan att markera ett korrekt ord"
       },
       "race-first": {
         "name": "på era platser"
@@ -688,6 +701,65 @@
         "badges": "märken",
         "extras": "extra",
         "sections_label": "prestationssektioner"
+      },
+      "wpm-90": {
+        "name": "nittio ord"
+      },
+      "words-50k": {
+        "name": "femtiotusen"
+      },
+      "sustained-15": {
+        "name": "femton minuter"
+      },
+      "books-3": {
+        "name": "trilogi"
+      },
+      "mastered-50": {
+        "name": "femtio bemästrade"
+      },
+      "drills-25": {
+        "name": "drillsergeant"
+      },
+      "sweet-dreams": {
+        "name": "söta drömmar"
+      },
+      "early-wake": {
+        "name": "redan?"
+      },
+      "overnight-sleep": {
+        "name": "sover gott"
+      },
+      "siege-breaker": {
+        "name": "belägringsbrytare",
+        "says": "förstör 10 katapulter i Castle totalt"
+      },
+      "bomb-disposal": {
+        "name": "bombdesarmering",
+        "says": "desarmera 25 dynamitgubbar i Castle totalt"
+      },
+      "bucket-brigade": {
+        "name": "hinkkedja",
+        "says": "släck 25 bränder i Castle totalt"
+      },
+      "giant-killer": {
+        "name": "jättedödare",
+        "says": "fäll en jätte i Castle"
+      },
+      "reinforcements": {
+        "name": "förstärkningar",
+        "says": "skicka ut 100 soldater i Castle totalt"
+      },
+      "king-safe": {
+        "name": "kungen i säkerhet",
+        "says": "vinn en Castle-klättring"
+      },
+      "off-the-wall": {
+        "name": "ner från muren",
+        "says": "knuffa ner 20 stegar från tornet i Castle totalt"
+      },
+      "cut-loose": {
+        "name": "kapa repen",
+        "says": "kapa 20 änterhakar i Castle totalt"
       }
     },
     "cards": {
@@ -2906,7 +2978,9 @@
         "install": "installera",
         "find_more": "hitta fler i biblioteket",
         "verb_update": "uppdatera",
-        "verb_download": "ladda ner"
+        "verb_download": "ladda ner",
+        "view_details_aria": "visa detaljer för {name}",
+        "details": "detaljer"
       },
       "chips": {
         "on_server": "på den här servern",
@@ -2926,14 +3000,19 @@
         "library_from": "från {name}",
         "library_remove": "ta bort biblioteket {name}",
         "library_added": "lade till {name}: {count, plural, one {# dataset} other {# dataset}}.",
-        "not_reachable": "kan inte nås"
+        "not_reachable": "kan inte nås",
+        "rebuilding_started": "bygger om avsnitt…",
+        "updating_started": "uppdaterar dataset…",
+        "removing_started": "tar bort dataset…"
       },
       "install": {
         "include_work": "ta med {title}",
         "text_of_work": "text av {title}",
         "edit_draft": "redigera ”{name}”",
         "check_before_installing": "kontrollera före installation",
-        "add_text": "lägg till {title}"
+        "add_text": "lägg till {title}",
+        "maximum_recalculate_label": "beräkna om avsnitt till maximal omfattning (ingen gräns + flödesextraktion)",
+        "maximum_recalculate_hint": "Behåller alla möjliga avsnitt över styckesgränser för maximal variation. Kräver mer lagringsutrymme."
       },
       "dataset_cap": {
         "custom_number_of_passages_per": "anpassat antal textavsnitt per längd",
@@ -2960,7 +3039,9 @@
         "rebuilt_summary": "byggde om ”{name}”: {passages}{size}, {cap}.",
         "size_suffix": ", {size}",
         "download": "ladda ner",
-        "passages": "textavsnitt"
+        "passages": "textavsnitt",
+        "maximum_preset_btn": "maximum",
+        "incompatible_warning": "språket i detta dataset matchar inte ditt gränssnittsspråk, så det hålls utanför övningarna."
       },
       "dataset_install_flow": {
         "translator_optional": "översättare (valfritt)",
@@ -2996,7 +3077,27 @@
         "each_file_must_be_under": "Varje fil måste vara under 20 MB.",
         "added": "lade till {what}",
         "quoted_title": "”{title}”",
-        "added_some": "lade till {texts}; lämnade omarkerade, utan skrivbar prosa: {skipped}"
+        "added_some": "lade till {texts}; lämnade omarkerade, utan skrivbar prosa: {skipped}",
+        "language": "språk",
+        "language_hint": "språk för detta dataset",
+        "from_wikipedia": "från Wikipedia",
+        "wikipedia_heading": "importera från Wikipedia",
+        "wikipedia_articles_label": "artiklar eller webbadresser (en per rad)",
+        "wikipedia_articles_placeholder": "Solsystemet\nsv:Albert Einstein\nhttps://sv.wikipedia.org/wiki/Jorden",
+        "wikipedia_search_placeholder": "sök Wikipedia-artiklar…",
+        "wikipedia_search_button": "sök",
+        "wikipedia_searching": "söker på Wikipedia…",
+        "wikipedia_no_search_results": "inga matchande artiklar hittades",
+        "wikipedia_disambiguation_title": "välj en artikel för „{title}”",
+        "wikipedia_disambiguation_hint": "Denna titel är en förgreningssida. Välj den avsedda artikeln eller artiklarna:",
+        "wikipedia_disambiguation_add": "lägg till valda",
+        "wikipedia_privacy_note": "detta hämtar artiklar från Wikipedia; Wikimedia ser din IP-adress och de angivna titlarna eller sökorden.",
+        "wikipedia_licensing_notice": "De flesta texter på Wikipedia är tillgängliga under CC BY-SA 4.0 och GNU Free Documentation License (GFDL), men undantag och andra villkor kan gälla. Kalibre extraherar och rensar artikeltext, så resultatet kan skilja sig från källan. Innan du exporterar eller delar, bevara artikelns källhänvisning och licenslänkar, ange ändringar och följ tillämpliga villkor för dela lika. Kontrollera licensuppgifterna på varje artikel. Wikipedia och Wikimedia stödjer inte Kalibre.",
+        "wikipedia_licensing_acknowledge": "Jag förstår och godkänner",
+        "wikipedia_licensing_reopen": "licensmeddelande",
+        "wikipedia_fetch_button": "hämta artiklar",
+        "wikipedia_cancel_button": "avbryt hämtning",
+        "wikipedia_skipped_summary": "{count, plural, one {# artikel hoppades över} other {# artiklar hoppades över}}"
       },
       "library": {
         "looking_in_the_libraries": "söker i biblioteken…",
@@ -3023,7 +3124,28 @@
         "has_no_texts": "”{name}” har inga texter.",
         "is_too_large": "{id}/{path} är för stor.",
         "has_files_its_checksum_list": "”{name}” har filer som kontrollsummalistan inte täcker, så det laddades inte ner.",
-        "is_too_large_to_download": "”{name}” är för stor för att laddas ner."
+        "is_too_large_to_download": "”{name}” är för stor för att laddas ner.",
+        "already_added": "Det biblioteket finns redan i väljaren.",
+        "checking_library": "Kontrollerar bibliotek…",
+        "chooser_hint": "Välj ett bibliotek för att bläddra bland dess böcker och citatsamlingar. Varje bibliotek har en egen lista.",
+        "chooser_count": "{count, plural, one {# bibliotek tillgängligt} other {# bibliotek tillgängliga}}",
+        "downloadable_count": "{count, plural, one {# dataset tillgängligt för nedladdning} other {# dataset tillgängliga för nedladdning}}",
+        "last_updated": "Senast uppdaterad {date}",
+        "last_updated_unknown": "Uppdateringsdatum saknas",
+        "browse_datasets": "Bläddra bland dataset",
+        "open_library": "Bläddra bland dataset i {name}",
+        "add_library_heading": "Lägg till ytterligare ett bibliotek",
+        "add_library_hint": "Lägg till ett offentligt Kalibre-bibliotek via ägare/repo eller HTTPS-adress. Dess dataset listas separat.",
+        "search_this_library": "Sök i detta biblioteks dataset",
+        "no_matching_datasets": "Inga dataset matchar denna sökning.",
+        "no_datasets_available": "Detta bibliotek har inga tillgängliga dataset.",
+        "more_results": "{count, plural, one {# ytterligare dataset; förfina sökningen för att se det} other {# ytterligare dataset; förfina sökningen för att se dem}}",
+        "unavailable_count": "{count, plural, one {# bibliotek kunde inte nås} other {# bibliotek kunde inte nås}}",
+        "third_party_disclaimer": "Från ett tredjepartsbibliotek; Kalibre har inte kontrollerat detta innehåll.",
+        "browser_column": "kolumn för datasetresultat",
+        "incompatible_warning": "språket i detta dataset matchar inte ditt gränssnittsspråk, så det hålls utanför övningarna.",
+        "hide_incompatible_label": "dölj dataset på andra språk",
+        "hidden_incompatible_count": "({count, plural, one {# dolt på ett annat språk} other {# dolda på andra språk}})"
       },
       "datasets": {
         "where_private_files": "den här webbläsarens privata fillagring",
@@ -3034,14 +3156,59 @@
         "storage_kept": "Installerade dataset sparas i {where}.",
         "installed_quotes": "installerade ”{name}”: {count} citat (dubbletter borttagna). ",
         "saved_summary": "sparade ”{name}”: {texts}, {passages}. ",
-        "installed_summary": "installerade ”{name}”: {texts}, {passages}. "
+        "installed_summary": "installerade ”{name}”: {texts}, {passages}. ",
+        "hide_incompatible_label": "dölj dataset på andra språk",
+        "hidden_incompatible_count": "({count, plural, one {# dolt på ett annat språk} other {# dolda på andra språk}})"
       },
       "dataset_draft": {
         "untitled": "utan titel"
       },
       "dataset_install": {
         "has_no_usable_prose_it": "”{title}” har ingen användbar prosa (den behöver meningar, inte bara rubriker eller listor).",
-        "this_file_is_not_a": "Den här filen är inte ett Kalibre-datasetpaket."
+        "this_file_is_not_a": "Den här filen är inte ett Kalibre-datasetpaket.",
+        "language_required": "Ett språk krävs för att bygga ett dataset."
+      },
+      "search": {
+        "placeholder": "sök dataset efter titel, författare eller licens…",
+        "aria_label": "sök dataset",
+        "clear": "rensa",
+        "clear_aria": "rensa sökfråga",
+        "no_matches": "inga dataset matchar „{query}”",
+        "matching_count": "{count, plural, one {# matchande dataset} other {# matchande dataset}}"
+      },
+      "sort": {
+        "label": "sortera efter",
+        "name": "namn",
+        "passages": "avsnitt",
+        "texts": "texter",
+        "size": "storlek",
+        "asc": "stigande",
+        "desc": "fallande",
+        "toggle_direction": "växla sorteringsriktning: för närvarande {direction}"
+      },
+      "pagination": {
+        "nav_aria": "datasetsidor",
+        "prev": "föregående sida",
+        "next": "nästa sida",
+        "page_of": "sida {current} av {total}",
+        "total_count": "({count, plural, one {# dataset} other {# dataset}})"
+      },
+      "details": {
+        "quotes_summary": "{count, plural, one {# citat} other {# citat}} i denna samling",
+        "no_books": "inga böcker hittades i detta dataset",
+        "table_title": "titel",
+        "table_words": "ord",
+        "table_passages": "avsnitt",
+        "table_composition": "sammansättning",
+        "total_books": "totalt ({count, plural, one {# bok} other {# böcker}})",
+        "table_author": "författare",
+        "composition_sort_by": "sortera efter storlek",
+        "composition_total": "avsnitt totalt",
+        "composition_small": "liten",
+        "composition_medium": "medel",
+        "composition_large": "stor",
+        "composition_huge": "mycket stor",
+        "composition_massive": "enorm"
       }
     },
     "drills": {
@@ -5095,7 +5262,13 @@
         "stop_aria": "sluta träna {mistake}",
         "export": "exportera ",
         "csv": "csv",
-        "json": "json"
+        "json": "json",
+        "train_selected": "öva på valda",
+        "train_all": "öva på alla",
+        "select_mistake": "välj {mistake}",
+        "select_all": "välj alla",
+        "view_trend": "visa trend för {mistake}",
+        "view_trend_title": "Granska trend för {mistake}"
       },
       "filters": {
         "all": "alla",
@@ -5119,7 +5292,8 @@
         "pager_aria": "sidor i misstagtabellen",
         "no_qualifiers_mistakes": "Inga {qualifiers} misstag{inSection, select, true { i {section}} other {}} ännu.",
         "no_in_section": "Inga misstag i {section} ännu.",
-        "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa misstag i träningen."
+        "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa misstag i träningen.",
+        "selected_count": "{count, plural, one {# vald} other {# valda}}"
       },
       "mistake_map": {
         "mistakes_click_to_isolate": "{label}-misstag – klicka för att isolera",
@@ -5136,7 +5310,24 @@
         "rate_over_tests": "felfrekvens {from} → {to} över {count, plural, one {# test} other {# tester}}",
         "mark_label": "{mistake}: {rate} av gångerna",
         "started_at": "{summary} · började träna vid {rate}",
-        "keyboard_label": "Tangentbord med {count, plural, one {# misstag} other {# misstag}} markerade. Listan nedan innehåller samma misstag."
+        "keyboard_label": "Tangentbord med {count, plural, one {# misstag} other {# misstag}} markerade. Listan nedan innehåller samma misstag.",
+        "key_with_mistakes": "{key} ({count, plural, one {# fel} other {# fel}}) – klicka för att isolera",
+        "key_no_mistakes": "{key} (inga fel registrerade)",
+        "key_isolated": "tangent {key}",
+        "key_isolated_summary": "{count, plural, one {# fel} other {# fel}} på eller som glider in på denna tangent",
+        "show_all_keys": "visa alla tangenter",
+        "show_all_keys_aria": "rensa tangentisolering och visa alla fel",
+        "no_key_mistakes": "Inga fel registrerade för {key}.",
+        "no_words_for_key": "Inga ord eller mellanslag registrerade för {key}.",
+        "illustrates_mistake": "i {mistake}",
+        "rel_outgoing": "avsåg {expected} → tryckte {typed}",
+        "rel_incoming": "avvikelse från {expected}",
+        "rel_missed": "missad",
+        "rel_extra": "extra",
+        "rel_shift": "skift",
+        "rel_swapped": "ombytt med {other}",
+        "rel_persistent": "ihållande",
+        "space_key_name": "mellanslag"
       },
       "mistakes": {
         "actions": "åtgärder",
@@ -5200,6 +5391,22 @@
         "hesitation_before": "paus före {expected}",
         "hesitation": "tvekan",
         "tricky": "knepigt: {expected}"
+      },
+      "trend_detail": {
+        "trend_title": "{mistake} · felfrekvenstrend",
+        "table_caption": "Testhistorik och felkvoter för {mistake}",
+        "test_column_date": "datum",
+        "test_column_source": "test",
+        "test_column_exposures": "inskrivet",
+        "test_column_errors": "fel",
+        "test_column_rate": "felkvot",
+        "point_info": "{date} · {source} · {errors} av {exposures} fel ({rate})",
+        "started_baseline": "startade på {rate}",
+        "goal_improving": "förbättras ({rate})",
+        "goal_mastered": "bemästrat ({rate})",
+        "zoom": "zoom",
+        "no_data": "inte tillräckligt med testhistorik för detta fel än",
+        "test_source_default": "test"
       }
     },
     "profiles": {
@@ -6064,7 +6271,9 @@
             "cream": "cream",
             "rose": "rose",
             "harbour": "harbour",
-            "contrast": "hög kontrast"
+            "contrast": "hög kontrast",
+            "nordic": "nordisk",
+            "copper": "koppar"
           }
         },
         "themeDark": {
@@ -6078,7 +6287,9 @@
             "plum": "plum",
             "slate": "slate",
             "terminal": "terminal",
-            "contrast-night": "hög nattkontrast"
+            "contrast-night": "hög nattkontrast",
+            "cyber": "cyber",
+            "amber": "bärnsten"
           }
         },
         "theme": {
@@ -6099,7 +6310,11 @@
             "slate": "slate",
             "terminal": "terminal",
             "contrast": "hög kontrast",
-            "contrast-night": "hög nattkontrast"
+            "contrast-night": "hög nattkontrast",
+            "nordic": "nordisk",
+            "copper": "koppar",
+            "cyber": "cyber",
+            "amber": "bärnsten"
           }
         },
         "customThemes": {
@@ -6116,11 +6331,15 @@
           "label": "skrivtypsnittets vikt",
           "description": "hur fet texten du skriver är",
           "option": {
+            "100": "tunn",
+            "200": "extra lätt",
             "300": "300",
             "400": "400",
             "500": "500",
             "600": "600",
-            "700": "700"
+            "700": "700",
+            "800": "extra fet",
+            "900": "svart"
           }
         },
         "typingLineHeight": {
@@ -6336,7 +6555,8 @@
             "zh-CN": "简体中文 (Chinese Simplified)",
             "qps": "pseudo",
             "qps-wide": "pseudo wide"
-          }
+          },
+          "picker_title": "språkval"
         },
         "backupFrequency": {
           "label": "automatiska säkerhetskopior",
@@ -6486,6 +6706,27 @@
         },
         "numpadConfig": {
           "label": "tiotangentstestets konfiguration"
+        },
+        "customVisionProfiles": {
+          "label": "anpassade färgseendeprofiler"
+        },
+        "hideIncompatibleDatasets": {
+          "label": "dölj dataset på andra språk"
+        },
+        "calPetsToSleep": {
+          "label": "antal gånger {companion} klappades till sömns"
+        },
+        "calEarlyWakes": {
+          "label": "antal gånger {companion} väcktes tidigt"
+        },
+        "calOvernightSleep": {
+          "label": "nattömnsframsteg för {companion}"
+        },
+        "calOvernightDone": {
+          "label": "framsteg för följeslagarens nattsömn uppnått"
+        },
+        "calShutdown": {
+          "label": "avstängningsstatus för {companion}"
         }
       },
       "actions": {
@@ -6557,7 +6798,10 @@
         "export_first": "exportera först",
         "kalibre_is_using_of_the": "kalibre använder {formatSize} av de {formatSize2} som den här webbläsaren tillåter.",
         "kalibre_is_using_about": "kalibre använder ungefär {formatSize}.",
-        "couldn_t_measure": "kunde inte mäta: {message}"
+        "couldn_t_measure": "kunde inte mäta: {message}",
+        "profile_breakdown": "vad denna profil består av",
+        "downloaded_from_libraries": "nedladdat från bibliotek",
+        "imported_by_you": "importerat av dig"
       },
       "theme_editor": {
         "sample_of_this_theme": "exempel på det här temat",
@@ -6594,7 +6838,8 @@
           "heat1": "tangentvärme 1",
           "heat2": "tangentvärme 2",
           "heat3": "tangentvärme 3",
-          "heat4": "tangentvärme 4"
+          "heat4": "tangentvärme 4",
+          "corrected": "första rättelsen"
         },
         "sample_correct": "quick brown ",
         "sample_incorrect": "fxo",
@@ -6625,11 +6870,46 @@
         "content": "innehåll",
         "training": "träning",
         "accessibility": "tillgänglighet",
-        "data": "data"
+        "data": "data",
+        "manage-data": "hantera data"
       },
       "stepper": {
         "decrease": "minska {label}",
         "increase": "öka {label}"
+      },
+      "vision_tester": {
+        "open_tester": "testyta & anpassade profiler",
+        "title": "testyta för färgseende",
+        "modes_heading": "synlägen & filter",
+        "current_mode": "aktivt: {name}",
+        "previewing_mode": "förhandsvisar: {name}",
+        "apply": "tillämpa läge",
+        "cancel": "avbryt",
+        "close": "stäng",
+        "custom_profiles": "anpassade profiler",
+        "create_profile": "ny anpassad profil",
+        "edit_profile": "redigera profil",
+        "delete_profile": "ta bort profil",
+        "profile_name": "profilnamn",
+        "export": "exportera profil",
+        "import": "importera profil",
+        "import_error": "importen misslyckades: {reason}",
+        "import_invalid_json": "Ogiltigt JSON-format",
+        "import_invalid_envelope": "Ogiltigt formatkuvert",
+        "import_unsupported_version": "Profilversionen stöds inte: {version}",
+        "imported": "importerade profilen „{name}”",
+        "sample_heading": "interaktivt semantiskt prov",
+        "sample_caption": "Exemplen visar verklig skrivtext, fel, extra bokstäver, diagramlinjer, värmeskalor och statusindikatorer.",
+        "disclaimer": "Justeringarna är till för gränssnittets tillgänglighet och tydlighet. De diagnostiserar eller behandlar inte synfel.",
+        "validation_error": "kan inte spara profil: {reason}",
+        "duplicate_name": "Det finns redan en profil med namnet „{name}”.",
+        "monotonic_hint": "Värmeskalan måste behålla en strikt ordnad luminans.",
+        "monochrome_hint": "Viktiga gränssnittsmarkörer måste förbli särskiljbara.",
+        "status_ok": "bra",
+        "status_warn": "granska",
+        "status_fail": "problem",
+        "tap_to_preview": "förhandsvisa",
+        "reset_to_preset": "återställ"
       }
     },
     "stats": {

@@ -70,7 +70,13 @@
     "stop_aria": "arrêter l'entraînement {mistake}",
     "export": "exporter ",
     "csv": "csv",
-    "json": "json"
+    "json": "json",
+    "train_selected": "travailler la sélection",
+    "train_all": "tout travailler",
+    "select_mistake": "sélectionner {mistake}",
+    "select_all": "tout sélectionner",
+    "view_trend": "voir la tendance pour {mistake}",
+    "view_trend_title": "Examiner la tendance pour {mistake}"
   },
   "filters": {
     "all": "toutes",
@@ -94,7 +100,8 @@
     "pager_aria": "pages du tableau des erreurs",
     "no_qualifiers_mistakes": "Aucune erreur {qualifiers}{inSection, select, true { dans {section}} other {}} pour l'instant.",
     "no_in_section": "Aucune erreur dans {section} pour l'instant.",
-    "training_words_note": "{count, plural, one {# mot} many {# mots} other {# mots}} avec des erreurs cohérentes en entraînement."
+    "training_words_note": "{count, plural, one {# mot} many {# mots} other {# mots}} avec des erreurs cohérentes en entraînement.",
+    "selected_count": "{count, plural, one {# sélectionné} other {# sélectionnés}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label} erreurs — cliquez pour isoler",
@@ -111,7 +118,24 @@
     "rate_over_tests": "taux d'erreur {from} → {to} sur {count, plural, one {# test} many {# tests} other {# tests}}",
     "mark_label": "{mistake} : {rate} du temps",
     "started_at": "{summary} · entraînement commencé à {rate}",
-    "keyboard_label": "Clavier avec {count, plural, one {# erreur} many {# erreurs} other {# erreurs}} dessinées dessus. La liste ci-dessous contient les mêmes erreurs."
+    "keyboard_label": "Clavier avec {count, plural, one {# erreur} many {# erreurs} other {# erreurs}} dessinées dessus. La liste ci-dessous contient les mêmes erreurs.",
+    "key_with_mistakes": "{key} ({count, plural, one {# erreur} other {# erreurs}}) – cliquer pour isoler",
+    "key_no_mistakes": "{key} (aucune erreur enregistrée)",
+    "key_isolated": "touche {key}",
+    "key_isolated_summary": "{count, plural, one {# erreur} other {# erreurs}} sur ou dérivant vers cette touche",
+    "show_all_keys": "afficher toutes les touches",
+    "show_all_keys_aria": "effacer l’isolement et afficher toutes les erreurs",
+    "no_key_mistakes": "Aucune erreur enregistrée pour {key}.",
+    "no_words_for_key": "Aucun mot ni espace enregistré pour {key}.",
+    "illustrates_mistake": "dans {mistake}",
+    "rel_outgoing": "voulu {expected} → frappé {typed}",
+    "rel_incoming": "dérive depuis {expected}",
+    "rel_missed": "manqué",
+    "rel_extra": "supplémentaire",
+    "rel_shift": "maj",
+    "rel_swapped": "inversé avec {other}",
+    "rel_persistent": "persistant",
+    "space_key_name": "espace"
   },
   "mistakes": {
     "actions": "actions",
@@ -175,5 +199,21 @@
     "hesitation_before": "pause avant {expected}",
     "hesitation": "hésitation",
     "tricky": "délicat : {expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · tendance du taux d’erreur",
+    "table_caption": "Historique des tests et taux d’erreur pour {mistake}",
+    "test_column_date": "date",
+    "test_column_source": "test",
+    "test_column_exposures": "frappé",
+    "test_column_errors": "erreurs",
+    "test_column_rate": "taux d’erreur",
+    "point_info": "{date} · {source} · {errors} sur {exposures} erreurs ({rate})",
+    "started_baseline": "commencé à {rate}",
+    "goal_improving": "en progrès ({rate})",
+    "goal_mastered": "maîtrisé ({rate})",
+    "zoom": "zoom",
+    "no_data": "pas encore assez d’historique de tests avec cette erreur",
+    "test_source_default": "test"
   }
 }

@@ -15,7 +15,9 @@
     "install": "installera",
     "find_more": "hitta fler i biblioteket",
     "verb_update": "uppdatera",
-    "verb_download": "ladda ner"
+    "verb_download": "ladda ner",
+    "view_details_aria": "visa detaljer för {name}",
+    "details": "detaljer"
   },
   "chips": {
     "on_server": "på den här servern",
@@ -35,14 +37,19 @@
     "library_from": "från {name}",
     "library_remove": "ta bort biblioteket {name}",
     "library_added": "lade till {name}: {count, plural, one {# dataset} other {# dataset}}.",
-    "not_reachable": "kan inte nås"
+    "not_reachable": "kan inte nås",
+    "rebuilding_started": "bygger om avsnitt…",
+    "updating_started": "uppdaterar dataset…",
+    "removing_started": "tar bort dataset…"
   },
   "install": {
     "include_work": "ta med {title}",
     "text_of_work": "text av {title}",
     "edit_draft": "redigera ”{name}”",
     "check_before_installing": "kontrollera före installation",
-    "add_text": "lägg till {title}"
+    "add_text": "lägg till {title}",
+    "maximum_recalculate_label": "beräkna om avsnitt till maximal omfattning (ingen gräns + flödesextraktion)",
+    "maximum_recalculate_hint": "Behåller alla möjliga avsnitt över styckesgränser för maximal variation. Kräver mer lagringsutrymme."
   },
   "dataset_cap": {
     "custom_number_of_passages_per": "anpassat antal textavsnitt per längd",
@@ -69,7 +76,9 @@
     "rebuilt_summary": "byggde om ”{name}”: {passages}{size}, {cap}.",
     "size_suffix": ", {size}",
     "download": "ladda ner",
-    "passages": "textavsnitt"
+    "passages": "textavsnitt",
+    "maximum_preset_btn": "maximum",
+    "incompatible_warning": "språket i detta dataset matchar inte ditt gränssnittsspråk, så det hålls utanför övningarna."
   },
   "dataset_install_flow": {
     "translator_optional": "översättare (valfritt)",
@@ -105,7 +114,27 @@
     "each_file_must_be_under": "Varje fil måste vara under 20 MB.",
     "added": "lade till {what}",
     "quoted_title": "”{title}”",
-    "added_some": "lade till {texts}; lämnade omarkerade, utan skrivbar prosa: {skipped}"
+    "added_some": "lade till {texts}; lämnade omarkerade, utan skrivbar prosa: {skipped}",
+    "language": "språk",
+    "language_hint": "språk för detta dataset",
+    "from_wikipedia": "från Wikipedia",
+    "wikipedia_heading": "importera från Wikipedia",
+    "wikipedia_articles_label": "artiklar eller webbadresser (en per rad)",
+    "wikipedia_articles_placeholder": "Solsystemet\nsv:Albert Einstein\nhttps://sv.wikipedia.org/wiki/Jorden",
+    "wikipedia_search_placeholder": "sök Wikipedia-artiklar…",
+    "wikipedia_search_button": "sök",
+    "wikipedia_searching": "söker på Wikipedia…",
+    "wikipedia_no_search_results": "inga matchande artiklar hittades",
+    "wikipedia_disambiguation_title": "välj en artikel för „{title}”",
+    "wikipedia_disambiguation_hint": "Denna titel är en förgreningssida. Välj den avsedda artikeln eller artiklarna:",
+    "wikipedia_disambiguation_add": "lägg till valda",
+    "wikipedia_privacy_note": "detta hämtar artiklar från Wikipedia; Wikimedia ser din IP-adress och de angivna titlarna eller sökorden.",
+    "wikipedia_licensing_notice": "De flesta texter på Wikipedia är tillgängliga under CC BY-SA 4.0 och GNU Free Documentation License (GFDL), men undantag och andra villkor kan gälla. Kalibre extraherar och rensar artikeltext, så resultatet kan skilja sig från källan. Innan du exporterar eller delar, bevara artikelns källhänvisning och licenslänkar, ange ändringar och följ tillämpliga villkor för dela lika. Kontrollera licensuppgifterna på varje artikel. Wikipedia och Wikimedia stödjer inte Kalibre.",
+    "wikipedia_licensing_acknowledge": "Jag förstår och godkänner",
+    "wikipedia_licensing_reopen": "licensmeddelande",
+    "wikipedia_fetch_button": "hämta artiklar",
+    "wikipedia_cancel_button": "avbryt hämtning",
+    "wikipedia_skipped_summary": "{count, plural, one {# artikel hoppades över} other {# artiklar hoppades över}}"
   },
   "library": {
     "looking_in_the_libraries": "söker i biblioteken…",
@@ -132,7 +161,28 @@
     "has_no_texts": "”{name}” har inga texter.",
     "is_too_large": "{id}/{path} är för stor.",
     "has_files_its_checksum_list": "”{name}” har filer som kontrollsummalistan inte täcker, så det laddades inte ner.",
-    "is_too_large_to_download": "”{name}” är för stor för att laddas ner."
+    "is_too_large_to_download": "”{name}” är för stor för att laddas ner.",
+    "already_added": "Det biblioteket finns redan i väljaren.",
+    "checking_library": "Kontrollerar bibliotek…",
+    "chooser_hint": "Välj ett bibliotek för att bläddra bland dess böcker och citatsamlingar. Varje bibliotek har en egen lista.",
+    "chooser_count": "{count, plural, one {# bibliotek tillgängligt} other {# bibliotek tillgängliga}}",
+    "downloadable_count": "{count, plural, one {# dataset tillgängligt för nedladdning} other {# dataset tillgängliga för nedladdning}}",
+    "last_updated": "Senast uppdaterad {date}",
+    "last_updated_unknown": "Uppdateringsdatum saknas",
+    "browse_datasets": "Bläddra bland dataset",
+    "open_library": "Bläddra bland dataset i {name}",
+    "add_library_heading": "Lägg till ytterligare ett bibliotek",
+    "add_library_hint": "Lägg till ett offentligt Kalibre-bibliotek via ägare/repo eller HTTPS-adress. Dess dataset listas separat.",
+    "search_this_library": "Sök i detta biblioteks dataset",
+    "no_matching_datasets": "Inga dataset matchar denna sökning.",
+    "no_datasets_available": "Detta bibliotek har inga tillgängliga dataset.",
+    "more_results": "{count, plural, one {# ytterligare dataset; förfina sökningen för att se det} other {# ytterligare dataset; förfina sökningen för att se dem}}",
+    "unavailable_count": "{count, plural, one {# bibliotek kunde inte nås} other {# bibliotek kunde inte nås}}",
+    "third_party_disclaimer": "Från ett tredjepartsbibliotek; Kalibre har inte kontrollerat detta innehåll.",
+    "browser_column": "kolumn för datasetresultat",
+    "incompatible_warning": "språket i detta dataset matchar inte ditt gränssnittsspråk, så det hålls utanför övningarna.",
+    "hide_incompatible_label": "dölj dataset på andra språk",
+    "hidden_incompatible_count": "({count, plural, one {# dolt på ett annat språk} other {# dolda på andra språk}})"
   },
   "datasets": {
     "where_private_files": "den här webbläsarens privata fillagring",
@@ -143,13 +193,58 @@
     "storage_kept": "Installerade dataset sparas i {where}.",
     "installed_quotes": "installerade ”{name}”: {count} citat (dubbletter borttagna). ",
     "saved_summary": "sparade ”{name}”: {texts}, {passages}. ",
-    "installed_summary": "installerade ”{name}”: {texts}, {passages}. "
+    "installed_summary": "installerade ”{name}”: {texts}, {passages}. ",
+    "hide_incompatible_label": "dölj dataset på andra språk",
+    "hidden_incompatible_count": "({count, plural, one {# dolt på ett annat språk} other {# dolda på andra språk}})"
   },
   "dataset_draft": {
     "untitled": "utan titel"
   },
   "dataset_install": {
     "has_no_usable_prose_it": "”{title}” har ingen användbar prosa (den behöver meningar, inte bara rubriker eller listor).",
-    "this_file_is_not_a": "Den här filen är inte ett Kalibre-datasetpaket."
+    "this_file_is_not_a": "Den här filen är inte ett Kalibre-datasetpaket.",
+    "language_required": "Ett språk krävs för att bygga ett dataset."
+  },
+  "search": {
+    "placeholder": "sök dataset efter titel, författare eller licens…",
+    "aria_label": "sök dataset",
+    "clear": "rensa",
+    "clear_aria": "rensa sökfråga",
+    "no_matches": "inga dataset matchar „{query}”",
+    "matching_count": "{count, plural, one {# matchande dataset} other {# matchande dataset}}"
+  },
+  "sort": {
+    "label": "sortera efter",
+    "name": "namn",
+    "passages": "avsnitt",
+    "texts": "texter",
+    "size": "storlek",
+    "asc": "stigande",
+    "desc": "fallande",
+    "toggle_direction": "växla sorteringsriktning: för närvarande {direction}"
+  },
+  "pagination": {
+    "nav_aria": "datasetsidor",
+    "prev": "föregående sida",
+    "next": "nästa sida",
+    "page_of": "sida {current} av {total}",
+    "total_count": "({count, plural, one {# dataset} other {# dataset}})"
+  },
+  "details": {
+    "quotes_summary": "{count, plural, one {# citat} other {# citat}} i denna samling",
+    "no_books": "inga böcker hittades i detta dataset",
+    "table_title": "titel",
+    "table_words": "ord",
+    "table_passages": "avsnitt",
+    "table_composition": "sammansättning",
+    "total_books": "totalt ({count, plural, one {# bok} other {# böcker}})",
+    "table_author": "författare",
+    "composition_sort_by": "sortera efter storlek",
+    "composition_total": "avsnitt totalt",
+    "composition_small": "liten",
+    "composition_medium": "medel",
+    "composition_large": "stor",
+    "composition_huge": "mycket stor",
+    "composition_massive": "enorm"
   }
 }

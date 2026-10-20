@@ -138,7 +138,10 @@
         "spaceWordBombs": "{count, plural, one {de woordenbom één keer in Space afvuren} other {de woordenbom {count} keer in Space afvuren}}",
         "unknown": "onbekend",
         "progress_suffix": " ({have} van {need})",
-        "secret_hint": "een geheim: blijf spelen"
+        "secret_hint": "een geheim: blijf spelen",
+        "petsToSleep": "aai je metgezel weer in slaap {count, plural, one {# keer} other {# keer}}",
+        "earlyWakes": "maak je metgezel kort na het inslapen wakker {count, plural, one {# keer} other {# keer}}",
+        "overnightSleep": "laat je metgezel ’s nachts {hours, plural, one {# uur} other {# uur}} slapen op de over-pagina"
       },
       "first-test": {
         "name": "eerste stappen"
@@ -393,34 +396,44 @@
         "name": "hoofdcorrector"
       },
       "buffet-host": {
-        "name": "buffethost"
+        "name": "buffethost",
+        "says": "houd een Feed-buffet 5 minuten open"
       },
       "full-house": {
-        "name": "volle bak"
+        "name": "volle bak",
+        "says": "voltooi in totaal 50 buffetbestellingen in Feed"
       },
       "no-hints": {
-        "name": "geen hints nodig"
+        "name": "geen hints nodig",
+        "says": "houd het 3 minuten vol als kieskeurige eter in Feed zonder een woord met hint te voeren"
       },
       "station-down": {
-        "name": "station uitgevallen"
+        "name": "station uitgevallen",
+        "says": "vernietig een ruimtestation in Space"
       },
       "shrapnel-storm": {
-        "name": "granaatschervenstorm"
+        "name": "granaatschervenstorm",
+        "says": "vernietig 3 vijanden met de scherven van één landmijn in Space"
       },
       "stacked": {
-        "name": "gestapeld"
+        "name": "gestapeld",
+        "says": "activeer twee power-ups tegelijk in Space"
       },
       "autopilot-ace": {
-        "name": "autopilot-ster"
+        "name": "autopilot-ster",
+        "says": "vernietig in totaal 10 vijanden met de automaat in Space"
       },
       "dazed": {
-        "name": "duizelig en verward"
+        "name": "duizelig en verward",
+        "says": "verdoof in totaal 25 aanvallers in Castle"
       },
       "spoils-of-war": {
-        "name": "oorlogsbuit"
+        "name": "oorlogsbuit",
+        "says": "gebruik in totaal 10 power-ups in Castle"
       },
       "clean-sweep": {
-        "name": "grote schoonmaak"
+        "name": "grote schoonmaak",
+        "says": "herstel elke fout in een Spot-passage zonder een correct woord te markeren"
       },
       "race-first": {
         "name": "op je plaatsen"
@@ -688,6 +701,65 @@
         "badges": "badges",
         "extras": "extra's",
         "sections_label": "prestatieonderdelen"
+      },
+      "wpm-90": {
+        "name": "negentig woorden"
+      },
+      "words-50k": {
+        "name": "vijftigduizend"
+      },
+      "sustained-15": {
+        "name": "vijftien minuten"
+      },
+      "books-3": {
+        "name": "trilogie"
+      },
+      "mastered-50": {
+        "name": "vijftig hersteld"
+      },
+      "drills-25": {
+        "name": "drilsergeant"
+      },
+      "sweet-dreams": {
+        "name": "zoete dromen"
+      },
+      "early-wake": {
+        "name": "nu al?"
+      },
+      "overnight-sleep": {
+        "name": "diep in slaap"
+      },
+      "siege-breaker": {
+        "name": "belegeringsbreker",
+        "says": "vernietig in totaal 10 katapulten in Castle"
+      },
+      "bomb-disposal": {
+        "name": "bommenopruiming",
+        "says": "ontmantel in totaal 25 staven dynamiet in Castle"
+      },
+      "bucket-brigade": {
+        "name": "emmerbrigade",
+        "says": "blus in totaal 25 branden in Castle"
+      },
+      "giant-killer": {
+        "name": "reuzendoder",
+        "says": "versla een reus in Castle"
+      },
+      "reinforcements": {
+        "name": "versterkingen",
+        "says": "stuur in totaal 100 soldaten op pad in Castle"
+      },
+      "king-safe": {
+        "name": "koning veilig",
+        "says": "win een Castle-klim"
+      },
+      "off-the-wall": {
+        "name": "van de muur",
+        "says": "duw in totaal 20 ladders van de toren in Castle"
+      },
+      "cut-loose": {
+        "name": "losgesneden",
+        "says": "snijd in totaal 20 enterhaken los in Castle"
       }
     },
     "cards": {
@@ -2906,7 +2978,9 @@
         "install": "installeren",
         "find_more": "meer vinden in de bibliotheek",
         "verb_update": "bijwerken",
-        "verb_download": "downloaden"
+        "verb_download": "downloaden",
+        "view_details_aria": "details bekijken voor {name}",
+        "details": "details"
       },
       "chips": {
         "on_server": "op deze server",
@@ -2926,14 +3000,19 @@
         "library_from": "van {name}",
         "library_remove": "bibliotheek {name} verwijderen",
         "library_added": "{name} toegevoegd: {count, plural, one {# dataset} other {# datasets}}.",
-        "not_reachable": "niet bereikbaar"
+        "not_reachable": "niet bereikbaar",
+        "rebuilding_started": "passages opnieuw opbouwen…",
+        "updating_started": "dataset bijwerken…",
+        "removing_started": "dataset verwijderen…"
       },
       "install": {
         "include_work": "{title} opnemen",
         "text_of_work": "tekst van {title}",
         "edit_draft": "\"{name}\" bewerken",
         "check_before_installing": "controleren vóór installatie",
-        "add_text": "{title} toevoegen"
+        "add_text": "{title} toevoegen",
+        "maximum_recalculate_label": "passages maximaal herberekenen (geen limiet + vloeiende extractie)",
+        "maximum_recalculate_hint": "Behoudt elke mogelijke passage over alineagrenzen heen voor maximale afwisseling. Neemt meer opslagruimte in beslag."
       },
       "dataset_cap": {
         "custom_number_of_passages_per": "aangepast aantal passages per lengte",
@@ -2960,7 +3039,9 @@
         "rebuilt_summary": "\"{name}\" opnieuw opgebouwd: {passages}{size}, {cap}.",
         "size_suffix": ", {size}",
         "download": "downloaden",
-        "passages": "passages"
+        "passages": "passages",
+        "maximum_preset_btn": "maximum",
+        "incompatible_warning": "de taal van deze dataset komt niet overeen met je interfacetaal; deze blijft buiten oefeningen."
       },
       "dataset_install_flow": {
         "translator_optional": "vertaler (optioneel)",
@@ -2996,7 +3077,27 @@
         "each_file_must_be_under": "Elk bestand moet kleiner zijn dan 20 MB.",
         "added": "{what} toegevoegd",
         "quoted_title": "\"{title}\"",
-        "added_some": "{texts} toegevoegd; niet aangevinkt, zonder typbaar proza: {skipped}"
+        "added_some": "{texts} toegevoegd; niet aangevinkt, zonder typbaar proza: {skipped}",
+        "language": "taal",
+        "language_hint": "taal van deze dataset",
+        "from_wikipedia": "van Wikipedia",
+        "wikipedia_heading": "importeren van Wikipedia",
+        "wikipedia_articles_label": "artikelen of webadressen (één per regel)",
+        "wikipedia_articles_placeholder": "Zonnestelsel\nnl:Albert Einstein\nhttps://nl.wikipedia.org/wiki/Aarde",
+        "wikipedia_search_placeholder": "Wikipedia-artikelen zoeken…",
+        "wikipedia_search_button": "zoeken",
+        "wikipedia_searching": "zoeken op Wikipedia…",
+        "wikipedia_no_search_results": "geen overeenkomende artikelen gevonden",
+        "wikipedia_disambiguation_title": "kies een artikel voor „{title}”",
+        "wikipedia_disambiguation_hint": "Deze titel is een doorverwijspagina. Kies het gewenste artikel of de gewenste artikelen:",
+        "wikipedia_disambiguation_add": "selectie toevoegen",
+        "wikipedia_privacy_note": "hierdoor worden artikelen bij Wikipedia opgevraagd; Wikimedia ziet dus je IP-adres en de opgegeven titels of zoektermen.",
+        "wikipedia_licensing_notice": "De meeste teksten op Wikipedia zijn beschikbaar onder CC BY-SA 4.0 en de GNU Free Documentation License (GFDL), maar er kunnen uitzonderingen en andere voorwaarden gelden. Kalibre extraheert en schoont artikelteksten op, waardoor het resultaat kan afwijken van de bron. Bewaar vóór het exporteren of delen de vermelding en licentielinks van het artikel, geef wijzigingen aan en volg de geldende share-alike-voorwaarden. Controleer de licentiegegevens bij elk artikel. Wikipedia en Wikimedia bevelen Kalibre niet aan.",
+        "wikipedia_licensing_acknowledge": "Ik begrijp het en ga akkoord",
+        "wikipedia_licensing_reopen": "licentiemelding",
+        "wikipedia_fetch_button": "artikelen ophalen",
+        "wikipedia_cancel_button": "ophalen annuleren",
+        "wikipedia_skipped_summary": "{count, plural, one {# artikel overgeslagen} other {# artikelen overgeslagen}}"
       },
       "library": {
         "looking_in_the_libraries": "in de bibliotheken zoeken…",
@@ -3023,7 +3124,28 @@
         "has_no_texts": "\"{name}\" bevat geen teksten.",
         "is_too_large": "{id}/{path} is te groot.",
         "has_files_its_checksum_list": "\"{name}\" bevat bestanden die niet door de checksumlijst worden gedekt, dus het is niet gedownload.",
-        "is_too_large_to_download": "\"{name}\" is te groot om te downloaden."
+        "is_too_large_to_download": "\"{name}\" is te groot om te downloaden.",
+        "already_added": "Die bibliotheek staat al in de kiezer.",
+        "checking_library": "Bibliotheek controleren…",
+        "chooser_hint": "Kies een bibliotheek om boeken en citaatcollecties te bekijken. Elke bibliotheek heeft een eigen lijst.",
+        "chooser_count": "{count, plural, one {# bibliotheek beschikbaar} other {# bibliotheken beschikbaar}}",
+        "downloadable_count": "{count, plural, one {# dataset beschikbaar om te downloaden} other {# datasets beschikbaar om te downloaden}}",
+        "last_updated": "Laatst bijgewerkt op {date}",
+        "last_updated_unknown": "Bijwerkdatum niet beschikbaar",
+        "browse_datasets": "Datasets bekijken",
+        "open_library": "Datasets in {name} bekijken",
+        "add_library_heading": "Nog een bibliotheek toevoegen",
+        "add_library_hint": "Voeg een openbare Kalibre-bibliotheek toe via eigenaar/repo of HTTPS-adres. De datasets worden apart vermeld.",
+        "search_this_library": "Zoeken in datasets van deze bibliotheek",
+        "no_matching_datasets": "Geen datasets komen overeen met deze zoekopdracht.",
+        "no_datasets_available": "Deze bibliotheek heeft geen datasets beschikbaar.",
+        "more_results": "{count, plural, one {# extra dataset; verfijn je zoekopdracht} other {# extra datasets; verfijn je zoekopdracht}}",
+        "unavailable_count": "{count, plural, one {# bibliotheek niet bereikbaar} other {# bibliotheken niet bereikbaar}}",
+        "third_party_disclaimer": "Afkomstig van een externe bibliotheek; Kalibre heeft deze inhoud niet gecontroleerd.",
+        "browser_column": "kolom met datasetresultaten",
+        "incompatible_warning": "de taal van deze dataset komt niet overeen met je interfacetaal; deze blijft buiten oefeningen.",
+        "hide_incompatible_label": "datasets in andere talen verbergen",
+        "hidden_incompatible_count": "({count, plural, one {# verborgen in een andere taal} other {# verborgen in andere talen}})"
       },
       "datasets": {
         "where_private_files": "de privé-opslag van bestanden van deze browser",
@@ -3034,14 +3156,59 @@
         "storage_kept": "Geïnstalleerde datasets worden bewaard in {where}.",
         "installed_quotes": "\"{name}\" geïnstalleerd: {count} citaten (duplicaten verwijderd). ",
         "saved_summary": "\"{name}\" opgeslagen: {texts}, {passages}. ",
-        "installed_summary": "\"{name}\" geïnstalleerd: {texts}, {passages}. "
+        "installed_summary": "\"{name}\" geïnstalleerd: {texts}, {passages}. ",
+        "hide_incompatible_label": "datasets in andere talen verbergen",
+        "hidden_incompatible_count": "({count, plural, one {# verborgen in een andere taal} other {# verborgen in andere talen}})"
       },
       "dataset_draft": {
         "untitled": "zonder titel"
       },
       "dataset_install": {
         "has_no_usable_prose_it": "\"{title}\" bevat geen bruikbaar proza (er zijn zinnen nodig, niet alleen koppen of lijsten).",
-        "this_file_is_not_a": "Dit bestand is geen Kalibre-datasetpakket."
+        "this_file_is_not_a": "Dit bestand is geen Kalibre-datasetpakket.",
+        "language_required": "Een taal is vereist om een dataset samen te stellen."
+      },
+      "search": {
+        "placeholder": "datasets zoeken op titel, auteur of licentie…",
+        "aria_label": "datasets zoeken",
+        "clear": "wissen",
+        "clear_aria": "zoekopdracht wissen",
+        "no_matches": "geen datasets komen overeen met „{query}”",
+        "matching_count": "{count, plural, one {# overeenkomende dataset} other {# overeenkomende datasets}}"
+      },
+      "sort": {
+        "label": "sorteren op",
+        "name": "naam",
+        "passages": "passages",
+        "texts": "teksten",
+        "size": "grootte",
+        "asc": "oplopend",
+        "desc": "aflopend",
+        "toggle_direction": "sorteerrichting wisselen: momenteel {direction}"
+      },
+      "pagination": {
+        "nav_aria": "datasetpagina’s",
+        "prev": "vorige pagina",
+        "next": "volgende pagina",
+        "page_of": "pagina {current} van {total}",
+        "total_count": "({count, plural, one {# dataset} other {# datasets}})"
+      },
+      "details": {
+        "quotes_summary": "{count, plural, one {# citaat} other {# citaten}} in deze collectie",
+        "no_books": "geen boeken gevonden in deze dataset",
+        "table_title": "titel",
+        "table_words": "woorden",
+        "table_passages": "passages",
+        "table_composition": "samenstelling",
+        "total_books": "totaal ({count, plural, one {# boek} other {# boeken}})",
+        "table_author": "auteur",
+        "composition_sort_by": "sorteren op grootte",
+        "composition_total": "totaal aantal passages",
+        "composition_small": "klein",
+        "composition_medium": "gemiddeld",
+        "composition_large": "groot",
+        "composition_huge": "zeer groot",
+        "composition_massive": "enorm"
       }
     },
     "drills": {
@@ -5092,7 +5259,13 @@
         "stop_aria": "{mistake} trainen stoppen",
         "export": "exporteren ",
         "csv": "csv",
-        "json": "json"
+        "json": "json",
+        "train_selected": "geselecteerde oefenen",
+        "train_all": "alles oefenen",
+        "select_mistake": "{mistake} selecteren",
+        "select_all": "alles selecteren",
+        "view_trend": "trend bekijken voor {mistake}",
+        "view_trend_title": "Trend voor {mistake} inspecteren"
       },
       "filters": {
         "all": "alle",
@@ -5116,7 +5289,8 @@
         "pager_aria": "pagina's van foutentabel",
         "no_qualifiers_mistakes": "Nog geen fouten {qualifiers}{inSection, select, true { in {section}} other {}}.",
         "no_in_section": "Nog geen fouten in {section}.",
-        "training_words_note": "{count, plural, one {# woord} other {# woorden}} met consistente fouten in training."
+        "training_words_note": "{count, plural, one {# woord} other {# woorden}} met consistente fouten in training.",
+        "selected_count": "{count, plural, one {# geselecteerd} other {# geselecteerd}}"
       },
       "mistake_map": {
         "mistakes_click_to_isolate": "{label}-fouten – klik om te isoleren",
@@ -5133,7 +5307,24 @@
         "rate_over_tests": "foutenpercentage {from} → {to} over {count, plural, one {# test} other {# tests}}",
         "mark_label": "{mistake}: {rate} van de tijd",
         "started_at": "{summary} · training gestart op {rate}",
-        "keyboard_label": "Toetsenbord met {count, plural, one {# fout} other {# fouten}} erop. De lijst hieronder bevat dezelfde fouten."
+        "keyboard_label": "Toetsenbord met {count, plural, one {# fout} other {# fouten}} erop. De lijst hieronder bevat dezelfde fouten.",
+        "key_with_mistakes": "{key} ({count, plural, one {# fout} other {# fouten}}) – klik om te isoleren",
+        "key_no_mistakes": "{key} (geen fouten vastgelegd)",
+        "key_isolated": "toets {key}",
+        "key_isolated_summary": "{count, plural, one {# fout} other {# fouten}} op of afwijkend naar deze toets",
+        "show_all_keys": "alle toetsen tonen",
+        "show_all_keys_aria": "toetsisolatie wissen en alle fouten tonen",
+        "no_key_mistakes": "Geen fouten vastgelegd voor {key}.",
+        "no_words_for_key": "Geen woorden of spaties vastgelegd voor {key}.",
+        "illustrates_mistake": "in {mistake}",
+        "rel_outgoing": "bedoeld {expected} → getypt {typed}",
+        "rel_incoming": "afwijking van {expected}",
+        "rel_missed": "gemist",
+        "rel_extra": "extra",
+        "rel_shift": "shift",
+        "rel_swapped": "omgewisseld met {other}",
+        "rel_persistent": "aanhoudend",
+        "space_key_name": "spatie"
       },
       "mistakes": {
         "actions": "acties",
@@ -5197,6 +5388,22 @@
         "hesitation_before": "pauze voor {expected}",
         "hesitation": "aarzeling",
         "tricky": "lastig: {expected}"
+      },
+      "trend_detail": {
+        "trend_title": "{mistake} · foutpercentagetrend",
+        "table_caption": "Testhistorie en foutpercentages voor {mistake}",
+        "test_column_date": "datum",
+        "test_column_source": "test",
+        "test_column_exposures": "getypt",
+        "test_column_errors": "fouten",
+        "test_column_rate": "foutpercentage",
+        "point_info": "{date} · {source} · {errors} van {exposures} fouten ({rate})",
+        "started_baseline": "begonnen op {rate}",
+        "goal_improving": "verbeterend ({rate})",
+        "goal_mastered": "beheerst ({rate})",
+        "zoom": "zoom",
+        "no_data": "nog niet genoeg testhistorie met deze fout",
+        "test_source_default": "test"
       }
     },
     "profiles": {
@@ -6061,7 +6268,9 @@
             "cream": "crème",
             "rose": "roos",
             "harbour": "haven",
-            "contrast": "hoog contrast"
+            "contrast": "hoog contrast",
+            "nordic": "noords",
+            "copper": "koper"
           }
         },
         "themeDark": {
@@ -6075,7 +6284,9 @@
             "plum": "pruim",
             "slate": "leisteen",
             "terminal": "terminal",
-            "contrast-night": "hoog contrast nacht"
+            "contrast-night": "hoog contrast nacht",
+            "cyber": "cyber",
+            "amber": "amber"
           }
         },
         "theme": {
@@ -6096,7 +6307,11 @@
             "slate": "leisteen",
             "terminal": "terminal",
             "contrast": "hoog contrast",
-            "contrast-night": "hoog contrast nacht"
+            "contrast-night": "hoog contrast nacht",
+            "nordic": "noords",
+            "copper": "koper",
+            "cyber": "cyber",
+            "amber": "amber"
           }
         },
         "customThemes": {
@@ -6113,11 +6328,15 @@
           "label": "gewicht van typlettertype",
           "description": "hoe vet de typtekst is",
           "option": {
+            "100": "dun",
+            "200": "extra licht",
             "300": "300",
             "400": "400",
             "500": "500",
             "600": "600",
-            "700": "700"
+            "700": "700",
+            "800": "extra vet",
+            "900": "zwaar"
           }
         },
         "typingLineHeight": {
@@ -6333,7 +6552,8 @@
             "zh-CN": "简体中文 (vereenvoudigd Chinees)",
             "qps": "pseudo",
             "qps-wide": "pseudo breed"
-          }
+          },
+          "picker_title": "taalkeuze"
         },
         "backupFrequency": {
           "label": "automatische back-ups",
@@ -6483,6 +6703,27 @@
         },
         "numpadConfig": {
           "label": "instellingen tien-toetsentest"
+        },
+        "customVisionProfiles": {
+          "label": "aangepaste kleurzichtprofielen"
+        },
+        "hideIncompatibleDatasets": {
+          "label": "datasets in andere talen verbergen"
+        },
+        "calPetsToSleep": {
+          "label": "aantal keren dat {companion} in slaap werd geaaid"
+        },
+        "calEarlyWakes": {
+          "label": "aantal keren dat {companion} vroeg werd gewekt"
+        },
+        "calOvernightSleep": {
+          "label": "nachtrustvoortgang van {companion}"
+        },
+        "calOvernightDone": {
+          "label": "prestatie voor nachtrust van metgezel behaald"
+        },
+        "calShutdown": {
+          "label": "uitschakelstatus van {companion}"
         }
       },
       "actions": {
@@ -6554,7 +6795,10 @@
         "export_first": "eerst exporteren",
         "kalibre_is_using_of_the": "kalibre gebruikt {formatSize} van de {formatSize2} die deze browser toestaat.",
         "kalibre_is_using_about": "kalibre gebruikt ongeveer {formatSize}.",
-        "couldn_t_measure": "kon niet meten: {message}"
+        "couldn_t_measure": "kon niet meten: {message}",
+        "profile_breakdown": "opbouw van dit profiel",
+        "downloaded_from_libraries": "gedownload uit bibliotheken",
+        "imported_by_you": "door jou geïmporteerd"
       },
       "theme_editor": {
         "sample_of_this_theme": "voorbeeld van dit thema",
@@ -6591,7 +6835,8 @@
           "heat1": "toetshitte 1",
           "heat2": "toetshitte 2",
           "heat3": "toetshitte 3",
-          "heat4": "toetshitte 4"
+          "heat4": "toetshitte 4",
+          "corrected": "eerste correctie"
         },
         "sample_correct": "quick brown ",
         "sample_incorrect": "fxo",
@@ -6622,11 +6867,46 @@
         "content": "inhoud",
         "training": "training",
         "accessibility": "toegankelijkheid",
-        "data": "gegevens"
+        "data": "gegevens",
+        "manage-data": "gegevens beheren"
       },
       "stepper": {
         "decrease": "{label} verlagen",
         "increase": "{label} verhogen"
+      },
+      "vision_tester": {
+        "open_tester": "testoppervlak & aangepaste profielen",
+        "title": "testoppervlak voor kleurzicht",
+        "modes_heading": "zichtmodi & filters",
+        "current_mode": "actief: {name}",
+        "previewing_mode": "voorbeeld: {name}",
+        "apply": "modus toepassen",
+        "cancel": "annuleren",
+        "close": "sluiten",
+        "custom_profiles": "aangepaste profielen",
+        "create_profile": "nieuw aangepast profiel",
+        "edit_profile": "profiel bewerken",
+        "delete_profile": "profiel verwijderen",
+        "profile_name": "profielnaam",
+        "export": "profiel exporteren",
+        "import": "profiel importeren",
+        "import_error": "importeren mislukt: {reason}",
+        "import_invalid_json": "Ongeldige JSON-indeling",
+        "import_invalid_envelope": "Ongeldige indelingsenvelop",
+        "import_unsupported_version": "Niet-ondersteunde profielversie: {version}",
+        "imported": "profiel „{name}” geïmporteerd",
+        "sample_heading": "live semantische steekproef",
+        "sample_caption": "Monsters tonen echte typetekst, fouten, extra letters, grafieklijnen, warmteschalen en statusindicatoren.",
+        "disclaimer": "Aanpassingen zijn bedoeld voor toegankelijkheid en visuele onderscheiding. Ze stellen geen diagnoses en behandelen geen aandoeningen.",
+        "validation_error": "kan profiel niet opslaan: {reason}",
+        "duplicate_name": "Er bestaat al een profiel met de naam „{name}”.",
+        "monotonic_hint": "Warmteschaal moet een strikt geordende helderheid behouden.",
+        "monochrome_hint": "Essentiële interface-elementen moeten onderscheidbaar blijven.",
+        "status_ok": "in orde",
+        "status_warn": "nakijken",
+        "status_fail": "probleem",
+        "tap_to_preview": "voorbeeld",
+        "reset_to_preset": "herstellen"
       }
     },
     "stats": {

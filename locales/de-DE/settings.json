@@ -175,7 +175,9 @@
         "cream": "Creme",
         "rose": "Rose",
         "harbour": "Hafen",
-        "contrast": "Hoher Kontrast"
+        "contrast": "Hoher Kontrast",
+        "nordic": "Nordisch",
+        "copper": "Kupfer"
       }
     },
     "themeDark": {
@@ -189,7 +191,9 @@
         "plum": "Pflaumen",
         "slate": "Schiefer",
         "terminal": "Anschluss",
-        "contrast-night": "Nacht mit hohem Kontrast"
+        "contrast-night": "Nacht mit hohem Kontrast",
+        "cyber": "Cyber",
+        "amber": "Bernstein"
       }
     },
     "theme": {
@@ -210,7 +214,11 @@
         "slate": "Schiefer",
         "terminal": "Anschluss",
         "contrast": "Hoher Kontrast",
-        "contrast-night": "Nacht mit hohem Kontrast"
+        "contrast-night": "Nacht mit hohem Kontrast",
+        "nordic": "Nordisch",
+        "copper": "Kupfer",
+        "cyber": "Cyber",
+        "amber": "Bernstein"
       }
     },
     "customThemes": {
@@ -231,7 +239,11 @@
         "400": "400",
         "500": "500",
         "600": "600",
-        "700": "700"
+        "700": "700",
+        "100": "dünn",
+        "200": "extra dünn",
+        "800": "extra fett",
+        "900": "schwarz"
       }
     },
     "typingLineHeight": {
@@ -447,7 +459,8 @@
         "zh-CN": "(Chinesisch vereinfacht)",
         "qps": "Pseudonym",
         "qps-wide": "Pseudobreit"
-      }
+      },
+      "picker_title": "Sprachauswahl"
     },
     "backupFrequency": {
       "label": "Automatische Backups",
@@ -597,6 +610,27 @@
     },
     "numpadConfig": {
       "label": "Zehn-Schlüssel-Testaufbau"
+    },
+    "customVisionProfiles": {
+      "label": "benutzerdefinierte Farbsehprofile"
+    },
+    "hideIncompatibleDatasets": {
+      "label": "Datensätze in anderen Sprachen ausblenden"
+    },
+    "calPetsToSleep": {
+      "label": "Wie oft {companion} in den Schlaf gestreichelt wurde"
+    },
+    "calEarlyWakes": {
+      "label": "Wie oft {companion} früh aufgeweckt wurde"
+    },
+    "calOvernightSleep": {
+      "label": "Schlaffortschritt von {companion} über Nacht"
+    },
+    "calOvernightDone": {
+      "label": "Erfolg für Nachtschlaf des Begleiters erreicht"
+    },
+    "calShutdown": {
+      "label": "Abschaltzustand von {companion}"
     }
   },
   "actions": {
@@ -668,7 +702,10 @@
     "export_first": "Ausfuhr zuerst",
     "kalibre_is_using_of_the": "Kalibre verwendet {formatSize} Von {formatSize2} Dieser Browser erlaubt es.",
     "kalibre_is_using_about": "Kalibre verwendet ungefähr {formatSize}.",
-    "couldn_t_measure": "Konnte nicht messen:{message}"
+    "couldn_t_measure": "Konnte nicht messen:{message}",
+    "profile_breakdown": "Zusammensetzung dieses Profils",
+    "downloaded_from_libraries": "aus Bibliotheken heruntergeladen",
+    "imported_by_you": "von Ihnen importiert"
   },
   "theme_editor": {
     "sample_of_this_theme": "Muster dieses Themas",
@@ -705,7 +742,8 @@
       "heat1": "Schlüsselwärme 1",
       "heat2": "Schlüsselwärme 2",
       "heat3": "Schlüsselwärme 3",
-      "heat4": "Schlüsselwärme 4"
+      "heat4": "Schlüsselwärme 4",
+      "corrected": "erste Korrektur"
     },
     "sample_correct": "Schnellbraun ",
     "sample_incorrect": "Fxo",
@@ -736,10 +774,45 @@
     "content": "Inhalt",
     "training": "Ausbildung",
     "accessibility": "Zugänglichkeit",
-    "data": "Daten"
+    "data": "Daten",
+    "manage-data": "Daten verwalten"
   },
   "stepper": {
     "decrease": "Abnahme {label}",
     "increase": "Anstieg {label}"
+  },
+  "vision_tester": {
+    "open_tester": "Testfläche & eigene Profile",
+    "title": "Testfläche für Farbsehen",
+    "modes_heading": "Sehmodi & Filter",
+    "current_mode": "aktiv: {name}",
+    "previewing_mode": "Vorschau: {name}",
+    "apply": "Modus anwenden",
+    "cancel": "abbrechen",
+    "close": "schließen",
+    "custom_profiles": "eigene Profile",
+    "create_profile": "neues eigenes Profil",
+    "edit_profile": "Profil bearbeiten",
+    "delete_profile": "Profil löschen",
+    "profile_name": "Profilname",
+    "export": "Profil exportieren",
+    "import": "Profil importieren",
+    "import_error": "Import fehlgeschlagen: {reason}",
+    "import_invalid_json": "Ungültiges JSON-Format",
+    "import_invalid_envelope": "Ungültiges Formatumfeld",
+    "import_unsupported_version": "Nicht unterstützte Profilversion: {version}",
+    "imported": "Profil „{name}“ importiert",
+    "sample_heading": "interaktive semantische Stichprobe",
+    "sample_caption": "Muster spiegeln echten Tipptext, Fehler, zusätzliche Buchstaben, Diagrammlinien, Farbskalen und Statusanzeigen wider.",
+    "disclaimer": "Anpassungen dienen der Barrierefreiheit und Unterscheidbarkeit der Oberfläche. Sie diagnostizieren oder behandeln keine Sehschwächen.",
+    "validation_error": "Profil kann nicht gespeichert werden: {reason}",
+    "duplicate_name": "Ein Profil namens „{name}“ existiert bereits.",
+    "monotonic_hint": "Farbskala muss eine streng geordnete Luminanz beibehalten.",
+    "monochrome_hint": "Wesentliche Oberflächenelemente müssen unterscheidbar bleiben.",
+    "status_ok": "in Ordnung",
+    "status_warn": "überprüfen",
+    "status_fail": "Problem",
+    "tap_to_preview": "Vorschau",
+    "reset_to_preset": "zurücksetzen"
   }
 }

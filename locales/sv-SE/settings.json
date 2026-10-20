@@ -175,7 +175,9 @@
         "cream": "cream",
         "rose": "rose",
         "harbour": "harbour",
-        "contrast": "hög kontrast"
+        "contrast": "hög kontrast",
+        "nordic": "nordisk",
+        "copper": "koppar"
       }
     },
     "themeDark": {
@@ -189,7 +191,9 @@
         "plum": "plum",
         "slate": "slate",
         "terminal": "terminal",
-        "contrast-night": "hög nattkontrast"
+        "contrast-night": "hög nattkontrast",
+        "cyber": "cyber",
+        "amber": "bärnsten"
       }
     },
     "theme": {
@@ -210,7 +214,11 @@
         "slate": "slate",
         "terminal": "terminal",
         "contrast": "hög kontrast",
-        "contrast-night": "hög nattkontrast"
+        "contrast-night": "hög nattkontrast",
+        "nordic": "nordisk",
+        "copper": "koppar",
+        "cyber": "cyber",
+        "amber": "bärnsten"
       }
     },
     "customThemes": {
@@ -231,7 +239,11 @@
         "400": "400",
         "500": "500",
         "600": "600",
-        "700": "700"
+        "700": "700",
+        "100": "tunn",
+        "200": "extra lätt",
+        "800": "extra fet",
+        "900": "svart"
       }
     },
     "typingLineHeight": {
@@ -447,7 +459,8 @@
         "zh-CN": "简体中文 (Chinese Simplified)",
         "qps": "pseudo",
         "qps-wide": "pseudo wide"
-      }
+      },
+      "picker_title": "språkval"
     },
     "backupFrequency": {
       "label": "automatiska säkerhetskopior",
@@ -597,6 +610,27 @@
     },
     "numpadConfig": {
       "label": "tiotangentstestets konfiguration"
+    },
+    "customVisionProfiles": {
+      "label": "anpassade färgseendeprofiler"
+    },
+    "hideIncompatibleDatasets": {
+      "label": "dölj dataset på andra språk"
+    },
+    "calPetsToSleep": {
+      "label": "antal gånger {companion} klappades till sömns"
+    },
+    "calEarlyWakes": {
+      "label": "antal gånger {companion} väcktes tidigt"
+    },
+    "calOvernightSleep": {
+      "label": "nattömnsframsteg för {companion}"
+    },
+    "calOvernightDone": {
+      "label": "framsteg för följeslagarens nattsömn uppnått"
+    },
+    "calShutdown": {
+      "label": "avstängningsstatus för {companion}"
     }
   },
   "actions": {
@@ -668,7 +702,10 @@
     "export_first": "exportera först",
     "kalibre_is_using_of_the": "kalibre använder {formatSize} av de {formatSize2} som den här webbläsaren tillåter.",
     "kalibre_is_using_about": "kalibre använder ungefär {formatSize}.",
-    "couldn_t_measure": "kunde inte mäta: {message}"
+    "couldn_t_measure": "kunde inte mäta: {message}",
+    "profile_breakdown": "vad denna profil består av",
+    "downloaded_from_libraries": "nedladdat från bibliotek",
+    "imported_by_you": "importerat av dig"
   },
   "theme_editor": {
     "sample_of_this_theme": "exempel på det här temat",
@@ -705,7 +742,8 @@
       "heat1": "tangentvärme 1",
       "heat2": "tangentvärme 2",
       "heat3": "tangentvärme 3",
-      "heat4": "tangentvärme 4"
+      "heat4": "tangentvärme 4",
+      "corrected": "första rättelsen"
     },
     "sample_correct": "quick brown ",
     "sample_incorrect": "fxo",
@@ -736,10 +774,45 @@
     "content": "innehåll",
     "training": "träning",
     "accessibility": "tillgänglighet",
-    "data": "data"
+    "data": "data",
+    "manage-data": "hantera data"
   },
   "stepper": {
     "decrease": "minska {label}",
     "increase": "öka {label}"
+  },
+  "vision_tester": {
+    "open_tester": "testyta & anpassade profiler",
+    "title": "testyta för färgseende",
+    "modes_heading": "synlägen & filter",
+    "current_mode": "aktivt: {name}",
+    "previewing_mode": "förhandsvisar: {name}",
+    "apply": "tillämpa läge",
+    "cancel": "avbryt",
+    "close": "stäng",
+    "custom_profiles": "anpassade profiler",
+    "create_profile": "ny anpassad profil",
+    "edit_profile": "redigera profil",
+    "delete_profile": "ta bort profil",
+    "profile_name": "profilnamn",
+    "export": "exportera profil",
+    "import": "importera profil",
+    "import_error": "importen misslyckades: {reason}",
+    "import_invalid_json": "Ogiltigt JSON-format",
+    "import_invalid_envelope": "Ogiltigt formatkuvert",
+    "import_unsupported_version": "Profilversionen stöds inte: {version}",
+    "imported": "importerade profilen „{name}”",
+    "sample_heading": "interaktivt semantiskt prov",
+    "sample_caption": "Exemplen visar verklig skrivtext, fel, extra bokstäver, diagramlinjer, värmeskalor och statusindikatorer.",
+    "disclaimer": "Justeringarna är till för gränssnittets tillgänglighet och tydlighet. De diagnostiserar eller behandlar inte synfel.",
+    "validation_error": "kan inte spara profil: {reason}",
+    "duplicate_name": "Det finns redan en profil med namnet „{name}”.",
+    "monotonic_hint": "Värmeskalan måste behålla en strikt ordnad luminans.",
+    "monochrome_hint": "Viktiga gränssnittsmarkörer måste förbli särskiljbara.",
+    "status_ok": "bra",
+    "status_warn": "granska",
+    "status_fail": "problem",
+    "tap_to_preview": "förhandsvisa",
+    "reset_to_preset": "återställ"
   }
 }

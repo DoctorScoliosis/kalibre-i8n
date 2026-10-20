@@ -144,7 +144,11 @@
         "spaceWordBombs": "{count, plural, other {在太空中引爆 # 次单词炸弹}}",
         "unknown": "未知",
         "progress_suffix": "（{have} / {need}）",
-        "secret_hint": "隐藏成就：继续玩下去"
+        "secret_hint": "隐藏成就：继续玩下去",
+        "petsToSleep": "抚摸你的伙伴使其入睡 {count, plural, other {# 次}}",
+        "earlyWakes": "在你的伙伴刚入睡后将其唤醒 {count, plural, other {# 次}}",
+        "overnightSleep": "在“关于”页面让你的伙伴整夜睡眠 {hours, plural, other {# 小时}}",
+        "lastLessonDone": "完成“学习”中的最后一课"
       },
       "first-test": {
         "name": "第一步"
@@ -399,34 +403,44 @@
         "name": "首席校对员"
       },
       "buffet-host": {
-        "name": "自助餐主人"
+        "name": "自助餐主人",
+        "says": "在 Feed 中保持自助餐开放 5 分钟"
       },
       "full-house": {
-        "name": "满堂彩"
+        "name": "满堂彩",
+        "says": "在 Feed 中累计完成 50 份自助餐订单"
       },
       "no-hints": {
-        "name": "无需提示"
+        "name": "无需提示",
+        "says": "作为 Feed 中的挑食者坚持 3 分钟且不喂食任何带提示的单词"
       },
       "station-down": {
-        "name": "空间站摧毁"
+        "name": "空间站摧毁",
+        "says": "在 Space 中摧毁一座空间站"
       },
       "shrapnel-storm": {
-        "name": "弹片风暴"
+        "name": "弹片风暴",
+        "says": "在 Space 中用一枚地雷的弹片摧毁 3 个敌人"
       },
       "stacked": {
-        "name": "堆叠大师"
+        "name": "堆叠大师",
+        "says": "在 Space 中同时运行两个增强道具"
       },
       "autopilot-ace": {
-        "name": "自动驾驶王牌"
+        "name": "自动驾驶王牌",
+        "says": "在 Space 中累计使用自动机摧毁 10 个敌人"
       },
       "dazed": {
-        "name": "晕头转向"
+        "name": "晕头转向",
+        "says": "在 Castle 中累计击晕 25 名进攻者"
       },
       "spoils-of-war": {
-        "name": "战利品"
+        "name": "战利品",
+        "says": "在 Castle 中累计使用 10 个增强道具"
       },
       "clean-sweep": {
-        "name": "完美清除"
+        "name": "完美清除",
+        "says": "修复 Spot 段落中的所有错误且未标记任何正确单词"
       },
       "race-first": {
         "name": "各就各位"
@@ -694,6 +708,65 @@
         "badges": "徽章",
         "extras": "额外",
         "sections_label": "成就分类"
+      },
+      "wpm-90": {
+        "name": "九十词"
+      },
+      "words-50k": {
+        "name": "五万词"
+      },
+      "sustained-15": {
+        "name": "十五分钟"
+      },
+      "books-3": {
+        "name": "三部曲"
+      },
+      "mastered-50": {
+        "name": "修复五十项"
+      },
+      "drills-25": {
+        "name": "训练教官"
+      },
+      "sweet-dreams": {
+        "name": "美梦成真"
+      },
+      "early-wake": {
+        "name": "这么快？"
+      },
+      "overnight-sleep": {
+        "name": "安睡整夜"
+      },
+      "siege-breaker": {
+        "name": "攻城破除者",
+        "says": "在 Castle 中累计摧毁 10 辆投石车"
+      },
+      "bomb-disposal": {
+        "name": "炸弹拆除",
+        "says": "在 Castle 中累计拆除 25 根炸药棒"
+      },
+      "bucket-brigade": {
+        "name": "消防水桶队",
+        "says": "在 Castle 中累计扑灭 25 处火灾"
+      },
+      "giant-killer": {
+        "name": "巨人杀手",
+        "says": "在 Castle 中击倒一名巨人"
+      },
+      "reinforcements": {
+        "name": "援军抵达",
+        "says": "在 Castle 中累计派遣 100 名士兵"
+      },
+      "king-safe": {
+        "name": "国王安然无恙",
+        "says": "在 Castle 攀升模式中获胜"
+      },
+      "off-the-wall": {
+        "name": "推离城墙",
+        "says": "在 Castle 中累计将 20 架云梯推离塔楼"
+      },
+      "cut-loose": {
+        "name": "斩断抓钩",
+        "says": "在 Castle 中累计砍断 20 个抓钩"
       }
     },
     "cards": {
@@ -2912,7 +2985,9 @@
         "install": "安装",
         "find_more": "在书库中查找更多",
         "verb_update": "更新",
-        "verb_download": "下载"
+        "verb_download": "下载",
+        "view_details_aria": "查看 {name} 的详情",
+        "details": "详情"
       },
       "chips": {
         "on_server": "在此服务器上",
@@ -2932,14 +3007,19 @@
         "library_from": "来自 {name}",
         "library_remove": "移除书库 {name}",
         "library_added": "已添加 {name}：{count, plural, other {# 个数据集}}。",
-        "not_reachable": "无法访问"
+        "not_reachable": "无法访问",
+        "rebuilding_started": "正在重建练习段落……",
+        "updating_started": "正在更新数据集……",
+        "removing_started": "正在移除数据集……"
       },
       "install": {
         "include_work": "包含 {title}",
         "text_of_work": "{title} 的文本",
         "edit_draft": "编辑“{name}”",
         "check_before_installing": "安装前检查",
-        "add_text": "添加 {title}"
+        "add_text": "添加 {title}",
+        "maximum_recalculate_label": "最大范围重新计算段落（无限制 + 流式提取）",
+        "maximum_recalculate_hint": "跨越段落边界保留所有可能的练习段落，以获得最大的丰富度。需要占用更多存储空间。"
       },
       "dataset_cap": {
         "custom_number_of_passages_per": "每个长度的自定义段落数",
@@ -2966,7 +3046,9 @@
         "rebuilt_summary": "已重建“{name}”：{passages}{size}，{cap}。",
         "size_suffix": "，{size}",
         "download": "下载",
-        "passages": "段落"
+        "passages": "段落",
+        "maximum_preset_btn": "最大化",
+        "incompatible_warning": "此数据集的语言与界面语言不匹配，因此不会包含在专项练习中。"
       },
       "dataset_install_flow": {
         "translator_optional": "译者（可选）",
@@ -3002,7 +3084,27 @@
         "each_file_must_be_under": "每个文件必须小于 20 MB。",
         "added": "已添加 {what}",
         "quoted_title": "“{title}”",
-        "added_some": "已添加 {texts}；未勾选，无可输入散文：{skipped}"
+        "added_some": "已添加 {texts}；未勾选，无可输入散文：{skipped}",
+        "language": "语言",
+        "language_hint": "此数据集的语言",
+        "from_wikipedia": "来自维基百科",
+        "wikipedia_heading": "从维基百科导入",
+        "wikipedia_articles_label": "文章标题或网址（每行一个）",
+        "wikipedia_articles_placeholder": "太阳系\nzh:阿尔伯特·爱因斯坦\nhttps://zh.wikipedia.org/wiki/地球",
+        "wikipedia_search_placeholder": "搜索维基百科文章……",
+        "wikipedia_search_button": "搜索",
+        "wikipedia_searching": "正在搜索维基百科……",
+        "wikipedia_no_search_results": "未找到匹配的文章",
+        "wikipedia_disambiguation_title": "为“{title}”选择文章",
+        "wikipedia_disambiguation_hint": "此标题为消歧义页面。请选择目标文章：",
+        "wikipedia_disambiguation_add": "添加所选文章",
+        "wikipedia_privacy_note": "此操作会向维基百科请求文章，因此维基媒体能看到您的 IP 地址以及您提供的标题或关键词。",
+        "wikipedia_licensing_notice": "大多数维基百科文本均在 CC BY-SA 4.0 和 GNU 自由文档许可证（GFDL）下提供，但可能存在例外情况和其他条款。kalibre 会提取并清理文章文本，因此提取结果可能与原文有所差异。在导出或分享之前，请保留文章的署名及许可证链接，指明修改之处，并遵守适用的“相同方式共享”条款。在分发之前，请检查每篇文章附带的许可证详情。维基百科和维基媒体基金会并未认可或代言 kalibre。",
+        "wikipedia_licensing_acknowledge": "我理解并同意",
+        "wikipedia_licensing_reopen": "许可证须知",
+        "wikipedia_fetch_button": "获取文章",
+        "wikipedia_cancel_button": "取消获取",
+        "wikipedia_skipped_summary": "{count, plural, other {已跳过 # 篇文章}}"
       },
       "library": {
         "looking_in_the_libraries": "正在书库中查找……",
@@ -3029,7 +3131,28 @@
         "has_no_texts": "“{name}”没有文本。",
         "is_too_large": "{id}/{path} 太大。",
         "has_files_its_checksum_list": "“{name}”包含其校验和列表未涵盖的文件，因此未下载。",
-        "is_too_large_to_download": "“{name}”太大，无法下载。"
+        "is_too_large_to_download": "“{name}”太大，无法下载。",
+        "already_added": "该库已存在于选择器中。",
+        "checking_library": "正在检查库……",
+        "chooser_hint": "选择一个库以浏览其包含的图书和引文集。每个库拥有独立的数据集列表。",
+        "chooser_count": "{count, plural, other {共 # 个可用库}}",
+        "downloadable_count": "{count, plural, other {共 # 个可下载的数据集}}",
+        "last_updated": "最后更新于 {date}",
+        "last_updated_unknown": "最后更新日期不可用",
+        "browse_datasets": "浏览数据集",
+        "open_library": "浏览 {name} 中的数据集",
+        "add_library_heading": "添加其他库",
+        "add_library_hint": "通过所有者/仓库或 HTTPS 地址添加公开的 Kalibre 库。其数据集将单独列出。",
+        "search_this_library": "搜索此库中的数据集",
+        "no_matching_datasets": "没有符合此搜索条件的数据集。",
+        "no_datasets_available": "此库暂无可用的数据集。",
+        "more_results": "{count, plural, other {还有 # 个数据集；请缩小搜索范围以查看}}",
+        "unavailable_count": "{count, plural, other {有 # 个库无法访问}}",
+        "third_party_disclaimer": "来自第三方库；Kalibre 尚未审核其内容。",
+        "browser_column": "数据集结果列",
+        "incompatible_warning": "此数据集的语言与界面语言不匹配，因此不会包含在专项练习中。",
+        "hide_incompatible_label": "隐藏其他语言的数据集",
+        "hidden_incompatible_count": "（{count, plural, other {已隐藏 # 个其他语言的数据集}}）"
       },
       "datasets": {
         "where_private_files": "此浏览器的私有文件存储",
@@ -3040,14 +3163,59 @@
         "storage_kept": "已安装的数据集保留在 {where} 中。",
         "installed_quotes": "已安装“{name}”：{count} 个引文（已移除重复项）。 ",
         "saved_summary": "已保存“{name}”：{texts}，{passages}。 ",
-        "installed_summary": "已安装“{name}”：{texts}，{passages}。 "
+        "installed_summary": "已安装“{name}”：{texts}，{passages}。 ",
+        "hide_incompatible_label": "隐藏其他语言的数据集",
+        "hidden_incompatible_count": "（{count, plural, other {已隐藏 # 个其他语言的数据集}}）"
       },
       "dataset_draft": {
         "untitled": "无标题"
       },
       "dataset_install": {
         "has_no_usable_prose_it": "“{title}”没有可用的散文（它需要句子，而不仅仅是标题或列表）。",
-        "this_file_is_not_a": "此文件不是 Kalibre 数据包。"
+        "this_file_is_not_a": "此文件不是 Kalibre 数据包。",
+        "language_required": "构建数据集必须指定语言。"
+      },
+      "search": {
+        "placeholder": "按标题、作者或许可证搜索数据集……",
+        "aria_label": "搜索数据集",
+        "clear": "清除",
+        "clear_aria": "清除搜索关键词",
+        "no_matches": "未找到匹配“{query}”的数据集",
+        "matching_count": "{count, plural, other {找到 # 个匹配的数据集}}"
+      },
+      "sort": {
+        "label": "排序方式",
+        "name": "名称",
+        "passages": "段落数",
+        "texts": "文本数",
+        "size": "大小",
+        "asc": "升序",
+        "desc": "降序",
+        "toggle_direction": "切换排序方向：当前为{direction}"
+      },
+      "pagination": {
+        "nav_aria": "数据集页面导航",
+        "prev": "上一页",
+        "next": "下一页",
+        "page_of": "第 {current} 页 / 共 {total} 页",
+        "total_count": "（{count, plural, other {共 # 个数据集}}）"
+      },
+      "details": {
+        "quotes_summary": "此合集中共包含 {count, plural, other {# 条引文}}",
+        "no_books": "在此数据集中未找到图书",
+        "table_title": "标题",
+        "table_words": "词数",
+        "table_passages": "段落数",
+        "table_composition": "构成比例",
+        "total_books": "总计（{count, plural, other {共 # 本书}}）",
+        "table_author": "作者",
+        "composition_sort_by": "按篇幅排序",
+        "composition_total": "段落总计",
+        "composition_small": "短篇",
+        "composition_medium": "中篇",
+        "composition_large": "长篇",
+        "composition_huge": "巨篇",
+        "composition_massive": "超大篇"
       }
     },
     "drills": {
@@ -5029,7 +5197,13 @@
         "stop_aria": "停止训练 {mistake}",
         "export": "导出",
         "csv": "csv",
-        "json": "json"
+        "json": "json",
+        "train_selected": "练习所选项",
+        "train_all": "练习全部",
+        "select_mistake": "选择 {mistake}",
+        "select_all": "全选",
+        "view_trend": "查看 {mistake} 的趋势",
+        "view_trend_title": "检查 {mistake} 的趋势"
       },
       "filters": {
         "all": "全部",
@@ -5053,7 +5227,8 @@
         "pager_aria": "错误表格页面",
         "no_qualifiers_mistakes": "尚无 {qualifiers} 错误{inSection, select, true {在 {section} 中} other {}}。",
         "no_in_section": "在 {section} 中尚无错误。",
-        "training_words_note": "训练中有 {count, plural, other {# 个单词}} 存在一致错误。"
+        "training_words_note": "训练中有 {count, plural, other {# 个单词}} 存在一致错误。",
+        "selected_count": "{count, plural, other {已选 # 项}}"
       },
       "mistake_map": {
         "mistakes_click_to_isolate": "{label} 错误——单击以隔离",
@@ -5070,7 +5245,24 @@
         "rate_over_tests": "{count, plural, other {# 次测试}}中的错误率 {from} → {to}",
         "mark_label": "{mistake}：{rate} 的时间",
         "started_at": "{summary} · 在 {rate} 时开始训练",
-        "keyboard_label": "键盘上绘制了 {count, plural, other {# 个错误}}。下面的列表包含相同的错误。"
+        "keyboard_label": "键盘上绘制了 {count, plural, other {# 个错误}}。下面的列表包含相同的错误。",
+        "key_with_mistakes": "{key}（{count, plural, other {# 项错误}}）– 点击以单独查看",
+        "key_no_mistakes": "{key}（未记录错误）",
+        "key_isolated": "按键 {key}",
+        "key_isolated_summary": "{count, plural, other {此按键上或偏移至此按键的 # 项错误}}",
+        "show_all_keys": "显示所有按键",
+        "show_all_keys_aria": "清除按键独立显示并查看所有错误",
+        "no_key_mistakes": "未记录 {key} 的错误。",
+        "no_words_for_key": "未记录包含 {key} 的单词或空格。",
+        "illustrates_mistake": "在 {mistake} 中",
+        "rel_outgoing": "本应为 {expected} → 误按为 {typed}",
+        "rel_incoming": "来自 {expected} 的偏移",
+        "rel_missed": "漏打",
+        "rel_extra": "多余",
+        "rel_shift": "Shift",
+        "rel_swapped": "与 {other} 互换",
+        "rel_persistent": "顽固错误",
+        "space_key_name": "空格键"
       },
       "mistakes": {
         "actions": "操作",
@@ -5134,6 +5326,22 @@
         "hesitation_before": "在 {expected} 前停顿",
         "hesitation": "犹豫",
         "tricky": "棘手：{expected}"
+      },
+      "trend_detail": {
+        "trend_title": "{mistake} · 错误率趋势",
+        "table_caption": "{mistake} 的测试历史与错误率",
+        "test_column_date": "日期",
+        "test_column_source": "测试",
+        "test_column_exposures": "输入次数",
+        "test_column_errors": "错误数",
+        "test_column_rate": "错误率",
+        "point_info": "{date} · {source} · {errors} / {exposures} 处错误（{rate}）",
+        "started_baseline": "初始为 {rate}",
+        "goal_improving": "改善中（{rate}）",
+        "goal_mastered": "已掌握（{rate}）",
+        "zoom": "缩放",
+        "no_data": "此错误尚无足够的测试历史",
+        "test_source_default": "测试"
       }
     },
     "profiles": {
@@ -5998,7 +6206,9 @@
             "cream": "奶油",
             "rose": "玫瑰",
             "harbour": "港口",
-            "contrast": "高对比度"
+            "contrast": "高对比度",
+            "nordic": "北欧",
+            "copper": "黄铜"
           }
         },
         "themeDark": {
@@ -6012,7 +6222,9 @@
             "plum": "李子",
             "slate": "石板",
             "terminal": "终端",
-            "contrast-night": "高对比度夜间"
+            "contrast-night": "高对比度夜间",
+            "cyber": "赛博",
+            "amber": "琥珀"
           }
         },
         "theme": {
@@ -6033,7 +6245,11 @@
             "slate": "石板",
             "terminal": "终端",
             "contrast": "高对比度",
-            "contrast-night": "高对比度夜间"
+            "contrast-night": "高对比度夜间",
+            "nordic": "北欧",
+            "copper": "黄铜",
+            "cyber": "赛博",
+            "amber": "琥珀"
           }
         },
         "customThemes": {
@@ -6050,11 +6266,15 @@
           "label": "打字字体粗细",
           "description": "打字文本的粗细程度",
           "option": {
+            "100": "纤细",
+            "200": "超细",
             "300": "300",
             "400": "400",
             "500": "500",
             "600": "600",
-            "700": "700"
+            "700": "700",
+            "800": "特粗",
+            "900": "浓黑"
           }
         },
         "typingLineHeight": {
@@ -6270,7 +6490,8 @@
             "zh-CN": "简体中文 (Chinese Simplified)",
             "qps": "pseudo",
             "qps-wide": "pseudo wide"
-          }
+          },
+          "picker_title": "选择语言"
         },
         "backupFrequency": {
           "label": "自动备份",
@@ -6420,6 +6641,27 @@
         },
         "numpadConfig": {
           "label": "十键测试设置"
+        },
+        "customVisionProfiles": {
+          "label": "自定义视觉配色方案"
+        },
+        "hideIncompatibleDatasets": {
+          "label": "隐藏其他语言的数据集"
+        },
+        "calPetsToSleep": {
+          "label": "抚摸 {companion} 使其入睡的次数"
+        },
+        "calEarlyWakes": {
+          "label": "过早唤醒 {companion} 的次数"
+        },
+        "calOvernightSleep": {
+          "label": "{companion} 整夜睡眠进度"
+        },
+        "calOvernightDone": {
+          "label": "伙伴整夜睡眠成就已达成"
+        },
+        "calShutdown": {
+          "label": "{companion} 关机状态"
         }
       },
       "actions": {
@@ -6491,7 +6733,10 @@
         "export_first": "请先导出",
         "kalibre_is_using_of_the": "Kalibre 正在使用此浏览器允许的 {formatSize2} 中的 {formatSize}。",
         "kalibre_is_using_about": "Kalibre 大约使用了 {formatSize}。",
-        "couldn_t_measure": "无法测量：{message}"
+        "couldn_t_measure": "无法测量：{message}",
+        "profile_breakdown": "此配置文件的构成",
+        "downloaded_from_libraries": "从库下载",
+        "imported_by_you": "由您导入"
       },
       "theme_editor": {
         "sample_of_this_theme": "此主题的示例",
@@ -6528,7 +6773,8 @@
           "heat1": "按键热度 1",
           "heat2": "按键热度 2",
           "heat3": "按键热度 3",
-          "heat4": "按键热度 4"
+          "heat4": "按键热度 4",
+          "corrected": "首次更正"
         },
         "sample_correct": "quick brown ",
         "sample_incorrect": "fxo",
@@ -6559,11 +6805,46 @@
         "content": "内容",
         "training": "训练",
         "accessibility": "无障碍",
-        "data": "数据"
+        "data": "数据",
+        "manage-data": "管理数据"
       },
       "stepper": {
         "decrease": "减少 {label}",
         "increase": "增加 {label}"
+      },
+      "vision_tester": {
+        "open_tester": "测试面板与自定义方案",
+        "title": "色彩视觉测试面板",
+        "modes_heading": "视觉模式与滤镜",
+        "current_mode": "当前生效：{name}",
+        "previewing_mode": "预览中：{name}",
+        "apply": "应用模式",
+        "cancel": "取消",
+        "close": "关闭",
+        "custom_profiles": "自定义方案",
+        "create_profile": "新建自定义方案",
+        "edit_profile": "编辑方案",
+        "delete_profile": "删除方案",
+        "profile_name": "方案名称",
+        "export": "导出方案",
+        "import": "导入方案",
+        "import_error": "导入失败：{reason}",
+        "import_invalid_json": "无效的 JSON 格式",
+        "import_invalid_envelope": "无效的格式包装",
+        "import_unsupported_version": "不支持的方案版本：{version}",
+        "imported": "已导入方案“{name}”",
+        "sample_heading": "实时语义示例",
+        "sample_caption": "示例展示真实的打字文本、错误、多余字符、图表曲线、热力渐变及状态指示器。",
+        "disclaimer": "调整仅用于改善界面的无障碍体验与色彩区分度，不具备任何诊断或治疗视觉疾患的功能。",
+        "validation_error": "无法保存方案：{reason}",
+        "duplicate_name": "已存在名为“{name}”的方案。",
+        "monotonic_hint": "热力渐变必须保持严格有序的亮度递变。",
+        "monochrome_hint": "核心界面元素必须保持清晰可辨。",
+        "status_ok": "正常",
+        "status_warn": "待检查",
+        "status_fail": "异常",
+        "tap_to_preview": "预览",
+        "reset_to_preset": "重置"
       }
     },
     "stats": {

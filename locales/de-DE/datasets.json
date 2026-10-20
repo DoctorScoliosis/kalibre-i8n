@@ -15,7 +15,9 @@
     "install": "Einbau",
     "find_more": "Mehr finden Sie in der Bibliothek",
     "verb_update": "Aktualisierung",
-    "verb_download": "Download"
+    "verb_download": "Download",
+    "view_details_aria": "Details für {name} anzeigen",
+    "details": "Details"
   },
   "chips": {
     "on_server": "Auf diesem Server",
@@ -35,14 +37,19 @@
     "library_from": "Von{name}",
     "library_remove": "Entfernen der Bibliothek{name}",
     "library_added": "Zugesetzt{name}: {count, plural, one {# Datensatz} other {# Datensätze}}.",
-    "not_reachable": "Nicht erreichbar"
+    "not_reachable": "Nicht erreichbar",
+    "rebuilding_started": "Passagen werden neu aufgebaut…",
+    "updating_started": "Datensatz wird aktualisiert…",
+    "removing_started": "Datensatz wird entfernt…"
   },
   "install": {
     "include_work": "Umfasst{title}",
     "text_of_work": "Text von{title}",
     "edit_draft": "Edit{name}\"",
     "check_before_installing": "Prüfung vor der Installation",
-    "add_text": "Addition{title}"
+    "add_text": "Addition{title}",
+    "maximum_recalculate_label": "Passagen maximal neu berechnen (kein Limit + Fließtext-Extraktion)",
+    "maximum_recalculate_hint": "Behält jede mögliche Passage über Absatzgrenzen hinweg für maximale Vielfalt. Benötigt mehr Speicherplatz."
   },
   "dataset_cap": {
     "custom_number_of_passages_per": "Benutzerdefinierte Anzahl von Passagen pro Länge",
@@ -69,7 +76,9 @@
     "rebuilt_summary": "Wiederaufgebaut{name}\": {passages}{size}, {cap}.",
     "size_suffix": ", {size}",
     "download": "Download",
-    "passages": "Durchgänge"
+    "passages": "Durchgänge",
+    "maximum_preset_btn": "Maximum",
+    "incompatible_warning": "Die Sprache dieses Datensatzes stimmt nicht mit Ihrer Sprache überein; er bleibt von Übungen ausgeschlossen."
   },
   "dataset_install_flow": {
     "translator_optional": "Übersetzer (fakultativ)",
@@ -105,7 +114,27 @@
     "each_file_must_be_under": "Jede Datei muss unter 20 MB sein.",
     "added": "Zugesetzt{what}",
     "quoted_title": "\"{title}\"",
-    "added_some": "Zugesetzt{texts}; Links unticked, ohne Schreibprosa:{skipped}"
+    "added_some": "Zugesetzt{texts}; Links unticked, ohne Schreibprosa:{skipped}",
+    "language": "Sprache",
+    "language_hint": "Sprache dieses Datensatzes",
+    "from_wikipedia": "aus Wikipedia",
+    "wikipedia_heading": "aus Wikipedia importieren",
+    "wikipedia_articles_label": "Artikel oder Webadressen (eine pro Zeile)",
+    "wikipedia_articles_placeholder": "Sonnensystem\nde:Albert Einstein\nhttps://de.wikipedia.org/wiki/Erde",
+    "wikipedia_search_placeholder": "Wikipedia-Artikel durchsuchen…",
+    "wikipedia_search_button": "suchen",
+    "wikipedia_searching": "Wikipedia wird durchsucht…",
+    "wikipedia_no_search_results": "keine passenden Artikel gefunden",
+    "wikipedia_disambiguation_title": "Artikel für „{title}“ auswählen",
+    "wikipedia_disambiguation_hint": "Dieser Titel ist eine Begriffsklärungsseite. Wählen Sie den gewünschten Artikel oder die Artikel aus:",
+    "wikipedia_disambiguation_add": "Auswahl hinzufügen",
+    "wikipedia_privacy_note": "Dies fragt Wikipedia nach den Artikeln ab; Wikimedia sieht daher Ihre IP-Adresse und die angegebenen Titel oder Suchbegriffe.",
+    "wikipedia_licensing_notice": "Die meisten Wikipedia-Texte sind unter CC BY-SA 4.0 und der GNU-Lizenz für freie Dokumentation (GFDL) verfügbar, es können jedoch Ausnahmen und weitere Bedingungen gelten. Kalibre extrahiert und bereinigt Artikeltexte, sodass das Ergebnis von der Quelle abweichen kann. Bewahren Sie vor dem Exportieren oder Weitergeben die Quellen- und Lizenzlinks des Artikels, kennzeichnen Sie Änderungen und beachten Sie alle geltenden Share-Alike-Bedingungen. Prüfen Sie die Lizenzdetails jedes Artikels. Wikipedia und Wikimedia unterstützen oder empfehlen Kalibre nicht.",
+    "wikipedia_licensing_acknowledge": "Ich verstehe und stimme zu",
+    "wikipedia_licensing_reopen": "Lizenzhinweis",
+    "wikipedia_fetch_button": "Artikel abrufen",
+    "wikipedia_cancel_button": "Abruf abbrechen",
+    "wikipedia_skipped_summary": "{count, plural, one {# Artikel übersprungen} other {# Artikel übersprungen}}"
   },
   "library": {
     "looking_in_the_libraries": "Blick in die Bibliotheken...",
@@ -132,7 +161,28 @@
     "has_no_texts": "\"{name}„Es hat keine Texte.",
     "is_too_large": "{id}/{path}Ist zu groß.",
     "has_files_its_checksum_list": "\"{name}\"Hat Dateien, die seine Prüfsummenliste nicht abdeckt, also wurde sie nicht heruntergeladen.\"",
-    "is_too_large_to_download": "\"{name}Ist zu groß zum Download."
+    "is_too_large_to_download": "\"{name}Ist zu groß zum Download.",
+    "already_added": "Diese Bibliothek befindet sich bereits in der Auswahl.",
+    "checking_library": "Bibliothek wird überprüft…",
+    "chooser_hint": "Wählen Sie eine Bibliothek, um ihre Bücher und Zitatesammlungen zu durchsuchen. Jede Bibliothek hat eine eigene Datensatzliste.",
+    "chooser_count": "{count, plural, one {# Bibliothek verfügbar} other {# Bibliotheken verfügbar}}",
+    "downloadable_count": "{count, plural, one {# Datensatz zum Download verfügbar} other {# Datensätze zum Download verfügbar}}",
+    "last_updated": "Zuletzt aktualisiert am {date}",
+    "last_updated_unknown": "Aktualisierungsdatum nicht verfügbar",
+    "browse_datasets": "Datensätze durchsuchen",
+    "open_library": "Datensätze in {name} durchsuchen",
+    "add_library_heading": "Weitere Bibliothek hinzufügen",
+    "add_library_hint": "Fügen Sie eine öffentliche Kalibre-Bibliothek per Eigentümer/Repo oder HTTPS-Adresse hinzu. Die Datensätze werden separat aufgeführt.",
+    "search_this_library": "Datensätze dieser Bibliothek durchsuchen",
+    "no_matching_datasets": "Keine Datensätze entsprechen dieser Suche.",
+    "no_datasets_available": "In dieser Bibliothek sind keine Datensätze verfügbar.",
+    "more_results": "{count, plural, one {# weiterer Datensatz; grenzen Sie Ihre Suche ein} other {# weitere Datensätze; grenzen Sie Ihre Suche ein}}",
+    "unavailable_count": "{count, plural, one {# Bibliothek konnte nicht erreicht werden} other {# Bibliotheken konnten nicht erreicht werden}}",
+    "third_party_disclaimer": "Aus einer Drittanbieter-Bibliothek; Kalibre hat diesen Inhalt nicht geprüft.",
+    "browser_column": "Ergebnisspalte der Datensätze",
+    "incompatible_warning": "Die Sprache dieses Datensatzes stimmt nicht mit Ihrer Sprache überein; er bleibt von Übungen ausgeschlossen.",
+    "hide_incompatible_label": "Datensätze in anderen Sprachen ausblenden",
+    "hidden_incompatible_count": "({count, plural, one {# in anderer Sprache ausgeblendet} other {# in anderen Sprachen ausgeblendet}})"
   },
   "datasets": {
     "where_private_files": "Der private Dateispeicher dieses Browsers",
@@ -143,13 +193,58 @@
     "storage_kept": "Installierte Datensätze werden in{where}.",
     "installed_quotes": "Eingebaut.{name}\": {count}Zitate (Duplikate entfernt).",
     "saved_summary": "Gespeichert{name}\": {texts}, {passages}. ",
-    "installed_summary": "Eingebaut.{name}\": {texts}, {passages}. "
+    "installed_summary": "Eingebaut.{name}\": {texts}, {passages}. ",
+    "hide_incompatible_label": "Datensätze in anderen Sprachen ausblenden",
+    "hidden_incompatible_count": "({count, plural, one {# in anderer Sprache ausgeblendet} other {# in anderen Sprachen ausgeblendet}})"
   },
   "dataset_draft": {
     "untitled": "Unbetitelt"
   },
   "dataset_install": {
     "has_no_usable_prose_it": "\"{title}\" Hat keine brauchbare Prosa (es braucht Sätze, nicht nur Überschriften oder Listen). \"",
-    "this_file_is_not_a": "Diese Datei ist kein Kalibre-Datensatzpaket."
+    "this_file_is_not_a": "Diese Datei ist kein Kalibre-Datensatzpaket.",
+    "language_required": "Eine Sprache ist erforderlich, um einen Datensatz zu erstellen."
+  },
+  "search": {
+    "placeholder": "Datensätze nach Titel, Autor oder Lizenz durchsuchen…",
+    "aria_label": "Datensätze durchsuchen",
+    "clear": "löschen",
+    "clear_aria": "Suchanfrage löschen",
+    "no_matches": "Keine Datensätze passen zu „{query}“",
+    "matching_count": "{count, plural, one {# passender Datensatz} other {# passende Datensätze}}"
+  },
+  "sort": {
+    "label": "sortieren nach",
+    "name": "Name",
+    "passages": "Passagen",
+    "texts": "Texte",
+    "size": "Größe",
+    "asc": "aufsteigend",
+    "desc": "absteigend",
+    "toggle_direction": "Sortierrichtung umschalten: derzeit {direction}"
+  },
+  "pagination": {
+    "nav_aria": "Datensatzseiten",
+    "prev": "vorherige Seite",
+    "next": "nächste Seite",
+    "page_of": "Seite {current} von {total}",
+    "total_count": "({count, plural, one {# Datensatz} other {# Datensätze}})"
+  },
+  "details": {
+    "quotes_summary": "{count, plural, one {# Zitat} other {# Zitate}} in dieser Sammlung",
+    "no_books": "keine Bücher in diesem Datensatz gefunden",
+    "table_title": "Titel",
+    "table_words": "Wörter",
+    "table_passages": "Passagen",
+    "table_composition": "Zusammensetzung",
+    "total_books": "gesamt ({count, plural, one {# Buch} other {# Bücher}})",
+    "table_author": "Autor",
+    "composition_sort_by": "nach Größe sortieren",
+    "composition_total": "Passagen insgesamt",
+    "composition_small": "klein",
+    "composition_medium": "mittel",
+    "composition_large": "groß",
+    "composition_huge": "sehr groß",
+    "composition_massive": "riesig"
   }
 }

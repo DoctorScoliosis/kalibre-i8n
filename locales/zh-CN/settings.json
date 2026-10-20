@@ -175,7 +175,9 @@
         "cream": "奶油",
         "rose": "玫瑰",
         "harbour": "港口",
-        "contrast": "高对比度"
+        "contrast": "高对比度",
+        "nordic": "北欧",
+        "copper": "黄铜"
       }
     },
     "themeDark": {
@@ -189,7 +191,9 @@
         "plum": "李子",
         "slate": "石板",
         "terminal": "终端",
-        "contrast-night": "高对比度夜间"
+        "contrast-night": "高对比度夜间",
+        "cyber": "赛博",
+        "amber": "琥珀"
       }
     },
     "theme": {
@@ -210,7 +214,11 @@
         "slate": "石板",
         "terminal": "终端",
         "contrast": "高对比度",
-        "contrast-night": "高对比度夜间"
+        "contrast-night": "高对比度夜间",
+        "nordic": "北欧",
+        "copper": "黄铜",
+        "cyber": "赛博",
+        "amber": "琥珀"
       }
     },
     "customThemes": {
@@ -231,7 +239,11 @@
         "400": "400",
         "500": "500",
         "600": "600",
-        "700": "700"
+        "700": "700",
+        "100": "纤细",
+        "200": "超细",
+        "800": "特粗",
+        "900": "浓黑"
       }
     },
     "typingLineHeight": {
@@ -447,7 +459,8 @@
         "zh-CN": "简体中文 (Chinese Simplified)",
         "qps": "pseudo",
         "qps-wide": "pseudo wide"
-      }
+      },
+      "picker_title": "选择语言"
     },
     "backupFrequency": {
       "label": "自动备份",
@@ -597,6 +610,27 @@
     },
     "numpadConfig": {
       "label": "十键测试设置"
+    },
+    "customVisionProfiles": {
+      "label": "自定义视觉配色方案"
+    },
+    "hideIncompatibleDatasets": {
+      "label": "隐藏其他语言的数据集"
+    },
+    "calPetsToSleep": {
+      "label": "抚摸 {companion} 使其入睡的次数"
+    },
+    "calEarlyWakes": {
+      "label": "过早唤醒 {companion} 的次数"
+    },
+    "calOvernightSleep": {
+      "label": "{companion} 整夜睡眠进度"
+    },
+    "calOvernightDone": {
+      "label": "伙伴整夜睡眠成就已达成"
+    },
+    "calShutdown": {
+      "label": "{companion} 关机状态"
     }
   },
   "actions": {
@@ -668,7 +702,10 @@
     "export_first": "请先导出",
     "kalibre_is_using_of_the": "Kalibre 正在使用此浏览器允许的 {formatSize2} 中的 {formatSize}。",
     "kalibre_is_using_about": "Kalibre 大约使用了 {formatSize}。",
-    "couldn_t_measure": "无法测量：{message}"
+    "couldn_t_measure": "无法测量：{message}",
+    "profile_breakdown": "此配置文件的构成",
+    "downloaded_from_libraries": "从库下载",
+    "imported_by_you": "由您导入"
   },
   "theme_editor": {
     "sample_of_this_theme": "此主题的示例",
@@ -705,7 +742,8 @@
       "heat1": "按键热度 1",
       "heat2": "按键热度 2",
       "heat3": "按键热度 3",
-      "heat4": "按键热度 4"
+      "heat4": "按键热度 4",
+      "corrected": "首次更正"
     },
     "sample_correct": "quick brown ",
     "sample_incorrect": "fxo",
@@ -736,10 +774,45 @@
     "content": "内容",
     "training": "训练",
     "accessibility": "无障碍",
-    "data": "数据"
+    "data": "数据",
+    "manage-data": "管理数据"
   },
   "stepper": {
     "decrease": "减少 {label}",
     "increase": "增加 {label}"
+  },
+  "vision_tester": {
+    "open_tester": "测试面板与自定义方案",
+    "title": "色彩视觉测试面板",
+    "modes_heading": "视觉模式与滤镜",
+    "current_mode": "当前生效：{name}",
+    "previewing_mode": "预览中：{name}",
+    "apply": "应用模式",
+    "cancel": "取消",
+    "close": "关闭",
+    "custom_profiles": "自定义方案",
+    "create_profile": "新建自定义方案",
+    "edit_profile": "编辑方案",
+    "delete_profile": "删除方案",
+    "profile_name": "方案名称",
+    "export": "导出方案",
+    "import": "导入方案",
+    "import_error": "导入失败：{reason}",
+    "import_invalid_json": "无效的 JSON 格式",
+    "import_invalid_envelope": "无效的格式包装",
+    "import_unsupported_version": "不支持的方案版本：{version}",
+    "imported": "已导入方案“{name}”",
+    "sample_heading": "实时语义示例",
+    "sample_caption": "示例展示真实的打字文本、错误、多余字符、图表曲线、热力渐变及状态指示器。",
+    "disclaimer": "调整仅用于改善界面的无障碍体验与色彩区分度，不具备任何诊断或治疗视觉疾患的功能。",
+    "validation_error": "无法保存方案：{reason}",
+    "duplicate_name": "已存在名为“{name}”的方案。",
+    "monotonic_hint": "热力渐变必须保持严格有序的亮度递变。",
+    "monochrome_hint": "核心界面元素必须保持清晰可辨。",
+    "status_ok": "正常",
+    "status_warn": "待检查",
+    "status_fail": "异常",
+    "tap_to_preview": "预览",
+    "reset_to_preset": "重置"
   }
 }

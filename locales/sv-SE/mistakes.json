@@ -70,7 +70,13 @@
     "stop_aria": "sluta träna {mistake}",
     "export": "exportera ",
     "csv": "csv",
-    "json": "json"
+    "json": "json",
+    "train_selected": "öva på valda",
+    "train_all": "öva på alla",
+    "select_mistake": "välj {mistake}",
+    "select_all": "välj alla",
+    "view_trend": "visa trend för {mistake}",
+    "view_trend_title": "Granska trend för {mistake}"
   },
   "filters": {
     "all": "alla",
@@ -94,7 +100,8 @@
     "pager_aria": "sidor i misstagtabellen",
     "no_qualifiers_mistakes": "Inga {qualifiers} misstag{inSection, select, true { i {section}} other {}} ännu.",
     "no_in_section": "Inga misstag i {section} ännu.",
-    "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa misstag i träningen."
+    "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa misstag i träningen.",
+    "selected_count": "{count, plural, one {# vald} other {# valda}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label}-misstag – klicka för att isolera",
@@ -111,7 +118,24 @@
     "rate_over_tests": "felfrekvens {from} → {to} över {count, plural, one {# test} other {# tester}}",
     "mark_label": "{mistake}: {rate} av gångerna",
     "started_at": "{summary} · började träna vid {rate}",
-    "keyboard_label": "Tangentbord med {count, plural, one {# misstag} other {# misstag}} markerade. Listan nedan innehåller samma misstag."
+    "keyboard_label": "Tangentbord med {count, plural, one {# misstag} other {# misstag}} markerade. Listan nedan innehåller samma misstag.",
+    "key_with_mistakes": "{key} ({count, plural, one {# fel} other {# fel}}) – klicka för att isolera",
+    "key_no_mistakes": "{key} (inga fel registrerade)",
+    "key_isolated": "tangent {key}",
+    "key_isolated_summary": "{count, plural, one {# fel} other {# fel}} på eller som glider in på denna tangent",
+    "show_all_keys": "visa alla tangenter",
+    "show_all_keys_aria": "rensa tangentisolering och visa alla fel",
+    "no_key_mistakes": "Inga fel registrerade för {key}.",
+    "no_words_for_key": "Inga ord eller mellanslag registrerade för {key}.",
+    "illustrates_mistake": "i {mistake}",
+    "rel_outgoing": "avsåg {expected} → tryckte {typed}",
+    "rel_incoming": "avvikelse från {expected}",
+    "rel_missed": "missad",
+    "rel_extra": "extra",
+    "rel_shift": "skift",
+    "rel_swapped": "ombytt med {other}",
+    "rel_persistent": "ihållande",
+    "space_key_name": "mellanslag"
   },
   "mistakes": {
     "actions": "åtgärder",
@@ -175,5 +199,21 @@
     "hesitation_before": "paus före {expected}",
     "hesitation": "tvekan",
     "tricky": "knepigt: {expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · felfrekvenstrend",
+    "table_caption": "Testhistorik och felkvoter för {mistake}",
+    "test_column_date": "datum",
+    "test_column_source": "test",
+    "test_column_exposures": "inskrivet",
+    "test_column_errors": "fel",
+    "test_column_rate": "felkvot",
+    "point_info": "{date} · {source} · {errors} av {exposures} fel ({rate})",
+    "started_baseline": "startade på {rate}",
+    "goal_improving": "förbättras ({rate})",
+    "goal_mastered": "bemästrat ({rate})",
+    "zoom": "zoom",
+    "no_data": "inte tillräckligt med testhistorik för detta fel än",
+    "test_source_default": "test"
   }
 }

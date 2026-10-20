@@ -89,7 +89,10 @@
     "spaceWordBombs": "{count, plural, one {de woordenbom één keer in Space afvuren} other {de woordenbom {count} keer in Space afvuren}}",
     "unknown": "onbekend",
     "progress_suffix": " ({have} van {need})",
-    "secret_hint": "een geheim: blijf spelen"
+    "secret_hint": "een geheim: blijf spelen",
+    "petsToSleep": "aai je metgezel weer in slaap {count, plural, one {# keer} other {# keer}}",
+    "earlyWakes": "maak je metgezel kort na het inslapen wakker {count, plural, one {# keer} other {# keer}}",
+    "overnightSleep": "laat je metgezel ’s nachts {hours, plural, one {# uur} other {# uur}} slapen op de over-pagina"
   },
   "first-test": {
     "name": "eerste stappen"
@@ -344,34 +347,44 @@
     "name": "hoofdcorrector"
   },
   "buffet-host": {
-    "name": "buffethost"
+    "name": "buffethost",
+    "says": "houd een Feed-buffet 5 minuten open"
   },
   "full-house": {
-    "name": "volle bak"
+    "name": "volle bak",
+    "says": "voltooi in totaal 50 buffetbestellingen in Feed"
   },
   "no-hints": {
-    "name": "geen hints nodig"
+    "name": "geen hints nodig",
+    "says": "houd het 3 minuten vol als kieskeurige eter in Feed zonder een woord met hint te voeren"
   },
   "station-down": {
-    "name": "station uitgevallen"
+    "name": "station uitgevallen",
+    "says": "vernietig een ruimtestation in Space"
   },
   "shrapnel-storm": {
-    "name": "granaatschervenstorm"
+    "name": "granaatschervenstorm",
+    "says": "vernietig 3 vijanden met de scherven van één landmijn in Space"
   },
   "stacked": {
-    "name": "gestapeld"
+    "name": "gestapeld",
+    "says": "activeer twee power-ups tegelijk in Space"
   },
   "autopilot-ace": {
-    "name": "autopilot-ster"
+    "name": "autopilot-ster",
+    "says": "vernietig in totaal 10 vijanden met de automaat in Space"
   },
   "dazed": {
-    "name": "duizelig en verward"
+    "name": "duizelig en verward",
+    "says": "verdoof in totaal 25 aanvallers in Castle"
   },
   "spoils-of-war": {
-    "name": "oorlogsbuit"
+    "name": "oorlogsbuit",
+    "says": "gebruik in totaal 10 power-ups in Castle"
   },
   "clean-sweep": {
-    "name": "grote schoonmaak"
+    "name": "grote schoonmaak",
+    "says": "herstel elke fout in een Spot-passage zonder een correct woord te markeren"
   },
   "race-first": {
     "name": "op je plaatsen"
@@ -639,5 +652,64 @@
     "badges": "badges",
     "extras": "extra's",
     "sections_label": "prestatieonderdelen"
+  },
+  "wpm-90": {
+    "name": "negentig woorden"
+  },
+  "words-50k": {
+    "name": "vijftigduizend"
+  },
+  "sustained-15": {
+    "name": "vijftien minuten"
+  },
+  "books-3": {
+    "name": "trilogie"
+  },
+  "mastered-50": {
+    "name": "vijftig hersteld"
+  },
+  "drills-25": {
+    "name": "drilsergeant"
+  },
+  "sweet-dreams": {
+    "name": "zoete dromen"
+  },
+  "early-wake": {
+    "name": "nu al?"
+  },
+  "overnight-sleep": {
+    "name": "diep in slaap"
+  },
+  "siege-breaker": {
+    "name": "belegeringsbreker",
+    "says": "vernietig in totaal 10 katapulten in Castle"
+  },
+  "bomb-disposal": {
+    "name": "bommenopruiming",
+    "says": "ontmantel in totaal 25 staven dynamiet in Castle"
+  },
+  "bucket-brigade": {
+    "name": "emmerbrigade",
+    "says": "blus in totaal 25 branden in Castle"
+  },
+  "giant-killer": {
+    "name": "reuzendoder",
+    "says": "versla een reus in Castle"
+  },
+  "reinforcements": {
+    "name": "versterkingen",
+    "says": "stuur in totaal 100 soldaten op pad in Castle"
+  },
+  "king-safe": {
+    "name": "koning veilig",
+    "says": "win een Castle-klim"
+  },
+  "off-the-wall": {
+    "name": "van de muur",
+    "says": "duw in totaal 20 ladders van de toren in Castle"
+  },
+  "cut-loose": {
+    "name": "losgesneden",
+    "says": "snijd in totaal 20 enterhaken los in Castle"
   }
 }

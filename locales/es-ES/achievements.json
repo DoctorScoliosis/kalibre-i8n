@@ -89,7 +89,10 @@
     "spaceWordBombs": "{count, plural, one {usa la bomba de palabras en Espacio una vez} many {usa la bomba de palabras en Espacio {count} veces} other {usa la bomba de palabras en Espacio {count} veces}}",
     "unknown": "desconocido",
     "progress_suffix": " ({have} de {need})",
-    "secret_hint": "un secreto: sigue jugando"
+    "secret_hint": "un secreto: sigue jugando",
+    "petsToSleep": "acaricia a tu compañero para que se duerma {count, plural, one {# vez} other {# veces}}",
+    "earlyWakes": "despierta a tu compañero poco después de dormirse {count, plural, one {# vez} other {# veces}}",
+    "overnightSleep": "deja dormir a tu compañero durante {hours, plural, one {# hora} other {# horas}} por la noche en la página de información"
   },
   "first-test": {
     "name": "primeros pasos"
@@ -344,34 +347,44 @@
     "name": "corrector jefe"
   },
   "buffet-host": {
-    "name": "anfitrión del bufé"
+    "name": "anfitrión del bufé",
+    "says": "mantén un bufé de Feed abierto durante 5 minutos"
   },
   "full-house": {
-    "name": "casa llena"
+    "name": "casa llena",
+    "says": "completa 50 pedidos del bufé en Feed en total"
   },
   "no-hints": {
-    "name": "sin pistas"
+    "name": "sin pistas",
+    "says": "aguanta 3 minutos como comensal exigente en Feed sin darle una palabra con pista"
   },
   "station-down": {
-    "name": "estación abatida"
+    "name": "estación abatida",
+    "says": "destruye una estación espacial en Space"
   },
   "shrapnel-storm": {
-    "name": "tormenta de metralla"
+    "name": "tormenta de metralla",
+    "says": "destruye 3 enemigos con la metralla de una mina en Space"
   },
   "stacked": {
-    "name": "acumulado"
+    "name": "acumulado",
+    "says": "activa dos mejoras a la vez en Space"
   },
   "autopilot-ace": {
-    "name": "as del piloto automático"
+    "name": "as del piloto automático",
+    "says": "destruye 10 enemigos con el autómata en Space en total"
   },
   "dazed": {
-    "name": "aturdido y confundido"
+    "name": "aturdido y confundido",
+    "says": "aturde a 25 atacantes en Castle en total"
   },
   "spoils-of-war": {
-    "name": "botín de guerra"
+    "name": "botín de guerra",
+    "says": "usa 10 mejoras en Castle en total"
   },
   "clean-sweep": {
-    "name": "limpieza total"
+    "name": "limpieza total",
+    "says": "corrige todos los errores de un texto en Spot sin señalar ninguna palabra correcta"
   },
   "race-first": {
     "name": "en sus marcas"
@@ -639,5 +652,64 @@
     "badges": "insignias",
     "extras": "extras",
     "sections_label": "secciones de logros"
+  },
+  "wpm-90": {
+    "name": "noventa palabras"
+  },
+  "words-50k": {
+    "name": "cincuenta mil"
+  },
+  "sustained-15": {
+    "name": "quince minutos"
+  },
+  "books-3": {
+    "name": "trilogía"
+  },
+  "mastered-50": {
+    "name": "cincuenta corregidos"
+  },
+  "drills-25": {
+    "name": "sargento de instrucción"
+  },
+  "sweet-dreams": {
+    "name": "dulces sueños"
+  },
+  "early-wake": {
+    "name": "¿ya?"
+  },
+  "overnight-sleep": {
+    "name": "profundamente dormido"
+  },
+  "siege-breaker": {
+    "name": "rompedor de asedios",
+    "says": "destruye 10 catapultas en Castle en total"
+  },
+  "bomb-disposal": {
+    "name": "desactivación de bombas",
+    "says": "desarma 25 cartuchos de dinamita en Castle en total"
+  },
+  "bucket-brigade": {
+    "name": "cadena de cubos",
+    "says": "apaga 25 fuegos en Castle en total"
+  },
+  "giant-killer": {
+    "name": "matagigantes",
+    "says": "derriba a un gigante en Castle"
+  },
+  "reinforcements": {
+    "name": "refuerzos",
+    "says": "envía a 100 soldados en Castle en total"
+  },
+  "king-safe": {
+    "name": "rey a salvo",
+    "says": "gana una escalada en Castle"
+  },
+  "off-the-wall": {
+    "name": "fuera del muro",
+    "says": "empuja 20 escaleras fuera de la torre en Castle en total"
+  },
+  "cut-loose": {
+    "name": "soltar amarras",
+    "says": "corta 20 ganchos de agarre en Castle en total"
   }
 }

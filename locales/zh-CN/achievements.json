@@ -88,7 +88,11 @@
     "spaceWordBombs": "{count, plural, other {在太空中引爆 # 次单词炸弹}}",
     "unknown": "未知",
     "progress_suffix": "（{have} / {need}）",
-    "secret_hint": "隐藏成就：继续玩下去"
+    "secret_hint": "隐藏成就：继续玩下去",
+    "petsToSleep": "抚摸你的伙伴使其入睡 {count, plural, other {# 次}}",
+    "earlyWakes": "在你的伙伴刚入睡后将其唤醒 {count, plural, other {# 次}}",
+    "overnightSleep": "在“关于”页面让你的伙伴整夜睡眠 {hours, plural, other {# 小时}}",
+    "lastLessonDone": "完成“学习”中的最后一课"
   },
   "first-test": {
     "name": "第一步"
@@ -343,34 +347,44 @@
     "name": "首席校对员"
   },
   "buffet-host": {
-    "name": "自助餐主人"
+    "name": "自助餐主人",
+    "says": "在 Feed 中保持自助餐开放 5 分钟"
   },
   "full-house": {
-    "name": "满堂彩"
+    "name": "满堂彩",
+    "says": "在 Feed 中累计完成 50 份自助餐订单"
   },
   "no-hints": {
-    "name": "无需提示"
+    "name": "无需提示",
+    "says": "作为 Feed 中的挑食者坚持 3 分钟且不喂食任何带提示的单词"
   },
   "station-down": {
-    "name": "空间站摧毁"
+    "name": "空间站摧毁",
+    "says": "在 Space 中摧毁一座空间站"
   },
   "shrapnel-storm": {
-    "name": "弹片风暴"
+    "name": "弹片风暴",
+    "says": "在 Space 中用一枚地雷的弹片摧毁 3 个敌人"
   },
   "stacked": {
-    "name": "堆叠大师"
+    "name": "堆叠大师",
+    "says": "在 Space 中同时运行两个增强道具"
   },
   "autopilot-ace": {
-    "name": "自动驾驶王牌"
+    "name": "自动驾驶王牌",
+    "says": "在 Space 中累计使用自动机摧毁 10 个敌人"
   },
   "dazed": {
-    "name": "晕头转向"
+    "name": "晕头转向",
+    "says": "在 Castle 中累计击晕 25 名进攻者"
   },
   "spoils-of-war": {
-    "name": "战利品"
+    "name": "战利品",
+    "says": "在 Castle 中累计使用 10 个增强道具"
   },
   "clean-sweep": {
-    "name": "完美清除"
+    "name": "完美清除",
+    "says": "修复 Spot 段落中的所有错误且未标记任何正确单词"
   },
   "race-first": {
     "name": "各就各位"
@@ -638,5 +652,64 @@
     "badges": "徽章",
     "extras": "额外",
     "sections_label": "成就分类"
+  },
+  "wpm-90": {
+    "name": "九十词"
+  },
+  "words-50k": {
+    "name": "五万词"
+  },
+  "sustained-15": {
+    "name": "十五分钟"
+  },
+  "books-3": {
+    "name": "三部曲"
+  },
+  "mastered-50": {
+    "name": "修复五十项"
+  },
+  "drills-25": {
+    "name": "训练教官"
+  },
+  "sweet-dreams": {
+    "name": "美梦成真"
+  },
+  "early-wake": {
+    "name": "这么快？"
+  },
+  "overnight-sleep": {
+    "name": "安睡整夜"
+  },
+  "siege-breaker": {
+    "name": "攻城破除者",
+    "says": "在 Castle 中累计摧毁 10 辆投石车"
+  },
+  "bomb-disposal": {
+    "name": "炸弹拆除",
+    "says": "在 Castle 中累计拆除 25 根炸药棒"
+  },
+  "bucket-brigade": {
+    "name": "消防水桶队",
+    "says": "在 Castle 中累计扑灭 25 处火灾"
+  },
+  "giant-killer": {
+    "name": "巨人杀手",
+    "says": "在 Castle 中击倒一名巨人"
+  },
+  "reinforcements": {
+    "name": "援军抵达",
+    "says": "在 Castle 中累计派遣 100 名士兵"
+  },
+  "king-safe": {
+    "name": "国王安然无恙",
+    "says": "在 Castle 攀升模式中获胜"
+  },
+  "off-the-wall": {
+    "name": "推离城墙",
+    "says": "在 Castle 中累计将 20 架云梯推离塔楼"
+  },
+  "cut-loose": {
+    "name": "斩断抓钩",
+    "says": "在 Castle 中累计砍断 20 个抓钩"
   }
 }

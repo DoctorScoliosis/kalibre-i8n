@@ -89,7 +89,10 @@
     "spaceWordBombs": "{count, plural, one {tirer la bombe de mots dans Espace une fois} many {tirer la bombe de mots dans Espace {count} fois} other {tirer la bombe de mots dans Espace {count} fois}}",
     "unknown": "inconnu",
     "progress_suffix": " ({have} sur {need})",
-    "secret_hint": "un secret : continuez à jouer"
+    "secret_hint": "un secret : continuez à jouer",
+    "petsToSleep": "caressez votre compagnon pour le rendormir {count, plural, one {# fois} other {# fois}}",
+    "earlyWakes": "réveillez votre compagnon peu après son endormissement {count, plural, one {# fois} other {# fois}}",
+    "overnightSleep": "laissez votre compagnon dormir pendant {hours, plural, one {# heure} other {# heures}} la nuit sur la page À propos"
   },
   "first-test": {
     "name": "Premiers pas"
@@ -344,34 +347,44 @@
     "name": "Correcteur en chef"
   },
   "buffet-host": {
-    "name": "Hôte du buffet"
+    "name": "Hôte du buffet",
+    "says": "gardez un buffet Feed ouvert pendant 5 minutes"
   },
   "full-house": {
-    "name": "Complet"
+    "name": "Complet",
+    "says": "servez 50 commandes de buffet dans Feed au total"
   },
   "no-hints": {
-    "name": "Aucun indice nécessaire"
+    "name": "Aucun indice nécessaire",
+    "says": "tenez 3 minutes en mangeur difficile dans Feed sans lui donner un mot avec indice"
   },
   "station-down": {
-    "name": "Station hors service"
+    "name": "Station hors service",
+    "says": "détruisez une station spatiale dans Space"
   },
   "shrapnel-storm": {
-    "name": "Tempête d'éclats"
+    "name": "Tempête d'éclats",
+    "says": "détruisez 3 ennemis avec les éclats d’une mine dans Space"
   },
   "stacked": {
-    "name": "Empilé"
+    "name": "Empilé",
+    "says": "activez deux bonus en même temps dans Space"
   },
   "autopilot-ace": {
-    "name": "As du pilotage automatique"
+    "name": "As du pilotage automatique",
+    "says": "détruisez 10 ennemis avec l’automate dans Space au total"
   },
   "dazed": {
-    "name": "Étourdi et confus"
+    "name": "Étourdi et confus",
+    "says": "étourdissez 25 assaillants dans Castle au total"
   },
   "spoils-of-war": {
-    "name": "Butin de guerre"
+    "name": "Butin de guerre",
+    "says": "utilisez 10 bonus dans Castle au total"
   },
   "clean-sweep": {
-    "name": "Coup de balai"
+    "name": "Coup de balai",
+    "says": "corrigez toutes les erreurs d’un passage Spot sans signaler un mot correct"
   },
   "race-first": {
     "name": "À vos marques"
@@ -639,5 +652,64 @@
     "badges": "badges",
     "extras": "extras",
     "sections_label": "sections de réussites"
+  },
+  "wpm-90": {
+    "name": "quatre-vingt-dix mots"
+  },
+  "words-50k": {
+    "name": "cinquante mille"
+  },
+  "sustained-15": {
+    "name": "quinze minutes"
+  },
+  "books-3": {
+    "name": "trilogie"
+  },
+  "mastered-50": {
+    "name": "cinquante corrigés"
+  },
+  "drills-25": {
+    "name": "sergent instructeur"
+  },
+  "sweet-dreams": {
+    "name": "fais de beaux rêves"
+  },
+  "early-wake": {
+    "name": "déjà ?"
+  },
+  "overnight-sleep": {
+    "name": "profondément endormi"
+  },
+  "siege-breaker": {
+    "name": "briseur de siège",
+    "says": "détruisez 10 catapultes dans Castle au total"
+  },
+  "bomb-disposal": {
+    "name": "démineur",
+    "says": "désamorcez 25 bâtons de dynamite dans Castle au total"
+  },
+  "bucket-brigade": {
+    "name": "chaîne des seaux",
+    "says": "éteignez 25 incendies dans Castle au total"
+  },
+  "giant-killer": {
+    "name": "tueur de géant",
+    "says": "terrassez un géant dans Castle"
+  },
+  "reinforcements": {
+    "name": "renforts",
+    "says": "déployez 100 soldats dans Castle au total"
+  },
+  "king-safe": {
+    "name": "roi en sécurité",
+    "says": "remportez une ascension Castle"
+  },
+  "off-the-wall": {
+    "name": "bas les échelles",
+    "says": "repoussez 20 échelles de la tour dans Castle au total"
+  },
+  "cut-loose": {
+    "name": "cordes coupées",
+    "says": "tranchez 20 grappins dans Castle au total"
   }
 }

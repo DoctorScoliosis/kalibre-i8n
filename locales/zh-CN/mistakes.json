@@ -70,7 +70,13 @@
     "stop_aria": "停止训练 {mistake}",
     "export": "导出",
     "csv": "csv",
-    "json": "json"
+    "json": "json",
+    "train_selected": "练习所选项",
+    "train_all": "练习全部",
+    "select_mistake": "选择 {mistake}",
+    "select_all": "全选",
+    "view_trend": "查看 {mistake} 的趋势",
+    "view_trend_title": "检查 {mistake} 的趋势"
   },
   "filters": {
     "all": "全部",
@@ -94,7 +100,8 @@
     "pager_aria": "错误表格页面",
     "no_qualifiers_mistakes": "尚无 {qualifiers} 错误{inSection, select, true {在 {section} 中} other {}}。",
     "no_in_section": "在 {section} 中尚无错误。",
-    "training_words_note": "训练中有 {count, plural, other {# 个单词}} 存在一致错误。"
+    "training_words_note": "训练中有 {count, plural, other {# 个单词}} 存在一致错误。",
+    "selected_count": "{count, plural, other {已选 # 项}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label} 错误——单击以隔离",
@@ -111,7 +118,24 @@
     "rate_over_tests": "{count, plural, other {# 次测试}}中的错误率 {from} → {to}",
     "mark_label": "{mistake}：{rate} 的时间",
     "started_at": "{summary} · 在 {rate} 时开始训练",
-    "keyboard_label": "键盘上绘制了 {count, plural, other {# 个错误}}。下面的列表包含相同的错误。"
+    "keyboard_label": "键盘上绘制了 {count, plural, other {# 个错误}}。下面的列表包含相同的错误。",
+    "key_with_mistakes": "{key}（{count, plural, other {# 项错误}}）– 点击以单独查看",
+    "key_no_mistakes": "{key}（未记录错误）",
+    "key_isolated": "按键 {key}",
+    "key_isolated_summary": "{count, plural, other {此按键上或偏移至此按键的 # 项错误}}",
+    "show_all_keys": "显示所有按键",
+    "show_all_keys_aria": "清除按键独立显示并查看所有错误",
+    "no_key_mistakes": "未记录 {key} 的错误。",
+    "no_words_for_key": "未记录包含 {key} 的单词或空格。",
+    "illustrates_mistake": "在 {mistake} 中",
+    "rel_outgoing": "本应为 {expected} → 误按为 {typed}",
+    "rel_incoming": "来自 {expected} 的偏移",
+    "rel_missed": "漏打",
+    "rel_extra": "多余",
+    "rel_shift": "Shift",
+    "rel_swapped": "与 {other} 互换",
+    "rel_persistent": "顽固错误",
+    "space_key_name": "空格键"
   },
   "mistakes": {
     "actions": "操作",
@@ -175,5 +199,21 @@
     "hesitation_before": "在 {expected} 前停顿",
     "hesitation": "犹豫",
     "tricky": "棘手：{expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · 错误率趋势",
+    "table_caption": "{mistake} 的测试历史与错误率",
+    "test_column_date": "日期",
+    "test_column_source": "测试",
+    "test_column_exposures": "输入次数",
+    "test_column_errors": "错误数",
+    "test_column_rate": "错误率",
+    "point_info": "{date} · {source} · {errors} / {exposures} 处错误（{rate}）",
+    "started_baseline": "初始为 {rate}",
+    "goal_improving": "改善中（{rate}）",
+    "goal_mastered": "已掌握（{rate}）",
+    "zoom": "缩放",
+    "no_data": "此错误尚无足够的测试历史",
+    "test_source_default": "测试"
   }
 }

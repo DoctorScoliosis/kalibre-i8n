@@ -70,7 +70,13 @@
     "stop_aria": "Abbruchschulung{mistake}",
     "export": "Ausfuhren",
     "csv": "Csv",
-    "json": "Json"
+    "json": "Json",
+    "train_selected": "Auswahl trainieren",
+    "train_all": "alle trainieren",
+    "select_mistake": "{mistake} auswählen",
+    "select_all": "alle auswählen",
+    "view_trend": "Trend für {mistake} anzeigen",
+    "view_trend_title": "Trend für {mistake} untersuchen"
   },
   "filters": {
     "all": "Alle",
@@ -94,7 +100,8 @@
     "pager_aria": "Fehlertabellen",
     "no_qualifiers_mistakes": "Nein{qualifiers}Fehler{inSection, select, true {In{section}} other {}}Noch nicht.",
     "no_in_section": "Keine Fehler in{section}Noch nicht.",
-    "training_words_note": "{count, plural, one {# Wort} other {# Worte}}Mit konsequenten Fehlern im Training."
+    "training_words_note": "{count, plural, one {# Wort} other {# Worte}}Mit konsequenten Fehlern im Training.",
+    "selected_count": "{count, plural, one {# ausgewählt} other {# ausgewählt}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label}Fehler – Klicken Sie, um zu isolieren",
@@ -111,7 +118,24 @@
     "rate_over_tests": "Fehlerquote{from} → {to}Über{count, plural, one {# Prüfung} other {# Tests}}",
     "mark_label": "{mistake}: {rate}Der Zeit",
     "started_at": "{summary}· Beginn der Ausbildung{rate}",
-    "keyboard_label": "Tastatur mit{count, plural, one {# Fehler} other {#Fehler}}Darauf gezeichnet. Die Liste unten hat die gleichen Fehler."
+    "keyboard_label": "Tastatur mit{count, plural, one {# Fehler} other {#Fehler}}Darauf gezeichnet. Die Liste unten hat die gleichen Fehler.",
+    "key_with_mistakes": "{key} ({count, plural, one {# Fehler} other {# Fehler}}) – zum Isolieren anklicken",
+    "key_no_mistakes": "{key} (keine Fehler aufgezeichnet)",
+    "key_isolated": "Taste {key}",
+    "key_isolated_summary": "{count, plural, one {# Fehler} other {# Fehler}} auf oder abweichend auf diese Taste",
+    "show_all_keys": "alle Tasten anzeigen",
+    "show_all_keys_aria": "Tastenisolierung aufheben und alle Fehler anzeigen",
+    "no_key_mistakes": "Keine Fehler für {key} aufgezeichnet.",
+    "no_words_for_key": "Keine Wörter oder Leerzeichen für {key} aufgezeichnet.",
+    "illustrates_mistake": "in {mistake}",
+    "rel_outgoing": "gedacht: {expected} → getippt: {typed}",
+    "rel_incoming": "Abweichung von {expected}",
+    "rel_missed": "verpasst",
+    "rel_extra": "zusätzlich",
+    "rel_shift": "Umschalt",
+    "rel_swapped": "vertauscht mit {other}",
+    "rel_persistent": "hartnäckig",
+    "space_key_name": "Leertaste"
   },
   "mistakes": {
     "actions": "Maßnahmen",
@@ -175,5 +199,21 @@
     "hesitation_before": "Pause vor{expected}",
     "hesitation": "Zögern",
     "tricky": "Schwierig:{expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · Fehlerratentrend",
+    "table_caption": "Testhistorie und Fehlerraten für {mistake}",
+    "test_column_date": "Datum",
+    "test_column_source": "Test",
+    "test_column_exposures": "getippt",
+    "test_column_errors": "Fehler",
+    "test_column_rate": "Fehlerrate",
+    "point_info": "{date} · {source} · {errors} von {exposures} Fehlern ({rate})",
+    "started_baseline": "begonnen bei {rate}",
+    "goal_improving": "verbessert ({rate})",
+    "goal_mastered": "gemeistert ({rate})",
+    "zoom": "Zoom",
+    "no_data": "noch nicht genügend Testhistorie für diesen Fehler",
+    "test_source_default": "Test"
   }
 }

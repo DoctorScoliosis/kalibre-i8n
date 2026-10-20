@@ -89,7 +89,10 @@
     "spaceWordBombs": "{count, plural, one {dispare a bomba de palavras no Space uma vez} many {dispare a bomba de palavras no Space {count} vezes} other {dispare a bomba de palavras no Space {count} vezes}}",
     "unknown": "desconhecido",
     "progress_suffix": " ({have} de {need})",
-    "secret_hint": "um segredo: continue jogando"
+    "secret_hint": "um segredo: continue jogando",
+    "petsToSleep": "acaricie seu companheiro para dormir {count, plural, one {# vez} other {# vezes}}",
+    "earlyWakes": "acorde seu companheiro logo após ele adormecer {count, plural, one {# vez} other {# vezes}}",
+    "overnightSleep": "deixe seu companheiro dormir por {hours, plural, one {# hora} other {# horas}} durante a noite na página sobre"
   },
   "first-test": {
     "name": "primeiros passos"
@@ -344,34 +347,44 @@
     "name": "chefe da revisão"
   },
   "buffet-host": {
-    "name": "anfitrião do buffet"
+    "name": "anfitrião do buffet",
+    "says": "mantenha um bufê do Feed aberto por 5 minutos"
   },
   "full-house": {
-    "name": "casa cheia"
+    "name": "casa cheia",
+    "says": "atenda a 50 pedidos de bufê no Feed no total"
   },
   "no-hints": {
-    "name": "sem dicas necessárias"
+    "name": "sem dicas necessárias",
+    "says": "resista 3 minutos como comilão exigente no Feed sem alimentá-lo com palavras com dica"
   },
   "station-down": {
-    "name": "estação fora do ar"
+    "name": "estação fora do ar",
+    "says": "destrua uma estação espacial no Space"
   },
   "shrapnel-storm": {
-    "name": "tempestade de estilhaços"
+    "name": "tempestade de estilhaços",
+    "says": "destrua 3 inimigos com os estilhaços de uma mina terrestre no Space"
   },
   "stacked": {
-    "name": "empilhado"
+    "name": "empilhado",
+    "says": "ative dois poderes ao mesmo tempo no Space"
   },
   "autopilot-ace": {
-    "name": "ás do piloto automático"
+    "name": "ás do piloto automático",
+    "says": "destrua 10 inimigos com o autômato no Space no total"
   },
   "dazed": {
-    "name": "atordoado e confuso"
+    "name": "atordoado e confuso",
+    "says": "atordoe 25 atacantes no Castle no total"
   },
   "spoils-of-war": {
-    "name": "espólios de guerra"
+    "name": "espólios de guerra",
+    "says": "use 10 poderes no Castle no total"
   },
   "clean-sweep": {
-    "name": "varredura completa"
+    "name": "varredura completa",
+    "says": "corrija todos os erros de um trecho no Spot sem sinalizar palavras corretas"
   },
   "race-first": {
     "name": "aos seus lugares"
@@ -639,5 +652,64 @@
     "badges": "distintivos",
     "extras": "extras",
     "sections_label": "seções de conquistas"
+  },
+  "wpm-90": {
+    "name": "noventa palavras"
+  },
+  "words-50k": {
+    "name": "cinquenta mil"
+  },
+  "sustained-15": {
+    "name": "quinze minutos"
+  },
+  "books-3": {
+    "name": "trilogia"
+  },
+  "mastered-50": {
+    "name": "cinquenta corrigidos"
+  },
+  "drills-25": {
+    "name": "sargento instrutor"
+  },
+  "sweet-dreams": {
+    "name": "bons sonhos"
+  },
+  "early-wake": {
+    "name": "já?"
+  },
+  "overnight-sleep": {
+    "name": "sono profundo"
+  },
+  "siege-breaker": {
+    "name": "quebrador de cerco",
+    "says": "destrua 10 catapultas no Castle no total"
+  },
+  "bomb-disposal": {
+    "name": "desarme de bombas",
+    "says": "desarme 25 bananas de dinamite no Castle no total"
+  },
+  "bucket-brigade": {
+    "name": "brigada do balde",
+    "says": "apague 25 incêndios no Castle no total"
+  },
+  "giant-killer": {
+    "name": "matador de gigantes",
+    "says": "derrube um gigante no Castle"
+  },
+  "reinforcements": {
+    "name": "reforços",
+    "says": "envie 100 soldados no Castle no total"
+  },
+  "king-safe": {
+    "name": "rei a salvo",
+    "says": "vença uma escalada no Castle"
+  },
+  "off-the-wall": {
+    "name": "fora da muralha",
+    "says": "empurre 20 escadas da torre no Castle no total"
+  },
+  "cut-loose": {
+    "name": "cortar amarras",
+    "says": "corte 20 ganchos no Castle no total"
   }
 }

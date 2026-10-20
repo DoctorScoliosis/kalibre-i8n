@@ -15,7 +15,9 @@
     "install": "installer",
     "find_more": "trouver plus dans la bibliothèque",
     "verb_update": "mettre à jour",
-    "verb_download": "télécharger"
+    "verb_download": "télécharger",
+    "view_details_aria": "afficher les détails de {name}",
+    "details": "détails"
   },
   "chips": {
     "on_server": "sur ce serveur",
@@ -35,14 +37,19 @@
     "library_from": "depuis {name}",
     "library_remove": "supprimer la bibliothèque {name}",
     "library_added": "ajouté {name} : {count, plural, one {# jeu de données} many {# jeux de données} other {# jeux de données}}.",
-    "not_reachable": "inaccessible"
+    "not_reachable": "inaccessible",
+    "rebuilding_started": "reconstruction des passages…",
+    "updating_started": "mise à jour du jeu de données…",
+    "removing_started": "suppression du jeu de données…"
   },
   "install": {
     "include_work": "inclure {title}",
     "text_of_work": "texte de {title}",
     "edit_draft": "modifier \"{name}\"",
     "check_before_installing": "vérifier avant l'installation",
-    "add_text": "ajouter {title}"
+    "add_text": "ajouter {title}",
+    "maximum_recalculate_label": "recalculer les passages au maximum (sans limite + extraction continue)",
+    "maximum_recalculate_hint": "Conserve tous les passages possibles au-delà des limites de paragraphes pour un maximum de variété. Prend plus d’espace de stockage."
   },
   "dataset_cap": {
     "custom_number_of_passages_per": "nombre personnalisé de passages par longueur",
@@ -69,7 +76,9 @@
     "rebuilt_summary": "reconstruit \"{name}\" : {passages}{size}, {cap}.",
     "size_suffix": ", {size}",
     "download": "télécharger",
-    "passages": "passages"
+    "passages": "passages",
+    "maximum_preset_btn": "maximum",
+    "incompatible_warning": "la langue de ce jeu de données ne correspond pas à celle de votre interface ; il reste exclu des exercices."
   },
   "dataset_install_flow": {
     "translator_optional": "traducteur (optionnel)",
@@ -105,7 +114,27 @@
     "each_file_must_be_under": "Chaque fichier doit faire moins de 20 Mo.",
     "added": "ajouté {what}",
     "quoted_title": "\"{title}\"",
-    "added_some": "ajouté {texts} ; non coché, sans prose saisissable : {skipped}"
+    "added_some": "ajouté {texts} ; non coché, sans prose saisissable : {skipped}",
+    "language": "langue",
+    "language_hint": "langue de ce jeu de données",
+    "from_wikipedia": "depuis Wikipédia",
+    "wikipedia_heading": "importer depuis Wikipédia",
+    "wikipedia_articles_label": "articles ou adresses web (une par ligne)",
+    "wikipedia_articles_placeholder": "Système solaire\nfr:Albert Einstein\nhttps://fr.wikipedia.org/wiki/Terre",
+    "wikipedia_search_placeholder": "rechercher des articles Wikipédia…",
+    "wikipedia_search_button": "rechercher",
+    "wikipedia_searching": "recherche sur Wikipédia…",
+    "wikipedia_no_search_results": "aucun article correspondant trouvé",
+    "wikipedia_disambiguation_title": "choisir un article pour « {title} »",
+    "wikipedia_disambiguation_hint": "Ce titre est une page d’homonymie. Choisissez l’article ou les articles souhaités :",
+    "wikipedia_disambiguation_add": "ajouter la sélection",
+    "wikipedia_privacy_note": "cette action demande les articles à Wikipédia ; Wikimédia voit donc votre adresse IP ainsi que les titres ou mots fournis.",
+    "wikipedia_licensing_notice": "La plupart des textes de Wikipédia sont disponibles sous licence CC BY-SA 4.0 et sous licence de documentation libre GNU (GFDL), mais des exceptions et d’autres conditions peuvent s’appliquer. Kalibre extrait et nettoie le texte des articles ; le résultat peut donc différer de la source. Avant d’exporter ou de partager, conservez les liens d’attribution et de licence de l’article, signalez les modifications et respectez les conditions de partage à l’identique applicables. Vérifiez les détails de licence de chaque article. Wikipédia et Wikimédia ne soutiennent ni ne recommandent Kalibre.",
+    "wikipedia_licensing_acknowledge": "Je comprends et j’accepte",
+    "wikipedia_licensing_reopen": "avis de licence",
+    "wikipedia_fetch_button": "récupérer les articles",
+    "wikipedia_cancel_button": "annuler la récupération",
+    "wikipedia_skipped_summary": "{count, plural, one {# article ignoré} other {# articles ignorés}}"
   },
   "library": {
     "looking_in_the_libraries": "recherche dans les bibliothèques…",
@@ -132,7 +161,28 @@
     "has_no_texts": "\"{name}\" ne contient aucun texte.",
     "is_too_large": "{id}/{path} est trop volumineux.",
     "has_files_its_checksum_list": "\"{name}\" contient des fichiers non couverts par sa liste de contrôle, donc il n'a pas été téléchargé.",
-    "is_too_large_to_download": "\"{name}\" est trop volumineux pour être téléchargé."
+    "is_too_large_to_download": "\"{name}\" est trop volumineux pour être téléchargé.",
+    "already_added": "Cette bibliothèque est déjà dans le sélecteur.",
+    "checking_library": "Vérification de la bibliothèque…",
+    "chooser_hint": "Choisissez une bibliothèque pour parcourir ses livres et recueils de citations. Chaque bibliothèque dispose de sa propre liste.",
+    "chooser_count": "{count, plural, one {# bibliothèque disponible} other {# bibliothèques disponibles}}",
+    "downloadable_count": "{count, plural, one {# jeu de données disponible au téléchargement} other {# jeux de données disponibles au téléchargement}}",
+    "last_updated": "Dernière mise à jour : {date}",
+    "last_updated_unknown": "Date de mise à jour non disponible",
+    "browse_datasets": "Parcourir les jeux de données",
+    "open_library": "Parcourir les jeux de données de {name}",
+    "add_library_heading": "Ajouter une autre bibliothèque",
+    "add_library_hint": "Ajoutez une bibliothèque publique Kalibre par propriétaire/dépôt ou adresse HTTPS. Ses jeux de données seront listés séparément.",
+    "search_this_library": "Rechercher dans les jeux de données de cette bibliothèque",
+    "no_matching_datasets": "Aucun jeu de données ne correspond à cette recherche.",
+    "no_datasets_available": "Cette bibliothèque ne contient aucun jeu de données disponible.",
+    "more_results": "{count, plural, one {# autre jeu de données ; affinez la recherche pour le voir} other {# autres jeux de données ; affinez la recherche pour les voir}}",
+    "unavailable_count": "{count, plural, one {# bibliothèque inaccessible} other {# bibliothèques inaccessibles}}",
+    "third_party_disclaimer": "Provient d’une bibliothèque tierce ; Kalibre n’a pas vérifié ce contenu.",
+    "browser_column": "colonne des résultats de jeux de données",
+    "incompatible_warning": "la langue de ce jeu de données ne correspond pas à celle de votre interface ; il reste exclu des exercices.",
+    "hide_incompatible_label": "masquer les jeux de données dans d’autres langues",
+    "hidden_incompatible_count": "({count, plural, one {# masqué dans une autre langue} other {# masqués dans d’autres langues}})"
   },
   "datasets": {
     "where_private_files": "le stockage privé de fichiers de ce navigateur",
@@ -143,13 +193,58 @@
     "storage_kept": "Les jeux de données installés sont conservés dans {where}.",
     "installed_quotes": "installé \"{name}\" : {count} citations (doublons supprimés). ",
     "saved_summary": "enregistré \"{name}\" : {texts}, {passages}. ",
-    "installed_summary": "installé \"{name}\" : {texts}, {passages}. "
+    "installed_summary": "installé \"{name}\" : {texts}, {passages}. ",
+    "hide_incompatible_label": "masquer les jeux de données dans d’autres langues",
+    "hidden_incompatible_count": "({count, plural, one {# masqué dans une autre langue} other {# masqués dans d’autres langues}})"
   },
   "dataset_draft": {
     "untitled": "sans titre"
   },
   "dataset_install": {
     "has_no_usable_prose_it": "\"{title}\" ne contient aucune prose utilisable (il faut des phrases, pas seulement des titres ou des listes).",
-    "this_file_is_not_a": "Ce fichier n'est pas un package de jeu de données Kalibre."
+    "this_file_is_not_a": "Ce fichier n'est pas un package de jeu de données Kalibre.",
+    "language_required": "Une langue est requise pour créer un jeu de données."
+  },
+  "search": {
+    "placeholder": "rechercher par titre, auteur ou licence…",
+    "aria_label": "rechercher des jeux de données",
+    "clear": "effacer",
+    "clear_aria": "effacer la recherche",
+    "no_matches": "aucun jeu de données ne correspond à « {query} »",
+    "matching_count": "{count, plural, one {# jeu de données correspondant} other {# jeux de données correspondants}}"
+  },
+  "sort": {
+    "label": "trier par",
+    "name": "nom",
+    "passages": "passages",
+    "texts": "textes",
+    "size": "taille",
+    "asc": "croissant",
+    "desc": "décroissant",
+    "toggle_direction": "inverser le sens de tri : actuellement {direction}"
+  },
+  "pagination": {
+    "nav_aria": "pages de jeux de données",
+    "prev": "page précédente",
+    "next": "page suivante",
+    "page_of": "page {current} sur {total}",
+    "total_count": "({count, plural, one {# jeu de données} other {# jeux de données}})"
+  },
+  "details": {
+    "quotes_summary": "{count, plural, one {# citation} other {# citations}} dans ce recueil",
+    "no_books": "aucun livre trouvé dans ce jeu de données",
+    "table_title": "titre",
+    "table_words": "mots",
+    "table_passages": "passages",
+    "table_composition": "composition",
+    "total_books": "total ({count, plural, one {# livre} other {# livres}})",
+    "table_author": "auteur",
+    "composition_sort_by": "trier par taille",
+    "composition_total": "total des passages",
+    "composition_small": "petit",
+    "composition_medium": "moyen",
+    "composition_large": "grand",
+    "composition_huge": "très grand",
+    "composition_massive": "massif"
   }
 }

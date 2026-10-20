@@ -89,7 +89,10 @@
     "spaceWordBombs": "{count, plural, one {avfyra ord-bomben i Space en gång} other {avfyra ord-bomben i Space {count} gånger}}",
     "unknown": "okänt",
     "progress_suffix": " ({have} av {need})",
-    "secret_hint": "en hemlighet: fortsätt spela"
+    "secret_hint": "en hemlighet: fortsätt spela",
+    "petsToSleep": "klappa din följeslagare till sömns {count, plural, one {# gång} other {# gånger}}",
+    "earlyWakes": "väck din följeslagare strax efter att den somnat {count, plural, one {# gång} other {# gånger}}",
+    "overnightSleep": "låt din följeslagare sova i {hours, plural, one {# timme} other {# timmar}} under natten på Om-sidan"
   },
   "first-test": {
     "name": "första stegen"
@@ -344,34 +347,44 @@
     "name": "chefredaktör"
   },
   "buffet-host": {
-    "name": "buffévärd"
+    "name": "buffévärd",
+    "says": "håll en Feed-buffé öppen i 5 minuter"
   },
   "full-house": {
-    "name": "fullt hus"
+    "name": "fullt hus",
+    "says": "leverera 50 buffébeställningar i Feed totalt"
   },
   "no-hints": {
-    "name": "inga ledtrådar behövs"
+    "name": "inga ledtrådar behövs",
+    "says": "härda ut 3 minuter som kräsen ätare i Feed utan att mata den med ett antytt ord"
   },
   "station-down": {
-    "name": "station nere"
+    "name": "station nere",
+    "says": "förstör en rymdstation i Space"
   },
   "shrapnel-storm": {
-    "name": "splitterstorm"
+    "name": "splitterstorm",
+    "says": "förstör 3 fiender med splittret från en landmina i Space"
   },
   "stacked": {
-    "name": "staplat"
+    "name": "staplat",
+    "says": "aktivera två powerups samtidigt i Space"
   },
   "autopilot-ace": {
-    "name": "autopilotproffs"
+    "name": "autopilotproffs",
+    "says": "förstör 10 fiender med automaten i Space totalt"
   },
   "dazed": {
-    "name": "yr och förvirrad"
+    "name": "yr och förvirrad",
+    "says": "bedöva 25 anfallare i Castle totalt"
   },
   "spoils-of-war": {
-    "name": "krigsbyte"
+    "name": "krigsbyte",
+    "says": "använd 10 powerups i Castle totalt"
   },
   "clean-sweep": {
-    "name": "rent bord"
+    "name": "rent bord",
+    "says": "rätta varje fel i ett Spot-avsnitt utan att markera ett korrekt ord"
   },
   "race-first": {
     "name": "på era platser"
@@ -639,5 +652,64 @@
     "badges": "märken",
     "extras": "extra",
     "sections_label": "prestationssektioner"
+  },
+  "wpm-90": {
+    "name": "nittio ord"
+  },
+  "words-50k": {
+    "name": "femtiotusen"
+  },
+  "sustained-15": {
+    "name": "femton minuter"
+  },
+  "books-3": {
+    "name": "trilogi"
+  },
+  "mastered-50": {
+    "name": "femtio bemästrade"
+  },
+  "drills-25": {
+    "name": "drillsergeant"
+  },
+  "sweet-dreams": {
+    "name": "söta drömmar"
+  },
+  "early-wake": {
+    "name": "redan?"
+  },
+  "overnight-sleep": {
+    "name": "sover gott"
+  },
+  "siege-breaker": {
+    "name": "belägringsbrytare",
+    "says": "förstör 10 katapulter i Castle totalt"
+  },
+  "bomb-disposal": {
+    "name": "bombdesarmering",
+    "says": "desarmera 25 dynamitgubbar i Castle totalt"
+  },
+  "bucket-brigade": {
+    "name": "hinkkedja",
+    "says": "släck 25 bränder i Castle totalt"
+  },
+  "giant-killer": {
+    "name": "jättedödare",
+    "says": "fäll en jätte i Castle"
+  },
+  "reinforcements": {
+    "name": "förstärkningar",
+    "says": "skicka ut 100 soldater i Castle totalt"
+  },
+  "king-safe": {
+    "name": "kungen i säkerhet",
+    "says": "vinn en Castle-klättring"
+  },
+  "off-the-wall": {
+    "name": "ner från muren",
+    "says": "knuffa ner 20 stegar från tornet i Castle totalt"
+  },
+  "cut-loose": {
+    "name": "kapa repen",
+    "says": "kapa 20 änterhakar i Castle totalt"
   }
 }

@@ -70,7 +70,13 @@
     "stop_aria": "{mistake} trainen stoppen",
     "export": "exporteren ",
     "csv": "csv",
-    "json": "json"
+    "json": "json",
+    "train_selected": "geselecteerde oefenen",
+    "train_all": "alles oefenen",
+    "select_mistake": "{mistake} selecteren",
+    "select_all": "alles selecteren",
+    "view_trend": "trend bekijken voor {mistake}",
+    "view_trend_title": "Trend voor {mistake} inspecteren"
   },
   "filters": {
     "all": "alle",
@@ -94,7 +100,8 @@
     "pager_aria": "pagina's van foutentabel",
     "no_qualifiers_mistakes": "Nog geen fouten {qualifiers}{inSection, select, true { in {section}} other {}}.",
     "no_in_section": "Nog geen fouten in {section}.",
-    "training_words_note": "{count, plural, one {# woord} other {# woorden}} met consistente fouten in training."
+    "training_words_note": "{count, plural, one {# woord} other {# woorden}} met consistente fouten in training.",
+    "selected_count": "{count, plural, one {# geselecteerd} other {# geselecteerd}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label}-fouten – klik om te isoleren",
@@ -111,7 +118,24 @@
     "rate_over_tests": "foutenpercentage {from} → {to} over {count, plural, one {# test} other {# tests}}",
     "mark_label": "{mistake}: {rate} van de tijd",
     "started_at": "{summary} · training gestart op {rate}",
-    "keyboard_label": "Toetsenbord met {count, plural, one {# fout} other {# fouten}} erop. De lijst hieronder bevat dezelfde fouten."
+    "keyboard_label": "Toetsenbord met {count, plural, one {# fout} other {# fouten}} erop. De lijst hieronder bevat dezelfde fouten.",
+    "key_with_mistakes": "{key} ({count, plural, one {# fout} other {# fouten}}) – klik om te isoleren",
+    "key_no_mistakes": "{key} (geen fouten vastgelegd)",
+    "key_isolated": "toets {key}",
+    "key_isolated_summary": "{count, plural, one {# fout} other {# fouten}} op of afwijkend naar deze toets",
+    "show_all_keys": "alle toetsen tonen",
+    "show_all_keys_aria": "toetsisolatie wissen en alle fouten tonen",
+    "no_key_mistakes": "Geen fouten vastgelegd voor {key}.",
+    "no_words_for_key": "Geen woorden of spaties vastgelegd voor {key}.",
+    "illustrates_mistake": "in {mistake}",
+    "rel_outgoing": "bedoeld {expected} → getypt {typed}",
+    "rel_incoming": "afwijking van {expected}",
+    "rel_missed": "gemist",
+    "rel_extra": "extra",
+    "rel_shift": "shift",
+    "rel_swapped": "omgewisseld met {other}",
+    "rel_persistent": "aanhoudend",
+    "space_key_name": "spatie"
   },
   "mistakes": {
     "actions": "acties",
@@ -119,14 +143,30 @@
   },
   "mistake_kinds": {
     "KINDS": {
-      "keys": {"title": "toetsen"},
-      "shift": {"title": "shift"},
-      "pairs": {"title": "letterparen"},
-      "letters": {"title": "gemiste en extra letters"},
-      "words": {"title": "woorden"},
-      "tricky": {"title": "lastige woorden"},
-      "between": {"title": "tussen woorden"},
-      "hesitations": {"title": "aarzelingen"}
+      "keys": {
+        "title": "toetsen"
+      },
+      "shift": {
+        "title": "shift"
+      },
+      "pairs": {
+        "title": "letterparen"
+      },
+      "letters": {
+        "title": "gemiste en extra letters"
+      },
+      "words": {
+        "title": "woorden"
+      },
+      "tricky": {
+        "title": "lastige woorden"
+      },
+      "between": {
+        "title": "tussen woorden"
+      },
+      "hesitations": {
+        "title": "aarzelingen"
+      }
     }
   },
   "legend": {
@@ -159,5 +199,21 @@
     "hesitation_before": "pauze voor {expected}",
     "hesitation": "aarzeling",
     "tricky": "lastig: {expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · foutpercentagetrend",
+    "table_caption": "Testhistorie en foutpercentages voor {mistake}",
+    "test_column_date": "datum",
+    "test_column_source": "test",
+    "test_column_exposures": "getypt",
+    "test_column_errors": "fouten",
+    "test_column_rate": "foutpercentage",
+    "point_info": "{date} · {source} · {errors} van {exposures} fouten ({rate})",
+    "started_baseline": "begonnen op {rate}",
+    "goal_improving": "verbeterend ({rate})",
+    "goal_mastered": "beheerst ({rate})",
+    "zoom": "zoom",
+    "no_data": "nog niet genoeg testhistorie met deze fout",
+    "test_source_default": "test"
   }
 }

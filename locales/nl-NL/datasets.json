@@ -15,7 +15,9 @@
     "install": "installeren",
     "find_more": "meer vinden in de bibliotheek",
     "verb_update": "bijwerken",
-    "verb_download": "downloaden"
+    "verb_download": "downloaden",
+    "view_details_aria": "details bekijken voor {name}",
+    "details": "details"
   },
   "chips": {
     "on_server": "op deze server",
@@ -35,14 +37,19 @@
     "library_from": "van {name}",
     "library_remove": "bibliotheek {name} verwijderen",
     "library_added": "{name} toegevoegd: {count, plural, one {# dataset} other {# datasets}}.",
-    "not_reachable": "niet bereikbaar"
+    "not_reachable": "niet bereikbaar",
+    "rebuilding_started": "passages opnieuw opbouwen…",
+    "updating_started": "dataset bijwerken…",
+    "removing_started": "dataset verwijderen…"
   },
   "install": {
     "include_work": "{title} opnemen",
     "text_of_work": "tekst van {title}",
     "edit_draft": "\"{name}\" bewerken",
     "check_before_installing": "controleren vóór installatie",
-    "add_text": "{title} toevoegen"
+    "add_text": "{title} toevoegen",
+    "maximum_recalculate_label": "passages maximaal herberekenen (geen limiet + vloeiende extractie)",
+    "maximum_recalculate_hint": "Behoudt elke mogelijke passage over alineagrenzen heen voor maximale afwisseling. Neemt meer opslagruimte in beslag."
   },
   "dataset_cap": {
     "custom_number_of_passages_per": "aangepast aantal passages per lengte",
@@ -69,7 +76,9 @@
     "rebuilt_summary": "\"{name}\" opnieuw opgebouwd: {passages}{size}, {cap}.",
     "size_suffix": ", {size}",
     "download": "downloaden",
-    "passages": "passages"
+    "passages": "passages",
+    "maximum_preset_btn": "maximum",
+    "incompatible_warning": "de taal van deze dataset komt niet overeen met je interfacetaal; deze blijft buiten oefeningen."
   },
   "dataset_install_flow": {
     "translator_optional": "vertaler (optioneel)",
@@ -105,7 +114,27 @@
     "each_file_must_be_under": "Elk bestand moet kleiner zijn dan 20 MB.",
     "added": "{what} toegevoegd",
     "quoted_title": "\"{title}\"",
-    "added_some": "{texts} toegevoegd; niet aangevinkt, zonder typbaar proza: {skipped}"
+    "added_some": "{texts} toegevoegd; niet aangevinkt, zonder typbaar proza: {skipped}",
+    "language": "taal",
+    "language_hint": "taal van deze dataset",
+    "from_wikipedia": "van Wikipedia",
+    "wikipedia_heading": "importeren van Wikipedia",
+    "wikipedia_articles_label": "artikelen of webadressen (één per regel)",
+    "wikipedia_articles_placeholder": "Zonnestelsel\nnl:Albert Einstein\nhttps://nl.wikipedia.org/wiki/Aarde",
+    "wikipedia_search_placeholder": "Wikipedia-artikelen zoeken…",
+    "wikipedia_search_button": "zoeken",
+    "wikipedia_searching": "zoeken op Wikipedia…",
+    "wikipedia_no_search_results": "geen overeenkomende artikelen gevonden",
+    "wikipedia_disambiguation_title": "kies een artikel voor „{title}”",
+    "wikipedia_disambiguation_hint": "Deze titel is een doorverwijspagina. Kies het gewenste artikel of de gewenste artikelen:",
+    "wikipedia_disambiguation_add": "selectie toevoegen",
+    "wikipedia_privacy_note": "hierdoor worden artikelen bij Wikipedia opgevraagd; Wikimedia ziet dus je IP-adres en de opgegeven titels of zoektermen.",
+    "wikipedia_licensing_notice": "De meeste teksten op Wikipedia zijn beschikbaar onder CC BY-SA 4.0 en de GNU Free Documentation License (GFDL), maar er kunnen uitzonderingen en andere voorwaarden gelden. Kalibre extraheert en schoont artikelteksten op, waardoor het resultaat kan afwijken van de bron. Bewaar vóór het exporteren of delen de vermelding en licentielinks van het artikel, geef wijzigingen aan en volg de geldende share-alike-voorwaarden. Controleer de licentiegegevens bij elk artikel. Wikipedia en Wikimedia bevelen Kalibre niet aan.",
+    "wikipedia_licensing_acknowledge": "Ik begrijp het en ga akkoord",
+    "wikipedia_licensing_reopen": "licentiemelding",
+    "wikipedia_fetch_button": "artikelen ophalen",
+    "wikipedia_cancel_button": "ophalen annuleren",
+    "wikipedia_skipped_summary": "{count, plural, one {# artikel overgeslagen} other {# artikelen overgeslagen}}"
   },
   "library": {
     "looking_in_the_libraries": "in de bibliotheken zoeken…",
@@ -132,7 +161,28 @@
     "has_no_texts": "\"{name}\" bevat geen teksten.",
     "is_too_large": "{id}/{path} is te groot.",
     "has_files_its_checksum_list": "\"{name}\" bevat bestanden die niet door de checksumlijst worden gedekt, dus het is niet gedownload.",
-    "is_too_large_to_download": "\"{name}\" is te groot om te downloaden."
+    "is_too_large_to_download": "\"{name}\" is te groot om te downloaden.",
+    "already_added": "Die bibliotheek staat al in de kiezer.",
+    "checking_library": "Bibliotheek controleren…",
+    "chooser_hint": "Kies een bibliotheek om boeken en citaatcollecties te bekijken. Elke bibliotheek heeft een eigen lijst.",
+    "chooser_count": "{count, plural, one {# bibliotheek beschikbaar} other {# bibliotheken beschikbaar}}",
+    "downloadable_count": "{count, plural, one {# dataset beschikbaar om te downloaden} other {# datasets beschikbaar om te downloaden}}",
+    "last_updated": "Laatst bijgewerkt op {date}",
+    "last_updated_unknown": "Bijwerkdatum niet beschikbaar",
+    "browse_datasets": "Datasets bekijken",
+    "open_library": "Datasets in {name} bekijken",
+    "add_library_heading": "Nog een bibliotheek toevoegen",
+    "add_library_hint": "Voeg een openbare Kalibre-bibliotheek toe via eigenaar/repo of HTTPS-adres. De datasets worden apart vermeld.",
+    "search_this_library": "Zoeken in datasets van deze bibliotheek",
+    "no_matching_datasets": "Geen datasets komen overeen met deze zoekopdracht.",
+    "no_datasets_available": "Deze bibliotheek heeft geen datasets beschikbaar.",
+    "more_results": "{count, plural, one {# extra dataset; verfijn je zoekopdracht} other {# extra datasets; verfijn je zoekopdracht}}",
+    "unavailable_count": "{count, plural, one {# bibliotheek niet bereikbaar} other {# bibliotheken niet bereikbaar}}",
+    "third_party_disclaimer": "Afkomstig van een externe bibliotheek; Kalibre heeft deze inhoud niet gecontroleerd.",
+    "browser_column": "kolom met datasetresultaten",
+    "incompatible_warning": "de taal van deze dataset komt niet overeen met je interfacetaal; deze blijft buiten oefeningen.",
+    "hide_incompatible_label": "datasets in andere talen verbergen",
+    "hidden_incompatible_count": "({count, plural, one {# verborgen in een andere taal} other {# verborgen in andere talen}})"
   },
   "datasets": {
     "where_private_files": "de privé-opslag van bestanden van deze browser",
@@ -143,13 +193,58 @@
     "storage_kept": "Geïnstalleerde datasets worden bewaard in {where}.",
     "installed_quotes": "\"{name}\" geïnstalleerd: {count} citaten (duplicaten verwijderd). ",
     "saved_summary": "\"{name}\" opgeslagen: {texts}, {passages}. ",
-    "installed_summary": "\"{name}\" geïnstalleerd: {texts}, {passages}. "
+    "installed_summary": "\"{name}\" geïnstalleerd: {texts}, {passages}. ",
+    "hide_incompatible_label": "datasets in andere talen verbergen",
+    "hidden_incompatible_count": "({count, plural, one {# verborgen in een andere taal} other {# verborgen in andere talen}})"
   },
   "dataset_draft": {
     "untitled": "zonder titel"
   },
   "dataset_install": {
     "has_no_usable_prose_it": "\"{title}\" bevat geen bruikbaar proza (er zijn zinnen nodig, niet alleen koppen of lijsten).",
-    "this_file_is_not_a": "Dit bestand is geen Kalibre-datasetpakket."
+    "this_file_is_not_a": "Dit bestand is geen Kalibre-datasetpakket.",
+    "language_required": "Een taal is vereist om een dataset samen te stellen."
+  },
+  "search": {
+    "placeholder": "datasets zoeken op titel, auteur of licentie…",
+    "aria_label": "datasets zoeken",
+    "clear": "wissen",
+    "clear_aria": "zoekopdracht wissen",
+    "no_matches": "geen datasets komen overeen met „{query}”",
+    "matching_count": "{count, plural, one {# overeenkomende dataset} other {# overeenkomende datasets}}"
+  },
+  "sort": {
+    "label": "sorteren op",
+    "name": "naam",
+    "passages": "passages",
+    "texts": "teksten",
+    "size": "grootte",
+    "asc": "oplopend",
+    "desc": "aflopend",
+    "toggle_direction": "sorteerrichting wisselen: momenteel {direction}"
+  },
+  "pagination": {
+    "nav_aria": "datasetpagina’s",
+    "prev": "vorige pagina",
+    "next": "volgende pagina",
+    "page_of": "pagina {current} van {total}",
+    "total_count": "({count, plural, one {# dataset} other {# datasets}})"
+  },
+  "details": {
+    "quotes_summary": "{count, plural, one {# citaat} other {# citaten}} in deze collectie",
+    "no_books": "geen boeken gevonden in deze dataset",
+    "table_title": "titel",
+    "table_words": "woorden",
+    "table_passages": "passages",
+    "table_composition": "samenstelling",
+    "total_books": "totaal ({count, plural, one {# boek} other {# boeken}})",
+    "table_author": "auteur",
+    "composition_sort_by": "sorteren op grootte",
+    "composition_total": "totaal aantal passages",
+    "composition_small": "klein",
+    "composition_medium": "gemiddeld",
+    "composition_large": "groot",
+    "composition_huge": "zeer groot",
+    "composition_massive": "enorm"
   }
 }

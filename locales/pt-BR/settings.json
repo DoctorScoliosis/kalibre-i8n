@@ -175,7 +175,9 @@
         "cream": "creme",
         "rose": "rosa",
         "harbour": "porto",
-        "contrast": "alto contraste"
+        "contrast": "alto contraste",
+        "nordic": "nórdico",
+        "copper": "cobre"
       }
     },
     "themeDark": {
@@ -189,7 +191,9 @@
         "plum": "ameixa",
         "slate": "ardósia",
         "terminal": "terminal",
-        "contrast-night": "alto contraste noturno"
+        "contrast-night": "alto contraste noturno",
+        "cyber": "cyber",
+        "amber": "âmbar"
       }
     },
     "theme": {
@@ -210,7 +214,11 @@
         "slate": "ardósia",
         "terminal": "terminal",
         "contrast": "alto contraste",
-        "contrast-night": "alto contraste noturno"
+        "contrast-night": "alto contraste noturno",
+        "nordic": "nórdico",
+        "copper": "cobre",
+        "cyber": "cyber",
+        "amber": "âmbar"
       }
     },
     "customThemes": {
@@ -231,7 +239,11 @@
         "400": "400",
         "500": "500",
         "600": "600",
-        "700": "700"
+        "700": "700",
+        "100": "fina",
+        "200": "extraleve",
+        "800": "extranegrito",
+        "900": "pesada"
       }
     },
     "typingLineHeight": {
@@ -447,7 +459,8 @@
         "zh-CN": "简体中文 (chinês simplificado)",
         "qps": "pseudo",
         "qps-wide": "pseudo ampla"
-      }
+      },
+      "picker_title": "seleção de idioma"
     },
     "backupFrequency": {
       "label": "backups automáticos",
@@ -597,6 +610,27 @@
     },
     "numpadConfig": {
       "label": "configuração do teste de dez teclas"
+    },
+    "customVisionProfiles": {
+      "label": "perfis de visão personalizados"
+    },
+    "hideIncompatibleDatasets": {
+      "label": "ocultar conjuntos de dados em outros idiomas"
+    },
+    "calPetsToSleep": {
+      "label": "vezes que {companion} adormeceu com carinho"
+    },
+    "calEarlyWakes": {
+      "label": "vezes que {companion} foi acordado cedo"
+    },
+    "calOvernightSleep": {
+      "label": "progresso do sono noturno de {companion}"
+    },
+    "calOvernightDone": {
+      "label": "conquista de sono noturno do companheiro obtida"
+    },
+    "calShutdown": {
+      "label": "estado de desligamento de {companion}"
     }
   },
   "actions": {
@@ -668,7 +702,10 @@
     "export_first": "exportar primeiro",
     "kalibre_is_using_of_the": "o kalibre está usando {formatSize} dos {formatSize2} que este navegador permite.",
     "kalibre_is_using_about": "o kalibre está usando cerca de {formatSize}.",
-    "couldn_t_measure": "não foi possível medir: {message}"
+    "couldn_t_measure": "não foi possível medir: {message}",
+    "profile_breakdown": "o que compõe este perfil",
+    "downloaded_from_libraries": "baixado de bibliotecas",
+    "imported_by_you": "importado por você"
   },
   "theme_editor": {
     "sample_of_this_theme": "amostra deste tema",
@@ -705,7 +742,8 @@
       "heat1": "calor das teclas 1",
       "heat2": "calor das teclas 2",
       "heat3": "calor das teclas 3",
-      "heat4": "calor das teclas 4"
+      "heat4": "calor das teclas 4",
+      "corrected": "primeira correção"
     },
     "sample_correct": "rápida raposa ",
     "sample_incorrect": "fxo",
@@ -736,10 +774,45 @@
     "content": "conteúdo",
     "training": "treinamento",
     "accessibility": "acessibilidade",
-    "data": "dados"
+    "data": "dados",
+    "manage-data": "gerenciar dados"
   },
   "stepper": {
     "decrease": "diminuir {label}",
     "increase": "aumentar {label}"
+  },
+  "vision_tester": {
+    "open_tester": "área de testes e perfis personalizados",
+    "title": "área de testes de visão cromática",
+    "modes_heading": "modos de visão e filtros",
+    "current_mode": "ativo: {name}",
+    "previewing_mode": "prévia: {name}",
+    "apply": "aplicar modo",
+    "cancel": "cancelar",
+    "close": "fechar",
+    "custom_profiles": "perfis personalizados",
+    "create_profile": "novo perfil personalizado",
+    "edit_profile": "editar perfil",
+    "delete_profile": "excluir perfil",
+    "profile_name": "nome do perfil",
+    "export": "exportar perfil",
+    "import": "importar perfil",
+    "import_error": "falha na importação: {reason}",
+    "import_invalid_json": "Formato JSON inválido",
+    "import_invalid_envelope": "Estrutura de formato inválida",
+    "import_unsupported_version": "Versão de perfil não suportada: {version}",
+    "imported": "perfil «{name}» importado",
+    "sample_heading": "amostra semântica em tempo real",
+    "sample_caption": "As amostras mostram texto real de digitação, erros, letras extras, linhas de gráfico, escalas térmicas e indicadores de status.",
+    "disclaimer": "Os ajustes destinam-se à acessibilidade e distinção da interface. Não diagnosticam nem tratam problemas de visão.",
+    "validation_error": "não foi possível salvar o perfil: {reason}",
+    "duplicate_name": "Já existe um perfil com o nome «{name}».",
+    "monotonic_hint": "A escala térmica deve manter uma luminância estritamente ordenada.",
+    "monochrome_hint": "Os elementos essenciais da interface devem permanecer distinguíveis.",
+    "status_ok": "saudável",
+    "status_warn": "revisar",
+    "status_fail": "problema",
+    "tap_to_preview": "prévia",
+    "reset_to_preset": "redefinir"
   }
 }
