@@ -14,7 +14,8 @@
     "recommended_title": "勾选现在值得训练的错误，数量以训练能承受的为限",
     "all": "全部",
     "none": "无",
-    "train_and_drill_these": "训练并练习这些"
+    "train_and_drill_these": "训练并练习这些",
+    "recommended_set": "推荐组合"
   },
   "labels": {
     "how": "方式",
@@ -42,12 +43,35 @@
     "usual": "通常",
     "seen_not_trained": "已出现，尚未训练",
     "empty_nothing_in_training": "尚无训练中的内容。继续输入：Kalibre 会建议反复出现的错误。",
-    "empty_seen_not_trained": "尚无训练中的内容。这些已出现但尚未训练：勾选要处理的错误。"
+    "empty_seen_not_trained": "尚无训练中的内容。这些已出现但尚未训练：勾选要处理的错误。",
+    "quotes_selected": "已选 {selected} / 共 {total} 条",
+    "recommended_set_title": "为这些错误选择最匹配的练习引文",
+    "drill_plan": "专项练习计划",
+    "drill_mode": "练习模式",
+    "selected_mistakes_count": "{count, plural, other {已选 # 项错误}}",
+    "selected_quotes_count": "{count, plural, other {已选 # 条引文}}",
+    "remove_mistake": "移除 {mistake}",
+    "show_all_chips": "显示全部 {count} 项",
+    "show_fewer_chips": "收起",
+    "show_full_list": "显示全部 {count} 项错误",
+    "hide_full_list": "隐藏完整列表",
+    "more_hits": "+{count} 项更多",
+    "show_fewer_hits": "收起",
+    "quote_progress": "引文 {current} / 共 {total}",
+    "drilling_targets": "正在专项练习 {targets}",
+    "drilling_mistakes": "正在针对你的错误进行专项练习",
+    "quote_mode": "引文练习",
+    "words_mode": "{count} 词专项练习",
+    "no_targets_selected": "请至少选择一项错误进行练习。",
+    "no_quotes_selected": "请至少选择一条引文进行练习。"
   },
   "status": {
     "training": "训练中",
     "improving": "改进中",
     "suggested": "建议",
     "watching": "观察中"
+  },
+  "errors": {
+    "aborted": "操作已取消"
   }
 }

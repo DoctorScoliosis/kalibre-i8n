@@ -59,7 +59,12 @@
     "deleted": "citazione eliminata",
     "unknown": "— sconosciuto",
     "too_short": " · troppo breve per i test ({min}+ caratteri)",
-    "empty": "Aggiungi le citazioni che ti piacciono; compariranno nei test di citazioni e misti. Raccolte come un file quotes.json possono essere installate in dataset."
+    "empty": "Aggiungi le citazioni che ti piacciono; compariranno nei test di citazioni e misti. Raccolte come un file quotes.json possono essere installate in dataset.",
+    "options_aria": "opzioni citazione",
+    "previous_page": "precedente",
+    "next_page": "successiva",
+    "page_status": "pagina {page} di {pages}",
+    "pagination_aria": "pagine delle mie citazioni"
   },
   "github_import": {
     "github_s_limit_for_downloads": "È stato raggiunto il limite di GitHub per i download senza accesso. Riprova tra un'ora.",
@@ -80,5 +85,20 @@
   },
   "quote_collections": {
     "no_quotes_were_found_in": "Non sono state trovate citazioni in quel file."
+  },
+  "wikipedia_import": {
+    "checking_wikipedia": "controllo wikipedia in corso…",
+    "downloading_progress": "recupero di {title} ({current} di {total})…",
+    "rate_limited": "Wikipedia sta limitando le richieste. Pausa…",
+    "server_lagged": "I server di Wikipedia sono occupati. Pausa…",
+    "request_failed": "Wikipedia ha risposto con {status}.",
+    "network_error": "Impossibile raggiungere Wikipedia. Controlla la connessione.",
+    "no_articles_found": "Nessun articolo di Wikipedia corrispondente trovato.",
+    "no_prose_in_article": "«{title}» non contiene paragrafi di testo utilizzabili.",
+    "disambiguation_detected": "«{title}» è una pagina di disambiguazione.",
+    "cancelled": "Importazione annullata.",
+    "unsupported_edition": "L’edizione di Wikipedia «{wiki}» non è supportata.",
+    "mixed_editions_declined": "Un set di dati non può combinare edizioni diverse di Wikipedia. «{current}» non può essere unito a «{incoming}».",
+    "export_blocked_licence": "Esportazione bloccata: questo set di dati contiene materiale di Wikipedia con termini di licenza non risolti o incompleti. Controlla i dettagli della licenza su ogni articolo prima di redistribuire."
   }
 }

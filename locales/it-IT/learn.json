@@ -126,6 +126,15 @@
     },
     "mix": {
       "title": "i nuovi tasti con gli altri"
+    },
+    "pairs": {
+      "title": "coppie di tasti e sequenze"
+    },
+    "vowels": {
+      "title": "vocali e lettere comuni"
+    },
+    "reaches": {
+      "title": "estensioni dalla riga base"
     }
   },
   "ui": {
@@ -215,7 +224,16 @@
     "runner_quit": "esci senza salvare ",
     "round_summary": "sessione {round}: {wpm} ppm · {accuracy}% — spazio per la sessione successiva",
     "hints_prep": "esc passa al test · spazio prossimo {unit}",
-    "hints_normal": "esc pausa · spazio prossimo {unit}"
+    "hints_normal": "esc pausa · spazio prossimo {unit}",
+    "step_count": "{count, plural, one {# passaggio} other {# passaggi}}",
+    "lesson_steps_badge": "{count, plural, one {# passaggio} other {# passaggi}}",
+    "result_tier_achieved": "{tier} raggiunto: {id} {title}",
+    "tier_next_heading": "Per raggiungere {nextTier}, punta a:",
+    "tier_diamond_achieved": "★ perfezione diamante: {id} {title}!",
+    "preview_step_1": "passaggio 1",
+    "preview_step_2": "passaggio 2",
+    "preview_all": "tutto",
+    "preview_keys_label": "Anteprima tasti della lezione"
   },
   "cal_wardrobe": {
     "whose_wardrobe": "di chi è il guardaroba",
@@ -405,7 +423,10 @@
   "mascot": {
     "open_wardrobe": "{name}: apri il guardaroba {companion, select, cal {di lui} libby {di lei} other {loro}}",
     "open_s_wardrobe": "{name}: apri il guardaroba di {name2}",
-    "asleep_label": "{name}, addormentato: sveglia {companion, select, cal {lui} libby {lei} other {loro}}"
+    "asleep_label": "{name}, addormentato: sveglia {companion, select, cal {lui} libby {lei} other {loro}}",
+    "shutdown_label": "{name}, spento: tocca per riavviar{companion, select, cal {lo} libby {la} other {lo}}",
+    "booting_label": "{name}, avvio in corso…",
+    "dismiss_message": "attiva per ignorare questo messaggio"
   },
   "numpad_tape": {
     "entries": "voci",
@@ -535,5 +556,11 @@
       "divide": "divisione",
       "percent": "percentuali"
     }
+  },
+  "tiers": {
+    "bronze": "bronzo",
+    "silver": "argento",
+    "gold": "oro",
+    "diamond": "diamante"
   }
 }

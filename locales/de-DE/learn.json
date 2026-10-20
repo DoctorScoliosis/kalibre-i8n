@@ -126,6 +126,15 @@
     },
     "mix": {
       "title": "Die neuen Schlüssel mit dem Rest"
+    },
+    "pairs": {
+      "title": "Tastenpaare und Muster"
+    },
+    "vowels": {
+      "title": "Vokale und häufige Buchstaben"
+    },
+    "reaches": {
+      "title": "Greifen von der Grundreihe"
     }
   },
   "ui": {
@@ -215,7 +224,16 @@
     "runner_quit": "Beenden ohne Sparen",
     "round_summary": "Rund{round}: {wpm}Wpm ·{accuracy}% — Platz für die nächste Runde",
     "hints_prep": "Esc springt zum Test · space next{unit}",
-    "hints_normal": "Esc pause · space next{unit}"
+    "hints_normal": "Esc pause · space next{unit}",
+    "step_count": "{count, plural, one {# Schritt} other {# Schritte}}",
+    "lesson_steps_badge": "{count, plural, one {# Schritt} other {# Schritte}}",
+    "result_tier_achieved": "{tier} erreicht: {id} {title}",
+    "tier_next_heading": "Um {nextTier} zu erreichen, zielen Sie auf:",
+    "tier_diamond_achieved": "★ Diamant-Perfektion: {id} {title}!",
+    "preview_step_1": "Schritt 1",
+    "preview_step_2": "Schritt 2",
+    "preview_all": "alle",
+    "preview_keys_label": "Vorschau der Lektionstasten"
   },
   "cal_wardrobe": {
     "whose_wardrobe": "Deren Kleiderschrank",
@@ -405,7 +423,10 @@
   "mascot": {
     "open_wardrobe": "{name}: Offen{companion, select, cal {Er} libby {Und} other {Von}}Kleiderschrank",
     "open_s_wardrobe": "{name}: Offen{name2}’ Garderobe",
-    "asleep_label": "{name}, Schlafend: wach{companion, select, cal {Er} libby {Und} other {Sie}}Bis"
+    "asleep_label": "{name}, Schlafend: wach{companion, select, cal {Er} libby {Und} other {Sie}}Bis",
+    "shutdown_label": "{name}, heruntergefahren: Tippen, um {companion, select, cal {ihn} libby {sie} other {sie}} neu zu starten",
+    "booting_label": "{name}, startet…",
+    "dismiss_message": "Aktivieren, um diese Nachricht zu schließen"
   },
   "numpad_tape": {
     "entries": "Angaben",
@@ -535,5 +556,11 @@
       "divide": "Teilung",
       "percent": "Prozentsätze"
     }
+  },
+  "tiers": {
+    "bronze": "Bronze",
+    "silver": "Silber",
+    "gold": "Gold",
+    "diamond": "Diamant"
   }
 }

@@ -14,7 +14,8 @@
     "recommended_title": "Vink de fouten aan die nu het oefenen waard zijn, zoveel als een oefening kan bevatten",
     "all": "alle",
     "none": "geen",
-    "train_and_drill_these": "deze trainen en oefenen"
+    "train_and_drill_these": "deze trainen en oefenen",
+    "recommended_set": "aanbevolen set"
   },
   "labels": {
     "how": "hoe",
@@ -42,12 +43,35 @@
     "usual": "gebruikelijk",
     "seen_not_trained": "gezien, nog niet getraind",
     "empty_nothing_in_training": "Nog niets in training. Blijf typen: Kalibre stelt fouten voor die steeds terugkomen.",
-    "empty_seen_not_trained": "Nog niets in training. Deze zijn wel voorgekomen maar nog niet getraind: vink aan waar je aan wilt werken."
+    "empty_seen_not_trained": "Nog niets in training. Deze zijn wel voorgekomen maar nog niet getraind: vink aan waar je aan wilt werken.",
+    "quotes_selected": "{selected} van {total} geselecteerd",
+    "recommended_set_title": "Selecteer de best passende citaten voor deze fouten",
+    "drill_plan": "oefenplan",
+    "drill_mode": "oefenmodus",
+    "selected_mistakes_count": "{count, plural, one {# fout geselecteerd} other {# fouten geselecteerd}}",
+    "selected_quotes_count": "{count, plural, one {# citaat geselecteerd} other {# citaten geselecteerd}}",
+    "remove_mistake": "{mistake} verwijderen",
+    "show_all_chips": "alle {count} tonen",
+    "show_fewer_chips": "minder tonen",
+    "show_full_list": "alle {count} fouten tonen",
+    "hide_full_list": "volledige lijst verbergen",
+    "more_hits": "+{count} meer",
+    "show_fewer_hits": "minder tonen",
+    "quote_progress": "citaat {current} van {total}",
+    "drilling_targets": "{targets} oefenen",
+    "drilling_mistakes": "je eigen fouten oefenen",
+    "quote_mode": "citatenoefening",
+    "words_mode": "{count} woorden oefening",
+    "no_targets_selected": "Selecteer minstens één fout om te oefenen.",
+    "no_quotes_selected": "Selecteer minstens één citaat om te oefenen."
   },
   "status": {
     "training": "training",
     "improving": "verbeterend",
     "suggested": "voorgesteld",
     "watching": "in de gaten"
+  },
+  "errors": {
+    "aborted": "bewerking is geannuleerd"
   }
 }

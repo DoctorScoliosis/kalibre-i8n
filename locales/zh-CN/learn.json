@@ -126,6 +126,15 @@
     },
     "mix": {
       "title": "结合其他键练习新键"
+    },
+    "pairs": {
+      "title": "键对与按键组合"
+    },
+    "vowels": {
+      "title": "元音与常用字母"
+    },
+    "reaches": {
+      "title": "从基准行延伸按键"
     }
   },
   "ui": {
@@ -215,7 +224,16 @@
     "runner_quit": "退出且不保存 ",
     "round_summary": "第 {round} 回合：{wpm} WPM · {accuracy}% — 按空格进入下一回合",
     "hints_prep": "Esc 跳至测试 · 空格下一个 {unit}",
-    "hints_normal": "Esc 暂停 · 空格下一个 {unit}"
+    "hints_normal": "Esc 暂停 · 空格下一个 {unit}",
+    "step_count": "{count, plural, other {# 个步骤}}",
+    "lesson_steps_badge": "{count, plural, other {# 个步骤}}",
+    "result_tier_achieved": "达成 {tier} 等级：{id} {title}",
+    "tier_next_heading": "要达到 {nextTier}，目标为：",
+    "tier_diamond_achieved": "★ 钻石级完美：{id} {title}！",
+    "preview_step_1": "步骤 1",
+    "preview_step_2": "步骤 2",
+    "preview_all": "全部",
+    "preview_keys_label": "课程按键预览"
   },
   "cal_wardrobe": {
     "whose_wardrobe": "谁的衣橱",
@@ -405,7 +423,10 @@
   "mascot": {
     "open_wardrobe": "{name}：打开{companion, select, cal {他} libby {她} other {它}}的衣橱",
     "open_s_wardrobe": "{name}：打开 {name2} 的衣橱",
-    "asleep_label": "{name}，睡着了：唤醒{companion, select, cal {他} libby {她} other {它}}"
+    "asleep_label": "{name}，睡着了：唤醒{companion, select, cal {他} libby {她} other {它}}",
+    "shutdown_label": "{name}已关机：点击以重新启动{companion, select, cal {他} libby {她} other {它}}",
+    "booting_label": "{name}正在启动…",
+    "dismiss_message": "激活以关闭此消息"
   },
   "numpad_tape": {
     "entries": "条目",
@@ -535,5 +556,11 @@
       "divide": "除法",
       "percent": "百分比"
     }
+  },
+  "tiers": {
+    "bronze": "青铜",
+    "silver": "白银",
+    "gold": "黄金",
+    "diamond": "钻石"
   }
 }

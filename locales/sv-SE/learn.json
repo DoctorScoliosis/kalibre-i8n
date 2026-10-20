@@ -1,58 +1,141 @@
 {
   "stages": {
-    "1": {"name": "hemmarad"},
-    "2": {"name": "översta raden"},
-    "3": {"name": "nedersta raden"},
-    "4": {"name": "versaler"},
-    "5": {"name": "siffror"},
-    "6": {"name": "flyt"}
+    "1": {
+      "name": "hemmarad"
+    },
+    "2": {
+      "name": "översta raden"
+    },
+    "3": {
+      "name": "nedersta raden"
+    },
+    "4": {
+      "name": "versaler"
+    },
+    "5": {
+      "name": "siffror"
+    },
+    "6": {
+      "name": "flyt"
+    }
   },
   "lessons": {
     "1": {
-      "1": {"title": "vänster hand i hemmarad"},
-      "2": {"title": "höger hand i hemmarad"},
-      "3": {"title": "pekfingrarna når inåt"},
-      "4": {"title": "repetition av hemmaraden"}
+      "1": {
+        "title": "vänster hand i hemmarad"
+      },
+      "2": {
+        "title": "höger hand i hemmarad"
+      },
+      "3": {
+        "title": "pekfingrarna når inåt"
+      },
+      "4": {
+        "title": "repetition av hemmaraden"
+      }
     },
     "2": {
-      "1": {"title": "långfingrarna upp"},
-      "2": {"title": "pekfingrarna upp"},
-      "3": {"title": "pekfingrarna, inre kolumnen"},
-      "4": {"title": "ringfingrarna upp"},
-      "5": {"title": "lillfingrarna upp"},
-      "6": {"title": "repetition av översta raden"}
+      "1": {
+        "title": "långfingrarna upp"
+      },
+      "2": {
+        "title": "pekfingrarna upp"
+      },
+      "3": {
+        "title": "pekfingrarna, inre kolumnen"
+      },
+      "4": {
+        "title": "ringfingrarna upp"
+      },
+      "5": {
+        "title": "lillfingrarna upp"
+      },
+      "6": {
+        "title": "repetition av översta raden"
+      }
     },
     "3": {
-      "1": {"title": "långfingrarna ner"},
-      "2": {"title": "pekfingrarna ner"},
-      "3": {"title": "pekfingrarna, inre kolumnen"},
-      "4": {"title": "ringfingrarna ner"},
-      "5": {"title": "lillfingrarna ner"},
-      "6": {"title": "repetition av nedersta raden"}
+      "1": {
+        "title": "långfingrarna ner"
+      },
+      "2": {
+        "title": "pekfingrarna ner"
+      },
+      "3": {
+        "title": "pekfingrarna, inre kolumnen"
+      },
+      "4": {
+        "title": "ringfingrarna ner"
+      },
+      "5": {
+        "title": "lillfingrarna ner"
+      },
+      "6": {
+        "title": "repetition av nedersta raden"
+      }
     },
     "4": {
-      "1": {"title": "skift med hemmaraden"},
-      "2": {"title": "skift med varje bokstav"},
-      "3": {"title": "meningar"}
+      "1": {
+        "title": "skift med hemmaraden"
+      },
+      "2": {
+        "title": "skift med varje bokstav"
+      },
+      "3": {
+        "title": "meningar"
+      }
     },
     "5": {
-      "1": {"title": "pekfingrarna når upp"},
-      "2": {"title": "långfingrarna når upp"},
-      "3": {"title": "ringfingrarna når upp"},
-      "4": {"title": "lillfingrarna når upp"},
-      "5": {"title": "lillfingrarna sträcker sig"},
-      "6": {"title": "repetition av siffror"}
+      "1": {
+        "title": "pekfingrarna når upp"
+      },
+      "2": {
+        "title": "långfingrarna når upp"
+      },
+      "3": {
+        "title": "ringfingrarna når upp"
+      },
+      "4": {
+        "title": "lillfingrarna når upp"
+      },
+      "5": {
+        "title": "lillfingrarna sträcker sig"
+      },
+      "6": {
+        "title": "repetition av siffror"
+      }
     },
     "6": {
-      "1": {"title": "de 100 vanligaste orden"},
-      "2": {"title": "de 500 vanligaste orden"},
-      "3": {"title": "riktig prosa"},
-      "4": {"title": "vidare till skrivtesterna"}
+      "1": {
+        "title": "de 100 vanligaste orden"
+      },
+      "2": {
+        "title": "de 500 vanligaste orden"
+      },
+      "3": {
+        "title": "riktig prosa"
+      },
+      "4": {
+        "title": "vidare till skrivtesterna"
+      }
     }
   },
   "steps": {
-    "keys": {"title": "de nya tangenterna var för sig"},
-    "mix": {"title": "de nya tangenterna med resten"}
+    "keys": {
+      "title": "de nya tangenterna var för sig"
+    },
+    "mix": {
+      "title": "de nya tangenterna med resten"
+    },
+    "pairs": {
+      "title": "tangentpar och mönster"
+    },
+    "vowels": {
+      "title": "vokaler och vanliga bokstäver"
+    },
+    "reaches": {
+      "title": "grepp från hemraden"
+    }
   },
   "ui": {
     "the_steps_again": "stegen igen",
@@ -141,7 +224,16 @@
     "runner_quit": "avsluta utan att spara ",
     "round_summary": "runda {round}: {wpm} wpm · {accuracy}% — mellanslag för nästa runda",
     "hints_prep": "esc hoppar till testet · mellanslag nästa {unit}",
-    "hints_normal": "esc pausa · mellanslag nästa {unit}"
+    "hints_normal": "esc pausa · mellanslag nästa {unit}",
+    "step_count": "{count, plural, one {# steg} other {# steg}}",
+    "lesson_steps_badge": "{count, plural, one {# steg} other {# steg}}",
+    "result_tier_achieved": "{tier} uppnådd: {id} {title}",
+    "tier_next_heading": "För att nå {nextTier}, sikta på:",
+    "tier_diamond_achieved": "★ diamantperfektion: {id} {title}!",
+    "preview_step_1": "steg 1",
+    "preview_step_2": "steg 2",
+    "preview_all": "alla",
+    "preview_keys_label": "Förhandsvisning av lektionstangenter"
   },
   "cal_wardrobe": {
     "whose_wardrobe": "vems garderob",
@@ -331,7 +423,10 @@
   "mascot": {
     "open_wardrobe": "{name}: öppna {companion, select, cal {hans} libby {hennes} other {deras}} garderob",
     "open_s_wardrobe": "{name}: öppna {name2}s garderob",
-    "asleep_label": "{name}, sover: väck {companion, select, cal {honom} libby {henne} other {dem}}"
+    "asleep_label": "{name}, sover: väck {companion, select, cal {honom} libby {henne} other {dem}}",
+    "shutdown_label": "{name}, avstängd: tryck för att starta om {companion, select, cal {honom} libby {henne} other {dem}}",
+    "booting_label": "{name}, startar upp…",
+    "dismiss_message": "aktivera för att stänga detta meddelande"
   },
   "numpad_tape": {
     "entries": "poster",
@@ -339,15 +434,33 @@
     "wrong": "fel"
   },
   "pad_lessons": {
-    "pad-1": {"title": "hemmatangenterna: 4 5 6"},
-    "pad-2": {"title": "nå upp: 7 8 9"},
-    "pad-3": {"title": "nå ner: 1 2 3"},
-    "pad-4": {"title": "tummen och punkten: 0 ."},
-    "pad-5": {"title": "alla siffror"},
-    "pad-6": {"title": "plus, med lillfingret"},
-    "pad-7": {"title": "minus"},
-    "pad-8": {"title": "gånger och delat med"},
-    "pad-9": {"title": "hela tangentbordet"}
+    "pad-1": {
+      "title": "hemmatangenterna: 4 5 6"
+    },
+    "pad-2": {
+      "title": "nå upp: 7 8 9"
+    },
+    "pad-3": {
+      "title": "nå ner: 1 2 3"
+    },
+    "pad-4": {
+      "title": "tummen och punkten: 0 ."
+    },
+    "pad-5": {
+      "title": "alla siffror"
+    },
+    "pad-6": {
+      "title": "plus, med lillfingret"
+    },
+    "pad-7": {
+      "title": "minus"
+    },
+    "pad-8": {
+      "title": "gånger och delat med"
+    },
+    "pad-9": {
+      "title": "hela tangentbordet"
+    }
   },
   "fingers": {
     "LP": "vänster lillfinger",
@@ -389,19 +502,37 @@
   "entries": {
     "a_ten_key_entry_needs": "En tiotangentspost behöver minst en siffra.",
     "ENTRY_FORMS": {
-      "whole": {"label": "heltal"},
-      "amounts": {"label": "belopp"},
-      "mixed": {"label": "blandat, med operatorer"}
+      "whole": {
+        "label": "heltal"
+      },
+      "amounts": {
+        "label": "belopp"
+      },
+      "mixed": {
+        "label": "blandat, med operatorer"
+      }
     }
   },
   "sums": {
     "SUM_KINDS": {
-      "mixed": {"label": "en blandning"},
-      "add": {"label": "addition"},
-      "subtract": {"label": "subtraktion"},
-      "multiply": {"label": "multiplikation"},
-      "divide": {"label": "division"},
-      "percent": {"label": "procent"}
+      "mixed": {
+        "label": "en blandning"
+      },
+      "add": {
+        "label": "addition"
+      },
+      "subtract": {
+        "label": "subtraktion"
+      },
+      "multiply": {
+        "label": "multiplikation"
+      },
+      "divide": {
+        "label": "division"
+      },
+      "percent": {
+        "label": "procent"
+      }
     }
   },
   "pad_key_names": {
@@ -425,5 +556,11 @@
       "divide": "division",
       "percent": "procent"
     }
+  },
+  "tiers": {
+    "bronze": "brons",
+    "silver": "silver",
+    "gold": "guld",
+    "diamond": "diamant"
   }
 }

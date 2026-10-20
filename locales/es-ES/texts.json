@@ -59,7 +59,12 @@
     "deleted": "cita eliminada",
     "unknown": "— desconocido",
     "too_short": " · demasiado corta para las pruebas ({min}+ caracteres)",
-    "empty": "Añade citas que te gusten; aparecerán en las pruebas de citas y mixtas. Las colecciones, como un archivo quotes.json, se pueden instalar en conjuntos de datos."
+    "empty": "Añade citas que te gusten; aparecerán en las pruebas de citas y mixtas. Las colecciones, como un archivo quotes.json, se pueden instalar en conjuntos de datos.",
+    "options_aria": "opciones de cita",
+    "previous_page": "anterior",
+    "next_page": "siguiente",
+    "page_status": "página {page} de {pages}",
+    "pagination_aria": "páginas de mis citas"
   },
   "github_import": {
     "github_s_limit_for_downloads": "se ha alcanzado el límite de GitHub para descargas sin iniciar sesión. vuelve a intentarlo dentro de una hora.",
@@ -80,5 +85,20 @@
   },
   "quote_collections": {
     "no_quotes_were_found_in": "No se han encontrado citas en ese archivo."
+  },
+  "wikipedia_import": {
+    "checking_wikipedia": "comprobando wikipedia…",
+    "downloading_progress": "obteniendo {title} ({current} de {total})…",
+    "rate_limited": "Wikipedia está limitando las solicitudes. En pausa…",
+    "server_lagged": "Los servidores de Wikipedia están ocupados. En pausa…",
+    "request_failed": "Wikipedia respondió con {status}.",
+    "network_error": "No se pudo conectar con Wikipedia. Comprueba tu conexión.",
+    "no_articles_found": "No se han encontrado artículos de Wikipedia coincidentes.",
+    "no_prose_in_article": "«{title}» no contiene párrafos de texto utilizables.",
+    "disambiguation_detected": "«{title}» es una página de desambiguación.",
+    "cancelled": "Importación cancelada.",
+    "unsupported_edition": "La edición de Wikipedia «{wiki}» no es compatible.",
+    "mixed_editions_declined": "Un conjunto de datos no puede mezclar diferentes ediciones de Wikipedia. «{current}» no se puede combinar con «{incoming}».",
+    "export_blocked_licence": "Exportación bloqueada: Este conjunto de datos contiene material de Wikipedia con términos de licencia no resueltos o incompletos. Comprueba los detalles de licencia en cada artículo antes de redistribuir."
   }
 }

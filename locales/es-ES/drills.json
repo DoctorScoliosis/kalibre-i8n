@@ -14,7 +14,8 @@
     "recommended_title": "Marca los errores que merece la pena practicar ahora, tantos como pueda llevar un ejercicio",
     "all": "todos",
     "none": "ninguno",
-    "train_and_drill_these": "entrenar y practicar estos"
+    "train_and_drill_these": "entrenar y practicar estos",
+    "recommended_set": "conjunto recomendado"
   },
   "labels": {
     "how": "cómo",
@@ -42,12 +43,35 @@
     "usual": "habitual",
     "seen_not_trained": "visto, todavía no practicado",
     "empty_nothing_in_training": "Todavía no hay nada en entrenamiento. Sigue escribiendo: kalibre sugiere los errores que vuelven a aparecer.",
-    "empty_seen_not_trained": "Todavía no hay nada en entrenamiento. Estos han aparecido, pero aún no se practican: marca los que quieras trabajar."
+    "empty_seen_not_trained": "Todavía no hay nada en entrenamiento. Estos han aparecido, pero aún no se practican: marca los que quieras trabajar.",
+    "quotes_selected": "{selected} de {total} seleccionadas",
+    "recommended_set_title": "Selecciona las citas que mejor coincidan con estos errores",
+    "drill_plan": "plan de práctica",
+    "drill_mode": "modo de práctica",
+    "selected_mistakes_count": "{count, plural, one {# error seleccionado} other {# errores seleccionados}}",
+    "selected_quotes_count": "{count, plural, one {# cita seleccionada} other {# citas seleccionadas}}",
+    "remove_mistake": "eliminar {mistake}",
+    "show_all_chips": "mostrar todos ({count})",
+    "show_fewer_chips": "mostrar menos",
+    "show_full_list": "mostrar los {count} errores",
+    "hide_full_list": "ocultar lista completa",
+    "more_hits": "+{count} más",
+    "show_fewer_hits": "mostrar menos",
+    "quote_progress": "cita {current} de {total}",
+    "drilling_targets": "practicando {targets}",
+    "drilling_mistakes": "practicando tus errores",
+    "quote_mode": "práctica con citas",
+    "words_mode": "práctica de {count} palabras",
+    "no_targets_selected": "Selecciona al menos un error para practicar.",
+    "no_quotes_selected": "Selecciona al menos una cita para practicar."
   },
   "status": {
     "training": "entrenando",
     "improving": "mejorando",
     "suggested": "sugerido",
     "watching": "observando"
+  },
+  "errors": {
+    "aborted": "la operación fue cancelada"
   }
 }

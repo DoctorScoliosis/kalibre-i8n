@@ -59,7 +59,12 @@
     "deleted": "citation supprimée",
     "unknown": "— inconnu",
     "too_short": " · trop courte pour les tests ({min}+ caractères)",
-    "empty": "Ajoutez des citations que vous aimez ; elles apparaissent dans les tests de citations et mixtes. Des collections comme un fichier quotes.json peuvent être installées sous jeux de données."
+    "empty": "Ajoutez des citations que vous aimez ; elles apparaissent dans les tests de citations et mixtes. Des collections comme un fichier quotes.json peuvent être installées sous jeux de données.",
+    "options_aria": "options de citation",
+    "previous_page": "précédent",
+    "next_page": "suivant",
+    "page_status": "page {page} sur {pages}",
+    "pagination_aria": "pages de mes citations"
   },
   "github_import": {
     "github_s_limit_for_downloads": "La limite de GitHub pour les téléchargements sans connexion a été atteinte. Réessayez dans une heure.",
@@ -80,5 +85,20 @@
   },
   "quote_collections": {
     "no_quotes_were_found_in": "Aucune citation n'a été trouvée dans ce fichier."
+  },
+  "wikipedia_import": {
+    "checking_wikipedia": "vérification de wikipedia…",
+    "downloading_progress": "récupération de {title} ({current} sur {total})…",
+    "rate_limited": "Wikipedia limite les requêtes. Mise en pause…",
+    "server_lagged": "Les serveurs de Wikipedia sont occupés. Mise en pause…",
+    "request_failed": "Wikipedia a répondu avec {status}.",
+    "network_error": "Impossible de joindre Wikipedia. Vérifiez votre connexion.",
+    "no_articles_found": "Aucun article Wikipedia correspondant n’a été trouvé.",
+    "no_prose_in_article": "« {title} » ne contient aucun paragraphe de texte exploitable.",
+    "disambiguation_detected": "« {title} » est une page d’homonymie.",
+    "cancelled": "Importation annulée.",
+    "unsupported_edition": "L’édition Wikipedia « {wiki} » n’est pas prise en charge.",
+    "mixed_editions_declined": "Un jeu de données ne peut pas mélanger différentes éditions de Wikipedia. « {current} » ne peut pas être combiné avec « {incoming} ».",
+    "export_blocked_licence": "Exportation bloquée : ce jeu de données contient du contenu Wikipedia dont les conditions de licence ne sont pas résolues ou incomplètes. Vérifiez les détails de licence sur chaque article avant de redistribuer."
   }
 }

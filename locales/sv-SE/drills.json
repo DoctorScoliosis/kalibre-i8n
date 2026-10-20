@@ -14,7 +14,8 @@
     "recommended_title": "Markera de misstag som är värda att öva på nu, så många som en övning kan innehålla",
     "all": "alla",
     "none": "inga",
-    "train_and_drill_these": "träna och öva på dessa"
+    "train_and_drill_these": "träna och öva på dessa",
+    "recommended_set": "rekommenderad uppsättning"
   },
   "labels": {
     "how": "hur",
@@ -42,12 +43,35 @@
     "usual": "vanligt",
     "seen_not_trained": "sett, ännu inte tränat",
     "empty_nothing_in_training": "Inget i träningen ännu. Fortsätt skriva: Kalibre föreslår misstag som fortsätter att komma tillbaka.",
-    "empty_seen_not_trained": "Inget i träningen ännu. De här har dykt upp men tränas inte ännu: markera dem du vill arbeta med."
+    "empty_seen_not_trained": "Inget i träningen ännu. De här har dykt upp men tränas inte ännu: markera dem du vill arbeta med.",
+    "quotes_selected": "{selected} av {total} valda",
+    "recommended_set_title": "Välj de citat som passar bäst för dessa fel",
+    "drill_plan": "övningsplan",
+    "drill_mode": "övningsläge",
+    "selected_mistakes_count": "{count, plural, one {# fel valt} other {# fel valda}}",
+    "selected_quotes_count": "{count, plural, one {# citat valt} other {# citat valda}}",
+    "remove_mistake": "ta bort {mistake}",
+    "show_all_chips": "visa alla {count}",
+    "show_fewer_chips": "visa färre",
+    "show_full_list": "visa alla {count} fel",
+    "hide_full_list": "dölj hela listan",
+    "more_hits": "+{count} till",
+    "show_fewer_hits": "visa färre",
+    "quote_progress": "citat {current} av {total}",
+    "drilling_targets": "övar på {targets}",
+    "drilling_mistakes": "övar på dina fel",
+    "quote_mode": "citatövning",
+    "words_mode": "övning med {count} ord",
+    "no_targets_selected": "Välj minst ett fel att öva på.",
+    "no_quotes_selected": "Välj minst ett citat att öva på."
   },
   "status": {
     "training": "tränas",
     "improving": "förbättras",
     "suggested": "föreslaget",
     "watching": "bevakas"
+  },
+  "errors": {
+    "aborted": "åtgärden avbröts"
   }
 }

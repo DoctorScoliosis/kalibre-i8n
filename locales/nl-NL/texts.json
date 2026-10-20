@@ -59,7 +59,12 @@
     "deleted": "citaat verwijderd",
     "unknown": "— onbekend",
     "too_short": " · te kort voor tests ({min}+ tekens)",
-    "empty": "Voeg citaten toe die je leuk vindt; ze verschijnen in citaat- en gemengde tests. Verzamelingen zoals een quotes.json-bestand kunnen onder datasets worden geïnstalleerd."
+    "empty": "Voeg citaten toe die je leuk vindt; ze verschijnen in citaat- en gemengde tests. Verzamelingen zoals een quotes.json-bestand kunnen onder datasets worden geïnstalleerd.",
+    "options_aria": "citaatopties",
+    "previous_page": "vorige",
+    "next_page": "volgende",
+    "page_status": "pagina {page} van {pages}",
+    "pagination_aria": "mijn citaatpagina’s"
   },
   "github_import": {
     "github_s_limit_for_downloads": "De downloadlimiet van GitHub zonder inloggen is bereikt. Probeer het over een uur opnieuw.",
@@ -80,5 +85,20 @@
   },
   "quote_collections": {
     "no_quotes_were_found_in": "Er zijn geen citaten gevonden in dat bestand."
+  },
+  "wikipedia_import": {
+    "checking_wikipedia": "wikipedia controleren…",
+    "downloading_progress": "„{title}” ophalen ({current} van {total})…",
+    "rate_limited": "Wikipedia beperkt verzoeken. Pauzeren…",
+    "server_lagged": "Wikipedia-servers zijn druk bezet. Pauzeren…",
+    "request_failed": "Wikipedia antwoordde met {status}.",
+    "network_error": "Kon Wikipedia niet bereiken. Controleer je verbinding.",
+    "no_articles_found": "Geen overeenkomende Wikipedia-artikelen gevonden.",
+    "no_prose_in_article": "„{title}” bevat geen bruikbare lopende tekstalinea’s.",
+    "disambiguation_detected": "„{title}” is een doorverwijspagina.",
+    "cancelled": "Import geannuleerd.",
+    "unsupported_edition": "De Wikipedia-editie „{wiki}” wordt niet ondersteund.",
+    "mixed_editions_declined": "Een dataset mag niet verschillende Wikipedia-edities mengen. „{current}” kan niet worden gecombineerd met „{incoming}”.",
+    "export_blocked_licence": "Export geblokkeerd: deze dataset bevat Wikipedia-materiaal met onopgeloste of onvolledige licentievoorwaarden. Controleer de licentiegegevens op elk artikel voordat je het deelt."
   }
 }

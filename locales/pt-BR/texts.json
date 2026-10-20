@@ -59,7 +59,12 @@
     "deleted": "citação excluída",
     "unknown": "— desconhecido",
     "too_short": " · curto demais para testes ({min}+ caracteres)",
-    "empty": "Adicione citações de que você gosta; elas aparecem nos testes de citação e mistos. Coleções como um arquivo quotes.json podem ser instaladas em conjuntos de dados."
+    "empty": "Adicione citações de que você gosta; elas aparecem nos testes de citação e mistos. Coleções como um arquivo quotes.json podem ser instaladas em conjuntos de dados.",
+    "options_aria": "opções de citação",
+    "previous_page": "anterior",
+    "next_page": "próxima",
+    "page_status": "página {page} de {pages}",
+    "pagination_aria": "páginas das minhas citações"
   },
   "github_import": {
     "github_s_limit_for_downloads": "O limite do GitHub para downloads sem iniciar sessão foi atingido. Tente novamente em uma hora.",
@@ -80,5 +85,20 @@
   },
   "quote_collections": {
     "no_quotes_were_found_in": "Nenhuma citação foi encontrada nesse arquivo."
+  },
+  "wikipedia_import": {
+    "checking_wikipedia": "verificando a wikipédia…",
+    "downloading_progress": "buscando {title} ({current} de {total})…",
+    "rate_limited": "A Wikipédia está limitando as requisições. Pausando…",
+    "server_lagged": "Os servidores da Wikipédia estão ocupados. Pausando…",
+    "request_failed": "A Wikipédia respondeu com {status}.",
+    "network_error": "Não foi possível conectar à Wikipédia. Verifique sua conexão.",
+    "no_articles_found": "Nenhum artigo correspondente foi encontrado na Wikipédia.",
+    "no_prose_in_article": "«{title}» não contém parágrafos de texto utilizáveis.",
+    "disambiguation_detected": "«{title}» é uma página de desambiguação.",
+    "cancelled": "Importação cancelada.",
+    "unsupported_edition": "A edição da Wikipédia «{wiki}» não é suportada.",
+    "mixed_editions_declined": "Um conjunto de dados não pode misturar edições diferentes da Wikipédia. «{current}» não pode ser combinado com «{incoming}».",
+    "export_blocked_licence": "Exportação bloqueada: este conjunto de dados contém material da Wikipédia com termos de licença não resolvidos ou incompletos. Verifique os detalhes de licença de cada artigo antes de redistribuir."
   }
 }

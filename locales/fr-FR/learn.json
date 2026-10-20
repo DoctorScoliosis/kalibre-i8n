@@ -126,6 +126,15 @@
     },
     "mix": {
       "title": "les nouvelles touches avec les autres"
+    },
+    "pairs": {
+      "title": "paires de touches et combinaisons"
+    },
+    "vowels": {
+      "title": "voyelles et lettres fréquentes"
+    },
+    "reaches": {
+      "title": "extensions depuis la rangée de base"
     }
   },
   "ui": {
@@ -215,7 +224,16 @@
     "runner_quit": "quitter sans enregistrer ",
     "round_summary": "série {round} : {wpm} mots/min · {accuracy}% — espace pour la série suivante",
     "hints_prep": "échap passe au test · espace série {unit} suivante",
-    "hints_normal": "échap pause · espace série {unit} suivante"
+    "hints_normal": "échap pause · espace série {unit} suivante",
+    "step_count": "{count, plural, one {# étape} other {# étapes}}",
+    "lesson_steps_badge": "{count, plural, one {# étape} other {# étapes}}",
+    "result_tier_achieved": "{tier} atteint : {id} {title}",
+    "tier_next_heading": "Pour atteindre {nextTier}, visez :",
+    "tier_diamond_achieved": "★ perfection diamant : {id} {title} !",
+    "preview_step_1": "étape 1",
+    "preview_step_2": "étape 2",
+    "preview_all": "tout",
+    "preview_keys_label": "Aperçu des touches de la leçon"
   },
   "cal_wardrobe": {
     "whose_wardrobe": "la garde-robe de qui",
@@ -401,7 +419,10 @@
   "mascot": {
     "open_wardrobe": "{name} : ouvrir {companion, select, cal {sa} libby {sa} other {sa}} garde-robe",
     "open_s_wardrobe": "{name} : ouvrir la garde-robe de {name2}",
-    "asleep_label": "{name}, endormi : réveiller {companion, select, cal {le} libby {la} other {le/la}}"
+    "asleep_label": "{name}, endormi : réveiller {companion, select, cal {le} libby {la} other {le/la}}",
+    "shutdown_label": "{name}, éteint : appuyez pour {companion, select, cal {le} libby {la} other {le}} redémarrer",
+    "booting_label": "{name}, démarrage en cours…",
+    "dismiss_message": "activer pour fermer ce message"
   },
   "numpad_tape": {
     "entries": "entrées",
@@ -535,5 +556,11 @@
   "key_coach": {
     "other_hand": "vous avez atteint {key} avec l'autre main : gardez-le sur votre main {hand}",
     "wrong_finger": "vous avez tapé {typed} pour {key} : utilisez le doigt indiqué, ne changez pas"
+  },
+  "tiers": {
+    "bronze": "bronze",
+    "silver": "argent",
+    "gold": "or",
+    "diamond": "diamant"
   }
 }

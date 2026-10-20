@@ -59,7 +59,12 @@
     "deleted": "citat borttaget",
     "unknown": "— okänd",
     "too_short": " · för kort för tester ({min}+ tecken)",
-    "empty": "Lägg till citat du gillar; de visas i citat- och blandade tester. Samlingar som en quotes.json-fil kan installeras under dataset."
+    "empty": "Lägg till citat du gillar; de visas i citat- och blandade tester. Samlingar som en quotes.json-fil kan installeras under dataset.",
+    "options_aria": "citatinställningar",
+    "previous_page": "föregående",
+    "next_page": "nästa",
+    "page_status": "sida {page} av {pages}",
+    "pagination_aria": "mina citatsidor"
   },
   "github_import": {
     "github_s_limit_for_downloads": "GitHubs gräns för nedladdningar utan inloggning har nåtts. Försök igen om en timme.",
@@ -80,5 +85,20 @@
   },
   "quote_collections": {
     "no_quotes_were_found_in": "Inga citat hittades i den filen."
+  },
+  "wikipedia_import": {
+    "checking_wikipedia": "kontrollerar wikipedia…",
+    "downloading_progress": "hämtar {title} ({current} av {total})…",
+    "rate_limited": "Wikipedia begränsar förfrågningar. Pausar…",
+    "server_lagged": "Wikipedias servrar är överbelastade. Pausar…",
+    "request_failed": "Wikipedia svarade med {status}.",
+    "network_error": "Kunde inte nå Wikipedia. Kontrollera din anslutning.",
+    "no_articles_found": "Inga matchande Wikipedia-artiklar hittades.",
+    "no_prose_in_article": "„{title}” innehåller inga användbara textstycken.",
+    "disambiguation_detected": "„{title}” är en förgreningssida.",
+    "cancelled": "Importen avbröts.",
+    "unsupported_edition": "Wikipedia-utgåvan „{wiki}” stöds inte.",
+    "mixed_editions_declined": "Ett dataset kan inte blanda olika Wikipedia-utgåvor. „{current}” kan inte kombineras med „{incoming}”.",
+    "export_blocked_licence": "Export blockerad: Detta dataset innehåller Wikipedia-material med olösta eller ofullständiga licensvillkor. Kontrollera licensuppgifterna på varje artikel innan du sprider vidare."
   }
 }

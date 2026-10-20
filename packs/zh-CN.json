@@ -3066,7 +3066,8 @@
         "recommended_title": "勾选现在值得训练的错误，数量以训练能承受的为限",
         "all": "全部",
         "none": "无",
-        "train_and_drill_these": "训练并练习这些"
+        "train_and_drill_these": "训练并练习这些",
+        "recommended_set": "推荐组合"
       },
       "labels": {
         "how": "方式",
@@ -3094,13 +3095,36 @@
         "usual": "通常",
         "seen_not_trained": "已出现，尚未训练",
         "empty_nothing_in_training": "尚无训练中的内容。继续输入：Kalibre 会建议反复出现的错误。",
-        "empty_seen_not_trained": "尚无训练中的内容。这些已出现但尚未训练：勾选要处理的错误。"
+        "empty_seen_not_trained": "尚无训练中的内容。这些已出现但尚未训练：勾选要处理的错误。",
+        "quotes_selected": "已选 {selected} / 共 {total} 条",
+        "recommended_set_title": "为这些错误选择最匹配的练习引文",
+        "drill_plan": "专项练习计划",
+        "drill_mode": "练习模式",
+        "selected_mistakes_count": "{count, plural, other {已选 # 项错误}}",
+        "selected_quotes_count": "{count, plural, other {已选 # 条引文}}",
+        "remove_mistake": "移除 {mistake}",
+        "show_all_chips": "显示全部 {count} 项",
+        "show_fewer_chips": "收起",
+        "show_full_list": "显示全部 {count} 项错误",
+        "hide_full_list": "隐藏完整列表",
+        "more_hits": "+{count} 项更多",
+        "show_fewer_hits": "收起",
+        "quote_progress": "引文 {current} / 共 {total}",
+        "drilling_targets": "正在专项练习 {targets}",
+        "drilling_mistakes": "正在针对你的错误进行专项练习",
+        "quote_mode": "引文练习",
+        "words_mode": "{count} 词专项练习",
+        "no_targets_selected": "请至少选择一项错误进行练习。",
+        "no_quotes_selected": "请至少选择一条引文进行练习。"
       },
       "status": {
         "training": "训练中",
         "improving": "改进中",
         "suggested": "建议",
         "watching": "观察中"
+      },
+      "errors": {
+        "aborted": "操作已取消"
       }
     },
     "games": {
@@ -4495,6 +4519,15 @@
         },
         "mix": {
           "title": "结合其他键练习新键"
+        },
+        "pairs": {
+          "title": "键对与按键组合"
+        },
+        "vowels": {
+          "title": "元音与常用字母"
+        },
+        "reaches": {
+          "title": "从基准行延伸按键"
         }
       },
       "ui": {
@@ -4584,7 +4617,16 @@
         "runner_quit": "退出且不保存 ",
         "round_summary": "第 {round} 回合：{wpm} WPM · {accuracy}% — 按空格进入下一回合",
         "hints_prep": "Esc 跳至测试 · 空格下一个 {unit}",
-        "hints_normal": "Esc 暂停 · 空格下一个 {unit}"
+        "hints_normal": "Esc 暂停 · 空格下一个 {unit}",
+        "step_count": "{count, plural, other {# 个步骤}}",
+        "lesson_steps_badge": "{count, plural, other {# 个步骤}}",
+        "result_tier_achieved": "达成 {tier} 等级：{id} {title}",
+        "tier_next_heading": "要达到 {nextTier}，目标为：",
+        "tier_diamond_achieved": "★ 钻石级完美：{id} {title}！",
+        "preview_step_1": "步骤 1",
+        "preview_step_2": "步骤 2",
+        "preview_all": "全部",
+        "preview_keys_label": "课程按键预览"
       },
       "cal_wardrobe": {
         "whose_wardrobe": "谁的衣橱",
@@ -4774,7 +4816,10 @@
       "mascot": {
         "open_wardrobe": "{name}：打开{companion, select, cal {他} libby {她} other {它}}的衣橱",
         "open_s_wardrobe": "{name}：打开 {name2} 的衣橱",
-        "asleep_label": "{name}，睡着了：唤醒{companion, select, cal {他} libby {她} other {它}}"
+        "asleep_label": "{name}，睡着了：唤醒{companion, select, cal {他} libby {她} other {它}}",
+        "shutdown_label": "{name}已关机：点击以重新启动{companion, select, cal {他} libby {她} other {它}}",
+        "booting_label": "{name}正在启动…",
+        "dismiss_message": "激活以关闭此消息"
       },
       "numpad_tape": {
         "entries": "条目",
@@ -4904,6 +4949,12 @@
           "divide": "除法",
           "percent": "百分比"
         }
+      },
+      "tiers": {
+        "bronze": "青铜",
+        "silver": "白银",
+        "gold": "黄金",
+        "diamond": "钻石"
       }
     },
     "mistakes": {
@@ -6795,7 +6846,12 @@
         "deleted": "引文已删除",
         "unknown": "— 未知",
         "too_short": " · 对于测试来说太短（需 {min}+ 个字符）",
-        "empty": "添加你喜欢的引文；它们会出现在引文和混合测试中。引文合集（如 quotes.json 文件）可在数据集中安装。"
+        "empty": "添加你喜欢的引文；它们会出现在引文和混合测试中。引文合集（如 quotes.json 文件）可在数据集中安装。",
+        "options_aria": "引文选项",
+        "previous_page": "上一页",
+        "next_page": "下一页",
+        "page_status": "第 {page} 页 / 共 {pages} 页",
+        "pagination_aria": "我的引文页面"
       },
       "github_import": {
         "github_s_limit_for_downloads": "GitHub 未登录状态下的下载限制已达到。请一小时后重试。",
@@ -6816,6 +6872,21 @@
       },
       "quote_collections": {
         "no_quotes_were_found_in": "该文件中未找到引文。"
+      },
+      "wikipedia_import": {
+        "checking_wikipedia": "正在检查 wikipedia……",
+        "downloading_progress": "正在提取《{title}》（第 {current} 篇 / 共 {total} 篇）……",
+        "rate_limited": "维基百科正在限制请求速率，正在暂停……",
+        "server_lagged": "维基百科服务器繁忙，正在暂停……",
+        "request_failed": "维基百科返回了 {status}。",
+        "network_error": "无法连接到维基百科。请检查您的网络连接。",
+        "no_articles_found": "未找到匹配的维基百科文章。",
+        "no_prose_in_article": "《{title}》中不包含可用的正文段落。",
+        "disambiguation_detected": "《{title}》是一个消歧义页面。",
+        "cancelled": "导入已取消。",
+        "unsupported_edition": "不支持该维基百科版本“{wiki}”。",
+        "mixed_editions_declined": "数据集不能混用不同语言的维基百科版本。“{current}”无法与“{incoming}”合并。",
+        "export_blocked_licence": "导出已阻止：该数据集包含许可证条款未明确或不完整的维基百科材料。在分发之前，请检查每篇文章的许可证详情。"
       }
     },
     "themes": {

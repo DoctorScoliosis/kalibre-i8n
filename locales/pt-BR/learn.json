@@ -126,6 +126,15 @@
     },
     "mix": {
       "title": "as novas teclas com o restante"
+    },
+    "pairs": {
+      "title": "pares de teclas e padrões"
+    },
+    "vowels": {
+      "title": "vogais e letras comuns"
+    },
+    "reaches": {
+      "title": "alcance a partir da linha base"
     }
   },
   "ui": {
@@ -215,7 +224,16 @@
     "runner_quit": "sair sem salvar ",
     "round_summary": "rodada {round}: {wpm} ppm · {accuracy}% — espaço para a próxima rodada",
     "hints_prep": "Esc pula para o teste · espaço próxima {unit}",
-    "hints_normal": "Esc pausa · espaço próxima {unit}"
+    "hints_normal": "Esc pausa · espaço próxima {unit}",
+    "step_count": "{count, plural, one {# etapa} other {# etapas}}",
+    "lesson_steps_badge": "{count, plural, one {# etapa} other {# etapas}}",
+    "result_tier_achieved": "{tier} alcançado: {id} {title}",
+    "tier_next_heading": "Para alcançar {nextTier}, mire em:",
+    "tier_diamond_achieved": "★ perfeição diamante: {id} {title}!",
+    "preview_step_1": "etapa 1",
+    "preview_step_2": "etapa 2",
+    "preview_all": "tudo",
+    "preview_keys_label": "Prévia das teclas da lição"
   },
   "cal_wardrobe": {
     "whose_wardrobe": "guarda-roupa de quem",
@@ -405,7 +423,10 @@
   "mascot": {
     "open_wardrobe": "{name}: abrir o guarda-roupa {companion, select, cal {dele} libby {dela} other {deles}}",
     "open_s_wardrobe": "{name}: abrir o guarda-roupa de {name2}",
-    "asleep_label": "{name}, dormindo: acordar {companion, select, cal {ele} libby {ela} other {ele}}"
+    "asleep_label": "{name}, dormindo: acordar {companion, select, cal {ele} libby {ela} other {ele}}",
+    "shutdown_label": "{name}, desligado: toque para reiniciar {companion, select, cal {ele} libby {ela} other {eles}}",
+    "booting_label": "{name}, inicializando…",
+    "dismiss_message": "ativar para dispensar esta mensagem"
   },
   "numpad_tape": {
     "entries": "entradas",
@@ -535,5 +556,11 @@
       "divide": "divisão",
       "percent": "porcentagens"
     }
+  },
+  "tiers": {
+    "bronze": "bronze",
+    "silver": "prata",
+    "gold": "ouro",
+    "diamond": "diamante"
   }
 }

@@ -14,7 +14,8 @@
     "recommended_title": "seleziona gli errori che vale la pena allenare ora, fino al limite di un allenamento",
     "all": "tutti",
     "none": "nessuno",
-    "train_and_drill_these": "allena e esercita questi"
+    "train_and_drill_these": "allena e esercita questi",
+    "recommended_set": "set consigliato"
   },
   "labels": {
     "how": "come",
@@ -42,12 +43,35 @@
     "usual": "solito",
     "seen_not_trained": "visto, non ancora allenato",
     "empty_nothing_in_training": "Non c'è ancora nulla in allenamento. Continua a digitare: Kalibre suggerisce gli errori che continuano a ripresentarsi.",
-    "empty_seen_not_trained": "Non c'è ancora nulla in allenamento. Questi errori sono comparsi ma non sono ancora allenati: seleziona quelli su cui vuoi lavorare."
+    "empty_seen_not_trained": "Non c'è ancora nulla in allenamento. Questi errori sono comparsi ma non sono ancora allenati: seleziona quelli su cui vuoi lavorare.",
+    "quotes_selected": "{selected} di {total} selezionate",
+    "recommended_set_title": "Seleziona le citazioni più adatte a questi errori",
+    "drill_plan": "piano di esercizio",
+    "drill_mode": "modalità di esercizio",
+    "selected_mistakes_count": "{count, plural, one {# errore selezionato} other {# errori selezionati}}",
+    "selected_quotes_count": "{count, plural, one {# citazione selezionata} other {# citazioni selezionate}}",
+    "remove_mistake": "rimuovi {mistake}",
+    "show_all_chips": "mostra tutti ({count})",
+    "show_fewer_chips": "mostra meno",
+    "show_full_list": "mostra tutti i {count} errori",
+    "hide_full_list": "nascondi elenco completo",
+    "more_hits": "+altri {count}",
+    "show_fewer_hits": "mostra meno",
+    "quote_progress": "citazione {current} di {total}",
+    "drilling_targets": "allenamento su {targets}",
+    "drilling_mistakes": "allenamento sui tuoi errori",
+    "quote_mode": "esercizio con citazioni",
+    "words_mode": "esercizio da {count} parole",
+    "no_targets_selected": "Seleziona almeno un errore da esercitare.",
+    "no_quotes_selected": "Seleziona almeno una citazione da esercitare."
   },
   "status": {
     "training": "in allenamento",
     "improving": "in miglioramento",
     "suggested": "suggerito",
     "watching": "osservato"
+  },
+  "errors": {
+    "aborted": "l’operazione è stata annullata"
   }
 }

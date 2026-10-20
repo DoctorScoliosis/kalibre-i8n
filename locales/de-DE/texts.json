@@ -59,7 +59,12 @@
     "deleted": "Zitat gestrichen",
     "unknown": "— Unbekannt",
     "too_short": "· Zu kurz für Tests:{min}+ Zeichen",
-    "empty": "Fügen Sie Zitate hinzu, die Ihnen gefallen; Sie erscheinen in Zitaten und gemischten Tests. Sammlungen wie eine quotes.json-Datei können unter Datasets installiert werden."
+    "empty": "Fügen Sie Zitate hinzu, die Ihnen gefallen; Sie erscheinen in Zitaten und gemischten Tests. Sammlungen wie eine quotes.json-Datei können unter Datasets installiert werden.",
+    "options_aria": "Zitatenoptionen",
+    "previous_page": "vorherige",
+    "next_page": "nächste",
+    "page_status": "Seite {page} von {pages}",
+    "pagination_aria": "Meine Zitatseiten"
   },
   "github_import": {
     "github_s_limit_for_downloads": "Das Limit von GitHub für Downloads ohne Anmeldung wurde erreicht. Versuchen Sie es erneut in einer Stunde.",
@@ -80,5 +85,20 @@
   },
   "quote_collections": {
     "no_quotes_were_found_in": "In dieser Datei wurden keine Zitate gefunden."
+  },
+  "wikipedia_import": {
+    "checking_wikipedia": "Wikipedia wird überprüft…",
+    "downloading_progress": "„{title}“ wird abgerufen ({current} von {total})…",
+    "rate_limited": "Wikipedia drosselt Anfragen. Pause…",
+    "server_lagged": "Wikipedia-Server sind ausgelastet. Pause…",
+    "request_failed": "Wikipedia antwortete mit {status}.",
+    "network_error": "Wikipedia konnte nicht erreicht werden. Prüfen Sie Ihre Verbindung.",
+    "no_articles_found": "Keine passenden Wikipedia-Artikel gefunden.",
+    "no_prose_in_article": "„{title}“ enthält keine nutzbaren Fließtext-Absätze.",
+    "disambiguation_detected": "„{title}“ ist eine Begriffsklärungsseite.",
+    "cancelled": "Import abgebrochen.",
+    "unsupported_edition": "Die Wikipedia-Ausgabe „{wiki}“ wird nicht unterstützt.",
+    "mixed_editions_declined": "Ein Datensatz darf nicht verschiedene Wikipedia-Ausgaben mischen. „{current}“ kann nicht mit „{incoming}“ kombiniert werden.",
+    "export_blocked_licence": "Export blockiert: Dieser Datensatz enthält Wikipedia-Inhalte mit ungelösten oder unvollständigen Lizenzbedingungen. Prüfen Sie die Lizenzdetails jedes Artikels vor der Weitergabe."
   }
 }

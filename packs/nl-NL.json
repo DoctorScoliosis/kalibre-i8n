@@ -3060,7 +3060,8 @@
         "recommended_title": "Vink de fouten aan die nu het oefenen waard zijn, zoveel als een oefening kan bevatten",
         "all": "alle",
         "none": "geen",
-        "train_and_drill_these": "deze trainen en oefenen"
+        "train_and_drill_these": "deze trainen en oefenen",
+        "recommended_set": "aanbevolen set"
       },
       "labels": {
         "how": "hoe",
@@ -3088,13 +3089,36 @@
         "usual": "gebruikelijk",
         "seen_not_trained": "gezien, nog niet getraind",
         "empty_nothing_in_training": "Nog niets in training. Blijf typen: Kalibre stelt fouten voor die steeds terugkomen.",
-        "empty_seen_not_trained": "Nog niets in training. Deze zijn wel voorgekomen maar nog niet getraind: vink aan waar je aan wilt werken."
+        "empty_seen_not_trained": "Nog niets in training. Deze zijn wel voorgekomen maar nog niet getraind: vink aan waar je aan wilt werken.",
+        "quotes_selected": "{selected} van {total} geselecteerd",
+        "recommended_set_title": "Selecteer de best passende citaten voor deze fouten",
+        "drill_plan": "oefenplan",
+        "drill_mode": "oefenmodus",
+        "selected_mistakes_count": "{count, plural, one {# fout geselecteerd} other {# fouten geselecteerd}}",
+        "selected_quotes_count": "{count, plural, one {# citaat geselecteerd} other {# citaten geselecteerd}}",
+        "remove_mistake": "{mistake} verwijderen",
+        "show_all_chips": "alle {count} tonen",
+        "show_fewer_chips": "minder tonen",
+        "show_full_list": "alle {count} fouten tonen",
+        "hide_full_list": "volledige lijst verbergen",
+        "more_hits": "+{count} meer",
+        "show_fewer_hits": "minder tonen",
+        "quote_progress": "citaat {current} van {total}",
+        "drilling_targets": "{targets} oefenen",
+        "drilling_mistakes": "je eigen fouten oefenen",
+        "quote_mode": "citatenoefening",
+        "words_mode": "{count} woorden oefening",
+        "no_targets_selected": "Selecteer minstens één fout om te oefenen.",
+        "no_quotes_selected": "Selecteer minstens één citaat om te oefenen."
       },
       "status": {
         "training": "training",
         "improving": "verbeterend",
         "suggested": "voorgesteld",
         "watching": "in de gaten"
+      },
+      "errors": {
+        "aborted": "bewerking is geannuleerd"
       }
     },
     "games": {
@@ -4558,6 +4582,15 @@
         },
         "mix": {
           "title": "de nieuwe toetsen met de rest"
+        },
+        "pairs": {
+          "title": "toetsparen en patronen"
+        },
+        "vowels": {
+          "title": "klinkers en veelvoorkomende letters"
+        },
+        "reaches": {
+          "title": "reiken vanaf de basisrij"
         }
       },
       "ui": {
@@ -4647,7 +4680,16 @@
         "runner_quit": "verlaten zonder op te slaan ",
         "round_summary": "ronde {round}: {wpm} wpm · {accuracy}% — spatie voor de volgende ronde",
         "hints_prep": "esc gaat naar de test · spatie volgende {unit}",
-        "hints_normal": "esc pauze · spatie volgende {unit}"
+        "hints_normal": "esc pauze · spatie volgende {unit}",
+        "step_count": "{count, plural, one {# stap} other {# stappen}}",
+        "lesson_steps_badge": "{count, plural, one {# stap} other {# stappen}}",
+        "result_tier_achieved": "{tier} behaald: {id} {title}",
+        "tier_next_heading": "Om {nextTier} te bereiken, richt je op:",
+        "tier_diamond_achieved": "★ diamant-perfectie: {id} {title}!",
+        "preview_step_1": "stap 1",
+        "preview_step_2": "stap 2",
+        "preview_all": "alles",
+        "preview_keys_label": "Voorbeeld van lestoetsen"
       },
       "cal_wardrobe": {
         "whose_wardrobe": "wiens garderobe",
@@ -4837,7 +4879,10 @@
       "mascot": {
         "open_wardrobe": "{name}: {companion, select, cal {zijn} libby {haar} other {hun}} garderobe openen",
         "open_s_wardrobe": "{name}: garderobe van {name2} openen",
-        "asleep_label": "{name}, slapend: maak {companion, select, cal {hem} libby {haar} other {hen}} wakker"
+        "asleep_label": "{name}, slapend: maak {companion, select, cal {hem} libby {haar} other {hen}} wakker",
+        "shutdown_label": "{name}, uitgeschakeld: tik om {companion, select, cal {hem} libby {haar} other {hen}} opnieuw op te starten",
+        "booting_label": "{name}, start op…",
+        "dismiss_message": "activeren om dit bericht te sluiten"
       },
       "numpad_tape": {
         "entries": "invoeren",
@@ -4967,6 +5012,12 @@
           "divide": "delen",
           "percent": "percentages"
         }
+      },
+      "tiers": {
+        "bronze": "brons",
+        "silver": "zilver",
+        "gold": "goud",
+        "diamond": "diamant"
       }
     },
     "mistakes": {
@@ -6858,7 +6909,12 @@
         "deleted": "citaat verwijderd",
         "unknown": "— onbekend",
         "too_short": " · te kort voor tests ({min}+ tekens)",
-        "empty": "Voeg citaten toe die je leuk vindt; ze verschijnen in citaat- en gemengde tests. Verzamelingen zoals een quotes.json-bestand kunnen onder datasets worden geïnstalleerd."
+        "empty": "Voeg citaten toe die je leuk vindt; ze verschijnen in citaat- en gemengde tests. Verzamelingen zoals een quotes.json-bestand kunnen onder datasets worden geïnstalleerd.",
+        "options_aria": "citaatopties",
+        "previous_page": "vorige",
+        "next_page": "volgende",
+        "page_status": "pagina {page} van {pages}",
+        "pagination_aria": "mijn citaatpagina’s"
       },
       "github_import": {
         "github_s_limit_for_downloads": "De downloadlimiet van GitHub zonder inloggen is bereikt. Probeer het over een uur opnieuw.",
@@ -6879,6 +6935,21 @@
       },
       "quote_collections": {
         "no_quotes_were_found_in": "Er zijn geen citaten gevonden in dat bestand."
+      },
+      "wikipedia_import": {
+        "checking_wikipedia": "wikipedia controleren…",
+        "downloading_progress": "„{title}” ophalen ({current} van {total})…",
+        "rate_limited": "Wikipedia beperkt verzoeken. Pauzeren…",
+        "server_lagged": "Wikipedia-servers zijn druk bezet. Pauzeren…",
+        "request_failed": "Wikipedia antwoordde met {status}.",
+        "network_error": "Kon Wikipedia niet bereiken. Controleer je verbinding.",
+        "no_articles_found": "Geen overeenkomende Wikipedia-artikelen gevonden.",
+        "no_prose_in_article": "„{title}” bevat geen bruikbare lopende tekstalinea’s.",
+        "disambiguation_detected": "„{title}” is een doorverwijspagina.",
+        "cancelled": "Import geannuleerd.",
+        "unsupported_edition": "De Wikipedia-editie „{wiki}” wordt niet ondersteund.",
+        "mixed_editions_declined": "Een dataset mag niet verschillende Wikipedia-edities mengen. „{current}” kan niet worden gecombineerd met „{incoming}”.",
+        "export_blocked_licence": "Export geblokkeerd: deze dataset bevat Wikipedia-materiaal met onopgeloste of onvolledige licentievoorwaarden. Controleer de licentiegegevens op elk artikel voordat je het deelt."
       }
     },
     "themes": {

@@ -14,7 +14,8 @@
     "recommended_title": "Tick die Fehler, die es wert sind, jetzt zu bohren, so viele wie ein Bohrer tragen kann",
     "all": "Alle",
     "none": "Nicht",
-    "train_and_drill_these": "Train und bohren diese"
+    "train_and_drill_these": "Train und bohren diese",
+    "recommended_set": "empfohlenes Set"
   },
   "labels": {
     "how": "Wie",
@@ -42,12 +43,35 @@
     "usual": "Üblich",
     "seen_not_trained": "Gesehen, noch nicht trainiert",
     "empty_nothing_in_training": "Noch nichts im Training. Tippen Sie weiter: Kalibre schlägt Fehler vor, die immer wieder kommen.",
-    "empty_seen_not_trained": "Noch nichts im Training. Diese sind aufgetaucht, sind aber noch nicht ausgebildet: Zeichne die an, an denen du arbeiten musst."
+    "empty_seen_not_trained": "Noch nichts im Training. Diese sind aufgetaucht, sind aber noch nicht ausgebildet: Zeichne die an, an denen du arbeiten musst.",
+    "quotes_selected": "{selected} von {total} ausgewählt",
+    "recommended_set_title": "Wählen Sie die am besten passenden Zitate für diese Fehler aus",
+    "drill_plan": "Trainingsplan",
+    "drill_mode": "Trainingsmodus",
+    "selected_mistakes_count": "{count, plural, one {# Fehler ausgewählt} other {# Fehler ausgewählt}}",
+    "selected_quotes_count": "{count, plural, one {# Zitat ausgewählt} other {# Zitate ausgewählt}}",
+    "remove_mistake": "{mistake} entfernen",
+    "show_all_chips": "alle {count} anzeigen",
+    "show_fewer_chips": "weniger anzeigen",
+    "show_full_list": "alle {count} Fehler anzeigen",
+    "hide_full_list": "vollständige Liste ausblenden",
+    "more_hits": "+{count} weitere",
+    "show_fewer_hits": "weniger Treffer anzeigen",
+    "quote_progress": "Zitat {current} von {total}",
+    "drilling_targets": "{targets} trainieren",
+    "drilling_mistakes": "eigene Fehler trainieren",
+    "quote_mode": "Zitate-Training",
+    "words_mode": "{count}-Wörter-Training",
+    "no_targets_selected": "Wählen Sie mindestens einen Fehler zum Trainieren aus.",
+    "no_quotes_selected": "Wählen Sie mindestens ein Zitat zum Trainieren aus."
   },
   "status": {
     "training": "Ausbildung",
     "improving": "Verbesserung",
     "suggested": "Suggeriert",
     "watching": "Beobachten"
+  },
+  "errors": {
+    "aborted": "Vorgang wurde abgebrochen"
   }
 }

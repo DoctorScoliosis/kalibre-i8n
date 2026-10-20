@@ -3069,7 +3069,8 @@
         "recommended_title": "Marca los errores que merece la pena practicar ahora, tantos como pueda llevar un ejercicio",
         "all": "todos",
         "none": "ninguno",
-        "train_and_drill_these": "entrenar y practicar estos"
+        "train_and_drill_these": "entrenar y practicar estos",
+        "recommended_set": "conjunto recomendado"
       },
       "labels": {
         "how": "cómo",
@@ -3097,13 +3098,36 @@
         "usual": "habitual",
         "seen_not_trained": "visto, todavía no practicado",
         "empty_nothing_in_training": "Todavía no hay nada en entrenamiento. Sigue escribiendo: kalibre sugiere los errores que vuelven a aparecer.",
-        "empty_seen_not_trained": "Todavía no hay nada en entrenamiento. Estos han aparecido, pero aún no se practican: marca los que quieras trabajar."
+        "empty_seen_not_trained": "Todavía no hay nada en entrenamiento. Estos han aparecido, pero aún no se practican: marca los que quieras trabajar.",
+        "quotes_selected": "{selected} de {total} seleccionadas",
+        "recommended_set_title": "Selecciona las citas que mejor coincidan con estos errores",
+        "drill_plan": "plan de práctica",
+        "drill_mode": "modo de práctica",
+        "selected_mistakes_count": "{count, plural, one {# error seleccionado} other {# errores seleccionados}}",
+        "selected_quotes_count": "{count, plural, one {# cita seleccionada} other {# citas seleccionadas}}",
+        "remove_mistake": "eliminar {mistake}",
+        "show_all_chips": "mostrar todos ({count})",
+        "show_fewer_chips": "mostrar menos",
+        "show_full_list": "mostrar los {count} errores",
+        "hide_full_list": "ocultar lista completa",
+        "more_hits": "+{count} más",
+        "show_fewer_hits": "mostrar menos",
+        "quote_progress": "cita {current} de {total}",
+        "drilling_targets": "practicando {targets}",
+        "drilling_mistakes": "practicando tus errores",
+        "quote_mode": "práctica con citas",
+        "words_mode": "práctica de {count} palabras",
+        "no_targets_selected": "Selecciona al menos un error para practicar.",
+        "no_quotes_selected": "Selecciona al menos una cita para practicar."
       },
       "status": {
         "training": "entrenando",
         "improving": "mejorando",
         "suggested": "sugerido",
         "watching": "observando"
+      },
+      "errors": {
+        "aborted": "la operación fue cancelada"
       }
     },
     "games": {
@@ -4561,6 +4585,15 @@
         },
         "mix": {
           "title": "las teclas nuevas con el resto"
+        },
+        "pairs": {
+          "title": "pares de teclas y patrones"
+        },
+        "vowels": {
+          "title": "vocales y letras frecuentes"
+        },
+        "reaches": {
+          "title": "alcance desde la fila guía"
         }
       },
       "ui": {
@@ -4650,7 +4683,16 @@
         "runner_quit": "terminar sin guardar ",
         "round_summary": "ronda {round}: {wpm} p. p. m. · {accuracy}% — espacio para la siguiente ronda",
         "hints_prep": "esc salta a la prueba · espacio siguiente {unit}",
-        "hints_normal": "esc pausa · espacio siguiente {unit}"
+        "hints_normal": "esc pausa · espacio siguiente {unit}",
+        "step_count": "{count, plural, one {# paso} other {# pasos}}",
+        "lesson_steps_badge": "{count, plural, one {# paso} other {# pasos}}",
+        "result_tier_achieved": "{tier} conseguido: {id} {title}",
+        "tier_next_heading": "Para alcanzar {nextTier}, apunta a:",
+        "tier_diamond_achieved": "★ perfección diamante: ¡{id} {title}!",
+        "preview_step_1": "paso 1",
+        "preview_step_2": "paso 2",
+        "preview_all": "todo",
+        "preview_keys_label": "Vista previa de teclas de la lección"
       },
       "cal_wardrobe": {
         "whose_wardrobe": "de quién es el armario",
@@ -4840,7 +4882,10 @@
       "mascot": {
         "open_wardrobe": "{name}: abrir {companion, select, cal {su} libby {su} other {su}} armario",
         "open_s_wardrobe": "{name}: abrir el armario de {name2}",
-        "asleep_label": "{name}, dormido: despertar a {companion, select, cal {él} libby {ella} other {elle}}"
+        "asleep_label": "{name}, dormido: despertar a {companion, select, cal {él} libby {ella} other {elle}}",
+        "shutdown_label": "{name}, apagado: toca para reiniciar{companion, select, cal {lo} libby {la} other {lo}}",
+        "booting_label": "{name}, iniciando…",
+        "dismiss_message": "activar para descartar este mensaje"
       },
       "numpad_tape": {
         "entries": "entradas",
@@ -4970,6 +5015,12 @@
           "divide": "dividir",
           "percent": "porcentajes"
         }
+      },
+      "tiers": {
+        "bronze": "bronce",
+        "silver": "plata",
+        "gold": "oro",
+        "diamond": "diamante"
       }
     },
     "mistakes": {
@@ -6861,7 +6912,12 @@
         "deleted": "cita eliminada",
         "unknown": "— desconocido",
         "too_short": " · demasiado corta para las pruebas ({min}+ caracteres)",
-        "empty": "Añade citas que te gusten; aparecerán en las pruebas de citas y mixtas. Las colecciones, como un archivo quotes.json, se pueden instalar en conjuntos de datos."
+        "empty": "Añade citas que te gusten; aparecerán en las pruebas de citas y mixtas. Las colecciones, como un archivo quotes.json, se pueden instalar en conjuntos de datos.",
+        "options_aria": "opciones de cita",
+        "previous_page": "anterior",
+        "next_page": "siguiente",
+        "page_status": "página {page} de {pages}",
+        "pagination_aria": "páginas de mis citas"
       },
       "github_import": {
         "github_s_limit_for_downloads": "se ha alcanzado el límite de GitHub para descargas sin iniciar sesión. vuelve a intentarlo dentro de una hora.",
@@ -6882,6 +6938,21 @@
       },
       "quote_collections": {
         "no_quotes_were_found_in": "No se han encontrado citas en ese archivo."
+      },
+      "wikipedia_import": {
+        "checking_wikipedia": "comprobando wikipedia…",
+        "downloading_progress": "obteniendo {title} ({current} de {total})…",
+        "rate_limited": "Wikipedia está limitando las solicitudes. En pausa…",
+        "server_lagged": "Los servidores de Wikipedia están ocupados. En pausa…",
+        "request_failed": "Wikipedia respondió con {status}.",
+        "network_error": "No se pudo conectar con Wikipedia. Comprueba tu conexión.",
+        "no_articles_found": "No se han encontrado artículos de Wikipedia coincidentes.",
+        "no_prose_in_article": "«{title}» no contiene párrafos de texto utilizables.",
+        "disambiguation_detected": "«{title}» es una página de desambiguación.",
+        "cancelled": "Importación cancelada.",
+        "unsupported_edition": "La edición de Wikipedia «{wiki}» no es compatible.",
+        "mixed_editions_declined": "Un conjunto de datos no puede mezclar diferentes ediciones de Wikipedia. «{current}» no se puede combinar con «{incoming}».",
+        "export_blocked_licence": "Exportación bloqueada: Este conjunto de datos contiene material de Wikipedia con términos de licencia no resueltos o incompletos. Comprueba los detalles de licencia en cada artículo antes de redistribuir."
       }
     },
     "themes": {

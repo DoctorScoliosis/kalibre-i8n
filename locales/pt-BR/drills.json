@@ -14,7 +14,8 @@
     "recommended_title": "Marque os erros que valem a pena treinar agora, quantos um treino conseguir comportar",
     "all": "todos",
     "none": "nenhum",
-    "train_and_drill_these": "treinar e praticar estes"
+    "train_and_drill_these": "treinar e praticar estes",
+    "recommended_set": "conjunto recomendado"
   },
   "labels": {
     "how": "como",
@@ -42,12 +43,35 @@
     "usual": "habitual",
     "seen_not_trained": "visto, ainda não treinado",
     "empty_nothing_in_training": "Ainda não há nada em treinamento. Continue digitando: o Kalibre sugere erros que continuam voltando.",
-    "empty_seen_not_trained": "Ainda não há nada em treinamento. Estes apareceram, mas ainda não foram treinados: marque os que quer trabalhar."
+    "empty_seen_not_trained": "Ainda não há nada em treinamento. Estes apareceram, mas ainda não foram treinados: marque os que quer trabalhar.",
+    "quotes_selected": "{selected} de {total} selecionadas",
+    "recommended_set_title": "Selecione as citações mais adequadas para estes erros",
+    "drill_plan": "plano de treino",
+    "drill_mode": "modo de treino",
+    "selected_mistakes_count": "{count, plural, one {# erro selecionado} other {# erros selecionados}}",
+    "selected_quotes_count": "{count, plural, one {# citação selecionada} other {# citações selecionadas}}",
+    "remove_mistake": "remover {mistake}",
+    "show_all_chips": "mostrar todos ({count})",
+    "show_fewer_chips": "mostrar menos",
+    "show_full_list": "mostrar todos os {count} erros",
+    "hide_full_list": "ocultar lista completa",
+    "more_hits": "+{count} mais",
+    "show_fewer_hits": "mostrar menos",
+    "quote_progress": "citação {current} de {total}",
+    "drilling_targets": "treinando {targets}",
+    "drilling_mistakes": "treinando seus erros",
+    "quote_mode": "treino de citações",
+    "words_mode": "treino de {count} palavras",
+    "no_targets_selected": "Selecione pelo menos um erro para treinar.",
+    "no_quotes_selected": "Selecione pelo menos uma citação para treinar."
   },
   "status": {
     "training": "treinando",
     "improving": "melhorando",
     "suggested": "sugerido",
     "watching": "observando"
+  },
+  "errors": {
+    "aborted": "a operação foi cancelada"
   }
 }
