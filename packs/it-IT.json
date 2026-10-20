@@ -3558,7 +3558,236 @@
         "section_critical": ", critico",
         "section_needs": ", servono mattoni che {requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "potenziamento"
+        "powerup": "potenziamento",
+        "units": {
+          "brute": "bruto",
+          "sapper": "guastatore",
+          "catapult": "catapulta",
+          "operator": "operatore",
+          "anarchist": "anarchico",
+          "giant": "gigante",
+          "soldier": "soldato",
+          "rogue": "brigante"
+        },
+        "sections": {
+          "west-tower": "torre ovest",
+          "west-wall": "mura ovest",
+          "inner-west-wall": "mura ovest interne",
+          "gate": "porta",
+          "inner-east-wall": "mura est interne",
+          "east-wall": "mura est",
+          "east-tower": "torre est",
+          "west-foundation": "fondamenta ovest",
+          "keep": "mastio",
+          "east-foundation": "fondamenta est"
+        },
+        "kinds": {
+          "wall": "mura",
+          "tower": "torre",
+          "gate": "porta",
+          "foundation": "base",
+          "keep": "mastio"
+        },
+        "marks": {
+          "critical": "critico",
+          "breach": "breccia",
+          "requirement": "!"
+        },
+        "summary": {
+          "held": "difeso",
+          "overrun": "sopraffatto",
+          "waves": "ondate",
+          "bricks_laid": "mattoni posati",
+          "crushed": "schiacciati",
+          "strongest": "più forte",
+          "damage_taken": "danni subiti",
+          "sections_lost": "sezioni perse",
+          "catapults_destroyed": "catapulte distrutte",
+          "fires_out": "incendi spenti",
+          "soldiers_sent": "soldati inviati",
+          "floors_held": "piani difesi",
+          "climbers_downed": "scalatori abbattuti",
+          "breaches": "brecce",
+          "ladders_pushed": "scale respinte",
+          "ropes_cut": "corde tagliate",
+          "defeated": "sconfitto da",
+          "defeat_guard": "la guardia è caduta",
+          "defeat_king": "il re è fuggito"
+        },
+        "titles": {
+          "foe": {
+            "brute": "bruto: fai clic o rilascia un mattone per schiacciarlo ({hp} PV)",
+            "sapper": "guastatore: fai clic o rilascia un mattone per schiacciarlo ({hp} PV)",
+            "anarchist": "anarchico: fai clic o rilascia un mattone per schiacciarlo ({hp} PV)",
+            "giant": "gigante: solo una parola forte lo stordisce; i mattoni deboli rimbalzano ({hp} PV)"
+          },
+          "catapult": "catapulta: {state} · {ammo} · telaio {percent}%",
+          "catapult_aiming": ", mira a: {section}",
+          "operator": "operatore: fai clic o lancia un mattone per abbatterlo ({hp}% rimasto)",
+          "rubble": "macerie: qui è stata distrutta una catapulta",
+          "repair_crew": "squadra di riparazione: fai clic o lancia un mattone per fermare i lavori ({hp}% rimasto · {percent}% completato)",
+          "dynamite": "dinamite: {seconds, plural, one {# secondo rimasto} other {# secondi rimasti}} · fai clic per disinnescare",
+          "fire": "incendio: {percent}% di combustione rimasta · spegni con il secchio",
+          "strong_word": "serve una parola forte: i mattoni deboli infliggono pochi danni e non stordiscono"
+        },
+        "siege": {
+          "state": {
+            "arriving": "gli operatori avanzano",
+            "setup": "allestimento",
+            "carrying": "trasporta un masso",
+            "loading": "caricamento",
+            "aiming": "mira",
+            "releasing": "lancio",
+            "unmanned": "senza equipaggio",
+            "empty": "senza massi",
+            "destroyed": "distrutta",
+            "repairing": "in riparazione"
+          },
+          "ammo": "{count, plural, =0 {nessun masso rimasto} one {# masso rimasto} other {# massi rimasti}}"
+        },
+        "cursor": {
+          "site_catapult": "mira: catapulta · {state} · {ammo}",
+          "site_rubble": "mira: macerie di una catapulta",
+          "site_empty": "mira: linea d'assedio · nulla qui"
+        },
+        "sabotage": {
+          "fuse": "{seconds} s"
+        },
+        "bucket": {
+          "label": "secchio",
+          "title": "secchio: {water}/{capacity} d'acqua · fai clic sul secchio e poi sul fuoco (o premi 0, poi spazio)",
+          "title_armed": "secchio pronto: fai clic su un incendio o premi spazio su di esso (esc per posarlo)",
+          "level": "{water}/{capacity}"
+        },
+        "garrison": {
+          "cooldown": "{seconds} s finché non è pronto",
+          "ready": "pronto a inviare soldati",
+          "next_size": "prossimo: {count, plural, one {# soldato} other {# soldati}}",
+          "deployed": "{count, plural, one {# soldato schierato} other {# soldati schierati}}",
+          "spawning": "invio soldati: {count, plural, =0 {l'ultimo è uscito} one {ancora # in arrivo} other {ancora # in arrivo}}",
+          "cancelled": "l'ondata che stava preparando è andata perduta",
+          "destroyed": "perduto: nessun soldato finché non viene ricostruito",
+          "friendly_fire_on": "fuoco amico attivo"
+        },
+        "climb": {
+          "the_tower": "la torre",
+          "hint": "Fai clic per lanciare un mattone dalla finestra · Spazio ne lascia cadere uno · Backspace respinge una scala o taglia una corda · oppure fai clic sulla scala o corda",
+          "king": "il re",
+          "side": {
+            "left": "sinistra",
+            "right": "destra"
+          },
+          "window_title": "finestra {side}, piano {floor}",
+          "window_needs": " · richiede {requirement}",
+          "cursor_window": "la finestra {side}, piano {floor}",
+          "floors_held": "piani difesi: {held}/{total}",
+          "breaches": "brecce: {count}/{limit}",
+          "limping": " · zoppica",
+          "ladder_title": "scala · fai clic per respingerla dal muro",
+          "rope_title": "corda · fai clic per tagliarla",
+          "rogue_title": "brigante ({kit}) · {hp} punti vita",
+          "resolve_title": "Determinazione dei briganti: cala finché nessuno è all'interno",
+          "kit": {
+            "ladder": "scala",
+            "grapple": "rampino"
+          },
+          "interior": {
+            "label": "sezione della torre e dintorni: stanze, scale, atrio, pozzo, re, guardia e intrusi",
+            "where": {
+              "outside": "sei all'esterno",
+              "room": "sei nella stanza {floor}",
+              "lobby": "sei nell'atrio",
+              "behind": "sei dietro la torre"
+            },
+            "variant": {
+              "rogue": "brigante",
+              "scribe": "scriba",
+              "bruiser": "attaccabrighe",
+              "knight": "cavaliere",
+              "arsonist": "incendiario",
+              "soaker": "bagnatore",
+              "runner": "corridore"
+            },
+            "well_title": {
+              "well": "il pozzo: con lo strumento dell'acqua, fai clic per prendere il secchio",
+              "empty": "il pozzo: fai clic con lo strumento dell'acqua per riempire il secchio",
+              "filling": "riempimento: rimani vicino al pozzo",
+              "full": "il pozzo: il tuo secchio è pieno"
+            },
+            "wet_title": "pavimento bagnato · {seconds} s rimasti",
+            "tools_label": "azione di ogni clic",
+            "uses_left": "{left}/{of} lanci rimasti",
+            "windows_need": "le finestre richiedono: {needs}",
+            "hint": "← → cammina · ↑/↓ scale · Maiusc scatta · il primo mattone si equipaggia da solo · fai clic su un nemico per lanciare · scorta o 1–9 per cambiare · colpo per corpo a corpo",
+            "guard_title": "tu · salute {health} · respiro {breath}",
+            "king_title": {
+              "safe": "il re è al sicuro",
+              "calm": "il re è tranquillo",
+              "alarmed": "il re è allarmato: un brigante è all'interno",
+              "danger": "il re è in pericolo",
+              "captured": "il re è stato rapito: ferma chi lo trasporta",
+              "dropped": "il re è a terra: raggiungilo e scortalo al trono",
+              "escorting": "il re viene scortato al trono"
+            },
+            "exit_title": "linea di fuga: se il portatore la supera, il re è perduto",
+            "anchor_title": {
+              "door": "spazio edificabile, davanti alla porta · {cost} mattoni",
+              "stairs": "spazio edificabile, davanti alle scale · {cost} mattoni",
+              "landing": "spazio edificabile, in cima alle scale · {cost} mattoni"
+            },
+            "barricade_title": {
+              "building": "barricata in costruzione · resta accanto",
+              "intact": "una barricata · {hp} PV rimasti",
+              "damaged": "una barricata danneggiata · {hp} PV rimasti",
+              "burning": "una barricata in fiamme · {hp} PV rimasti"
+            },
+            "loose_title": "{word} · {left} di {of} lanci rimasti · fai clic per raccogliere quando sei vicino",
+            "fire_title": "fuoco · {seconds} s rimasti",
+            "intruder_title": "{name} all'interno · stanza {floor} · {hp} punti vita · a {left} dall'obiettivo",
+            "hand": "in mano: {word} · {strength} · {left} di {of} lanci rimasti",
+            "hand_empty": "nulla in mano",
+            "reload": "prendi un mattone",
+            "reload_help": "il primo mattone disponibile si equipaggia automaticamente; spazio o invio ne equipaggia uno se hai la mano vuota",
+            "clear": "smantella",
+            "build": "costruisci",
+            "build_cost": "costruisci · {cost} mattoni",
+            "rescue": "scorta il re",
+            "inside": "{count, plural, =0 {nessuno all'interno} one {# brigante all'interno} other {# briganti all'interno}}",
+            "health": "salute {value}",
+            "breath": "respiro {value}",
+            "carrying_note": " · trasporta il re",
+            "needs_strength": "colpo {value}+",
+            "bucket": {
+              "empty": "secchio: vuoto",
+              "filling": "secchio: in riempimento ({percent}%)",
+              "full": "secchio: pieno",
+              "well": "secchio: al pozzo"
+            },
+            "prompt": {
+              "up": "↑ sali le scale",
+              "down": "↓ scendi le scale",
+              "door_in": "↑ entra dalla porta",
+              "well": "al pozzo",
+              "line_up": "↑ arrampicati",
+              "line_down": "↓ scendi arrampicandoti",
+              "pickup": "fai clic su un mattone per raccoglierlo",
+              "push": "backspace respinge o taglia",
+              "rescue": "scorta il re"
+            },
+            "tool": {
+              "combat": "lancia",
+              "bash": "colpisci",
+              "water": "acqua",
+              "barricade": "barricata"
+            },
+            "tool_help": {
+              "combat": "fai clic su un nemico per mirare, o su un punto per mirare a mano; niente mira automatica al più vicino",
+              "bash": "fai clic su un nemico vicino per colpirlo con il mattone; un colpo forte lo logora",
+              "water": "un clic al pozzo prende il secchio e lo riempie; un clic su un incendio versa acqua",
+              "barricade": "fai clic su un punto edificabile e conferma"
+            }
+          }
+        }
       },
       "space": {
         "title": "spazio",
@@ -4856,7 +5085,121 @@
         "wrong_kind_of_brick": "tipo di mattone sbagliato",
         "nobody_to_drop_it_on": "non c'è nessuno su cui lasciarlo cadere",
         "two_are_running_already": "ce ne sono già due attivi",
-        "nothing_stored_there": "nulla conservato qui"
+        "nothing_stored_there": "nulla conservato qui",
+        "bash_no_target": "nessun nemico abbastanza vicino da colpire",
+        "crushed": {
+          "brute": "ha schiacciato un bruto",
+          "sapper": "ha schiacciato un guastatore",
+          "catapult": "ha distrutto una catapulta",
+          "operator": "ha abbattuto un operatore",
+          "anarchist": "ha schiacciato un anarchico",
+          "giant": "ha abbattuto un gigante",
+          "rogue": "ha abbattuto un brigante"
+        },
+        "hit": {
+          "brute": "ha colpito un bruto",
+          "sapper": "ha colpito un guastatore",
+          "catapult": "ha colpito una catapulta",
+          "operator": "ha colpito un operatore",
+          "anarchist": "ha colpito un anarchico",
+          "giant": "ha colpito un gigante",
+          "rogue": "ha colpito un brigante"
+        },
+        "hit_stunned": {
+          "brute": "ha colpito un bruto · stordito",
+          "sapper": "ha colpito un guastatore · stordito",
+          "catapult": "ha colpito una catapulta · stordita",
+          "operator": "ha colpito un operatore · stordito",
+          "anarchist": "ha colpito un anarchico · stordito",
+          "giant": "ha colpito un gigante · stordito",
+          "rogue": "ha colpito un brigante · stordito"
+        },
+        "dropped_stored": {
+          "brute": "il bruto ha lasciato cadere {label} · maiusc+{slot} per usare",
+          "sapper": "il guastatore ha lasciato cadere {label} · maiusc+{slot} per usare",
+          "catapult": "la catapulta ha lasciato cadere {label} · maiusc+{slot} per usare",
+          "operator": "l'operatore ha lasciato cadere {label} · maiusc+{slot} per usare",
+          "anarchist": "l'anarchico ha lasciato cadere {label} · maiusc+{slot} per usare",
+          "giant": "il gigante ha lasciato cadere {label} · maiusc+{slot} per usare",
+          "rogue": "il brigante ha lasciato cadere {label} · maiusc+{slot} per usare"
+        },
+        "dropped_full": {
+          "brute": "il bruto ha lasciato cadere {label}, ma il deposito è pieno",
+          "sapper": "il guastatore ha lasciato cadere {label}, ma il deposito è pieno",
+          "catapult": "la catapulta ha lasciato cadere {label}, ma il deposito è pieno",
+          "operator": "l'operatore ha lasciato cadere {label}, ma il deposito è pieno",
+          "anarchist": "l'anarchico ha lasciato cadere {label}, ma il deposito è pieno",
+          "giant": "il gigante ha lasciato cadere {label}, ma il deposito è pieno",
+          "rogue": "il brigante ha lasciato cadere {label}, ma il deposito è pieno"
+        },
+        "laid_many": "{count, plural, one {# mattone} other {# mattoni}}",
+        "powerup_on": "attivo",
+        "powerup_stacked": "cumulato",
+        "attackers_stunned": "{count, plural, one {# assalitore stordito} other {# assalitori storditi}}",
+        "section_mended": "{section} riparata",
+        "shot_interrupted": "colpo interrotto",
+        "cannot_build": "nulla da costruire qui fuori",
+        "alert": {
+          "catapult_destroyed": "una catapulta è stata distrutta",
+          "repair_crew": "una squadra si dirige alle macerie",
+          "repair_done": "una catapulta è stata ricostruita",
+          "repair_failed": "la squadra di riparazione è caduta: le macerie rimangono",
+          "dynamite_placed": "dinamite piazzata a: {section}",
+          "fire_started": "incendio a: {section}",
+          "critical_danger": "la {section} è in pericolo",
+          "base_ready": "la {section} è pronta a inviare soldati",
+          "breach": "un brigante è all'interno",
+          "floor_lost": "un piano è caduto",
+          "king_in_danger": "il re è in pericolo",
+          "king_captured": "il re è stato rapito: ferma chi lo trasporta",
+          "king_dropped": "il re è a terra: raggiungilo",
+          "king_escorting": "hai il re: scortalo di nuovo al trono",
+          "king_safe": "il re è al sicuro",
+          "blaze": "incendio nella stanza {floor}"
+        },
+        "dynamite_disarmed": "dinamite disinnescata",
+        "water_filled": "+{added} d'acqua · {water}/{capacity}",
+        "water_overflow": "+{added} d'acqua · {lost} versata · {water}/{capacity}",
+        "not_enough_water": "il secchio necessita di {cost} d'acqua per versare",
+        "nothing_burning": "nulla brucia lì",
+        "water_poured": "incendio spento",
+        "bucket_armed": "secchio pronto · spazio versa su una sezione in fiamme",
+        "ladder_pushed": "scala respinta dal muro",
+        "ladder_broken": "scala distrutta",
+        "grapple_cut": "rampino tagliato e liberato",
+        "knocked_down": "buttato giù",
+        "brick_missed": "mancato",
+        "out_of_reach": "fuori portata",
+        "nothing_to_push": "nulla da respingere o tagliare qui",
+        "resisted": "ha resistito: parola o forza insufficiente",
+        "reloaded": "un mattone in mano",
+        "already_holding": "stai già tenendo un mattone",
+        "empty_handed": "nulla in mano: spazio o invio prende un mattone",
+        "cannot_throw_now": "non ora",
+        "picked_up": "raccolto",
+        "nothing_to_pick_up": "nessun mattone lì",
+        "too_far": "troppo lontano: avvicinati",
+        "no_stairs_here": "nessuna scala, porta o scala a pioli qui",
+        "fell_from_line": "caduto dalla corda",
+        "slipped": "scivolato sul pavimento bagnato",
+        "no_bucket": "prendi prima il secchio al pozzo",
+        "bucket_taken": "secchio preso: fai clic sul pozzo per riempirlo",
+        "bucket_empty": "il secchio è vuoto: riempilo al pozzo",
+        "bucket_full": "il secchio è pieno",
+        "bucket_filled": "secchio pieno: portalo all'incendio",
+        "filling": "riempimento: rimani vicino al pozzo",
+        "filling_stopped": "riempimento interrotto: l'acqua è andata perduta",
+        "doused": "incendio spento",
+        "nothing_to_pour_on": "nulla brucia lì",
+        "no_anchor_there": "nessun punto edificabile lì",
+        "barricade_started": "costruzione iniziata: rimani accanto",
+        "barricade_built": "barricata costruita",
+        "barricade_broken": "una barricata si è rotta",
+        "barricade_cleared": "barricata smantellata",
+        "not_enough_bricks": "mattoni insufficienti nella scorta",
+        "king_escorting": "scorta del re verso il trono",
+        "king_secured": "il re è al sicuro",
+        "king_needs_no_help": "il re non ha bisogno d'aiuto"
       },
       "marathon": {
         "title": "maratona",

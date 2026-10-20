@@ -75,7 +75,236 @@
     "section_critical": "，危险",
     "section_needs": "，需要满足 {requirement} 的砖块",
     "news_line": "{label}：{note}",
-    "powerup": "道具"
+    "powerup": "道具",
+    "units": {
+      "brute": "蛮勇者",
+      "sapper": "工兵",
+      "catapult": "投石机",
+      "operator": "操作员",
+      "anarchist": "破坏者",
+      "giant": "巨人",
+      "soldier": "卫兵",
+      "rogue": "潜入者"
+    },
+    "sections": {
+      "west-tower": "西塔",
+      "west-wall": "西墙",
+      "inner-west-wall": "内西墙",
+      "gate": "城门",
+      "inner-east-wall": "内东墙",
+      "east-wall": "东墙",
+      "east-tower": "东塔",
+      "west-foundation": "西地基",
+      "keep": "主堡",
+      "east-foundation": "东地基"
+    },
+    "kinds": {
+      "wall": "城墙",
+      "tower": "箭塔",
+      "gate": "大门",
+      "foundation": "基地",
+      "keep": "要塞"
+    },
+    "marks": {
+      "critical": "告急",
+      "breach": "突破",
+      "requirement": "!"
+    },
+    "summary": {
+      "held": "坚守",
+      "overrun": "沦陷",
+      "waves": "进攻波次",
+      "bricks_laid": "砌筑砖块",
+      "crushed": "击溃敌人",
+      "strongest": "最强击",
+      "damage_taken": "承受伤害",
+      "sections_lost": "失守区域",
+      "catapults_destroyed": "摧毁投石机",
+      "fires_out": "扑灭火焰",
+      "soldiers_sent": "派出卫兵",
+      "floors_held": "守住楼层",
+      "climbers_downed": "击落攀爬者",
+      "breaches": "突破次数",
+      "ladders_pushed": "推翻云梯",
+      "ropes_cut": "割断绳索",
+      "defeated": "败于",
+      "defeat_guard": "守卫倒下了",
+      "defeat_king": "国王被掳走了"
+    },
+    "titles": {
+      "foe": {
+        "brute": "蛮勇者：点击或投掷砖块砸碎（{hp} 点生命）",
+        "sapper": "工兵：点击或投掷砖块砸碎（{hp} 点生命）",
+        "anarchist": "破坏者：点击或投掷砖块砸碎（{hp} 点生命）",
+        "giant": "巨人：只有强词才能击晕，弱砖会被弹开（{hp} 点生命）"
+      },
+      "catapult": "投石机：{state} · {ammo} · 结构 {percent}%",
+      "catapult_aiming": "，瞄准：{section}",
+      "operator": "操作员：点击或投掷砖块击倒（剩余 {hp}%）",
+      "rubble": "瓦砾：此处曾有一台投石机被摧毁",
+      "repair_crew": "维修小队：点击或投掷砖块阻止维修（剩余 {hp}% · 进度 {percent}%）",
+      "dynamite": "炸药：还剩 {seconds, plural, other {# 秒}} · 点击拆除",
+      "fire": "火情：燃烧剩余 {percent}% · 用水桶扑灭",
+      "strong_word": "需要强力词汇：脆弱的砖块难以伤及且无法击晕它"
+    },
+    "siege": {
+      "state": {
+        "arriving": "操作员步入阵地",
+        "setup": "架设中",
+        "carrying": "搬运滚石",
+        "loading": "装填中",
+        "aiming": "瞄准中",
+        "releasing": "投射中",
+        "unmanned": "无人操控",
+        "empty": "弹药耗尽",
+        "destroyed": "已损毁",
+        "repairing": "抢修中"
+      },
+      "ammo": "{count, plural, =0 {没有滚石了} other {还剩 # 块滚石}}"
+    },
+    "cursor": {
+      "site_catapult": "瞄准：投石机 · {state} · {ammo}",
+      "site_rubble": "瞄准：投石机残骸瓦砾",
+      "site_empty": "瞄准：攻城防线 · 此处空无一物"
+    },
+    "sabotage": {
+      "fuse": "{seconds} 秒"
+    },
+    "bucket": {
+      "label": "水桶",
+      "title": "水桶：储水 {water}/{capacity} · 点击水桶再点击火焰（或按 0 后按空格）",
+      "title_armed": "水桶就绪：点击火情或在其上方按空格（按 Esc 放下）",
+      "level": "{water}/{capacity}"
+    },
+    "garrison": {
+      "cooldown": "距就绪还剩 {seconds} 秒",
+      "ready": "随时可派遣卫兵",
+      "next_size": "下一批：{count, plural, other {# 名卫兵}}",
+      "deployed": "{count, plural, other {# 名卫兵在阵前}}",
+      "spawning": "派遣卫兵：{count, plural, =0 {最后一名已出动} other {还有 # 名卫兵就位}}",
+      "cancelled": "准备中的增援波次已随其一同损失",
+      "destroyed": "已沦陷：重建前无法派遣卫兵",
+      "friendly_fire_on": "友军伤害已开启"
+    },
+    "climb": {
+      "the_tower": "塔楼",
+      "hint": "点击从窗口投掷砖块 · 空格键下投 · 退格键推翻云梯或割断绳索 · 或直接点击云梯与绳索",
+      "king": "国王",
+      "side": {
+        "left": "左侧",
+        "right": "右侧"
+      },
+      "window_title": "{side}窗口，{floor} 楼",
+      "window_needs": " · 需要 {requirement}",
+      "cursor_window": "{side}窗口，{floor} 楼",
+      "floors_held": "守住楼层：{held}/{total}",
+      "breaches": "突破次数：{count}/{limit}",
+      "limping": " · 步履蹒跚",
+      "ladder_title": "云梯 · 点击推离城墙",
+      "rope_title": "绳索 · 点击割断",
+      "rogue_title": "潜入者（{kit}） · {hp} 点生命",
+      "resolve_title": "潜入者的意志：只要塔内无人，其意志便会瓦解",
+      "kit": {
+        "ladder": "云梯",
+        "grapple": "抓钩"
+      },
+      "interior": {
+        "label": "塔楼剖面与周围场地：房间、楼梯、门厅、水井、国王、守卫与入侵者",
+        "where": {
+          "outside": "你身处室外",
+          "room": "你身处第 {floor} 间房",
+          "lobby": "你身处前厅",
+          "behind": "你身处塔楼后方"
+        },
+        "variant": {
+          "rogue": "潜入者",
+          "scribe": "文书",
+          "bruiser": "壮汉",
+          "knight": "骑士",
+          "arsonist": "纵火者",
+          "soaker": "水枪手",
+          "runner": "快腿"
+        },
+        "well_title": {
+          "well": "水井：切换至水工具后点击以取水桶",
+          "empty": "水井：切换至水工具后点击以给水桶注水",
+          "filling": "注水中：请留在水井旁",
+          "full": "水井：水桶已装满"
+        },
+        "wet_title": "湿滑地面 · 还剩 {seconds} 秒",
+        "tools_label": "点击动作效果",
+        "uses_left": "还剩 {left}/{of} 次投掷",
+        "windows_need": "窗口需求：{needs}",
+        "hint": "← → 移动 · ↑/↓ 楼梯 · Shift 冲刺 · 自动装备首块可用砖块 · 点击敌人投掷 · 点击物资库或按 1–9 切换 · 猛击工具用于近战",
+        "guard_title": "你 · 生命 {health} · 气息 {breath}",
+        "king_title": {
+          "safe": "国王安然无恙",
+          "calm": "国王沉着镇定",
+          "alarmed": "国王警觉：塔内有潜入者",
+          "danger": "国王身陷险境",
+          "captured": "国王被掳走：快阻止搬运者",
+          "dropped": "国王倒在地上：快去护送国王返回王座",
+          "escorting": "正在护送国王返回王座"
+        },
+        "exit_title": "逃生警戒线：入侵者一旦越过此线，国王将被彻底掳走",
+        "anchor_title": {
+          "door": "门前的建造位置 · 需要 {cost} 块砖",
+          "stairs": "楼梯前的建造位置 · 需要 {cost} 块砖",
+          "landing": "楼梯顶端的建造位置 · 需要 {cost} 块砖"
+        },
+        "barricade_title": {
+          "building": "建造中的路障 · 请留在其旁边",
+          "intact": "完整的路障 · 剩余 {hp} 生命",
+          "damaged": "受损的路障 · 剩余 {hp} 生命",
+          "burning": "起火的路障 · 剩余 {hp} 生命"
+        },
+        "loose_title": "{word} · 剩余 {left}/{of} 次投掷 · 靠近后点击即可拾起",
+        "fire_title": "火情 · 还剩 {seconds} 秒",
+        "intruder_title": "{name} 在内部 · {floor} 楼房间 · {hp} 点生命 · 距目标还剩 {left}",
+        "hand": "手持：{word} · {strength} · 剩余 {left}/{of} 次投掷",
+        "hand_empty": "手中无物",
+        "reload": "取砖",
+        "reload_help": "首块可用砖块会自动装备；手空时按空格键或回车键也可装备",
+        "clear": "拆除",
+        "build": "建造",
+        "build_cost": "建造 · 需要 {cost} 块砖",
+        "rescue": "护送国王",
+        "inside": "{count, plural, =0 {塔内空无一人} other {塔内有 # 名潜入者}}",
+        "health": "生命 {value}",
+        "breath": "气息 {value}",
+        "carrying_note": " · 正在掳走国王",
+        "needs_strength": "击打力度 {value}+",
+        "bucket": {
+          "empty": "水桶：空",
+          "filling": "水桶：注水中（{percent}%）",
+          "full": "水桶：已满",
+          "well": "水桶：在水井旁"
+        },
+        "prompt": {
+          "up": "↑ 上楼",
+          "down": "↓ 下楼",
+          "door_in": "↑ 进门入内",
+          "well": "在水井旁",
+          "line_up": "↑ 沿绳爬上",
+          "line_down": "↓ 沿绳滑下",
+          "pickup": "点击砖块将其拾起",
+          "push": "退格键推翻或割断",
+          "rescue": "护送国王"
+        },
+        "tool": {
+          "combat": "投掷",
+          "bash": "猛击",
+          "water": "洒水",
+          "barricade": "路障"
+        },
+        "tool_help": {
+          "combat": "点击特定敌人投掷，或点击任意位置手动瞄准；无自动吸附功能",
+          "bash": "点击近处敌人用砖块猛击；强击可削弱其力量",
+          "water": "在水井旁点击即可取桶并装水；点击起火点即可洒水扑灭",
+          "barricade": "点击建造点后确认搭建"
+        }
+      }
+    }
   },
   "space": {
     "title": "太空",
@@ -1326,7 +1555,121 @@
     "wrong_kind_of_brick": "砖块类型错误",
     "nobody_to_drop_it_on": "无人可丢",
     "two_are_running_already": "已经有两个在运行",
-    "nothing_stored_there": "那里没有储存任何东西"
+    "nothing_stored_there": "那里没有储存任何东西",
+    "bash_no_target": "周围没有可以近身猛击的敌人",
+    "crushed": {
+      "brute": "砸碎了一名蛮勇者",
+      "sapper": "砸碎了一名工兵",
+      "catapult": "砸毁了一台投石机",
+      "operator": "击倒了一名操作员",
+      "anarchist": "砸碎了一名破坏者",
+      "giant": "击倒了一名巨人",
+      "rogue": "击倒了一名潜入者"
+    },
+    "hit": {
+      "brute": "命中了蛮勇者",
+      "sapper": "命中了工兵",
+      "catapult": "命中了投石机",
+      "operator": "命中了操作员",
+      "anarchist": "命中了破坏者",
+      "giant": "命中了巨人",
+      "rogue": "命中了潜入者"
+    },
+    "hit_stunned": {
+      "brute": "命中蛮勇者 · 击晕",
+      "sapper": "命中工兵 · 击晕",
+      "catapult": "命中投石机 · 击晕",
+      "operator": "命中操作员 · 击晕",
+      "anarchist": "命中破坏者 · 击晕",
+      "giant": "命中巨人 · 击晕",
+      "rogue": "命中潜入者 · 击晕"
+    },
+    "dropped_stored": {
+      "brute": "蛮勇者掉落了 {label} · 按 Shift+{slot} 使用",
+      "sapper": "工兵掉落了 {label} · 按 Shift+{slot} 使用",
+      "catapult": "投石机掉落了 {label} · 按 Shift+{slot} 使用",
+      "operator": "操作员掉落了 {label} · 按 Shift+{slot} 使用",
+      "anarchist": "破坏者掉落了 {label} · 按 Shift+{slot} 使用",
+      "giant": "巨人掉落了 {label} · 按 Shift+{slot} 使用",
+      "rogue": "潜入者掉落了 {label} · 按 Shift+{slot} 使用"
+    },
+    "dropped_full": {
+      "brute": "蛮勇者掉落了 {label}，但物资储量已满",
+      "sapper": "工兵掉落了 {label}，但物资储量已满",
+      "catapult": "投石机掉落了 {label}，但物资储量已满",
+      "operator": "操作员掉落了 {label}，但物资储量已满",
+      "anarchist": "破坏者掉落了 {label}，但物资储量已满",
+      "giant": "巨人掉落了 {label}，但物资储量已满",
+      "rogue": "潜入者掉落了 {label}，但物资储量已满"
+    },
+    "laid_many": "{count, plural, other {# 块砖}}",
+    "powerup_on": "生效中",
+    "powerup_stacked": "已叠加",
+    "attackers_stunned": "{count, plural, other {# 名袭击者被击晕}}",
+    "section_mended": "{section} 已修复",
+    "shot_interrupted": "射击被中断",
+    "cannot_build": "室外空地无法建造",
+    "alert": {
+      "catapult_destroyed": "一台投石机被摧毁",
+      "repair_crew": "一支维修小队正赶往残骸",
+      "repair_done": "一台投石机已完成重建",
+      "repair_failed": "维修小队被歼灭：残骸瓦砾仍留存",
+      "dynamite_placed": "{section} 被安放了炸药",
+      "fire_started": "{section} 发生火情",
+      "critical_danger": "{section} 告急",
+      "base_ready": "{section} 已就绪，可派遣卫兵",
+      "breach": "一名潜入者破入了塔内",
+      "floor_lost": "一层楼已失守",
+      "king_in_danger": "国王身陷险境",
+      "king_captured": "国王被掳走：快阻止搬运者",
+      "king_dropped": "国王倒在地上：快去救援",
+      "king_escorting": "你已接应到国王：快护送其返回王座",
+      "king_safe": "国王已安全",
+      "blaze": "{floor} 楼房间发生大火"
+    },
+    "dynamite_disarmed": "炸药已拆除",
+    "water_filled": "储水 +{added} · {water}/{capacity}",
+    "water_overflow": "储水 +{added} · 溢出洒出 {lost} · {water}/{capacity}",
+    "not_enough_water": "水桶需储水达到 {cost} 方可泼洒",
+    "nothing_burning": "此处没有起火",
+    "water_poured": "火焰已扑灭",
+    "bucket_armed": "水桶就绪 · 按空格键浇向起火区域",
+    "ladder_pushed": "云梯已被推离城墙",
+    "ladder_broken": "云梯已被砸烂",
+    "grapple_cut": "抓钩已被割断",
+    "knocked_down": "已击落",
+    "brick_missed": "未命中",
+    "out_of_reach": "超出攻击距离",
+    "nothing_to_push": "此处没有可推翻或割断之物",
+    "resisted": "被招架抵挡：词汇或力度不足",
+    "reloaded": "手持一块砖",
+    "already_holding": "手中已有砖块",
+    "empty_handed": "两手空空：按空格键或回车键拾取砖块",
+    "cannot_throw_now": "此时无法投掷",
+    "picked_up": "已拾起",
+    "nothing_to_pick_up": "此处无砖块可拾",
+    "too_far": "距离太远：请走近些",
+    "no_stairs_here": "此处没有楼梯、门或爬梯",
+    "fell_from_line": "从绳索上坠落",
+    "slipped": "在湿滑的地面上滑倒了",
+    "no_bucket": "请先前往水井取水桶",
+    "bucket_taken": "已取水桶：再次点击水井即可注水",
+    "bucket_empty": "水桶已空：请到水井注水",
+    "bucket_full": "水桶已装满",
+    "bucket_filled": "水桶装满：快运往起火点",
+    "filling": "注水中：请留在水井旁",
+    "filling_stopped": "注水中断：水已流失",
+    "doused": "火焰已扑灭",
+    "nothing_to_pour_on": "此处没有起火",
+    "no_anchor_there": "此处无法进行搭建",
+    "barricade_started": "搭建中：请留在路障旁",
+    "barricade_built": "路障已建成",
+    "barricade_broken": "一道路障已被破坏",
+    "barricade_cleared": "路障已拆除",
+    "not_enough_bricks": "物资库中砖块不足",
+    "king_escorting": "正在护送国王返回王座",
+    "king_secured": "国王安然无恙",
+    "king_needs_no_help": "国王平安无事，无需协助"
   },
   "marathon": {
     "title": "马拉松",

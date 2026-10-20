@@ -16,14 +16,14 @@
       "version": "2026-10-08",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4992,
+        "translatedMessages": 5269,
         "totalMessages": 5531
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/de-DE/manifest.json",
       "pack": "packs/de-DE.json",
-      "sha256": "e452dcae1699d718e787fbf5d84fbcf48a11303a8d71fcbb0899daf915545dce",
-      "bytes": 359702
+      "sha256": "6ef4bddb0c9630858bc1b0aade65ccb79faebb31e4cef30adf5220a8c584a9f9",
+      "bytes": 377245
     },
     {
       "id": "en-GB",
@@ -54,14 +54,14 @@
       "version": "2026-10-08",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4987,
+        "translatedMessages": 5264,
         "totalMessages": 5531
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/es-ES/manifest.json",
       "pack": "packs/es-ES.json",
-      "sha256": "c4c33123b3194889a491458780fc788313bacc9b8129e0b26bd7d812c7fb4b1e",
-      "bytes": 364763
+      "sha256": "7ee9da126ee802aa76837c2002672fd763ec7e7517bb340b94cf5116a96838fc",
+      "bytes": 382414
     },
     {
       "id": "fr-FR",
@@ -73,14 +73,14 @@
       "version": "2026-10-08",
       "reviewed": "community",
       "translationProgress": {
-        "translatedMessages": 4987,
+        "translatedMessages": 5264,
         "totalMessages": 5531
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "f803398538104b9358d10674823ced326a55945c0f8cc1e8f7c62241f1225348",
-      "bytes": 371602
+      "sha256": "4aef51ec04349aa8007cc97fedca59170e8b55064848642e4cf1c293acf246a2",
+      "bytes": 389148
     },
     {
       "id": "it-IT",
@@ -92,14 +92,14 @@
       "version": "2026-10-08",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4987,
+        "translatedMessages": 5264,
         "totalMessages": 5531
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/it-IT/manifest.json",
       "pack": "packs/it-IT.json",
-      "sha256": "717cf6d440841b4683d2ca2b9798ac7d4a5d3b15191bae63b033ca01ffaf4c65",
-      "bytes": 360509
+      "sha256": "a09d4f4760b7ce88cf24c7ba06d1ce801db812970ce9ddc1aa9d4b66c73ca15d",
+      "bytes": 378018
     },
     {
       "id": "nl-NL",
@@ -111,14 +111,14 @@
       "version": "2026-10-08",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4991,
+        "translatedMessages": 5268,
         "totalMessages": 5531
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/nl-NL/manifest.json",
       "pack": "packs/nl-NL.json",
-      "sha256": "e9eea59a93c7ec372b16c9579bc67e06a1e3190c3558b3cceb6d5215847d3da4",
-      "bytes": 348874
+      "sha256": "39abbec7b7a121a7ab04bc16d2f8cbea448e17d803e552dc5d7c6ba0e9c7bfcb",
+      "bytes": 366117
     },
     {
       "id": "pt-BR",
@@ -130,14 +130,14 @@
       "version": "2026-10-08",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4987,
+        "translatedMessages": 5264,
         "totalMessages": 5531
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/pt-BR/manifest.json",
       "pack": "packs/pt-BR.json",
-      "sha256": "c388e8d3ee1b7716789b4f7c202bf91cf00b7e29b0a16f6cc37c2759a42fa2ef",
-      "bytes": 360473
+      "sha256": "768fd692e74c31038cd9b4a5acc449bd8f3c0175f647a2481ddb3329653a171b",
+      "bytes": 377829
     },
     {
       "id": "sv-SE",
@@ -149,14 +149,14 @@
       "version": "2026-10-08",
       "reviewed": "machine",
       "translationProgress": {
-        "translatedMessages": 4992,
+        "translatedMessages": 5269,
         "totalMessages": 5531
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/sv-SE/manifest.json",
       "pack": "packs/sv-SE.json",
-      "sha256": "370ac36c040c161690d117a4b6cebe9c1bbe413af722013ae1dec30cc433f1c4",
-      "bytes": 348723
+      "sha256": "011b86805046ac39cea111cc5a3f01ea840f3364f1b2ee0a40dc9271ed9fc981",
+      "bytes": 365848
     },
     {
       "id": "zh-CN",
@@ -168,14 +168,14 @@
       "version": "2026-10-08",
       "reviewed": "community",
       "translationProgress": {
-        "translatedMessages": 4972,
+        "translatedMessages": 5249,
         "totalMessages": 5531
       },
       "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "e5995723fcec80d41c7f3bf7f9809de6da330a68b15d89f9b220a4fbd2a61aa4",
-      "bytes": 331950
+      "sha256": "7823ad5d2d5a051612c80f0cd07a26abc6ca798c9968f8a6b1978b85fbbe59f6",
+      "bytes": 348280
     }
   ]
 }

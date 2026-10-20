@@ -3558,7 +3558,236 @@
         "section_critical": ", Kritisch",
         "section_needs": "Braucht Ziegelsteine, die{requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "Powerup"
+        "powerup": "Powerup",
+        "units": {
+          "brute": "Schläger",
+          "sapper": "Pionier",
+          "catapult": "Katapult",
+          "operator": "Bedienung",
+          "anarchist": "Anarchist",
+          "giant": "Riese",
+          "soldier": "Soldat",
+          "rogue": "Schurke"
+        },
+        "sections": {
+          "west-tower": "Westturm",
+          "west-wall": "Westmauer",
+          "inner-west-wall": "innere Westmauer",
+          "gate": "Tor",
+          "inner-east-wall": "innere Ostmauer",
+          "east-wall": "Ostmauer",
+          "east-tower": "Ostturm",
+          "west-foundation": "Westfundament",
+          "keep": "Bergfried",
+          "east-foundation": "Ostfundament"
+        },
+        "kinds": {
+          "wall": "Mauer",
+          "tower": "Turm",
+          "gate": "Tor",
+          "foundation": "Fundament",
+          "keep": "Bergfried"
+        },
+        "marks": {
+          "critical": "kritisch",
+          "breach": "Bresche",
+          "requirement": "!"
+        },
+        "summary": {
+          "held": "gehalten",
+          "overrun": "überrannt",
+          "waves": "Wellen",
+          "bricks_laid": "Steine verbaut",
+          "crushed": "zerschmettert",
+          "strongest": "stärkste",
+          "damage_taken": "erlittener Schaden",
+          "sections_lost": "Abschnitte verloren",
+          "catapults_destroyed": "Katapulte zerstört",
+          "fires_out": "Brände gelöscht",
+          "soldiers_sent": "Soldaten entsandt",
+          "floors_held": "Etagen gehalten",
+          "climbers_downed": "Kletterer abgewehrt",
+          "breaches": "Durchbrüche",
+          "ladders_pushed": "Leitern umgestoßen",
+          "ropes_cut": "Seile gekappt",
+          "defeated": "unterlegen gegen",
+          "defeat_guard": "die Wache ist gefallen",
+          "defeat_king": "der König ist entkommen"
+        },
+        "titles": {
+          "foe": {
+            "brute": "Schläger: klicken oder Stein abwerfen ({hp} KP)",
+            "sapper": "Pionier: klicken oder Stein abwerfen ({hp} KP)",
+            "anarchist": "Anarchist: klicken oder Stein abwerfen ({hp} KP)",
+            "giant": "Riese: nur ein starkes Wort betäubt ihn, schwache Steine prallen ab ({hp} KP)"
+          },
+          "catapult": "Katapult: {state} · {ammo} · Rahmen {percent}%",
+          "catapult_aiming": ", zielt auf: {section}",
+          "operator": "Bedienung: klicken oder Stein werfen zum Ausschalten (noch {hp}%)",
+          "rubble": "Trümmer: hier wurde ein Katapult zerstört",
+          "repair_crew": "Reparaturgruppe: klicken oder Stein werfen, um Arbeit zu stoppen (noch {hp}% · {percent}% fertig)",
+          "dynamite": "Dynamit: noch {seconds, plural, one {# Sekunde} other {# Sekunden}} · zum Entschärfen klicken",
+          "fire": "Feuer: noch {percent}% Branddauer · mit dem Eimer löschen",
+          "strong_word": "ein starkes Wort wird benötigt: schwache Steine richten kaum Schaden an und betäuben nicht"
+        },
+        "siege": {
+          "state": {
+            "arriving": "Bedienung rückt an",
+            "setup": "im Aufbau",
+            "carrying": "trägt einen Felsbrocken",
+            "loading": "wird geladen",
+            "aiming": "zielt",
+            "releasing": "feuert",
+            "unmanned": "unbesetzt",
+            "empty": "keine Felsen mehr",
+            "destroyed": "zerstört",
+            "repairing": "wird repariert"
+          },
+          "ammo": "{count, plural, =0 {keine Steine übrig} one {# Stein übrig} other {# Steine übrig}}"
+        },
+        "cursor": {
+          "site_catapult": "Ziel: Katapult · {state} · {ammo}",
+          "site_rubble": "Ziel: Trümmer eines Katapults",
+          "site_empty": "Ziel: Belagerungslinie · hier ist nichts"
+        },
+        "sabotage": {
+          "fuse": "{seconds} s"
+        },
+        "bucket": {
+          "label": "Eimer",
+          "title": "Eimer: {water}/{capacity} Wasser · anklicken, dann ein Feuer wählen (oder 0, dann Leertaste)",
+          "title_armed": "Eimer bereit: Feuer anklicken oder Leertaste darauf drücken (Esc zum Absetzen)",
+          "level": "{water}/{capacity}"
+        },
+        "garrison": {
+          "cooldown": "noch {seconds} s bis einsatzbereit",
+          "ready": "bereit zum Aussenden von Soldaten",
+          "next_size": "als Nächstes: {count, plural, one {# Soldat} other {# Soldaten}}",
+          "deployed": "{count, plural, one {# Soldat im Einsatz} other {# Soldaten im Einsatz}}",
+          "spawning": "Soldaten ausrücken: {count, plural, =0 {der letzte ist draußen} one {noch # folgt} other {noch # folgen}}",
+          "cancelled": "die vorbereitete Welle ging mit ihm verloren",
+          "destroyed": "zerstört: keine Soldaten, bis es wieder aufgebaut ist",
+          "friendly_fire_on": "Eigenbeschuss aktiv"
+        },
+        "climb": {
+          "the_tower": "der Turm",
+          "hint": "Klicken, um einen Stein aus dem Fenster zu werfen · Leertaste lässt einen fallen · Rückschritt stößt Leiter um oder trennt Seil · oder Leiter bzw. Seil anklicken",
+          "king": "der König",
+          "side": {
+            "left": "links",
+            "right": "rechts"
+          },
+          "window_title": "Fenster {side}, Etage {floor}",
+          "window_needs": " · benötigt {requirement}",
+          "cursor_window": "das Fenster {side}, Etage {floor}",
+          "floors_held": "Etagen gehalten: {held}/{total}",
+          "breaches": "Durchbrüche: {count}/{limit}",
+          "limping": " · hinkt",
+          "ladder_title": "Leiter · klicken, um sie von der Mauer zu stoßen",
+          "rope_title": "Seil · klicken, um es zu kappen",
+          "rogue_title": "Schurke ({kit}) · {hp} Trefferpunkte",
+          "resolve_title": "Entschlossenheit der Schurken: sinkt, solange niemand im Turm ist",
+          "kit": {
+            "ladder": "Leiter",
+            "grapple": "Enterhaken"
+          },
+          "interior": {
+            "label": "Turmquerschnitt mit Umgebung: Räume, Treppen, Eingangshalle, Brunnen, König, Wache und Eindringlinge",
+            "where": {
+              "outside": "du bist draußen",
+              "room": "du bist in Raum {floor}",
+              "lobby": "du bist in der Eingangshalle",
+              "behind": "du bist hinter dem Turm"
+            },
+            "variant": {
+              "rogue": "Schurke",
+              "scribe": "Schreiber",
+              "bruiser": "Raufbold",
+              "knight": "Ritter",
+              "arsonist": "Brandstifter",
+              "soaker": "Platscher",
+              "runner": "Läufer"
+            },
+            "well_title": {
+              "well": "der Brunnen: mit dem Wasser-Werkzeug anklicken, um den Eimer zu nehmen",
+              "empty": "der Brunnen: mit dem Wasser-Werkzeug anklicken, um den Eimer zu füllen",
+              "filling": "wird gefüllt: bleibe am Brunnen stehen",
+              "full": "der Brunnen: dein Eimer ist voll"
+            },
+            "wet_title": "nasser Boden · noch {seconds} s",
+            "tools_label": "Wirkung eines Klicks",
+            "uses_left": "noch {left}/{of} Würfen",
+            "windows_need": "die Fenster verlangen: {needs}",
+            "hint": "← → gehen · ↑/↓ Treppen · Umschalt sprintet · erster Stein rüstet automatisch aus · Gegner zum Werfen anklicken · Vorrat oder 1–9 zum Wechseln · Hieb-Werkzeug für Nahkampf",
+            "guard_title": "du · Gesundheit {health} · Atem {breath}",
+            "king_title": {
+              "safe": "der König ist gesichert",
+              "calm": "der König ist sicher",
+              "alarmed": "der König ist beunruhigt: ein Schurke ist im Turm",
+              "danger": "der König ist in Gefahr",
+              "captured": "der König wurde entführt: halte den Träger auf",
+              "dropped": "der König liegt am Boden: erreiche ihn und geleite ihn zum Thron",
+              "escorting": "der König wird zum Thron zurückbegleitet"
+            },
+            "exit_title": "Fluchtlinie: passiert ein Träger diese Linie, ist der König verloren",
+            "anchor_title": {
+              "door": "Bauplatz vor der Tür · {cost} Steine",
+              "stairs": "Bauplatz vor der Treppe · {cost} Steine",
+              "landing": "Bauplatz am Treppenabsatz · {cost} Steine"
+            },
+            "barricade_title": {
+              "building": "Barrikade im Bau · bleibe daneben stehen",
+              "intact": "eine Barrikade · noch {hp} KP",
+              "damaged": "eine beschädigte Barrikade · noch {hp} KP",
+              "burning": "eine brennende Barrikade · noch {hp} KP"
+            },
+            "loose_title": "{word} · noch {left} von {of} Würfen · klicken, um aufzuheben, wenn du daneben stehst",
+            "fire_title": "Feuer · noch {seconds} s",
+            "intruder_title": "{name} im Turm · Raum {floor} · {hp} Trefferpunkte · noch {left} bis zum Ziel",
+            "hand": "in der Hand: {word} · {strength} · noch {left} von {of} Würfen",
+            "hand_empty": "nichts in der Hand",
+            "reload": "Stein nehmen",
+            "reload_help": "der erste verfügbare Stein wird automatisch ausgerüstet; Leertaste oder Eingabetaste rüstet einen aus, wenn die Hand leer ist",
+            "clear": "abbauen",
+            "build": "bauen",
+            "build_cost": "bauen · {cost} Steine",
+            "rescue": "König begleiten",
+            "inside": "{count, plural, =0 {niemand im Turm} one {# Schurke im Turm} other {# Schurken im Turm}}",
+            "health": "Gesundheit {value}",
+            "breath": "Atem {value}",
+            "carrying_note": " · trägt den König",
+            "needs_strength": "Schlagkraft {value}+",
+            "bucket": {
+              "empty": "Eimer: leer",
+              "filling": "Eimer: füllt sich ({percent}%)",
+              "full": "Eimer: voll",
+              "well": "Eimer: am Brunnen"
+            },
+            "prompt": {
+              "up": "↑ Treppe hinauf",
+              "down": "↓ Treppe hinab",
+              "door_in": "↑ durch die Tür hinein",
+              "well": "am Brunnen",
+              "line_up": "↑ hinaufklettern",
+              "line_down": "↓ hinabklettern",
+              "pickup": "Stein zum Aufheben anklicken",
+              "push": "Rücktaste stößt um oder trennt",
+              "rescue": "König begleiten"
+            },
+            "tool": {
+              "combat": "werfen",
+              "bash": "schlagen",
+              "water": "Wasser",
+              "barricade": "Barrikade"
+            },
+            "tool_help": {
+              "combat": "einen bestimmten Gegner anklicken zum Werfen, oder manuell zielen; kein automatisches Zielen auf Nächsten",
+              "bash": "nahen Gegner anklicken für Steinhieb; starke Treffer zermürben ihn",
+              "water": "Klick am Brunnen nimmt Eimer und füllt ihn; Klick auf Feuer löscht es",
+              "barricade": "Bauplatz anklicken und bestätigen"
+            }
+          }
+        }
       },
       "space": {
         "title": "Raum",
@@ -4865,7 +5094,121 @@
         "wrong_kind_of_brick": "Falsche Art von Stein",
         "nobody_to_drop_it_on": "Niemand, um es auf",
         "two_are_running_already": "Zwei laufen bereits",
-        "nothing_stored_there": "Nichts dort gespeichert"
+        "nothing_stored_there": "Nichts dort gespeichert",
+        "bash_no_target": "kein Gegner nah genug für einen Hieb",
+        "crushed": {
+          "brute": "einen Schläger zerschmettert",
+          "sapper": "einen Pionier zerschmettert",
+          "catapult": "ein Katapult zerschmettert",
+          "operator": "eine Bedienung ausgeschaltet",
+          "anarchist": "einen Anarchisten zerschmettert",
+          "giant": "einen Riesen zu Fall gebracht",
+          "rogue": "einen Schurken zu Fall gebracht"
+        },
+        "hit": {
+          "brute": "einen Schläger getroffen",
+          "sapper": "einen Pionier getroffen",
+          "catapult": "ein Katapult getroffen",
+          "operator": "eine Bedienung getroffen",
+          "anarchist": "einen Anarchisten getroffen",
+          "giant": "einen Riesen getroffen",
+          "rogue": "einen Schurken getroffen"
+        },
+        "hit_stunned": {
+          "brute": "Schläger getroffen · betäubt",
+          "sapper": "Pionier getroffen · betäubt",
+          "catapult": "Katapult getroffen · betäubt",
+          "operator": "Bedienung getroffen · betäubt",
+          "anarchist": "Anarchist getroffen · betäubt",
+          "giant": "Riese getroffen · betäubt",
+          "rogue": "Schurke getroffen · betäubt"
+        },
+        "dropped_stored": {
+          "brute": "der Schläger ließ {label} fallen · Umschalt+{slot} zum Nutzen",
+          "sapper": "der Pionier ließ {label} fallen · Umschalt+{slot} zum Nutzen",
+          "catapult": "das Katapult ließ {label} fallen · Umschalt+{slot} zum Nutzen",
+          "operator": "die Bedienung ließ {label} fallen · Umschalt+{slot} zum Nutzen",
+          "anarchist": "der Anarchist ließ {label} fallen · Umschalt+{slot} zum Nutzen",
+          "giant": "der Riese ließ {label} fallen · Umschalt+{slot} zum Nutzen",
+          "rogue": "der Schurke ließ {label} fallen · Umschalt+{slot} zum Nutzen"
+        },
+        "dropped_full": {
+          "brute": "der Schläger ließ {label} fallen, aber Lager ist voll",
+          "sapper": "der Pionier ließ {label} fallen, aber Lager ist voll",
+          "catapult": "das Katapult ließ {label} fallen, aber Lager ist voll",
+          "operator": "die Bedienung ließ {label} fallen, aber Lager ist voll",
+          "anarchist": "der Anarchist ließ {label} fallen, aber Lager ist voll",
+          "giant": "der Riese ließ {label} fallen, aber Lager ist voll",
+          "rogue": "der Schurke ließ {label} fallen, aber Lager ist voll"
+        },
+        "laid_many": "{count, plural, one {# Stein} other {# Steine}}",
+        "powerup_on": "aktiv",
+        "powerup_stacked": "gestapelt",
+        "attackers_stunned": "{count, plural, one {# Angreifer betäubt} other {# Angreifer betäubt}}",
+        "section_mended": "{section} ausgebessert",
+        "shot_interrupted": "Schuss unterbrochen",
+        "cannot_build": "hier draußen kann nichts gebaut werden",
+        "alert": {
+          "catapult_destroyed": "ein Katapult wurde zerstört",
+          "repair_crew": "Reparaturgruppe eilt zu den Trümmern",
+          "repair_done": "ein Katapult wurde wieder aufgebaut",
+          "repair_failed": "Reparaturgruppe ausgeschaltet: Trümmer verbleiben",
+          "dynamite_placed": "Dynamit an der {section} platziert",
+          "fire_started": "Feuer an der {section}",
+          "critical_danger": "die {section} ist in Gefahr",
+          "base_ready": "die {section} ist bereit zum Aussenden von Soldaten",
+          "breach": "ein Schurke ist im Turm",
+          "floor_lost": "eine Etage ist gefallen",
+          "king_in_danger": "der König ist in Gefahr",
+          "king_captured": "der König wurde entführt: halte den Träger auf",
+          "king_dropped": "der König liegt am Boden: erreiche ihn",
+          "king_escorting": "du begleitest den König: führe ihn zum Thron zurück",
+          "king_safe": "der König ist in Sicherheit",
+          "blaze": "Brand in Raum {floor}"
+        },
+        "dynamite_disarmed": "Dynamit entschärft",
+        "water_filled": "+{added} Wasser · {water}/{capacity}",
+        "water_overflow": "+{added} Wasser · {lost} verschüttet · {water}/{capacity}",
+        "not_enough_water": "der Eimer benötigt {cost} Wasser zum Ausgießen",
+        "nothing_burning": "dort brennt nichts",
+        "water_poured": "Feuer gelöscht",
+        "bucket_armed": "Eimer bereit · Leertaste gießt auf brennenden Abschnitt",
+        "ladder_pushed": "Leiter von der Mauer gestoßen",
+        "ladder_broken": "Leiter zerschmettert",
+        "grapple_cut": "Enterhaken gekappt",
+        "knocked_down": "heruntergeworfen",
+        "brick_missed": "verfehlt",
+        "out_of_reach": "außer Reichweite",
+        "nothing_to_push": "hier gibt es nichts zum Umstoßen oder Kappen",
+        "resisted": "widerstanden: Wort oder Wurfkraft reichten nicht aus",
+        "reloaded": "Stein in der Hand",
+        "already_holding": "du hältst bereits einen Stein",
+        "empty_handed": "nichts in der Hand: Leertaste oder Eingabe nimmt einen Stein",
+        "cannot_throw_now": "jetzt nicht",
+        "picked_up": "aufgehoben",
+        "nothing_to_pick_up": "kein Stein dort",
+        "too_far": "zu weit weg: gehe näher heran",
+        "no_stairs_here": "keine Treppe, Tür oder Leiter hier",
+        "fell_from_line": "vom Seil gestürzt",
+        "slipped": "auf dem nassen Boden ausgerutscht",
+        "no_bucket": "hole zuerst den Eimer vom Brunnen",
+        "bucket_taken": "Eimer genommen: Brunnen erneut anklicken zum Füllen",
+        "bucket_empty": "der Eimer ist leer: am Brunnen füllen",
+        "bucket_full": "der Eimer ist voll",
+        "bucket_filled": "Eimer voll: zum Feuer tragen",
+        "filling": "wird gefüllt: bleibe am Brunnen stehen",
+        "filling_stopped": "Füllen abgebrochen: Wasser ist verloren",
+        "doused": "Feuer gelöscht",
+        "nothing_to_pour_on": "dort brennt nichts",
+        "no_anchor_there": "hier kann kein Bauplatz angelegt werden",
+        "barricade_started": "Bau begonnen: bleibe daneben stehen",
+        "barricade_built": "Barrikade errichtet",
+        "barricade_broken": "eine Barrikade ist gebrochen",
+        "barricade_cleared": "Barrikade abgebaut",
+        "not_enough_bricks": "nicht genug Steine im Vorrat",
+        "king_escorting": "der König wird zum Thron zurückbegleitet",
+        "king_secured": "der König ist in Sicherheit",
+        "king_needs_no_help": "der König benötigt keine Hilfe"
       },
       "marathon": {
         "title": "Marathon",

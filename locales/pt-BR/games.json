@@ -75,7 +75,236 @@
     "section_critical": ", crítico",
     "section_needs": ", precisa de tijolos que {requirement}",
     "news_line": "{label}: {note}",
-    "powerup": "power-up"
+    "powerup": "power-up",
+    "units": {
+      "brute": "bruto",
+      "sapper": "sapador",
+      "catapult": "catapulta",
+      "operator": "operador",
+      "anarchist": "anarquista",
+      "giant": "gigante",
+      "soldier": "soldado",
+      "rogue": "ladino"
+    },
+    "sections": {
+      "west-tower": "torre oeste",
+      "west-wall": "muralha oeste",
+      "inner-west-wall": "muralha oeste interna",
+      "gate": "portão",
+      "inner-east-wall": "muralha leste interna",
+      "east-wall": "muralha leste",
+      "east-tower": "torre leste",
+      "west-foundation": "fundação oeste",
+      "keep": "torre de menagem",
+      "east-foundation": "fundação leste"
+    },
+    "kinds": {
+      "wall": "muralha",
+      "tower": "torre",
+      "gate": "portão",
+      "foundation": "base",
+      "keep": "torre de menagem"
+    },
+    "marks": {
+      "critical": "crítico",
+      "breach": "brecha",
+      "requirement": "!"
+    },
+    "summary": {
+      "held": "defendido",
+      "overrun": "invadido",
+      "waves": "ondas",
+      "bricks_laid": "tijolos assentados",
+      "crushed": "esmagados",
+      "strongest": "mais forte",
+      "damage_taken": "dano sofrido",
+      "sections_lost": "seções perdidas",
+      "catapults_destroyed": "catapultas destruídas",
+      "fires_out": "incêndios apagados",
+      "soldiers_sent": "soldados enviados",
+      "floors_held": "andares defendidos",
+      "climbers_downed": "escaladores derrubados",
+      "breaches": "brechas",
+      "ladders_pushed": "escadas empurradas",
+      "ropes_cut": "cordas cortadas",
+      "defeated": "derrotado por",
+      "defeat_guard": "o guarda caiu",
+      "defeat_king": "o rei escapou"
+    },
+    "titles": {
+      "foe": {
+        "brute": "bruto: clique ou solte um tijolo para esmagar ({hp} PV)",
+        "sapper": "sapador: clique ou solte um tijolo para esmagar ({hp} PV)",
+        "anarchist": "anarquista: clique ou solte um tijolo para esmagar ({hp} PV)",
+        "giant": "gigante: apenas uma palavra forte o atordoa; tijolos fracos ricocheteiam ({hp} PV)"
+      },
+      "catapult": "catapulta: {state} · {ammo} · armação {percent}%",
+      "catapult_aiming": ", mirando em: {section}",
+      "operator": "operador: clique ou arremesse um tijolo para derrubar ({hp}% restante)",
+      "rubble": "destroços: uma catapulta foi destruída aqui",
+      "repair_crew": "equipe de reparo: clique ou arremesse um tijolo para parar o trabalho ({hp}% restante · {percent}% concluído)",
+      "dynamite": "dinamite: falta {seconds, plural, one {# segundo} other {# segundos}} · clique para desarmar",
+      "fire": "fogo: {percent}% de queima restante · apague com o balde",
+      "strong_word": "é necessária uma palavra forte: tijolos fracos mal ferem e não atordoam"
+    },
+    "siege": {
+      "state": {
+        "arriving": "os operadores estão chegando",
+        "setup": "montando",
+        "carrying": "carregando uma pedra",
+        "loading": "carregando",
+        "aiming": "mirando",
+        "releasing": "disparando",
+        "unmanned": "sem tripulação",
+        "empty": "sem pedras",
+        "destroyed": "destruída",
+        "repairing": "em reparo"
+      },
+      "ammo": "{count, plural, =0 {nenhuma pedra restante} one {# pedra restante} other {# pedras restantes}}"
+    },
+    "cursor": {
+      "site_catapult": "mirando em: catapulta · {state} · {ammo}",
+      "site_rubble": "mirando em: destroços de uma catapulta",
+      "site_empty": "mirando em: a linha de cerco · não há nada aqui"
+    },
+    "sabotage": {
+      "fuse": "{seconds} s"
+    },
+    "bucket": {
+      "label": "balde",
+      "title": "balde: {water}/{capacity} de água · clique nele e depois no fogo (ou aperte 0, depois espaço)",
+      "title_armed": "balde pronto: clique em um fogo ou aperte espaço nele (esc para largar)",
+      "level": "{water}/{capacity}"
+    },
+    "garrison": {
+      "cooldown": "{seconds} s até estar pronto",
+      "ready": "pronto para enviar soldados",
+      "next_size": "próximo: {count, plural, one {# soldado} other {# soldados}}",
+      "deployed": "{count, plural, one {# soldado em campo} other {# soldados em campo}}",
+      "spawning": "enviando soldados: {count, plural, =0 {o último saiu} one {mais # a caminho} other {mais # a caminho}}",
+      "cancelled": "a onda que estava preparando foi perdida",
+      "destroyed": "perdido: sem soldados até que seja reconstruído",
+      "friendly_fire_on": "fogo amigo ativado"
+    },
+    "climb": {
+      "the_tower": "a torre",
+      "hint": "Clique para arremessar um tijolo da janela · Espaço solta um · Backspace empurra uma escada ou corta uma corda · ou clique na escada ou corda",
+      "king": "o rei",
+      "side": {
+        "left": "esquerda",
+        "right": "direita"
+      },
+      "window_title": "janela {side}, andar {floor}",
+      "window_needs": " · requer {requirement}",
+      "cursor_window": "a janela {side}, andar {floor}",
+      "floors_held": "andares defendidos: {held}/{total}",
+      "breaches": "brechas: {count}/{limit}",
+      "limping": " · mancando",
+      "ladder_title": "escada · clique para empurrá-la da muralha",
+      "rope_title": "corda · clique para cortá-la",
+      "rogue_title": "ladino ({kit}) · {hp} pontos de vida",
+      "resolve_title": "Determinação dos ladinos: diminui enquanto ninguém estiver dentro",
+      "kit": {
+        "ladder": "escada",
+        "grapple": "gancho"
+      },
+      "interior": {
+        "label": "corte transversal da torre e arredores: cômodos, escadas, saguão, poço, rei, guarda e invasores",
+        "where": {
+          "outside": "você está do lado de fora",
+          "room": "você está no cômodo {floor}",
+          "lobby": "você está no saguão",
+          "behind": "você está atrás da torre"
+        },
+        "variant": {
+          "rogue": "ladino",
+          "scribe": "escriba",
+          "bruiser": "valentão",
+          "knight": "cavaleiro",
+          "arsonist": "incendiário",
+          "soaker": "molhador",
+          "runner": "corredor"
+        },
+        "well_title": {
+          "well": "o poço: com a ferramenta de água, clique nele para pegar o balde",
+          "empty": "o poço: clique com a ferramenta de água para encher o balde",
+          "filling": "enchendo: permaneça no poço",
+          "full": "o poço: seu balde está cheio"
+        },
+        "wet_title": "chão molhado · {seconds} s restantes",
+        "tools_label": "ação de cada clique",
+        "uses_left": "restam {left}/{of} arremessos",
+        "windows_need": "as janelas pedem: {needs}",
+        "hint": "← → andar · ↑/↓ escadas · Shift corre · primeiro tijolo equipa sozinho · clique em inimigo para lançar · estoque ou 1–9 para trocar · golpe para curto alcance",
+        "guard_title": "você · vida {health} · fôlego {breath}",
+        "king_title": {
+          "safe": "o rei está em segurança",
+          "calm": "o rei está calmo",
+          "alarmed": "o rei está alarmado: há um ladino dentro",
+          "danger": "o rei está em perigo",
+          "captured": "levaram o rei: detenha o sequestrador",
+          "dropped": "o rei está no chão: alcance-o e escolte-o ao trono",
+          "escorting": "escoltando o rei de volta ao trono"
+        },
+        "exit_title": "linha de fuga: se o sequestrador passar aqui, o rei escapará",
+        "anchor_title": {
+          "door": "lugar para construir, em frente à porta · {cost} tijolos",
+          "stairs": "lugar para construir, em frente às escadas · {cost} tijolos",
+          "landing": "lugar para construir, no topo das escadas · {cost} tijolos"
+        },
+        "barricade_title": {
+          "building": "barricada em construção · permaneça ao lado dela",
+          "intact": "uma barricada · {hp} PV restantes",
+          "damaged": "uma barricada danificada · {hp} PV restantes",
+          "burning": "uma barricada em chamas · {hp} PV restantes"
+        },
+        "loose_title": "{word} · restam {left} de {of} arremessos · clique para pegar quando estiver perto",
+        "fire_title": "fogo · {seconds} s restantes",
+        "intruder_title": "{name} dentro · cômodo {floor} · {hp} pontos de vida · a {left} do objetivo",
+        "hand": "na mão: {word} · {strength} · restam {left} de {of} arremessos",
+        "hand_empty": "nada na mão",
+        "reload": "pegar um tijolo",
+        "reload_help": "o primeiro tijolo disponível é equipado automaticamente; espaço ou enter equipa um quando a mão estiver vazia",
+        "clear": "desmontar",
+        "build": "construir",
+        "build_cost": "construir · {cost} tijolos",
+        "rescue": "escoltar o rei",
+        "inside": "{count, plural, =0 {ninguém lá dentro} one {# ladino lá dentro} other {# ladinos lá dentro}}",
+        "health": "vida {value}",
+        "breath": "fôlego {value}",
+        "carrying_note": " · carregando o rei",
+        "needs_strength": "golpe {value}+",
+        "bucket": {
+          "empty": "balde: vazio",
+          "filling": "balde: enchendo ({percent}%)",
+          "full": "balde: cheio",
+          "well": "balde: no poço"
+        },
+        "prompt": {
+          "up": "↑ subir escadas",
+          "down": "↓ descer escadas",
+          "door_in": "↑ entrar pela porta",
+          "well": "no poço",
+          "line_up": "↑ escalar",
+          "line_down": "↓ descer escalando",
+          "pickup": "clique em um tijolo para pegá-lo",
+          "push": "backspace empurra ou corta",
+          "rescue": "escoltar o rei"
+        },
+        "tool": {
+          "combat": "arremessar",
+          "bash": "golpear",
+          "water": "água",
+          "barricade": "barricada"
+        },
+        "tool_help": {
+          "combat": "clique em um inimigo para arremessar, ou clique em um ponto para mirar manualmente; sem mira automática no mais próximo",
+          "bash": "clique em um inimigo próximo para golpear com o tijolo; um impacto forte o desgasta",
+          "water": "um clique no poço pega o balde e o enche; um clique em um fogo despeja água",
+          "barricade": "clique em um local para construir e confirme"
+        }
+      }
+    }
   },
   "space": {
     "title": "space",
@@ -1373,7 +1602,121 @@
     "wrong_kind_of_brick": "tipo errado de tijolo",
     "nobody_to_drop_it_on": "ninguém para soltar sobre",
     "two_are_running_already": "dois já estão em funcionamento",
-    "nothing_stored_there": "nada guardado aqui"
+    "nothing_stored_there": "nada guardado aqui",
+    "bash_no_target": "nenhum inimigo perto o bastante para golpear",
+    "crushed": {
+      "brute": "esmagou um bruto",
+      "sapper": "esmagou um sapador",
+      "catapult": "destroçou uma catapulta",
+      "operator": "derrubou um operador",
+      "anarchist": "esmagou um anarquista",
+      "giant": "derrubou um gigante",
+      "rogue": "derrubou um ladino"
+    },
+    "hit": {
+      "brute": "acertou um bruto",
+      "sapper": "acertou um sapador",
+      "catapult": "acertou uma catapulta",
+      "operator": "acertou um operador",
+      "anarchist": "acertou um anarquista",
+      "giant": "acertou um gigante",
+      "rogue": "acertou um ladino"
+    },
+    "hit_stunned": {
+      "brute": "acertou um bruto · atordoado",
+      "sapper": "acertou um sapador · atordoado",
+      "catapult": "acertou uma catapulta · atordoada",
+      "operator": "acertou um operador · atordoado",
+      "anarchist": "acertou um anarquista · atordoado",
+      "giant": "acertou um gigante · atordoado",
+      "rogue": "acertou um ladino · atordoado"
+    },
+    "dropped_stored": {
+      "brute": "o bruto deixou cair {label} · shift+{slot} para usar",
+      "sapper": "o sapador deixou cair {label} · shift+{slot} para usar",
+      "catapult": "a catapulta deixou cair {label} · shift+{slot} para usar",
+      "operator": "o operador deixou cair {label} · shift+{slot} para usar",
+      "anarchist": "o anarquista deixou cair {label} · shift+{slot} para usar",
+      "giant": "o gigante deixou cair {label} · shift+{slot} para usar",
+      "rogue": "o ladino deixou cair {label} · shift+{slot} para usar"
+    },
+    "dropped_full": {
+      "brute": "o bruto deixou cair {label}, mas o armazenamento está cheio",
+      "sapper": "o sapador deixou cair {label}, mas o armazenamento está cheio",
+      "catapult": "a catapulta deixou cair {label}, mas o armazenamento está cheio",
+      "operator": "o operador deixou cair {label}, mas o armazenamento está cheio",
+      "anarchist": "o anarquista deixou cair {label}, mas o armazenamento está cheio",
+      "giant": "o gigante deixou cair {label}, mas o armazenamento está cheio",
+      "rogue": "o ladino deixou cair {label}, mas o armazenamento está cheio"
+    },
+    "laid_many": "{count, plural, one {# tijolo} other {# tijolos}}",
+    "powerup_on": "ativo",
+    "powerup_stacked": "acumulado",
+    "attackers_stunned": "{count, plural, one {# atacante atordoado} other {# atacantes atordoados}}",
+    "section_mended": "{section} reparada",
+    "shot_interrupted": "disparo interrompido",
+    "cannot_build": "nada para construir aqui fora",
+    "alert": {
+      "catapult_destroyed": "uma catapulta foi destruída",
+      "repair_crew": "uma equipe corre em direção aos destroços",
+      "repair_done": "uma catapulta foi reconstruída",
+      "repair_failed": "a equipe de reparo caiu: os destroços permanecem",
+      "dynamite_placed": "dinamite instalada em: {section}",
+      "fire_started": "fogo em: {section}",
+      "critical_danger": "a {section} está em perigo",
+      "base_ready": "a {section} está pronta para enviar soldados",
+      "breach": "há um ladino dentro",
+      "floor_lost": "um andar caiu",
+      "king_in_danger": "o rei está em perigo",
+      "king_captured": "levaram o rei: detenha o sequestrador",
+      "king_dropped": "o rei está no chão: alcance-o",
+      "king_escorting": "você está com o rei: escolte-o de volta ao trono",
+      "king_safe": "o rei está em segurança",
+      "blaze": "incêndio no cômodo {floor}"
+    },
+    "dynamite_disarmed": "dinamite desarmada",
+    "water_filled": "+{added} de água · {water}/{capacity}",
+    "water_overflow": "+{added} de água · {lost} derramada · {water}/{capacity}",
+    "not_enough_water": "o balde precisa de {cost} de água para despejar",
+    "nothing_burning": "nada queimando ali",
+    "water_poured": "fogo apagado",
+    "bucket_armed": "balde pronto · espaço despeja sobre uma seção em chamas",
+    "ladder_pushed": "escada empurrada da muralha",
+    "ladder_broken": "escada destruída",
+    "grapple_cut": "gancho cortado e solto",
+    "knocked_down": "derrubado",
+    "brick_missed": "errou",
+    "out_of_reach": "fora de alcance",
+    "nothing_to_push": "nada para empurrar ou cortar aqui",
+    "resisted": "resistiu: palavra ou força insuficiente",
+    "reloaded": "um tijolo na mão",
+    "already_holding": "você já segura um tijolo",
+    "empty_handed": "nada na mão: espaço ou enter pega um tijolo",
+    "cannot_throw_now": "agora não",
+    "picked_up": "recolhido",
+    "nothing_to_pick_up": "nenhum tijolo ali",
+    "too_far": "longe demais: aproxime-se",
+    "no_stairs_here": "nenhuma escada ou porta aqui",
+    "fell_from_line": "caiu da corda",
+    "slipped": "escorregou no chão molhado",
+    "no_bucket": "pegue o balde no poço primeiro",
+    "bucket_taken": "balde recolhido: clique no poço de novo para encher",
+    "bucket_empty": "o balde está vazio: encha-o no poço",
+    "bucket_full": "o balde está cheio",
+    "bucket_filled": "balde cheio: leve-o até o fogo",
+    "filling": "enchendo: permaneça no poço",
+    "filling_stopped": "enchimento interrompido: a água foi perdida",
+    "doused": "fogo apagado",
+    "nothing_to_pour_on": "nada queimando ali",
+    "no_anchor_there": "nenhum ponto para construir ali",
+    "barricade_started": "construindo: permaneça ao lado dela",
+    "barricade_built": "barricada construída",
+    "barricade_broken": "uma barricada se quebrou",
+    "barricade_cleared": "barricada removida",
+    "not_enough_bricks": "tijolos insuficientes no estoque",
+    "king_escorting": "escoltando o rei de volta ao trono",
+    "king_secured": "o rei está em segurança",
+    "king_needs_no_help": "o rei não precisa de ajuda"
   },
   "marathon": {
     "title": "maratona",

@@ -3549,7 +3549,236 @@
         "section_critical": ", kritiek",
         "section_needs": ", heeft stenen nodig die {requirement}",
         "news_line": "{label}: {note}",
-        "powerup": "power-up"
+        "powerup": "power-up",
+        "units": {
+          "brute": "bruut",
+          "sapper": "sappeur",
+          "catapult": "katapult",
+          "operator": "bediener",
+          "anarchist": "anarchist",
+          "giant": "reus",
+          "soldier": "soldaat",
+          "rogue": "schurk"
+        },
+        "sections": {
+          "west-tower": "westelijke toren",
+          "west-wall": "westelijke muur",
+          "inner-west-wall": "binnenste westmuur",
+          "gate": "poort",
+          "inner-east-wall": "binnenste oostmuur",
+          "east-wall": "oostelijke muur",
+          "east-tower": "oostelijke toren",
+          "west-foundation": "westelijke fundering",
+          "keep": "donjon",
+          "east-foundation": "oostelijke fundering"
+        },
+        "kinds": {
+          "wall": "muur",
+          "tower": "toren",
+          "gate": "poort",
+          "foundation": "fundering",
+          "keep": "donjon"
+        },
+        "marks": {
+          "critical": "kritiek",
+          "breach": "doorbraak",
+          "requirement": "!"
+        },
+        "summary": {
+          "held": "behouden",
+          "overrun": "onder de voet gelopen",
+          "waves": "golven",
+          "bricks_laid": "stenen gelegd",
+          "crushed": "verpletterd",
+          "strongest": "sterkste",
+          "damage_taken": "opgelopen schade",
+          "sections_lost": "secties verloren",
+          "catapults_destroyed": "katapulten vernietigd",
+          "fires_out": "branden geblust",
+          "soldiers_sent": "soldaten gestuurd",
+          "floors_held": "verdiepingen behouden",
+          "climbers_downed": "klimmers neergehaald",
+          "breaches": "doorbraken",
+          "ladders_pushed": "ladders weggeduwd",
+          "ropes_cut": "touwen doorgesneden",
+          "defeated": "verloren van",
+          "defeat_guard": "de wacht is gevallen",
+          "defeat_king": "de koning is ontsnapt"
+        },
+        "titles": {
+          "foe": {
+            "brute": "bruut: klik of laat een steen vallen om te verpletteren ({hp} LP)",
+            "sapper": "sappeur: klik of laat een steen vallen om te verpletteren ({hp} LP)",
+            "anarchist": "anarchist: klik of laat een steen vallen om te verpletteren ({hp} LP)",
+            "giant": "reus: alleen een sterk woord verdooft hem; zwakke stenen ketsen af ({hp} LP)"
+          },
+          "catapult": "katapult: {state} · {ammo} · frame {percent}%",
+          "catapult_aiming": ", gericht op: {section}",
+          "operator": "bediener: klik of gooi een steen om uit te schakelen ({hp}% over)",
+          "rubble": "puin: hier werd een katapult vernietigd",
+          "repair_crew": "reparatieploeg: klik of gooi een steen om het werk te stoppen ({hp}% over · {percent}% klaar)",
+          "dynamite": "dynamiet: nog {seconds, plural, one {# seconde} other {# seconden}} te gaan · klik om te ontmantelen",
+          "fire": "vuur: {percent}% brandtijd over · blus met de emmer",
+          "strong_word": "een sterk woord is nodig: zwakke stenen doen nauwelijks pijn en verdoven niet"
+        },
+        "siege": {
+          "state": {
+            "arriving": "bedieners komen aan",
+            "setup": "opbouwen",
+            "carrying": "draagt een rotsblok",
+            "loading": "laden",
+            "aiming": "richten",
+            "releasing": "afvuren",
+            "unmanned": "onbemand",
+            "empty": "geen rotsen meer",
+            "destroyed": "vernield",
+            "repairing": "wordt gerepareerd"
+          },
+          "ammo": "{count, plural, =0 {geen rotsen meer over} one {nog # rots over} other {nog # rotsen over}}"
+        },
+        "cursor": {
+          "site_catapult": "gericht op: katapult · {state} · {ammo}",
+          "site_rubble": "gericht op: puin waar een katapult stond",
+          "site_empty": "gericht op: de belegeringslinie · hier is niets"
+        },
+        "sabotage": {
+          "fuse": "{seconds} s"
+        },
+        "bucket": {
+          "label": "emmer",
+          "title": "emmer: {water}/{capacity} water · klik erop en dan op een vuur (of druk 0, dan spatie)",
+          "title_armed": "emmer gereed: klik op een vuur of druk spatie erboven (esc om neer te zetten)",
+          "level": "{water}/{capacity}"
+        },
+        "garrison": {
+          "cooldown": "nog {seconds} s tot gereed",
+          "ready": "klaar om soldaten te sturen",
+          "next_size": "volgende: {count, plural, one {# soldaat} other {# soldaten}}",
+          "deployed": "{count, plural, one {# soldaat ingezet} other {# soldaten ingezet}}",
+          "spawning": "soldaten sturen: {count, plural, =0 {de laatste is buiten} one {nog # te gaan} other {nog # te gaan}}",
+          "cancelled": "de golf in voorbereiding is verloren gegaan",
+          "destroyed": "verloren: geen soldaten tot de kazerne herbouwd is",
+          "friendly_fire_on": "eigen vuur actief"
+        },
+        "climb": {
+          "the_tower": "de toren",
+          "hint": "Klik om een steen uit het raam te werpen · Spatie laat er een vallen · Backspace duwt een ladder weg of snijdt een touw door · of klik op de ladder of het touw",
+          "king": "de koning",
+          "side": {
+            "left": "links",
+            "right": "rechts"
+          },
+          "window_title": "raam {side}, verdieping {floor}",
+          "window_needs": " · vereist {requirement}",
+          "cursor_window": "het raam {side}, verdieping {floor}",
+          "floors_held": "verdiepingen behouden: {held}/{total}",
+          "breaches": "doorbraken: {count}/{limit}",
+          "limping": " · hinkt",
+          "ladder_title": "ladder · klik om van de muur te duwen",
+          "rope_title": "touw · klik om door te snijden",
+          "rogue_title": "schurk ({kit}) · {hp} levenspunten",
+          "resolve_title": "Vastberadenheid van de schurken: neemt af zolang niemand binnen is",
+          "kit": {
+            "ladder": "ladder",
+            "grapple": "enterhaak"
+          },
+          "interior": {
+            "label": "doorsnede van de toren en omgeving: kamers, trappen, hal, put, koning, wacht en indringers",
+            "where": {
+              "outside": "je bent buiten",
+              "room": "je bent in kamer {floor}",
+              "lobby": "je bent in de hal",
+              "behind": "je bent achter de toren"
+            },
+            "variant": {
+              "rogue": "schurk",
+              "scribe": "schrijver",
+              "bruiser": "vechtjas",
+              "knight": "ridder",
+              "arsonist": "brandstichter",
+              "soaker": "plensgooier",
+              "runner": "renner"
+            },
+            "well_title": {
+              "well": "de waterput: klik met het watergereedschap om de emmer te nemen",
+              "empty": "de waterput: klik met het watergereedschap om de emmer te vullen",
+              "filling": "vullen: blijf bij de put",
+              "full": "de waterput: je emmer is vol"
+            },
+            "wet_title": "natte vloer · nog {seconds} s",
+            "tools_label": "wat een klik doet",
+            "uses_left": "nog {left}/{of} worpen over",
+            "windows_need": "de ramen vragen: {needs}",
+            "hint": "← → lopen · ↑/↓ trappen · Shift sprinten · eerste steen rust automatisch uit · klik vijand om te werpen · voorraad of 1–9 om te wisselen · slag voor dichtbij",
+            "guard_title": "jij · gezondheid {health} · adem {breath}",
+            "king_title": {
+              "safe": "de koning is in veiligheid",
+              "calm": "de koning is rustig",
+              "alarmed": "de koning is gealarmeerd: er is een schurk binnen",
+              "danger": "de koning is in gevaar",
+              "captured": "de koning is meegenomen: stop de drager",
+              "dropped": "de koning ligt op de grond: bereik hem en begeleid hem naar de troon",
+              "escorting": "de koning wordt terug naar de troon begeleid"
+            },
+            "exit_title": "ontsnappingslijn: als de drager hier voorbij is, is de koning ontkomen",
+            "anchor_title": {
+              "door": "bouwplaats voor de deur · {cost} stenen",
+              "stairs": "bouwplaats voor de trap · {cost} stenen",
+              "landing": "bouwplaats bovenaan de trap · {cost} stenen"
+            },
+            "barricade_title": {
+              "building": "barricade in aanbouw · blijf ernaast staan",
+              "intact": "een barricade · nog {hp} LP",
+              "damaged": "een beschadigde barricade · nog {hp} LP",
+              "burning": "een brandende barricade · nog {hp} LP"
+            },
+            "loose_title": "{word} · nog {left} van {of} worpen over · klik om op te pakken wanneer je ernaast staat",
+            "fire_title": "vuur · nog {seconds} s",
+            "intruder_title": "{name} binnen · kamer {floor} · {hp} levenspunten · nog {left} van het doel",
+            "hand": "in de hand: {word} · {strength} · nog {left} van {of} worpen over",
+            "hand_empty": "niets in de hand",
+            "reload": "pak een steen",
+            "reload_help": "de eerste beschikbare steen wordt automatisch uitgerust; spatie of enter pakt er een als je hand leeg is",
+            "clear": "afbreken",
+            "build": "bouwen",
+            "build_cost": "bouwen · {cost} stenen",
+            "rescue": "begeleid de koning",
+            "inside": "{count, plural, =0 {niemand binnen} one {# schurk binnen} other {# schurken binnen}}",
+            "health": "gezondheid {value}",
+            "breath": "adem {value}",
+            "carrying_note": " · draagt de koning",
+            "needs_strength": "slagkracht {value}+",
+            "bucket": {
+              "empty": "emmer: leeg",
+              "filling": "emmer: vullen ({percent}%)",
+              "full": "emmer: vol",
+              "well": "emmer: bij de put"
+            },
+            "prompt": {
+              "up": "↑ trap op",
+              "down": "↓ trap af",
+              "door_in": "↑ naar binnen door de deur",
+              "well": "bij de put",
+              "line_up": "↑ omhoog klimmen",
+              "line_down": "↓ omlaag klimmen",
+              "pickup": "klik op een steen om op te pakken",
+              "push": "backspace duwt weg of snijdt door",
+              "rescue": "begeleid de koning"
+            },
+            "tool": {
+              "combat": "werpen",
+              "bash": "slaan",
+              "water": "water",
+              "barricade": "barricade"
+            },
+            "tool_help": {
+              "combat": "klik op een specifieke vijand om te werpen, of klik om handmatig te richten; geen automatische richtfunctie",
+              "bash": "klik op een vijand dichtbij om met de steen te slaan; een harde klap sloopt hem",
+              "water": "een klik bij de put pakt de emmer en vult hem; een klik op vuur blust het",
+              "barricade": "klik op een bouwplaats en bevestig"
+            }
+          }
+        }
       },
       "space": {
         "title": "ruimte",
@@ -4853,7 +5082,121 @@
         "wrong_kind_of_brick": "verkeerde soort steen",
         "nobody_to_drop_it_on": "niemand om hem op te laten vallen",
         "two_are_running_already": "er zijn er al twee bezig",
-        "nothing_stored_there": "daar is niets opgeslagen"
+        "nothing_stored_there": "daar is niets opgeslagen",
+        "bash_no_target": "geen vijand dichtbij genoeg om te slaan",
+        "crushed": {
+          "brute": "een bruut verpletterd",
+          "sapper": "een sappeur verpletterd",
+          "catapult": "een katapult verpletterd",
+          "operator": "een bediener neergehaald",
+          "anarchist": "een anarchist verpletterd",
+          "giant": "een reus neergehaald",
+          "rogue": "een schurk neergehaald"
+        },
+        "hit": {
+          "brute": "een bruut geraakt",
+          "sapper": "een sappeur geraakt",
+          "catapult": "een katapult geraakt",
+          "operator": "een bediener geraakt",
+          "anarchist": "een anarchist geraakt",
+          "giant": "een reus geraakt",
+          "rogue": "een schurk geraakt"
+        },
+        "hit_stunned": {
+          "brute": "een bruut geraakt · verdoofd",
+          "sapper": "een sappeur geraakt · verdoofd",
+          "catapult": "een katapult geraakt · verdoofd",
+          "operator": "een bediener geraakt · verdoofd",
+          "anarchist": "een anarchist geraakt · verdoofd",
+          "giant": "een reus geraakt · verdoofd",
+          "rogue": "een schurk geraakt · verdoofd"
+        },
+        "dropped_stored": {
+          "brute": "de bruut liet {label} vallen · shift+{slot} om te gebruiken",
+          "sapper": "de sappeur liet {label} vallen · shift+{slot} om te gebruiken",
+          "catapult": "de katapult liet {label} vallen · shift+{slot} om te gebruiken",
+          "operator": "de bediener liet {label} vallen · shift+{slot} om te gebruiken",
+          "anarchist": "de anarchist liet {label} vallen · shift+{slot} om te gebruiken",
+          "giant": "de reus liet {label} vallen · shift+{slot} om te gebruiken",
+          "rogue": "de schurk liet {label} vallen · shift+{slot} om te gebruiken"
+        },
+        "dropped_full": {
+          "brute": "de bruut liet {label} vallen, maar de opslag is vol",
+          "sapper": "de sappeur liet {label} vallen, maar de opslag is vol",
+          "catapult": "de katapult liet {label} vallen, maar de opslag is vol",
+          "operator": "de bediener liet {label} vallen, maar de opslag is vol",
+          "anarchist": "de anarchist liet {label} vallen, maar de opslag is vol",
+          "giant": "de reus liet {label} vallen, maar de opslag is vol",
+          "rogue": "de schurk liet {label} vallen, maar de opslag is vol"
+        },
+        "laid_many": "{count, plural, one {# steen} other {# stenen}}",
+        "powerup_on": "actief",
+        "powerup_stacked": "gestapeld",
+        "attackers_stunned": "{count, plural, one {# aanvaller verdoofd} other {# aanvallers verdoofd}}",
+        "section_mended": "{section} hersteld",
+        "shot_interrupted": "schot onderbroken",
+        "cannot_build": "niets om hier buiten te bouwen",
+        "alert": {
+          "catapult_destroyed": "een katapult is vernietigd",
+          "repair_crew": "een ploeg snelt naar het puin",
+          "repair_done": "een katapult is herbouwd",
+          "repair_failed": "de reparatieploeg is uitgeschakeld: het puin blijft liggen",
+          "dynamite_placed": "dynamiet geplaatst bij: {section}",
+          "fire_started": "brand bij: {section}",
+          "critical_danger": "de {section} is in gevaar",
+          "base_ready": "de {section} is klaar om soldaten te sturen",
+          "breach": "er is een schurk binnen",
+          "floor_lost": "een verdieping is gevallen",
+          "king_in_danger": "de koning is in gevaar",
+          "king_captured": "de koning is meegenomen: stop de drager",
+          "king_dropped": "de koning ligt op de grond: bereik hem",
+          "king_escorting": "je hebt de koning: begeleid hem terug naar de troon",
+          "king_safe": "de koning is in veiligheid",
+          "blaze": "brand in kamer {floor}"
+        },
+        "dynamite_disarmed": "dynamiet ontmanteld",
+        "water_filled": "+{added} water · {water}/{capacity}",
+        "water_overflow": "+{added} water · {lost} gemorst · {water}/{capacity}",
+        "not_enough_water": "de emmer heeft {cost} water nodig om te gieten",
+        "nothing_burning": "er brandt daar niets",
+        "water_poured": "vuur geblust",
+        "bucket_armed": "emmer gereed · spatie giet over een brandende sectie",
+        "ladder_pushed": "ladder van de muur geduwd",
+        "ladder_broken": "ladder verbrijzeld",
+        "grapple_cut": "enterhaak doorgesneden",
+        "knocked_down": "omvergeworpen",
+        "brick_missed": "gemist",
+        "out_of_reach": "buiten bereik",
+        "nothing_to_push": "niets om hier weg te duwen of door te snijden",
+        "resisted": "weerstand geboden: woord of werpkracht was onvoldoende",
+        "reloaded": "een steen in de hand",
+        "already_holding": "je hebt al een steen vast",
+        "empty_handed": "niets in de hand: spatie of enter pakt een steen",
+        "cannot_throw_now": "nu niet",
+        "picked_up": "opgepakt",
+        "nothing_to_pick_up": "geen steen daar",
+        "too_far": "te ver weg: loop dichterbij",
+        "no_stairs_here": "geen trap, deur of ladder hier",
+        "fell_from_line": "van het touw gevallen",
+        "slipped": "uitgegleden op de natte vloer",
+        "no_bucket": "haal eerst de emmer bij de put",
+        "bucket_taken": "emmer meegenomen: klik opnieuw op de put om te vullen",
+        "bucket_empty": "de emmer is leeg: vul hem bij de put",
+        "bucket_full": "de emmer is vol",
+        "bucket_filled": "emmer vol: draag hem naar het vuur",
+        "filling": "vullen: blijf bij de put",
+        "filling_stopped": "vullen gestopt: het water is verloren",
+        "doused": "vuur geblust",
+        "nothing_to_pour_on": "er brandt daar niets",
+        "no_anchor_there": "geen plek om daar te bouwen",
+        "barricade_started": "bouw gestart: blijf ernaast staan",
+        "barricade_built": "barricade gebouwd",
+        "barricade_broken": "een barricade is gebroken",
+        "barricade_cleared": "barricade afgebroken",
+        "not_enough_bricks": "niet genoeg stenen in voorraad",
+        "king_escorting": "de koning wordt terug naar de troon begeleid",
+        "king_secured": "de koning is in veiligheid",
+        "king_needs_no_help": "de koning heeft geen hulp nodig"
       },
       "marathon": {
         "title": "marathon",

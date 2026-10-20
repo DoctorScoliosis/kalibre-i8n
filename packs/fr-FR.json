@@ -3549,7 +3549,236 @@
         "section_critical": ", critique",
         "section_needs": ", nécessite des briques {requirement}",
         "news_line": "{label} : {note}",
-        "powerup": "bonus"
+        "powerup": "bonus",
+        "units": {
+          "brute": "brute",
+          "sapper": "sapeur",
+          "catapult": "catapulte",
+          "operator": "servant",
+          "anarchist": "anarchiste",
+          "giant": "géant",
+          "soldier": "soldat",
+          "rogue": "brigand"
+        },
+        "sections": {
+          "west-tower": "tour ouest",
+          "west-wall": "mur ouest",
+          "inner-west-wall": "mur ouest intérieur",
+          "gate": "porte",
+          "inner-east-wall": "mur est intérieur",
+          "east-wall": "mur est",
+          "east-tower": "tour est",
+          "west-foundation": "fondation ouest",
+          "keep": "donjon",
+          "east-foundation": "fondation est"
+        },
+        "kinds": {
+          "wall": "mur",
+          "tower": "tour",
+          "gate": "porte",
+          "foundation": "base",
+          "keep": "donjon"
+        },
+        "marks": {
+          "critical": "critique",
+          "breach": "brèche",
+          "requirement": "!"
+        },
+        "summary": {
+          "held": "tenu",
+          "overrun": "submergé",
+          "waves": "vagues",
+          "bricks_laid": "briques posées",
+          "crushed": "écrasés",
+          "strongest": "le plus fort",
+          "damage_taken": "dégâts subis",
+          "sections_lost": "sections perdues",
+          "catapults_destroyed": "catapultes détruites",
+          "fires_out": "feux éteints",
+          "soldiers_sent": "soldats envoyés",
+          "floors_held": "étages tenus",
+          "climbers_downed": "grimpeurs repoussés",
+          "breaches": "brèches",
+          "ladders_pushed": "échelles repoussées",
+          "ropes_cut": "cordes coupées",
+          "defeated": "vaincu par",
+          "defeat_guard": "le garde est tombé",
+          "defeat_king": "le roi s'est enfui"
+        },
+        "titles": {
+          "foe": {
+            "brute": "brute : cliquer ou lâcher une brique pour l'écraser ({hp} PV)",
+            "sapper": "sapeur : cliquer ou lâcher une brique pour l'écraser ({hp} PV)",
+            "anarchist": "anarchiste : cliquer ou lâcher une brique pour l'écraser ({hp} PV)",
+            "giant": "géant : seul un mot fort l'étourdit ; les briques faibles ricochent ({hp} PV)"
+          },
+          "catapult": "catapulte : {state} · {ammo} · châssis {percent}%",
+          "catapult_aiming": ", vise : {section}",
+          "operator": "servant : cliquer ou lancer une brique pour l'abattre ({hp}% restant)",
+          "rubble": "décombres : une catapulte a été détruite ici",
+          "repair_crew": "équipe de réparation : cliquer ou lancer une brique pour arrêter le travail ({hp}% restant · {percent}% terminé)",
+          "dynamite": "dynamite : plus que {seconds, plural, one {# seconde} other {# secondes}} · cliquer pour désamorcer",
+          "fire": "feu : {percent}% de combustion restante · éteindre avec le seau",
+          "strong_word": "un mot fort est nécessaire : les briques faibles blessent à peine et n'étourdissent pas"
+        },
+        "siege": {
+          "state": {
+            "arriving": "les servants arrivent",
+            "setup": "en cours d'installation",
+            "carrying": "transporte un rocher",
+            "loading": "chargement",
+            "aiming": "visée",
+            "releasing": "tir",
+            "unmanned": "sans équipage",
+            "empty": "plus de rochers",
+            "destroyed": "détruite",
+            "repairing": "en réparation"
+          },
+          "ammo": "{count, plural, =0 {plus aucun rocher} one {# rocher restant} other {# rochers restants}}"
+        },
+        "cursor": {
+          "site_catapult": "visée : catapulte · {state} · {ammo}",
+          "site_rubble": "visée : décombres d'une catapulte",
+          "site_empty": "visée : ligne de siège · rien ici"
+        },
+        "sabotage": {
+          "fuse": "{seconds} s"
+        },
+        "bucket": {
+          "label": "seau",
+          "title": "seau : {water}/{capacity} d'eau · cliquer dessus puis sur un feu (ou appuyer sur 0, puis espace)",
+          "title_armed": "seau prêt : cliquer sur un feu ou appuyer sur espace dessus (échap pour le poser)",
+          "level": "{water}/{capacity}"
+        },
+        "garrison": {
+          "cooldown": "{seconds} s avant d'être prêt",
+          "ready": "prêt à envoyer des soldats",
+          "next_size": "suivant : {count, plural, one {# soldat} other {# soldats}}",
+          "deployed": "{count, plural, one {# soldat déployé} other {# soldats déployés}}",
+          "spawning": "envoi de soldats : {count, plural, =0 {le dernier est sorti} one {encore # à venir} other {encore # à venir}}",
+          "cancelled": "la vague qu'il préparait a été perdue avec lui",
+          "destroyed": "perdu : aucun soldat avant sa reconstruction",
+          "friendly_fire_on": "tir ami activé"
+        },
+        "climb": {
+          "the_tower": "la tour",
+          "hint": "Cliquer pour jeter une brique depuis la fenêtre · Espace en lâche une · Retour arrière repousse une échelle ou coupe une corde · ou cliquer sur l'échelle ou la corde",
+          "king": "le roi",
+          "side": {
+            "left": "gauche",
+            "right": "droite"
+          },
+          "window_title": "fenêtre {side}, étage {floor}",
+          "window_needs": " · requiert {requirement}",
+          "cursor_window": "la fenêtre {side}, étage {floor}",
+          "floors_held": "étages tenus : {held}/{total}",
+          "breaches": "brèches : {count}/{limit}",
+          "limping": " · boite",
+          "ladder_title": "échelle · cliquer pour la repousser du mur",
+          "rope_title": "corde · cliquer pour la couper",
+          "rogue_title": "brigand ({kit}) · {hp} points de vie",
+          "resolve_title": "Résolution des brigands : s'épuise tant que personne n'est à l'intérieur",
+          "kit": {
+            "ladder": "échelle",
+            "grapple": "grappin"
+          },
+          "interior": {
+            "label": "vue en coupe de la tour et des abords : pièces, escaliers, hall, puits, roi, garde et intrus",
+            "where": {
+              "outside": "vous êtes à l'extérieur",
+              "room": "vous êtes dans la pièce {floor}",
+              "lobby": "vous êtes dans le hall",
+              "behind": "vous êtes derrière la tour"
+            },
+            "variant": {
+              "rogue": "brigand",
+              "scribe": "scribe",
+              "bruiser": "batailleur",
+              "knight": "chevalier",
+              "arsonist": "incendiaire",
+              "soaker": "aspergeur",
+              "runner": "coureur"
+            },
+            "well_title": {
+              "well": "le puits : avec l'outil d'eau, cliquer pour prendre le seau",
+              "empty": "le puits : cliquer avec l'outil d'eau pour remplir le seau",
+              "filling": "remplissage : rester près du puits",
+              "full": "le puits : votre seau est plein"
+            },
+            "wet_title": "sol mouillé · {seconds} s restantes",
+            "tools_label": "action de chaque clic",
+            "uses_left": "{left}/{of} lancers restants",
+            "windows_need": "les fenêtres réclament : {needs}",
+            "hint": "← → marcher · ↑/↓ escaliers · Maj sprinte · première brique équipée automatiquement · cliquer sur un ennemi pour lancer · stock ou 1–9 pour changer · coup pour le corps à corps",
+            "guard_title": "vous · santé {health} · souffle {breath}",
+            "king_title": {
+              "safe": "le roi est en sécurité",
+              "calm": "le roi est calme",
+              "alarmed": "le roi est inquiet : un brigand est à l'intérieur",
+              "danger": "le roi est en danger",
+              "captured": "le roi a été capturé : arrêtez le porteur",
+              "dropped": "le roi est au sol : rejoignez-le et escortez-le vers le trône",
+              "escorting": "le roi est escorté vers le trône"
+            },
+            "exit_title": "ligne de fuite : si un porteur la franchit, le roi est perdu",
+            "anchor_title": {
+              "door": "emplacement de construction devant la porte · {cost} briques",
+              "stairs": "emplacement de construction devant l'escalier · {cost} briques",
+              "landing": "emplacement de construction en haut de l'escalier · {cost} briques"
+            },
+            "barricade_title": {
+              "building": "barricade en construction · restez à côté",
+              "intact": "une barricade · {hp} PV restants",
+              "damaged": "une barricade endommagée · {hp} PV restants",
+              "burning": "une barricade en flammes · {hp} PV restants"
+            },
+            "loose_title": "{word} · {left} sur {of} lancers restants · cliquer pour ramasser en étant à côté",
+            "fire_title": "feu · {seconds} s restantes",
+            "intruder_title": "{name} à l'intérieur · pièce {floor} · {hp} points de vie · à {left} de l'objectif",
+            "hand": "en main : {word} · {strength} · {left} sur {of} lancers restants",
+            "hand_empty": "rien en main",
+            "reload": "prendre une brique",
+            "reload_help": "la première brique disponible s'équipe automatiquement ; espace ou entrée en équipe une si la main est vide",
+            "clear": "démonter",
+            "build": "construire",
+            "build_cost": "construire · {cost} briques",
+            "rescue": "escorter le roi",
+            "inside": "{count, plural, =0 {personne à l'intérieur} one {# brigand à l'intérieur} other {# brigands à l'intérieur}}",
+            "health": "santé {value}",
+            "breath": "souffle {value}",
+            "carrying_note": " · transporte le roi",
+            "needs_strength": "impact {value}+",
+            "bucket": {
+              "empty": "seau : vide",
+              "filling": "seau : remplissage ({percent}%)",
+              "full": "seau : plein",
+              "well": "seau : au puits"
+            },
+            "prompt": {
+              "up": "↑ monter l'escalier",
+              "down": "↓ descendre l'escalier",
+              "door_in": "↑ entrer par la porte",
+              "well": "au puits",
+              "line_up": "↑ monter à la corde",
+              "line_down": "↓ descendre à la corde",
+              "pickup": "cliquer sur une brique pour la ramasser",
+              "push": "retour arrière repousse ou coupe",
+              "rescue": "escorter le roi"
+            },
+            "tool": {
+              "combat": "lancer",
+              "bash": "frapper",
+              "water": "eau",
+              "barricade": "barricade"
+            },
+            "tool_help": {
+              "combat": "cliquer sur un ennemi pour viser, ou sur un point pour viser manuellement ; pas de visée automatique",
+              "bash": "cliquer sur un ennemi proche pour le frapper avec la brique ; un impact fort l'épuise",
+              "water": "un clic au puits prend le seau et le remplit ; un clic sur un feu l'éteint",
+              "barricade": "cliquer sur un emplacement puis confirmer"
+            }
+          }
+        }
       },
       "space": {
         "title": "espace",
@@ -4785,7 +5014,121 @@
         "wrong_kind_of_brick": "mauvais type de brique",
         "nobody_to_drop_it_on": "personne sur qui la lâcher",
         "two_are_running_already": "deux sont déjà en cours",
-        "nothing_stored_there": "rien stocké ici"
+        "nothing_stored_there": "rien stocké ici",
+        "bash_no_target": "aucun ennemi assez proche pour frapper",
+        "crushed": {
+          "brute": "a écrasé une brute",
+          "sapper": "a écrasé un sapeur",
+          "catapult": "a brisé une catapulte",
+          "operator": "a abattu un servant",
+          "anarchist": "a écrasé un anarchiste",
+          "giant": "a abattu un géant",
+          "rogue": "a abattu un brigand"
+        },
+        "hit": {
+          "brute": "a touché une brute",
+          "sapper": "a touché un sapeur",
+          "catapult": "a touché une catapulte",
+          "operator": "a touché un servant",
+          "anarchist": "a touché un anarchiste",
+          "giant": "a touché un géant",
+          "rogue": "a touché un brigand"
+        },
+        "hit_stunned": {
+          "brute": "a touché une brute · étourdie",
+          "sapper": "a touché un sapeur · étourdi",
+          "catapult": "a touché une catapulte · étourdie",
+          "operator": "a touché un servant · étourdi",
+          "anarchist": "a touché un anarchiste · étourdi",
+          "giant": "a touché un géant · étourdi",
+          "rogue": "a touché un brigand · étourdi"
+        },
+        "dropped_stored": {
+          "brute": "la brute a lâché {label} · maj+{slot} pour utiliser",
+          "sapper": "le sapeur a lâché {label} · maj+{slot} pour utiliser",
+          "catapult": "la catapulte a lâché {label} · maj+{slot} pour utiliser",
+          "operator": "le servant a lâché {label} · maj+{slot} pour utiliser",
+          "anarchist": "l'anarchiste a lâché {label} · maj+{slot} pour utiliser",
+          "giant": "le géant a lâché {label} · maj+{slot} pour utiliser",
+          "rogue": "le brigand a lâché {label} · maj+{slot} pour utiliser"
+        },
+        "dropped_full": {
+          "brute": "la brute a lâché {label}, mais le stockage est plein",
+          "sapper": "le sapeur a lâché {label}, mais le stockage est plein",
+          "catapult": "la catapulte a lâché {label}, mais le stockage est plein",
+          "operator": "le servant a lâché {label}, mais le stockage est plein",
+          "anarchist": "l'anarchiste a lâché {label}, mais le stockage est plein",
+          "giant": "le géant a lâché {label}, mais le stockage est plein",
+          "rogue": "le brigand a lâché {label}, mais le stockage est plein"
+        },
+        "laid_many": "{count, plural, one {# brique} other {# briques}}",
+        "powerup_on": "actif",
+        "powerup_stacked": "cumulé",
+        "attackers_stunned": "{count, plural, one {# assaillant étourdi} other {# assaillants étourdis}}",
+        "section_mended": "{section} réparée",
+        "shot_interrupted": "tir interrompu",
+        "cannot_build": "rien à construire ici dehors",
+        "alert": {
+          "catapult_destroyed": "une catapulte a été détruite",
+          "repair_crew": "une équipe se dirige vers les décombres",
+          "repair_done": "une catapulte a été reconstruite",
+          "repair_failed": "l'équipe de réparation a été vaincue : les décombres restent",
+          "dynamite_placed": "dynamite posée à : {section}",
+          "fire_started": "feu à : {section}",
+          "critical_danger": "la {section} est en danger",
+          "base_ready": "la {section} est prête à envoyer des soldats",
+          "breach": "un brigand est à l'intérieur",
+          "floor_lost": "un étage est tombé",
+          "king_in_danger": "le roi est en danger",
+          "king_captured": "le roi a été capturé : arrêtez le porteur",
+          "king_dropped": "le roi est au sol : rejoignez-le",
+          "king_escorting": "vous avez le roi : escortez-le vers le trône",
+          "king_safe": "le roi est en sécurité",
+          "blaze": "incendie dans la pièce {floor}"
+        },
+        "dynamite_disarmed": "dynamite désamorcée",
+        "water_filled": "+{added} d'eau · {water}/{capacity}",
+        "water_overflow": "+{added} d'eau · {lost} renversée · {water}/{capacity}",
+        "not_enough_water": "le seau nécessite {cost} d'eau pour verser",
+        "nothing_burning": "rien ne brûle ici",
+        "water_poured": "feu éteint",
+        "bucket_armed": "seau prêt · espace verse sur une section en feu",
+        "ladder_pushed": "échelle repoussée du mur",
+        "ladder_broken": "échelle brisée",
+        "grapple_cut": "grappin coupé",
+        "knocked_down": "renversé",
+        "brick_missed": "manqué",
+        "out_of_reach": "hors de portée",
+        "nothing_to_push": "rien à repousser ou à couper ici",
+        "resisted": "a résisté : mot ou force insuffisant",
+        "reloaded": "une brique en main",
+        "already_holding": "vous tenez déjà une brique",
+        "empty_handed": "rien en main : espace ou entrée prend une brique",
+        "cannot_throw_now": "pas maintenant",
+        "picked_up": "ramassé",
+        "nothing_to_pick_up": "aucune brique ici",
+        "too_far": "trop loin : approchez-vous",
+        "no_stairs_here": "pas d'escalier, de porte ni d'échelle ici",
+        "fell_from_line": "tombé de la corde",
+        "slipped": "a glissé sur le sol mouillé",
+        "no_bucket": "prenez d'abord le seau au puits",
+        "bucket_taken": "seau pris : cliquer à nouveau sur le puits pour le remplir",
+        "bucket_empty": "le seau est vide : remplissez-le au puits",
+        "bucket_full": "le seau est plein",
+        "bucket_filled": "seau plein : apportez-le au feu",
+        "filling": "remplissage : rester près du puits",
+        "filling_stopped": "remplissage interrompu : l'eau est perdue",
+        "doused": "feu éteint",
+        "nothing_to_pour_on": "rien ne brûle ici",
+        "no_anchor_there": "aucun emplacement de construction ici",
+        "barricade_started": "construction en cours : restez à côté",
+        "barricade_built": "barricade construite",
+        "barricade_broken": "une barricade s'est brisée",
+        "barricade_cleared": "barricade démontée",
+        "not_enough_bricks": "pas assez de briques dans la réserve",
+        "king_escorting": "escorte du roi vers le trône",
+        "king_secured": "le roi est en sécurité",
+        "king_needs_no_help": "le roi n'a pas besoin d'aide"
       },
       "space_ui": {
         "shot": {

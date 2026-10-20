@@ -75,7 +75,236 @@
     "section_critical": ", kritiskt",
     "section_needs": ", behöver tegel som {requirement}",
     "news_line": "{label}: {note}",
-    "powerup": "kraftbonus"
+    "powerup": "kraftbonus",
+    "units": {
+      "brute": "bängel",
+      "sapper": "sappör",
+      "catapult": "katapult",
+      "operator": "operatör",
+      "anarchist": "anarkist",
+      "giant": "jätte",
+      "soldier": "soldat",
+      "rogue": "skurk"
+    },
+    "sections": {
+      "west-tower": "västra tornet",
+      "west-wall": "västra muren",
+      "inner-west-wall": "inre västra muren",
+      "gate": "port",
+      "inner-east-wall": "inre östra muren",
+      "east-wall": "östra muren",
+      "east-tower": "östra tornet",
+      "west-foundation": "västra grunden",
+      "keep": "kärntorn",
+      "east-foundation": "östra grunden"
+    },
+    "kinds": {
+      "wall": "mur",
+      "tower": "torn",
+      "gate": "port",
+      "foundation": "grund",
+      "keep": "kärntorn"
+    },
+    "marks": {
+      "critical": "kritiskt",
+      "breach": "bräsch",
+      "requirement": "!"
+    },
+    "summary": {
+      "held": "hållet",
+      "overrun": "översvämmad",
+      "waves": "vågor",
+      "bricks_laid": "tegelstenar lagda",
+      "crushed": "krossade",
+      "strongest": "starkaste",
+      "damage_taken": "tagen skada",
+      "sections_lost": "förlorade sektioner",
+      "catapults_destroyed": "katapulter förstörda",
+      "fires_out": "bränder släckta",
+      "soldiers_sent": "utsända soldater",
+      "floors_held": "hållna våningar",
+      "climbers_downed": "klättrare fällda",
+      "breaches": "genombrott",
+      "ladders_pushed": "nedknuffade stegar",
+      "ropes_cut": "avskurna rep",
+      "defeated": "besegrad av",
+      "defeat_guard": "vakten föll",
+      "defeat_king": "kungen kom undan"
+    },
+    "titles": {
+      "foe": {
+        "brute": "bängel: klicka eller släpp tegelsten för att krossa ({hp} KP)",
+        "sapper": "sappör: klicka eller släpp tegelsten för att krossa ({hp} KP)",
+        "anarchist": "anarkist: klicka eller släpp tegelsten för att krossa ({hp} KP)",
+        "giant": "jätte: endast ett starkt ord bedövar den; svaga tegelstenar studsar bort ({hp} KP)"
+      },
+      "catapult": "katapult: {state} · {ammo} · stomme {percent}%",
+      "catapult_aiming": ", siktar mot: {section}",
+      "operator": "operatör: klicka eller kasta en tegelsten för att fälla ({hp}% kvar)",
+      "rubble": "ruiner: här förstördes en katapult",
+      "repair_crew": "reparationslag: klicka eller kasta en tegelsten för att stoppa arbetet ({hp}% kvar · {percent}% klart)",
+      "dynamite": "dynamit: {seconds, plural, one {# sekund} other {# sekunder}} kvar · klicka för att desarmera",
+      "fire": "eld: {percent}% brinntid kvar · släck med hinken",
+      "strong_word": "ett starkt ord krävs: svaga tegelstenar gör knappt skada och kan inte bedöva"
+    },
+    "siege": {
+      "state": {
+        "arriving": "operatörer närmar sig",
+        "setup": "bygger upp",
+        "carrying": "bär ett stenblock",
+        "loading": "laddar",
+        "aiming": "siktar",
+        "releasing": "avfyrar",
+        "unmanned": "obemannad",
+        "empty": "slut på stenar",
+        "destroyed": "förstörd",
+        "repairing": "repareras"
+      },
+      "ammo": "{count, plural, =0 {inga stenar kvar} one {# sten kvar} other {# stenar kvar}}"
+    },
+    "cursor": {
+      "site_catapult": "siktar mot: katapult · {state} · {ammo}",
+      "site_rubble": "siktar mot: ruiner av en katapult",
+      "site_empty": "siktar mot: belägringslinjen · inget här"
+    },
+    "sabotage": {
+      "fuse": "{seconds} s"
+    },
+    "bucket": {
+      "label": "hink",
+      "title": "hink: {water}/{capacity} vatten · klicka på den och sedan på en eld (eller tryck 0, sedan mellanslag)",
+      "title_armed": "hink redo: klicka på en eld eller tryck mellanslag över den (esc för att ställa ner)",
+      "level": "{water}/{capacity}"
+    },
+    "garrison": {
+      "cooldown": "{seconds} s tills den är redo",
+      "ready": "redo att skicka soldater",
+      "next_size": "nästa: {count, plural, one {# soldat} other {# soldater}}",
+      "deployed": "{count, plural, one {# soldat ute} other {# soldater ute}}",
+      "spawning": "skickar soldater: {count, plural, =0 {den sista är ute} one {ytterligare # på väg} other {ytterligare # på väg}}",
+      "cancelled": "vågen som förbereddes gick förlorad",
+      "destroyed": "förlorad: inga soldater förrän den byggts upp igen",
+      "friendly_fire_on": "egen eld aktiverad"
+    },
+    "climb": {
+      "the_tower": "tornet",
+      "hint": "Klicka för att kasta en tegelsten från fönstret · Mellanslag släpper en · Backsteg knuffar ner stege eller kapar rep · eller klicka på stegen eller repet",
+      "king": "kungen",
+      "side": {
+        "left": "vänster",
+        "right": "höger"
+      },
+      "window_title": "fönster {side}, våning {floor}",
+      "window_needs": " · kräver {requirement}",
+      "cursor_window": "fönstret {side}, våning {floor}",
+      "floors_held": "hållna våningar: {held}/{total}",
+      "breaches": "genombrott: {count}/{limit}",
+      "limping": " · haltar",
+      "ladder_title": "stege · klicka för att knuffa ner från muren",
+      "rope_title": "rep · klicka för att kapa",
+      "rogue_title": "skurk ({kit}) · {hp} hälsopoäng",
+      "resolve_title": "Skurkarnas beslutsamhet: minskar så länge ingen är inne",
+      "kit": {
+        "ladder": "stege",
+        "grapple": "änterhake"
+      },
+      "interior": {
+        "label": "genomskärning av tornet och omgivningen: rum, trappor, entréhall, brunn, kung, vakt och inkräktare",
+        "where": {
+          "outside": "du är utomhus",
+          "room": "du är i rum {floor}",
+          "lobby": "du är i entréhallen",
+          "behind": "du är bakom tornet"
+        },
+        "variant": {
+          "rogue": "skurk",
+          "scribe": "skrivare",
+          "bruiser": "slagskämpe",
+          "knight": "riddare",
+          "arsonist": "mordbrännare",
+          "soaker": "blötläggare",
+          "runner": "löpare"
+        },
+        "well_title": {
+          "well": "brunnen: med vattenverktyget, klicka för att ta hinken",
+          "empty": "brunnen: klicka med vattenverktyget för att fylla hinken",
+          "filling": "fyller: stå kvar vid brunnen",
+          "full": "brunnen: din hink är full"
+        },
+        "wet_title": "blött golv · {seconds} s kvar",
+        "tools_label": "vad ett klick gör",
+        "uses_left": "{left}/{of} kast kvar",
+        "windows_need": "fönstren kräver: {needs}",
+        "hint": "← → gå · ↑/↓ trappor · Skift spurtar · första tegelstenen utrustas automatiskt · klicka fiende för att kasta · förråd eller 1–9 för att byta · slag för närstrid",
+        "guard_title": "du · hälsa {health} · andedräkt {breath}",
+        "king_title": {
+          "safe": "kungen är i säkerhet",
+          "calm": "kungen är lugn",
+          "alarmed": "kungen är orolig: en skurk är inne",
+          "danger": "kungen är i fara",
+          "captured": "kungen har förts bort: stoppa bäraren",
+          "dropped": "kungen ligger på golvet: nå fram till honom och eskortera till tronen",
+          "escorting": "kungen eskorteras tillbaka till tronen"
+        },
+        "exit_title": "flyktlinje: passerar en bärare här är kungen förlorad",
+        "anchor_title": {
+          "door": "byggplats framför dörren · {cost} tegelstenar",
+          "stairs": "byggplats framför trappan · {cost} tegelstenar",
+          "landing": "byggplats högst upp i trappan · {cost} tegelstenar"
+        },
+        "barricade_title": {
+          "building": "barrikad under uppbyggnad · stå kvar bredvid",
+          "intact": "en barrikad · {hp} KP kvar",
+          "damaged": "en skadad barrikad · {hp} KP kvar",
+          "burning": "en brinnande barrikad · {hp} KP kvar"
+        },
+        "loose_title": "{word} · {left} av {of} kast kvar · klicka för att plocka upp när du står bredvid",
+        "fire_title": "eld · {seconds} s kvar",
+        "intruder_title": "{name} inne · rum {floor} · {hp} hälsopoäng · {left} från målet",
+        "hand": "i handen: {word} · {strength} · {left} av {of} kast kvar",
+        "hand_empty": "inget i handen",
+        "reload": "ta en tegelsten",
+        "reload_help": "första tillgängliga tegelsten utrustas automatiskt; mellanslag eller retur utrustar en när handen är tom",
+        "clear": "montera ner",
+        "build": "bygg",
+        "build_cost": "bygg · {cost} tegelstenar",
+        "rescue": "eskortera kungen",
+        "inside": "{count, plural, =0 {ingen inne} one {# skurk inne} other {# skurkar inne}}",
+        "health": "hälsa {value}",
+        "breath": "andedräkt {value}",
+        "carrying_note": " · bär kungen",
+        "needs_strength": "slagkraft {value}+",
+        "bucket": {
+          "empty": "hink: tom",
+          "filling": "hink: fylls ({percent}%)",
+          "full": "hink: full",
+          "well": "hink: vid brunnen"
+        },
+        "prompt": {
+          "up": "↑ uppför trappan",
+          "down": "↓ nedför trappan",
+          "door_in": "↑ in genom dörren",
+          "well": "vid brunnen",
+          "line_up": "↑ klättra upp",
+          "line_down": "↓ klättra ner",
+          "pickup": "klicka på en tegelsten för att plocka upp den",
+          "push": "backsteg knuffar eller kapar",
+          "rescue": "eskortera kungen"
+        },
+        "tool": {
+          "combat": "kasta",
+          "bash": "slå",
+          "water": "vatten",
+          "barricade": "barrikad"
+        },
+        "tool_help": {
+          "combat": "klicka på en specifik fiende för att kasta, eller klicka för att sikta manuellt; inget autosikte",
+          "bash": "klicka på en fiende nära för att slå med tegelstenen; en hård träff nöter ner den",
+          "water": "ett klick vid brunnen tar hinken och fyller den; ett klick på en eld släcker den",
+          "barricade": "klicka på en byggplats och bekräfta"
+        }
+      }
+    }
   },
   "space": {
     "title": "rymd",
@@ -413,7 +642,121 @@
     "wrong_kind_of_brick": "fel sorts tegel",
     "nobody_to_drop_it_on": "ingen att släppa det på",
     "two_are_running_already": "två körs redan",
-    "nothing_stored_there": "inget lagrat där"
+    "nothing_stored_there": "inget lagrat där",
+    "bash_no_target": "ingen fiende tillräckligt nära för att slå",
+    "crushed": {
+      "brute": "krossade en bängel",
+      "sapper": "krossade en sappör",
+      "catapult": "krossade en katapult",
+      "operator": "fällde en operatör",
+      "anarchist": "krossade en anarkist",
+      "giant": "fällde en jätte",
+      "rogue": "fällde en skurk"
+    },
+    "hit": {
+      "brute": "träffade en bängel",
+      "sapper": "träffade en sappör",
+      "catapult": "träffade en katapult",
+      "operator": "träffade en operatör",
+      "anarchist": "träffade en anarkist",
+      "giant": "träffade en jätte",
+      "rogue": "träffade en skurk"
+    },
+    "hit_stunned": {
+      "brute": "träffade en bängel · bedövad",
+      "sapper": "träffade en sappör · bedövad",
+      "catapult": "träffade en katapult · bedövad",
+      "operator": "träffade en operatör · bedövad",
+      "anarchist": "träffade en anarkist · bedövad",
+      "giant": "träffade en jätte · bedövad",
+      "rogue": "träffade en skurk · bedövad"
+    },
+    "dropped_stored": {
+      "brute": "bängeln tappade {label} · skift+{slot} för att använda",
+      "sapper": "sappören tappade {label} · skift+{slot} för att använda",
+      "catapult": "katapulten tappade {label} · skift+{slot} för att använda",
+      "operator": "operatören tappade {label} · skift+{slot} för att använda",
+      "anarchist": "anarkisten tappade {label} · skift+{slot} för att använda",
+      "giant": "jätten tappade {label} · skift+{slot} för att använda",
+      "rogue": "skurken tappade {label} · skift+{slot} för att använda"
+    },
+    "dropped_full": {
+      "brute": "bängeln tappade {label}, men förrådet är fullt",
+      "sapper": "sappören tappade {label}, men förrådet är fullt",
+      "catapult": "katapulten tappade {label}, men förrådet är fullt",
+      "operator": "operatören tappade {label}, men förrådet är fullt",
+      "anarchist": "anarkisten tappade {label}, men förrådet är fullt",
+      "giant": "jätten tappade {label}, men förrådet är fullt",
+      "rogue": "skurken tappade {label}, men förrådet är fullt"
+    },
+    "laid_many": "{count, plural, one {# tegelsten} other {# tegelstenar}}",
+    "powerup_on": "aktiv",
+    "powerup_stacked": "staplad",
+    "attackers_stunned": "{count, plural, one {# angripare bedövad} other {# angripare bedövade}}",
+    "section_mended": "{section} reparerad",
+    "shot_interrupted": "skott avbrutet",
+    "cannot_build": "inget kan byggas här ute",
+    "alert": {
+      "catapult_destroyed": "en katapult har förstörts",
+      "repair_crew": "ett reparationslag skyndar mot ruinerna",
+      "repair_done": "en katapult har återuppbyggts",
+      "repair_failed": "reparationslaget slogs ut: ruinerna förblir",
+      "dynamite_placed": "dynamit placerad vid: {section}",
+      "fire_started": "eld vid: {section}",
+      "critical_danger": "sektionen {section} är i fara",
+      "base_ready": "sektionen {section} är redo att skicka soldater",
+      "breach": "en skurk är inne",
+      "floor_lost": "en våning har fallit",
+      "king_in_danger": "kungen är i fara",
+      "king_captured": "kungen har förts bort: stoppa bäraren",
+      "king_dropped": "kungen ligger på golvet: nå fram till honom",
+      "king_escorting": "du har kungen: eskortera honom tillbaka till tronen",
+      "king_safe": "kungen är i säkerhet",
+      "blaze": "brand i rum {floor}"
+    },
+    "dynamite_disarmed": "dynamit desarmerad",
+    "water_filled": "+{added} vatten · {water}/{capacity}",
+    "water_overflow": "+{added} vatten · {lost} spillt · {water}/{capacity}",
+    "not_enough_water": "hinken behöver {cost} vatten för att hälla",
+    "nothing_burning": "inget brinner där",
+    "water_poured": "eld släckt",
+    "bucket_armed": "hink redo · mellanslag häller över en brinnande sektion",
+    "ladder_pushed": "stege knuffad av muren",
+    "ladder_broken": "stege krossad",
+    "grapple_cut": "änterhake kapad och fri",
+    "knocked_down": "nedknuffad",
+    "brick_missed": "missade",
+    "out_of_reach": "utom räckhåll",
+    "nothing_to_push": "inget att knuffa ner eller kapa här",
+    "resisted": "motstod: ordet eller kaststyrkan räckte inte till",
+    "reloaded": "en tegelsten i handen",
+    "already_holding": "du håller redan en tegelsten",
+    "empty_handed": "inget i handen: mellanslag eller retur tar en tegelsten",
+    "cannot_throw_now": "inte nu",
+    "picked_up": "upplockad",
+    "nothing_to_pick_up": "ingen tegelsten där",
+    "too_far": "för långt bort: gå närmare",
+    "no_stairs_here": "ingen trappa, dörr eller stege här",
+    "fell_from_line": "föll från repet",
+    "slipped": "halkade på det blöta golvet",
+    "no_bucket": "hämta hinken vid brunnen först",
+    "bucket_taken": "hink tagen: klicka på brunnen igen för att fylla",
+    "bucket_empty": "hinken är tom: fyll den vid brunnen",
+    "bucket_full": "hinken är full",
+    "bucket_filled": "hink full: bär den till elden",
+    "filling": "fyller: stå kvar vid brunnen",
+    "filling_stopped": "påfyllning avbröts: vattnet gick förlorat",
+    "doused": "eld släckt",
+    "nothing_to_pour_on": "inget brinner där",
+    "no_anchor_there": "ingen plats att bygga på där",
+    "barricade_started": "bygger: stå kvar bredvid",
+    "barricade_built": "barrikad byggd",
+    "barricade_broken": "en barrikad bröts",
+    "barricade_cleared": "barrikad nedmonterad",
+    "not_enough_bricks": "inte tillräckligt med tegelstenar i förrådet",
+    "king_escorting": "kungen eskorteras tillbaka till tronen",
+    "king_secured": "kungen är i säkerhet",
+    "king_needs_no_help": "kungen behöver ingen hjälp"
   },
   "games_registry": {
     "GAMES": {
