@@ -16,9 +16,9 @@
     "sans-serif"
   ],
   "reviewed": "machine",
-  "revision": 4,
-  "version": "2026-10-08",
-  "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+  "revision": 5,
+  "version": "2026-10-20",
+  "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
   "files": {
     "about.json": "178280fbd89ab2a7447ea3c3a8cf77089ddabdc695ac515a15ad8f90391093d0",
     "achievements.json": "fd56c6e21d51421b0857d1da2fe3613902fb3d611a4658cb57e3eabb1d5b38f4",

@@ -12,18 +12,18 @@
       "englishName": "German",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-08",
+      "revision": 5,
+      "version": "2026-10-20",
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 5531,
         "totalMessages": 5531
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/de-DE/manifest.json",
       "pack": "packs/de-DE.json",
-      "sha256": "5835c1ea13462e7515aa49f940c887db78a06e5f85b3d44d078e5c53ef70c8ce",
-      "bytes": 409640
+      "sha256": "7266be92711651f754cc4627a0c841a5d61a9c972bb12f72a0f2f27929db107e",
+      "bytes": 409649
     },
     {
       "id": "en-GB",
@@ -50,18 +50,18 @@
       "englishName": "Spanish (Spain)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
-      "version": "2026-10-08",
+      "revision": 6,
+      "version": "2026-10-20",
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 5531,
         "totalMessages": 5531
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/es-ES/manifest.json",
       "pack": "packs/es-ES.json",
-      "sha256": "3c794640c66056a68fd411ee20ef92620a3f8a5e5c381789109e1d14364d8b8d",
-      "bytes": 415175
+      "sha256": "6d71a128da97fe85b328bac56374fffcb66d8a671b19ec783197834709e4ece7",
+      "bytes": 415184
     },
     {
       "id": "fr-FR",
@@ -69,18 +69,18 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 9,
-      "version": "2026-10-08",
+      "revision": 10,
+      "version": "2026-10-20",
       "reviewed": "community",
       "translationProgress": {
         "translatedMessages": 5531,
         "totalMessages": 5531
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "f9ac27bd542a8c66192654edf061811f3cba1d27de56c2c585a940da1164e717",
-      "bytes": 422706
+      "sha256": "8ffb788b3298d182beb9e7ca30bb07ea3bb8a0fb9afc8fd2bf2f2809a5c608ee",
+      "bytes": 422716
     },
     {
       "id": "it-IT",
@@ -88,18 +88,18 @@
       "englishName": "Italian",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
-      "version": "2026-10-08",
+      "revision": 6,
+      "version": "2026-10-20",
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 5531,
         "totalMessages": 5531
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/it-IT/manifest.json",
       "pack": "packs/it-IT.json",
-      "sha256": "c1d8a4188cdf00fe824d93948edf5dd3229c99d1dccb24779da08a6d626b63f0",
-      "bytes": 410966
+      "sha256": "c1b5f0c34f840727a1692a5b82091906d8cf86b9c71217612c0b924aa7d14939",
+      "bytes": 410975
     },
     {
       "id": "nl-NL",
@@ -107,18 +107,18 @@
       "englishName": "Dutch (Netherlands)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 4,
-      "version": "2026-10-08",
+      "revision": 5,
+      "version": "2026-10-20",
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 5531,
         "totalMessages": 5531
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/nl-NL/manifest.json",
       "pack": "packs/nl-NL.json",
-      "sha256": "5ca6138dd91255b3422b0080abdf6d8c9a5b3ce523c0a935ed41ff1789810c3f",
-      "bytes": 398159
+      "sha256": "930d7eb054fa5b158d4b5c250fdbea3c191b6182d03f78b7a5eefff4e38579dd",
+      "bytes": 398168
     },
     {
       "id": "pt-BR",
@@ -126,18 +126,18 @@
       "englishName": "Portuguese (Brazil)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
-      "version": "2026-10-08",
+      "revision": 6,
+      "version": "2026-10-20",
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 5531,
         "totalMessages": 5531
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/pt-BR/manifest.json",
       "pack": "packs/pt-BR.json",
-      "sha256": "dcb17bef97b230b03c09463857e58dc2fd91cf6c8d05b349a8064caaa1214aa4",
-      "bytes": 410086
+      "sha256": "1494c19580a1da8b5d926ef73e230f1dbab3acdeceb5236697988648b09bfc27",
+      "bytes": 410095
     },
     {
       "id": "sv-SE",
@@ -145,18 +145,18 @@
       "englishName": "Swedish (Sweden)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 5,
-      "version": "2026-10-08",
+      "revision": 6,
+      "version": "2026-10-20",
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 5531,
         "totalMessages": 5531
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/sv-SE/manifest.json",
       "pack": "packs/sv-SE.json",
-      "sha256": "73ccdcb5170884c604fe4625d879537fc97fe507c27f397f5d4e2aa2b749479e",
-      "bytes": 397566
+      "sha256": "498d0677cadedd27972432b13fcec36a6eaaf82cfd65c8fc9779b68db1f926ca",
+      "bytes": 397575
     },
     {
       "id": "zh-CN",
@@ -164,18 +164,18 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 9,
-      "version": "2026-10-08",
+      "revision": 10,
+      "version": "2026-10-20",
       "reviewed": "community",
       "translationProgress": {
         "translatedMessages": 5531,
         "totalMessages": 5531
       },
-      "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+      "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "107ecef4defa33b733b84f4d8ad6183e4554c857d1e27b5a8706244ffe088539",
-      "bytes": 381490
+      "sha256": "0e67fabf60e86dce8412972df8b72a8a40d46ccea448bd49c8d612e84fc5522d",
+      "bytes": 381500
     }
   ]
 }
