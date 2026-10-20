@@ -143,7 +143,7 @@
       "operator": "servant : cliquer ou lancer une brique pour l'abattre ({hp}% restant)",
       "rubble": "décombres : une catapulte a été détruite ici",
       "repair_crew": "équipe de réparation : cliquer ou lancer une brique pour arrêter le travail ({hp}% restant · {percent}% terminé)",
-      "dynamite": "dynamite : plus que {seconds, plural, one {# seconde} other {# secondes}} · cliquer pour désamorcer",
+      "dynamite": "dynamite : plus que {seconds, plural, one {# seconde} many {# secondes} other {# secondes}} · cliquer pour désamorcer",
       "fire": "feu : {percent}% de combustion restante · éteindre avec le seau",
       "strong_word": "un mot fort est nécessaire : les briques faibles blessent à peine et n'étourdissent pas"
     },
@@ -160,7 +160,7 @@
         "destroyed": "détruite",
         "repairing": "en réparation"
       },
-      "ammo": "{count, plural, =0 {plus aucun rocher} one {# rocher restant} other {# rochers restants}}"
+      "ammo": "{count, plural, =0 {plus aucun rocher} one {# rocher restant} many {# rochers restants} other {# rochers restants}}"
     },
     "cursor": {
       "site_catapult": "visée : catapulte · {state} · {ammo}",
@@ -179,9 +179,9 @@
     "garrison": {
       "cooldown": "{seconds} s avant d'être prêt",
       "ready": "prêt à envoyer des soldats",
-      "next_size": "suivant : {count, plural, one {# soldat} other {# soldats}}",
-      "deployed": "{count, plural, one {# soldat déployé} other {# soldats déployés}}",
-      "spawning": "envoi de soldats : {count, plural, =0 {le dernier est sorti} one {encore # à venir} other {encore # à venir}}",
+      "next_size": "suivant : {count, plural, one {# soldat} many {# soldats} other {# soldats}}",
+      "deployed": "{count, plural, one {# soldat déployé} many {# soldats déployés} other {# soldats déployés}}",
+      "spawning": "envoi de soldats : {count, plural, =0 {le dernier est sorti} one {encore # à venir} many {encore # à venir} other {encore # à venir}}",
       "cancelled": "la vague qu'il préparait a été perdue avec lui",
       "destroyed": "perdu : aucun soldat avant sa reconstruction",
       "friendly_fire_on": "tir ami activé"
@@ -269,7 +269,7 @@
         "build": "construire",
         "build_cost": "construire · {cost} briques",
         "rescue": "escorter le roi",
-        "inside": "{count, plural, =0 {personne à l'intérieur} one {# brigand à l'intérieur} other {# brigands à l'intérieur}}",
+        "inside": "{count, plural, =0 {personne à l'intérieur} one {# brigand à l'intérieur} many {# brigands à l'intérieur} other {# brigands à l'intérieur}}",
         "health": "santé {value}",
         "breath": "souffle {value}",
         "carrying_note": " · transporte le roi",
@@ -2222,10 +2222,10 @@
       "giant": "le géant a lâché {label}, mais le stockage est plein",
       "rogue": "le brigand a lâché {label}, mais le stockage est plein"
     },
-    "laid_many": "{count, plural, one {# brique} other {# briques}}",
+    "laid_many": "{count, plural, one {# brique} many {# briques} other {# briques}}",
     "powerup_on": "actif",
     "powerup_stacked": "cumulé",
-    "attackers_stunned": "{count, plural, one {# assaillant étourdi} other {# assaillants étourdis}}",
+    "attackers_stunned": "{count, plural, one {# assaillant étourdi} many {# assaillants étourdis} other {# assaillants étourdis}}",
     "section_mended": "{section} réparée",
     "shot_interrupted": "tir interrompu",
     "cannot_build": "rien à construire ici dehors",
@@ -2364,8 +2364,8 @@
       "loading": "recherche de livres adaptés…",
       "none": "aucun livre dans vos jeux de données ne compte {min}–{max} mots pour la difficulté {difficulty}. la bibliothèque sous textes → jeux de données propose des œuvres plus courtes.",
       "unavailable": "impossible de charger ce livre. choisissez-en un autre ou réessayez.",
-      "words": "{count, plural, one {# mot} other {# mots}}",
-      "pages": "{count, plural, one {# page} other {# pages}}",
+      "words": "{count, plural, one {# mot} many {# mots} other {# mots}}",
+      "pages": "{count, plural, one {# page} many {# pages} other {# pages}}",
       "estimate": "environ {minutes} min",
       "by": "de {author}",
       "list_aria": "livres assez longs pour un marathon",
@@ -2406,7 +2406,7 @@
       "none_passage": "aucun passage dans vos jeux de données ne compte {min}–{max} mots pour la difficulté {difficulty}. la bibliothèque sous textes → jeux de données en compte davantage.",
       "none_book": "aucun livre dans vos jeux de données ne compte {min}–{max} mots. la bibliothèque sous textes → jeux de données propose des œuvres plus longues.",
       "unavailable": "impossible de charger cette source. réessayez ou choisissez-en une autre.",
-      "words": "{count, plural, one {# mot} other {# mots}}",
+      "words": "{count, plural, one {# mot} many {# mots} other {# mots}}",
       "estimate": "environ {minutes} min",
       "by": "de {author}",
       "rotation": "les passages défilent à tour de rôle : chaque partie joue le suivant.",
@@ -2432,7 +2432,7 @@
     },
     "status": {
       "find": "repérez chaque erreur avant que sa ligne n’atteigne le haut : cliquez sur un mot ou utilisez les flèches, puis appuyez sur Entrée",
-      "missed": "{count, plural, one {une erreur a défilé hors écran} other {# erreurs ont défilé hors écran}}",
+      "missed": "{count, plural, one {une erreur a défilé hors écran} many {# erreurs ont défilé hors écran} other {# erreurs ont défilé hors écran}}",
       "out_of_lives": "plus de vies",
       "finished": "terminé"
     },

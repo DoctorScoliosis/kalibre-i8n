@@ -90,9 +90,9 @@
     "unknown": "sconosciuto",
     "progress_suffix": " ({have} di {need})",
     "secret_hint": "un segreto: continua a giocare",
-    "petsToSleep": "accarezza il tuo compagno per farlo riaddormentare {count, plural, one {# volta} other {# volte}}",
-    "earlyWakes": "sveglia il tuo compagno poco dopo essersi addormentato {count, plural, one {# volta} other {# volte}}",
-    "overnightSleep": "lascia dormire il tuo compagno per {hours, plural, one {# ora} other {# ore}} durante la notte nella pagina Info"
+    "petsToSleep": "accarezza il tuo compagno per farlo riaddormentare {count, plural, one {# volta} many {# volte} other {# volte}}",
+    "earlyWakes": "sveglia il tuo compagno poco dopo essersi addormentato {count, plural, one {# volta} many {# volte} other {# volte}}",
+    "overnightSleep": "lascia dormire il tuo compagno per {hours, plural, one {# ora} many {# ore} other {# ore}} durante la notte nella pagina Info"
   },
   "first-test": {
     "name": "primi passi"

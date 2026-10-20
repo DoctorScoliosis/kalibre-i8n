@@ -134,7 +134,7 @@
     "wikipedia_licensing_reopen": "avis de licence",
     "wikipedia_fetch_button": "récupérer les articles",
     "wikipedia_cancel_button": "annuler la récupération",
-    "wikipedia_skipped_summary": "{count, plural, one {# article ignoré} other {# articles ignorés}}"
+    "wikipedia_skipped_summary": "{count, plural, one {# article ignoré} many {# articles ignorés} other {# articles ignorés}}"
   },
   "library": {
     "looking_in_the_libraries": "recherche dans les bibliothèques…",
@@ -165,8 +165,8 @@
     "already_added": "Cette bibliothèque est déjà dans le sélecteur.",
     "checking_library": "Vérification de la bibliothèque…",
     "chooser_hint": "Choisissez une bibliothèque pour parcourir ses livres et recueils de citations. Chaque bibliothèque dispose de sa propre liste.",
-    "chooser_count": "{count, plural, one {# bibliothèque disponible} other {# bibliothèques disponibles}}",
-    "downloadable_count": "{count, plural, one {# jeu de données disponible au téléchargement} other {# jeux de données disponibles au téléchargement}}",
+    "chooser_count": "{count, plural, one {# bibliothèque disponible} many {# bibliothèques disponibles} other {# bibliothèques disponibles}}",
+    "downloadable_count": "{count, plural, one {# jeu de données disponible au téléchargement} many {# jeux de données disponibles au téléchargement} other {# jeux de données disponibles au téléchargement}}",
     "last_updated": "Dernière mise à jour : {date}",
     "last_updated_unknown": "Date de mise à jour non disponible",
     "browse_datasets": "Parcourir les jeux de données",
@@ -176,13 +176,13 @@
     "search_this_library": "Rechercher dans les jeux de données de cette bibliothèque",
     "no_matching_datasets": "Aucun jeu de données ne correspond à cette recherche.",
     "no_datasets_available": "Cette bibliothèque ne contient aucun jeu de données disponible.",
-    "more_results": "{count, plural, one {# autre jeu de données ; affinez la recherche pour le voir} other {# autres jeux de données ; affinez la recherche pour les voir}}",
-    "unavailable_count": "{count, plural, one {# bibliothèque inaccessible} other {# bibliothèques inaccessibles}}",
+    "more_results": "{count, plural, one {# autre jeu de données ; affinez la recherche pour le voir} many {# autres jeux de données ; affinez la recherche pour les voir} other {# autres jeux de données ; affinez la recherche pour les voir}}",
+    "unavailable_count": "{count, plural, one {# bibliothèque inaccessible} many {# bibliothèques inaccessibles} other {# bibliothèques inaccessibles}}",
     "third_party_disclaimer": "Provient d’une bibliothèque tierce ; Kalibre n’a pas vérifié ce contenu.",
     "browser_column": "colonne des résultats de jeux de données",
     "incompatible_warning": "la langue de ce jeu de données ne correspond pas à celle de votre interface ; il reste exclu des exercices.",
     "hide_incompatible_label": "masquer les jeux de données dans d’autres langues",
-    "hidden_incompatible_count": "({count, plural, one {# masqué dans une autre langue} other {# masqués dans d’autres langues}})"
+    "hidden_incompatible_count": "({count, plural, one {# masqué dans une autre langue} many {# masqués dans d’autres langues} other {# masqués dans d’autres langues}})"
   },
   "datasets": {
     "where_private_files": "le stockage privé de fichiers de ce navigateur",
@@ -195,7 +195,7 @@
     "saved_summary": "enregistré \"{name}\" : {texts}, {passages}. ",
     "installed_summary": "installé \"{name}\" : {texts}, {passages}. ",
     "hide_incompatible_label": "masquer les jeux de données dans d’autres langues",
-    "hidden_incompatible_count": "({count, plural, one {# masqué dans une autre langue} other {# masqués dans d’autres langues}})"
+    "hidden_incompatible_count": "({count, plural, one {# masqué dans une autre langue} many {# masqués dans d’autres langues} other {# masqués dans d’autres langues}})"
   },
   "dataset_draft": {
     "untitled": "sans titre"
@@ -211,7 +211,7 @@
     "clear": "effacer",
     "clear_aria": "effacer la recherche",
     "no_matches": "aucun jeu de données ne correspond à « {query} »",
-    "matching_count": "{count, plural, one {# jeu de données correspondant} other {# jeux de données correspondants}}"
+    "matching_count": "{count, plural, one {# jeu de données correspondant} many {# jeux de données correspondants} other {# jeux de données correspondants}}"
   },
   "sort": {
     "label": "trier par",
@@ -228,16 +228,16 @@
     "prev": "page précédente",
     "next": "page suivante",
     "page_of": "page {current} sur {total}",
-    "total_count": "({count, plural, one {# jeu de données} other {# jeux de données}})"
+    "total_count": "({count, plural, one {# jeu de données} many {# jeux de données} other {# jeux de données}})"
   },
   "details": {
-    "quotes_summary": "{count, plural, one {# citation} other {# citations}} dans ce recueil",
+    "quotes_summary": "{count, plural, one {# citation} many {# citations} other {# citations}} dans ce recueil",
     "no_books": "aucun livre trouvé dans ce jeu de données",
     "table_title": "titre",
     "table_words": "mots",
     "table_passages": "passages",
     "table_composition": "composition",
-    "total_books": "total ({count, plural, one {# livre} other {# livres}})",
+    "total_books": "total ({count, plural, one {# livre} many {# livres} other {# livres}})",
     "table_author": "auteur",
     "composition_sort_by": "trier par taille",
     "composition_total": "total des passages",

@@ -95,7 +95,7 @@
     "changelog_title": "registro de cambios",
     "view_all_releases": "ver registro de cambios completo",
     "view_latest_only": "ver solo la última actualización",
-    "historical_releases_count": "{count} {count, plural, one {versión anterior} other {versiones anteriores}}"
+    "historical_releases_count": "{count} {count, plural, one {versión anterior} many {versiones anteriores} other {versiones anteriores}}"
   },
   "brand": {
     "kanary_preview_build_notice": "aviso de la versión preliminar de kanary",

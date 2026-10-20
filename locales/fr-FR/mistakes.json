@@ -101,7 +101,7 @@
     "no_qualifiers_mistakes": "Aucune erreur {qualifiers}{inSection, select, true { dans {section}} other {}} pour l'instant.",
     "no_in_section": "Aucune erreur dans {section} pour l'instant.",
     "training_words_note": "{count, plural, one {# mot} many {# mots} other {# mots}} avec des erreurs cohérentes en entraînement.",
-    "selected_count": "{count, plural, one {# sélectionné} other {# sélectionnés}}"
+    "selected_count": "{count, plural, one {# sélectionné} many {# sélectionnés} other {# sélectionnés}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label} erreurs — cliquez pour isoler",
@@ -119,10 +119,10 @@
     "mark_label": "{mistake} : {rate} du temps",
     "started_at": "{summary} · entraînement commencé à {rate}",
     "keyboard_label": "Clavier avec {count, plural, one {# erreur} many {# erreurs} other {# erreurs}} dessinées dessus. La liste ci-dessous contient les mêmes erreurs.",
-    "key_with_mistakes": "{key} ({count, plural, one {# erreur} other {# erreurs}}) – cliquer pour isoler",
+    "key_with_mistakes": "{key} ({count, plural, one {# erreur} many {# erreurs} other {# erreurs}}) – cliquer pour isoler",
     "key_no_mistakes": "{key} (aucune erreur enregistrée)",
     "key_isolated": "touche {key}",
-    "key_isolated_summary": "{count, plural, one {# erreur} other {# erreurs}} sur ou dérivant vers cette touche",
+    "key_isolated_summary": "{count, plural, one {# erreur} many {# erreurs} other {# erreurs}} sur ou dérivant vers cette touche",
     "show_all_keys": "afficher toutes les touches",
     "show_all_keys_aria": "effacer l’isolement et afficher toutes les erreurs",
     "no_key_mistakes": "Aucune erreur enregistrée pour {key}.",

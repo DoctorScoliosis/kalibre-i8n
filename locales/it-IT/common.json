@@ -42,7 +42,7 @@
   "translation": {
     "not_checked_yet": "(non ancora controllato da un madrelingua)",
     "progress": "avanzamento della traduzione: {percent}%",
-    "remaining": "{count, plural, one {# messaggio ancora in inglese} other {# messaggi ancora in inglese}}"
+    "remaining": "{count, plural, one {# messaggio ancora in inglese} many {# messaggi ancora in inglese} other {# messaggi ancora in inglese}}"
   },
   "colour_picker": {
     "saturation_and_brightness": "saturazione e luminosità",

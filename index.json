@@ -60,8 +60,8 @@
       "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/es-ES/manifest.json",
       "pack": "packs/es-ES.json",
-      "sha256": "6d71a128da97fe85b328bac56374fffcb66d8a671b19ec783197834709e4ece7",
-      "bytes": 415184
+      "sha256": "74bbac2520fba6f98890243626a712d59aea56be544785fd92f369182554b1d8",
+      "bytes": 416095
     },
     {
       "id": "fr-FR",
@@ -79,8 +79,8 @@
       "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "8ffb788b3298d182beb9e7ca30bb07ea3bb8a0fb9afc8fd2bf2f2809a5c608ee",
-      "bytes": 422716
+      "sha256": "03c2d73adf2e735420983456eee27f3e5555acdf58fb22f01932bcdd5bf1eefa",
+      "bytes": 423682
     },
     {
       "id": "it-IT",
@@ -98,8 +98,8 @@
       "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/it-IT/manifest.json",
       "pack": "packs/it-IT.json",
-      "sha256": "c1b5f0c34f840727a1692a5b82091906d8cf86b9c71217612c0b924aa7d14939",
-      "bytes": 410975
+      "sha256": "283c235a12a12744a48c80b807579a851e3746890547d33da3000439cb6a9662",
+      "bytes": 411861
     },
     {
       "id": "nl-NL",
@@ -136,8 +136,8 @@
       "changes": "Complete translation across all areas and game subsystems with contextual and cultural QA; zero English fallback.",
       "path": "locales/pt-BR/manifest.json",
       "pack": "packs/pt-BR.json",
-      "sha256": "1494c19580a1da8b5d926ef73e230f1dbab3acdeceb5236697988648b09bfc27",
-      "bytes": 410095
+      "sha256": "82b586b89a790430c5e96763926b176b2dc89cf0b8ba2ab85df460b254d44e56",
+      "bytes": 411004
     },
     {
       "id": "sv-SE",

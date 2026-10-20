@@ -90,9 +90,9 @@
     "unknown": "inconnu",
     "progress_suffix": " ({have} sur {need})",
     "secret_hint": "un secret : continuez à jouer",
-    "petsToSleep": "caressez votre compagnon pour le rendormir {count, plural, one {# fois} other {# fois}}",
-    "earlyWakes": "réveillez votre compagnon peu après son endormissement {count, plural, one {# fois} other {# fois}}",
-    "overnightSleep": "laissez votre compagnon dormir pendant {hours, plural, one {# heure} other {# heures}} la nuit sur la page À propos"
+    "petsToSleep": "caressez votre compagnon pour le rendormir {count, plural, one {# fois} many {# fois} other {# fois}}",
+    "earlyWakes": "réveillez votre compagnon peu après son endormissement {count, plural, one {# fois} many {# fois} other {# fois}}",
+    "overnightSleep": "laissez votre compagnon dormir pendant {hours, plural, one {# heure} many {# heures} other {# heures}} la nuit sur la page À propos"
   },
   "first-test": {
     "name": "Premiers pas"

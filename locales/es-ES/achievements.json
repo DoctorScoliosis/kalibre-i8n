@@ -90,9 +90,9 @@
     "unknown": "desconocido",
     "progress_suffix": " ({have} de {need})",
     "secret_hint": "un secreto: sigue jugando",
-    "petsToSleep": "acaricia a tu compañero para que se duerma {count, plural, one {# vez} other {# veces}}",
-    "earlyWakes": "despierta a tu compañero poco después de dormirse {count, plural, one {# vez} other {# veces}}",
-    "overnightSleep": "deja dormir a tu compañero durante {hours, plural, one {# hora} other {# horas}} por la noche en la página de información"
+    "petsToSleep": "acaricia a tu compañero para que se duerma {count, plural, one {# vez} many {# veces} other {# veces}}",
+    "earlyWakes": "despierta a tu compañero poco después de dormirse {count, plural, one {# vez} many {# veces} other {# veces}}",
+    "overnightSleep": "deja dormir a tu compañero durante {hours, plural, one {# hora} many {# horas} other {# horas}} por la noche en la página de información"
   },
   "first-test": {
     "name": "primeros pasos"

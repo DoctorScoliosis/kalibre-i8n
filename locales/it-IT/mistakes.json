@@ -101,7 +101,7 @@
     "no_qualifiers_mistakes": "Nessun errore {qualifiers}{inSection, select, true { in {section}} other {}} ancora.",
     "no_in_section": "Nessun errore in {section} ancora.",
     "training_words_note": "{count, plural, one {# parola} many {# parole} other {# parole}} con errori ricorrenti in allenamento.",
-    "selected_count": "{count, plural, one {# selezionato} other {# selezionati}}"
+    "selected_count": "{count, plural, one {# selezionato} many {# selezionati} other {# selezionati}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "errori {label} – fai clic per isolare",
@@ -119,10 +119,10 @@
     "mark_label": "{mistake}: {rate} delle volte",
     "started_at": "{summary} · allenamento iniziato a {rate}",
     "keyboard_label": "Tastiera con {count, plural, one {# errore} many {# errori} other {# errori}} disegnati sopra. L'elenco qui sotto contiene gli stessi errori.",
-    "key_with_mistakes": "{key} ({count, plural, one {# errore} other {# errori}}) – clicca per isolare",
+    "key_with_mistakes": "{key} ({count, plural, one {# errore} many {# errori} other {# errori}}) – clicca per isolare",
     "key_no_mistakes": "{key} (nessun errore registrato)",
     "key_isolated": "tasto {key}",
-    "key_isolated_summary": "{count, plural, one {# errore} other {# errori}} su o in deviazione verso questo tasto",
+    "key_isolated_summary": "{count, plural, one {# errore} many {# errori} other {# errori}} su o in deviazione verso questo tasto",
     "show_all_keys": "mostra tutti i tasti",
     "show_all_keys_aria": "cancella isolamento tasto e mostra tutti gli errori",
     "no_key_mistakes": "Nessun errore registrato per {key}.",

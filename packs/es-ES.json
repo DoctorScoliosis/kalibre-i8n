@@ -148,9 +148,9 @@
         "unknown": "desconocido",
         "progress_suffix": " ({have} de {need})",
         "secret_hint": "un secreto: sigue jugando",
-        "petsToSleep": "acaricia a tu compañero para que se duerma {count, plural, one {# vez} other {# veces}}",
-        "earlyWakes": "despierta a tu compañero poco después de dormirse {count, plural, one {# vez} other {# veces}}",
-        "overnightSleep": "deja dormir a tu compañero durante {hours, plural, one {# hora} other {# horas}} por la noche en la página de información"
+        "petsToSleep": "acaricia a tu compañero para que se duerma {count, plural, one {# vez} many {# veces} other {# veces}}",
+        "earlyWakes": "despierta a tu compañero poco después de dormirse {count, plural, one {# vez} many {# veces} other {# veces}}",
+        "overnightSleep": "deja dormir a tu compañero durante {hours, plural, one {# hora} many {# horas} other {# horas}} por la noche en la página de información"
       },
       "first-test": {
         "name": "primeros pasos"
@@ -1217,7 +1217,7 @@
         "changelog_title": "registro de cambios",
         "view_all_releases": "ver registro de cambios completo",
         "view_latest_only": "ver solo la última actualización",
-        "historical_releases_count": "{count} {count, plural, one {versión anterior} other {versiones anteriores}}"
+        "historical_releases_count": "{count} {count, plural, one {versión anterior} many {versiones anteriores} other {versiones anteriores}}"
       },
       "brand": {
         "kanary_preview_build_notice": "aviso de la versión preliminar de kanary",
@@ -1625,7 +1625,7 @@
       "translation": {
         "not_checked_yet": "(todavía no revisado por un hablante nativo)",
         "progress": "progreso de la traducción: {percent}%",
-        "remaining": "{count, plural, one {# mensaje aún en inglés} other {# mensajes aún en inglés}}"
+        "remaining": "{count, plural, one {# mensaje aún en inglés} many {# mensajes aún en inglés} other {# mensajes aún en inglés}}"
       },
       "colour_picker": {
         "saturation_and_brightness": "saturación y brillo",
@@ -3290,7 +3290,7 @@
         "wikipedia_licensing_reopen": "aviso de licencia",
         "wikipedia_fetch_button": "obtener artículos",
         "wikipedia_cancel_button": "cancelar obtención",
-        "wikipedia_skipped_summary": "{count, plural, one {# artículo omitido} other {# artículos omitidos}}"
+        "wikipedia_skipped_summary": "{count, plural, one {# artículo omitido} many {# artículos omitidos} other {# artículos omitidos}}"
       },
       "library": {
         "looking_in_the_libraries": "buscando en las bibliotecas…",
@@ -3321,8 +3321,8 @@
         "already_added": "Esa biblioteca ya está en el selector.",
         "checking_library": "Comprobando biblioteca…",
         "chooser_hint": "Elige una biblioteca para explorar sus libros y colecciones de citas. Cada biblioteca tiene su propia lista de conjuntos de datos.",
-        "chooser_count": "{count, plural, one {# biblioteca disponible} other {# bibliotecas disponibles}}",
-        "downloadable_count": "{count, plural, one {# conjunto de datos disponible para descargar} other {# conjuntos de datos disponibles para descargar}}",
+        "chooser_count": "{count, plural, one {# biblioteca disponible} many {# bibliotecas disponibles} other {# bibliotecas disponibles}}",
+        "downloadable_count": "{count, plural, one {# conjunto de datos disponible para descargar} many {# conjuntos de datos disponibles para descargar} other {# conjuntos de datos disponibles para descargar}}",
         "last_updated": "Última actualización: {date}",
         "last_updated_unknown": "Fecha de actualización no disponible",
         "browse_datasets": "Explorar conjuntos de datos",
@@ -3332,13 +3332,13 @@
         "search_this_library": "Buscar en los conjuntos de datos de esta biblioteca",
         "no_matching_datasets": "Ningún conjunto de datos coincide con esta búsqueda.",
         "no_datasets_available": "Esta biblioteca no tiene conjuntos de datos disponibles.",
-        "more_results": "{count, plural, one {# conjunto de datos más; afina la búsqueda para verlo} other {# conjuntos de datos más; afina la búsqueda para verlos}}",
-        "unavailable_count": "{count, plural, one {# biblioteca no disponible} other {# bibliotecas no disponibles}}",
+        "more_results": "{count, plural, one {# conjunto de datos más; afina la búsqueda para verlo} many {# conjuntos de datos más; afina la búsqueda para verlos} other {# conjuntos de datos más; afina la búsqueda para verlos}}",
+        "unavailable_count": "{count, plural, one {# biblioteca no disponible} many {# bibliotecas no disponibles} other {# bibliotecas no disponibles}}",
         "third_party_disclaimer": "De una biblioteca de terceros; Kalibre no ha verificado este contenido.",
         "browser_column": "columna de resultados de conjuntos de datos",
         "incompatible_warning": "el idioma de este conjunto de datos no coincide con el de la interfaz, por lo que queda fuera de las prácticas.",
         "hide_incompatible_label": "ocultar conjuntos de datos en otros idiomas",
-        "hidden_incompatible_count": "({count, plural, one {# oculto en otro idioma} other {# ocultos en otros idiomas}})"
+        "hidden_incompatible_count": "({count, plural, one {# oculto en otro idioma} many {# ocultos en otros idiomas} other {# ocultos en otros idiomas}})"
       },
       "datasets": {
         "where_private_files": "el almacenamiento privado de archivos de este navegador",
@@ -3351,7 +3351,7 @@
         "saved_summary": "guardado «{name}»: {texts}, {passages}. ",
         "installed_summary": "instalado «{name}»: {texts}, {passages}. ",
         "hide_incompatible_label": "ocultar conjuntos de datos en otros idiomas",
-        "hidden_incompatible_count": "({count, plural, one {# oculto en otro idioma} other {# ocultos en otros idiomas}})"
+        "hidden_incompatible_count": "({count, plural, one {# oculto en otro idioma} many {# ocultos en otros idiomas} other {# ocultos en otros idiomas}})"
       },
       "dataset_draft": {
         "untitled": "sin título"
@@ -3367,7 +3367,7 @@
         "clear": "borrar",
         "clear_aria": "borrar término de búsqueda",
         "no_matches": "ningún conjunto de datos coincide con «{query}»",
-        "matching_count": "{count, plural, one {# conjunto de datos coincidente} other {# conjuntos de datos coincidentes}}"
+        "matching_count": "{count, plural, one {# conjunto de datos coincidente} many {# conjuntos de datos coincidentes} other {# conjuntos de datos coincidentes}}"
       },
       "sort": {
         "label": "ordenar por",
@@ -3384,16 +3384,16 @@
         "prev": "página anterior",
         "next": "página siguiente",
         "page_of": "página {current} de {total}",
-        "total_count": "({count, plural, one {# conjunto de datos} other {# conjuntos de datos}})"
+        "total_count": "({count, plural, one {# conjunto de datos} many {# conjuntos de datos} other {# conjuntos de datos}})"
       },
       "details": {
-        "quotes_summary": "{count, plural, one {# cita} other {# citas}} en esta colección",
+        "quotes_summary": "{count, plural, one {# cita} many {# citas} other {# citas}} en esta colección",
         "no_books": "no se encontraron libros en este conjunto de datos",
         "table_title": "título",
         "table_words": "palabras",
         "table_passages": "pasajes",
         "table_composition": "composición",
-        "total_books": "total ({count, plural, one {# libro} other {# libros}})",
+        "total_books": "total ({count, plural, one {# libro} many {# libros} other {# libros}})",
         "table_author": "autor",
         "composition_sort_by": "ordenar por tamaño",
         "composition_total": "pasajes totales",
@@ -3454,8 +3454,8 @@
         "recommended_set_title": "Selecciona las citas que mejor coincidan con estos errores",
         "drill_plan": "plan de práctica",
         "drill_mode": "modo de práctica",
-        "selected_mistakes_count": "{count, plural, one {# error seleccionado} other {# errores seleccionados}}",
-        "selected_quotes_count": "{count, plural, one {# cita seleccionada} other {# citas seleccionadas}}",
+        "selected_mistakes_count": "{count, plural, one {# error seleccionado} many {# errores seleccionados} other {# errores seleccionados}}",
+        "selected_quotes_count": "{count, plural, one {# cita seleccionada} many {# citas seleccionadas} other {# citas seleccionadas}}",
         "remove_mistake": "eliminar {mistake}",
         "show_all_chips": "mostrar todos ({count})",
         "show_fewer_chips": "mostrar menos",
@@ -3626,7 +3626,7 @@
           "operator": "operador: haz clic o lanza un ladrillo para derribarlo ({hp}% restante)",
           "rubble": "escombros: aquí se destruyó una catapulta",
           "repair_crew": "equipo de reparación: haz clic o lanza un ladrillo para detener el trabajo ({hp}% restante · {percent}% listo)",
-          "dynamite": "dinamita: queda {seconds, plural, one {# segundo} other {# segundos}} · haz clic para desactivar",
+          "dynamite": "dinamita: queda {seconds, plural, one {# segundo} many {# segundos} other {# segundos}} · haz clic para desactivar",
           "fire": "fuego: {percent}% de combustión restante · apágalo con el cubo",
           "strong_word": "se necesita una palabra fuerte: los ladrillos débiles apenas dañan y no aturden"
         },
@@ -3643,7 +3643,7 @@
             "destroyed": "destruida",
             "repairing": "en reparación"
           },
-          "ammo": "{count, plural, =0 {no quedan rocas} one {queda # roca} other {quedan # rocas}}"
+          "ammo": "{count, plural, =0 {no quedan rocas} one {queda # roca} many {quedan # rocas} other {quedan # rocas}}"
         },
         "cursor": {
           "site_catapult": "apuntando a: catapulta · {state} · {ammo}",
@@ -3662,9 +3662,9 @@
         "garrison": {
           "cooldown": "{seconds} s hasta que esté listo",
           "ready": "listo para enviar soldados",
-          "next_size": "siguiente: {count, plural, one {# soldado} other {# soldados}}",
-          "deployed": "{count, plural, one {# soldado desplegado} other {# soldados desplegados}}",
-          "spawning": "enviando soldados: {count, plural, =0 {el último ya salió} one {falta # por salir} other {faltan # por salir}}",
+          "next_size": "siguiente: {count, plural, one {# soldado} many {# soldados} other {# soldados}}",
+          "deployed": "{count, plural, one {# soldado desplegado} many {# soldados desplegados} other {# soldados desplegados}}",
+          "spawning": "enviando soldados: {count, plural, =0 {el último ya salió} one {falta # por salir} many {faltan # por salir} other {faltan # por salir}}",
           "cancelled": "la oleada que preparaba se perdió con él",
           "destroyed": "perdido: no habrá soldados hasta reconstruirlo",
           "friendly_fire_on": "fuego amigo activado"
@@ -3752,7 +3752,7 @@
             "build": "construir",
             "build_cost": "construir · {cost} ladrillos",
             "rescue": "escoltar al rey",
-            "inside": "{count, plural, =0 {nadie dentro} one {# pícaro dentro} other {# pícaros dentro}}",
+            "inside": "{count, plural, =0 {nadie dentro} one {# pícaro dentro} many {# pícaros dentro} other {# pícaros dentro}}",
             "health": "salud {value}",
             "breath": "aliento {value}",
             "carrying_note": " · lleva al rey",
@@ -5767,10 +5767,10 @@
           "giant": "el gigante soltó {label}, pero el almacenamiento está lleno",
           "rogue": "el pícaro soltó {label}, pero el almacenamiento está lleno"
         },
-        "laid_many": "{count, plural, one {# ladrillo} other {# ladrillos}}",
+        "laid_many": "{count, plural, one {# ladrillo} many {# ladrillos} other {# ladrillos}}",
         "powerup_on": "activo",
         "powerup_stacked": "acumulado",
-        "attackers_stunned": "{count, plural, one {# atacante aturdido} other {# atacantes aturdidos}}",
+        "attackers_stunned": "{count, plural, one {# atacante aturdido} many {# atacantes aturdidos} other {# atacantes aturdidos}}",
         "section_mended": "{section} reparada",
         "shot_interrupted": "disparo interrumpido",
         "cannot_build": "no hay nada que construir aquí afuera",
@@ -5847,8 +5847,8 @@
           "loading": "buscando libros que encajen…",
           "none": "ningún libro en tus conjuntos de datos tiene {min}–{max} palabras para {difficulty}. la biblioteca en textos → conjuntos de datos contiene obras más breves.",
           "unavailable": "no se pudo cargar ese libro. elige otro o inténtalo de nuevo.",
-          "words": "{count, plural, one {# palabra} other {# palabras}}",
-          "pages": "{count, plural, one {# página} other {# páginas}}",
+          "words": "{count, plural, one {# palabra} many {# palabras} other {# palabras}}",
+          "pages": "{count, plural, one {# página} many {# páginas} other {# páginas}}",
           "estimate": "unos {minutes} min",
           "by": "de {author}",
           "list_aria": "libros suficientemente largos para un maratón",
@@ -5889,7 +5889,7 @@
           "none_passage": "ningún texto en tus conjuntos de datos tiene {min}–{max} palabras para {difficulty}. la biblioteca en textos → conjuntos de datos tiene más.",
           "none_book": "ningún libro en tus conjuntos de datos tiene {min}–{max} palabras. la biblioteca en textos → conjuntos de datos contiene obras más extensas.",
           "unavailable": "no se pudo cargar esa fuente. inténtalo de nuevo o elige otra.",
-          "words": "{count, plural, one {# palabra} other {# palabras}}",
+          "words": "{count, plural, one {# palabra} many {# palabras} other {# palabras}}",
           "estimate": "unos {minutes} min",
           "by": "de {author}",
           "rotation": "los textos se turnan: cada partida juega el siguiente.",
@@ -5915,7 +5915,7 @@
         },
         "status": {
           "find": "detecta cada error antes de que su línea llegue arriba: haz clic en una palabra o usa las flechas, y pulsa enter",
-          "missed": "{count, plural, one {un error se escapó} other {# errores se escaparon}}",
+          "missed": "{count, plural, one {un error se escapó} many {# errores se escaparon} other {# errores se escaparon}}",
           "out_of_lives": "sin vidas",
           "finished": "terminado"
         },
@@ -6166,8 +6166,8 @@
         "round_summary": "ronda {round}: {wpm} p. p. m. · {accuracy}% — espacio para la siguiente ronda",
         "hints_prep": "esc salta a la prueba · espacio siguiente {unit}",
         "hints_normal": "esc pausa · espacio siguiente {unit}",
-        "step_count": "{count, plural, one {# paso} other {# pasos}}",
-        "lesson_steps_badge": "{count, plural, one {# paso} other {# pasos}}",
+        "step_count": "{count, plural, one {# paso} many {# pasos} other {# pasos}}",
+        "lesson_steps_badge": "{count, plural, one {# paso} many {# pasos} other {# pasos}}",
         "result_tier_achieved": "{tier} conseguido: {id} {title}",
         "tier_next_heading": "Para alcanzar {nextTier}, apunta a:",
         "tier_diamond_achieved": "★ perfección diamante: ¡{id} {title}!",
@@ -6608,7 +6608,7 @@
         "no_qualifiers_mistakes": "Todavía no hay errores de {qualifiers}{inSection, select, true { en {section}} other {}}.",
         "no_in_section": "Todavía no hay errores en {section}.",
         "training_words_note": "{count, plural, one {# palabra} many {# palabras} other {# palabras}} con errores constantes en entrenamiento.",
-        "selected_count": "{count, plural, one {# seleccionado} other {# seleccionados}}"
+        "selected_count": "{count, plural, one {# seleccionado} many {# seleccionados} other {# seleccionados}}"
       },
       "mistake_map": {
         "mistakes_click_to_isolate": "errores de {label} – haz clic para aislar",
@@ -6626,10 +6626,10 @@
         "mark_label": "{mistake}: {rate} de las veces",
         "started_at": "{summary} · empezó el entrenamiento con {rate}",
         "keyboard_label": "Teclado con {count, plural, one {# error} many {# errores} other {# errores}} dibujados. La lista de abajo contiene los mismos errores.",
-        "key_with_mistakes": "{key} ({count, plural, one {# error} other {# errores}}) – clic para aislar",
+        "key_with_mistakes": "{key} ({count, plural, one {# error} many {# errores} other {# errores}}) – clic para aislar",
         "key_no_mistakes": "{key} (sin errores registrados)",
         "key_isolated": "tecla {key}",
-        "key_isolated_summary": "{count, plural, one {# error} other {# errores}} en o desviados hacia esta tecla",
+        "key_isolated_summary": "{count, plural, one {# error} many {# errores} other {# errores}} en o desviados hacia esta tecla",
         "show_all_keys": "mostrar todas las teclas",
         "show_all_keys_aria": "borrar aislamiento de tecla y mostrar todos los errores",
         "no_key_mistakes": "No hay errores registrados para {key}.",

@@ -134,7 +134,7 @@
     "wikipedia_licensing_reopen": "aviso de licencia",
     "wikipedia_fetch_button": "obtener artículos",
     "wikipedia_cancel_button": "cancelar obtención",
-    "wikipedia_skipped_summary": "{count, plural, one {# artículo omitido} other {# artículos omitidos}}"
+    "wikipedia_skipped_summary": "{count, plural, one {# artículo omitido} many {# artículos omitidos} other {# artículos omitidos}}"
   },
   "library": {
     "looking_in_the_libraries": "buscando en las bibliotecas…",
@@ -165,8 +165,8 @@
     "already_added": "Esa biblioteca ya está en el selector.",
     "checking_library": "Comprobando biblioteca…",
     "chooser_hint": "Elige una biblioteca para explorar sus libros y colecciones de citas. Cada biblioteca tiene su propia lista de conjuntos de datos.",
-    "chooser_count": "{count, plural, one {# biblioteca disponible} other {# bibliotecas disponibles}}",
-    "downloadable_count": "{count, plural, one {# conjunto de datos disponible para descargar} other {# conjuntos de datos disponibles para descargar}}",
+    "chooser_count": "{count, plural, one {# biblioteca disponible} many {# bibliotecas disponibles} other {# bibliotecas disponibles}}",
+    "downloadable_count": "{count, plural, one {# conjunto de datos disponible para descargar} many {# conjuntos de datos disponibles para descargar} other {# conjuntos de datos disponibles para descargar}}",
     "last_updated": "Última actualización: {date}",
     "last_updated_unknown": "Fecha de actualización no disponible",
     "browse_datasets": "Explorar conjuntos de datos",
@@ -176,13 +176,13 @@
     "search_this_library": "Buscar en los conjuntos de datos de esta biblioteca",
     "no_matching_datasets": "Ningún conjunto de datos coincide con esta búsqueda.",
     "no_datasets_available": "Esta biblioteca no tiene conjuntos de datos disponibles.",
-    "more_results": "{count, plural, one {# conjunto de datos más; afina la búsqueda para verlo} other {# conjuntos de datos más; afina la búsqueda para verlos}}",
-    "unavailable_count": "{count, plural, one {# biblioteca no disponible} other {# bibliotecas no disponibles}}",
+    "more_results": "{count, plural, one {# conjunto de datos más; afina la búsqueda para verlo} many {# conjuntos de datos más; afina la búsqueda para verlos} other {# conjuntos de datos más; afina la búsqueda para verlos}}",
+    "unavailable_count": "{count, plural, one {# biblioteca no disponible} many {# bibliotecas no disponibles} other {# bibliotecas no disponibles}}",
     "third_party_disclaimer": "De una biblioteca de terceros; Kalibre no ha verificado este contenido.",
     "browser_column": "columna de resultados de conjuntos de datos",
     "incompatible_warning": "el idioma de este conjunto de datos no coincide con el de la interfaz, por lo que queda fuera de las prácticas.",
     "hide_incompatible_label": "ocultar conjuntos de datos en otros idiomas",
-    "hidden_incompatible_count": "({count, plural, one {# oculto en otro idioma} other {# ocultos en otros idiomas}})"
+    "hidden_incompatible_count": "({count, plural, one {# oculto en otro idioma} many {# ocultos en otros idiomas} other {# ocultos en otros idiomas}})"
   },
   "datasets": {
     "where_private_files": "el almacenamiento privado de archivos de este navegador",
@@ -195,7 +195,7 @@
     "saved_summary": "guardado «{name}»: {texts}, {passages}. ",
     "installed_summary": "instalado «{name}»: {texts}, {passages}. ",
     "hide_incompatible_label": "ocultar conjuntos de datos en otros idiomas",
-    "hidden_incompatible_count": "({count, plural, one {# oculto en otro idioma} other {# ocultos en otros idiomas}})"
+    "hidden_incompatible_count": "({count, plural, one {# oculto en otro idioma} many {# ocultos en otros idiomas} other {# ocultos en otros idiomas}})"
   },
   "dataset_draft": {
     "untitled": "sin título"
@@ -211,7 +211,7 @@
     "clear": "borrar",
     "clear_aria": "borrar término de búsqueda",
     "no_matches": "ningún conjunto de datos coincide con «{query}»",
-    "matching_count": "{count, plural, one {# conjunto de datos coincidente} other {# conjuntos de datos coincidentes}}"
+    "matching_count": "{count, plural, one {# conjunto de datos coincidente} many {# conjuntos de datos coincidentes} other {# conjuntos de datos coincidentes}}"
   },
   "sort": {
     "label": "ordenar por",
@@ -228,16 +228,16 @@
     "prev": "página anterior",
     "next": "página siguiente",
     "page_of": "página {current} de {total}",
-    "total_count": "({count, plural, one {# conjunto de datos} other {# conjuntos de datos}})"
+    "total_count": "({count, plural, one {# conjunto de datos} many {# conjuntos de datos} other {# conjuntos de datos}})"
   },
   "details": {
-    "quotes_summary": "{count, plural, one {# cita} other {# citas}} en esta colección",
+    "quotes_summary": "{count, plural, one {# cita} many {# citas} other {# citas}} en esta colección",
     "no_books": "no se encontraron libros en este conjunto de datos",
     "table_title": "título",
     "table_words": "palabras",
     "table_passages": "pasajes",
     "table_composition": "composición",
-    "total_books": "total ({count, plural, one {# libro} other {# libros}})",
+    "total_books": "total ({count, plural, one {# libro} many {# libros} other {# libros}})",
     "table_author": "autor",
     "composition_sort_by": "ordenar por tamaño",
     "composition_total": "pasajes totales",

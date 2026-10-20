@@ -101,7 +101,7 @@
     "no_qualifiers_mistakes": "Todavía no hay errores de {qualifiers}{inSection, select, true { en {section}} other {}}.",
     "no_in_section": "Todavía no hay errores en {section}.",
     "training_words_note": "{count, plural, one {# palabra} many {# palabras} other {# palabras}} con errores constantes en entrenamiento.",
-    "selected_count": "{count, plural, one {# seleccionado} other {# seleccionados}}"
+    "selected_count": "{count, plural, one {# seleccionado} many {# seleccionados} other {# seleccionados}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "errores de {label} – haz clic para aislar",
@@ -119,10 +119,10 @@
     "mark_label": "{mistake}: {rate} de las veces",
     "started_at": "{summary} · empezó el entrenamiento con {rate}",
     "keyboard_label": "Teclado con {count, plural, one {# error} many {# errores} other {# errores}} dibujados. La lista de abajo contiene los mismos errores.",
-    "key_with_mistakes": "{key} ({count, plural, one {# error} other {# errores}}) – clic para aislar",
+    "key_with_mistakes": "{key} ({count, plural, one {# error} many {# errores} other {# errores}}) – clic para aislar",
     "key_no_mistakes": "{key} (sin errores registrados)",
     "key_isolated": "tecla {key}",
-    "key_isolated_summary": "{count, plural, one {# error} other {# errores}} en o desviados hacia esta tecla",
+    "key_isolated_summary": "{count, plural, one {# error} many {# errores} other {# errores}} en o desviados hacia esta tecla",
     "show_all_keys": "mostrar todas las teclas",
     "show_all_keys_aria": "borrar aislamiento de tecla y mostrar todos los errores",
     "no_key_mistakes": "No hay errores registrados para {key}.",

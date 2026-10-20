@@ -143,7 +143,7 @@
       "operator": "operatore: fai clic o lancia un mattone per abbatterlo ({hp}% rimasto)",
       "rubble": "macerie: qui è stata distrutta una catapulta",
       "repair_crew": "squadra di riparazione: fai clic o lancia un mattone per fermare i lavori ({hp}% rimasto · {percent}% completato)",
-      "dynamite": "dinamite: {seconds, plural, one {# secondo rimasto} other {# secondi rimasti}} · fai clic per disinnescare",
+      "dynamite": "dinamite: {seconds, plural, one {# secondo rimasto} many {# secondi rimasti} other {# secondi rimasti}} · fai clic per disinnescare",
       "fire": "incendio: {percent}% di combustione rimasta · spegni con il secchio",
       "strong_word": "serve una parola forte: i mattoni deboli infliggono pochi danni e non stordiscono"
     },
@@ -160,7 +160,7 @@
         "destroyed": "distrutta",
         "repairing": "in riparazione"
       },
-      "ammo": "{count, plural, =0 {nessun masso rimasto} one {# masso rimasto} other {# massi rimasti}}"
+      "ammo": "{count, plural, =0 {nessun masso rimasto} one {# masso rimasto} many {# massi rimasti} other {# massi rimasti}}"
     },
     "cursor": {
       "site_catapult": "mira: catapulta · {state} · {ammo}",
@@ -179,9 +179,9 @@
     "garrison": {
       "cooldown": "{seconds} s finché non è pronto",
       "ready": "pronto a inviare soldati",
-      "next_size": "prossimo: {count, plural, one {# soldato} other {# soldati}}",
-      "deployed": "{count, plural, one {# soldato schierato} other {# soldati schierati}}",
-      "spawning": "invio soldati: {count, plural, =0 {l'ultimo è uscito} one {ancora # in arrivo} other {ancora # in arrivo}}",
+      "next_size": "prossimo: {count, plural, one {# soldato} many {# soldati} other {# soldati}}",
+      "deployed": "{count, plural, one {# soldato schierato} many {# soldati schierati} other {# soldati schierati}}",
+      "spawning": "invio soldati: {count, plural, =0 {l'ultimo è uscito} one {ancora # in arrivo} many {ancora # in arrivo} other {ancora # in arrivo}}",
       "cancelled": "l'ondata che stava preparando è andata perduta",
       "destroyed": "perduto: nessun soldato finché non viene ricostruito",
       "friendly_fire_on": "fuoco amico attivo"
@@ -269,7 +269,7 @@
         "build": "costruisci",
         "build_cost": "costruisci · {cost} mattoni",
         "rescue": "scorta il re",
-        "inside": "{count, plural, =0 {nessuno all'interno} one {# brigante all'interno} other {# briganti all'interno}}",
+        "inside": "{count, plural, =0 {nessuno all'interno} one {# brigante all'interno} many {# briganti all'interno} other {# briganti all'interno}}",
         "health": "salute {value}",
         "breath": "respiro {value}",
         "carrying_note": " · trasporta il re",
@@ -2284,10 +2284,10 @@
       "giant": "il gigante ha lasciato cadere {label}, ma il deposito è pieno",
       "rogue": "il brigante ha lasciato cadere {label}, ma il deposito è pieno"
     },
-    "laid_many": "{count, plural, one {# mattone} other {# mattoni}}",
+    "laid_many": "{count, plural, one {# mattone} many {# mattoni} other {# mattoni}}",
     "powerup_on": "attivo",
     "powerup_stacked": "cumulato",
-    "attackers_stunned": "{count, plural, one {# assalitore stordito} other {# assalitori storditi}}",
+    "attackers_stunned": "{count, plural, one {# assalitore stordito} many {# assalitori storditi} other {# assalitori storditi}}",
     "section_mended": "{section} riparata",
     "shot_interrupted": "colpo interrotto",
     "cannot_build": "nulla da costruire qui fuori",
@@ -2364,8 +2364,8 @@
       "loading": "ricerca di libri adatti in corso…",
       "none": "nessun libro nei tuoi set di dati ha {min}–{max} parole per la difficoltà {difficulty}. la libreria in testi → set di dati contiene opere più brevi.",
       "unavailable": "impossibile caricare questo libro. scegline un altro o riprova.",
-      "words": "{count, plural, one {# parola} other {# parole}}",
-      "pages": "{count, plural, one {# pagina} other {# pagine}}",
+      "words": "{count, plural, one {# parola} many {# parole} other {# parole}}",
+      "pages": "{count, plural, one {# pagina} many {# pagine} other {# pagine}}",
       "estimate": "circa {minutes} min",
       "by": "di {author}",
       "list_aria": "libri abbastanza lunghi per una maratona",
@@ -2406,7 +2406,7 @@
       "none_passage": "nessun brano nei tuoi set di dati ha {min}–{max} parole per la difficoltà {difficulty}. la libreria in testi → set di dati ne ha altri.",
       "none_book": "nessun libro nei tuoi set di dati ha {min}–{max} parole. la libreria in testi → set di dati contiene opere più lunghe.",
       "unavailable": "impossibile caricare questa fonte. riprova o scegline un’altra.",
-      "words": "{count, plural, one {# parola} other {# parole}}",
+      "words": "{count, plural, one {# parola} many {# parole} other {# parole}}",
       "estimate": "circa {minutes} min",
       "by": "di {author}",
       "rotation": "i brani si alternano a turno: ogni sessione propone il successivo.",
@@ -2432,7 +2432,7 @@
     },
     "status": {
       "find": "individua ciascun errore prima che la riga raggiunga la cima: clicca una parola o usa le frecce, poi premi Invio",
-      "missed": "{count, plural, one {un errore è scorso via} other {# errori sono scorsi via}}",
+      "missed": "{count, plural, one {un errore è scorso via} many {# errori sono scorsi via} other {# errori sono scorsi via}}",
       "out_of_lives": "vite esaurite",
       "finished": "finito"
     },

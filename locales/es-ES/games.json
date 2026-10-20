@@ -143,7 +143,7 @@
       "operator": "operador: haz clic o lanza un ladrillo para derribarlo ({hp}% restante)",
       "rubble": "escombros: aquí se destruyó una catapulta",
       "repair_crew": "equipo de reparación: haz clic o lanza un ladrillo para detener el trabajo ({hp}% restante · {percent}% listo)",
-      "dynamite": "dinamita: queda {seconds, plural, one {# segundo} other {# segundos}} · haz clic para desactivar",
+      "dynamite": "dinamita: queda {seconds, plural, one {# segundo} many {# segundos} other {# segundos}} · haz clic para desactivar",
       "fire": "fuego: {percent}% de combustión restante · apágalo con el cubo",
       "strong_word": "se necesita una palabra fuerte: los ladrillos débiles apenas dañan y no aturden"
     },
@@ -160,7 +160,7 @@
         "destroyed": "destruida",
         "repairing": "en reparación"
       },
-      "ammo": "{count, plural, =0 {no quedan rocas} one {queda # roca} other {quedan # rocas}}"
+      "ammo": "{count, plural, =0 {no quedan rocas} one {queda # roca} many {quedan # rocas} other {quedan # rocas}}"
     },
     "cursor": {
       "site_catapult": "apuntando a: catapulta · {state} · {ammo}",
@@ -179,9 +179,9 @@
     "garrison": {
       "cooldown": "{seconds} s hasta que esté listo",
       "ready": "listo para enviar soldados",
-      "next_size": "siguiente: {count, plural, one {# soldado} other {# soldados}}",
-      "deployed": "{count, plural, one {# soldado desplegado} other {# soldados desplegados}}",
-      "spawning": "enviando soldados: {count, plural, =0 {el último ya salió} one {falta # por salir} other {faltan # por salir}}",
+      "next_size": "siguiente: {count, plural, one {# soldado} many {# soldados} other {# soldados}}",
+      "deployed": "{count, plural, one {# soldado desplegado} many {# soldados desplegados} other {# soldados desplegados}}",
+      "spawning": "enviando soldados: {count, plural, =0 {el último ya salió} one {falta # por salir} many {faltan # por salir} other {faltan # por salir}}",
       "cancelled": "la oleada que preparaba se perdió con él",
       "destroyed": "perdido: no habrá soldados hasta reconstruirlo",
       "friendly_fire_on": "fuego amigo activado"
@@ -269,7 +269,7 @@
         "build": "construir",
         "build_cost": "construir · {cost} ladrillos",
         "rescue": "escoltar al rey",
-        "inside": "{count, plural, =0 {nadie dentro} one {# pícaro dentro} other {# pícaros dentro}}",
+        "inside": "{count, plural, =0 {nadie dentro} one {# pícaro dentro} many {# pícaros dentro} other {# pícaros dentro}}",
         "health": "salud {value}",
         "breath": "aliento {value}",
         "carrying_note": " · lleva al rey",
@@ -2284,10 +2284,10 @@
       "giant": "el gigante soltó {label}, pero el almacenamiento está lleno",
       "rogue": "el pícaro soltó {label}, pero el almacenamiento está lleno"
     },
-    "laid_many": "{count, plural, one {# ladrillo} other {# ladrillos}}",
+    "laid_many": "{count, plural, one {# ladrillo} many {# ladrillos} other {# ladrillos}}",
     "powerup_on": "activo",
     "powerup_stacked": "acumulado",
-    "attackers_stunned": "{count, plural, one {# atacante aturdido} other {# atacantes aturdidos}}",
+    "attackers_stunned": "{count, plural, one {# atacante aturdido} many {# atacantes aturdidos} other {# atacantes aturdidos}}",
     "section_mended": "{section} reparada",
     "shot_interrupted": "disparo interrumpido",
     "cannot_build": "no hay nada que construir aquí afuera",
@@ -2364,8 +2364,8 @@
       "loading": "buscando libros que encajen…",
       "none": "ningún libro en tus conjuntos de datos tiene {min}–{max} palabras para {difficulty}. la biblioteca en textos → conjuntos de datos contiene obras más breves.",
       "unavailable": "no se pudo cargar ese libro. elige otro o inténtalo de nuevo.",
-      "words": "{count, plural, one {# palabra} other {# palabras}}",
-      "pages": "{count, plural, one {# página} other {# páginas}}",
+      "words": "{count, plural, one {# palabra} many {# palabras} other {# palabras}}",
+      "pages": "{count, plural, one {# página} many {# páginas} other {# páginas}}",
       "estimate": "unos {minutes} min",
       "by": "de {author}",
       "list_aria": "libros suficientemente largos para un maratón",
@@ -2406,7 +2406,7 @@
       "none_passage": "ningún texto en tus conjuntos de datos tiene {min}–{max} palabras para {difficulty}. la biblioteca en textos → conjuntos de datos tiene más.",
       "none_book": "ningún libro en tus conjuntos de datos tiene {min}–{max} palabras. la biblioteca en textos → conjuntos de datos contiene obras más extensas.",
       "unavailable": "no se pudo cargar esa fuente. inténtalo de nuevo o elige otra.",
-      "words": "{count, plural, one {# palabra} other {# palabras}}",
+      "words": "{count, plural, one {# palabra} many {# palabras} other {# palabras}}",
       "estimate": "unos {minutes} min",
       "by": "de {author}",
       "rotation": "los textos se turnan: cada partida juega el siguiente.",
@@ -2432,7 +2432,7 @@
     },
     "status": {
       "find": "detecta cada error antes de que su línea llegue arriba: haz clic en una palabra o usa las flechas, y pulsa enter",
-      "missed": "{count, plural, one {un error se escapó} other {# errores se escaparon}}",
+      "missed": "{count, plural, one {un error se escapó} many {# errores se escaparon} other {# errores se escaparon}}",
       "out_of_lives": "sin vidas",
       "finished": "terminado"
     },
