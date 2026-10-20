@@ -47,6 +47,9 @@
   "dataset_cap": {
     "custom_number_of_passages_per": "Benutzerdefinierte Anzahl von Passagen pro Länge",
     "passages_per_length": "Durchgänge pro Länge",
+    "preset_adaptive": "adaptiv",
+    "label_adaptive": "adaptive Passagen pro Länge",
+    "hint": "Wie viele Passagen jeder Text für jede Zitatlänge – von kurz bis riesig – behält. Adaptiv behält für längere Texte mehr Passagen, bis zu einer praktischen Grenze; die anderen Optionen behalten höchstens eine feste Anzahl oder alle Passagen. Mehr Passagen bieten mehr Vielfalt und benötigen mehr Speicherplatz.",
     "about": "Über{size}Auf der Scheibe",
     "small": "{about}.",
     "large_no_limit": "Kein Limit hält jede Passage:{about}Für diese Texte. Das ist viel Platz, und es dauert eine Weile zu bauen.",
