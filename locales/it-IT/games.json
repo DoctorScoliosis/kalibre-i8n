@@ -95,7 +95,30 @@
     "score": "punteggio {round}",
     "destroyed": "distrutto {value}",
     "s_left": "rimangono {ceil}s",
-    "trigger_jammed_type_or_backspace": "grilletto inceppato · digita “{word}” oppure premi backspace due volte per scartare il colpo"
+    "trigger_jammed_type_or_backspace": "grilletto inceppato · digita “{word}” oppure premi backspace due volte per scartare il colpo",
+    "accumulator": "carico {charge}/{capacity}",
+    "accumulator_meter": "carico dell’accumulatore",
+    "accumulator_warning": {
+      "near": "vicino alla capienza",
+      "over": "sovracapacità: attenzione",
+      "critical": "la prossima parola sovraccarica"
+    },
+    "accumulator_pending": "{word} · spazio per inviare al caricatore",
+    "boss": {
+      "meter": "scafo della nave madre",
+      "hull": "nave madre {percent}%",
+      "no_time_limit": "nessun limite di tempo",
+      "side": {
+        "left": "sinistra",
+        "right": "destra"
+      },
+      "damage": "danno inflitto {damage}",
+      "elite_meter": "danno inflitto alla nave madre"
+    },
+    "summary": {
+      "bosses": "boss abbattuti",
+      "boss_damage": "danni alla nave madre"
+    }
   },
   "spot": {
     "title": "spot",
@@ -112,7 +135,8 @@
     "repairing_retry": " · un altro tentativo",
     "repairing_cancel": " · esc per annullare",
     "find_mistake": "trova un errore: fai clic su una parola o usa le frecce, poi premi invio",
-    "paused_fix": "{title} · premi invio per continuare a correggerlo, oppure fai clic dove vuoi iniziare"
+    "paused_fix": "{title} · premi invio per continuare a correggerlo, oppure fai clic dove vuoi iniziare",
+    "editing_word": "modifica parola · premi Invio per confermare · Esc per annullare"
   },
   "ui": {
     "pause": "pausa",
@@ -181,7 +205,10 @@
     "next_passage": "brano successivo ",
     "hud_found": "brano {round} · trovati {found} di {total}",
     "hud_score": "punteggio {score}",
-    "skip_title": "vai avanti; ciò che resta conta come mancato"
+    "skip_title": "vai avanti; ciò che resta conta come mancato",
+    "needs_keyboard": "la scalata si gioca con tastiera fisica: la guardia si muove con le frecce e i mattoni si digitano. premi un tasto per sbloccare",
+    "needs_keyboard_note": "la scalata richiede una tastiera fisica. premi un tasto qualsiasi per sbloccarla",
+    "abandoned_completion_note": "interrotto in anticipo · non conta per gli obiettivi di completamento"
   },
   "errors": {
     "deletion": "lettera mancante",
@@ -220,7 +247,9 @@
     "mechanic_visuals": "elementi visivi delle meccaniche",
     "mechanics_contexts": "contesti delle meccaniche",
     "more": "altro ▾",
-    "demonstration_variants": "varianti della dimostrazione"
+    "demonstration_variants": "varianti della dimostrazione",
+    "game_information": "informazioni di gioco",
+    "game_configuration": "configurazione di gioco"
   },
   "ghost_shelf": {
     "kalibre_can_t_reach_your": "kalibre non può raggiungere la tua cartella: autorizzalo in impostazioni → dati",
@@ -239,7 +268,8 @@
   },
   "powerup_tray": {
     "shift": "{label}: {help} (maiusc+{value})",
-    "powerups_two_at_once": "potenziamenti {length}/{storage} · due alla volta"
+    "powerups_two_at_once": "potenziamenti {length}/{storage} · due alla volta",
+    "running": "in esecuzione"
   },
   "race_card": {
     "ghost": "fantasma",
@@ -1231,13 +1261,17 @@
       "gatling": "gatling",
       "shield": "scudo",
       "automaton": "automa",
-      "homing": "inseguimento"
+      "homing": "inseguimento",
+      "accumulator": "accumulatore"
     },
     "stored": "{name} conservato · maiusc+{slot} per usarlo",
     "storage_full": "deposito pieno: {name} perso",
     "nothing_stored": "nulla conservato qui",
     "busy": "ce ne sono già due attivi: {name} aspetta",
-    "cant_use": "{name} non può essere usato"
+    "cant_use": "{name} non può essere usato",
+    "on": "{name} attivo",
+    "stacked": "{name} cumulato",
+    "running": "{name} è già attivo"
   },
   "constraints": {
     "min_length": "{value}+ lettere",
@@ -1293,21 +1327,38 @@
       "bomb": "bomba!",
       "bomb_not_ready": "la bomba non è ancora carica",
       "gatling": "fuoco rapido · {word}",
-      "shield_absorb": "lo scudo ha assorbito il colpo di {source}!"
+      "shield_absorb": "lo scudo ha assorbito il colpo di {source}!",
+      "accumulated": "{word} · aggiunto al carico, +{power}",
+      "held_typo": "{word} · refuso trattenuto: correggilo o premi Invio per spararlo così com’è",
+      "pending": "{word} · corretto: premere di nuovo spazio lo invia al caricatore",
+      "routed": "{word} · inviato al caricatore",
+      "released": "carico rilasciato · {power} danni",
+      "nothing_charged": "ancora nulla di caricato: digita prima una parola",
+      "overload": "sovraccarico!",
+      "boss_incoming": "la nave madre si avvicina",
+      "boss_requirement": "la nave madre ora richiede {requirement}",
+      "boss_gatling_down": "gatling {side} distrutta",
+      "boss_defeated": "la nave madre è stata distrutta",
+      "dogfighter_down": "caccia distrutto",
+      "boss_gatling_rebuilding": "gatling {side} in ricostruzione",
+      "boss_gatling_back": "la gatling {side} è tornata",
+      "boss_survived": "tempo scaduto: hai resistito contro la nave madre"
     },
     "powerup_help": {
       "double": "ogni colpo viene sparato due volte",
       "gatling": "ogni lettera spara un dardo",
       "shield": "assorbe alcuni colpi al posto tuo",
       "automaton": "sparare sceglie il colpo migliore contro la minaccia peggiore",
-      "homing": "le parole sparate seguono i nemici"
+      "homing": "le parole sparate seguono i nemici",
+      "accumulator": "spazio aggiunge una parola al carico · spazio senza nulla di digitato lo rilascia"
     },
     "powerup_label": {
       "double": "doppio",
       "gatling": "gatling",
       "shield": "scudo",
       "automaton": "automa",
-      "homing": "inseguimento"
+      "homing": "inseguimento",
+      "accumulator": "accumulatore"
     }
   },
   "castle_notes": {
@@ -1323,5 +1374,107 @@
     "nobody_to_drop_it_on": "non c'è nessuno su cui lasciarlo cadere",
     "two_are_running_already": "ce ne sono già due attivi",
     "nothing_stored_there": "nulla conservato qui"
+  },
+  "marathon": {
+    "title": "maratona",
+    "blurb": "Correggi le bozze di un intero libro contro il tempo: le correzioni danno tempo, gli errori ne tolgono.",
+    "modes": {
+      "prompted": "correggere un libro"
+    },
+    "setup": {
+      "source_label": "libro",
+      "loading": "ricerca di libri adatti in corso…",
+      "none": "nessun libro nei tuoi set di dati ha {min}–{max} parole per la difficoltà {difficulty}. la libreria in testi → set di dati contiene opere più brevi.",
+      "unavailable": "impossibile caricare questo libro. scegline un altro o riprova.",
+      "words": "{count, plural, one {# parola} other {# parole}}",
+      "pages": "{count, plural, one {# pagina} other {# pagine}}",
+      "estimate": "circa {minutes} min",
+      "by": "di {author}",
+      "list_aria": "libri abbastanza lunghi per una maratona",
+      "details_aria": "il libro scelto"
+    },
+    "hud": {
+      "time_aria": "tempo rimasto",
+      "page": "pagina {page} di {pages}",
+      "page_found": "trovati {found} di {total} su questa pagina",
+      "progress_aria": "quanto del libro è stato completato",
+      "gained": "+{seconds}s",
+      "lost": "−{seconds}s"
+    },
+    "summary": {
+      "score": "punteggio",
+      "cleared": "pagine",
+      "time_left": "tempo rimasto",
+      "repaired": "corretti",
+      "missed": "mostrati",
+      "penalties": "penalità",
+      "book": "libro",
+      "difficulty": "difficoltà",
+      "pages": "{cleared}/{pages}"
+    }
+  },
+  "scroller": {
+    "title": "scroller",
+    "blurb": "Correggi un brano o un intero libro mentre scorre verso l’alto: correggi ogni errore prima che la riga superi la cima.",
+    "modes": {
+      "passage": "correggi un brano",
+      "book": "correggi un libro"
+    },
+    "setup": {
+      "label_passage": "brano successivo",
+      "label_book": "libro",
+      "loading_passage": "ricerca del prossimo brano…",
+      "loading_book": "ricerca di libri adatti in corso…",
+      "none_passage": "nessun brano nei tuoi set di dati ha {min}–{max} parole per la difficoltà {difficulty}. la libreria in testi → set di dati ne ha altri.",
+      "none_book": "nessun libro nei tuoi set di dati ha {min}–{max} parole. la libreria in testi → set di dati contiene opere più lunghe.",
+      "unavailable": "impossibile caricare questa fonte. riprova o scegline un’altra.",
+      "words": "{count, plural, one {# parola} other {# parole}}",
+      "estimate": "circa {minutes} min",
+      "by": "di {author}",
+      "rotation": "i brani si alternano a turno: ogni sessione propone il successivo.",
+      "passage_aria": "il prossimo brano",
+      "list_aria": "libri adatti",
+      "details_aria": "il libro scelto"
+    },
+    "hud": {
+      "lives_aria": "vite: {lives} di {max}",
+      "lost": "−1 vita · {cause}",
+      "restored": "+1 vita · {cause}",
+      "streak": "serie {streak}/{goal}",
+      "progress_aria": "quanto del testo è già scorso",
+      "boundary_aria": "confine di errore: un errore la cui riga lo attraversa costa una vita"
+    },
+    "causes": {
+      "falseFlag": "falso allarme",
+      "wrongRepair": "correzione errata",
+      "missed": "scorso via",
+      "streak": "correzioni di fila",
+      "complex": "correzione complessa",
+      "recovery": "errore di recupero"
+    },
+    "status": {
+      "find": "individua ciascun errore prima che la riga raggiunga la cima: clicca una parola o usa le frecce, poi premi Invio",
+      "missed": "{count, plural, one {un errore è scorso via} other {# errori sono scorsi via}}",
+      "out_of_lives": "vite esaurite",
+      "finished": "finito"
+    },
+    "recovery": {
+      "aria": "opportunità di recupero: correggi al primo tentativo per riconquistare una vita"
+    },
+    "summary": {
+      "score": "punteggio",
+      "progress": "progresso",
+      "progress_passage": "{percent}% del brano",
+      "progress_book": "{percent}% del libro",
+      "finished": "finito",
+      "lives": "vite rimaste",
+      "lives_value": "{lives}/{max}",
+      "repaired": "corretti",
+      "missed": "mancati",
+      "penalties": "penalità",
+      "restored": "vite ripristinate",
+      "source": "fonte",
+      "difficulty": "difficoltà"
+    }
   }
 }

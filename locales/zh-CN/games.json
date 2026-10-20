@@ -13,7 +13,23 @@
     "fed_hinted": " （提示：时间减半）",
     "fed_yum": " · 好吃",
     "typo": "−{seconds}秒 · 拼写错误",
-    "typo_meant": " （你是说 {meant}？）"
+    "typo_meant": " （你是说 {meant}？）",
+    "serving_tray_label": "托盘",
+    "serving_tray_help": "点击勺子拿起，拖拽至生物以喂食",
+    "serving_tray_empty": "输入单词装满勺子",
+    "serving_tray_count": "托盘 {count}/{capacity}",
+    "serving_tray_full_state": "托盘已满 · 请先上餐",
+    "serving_queued": "{text} 已加入队列 · 托盘 {count}/{capacity}",
+    "serving_tray_full": "托盘已满 — 请先上餐",
+    "serving_wasted": " · −{seconds}秒 · {count, plural, other {# 个单词废弃}}",
+    "serving_served": "已供应 · 匹配 {matched}/{total}",
+    "serving_nothing_matched": "没有匹配的项目 — 损失时间",
+    "prepared": "{text} 已备好",
+    "cancelled": "食物已取消",
+    "carrying": "正在将食物送至生物",
+    "spoon_pickup": "点击并拖动以供应",
+    "no_match": "没有适合此顾客的菜品",
+    "returned": "托盘已返回工作台"
   },
   "castle": {
     "title": "城堡",
@@ -79,7 +95,30 @@
     "score": "得分 {round}",
     "destroyed": "摧毁 {value}",
     "s_left": "剩余 {ceil}秒",
-    "trigger_jammed_type_or_backspace": "扳机卡壳 · 输入“{word}”，或按两次退格废弃子弹"
+    "trigger_jammed_type_or_backspace": "扳机卡壳 · 输入“{word}”，或按两次退格废弃子弹",
+    "accumulator": "充能弹头 {charge}/{capacity}",
+    "accumulator_meter": "蓄力器弹头",
+    "accumulator_warning": {
+      "near": "接近容量极限",
+      "over": "超出容量：小心",
+      "critical": "下一个词将导致过载"
+    },
+    "accumulator_pending": "{word} · 按空格键装入弹匣",
+    "boss": {
+      "meter": "母舰装甲",
+      "hull": "母舰 {percent}%",
+      "no_time_limit": "无时间限制",
+      "side": {
+        "left": "左翼",
+        "right": "右翼"
+      },
+      "damage": "已造成伤害 {damage}",
+      "elite_meter": "对母舰造成的伤害"
+    },
+    "summary": {
+      "bosses": "击败首领数",
+      "boss_damage": "母舰伤害"
+    }
   },
   "spot": {
     "title": "找错",
@@ -96,7 +135,8 @@
     "repairing_retry": " · 再试一次",
     "repairing_cancel": " · Esc 取消",
     "find_mistake": "找出错误：点击单词或使用方向键选择，然后按回车",
-    "paused_fix": "{title} · 按回车继续修改，或点击要开始编辑的位置"
+    "paused_fix": "{title} · 按回车继续修改，或点击要开始编辑的位置",
+    "editing_word": "正在编辑单词 · 按回车确认 · 按 Esc 取消"
   },
   "ui": {
     "pause": "暂停",
@@ -165,7 +205,10 @@
     "next_passage": "下一段落 ",
     "hud_found": "第 {round} 段 · 发现 {found} / {total}",
     "hud_score": "得分 {score}",
-    "skip_title": "继续；剩下的计为未找到"
+    "skip_title": "继续；剩下的计为未找到",
+    "needs_keyboard": "城堡攀升需要使用实体键盘操作：用方向键控制守卫走动，通过键入砖块文本攀爬。按下键盘按键以解锁",
+    "needs_keyboard_note": "攀升挑战需要实体键盘。按下任意按键以解锁",
+    "abandoned_completion_note": "提前结束 · 不计入通关成就"
   },
   "errors": {
     "deletion": "漏字母",
@@ -204,7 +247,9 @@
     "mechanic_visuals": "机制视觉效果",
     "mechanics_contexts": "机制情境",
     "more": "更多 ▾",
-    "demonstration_variants": "演示变体"
+    "demonstration_variants": "演示变体",
+    "game_information": "游戏信息",
+    "game_configuration": "游戏设置"
   },
   "ghost_shelf": {
     "kalibre_can_t_reach_your": "kalibre 无法访问你的文件夹：请在“设置”→“数据”中允许它",
@@ -223,7 +268,8 @@
   },
   "powerup_tray": {
     "shift": "{label}：{help}（Shift+{value}）",
-    "powerups_two_at_once": "道具 {length}/{storage} · 同时使用两个"
+    "powerups_two_at_once": "道具 {length}/{storage} · 同时使用两个",
+    "running": "运行中"
   },
   "race_card": {
     "ghost": "幽灵",
@@ -1168,13 +1214,17 @@
       "gatling": "加特林",
       "shield": "护盾",
       "automaton": "自动机",
-      "homing": "追踪"
+      "homing": "追踪",
+      "accumulator": "蓄力器"
     },
     "stored": "已储存 {name} · Shift+{slot} 使用",
     "storage_full": "储备已满：{name} 丢失",
     "nothing_stored": "那里没有储存任何东西",
     "busy": "已经有两个在运行：{name} 等待中",
-    "cant_use": "无法使用 {name}"
+    "cant_use": "无法使用 {name}",
+    "on": "{name} 开启",
+    "stacked": "{name} 叠加",
+    "running": "{name} 已在运行中"
   },
   "constraints": {
     "min_length": "{value}+ 个字母",
@@ -1230,21 +1280,38 @@
       "bomb": "炸弹！",
       "bomb_not_ready": "炸弹尚未充能",
       "gatling": "快速开火 · {word}",
-      "shield_absorb": "护盾吸收了 {source} 击中！"
+      "shield_absorb": "护盾吸收了 {source} 击中！",
+      "accumulated": "{word} · 已装入弹头，+{power}",
+      "held_typo": "{word} · 存在未修正的错字：修正它，或直接按回车发射",
+      "pending": "{word} · 已修正：再次按空格键装入弹匣",
+      "routed": "{word} · 已送至弹匣",
+      "released": "弹头已释放 · 造成 {power} 点伤害",
+      "nothing_charged": "尚未蓄力：请先输入一个单词",
+      "overload": "过载！",
+      "boss_incoming": "母舰逼近中",
+      "boss_requirement": "母舰当前防御弱点为 {requirement}",
+      "boss_gatling_down": "{side}格林机炮已被摧毁",
+      "boss_defeated": "母舰已被击沉",
+      "dogfighter_down": "缠斗机已被击落",
+      "boss_gatling_rebuilding": "{side}格林机炮正在重构",
+      "boss_gatling_back": "{side}格林机炮已恢复运转",
+      "boss_survived": "时间到：您成功抵御住了母舰的猛攻"
     },
     "powerup_help": {
       "double": "每发子弹开火两次",
       "gatling": "每个字母发射能量束",
       "shield": "为你承受几次击中",
       "automaton": "开火为最严重的威胁选择最佳子弹",
-      "homing": "发射的单词向敌人转向"
+      "homing": "发射的单词向敌人转向",
+      "accumulator": "空格键将单词蓄入弹头 · 未输入字符时按空格释放弹头"
     },
     "powerup_label": {
       "double": "双重",
       "gatling": "加特林",
       "shield": "护盾",
       "automaton": "自动机",
-      "homing": "追踪"
+      "homing": "追踪",
+      "accumulator": "蓄力器"
     }
   },
   "castle_notes": {
@@ -1260,5 +1327,107 @@
     "nobody_to_drop_it_on": "无人可丢",
     "two_are_running_already": "已经有两个在运行",
     "nothing_stored_there": "那里没有储存任何东西"
+  },
+  "marathon": {
+    "title": "马拉松",
+    "blurb": "与时间赛跑校对一整本书：修复错误换取时间，出现差错消耗时间。",
+    "modes": {
+      "prompted": "校对一本书"
+    },
+    "setup": {
+      "source_label": "图书",
+      "loading": "正在寻找适合的图书……",
+      "none": "在 {difficulty} 难度下，您当前的数据集中没有符合 {min}–{max} 词的图书。“文本 → 数据集”的库中有更短的篇目。",
+      "unavailable": "无法加载该图书。请另选一本或重试。",
+      "words": "{count, plural, other {# 个单词}}",
+      "pages": "{count, plural, other {# 页}}",
+      "estimate": "约 {minutes} 分钟",
+      "by": "作者：{author}",
+      "list_aria": "篇幅足够马拉松练习的图书",
+      "details_aria": "所选图书"
+    },
+    "hud": {
+      "time_aria": "剩余时间",
+      "page": "第 {page} 页 / 共 {pages} 页",
+      "page_found": "本页已发现 {found} / 共 {total} 处",
+      "progress_aria": "全书已完成的比例",
+      "gained": "+{seconds}秒",
+      "lost": "−{seconds}秒"
+    },
+    "summary": {
+      "score": "得分",
+      "cleared": "已完成页数",
+      "time_left": "剩余时间",
+      "repaired": "已修复",
+      "missed": "已展示",
+      "penalties": "罚时",
+      "book": "图书",
+      "difficulty": "难度",
+      "pages": "{cleared}/{pages}"
+    }
+  },
+  "scroller": {
+    "title": "滚动挑战",
+    "blurb": "在文本向上滚动的过程中校对段落或整本书：在每一行离开顶部之前修复所有错误。",
+    "modes": {
+      "passage": "校对段落",
+      "book": "校对整本书"
+    },
+    "setup": {
+      "label_passage": "下一段落",
+      "label_book": "图书",
+      "loading_passage": "正在寻找下一段落……",
+      "loading_book": "正在寻找适合的图书……",
+      "none_passage": "在 {difficulty} 难度下，您的数据集中没有符合 {min}–{max} 词的段落。“文本 → 数据集”的库中有更多内容。",
+      "none_book": "您的数据集中没有符合 {min}–{max} 词的图书。“文本 → 数据集”的库中有更长的作品。",
+      "unavailable": "无法加载该文本来源。请重试或另选一本。",
+      "words": "{count, plural, other {# 个单词}}",
+      "estimate": "约 {minutes} 分钟",
+      "by": "作者：{author}",
+      "rotation": "段落轮流循环出现：每次运行进行下一篇。",
+      "passage_aria": "下一段落",
+      "list_aria": "适合的图书",
+      "details_aria": "所选图书"
+    },
+    "hud": {
+      "lives_aria": "生命值：{lives} / {max}",
+      "lost": "−1 生命 · {cause}",
+      "restored": "+1 生命 · {cause}",
+      "streak": "连击 {streak}/{goal}",
+      "progress_aria": "文本已滚动的比例",
+      "boundary_aria": "失败边界：错误所在的行一旦越过此线将扣除一条生命"
+    },
+    "causes": {
+      "falseFlag": "误报标记",
+      "wrongRepair": "错误修复",
+      "missed": "滚出屏幕",
+      "streak": "连续正确修复",
+      "complex": "复杂修复",
+      "recovery": "复活机会错误"
+    },
+    "status": {
+      "find": "在每一行到达顶部之前捕捉每个错误：点击单词或使用方向键，然后按回车",
+      "missed": "{count, plural, other {# 处错误滚出屏幕}}",
+      "out_of_lives": "生命耗尽",
+      "finished": "已完成"
+    },
+    "recovery": {
+      "aria": "复活机会：一次修复成功即可挽回一条生命"
+    },
+    "summary": {
+      "score": "得分",
+      "progress": "进度",
+      "progress_passage": "段落的 {percent}%",
+      "progress_book": "全书的 {percent}%",
+      "finished": "已完成",
+      "lives": "剩余生命",
+      "lives_value": "{lives}/{max}",
+      "repaired": "已修复",
+      "missed": "漏打",
+      "penalties": "扣分",
+      "restored": "生命恢复",
+      "source": "文本来源",
+      "difficulty": "难度"
+    }
   }
 }

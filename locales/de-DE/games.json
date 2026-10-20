@@ -95,7 +95,30 @@
     "score": "Punktzahl{round}",
     "destroyed": "Zerstört{value}",
     "s_left": "{ceil}S links",
-    "trigger_jammed_type_or_backspace": "Auslöser gestaut · Typ{word}, Oder Backspace zweimal, um einen Schuss zu verschrotten"
+    "trigger_jammed_type_or_backspace": "Auslöser gestaut · Typ{word}, Oder Backspace zweimal, um einen Schuss zu verschrotten",
+    "accumulator": "Nutzlast {charge}/{capacity}",
+    "accumulator_meter": "Akkumulator-Nutzlast",
+    "accumulator_warning": {
+      "near": "nahe der Kapazität",
+      "over": "über Kapazität: Vorsicht",
+      "critical": "nächstes Wort überlastet"
+    },
+    "accumulator_pending": "{word} · Leertaste zum Senden an das Magazin",
+    "boss": {
+      "meter": "Mutterschiff-Rumpf",
+      "hull": "Mutterschiff {percent} %",
+      "no_time_limit": "kein Zeitlimit",
+      "side": {
+        "left": "links",
+        "right": "rechts"
+      },
+      "damage": "zugefügter Schaden: {damage}",
+      "elite_meter": "dem Mutterschiff zugefügter Schaden"
+    },
+    "summary": {
+      "bosses": "Bosse besiegt",
+      "boss_damage": "Mutterschiff-Schaden"
+    }
   },
   "spot": {
     "title": "Spott",
@@ -112,7 +135,8 @@
     "repairing_retry": "· Ein weiterer Versuch",
     "repairing_cancel": "· Esc to cancel",
     "find_mistake": "Einen Fehler finden: Klicken Sie auf ein Wort oder verwenden Sie die Pfeile, dann drücken Sie Enter",
-    "paused_fix": "{title} · Drücken Sie Enter, um die Korrektur fortzusetzen, oder klicken Sie auf die Stelle, an der Sie weitermachen möchten"
+    "paused_fix": "{title} · Drücken Sie Enter, um die Korrektur fortzusetzen, oder klicken Sie auf die Stelle, an der Sie weitermachen möchten",
+    "editing_word": "Wort wird bearbeitet · Enter zum Bestätigen · Esc zum Abbrechen"
   },
   "ui": {
     "pause": "Pause",
@@ -181,7 +205,10 @@
     "next_passage": "Nächster Durchgang",
     "hud_found": "Durchgang{round}· Gefunden{found}Von{total}",
     "hud_score": "Punktzahl{score}",
-    "skip_title": "Gehen Sie weiter; was übrig bleibt, zählt als verpasst"
+    "skip_title": "Gehen Sie weiter; was übrig bleibt, zählt als verpasst",
+    "needs_keyboard": "Der Aufstieg wird mit einer physischen Tastatur gespielt: Die Wache wird mit den Pfeiltasten bewegt und Ziegelsteine werden getippt. Drücken Sie eine Taste auf der Tastatur, um ihn freizuschalten",
+    "needs_keyboard_note": "Der Aufstieg erfordert eine physische Tastatur. Drücken Sie eine beliebige Taste darauf, um ihn freizuschalten",
+    "abandoned_completion_note": "vorzeitig beendet · zählt nicht für Abschluss-Erfolge"
   },
   "errors": {
     "deletion": "Fehlender Brief",
@@ -220,7 +247,9 @@
     "mechanic_visuals": "Mechanische Sicht",
     "mechanics_contexts": "Mechanik-Kontexte",
     "more": "Mehr ▾",
-    "demonstration_variants": "Demonstrationsvarianten"
+    "demonstration_variants": "Demonstrationsvarianten",
+    "game_information": "Spielinformationen",
+    "game_configuration": "Spielkonfiguration"
   },
   "ghost_shelf": {
     "kalibre_can_t_reach_your": "Kalibre kann Ihren Ordner nicht erreichen: Lassen Sie es in den Einstellungen → Daten",
@@ -239,7 +268,8 @@
   },
   "powerup_tray": {
     "shift": "{label}: {help}(Schicht +){value})",
-    "powerups_two_at_once": "Powerups{length}/{storage}· Zwei auf einmal"
+    "powerups_two_at_once": "Powerups{length}/{storage}· Zwei auf einmal",
+    "running": "aktiv"
   },
   "race_card": {
     "ghost": "Geister",
@@ -1240,13 +1270,17 @@
       "gatling": "Gatling",
       "shield": "Schutzschild",
       "automaton": "Automat",
-      "homing": "Hominging"
+      "homing": "Hominging",
+      "accumulator": "Akkumulator"
     },
     "stored": "{name}Gespeichert · shift+{slot}Zu verwenden",
     "storage_full": "Vollständige Lagerung:{name}Verloren",
     "nothing_stored": "Nichts dort gespeichert",
     "busy": "Zwei laufen bereits:{name}Wartezeiten",
-    "cant_use": "{name}Kann nicht verwendet werden"
+    "cant_use": "{name}Kann nicht verwendet werden",
+    "on": "{name} aktiv",
+    "stacked": "{name} gestapelt",
+    "running": "{name} ist bereits aktiv"
   },
   "constraints": {
     "min_length": "{value}+ Buchstaben",
@@ -1302,21 +1336,38 @@
       "bomb": "Bombe!",
       "bomb_not_ready": "Die Bombe ist noch nicht geladen",
       "gatling": "Schnellfeuer{word}",
-      "shield_absorb": "Abschirmung absorbiert{source}Getroffen!"
+      "shield_absorb": "Abschirmung absorbiert{source}Getroffen!",
+      "accumulated": "{word} · zur Nutzlast hinzugefügt, +{power}",
+      "held_typo": "{word} · ein Tippfehler wird gehalten: Korrigieren oder Enter drücken, um so zu feuern",
+      "pending": "{word} · korrigiert: erneute Leertaste sendet es an das Magazin",
+      "routed": "{word} · an das Magazin gesendet",
+      "released": "Nutzlast entladen · {power} Schaden",
+      "nothing_charged": "noch nichts geladen: erst ein Wort eingeben",
+      "overload": "Überlastung!",
+      "boss_incoming": "das Mutterschiff nähert sich",
+      "boss_requirement": "das Mutterschiff verlangt nun {requirement}",
+      "boss_gatling_down": "{side} Gatling zerstört",
+      "boss_defeated": "das Mutterschiff ist zerstört",
+      "dogfighter_down": "Abfangjäger zerstört",
+      "boss_gatling_rebuilding": "{side} Gatling baut sich wieder auf",
+      "boss_gatling_back": "{side} Gatling ist zurück",
+      "boss_survived": "Zeit abgelaufen: Sie haben gegen das Mutterschiff durchgehalten"
     },
     "powerup_help": {
       "double": "Jeder Schuss feuert zweimal",
       "gatling": "Jeder Brief feuert einen Bolzen",
       "shield": "Nimm ein paar Hits für dich",
       "automaton": "Schießen wählt den besten Schuss für die schlimmste Bedrohung",
-      "homing": "Gefeuerte Worte steuern auf Feinde zu"
+      "homing": "Gefeuerte Worte steuern auf Feinde zu",
+      "accumulator": "Leertaste fügt ein Wort zur Nutzlast hinzu · Leertaste ohne Eingabe entlädt sie"
     },
     "powerup_label": {
       "double": "Doppelt",
       "gatling": "Gatling",
       "shield": "Schutzschild",
       "automaton": "Automat",
-      "homing": "Hominging"
+      "homing": "Hominging",
+      "accumulator": "Akkumulator"
     }
   },
   "castle_notes": {
@@ -1332,5 +1383,107 @@
     "nobody_to_drop_it_on": "Niemand, um es auf",
     "two_are_running_already": "Zwei laufen bereits",
     "nothing_stored_there": "Nichts dort gespeichert"
+  },
+  "marathon": {
+    "title": "Marathon",
+    "blurb": "Korrekturlesen eines ganzen Buches gegen die Uhr: Fehlerbehebungen bringen Zeit, Fehler kosten Zeit.",
+    "modes": {
+      "prompted": "ein Buch Korrektur lesen"
+    },
+    "setup": {
+      "source_label": "Buch",
+      "loading": "passende Bücher werden gesucht…",
+      "none": "Kein Buch in Ihren Datensätzen hat {min}–{max} Wörter für {difficulty}. Die Bibliothek unter Texte → Datensätze enthält kürzere Werke.",
+      "unavailable": "Dieses Buch konnte nicht geladen werden. Wählen Sie ein anderes oder versuchen Sie es erneut.",
+      "words": "{count, plural, one {# Wort} other {# Wörter}}",
+      "pages": "{count, plural, one {# Seite} other {# Seiten}}",
+      "estimate": "etwa {minutes} Min.",
+      "by": "von {author}",
+      "list_aria": "Bücher, die lang genug für einen Marathon sind",
+      "details_aria": "das ausgewählte Buch"
+    },
+    "hud": {
+      "time_aria": "verbleibende Zeit",
+      "page": "Seite {page} von {pages}",
+      "page_found": "{found} von {total} auf dieser Seite gefunden",
+      "progress_aria": "wie viel des Buches bereinigt ist",
+      "gained": "+{seconds} s",
+      "lost": "−{seconds} s"
+    },
+    "summary": {
+      "score": "Punktzahl",
+      "cleared": "Seiten",
+      "time_left": "verbleibende Zeit",
+      "repaired": "korrigiert",
+      "missed": "angezeigt",
+      "penalties": "Strafen",
+      "book": "Buch",
+      "difficulty": "Schwierigkeit",
+      "pages": "{cleared}/{pages}"
+    }
+  },
+  "scroller": {
+    "title": "Scroller",
+    "blurb": "Lesen Sie eine Passage oder ein ganzes Buch Korrektur, während der Text nach oben läuft: Beheben Sie jeden Fehler, bevor die Zeile oben verschwindet.",
+    "modes": {
+      "passage": "eine Passage Korrektur lesen",
+      "book": "ein Buch Korrektur lesen"
+    },
+    "setup": {
+      "label_passage": "nächste Passage",
+      "label_book": "Buch",
+      "loading_passage": "nächste Passage wird gesucht…",
+      "loading_book": "passende Bücher werden gesucht…",
+      "none_passage": "Keine Passage in Ihren Datensätzen hat {min}–{max} Wörter für {difficulty}. Die Bibliothek unter Texte → Datensätze enthält weitere.",
+      "none_book": "Kein Buch in Ihren Datensätzen hat {min}–{max} Wörter. Die Bibliothek unter Texte → Datensätze enthält längere Werke.",
+      "unavailable": "Diese Quelle konnte nicht geladen werden. Versuchen Sie es erneut oder wählen Sie eine andere.",
+      "words": "{count, plural, one {# Wort} other {# Wörter}}",
+      "estimate": "etwa {minutes} Min.",
+      "by": "von {author}",
+      "rotation": "Passagen wechseln der Reihe nach: Jeder Durchlauf spielt die nächste.",
+      "passage_aria": "die nächste Passage",
+      "list_aria": "passende Bücher",
+      "details_aria": "das ausgewählte Buch"
+    },
+    "hud": {
+      "lives_aria": "Leben: {lives} von {max}",
+      "lost": "−1 Leben · {cause}",
+      "restored": "+1 Leben · {cause}",
+      "streak": "Serie {streak}/{goal}",
+      "progress_aria": "wie viel der Quelle bereits durchgelaufen ist",
+      "boundary_aria": "Fehlergrenze: Ein Fehler, dessen Zeile sie überschreitet, kostet ein Leben"
+    },
+    "causes": {
+      "falseFlag": "Fehlalarm",
+      "wrongRepair": "falsche Korrektur",
+      "missed": "weggescrollt",
+      "streak": "Korrekturen in Folge",
+      "complex": "komplexe Korrektur",
+      "recovery": "Rettungsfehler"
+    },
+    "status": {
+      "find": "Erkennen Sie jeden Fehler, bevor seine Zeile den oberen Rand erreicht: Klicken Sie auf ein Wort oder nutzen Sie die Pfeiltasten, dann drücken Sie Enter",
+      "missed": "{count, plural, one {ein Fehler weggescrollt} other {# Fehler weggescrollt}}",
+      "out_of_lives": "keine Leben mehr",
+      "finished": "beendet"
+    },
+    "recovery": {
+      "aria": "Rettungschance: Beim ersten Versuch beheben, um ein Leben zurückzugewinnen"
+    },
+    "summary": {
+      "score": "Punktzahl",
+      "progress": "Fortschritt",
+      "progress_passage": "{percent} % der Passage",
+      "progress_book": "{percent} % des Buches",
+      "finished": "beendet",
+      "lives": "verbleibende Leben",
+      "lives_value": "{lives}/{max}",
+      "repaired": "korrigiert",
+      "missed": "verpasst",
+      "penalties": "Strafen",
+      "restored": "Leben wiederhergestellt",
+      "source": "Quelle",
+      "difficulty": "Schwierigkeit"
+    }
   }
 }

@@ -3569,7 +3569,30 @@
         "score": "poäng {round}",
         "destroyed": "förstörde {value}",
         "s_left": "{ceil}s kvar",
-        "trigger_jammed_type_or_backspace": "avtryckaren har fastnat · skriv ”{word}” eller tryck backsteg två gånger för att skrota ett skott"
+        "trigger_jammed_type_or_backspace": "avtryckaren har fastnat · skriv ”{word}” eller tryck backsteg två gånger för att skrota ett skott",
+        "accumulator": "laddning {charge}/{capacity}",
+        "accumulator_meter": "ackumulatorladdning",
+        "accumulator_warning": {
+          "near": "nära full kapacitet",
+          "over": "överkapacitet: var försiktig",
+          "critical": "nästa ord överbelastar"
+        },
+        "accumulator_pending": "{word} · mellanslag för att skicka till magasinet",
+        "boss": {
+          "meter": "moderskeppets skrov",
+          "hull": "moderskeppet {percent}%",
+          "no_time_limit": "ingen tidsgräns",
+          "side": {
+            "left": "vänster",
+            "right": "höger"
+          },
+          "damage": "tillfogad skada {damage}",
+          "elite_meter": "skada tillfogad moderskeppet"
+        },
+        "summary": {
+          "bosses": "bossar besegrade",
+          "boss_damage": "skada på moderskepp"
+        }
       },
       "spot": {
         "title": "upptäck",
@@ -3586,7 +3609,8 @@
         "repairing_retry": " · ett försök till",
         "repairing_cancel": " · esc för att avbryta",
         "find_mistake": "hitta ett misstag: klicka på ett ord eller använd pilarna och tryck sedan retur",
-        "paused_fix": "{title} · tryck retur för att fortsätta rätta, eller klicka där du vill börja"
+        "paused_fix": "{title} · tryck retur för att fortsätta rätta, eller klicka där du vill börja",
+        "editing_word": "redigerar ord · tryck Enter för att bekräfta · Esc för att avbryta"
       },
       "ui": {
         "pause": "paus",
@@ -3655,7 +3679,10 @@
         "next_passage": "nästa textavsnitt ",
         "hud_found": "textavsnitt {round} · hittade {found} av {total}",
         "hud_score": "poäng {score}",
-        "skip_title": "gå vidare; det som är kvar räknas som missat"
+        "skip_title": "gå vidare; det som är kvar räknas som missat",
+        "needs_keyboard": "klättringen spelas med fysiskt tangentbord: vakten styrs med piltangenterna och tegelstenar skrivs in. tryck på en tangent för att låsa upp",
+        "needs_keyboard_note": "klättringen kräver ett fysiskt tangentbord. tryck på valfri tangent för att låsa upp",
+        "abandoned_completion_note": "avbröts i förtid · räknas inte mot slutförandeprestationer"
       },
       "errors": {
         "deletion": "saknad bokstav",
@@ -3694,7 +3721,9 @@
         "mechanic_visuals": "mekanikvisualiseringar",
         "mechanics_contexts": "mekanikkontexter",
         "more": "mer ▾",
-        "demonstration_variants": "demonstrationsvarianter"
+        "demonstration_variants": "demonstrationsvarianter",
+        "game_information": "spelinformation",
+        "game_configuration": "spelkonfiguration"
       },
       "ghost_shelf": {
         "kalibre_can_t_reach_your": "Kalibre når inte din mapp: tillåt den under inställningar → data",
@@ -3713,7 +3742,8 @@
       },
       "powerup_tray": {
         "shift": "{label}: {help} (skift+{value})",
-        "powerups_two_at_once": "kraftbonusar {length}/{storage} · två samtidigt"
+        "powerups_two_at_once": "kraftbonusar {length}/{storage} · två samtidigt",
+        "running": "igång"
       },
       "race_card": {
         "ghost": "spöke",
@@ -3745,13 +3775,17 @@
           "gatling": "kulspruta",
           "shield": "sköld",
           "automaton": "automat",
-          "homing": "målsökande"
+          "homing": "målsökande",
+          "accumulator": "ackumulator"
         },
         "stored": "{name} lagrad · skift+{slot} för att använda",
         "storage_full": "lagringen är full: {name} förlorad",
         "nothing_stored": "inget lagrat där",
         "busy": "två körs redan: {name} väntar",
-        "cant_use": "{name} kan inte användas"
+        "cant_use": "{name} kan inte användas",
+        "on": "{name} på",
+        "stacked": "{name} staplad",
+        "running": "{name} är redan igång"
       },
       "constraints": {
         "min_length": "{value}+ bokstäver",
@@ -3807,21 +3841,38 @@
           "bomb": "bomb!",
           "bomb_not_ready": "bomben är inte laddad ännu",
           "gatling": "snabbeld · {word}",
-          "shield_absorb": "skölden absorberade träffen från {source}!"
+          "shield_absorb": "skölden absorberade träffen från {source}!",
+          "accumulated": "{word} · lagt till i laddningen, +{power}",
+          "held_typo": "{word} · ett skrivfel hålls kvar: rätta det, eller tryck Enter för att avfyra som det är",
+          "pending": "{word} · rättat: tryck mellanslag igen för att skicka till magasinet",
+          "routed": "{word} · skickat till magasinet",
+          "released": "laddning avfyrad · {power} skada",
+          "nothing_charged": "inget laddat än: skriv ett ord först",
+          "overload": "överbelastning!",
+          "boss_incoming": "moderskeppet närmar sig",
+          "boss_requirement": "moderskeppet kräver nu {requirement}",
+          "boss_gatling_down": "{side} gatling förstörd",
+          "boss_defeated": "moderskeppet är besegrat",
+          "dogfighter_down": "jaktplan nedskjutet",
+          "boss_gatling_rebuilding": "{side} gatling återuppbyggs",
+          "boss_gatling_back": "{side} gatling är tillbaka",
+          "boss_survived": "tiden är ute: du höll ut mot moderskeppet"
         },
         "powerup_help": {
           "double": "varje skott skjuter två gånger",
           "gatling": "varje bokstav skjuter en blixt",
           "shield": "tar några träffar åt dig",
           "automaton": "skjutning väljer bästa skott mot det värsta hotet",
-          "homing": "avfyrade ord styr mot fiender"
+          "homing": "avfyrade ord styr mot fiender",
+          "accumulator": "mellanslag lägger till ett ord i laddningen · mellanslag utan inskrivet ord avfyrar den"
         },
         "powerup_label": {
           "double": "dubbel",
           "gatling": "kulspruta",
           "shield": "sköld",
           "automaton": "automat",
-          "homing": "målsökande"
+          "homing": "målsökande",
+          "accumulator": "ackumulator"
         }
       },
       "castle_notes": {
@@ -4806,6 +4857,108 @@
           }
         },
         "minutes_choice": "{count} min"
+      },
+      "marathon": {
+        "title": "maraton",
+        "blurb": "Korrekturläs en hel bok mot klockan: rättelser köper tid, fel kostar tid.",
+        "modes": {
+          "prompted": "korrekturläs en bok"
+        },
+        "setup": {
+          "source_label": "bok",
+          "loading": "söker böcker som passar…",
+          "none": "ingen bok i dina dataset har {min}–{max} ord för {difficulty}. biblioteket i texter → dataset har kortare verk.",
+          "unavailable": "boken kunde inte laddas. välj en annan eller försök igen.",
+          "words": "{count, plural, one {# ord} other {# ord}}",
+          "pages": "{count, plural, one {# sida} other {# sidor}}",
+          "estimate": "cirka {minutes} min",
+          "by": "av {author}",
+          "list_aria": "böcker långa nog för ett maraton",
+          "details_aria": "den valda boken"
+        },
+        "hud": {
+          "time_aria": "tid kvar",
+          "page": "sida {page} av {pages}",
+          "page_found": "hittade {found} av {total} på denna sida",
+          "progress_aria": "hur mycket av boken som är klar",
+          "gained": "+{seconds}s",
+          "lost": "−{seconds}s"
+        },
+        "summary": {
+          "score": "poäng",
+          "cleared": "sidor",
+          "time_left": "tid kvar",
+          "repaired": "rättade",
+          "missed": "visade",
+          "penalties": "straffsekunder",
+          "book": "bok",
+          "difficulty": "svårighetsgrad",
+          "pages": "{cleared}/{pages}"
+        }
+      },
+      "scroller": {
+        "title": "scroller",
+        "blurb": "Korrekturläs ett avsnitt eller en hel bok medan den rullar uppåt: rätta varje fel innan dess rad lämnar toppen.",
+        "modes": {
+          "passage": "korrekturläs ett avsnitt",
+          "book": "korrekturläs en bok"
+        },
+        "setup": {
+          "label_passage": "nästa avsnitt",
+          "label_book": "bok",
+          "loading_passage": "söker nästa avsnitt…",
+          "loading_book": "söker böcker som passar…",
+          "none_passage": "inget avsnitt i dina dataset har {min}–{max} ord för {difficulty}. biblioteket i texter → dataset har fler.",
+          "none_book": "ingen bok i dina dataset har {min}–{max} ord. biblioteket i texter → dataset har längre verk.",
+          "unavailable": "källan kunde inte laddas. försök igen eller välj en annan.",
+          "words": "{count, plural, one {# ord} other {# ord}}",
+          "estimate": "cirka {minutes} min",
+          "by": "av {author}",
+          "rotation": "avsnitten turas om: varje runda spelar nästa.",
+          "passage_aria": "nästa avsnitt",
+          "list_aria": "böcker som passar",
+          "details_aria": "den valda boken"
+        },
+        "hud": {
+          "lives_aria": "liv: {lives} av {max}",
+          "lost": "−1 liv · {cause}",
+          "restored": "+1 liv · {cause}",
+          "streak": "svit {streak}/{goal}",
+          "progress_aria": "hur mycket av källan som har rullat förbi",
+          "boundary_aria": "förlustgräns: ett fel vars rad passerar toppen kostar ett liv"
+        },
+        "causes": {
+          "falseFlag": "falskt larm",
+          "wrongRepair": "felaktig rättelse",
+          "missed": "rullade förbi",
+          "streak": "rättelser i rad",
+          "complex": "komplex rättelse",
+          "recovery": "räddningsfel"
+        },
+        "status": {
+          "find": "hitta varje fel innan dess rad når toppen: klicka på ett ord eller använd pilarna, tryck sedan Enter",
+          "missed": "{count, plural, one {ett fel rullade förbi} other {# fel rullade förbi}}",
+          "out_of_lives": "inga liv kvar",
+          "finished": "slutfört"
+        },
+        "recovery": {
+          "aria": "räddningschans: rätta det på första försöket för att vinna tillbaka ett liv"
+        },
+        "summary": {
+          "score": "poäng",
+          "progress": "framsteg",
+          "progress_passage": "{percent}% av avsnittet",
+          "progress_book": "{percent}% av boken",
+          "finished": "slutfört",
+          "lives": "liv kvar",
+          "lives_value": "{lives}/{max}",
+          "repaired": "rättade",
+          "missed": "missade",
+          "penalties": "straffsekunder",
+          "restored": "liv återställda",
+          "source": "källa",
+          "difficulty": "svårighetsgrad"
+        }
       }
     },
     "learn": {

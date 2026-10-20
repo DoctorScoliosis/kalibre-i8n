@@ -95,7 +95,30 @@
     "score": "score {round}",
     "destroyed": "vernietigd {value}",
     "s_left": "{ceil}s over",
-    "trigger_jammed_type_or_backspace": "trekker vastgelopen · typ “{word}”, of backspace twee keer om een schot te schrappen"
+    "trigger_jammed_type_or_backspace": "trekker vastgelopen · typ “{word}”, of backspace twee keer om een schot te schrappen",
+    "accumulator": "lading {charge}/{capacity}",
+    "accumulator_meter": "accumulatorlading",
+    "accumulator_warning": {
+      "near": "bijna vol",
+      "over": "overbelast: voorzichtig",
+      "critical": "het volgende woord overbelast"
+    },
+    "accumulator_pending": "{word} · spatie om naar het magazijn te sturen",
+    "boss": {
+      "meter": "romp van het moederschip",
+      "hull": "moederschip {percent}%",
+      "no_time_limit": "geen tijdslimiet",
+      "side": {
+        "left": "links",
+        "right": "rechts"
+      },
+      "damage": "toegebrachte schade {damage}",
+      "elite_meter": "schade toegebracht aan het moederschip"
+    },
+    "summary": {
+      "bosses": "eindbazen verslagen",
+      "boss_damage": "schade aan moederschip"
+    }
   },
   "spot": {
     "title": "spot",
@@ -112,7 +135,8 @@
     "repairing_retry": " · nog één poging",
     "repairing_cancel": " · esc om te annuleren",
     "find_mistake": "vind een fout: klik op een woord of gebruik de pijltjes en druk dan op enter",
-    "paused_fix": "{title} · druk op enter om verder te herstellen, of klik waar je wilt beginnen"
+    "paused_fix": "{title} · druk op enter om verder te herstellen, of klik waar je wilt beginnen",
+    "editing_word": "woord bewerken · druk op Enter om te bevestigen · Esc om te annuleren"
   },
   "ui": {
     "pause": "pauzeren",
@@ -181,7 +205,10 @@
     "next_passage": "volgende passage ",
     "hud_found": "passage {round} · {found} van {total} gevonden",
     "hud_score": "score {score}",
-    "skip_title": "Ga verder; wat overblijft telt als gemist"
+    "skip_title": "Ga verder; wat overblijft telt als gemist",
+    "needs_keyboard": "de klim wordt gespeeld met een fysiek toetsenbord: de wachter beweegt met de pijltjestoetsen en stenen worden getypt. druk op een toets om te ontgrendelen",
+    "needs_keyboard_note": "de klim vereist een fysiek toetsenbord. druk op een willekeurige toets om te ontgrendelen",
+    "abandoned_completion_note": "voortijdig beëindigd · telt niet mee voor voltooiingsprestaties"
   },
   "errors": {
     "deletion": "ontbrekende letter",
@@ -220,7 +247,9 @@
     "mechanic_visuals": "mechaniekbeelden",
     "mechanics_contexts": "mechaniekcontexten",
     "more": "meer ▾",
-    "demonstration_variants": "demovarianten"
+    "demonstration_variants": "demovarianten",
+    "game_information": "spelinformatie",
+    "game_configuration": "spelconfiguratie"
   },
   "ghost_shelf": {
     "kalibre_can_t_reach_your": "kalibre kan je map niet bereiken: sta dit toe via instellingen → gegevens",
@@ -239,7 +268,8 @@
   },
   "powerup_tray": {
     "shift": "{label}: {help} (shift+{value})",
-    "powerups_two_at_once": "power-ups {length}/{storage} · twee tegelijk"
+    "powerups_two_at_once": "power-ups {length}/{storage} · twee tegelijk",
+    "running": "actief"
   },
   "race_card": {
     "ghost": "ghost",
@@ -1237,13 +1267,17 @@
       "gatling": "gatling",
       "shield": "schild",
       "automaton": "automaat",
-      "homing": "zoekend"
+      "homing": "zoekend",
+      "accumulator": "accumulator"
     },
     "stored": "{name} opgeslagen · shift+{slot} om te gebruiken",
     "storage_full": "opslag vol: {name} verloren",
     "nothing_stored": "daar is niets opgeslagen",
     "busy": "er draaien er al twee: {name} wacht",
-    "cant_use": "{name} kan niet worden gebruikt"
+    "cant_use": "{name} kan niet worden gebruikt",
+    "on": "{name} aan",
+    "stacked": "{name} gestapeld",
+    "running": "{name} is al actief"
   },
   "constraints": {
     "min_length": "{value}+ letters",
@@ -1299,21 +1333,38 @@
       "bomb": "bomb!",
       "bomb_not_ready": "the bomb isn’t charged yet",
       "gatling": "rapid fire · {word}",
-      "shield_absorb": "shield absorbed {source} hit!"
+      "shield_absorb": "shield absorbed {source} hit!",
+      "accumulated": "{word} · toegevoegd aan lading, +{power}",
+      "held_typo": "{word} · typfout vastgehouden: corrigeer het, of druk op Enter om zo te vuren",
+      "pending": "{word} · gecorrigeerd: nogmaals spatie stuurt het naar het magazijn",
+      "routed": "{word} · naar het magazijn gestuurd",
+      "released": "lading afgevuurd · {power} schade",
+      "nothing_charged": "nog niets geladen: typ eerst een woord",
+      "overload": "overbelast!",
+      "boss_incoming": "het moederschip nadert",
+      "boss_requirement": "het moederschip vereist nu {requirement}",
+      "boss_gatling_down": "gatling {side} uitgeschakeld",
+      "boss_defeated": "het moederschip is neergehaald",
+      "dogfighter_down": "onderschepper neergehaald",
+      "boss_gatling_rebuilding": "gatling {side} herstelt",
+      "boss_gatling_back": "gatling {side} is terug",
+      "boss_survived": "tijd is om: je hebt standgehouden tegen het moederschip"
     },
     "powerup_help": {
       "double": "elk schot vuurt twee keer",
       "gatling": "elke letter vuurt een straal",
       "shield": "vangt een paar treffers voor je op",
       "automaton": "kiest bij het vuren het beste schot voor de grootste dreiging",
-      "homing": "afgevuurde woorden sturen naar vijanden"
+      "homing": "afgevuurde woorden sturen naar vijanden",
+      "accumulator": "spatie voegt een woord toe aan de lading · spatie zonder invoer vuurt deze af"
     },
     "powerup_label": {
       "double": "dubbel",
       "gatling": "gatling",
       "shield": "schild",
       "automaton": "automaat",
-      "homing": "zoekend"
+      "homing": "zoekend",
+      "accumulator": "accumulator"
     }
   },
   "castle_notes": {
@@ -1329,5 +1380,107 @@
     "nobody_to_drop_it_on": "niemand om hem op te laten vallen",
     "two_are_running_already": "er zijn er al twee bezig",
     "nothing_stored_there": "daar is niets opgeslagen"
+  },
+  "marathon": {
+    "title": "marathon",
+    "blurb": "Kijk een heel boek na tegen de klok: herstellingen leveren tijd op, fouten kosten tijd.",
+    "modes": {
+      "prompted": "een boek nalezen"
+    },
+    "setup": {
+      "source_label": "boek",
+      "loading": "passende boeken zoeken…",
+      "none": "geen enkel boek in je datasets telt {min}–{max} woorden voor {difficulty}. de bibliotheek in teksten → datasets bevat kortere werken.",
+      "unavailable": "dat boek kon niet worden geladen. kies een ander of probeer opnieuw.",
+      "words": "{count, plural, one {# woord} other {# woorden}}",
+      "pages": "{count, plural, one {# pagina} other {# pagina’s}}",
+      "estimate": "ongeveer {minutes} min",
+      "by": "van {author}",
+      "list_aria": "boeken die lang genoeg zijn voor een marathon",
+      "details_aria": "het gekozen boek"
+    },
+    "hud": {
+      "time_aria": "resterende tijd",
+      "page": "pagina {page} van {pages}",
+      "page_found": "{found} van {total} gevonden op deze pagina",
+      "progress_aria": "hoeveel van het boek is afgerond",
+      "gained": "+{seconds}s",
+      "lost": "−{seconds}s"
+    },
+    "summary": {
+      "score": "score",
+      "cleared": "pagina’s",
+      "time_left": "resterende tijd",
+      "repaired": "hersteld",
+      "missed": "getoond",
+      "penalties": "strafseconden",
+      "book": "boek",
+      "difficulty": "moeilijkheidsgraad",
+      "pages": "{cleared}/{pages}"
+    }
+  },
+  "scroller": {
+    "title": "scroller",
+    "blurb": "Kijk een passage of een heel boek na terwijl de tekst omhoog scrolt: herstel elke fout voordat de regel de bovenkant verlaat.",
+    "modes": {
+      "passage": "een passage nalezen",
+      "book": "een boek nalezen"
+    },
+    "setup": {
+      "label_passage": "volgende passage",
+      "label_book": "boek",
+      "loading_passage": "volgende passage zoeken…",
+      "loading_book": "passende boeken zoeken…",
+      "none_passage": "geen enkele passage in je datasets telt {min}–{max} woorden voor {difficulty}. de bibliotheek in teksten → datasets heeft er meer.",
+      "none_book": "geen enkel boek in je datasets telt {min}–{max} woorden. de bibliotheek in teksten → datasets bevat langere werken.",
+      "unavailable": "die bron kon niet worden geladen. probeer opnieuw of kies een andere.",
+      "words": "{count, plural, one {# woord} other {# woorden}}",
+      "estimate": "ongeveer {minutes} min",
+      "by": "van {author}",
+      "rotation": "passages wisselen elkaar af: elke sessie speelt de volgende.",
+      "passage_aria": "de volgende passage",
+      "list_aria": "passende boeken",
+      "details_aria": "het gekozen boek"
+    },
+    "hud": {
+      "lives_aria": "levens: {lives} van {max}",
+      "lost": "−1 leven · {cause}",
+      "restored": "+1 leven · {cause}",
+      "streak": "reeks {streak}/{goal}",
+      "progress_aria": "hoeveel van de bron al voorbij is gescrold",
+      "boundary_aria": "faalgrens: een fout waarvan de regel deze grens passeert kost een leven"
+    },
+    "causes": {
+      "falseFlag": "vals alarm",
+      "wrongRepair": "verkeerde herstelling",
+      "missed": "voorbijgescrold",
+      "streak": "herstellingen op rij",
+      "complex": "complexe herstelling",
+      "recovery": "herkansing"
+    },
+    "status": {
+      "find": "onderschep elke fout voordat de regel de bovenkant bereikt: klik op een woord of gebruik de pijltjestoetsen en druk op Enter",
+      "missed": "{count, plural, one {een fout is voorbijgescrold} other {# fouten zijn voorbijgescrold}}",
+      "out_of_lives": "geen levens meer",
+      "finished": "voltooid"
+    },
+    "recovery": {
+      "aria": "herkansing: herstel de fout in één keer om een leven terug te winnen"
+    },
+    "summary": {
+      "score": "score",
+      "progress": "voortgang",
+      "progress_passage": "{percent}% van de passage",
+      "progress_book": "{percent}% van het boek",
+      "finished": "voltooid",
+      "lives": "levens over",
+      "lives_value": "{lives}/{max}",
+      "repaired": "hersteld",
+      "missed": "gemist",
+      "penalties": "strafseconden",
+      "restored": "levens hersteld",
+      "source": "bron",
+      "difficulty": "moeilijkheidsgraad"
+    }
   }
 }

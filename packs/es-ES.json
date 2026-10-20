@@ -3578,7 +3578,30 @@
         "score": "puntuación {round}",
         "destroyed": "destruidos {value}",
         "s_left": "quedan {ceil}s",
-        "trigger_jammed_type_or_backspace": "gatillo atascado · escribe «{word}» o pulsa retroceso dos veces para desechar un disparo"
+        "trigger_jammed_type_or_backspace": "gatillo atascado · escribe «{word}» o pulsa retroceso dos veces para desechar un disparo",
+        "accumulator": "carga útil {charge}/{capacity}",
+        "accumulator_meter": "carga del acumulador",
+        "accumulator_warning": {
+          "near": "cerca del límite",
+          "over": "sobrecapacidad: cuidado",
+          "critical": "la siguiente palabra sobrecarga"
+        },
+        "accumulator_pending": "{word} · espacio para enviar al cargador",
+        "boss": {
+          "meter": "casco de la nave nodriza",
+          "hull": "nave nodriza {percent}%",
+          "no_time_limit": "sin límite de tiempo",
+          "side": {
+            "left": "izquierda",
+            "right": "derecha"
+          },
+          "damage": "daño infligido {damage}",
+          "elite_meter": "daño infligido a la nave nodriza"
+        },
+        "summary": {
+          "bosses": "jefes destruidos",
+          "boss_damage": "daño a la nave nodriza"
+        }
       },
       "spot": {
         "title": "detecta",
@@ -3595,7 +3618,8 @@
         "repairing_retry": " · un intento más",
         "repairing_cancel": " · esc para cancelar",
         "find_mistake": "encuentra un error: haz clic en una palabra o usa las flechas y después pulsa intro",
-        "paused_fix": "{title} · pulsa intro para seguir corrigiéndolo o haz clic donde quieras empezar"
+        "paused_fix": "{title} · pulsa intro para seguir corrigiéndolo o haz clic donde quieras empezar",
+        "editing_word": "editando palabra · pulsa enter para confirmar · esc para cancelar"
       },
       "ui": {
         "pause": "pausa",
@@ -3664,7 +3688,10 @@
         "next_passage": "siguiente pasaje ",
         "hud_found": "pasaje {round} · encontrados {found} de {total}",
         "hud_score": "puntuación {score}",
-        "skip_title": "seguir adelante; lo que quede cuenta como omitido"
+        "skip_title": "seguir adelante; lo que quede cuenta como omitido",
+        "needs_keyboard": "la escalada se juega con teclado físico: el guardia se mueve con las flechas y los ladrillos se teclean. pulsa una tecla para desbloquearlo",
+        "needs_keyboard_note": "la escalada necesita un teclado físico. pulsa cualquier tecla para desbloquearla",
+        "abandoned_completion_note": "terminado antes de tiempo · no cuenta para los logros de finalización"
       },
       "errors": {
         "deletion": "letra que falta",
@@ -3703,7 +3730,9 @@
         "mechanic_visuals": "mecánicas visuales",
         "mechanics_contexts": "contextos de mecánicas",
         "more": "más ▾",
-        "demonstration_variants": "variantes de demostración"
+        "demonstration_variants": "variantes de demostración",
+        "game_information": "información del juego",
+        "game_configuration": "configuración del juego"
       },
       "ghost_shelf": {
         "kalibre_can_t_reach_your": "kalibre no puede acceder a tu carpeta: permítelo en ajustes → datos",
@@ -3722,7 +3751,8 @@
       },
       "powerup_tray": {
         "shift": "{label}: {help} (mayús+{value})",
-        "powerups_two_at_once": "potenciadores {length}/{storage} · dos a la vez"
+        "powerups_two_at_once": "potenciadores {length}/{storage} · dos a la vez",
+        "running": "activo"
       },
       "race_card": {
         "ghost": "fantasma",
@@ -4714,13 +4744,17 @@
           "gatling": "gatling",
           "shield": "escudo",
           "automaton": "autómata",
-          "homing": "perseguidor"
+          "homing": "perseguidor",
+          "accumulator": "acumulador"
         },
         "stored": "{name} guardado · mayús+{slot} para usar",
         "storage_full": "reserva llena: se ha perdido {name}",
         "nothing_stored": "no hay nada guardado ahí",
         "busy": "ya hay dos activos: {name} espera",
-        "cant_use": "no se puede usar {name}"
+        "cant_use": "no se puede usar {name}",
+        "on": "{name} activado",
+        "stacked": "{name} acumulado",
+        "running": "{name} ya está activo"
       },
       "constraints": {
         "min_length": "{value}+ letras",
@@ -4776,21 +4810,38 @@
           "bomb": "¡bomba!",
           "bomb_not_ready": "la bomba todavía no está cargada",
           "gatling": "fuego rápido · {word}",
-          "shield_absorb": "¡el escudo ha absorbido el impacto de {source}!"
+          "shield_absorb": "¡el escudo ha absorbido el impacto de {source}!",
+          "accumulated": "{word} · añadido a la carga, +{power}",
+          "held_typo": "{word} · errata retenida: corrígela o enter la dispara tal cual",
+          "pending": "{word} · corregido: pulsar espacio de nuevo lo envía al cargador",
+          "routed": "{word} · enviado al cargador",
+          "released": "carga liberada · {power} de daño",
+          "nothing_charged": "nada cargado aún: escribe una palabra primero",
+          "overload": "¡sobrecarga!",
+          "boss_incoming": "la nave nodriza se aproxima",
+          "boss_requirement": "la nave nodriza ahora exige {requirement}",
+          "boss_gatling_down": "gatling {side} destruida",
+          "boss_defeated": "la nave nodriza ha caído",
+          "dogfighter_down": "caza interceptor destruido",
+          "boss_gatling_rebuilding": "gatling {side} reconstruyéndose",
+          "boss_gatling_back": "gatling {side} ha vuelto",
+          "boss_survived": "tiempo agotado: resististe contra la nave nodriza"
         },
         "powerup_help": {
           "double": "cada disparo sale dos veces",
           "gatling": "cada letra dispara un proyectil",
           "shield": "recibe algunos impactos por ti",
           "automaton": "al disparar elige el mejor tiro para la peor amenaza",
-          "homing": "las palabras disparadas se dirigen hacia los enemigos"
+          "homing": "las palabras disparadas se dirigen hacia los enemigos",
+          "accumulator": "espacio añade una palabra a la carga · espacio sin nada escrito la libera"
         },
         "powerup_label": {
           "double": "doble",
           "gatling": "gatling",
           "shield": "escudo",
           "automaton": "autómata",
-          "homing": "perseguidor"
+          "homing": "perseguidor",
+          "accumulator": "acumulador"
         }
       },
       "castle_notes": {
@@ -4806,6 +4857,108 @@
         "nobody_to_drop_it_on": "no hay nadie sobre quien lanzarlo",
         "two_are_running_already": "ya hay dos activos",
         "nothing_stored_there": "no hay nada guardado ahí"
+      },
+      "marathon": {
+        "title": "maratón",
+        "blurb": "Corrige un libro entero a contrarreloj: los aciertos compran tiempo, los errores lo restan.",
+        "modes": {
+          "prompted": "corregir un libro"
+        },
+        "setup": {
+          "source_label": "libro",
+          "loading": "buscando libros que encajen…",
+          "none": "ningún libro en tus conjuntos de datos tiene {min}–{max} palabras para {difficulty}. la biblioteca en textos → conjuntos de datos contiene obras más breves.",
+          "unavailable": "no se pudo cargar ese libro. elige otro o inténtalo de nuevo.",
+          "words": "{count, plural, one {# palabra} other {# palabras}}",
+          "pages": "{count, plural, one {# página} other {# páginas}}",
+          "estimate": "unos {minutes} min",
+          "by": "de {author}",
+          "list_aria": "libros suficientemente largos para un maratón",
+          "details_aria": "el libro elegido"
+        },
+        "hud": {
+          "time_aria": "tiempo restante",
+          "page": "página {page} de {pages}",
+          "page_found": "encontrados {found} de {total} en esta página",
+          "progress_aria": "cuánto del libro se ha completado",
+          "gained": "+{seconds}s",
+          "lost": "−{seconds}s"
+        },
+        "summary": {
+          "score": "puntuación",
+          "cleared": "páginas",
+          "time_left": "tiempo restante",
+          "repaired": "corregidos",
+          "missed": "mostrados",
+          "penalties": "penalizaciones",
+          "book": "libro",
+          "difficulty": "dificultad",
+          "pages": "{cleared}/{pages}"
+        }
+      },
+      "scroller": {
+        "title": "scroller",
+        "blurb": "Corrige un texto o un libro entero mientras sube en pantalla: corrige cada error antes de que su línea cruce la parte superior.",
+        "modes": {
+          "passage": "corregir un texto",
+          "book": "corregir un libro"
+        },
+        "setup": {
+          "label_passage": "siguiente texto",
+          "label_book": "libro",
+          "loading_passage": "buscando el siguiente texto…",
+          "loading_book": "buscando libros que encajen…",
+          "none_passage": "ningún texto en tus conjuntos de datos tiene {min}–{max} palabras para {difficulty}. la biblioteca en textos → conjuntos de datos tiene más.",
+          "none_book": "ningún libro en tus conjuntos de datos tiene {min}–{max} palabras. la biblioteca en textos → conjuntos de datos contiene obras más extensas.",
+          "unavailable": "no se pudo cargar esa fuente. inténtalo de nuevo o elige otra.",
+          "words": "{count, plural, one {# palabra} other {# palabras}}",
+          "estimate": "unos {minutes} min",
+          "by": "de {author}",
+          "rotation": "los textos se turnan: cada partida juega el siguiente.",
+          "passage_aria": "el siguiente texto",
+          "list_aria": "libros que encajan",
+          "details_aria": "el libro elegido"
+        },
+        "hud": {
+          "lives_aria": "vidas: {lives} de {max}",
+          "lost": "−1 vida · {cause}",
+          "restored": "+1 vida · {cause}",
+          "streak": "racha {streak}/{goal}",
+          "progress_aria": "cuánto de la fuente ha pasado ya",
+          "boundary_aria": "límite de fallo: un error cuya línea lo cruza cuesta una vida"
+        },
+        "causes": {
+          "falseFlag": "falsa alarma",
+          "wrongRepair": "corrección errónea",
+          "missed": "escapó de pantalla",
+          "streak": "correcciones seguidas",
+          "complex": "corrección compleja",
+          "recovery": "error de recuperación"
+        },
+        "status": {
+          "find": "detecta cada error antes de que su línea llegue arriba: haz clic en una palabra o usa las flechas, y pulsa enter",
+          "missed": "{count, plural, one {un error se escapó} other {# errores se escaparon}}",
+          "out_of_lives": "sin vidas",
+          "finished": "terminado"
+        },
+        "recovery": {
+          "aria": "oportunidad de recuperación: corrígelo a la primera para recuperar una vida"
+        },
+        "summary": {
+          "score": "puntuación",
+          "progress": "progreso",
+          "progress_passage": "{percent}% del texto",
+          "progress_book": "{percent}% del libro",
+          "finished": "terminado",
+          "lives": "vidas restantes",
+          "lives_value": "{lives}/{max}",
+          "repaired": "corregidos",
+          "missed": "omitidos",
+          "penalties": "penalizaciones",
+          "restored": "vidas recuperadas",
+          "source": "fuente",
+          "difficulty": "dificultad"
+        }
       }
     },
     "learn": {

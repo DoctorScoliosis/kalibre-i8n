@@ -95,7 +95,30 @@
     "score": "score {round}",
     "destroyed": "détruit {value}",
     "s_left": "{ceil}s restant",
-    "trigger_jammed_type_or_backspace": "canon bloqué · tapez « {word} », ou retour arrière deux fois pour annuler"
+    "trigger_jammed_type_or_backspace": "canon bloqué · tapez « {word} », ou retour arrière deux fois pour annuler",
+    "accumulator": "charge utile {charge}/{capacity}",
+    "accumulator_meter": "charge de l’accumulateur",
+    "accumulator_warning": {
+      "near": "capacité presque atteinte",
+      "over": "dépassement de capacité : attention",
+      "critical": "le mot suivant provoque la surcharge"
+    },
+    "accumulator_pending": "{word} · espace pour envoyer dans le chargeur",
+    "boss": {
+      "meter": "blindage du vaisseau-mère",
+      "hull": "vaisseau-mère {percent} %",
+      "no_time_limit": "aucune limite de temps",
+      "side": {
+        "left": "gauche",
+        "right": "droite"
+      },
+      "damage": "dégâts infligés {damage}",
+      "elite_meter": "dégâts infligés au vaisseau-mère"
+    },
+    "summary": {
+      "bosses": "boss vaincus",
+      "boss_damage": "dégâts au vaisseau-mère"
+    }
   },
   "spot": {
     "title": "repérage",
@@ -112,7 +135,8 @@
     "repairing_retry": " · un autre essai",
     "repairing_cancel": " · échap pour annuler",
     "find_mistake": "trouvez une erreur : cliquez sur un mot ou utilisez les flèches, puis appuyez sur entrée",
-    "paused_fix": "{title} · appuyez sur entrée pour reprendre la correction, ou cliquez là où vous voulez commencer"
+    "paused_fix": "{title} · appuyez sur entrée pour reprendre la correction, ou cliquez là où vous voulez commencer",
+    "editing_word": "modification du mot · appuyez sur Entrée pour valider · Échap pour annuler"
   },
   "ui": {
     "pause": "pause",
@@ -181,7 +205,10 @@
     "next_passage": "passage suivant ",
     "hud_found": "passage {round} · trouvé {found} sur {total}",
     "hud_score": "score {score}",
-    "skip_title": "Passez ; ce qui reste compte comme manqué"
+    "skip_title": "Passez ; ce qui reste compte comme manqué",
+    "needs_keyboard": "l’ascension se joue avec un clavier physique : la garde se déplace avec les flèches et les briques se tapent. appuyez sur une touche pour déverrouiller",
+    "needs_keyboard_note": "l’ascension nécessite un clavier physique. appuyez sur une touche quelconque pour déverrouiller",
+    "abandoned_completion_note": "abandonné avant la fin · ne compte pas pour les succès d’achèvement"
   },
   "errors": {
     "deletion": "lettre manquante",
@@ -237,7 +264,9 @@
     "mechanic_visuals": "visuels des mécanismes",
     "mechanics_contexts": "contexte des mécanismes",
     "more": "plus ▾",
-    "demonstration_variants": "variantes de démonstration"
+    "demonstration_variants": "variantes de démonstration",
+    "game_information": "informations sur le jeu",
+    "game_configuration": "configuration du jeu"
   },
   "space_time": {
     "powerups": {
@@ -245,13 +274,17 @@
       "gatling": "mitrailleuse",
       "shield": "bouclier",
       "automaton": "automate",
-      "homing": "recherche"
+      "homing": "recherche",
+      "accumulator": "accumulateur"
     },
     "stored": "{name} stocké · maj+{slot} pour utiliser",
     "storage_full": "stockage plein : {name} perdu",
     "nothing_stored": "rien stocké ici",
     "busy": "deux sont déjà actifs : {name} attend",
-    "cant_use": "{name} ne peut pas être utilisé"
+    "cant_use": "{name} ne peut pas être utilisé",
+    "on": "{name} actif",
+    "stacked": "{name} cumulé",
+    "running": "{name} est déjà actif"
   },
   "games_registry": {
     "minutes_choice": "{count} min",
@@ -1228,7 +1261,8 @@
   },
   "powerup_tray": {
     "shift": "{label} : {help} (maj+{value})",
-    "powerups_two_at_once": "bonus {length}/{storage} · deux à la fois"
+    "powerups_two_at_once": "bonus {length}/{storage} · deux à la fois",
+    "running": "en cours"
   },
   "race_card": {
     "ghost": "fantôme",
@@ -1307,21 +1341,140 @@
       "bomb": "bombe !",
       "bomb_not_ready": "la bombe n'est pas encore chargée",
       "gatling": "tir rapide · {word}",
-      "shield_absorb": "le bouclier a absorbé le coup de {source} !"
+      "shield_absorb": "le bouclier a absorbé le coup de {source} !",
+      "accumulated": "{word} · ajouté à la charge, +{power}",
+      "held_typo": "{word} · faute en attente : corrigez-la, ou Entrée la tire telle quelle",
+      "pending": "{word} · corrigé : un nouvel appui sur espace l’envoie au chargeur",
+      "routed": "{word} · envoyé au chargeur",
+      "released": "charge libérée · {power} dégâts",
+      "nothing_charged": "rien de chargé pour l’instant : tapez d’abord un mot",
+      "overload": "surcharge !",
+      "boss_incoming": "le vaisseau-mère approche",
+      "boss_requirement": "le vaisseau-mère exige désormais {requirement}",
+      "boss_gatling_down": "gatling {side} détruite",
+      "boss_defeated": "le vaisseau-mère est abattu",
+      "dogfighter_down": "chasseur abattu",
+      "boss_gatling_rebuilding": "la gatling {side} se reconstruit",
+      "boss_gatling_back": "la gatling {side} est de retour",
+      "boss_survived": "temps écoulé : vous avez tenu tête au vaisseau-mère"
     },
     "powerup_help": {
       "double": "chaque tir tire deux fois",
       "gatling": "chaque lettre tire un projectile",
       "shield": "absorbe quelques coups pour vous",
       "automaton": "le tir choisit la meilleure cible pour la plus grande menace",
-      "homing": "les mots tirés se dirigent vers les ennemis"
+      "homing": "les mots tirés se dirigent vers les ennemis",
+      "accumulator": "espace ajoute un mot à la charge · espace sans mot tapé la libère"
     },
     "powerup_label": {
       "double": "double",
       "gatling": "gatling",
       "shield": "bouclier",
       "automaton": "automaton",
-      "homing": "recherche"
+      "homing": "recherche",
+      "accumulator": "accumulateur"
+    }
+  },
+  "marathon": {
+    "title": "marathon",
+    "blurb": "Relisez un livre entier contre la montre : chaque correction fait gagner du temps, les erreurs en coûtent.",
+    "modes": {
+      "prompted": "relire un livre"
+    },
+    "setup": {
+      "source_label": "livre",
+      "loading": "recherche de livres adaptés…",
+      "none": "aucun livre dans vos jeux de données ne compte {min}–{max} mots pour la difficulté {difficulty}. la bibliothèque sous textes → jeux de données propose des œuvres plus courtes.",
+      "unavailable": "impossible de charger ce livre. choisissez-en un autre ou réessayez.",
+      "words": "{count, plural, one {# mot} other {# mots}}",
+      "pages": "{count, plural, one {# page} other {# pages}}",
+      "estimate": "environ {minutes} min",
+      "by": "de {author}",
+      "list_aria": "livres assez longs pour un marathon",
+      "details_aria": "le livre sélectionné"
+    },
+    "hud": {
+      "time_aria": "temps restant",
+      "page": "page {page} sur {pages}",
+      "page_found": "{found} sur {total} trouvées sur cette page",
+      "progress_aria": "proportion du livre terminée",
+      "gained": "+{seconds}s",
+      "lost": "−{seconds}s"
+    },
+    "summary": {
+      "score": "score",
+      "cleared": "pages",
+      "time_left": "temps restant",
+      "repaired": "corrigées",
+      "missed": "révélées",
+      "penalties": "pénalités",
+      "book": "livre",
+      "difficulty": "difficulté",
+      "pages": "{cleared}/{pages}"
+    }
+  },
+  "scroller": {
+    "title": "scroller",
+    "blurb": "Relisez un passage ou un livre entier pendant qu’il défile : corrigez chaque erreur avant que sa ligne ne quitte l’écran par le haut.",
+    "modes": {
+      "passage": "relire un passage",
+      "book": "relire un livre"
+    },
+    "setup": {
+      "label_passage": "passage suivant",
+      "label_book": "livre",
+      "loading_passage": "recherche du passage suivant…",
+      "loading_book": "recherche de livres adaptés…",
+      "none_passage": "aucun passage dans vos jeux de données ne compte {min}–{max} mots pour la difficulté {difficulty}. la bibliothèque sous textes → jeux de données en compte davantage.",
+      "none_book": "aucun livre dans vos jeux de données ne compte {min}–{max} mots. la bibliothèque sous textes → jeux de données propose des œuvres plus longues.",
+      "unavailable": "impossible de charger cette source. réessayez ou choisissez-en une autre.",
+      "words": "{count, plural, one {# mot} other {# mots}}",
+      "estimate": "environ {minutes} min",
+      "by": "de {author}",
+      "rotation": "les passages défilent à tour de rôle : chaque partie joue le suivant.",
+      "passage_aria": "le passage suivant",
+      "list_aria": "livres adaptés",
+      "details_aria": "le livre sélectionné"
+    },
+    "hud": {
+      "lives_aria": "vies : {lives} sur {max}",
+      "lost": "−1 vie · {cause}",
+      "restored": "+1 vie · {cause}",
+      "streak": "série {streak}/{goal}",
+      "progress_aria": "partie du texte déjà défilée",
+      "boundary_aria": "limite de perte : une erreur dont la ligne franchit le haut coûte une vie"
+    },
+    "causes": {
+      "falseFlag": "fausse alerte",
+      "wrongRepair": "mauvaise correction",
+      "missed": "disparue de l’écran",
+      "streak": "corrections d’affilée",
+      "complex": "correction complexe",
+      "recovery": "erreur de rattrapage"
+    },
+    "status": {
+      "find": "repérez chaque erreur avant que sa ligne n’atteigne le haut : cliquez sur un mot ou utilisez les flèches, puis appuyez sur Entrée",
+      "missed": "{count, plural, one {une erreur a défilé hors écran} other {# erreurs ont défilé hors écran}}",
+      "out_of_lives": "plus de vies",
+      "finished": "terminé"
+    },
+    "recovery": {
+      "aria": "chance de rattrapage : corrigez du premier coup pour récupérer une vie"
+    },
+    "summary": {
+      "score": "score",
+      "progress": "progression",
+      "progress_passage": "{percent} % du passage",
+      "progress_book": "{percent} % du livre",
+      "finished": "terminé",
+      "lives": "vies restantes",
+      "lives_value": "{lives}/{max}",
+      "repaired": "corrigées",
+      "missed": "manquées",
+      "penalties": "pénalités",
+      "restored": "vies récupérées",
+      "source": "source",
+      "difficulty": "difficulté"
     }
   }
 }
