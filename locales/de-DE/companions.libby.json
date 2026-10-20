@@ -472,6 +472,98 @@
       "Es ist spät. Schlaf ist ein guter nächster Schritt.",
       "Mm... Gute Nacht, vielleicht? Wir können morgen weitermachen.",
       "Ruhe gut aus. Die Schlüssel werden bleiben."
+    ],
+    "yawn": [
+      "*gähn*… meine Augenlider fühlen sich schwer an…",
+      "*gääähn*… so warm und ruhig…",
+      "*gähn*… dämmere schon weg…"
+    ],
+    "earlyWake": [
+      "Schon? Ich war gerade erst dabei einzuschlafen.",
+      "Hm? So früh schon geweckt?",
+      "Schon? Ich war gerade erst weggenickt.",
+      "Schon auf? Meine Augen waren kaum geschlossen."
+    ],
+    "overnightSleep": [
+      "*sanftes Schnurren*… die Nacht über friedlich geruht…",
+      "*sanftes Atmen*… die ganze Nacht tief und fest geschlafen…",
+      "Zzz… sieben Stunden ungestörte Ruhe…"
+    ],
+    "laughingFit": [
+      "Pfft— hahahaha! Hör auf! Systemüberlastung… gehe offline…",
+      "Hahaha! Meine Fassung… völlig dahin… fahre herunter…",
+      "Ahaha! Zu viel! Interner Puffer voll… breche zusammen…",
+      "Hehe! Nicht mehr, ich flehe dich an! Sicherheitsmodus… aktiviert…"
+    ],
+    "reboot": [
+      "System wiederhergestellt. Wollen wir nun wieder zum ordentlichen Tippen zurückkehren?",
+      "Wieder online. Ich habe offiziellen Protest gegen das Kitzeln eingelegt.",
+      "Diagnose unauffällig. Lasst uns über diesen Zusammenbruch nie wieder sprechen.",
+      "Gong ertönt, Haltung korrigiert. Bereit, wann immer du es bist."
+    ],
+    "newItem_hat": [
+      "Ein neuer Hut: der {item}. Klicke mit rechts auf mich, um ihn anzuprobieren.",
+      "Der {item}. Ein bezaubernder Hut zum Tragen."
+    ],
+    "newItem_face": [
+      "Ein neuer Gesichtsstil: {item}. Klicke mit rechts auf mich, um ihn auszuprobieren.",
+      "Der {item}. Ein frischer Blick für mein Gesicht."
+    ],
+    "newItem_necklace": [
+      "Eine neue Halskette: die {item}. Klicke mit rechts auf mich, um sie anzuprobieren.",
+      "Die {item}. Sie würde mir gewiss gut stehen."
+    ],
+    "newItem_bracelet": [
+      "Ein neues Armband: das {item}. Klicke mit rechts auf mich, um es anzuprobieren.",
+      "Das {item}. Eine reizende Ergänzung für mein Handgelenk."
+    ],
+    "newItem_pants": [
+      "Neue Hosen: {item}. Klicke mit rechts auf mich, um sie anzuprobieren.",
+      "{item}. Ich denke, sie würden mir gut stehen."
+    ],
+    "newItem_background": [
+      "Eine neue Hintergrundkachel: {item}. Klicke mit rechts auf mich, um sie auszuprobieren.",
+      "Der Hintergrund {item}. Er rahmt den Raum sehr hübsch ein."
+    ],
+    "newCardItem_border": [
+      "Ein neuer Rahmen für deine Karte: {name}. Dein Profil → deine Karte.",
+      "Der Rahmen {name}. Er rahmt deine Karte sehr schön ein."
+    ],
+    "newCardItem_frame": [
+      "Ein neuer Bildrahmen für deine Karte: {name}. Dein Profil → deine Karte.",
+      "Der Rahmen {name}. Er würde deinem Porträt gut stehen."
+    ],
+    "newCardItem_aura": [
+      "Eine neue Aura für deine Karte: {name}. Dein Profil → deine Karte.",
+      "Die Aura {name}. Sie würde deiner Karte gut stehen."
+    ],
+    "newCardItem_backdrop": [
+      "Ein neuer Hintergrund für deine Karte: {name}. Dein Profil → deine Karte.",
+      "Die Kulisse {name}. Sie hebt deine Karte wunderbar hervor."
+    ],
+    "newCardItem_sticker": [
+      "Ein neuer Sticker für deine Karte: {name}. Dein Profil → deine Karte.",
+      "Der Sticker {name}. Er würde sich auf deiner Karte gut machen."
+    ],
+    "newCarPart_body": [
+      "Eine neue Karosserie: {name}. Dein Profil → deine Karte → Garage.",
+      "Die Karosserie {name}. Sie würde sich in deiner Garage gut machen."
+    ],
+    "newCarPart_paint": [
+      "Eine neue Lackfarbe: {name}. Dein Profil → deine Karte → Garage.",
+      "Der Lack {name}. Eine frische Farbe für dein Auto."
+    ],
+    "newCarPart_livery": [
+      "Eine neue Lackierung: {name}. Dein Profil → deine Karte → Garage.",
+      "Die Lackierung {name}. Ein neuer Stil für dein Auto."
+    ],
+    "newCarPart_wheels": [
+      "Neue Räder für dein Auto: {name}. Dein Profil → deine Karte → Garage.",
+      "Die Räder {name}. Sie würden deinem Auto gut stehen."
+    ],
+    "newCarPart_trail": [
+      "Eine neue Spur für dein Auto: {name}. Dein Profil → deine Karte → Garage.",
+      "Die Spur {name}. Sie würde hinter deinem Wagen großartig aussehen."
     ]
   }
 }

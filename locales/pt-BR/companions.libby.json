@@ -472,6 +472,98 @@
       "Está tarde. Dormir é um ótimo próximo passo.",
       "Mm… boa noite, talvez? Podemos continuar amanhã.",
       "Descanse bem. As teclas podem esperar."
+    ],
+    "yawn": [
+      "*bocejo*… minhas pálpebras estão pesadas…",
+      "*boceeejo*… tão calmo e acolhedor…",
+      "*bocejo*… já estou adormecendo…"
+    ],
+    "earlyWake": [
+      "Já? Eu estava começando a pegar no sono.",
+      "Mmh? Acordada tão cedo?",
+      "Já? Eu tinha acabado de cochilar.",
+      "De pé já? Meus olhos mal tinham se fechado."
+    ],
+    "overnightSleep": [
+      "*ronronar suave*… descansando em paz a noite toda…",
+      "*respiração serena*… sono profundo durante toda a noite…",
+      "Zzz… sete horas de descanso ininterrupto…"
+    ],
+    "laughingFit": [
+      "Pfft— hahahaha! Pare! Sobrecarga do sistema… ficando offline…",
+      "Hahaha! Minha compostura… totalmente arruinada… desligando…",
+      "Ahaha! É demais! Buffer interno cheio… desmoronando…",
+      "Hehe! Chega, eu lhe imploro! Modo de segurança… ativando…"
+    ],
+    "reboot": [
+      "Sistema restaurado. Agora vamos voltar à digitação correta, por favor?",
+      "De volta à ativa. Registrei um protesto formal contra cócegas.",
+      "Diagnósticos normais. Nunca mais falaremos sobre esse episódio.",
+      "Sino tocou, postura alinhada. Pronta quando você quiser."
+    ],
+    "newItem_hat": [
+      "Um chapéu novo: o {item}. Clique com o botão direito em mim para experimentar.",
+      "O {item}. Um chapéu adorável para usar."
+    ],
+    "newItem_face": [
+      "Um novo estilo de rosto: {item}. Clique com o botão direito em mim para experimentar.",
+      "O {item}. Um visual renovado para o meu rosto."
+    ],
+    "newItem_necklace": [
+      "Um colar novo: o {item}. Clique com o botão direito em mim para experimentar.",
+      "O {item}. Combinaria perfeitamente comigo."
+    ],
+    "newItem_bracelet": [
+      "Uma pulseira nova: a {item}. Clique com o botão direito em mim para experimentar.",
+      "A {item}. Um belo detalhe para o meu pulso."
+    ],
+    "newItem_pants": [
+      "Calças novas: {item}. Clique com o botão direito em mim para experimentar.",
+      "{item}. Acredito que ficariam muito elegantes em mim."
+    ],
+    "newItem_background": [
+      "Um novo ladrilho de fundo: {item}. Clique com o botão direito em mim para experimentar.",
+      "O fundo {item}. Ele emoldura o ambiente com elegância."
+    ],
+    "newCardItem_border": [
+      "Uma borda nova para o seu cartão: a {name}. Seu perfil → seu cartão.",
+      "A borda {name}. Ela emoldura seu cartão com muita elegância."
+    ],
+    "newCardItem_frame": [
+      "Uma moldura de foto nova para o seu cartão: a {name}. Seu perfil → seu cartão.",
+      "A moldura {name}. Ficaria excelente em seu retrato."
+    ],
+    "newCardItem_aura": [
+      "Uma aura nova para o seu cartão: a {name}. Seu perfil → seu cartão.",
+      "A aura {name}. Combinaria muito bem com o seu cartão."
+    ],
+    "newCardItem_backdrop": [
+      "Um cenário novo para o seu cartão: o {name}. Seu perfil → seu cartão.",
+      "O cenário {name}. Ele valoriza seu cartão com sofisticação."
+    ],
+    "newCardItem_sticker": [
+      "Uma figurinha nova para o seu cartão: a {name}. Seu perfil → seu cartão.",
+      "A figurinha {name}. Daria um toque charmoso ao seu cartão."
+    ],
+    "newCarPart_body": [
+      "Uma carroceria nova: a {name}. Seu perfil → seu cartão → garagem.",
+      "A carroceria {name}. Faria muito bonito na sua garagem."
+    ],
+    "newCarPart_paint": [
+      "Uma nova cor de pintura: {name}. Seu perfil → seu cartão → garagem.",
+      "A pintura {name}. Uma tonalidade refinada para o seu carro."
+    ],
+    "newCarPart_livery": [
+      "Um novo grafismo: {name}. Seu perfil → seu cartão → garagem.",
+      "O grafismo {name}. Um estilo distinto para o seu carro."
+    ],
+    "newCarPart_wheels": [
+      "Novas rodas para o seu carro: {name}. Seu perfil → seu cartão → garagem.",
+      "As rodas {name}. Elas assentariam muito bem no seu carro."
+    ],
+    "newCarPart_trail": [
+      "Um novo rastro para o seu carro: {name}. Seu perfil → seu cartão → garagem.",
+      "O rastro {name}. Ficaria deslumbrante atrás do seu carro."
     ]
   }
 }

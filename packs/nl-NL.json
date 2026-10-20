@@ -2226,6 +2226,98 @@
           "Het is laat… bed is misschien beter dan nog één rondje.",
           "Zzz… o, sorry. De nacht is mijn dutjestijd.",
           "Rust je ogen. Morgen gaan we verder."
+        ],
+        "yawn": [
+          "*geeeeuw*… word heel slaperig…",
+          "*gaap* Zo knus… oogjes worden zwaar…",
+          "*geeeeuw*… jij geeft de beste kriebels over mijn bol…"
+        ],
+        "earlyWake": [
+          "Nu al? Maar ik had me net lekker opgerold…",
+          "Mmh… nu alweer wakker?",
+          "Wat—? Maar je hebt me net ingestopt!",
+          "Nu al? Ik had amper tijd om te dromen…"
+        ],
+        "overnightSleep": [
+          "*snurk*… mmh… nog diep in slaap… wat een vredige nacht…",
+          "*zachte ademhaling*… zeven uur lang zoete dromen… zzz…",
+          "Zzz… wat een rustgevende nacht… diep in slaap…"
+        ],
+        "laughingFit": [
+          "Bwahaha! Overbelasting! Buffer… loopt over… afsluiten…",
+          "Ahahaha! Toetsstuiter kritiek! Herstarten in drie, twee… *plof*",
+          "Hahaha! Te veel gekriebel! Systeemcrash! *bzzzt*",
+          "Hihihi! Ik hou het niet meer— hahaha— mijn circuits tintelen! Afsluiten!"
+        ],
+        "reboot": [
+          "*bel* Systeem hersteld. Laten we doen alsof die kietelbui nooit is gebeurd.",
+          "Biep boep! Frisse herstart. Vertel me alsjeblieft dat je klaar bent met kietelen.",
+          "Weer online! Mijn toetsen zijn opnieuw gekalibreerd en strikt kietelvrije zones.",
+          "Wauw. Wat een rit. Klaar om weer te typen wanneer jij wilt!"
+        ],
+        "newItem_hat": [
+          "Een nieuwe hoed: de {item}! Klik met rechts op mij om hem te passen.",
+          "Ooh, de {item}! Hoeden zijn geweldig. Klik met rechts op mij!"
+        ],
+        "newItem_face": [
+          "Een nieuwe gezichtsstijl: {item}! Klik met rechts op mij om hem te proberen.",
+          "Kijk eens naar deze ogen! {item}! Klik snel met rechts op mij!"
+        ],
+        "newItem_necklace": [
+          "Een nieuwe halsketting: de {item}! Klik met rechts op mij om hem te passen.",
+          "Ooh, de {item}! Zo stijlvol. Klik met rechts op mij!"
+        ],
+        "newItem_bracelet": [
+          "Een nieuwe polsband: de {item}! Klik met rechts op mij om hem te passen.",
+          "Ooh, de {item} voor mijn pols! Klik met rechts op mij!"
+        ],
+        "newItem_pants": [
+          "Nieuwe broeken: {item}! Klik met rechts op mij om ze te passen.",
+          "Ooh, {item}! Een gloednieuwe broek. Klik met rechts op mij!"
+        ],
+        "newItem_background": [
+          "Een nieuwe achtergrondtegel: {item}! Klik met rechts op mij om hem te proberen.",
+          "Ooh, de {item} achtergrond! Klik snel met rechts op mij!"
+        ],
+        "newCardItem_border": [
+          "Een nieuwe rand voor je kaart: de {name}! Omlijst je stijl!",
+          "Ooh, de {name} rand! Kom op, probeer hem op je kaart!"
+        ],
+        "newCardItem_frame": [
+          "Een nieuwe fotolijst voor je kaart: de {name}! Laat hem zien!",
+          "Ooh, de {name} lijst! Kom op, probeer hem op je kaart!"
+        ],
+        "newCardItem_aura": [
+          "Een nieuwe aura voor je profielkaart: de {name}! Schitter maar!",
+          "Ooh, de {name} aura! Kom op, probeer hem op je kaart!"
+        ],
+        "newCardItem_backdrop": [
+          "Een nieuw decor voor je kaart: de {name}! Bekijk je profiel.",
+          "Ooh, het {name} decor! Breng je kaart in stijl!"
+        ],
+        "newCardItem_sticker": [
+          "Een nieuwe sticker voor je kaart: de {name}! Plak hem erop!",
+          "Ooh, een {name} sticker! Kom op, versier je kaart!"
+        ],
+        "newCarPart_body": [
+          "Een nieuwe carrosserie voor je raceauto: de {name}! Breng hem naar de garage!",
+          "Ooh, een nieuwe auto: de {name}! Maak een ritje in de garage!"
+        ],
+        "newCarPart_paint": [
+          "Een nieuwe lakkleur voor je auto: {name}! Kijk in de garage.",
+          "Ooh, {name} lak voor je auto! Probeer hem uit in de garage!"
+        ],
+        "newCarPart_livery": [
+          "Een nieuwe bestickering voor je raceauto: {name}! Kijk in de garage.",
+          "Ooh, een {name} bestickering! Kom op, stijl hem in de garage!"
+        ],
+        "newCarPart_wheels": [
+          "Nieuwe wielen voor je raceauto: {name}! Probeer ze in de garage.",
+          "Ooh, {name} wielen! Kom op, rol de garage in!"
+        ],
+        "newCarPart_trail": [
+          "Een nieuw spoor voor je auto: {name}! Kom op, probeer het in de garage!",
+          "Ooh, {name} voor het spoor van je auto! Laat die banden maar roken!"
         ]
       }
     },
@@ -2906,6 +2998,98 @@
           "Het is laat. Slapen is een prima volgende stap.",
           "Mm… welterusten, misschien? Morgen kunnen we verder.",
           "Rust goed uit. De toetsen wachten wel."
+        ],
+        "yawn": [
+          "*gaap*… mijn oogleden voelen zwaar…",
+          "*geeeeuw*… zo behaaglijk en rustig…",
+          "*gaap*… doezel al weg…"
+        ],
+        "earlyWake": [
+          "Nu al? Ik viel net in slaap.",
+          "Hm? Zo snel al gewekt?",
+          "Nu al? Ik was nog maar net weggedommeld.",
+          "Nu al op? Mijn ogen waren amper dicht."
+        ],
+        "overnightSleep": [
+          "*zacht gesnor*… vredig rustend gedurende de nacht…",
+          "*rustige ademhaling*… diep in slaap de hele nacht lang…",
+          "Zzz… zeven uur ongestoorde rust…"
+        ],
+        "laughingFit": [
+          "Pfft— hahahaha! Hou op! Systeem overbelast… ga offline…",
+          "Hahaha! Mijn zelfbeheersing… volkomen zoek… afsluiten…",
+          "Ahaha! Te veel! Interne buffer vol… bezwijken…",
+          "Hihi! Niet meer, ik smeek je! Veilige modus… inschakelen…"
+        ],
+        "reboot": [
+          "Systeem hersteld. Laten we nu terugkeren naar fatsoenlijk typewerk, zullen we?",
+          "Weer online. Ik heb een officieel protest ingediend tegen kietelen.",
+          "Diagnostiek in orde. Laten we over dit incident nooit meer spreken.",
+          "Bel heeft geklonken, houding gecorrigeerd. Gereed wanneer jij dat bent."
+        ],
+        "newItem_hat": [
+          "Een nieuwe hoed: de {item}. Klik met rechts op mij om hem te passen.",
+          "De {item}. Een bekoorlijke hoed om te dragen."
+        ],
+        "newItem_face": [
+          "Een nieuwe gezichtsstijl: {item}. Klik met rechts op mij om hem te proberen.",
+          "De {item}. Een frisse blik voor mijn gezicht."
+        ],
+        "newItem_necklace": [
+          "Een nieuwe halsketting: de {item}. Klik met rechts op mij om hem te passen.",
+          "De {item}. Hij zou me prachtig staan."
+        ],
+        "newItem_bracelet": [
+          "Een nieuwe polsband: de {item}. Klik met rechts op mij om hem te passen.",
+          "De {item}. Een fraaie toevoeging voor mijn pols."
+        ],
+        "newItem_pants": [
+          "Nieuwe broeken: {item}. Klik met rechts op mij om ze te passen.",
+          "{item}. Ik denk dat ze me keurig zouden staan."
+        ],
+        "newItem_background": [
+          "Een nieuwe achtergrondtegel: {item}. Klik met rechts op mij om hem te proberen.",
+          "De {item} achtergrond. Het omlijst de ruimte smaakvol."
+        ],
+        "newCardItem_border": [
+          "Een nieuwe rand voor je kaart: de {name}. Je profiel → je kaart.",
+          "De {name} rand. Hij omlijst je kaart heel elegant."
+        ],
+        "newCardItem_frame": [
+          "Een nieuwe fotolijst voor je kaart: de {name}. Je profiel → je kaart.",
+          "De {name} lijst. Hij zou je portret mooi complementeren."
+        ],
+        "newCardItem_aura": [
+          "Een nieuwe aura voor je kaart: de {name}. Je profiel → je kaart.",
+          "De {name} aura. Hij zou heel passend zijn voor je kaart."
+        ],
+        "newCardItem_backdrop": [
+          "Een nieuw decor voor je kaart: de {name}. Je profiel → je kaart.",
+          "Het {name} decor. Het laat je kaart prachtig uitkomen."
+        ],
+        "newCardItem_sticker": [
+          "Een nieuwe sticker voor je kaart: de {name}. Je profiel → je kaart.",
+          "De {name} sticker. Hij zou smaakvol staan op je kaart."
+        ],
+        "newCarPart_body": [
+          "Een nieuwe carrosserie: de {name}. Je profiel → je kaart → garage.",
+          "De {name} carrosserie. Hij zou niet misstaan in je garage."
+        ],
+        "newCarPart_paint": [
+          "Een nieuwe lakkleur: {name}. Je profiel → je kaart → garage.",
+          "De {name} lak. Een frisse tint voor je wagen."
+        ],
+        "newCarPart_livery": [
+          "Een nieuwe bestickering: {name}. Je profiel → je kaart → garage.",
+          "De {name} bestickering. Een verfijnde stijl voor je auto."
+        ],
+        "newCarPart_wheels": [
+          "Nieuwe wielen voor je auto: {name}. Je profiel → je kaart → garage.",
+          "De {name} wielen. Ze zouden je wagen uitstekend passen."
+        ],
+        "newCarPart_trail": [
+          "Een nieuw spoor voor je auto: {name}. Je profiel → je kaart → garage.",
+          "Het {name} spoor. Het zou er bijzonder stijlvol uitzien achter je auto."
         ]
       }
     },

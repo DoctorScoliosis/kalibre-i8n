@@ -472,6 +472,98 @@
       "È tardi. Dormire è un buon prossimo passo.",
       "Mmm… buonanotte, forse? Possiamo continuare domani.",
       "Riposa bene. I tasti resteranno qui."
+    ],
+    "yawn": [
+      "*sbadiglio*… le palpebre mi si fanno pesanti…",
+      "*sbaaaaviglio*… che calma e tepore…",
+      "*sbadiglio*… mi sto già addormentando…"
+    ],
+    "earlyWake": [
+      "Già? Mi stavo appena addormentando.",
+      "Mmh? Svegliata così presto?",
+      "Già? Mi ero assopita soltanto da un istante.",
+      "Già in piedi? Avevo a malapena chiuso gli occhi."
+    ],
+    "overnightSleep": [
+      "*fusa delicate*… riposo tranquillo per tutta la notte…",
+      "*respiro dolce*… sonno sereno per tutta la notte…",
+      "Zzz… sette ore di riposo indisturbato…"
+    ],
+    "laughingFit": [
+      "Pfft— hahahaha! Basta! Sovraccarico di sistema… vado offline…",
+      "Hahaha! Il mio contegno… completamente distrutto… mi spengo…",
+      "Ahaha! È troppo! Buffer interno colmo… sto cedendo…",
+      "Hehe! Non più, te ne prego! Modalità provvisoria… attivazione…"
+    ],
+    "reboot": [
+      "Sistema ripristinato. Ora torniamo a una digitazione decorosa, ti va?",
+      "Di nuovo online. Ho sporto formale protesta contro il solletico.",
+      "Diagnostica impeccabile. Non faremo mai più parola di questo collasso.",
+      "Segnale acustico emesso, postura corretta. Pronta quando lo sei tu."
+    ],
+    "newItem_hat": [
+      "Un cappello nuovo: il {item}. Cliccami col tasto destro per provarlo.",
+      "Il {item}. Un copricapo davvero delizioso."
+    ],
+    "newItem_face": [
+      "Un nuovo stile per il viso: {item}. Cliccami col tasto destro per provarlo.",
+      "Il {item}. Un tocco fresco per il mio viso."
+    ],
+    "newItem_necklace": [
+      "Una collana nuova: la {item}. Cliccami col tasto destro per provarla.",
+      "La {item}. Mi donerebbe moltissimo."
+    ],
+    "newItem_bracelet": [
+      "Un bracciale nuovo: il {item}. Cliccami col tasto destro per provarlo.",
+      "Il {item}. Un grazioso ornamento per il mio polso."
+    ],
+    "newItem_pants": [
+      "Pantaloni nuovi: {item}. Cliccami col tasto destro per provarli.",
+      "{item}. Credo che mi starebbero benissimo."
+    ],
+    "newItem_background": [
+      "Un nuovo sfondo: {item}. Cliccami col tasto destro per provarlo.",
+      "Lo sfondo {item}. Incornicia lo spazio con molta grazia."
+    ],
+    "newCardItem_border": [
+      "Un bordo nuovo per la tua scheda: il {name}. Il tuo profilo → la tua scheda.",
+      "Il bordo {name}. Incornicia la tua scheda con eleganza."
+    ],
+    "newCardItem_frame": [
+      "Una nuova cornice per la tua scheda: la {name}. Il tuo profilo → la tua scheda.",
+      "La cornice {name}. Si adatterebbe benissimo al tuo ritratto."
+    ],
+    "newCardItem_aura": [
+      "Un’aura nuova per la tua scheda: la {name}. Il tuo profilo → la tua scheda.",
+      "L’aura {name}. Sarebbe perfetta per la tua scheda."
+    ],
+    "newCardItem_backdrop": [
+      "Un nuovo scenario per la tua scheda: il {name}. Il tuo profilo → la tua scheda.",
+      "Lo scenario {name}. Valorizza splendidamente la tua scheda."
+    ],
+    "newCardItem_sticker": [
+      "Un nuovo adesivo per la tua scheda: il {name}. Il tuo profilo → la tua scheda.",
+      "L’adesivo {name}. Donerebbe un tocco raffinato alla tua scheda."
+    ],
+    "newCarPart_body": [
+      "Una carrozzeria nuova: la {name}. Il tuo profilo → la tua scheda → garage.",
+      "La carrozzeria {name}. Farebbe una splendida figura nel tuo garage."
+    ],
+    "newCarPart_paint": [
+      "Un nuovo colore di vernice: {name}. Il tuo profilo → la tua scheda → garage.",
+      "La vernice {name}. Un colore fresco ed elegante per la tua auto."
+    ],
+    "newCarPart_livery": [
+      "Una nuova livrea: {name}. Il tuo profilo → la tua scheda → garage.",
+      "La livrea {name}. Un tocco di classe per la tua auto."
+    ],
+    "newCarPart_wheels": [
+      "Nuove ruote per la tua auto: {name}. Il tuo profilo → la tua scheda → garage.",
+      "Le ruote {name}. Si addicono magnificamente alla tua auto."
+    ],
+    "newCarPart_trail": [
+      "Una nuova scia per la tua auto: {name}. Il tuo profilo → la tua scheda → garage.",
+      "La scia {name}. Farebbe una figura splendida dietro la tua auto."
     ]
   }
 }

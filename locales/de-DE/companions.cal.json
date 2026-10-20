@@ -472,6 +472,98 @@
       "Es ist spät... das Bett könnte noch eine Runde schlagen.",
       "Zzz... oh, sorry. Die Nacht ist meine Nickerchenzeit.",
       "Ruhe deine Augen. Wir werden das morgen abholen."
+    ],
+    "yawn": [
+      "*gääähn*… werde langsam sehr schläfrig…",
+      "*gähn* So gemütlich… Augen werden schwer…",
+      "*gääähn*… du kraulst am allerbesten am Kopf…"
+    ],
+    "earlyWake": [
+      "Jetzt schon? Aber ich habe mich gerade erst eingekuschelt…",
+      "Mmh… schon wieder wach?",
+      "Wie—? Aber du hast mich doch gerade erst zugedeckt!",
+      "Jetzt schon? Ich hatte kaum Zeit zum Träumen…"
+    ],
+    "overnightSleep": [
+      "*schnarch*… mmh… noch tief und fest am Schlafen… was für eine friedliche Nacht…",
+      "*leises Atmen*… sieben Stunden süße Träume… zzz…",
+      "Zzz… was für eine erholsame Nacht… tief und fest…"
+    ],
+    "laughingFit": [
+      "Bwahaha! Überlastung! Puffer… Überlauf… fahre herunter…",
+      "Ahahaha! Tastensprellung kritisch! Neustart in drei, zwei… *plumps*",
+      "Hahaha! Zu viel Kitzeln! Systemabsturz! *bzzzt*",
+      "Hehehe! Ich kann nicht mehr— hahaha— meine Schaltkreise kribbeln! Fahre herunter!"
+    ],
+    "reboot": [
+      "*Gong* System wiederhergestellt. Tun wir so, als hätte es das Kitzeln nie gegeben.",
+      "Beep boop! Frischer Neustart. Bitte sag mir, dass du mit dem Kitzeln fertig bist.",
+      "Wieder online! Meine Tasten sind neu kalibriert und strikte kitzelfreie Zonen.",
+      "Huch. Was für eine Fahrt. Bereit zum Tippen, wann immer du willst!"
+    ],
+    "newItem_hat": [
+      "Ein neuer Hut: der {item}! Klicke mit rechts auf mich, um ihn anzuprobieren.",
+      "Ooh, der {item}! Hüte sind das Beste. Rechtsklick auf mich!"
+    ],
+    "newItem_face": [
+      "Ein neuer Gesichtsstil: {item}! Klicke mit rechts auf mich, um ihn auszuprobieren.",
+      "Schau dir diese Augen an! {item}! Rechtsklick auf mich, schnell!"
+    ],
+    "newItem_necklace": [
+      "Eine neue Halskette: die {item}! Klicke mit rechts auf mich, um sie anzuprobieren.",
+      "Ooh, die {item}! So schick. Rechtsklick auf mich!"
+    ],
+    "newItem_bracelet": [
+      "Ein neues Armband: das {item}! Klicke mit rechts auf mich, um es anzuprobieren.",
+      "Ooh, das {item} für mein Handgelenk! Rechtsklick auf mich!"
+    ],
+    "newItem_pants": [
+      "Neue Hosen: {item}! Klicke mit rechts auf mich, um sie anzuprobieren.",
+      "Ooh, {item}! Brandneue Beinkleider. Rechtsklick auf mich!"
+    ],
+    "newItem_background": [
+      "Eine neue Hintergrundkachel: {item}! Klicke mit rechts auf mich, um sie auszuprobieren.",
+      "Ooh, der Hintergrund {item}! Rechtsklick auf mich, schnell!"
+    ],
+    "newCardItem_border": [
+      "Ein neuer Rahmen für deine Karte: {name}! Zeige deinen Stil!",
+      "Ooh, der Rahmen {name}! Los, probiere ihn auf deiner Karte aus!"
+    ],
+    "newCardItem_frame": [
+      "Ein neuer Bildrahmen für deine Karte: {name}! Zeige ihn her!",
+      "Ooh, der Bildrahmen {name}! Los, probiere ihn auf deiner Karte aus!"
+    ],
+    "newCardItem_aura": [
+      "Eine neue Aura für deine Profilkarte: {name}! Bringe sie zum Strahlen!",
+      "Ooh, die Aura {name}! Los, probiere sie auf deiner Karte aus!"
+    ],
+    "newCardItem_backdrop": [
+      "Ein neuer Hintergrund für deine Karte: {name}! Sieh in deinem Profil nach.",
+      "Ooh, die Kulisse {name}! Setze deine Karte in Szene!"
+    ],
+    "newCardItem_sticker": [
+      "Ein neuer Sticker für deine Karte: {name}! Klebe ihn auf!",
+      "Ooh, ein Sticker {name}! Los, dekoriere deine Karte!"
+    ],
+    "newCarPart_body": [
+      "Eine neue Karosserie für deinen Rennwagen: {name}! Fahre damit in die Garage!",
+      "Ooh, ein neues Auto: {name}! Drehe eine Runde damit in der Garage!"
+    ],
+    "newCarPart_paint": [
+      "Eine neue Lackfarbe für dein Auto: {name}! Sieh in der Garage nach.",
+      "Ooh, Lackfarbe {name} für dein Auto! Probiere sie in der Garage aus!"
+    ],
+    "newCarPart_livery": [
+      "Eine neue Lackierung für deinen Rennwagen: {name}! Sieh in der Garage nach.",
+      "Ooh, eine Lackierung {name}! Los, style dein Auto in der Garage!"
+    ],
+    "newCarPart_wheels": [
+      "Neue Räder für deinen Rennwagen: {name}! Probiere sie in der Garage aus.",
+      "Ooh, Räder {name}! Los, rolle in die Garage!"
+    ],
+    "newCarPart_trail": [
+      "Eine neue Spur für dein Auto: {name}! Los, probiere sie in der Garage aus!",
+      "Ooh, {name} als Spur für dein Auto! Gib ordentlich Gummi!"
     ]
   }
 }

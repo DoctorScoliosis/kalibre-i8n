@@ -472,6 +472,98 @@
       "Det är sent… sängen kanske slår ett varv till.",
       "Zzz… åh, förlåt. Nattetid är min tupplurstid.",
       "Vila ögonen. Vi fortsätter i morgon."
+    ],
+    "yawn": [
+      "*gäsp*… börjar bli väldigt sömnig…",
+      "*gäsp* Så mysigt… ögonen känns tunga…",
+      "*gäsp*… du ger de bästa kliande fingrarna på huvudet…"
+    ],
+    "earlyWake": [
+      "Redan? Men jag hade ju precis rullat ihop mig…",
+      "Mmh… vaken igen redan?",
+      "Vad—? Men du bäddade ju precis ner mig!",
+      "Redan? Jag hann knappt börja drömma…"
+    ],
+    "overnightSleep": [
+      "*snark*… mmh… sover fortfarande djupt… en så fridfull natt…",
+      "*mjuk andning*… sju timmar av söta drömmar… zzz…",
+      "Zzz… vilken vilsam natt… sover så gott…"
+    ],
+    "laughingFit": [
+      "Bwahaha! Överbelastning! Bufferten… rinner över… stänger av…",
+      "Ahahaha! Kritiskt tangentstuds! Startar om om tre, två… *duns*",
+      "Hahaha! För mycket kittlande! Systemkrasch! *bzzzt*",
+      "Hihihi! Jag klarar inte— hahaha— kretsarna pirrar! Stänger av!"
+    ],
+    "reboot": [
+      "*pling* Systemet återställt. Låt oss låtsas att det där kittlandet aldrig hände.",
+      "Pip boop! Fräsch omstart. Säg att du är klar med att kittlas nu.",
+      "Tillbaka online! Mina tangenter är omkalibrerade och strikt kittelfria zoner.",
+      "Oj då. Vilken resa. Redo att skriva igen när du vill!"
+    ],
+    "newItem_hat": [
+      "En ny hatt: {item}! Högerklicka på mig för att prova den.",
+      "Ooh, {item}! Hattar är bäst. Högerklicka på mig!"
+    ],
+    "newItem_face": [
+      "En ny ansiktsstil: {item}! Högerklicka på mig för att prova den.",
+      "Kolla in de här ögonen! {item}! Högerklicka på mig, snabbt!"
+    ],
+    "newItem_necklace": [
+      "Ett nytt halsband: {item}! Högerklicka på mig för att prova det.",
+      "Ooh, {item}! Så snyggt. Högerklicka på mig!"
+    ],
+    "newItem_bracelet": [
+      "Ett nytt armband: {item}! Högerklicka på mig för att prova det.",
+      "Ooh, {item} för min handled! Högerklicka på mig!"
+    ],
+    "newItem_pants": [
+      "Nya byxor: {item}! Högerklicka på mig för att prova dem.",
+      "Ooh, {item}! Helt nya byxor. Högerklicka på mig!"
+    ],
+    "newItem_background": [
+      "En ny bakgrundsplatta: {item}! Högerklicka på mig för att prova den.",
+      "Ooh, bakgrunden {item}! Högerklicka på mig, snabbt!"
+    ],
+    "newCardItem_border": [
+      "En ny ram till ditt kort: {name}! Rama in din stil!",
+      "Ooh, ramen {name}! Kom igen, prova den på ditt kort!"
+    ],
+    "newCardItem_frame": [
+      "En ny bildram till ditt kort: {name}! Visa upp den!",
+      "Ooh, ramen {name}! Kom igen, prova den på ditt kort!"
+    ],
+    "newCardItem_aura": [
+      "En ny aura till ditt profilkort: {name}! Stråla på!",
+      "Ooh, auran {name}! Kom igen, prova den på ditt kort!"
+    ],
+    "newCardItem_backdrop": [
+      "En ny fond till ditt kort: {name}! Kolla din profil.",
+      "Ooh, fonden {name}! Sätt scenen på ditt kort!"
+    ],
+    "newCardItem_sticker": [
+      "Ett nytt klistermärke till ditt kort: {name}! Klistra fast det!",
+      "Ooh, ett {name}-klistermärke! Kom igen, dekorera ditt kort!"
+    ],
+    "newCarPart_body": [
+      "En ny kaross till din racingbil: {name}! Ta den till garaget!",
+      "Ooh, en ny bil: {name}! Ta en tur till garaget!"
+    ],
+    "newCarPart_paint": [
+      "En ny lackfärg till din bil: {name}! Kolla i garaget.",
+      "Ooh, {name}-lack till din bil! Prova den i garaget!"
+    ],
+    "newCarPart_livery": [
+      "En ny dekor till din racingbil: {name}! Kolla i garaget.",
+      "Ooh, en {name}-dekor! Kom igen, styla den i garaget!"
+    ],
+    "newCarPart_wheels": [
+      "Nya hjul till din racingbil: {name}! Prova dem i garaget.",
+      "Ooh, {name}-hjul! Rulla in i garaget!"
+    ],
+    "newCarPart_trail": [
+      "Ett nytt spår till din bil: {name}! Kom igen, prova det i garaget!",
+      "Ooh, {name} till bilens spår! Rök på!"
     ]
   }
 }

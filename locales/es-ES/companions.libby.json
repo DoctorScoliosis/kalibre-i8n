@@ -472,6 +472,98 @@
       "Es tarde. Dormir es un buen siguiente paso.",
       "Mmm… ¿buenas noches, quizá? Mañana seguimos.",
       "Descansa bien. Las teclas esperarán."
+    ],
+    "yawn": [
+      "*bostezo*… me pesan los párpados…",
+      "*bosteezo*… qué calma y qué calidez…",
+      "*bostezo*… me quedo dormida ya…"
+    ],
+    "earlyWake": [
+      "¿Ya? Me estaba quedando dormida justo ahora.",
+      "¿Mmh? ¿Despertada tan pronto?",
+      "¿Ya? Si apenas me había quedado traspuesta.",
+      "¿Arriba ya? Apenas había cerrado los ojos."
+    ],
+    "overnightSleep": [
+      "*ronroneo suave*… descansando plácidamente toda la noche…",
+      "*respiración tranquila*… profundamente dormida durante toda la noche…",
+      "Zzz… siete horas de descanso sin interrupciones…"
+    ],
+    "laughingFit": [
+      "Pfft— ¡jajajaja! ¡Basta! Sobrecarga del sistema… desconectando…",
+      "¡Jajaja! Mi compostura… completamente rota… apagando…",
+      "¡Ajaja! ¡Es demasiado! Búfer interno lleno… colapsando…",
+      "¡Jeje! ¡No más, te lo suplico! Modo seguro… activando…"
+    ],
+    "reboot": [
+      "Sistema restaurado. Ahora volvamos a la mecanografía adecuada, ¿te parece?",
+      "De nuevo en línea. He presentado una queja formal contra las cosquillas.",
+      "Diagnóstico limpio. No volvamos a hablar jamás de ese colapso.",
+      "Campanada sonada, postura corregida. Lista cuando tú lo estés."
+    ],
+    "newItem_hat": [
+      "Un sombrero nuevo: el {item}. Haz clic derecho sobre mí para probártelo.",
+      "El {item}. Un sombrero encantador para llevar."
+    ],
+    "newItem_face": [
+      "Un estilo de cara nuevo: {item}. Haz clic derecho sobre mí para probarlo.",
+      "El {item}. Un aspecto fresco para mi cara."
+    ],
+    "newItem_necklace": [
+      "Un collar nuevo: el {item}. Haz clic derecho sobre mí para probarlo.",
+      "El {item}. Creo que me sentaría de maravilla."
+    ],
+    "newItem_bracelet": [
+      "Una pulsera nueva: el {item}. Haz clic derecho sobre mí para probarla.",
+      "El {item}. Un complemento precioso para mi muñeca."
+    ],
+    "newItem_pants": [
+      "Pantalones nuevos: {item}. Haz clic derecho sobre mí para probártelos.",
+      "{item}. Creo que me quedarían muy bien."
+    ],
+    "newItem_background": [
+      "Un fondo nuevo: {item}. Haz clic derecho sobre mí para probarlo.",
+      "El fondo {item}. Enmarca el espacio con gran elegancia."
+    ],
+    "newCardItem_border": [
+      "Un borde nuevo para tu tarjeta: el {name}. Tu perfil → tu tarjeta.",
+      "El borde {name}. Enmarca tu tarjeta con elegancia."
+    ],
+    "newCardItem_frame": [
+      "Un marco de foto nuevo para tu tarjeta: el {name}. Tu perfil → tu tarjeta.",
+      "El marco {name}. Le sentaría muy bien a tu retrato."
+    ],
+    "newCardItem_aura": [
+      "Un aura nueva para tu tarjeta: la {name}. Tu perfil → tu tarjeta.",
+      "El aura {name}. Le quedaría muy distinguida a tu tarjeta."
+    ],
+    "newCardItem_backdrop": [
+      "Un fondo nuevo para tu tarjeta: el {name}. Tu perfil → tu tarjeta.",
+      "El fondo {name}. Realza tu tarjeta con distinción."
+    ],
+    "newCardItem_sticker": [
+      "Una pegatina nueva para tu tarjeta: la {name}. Tu perfil → tu tarjeta.",
+      "La pegatina {name}. Quedaría muy elegante en tu tarjeta."
+    ],
+    "newCarPart_body": [
+      "Una carrocería nueva: la {name}. Tu perfil → tu tarjeta → garaje.",
+      "La carrocería {name}. Encajaría muy bien en tu garaje."
+    ],
+    "newCarPart_paint": [
+      "Un color de pintura nuevo: {name}. Tu perfil → tu tarjeta → garaje.",
+      "La pintura {name}. Un color muy fresco para tu coche."
+    ],
+    "newCarPart_livery": [
+      "Una decoración nueva: {name}. Tu perfil → tu tarjeta → garaje.",
+      "La decoración {name}. Un nuevo estilo distinguido para tu coche."
+    ],
+    "newCarPart_wheels": [
+      "Ruedas nuevas para tu coche: {name}. Tu perfil → tu tarjeta → garaje.",
+      "Las ruedas {name}. Le sentarían estupendamente a tu coche."
+    ],
+    "newCarPart_trail": [
+      "Una estela nueva para tu coche: {name}. Tu perfil → tu tarjeta → garaje.",
+      "La estela {name}. Luciría de maravilla detrás de tu coche."
     ]
   }
 }

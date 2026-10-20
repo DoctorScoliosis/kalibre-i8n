@@ -2226,6 +2226,98 @@
           "Il est tard… le lit pourrait battre un autre tour.",
           "Zzz… oh, désolé. La nuit, c'est mon heure de sieste.",
           "Repose tes yeux. On reprendra demain."
+        ],
+        "yawn": [
+          "*bâââillement*… je commence à avoir très sommeil…",
+          "*bâillement* Si douillet… les paupières se font lourdes…",
+          "*bâââillement*… tu fais les meilleures caresses sur la tête…"
+        ],
+        "earlyWake": [
+          "Déjà ? Mais je venais tout juste de me pelotonner…",
+          "Mmh… déjà réveillé ?",
+          "Quoi— ? Mais tu viens de me border !",
+          "Déjà ? J’ai à peine eu le temps de commencer à rêver…"
+        ],
+        "overnightSleep": [
+          "*ronflement*… mmh… toujours profondément endormi… quelle nuit paisible…",
+          "*respiration douce*… sept heures de beaux rêves… zzz…",
+          "Zzz… quelle nuit reposante… endormi comme un loir…"
+        ],
+        "laughingFit": [
+          "Bwahaha ! Surcharge ! Dépassement… de tampon… extinction en cours…",
+          "Ahahaha ! Rebond de touche critique ! Redémarrage dans trois, deux… *boum*",
+          "Hahaha ! Trop de chatouilles ! Crash système ! *bzzzt*",
+          "Héhéhé ! Je ne peux plus— hahaha— mes circuits picotent ! Extinction !"
+        ],
+        "reboot": [
+          "*carillon* Système restauré. Faisons comme si ces chatouilles n’avaient jamais existé.",
+          "Bip boop ! Nouveau départ. S’il te plaît, dis-moi que tu as fini de me chatouiller.",
+          "De nouveau en ligne ! Mes touches sont recalibrées et strictement interdites aux chatouilles.",
+          "Ouah. Quelle aventure. Prêt à taper quand tu veux !"
+        ],
+        "newItem_hat": [
+          "Un nouveau chapeau : le {item} ! Fais un clic droit sur moi pour l’essayer.",
+          "Ooh, le {item} ! Les chapeaux, c’est le top. Clic droit sur moi !"
+        ],
+        "newItem_face": [
+          "Un nouveau style de visage : {item} ! Fais un clic droit sur moi pour l’essayer.",
+          "Regarde ces yeux ! {item} ! Clic droit sur moi, vite !"
+        ],
+        "newItem_necklace": [
+          "Un nouveau collier : le {item} ! Fais un clic droit sur moi pour l’essayer.",
+          "Ooh, le {item} ! Trop classe. Clic droit sur moi !"
+        ],
+        "newItem_bracelet": [
+          "Un nouveau bracelet : le {item} ! Fais un clic droit sur moi pour l’essayer.",
+          "Ooh, le {item} pour mon poignet ! Clic droit sur moi !"
+        ],
+        "newItem_pants": [
+          "Un nouveau bas : {item} ! Fais un clic droit sur moi pour l’essayer.",
+          "Ooh, {item} ! Un pantalon tout neuf. Clic droit sur moi !"
+        ],
+        "newItem_background": [
+          "Une nouvelle tuile de fond : {item} ! Fais un clic droit sur moi pour l’essayer.",
+          "Ooh, le fond {item} ! Clic droit sur moi, vite !"
+        ],
+        "newCardItem_border": [
+          "Une nouvelle bordure pour votre carte : la {name} ! Affichez votre style !",
+          "Ooh, la bordure {name} ! Allez, essayez-la sur votre carte !"
+        ],
+        "newCardItem_frame": [
+          "Un nouveau cadre photo pour votre carte : le {name} ! Montrez-le fièrement !",
+          "Ooh, le cadre {name} ! Allez, essayez-le sur votre carte !"
+        ],
+        "newCardItem_aura": [
+          "Une nouvelle aura pour votre carte de profil : la {name} ! Brillez de mille feux !",
+          "Ooh, l’aura {name} ! Allez, essayez-la sur votre carte !"
+        ],
+        "newCardItem_backdrop": [
+          "Un nouveau décor pour votre carte : le {name} ! Regardez votre profil.",
+          "Ooh, le décor {name} ! Mettez en scène votre carte !"
+        ],
+        "newCardItem_sticker": [
+          "Un nouvel autocollant pour votre carte : le {name} ! Collez-le !",
+          "Ooh, un autocollant {name} ! Allez, décorez votre carte !"
+        ],
+        "newCarPart_body": [
+          "Une nouvelle carrosserie pour votre bolide : la {name} ! Au garage !",
+          "Ooh, une nouvelle voiture : la {name} ! Faites un tour au garage !"
+        ],
+        "newCarPart_paint": [
+          "Une nouvelle peinture pour votre voiture : {name} ! Direction le garage.",
+          "Ooh, peinture {name} pour votre voiture ! Essayez-la au garage !"
+        ],
+        "newCarPart_livery": [
+          "Une nouvelle livrée pour votre bolide : {name} ! Direction le garage.",
+          "Ooh, une livrée {name} ! Allez, personnalisez-la au garage !"
+        ],
+        "newCarPart_wheels": [
+          "De nouvelles roues pour votre bolide : {name} ! Essayez-les au garage.",
+          "Ooh, les roues {name} ! En route pour le garage !"
+        ],
+        "newCarPart_trail": [
+          "Une nouvelle traînée pour votre bolide : {name} ! Allez, essayez-la au garage !",
+          "Ooh, {name} pour la traînée de votre voiture ! Faites fumer la gomme !"
         ]
       }
     },
@@ -2906,6 +2998,98 @@
           "Il est tard. Dormir est une bonne prochaine étape.",
           "Mm… bonne nuit, peut-être ? On peut continuer demain.",
           "Repose-toi bien. Les touches t'attendront."
+        ],
+        "yawn": [
+          "*bâillement*… mes paupières se font lourdes…",
+          "*bâââillement*… si doux et calme…",
+          "*bâillement*… je m’endors déjà…"
+        ],
+        "earlyWake": [
+          "Déjà ? Je m’endormais à peine.",
+          "Mmh ? Réveillée si tôt ?",
+          "Déjà ? Je venais tout juste de m’assoupir.",
+          "Déjà debout ? Mes yeux étaient à peine fermés."
+        ],
+        "overnightSleep": [
+          "*ronronnement doux*… repos paisible tout au long de la nuit…",
+          "*respiration légère*… endormie d’un sommeil profond toute la nuit…",
+          "Zzz… sept heures de repos sans la moindre interruption…"
+        ],
+        "laughingFit": [
+          "Pfft— hahahaha ! Arrête ! Surcharge système… passage hors ligne…",
+          "Hahaha ! Mon calme… entièrement anéanti… extinction en cours…",
+          "Ahaha ! C’est trop ! Mémoire tampon saturée… je m’effondre…",
+          "Héhé ! Pas plus, je t’en conjure ! Mode sans échec… activation…"
+        ],
+        "reboot": [
+          "Système restauré. Si nous revenions à une frappe appliquée, veux-tu ?",
+          "De nouveau en ligne. J’ai déposé une réclamation officielle contre les chatouilles.",
+          "Diagnostics au vert. Ne reparlons plus jamais de cet effondrement.",
+          "Carillon sonné, posture impeccable. Prête quand tu veux."
+        ],
+        "newItem_hat": [
+          "Un nouveau chapeau : le {item}. Fais un clic droit sur moi pour l’essayer.",
+          "Le {item}. Un couvre-chef fort charmant."
+        ],
+        "newItem_face": [
+          "Un nouveau style de visage : {item}. Fais un clic droit sur moi pour l’essayer.",
+          "Le {item}. Un regard rafraîchi pour mon visage."
+        ],
+        "newItem_necklace": [
+          "Un nouveau collier : le {item}. Fais un clic droit sur moi pour l’essayer.",
+          "Le {item}. Il m’irait à ravir."
+        ],
+        "newItem_bracelet": [
+          "Un nouveau bracelet : le {item}. Fais un clic droit sur moi pour l’essayer.",
+          "Le {item}. Une parure très distinguée pour mon poignet."
+        ],
+        "newItem_pants": [
+          "Un nouveau bas : {item}. Fais un clic droit sur moi pour l’essayer.",
+          "{item}. Je crois qu’il m’irait fort bien."
+        ],
+        "newItem_background": [
+          "Une nouvelle tuile de fond : {item}. Fais un clic droit sur moi pour l’essayer.",
+          "Le fond {item}. Il habille l’espace avec délicatesse."
+        ],
+        "newCardItem_border": [
+          "Une nouvelle bordure pour votre carte : la {name}. Votre profil → votre carte.",
+          "La bordure {name}. Elle encadre votre carte avec élégance."
+        ],
+        "newCardItem_frame": [
+          "Un nouveau cadre photo pour votre carte : le {name}. Votre profil → votre carte.",
+          "Le cadre {name}. Il sublimera votre portrait."
+        ],
+        "newCardItem_aura": [
+          "Une nouvelle aura pour votre carte : la {name}. Votre profil → votre carte.",
+          "L’aura {name}. Elle conviendra à merveille à votre carte."
+        ],
+        "newCardItem_backdrop": [
+          "Un nouveau décor pour votre carte : le {name}. Votre profil → votre carte.",
+          "Le décor {name}. Il met remarquablement en valeur votre carte."
+        ],
+        "newCardItem_sticker": [
+          "Un nouvel autocollant pour votre carte : le {name}. Votre profil → votre carte.",
+          "L’autocollant {name}. Il embellira votre carte avec goût."
+        ],
+        "newCarPart_body": [
+          "Une nouvelle carrosserie : la {name}. Votre profil → votre carte → garage.",
+          "La carrosserie {name}. Elle fera honneur à votre garage."
+        ],
+        "newCarPart_paint": [
+          "Une nouvelle couleur de peinture : {name}. Votre profil → votre carte → garage.",
+          "La peinture {name}. Une nuance pleine de fraîcheur pour votre voiture."
+        ],
+        "newCarPart_livery": [
+          "Une nouvelle livrée : {name}. Votre profil → votre carte → garage.",
+          "La livrée {name}. Un style raffiné pour votre voiture."
+        ],
+        "newCarPart_wheels": [
+          "De nouvelles roues pour votre voiture : {name}. Votre profil → votre carte → garage.",
+          "Les roues {name}. Elles siéront parfaitement à votre bolide."
+        ],
+        "newCarPart_trail": [
+          "Une nouvelle traînée pour votre bolide : {name}. Votre profil → votre carte → garage.",
+          "La traînée {name}. Elle sera du plus bel effet derrière votre voiture."
         ]
       }
     },
