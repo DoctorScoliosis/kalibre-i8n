@@ -102,6 +102,25 @@
       "bytes": 321069
     },
     {
+      "id": "nb-NO",
+      "name": "Norsk bokmål",
+      "englishName": "Norwegian Bokmål (Norway)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 8,
+      "version": "2026-10-21",
+      "reviewed": "machine",
+      "translationProgress": {
+        "translatedMessages": 5531,
+        "totalMessages": 5531
+      },
+      "changes": "Complete Norwegian Bokmål translation (all 27 areas, 5,531 messages); achievements, commands, companions, games, quests, race added; Swedish/Danish remnants purged and legacy strings corrected",
+      "path": "locales/nb-NO/manifest.json",
+      "pack": "packs/nb-NO.json",
+      "sha256": "23a1ceae285f3d0a28cd038a5ed126d24278f8e612e856841c9a974fb2df9ecc",
+      "bytes": 393208
+    },
+    {
       "id": "nl-NL",
       "name": "Nederlands (Nederland)",
       "englishName": "Dutch (Netherlands)",

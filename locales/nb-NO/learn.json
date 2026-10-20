@@ -122,10 +122,19 @@
   },
   "steps": {
     "keys": {
-      "title": "de nye tastene var for sig"
+      "title": "de nye tastene hver for seg"
     },
     "mix": {
       "title": "de nye tastene med resten"
+    },
+    "pairs": {
+      "title": "tastpar og mønstre"
+    },
+    "vowels": {
+      "title": "vokaler og vanlige bokstaver"
+    },
+    "reaches": {
+      "title": "strekk fra hjemmeraden"
     }
   },
   "ui": {
@@ -138,20 +147,20 @@
     "status_locked": "låst",
     "stats_summary": "best {wpm} wpm · {accuracy}% · {attempts, plural, one {# Prøv} other {# Prøv}}",
     "prerequisite": "Mestre {prereq} først",
-    "intro": "Lærer dig skrive uten å se, en gruppe taster i taget. Hver leksjon åpnes når den forrige er mestret: 25 wpm med 95 % nøyaktighet over minst 30 ord. Leksjoned gir XP og räknas mot et daglig XP-mål.",
+    "intro": "Lærer deg å skrive uten å se på tastaturet, noen taster om gangen. Hver leksjon låses opp når den forrige er mestret: 25 WPM med 95 % nøyaktighet over minst 30 ord. Leksjoner gir XP og teller mot et daglig XP-mål.",
     "numpad_offer": "Har du et numerisk tastatur? Kalibre har øvelse for numerisk tastatur for det: leksjoned, et test, regnearter og et spill. ",
     "turn_it_on": "aktivera det",
     "not_now": "ikke nå",
     "numpad_heading": "numerisk tastatur",
     "numpad_practice": "øvelse med numerisk tastatur",
     "numpad_desc": "leksjoned, et test for numerisk tastatur, regnearter og et spill",
-    "finger_guidance_fallback": "Fingerguidning er for QWERTY (US) foreløpig. Du kan likevel följa leksjonene med din layout; tastene vises som på din layout.",
+    "finger_guidance_fallback": "Fingerveiledning gjelder foreløpig for QWERTY (US). Du kan likevel følge leksjonene med ditt oppsett; tastene vises som på ditt oppsett.",
     "continue_lesson": "fortsett: {id} {title}",
     "start_first": "begynne med leksjon 1.1",
     "all_mastered": "alle leksjoned mestret ✓",
     "mastered_count": "{count} av {total} mestret",
     "stage_heading": "steg {stage} · {name}",
-    "keyboard_needed": "Leksjonene kräver et riktig tastatur: koble til et (bluetooth eller usb) og trykk på valgfri tast. Tester og spill fungerer med skjermtastaturet.",
+    "keyboard_needed": "Leksjonene krever et fysisk tastatur: koble til et (Bluetooth eller USB) og trykk på en vilkårlig tast. Tester og spill fungerer med skjermtastaturet.",
     "all_lessons": "alle leksjoned",
     "handoff_intro": "Du kan alle taster nå. Fortsett på skrivsiden: tidsbegrensede tester og sitat bygger hastighet, og Kalibre begynned legge merke til de feil du gjør oftest slik at øvelser kan jobbe med dem.",
     "go_typing": "gå til skrivtesterna",
@@ -168,12 +177,12 @@
     "keep_going": "fortsett",
     "timer": "timer",
     "none": "ingen",
-    "start": "starta",
+    "start": "start",
     "straight_to_test": "direkt til testet",
-    "start_test": "starta testet",
+    "start_test": "start testen",
     "warm_up_first": "varm opp først: {keys}",
     "warm_up_title": "En kort runda på {reason} (lagres ikke; esc hoppar til testet)",
-    "slipped_keys_note": "{keys} gick feil sist, så en kort oppvarming kommer først. Ta testet når du føler dig klar.",
+    "slipped_keys_note": "{keys} gikk galt sist, så en kort oppvarming kommer først. Ta testen når du føler deg klar.",
     "take_test": "gjør testet",
     "next_step": "neste: {title}",
     "warm_up_again": "varm opp igjen",
@@ -183,23 +192,23 @@
     "accuracy_summary": "{accuracy}% nøyaktighet",
     "ready_test": "Klar for testet når du er.",
     "ready_step": "Klar for neste steg.",
-    "slips_continue": "Noen feil fortsatt. Et Prøv til kan hjälpa, eller fortsett når du føler dig klar.",
+    "slips_continue": "Noen feil gjenstår. Et forsøk til kan hjelpe, eller fortsett når du føler deg klar.",
     "practise_again": "øve igjen",
     "result_mastered": "✓ {id} {title}: mestret{exclamation, select, yes {!} other {}}",
     "result_keep_practising": "{id} {title}: fortsett øve",
     "steno_intro": "Leksjonene lærer ut touch typing på tastatur, så de legges åt siden mens du skriver med en stenomaskin. Tester, øvelser og spill fungerer som vanlig, og dine leksjonsfremgang lagres.",
     "take_test_button": "gjør et test",
     "on_keyboard_now": "jeg bruker tastatur nå",
-    "switch_keyboard_title": "Ändrar ”jeg skriver med” tilbake til et tastatur",
+    "switch_keyboard_title": "Endrer «jeg skriver med» tilbake til et tastatur",
     "needs_words": "{minWords} {unit} eller flere (du skrev {words})",
-    "needs_wpm": "{wpm} wpm ({actual} denne gången)",
-    "needs_accuracy": "{accuracy}% nøyaktighet ({actual}% denne gången)",
+    "needs_wpm": "{wpm} WPM ({actual} denne gangen)",
+    "needs_accuracy": "{accuracy} % nøyaktighet ({actual} % denne gangen)",
     "needs_key": "hver ny tast med {accuracy}%: {key} var {actual}%",
-    "needs_key_generic": "every new key at {accuracy}%",
+    "needs_key_generic": "hver ny tast med {accuracy} % nøyaktighet",
     "needs_heading": "For å mestre det trengs:",
     "next_open": "{id} {title} er nå åpen.",
     "slips_most": "taster med flest feil: {slips}",
-    "slips_none": "alle taster med minst 95% denne gången",
+    "slips_none": "alle taster med minst 95 % denne gangen",
     "next_button": "neste: {id} {title}",
     "best_run_note": "vurdert på dine beste 30 {unit} i rad: {wpm} wpm med {accuracy}%",
     "numbers_summary": "{wpm} wpm · {accuracy}% nøyaktighet · {words} {unit} · {clock}",
@@ -215,21 +224,30 @@
     "runner_resume": "fortsett",
     "runner_paused": "pauset",
     "runner_restart": "start på nytt ",
-    "runner_quit": "avslutt uten å lagre "
+    "runner_quit": "avslutt uten å lagre ",
+    "step_count": "{count, plural, one {# trinn} other {# trinn}}",
+    "lesson_steps_badge": "{count, plural, one {# trinn} other {# trinn}}",
+    "result_tier_achieved": "{tier} oppnådd: {id} {title}",
+    "tier_next_heading": "For å nå {nextTier}, sikt mot:",
+    "tier_diamond_achieved": "★ diamantperfeksjon: {id} {title}!",
+    "preview_step_1": "trinn 1",
+    "preview_step_2": "trinn 2",
+    "preview_all": "alle",
+    "preview_keys_label": "Forhåndsvisning av leksjonstaster"
   },
   "cal_wardrobe": {
     "whose_wardrobe": "vems garderobe",
     "what_to_change": "hva skal endres",
     "items": "gjenstand",
     "s_wardrobe": "{name}s garderobe",
-    "everything_here_is_earned_by": "Alt her tjänas gjennom å skrive, aldri gjennom köp. Høyreklikk på {name} når som helst for å komme tilbake."
+    "everything_here_is_earned_by": "Alt her tjenes inn ved å skrive, aldri gjennom kjøp. Høyreklikk på {name} når som helst for å komme tilbake."
   },
   "ending": {
     "s_options": "{name}s alternativ",
     "give_the_ring": "gi {name} ringen"
   },
   "keyboard_diagram": {
-    "finger_colours_are_for_qwerty": "Fingerfärgerna gjelder QWERTY (US) foreløpig; leksjonene fungerer fortsatt med din layout.",
+    "finger_colours_are_for_qwerty": "Fingerfargene gjelder foreløpig for QWERTY (US); leksjonene fungerer likevel med ditt oppsett.",
     "left_hand": "venstre hånd",
     "right_hand": "høyre hånd"
   },
@@ -244,21 +262,21 @@
     "list_separator": ", "
   },
   "key_coach": {
-    "other_hand": "du har försökt nå {key} med den andre hånden: håll den på din {hand} hånd",
+    "other_hand": "du har prøvd å nå {key} med den andre hånden: hold den på {hand} hånd",
     "wrong_finger": "du har tryckt på {typed} for {key}: nå med fingeren som vises, byt ikke"
   },
   "learn_numpad_run": {
     "num_lock_is_off_the": "nåm lock er av: tastaturet sender pilar. Trykk på nåm lock på tastaturet.",
     "time_left": "{time} igjen · {count, plural, one {# post} other {# poster}}",
-    "clock_start": "{time} · den første tangenten startar klockan",
+    "clock_start": "{time} · den første tasten starter klokken",
     "entries_count": "{done} / {total} poster"
   },
   "learn_numpad": {
     "practice_for_the_number_pad": "Øvelse for numerisk tastatur: et test for numerisk tastatur, leksjoned og regnearter. Det er for personer som har et, så det er av tills du sier til.",
-    "ten_key_practice_lessons_from": "Øvelse for numerisk tastatur: leksjoned fra hemmatangenterna og utover, Beløp å skrive fra en remse med enter og operatorer samt hoderegning og en kasse å köra. Alt gir XP.",
+    "ten_key_practice_lessons_from": "Øvelser for talltastatur: leksjoner fra hjemtastene og utover, beløp å skrive fra en strimmel med Enter og regnetegn, samt hoderegning og et kasseapparat. Alt gir XP.",
     "i_don_t_have_a": "jeg har ingenting numerisk tastatur",
     "turns_number_pad_practice_off": "lukker av øvelse med numerisk tastatur igjen",
-    "from_your_last_few_runs": "Fra dine siste kjøringene. De holdes adskilt fra misstagen på hovedtastaturet og øves her.",
+    "from_your_last_few_runs": "Fra de siste rundene dine. De holdes adskilt fra feilene på hovedtastaturet og øves på her.",
     "ten_key_drill": "øvelse for numerisk tastatur",
     "sums_drill": "regneøvelse",
     "diagram_weak": "numerisk tastatur, farget etter tastene som går galt",
@@ -268,7 +286,7 @@
     "drill_sums": "regnearter: {kinds}",
     "tile_lessons": "leksjoned",
     "tile_lessons_note": "{mastered} av {total} mestret",
-    "tile_lessons_blurb": "hemmatangenterna 4 5 6, siden utover mot operatorene",
+    "tile_lessons_blurb": "hjemtastene 4, 5, 6, deretter utover mot regnetegnene",
     "tile_tenkey": "test for numerisk tastatur",
     "tile_tenkey_fastest": "din raskeste: {ksph} tastetrykk i timen",
     "tile_tenkey_none": "ingenting test ennå",
@@ -285,7 +303,7 @@
   "learn_padlessons": {
     "master_lesson_first": "Mestre leksjon {number} først",
     "number_pad_lessons": "leksjoned for numerisk tastatur",
-    "learn_the_pad_without_looking": "Lærer dig tastaturet uten å se, noen taster om gangen, fra hemmatangenterna 4 5 6 og utover. Hver leksjon åpnes når den forrige er mestret: hastigheten som vises, 95 % nøyaktighet over 25 poster og å hver ny tast til största delen blir riktig. Leksjoned gir XP.",
+    "learn_the_pad_without_looking": "Lærer deg talltastaturet uten å se, noen taster om gangen, fra hjemtastene 4, 5, 6 og utover. Hver leksjon låses opp når den forrige er mestret: den viste hastigheten, 95 % nøyaktighet over 25 oppføringer, og at hver ny tast for det meste blir riktig. Leksjoner gir XP.",
     "start_with_lesson_1": "begynne med leksjon 1",
     "of_mastered": "{mastered} av {length} mestret",
     "all_number_pad_lessons": "alle leksjoned for numerisk tastatur",
@@ -306,8 +324,8 @@
     "to_master": "For å mestre det: {reasons}.",
     "reason_separator": ", og ",
     "reason_entries": "alle {entries} poster",
-    "reason_ksph": "{target} tastetrykk i timen ({now} denne gången)",
-    "reason_accuracy": "{target}% nøyaktighet ({now}% denne gången)",
+    "reason_ksph": "{target} tastetrykk i timen ({now} denne gangen)",
+    "reason_accuracy": "{target} % nøyaktighet ({now} % denne gangen)",
     "reason_key": "hver ny tast riktig {target} ganger av 100 ({key} var {accuracy}%)",
     "diagram_label": "numerisk tastatur: tastene i leksjon {number}",
     "continue_lesson": "fortsett: {number} {title}",
@@ -354,7 +372,7 @@
   },
   "learn_tenkey": {
     "your_best_for_this_ksph": "ditt beste for dette: {thousands} ksph med {round}% nøyaktighet",
-    "no_run_of_this_kind": "ingen körning av denne typen ennå",
+    "no_run_of_this_kind": "ingen runde av denne typen ennå",
     "custom_length_in_minutes": "anskiftad lengde i minutter",
     "custom_length_in_entries": "anskiftad lengde i poster",
     "custom_length": "anskiftad lengde",
@@ -366,13 +384,13 @@
     "change_the_test": "endre testet",
     "keys_to_watch": "taster å holde øye med: {keys}",
     "watch_key": "{key} ({wrong} feil)",
-    "run_title": "tiotangent · {form} · {limit}",
+    "run_title": "talltastatur · {form} · {limit}",
     "run_label": "test for numerisk tastatur",
     "unit": "enhet"
   },
   "learn_till": {
     "till": "kasse",
-    "customers_queue_at_your_till": "Kunder står i kø vid din kasse. Var og en har betalat med en seddel: regne ut vekselen, skriv den på tastaturet og trykk enter. Hver kunds tålmodighet minskar mens de venter, så raskt og riktig gjør å de betjenes og neste kunde får komme fram. Et feilaktig svar kostar litt tålmodighet, og når tre har gått derifrån lukker kassen. Vekselen er alltid nøyaktig på øret.",
+    "customers_queue_at_your_till": "Kunder står i kø ved kassen din. Hver og en har betalt med en seddel: regn ut vekslepengene, skriv beløpet på talltastaturet og trykk på Enter. Kundens tålmodighet minker mens de venter, så rask og riktig betjening lar neste kunde komme frem. Et feilsvar koster litt tålmodighet, og når tre har forlatt køen, stenger kassen. Vekslepengene er alltid på kronen nøyaktig.",
     "your_best_customers_served_in": "ditt beste: {best} Kunder betjente i en rad",
     "no_shifts_yet": "ingen skift ennå",
     "open_the_till": "åpne kassen",
@@ -405,7 +423,10 @@
   "mascot": {
     "open_wardrobe": "{name}: åpne {companion, select, cal {hans} libby {hennes} other {deras}} garderobe",
     "open_s_wardrobe": "{name}: åpne {name2}s garderobe",
-    "asleep_label": "{name}, sover: väck {companion, select, cal {honom} libby {henne} other {dem}}"
+    "asleep_label": "{name}, sover: vekk {companion, select, cal {ham} libby {henne} other {dem}}",
+    "shutdown_label": "{name}, slått av: trykk for å starte {companion, select, cal {ham} libby {henne} other {dem}} på nytt",
+    "booting_label": "{name}, starter opp",
+    "dismiss_message": "aktiver for å lukke denne meldingen"
   },
   "numpad_tape": {
     "entries": "poster",
@@ -414,7 +435,7 @@
   },
   "pad_lessons": {
     "pad-1": {
-      "title": "hemmatangenterna: 4 5 6"
+      "title": "hjemtaster: 4 5 6"
     },
     "pad-2": {
       "title": "nå opp: 7 8 9"
@@ -479,7 +500,7 @@
     "diagram_label": "tastatur farget etter hvordan ofte hver tast ble feil"
   },
   "entries": {
-    "a_ten_key_entry_needs": "En tiotangentspost trenger minst en siffer.",
+    "a_ten_key_entry_needs": "En oppføring for talltastatur må ha minst ett siffer.",
     "ENTRY_FORMS": {
       "whole": {
         "label": "heltall"
@@ -535,5 +556,11 @@
       "divide": "divisjon",
       "percent": "prosent"
     }
+  },
+  "tiers": {
+    "bronze": "bronse",
+    "silver": "sølv",
+    "gold": "gull",
+    "diamond": "diamant"
   }
 }

@@ -1,0 +1,2458 @@
+{
+  "feed": {
+    "title": "feed",
+    "blurb": "Mat et sultent vesen med ordene det ber om før tålmodigheten tar slutt, eller driv en buffé for mange gjester.",
+    "modes": {
+      "prompted": "kresent matvrak",
+      "unprompted": "småspising",
+      "buffet": "buffé"
+    },
+    "s_not_what_i_asked": "−{seconds}s · {text}? Det var ikke det jeg ba om",
+    "fed": "+{seconds}s · {text}",
+    "fed_patched": " (lappet sammen)",
+    "fed_hinted": " (hintet: halv tid)",
+    "fed_yum": " · nam",
+    "typo": "−{seconds}s · en skrivefeil",
+    "typo_meant": " ({meant}?)",
+    "serving_tray_label": "serveringsbrett",
+    "serving_tray_help": "klikk på skjeen for å bære den, dra den bort til vesenet",
+    "serving_tray_empty": "skriv et ord for å fylle skjeen",
+    "serving_tray_count": "brett {count}/{capacity}",
+    "serving_tray_full_state": "brettet er fullt · server først",
+    "serving_queued": "{text} i kø · brett {count}/{capacity}",
+    "serving_tray_full": "brettet er fullt — server først",
+    "serving_wasted": " · −{seconds}s · {count, plural, one {1 ord spilt} other {# ord spilt}}",
+    "serving_served": "servert · {matched}/{total} matchet",
+    "serving_nothing_matched": "ingenting matchet — tid tapt",
+    "prepared": "{text} tilberedt",
+    "cancelled": "mat avbrutt",
+    "carrying": "bærer mat bort til vesenet",
+    "spoon_pickup": "klikk og dra for å servere",
+    "no_match": "ingen matchende rett til denne gjesten",
+    "returned": "brettet satt tilbake på plass"
+  },
+  "castle": {
+    "title": "castle",
+    "blurb": "Byg dine mure av ord, og hold stand, indtil angriberne giver op.",
+    "modes": {
+      "unprompted": "enhver murstein",
+      "prompted": "særlige murstein"
+    },
+    "the_attackers_resolve_hold_the": "Angribernes viljestyrke: hold porten og kjerneborg for å slide den ned",
+    "stockpile": "murstenslager",
+    "click_a_brick_to_carry": "klik på en murstein for å bære den · mellomrom murer · skift+enter kaster · 1–9 vælger",
+    "bricks": "{length} murstein · {toFixed}",
+    "brick_stacked": "{word} · {note} murstein {toFixed} · stablet{repeatNote}",
+    "damage": "{note} · {toFixed} skade",
+    "yard_brick_pick": "{word}: {note} murstein, styrke {strength} (tryk {key} for å vælge)",
+    "yard_brick": "{word}: {note} murstein, styrke {strength}",
+    "aiming_at": "sigter mod: {section} {integrity}/{max}",
+    "aiming_critical": " · kritisk",
+    "aiming_needs": " · kræver murstein som {requirement}",
+    "brick_added": "{what} · +{added} {section}",
+    "brick_named": "{word} · {note} murstein",
+    "the_castle": "borgen",
+    "powerups": {
+      "mortar": {
+        "label": "mørtel",
+        "help": "kastede murstein rammer dobbelt så hardt"
+      },
+      "mason": {
+        "label": "murer",
+        "help": "murstein tæller halvannen gang så mye"
+      },
+      "oil": {
+        "label": "olie",
+        "help": "svimeslår alle angribere samtidig"
+      },
+      "mend": {
+        "label": "udbedring",
+        "help": "reparerer den svageste port eller tårn"
+      }
+    },
+    "foe_stunned": ", svimeslått",
+    "section_title": "{section}: {integrity}/{max}",
+    "section_critical": ", kritisk",
+    "section_needs": ", kræver murstein som {requirement}",
+    "news_line": "{label}: {note}",
+    "powerup": "powerup",
+    "units": {
+      "brute": "bølle",
+      "sapper": "sappør",
+      "catapult": "katapult",
+      "operator": "operatør",
+      "anarchist": "anarkist",
+      "giant": "kjempe",
+      "soldier": "soldat",
+      "rogue": "røver"
+    },
+    "sections": {
+      "west-tower": "vesttårn",
+      "west-wall": "vestmur",
+      "inner-west-wall": "indre vestmur",
+      "gate": "port",
+      "inner-east-wall": "indre østmur",
+      "east-wall": "østmur",
+      "east-tower": "østtårn",
+      "west-foundation": "vestfundament",
+      "keep": "kjerneborg",
+      "east-foundation": "østfundament"
+    },
+    "kinds": {
+      "wall": "mur",
+      "tower": "tårn",
+      "gate": "port",
+      "foundation": "fundament",
+      "keep": "kjerneborg"
+    },
+    "marks": {
+      "critical": "kritisk",
+      "breach": "gennembrud",
+      "requirement": "!"
+    },
+    "summary": {
+      "held": "holdt stand",
+      "overrun": "overrendt",
+      "waves": "bølger",
+      "bricks_laid": "murstein lagt",
+      "crushed": "knust",
+      "strongest": "stærkeste",
+      "damage_taken": "skade modtaget",
+      "sections_lost": "sektioner tapt",
+      "catapults_destroyed": "katapulter ødelagt",
+      "fires_out": "branner slukket",
+      "soldiers_sent": "soldater sendt ud",
+      "floors_held": "etasjer forsvaret",
+      "climbers_downed": "bestigere nedkæmpet",
+      "breaches": "gennembrud",
+      "ladders_pushed": "stiger væltet",
+      "ropes_cut": "tau kappet",
+      "defeated": "besejret av",
+      "defeat_guard": "vagten falt",
+      "defeat_king": "kongen slapp væk"
+    },
+    "titles": {
+      "foe": {
+        "brute": "bølle: klik eller kast murstein for å knuse ({hp} liv)",
+        "sapper": "sappør: klik eller kast murstein for å knuse ({hp} liv)",
+        "anarchist": "anarkist: klik eller kast murstein for å knuse ({hp} liv)",
+        "giant": "kjempe: kun stærke ord kan svimeslå den, og svage murstein preller av ({hp} liv)"
+      },
+      "catapult": "katapult: {state} · {ammo} · ramme {percent} %",
+      "catapult_aiming": ", sigter mod {section}",
+      "operator": "operatør: klik eller kast en murstein for å nedkæmpe ({hp} % tilbage)",
+      "rubble": "murbrokker: en katapult blev ødelagt her",
+      "repair_crew": "reparationshold: klik eller kast en murstein for å standse arbejdet ({hp} % tilbage · {percent} % ferdig)",
+      "dynamite": "dynamit: {seconds, plural, one {# sekund} other {# sekunder}} tilbage · klik for å desarmere",
+      "fire": "ild: {percent} % brændetid tilbage · sluk den med bøtten",
+      "strong_word": "et stærkt ord er nødvendigt: svage murstein skader knap nok og kan ikke svimeslå"
+    },
+    "siege": {
+      "state": {
+        "arriving": "mannskap ankommer",
+        "setup": "gøres klar",
+        "carrying": "bærer en stein",
+        "loading": "lader",
+        "aiming": "sigter",
+        "releasing": "affyrer",
+        "unmanned": "ubemandet",
+        "empty": "tør for stein",
+        "destroyed": "ødelagt",
+        "repairing": "repareres"
+      },
+      "ammo": "{count, plural, =0 {ingen sten tilbage} one {# sten tilbage} other {# sten tilbage}}"
+    },
+    "cursor": {
+      "site_catapult": "sigter mod: katapult · {state} · {ammo}",
+      "site_rubble": "sigter mod: murbrokker hvor en katapult stod",
+      "site_empty": "sigter mod: belejringslinjen · intet her"
+    },
+    "sabotage": {
+      "fuse": "{seconds}s"
+    },
+    "bucket": {
+      "label": "bøtte",
+      "title": "bøtte: {water}/{capacity} vann · klikk på den, deretter på en brann (eller trykk 0, så mellomrom)",
+      "title_armed": "bøtte klar: klikk på en brann, eller trykk mellomrom over en (esc setter den ned)",
+      "level": "{water}/{capacity}"
+    },
+    "garrison": {
+      "cooldown": "{seconds}s til den er klar",
+      "ready": "klar til å sende soldater ud",
+      "next_size": "næste: {count, plural, one {# soldat} other {# soldater}}",
+      "deployed": "{count, plural, one {# soldat ude} other {# soldater ude}}",
+      "spawning": "sender soldater: {count, plural, =0 {den sidste er ude} one {# mere på vej} other {# mere på vej}}",
+      "cancelled": "bølgen den var ved å gjøre klar går tapt med den",
+      "destroyed": "tapt: ingen soldater før den er genopbygget",
+      "friendly_fire_on": "egenbeskytning slått til"
+    },
+    "climb": {
+      "the_tower": "tårnet",
+      "hint": "Klik for å kaste en murstein fra vinduet · Mellemrum taber en · Tilbagetast skubber en stige væk eller kapper et tau · eller klik på stigen eller tauet",
+      "king": "kongen",
+      "side": {
+        "left": "venstre",
+        "right": "højre"
+      },
+      "window_title": "{side} vindue, etasje {floor}",
+      "window_needs": " · kræver {requirement}",
+      "cursor_window": "det {side} vindue, etasje {floor}",
+      "rogue_title": "{kit}-røver · {hp} liv",
+      "kit": {
+        "ladder": "stige",
+        "grapple": "entringskrog"
+      },
+      "limping": " · halter",
+      "ladder_title": "stige · klik for å skubbe den væk fra muren",
+      "rope_title": "tau · klik for å kappe det over",
+      "floors_held": "etasjer forsvaret {held}/{total}",
+      "breaches": "gennembrud {count}/{limit}",
+      "resolve_title": "Røvernes viljestyrke: mens ingen er inde, slides den ned",
+      "interior": {
+        "label": "tårnets indre i gennemsnit, med området omkring: rum, trapper, forhallen og dens dør, brønnen, kongen, vagten og hvem der end er inde",
+        "hint": "← → gå · ↑/↓ trapper · skift spurter · første murstein udstyres automatisk · klik på en fjende for å kaste · klik på lager eller tryk 1–9 for å skifte · slå-værktøj til nærkamp",
+        "windows_need": "vinduerne beder om: {needs}",
+        "inside": "{count, plural, =0 {ingen inde} one {# røver inde} other {# røvere inde}}",
+        "king_title": {
+          "calm": "kongen er i sikkerhed",
+          "alarmed": "kongen er foruroliget: en røver er inde",
+          "danger": "kongen er i fare",
+          "captured": "kongen er taget til fange: stands bortføreren",
+          "dropped": "kongen er faldet: nå hen til ham og eskorter ham tilbage til tronen",
+          "escorting": "kongen blir eskorteret tilbage til tronen",
+          "safe": "kongen er sikret"
+        },
+        "guard_title": "deg · liv {health} · udholdenhed {breath}",
+        "intruder_title": "{name} inde · rum {floor} · {hp} liv · {left} fra målet",
+        "carrying_note": " · bærer kongen",
+        "variant": {
+          "rogue": "røver",
+          "scribe": "skriver",
+          "bruiser": "slagsbror",
+          "knight": "ridder",
+          "arsonist": "brandstifter",
+          "soaker": "vandkaster",
+          "runner": "løber"
+        },
+        "needs_strength": "træffer {value}+",
+        "well_title": {
+          "well": "brønnen: klik med vandværktøjet for å ta bøtten",
+          "empty": "brønnen: klik med vandværktøjet for å fylde din bøtte",
+          "filling": "fylder: bliv ved brønnen",
+          "full": "brønnen: din bøtte er fuld"
+        },
+        "exit_title": "flugtlinjen: passerer en bortfører her, er kongen tapt",
+        "fire_title": "ild · {seconds} s tilbage",
+        "wet_title": "vådt gulv · {seconds} s tilbage",
+        "barricade_title": {
+          "building": "en barrikade opføres · bliv ved siden av den",
+          "intact": "en barrikade · {hp} tilbage",
+          "damaged": "en beskadiget barrikade · {hp} tilbage",
+          "burning": "en brennende barrikade · {hp} tilbage"
+        },
+        "anchor_title": {
+          "stairs": "et sted at bygge, foran trappen · {cost} murstein",
+          "landing": "et sted at bygge, øverst på trappen · {cost} murstein",
+          "door": "et sted at bygge, foran døren · {cost} murstein"
+        },
+        "loose_title": "{word} · {left} av {of} kast tilbage · klik for å samle den op, når du står ved siden av den",
+        "tool": {
+          "combat": "kast",
+          "bash": "slå",
+          "water": "vann",
+          "barricade": "barrikade"
+        },
+        "tool_help": {
+          "combat": "klik på en bestemt fjende for å kaste mod den, eller klik på et punkt for å sigte manuelt; ingen automatisk sigte på nærmeste fjende",
+          "bash": "klik på en fjende i nærheden for å slå med mursteinen; et hardt slag svækker den",
+          "water": "et klik ved brønnen tar bøtten og fylder den; et klik på en brann slukker den",
+          "barricade": "klik på et byggested, og bekræft derefter"
+        },
+        "tools_label": "hvad et klik gjør",
+        "reload": "tag en murstein",
+        "reload_help": "den første tilgængelige murstein udstyres automatisk; mellomrom eller enter tar en, når din hånd er tom",
+        "rescue": "eskorter kongen",
+        "build": "byg",
+        "build_cost": "byg · {cost} murstein",
+        "clear": "fjern den",
+        "health": "helbred {value}",
+        "breath": "åndedræt {value}",
+        "hand": "i hånden: {word} · {strength} · {left} av {of} kast tilbage",
+        "uses_left": "{left}/{of} kast tilbage",
+        "hand_empty": "intet i hånden",
+        "bucket": {
+          "well": "bøtte: ved brønnen",
+          "empty": "bøtte: tom",
+          "filling": "bøtte: fyldes {percent} %",
+          "full": "bøtte: fuld"
+        },
+        "where": {
+          "room": "du er i rum {floor}",
+          "lobby": "du er i forhallen",
+          "outside": "du er udenfor",
+          "behind": "du er bag tårnet"
+        },
+        "prompt": {
+          "up": "↑ op ad trappen",
+          "down": "↓ ned ad trappen",
+          "door_in": "↑ ind gennem døren",
+          "line_up": "↑ klatr op",
+          "line_down": "↓ klatr ned",
+          "well": "ved brønnen",
+          "pickup": "klik på en murstein for å samle den op",
+          "rescue": "eskorter kongen",
+          "push": "tilbagetast skubber eller kapper"
+        }
+      }
+    }
+  },
+  "space": {
+    "title": "space",
+    "blurb": "Styr med musen, skyt med ord, og hold romskipet i live.",
+    "modes": {
+      "unprompted": "fri ilden",
+      "prompted": "målrettet"
+    },
+    "ship_health": "skibets helbred",
+    "magazine": "magasin",
+    "bomb_charge": "bombeladning",
+    "click_enter_fires_scroll_choose": "klik / enter affyrer · ↑ ↓ / rul vælger · tilbagetast ×2 kasserer",
+    "finish_a_word_to_load": "skriv et ord ferdig for å la det",
+    "bomb_ready_shift_enter": "bombe klar · skift+enter",
+    "bomb": "bombe {floor} %",
+    "ship": "skib {round}",
+    "score": "point {round}",
+    "destroyed": "ødelagt {value}",
+    "s_left": "{ceil}s tilbage",
+    "trigger_jammed_type_or_backspace": "avtrekker blokeret · skriv \"{word}\", eller tryk tilbagetast to gange for å kassere et skudd",
+    "accumulator": "ladning {charge}/{capacity}",
+    "accumulator_meter": "akkumulatorladning",
+    "accumulator_warning": {
+      "near": "tæt på kapacitet",
+      "over": "over kapacitet: pas på",
+      "critical": "næste ord overbelaster"
+    },
+    "accumulator_pending": "{word} · mellomrom for å sende til magasinet",
+    "boss": {
+      "meter": "moderskibets skrog",
+      "hull": "moderskip {percent} %",
+      "no_time_limit": "ingen tidsgrænse",
+      "side": {
+        "left": "venstre",
+        "right": "højre"
+      },
+      "damage": "skade påført {damage}",
+      "elite_meter": "skade påført moderskipet"
+    },
+    "summary": {
+      "bosses": "moderskibe besejret",
+      "boss_damage": "skade på moderskip"
+    }
+  },
+  "spot": {
+    "title": "spot",
+    "blurb": "Finn feilene plantet i en tekst, og rett dem.",
+    "modes": {
+      "prompted": "korrekturlesing"
+    },
+    "was": "{errorTitle}: var «{corrupted}»",
+    "should_be": "{errorTitle}: burde være «{original}»",
+    "was_fine": "{word} var helt i orden",
+    "fixed": "rettet: {original} · {errorTitle}",
+    "it_should_be": "det burde være «{original}» · {errorTitle}",
+    "repairing": "{title} · rett det på stedet (← → flytt) og trykk enter",
+    "repairing_retry": " · et forsøk til",
+    "repairing_cancel": " · esc for å avbryte",
+    "editing_word": "redigerer ord · trykk enter for å bekrefte · esc for å avbryte",
+    "find_mistake": "finn en feil: klikk på et ord eller bruk piltastene, og trykk enter",
+    "paused_fix": "{title} · trykk enter for å fortsette å rette, eller klikk der du vil starte"
+  },
+  "marathon": {
+    "title": "maraton",
+    "blurb": "Læs korrektur på en hel bok mod uret: rettelser giver tid, fejl koster tid.",
+    "modes": {
+      "prompted": "læs korrektur på en bok"
+    },
+    "setup": {
+      "source_label": "bok",
+      "loading": "finder bøker, der passer…",
+      "none": "ingen bok i dine datasæt har {min}–{max} ord for {difficulty}. biblioteket i tekster → datasæt har kortere værker.",
+      "unavailable": "den bok kunne ikke indlæses. vælg en anden, eller prøv igen.",
+      "words": "{count, plural, one {# ord} other {# ord}}",
+      "pages": "{count, plural, one {# side} other {# sider}}",
+      "estimate": "ca. {minutes} min.",
+      "by": "av {author}",
+      "list_aria": "bøker der er lange nok til et maraton",
+      "details_aria": "den valgte bok"
+    },
+    "hud": {
+      "time_aria": "tid tilbage",
+      "page": "side {page} av {pages}",
+      "page_found": "fandt {found} av {total} på denne side",
+      "progress_aria": "hvor mye av boken der er rettet",
+      "gained": "+{seconds}s",
+      "lost": "−{seconds}s"
+    },
+    "summary": {
+      "score": "point",
+      "cleared": "sider",
+      "time_left": "tid tilbage",
+      "repaired": "rettet",
+      "missed": "vist",
+      "penalties": "straftid",
+      "book": "bok",
+      "difficulty": "sværhedsgrad",
+      "pages": "{cleared}/{pages}"
+    }
+  },
+  "scroller": {
+    "title": "scroller",
+    "blurb": "Læs korrektur på en tekst eller en hel bok, mens den ruller op: ret hver fejl, før linjen forsvinder foroven.",
+    "modes": {
+      "passage": "læs korrektur på en tekst",
+      "book": "læs korrektur på en bok"
+    },
+    "setup": {
+      "label_passage": "næste tekst",
+      "label_book": "bok",
+      "loading_passage": "finder næste tekst…",
+      "loading_book": "finder bøker, der passer…",
+      "none_passage": "ingen tekst i dine datasæt har {min}–{max} ord for {difficulty}. biblioteket i tekster → datasæt har flere.",
+      "none_book": "ingen bok i dine datasæt har {min}–{max} ord. biblioteket i tekster → datasæt har længere værker.",
+      "unavailable": "den kilde kunne ikke indlæses. prøv igen, eller vælg en anden.",
+      "words": "{count, plural, one {# ord} other {# ord}}",
+      "estimate": "ca. {minutes} min.",
+      "by": "av {author}",
+      "rotation": "tekster kommer på skift: hvert gennemløb tar den næste.",
+      "passage_aria": "den næste tekst",
+      "list_aria": "bøker der passer",
+      "details_aria": "den valgte bok"
+    },
+    "hud": {
+      "lives_aria": "liv: {lives} av {max}",
+      "lost": "−1 liv · {cause}",
+      "restored": "+1 liv · {cause}",
+      "streak": "stribe {streak}/{goal}",
+      "progress_aria": "hvor mye av kilden der er rullet forbi",
+      "boundary_aria": "fejlgrænse: en fejl hvis linje krydser grænsen koster et liv"
+    },
+    "causes": {
+      "falseFlag": "falsk alarm",
+      "wrongRepair": "forkert rettelse",
+      "missed": "rullet væk",
+      "streak": "rettelser i træk",
+      "complex": "kompleks rettelse",
+      "recovery": "redningsfejl"
+    },
+    "status": {
+      "find": "fang hver fejl, før linjen når toppen: klik på et ord eller brug piltastene, og tryk enter",
+      "missed": "{count, plural, one {en fejl rullede forbi} other {# fejl rullede forbi}}",
+      "out_of_lives": "ikke flere liv",
+      "finished": "ferdig"
+    },
+    "recovery": {
+      "aria": "redningschance: ret det i første forsøg for å vinde et liv tilbage"
+    },
+    "summary": {
+      "score": "point",
+      "progress": "fremgang",
+      "progress_passage": "{percent} % av teksten",
+      "progress_book": "{percent} % av boken",
+      "finished": "fuldført",
+      "lives": "liv tilbage",
+      "lives_value": "{lives}/{max}",
+      "repaired": "rettet",
+      "missed": "forpasset",
+      "penalties": "strafpoint",
+      "restored": "liv genvundet",
+      "source": "kilde",
+      "difficulty": "sværhedsgrad"
+    }
+  },
+  "ui": {
+    "pause": "pause",
+    "paused": "på pause",
+    "resume": "genoptag",
+    "restart": "genstart",
+    "quit": "afslut",
+    "game_over": "spillet er slut",
+    "victory": "sejr",
+    "menu_intro": "Tastning som leg: dine ord blir til mad, murstein, skudd og reparationer. Spil tæller med til XP, dine fejl og dit daglige mål (ud fra den tid du bruger på at taste, ikke på at læse eller sigte).",
+    "games_aria": "spill",
+    "not_played": "ikke spillet endnu",
+    "best_summary": "rekord {score} · sidst spillet {date}",
+    "race_record": "på egen hånd eller på dit netværk",
+    "mode": "tilstand",
+    "difficulty": "sværhedsgrad",
+    "details": "detaljer",
+    "replay": "genafspil",
+    "main": "hovedmenu",
+    "demo_caption": "demo · hold musen over for å afspille",
+    "play_game": "spill {title}",
+    "needs_keyboard": "bestigningen spilles med et fysisk tastatur: vagten styres med piltastene, og murstein skrives. tryk på en tast på et tastatur for å låse op",
+    "needs_keyboard_note": "bestigningen kræver et fysisk tastatur. tryk på en vilkårlig tast på et for å låse op",
+    "all_games": "alle spill",
+    "demo_aria": "{title}: {label} demo",
+    "no_passages": "Ingen tekster at læse korrektur på. Aktivér et datasæt under tekster → datasæt.",
+    "time_so_far": "tid indtil videre",
+    "end_game": "afslut spill ",
+    "exit": "afslut ",
+    "commands": "kommandoer ",
+    "hints": "esc pause · {restartKey} genstart",
+    "strength_chip_title": "ordstyrke: 1 pr. bokstav, +1 for k v w y, +2 for j q x z",
+    "strength_current": "ordstyrke {strength}",
+    "strength_goal": "ordstyrke {strength} / {goal}",
+    "pause_lost_focus": "vinduet mistede fokus",
+    "pause_typing_lost": "tastefokus gik tapt",
+    "heading": "{title} resultater",
+    "status_failed": "spillet er slut",
+    "status_aborted": "afbrudt før tid",
+    "abandoned_completion_note": "afbrudt før tid · tæller ikke med til fuldførelsespræstationer",
+    "status_done": "ferdig",
+    "play_again": "spill igen",
+    "change_setup": "skift indstillinger",
+    "added_training": "tilføjet til træning",
+    "mistakes_noted": "{count, plural, one { · 1 fejl noteret} other { · # fejl noteret}}",
+    "results_summary": "{time} · {words} ord · {wpm} wpm · {accuracy} · skrivefeil {mistypes} · rettet {corrections}",
+    "daily_goal_title": "Spil tæller deres tastetid mod målet, ikke tid brugt på at læse, sigte eller tænke",
+    "key_mashing_note": "Dette gennemløb lignede vilkårlige tastetryk ({reason}), så dets fejl og XP blev ikke talt med.",
+    "ghost_title": "kør mod et spøkelse",
+    "ghost_blurb": "Dine gemte spøkelser, sorteret efter bane. Vælg op til {max} på én bane og kør mod dem på deres egen tekst efter banens regler; deres ur og dit starter ved dit første tastetryk.",
+    "import_file": "importér en spøgelsesfil",
+    "from_folder": "fra din kalibre-mappe",
+    "drop_hint": "eller træk en fil herover på siden",
+    "race_setup": "løbsopsætning",
+    "time_left": "tid tilbage",
+    "any_word_blurb": "Jeg spiser hvad som helst. Stærkere ord mætter mer.",
+    "any_word": "hvilket som helst ord",
+    "counts": "fodret {fed} · forkert {wrong} · skrivefeil {mistyped}{streak, select, true { · stribe {count}} other {}}",
+    "satisfaction": "tilfredshed",
+    "creatures_orders": "væsener og deres bestillinger",
+    "waiting_guest": "venter på den første gæst…",
+    "served_words": "serverede ord",
+    "table_status": "bakke {count}/{cap}",
+    "yard_empty": "skriv et ord for å lave en murstein",
+    "calm_wave": "ro: fyld lageret op med murstein · bølge {wave} av {of} om {seconds}s",
+    "active_wave": "bølge {wave} av {of} · {count, plural, one {1 angriber} other {# angribere}}{holding, select, true { · holder stand} other { · holder ikke stand}}",
+    "castle_integrity": "borg {percent} %",
+    "time_bank": "tidsbank",
+    "next_passage": "næste tekst ",
+    "hud_found": "tekst {round} · fandt {found} av {total}",
+    "hud_score": "point {score}",
+    "skip_title": "Gå videre; det der er tilbage tæller som overset"
+  },
+  "errors": {
+    "deletion": "manglende bokstav",
+    "insertion": "ekstra bokstav",
+    "transposition": "ombyttede bokstaver",
+    "repeat": "tast trykket to ganger",
+    "wrongWord": "feil ord",
+    "missingPunctuation": "manglende tegnsetting",
+    "wrongPunctuation": "feil tegnsetting",
+    "capitalisation": "stor bokstav",
+    "whitespace": "mellomrom"
+  },
+  "feed_buffet": {
+    "patience": "tålmodighed",
+    "the_floor_fall_to_it": "bunden: rammer du den, lukker buffeen",
+    "burnt_a_typo_counts_half": "brændt på (en skrivefeil): tæller halvt",
+    "served": "serverede {text}",
+    "an_order_filled_happy_guest": "en bestilling opfyldt · tilfreds gæst",
+    "a_guest_gave_up_waiting": "en gæst opgav at vente",
+    "went_stale": "{text} blev for gammel",
+    "the_table_is_full_let": "bakken er fuld: bær den hen til gæsterne først",
+    "that_s_not_food": "{text}? Det er da ikke mad",
+    "orders_wasted_upset": "bestillinger {value} · spilt {value2} · utilfredse {value3}",
+    "served_burnt": " (brændt på: tæller halvt)"
+  },
+  "games_results": {
+    "daily_goal_met_today": "✓ dagligt mål nådd · {formatGoalAmount} i dag",
+    "daily_goal_progress": "dagligt mål · {done} av {target} i dag · dette gennemløb {run}",
+    "run_minutes": "{clock} tastetid",
+    "run_xp": "{xp} xp",
+    "run_words": "{words} ord"
+  },
+  "games_setup": {
+    "controls": "styring",
+    "notes": "noter",
+    "mechanic_visuals": "visuelle mekanikker",
+    "mechanics_contexts": "mekaniske sammenhænge",
+    "more": "mer ▾",
+    "demonstration_variants": "demonstrationsvarianter",
+    "game_information": "spilinformation",
+    "game_configuration": "spilkonfiguration"
+  },
+  "ghost_shelf": {
+    "kalibre_can_t_reach_your": "kalibre kan ikke tilgå din mappe: tillad adgang i indstillinger → data",
+    "no_ghost_files_in_the": "ingen spøgelsesfiler i mappens ghosts/ endnu",
+    "import": "importér",
+    "no_saved_ghosts_yet_save": "ingen gemte spøkelser endnu. gem et fra en tests resultater, en gentagelse eller din historik.",
+    "race_anyway": "kør alligevel",
+    "delete_s_ghost": "slet {name}s spøkelse",
+    "name_on_the_file": "navn på filen",
+    "saved_to": "gemt i {savedTo}",
+    "is_ready": "{fileName} er klar",
+    "include_my_card": "inkludér mit kort",
+    "your_text_goes_in_the": "din tekst kommer med i filen.",
+    "share": "del",
+    "save": "{count, plural, one {gem spøgelset} other {gem # spøgelser}}"
+  },
+  "powerup_tray": {
+    "shift": "{label}: {help} (skift+{value})",
+    "powerups_two_at_once": "powerups {length}/{storage} · to samtidig",
+    "running": "aktive"
+  },
+  "race_card": {
+    "ghost": "spøkelse",
+    "race_people_on_your_network": "kør mod folk på dit netværk",
+    "your_car_dress_it_in": "din bil. tilpas den under profil → dit kort → garage; optjen dele ved å kjøre løp og spille.",
+    "race_a_demo_playing_while": "løp: en demo, der afspilles ved markering eller fokus",
+    "rivals": "{rulesLine} · rivaler {difficulty}",
+    "RACE_CARD": {
+      "race": {
+        "title": "løp",
+        "blurb": "Kør mod computeren på egen hånd eller mod folk på dit netværk i et citat, ord, mod uret eller så længe du kan følge med.",
+        "help": [
+          "Vælg hvad du kjører i: et citat, et antal ord, på tid eller udholdenhed, hvor den sidste der holder tempoet eller præcisionen vinder.",
+          "Rivaler kjører omtrent i dit seneste tempo: let en smule langsommere, vanskelig en smule hurtigere. Lader man forkerte bokstaver stå, koster hvert et sekunds straf.",
+          "På egen hånd kjører du mod to computer-rivaler og, når du har gennemført løp i tilstanden, et spøkelse derfra som du kan vælge. På dit netværk skriver alle den samme tekst på samme tid.",
+          "Kør mod et spøkelse kjører mod de spøkelser, du har gemt, op til tre samtidig på deres egen tekst."
+        ]
+      }
+    },
+    "rivals_2": "rivaler"
+  },
+  "word_quality": {
+    "close_to": " · tæt på \"{variantOf}\" {percent}",
+    "repeat": " · gentagelse {percent}"
+  },
+  "games_registry": {
+    "STRENGTH_MECHANIC": {
+      "strength": {
+        "label": "ordstyrke",
+        "summary": "tastepræcision afgør ordets styrke. 1 pr. bokstav, +1 for K V W Y, +2 for J Q X Z. på vanskelig tæller nære varianter av nylige ord mindre."
+      }
+    },
+    "GAMES": {
+      "feed": {
+        "options": {
+          "serving": {
+            "label": "serveringsbakke",
+            "choices": {
+              "off": {
+                "label": "fra"
+              },
+              "on": {
+                "label": "til"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "kom godt i gang",
+            "group": "kom godt i gang",
+            "summary": "skriv ord for å fylde skeen, og bær dem derefter hen for å fodre væsenet.",
+            "highlights": [
+              "skriv et ord for å legge det på skeen",
+              "klik og træk skeen hen til væsenet for å servere"
+            ],
+            "details": [
+              "hvert ord du serverer giver tid tilbage. længere ord giver mer.",
+              "hold væsenet tilfreds for å overleve; forkerte mål eller missere lader maden blive på skeen."
+            ],
+            "mechanics": {
+              "mood": {
+                "label": "humør",
+                "summary": "væsenets humør faller over tid, hvis det ikke blir fodret."
+              },
+              "patience": {
+                "label": "tålmodighed",
+                "summary": "et ur tæller ned. servering av et passende ord giver tid tilbage."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "fyld skeen med et ord"
+              }
+            },
+            "visuals": {
+              "mood-content": {
+                "label": "tilfreds"
+              },
+              "mood-peckish": {
+                "label": "småsulten"
+              },
+              "mood-starving": {
+                "label": "udsultet"
+              }
+            }
+          },
+          "creature-requests": {
+            "label": "væsenets ønsker",
+            "group": "kom godt i gang",
+            "summary": "væsenet beder om en bestemt type ord — opfyld ønsket for å få fuld tid.",
+            "highlights": [
+              "læs teksten over væsenet",
+              "et matchende ord giver fuld tid; et forkert koster tid"
+            ],
+            "details": [
+              "ønsker inkluderer: korte eller lange ord, ord der starter med et bestemt bokstav, eller ord med særlige bokstaver.",
+              "sidder du fast, eller misser du to gange? et ord der passer vises svagt på væsenets mave, men giver kun halv tid."
+            ],
+            "notes": {
+              "hard": {
+                "text": "ønskerne er mer specifikke, og der gives mindre tid."
+              }
+            },
+            "mechanics": {
+              "prompts": {
+                "label": "ønsker",
+                "summary": "væsenet viser, hvilken type ord det har lyst til."
+              },
+              "hint": {
+                "label": "mavevink",
+                "summary": "efter en pause eller to missere dukker et gyldigt ord svagt op på væsenet."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "fyld skeen med et ord"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "mavevink"
+              }
+            },
+            "visuals": {
+              "prompt-need": {
+                "label": "ordønske"
+              },
+              "belly-hint": {
+                "label": "mavevink (halv tid)"
+              }
+            }
+          },
+          "snack-mode": {
+            "label": "snack-tilstand",
+            "group": "kom godt i gang",
+            "summary": "væsenet spiser alle ord — stærkere ord mætter mer, men det blir hurtigere sultent.",
+            "highlights": [
+              "ethvert gyldigt ord fodrer væsenet",
+              "længere og mer præcise ord giver mer tid tilbage"
+            ],
+            "details": [
+              "der er ingen ønsker: skriv lige det ord, du har lyst til.",
+              "væsenets tålmodighed slipper hurtigere op end hos den kresne gæst, så tempoet betyder alt."
+            ],
+            "controls": {
+              "i0": {
+                "action": "fyld skeen med et ord"
+              }
+            },
+            "visuals": {
+              "free-eating": {
+                "label": "ethvert gyldigt ord"
+              },
+              "fast-patience": {
+                "label": "hurtigere sult"
+              }
+            }
+          },
+          "buffet": {
+            "label": "buffé-servering",
+            "group": "kom godt i gang",
+            "summary": "gæster bestiller flere slags ord. server ord til bordet, og de spiser det, der passer.",
+            "highlights": [
+              "gæster ankommer med bestillinger på 1–3 ordtyper",
+              "hold den samlede tilfredshed over den røde linje"
+            ],
+            "details": [
+              "skriv et ord og tryk mellomrom for å sette det på bordet. gæsterne spiser det, der matcher deres bestillinger.",
+              "en fuldført bestilling gjør gæstein glad og øger tilfredsheden. en gæst der venter for længe går utilfreds bort.",
+              "vrøvleord kasseres og skader tilfredsheden. skrivefeil giver brændte retter, der kun tæller halvt.",
+              "retter efterladt på bordet blir for gamle og går til spilde."
+            ],
+            "mechanics": {
+              "table": {
+                "label": "bord",
+                "summary": "serverede ord sættes på et fælles bord. gæsterne spiser hvad der passer."
+              },
+              "satisfaction": {
+                "label": "tilfredshed",
+                "summary": "en måler fra 0–100. faller den til bundlinjen, lukker buffeen."
+              },
+              "orders": {
+                "label": "bestillinger",
+                "summary": "hver gæst har 1–3 krav til ordtype på sin bestillingsseddel."
+              },
+              "stale": {
+                "label": "gamle retter",
+                "summary": "retter der ikke hentes blir for gamle og skader tilfredsheden."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "server ord til bordet"
+              }
+            },
+            "visuals": {
+              "guest-ticket": {
+                "label": "bestillingsseddel"
+              },
+              "buffet-table": {
+                "label": "serveringsbord"
+              },
+              "satisfaction-floor": {
+                "label": "tilfredshedsbund"
+              }
+            }
+          },
+          "serving": {
+            "label": "fysisk servering",
+            "group": "kom godt i gang",
+            "summary": "læg ord på skeen, og bær dem fysisk hen for å fodre væsenet.",
+            "highlights": [
+              "skriv et ord for å legge det på skeen",
+              "klik på skeen, træk den hen til væsenet, og slip for å servere"
+            ],
+            "details": [
+              "matchende ord fodrer væsenet og giver tid tilbage; forkerte koster tid.",
+              "slip uden for væsenet for å beholde maden og prøve igen.",
+              "tryk escape for å annullere maden på skeen."
+            ],
+            "mechanics": {
+              "spoon": {
+                "label": "ske",
+                "summary": "et gyldigt skrevet ord fylder skeen. klik og træk for å servere."
+              },
+              "targeting": {
+                "label": "sigtning",
+                "summary": "hold musen over væsenet for å markere det, og slip derefter for å levere maden."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "fyld skeen"
+              },
+              "i1": {
+                "action": "bær og server"
+              },
+              "i2": {
+                "action": "annuller mad"
+              }
+            },
+            "visuals": {
+              "loaded-spoon": {
+                "label": "fyldt ske"
+              },
+              "creature-highlight": {
+                "label": "målmarkering"
+              }
+            }
+          }
+        }
+      },
+      "castle": {
+        "options": {
+          "waves": {
+            "label": "bølger",
+            "choices": {
+              "endless": {
+                "label": "uendelig"
+              }
+            }
+          },
+          "variant": {
+            "label": "udgave",
+            "choices": {
+              "siege": {
+                "label": "belejring"
+              },
+              "climb": {
+                "label": "bestigning"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "kom godt i gang",
+            "group": "kom godt i gang",
+            "summary": "skriv ord for å lave murstein, sigt mod en sektion, og læg dem for å bygge og reparere din borg.",
+            "highlights": [
+              "skriv et ord for å fremstille en murstein",
+              "sigt med pilene eller musen, og tryk mellomrom for å legge den"
+            ],
+            "details": [
+              "længere ord giver stærkere murstein. skrivefeil giver revnede stein.",
+              "borgen starter intakt med en pause til å opbygge lageret før første bølge.",
+              "murstein placeres på lageret; vælg en med 1–9 eller træk den med musen."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "i særlige murstein-tilstand kræver sektioner under angreb specifikke ord. en stein uden for specifikationen mister det meste av sin styrke."
+              }
+            },
+            "mechanics": {
+              "stockpile": {
+                "label": "murstenslager",
+                "summary": "skrevne ord blir til murstein på lagerpladsen. vælg en med en taltast eller brug den nyeste."
+              },
+              "quality": {
+                "label": "murstenskvalitet",
+                "summary": "solid, lappet, revnet eller murbrokker — afhænger av ordets længde og tastepræcision."
+              },
+              "cursor": {
+                "label": "sigtning og muring",
+                "summary": "sigt mod en sektion med piltastene eller musen. mellomrom legger den valgte murstein."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "skriv et ord for å lave en murstein"
+              },
+              "i1": {
+                "action": "flyt sigtet mellem sektioner"
+              },
+              "i2": {
+                "action": "læg mursteinen på sektionen"
+              }
+            },
+            "visuals": {
+              "stockpile-yard": {
+                "label": "murstenslager"
+              },
+              "brick-solid": {
+                "label": "solid murstein"
+              },
+              "brick-cracked": {
+                "label": "revnet murstein"
+              }
+            }
+          },
+          "surviving": {
+            "label": "overlevelse",
+            "group": "overlevelse",
+            "summary": "hold porten og kjerneborg stående. hver bølge mister modet og trekker seg tilbage, når de kritiske sektioner holder stand.",
+            "highlights": [
+              "porten og kjerneborg må aldrig falle",
+              "hver bølge har en måler for viljestyrke der tæller ned"
+            ],
+            "details": [
+              "hvis porten eller kjerneborg ødelægges, er borgen overrendt, og gennemløbet slutter.",
+              "ydermure og tårne beskytter de indre sektioner.",
+              "hver bølge trekker seg tilbage, når dens viljestyrke er opbrugt."
+            ],
+            "notes": {
+              "hard": {
+                "text": "angribere slår hårdere, og pauserne mellem bølgerne er kortere."
+              }
+            },
+            "mechanics": {
+              "sections": {
+                "label": "borgsektioner",
+                "summary": "mure, tårne, port og kjerneborg har hver deres holdbarhed."
+              },
+              "integrity": {
+                "label": "sektionsholdbarhed",
+                "summary": "reparér sektioner med murstein, før de bryder sammen."
+              },
+              "resolve": {
+                "label": "bølgens viljestyrke",
+                "summary": "en måler der viser, hvor tæt bølgen er på at trekke seg tilbage."
+              },
+              "waves": {
+                "label": "bølger og viljestyrke",
+                "summary": "angriberne giver op og flygter, når deres viljestyrke når nul."
+              }
+            },
+            "visuals": {
+              "curtain-wall": {
+                "label": "ringmur"
+              },
+              "gatehouse": {
+                "label": "porthus"
+              },
+              "great-keep": {
+                "label": "kjerneborg"
+              },
+              "wave-resolve": {
+                "label": "angribernes viljestyrke"
+              }
+            }
+          },
+          "fighting": {
+            "label": "kamp",
+            "group": "kamp",
+            "highlights": [
+              "skift+enter kaster en murstein ned over den udpegede angriber",
+              "bøller vædrer, sappører hakker, katapulter kaster stein: kast en murstein for å standse mannskapet",
+              "en kjempe kræver et stærkt ord"
+            ],
+            "details": [
+              "at kaste en murstein ned påfører skade svarende til murstenens styrke.",
+              "en fjende der ikke knuses kan blive svimeslått et kort øjeblik.",
+              "katapulter står bagerst på slagmarken med mannskap: en stiplet bue viser deres sigtelinje. kast en murstein mod mannskapet eller rammen.",
+              "en kjempe har enormt mye liv. svage murstein preller av og kan ikke svimeslå: kun et stærkt ord virker."
+            ],
+            "mechanics": {
+              "brute": {
+                "label": "bølle",
+                "summary": "vædrer murene på tæt hold. blir udmattet efter et bestemt antal slag."
+              },
+              "sapper": {
+                "label": "sappør",
+                "summary": "hakker løs på fundamenter og mure. vandrer mellem forskellige mål."
+              },
+              "catapult": {
+                "label": "katapult",
+                "about": "står bagerst på marken med mannskap og stendynge og slynger kampesten i en parabelbue. kast en murstein mod den for å standse den."
+              },
+              "stun": {
+                "label": "bedøvelse",
+                "summary": "et ikke-dræbende murstenskast kan svimeslå angriberen og standse den kortvarigt."
+              },
+              "drops": {
+                "label": "murstenskast",
+                "summary": "kast en murstein ned over en fjende for å skade eller knuse den."
+              },
+              "giant": {
+                "label": "kjempe",
+                "summary": "en massiv angriber der aldrig blir træt. kræver stærke ord: svage stein preller av."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "kast murstein på fjende"
+              },
+              "i1": {
+                "action": "sigt mod sektion eller fjende"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "murstenskast"
+              },
+              "i1": {
+                "label": "en kjempe"
+              }
+            },
+            "visuals": {
+              "brute-ram": {
+                "label": "bølle (vædder)"
+              },
+              "sapper-pick": {
+                "label": "sappør (hakke)"
+              },
+              "catapult-siege": {
+                "label": "katapult (belejring)"
+              },
+              "boulder-arc": {
+                "label": "stenbue"
+              },
+              "giant-stomp": {
+                "label": "kjempe (tramp)"
+              }
+            },
+            "intro": "kast murstein ned over angriberne for å knuse dem, og slyng stein mod katapultene ude på marken."
+          },
+          "powering-up": {
+            "label": "opgraderinger",
+            "group": "kamp",
+            "summary": "knuste fjender taber undertiden powerups. gem dem på lager, og aktivér dem når du behøver dem.",
+            "highlights": [
+              "saml tapte powerups op fra faldne fjender",
+              "tryk skift+1 eller skift+2 for å aktivere"
+            ],
+            "details": [
+              "mørtel gjør kastede stein dobbelt så dødbringende.",
+              "mureren forstærker murstenenes reparationsværdi med 50 %."
+            ],
+            "mechanics": {
+              "mortar": {
+                "label": "mørtel",
+                "summary": "kastede murstein forvolder dobbelt skade."
+              },
+              "mason": {
+                "label": "murer",
+                "summary": "lagte murstein reparerer 50 % mer."
+              },
+              "oil": {
+                "label": "kogende olie",
+                "summary": "svimeslår samtlige angribere på marken i et stykke tid."
+              },
+              "mend": {
+                "label": "udbedring",
+                "summary": "genopretter øjeblikkeligt holdbarheden på den mest skadede viktige sektion."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "aktivér gemt powerup"
+              },
+              "i1": {
+                "action": "aktivér powerup-plads 2"
+              },
+              "i2": {
+                "action": "aktivér powerup-plads 3"
+              }
+            },
+            "visuals": {
+              "mortar-powerup": {
+                "label": "mørtel (2× kasteskade)"
+              },
+              "mason-powerup": {
+                "label": "murer (1,5× mur)"
+              },
+              "oil-powerup": {
+                "label": "kogende olie (bedøv alle)"
+              },
+              "mend-powerup": {
+                "label": "udbedring (reparation)"
+              }
+            }
+          },
+          "siege": {
+            "label": "belejring",
+            "group": "kamp",
+            "summary": "katapulter og deres mannskap arbejder bagerst på slagmarken. stands mannskapet, smadr rammen, eller la dem løbe tør for stein.",
+            "highlights": [
+              "katapulter slynger store stein mod dine mure fra lang afstand",
+              "smadr katapultens ramme eller nedkæmp dens operatører"
+            ],
+            "details": [
+              "en katapult kræver mannskap og stein for å fungere.",
+              "en ødelagt katapult efterlader murbrokker på marken.",
+              "en senere bølge kan sende et mannskap til å reparere murbrokkerne. stands det mannskap, så forbliver murbrokkerne liggende.",
+              "en senere bølge kan sende et mannskap til å reparere murbrokkerne. stands det mannskap, så forbliver murbrokkerne liggende."
+            ],
+            "mechanics": {
+              "crew": {
+                "label": "mannskap",
+                "summary": "bærer en stein fra dyngebunken til slyngen. fæld det for å standse katapulten."
+              },
+              "rocks": {
+                "label": "stein",
+                "summary": "hver katapult starter med et antal stein. én bruges hver gang den lades."
+              },
+              "interrupt": {
+                "label": "afbrydelse",
+                "summary": "et hardt træf på rammen mens den sigter spilder steinen."
+              },
+              "rubble": {
+                "label": "murbrokker",
+                "summary": "en ødelagt katapult efterlader murbrokker. et reparationshold kan vende tilbage efter den."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "ryk frem til belejringslinjen"
+              },
+              "i1": {
+                "action": "kast en murstein mod mannskapet, derefter rammen"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "en katapults cyklus"
+              },
+              "i1": {
+                "label": "afbryd et skudd"
+              }
+            },
+            "visuals": {
+              "catapult-crew": {
+                "label": "katapult og mannskap"
+              },
+              "rock-pile": {
+                "label": "stendynge"
+              },
+              "rubble-heap": {
+                "label": "murbrokker"
+              },
+              "repair-crew": {
+                "label": "reparationshold"
+              }
+            }
+          },
+          "sabotage": {
+            "label": "sabotage",
+            "group": "kamp",
+            "summary": "anarkister placerer dynamit og kaster brandbomber. desarmér dynamitten, sluk brannene, eller fæld anarkisten.",
+            "highlights": [
+              "desarmér placeret dynamit før lunten brænder ud",
+              "brug vandspanden til raskt at slukke opståede branner"
+            ],
+            "details": [
+              "dynamit placeres direkte ved murene og eksploderer efter få sekunder.",
+              "branner æder murværkets holdbarhed, indtil de slukkes.",
+              "ethvert skrevet ord kan fylde bøtten ud fra den styrke, det har som murstein. tryk 0 med valgte murstein, eller klik på en murstein og derefter bøtten. tryk 0 uden valgte murstein, eller klik på bøtten og derefter en brennende sektion for å hælde. esc stiller den fra deg.",
+              "ethvert skrevet ord kan fylde bøtten ud fra den styrke, det har som murstein. tryk 0 med valgte murstein, eller klik på en murstein og derefter bøtten. tryk 0 uden valgte murstein, eller klik på bøtten og derefter en brennende sektion for å hælde. esc stiller den fra deg."
+            ],
+            "mechanics": {
+              "anarchist": {
+                "label": "anarkist",
+                "summary": "placerer dynamit eller kaster en brandbombe, den ene efter den anden. fæld den for å forhindre hvad den endnu ikke har gjort."
+              },
+              "dynamite": {
+                "label": "dynamit",
+                "summary": "en tændt lunte på en mur eller et tårn. sprænger sektionen, dens naboer og dem der står for foden."
+              },
+              "fire": {
+                "label": "ild",
+                "summary": "brænder en base eller kjerneborg, og kan på sværere indstillinger sprede seg til en nabosektion."
+              },
+              "bucket": {
+                "label": "bøtte",
+                "summary": "ethvert ord fylder den ud fra sin murstensstyrke. én hældning slukker én brann."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "desarmér dynamitten på sektionen"
+              },
+              "i1": {
+                "action": "fyld bøtten, eller gjør den klar til å hælde"
+              },
+              "i2": {
+                "action": "hæld vann på den brennende sektion"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "dynamit"
+              },
+              "i1": {
+                "label": "brandslukning"
+              }
+            },
+            "visuals": {
+              "dynamite-fuse": {
+                "label": "dynamit og lunte"
+              },
+              "fire-flame": {
+                "label": "ild"
+              },
+              "water-bucket": {
+                "label": "vandspand"
+              }
+            }
+          },
+          "defence": {
+            "label": "forsvar",
+            "group": "kamp",
+            "summary": "dine to baser sender automatisk soldater ud under en bølge. de bekæmper den nærmeste angriber og leder slagene væk fra muren.",
+            "highlights": [
+              "baserne genopbygger automatisk nye hold av soldater",
+              "soldater engagerer fjender i nærkamp og køber deg dyrebar tid"
+            ],
+            "details": [
+              "hver base sender automatisk en gruppe soldater ud, så snart dens nedtælling er ferdig.",
+              "soldater kjemper mod nærmeste angriber og tar slag for borgen.",
+              "på vanskelig vil murstein du kaster ned over en angriber også skade de soldater, der står ved siden av den. soldater går hjem, når fjenden trekker seg tilbage.",
+              "på vanskelig vil murstein du kaster ned over en angriber også skade de soldater, der står ved siden av den. soldater går hjem, når fjenden trekker seg tilbage."
+            ],
+            "mechanics": {
+              "bases": {
+                "label": "baser",
+                "summary": "fundamenterne. en ring fyldes under nedtælling, en prik viser hver soldat i næste bølge, og et flueben viser den er klar."
+              },
+              "soldiers": {
+                "label": "soldater",
+                "summary": "små hjelme der kjemper mod nærmeste angriber. der kan ikke sigtes mod dem, og de går hjem når fjenden trekker seg tilbage."
+              },
+              "friendly_fire": {
+                "label": "egenbeskytning",
+                "summary": "kun på vanskelig: kastede murstein skader soldater der står ved siden av angriberen de faller på."
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "soldater"
+              },
+              "i1": {
+                "label": "en tapt base"
+              }
+            },
+            "visuals": {
+              "base-ring": {
+                "label": "base og dens ring"
+              },
+              "soldier-helmet": {
+                "label": "soldat"
+              }
+            }
+          },
+          "climb": {
+            "label": "bestigningen",
+            "group": "kamp",
+            "summary": "røvere rejser stiger og kaster entringskroge mod tårnet, og de der trænger ind går op ad trappene efter kongen. gå selv rundt i rummene, sigt hver murstein, og hold kongen i sikkerhed på toppen.",
+            "highlights": [
+              "bevæg din vagt gennem tårnets rum og etasjer",
+              "skub stiger væk og kap entringskroge for å styrte klatrere"
+            ],
+            "details": [
+              "røvere rejser stiger mod vinduerne for å klatre op.",
+              "vagten kan gå mellem rummene, bruge trapper og gå udenfor.",
+              "brug bøtten til å slukke branner og opfør barrikader til å forsinke fjenderne."
+            ],
+            "mechanics": {
+              "floors": {
+                "label": "etasjer",
+                "summary": "det laveste stående rum er det røverne klatrer mod. når en når toppen av trappen overtages det permanent, og kampen rykker en etasje op; du blir hvor du er."
+              },
+              "ladders": {
+                "label": "stiger",
+                "summary": "bygges ved foden av tårnet og rejses derefter. skub en væk fra muren (eller klik på den), så faller klatreren, og røverne må bygge igen."
+              },
+              "grapples": {
+                "label": "entringskroge",
+                "summary": "en krog kastet op mod vindueskarmen. kap tauet over (eller klik på det), så faller klatreren; røveren henter krogen og kaster igen."
+              },
+              "impacts": {
+                "label": "træffere",
+                "summary": "en murstein rammer så hardt som sit ord og sin fart, hårdere i hovedet end på benene. en murstein der rammer forbi er tapt."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "gå (skift spurter); op og ned tar trappene, døren og stiger ved en afsats"
+              },
+              "i1": {
+                "action": "mellomrom eller enter tar en murstein; klik kaster den mod musemarkøren"
+              },
+              "i2": {
+                "action": "tilbagetast skubber en stige væk eller kapper et tau ved et vindue, du står ved siden av"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "skubbe stiger"
+              },
+              "i1": {
+                "label": "kappe tau"
+              },
+              "i2": {
+                "label": "en etasje faller"
+              }
+            },
+            "visuals": {
+              "climb-tower": {
+                "label": "tårnet"
+              },
+              "climb-rogue": {
+                "label": "en røver"
+              }
+            }
+          }
+        }
+      },
+      "space": {
+        "options": {
+          "duration": {
+            "label": "varighed",
+            "choices": {
+              "endless": {
+                "label": "uendelig"
+              },
+              "i1": {
+                "label": "1 min"
+              },
+              "i2": {
+                "label": "2 min"
+              }
+            }
+          },
+          "variant": {
+            "label": "variant",
+            "choices": {
+              "standard": {
+                "label": "standard"
+              },
+              "elite": {
+                "label": "elite"
+              }
+            }
+          }
+        },
+        "contexts": {
+          "getting-started": {
+            "label": "kom godt i gang",
+            "group": "kom godt i gang",
+            "summary": "styr skibet, skriv ord for å la magasinet, og skyt for å tilintetgøre fjenderne.",
+            "highlights": [
+              "flyt med musen eller piltastene",
+              "skriv et ord og tryk enter for å skyte"
+            ],
+            "details": [
+              "ferdige ord lægges i magasinet. tryk enter for å affyre det valgte skudd.",
+              "et ord der afsluttes med enter affyres straks uten å lades først.",
+              "brug ↑ ↓ eller rullehjulet til å vælge hvilken magasinplads der skal affyres."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "i målrettet tilstand har hvert fjendtligt skib et ordkrav. skudd der ikke matcher preller av."
+              }
+            },
+            "mechanics": {
+              "movement": {
+                "label": "bevægelse",
+                "summary": "skibet styres vandret. flyt med musen eller ← →."
+              },
+              "magazine": {
+                "label": "magasin",
+                "summary": "skrevne ord fylder magasinet. enter affyrer. ↑ ↓ vælger plads."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flyt skibet"
+              },
+              "i1": {
+                "action": "la et ord i magasinet"
+              },
+              "i2": {
+                "action": "affyr valgt skudd"
+              }
+            },
+            "visuals": {
+              "starfighter": {
+                "label": "stjernejager"
+              },
+              "magazine-slots": {
+                "label": "magasinpladser"
+              }
+            }
+          },
+          "surviving": {
+            "label": "overlevelse",
+            "group": "overlevelse",
+            "summary": "undgå skade, ryd blokeringer, undvig asteroider, og brug redningsskibe til å reparere.",
+            "highlights": [
+              "skibet mister liv, når fjender eller asteroider rammer det",
+              "redningsskibe bringer liv tilbage — pas på ikke at skyte dem"
+            ],
+            "details": [
+              "asteroider flyver ned over skærmen og kan ikke skydes væk; flyt deg for å undgå dem.",
+              "at skrive et ikke-ord eller et forkert ord koster tid eller blokerer avtrekkeren.",
+              "et blokeret skudd skal ryddes med tilbagetast to gange, før du kan skyte igen.",
+              "redningsskibe ankommer med jævne mellomrom: la dem passere uskadt for å reparere dit skib.",
+              "droner låser seg fast med en stiplet linje og dykker direkte ned. styr udenom.",
+              "skibe der passerer bunden gjør ingen skade."
+            ],
+            "notes": {
+              "easy": {
+                "text": "at skyte et redningsskip reducerer ikke dets helbredelse."
+              }
+            },
+            "mechanics": {
+              "health": {
+                "label": "skibets helbred",
+                "summary": "skibet tar skade ved kollisioner eller når fjender passerer."
+              },
+              "jams": {
+                "label": "blokeringer",
+                "summary": "forkerte ord blokerer avtrekkeren. tryk tilbagetast to gange for å rydde."
+              },
+              "asteroids": {
+                "label": "asteroider",
+                "summary": "stein der ikke kan ødelægges. store stein deles i mindre stykker."
+              },
+              "rescue": {
+                "label": "redningsskibe",
+                "summary": "skyt dem ikke: de reparerer automatisk dit skib."
+              },
+              "drones": {
+                "label": "droner",
+                "summary": "låser seg fast og dykker direkte ned. undvig dykkerlinjen."
+              },
+              "jammer": {
+                "label": "støjsender",
+                "summary": "øger risikoen for blokeringer mens den er i live."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "kasser blokeret skudd og ryd forkilingen"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "redningsreparation"
+              }
+            },
+            "visuals": {
+              "rescue-ship": {
+                "label": "redningsskip"
+              },
+              "dive-drone": {
+                "label": "dykkerdrone"
+              },
+              "asteroid": {
+                "label": "asteroideforhindring"
+              },
+              "weapon-jam": {
+                "label": "våbenblokering"
+              }
+            }
+          },
+          "fighting": {
+            "label": "kamp",
+            "group": "kamp",
+            "summary": "la magasinet, afskær missiler og jagere, og brug bomben til å rydde skærmen.",
+            "highlights": [
+              "stærkere ord forvolder mer skade",
+              "afskær indkommende missiler med raske skudd"
+            ],
+            "details": [
+              "ordstyrke afhænger av bokstaverne: sjældne bokstaver gjør ekstra skade.",
+              "missiler bevæger seg raskt og mod dit skib; ram dem med et skudd for å sprænge dem i luften.",
+              "bomben lades op for hvert ødelagt fjendtligt skib og affyres med skift+enter.",
+              "større fjender kræver flere træffere eller ét særligt stærkt ord."
+            ],
+            "notes": {
+              "prompted": {
+                "text": "i målrettet tilstand har hvert skib et ordkrav der skal opfyldes."
+              }
+            },
+            "mechanics": {
+              "missiles": {
+                "label": "missiler",
+                "summary": "fjendtlige missiler der kan skydes ned før de rammer deg."
+              },
+              "bomb": {
+                "label": "ordbombe",
+                "summary": "lades op over tid. skift+enter udløser en altødelæggende eksplosion."
+              },
+              "fighters": {
+                "label": "jagere",
+                "summary": "små skibe opsendt av stationer. forfølger spilleren. skriv deres bokstav for å afskære dem."
+              },
+              "stations": {
+                "label": "stationer",
+                "summary": "store knudepunkter der svæver og frembringer jagere."
+              },
+              "landmines": {
+                "label": "landminer",
+                "summary": "piggede miner. splinter ved sprængning rammer alt i nærheden."
+              },
+              "shields": {
+                "label": "skjolde",
+                "summary": "nogle skibe har skjolde der kun brydes med ord der matcher et bestemt krav."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "udløs ordbomben"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "ordbombe"
+              }
+            },
+            "visuals": {
+              "missile-token": {
+                "label": "missil (bokstav)"
+              },
+              "bomb-shockwave": {
+                "label": "bombechokbølge"
+              },
+              "orbital-station": {
+                "label": "kredsløbsstation"
+              },
+              "shrapnel-mine": {
+                "label": "landmine"
+              }
+            }
+          },
+          "powering-up": {
+            "label": "opgraderinger",
+            "group": "kamp",
+            "summary": "ødelagte fjender taber opgraderinger. opsaml dem, gem dem på lager, og aktivér dem.",
+            "highlights": [
+              "flyv hen over tapte powerups for å samle dem op",
+              "skift+1 og skift+2 aktiverer gemte powerups",
+              "to powerups kan kjøre samtidigt"
+            ],
+            "details": [
+              "dobbelt affyrer to projektiler pr. skudd.",
+              "gatling affyrer et skudd for hvert enkelt bokstav i ordet.",
+              "skjold beskytter skibet mod et antal træffere.",
+              "automat retter automatisk dine skudd mod den farligste fjende.",
+              "målsøkende lader dine skudd dreje i luften mod fjenderne.",
+              "akkumulatoren samler ord op til én massiv ladning med mellomrom.",
+              "akkumulatoren stables ikke og har ingen timer. den skyter aldrig av seg selv: overskrides dens grænse overbelastes skibet, ødelægger nærliggende fjender, og gennemløbet slutter. en skrivefeil afsluttet med mellomrom holdes, indtil du retter den; enter affyrer den som den er."
+            ],
+            "mechanics": {
+              "double": {
+                "label": "dobbelt",
+                "summary": "skudd affyres to gange før de er opbrugt."
+              },
+              "gatling": {
+                "label": "gatling",
+                "summary": "hvert tastet bokstav affyrer øjeblikkeligt et energiprojektil."
+              },
+              "shield": {
+                "label": "skjold",
+                "summary": "en energibarriere absorberer træffere."
+              },
+              "automaton": {
+                "label": "automat",
+                "summary": "vælger automatisk det bedste skudd mod den værste trussel."
+              },
+              "homing": {
+                "label": "målsøkende",
+                "summary": "affyrede ord styrer dynamisk mod målene."
+              },
+              "accumulator": {
+                "label": "akkumulator",
+                "summary": "ord afsluttet med mellomrom opbygger én ladning; mellomrom uden skrevet tekst udløser den som ét tungt skudd."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "aktivér powerup 1"
+              },
+              "i1": {
+                "action": "aktivér powerup 2"
+              },
+              "i2": {
+                "action": "kombinér to powerups"
+              },
+              "i3": {
+                "action": "tilføj et ord til ladningen, eller udløs den når intet er skrevet"
+              }
+            },
+            "visuals": {
+              "powerup-double": {
+                "label": "dobbeltskud"
+              },
+              "powerup-gatling": {
+                "label": "gatling-strøm"
+              },
+              "powerup-shield": {
+                "label": "afbøjningsbarriere"
+              },
+              "powerup-automaton": {
+                "label": "automatisk sigte"
+              },
+              "powerup-homing": {
+                "label": "målsøkende projektil"
+              },
+              "powerup-accumulator": {
+                "label": "akkumulatormåler"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "akkumulator"
+              },
+              "i1": {
+                "label": "overbelastning"
+              }
+            }
+          },
+          "boss": {
+            "label": "moderskipet",
+            "group": "kamp",
+            "summary": "et kjempe moderskip ankommer med sit eget ordkrav, to gatlinger, nærkæmpere og landminer. nedkæmp det for å vinde.",
+            "highlights": [
+              "moderskipet kræver specifikke ord for å ta skade",
+              "ødelæg dets to gatling-kanoner for å reducere faren",
+              "pas på landminer og undvig de raske nærkæmpere",
+              "et elite-gennemløb har intet vindertræk mod moderskipet: det kan ikke nedkæmpes, så den skade du påfører er din score",
+              "en ødelagt gatling genopbygges efter en pause, og genopbygningen vises, før den vender tilbage"
+            ],
+            "details": [
+              "moderskibets ordkrav skifter med få sekunders mellomrom.",
+              "ram dets sårbare punkter med ord, der opfylder det aktuelle krav.",
+              "hver ødelagt gatling giver et midlertidigt pusterum.",
+              "gatling-kugler bærer ingen bokstaver og kan ikke skydes ned: styr udenom. et skjold absorberer en hel byge som én træffer.",
+              "nærkæmpere snor seg over feltet og undviger dine skudd, men ikke eksplosioner. de vædrer aldrig, og de har intet krav.",
+              "ordbomben skader moderskipet og dets gatlinger en smule, men fjerner missiler og kugler og ødelægger nærkæmpere. en akkumulatorladning ignorerer kravet. en overbelastning rammer aldrig moderskipet.",
+              "mens moderskipet er her, ankommer kun asteroider av seg selv. redningsskibe blir ved med at komme.",
+              "et elite-gennemløb starter med moderskipet allerede til stede og varer lige længe på enhver sværhedsgrad. at holde ud, indtil tiden er gått, fuldfører det.",
+              "måleren ved siden av dit skib tæller påført skade, ikke resterende liv, og blir aldrig fuld.",
+              "en ødelagt gatling forbliver stille et stykke tid, viser derefter en omrids og en ring, der fyldes i femten sekunder, før den skyter igen. sværere indstillinger genopbygger hurtigere og sender flere skibe."
+            ],
+            "mechanics": {
+              "mothership": {
+                "label": "moderskip",
+                "summary": "et stort skib med begrænset helbred, vist som en måler ved siden av dit eget."
+              },
+              "requirements": {
+                "label": "skiftende krav",
+                "summary": "ordet det ønsker skifter med få sekunders mellomrom, hurtigere på sværere indstillinger."
+              },
+              "gatlings": {
+                "label": "gatlinger",
+                "summary": "to kanoner der affyrer byger av kugler over feltet. ødelagte kanoner forbliver ødelagte."
+              },
+              "dogfighters": {
+                "label": "nærkæmpere",
+                "summary": "små skibe uden bokstaver der snor seg, undviger skudd og affyrer korte byger."
+              },
+              "milestones": {
+                "label": "milepæle",
+                "summary": "uendelige gennemløb møder et moderskip hver par bølger; tidsindstillede slutter med et."
+              },
+              "elite": {
+                "label": "elite-gennemløb",
+                "summary": "moderskipet kan ikke nedkæmpes. overlev indtil tiden udløber; påført skade er din score."
+              },
+              "regeneration": {
+                "label": "gatling-genopbygning",
+                "summary": "en ødelagt gatling genopbygges efter en pause, med en synlig nedtælling."
+              }
+            },
+            "visuals": {
+              "mothership-hull": {
+                "label": "moderskip og skrogmåler"
+              },
+              "boss-gatling": {
+                "label": "gatling-byge"
+              },
+              "elite-meter": {
+                "label": "måler for påført skade"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "moderskip"
+              },
+              "i1": {
+                "label": "gatlinger"
+              },
+              "i2": {
+                "label": "elite-gennemløb"
+              }
+            }
+          }
+        }
+      },
+      "spot": {
+        "options": {
+          "variant": {
+            "label": "spill",
+            "choices": {
+              "timed": {
+                "label": "på tid"
+              },
+              "endless": {
+                "label": "uendelig"
+              }
+            }
+          },
+          "duration": {
+            "label": "tid"
+          }
+        },
+        "help": [
+          "Peg på et ord eller flyt markøren med ← → (↑ ↓ for linje); klik på ordet eller tryk enter, hvis det er forkert.",
+          "Ordet blir stående: ret det på stedet (← → Home End flytter skrivemærket, eller klik i det) og tryk enter. Stavning, tegnsætning, store bokstaver og mellomrom tæller alle med.",
+          "Skift+enter opgiver en tekst og går videre til den næste.",
+          "At finde fejl og at rette dem bedømmes hver for seg; markerer du et korrekt ord, koster det point."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "kom godt i gang",
+            "group": "kom godt i gang",
+            "summary": "find de plantede fejl i en tekst, og ret dem.",
+            "highlights": [
+              "klik på et ord eller flyt med piltastene",
+              "tryk enter for å markere en fejl, og skriv derefter rettelsen"
+            ],
+            "details": [
+              "tekster kommer fra bøker i dit bibliotek. hver tekst indeholder flere plantede fejl.",
+              "skift+enter opgiver en tekst og går videre til den næste.",
+              "fejl omfatter stavning, tegnsætning, store bokstaver, enslydende ord og skrivefeil."
+            ],
+            "mechanics": {
+              "errors": {
+                "label": "fejltyper",
+                "summary": "stavning, tegnsætning, store bokstaver, enslydende ord og skrivefeil."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flyt mellem ord"
+              },
+              "i1": {
+                "action": "flyt mellem linjer"
+              },
+              "i2": {
+                "action": "marker et ord som forkert"
+              },
+              "i3": {
+                "action": "spring til næste tekst"
+              }
+            },
+            "visuals": {
+              "passage-line": {
+                "label": "tekstlinje"
+              },
+              "planted-error": {
+                "label": "plantet fejl"
+              }
+            }
+          },
+          "finding-mistakes": {
+            "label": "find fejl",
+            "group": "overlevelse",
+            "summary": "gennemgå teksten, vælg et ord du tror er forkert, og tryk enter for å markere det.",
+            "highlights": [
+              "klik på et ord eller brug piltastene til å vælge det",
+              "at markere et korrekt ord koster point"
+            ],
+            "details": [
+              "flyt med ← → ord for ord, eller ↑ ↓ linje for linje. klik på et ord for å hoppe; klik væk for å fravælge.",
+              "at finde fejl og rette dem bedømmes hver for seg.",
+              "at markere et ord, der faktisk er korrekt, tæller som en falsk alarm og koster point."
+            ],
+            "mechanics": {
+              "selection": {
+                "label": "ordvalg",
+                "summary": "klik eller brug piltastene til å vælge et ord. markering er gratis; kun enter markerer en fejl."
+              },
+              "false-flag": {
+                "label": "falske alarmer",
+                "summary": "at markere et korrekt ord koster point og (i uendelig tilstand) tid."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flyt mellem ord"
+              },
+              "i1": {
+                "action": "flyt mellem linjer"
+              },
+              "i2": {
+                "action": "marker det valgte ord"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "gennemgang av teksten"
+              }
+            },
+            "visuals": {
+              "selected-word": {
+                "label": "valgt ord"
+              },
+              "click-select": {
+                "label": "klik for å vælge"
+              },
+              "false-flag-penalty": {
+                "label": "straf for falsk alarm"
+              }
+            }
+          },
+          "correcting-mistakes": {
+            "label": "ret fejl",
+            "group": "kom godt i gang",
+            "summary": "det markerede ord blir stående. ret det direkte på stedet og tryk enter for å gemme rettelsen.",
+            "highlights": [
+              "ret ordet direkte i teksten og tryk enter",
+              "to forsøg pr. fejl; efter to fejl vises svaret"
+            ],
+            "details": [
+              "skrivemærket kan flyttes med tasterne Home, End og piltastene.",
+              "hvis rettelsen er korrekt, optjener du fulde point og ekstra tid i visse tilstande.",
+              "du har to forsøg. mislykkes begge, afsløres det korrekte ord.",
+              "tryk escape for å annullere en rettelse uden straf.",
+              "klikker du på et andet ord midt i en rettelse, venter rettelsen præcis, som du forlod den, indtil du klikker tilbage."
+            ],
+            "mechanics": {
+              "caret": {
+                "label": "skrivemærkeredigering",
+                "summary": "flyt markøren inde i ordet for å redigere enkelte tegn."
+              },
+              "retries": {
+                "label": "retteforsøg",
+                "summary": "to forsøg til å rette et ord. efter to mislykkede forsøg vises svaret."
+              },
+              "cancel": {
+                "label": "annuller",
+                "summary": "escape annullerer en rettelse uden straf."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flyt skrivemærke i ordet"
+              },
+              "i1": {
+                "action": "skrivemærke til starten av ordet"
+              },
+              "i2": {
+                "action": "skrivemærke til slutningen av ordet"
+              },
+              "i3": {
+                "action": "bekræft rettelse"
+              },
+              "i4": {
+                "action": "annuller rettelse"
+              },
+              "i5": {
+                "action": "slet fremad"
+              }
+            },
+            "visuals": {
+              "inline-caret": {
+                "label": "indbygget skrivemærke"
+              },
+              "in-place-edit": {
+                "label": "redigér på stedet"
+              },
+              "attempt-limit": {
+                "label": "grænse på 2 forsøg"
+              }
+            }
+          },
+          "scoring": {
+            "label": "pointgivning",
+            "group": "kom godt i gang",
+            "summary": "at finde fejl og rette dem bedømmes særskilt. tidstilstand har et fast ur; uendelig tilstand fylder tid på ved rettelser.",
+            "highlights": [
+              "point for både opdagelse og vellykket rettelse",
+              "rent bord giver ekstra bonuspoint"
+            ],
+            "details": [
+              "hver fundet fejl giver opdagelsespoint.",
+              "hver vellykket rettelse giver rettepoint baseret på sværhedsgrad.",
+              "et rent bord registreres, når alle fejl i en tekst er rettet uden falske alarmer."
+            ],
+            "notes": {
+              "hard": {
+                "text": "fejlene er mer diskrete, og tiden er kortere."
+              }
+            },
+            "mechanics": {
+              "detection": {
+                "label": "opdagelse",
+                "summary": "bedømmes efter præcision og dækning — hvor mange riktige fejl du fandt kontra falske alarmer."
+              },
+              "repair": {
+                "label": "rettelse",
+                "summary": "bedømmes efter, hvor præcist du rettede de markerede ord."
+              },
+              "sweep": {
+                "label": "rent bord",
+                "summary": "alle fejl rettet, ingen falske alarmer, i en enkelt tekst."
+              }
+            },
+            "visuals": {
+              "detection-score": {
+                "label": "opdagelsespoint"
+              },
+              "repair-score": {
+                "label": "rettepoint"
+              },
+              "clean-sweep": {
+                "label": "bonus for rent bord"
+              }
+            }
+          }
+        }
+      },
+      "marathon": {
+        "help": [
+          "En hel bok, side for side. Find hver plantet fejl (klik på et ord eller brug pilene, tryk derefter enter) og ret den på stedet.",
+          "Hver rettelse giver tid tilbage, og enhver falsk alarm eller forkert rettelse koster tid. Når uret rammer nul, er gennemløbet forbi.",
+          "En side ryddes, når alle dens fejl er rettet eller vist; ryd den sidste side med tid tilbage for å vinde."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "kom godt i gang",
+            "group": "kom godt i gang",
+            "summary": "læs korrektur på en hel bok fra dit bibliotek, side for side, før tiden løber ud.",
+            "highlights": [
+              "vælg en bok mellem sværhedsgradens minimum og 5.000 ord",
+              "hver side ryddes, så snart hver eneste fejl på den er rettet eller afsløret"
+            ],
+            "details": [
+              "bøker kommer fra de datasæt, du har slått til; hele teksten hentes én gang og gemmes.",
+              "der er ingen mulighet for å springe over: en side blir stående, indtil dens fejl er håndteret.",
+              "at afslutte gennemløbet før tid tæller som et nederlag."
+            ],
+            "mechanics": {
+              "pages": {
+                "label": "sider",
+                "summary": "cirka 150 ord pr. side, med en fejl for hver 50, 40 eller 30 ord afhængigt av sværhedsgrad."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flyt mellem ord"
+              },
+              "i1": {
+                "action": "marker det valgte ord, eller bekræft en rettelse"
+              }
+            },
+            "visuals": {
+              "page-progress": {
+                "label": "sidefremgang"
+              },
+              "time-bank": {
+                "label": "tidsbank"
+              }
+            }
+          },
+          "time-bank": {
+            "label": "tidsbank",
+            "group": "overlevelse",
+            "summary": "uret kjører kun under aktivt spill. rettelser tilføjer tid, fejl koster tid, og nul afslutter spillet med det samme.",
+            "highlights": [
+              "en rettelse tilføjer 48, 34 eller 29 sekunder afhængigt av sværhedsgrad",
+              "en falsk alarm eller en forkert rettelse koster dyrebar tid"
+            ],
+            "details": [
+              "let starter med 4 minutter, normal med 3 og vanskelig med 2; banken rummer højst 7, 5 eller 4.",
+              "to forkerte forsøg afslører svaret: siden kan gå videre, men det tæller som en forpasset fejl.",
+              "at vælge ord og flytte markøren koster aldrig tid."
+            ],
+            "mechanics": {
+              "reward": {
+                "label": "rettelser",
+                "summary": "hver rettelse giver tid tilbage op til bankens maksimum."
+              },
+              "penalty": {
+                "label": "fejl",
+                "summary": "en falsk alarm koster 4, 9 eller 12 sekunder; en forkert rettelse 5, 12 eller 15."
+              }
+            },
+            "visuals": {
+              "time-gain": {
+                "label": "tid vundet"
+              },
+              "time-loss": {
+                "label": "tid tapt"
+              }
+            }
+          },
+          "scoring": {
+            "label": "pointgivning",
+            "group": "overlevelse",
+            "summary": "pointscoren går op til 1000: primært hvor fejlfrit du rettede boken, plus den resterende tid.",
+            "highlights": [
+              "80 % for rettelser ud over alle fejl, falske alarmer og forkerte rettelser",
+              "20 % for den resterende tid ved afslutningen"
+            ],
+            "details": [
+              "et perfekt gennemløb, der slutter med fuld tidsbank, giver 1000 point.",
+              "afslørede svar tæller som forpassede, ikke som rettelser.",
+              "et gennemløb, hvor tiden udløber, belønnes kun for den del av boken, der nåede at blive ryddet."
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "kvalitet",
+                "summary": "rettelser divideret med plantede fejl, falske alarmer og forkerte rettelser."
+              },
+              "time": {
+                "label": "tid",
+                "summary": "resterende tid ud over bankens grænse; intet hvis gennemløbet mislykkes."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "samlet score"
+              }
+            }
+          }
+        }
+      },
+      "scroller": {
+        "help": [
+          "Læs korrektur på en tekst eller en hel bok, mens den ruller op. Find hver plantet fejl (klik på et ord eller brug pilene, tryk enter) og ret den på stedet, før dens linje passerer den øverste linje.",
+          "Du har fem liv. En falsk alarm, en forkert rettelse eller en fejl, der ruller væk, koster hver et liv.",
+          "Liv genvindes ét ad gangen ved ti rettelser i træk, komplekse rettelser og lysende redningsfejl."
+        ],
+        "contexts": {
+          "getting-started": {
+            "label": "kom godt i gang",
+            "group": "kom godt i gang",
+            "summary": "læs korrektur på en tekst eller en hel bok, mens den ruller op, og ret hver fejl, før dens linje forlader toppen.",
+            "highlights": [
+              "en fejl, der forbliver urettet når dens linje krydser toplinjen, koster et liv",
+              "du har fem liv, og spillet slutter i samme sekund, de er opbrugt"
+            ],
+            "details": [
+              "der er ingen timer: teksten ruller med en jævn fart tilpasset sværhedsgraden og standser under pause.",
+              "vælg et ord og tryk enter for å markere det, og ret det derefter på stedet, ligesom i spot.",
+              "at afslutte et gennemløb før tid tæller som et nederlag."
+            ],
+            "mechanics": {
+              "scrolling": {
+                "label": "rulning",
+                "summary": "hver linje blir på skærmen i samme tidsrum, uanset vinduets størrelse."
+              },
+              "boundary": {
+                "label": "toplinjen",
+                "summary": "en fejl, der endnu ikke er løst, når dens linje krydser toplinjen, er tapt."
+              }
+            },
+            "controls": {
+              "i0": {
+                "action": "flyt mellem ord"
+              },
+              "i1": {
+                "action": "flyt mellem linjer"
+              },
+              "i2": {
+                "action": "marker det valgte ord, eller bekræft en rettelse"
+              }
+            },
+            "visuals": {
+              "boundary": {
+                "label": "toplinje"
+              },
+              "lives": {
+                "label": "liv"
+              }
+            }
+          },
+          "lives-and-recovery": {
+            "label": "liv og genvinding",
+            "group": "overlevelse",
+            "summary": "du har fem liv. hvert liv kan vindes tilbage, men aldrig mer end ét ad gangen pr. rettelse.",
+            "highlights": [
+              "en falsk alarm, en forkert rettelse eller en fejl der ruller væk koster hver et liv",
+              "ti rettelser i træk, en kompleks rettelse eller en redningsfejl vinder hver et liv tilbage"
+            ],
+            "details": [
+              "en redningsfejl lyser op. ret den i første forsøg for å vinde et liv; et forkert første forsøg forspilder chancen.",
+              "ethvert tapt liv nulstiller din stribe av rettelser.",
+              "to forkerte forsøg viser svaret, og den fejl kan derefter ikke længere mistes ved å rulle væk."
+            ],
+            "mechanics": {
+              "lives": {
+                "label": "liv",
+                "summary": "højst fem. nul afslutter gennemløbet med det samme."
+              },
+              "streak": {
+                "label": "stribe",
+                "summary": "ti rettelser i træk giver et liv tilbage, hvis du er under fem."
+              },
+              "complex": {
+                "label": "komplekse rettelser",
+                "summary": "en fejl der kræver mer end én redigering for å blive korrekt giver et liv tilbage."
+              },
+              "recovery": {
+                "label": "redningsfejl",
+                "summary": "sjældne og lysende: ret en i første forsøg for å få et liv tilbage."
+              }
+            },
+            "visuals": {
+              "life-pips": {
+                "label": "livsmarkører"
+              },
+              "recovery-aura": {
+                "label": "redningsglød"
+              }
+            },
+            "subDemos": {
+              "i0": {
+                "label": "redningschance"
+              }
+            }
+          },
+          "passages-and-books": {
+            "label": "tekster og bøker",
+            "group": "spill",
+            "summary": "teksttilstand spiller én tekst fra dine datasæt; bogtilstand spiller en hel bok fra start til slut.",
+            "highlights": [
+              "tekster kommer på skift: hvert gennemløb tar den næste",
+              "bøker udvælges blandt dem, der passer i længde"
+            ],
+            "details": [
+              "en tekst er riktig tekst i sin oprindelige rækkefølge, valgt efter sværhedsgrad.",
+              "en bok hentes én gang og gemmes, og spilles fra første til sidste ord.",
+              "en bok der ikke længere passer udskiftes aldrig med en anden."
+            ],
+            "mechanics": {
+              "passages": {
+                "label": "tekster",
+                "summary": "ingen udvælgelse og ingen springen over: den næste i rækken."
+              },
+              "books": {
+                "label": "bøker",
+                "summary": "et langt gennemløb: en hel bok, en time eller mer."
+              }
+            },
+            "visuals": {
+              "source": {
+                "label": "kilde"
+              }
+            }
+          },
+          "scoring": {
+            "label": "pointgivning",
+            "group": "overlevelse",
+            "summary": "pointscoren går op til 1000: primært hvor rent du rettede det, du nåede, plus dine resterende liv.",
+            "highlights": [
+              "80 % for rettelser ud over alle nåede fejl, falske alarmer og forkerte rettelser, skaleret efter hvor langt du nåede",
+              "20 % for de resterende liv ved afslutningen"
+            ],
+            "details": [
+              "at fuldføre hele kilden tæller som det fulde beløb; et mislykket gennemløb tæller kun det, der nåede at rulle forbi, uden liv.",
+              "afslørede svar og tapte fejl tæller aldrig som rettelser.",
+              "der er ingen multiplikator eller kombinationer."
+            ],
+            "mechanics": {
+              "quality": {
+                "label": "kvalitet",
+                "summary": "rettelser divideret med nåede fejl, falske alarmer og forkerte rettelser."
+              },
+              "lives": {
+                "label": "liv",
+                "summary": "resterende liv ud over fem; intet hvis gennemløbet mislykkes."
+              }
+            },
+            "visuals": {
+              "final-score": {
+                "label": "samlet score"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minutes_choice": "{count} min"
+  },
+  "space_time": {
+    "powerups": {
+      "double": "dobbeltskud",
+      "gatling": "gatling",
+      "shield": "skjold",
+      "automaton": "automat",
+      "homing": "målsøkende",
+      "accumulator": "akkumulator"
+    },
+    "stored": "{name} gemt · skift+{slot} for å bruge",
+    "storage_full": "lager fuldt: {name} gik tapt",
+    "nothing_stored": "intet gemt dér",
+    "busy": "to er allerede aktive: {name} må vente",
+    "cant_use": "{name} kan ikke bruges",
+    "on": "{name} aktiv",
+    "stacked": "{name} stablet",
+    "running": "{name} er allerede aktiv"
+  },
+  "constraints": {
+    "min_length": "{value}+ bokstaver",
+    "min_length_need": "et langt ord på mindst {value} bokstaver",
+    "max_length": "højst {value} bokstaver",
+    "max_length_need": "et kort ord på højst {value} bokstaver",
+    "starts_with": "starter med {letter}",
+    "starts_with_need": "noget der begynder med {letter}",
+    "ends_with": "slutter med {letter}",
+    "ends_with_need": "noget der slutter på {letter}",
+    "contains": "indeholder {letter}",
+    "contains_need": "noget med {letter} i",
+    "min_strength": "ordstyrke {value}+",
+    "min_strength_need": "et stærkt ord, styrke {value} eller mer",
+    "passage_length": "{min}–{max} ord",
+    "passage_length_need": "en tekst på mindst {min} ord",
+    "any_word": "hvilket som helst ord",
+    "want": "Jeg vil ha {needs}.",
+    "want_any": "Jeg vil ha et hvilket som helst ord."
+  },
+  "moods": {
+    "satisfied": "tilfreds",
+    "hungry": "sulten",
+    "very_hungry": "mye sulten",
+    "urgent": "haster",
+    "critical": "kritisk"
+  },
+  "space_ui": {
+    "shot": {
+      "fired": "{word} · {power} skade",
+      "fired_typo": " (en skrivefeil: halv styrke)",
+      "fired_one_left": " (1 tilbage)",
+      "fired_automaton": " · automat → {target}",
+      "fighter_down": "jager {word} skutt ned",
+      "loaded": "{word} · ladt, {power}",
+      "fizzle": "{word} · ikke et ord, det feilet",
+      "fizzle_jam": "{word} · ikke et ord: det feilet og kilte avtrekkeren fast",
+      "scrap_armed": "tilbagetast igen for å kassere {word}",
+      "scrap_clear_jam": " og løsne forkilingen",
+      "scrap_armed_jam": "trykk backspace igjen for å løsne forkilingen",
+      "scrapped_word": "{word} kasseret",
+      "scrapped": "kasseret",
+      "jam_cleared_suffix": " · forkiling løsnet",
+      "rescue_hit": "pas på: du ramte redningsskipet ({word})",
+      "rescue_lost": "redningsskipet gik tapt",
+      "jammed": "{word} kilte avtrekkeren fast · det forblir ladet",
+      "locked": "avtrekkeren er kilt fast",
+      "full": "{word} · magasinet er fuldt: skyt først",
+      "empty": "intet ladt: skriv et ord ferdig først",
+      "cleared": "forkiling løsnet",
+      "intercepted": "missil {word} skutt ned",
+      "repaired": "{word} · reparerede {healed}",
+      "bomb": "bombe!",
+      "bomb_not_ready": "bomben er ikke ladet op endnu",
+      "gatling": "hurtigskydning · {word}",
+      "shield_absorb": "skjold absorberede {source} træffer!",
+      "accumulated": "{word} · føjet til ladningen, +{power}",
+      "held_typo": "{word} · en skrivefeil holdes: ret den, eller enter affyrer som den er",
+      "pending": "{word} · rettet: mellomrom igen sender til magasinet",
+      "routed": "{word} · sendt til magasinet",
+      "released": "ladning udløst · {power} skade",
+      "nothing_charged": "intet opladet endnu: tilføj et ord først",
+      "overload": "overbelastning!",
+      "boss_incoming": "moderskipet nærmer seg",
+      "boss_requirement": "moderskipet kræver nu {requirement}",
+      "boss_gatling_down": "{side} gatling ødelagt",
+      "boss_defeated": "moderskipet er nedkæmpet",
+      "dogfighter_down": "nærkæmper skutt ned",
+      "boss_gatling_rebuilding": "{side} gatling genopbygges",
+      "boss_gatling_back": "{side} gatling er tilbage",
+      "boss_survived": "tiden er udløbet: du holdt stand mod moderskipet"
+    },
+    "powerup_help": {
+      "double": "hvert skudd affyres to gange",
+      "gatling": "hvert bokstav affyrer en salve",
+      "shield": "tar et par træffere for deg",
+      "automaton": "affyring vælger det bedste skudd mod den værste trussel",
+      "homing": "affyrede ord søger mod fjender",
+      "accumulator": "mellomrom tilføjer et ord til én ladning · mellomrom uden skrevet tekst udløser den"
+    },
+    "powerup_label": {
+      "double": "dobbelt",
+      "gatling": "gatling",
+      "shield": "skjold",
+      "automaton": "automat",
+      "homing": "målsøkende",
+      "accumulator": "akkumulator"
+    }
+  },
+  "castle_notes": {
+    "solid": "solid",
+    "patched": "lappet",
+    "cracked": "revnet",
+    "mortar": "mørtel",
+    "rubble": "murbrokker",
+    "stockpile_full": "lageret er fuldt",
+    "no_bricks_yet": "ingen murstein endnu",
+    "already_solid": "allerede solid",
+    "wrong_kind_of_brick": "forkert slags murstein",
+    "nobody_to_drop_it_on": "ingen at kaste den ned over",
+    "bash_no_target": "ingen fjende tæt nok på til å slå",
+    "two_are_running_already": "to er allerede aktive",
+    "nothing_stored_there": "intet gemt dér",
+    "crushed": {
+      "brute": "knuste en bølle",
+      "sapper": "knuste en sappør",
+      "catapult": "smadrede en katapult",
+      "operator": "nedkæmpede en operatør",
+      "anarchist": "knuste en anarkist",
+      "giant": "fældede en kjempe",
+      "rogue": "fældede en røver"
+    },
+    "hit": {
+      "brute": "ramte en bølle",
+      "sapper": "ramte en sappør",
+      "catapult": "ramte en katapult",
+      "operator": "ramte en operatør",
+      "anarchist": "ramte en anarkist",
+      "giant": "ramte en kjempe",
+      "rogue": "ramte en røver"
+    },
+    "hit_stunned": {
+      "brute": "ramte en bølle · svimeslått",
+      "sapper": "ramte en sappør · svimeslått",
+      "catapult": "ramte en katapult · svimeslått",
+      "operator": "ramte en operatør · svimeslått",
+      "anarchist": "ramte en anarkist · svimeslått",
+      "giant": "ramte en kjempe · svimeslått",
+      "rogue": "ramte en røver · svimeslått"
+    },
+    "dropped_stored": {
+      "brute": "bøllen tapte {label} · skift+{slot} for å bruge",
+      "sapper": "sappøren tapte {label} · skift+{slot} for å bruge",
+      "catapult": "katapulten tapte {label} · skift+{slot} for å bruge",
+      "operator": "operatøren tapte {label} · skift+{slot} for å bruge",
+      "anarchist": "anarkisten tapte {label} · skift+{slot} for å bruge",
+      "giant": "kjempen tapte {label} · skift+{slot} for å bruge",
+      "rogue": "røveren tapte {label} · skift+{slot} for å bruge"
+    },
+    "dropped_full": {
+      "brute": "bøllen tapte {label}, men lageret er fuldt",
+      "sapper": "sappøren tapte {label}, men lageret er fuldt",
+      "catapult": "katapulten tapte {label}, men lageret er fuldt",
+      "operator": "operatøren tapte {label}, men lageret er fuldt",
+      "anarchist": "anarkisten tapte {label}, men lageret er fuldt",
+      "giant": "kjempen tapte {label}, men lageret er fuldt",
+      "rogue": "røveren tapte {label}, men lageret er fuldt"
+    },
+    "laid_many": "{count, plural, one {# mursten} other {# mursten}}",
+    "powerup_on": "aktiv",
+    "powerup_stacked": "stablet",
+    "attackers_stunned": "{count, plural, one {# angriber bedøvet} other {# angribere bedøvet}}",
+    "section_mended": "{section} udbedret",
+    "shot_interrupted": "skudd afbrudt",
+    "cannot_build": "intet at bygge herude",
+    "alert": {
+      "catapult_destroyed": "en katapult er ødelagt",
+      "repair_crew": "et mannskap søger mod murbrokkerne",
+      "repair_done": "en katapult er genopbygget",
+      "repair_failed": "reparationsholdet er fældet: murbrokkerne forbliver",
+      "dynamite_placed": "dynamit placeret ved {section}",
+      "fire_started": "ild ved {section}",
+      "critical_danger": "{section} er i fare",
+      "base_ready": "{section} er klar til å sende soldater",
+      "breach": "en røver er kommet indenfor",
+      "floor_lost": "en etasje er faldet",
+      "king_in_danger": "kongen er i fare",
+      "king_captured": "kongen er taget til fange: stands bortføreren",
+      "king_dropped": "kongen er faldet: nå hen til ham",
+      "king_escorting": "du har kongen: eskorter ham tilbage til tronen",
+      "king_safe": "kongen er i sikkerhed",
+      "blaze": "ild i rum {floor}"
+    },
+    "dynamite_disarmed": "dynamit desarmeret",
+    "water_filled": "+{added} vann · {water}/{capacity}",
+    "water_overflow": "+{added} vann · {lost} spilt · {water}/{capacity}",
+    "not_enough_water": "bøtten kræver {cost} vann for å hælde",
+    "nothing_burning": "intet brænder dér",
+    "water_poured": "ild slukket",
+    "bucket_armed": "bøtte klar · mellomrom hælder på en brennende sektion",
+    "ladder_pushed": "stige skubbet væk fra muren",
+    "ladder_broken": "stige smadret",
+    "grapple_cut": "entringskrog kappet",
+    "knocked_down": "slått ned",
+    "brick_missed": "forbi",
+    "out_of_reach": "uden for rækkevidde",
+    "nothing_to_push": "intet at skubbe væk eller kappe her",
+    "resisted": "modstod: dets ord eller din styrke var ikke nok",
+    "reloaded": "en murstein i hånden",
+    "already_holding": "holder allerede en murstein",
+    "empty_handed": "intet i hånden: mellomrom eller enter tar en murstein",
+    "cannot_throw_now": "ikke nu",
+    "picked_up": "samlet op",
+    "nothing_to_pick_up": "ingen murstein dér",
+    "too_far": "for langt væk: gå tættere på",
+    "no_stairs_here": "ingen trappe, dør eller stige her",
+    "fell_from_line": "falt ned fra tauet",
+    "slipped": "gled på det våde gulv",
+    "no_bucket": "hent bøtten ved brønnen først",
+    "bucket_taken": "bøtte taget: klik på brønnen igen for å fylde den",
+    "bucket_empty": "bøtten er tom: fyld den ved brønnen",
+    "bucket_full": "bøtten er fuld",
+    "bucket_filled": "bøtte fuld: bær den hen til ilden",
+    "filling": "fylder: bliv ved brønnen",
+    "filling_stopped": "påfyldning afbrudt: vannet gik tapt",
+    "doused": "ild slukket",
+    "nothing_to_pour_on": "intet brænder dér",
+    "no_anchor_there": "intet byggested dér",
+    "barricade_started": "bygger: bliv ved siden av den",
+    "barricade_built": "barrikade bygget",
+    "barricade_broken": "en barrikade brød sammen",
+    "barricade_cleared": "barrikade fjernet",
+    "not_enough_bricks": "ikke nok murstein på lageret",
+    "king_escorting": "eskorterer kongen tilbage til tronen",
+    "king_secured": "kongen er sikret",
+    "king_needs_no_help": "kongen behøver ingen hjelp"
+  }
+}

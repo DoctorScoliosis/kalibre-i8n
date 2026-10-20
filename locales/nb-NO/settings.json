@@ -132,7 +132,7 @@
       }
     },
     "restartKey": {
-      "label": "omstartstangent",
+      "label": "omstartstast",
       "description": "taster som startar om et test",
       "option": {
         "tab-enter": "tab → enter",
@@ -140,7 +140,7 @@
       }
     },
     "layout": {
-      "label": "tangentbordslayout"
+      "label": "tastaturoppsett"
     },
     "stenoMode": {
       "label": "jeg skriver med",
@@ -175,7 +175,9 @@
         "cream": "cream",
         "rose": "rose",
         "harbour": "harbour",
-        "contrast": "høy kontrast"
+        "contrast": "høy kontrast",
+        "nordic": "nordisk",
+        "copper": "kobber"
       }
     },
     "themeDark": {
@@ -189,7 +191,9 @@
         "plum": "plum",
         "slate": "slate",
         "terminal": "terminal",
-        "contrast-night": "høy nattkontrast"
+        "contrast-night": "høy nattkontrast",
+        "cyber": "cyber",
+        "amber": "rav"
       }
     },
     "theme": {
@@ -210,7 +214,11 @@
         "slate": "slate",
         "terminal": "terminal",
         "contrast": "høy kontrast",
-        "contrast-night": "høy nattkontrast"
+        "contrast-night": "høy nattkontrast",
+        "nordic": "nordisk",
+        "copper": "kobber",
+        "cyber": "cyber",
+        "amber": "rav"
       }
     },
     "customThemes": {
@@ -227,11 +235,15 @@
       "label": "skrivtypsnittets vekt",
       "description": "hvordan fet teksten du skriver er",
       "option": {
+        "100": "tynn",
+        "200": "ekstra lett",
         "300": "300",
         "400": "400",
         "500": "500",
         "600": "600",
-        "700": "700"
+        "700": "700",
+        "800": "ekstra fet",
+        "900": "svart"
       }
     },
     "typingLineHeight": {
@@ -244,7 +256,7 @@
     },
     "caret": {
       "label": "markørstil",
-      "description": "markörens form",
+      "description": "markørens form",
       "option": {
         "line": "linje",
         "block": "block",
@@ -274,7 +286,7 @@
       }
     },
     "keyboardLayout": {
-      "label": "tangentbordslayout",
+      "label": "tastaturoppsett",
       "description": "dette talar om for Kalibre var tastene sitter for å vurdere naboer; det endrer ikke hva du skriver",
       "option": {
         "qwerty": "QWERTY (US)",
@@ -311,12 +323,12 @@
       "label": "egne tekster",
       "description": "hele texten eller et avsnitt",
       "option": {
-        "passage": "slumpmässigt avsnitt",
+        "passage": "tilfeldig avsnitt",
         "entire": "hele texten"
       }
     },
     "customQuoteLength": {
-      "label": "avsnittslängd",
+      "label": "avsnittslengde",
       "description": "teckenintervall for et eget avsnitt",
       "option": {
         "short": "kort (opp til 100 tegn)",
@@ -373,11 +385,11 @@
     },
     "mascotVolume": {
       "label": "{companion}s volum",
-      "description": "hvordan högt {companion} høres"
+      "description": "hvor høyt {companion} høres"
     },
     "uiFontSize": {
-      "label": "textstorlek i gränssnittet",
-      "description": "størrelsen på gränssnittets tekst"
+      "label": "tekststørrelse i grensesnittet",
+      "description": "størrelsen på grensesnittets tekst"
     },
     "reduceMotion": {
       "label": "reduser bevegelse",
@@ -390,7 +402,7 @@
     },
     "colourVision": {
       "label": "fargesyn",
-      "description": "anpassa farger for färgblindhet",
+      "description": "tilpass farger for fargeblindhet",
       "option": {
         "typical": "typiskt",
         "red-green": "rød-grønn (protanopi, deuteranopi)",
@@ -399,7 +411,7 @@
       }
     },
     "uiFont": {
-      "label": "gränssnittstypsnitt",
+      "label": "grensesnittskrifttype",
       "description": "skrift for menyer og tekst utenfor skriveområdet",
       "option": {
         "system": "systemets standard",
@@ -409,7 +421,7 @@
     },
     "boldText": {
       "label": "fet tekst",
-      "description": "kraftigare tekst i hele gränssnittet"
+      "description": "fetere tekst i hele grensesnittet"
     },
     "textSpacing": {
       "label": "textavstånd",
@@ -440,14 +452,15 @@
     },
     "language": {
       "label": "språk",
-      "description": "gränssnittsspråk; last inn på nytt etter endring",
+      "description": "grensesnittspråk; last inn på nytt etter endring",
       "option": {
         "en-GB": "English (UK)",
         "en-US": "English (US)",
         "zh-CN": "简体中文 (Chinese Simplified)",
         "qps": "pseudo",
         "qps-wide": "pseudo wide"
-      }
+      },
+      "picker_title": "språkvelger"
     },
     "backupFrequency": {
       "label": "automatiske sikkerhetskopier",
@@ -478,7 +491,7 @@
       "label": "datasetbibliotek"
     },
     "wordFilter": {
-      "label": "filtrera stötande ord"
+      "label": "filtrer støtende ord"
     },
     "blockedWords": {
       "label": "egne ord å filtrera"
@@ -553,7 +566,7 @@
       "label": "løpsvalg"
     },
     "raceModesNoticeSeen": {
-      "label": "sett melding om tävlingslägen"
+      "label": "sett melding om løpsmoduser"
     },
     "decorationsSeen": {
       "label": "Sett temadekorationer"
@@ -587,16 +600,37 @@
       "label": "sett numerisk tastatur"
     },
     "numpadTold": {
-      "label": "nåmpadövning nevnt"
+      "label": "talltastaturøvelse nevnt"
     },
     "numpadOffered": {
-      "label": "nåmpadövning erbjuden"
+      "label": "talltastaturøvelse tilbudt"
     },
     "sumsConfig": {
-      "label": "räkneuppställning"
+      "label": "regnestykkeoppsett"
     },
     "numpadConfig": {
-      "label": "tiotangentstestets konfiguration"
+      "label": "konfigurasjon for talltastaturtest"
+    },
+    "customVisionProfiles": {
+      "label": "egendefinerte fargesynprofiler"
+    },
+    "hideIncompatibleDatasets": {
+      "label": "skjul datasett på andre språk"
+    },
+    "calPetsToSleep": {
+      "label": "antall ganger {companion} ble klappet i søvn"
+    },
+    "calEarlyWakes": {
+      "label": "antall ganger {companion} ble vekket tidlig"
+    },
+    "calOvernightSleep": {
+      "label": "fremgang for {companion}s nattesøvn"
+    },
+    "calOvernightDone": {
+      "label": "prestasjon for nattesøvn med ledsager oppnådd"
+    },
+    "calShutdown": {
+      "label": "{companion}s avslåingstilstand"
     }
   },
   "actions": {
@@ -611,8 +645,8 @@
   },
   "data_panel": {
     "done_the_browser_will_keep": "Klart: nettleseren kommer å beholde dine data.",
-    "the_browser_said_no_for": "Nettleseren sa nej for tillfället. Å installera kalibre som en app eller legge til et bokmärke endrer ofte dette; håll under tiden en sikkerhetskopi.",
-    "this_browser_can_t_save": "Denne nettleseren kan ikke lagre til en mappe på egen hånd, så sikkerhetskopiera manåelt nedan. (Chrome og Edge kan göra det automatisk.)",
+    "the_browser_said_no_for": "Nettleseren sa nei for øyeblikket. Å installere kalibre som en app eller legge til et bokmerke endrer ofte dette; behold en sikkerhetskopi i mellomtiden.",
+    "this_browser_can_t_save": "Denne nettleseren kan ikke lagre til en mappe på egen hånd, så ta sikkerhetskopi manuelt nedenfor. (Chrome og Edge kan gjøre det automatisk.)",
     "choose_a_folder_on_this": "Velg en mappe på denne datamaskinen så blir den din kalibre-mappe: denne profilen lagres der noen sekunder etter hver test eller endring, sammen med de datasett og skrifter du har lagt til. Om mappen allerede inneholder annet skapas en ”kalibre”-mappe inni.",
     "saving_this_profile_and_the": "Lagrer denne profilen samt tilførte datasett og skrifter i kalibre-mappen ”{folderName}” · {last}.{problem}",
     "when_an_update_changes_how": "Når en oppdatering endrer hvordan kalibre lagrer saker lagres en kopia av alt fra precis før, ifall noe gick feil. De to siste behålls.",
@@ -622,7 +656,7 @@
     "the_file_is_ready": "filen er klar",
     "couldn_t_save_see_settings": "kunde ikke lagre (se innstillinger → data)",
     "storage_persistent": "Nettleseren behåller kalibres data tills du selv rensar den.",
-    "storage_best_effort": "Nettleseren kan rensa kalibres data om disken begynner få slut på utrymme (Safari gjør også det etter 7 dager uten besök). Be den å beholde data og håll en sikkerhetskopi.",
+    "storage_best_effort": "Nettleseren kan slette kalibres data hvis disken begynner å gå tom for plass (Safari gjør også det etter 7 dager uten besøk). Be den beholde data, og hold en sikkerhetskopi.",
     "storage_unsupported": "Denne nettleseren kan ikke lova å beholde kalibres data, så håll en sikkerhetskopi.",
     "storage_using": " Bruker {used}.",
     "overdue": "Denne profilen har ikke sikkerhetskopiert på over {days} dager. ",
@@ -632,7 +666,7 @@
     "copy_line": "fra {when}, precis før{what} endret hvordan data lagres · {records} poster",
     "copy_app": " kalibre v{app}",
     "copy_update": " en oppdatering",
-    "allow_again": "tillåt igjen",
+    "allow_again": "tillat igjen",
     "save_over_it": "lagre over den",
     "restore_it": "gjenopprett den",
     "put_this_copy_back": "legg tilbake denne kopian",
@@ -647,34 +681,37 @@
     "remove": "fjerne {family}",
     "list_fonts_on_this_computer": "liste skrift på denne datamaskinen",
     "fonts_found_start_typing_a": "{length} skrift hittades; begynne skrive et navn for å velge et.",
-    "the_browser_did_not_allow": "Nettleseren tillät ikke å skrift listas. Du kan fortsatt skrive namnet på vilket installerat skrift som helst.",
+    "the_browser_did_not_allow": "Nettleseren tillot ikke at skrifttyper listes opp. Du kan fortsatt skrive navnet på en hvilken som helst installert skrifttype.",
     "load_a_font_file": "last en typsnittsfil",
     "use_default_font": "bruk standardtypsnitt",
-    "bundled_legible": "medföljande · lättläst monospace",
-    "bundled_dyslexia": "medföljande · dyslexivänligt",
+    "bundled_legible": "inkludert · lettlest fastbredde",
+    "bundled_dyslexia": "inkludert · dysleksivennlig",
     "sample": "the quick brown fox jumps over the lazy dog. 0123456789"
   },
   "settings": {
     "github": "github",
-    "translation_note": "denne oversettelsen har ikke skrevet eller kontrollert av en person med svensk som morsmål, så en del kan høres merkelig. du kan hjälpa til å forbedre den på {link}.",
-    "imported": "importerade {count, plural, one {# inställning} other {# inställningenr}}",
+    "translation_note": "denne oversettelsen er ikke skrevet eller kontrollert av en person med norsk som morsmål, så noe kan virke uvant. du kan hjelpe til med å forbedre den på {link}.",
+    "imported": "importerte {count, plural, one {# innstilling} other {# innstillinger}}",
     "skipped": " · hoppade over {what}",
-    "sections_label": "inställningssektioner"
+    "sections_label": "innstillingsseksjoner"
   },
   "storage_screen": {
-    "measuring": "mäter…",
-    "space_used": "använt utrymme",
+    "measuring": "måler…",
+    "space_used": "brukt plass",
     "yes": "ja, {label}",
     "export_first": "eksportere først",
-    "kalibre_is_using_of_the": "kalibre bruker {formatSize} av de {formatSize2} som denne nettleseren tillåter.",
+    "kalibre_is_using_of_the": "kalibre bruker {formatSize} av de {formatSize2} som denne nettleseren tillater.",
     "kalibre_is_using_about": "kalibre bruker omtrent {formatSize}.",
-    "couldn_t_measure": "kunde ikke mäta: {message}"
+    "couldn_t_measure": "kunne ikke måle: {message}",
+    "profile_breakdown": "hva denne profilen består av",
+    "downloaded_from_libraries": "lastet ned fra biblioteker",
+    "imported_by_you": "importert av deg"
   },
   "theme_editor": {
     "sample_of_this_theme": "eksempel på dette temat",
-    "needs_1": " (kräver {minimum}:1)",
-    "fix_the_colours_marked_first": "Åtgärda først färgerna som er merkde med ✗",
-    "hex_value": "{label} hexvärde",
+    "needs_1": " (krever {minimum}:1)",
+    "fix_the_colours_marked_first": "Rett først fargene som er merket med ✗",
+    "hex_value": "{label} hexverdi",
     "edit_theme": "redigera tema",
     "a_sample_of_every_colour": "Et eksempel på hver farge, med dine innstillinger for fargesyn og kontrast. Hovra over en farge eller velg en for å merk var den brukes.",
     "imported": "importerade ”{name}”",
@@ -702,19 +739,20 @@
       "chartWpm": "wpm-linje",
       "chartRaw": "rålinje",
       "chartError": "feil",
-      "heat1": "tangentvärme 1",
-      "heat2": "tangentvärme 2",
-      "heat3": "tangentvärme 3",
-      "heat4": "tangentvärme 4"
+      "heat1": "tastevarme 1",
+      "heat2": "tastevarme 2",
+      "heat3": "tastevarme 3",
+      "heat4": "tastevarme 4",
+      "corrected": "første retting"
     },
     "sample_correct": "quick brown ",
     "sample_incorrect": "fxo",
     "sample_extra": "ss",
     "sample_dim": " jumps over",
     "sample_text": "tekst ",
-    "sample_link": "länk",
+    "sample_link": "lenke",
     "sample_selected": "merkd",
-    "that_theme_can_t_be": "Det temat kan ikke användas: {problem}.",
+    "that_theme_can_t_be": "Det temaet kan ikke brukes: {problem}.",
     "scheme_label": "lys eller mørk"
   },
   "theme_picker": {
@@ -723,7 +761,7 @@
     "ss": "ss",
     "jumps_over": " jumps over",
     "surface": "panel ",
-    "accent_link": "accentlänk",
+    "accent_link": "aksentlenke",
     "selected": "merkd",
     "1_text": "{ratio}:1-tekst",
     "choose_theme": "{label}: velg tema",
@@ -735,11 +773,46 @@
     "typing": "skriving",
     "content": "innhold",
     "training": "trening",
-    "accessibility": "tillgänglighet",
-    "data": "data"
+    "accessibility": "tilgjengelighet",
+    "data": "data",
+    "manage-data": "administrer data"
   },
   "stepper": {
     "decrease": "reduser {label}",
-    "increase": "öka {label}"
+    "increase": "øk {label}"
+  },
+  "vision_tester": {
+    "open_tester": "testflate og egendefinerte profiler",
+    "title": "testflate for fargesyn",
+    "modes_heading": "synsmoduser og filtre",
+    "current_mode": "aktiv: {name}",
+    "previewing_mode": "forhåndsviser: {name}",
+    "apply": "bruk modus",
+    "cancel": "avbryt",
+    "close": "lukk",
+    "custom_profiles": "egendefinerte profiler",
+    "create_profile": "ny egendefinert profil",
+    "edit_profile": "rediger profil",
+    "delete_profile": "slett profil",
+    "profile_name": "profilnavn",
+    "export": "eksporter profil",
+    "import": "importer profil",
+    "import_error": "import mislyktes: {reason}",
+    "import_invalid_json": "Ugyldig JSON-format",
+    "import_invalid_envelope": "Ugyldig formatkonvolutt",
+    "import_unsupported_version": "Profilversjonen støttes ikke: {version}",
+    "imported": "importerte profil «{name}»",
+    "sample_heading": "interaktivt semantisk utvalg",
+    "sample_caption": "Eksemplene gjenspeiler ekte skrivetekst, feil, ekstra bokstaver, diagramlinjer, varmeskalaer og statusindikatorer.",
+    "disclaimer": "Justeringene er ment for tilgjengelighet og skilleevne i grensesnittet. De diagnostiserer eller behandler ikke synstilstander.",
+    "validation_error": "kan ikke lagre profil: {reason}",
+    "duplicate_name": "En profil med navnet «{name}» finnes allerede.",
+    "monotonic_hint": "Varmeskalaen må bevare strengt ordnet lysstyrke.",
+    "monochrome_hint": "Viktige grensesnittelementer må forbli lett gjenkjennelige.",
+    "status_ok": "frisk",
+    "status_warn": "gjennomgå",
+    "status_fail": "problem",
+    "tap_to_preview": "forhåndsvis",
+    "reset_to_preset": "tilbakestill"
   }
 }
