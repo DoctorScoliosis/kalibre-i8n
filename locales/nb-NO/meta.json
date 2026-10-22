@@ -6,8 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "machine",
-  "revision": 7,
-  "version": "2026-10-04",
-  "changes": "Initial Norwegian Bokmål candidate translation; Core shell, Settings/Profile, Learn/Drills/Mistakes, Results/Stats, texts/datasets/data, cards/garage/cars, themes/wardrobe, and presentation/personalisation surfaces translated",
-  "published": false
+  "revision": 8,
+  "version": "2026-10-21",
+  "changes": "Complete Norwegian Bokmål translation (all 27 areas, 5,531 messages); achievements, commands, companions, games, quests, race added; Swedish/Danish remnants purged and legacy strings corrected"
 }

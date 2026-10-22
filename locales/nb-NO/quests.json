@@ -1,0 +1,91 @@
+{
+  "status": {
+    "done": "ferdig"
+  },
+  "actions": {
+    "swap": "bytt",
+    "swap_title": "Bytt dette oppdraget mot et annet (én gang om dagen)",
+    "go": "gå",
+    "go_aria": "gå: {quest}"
+  },
+  "labels": {
+    "today": "i dag",
+    "quests": "oppdrag",
+    "challenge": "utfordring",
+    "daily_goal": "dagsmål",
+    "daily_goal_label": "dagsmål "
+  },
+  "today": {
+    "panel_aria": "dagens oppdrag",
+    "getting": "Henter dagens oppdrag…",
+    "new_at_midnight": "{difficulty} · nye oppdrag ved midnatt · ",
+    "difficulty": "vanskelighetsgrad",
+    "summary_aria": "i dag: {done} av {total} oppdrag fullført{challenge, select, done {, utfordring fullført} other {}}"
+  },
+  "quest_note": {
+    "xp": "+{reward} xp",
+    "challenge_done": "utfordring fullført: {description}",
+    "quest_done": "oppdrag fullført: {description}"
+  },
+  "match": {
+    "tests": "{count, plural, one {en test} other {tester}}",
+    "drills": "{count, plural, one {en øvelse} other {øvelser}}",
+    "time": "{count, plural, one {en tidstest} other {tidstester}}",
+    "words": "{count, plural, one {en ordtest} other {ordtester}}",
+    "quote": "{count, plural, one {et sitat} other {sitater}}",
+    "book": "{count, plural, one {en boklesing} other {boklesinger}}",
+    "sustained": "{count, plural, one {en test i vedvarende nøyaktighet} other {tester i vedvarende nøyaktighet}}",
+    "time_duration": "{count, plural, one {en test på {duration} sekunder} other {tester på {duration} sekunder}}",
+    "words_count": "{count, plural, one {en test på {wordCount} ord} other {tester på {wordCount} ord}}",
+    "quote_category": "{count, plural, one {et {category} sitat} other {{category} sitater}}"
+  },
+  "categories": {
+    "short": "kort",
+    "medium": "middels",
+    "long": "langt",
+    "huge": "stort",
+    "massive": "massivt"
+  },
+  "game_titles": {
+    "feed": "Feed",
+    "castle": "Castle",
+    "space": "Space",
+    "spot": "Spot"
+  },
+  "difficulty_words": {
+    "easy": "på lett",
+    "normal": "på normal",
+    "hard": "på vanskelig"
+  },
+  "conditions": {
+    "wpm": "{wpm}+ WPM",
+    "accuracy": "{accuracy}%+ nøyaktighet",
+    "and": " og ",
+    "at": " med {parts}",
+    "kept_going_after": ", holdt det gående i {minutes, plural, one {# minutt} other {# minutter}}",
+    "kept_going": " holdt det gående i {minutes, plural, one {# minutt} other {# minutter}}"
+  },
+  "describe": {
+    "words": "skriv {count, plural, one {# ord} other {# ord}}",
+    "words_in": "skriv {count, plural, one {# ord} other {# ord}} i {match}",
+    "minutes": "skriv i {count, plural, one {# minutt} other {# minutter}}",
+    "minutes_in": "skriv i {count, plural, one {# minutt} other {# minutter}} i {match}",
+    "minutes_book": "skriv fra en bok i {count, plural, one {# minutt} other {# minutter}}",
+    "tests_one": "fullfør {match}",
+    "tests_many": "fullfør {count} {match}",
+    "run": "fullfør {match}{conditions}",
+    "game_runs": "spill {game} {count, plural, one {én gang} other {# ganger}}",
+    "game_score": "oppnå en poengsum på {score} i {game}",
+    "game_score_difficulty": "oppnå en poengsum på {score} i {game} {difficulty}",
+    "game_found": "finn {count, plural, one {# feil} other {# feil}} i én omgang av {game}",
+    "lesson_run": "skriv en leksjon i blindskrift med {accuracy}%+ nøyaktighet",
+    "lessons": "{count, plural, one {ta en leksjon i blindskrift} other {ta # leksjoner i blindskrift}}",
+    "pad_tests": "{count, plural, one {fullfør en test på talltastatur} other {fullfør # tester på talltastatur}}",
+    "pad_run": "fullfør en test på talltastatur",
+    "pad_ksph": "{ksph}+ tastetrykk i timen",
+    "pad_entries": ", med {entries}+ oppføringer",
+    "pad_lessons": "{count, plural, one {ta en leksjon for talltastatur} other {ta # leksjoner for talltastatur}}",
+    "sums": "få {count, plural, one {# regnestykke} other {# regnestykker}} riktig",
+    "something": "noe"
+  }
+}

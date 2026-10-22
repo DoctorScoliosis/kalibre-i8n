@@ -15,7 +15,8 @@
     "typed_text": "skrevet tekst",
     "mistakes": "feil",
     "extra_letters": "ekstra bokstaver",
-    "caret": "markør"
+    "caret": "markør",
+    "corrected": "første retting"
   },
   "actions": {
     "use": "bruk",
@@ -171,6 +172,18 @@
     },
     "contrast-night": {
       "name": "høy kontrast natt"
+    },
+    "nordic": {
+      "name": "nordisk"
+    },
+    "copper": {
+      "name": "kobber"
+    },
+    "cyber": {
+      "name": "cyber"
+    },
+    "amber": {
+      "name": "rav"
     }
   },
   "checks": {
@@ -193,6 +206,7 @@
     "needs_a_name": "trenger et navn på høyst 40 tegn",
     "scheme_must_be": "skjemaet må være lys eller mørk",
     "bad_hex": "fargen «{token}» må være en #rrggbb-verdi",
-    "not_readable": "ikke lesbart nok: {labels}"
+    "not_readable": "ikke lesbart nok: {labels}",
+    "corrected_bg": "første retting"
   }
 }

@@ -1,0 +1,192 @@
+{
+  "restart": {
+    "label": "start på nytt",
+    "keywords": "igjen tilbakestill omstart ny test",
+    "meta": "test · samme type, ny tekst"
+  },
+  "next_text": {
+    "label": "neste tekst",
+    "keywords": "hopp over en annen",
+    "meta": "test · gå videre"
+  },
+  "time_test": {
+    "label": "tid {duration}",
+    "keywords": "tidsbegrenset sekunder {duration}s test",
+    "meta": "test · test på {duration} sekunder"
+  },
+  "words_test": {
+    "label": "ord {count}",
+    "keywords": "antall test {count}",
+    "meta": "test · {count} ord"
+  },
+  "play_game": {
+    "label": "spill {game}",
+    "keywords": "spill leke moro {game}",
+    "meta": "spill · {blurb}"
+  },
+  "go_to": {
+    "label": "gå til {view}",
+    "keywords": "åpne vis side {view}",
+    "meta": "gå · side"
+  },
+  "achievements": {
+    "label": "prestasjoner",
+    "keywords": "merker trofeer milepæler oppnådd tjent hemmeligheter statistikk prestasjoner",
+    "meta": "åpne · prestasjoner"
+  },
+  "your_card": {
+    "label": "kortet ditt",
+    "keywords": "profil kort klistremerker kant ramme aura bakgrunn utstillingsvindu utsmykning tilpass dekorer",
+    "meta": "åpne · profil"
+  },
+  "today": {
+    "label": "i dag",
+    "keywords": "dagsoppdrag oppdrag utfordring oppgaver mål",
+    "meta": "gå · dagens oppdrag og utfordring"
+  },
+  "quote_category": {
+    "label": "sitat {category}",
+    "keywords": "avsnitt bok tekst {category}",
+    "meta": "test · ett sitat"
+  },
+  "mixed_quotes": {
+    "label": "blandede sitater",
+    "keywords": "tilfeldig lengde sitat",
+    "meta": "test · tilfeldig lengde hver gang"
+  },
+  "sustained_pace": {
+    "label": "vedvarende tempo {wpm}",
+    "keywords": "endeløs utholdenhet tempo hold mål {wpm} wpm",
+    "meta": "test · hold {wpm} WPM så lenge du kan"
+  },
+  "sustained_accuracy": {
+    "label": "vedvarende nøyaktighet {accuracy}",
+    "keywords": "endeløs utholdenhet nøyaktig presis hold mål {accuracy} prosent",
+    "meta": "test · hold {accuracy} % nøyaktighet så lenge du kan"
+  },
+  "keep_reading": {
+    "label": "fortsett å lese",
+    "keywords": "bok fortsett gjenoppta vedvarende roman les videre bokmerke",
+    "meta": "test · les videre gjennom bøkene dine, vedvarende"
+  },
+  "section": {
+    "label": "{view} {section}",
+    "keywords": "gå åpne vis {words}",
+    "meta": "gå · {view}-seksjon"
+  },
+  "continue_touch_typing": {
+    "label": "fortsett blindskrift",
+    "keywords": "lær leksjon leksjoner blindskrift fingre hjemmerad neste",
+    "meta": "lær · neste leksjon å mestre"
+  },
+  "learn_stage": {
+    "label": "lær trinn {stage}: {name}",
+    "keywords": "lær leksjon leksjoner blindskrift trinn {stage} {name}",
+    "meta": "lær · leksjoner {first}–{last}"
+  },
+  "drill_mistakes": {
+    "label": "øv på feilene mine",
+    "keywords": "tren øve øvelse opplæring feil",
+    "meta": "test · øvelser basert på feilene dine"
+  },
+  "wardrobe": {
+    "label": "{companion}s garderobe",
+    "keywords": "cal libby ledsager maskot garderobe kle på klær hatt utsmykning antrekk utseende tilpass",
+    "meta": "lær · kle opp {companion} i det du har tjent"
+  },
+  "try_guest": {
+    "label": "prøv som gjest",
+    "keywords": "gjest prøv prøveperiode midlertidig ny profil demo",
+    "meta": "profil · en ny gjesteprofil; lagre fremgangen senere for å beholde den"
+  },
+  "sign_out": {
+    "label": "logg av",
+    "keywords": "lås logg ut avlogging logg av glem enhet",
+    "meta": "profil · lås den til passordet oppgis igjen"
+  },
+  "profiles": {
+    "label": "profiler",
+    "keywords": "profil konto bytt bruker passord passnøkkel bilde avatar",
+    "meta": "åpne · hvem som skriver"
+  },
+  "backup_now": {
+    "label": "ta sikkerhetskopi nå",
+    "keywords": "sikkerhetskopi eksporter profil lagre historikk last ned fil",
+    "meta": "fil · denne profilen"
+  },
+  "load_profile": {
+    "label": "last inn en profilfil",
+    "keywords": "importer gjenopprett profil åpne fil sikkerhetskopi",
+    "meta": "fil · lagt til ved siden av profilene dine"
+  },
+  "export_settings": {
+    "label": "eksporter innstillinger",
+    "keywords": "last ned sikkerhetskopi lagre json",
+    "meta": "fil · innstillinger som json"
+  },
+  "keyboard_shortcuts": {
+    "label": "tastatursnarveier",
+    "keywords": "snarveier hurtigtaster taster hurtigvalg hjelp veiledning ?",
+    "meta": "hjelp · oversikt over tastatursnarveier"
+  },
+  "race": {
+    "label": "løp",
+    "keywords": "løp kappløp lan nettverk flerspiller venner mot romkode vert bli med",
+    "meta": "spill · kjør løp mot andre på nettverket ditt"
+  },
+  "race_ghost": {
+    "label": "kjør mot et spøkelse",
+    "keywords": "løp spøkelse spøkelser hylle lagret reprise mot",
+    "meta": "spill · kjør mot dine lagrede spøkelser"
+  },
+  "import_ghost": {
+    "label": "importer spøkelse",
+    "keywords": "importer spøkelsesfil åpne last kalibre-ghost hylle",
+    "meta": "spill · legg en .kalibre-ghost-fil på spøkelseshyllen din"
+  },
+  "race_solo": {
+    "label": "kjør på egen hånd",
+    "keywords": "løp solo rivaler datamaskin spøkelse mot alene",
+    "meta": "spill · kjør mot datamaskinen med dine forrige valg"
+  },
+  "privacy": {
+    "label": "personvern",
+    "keywords": "personvernerklæring data personopplysninger lagret",
+    "meta": "hjelp · hva kalibre lagrer, og hvor"
+  },
+  "terms": {
+    "label": "vilkår",
+    "keywords": "bruksvilkår betingelser lisens regler",
+    "meta": "hjelp · bruksvilkårene"
+  },
+  "security": {
+    "label": "sikkerhet",
+    "keywords": "sikkerhet sårbarhet rapporter feil sikkerhetsvarsel",
+    "meta": "hjelp · rapportere et sikkerhetsproblem"
+  },
+  "whats_new": {
+    "label": "hva er nytt",
+    "keywords": "hva er nytt endringslogg oppdateringer versjonsnotater historikk",
+    "meta": "hjelp · hva som er nytt i denne versjonen"
+  },
+  "changelog": {
+    "label": "endringslogg",
+    "keywords": "endringslogg hva er nytt oppdateringer versjonsnotater historikk versjoner",
+    "meta": "hjelp · endringslogg og tidligere oppdateringer"
+  },
+  "check_for_updates": {
+    "label": "se etter oppdateringer",
+    "keywords": "oppdater oppdateringer oppgrader ny versjon oppdater sjekk nå nyeste",
+    "meta": "hjelp · se etter en ny versjon nå"
+  },
+  "announcements": {
+    "label": "kunngjøringer",
+    "keywords": "kunngjøringer oppdateringer utviklerlogg reise nyheter stackinfolio utgivelse kanary",
+    "meta": "lenker · prosjektets reise og kunngjøringer"
+  },
+  "kanary_notice": {
+    "label": "kanary-merknad",
+    "keywords": "kanary beta forhåndsvisning advarsel sikkerhetskopi kompatibilitet testbygg merknad",
+    "meta": "hjelp · merknad om forhåndsvisningsbygg og sikkerhetskopier"
+  }
+}

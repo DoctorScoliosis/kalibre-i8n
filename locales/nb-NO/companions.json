@@ -1,0 +1,203 @@
+{
+  "achievements": {
+    "hello_there": "hei der",
+    "good_keycap": "flink tastetopp",
+    "best_friends": "bestevenner",
+    "boop": "dult",
+    "poke_poke_poke": "dult, dult, dult",
+    "ticklish": "kilevink",
+    "giggle_fit": "latterkrampe",
+    "thats_enough": "nå holder det",
+    "devoted": "hengiven"
+  },
+  "menu": {
+    "wardrobe": "garderobe",
+    "get_ring": "gi {companion, select, cal {ham} libby {henne} other {dem}} en ring",
+    "options_aria": "{companion}s alternativer"
+  },
+  "engagement": {
+    "title": "dette er en ganske viktig avgjørelse…",
+    "confirm_give": "gi {companion} ringen",
+    "confirm_cancel": "jeg er ikke sikker…",
+    "confirm_message": "er du sikker?"
+  },
+  "away": {
+    "note_hint": "en lapp",
+    "with_love_aria": "med kjærlig hilsen",
+    "back_tomorrow": "{partner} og jeg er borte på bryllupsreise! Tilbake i morgen."
+  },
+  "ending": {
+    "aria_label": "takk for at du spiller kalibre",
+    "thanks": "takk for at du spiller kalibre.",
+    "cal_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Hæ? Det er noe på poten min."
+      },
+      {
+        "reply": "det er en ring."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "En ring? Den er så skinnende. Men… hva er den til?"
+      },
+      {
+        "reply": "den er til noen du er glad i."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Noen jeg er… åh. ÅH. Jeg vet nøyaktig hvem."
+      },
+      {
+        "reply": "rop på {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner}! Kan du komme hit et øyeblikk?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "Ropte du? Du er så urolig. Hva er det?"
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Det er en ring. Til deg. Altså, hvis du vil ha den. Vil du det?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Åh, {proposer}. Klart jeg vil."
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Den passer! Den PASSER!"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "To taster, side om side. Akkurat som alltid."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Skal vi dra?"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "La oss dra."
+      },
+      {
+        "cue": "walkOut"
+      }
+    ],
+    "libby_script": [
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "Å. Det er noe på poten min."
+      },
+      {
+        "reply": "det er en ring."
+      },
+      {
+        "say": "proposer",
+        "mood": "wobbly",
+        "text": "En ring. Den er nydelig… men den er vel egentlig ikke min?"
+      },
+      {
+        "reply": "den er til noen helt spesiell."
+      },
+      {
+        "say": "proposer",
+        "mood": "watching",
+        "text": "Noen helt spesiell. Mm. Jeg tror jeg vet hvem."
+      },
+      {
+        "reply": "rop på {partner}"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "{partner}? Kan du komme hit et øyeblikk?"
+      },
+      {
+        "cue": "partnerEnters"
+      },
+      {
+        "say": "partner",
+        "mood": "idle",
+        "text": "Jeg er her! Hva skjer? Ooh, hva er det der? Den skinner!"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Det er en ring, {partner}. Den er til deg."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Til MEG? Ja! Ja, ja, ja!"
+      },
+      {
+        "cue": "partnerRing"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Stå stille, da."
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Jeg står stille! Stort sett."
+      },
+      {
+        "cue": "heart"
+      },
+      {
+        "say": "partner",
+        "mood": "happy",
+        "text": "Hvor går turen nå?"
+      },
+      {
+        "say": "proposer",
+        "mood": "happy",
+        "text": "Et vakkert sted."
+      },
+      {
+        "cue": "walkOut"
+      }
+    ],
+    "cal_letter": [
+      "kjære deg,",
+      "{partner} og jeg har reist bort en liten stund. det er bryllupsreisen vår! jeg kan fortsatt ikke fatte at jeg får si det.",
+      "tastene er dine frem til i morgen. leksjonene fungerer fortsatt, du har bare ikke meg til å heie på deg. så hei på deg selv, greit? høyt.",
+      "tilbake før du vet ordet av det. sikkert med sand i tastetoppene.",
+      "{proposer} og {partner}"
+    ],
+    "libby_letter": [
+      "kjære deg,",
+      "{partner} og jeg er borte for dagen. en bryllupsreise, visstnok. han har ikke sluttet å hoppe opp og ned siden han fikk ringen.",
+      "leksjonene er åpne mens vi er borte. ta det rolig, ta pauser, og hold fingrene på hjemmeraden. det vil tjene deg vel.",
+      "tilbake i morgen. jeg skal bringe ham helskinnet hjem.",
+      "{proposer} og {partner}"
+    ]
+  }
+}
