@@ -38,7 +38,14 @@
         "hint": "klæd din racerbil på: det er den, du kører på banen, og det, alle du konkurrerer mod, ser"
       }
     },
-    "tint": "{slot}-farvetone"
+    "tint": "{slot}-farvetone",
+    "rotate_left": "drej mod venstre",
+    "rotate_right": "drej mod højre",
+    "scale_smaller": "mindre",
+    "scale_bigger": "større",
+    "blend_into": "ton ud i",
+    "showcase_achievements": "fremvis præstationer",
+    "a_card_holds_at_most_stickers": "et kort rummer højst {max} klistermærker"
   },
   "cosmetics": {
     "CARD_SLOTS": {

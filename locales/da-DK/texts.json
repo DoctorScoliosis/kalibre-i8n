@@ -59,7 +59,12 @@
     "deleted": "citat slettet",
     "unknown": "— ukendt",
     "too_short": " · for kort til tests ({min}+ tegn)",
-    "empty": "Tilføj citater, du kan lide; de vises i citat- og blandede tests. Samlinger som en quotes.json-fil kan installeres under datasæt."
+    "empty": "Tilføj citater, du kan lide; de vises i citat- og blandede tests. Samlinger som en quotes.json-fil kan installeres under datasæt.",
+    "options_aria": "citatindstillinger",
+    "previous_page": "forrige",
+    "next_page": "næste",
+    "page_status": "side {page} af {pages}",
+    "pagination_aria": "mine citatsider"
   },
   "github_import": {
     "github_s_limit_for_downloads": "GitHubs grænse for downloads uden login er nået. Prøv igen om en time.",
@@ -80,5 +85,20 @@
   },
   "quote_collections": {
     "no_quotes_were_found_in": "Der blev ikke fundet nogen citater i den fil."
+  },
+  "wikipedia_import": {
+    "checking_wikipedia": "kontrollerer wikipedia…",
+    "downloading_progress": "henter {title} ({current} af {total})…",
+    "rate_limited": "Wikipedia begrænser hastigheden på anmodninger. Holder pause…",
+    "server_lagged": "Wikipedias servere er optagede. Holder pause…",
+    "request_failed": "Wikipedia svarede {status}.",
+    "network_error": "Kunne ikke få forbindelse til Wikipedia. Tjek din internetforbindelse.",
+    "no_articles_found": "Der blev ikke fundet nogen matchende Wikipedia-artikler.",
+    "no_prose_in_article": "\"{title}\" indeholder ingen brugbare brødtekstafsnit.",
+    "disambiguation_detected": "\"{title}\" er en flertydig artikel.",
+    "cancelled": "Import annulleret.",
+    "unsupported_edition": "Wikipedia-udgaven \"{wiki}\" understøttes ikke.",
+    "mixed_editions_declined": "Et datasæt kan ikke blande forskellige Wikipedia-udgaver. \"{current}\" kan ikke blandes med \"{incoming}\".",
+    "export_blocked_licence": "Eksport blokeret: Dette datasæt indeholder Wikipedia-materiale med uafklarede eller ufuldstændige licensvilkår. Tjek licensoplysningerne for hver artikel inden videre distribution."
   }
 }

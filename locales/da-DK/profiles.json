@@ -18,7 +18,7 @@
     "unlock_passkey": "lats opp med en adgangsnøgle"
   },
   "delete": {
-    "warning": "Om du tar bort ”{name}” forsvinner dens indstillinger, historikkk, fejl, lagrede tekster og nivå fra denne nettleseren. Det gatr ikke å ångra.",
+    "warning": "Hvis du sletter \"{name}\", fjernes dens indstillinger, historik, fejl, gemte tekster og niveau fra denne browser. Det kan ikke fortrydes.",
     "last_step": "Sista steget: ”{name}” tas bort nå."
   },
   "guest": {
@@ -57,7 +57,7 @@
     "guest_profile": "gjestprofil",
     "your_tests_mistakes_stats_and": "Dine tests, fejl, statistik og XP gemmes i denne browser, men sikkerhedskopieres ikke, og profilen kan ikke låses. Gem dine fremskridt for at beholde dem i din egen profil.",
     "you_re_trying_kalibre_as": "Du prøvr kalibre som gjest. ",
-    "this_browser_isn_t_keeping": "denne nettleseren gemmer ingenting, så ingenting lagres nur vinduet lukkes. For å beholde det du gør, last ned din profil og åpne den i et almindelig fönster.",
+    "this_browser_isn_t_keeping": "denne browser gemmer intet, så intet bevares, når dette vindue lukkes. for at beholde det, du laver, skal du downloade din profil og åbne den i et almindeligt vindue.",
     "guest_session": "gjests økt: "
   },
   "profile_context_menu": {
@@ -108,7 +108,7 @@
     "save_password": "gem adgangskode",
     "passkey_name": "passnøkkelns navn",
     "passkey_renamed": "passnøkkeln har bytt navn",
-    "this_browser_can_t_use": "Denne nettleseren kan ikke bruke adgangsnøgler her (de kräver https:// eller localhost).",
+    "this_browser_can_t_use": "Denne browser kan ikke bruge adgangsnøgler her (de kræver https:// eller localhost).",
     "set_a_password_first_then": "Ange først et adgangskode og legg siden til en adgangsnøgle for å latsa opp med Touch ID, Windows Hello, en telefon eller en sikkerhetsnyckel.",
     "rename": "byt navn",
     "rename_passkey": "byt navn på adgangsnøgle {label}",
@@ -135,8 +135,8 @@
     "delete_for_good": "slet permanent ({left})",
     "delete_for_good_2": "slet permanent",
     "deleting": "tar bort…",
-    "name_and_picture": "navn og bilde",
-    "a_password_or_passkey_keeps": "Et adgangskode eller en adgangsnøgle hindrer andre som bruger denne nettleseren fra Kalibres visninger. Det krypterer ikke det som lagres i nettleseren.",
+    "name_and_picture": "navn og billede",
+    "a_password_or_passkey_keeps": "En adgangskode eller adgangsnøgle holder andre, der bruger denne browser, ude af Kalibres skærme. Det krypterer ikke det, der gemmes i browseren.",
     "rerun_setup": "kjør oppsettet igen",
     "an_export_is_a_compressed": "En export er en komprimert .kalibre-profile-fil med denne profilens historikkk. Dens adgangskode og adgangsnøgler følger med som lats, men komprimering er ikke kryptering, så oppbevar den privat.",
     "removes_passkeys": "Dette tar også bort {count, plural, one {dens adgangsnøgle} other {dens # adgangsnøgler}}.",
@@ -146,10 +146,19 @@
     "type_its_name": "skriv dens navn"
   },
   "profile_form_helpers": {
-    "shrinking": "reduserer…",
-    "change_picture": "byt bilde",
-    "add_a_picture": "legg til en bilde",
-    "optional_shrunk_to_a_small": "Valgfritt. Förminskas til en liten kvadrat og lagres i denne nettleseren."
+    "shrinking": "formindsker…",
+    "change_picture": "skift billede",
+    "add_a_picture": "tilføj et billede",
+    "optional_shrunk_to_a_small": "Valgfrit. Formindskes til en lille firkant og gemmes i denne browser.",
+    "take_photo": "tag et foto",
+    "capture_photo": "optag",
+    "retake_photo": "tag om",
+    "use_photo": "brug foto",
+    "camera_preview": "kameraeksempel",
+    "camera_not_available": "Kamera er ikke tilgængeligt i denne browser.",
+    "camera_permission_denied": "Kameratilladelse blev nægtet.",
+    "camera_not_found": "Der blev ikke fundet noget kamera på denne enhed.",
+    "camera_error": "Kunne ikke få adgang til kameraet."
   },
   "profile_import": {
     "import_a_profile_file": "importere en profilfil",
@@ -158,7 +167,7 @@
   "profile_new_panel": {
     "e_g_guest": "t.ex. gjest",
     "creating": "skapar…",
-    "a_picture_and_password_can": "{NAME_HINT} en bilde og et adgangskode kan läggas til i profilinnstillingene.",
+    "a_picture_and_password_can": "{NAME_HINT} et billede og en adgangskode kan tilføjes i profilindstillingerne.",
     "create_and_open": "skapa og åpne",
     "or_try_as_a_guest": "eller Prøv som gjest",
     "a_profile_to_try_things": "En profil å Prøv saker i, uden konfiguration; gem dens fremgang senare for å beholde den"
@@ -170,16 +179,16 @@
     "set_up_kalibre": "konfigurera kalibre",
     "progress": "{current} av {total}",
     "progress_keys": " · enter for å fortsette · esc for å hoppa over",
-    "keep_an_automatic_backup_in": "beholde en automatisk sikkerhedskopi i en mappe på denne datamaskinen? (nettleseren kan rensa sin egen lagring)",
+    "keep_an_automatic_backup_in": "behold en automatisk sikkerhedskopi i en mappe på denne computer? (browseren kan rydde sit eget lager)",
     "save_a_backup_of_this": "gem en sikkerhedskopi af denne profil i ”{name}” nu?",
     "who_ll_guide_your_touch": "vem skal guida dig gjennom touch typing-leksjonene?",
     "new_here_or_been_here": "ny her eller varit her förut?",
     "kalibre_works_better_with_a": "kalibre fungerer bättre med et tastatur",
     "pick_a_theme": "vælg et tema",
-    "capital_letters_in_common_words": "store bokstaver i almindelige ord? (citat og dine egne tekster behatller alltid sina)",
+    "capital_letters_in_common_words": "store bogstaver i almindelige ord? (citater og dine egne tekster beholder altid deres)",
     "default_test": "standardtest",
-    "when_should_kalibre_suggest_a": "nur skal kalibre foreslå et fejl å øve på?",
-    "automatically_start_training_mistakes_wh": "begynne å trene automatisk fejl nur de er klar?",
+    "when_should_kalibre_suggest_a": "hvornår skal kalibre foreslå en fejl at øve?",
+    "automatically_start_training_mistakes_wh": "start automatisk træning af fejl, når de er klar?",
     "a_daily_goal": "et daglig skall?",
     "how_often_should_the_backup": "hvordan ofte skal sikkerhetskopieringsmappen oppdateres? (indstillinger → data)",
     "DEFAULT_TESTS": {
@@ -221,7 +230,7 @@
         "label": "vælg en mappe"
       },
       "later": {
-        "label": "ikke nå"
+        "label": "ikke nu"
       },
       "save": {
         "label": "ja, gem den"
@@ -261,7 +270,7 @@
     "companion_note": "de følger denne profil. Opret en anden profil for at møde den anden.",
     "restore_note": "kalibre kan gjenopprette dine profiler, datasæt og skrifter fra mappen der de blev gemt.",
     "keyboard_note": "skjermtastaturet fungerer for tester og spil, men et bluetooth- eller usb-tastatur gør dem rättvisare, og touch typing-leksjonene kräver virkelig et. kalibre fungerer best på en datamaskin.",
-    "keyboard_tip": " tips: legg til kalibre på hjemskjermen (dele → legg til på hjemskjermen) slik at safari behatller dine data; i en fane bør du komme tilbake minst én gang i uken.",
+    "keyboard_tip": " tip: føj kalibre til din startskærm (del → føj til hjemmeskærm), så safari beholder dine data; i en fane bør du vende tilbage mindst én gang om ugen.",
     "auto_accept_yes": "ja, legg til dem automatisk",
     "language_detail": {
       "en-US": "anpassad staving",
@@ -270,7 +279,7 @@
     }
   },
   "passkey_utils": {
-    "this_browser_can_t_use": "Denne nettleseren kan ikke bruke adgangsnøgler her (de kräver https:// eller localhost).",
+    "this_browser_can_t_use": "Denne browser kan ikke bruge adgangsnøgler her (de kræver https:// eller localhost).",
     "that_passkey_uses_a_kind": "Den passnøkkeln bruger en typ av nyckel som Kalibre ikke kan kontrollere. Prøv en annen enhet eller browser.",
     "no_passkey_for_this_profile": "ingen adgangsnøgle for denne profil fungerer på denne adresse.",
     "not_a_der_signature": "ikke en DER-signatur",
@@ -299,7 +308,7 @@
     "that_profile_isn_t_there": "Den profil findes ikke længere."
   },
   "profile_file": {
-    "this_browser_can_t_open": "Denne nettleseren kan ikke åpne komprimerade profilfiler. Prøv en gældende version av Chrome, Edge, Firefox eller Safari.",
+    "this_browser_can_t_open": "Denne browser kan ikke åbne komprimerede profilfiler. Prøv en nyere version af Chrome, Edge, Firefox eller Safari.",
     "the_profile_file_is_damaged": "Profilfilen er beskadiget (den kunde ikke dekomprimeras)."
   },
   "profile_name": {

@@ -20,7 +20,16 @@
     "still_loading": "indlæser stadig. kontrollér din forbindelse, og genindlæs. når kalibre er indlæst her, fungerer det uden net.",
     "older_tab": "kalibre er åben i en anden fane, på en ældre version. luk den fane, så fortsætter denne.",
     "couldnt_load": "kalibre kunne ikke indlæses. kontrollér din forbindelse, og genindlæs.",
-    "browser_too_old": "denne browser er for gammel til kalibre. en nyere version af Chrome, Edge, Firefox eller Safari fungerer."
+    "browser_too_old": "denne browser er for gammel til kalibre. en nyere version af Chrome, Edge, Firefox eller Safari fungerer.",
+    "report_problem": "rapportér et problem",
+    "go_back_to_previous": "gå tilbage til v{version}",
+    "fact_label": "vidste du det?",
+    "fact_category_keyboards": "tastaturer",
+    "fact_category_typing": "skrivning",
+    "fact_category_linguistics": "lingvistik",
+    "fact_category_literature": "litteratur",
+    "fact_category_features": "kalibre",
+    "fact_category_general": "trivia"
   },
   "footer": {
     "shortcuts": "tastaturgenveje",
@@ -82,7 +91,11 @@
     "badge_in_update": "i denne opdatering",
     "badge_current": "nuværende",
     "notes_not_yet": "noterne for denne version vises, når den er installeret.",
-    "stays_at": "v{current} bliver på {link} et stykke tid; åbn en sikkerhedskopi der for at fortsætte med at bruge den."
+    "stays_at": "v{current} bliver på {link} et stykke tid; åbn en sikkerhedskopi der for at fortsætte med at bruge den.",
+    "changelog_title": "ændringslog",
+    "view_all_releases": "se hele ændringsloggen",
+    "view_latest_only": "se kun seneste opdatering",
+    "historical_releases_count": "{count} tidligere {count, plural, one {udgivelse} other {udgivelser}}"
   },
   "brand": {
     "kanary_preview_build_notice": "meddelelse om Kanary-forhåndsvisningsversion",
@@ -201,13 +214,20 @@
   "startup_failure": {
     "putting_it_back": "lægger den tilbage…",
     "it_couldn_t_be_put": "kunne ikke lægge den tilbage: {value}",
-    "if_kalibre_was_taken_back": "hvis kalibre med vilje blev tatt tilbake til en eldre versjon, kan du legge tilbake kopien av dataene dine som blev gemt rett før den sist blev opdateret. alt du gjorde efter den opdateringen er tapt, og den erstatter alt kalibre gemmer i denne browseren.",
+    "if_kalibre_was_taken_back": "hvis kalibre med vilje blev rullet tilbage til en ældre version, kan du gendanne den kopi af dine data, som blev gemt lige før den sidst blev opdateret. alt hvad du har foretaget dig efter den opdatering, går tabt, og den erstatter alt hvad kalibre gemmer i denne browser.",
     "copy_the_details": "kopier detaljerne",
     "copied": "kopieret",
     "select_the_details_below_to": "vælg detaljerne nedenfor for at kopiere dem",
     "kalibre_couldn_t_start": "kalibre kunne ikke starte",
     "what_you_ve_saved_is": "det, du har gemt, er stadig i denne browser: at starte igen ændrer det ikke.",
-    "send_details": "hvis det fortsætter, send detaljerne til {address}."
+    "send_details": "hvis det fortsætter, send detaljerne til {address}.",
+    "previous_version_available": "den forrige kalibre-version (v{version}) er stadig downloadet på denne enhed.",
+    "rollback_keeps_data": "at gå tilbage ændrer programfilerne, ikke dine gemte data. hvis den ældre version melder, at dine data er nyere, skal du genoprette kopien fra før opdateringen.",
+    "go_back_to": "gå tilbage til v{version}",
+    "confirm_go_back_to": "ja, gå tilbage til v{version}",
+    "going_back": "går tilbage…",
+    "couldn_t_go_back": "kunne ikke gå tilbage: {error}",
+    "previous_version_unavailable": "den forrige version er ikke længere tilgængelig"
   },
   "update_gate": {
     "carry_on": "fortsæt",
@@ -238,5 +258,12 @@
       "offline": "offline",
       "self-hosted": "selvhostet"
     }
+  },
+  "device_gate": {
+    "document_title": "kalibre · større skærm påkrævet",
+    "title": "kalibre kræver en større skærm",
+    "phone": "mobiltelefoner understøttes ikke. kalibres skriveflade, værktøjer og spil kræver mere plads, end en telefon kan tilbyde.",
+    "platforms": "brug en computer, en iPad med iPadOS eller en Android-tablet. en liggende visning passer bedst.",
+    "keyboard": "et fysisk tastatur anbefales til længere skrivesessioner, men er ikke påkrævet. skærmtastaturer understøttes fortsat på tablets."
   }
 }

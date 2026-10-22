@@ -1,0 +1,192 @@
+{
+  "restart": {
+    "label": "genstart",
+    "keywords": "igen nulstil forfra ny test prøve",
+    "meta": "test · samme slags, ny tekst"
+  },
+  "next_text": {
+    "label": "næste tekst",
+    "keywords": "spring over en anden næste",
+    "meta": "test · gå videre"
+  },
+  "time_test": {
+    "label": "tid {duration}",
+    "keywords": "tidtagning sekunder {duration}s test prøve",
+    "meta": "test · {duration} sekunders test"
+  },
+  "words_test": {
+    "label": "ord {count}",
+    "keywords": "antal test prøve {count}",
+    "meta": "test · {count} ord"
+  },
+  "play_game": {
+    "label": "spil {game}",
+    "keywords": "spil sjov {game}",
+    "meta": "spil · {blurb}"
+  },
+  "go_to": {
+    "label": "gå til {view}",
+    "keywords": "åbn visning side vis {view}",
+    "meta": "gå · side"
+  },
+  "achievements": {
+    "label": "præstationer",
+    "keywords": "emblemer trofæer milepæle fuldført optjent hemmeligheder statistik præstationer",
+    "meta": "åbn · præstationer"
+  },
+  "your_card": {
+    "label": "dit kort",
+    "keywords": "profilkort klistermærker ramme kant aura baggrund udstilling kosmetik tilpas dekorér",
+    "meta": "åbn · profil"
+  },
+  "today": {
+    "label": "i dag",
+    "keywords": "daglige opgaver opgave udfordring mål",
+    "meta": "gå · dagens opgaver og udfordring"
+  },
+  "quote_category": {
+    "label": "citat {category}",
+    "keywords": "tekststykke bog tekst {category}",
+    "meta": "test · ét citat"
+  },
+  "mixed_quotes": {
+    "label": "blandede citater",
+    "keywords": "tilfældig længde citat",
+    "meta": "test · en tilfældig længde hver gang"
+  },
+  "sustained_pace": {
+    "label": "udholdenhedstempo {wpm}",
+    "keywords": "uendelig udholdenhed tempo hold mål {wpm} wpm",
+    "meta": "test · hold {wpm} wpm så længe du kan"
+  },
+  "sustained_accuracy": {
+    "label": "udholdenhedspræcision {accuracy}",
+    "keywords": "uendelig udholdenhed præcis nøjagtig hold mål {accuracy} procent",
+    "meta": "test · hold {accuracy}% præcision så længe du kan"
+  },
+  "keep_reading": {
+    "label": "læs videre",
+    "keywords": "bog fortsæt genoptag udholdenhed roman læs bogmærke",
+    "meta": "test · læs videre i dine bøger, udholdenhed"
+  },
+  "section": {
+    "label": "{view} {section}",
+    "keywords": "gå åbn vis {words}",
+    "meta": "gå · {view}-afsnit"
+  },
+  "continue_touch_typing": {
+    "label": "fortsæt blindskrift",
+    "keywords": "lær lektion lektioner blindskrift fingre hjemtaster næste",
+    "meta": "lær · næste lektion, der skal mestres"
+  },
+  "learn_stage": {
+    "label": "lær trin {stage}: {name}",
+    "keywords": "lær lektion lektioner blindskrift trin {stage} {name}",
+    "meta": "lær · lektioner {first}–{last}"
+  },
+  "drill_mistakes": {
+    "label": "øv mine fejl",
+    "keywords": "træn øv træning fejl",
+    "meta": "test · øvelser ud fra dine fejl"
+  },
+  "wardrobe": {
+    "label": "{companion}s garderobe",
+    "keywords": "cal libby ledsager maskot garderobe tøj hat kosmetik påklædning udseende tilpas",
+    "meta": "lær · klæd {companion} på med det, du har optjent"
+  },
+  "try_guest": {
+    "label": "prøv som gæst",
+    "keywords": "gæst prøv midlertidig ny profil demo",
+    "meta": "profil · en ny gæsteprofil; gem dine fremskridt senere for at beholde den"
+  },
+  "sign_out": {
+    "label": "log ud",
+    "keywords": "lås log ud glem enhed",
+    "meta": "profil · lås den, indtil adgangskoden indtastes igen"
+  },
+  "profiles": {
+    "label": "profiler",
+    "keywords": "profil konto skift bruger adgangskode adgangsnøgle billede avatar",
+    "meta": "åbn · hvem skriver"
+  },
+  "backup_now": {
+    "label": "sikkerhedskopiér nu",
+    "keywords": "sikkerhedskopi backup eksport profil gem historik download fil",
+    "meta": "fil · denne profil"
+  },
+  "load_profile": {
+    "label": "indlæs en profilfil",
+    "keywords": "importér gendan profil åbn fil sikkerhedskopi",
+    "meta": "fil · tilføjes ved siden af dine profiler"
+  },
+  "export_settings": {
+    "label": "eksportér indstillinger",
+    "keywords": "download sikkerhedskopi gem json",
+    "meta": "fil · indstillinger som json"
+  },
+  "keyboard_shortcuts": {
+    "label": "tastaturgenveje",
+    "keywords": "genveje hurtigtaster taster tastatur hjælp guide ?",
+    "meta": "hjælp · oversigt over tastaturgenveje"
+  },
+  "race": {
+    "label": "løb",
+    "keywords": "løb lan netværk multiplayer venner mod værelseskode vært deltag",
+    "meta": "spil · kør mod folk på dit netværk"
+  },
+  "race_ghost": {
+    "label": "kør mod et spøgelse",
+    "keywords": "løb spøgelse spøgelser hylde gemt gentagelse mod",
+    "meta": "spil · kør mod dine gemte spøgelser"
+  },
+  "import_ghost": {
+    "label": "importér spøgelse",
+    "keywords": "importér spøgelse fil åbn indlæs kalibre-ghost hylde",
+    "meta": "spil · placer en .kalibre-ghost-fil på din spøgelseshylde"
+  },
+  "race_solo": {
+    "label": "kør løb på egen hånd",
+    "keywords": "løb solo modstandere computer spøgelse mod alene",
+    "meta": "spil · kør mod computeren med dine seneste valg"
+  },
+  "privacy": {
+    "label": "privatliv",
+    "keywords": "privatlivspolitik data personlige oplysninger gemt",
+    "meta": "hjælp · hvad kalibre gemmer, og hvor"
+  },
+  "terms": {
+    "label": "vilkår",
+    "keywords": "betingelser vilkår licens regler brugsvilkår",
+    "meta": "hjælp · vilkår for anvendelse"
+  },
+  "security": {
+    "label": "sikkerhed",
+    "keywords": "sikkerhed sårbarhed rapportér fejl offentliggørelse",
+    "meta": "hjælp · rapportering af et sikkerhedsproblem"
+  },
+  "whats_new": {
+    "label": "hvad er nyt",
+    "keywords": "hvad er nyt ændringslog opdateringer udgivelsesnoter historik",
+    "meta": "hjælp · nyheder i denne version"
+  },
+  "changelog": {
+    "label": "ændringslog",
+    "keywords": "ændringslog hvad er nyt opdateringer udgivelsesnoter historik versioner",
+    "meta": "hjælp · ændringslog og tidligere opdateringer"
+  },
+  "check_for_updates": {
+    "label": "søg efter opdateringer",
+    "keywords": "opdatering opdateringer opgrader ny version genindlæs tjek nu seneste",
+    "meta": "hjælp · søg efter en ny version nu"
+  },
+  "announcements": {
+    "label": "meddelelser",
+    "keywords": "meddelelser opdateringer udviklerlog rejse nyheder stackinfolio udgivelse kanary",
+    "meta": "links · projektets rejse og meddelelser"
+  },
+  "kanary_notice": {
+    "label": "kanary-meddelelse",
+    "keywords": "kanary beta forhåndsvisning advarsel sikkerhedskopi kompatibilitet testversion bygge meddelelse",
+    "meta": "hjælp · meddelelse om kanary-forhåndsvisning og sikkerhedskopier"
+  }
+}
