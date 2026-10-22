@@ -47,6 +47,9 @@
   "dataset_cap": {
     "custom_number_of_passages_per": "每个长度的自定义段落数",
     "passages_per_length": "每个长度的段落数",
+    "preset_adaptive": "自适应",
+    "label_adaptive": "每种长度的自适应段落数",
+    "hint": "每篇文本为每种引文长度（从短到超长）保留的段落数量。自适应模式会为较长的文本保留更多段落，但不会超过实用上限；其他选项则保留固定数量的段落，或保留全部段落。数量越多，变化越丰富，占用的空间也越大。",
     "about": "磁盘上约 {size}",
     "small": "{about}。",
     "large_no_limit": "无限制保留所有段落：这些文本 {about}。这需要大量空间，且构建需要一些时间。",

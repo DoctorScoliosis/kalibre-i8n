@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "community",
-    "revision": 9,
-    "version": "2026-10-08",
-    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
+    "revision": 10,
+    "version": "2026-10-21",
+    "changes": "Translated adaptive passage-budget settings"
   },
   "strings": {
     "about": {
@@ -2900,6 +2900,9 @@
       "dataset_cap": {
         "custom_number_of_passages_per": "nombre personnalisé de passages par longueur",
         "passages_per_length": "passages par longueur",
+        "preset_adaptive": "adaptatif",
+        "label_adaptive": "passages adaptatifs par longueur",
+        "hint": "Nombre de passages conservés par chaque texte pour chaque longueur de citation, de courte à très longue. Le mode adaptatif en conserve davantage pour les textes plus longs, jusqu’à une limite pratique ; les autres choix conservent un nombre maximal fixe, ou tous les passages. Un plus grand nombre apporte plus de variété et prend plus de place.",
         "about": "environ {size} sur le disque",
         "small": "{about}.",
         "large_no_limit": "aucune limite ne conserve tous les passages : {about} pour ces textes. Cela prend beaucoup d'espace et met du temps à construire.",

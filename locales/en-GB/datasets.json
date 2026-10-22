@@ -54,6 +54,9 @@
   "dataset_cap": {
     "custom_number_of_passages_per": "custom number of passages per length",
     "passages_per_length": "passages per length",
+    "preset_adaptive": "adaptive",
+    "label_adaptive": "adaptive passages per length",
+    "hint": "How many passages each text keeps for every quote length, short to massive. Adaptive keeps more for a longer text, up to a practical limit; the other choices keep up to a fixed number, or every passage. More gives more variety and takes more space.",
     "about": "about {size} on disk",
     "small": "{about}.",
     "large_no_limit": "no limit keeps every passage: {about} for these texts. That's a lot of space, and it takes a while to build.",

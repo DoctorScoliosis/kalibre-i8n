@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "machine",
-    "revision": 4,
-    "version": "2026-10-08",
-    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
+    "revision": 5,
+    "version": "2026-10-21",
+    "changes": "Translated adaptive passage-budget settings"
   },
   "strings": {
     "about": {
@@ -2900,6 +2900,9 @@
       "dataset_cap": {
         "custom_number_of_passages_per": "aangepast aantal passages per lengte",
         "passages_per_length": "passages per lengte",
+        "preset_adaptive": "adaptief",
+        "label_adaptive": "adaptieve passages per lengte",
+        "hint": "Hoeveel passages elke tekst bewaart voor elke citaatlengte, van kort tot zeer lang. Adaptief bewaart meer passages voor langere teksten, tot een praktische limiet; de andere keuzes bewaren maximaal een vast aantal of alle passages. Meer passages bieden meer variatie en nemen meer ruimte in.",
         "about": "ongeveer {size} op schijf",
         "small": "{about}.",
         "large_no_limit": "zonder limiet blijven alle passages bewaard: {about} voor deze teksten. Dat is veel ruimte en het opbouwen duurt even.",

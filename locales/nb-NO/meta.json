@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "machine",
-  "revision": 8,
-  "version": "2026-10-21",
-  "changes": "Complete Norwegian Bokmål translation (all 27 areas, 5,531 messages); achievements, commands, companions, games, quests, race added; Swedish/Danish remnants purged and legacy strings corrected"
+  "revision": 9,
+  "version": "2026-10-22",
+  "changes": "Completed Norwegian Bokmål translations; added adaptive passage-budget settings"
 }

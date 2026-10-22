@@ -16,9 +16,9 @@
       "sans-serif"
     ],
     "reviewed": "machine",
-    "revision": 5,
-    "version": "2026-10-08",
-    "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB"
+    "revision": 6,
+    "version": "2026-10-21",
+    "changes": "Translated adaptive passage-budget settings"
   },
   "strings": {
     "about": {
@@ -2909,6 +2909,9 @@
       "dataset_cap": {
         "custom_number_of_passages_per": "número personalizado de trechos por comprimento",
         "passages_per_length": "trechos por comprimento",
+        "preset_adaptive": "adaptativo",
+        "label_adaptive": "trechos adaptativos por comprimento",
+        "hint": "Quantos trechos cada texto mantém para cada tamanho de citação, de curto a enorme. O modo adaptativo mantém mais trechos em textos mais longos, até um limite prático; as outras opções mantêm uma quantidade máxima fixa ou todos os trechos. Mais trechos oferecem mais variedade e ocupam mais espaço.",
         "about": "cerca de {size} no disco",
         "small": "{about}.",
         "large_no_limit": "sem limite mantém todos os trechos: {about} para estes textos. É bastante espaço, e leva um tempo para construir.",

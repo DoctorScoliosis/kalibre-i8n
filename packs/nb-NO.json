@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "machine",
-    "revision": 8,
-    "version": "2026-10-21",
-    "changes": "Complete Norwegian Bokmål translation (all 27 areas, 5,531 messages); achievements, commands, companions, games, quests, race added; Swedish/Danish remnants purged and legacy strings corrected"
+    "revision": 9,
+    "version": "2026-10-22",
+    "changes": "Completed Norwegian Bokmål translations; added adaptive passage-budget settings"
   },
   "strings": {
     "about": {
@@ -3201,6 +3201,9 @@
       "dataset_cap": {
         "custom_number_of_passages_per": "egendefinert antall tekstutdrag per lengde",
         "passages_per_length": "tekstutdrag per lengde",
+        "preset_adaptive": "adaptiv",
+        "label_adaptive": "adaptive passasjer per lengde",
+        "hint": "Hvor mange passasjer hver tekst beholder for hver sitatlengde, fra kort til svært lang. Adaptiv beholder flere passasjer for lengre tekster opp til en praktisk grense; de andre valgene beholder et fast antall eller alle passasjer. Flere passasjer gir større variasjon og tar mer plass.",
         "about": "omtrent {size} på disken",
         "small": "{about}.",
         "large_no_limit": "uten grense beholdes hvert tekstutdrag: {about} for disse tekstene. Det tar mye plass og tar en stund å bygge.",

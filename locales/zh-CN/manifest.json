@@ -14,9 +14,9 @@
     "sans-serif"
   ],
   "reviewed": "community",
-  "revision": 9,
-  "version": "2026-10-08",
-  "changes": "Removed strings retired by Kalibre v0.79.0.1 (Release G); untranslated Castle strings fall back to en-GB",
+  "revision": 10,
+  "version": "2026-10-21",
+  "changes": "Translated adaptive passage-budget settings",
   "files": {
     "about.json": "9f71539a14d5e23f192a4cac6f73ab3f6c9849fe764679b5beb9ceba275b4c73",
     "achievements.json": "7ddec973e987b6657bb9ea08350b06896c99d4b6746fb66291f1fea07be9ec56",
@@ -29,7 +29,7 @@
     "companions.json": "7ff06cd2840e6aa60a8117cb94ade3d0c0dc3bdfa6ccf2945212407a5b2a6549",
     "companions.libby.json": "ef26bc4a7d4145d91a531610cc80182cfc3d8d20903d2506c6d806d7e62f1769",
     "data.json": "4dd27a3588958cfd0e2166d1fcbc9383f6e3d3dbf82bde64b7613f3e80db06fc",
-    "datasets.json": "7bf52a446cdb9006164cbbebbe850b1a6937ebbf2cc7923cb0a448c52903f7a6",
+    "datasets.json": "1222962098ca0cd097e8db7d9e6d0ad849cba381ae21fd0352c7b46ba90d142e",
     "drills.json": "1e8e7914b8d0825fed9d63b87b7b87cb632b36207095ab15bfc21eeba814506d",
     "games.json": "51b3f3389ee3c1f995d0ae53c6499a7e66fab9e3ceca8d5ea836047d6b4e5f6f",
     "learn.json": "0b0d4be53fa4088c1e9d90b19b317466b05870054d0967f23f01896e4c3e81ab",

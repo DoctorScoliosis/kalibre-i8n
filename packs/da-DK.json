@@ -7,9 +7,9 @@
     "fallback": "en-GB",
     "lowercaseDates": true,
     "reviewed": "machine",
-    "revision": 5,
-    "version": "2026-10-21",
-    "changes": "Complete Danish translations; 100% key coverage across all 27 areas"
+    "revision": 6,
+    "version": "2026-10-22",
+    "changes": "Completed Danish translations; added adaptive passage-budget settings"
   },
   "strings": {
     "about": {
@@ -3201,6 +3201,9 @@
       "dataset_cap": {
         "custom_number_of_passages_per": "egendefinert antal tekstutdrag pr. længde",
         "passages_per_length": "tekstutdrag pr. længde",
+        "preset_adaptive": "adaptiv",
+        "label_adaptive": "adaptive passager pr. længde",
+        "hint": "Hvor mange passager hver tekst gemmer for hver citatlængde, fra korte til meget lange. Adaptiv gemmer flere passager for længere tekster op til en praktisk grænse; de andre valg gemmer et fast antal eller alle passager. Flere passager giver større variation og bruger mere plads.",
         "about": "omtrent {size} på disken",
         "small": "{about}.",
         "large_no_limit": "uten grense beholdes hvert tekstutdrag: {about} for disse tekstene. Det tar meget plass og tager et stykke tid å bygge.",

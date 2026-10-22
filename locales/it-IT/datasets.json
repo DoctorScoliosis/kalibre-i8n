@@ -47,6 +47,9 @@
   "dataset_cap": {
     "custom_number_of_passages_per": "numero personalizzato di brani per lunghezza",
     "passages_per_length": "brani per lunghezza",
+    "preset_adaptive": "adattivo",
+    "label_adaptive": "brani adattivi per lunghezza",
+    "hint": "Quanti brani ogni testo conserva per ciascuna lunghezza di citazione, da breve a lunghissima. La modalità adattiva conserva più brani per i testi più lunghi, fino a un limite pratico; le altre opzioni conservano un numero massimo fisso oppure tutti i brani. Più brani offrono maggiore varietà e occupano più spazio.",
     "about": "circa {size} su disco",
     "small": "{about}.",
     "large_no_limit": "nessun limite conserva ogni brano: {about} per questi testi. è molto spazio e ci vuole un po' per costruirlo.",

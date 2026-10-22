@@ -6,7 +6,7 @@
   "fallback": "en-GB",
   "lowercaseDates": true,
   "reviewed": "machine",
-  "revision": 5,
-  "version": "2026-10-21",
-  "changes": "Complete Danish translations; 100% key coverage across all 27 areas"
+  "revision": 6,
+  "version": "2026-10-22",
+  "changes": "Completed Danish translations; added adaptive passage-budget settings"
 }
