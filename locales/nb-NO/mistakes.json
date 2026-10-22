@@ -15,13 +15,13 @@
     "improving": "Feilraten har halvert siden treningen begynte.",
     "mastered": "Nede på en fjerdedel av utgangspunktet. De går tilbake til treningen om de kommer tilbake.",
     "dismissed": "Foreslås ikke igjen om du ikke gjenoppretter dem.",
-    "watching": "Sett, men ikke tilstrekkelig ofte for å foreslås ennå. «øve nå« begynner trene et likevel.",
+    "watching": "Sett, men ikke ofte nok til å bli foreslått ennå. «Øv nå» begynner å trene på den likevel.",
     "overview": "Var fingrarna blir feil, ritat på tastaturet, med orden og mellanslagen ved siden av. Hver rad viser feilraten over de siste testerna.",
     "all": "Hver feil som Kalibre har notert, uansett status."
   },
   "empty": {
     "suggested": "Ingen feil her ennå. Det går bra!",
-    "training": "Ingen feil i treningen ennå. Legg til noen fra fanen «foreslåtte«.",
+    "training": "Ingen feil i treningen ennå. Legg til noen fra fanen «foreslåtte».",
     "improving": "Ingenting bedres ennå. Fortsett øve på dine treningsfeil.",
     "mastered": "Ingenting er mestret ennå. Trening tar tid — fortsett.",
     "dismissed": "Ingenting avvist.",
@@ -70,7 +70,13 @@
     "stop_aria": "slutte trene {mistake}",
     "export": "eksportere ",
     "csv": "csv",
-    "json": "json"
+    "json": "json",
+    "train_selected": "tren valgte",
+    "train_all": "tren alle",
+    "select_mistake": "velg {mistake}",
+    "select_all": "velg alle",
+    "view_trend": "se trend for {mistake}",
+    "view_trend_title": "Undersøk trend for {mistake}"
   },
   "filters": {
     "all": "alle",
@@ -94,7 +100,8 @@
     "pager_aria": "sider i misstagtabellen",
     "no_qualifiers_mistakes": "Ingen {qualifiers} feil{inSection, select, true { i {section}} other {}} ennå.",
     "no_in_section": "Ingen feil i {section} ennå.",
-    "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa feil i treningen."
+    "training_words_note": "{count, plural, one {# ord} other {# ord}} med konsekventa feil i treningen.",
+    "selected_count": "{count, plural, one {# valgt} other {# valgt}}"
   },
   "mistake_map": {
     "mistakes_click_to_isolate": "{label}-feil – klikke for å isolera",
@@ -111,7 +118,24 @@
     "rate_over_tests": "feilrate {from} → {to} over {count, plural, one {# test} other {# tester}}",
     "mark_label": "{mistake}: {rate} av gångerna",
     "started_at": "{summary} · begynte trene vid {rate}",
-    "keyboard_label": "Tastatur med {count, plural, one {# misstag} other {# misstag}} merkde. Listan nedan inneholder samma feil."
+    "keyboard_label": "Tastatur med {count, plural, one {# misstag} other {# misstag}} merkde. Listan nedan inneholder samma feil.",
+    "key_with_mistakes": "{key} ({count, plural, one {# feil} other {# feil}}) – klikk for å isolere",
+    "key_no_mistakes": "{key} (ingen registrerte feil)",
+    "key_isolated": "tast {key}",
+    "key_isolated_summary": "{count, plural, one {# feil} other {# feil}} på eller i retning denne tasten",
+    "show_all_keys": "vis alle taster",
+    "show_all_keys_aria": "avslutt tastisolering og vis alle feil",
+    "no_key_mistakes": "Ingen registrerte feil for {key}.",
+    "no_words_for_key": "Ingen ord eller mellomrom registrert for {key}.",
+    "illustrates_mistake": "i {mistake}",
+    "rel_outgoing": "mente {expected} → traff {typed}",
+    "rel_incoming": "glidning fra {expected}",
+    "rel_missed": "utelatt",
+    "rel_extra": "ekstra",
+    "rel_shift": "shift",
+    "rel_swapped": "byttet om med {other}",
+    "rel_persistent": "vedvarende",
+    "space_key_name": "mellomrom"
   },
   "mistakes": {
     "actions": "handlinger",
@@ -175,5 +199,21 @@
     "hesitation_before": "paus før {expected}",
     "hesitation": "nøling",
     "tricky": "vanskelig: {expected}"
+  },
+  "trend_detail": {
+    "trend_title": "{mistake} · feilfrekvenstrend",
+    "table_caption": "Testhistorikk og feilfrekvens for {mistake}",
+    "test_column_date": "dato",
+    "test_column_source": "test",
+    "test_column_exposures": "skrevet",
+    "test_column_errors": "feil",
+    "test_column_rate": "feilfrekvens",
+    "point_info": "{date} · {source} · {errors} av {exposures} feil ({rate})",
+    "started_baseline": "startet på {rate}",
+    "goal_improving": "forbedres ({rate})",
+    "goal_mastered": "mestret ({rate})",
+    "zoom": "zoom",
+    "no_data": "ikke nok testhistorikk med denne feilen ennå",
+    "test_source_default": "test"
   }
 }

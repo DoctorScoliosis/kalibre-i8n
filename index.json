@@ -7,6 +7,25 @@
   },
   "locales": [
     {
+      "id": "da-DK",
+      "name": "Dansk",
+      "englishName": "Danish (Denmark)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 6,
+      "version": "2026-10-22",
+      "reviewed": "machine",
+      "translationProgress": {
+        "translatedMessages": 5534,
+        "totalMessages": 5534
+      },
+      "changes": "Completed Danish translations; added adaptive passage-budget settings",
+      "path": "locales/da-DK/manifest.json",
+      "pack": "packs/da-DK.json",
+      "sha256": "d12ec007ac32e8a5a5794d5e796deb6a65d75eb7c39292cd26884b49058337e1",
+      "bytes": 395856
+    },
+    {
       "id": "de-DE",
       "name": "Deutsch",
       "englishName": "German",
@@ -100,6 +119,25 @@
       "pack": "packs/it-IT.json",
       "sha256": "fa74609430a268c39f65c4a4b78f83ee9ee1bbf9b988705d870996749ea0d46f",
       "bytes": 321446
+    },
+    {
+      "id": "nb-NO",
+      "name": "Norsk bokmål",
+      "englishName": "Norwegian Bokmål (Norway)",
+      "dir": "ltr",
+      "fallback": "en-GB",
+      "revision": 9,
+      "version": "2026-10-22",
+      "reviewed": "machine",
+      "translationProgress": {
+        "translatedMessages": 5534,
+        "totalMessages": 5534
+      },
+      "changes": "Completed Norwegian Bokmål translations; added adaptive passage-budget settings",
+      "path": "locales/nb-NO/manifest.json",
+      "pack": "packs/nb-NO.json",
+      "sha256": "95f38a5fd4fab8cb51f231c99dd66a0efae417fac3d57cfa40096a3d018c8f0e",
+      "bytes": 393499
     },
     {
       "id": "nl-NL",

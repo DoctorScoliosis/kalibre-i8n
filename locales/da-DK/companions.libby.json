@@ -1,0 +1,569 @@
+{
+  "lines": {
+    "intro": [
+      "Dagens taster: {keys}. Lad din {finger} vise vejen.",
+      "{keys} slutter sig til holdet i dag. Se på teksten, og stol på dine hænder.",
+      "Fingrene på udgangsrækken, sænk skuldrene. Klar, når du er klar.",
+      "Rigtigt først, hurtigt bagefter. Farten skal nok melde sig.",
+      "Mød {keys}. De er lidt generte i starten. Vær tålmodig med dem.",
+      "Nye taster: {keys}. Ingen smugkiggeri. Jeg lader, som om jeg ikke så det."
+    ],
+    "tip": [
+      "Et hurtigt råd, {tip}.",
+      "En lille ting, {tip}.",
+      "Os to imellem, {tip}.",
+      "Ganske stilfærdigt: {tip}.",
+      "En lille tanke, {tip}.",
+      "Hvis jeg må have lov, {tip}."
+    ],
+    "encourage": [
+      "Helt rolig. Din {finger} har styr på det her.",
+      "Små fejl sker. Sæt lige farten en anelse ned.",
+      "Træk vejret. Få det rigtigt, så kommer farten bagefter.",
+      "Det er bare dine fingre, der lærer nyt.",
+      "Mærk efter forhøjningerne på F og J. Udgangsstillingen er altid lige der.",
+      "Ingen skade sket. Nulstil hænderne, og prøv igen.",
+      "Din {finger} tænker for meget over det. Lad den glide af sig selv."
+    ],
+    "round": [
+      "Dejlig runde: {wpm} wpm.",
+      "Roligt og flydende. Bliv ved på den måde.",
+      "Den runde sang nærmest af sig selv.",
+      "{wpm} wpm, og ikke en eneste slingren. Vidunderligt.",
+      "Mmh. Det lød ligesom regn mod en rude.",
+      "Nydeligt. Virkelig nydeligt."
+    ],
+    "mastered": [
+      "{lesson}: mestret! {next} er åben.",
+      "Sådan, klaret. Videre til {next}.",
+      "Mestret. Dine hænder husker det nu.",
+      "{lesson}, mestret. Jeg vidste, du kunne.",
+      "Der var den. {next} er klar til dig.",
+      "Mestret, og endda med stor ynde."
+    ],
+    "again": [
+      "Så tæt på. En tur mere?",
+      "Næsten der. Én gang til?",
+      "Lige ved og næsten. Lad os prøve igen.",
+      "Det var tæt på. Dine hænder lærer for hver gang.",
+      "Dine fingre er lige ved at knække koden. Prøv igen.",
+      "Et lille forsøg mere. Helt roligt."
+    ],
+    "warmup": [
+      "Opvarmning: {keys}. Stille og roligt.",
+      "Løsn fingrene op på {keys} først.",
+      "Lidt opvarmning med {keys}. Ingen hast.",
+      "Væk fingrene nænsomt med {keys}.",
+      "En blid opvarmning på {keys}.",
+      "Opvarmning med {keys}, før vi for alvor går i gang."
+    ],
+    "keyboard": [
+      "Lektioner kræver et rigtigt tastatur. Tilslut et, og tryk på en vilkårlig tast.",
+      "Jeg underviser fingre, ikke tommelfingre. Et tastatur, og derefter et tastetryk.",
+      "Et fysisk tastatur giver dine hænder hukommelse. Tilslut et, når du er klar.",
+      "Vi har brug for et tastatur for at lære blindskrift. Tilslut et og tryk på en tast.",
+      "Find et tastatur frem, så dine fingre kan føle sig hjemme.",
+      "Når du har tilsluttet et tastatur, trykker du bare på en tast, så begynder vi."
+    ],
+    "numpad": [
+      "Jeg lagde mærke til et numerisk tastatur. Titalstræning findes nedenfor, når du har lyst.",
+      "Et numerisk tastatur. Hvis du vil øve det, ligger muligheden lige nedenunder.",
+      "Numeriske taster. Der er både strimmel og lektioner klar nedenfor.",
+      "Du har et numerisk tastatur til rådighed. Det kan du træne lige nedenunder.",
+      "Hvis du vil træne tal og regnestykker, er det numeriske tastatur lige herunder.",
+      "Lektioner til det numeriske tastatur venter nedenfor, hvis du vil give det et forsøg."
+    ],
+    "locked": [
+      "Gør {next} færdig først, så er denne her din.",
+      "Ikke endnu. {next} åbner op for den.",
+      "Tålmodighed. {next} venter på dig først.",
+      "Trin for trin. Gennemfør {next} først.",
+      "Vi tager tingene i rækkefølge. Først {next}.",
+      "Denne her låser op, så snart du har mestret {next}."
+    ],
+    "sleepy": [
+      "Mmh… tryk på en tast, når du er klar.",
+      "Tag dig god tid. Jeg er lige her.",
+      "Zzz… ingen grund til at haste…",
+      "Jeg hviler øjnene et øjeblik. Tryk, når vi skal videre.",
+      "En lille pause er sund. Væk mig, når du er klar.",
+      "Jeg er lige her og hviler mig. Tryk på en tast, når det passer dig."
+    ],
+    "welcome": [
+      "Hej, jeg er Libby! Lektion 1.1 er det rette sted at begynde.",
+      "Hej! Jeg er Libby, libre i kalibre. Skal vi starte med udgangsrækken?",
+      "Velkommen. Jeg hedder Libby. Lad os lære blindskrift sammen i ro og mag.",
+      "Hej der. Libby her. Lad dine fingre finde ro på udgangsrækken."
+    ],
+    "progress": [
+      "Næste: {next}. {count} af {total} mestret!",
+      "{count} klaret, {left} tilbage. {next} venter.",
+      "Du er tilbage! {next} er klar.",
+      "{count} mestret. Du bliver stille og roligt rigtig dygtig.",
+      "Kun {left} tilbage. {next} venter tålmodigt.",
+      "Skal vi? {next} er næste lektion."
+    ],
+    "newStage": [
+      "Trin {stage}: klaret! Nu gælder det {name}.",
+      "Trin {stage} mestret. {name} er næste skridt!",
+      "Flot afsluttet på trin {stage}. Videre til {name}.",
+      "Du har mestret trin {stage}. Nu tager vi hul på {name}."
+    ],
+    "graduate": [
+      "Hver eneste lektion er mestret. Jeg stråler af stolthed.",
+      "Alle tasterne er dine nu. Gå ud og nyd dem.",
+      "Du har fuldført hele forløbet. Dine hænder kan alt nu.",
+      "Blindskriftens fulde kunst er din. Det har været en sand fornøjelse."
+    ],
+    "drowsy": [
+      "Mmh… her er så fredeligt. Jeg bliver en anelse søvnig.",
+      "Hm… mine øjenvipper føles tunge.",
+      "Så stille… mine øjne vil gerne lukke sig lidt…",
+      "En blid ro sænker sig… jeg hviler lige hovedet…",
+      "Zzz… så rart og stille…",
+      "Mm… bare et øjebliks hvile for mine øjne…"
+    ],
+    "nod": [
+      "Zzz… bløde taster… zzz…",
+      "Mmh… bare et lille øjeblik… zzz…",
+      "Zzz… udgangsrækken… zzz…",
+      "Fred og ro… zzz…",
+      "Zzz… lette fingre… zzz…",
+      "Mmh… drømme… zzz…"
+    ],
+    "napWake": [
+      "Åh! Jeg hvilede mig bare. Hej igen.",
+      "Mmh… du er tilbage. Hvor dejligt.",
+      "Jeg faldt vist lige hen et sekund. Velkommen tilbage.",
+      "Åh! Undskyld, jeg blundede vist. Klar igen.",
+      "Mm, hej der. Jeg er helt vågen nu.",
+      "Så er jeg her igen. Klar, når du er."
+    ],
+    "wake": [
+      "Åh! Goddag. Jeg er Libby, libre i kalibre.",
+      "Mmh… hvilede bare lige øjnene. Hej, jeg er Libby.",
+      "Goddag. Jeg er Libby. Klar til at lære dine fingre at danse hen over tasterne?",
+      "Hej der. Mit navn er Libby. Lad os finde en god, rolig rytme.",
+      "Godt at møde dig. Jeg er Libby. Sæt dig godt til rette.",
+      "Hej. Jeg hedder Libby. Skal vi lade hænderne finde deres plads?"
+    ],
+    "yawn": [
+      "*gab*… mine øjenlåg føles tunge…",
+      "*gaaaab*… så lunt og fredeligt…",
+      "*blidt gab*… snart tid til at hvile øjnene…"
+    ],
+    "earlyWake": [
+      "Allerede? Jeg var lige ved at falde i søvn.",
+      "Hm? Vækket så hurtigt?",
+      "*blinker blidt*… jeg havde jo lige lukket øjnene…",
+      "Lidt mere hvile, måske?"
+    ],
+    "overnightSleep": [
+      "*blid spindelyd*… hviler fredeligt gennem natten…",
+      "*blidt åndedræt*… sover dybt og trygt hele natten…",
+      "*stille suk*… fredelige drømme hele natten lang… zzz…"
+    ],
+    "pet": [
+      "Prrr…",
+      "Mm, det er rart.",
+      "Hvor er du venlig.",
+      "Tak, kære.",
+      "En kærlig hånd.",
+      "*spinder stille*"
+    ],
+    "poke": [
+      "Åh! Hej til dig også.",
+      "Mmh? Var der noget, du behøvede?",
+      "Prik? Jeg lytter.",
+      "Et lille tryk. Hej med dig.",
+      "Ja? Jeg er lige her.",
+      "Mildt tryk modtaget."
+    ],
+    "pokeFit": [
+      "Så, nu er det vist rigeligt med det prikkeri.",
+      "Jeg er en tast, ikke en dørklokke.",
+      "Vær nu venlig. Det er ikke nødvendigt at prikke så ihærdigt.",
+      "Lad os nu bevare den gode tone, ikke sandt?"
+    ],
+    "tickle": [
+      "Hihi! Åh, din lille skelm. Hehe.",
+      "Haha! Det er ikke fair, jeg kan jo ikke kilde igen!",
+      "Hihihi, stop dog! Det kilder forfærdeligt!",
+      "Nej, se nu der… hihihi!",
+      "Åh nej, hihihi, lad mig nu være!",
+      "Hahaha! Jeg kan slet ikke holde masken!"
+    ],
+    "armLift": [
+      "Mm… tak… zzz",
+      "Zzz… pænt og ordentligt… zzz",
+      "Mmh… meget behageligere… zzz",
+      "Zzz… hvor betænksomt… zzz"
+    ],
+    "tickleAsleep": [
+      "Mm… hehe… zzz",
+      "Zzz… hm… hehe…",
+      "Mmh… hihi… ikke dér… zzz",
+      "Zzz… hihi… kilder… zzz"
+    ],
+    "laughingFit": [
+      "Pfft – hahahaha! Stop! Systemoverbelastning… går offline…",
+      "Hahaha! Min fatning… fuldstændig kompromitteret… lukker ned…",
+      "Du godeste – hahahaha! Jeg overgiver mig! Offline nu…",
+      "*hjælpeløs fnisen*… venligst… værdighed opbrugt… genstarter…"
+    ],
+    "reboot": [
+      "Systemet er genoprettet. Lad os vende tilbage til ordentlig skrivning, ja?",
+      "Online igen. Jeg har indgivet en officiel protest mod kilden.",
+      "Kalibreret og fattet endnu en gang. Venligst, ikke mere af det.",
+      "Ordenen er genoprettet. Hvor kom vi fra? Nå ja, indlæringen."
+    ],
+    "updateReady": [
+      "kalibre v{version} er klar. Genindlæsningen findes i sidefoden, når det passer dig.",
+      "En ny version, v{version}, venter. Genindlæs fra sidefoden, når du har lyst.",
+      "Version v{version} er klar til afhentning i sidefoden. Tag dig god tid.",
+      "Der er en opdatering tilgængelig: v{version}. Find den i sidefoden, når du er klar."
+    ],
+    "whatsNew": [
+      "Nyt i v{version}: {news}.",
+      "Noget nyt i v{version}: {news}.",
+      "I version v{version} finder du: {news}.",
+      "Se hvad der er tilføjet i v{version}: {news}."
+    ],
+    "newItem": [
+      "En ny {item}! Højreklik på mig, jeg vil så gerne prøve den.",
+      "Uuh, {item}! Højreklik på mig.",
+      "Noget nyt til garderoben: {item}. Højreklik på mig for at se det.",
+      "En dejlig nyhed: {item}. Højreklik på mig, så tager jeg den på.",
+      "Se her, {item} er låst op. Højreklik på mig.",
+      "Jeg har fået {item}. Højreklik på mig, hvis du vil se den på."
+    ],
+    "newItem_hat": [
+      "En ny hat: {item}. Højreklik på mig for at prøve den.",
+      "{item}. En yndig hat at bære."
+    ],
+    "newItem_face": [
+      "En ny ansigtsstil: {item}. Højreklik på mig for at prøve den.",
+      "{item}. Et frisk udtryk til mit ansigt."
+    ],
+    "newItem_necklace": [
+      "En ny halskæde: {item}. Højreklik på mig for at prøve den.",
+      "{item}. Den vil klæde mig smukt."
+    ],
+    "newItem_bracelet": [
+      "Et nyt armbånd: {item}. Højreklik på mig for at prøve det.",
+      "{item}. En nydelig tilføjelse til mit håndled."
+    ],
+    "newItem_pants": [
+      "Nye bukser: {item}. Højreklik på mig for at prøve dem.",
+      "{item}. Jeg tror, de vil passe mig godt."
+    ],
+    "newItem_background": [
+      "En ny baggrundsflise: {item}. Højreklik på mig for at prøve den.",
+      "{item}-baggrunden. Den rammer rummet så nydeligt ind."
+    ],
+    "newItems": [
+      "{count} nye ting at prøve på! Højreklik på mig.",
+      "{count} nye genstande til min garderobe! Højreklik på mig."
+    ],
+    "newDecoration": [
+      "Uuh, \"{name}\"! Sæt den på et af dine egne temaer: indstillinger → tema.",
+      "En ny dekoration: \"{name}\". Dine temaer vil elske den."
+    ],
+    "newDecorations": [
+      "{count} nye dekorationer til dine temaer! Indstillinger → tema.",
+      "{count} temadekorationer at prøve. Indstillinger → tema!"
+    ],
+    "newCardItem": [
+      "Noget nyt til dit kort: {name}. Din profil → dit kort.",
+      "{name}, til dit profilkort. Den vil klæde dig."
+    ],
+    "newCardItem_border": [
+      "En ny kant til dit kort: {name}. Profil → dit kort.",
+      "{name}. En elegant kant til dit profilkort."
+    ],
+    "newCardItem_frame": [
+      "En ny ramme: {name}. Profil → dit kort.",
+      "{name}. En stilren ramme til dit profilkort."
+    ],
+    "newCardItem_aura": [
+      "En ny aura til dit kort: {name}. Profil → dit kort.",
+      "{name}. En smuk glød til dit profilkort."
+    ],
+    "newCardItem_backdrop": [
+      "En ny baggrund til dit kort: {name}. Profil → dit kort.",
+      "{name}. En rolig baggrund til dit profilkort."
+    ],
+    "newCardItem_sticker": [
+      "Et nyt klistermærke: {name}. Profil → dit kort.",
+      "{name}. En fin lille detalje til dit profilkort."
+    ],
+    "newCardItems": [
+      "{count} nye ting til dit profilkort. Profil → dit kort.",
+      "Dit profilkort har {count} nye genstande klar. Profil → dit kort."
+    ],
+    "raceWon": [
+      "Først over stregen. Nydeligt klaret.",
+      "Du vandt. Det glæder mig på dine vegne.",
+      "Det var hurtigt. Godt kørt.",
+      "Du slog {count} af dem. En tur mere, hvis du har lyst."
+    ],
+    "raceLost": [
+      "{winner} vandt denne gang. Et bravt forsøg.",
+      "{winner} var hurtigst i dag. Vi tager det med oprejst pande.",
+      "Godt kørt, trods alt. {winner} tog sejren denne gang.",
+      "En andenplads til os. Næste gang er det vores tur mod {winner}."
+    ],
+    "newCarPart": [
+      "Noget nyt til din bil: {name}. Din profil → dit kort → garage.",
+      "{name}, til din racerbil. Den kan du se i garagen."
+    ],
+    "newCarPart_body": [
+      "Et nyt karosseri: {name}. Profil → dit kort → garage.",
+      "{name}. En elegant form til din bil."
+    ],
+    "newCarPart_paint": [
+      "En ny lakfarve: {name}. Profil → dit kort → garage.",
+      "{name}. En fornem nuance til bilen."
+    ],
+    "newCarPart_livery": [
+      "Et nyt mønster: {name}. Profil → dit kort → garage.",
+      "{name}. Smukke linjer til din bil."
+    ],
+    "newCarPart_wheels": [
+      "Nye hjul: {name}. Profil → dit kort → garage.",
+      "{name}. Nydelige fælge til turen."
+    ],
+    "newCarPart_trail": [
+      "Et nyt spor: {name}. Profil → dit kort → garage.",
+      "{name}. Et yndefuldt spor bag bilen."
+    ],
+    "newCarParts": [
+      "{count} nye dele til bilen! Profil → dit kort → garage.",
+      "Din bil har {count} nye udtryk at vælge imellem, når du vil."
+    ],
+    "achievement": [
+      "\"{name}\"! Den findes under din profil → præstationer.",
+      "Du opnåede \"{name}\". Din profil → præstationer.",
+      "En velfortjent præstation: \"{name}\". Profil → præstationer.",
+      "Tillykke med \"{name}\". Nydeligt arbejde.",
+      "\"{name}\" er tilføjet til din samling under profil → præstationer.",
+      "Endnu en milepæl: \"{name}\". Smukt klaret."
+    ],
+    "achievements": [
+      "{count} nye præstationer! Se din profil → præstationer.",
+      "{count} præstationer på én gang? Din profil → præstationer!"
+    ],
+    "complete": [
+      "Hver evig eneste præstation. Hver eneste! Hvor er jeg stolt af dig.",
+      "Alle sammen, klaret. Jeg er næsten målløs…",
+      "Fuldendt. Hver eneste udfordring og præstation er i hus. En sand triumf."
+    ],
+    "wakeFirst": [
+      "Zzz… væk mig først… zzz",
+      "Mm… lad mig lige vågne først…",
+      "Zzz… giv mig et øjeblik til at vågne…",
+      "Mmh… et lille øjeblik… jeg sover lige…"
+    ],
+    "highfive": [
+      "Giv mig fem!",
+      "Op med hånden! Vel spillet.",
+      "En velfortjent highfive til dig.",
+      "Flot klaret. Giv mig fem!",
+      "Høj femmer for den indsats.",
+      "Hatten af. Giv mig fem!"
+    ],
+    "honeymoon": [
+      "{partner} og jeg er taget på bryllupsrejse! Tilbage i morgen.",
+      "På bryllupsrejse med {partner}! Vi er tilbage i morgen.",
+      "{partner} og jeg holder en velfortjent fridag sammen. Vi ses i morgen."
+    ],
+    "challenge": [
+      "Dagens udfordring: {challenge}. Har du lyst til at prøve?",
+      "Har du set dagens udfordring? {challenge}.",
+      "Dagens opgave til dig: {challenge}. Tag den med ro.",
+      "En lille udfordring i dag: {challenge}. Mon ikke du klarer den?",
+      "Dagens udfordring lyder på: {challenge}. Giv det et forsøg.",
+      "Hvis du har mod på en udfordring i dag: {challenge}."
+    ],
+    "partner": [
+      "{partner} og jeg danner et dejligt makkerpar.",
+      "{partner} sender sine hilsner!",
+      "Har du hilst på {partner} i dag?",
+      "{partner} og jeg passer godt på tasterne.",
+      "Jeg holder så meget af {partner}. Vi supplerer hinanden så fint.",
+      "{partner} tror også fuldt og fast på dig."
+    ],
+    "morning": [
+      "Godmorgen. Først en kop te, så tasterne?",
+      "Morgen. Lad os starte blidt og roligt.",
+      "Åh, godmorgen! Udgangsrækken er helt varmet op.",
+      "Morgen. Friske hænder, frisk start.",
+      "Godmorgen. {next} er klar, når du er.",
+      "Morgen! Stille og roligt til at begynde med."
+    ],
+    "afternoon": [
+      "God eftermiddag. Lidt øvelse?",
+      "Eftermiddag. Et godt tidspunkt til et par rolige minutter.",
+      "Goddag, eftermiddagsskriver.",
+      "Eftermiddag! Sænk skuldrene, find udgangsrækken.",
+      "God eftermiddag. {next} er her, når du er klar.",
+      "Eftermiddag. Lad os gøre det til en rolig stund."
+    ],
+    "evening": [
+      "Godaften. Noget blidt og roligt i aften?",
+      "Aften. Rart at runde dagen af sammen med dig.",
+      "Godaften. Lad os holde det let og luftigt.",
+      "Aften! Tasterne er mere stilfærdige nu.",
+      "Godaften. {next}, hvis du har lyst.",
+      "Aften. Et par minutter, og så hvile."
+    ],
+    "night": [
+      "En sen aften? Lad os holde det kort og blødt.",
+      "Godaften, natteravn. Jeg er også vågen.",
+      "Det er sent. Et par taster, og så sove?",
+      "De stille timer. Bare dig, mig og udgangsrækken.",
+      "Sen aften. {next}, og så i seng, venligst.",
+      "Mmh, natholdet. Vær god ved dine håndled."
+    ],
+    "welcomeBack": [
+      "Der er du jo. {days} dage. Velkommen tilbage.",
+      "Velkommen tilbage! Lad os glide nænsomt ind i det igen.",
+      "{days} dage væk. Tasterne er ikke løbet nogen steder.",
+      "Åh, goddag igen. Jeg holdt din plads.",
+      "Tilbage efter {days} dage. Roligt og stabilt, så.",
+      "Velkommen hjem. Dine fingre skal nok huske det."
+    ],
+    "personalBest": [
+      "En ny personlig rekord: {wpm} wpm. Vidunderligt.",
+      "{wpm} wpm, din hidtil hurtigste. Jeg lagde mærke til det.",
+      "Ny rekord: {wpm} wpm. Så yndefuldt og præcist.",
+      "{wpm} wpm! En enestående præstation.",
+      "En ny rekord til samlingen: {wpm} wpm. Hvor var det smukt.",
+      "{wpm} wpm. Sikke en lethed i dine hænder."
+    ],
+    "streak": [
+      "{days} dage i træk. Roligt og stabilt gør udslaget.",
+      "Dit mål, {days} dage i streg. En dejlig vane.",
+      "{days} dage i træk. Tålmodighed bærer frugt.",
+      "En ubrudt stribe på {days} dage. Ganske imponerende.",
+      "{days} dage i træk med dit daglige mål. Det kan du være stolt af.",
+      "Stabilitet er nøglen: {days} dage i træk nu."
+    ],
+    "themeUnreadable": [
+      "Hm. {what} er svær at læse. Lidt mere kontrast, måske?",
+      "Jeg kan knap nok skelne {what}. Flyt den lidt længere væk fra sidens farve.",
+      "{what} forsvinder næsten for mig. En tydeligere nuance ville hjælpe.",
+      "Mine øjne skal anstrenge sig for at se {what}. Skal vi give den lidt mere kontrast?"
+    ],
+    "themeScheme": [
+      "Siden ser {page} ud, men temaet angiver {scheme}. Skift \"lys eller mørk\"?",
+      "En {page} side markeret som {scheme}. Resten af Kalibre klæder sig på til det forkerte vejr."
+    ],
+    "themeMistakes": [
+      "Fejl og skrevet tekst ligner hinanden. Giv fejlene deres helt egen nuance.",
+      "Jeg kan ikke kende dine svipsere fra resten. En anden farve til fejl, måske?"
+    ],
+    "themeAccent": [
+      "Accentfarven og fejlene er som tvillinger. Links kommer til at ligne fejl.",
+      "Den accentfarve læser som en fejl. Noget roligere, måske?"
+    ],
+    "themeLoud": [
+      "Den baggrund er meget lysstærk. Venlig for et øjeblik, men trættende i en time.",
+      "En temmelig højlydt side. Blødere farver, så vil dine øjne takke dig."
+    ],
+    "themeHeat": [
+      "Trinene for tastevarme er kommet i uorden. De bør tiltage i styrke fra 1 til 4.",
+      "Varmen fra 1 til 4 burde bygge sig op som en stille rødmen. Disse springer rundt."
+    ],
+    "themeSameAsBase": [
+      "En tom side. Før musen over en farve, så viser jeg, hvor den lander.",
+      "Lav om på hvad som helst, du ønsker. Jeg skal nok sige min ærlige mening."
+    ],
+    "themeLovely": [
+      "Hvor er det yndigt. Blidt og behageligt at læse.",
+      "Mmh. Alt fremstår harmonisk og læseligt. Gem endelig det.",
+      "Et særdeles smagfuldt valg. Roligt for øjnene.",
+      "Det tema klæder dig og Kalibre overordentlig godt."
+    ],
+    "wake@morning": [
+      "Mmh… morgen allerede? Goddag, jeg er Libby.",
+      "Åh, godmorgen. Jeg er Libby. Jeg hvilede bare lige øjnene.",
+      "Godmorgen. Libby her. Lad os begynde dagen med stilfærdig ro."
+    ],
+    "wake@afternoon": [
+      "Mmh, en lille eftermiddagslur. Goddag, jeg er Libby.",
+      "Åh! Jeg glemte helt tiden i eftermiddagsroen. Hej, jeg er Libby.",
+      "God eftermiddag. Libby her, frisk og veludhvilet."
+    ],
+    "wake@evening": [
+      "Åh, aften allerede. Goddag, jeg er Libby.",
+      "Mmh, det gyldne aftenlys. Hej, jeg er Libby.",
+      "Godaften. Jeg hedder Libby. Lad os nyde en rolig aftenstund."
+    ],
+    "wake@night": [
+      "Åh, det er blevet nat. Goddag, jeg er Libby. Helt dæmpet.",
+      "Mmh… det er sent. Jeg er Libby. Rart at se dig.",
+      "Natlig stilhed. Hej, jeg er Libby. Vi taster ganske sagte."
+    ],
+    "intro@morning": [
+      "En morgenlektion. En rolig måde at begynde dagen på.",
+      "Godmorgen. Friske tanker gør gode blindskrivere.",
+      "Morgenstund. Lad hænderne vågne i deres eget blide tempo."
+    ],
+    "intro@afternoon": [
+      "En eftermiddagslektion. Tag det ganske roligt.",
+      "God eftermiddag. Skal vi glide stille og roligt ind i det?",
+      "Lidt eftermiddagsro ved tasterne. Ingen hast."
+    ],
+    "intro@evening": [
+      "En aftenlektion. Intet hastværk overhovedet.",
+      "En blid afslutning på dagen. Skal vi?",
+      "Aftentimerne indbyder til eftertænksom og rolig skrivning."
+    ],
+    "intro@night": [
+      "Det er sent. Én opmærksom gennemgang er mere end rigeligt.",
+      "En nattelektion. Bløde taster, langsomme hænder.",
+      "Sent på færde. Vær ekstra nænsom ved dine fingre."
+    ],
+    "warmup@morning": [
+      "En morgenopvarmning. Fingre vågner langsomt.",
+      "Blide runder først. Det er stadig tidligt.",
+      "Lad hænderne vågne med en rolig opvarmning."
+    ],
+    "warmup@afternoon": [
+      "En opvarmning til at nulstille eftermiddagen.",
+      "Rolige runder først. Så ser vi, hvad det bringer.",
+      "Lidt blid bevægelse til hænderne her til eftermiddag."
+    ],
+    "warmup@evening": [
+      "Aftenopvarmning. Lad dagens travlhed glide væk.",
+      "Opvarmning først. Dine hænder har udrettet meget i dag.",
+      "En nænsom opvarmning som punktum for dagen."
+    ],
+    "warmup@night": [
+      "En blød opvarmning, eftersom det er sent.",
+      "Ganske rolige runder. Intet pres på denne time.",
+      "Natteopvarmning. Helt uden forventninger, bare ren bevægelse."
+    ],
+    "sleepy@morning": [
+      "Mmh, stadig en anelse søvnig selv.",
+      "En lille pause er helt i orden. Morgener tager tid.",
+      "Gab… lad os tage det i helt roligt tempo her til morgen."
+    ],
+    "sleepy@afternoon": [
+      "Eftermiddagens sløvhed. Et lille stræk, måske?",
+      "Hvil et øjeblik. Det er den tid på dagen.",
+      "En lille eftermiddagspause gør underværker."
+    ],
+    "sleepy@evening": [
+      "Du har udrettet meget i dag. En pause er velfortjent.",
+      "Aftentræthed. Træk vejret et øjeblik.",
+      "Dagen har været lang. Det er helt i orden at hvile hænderne."
+    ],
+    "sleepy@night": [
+      "Det er sent. Søvn er et udmærket næste skridt.",
+      "Mmh… godnat, måske? Vi kan altid fortsætte i morgen.",
+      "Zzz… hvil dine øjne. Tasterne venter troligt på dig i morgen."
+    ]
+  }
+}

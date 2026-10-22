@@ -1,0 +1,569 @@
+{
+  "lines": {
+    "intro": [
+      "Nytt i dag: {keys}. {finger} gjør jobben.",
+      "{keys} er dine etter denne. Se på teksten, ikke på hendene.",
+      "Hvil fingrene på hjemmeraden, så setter vi i gang.",
+      "Rolig og riktig slår raskt og feil. Farten kommer helt av seg selv.",
+      "Åh, {keys}! Jeg elsker disse. Jeg elsker egentlig alle taster. Jeg er jo en.",
+      "Nye taster i dag: {keys}. Ikke kikk på hendene dine. Jeg følger med."
+    ],
+    "tip": [
+      "Husk: {tip}.",
+      "Psst, {tip}.",
+      "En liten ting jeg la merke til: {tip}.",
+      "Trener Cal her: {tip}.",
+      "Et lite tips: {tip}.",
+      "Ikke si det til noen, men {tip}."
+    ],
+    "encourage": [
+      "Rist det av deg. {finger} finner veien.",
+      "Feil skjer! Det er slik fingrene dine lærer.",
+      "Ta det rolig. Presisjon først, så kommer farten helt av seg selv.",
+      "Du klarer det. Gi det et forsøk til!",
+      "Ingen hastverk. Hvert tastetrykk teller.",
+      "Pust inn. Pust ut. Prøv igjen.",
+      "{finger} holder fortsatt på å våkne. Gi den et sekund."
+    ],
+    "round": [
+      "Fin runde: {wpm} WPM.",
+      "Nydelig flyt! Klar for en til?",
+      "Flott jobba. Fingrene dine begynner å bli varme.",
+      "{wpm} WPM! Det kiler i tastetoppen min.",
+      "God rytme på den der. La oss holde koken!",
+      "Det gikk unna! Du gjør store fremskritt."
+    ],
+    "mastered": [
+      "{lesson}: mestret! {next} er åpen nå.",
+      "Du klarte det! Videre til {next}.",
+      "Full pott! Nå snakker vi blindskrift.",
+      "JA! {lesson} er i boks. Jeg tar en liten gledesdans.",
+      "Mestret! Fingrene dine vet nøyaktig hva de gjør.",
+      "Der var den leksjonen i boks. {next} neste!"
+    ],
+    "again": [
+      "Nesten! Prøv en gang til, så sitter den.",
+      "Så nære! Én gang til, du har dette.",
+      "Litt mer øvelse, så sitter den som et skudd.",
+      "Fingrene trenger bare litt mer tid. Prøv igjen!",
+      "Ikke gi deg nå, du er rett rundt hjørnet.",
+      "Pust med magen og prøv en gang til. Jeg heier på deg!"
+    ],
+    "warmup": [
+      "Oppvarming først: {keys}. Ta det rolig og pent.",
+      "Et raskt strekk på {keys}, så tar vi leksjonen.",
+      "Tøyetid! {keys}, fint og rolig.",
+      "La oss vekke fingrene på {keys}.",
+      "Oppvarming på {keys}. Rist litt på fingrene først, det hjelper!",
+      "Lette runder på {keys} før det virkelige alvoret."
+    ],
+    "keyboard": [
+      "Tastatur tilkoblet! Nå snakker vi.",
+      "Et ekte tastatur! Dette blir moro.",
+      "Kjenn på tastene. Føl de små merkene på F og J.",
+      "Fysiske taster er best. La oss skrive!",
+      "Tastatur klart. Fingrene på hjemmeraden!",
+      "Ah, lyden av ekte taster. La oss sette i gang."
+    ],
+    "numpad": [
+      "Talltastatur på plass! Tommelen opp.",
+      "Se på det talltastaturet. Klart for litt tallknusing?",
+      "Talltastatur klart! Hjemtastene er 4, 5 og 6.",
+      "Tid for tall! Kjenner du merket på 5-tallet?",
+      "Talltastatur-modus! Dette blir kjapt og presist.",
+      "Regnskap eller matte? Talltastaturet fikser alt."
+    ],
+    "locked": [
+      "Denne åpnes etter {next}. La oss ta den først.",
+      "Ikke helt ennå! Mestre {next}, så slipper jeg deg inn.",
+      "Låst og slått! {next} er nøkkelen. Skjønner du? Nøkkelen?",
+      "Oi, så ivrig! Gjør ferdig {next} først.",
+      "Nei, ikke ennå. {next} kommer før denne.",
+      "{next} først, så åpner døren seg på vidt gap."
+    ],
+    "sleepy": [
+      "Gjesp… tastene er så varme og myke…",
+      "Bare hviler øynene litt… lover…",
+      "Zzz… vent, jeg følger med! Nesten…",
+      "Tastetoppen min føles plutselig så tung…",
+      "En liten fem-minutter… bare en ørliten en…",
+      "Hvis jeg lukker øynene, skriver du likevel, ikke sant?…"
+    ],
+    "welcome": [
+      "Hei der! Klar for å skrive litt?",
+      "Velkommen tilbake! Fingrene klare?",
+      "Hei på deg! Hva skal vi øve på i dag?",
+      "Der er du jo! La oss få litt fart på sakene."
+    ],
+    "progress": [
+      "Neste ut: {next}. Det er {count} av {total} mestret!",
+      "{count} unnagjort, {left} igjen. {next} venter.",
+      "Velkommen tilbake! {next} er neste på listen.",
+      "{count} leksjoner i boks! {next} ser gøy ut.",
+      "Klar for {next}? Det er i alle fall jeg.",
+      "Bare {left} igjen! Videre mot {next}."
+    ],
+    "newStage": [
+      "Trinn {stage} fullført! Neste ut: {name}.",
+      "Der var trinn {stage} mestret. Videre til {name}!",
+      "Trinn {stage}: erobret! Nå gjelder det {name}.",
+      "Et helt trinn! {name} er neste. Åh, så spennende."
+    ],
+    "graduate": [
+      "Du klarte det! Alle leksjonene er mestret!",
+      "En ekte blindskriver! Jeg visste du hadde det i deg.",
+      "Ferdig med hele læreplanen! Jeg er så stolt av deg.",
+      "Fullført! Fingrene dine kan hele tastaturet nå."
+    ],
+    "drowsy": [
+      "Mmm… så godt og lunt…",
+      "Blink… blink… jeg sover nesten…",
+      "Bare litt kos… så dupper jeg av…",
+      "Tastene vugger meg i søvn…",
+      "Så fredelig her…",
+      "Du er så god… zzz…"
+    ],
+    "nod": [
+      "Duppet visst av et sekund der…",
+      "Oi, snek søvnen seg på? Jeg er våken!",
+      "Jeg hørte alt du sa! Lover…",
+      "Bare et lite gjesp, ingen fare…",
+      "Øyelokkene er litt tunge i dag…",
+      "Hva skjedde? Å ja, vi skriver!"
+    ],
+    "napWake": [
+      "Åh! Var det en høneblund? Jeg er klar!",
+      "God morgen! Eller god ettermiddag? Hva er klokken?",
+      "Gjesp! Takk for at du vekket meg.",
+      "Strekk på potene! Hvor var vi?",
+      "Jeg drømte om flygende taster! La oss skrive.",
+      "Våken og opplagt! Hva skal vi mestre nå?"
+    ],
+    "wake": [
+      "Mornings! Klar for nye bragder?",
+      "Hei der! Godt å se deg.",
+      "Våken og klar! La oss få opp farten.",
+      "En ny dag med tasting! Dette blir bra.",
+      "Hei! Fingrene klare på hjemmeraden?",
+      "Der var du! La oss kaste oss over leksjonene."
+    ],
+    "yawn": [
+      "Gjeeeesp… strekker på tastene…",
+      "Et stort gjesp før vi setter i gang!",
+      "Uuuh-gjesp… greit, nå er jeg våken."
+    ],
+    "earlyWake": [
+      "Allerede? Jeg hadde akkurat sovnet…",
+      "Oi da! Var det noe viktig?",
+      "Gjesp… må vi opp så tidlig?",
+      "Ett minutt til, vær så snill?… Nei vel, jeg er våken!"
+    ],
+    "overnightSleep": [
+      "Ahhh, for en god natts søvn!",
+      "Sov som en stein hele natten. Klar for dyst!",
+      "Uthvilt og full av energi! La oss skrive."
+    ],
+    "pet": [
+      "Mmm, det var godt!",
+      "Kosepause! Det liker jeg.",
+      "Åh, kos bak tastetoppen er det beste.",
+      "Hehe, du er snill!",
+      "Klapp, klapp! Nå spinner jeg nesten.",
+      "Takk! Det trengte jeg."
+    ],
+    "poke": [
+      "Dult! Hva er det?",
+      "Heisann! Trenger du meg?",
+      "Oi! Ikke kile sånn.",
+      "Dult tilbake!",
+      "Ja da, jeg følger med!",
+      "Hehe, var det en test?"
+    ],
+    "pokeFit": [
+      "Haha, stopp da, det kiler!",
+      "Nei nå altså! Latterkrampe!",
+      "Oi oi oi, nå holder det!",
+      "Hehehe, jeg gir meg, jeg gir meg!"
+    ],
+    "tickle": [
+      "Kilevink! Hehehe!",
+      "Nei, ikke der! Hahaha!",
+      "Kiling på tastene er ulovlig!",
+      "Hihihi, stopp, jeg mister balansen!",
+      "Det kiler over hele tastaturet!",
+      "Hahaha, du er en luring!"
+    ],
+    "armLift": [
+      "Se, jeg henger i en arm!",
+      "Høyt oppe! Fin utsikt herfra.",
+      "Hjelp, armen min henger fast! Neida, bare tuller.",
+      "Opp og stå! Strekk på armene."
+    ],
+    "tickleAsleep": [
+      "Mmm… kiling i søvne?… zzz…",
+      "Hehe… drømmer at jeg kiler…",
+      "Fniser i søvne… zzz…",
+      "Mmm… la meg sove litt til da…"
+    ],
+    "laughingFit": [
+      "HAHAHA, jeg klarer ikke å slutte!",
+      "Pust, Cal, pust! HAHAHA!",
+      "Dette er for mye moro på en gang!",
+      "Hehehehe, tårene triller nesten!"
+    ],
+    "reboot": [
+      "Omstart fullført! Alt er på plass.",
+      "Pling! Systemet er oppe igjen.",
+      "Pip-pip! Frisk og rask etter omstart.",
+      "Tilbake i tipp topp stand!"
+    ],
+    "updateReady": [
+      "Psst: v{version} er klar. Oppdateringsknappen er i bunnteksten når du vil.",
+      "Oi, v{version} har kommet! Last inn på nytt fra bunnteksten når det passer.",
+      "Ny versjon på vei inn: v{version}! Sjekk bunnteksten når du er klar.",
+      "v{version} venter i kulissene. Bare last inn på nytt når det passer deg."
+    ],
+    "whatsNew": [
+      "Nytt i v{version}: {news}!",
+      "Gjett hva som er nytt i v{version}? {news}!",
+      "Ferskt i v{version}: {news}. Oi oi!",
+      "v{version} er her med: {news}."
+    ],
+    "newItem": [
+      "Oi, en ny {item}! Høyreklikk på meg for å prøve den.",
+      "Se! Jeg kan ha på meg {item} nå. Høyreklikk på meg.",
+      "En {item}? Til meg? Høyreklikk på meg!",
+      "{item}! Jeg kommer til å se SÅ stilig ut. Høyreklikk på meg.",
+      "Nytt i garderoben min: {item}. Høyreklikk på meg, fort!",
+      "Er det en {item}? Får jeg lov? Høyreklikk på meg!"
+    ],
+    "newItem_hat": [
+      "En ny hatt: {item}! Høyreklikk på meg for å prøve den.",
+      "Oi, {item}! Hatter er det beste jeg vet. Høyreklikk på meg!"
+    ],
+    "newItem_face": [
+      "Ny stil til ansiktet: {item}! Høyreklikk på meg for å prøve.",
+      "Se på disse øynene! {item}! Høyreklikk på meg, fort!"
+    ],
+    "newItem_necklace": [
+      "Et nytt halskjede: {item}! Høyreklikk på meg for å prøve det.",
+      "Oi, {item}! Så stilig. Høyreklikk på meg!"
+    ],
+    "newItem_bracelet": [
+      "Et nytt armbånd: {item}! Høyreklikk på meg for å prøve det.",
+      "Oi, {item} til håndleddet mitt! Høyreklikk på meg!"
+    ],
+    "newItem_pants": [
+      "Nye underdeler: {item}! Høyreklikk på meg for å prøve dem.",
+      "Oi, {item}! Helt nye bukser. Høyreklikk på meg!"
+    ],
+    "newItem_background": [
+      "En ny bakgrunn: {item}! Høyreklikk på meg for å prøve den.",
+      "Oi, {item}-bakgrunnen! Høyreklikk på meg, fort!"
+    ],
+    "newItems": [
+      "{count} nye plagg i garderoben! Høyreklikk på meg for å kle meg opp.",
+      "Masse nye klær: {count} nye ting å prøve! Høyreklikk på meg."
+    ],
+    "newDecoration": [
+      "En ny dekorasjon: «{name}». Innstillinger → tema for å dekorere et av dine egne.",
+      "Du oppnådde dekorasjonen «{name}»! Prøv den på et av temaene dine."
+    ],
+    "newDecorations": [
+      "{count} nye temadekorasjoner! Sjekk innstillinger → tema.",
+      "Masse ny temapynt: {count} dekorasjoner klare i temavelgeren."
+    ],
+    "newCardItem": [
+      "Nytt til kortet ditt: {name}! Profilen din → kortet ditt.",
+      "Oi, {name} til profilkortet ditt. Kom igjen, prøv det!"
+    ],
+    "newCardItem_border": [
+      "En ny kant til kortet ditt: {name}! Gi det stil!",
+      "Oi, {name}-kanten! Kom igjen, prøv den på kortet ditt!"
+    ],
+    "newCardItem_frame": [
+      "En ny bilderamme til kortet ditt: {name}! Vis det frem!",
+      "Oi, {name}-rammen! Kom igjen, prøv den på kortet ditt!"
+    ],
+    "newCardItem_aura": [
+      "En ny aura til profilkortet ditt: {name}! Skinn i vei!",
+      "Oi, {name}-auraen! Kom igjen, prøv den på kortet ditt!"
+    ],
+    "newCardItem_backdrop": [
+      "Et nytt bakteppe til kortet ditt: {name}! Sjekk profilen din.",
+      "Oi, {name}-bakteppet! Sett scenen på kortet ditt!"
+    ],
+    "newCardItem_sticker": [
+      "Et nytt klistremerke til kortet ditt: {name}! Klistre det på!",
+      "Oi, et {name}-klistremerke! Kom igjen, pynt kortet ditt!"
+    ],
+    "newCardItems": [
+      "{count} nye ting til kortet ditt! Ta en kikk under profilen din → kortet ditt.",
+      "Kortet ditt har fått {count} nye oppgraderinger! Sjekk profilen din."
+    ],
+    "raceWon": [
+      "Førsteplass! Du fløy over målstreken!",
+      "Seier! For et løp!",
+      "Gull og heder! Bilen din er uslåelig.",
+      "Slo {count} av dem! Vil du kjøre igjen?"
+    ],
+    "raceLost": [
+      "{winner} kom først denne gangen. Igjen? Du fikser det.",
+      "Så nære! {winner} vant den. Et forsøk til?",
+      "Slått av {winner} denne gangen. Men du kjørte et hederlig løp!",
+      "Godt løp! {winner} snek seg foran. Lyst til å prøve igjen?"
+    ],
+    "newCarPart": [
+      "Noe nytt til racerbilen din: {name}! Profilen din → kortet ditt → garasje.",
+      "Oi, et nytt utseende til bilen din: {name}! Kom igjen, prøv det i garasjen!"
+    ],
+    "newCarPart_body": [
+      "Et nytt karosseri til racerbilen din: {name}! Ta det med til garasjen!",
+      "Oi, en ny bil: {name}! Ta en prøvetur i garasjen!"
+    ],
+    "newCarPart_paint": [
+      "En ny lakkfarge til bilen din: {name}! Sjekk garasjen.",
+      "Oi, {name}-lakk til bilen din! Prøv den i garasjen!"
+    ],
+    "newCarPart_livery": [
+      "Ny dekor til racerbilen din: {name}! Sjekk garasjen.",
+      "Oi, {name}-dekor! Pynt den opp i garasjen!"
+    ],
+    "newCarPart_wheels": [
+      "Nye hjul til racerbilen din: {name}! Prøv dem i garasjen.",
+      "Oi, {name}-hjul! Rull inn i garasjen!"
+    ],
+    "newCarPart_trail": [
+      "Et nytt spor til bilen din: {name}! Prøv det i garasjen!",
+      "Oi, {name} som spor bak bilen din! Gi gass!"
+    ],
+    "newCarParts": [
+      "{count} nye bildeler! Ta en tur i garasjen under kortet ditt.",
+      "Garasjen er oppgradert med {count} nye deler! Sjekk profilen din."
+    ],
+    "achievement": [
+      "Prestasjon oppnådd: «{name}»! Du er rå!",
+      "Oi, sjekk den: «{name}»! Sjekk profilen din → prestasjoner.",
+      "«{name}» er låst opp! Nok et merke til samlingen.",
+      "Hurra! «{name}» i boks. Du imponerer stadig.",
+      "«{name}»! Flott jobba. Ta en titt under profilen din.",
+      "Se der ja: «{name}»! Prestasjonene strømmer på."
+    ],
+    "achievements": [
+      "{count} nye prestasjoner på en gang! Sjekk profilen din → prestasjoner.",
+      "Dobbelthugst! {count} prestasjoner låst opp under profilen din."
+    ],
+    "complete": [
+      "Alt er fullført! For en bragd!",
+      "Helt i mål! Du har mestret alt som kan mestres.",
+      "Mesterstykke! Du er en ekte tastaturguru."
+    ],
+    "wakeFirst": [
+      "Mornings! Første økt i dag. La oss starte rolig.",
+      "Hei der! Fint å se deg i dag. Klar for første runde?",
+      "Første leksjon for dagen! La oss få fingrene i gang.",
+      "Der er du! En god start på dagen gjør susen."
+    ],
+    "highfive": [
+      "High five! Den satt!",
+      "Kjør på! High five!",
+      "Smekk! High five med poten!",
+      "Yes! Gi meg en high five!",
+      "High five! Vi er et knallteam.",
+      "Den var god! High five på den."
+    ],
+    "honeymoon": [
+      "{partner} og jeg er borte på bryllupsreise! Tilbake i morgen.",
+      "På tur med {partner}! Vi feirer bryllupet. Tilbake i morgen.",
+      "Hilsen fra bryllupsreisen med {partner}! Vi er tilbake i morgen."
+    ],
+    "challenge": [
+      "Dagens utfordring: {challenge}. Tar du den?",
+      "Har du sett dagens utfordring? {challenge}.",
+      "Dagens utfordring er klar: {challenge}. Bli med da vel!",
+      "{challenge}: dagens utfordring. Dette fikser du lett!",
+      "Klar for litt ekstra krydder? Dagens utfordring er {challenge}.",
+      "Prøv dagens utfordring: {challenge}. Jeg heier på deg!"
+    ],
+    "partner": [
+      "{partner} og jeg er verdens beste team!",
+      "{partner} hilser så mye!",
+      "{partner} skrøt akkurat av hvor fin rytme du har.",
+      "{partner} elsker når du skriver uten feil.",
+      "{partner} er og leser en bok et sted, tenker jeg.",
+      "{partner} og jeg er skikkelig stolte av deg!"
+    ],
+    "morning": [
+      "God morgen! Klar for litt morgenskriving?",
+      "Morgenstund har gull i munn! La oss skrive.",
+      "God morgen! Fingrene er uthvilte og klare.",
+      "Mornings! En kopp te og litt tasting gjør susen.",
+      "God morgen! {next} venter på deg.",
+      "Tidlig oppe! La oss sette en god standard i dag."
+    ],
+    "afternoon": [
+      "God ettermiddag! På tide med en liten skrivepause?",
+      "Ettermiddagsøkt! La oss få opp farten.",
+      "Hei på deg! Litt hjernetrim i ettermiddagssolen?",
+      "Ettermiddagen er perfekt for en god skriveøkt.",
+      "God ettermiddag! {next} er klar når du er det.",
+      "Koselig å se deg i ettermiddag! La oss skrive litt."
+    ],
+    "evening": [
+      "God kveld! Fint å avslutte dagen med litt skriving.",
+      "Kveldsro og tastelyder. Det finnes ikke noe bedre.",
+      "God kveld! La oss ta en rolig økt.",
+      "Fint å se deg i kveld! Klar for en leksjon?",
+      "God kveld! {next} passer fint nå før kvelden er omme.",
+      "En liten kveldsøkt gjør underverker for hukommelsen."
+    ],
+    "night": [
+      "Nattugle, ser jeg! Ikke sitt oppe for lenge da.",
+      "Stille i huset… bare tastene som klinger i natten.",
+      "Sen kveldsøkt! Husk å legge deg i tide.",
+      "Natteskriving! Husk hvile for øynene.",
+      "Hysj, alle sover. Bare oss og tastene.",
+      "Nattskift! {next}, og så sove. Avtale?"
+    ],
+    "welcomeBack": [
+      "Du er tilbake! Det har gått {days} dager. Jeg holdt tastene varme.",
+      "{days} dager! Jeg savnet deg. La oss starte mykt.",
+      "Hei, velkommen tilbake! Ta det med ro, fingrene glemmer litt.",
+      "Der er du jo! {days} dager er ingenting. La oss kjøre på.",
+      "Velkommen tilbake! Fingrene dine husker mer enn du tror.",
+      "Du er her! Jeg har bare sovet i {days} dager."
+    ],
+    "personalBest": [
+      "Ny personlig rekord: {wpm} WPM! Du er helt rå!",
+      "{wpm} WPM! Det er det raskeste du noensinne har skrevet!",
+      "Personlig rekord: {wpm} WPM. For en fart!",
+      "Oi, {wpm} WPM! Rekordene faller som fluer.",
+      "{wpm} WPM! Tastetoppen min spinner av beundring.",
+      "Ny bestenotering: {wpm} WPM! Gi meg en high five!"
+    ],
+    "streak": [
+      "{days} dager på rad! Dette kaller jeg en god vane.",
+      "Målet nådd {days} dager på rad. Skikkelig imponerende!",
+      "{days} dager i strekk! Du holder koken som bare det.",
+      "En rekke på {days} dager! Se på deg, da!",
+      "{days} dager på rad! Konsistens er nøkkelen til suksess.",
+      "Dagsmålet i boks {days} dager på rad. Du er ustoppelig!"
+    ],
+    "themeUnreadable": [
+      "Hm. {what} er litt vanskelig å lese. Kanskje litt mer kontrast?",
+      "Jeg sliter litt med å se {what}. Gjør den litt tydeligere fra siden.",
+      "{what} hvisker nesten. La den få rope litt høyere!",
+      "Et lite tips: {what} skiller seg ikke nok ut ennå."
+    ],
+    "themeScheme": [
+      "Siden ser {page} ut, men temaet sier {scheme}. Bytte «lys eller mørk»?",
+      "En {page} side merket som {scheme}. Resten av appen vil kle seg feil."
+    ],
+    "themeMistakes": [
+      "Rødfargen for feil er litt vanskelig å få øye på mot den bakgrunnen.",
+      "Pass på at feilfargen lyser godt opp, så du ser hva som må rettes."
+    ],
+    "themeAccent": [
+      "Aksentfargen er nydelig, men sjekk at den synes overalt.",
+      "Fin aksent! Den setter skikkelig farge på tilværelsen."
+    ],
+    "themeLoud": [
+      "Dette temaet roper ganske høyt! Fargene spraker.",
+      "Oi, her var det spreke farger! Sikker på at øynene ikke blir slitne?"
+    ],
+    "themeHeat": [
+      "Varmeskalaen på tastene må ha tydelig forskjell i lysstyrke.",
+      "Sjekk at tastevarmen skiller godt mellom varme og kalde taster."
+    ],
+    "themeSameAsBase": [
+      "Aksentfargen er helt lik bakgrunnen. Da blir det usynlig!",
+      "Pass på at teksten og bakgrunnen ikke har nøyaktig samme farge."
+    ],
+    "themeLovely": [
+      "Åh, for et nydelig tema! Her trives jeg kjempegodt.",
+      "Dette temaet var skikkelig behagelig for øynene. Godt valg!",
+      "Flotte farger! Her kommer vi til å skrive mange gode ord.",
+      "Stilig tema! Det kler oss begge to."
+    ],
+    "wake@morning": [
+      "God morgen! Klar for litt morgentasting?",
+      "Morgenstund har gull i munn! La oss skrive.",
+      "Gjesp! God morgen, la oss finne flyten."
+    ],
+    "wake@afternoon": [
+      "God ettermiddag! Klar for en liten økt?",
+      "Hei på deg! Litt ettermiddagstrim for fingrene?",
+      "Fin ettermiddag for litt skriving!"
+    ],
+    "wake@evening": [
+      "God kveld! Rolig kveldsøkt i vente?",
+      "Fint å se deg i kveld. La oss skrive litt.",
+      "Kveldsstemning! Klar for litt tastelyder?"
+    ],
+    "wake@night": [
+      "Nattugle på ferde! La oss ta en liten økt.",
+      "Stille nattetime. Godt med litt ro til å skrive.",
+      "Sent ute! Men litt nattetasting skader aldri."
+    ],
+    "intro@morning": [
+      "Fin morgen for nye taster! La oss sette i gang.",
+      "Morgentrim for fingrene! Dette blir bra.",
+      "God morgen! Nye taster venter på deg."
+    ],
+    "intro@afternoon": [
+      "Ettermiddagsleksjon! Frisk opp fingrene nå.",
+      "Klar for en ny leksjon i ettermiddag? La oss kjøre på.",
+      "Ettermiddagssol og nye taster. Perfekt kombinasjon."
+    ],
+    "intro@evening": [
+      "En rolig leksjon før kvelden senker seg.",
+      "Kveldstime med nye taster. Ta det i ditt eget tempo.",
+      "God kveld! La oss mestre noen nye taster før du legger deg."
+    ],
+    "intro@night": [
+      "Nattetime med nye taster. Ingen grunn til å stresse.",
+      "Stille i natten mens nye taster læres inn.",
+      "Sen leksjon! Pust rolig og la fingrene finne veien."
+    ],
+    "warmup@morning": [
+      "Morgentøy for fingrene! Rolig oppvarming.",
+      "Vekk hendene forsiktig til liv i morgensolen.",
+      "God morgen! Varm opp fingrene først, så sitter det."
+    ],
+    "warmup@afternoon": [
+      "Ettermiddagsoppvarming! Gjør fingrene klare.",
+      "Rist litt på hendene før vi setter i gang.",
+      "En rask oppvarming gjør underverker for ettermiddagsøkten."
+    ],
+    "warmup@evening": [
+      "Rolig oppvarming i kveld. Kjenn på rytmen.",
+      "Kveldsoppvarming for hendene. Ingen hastverk.",
+      "Varm opp fingrene og la dagens stress fare."
+    ],
+    "warmup@night": [
+      "Natttøy for hendene. Myke og rolige bevegelser.",
+      "Rolig oppvarming i nattemørket.",
+      "Varm opp fingrene forsiktig før du tar fatt på leksjonen."
+    ],
+    "sleepy@morning": [
+      "Gjesp… fremdeles litt trøtt i trynet…",
+      "Morgentåke… må bare våkne ordentlig først…",
+      "Zzz… fem minutter til under tasteteppet… bare fem…"
+    ],
+    "sleepy@afternoon": [
+      "Ettermiddagsdupp… tastene er så myke…",
+      "Gjesp… siesta-tid for en liten tastetopp…",
+      "Øyelokkene er litt tunge etter lunsj… zzz…"
+    ],
+    "sleepy@evening": [
+      "Kvelden siger på… gjesp…",
+      "Begynner å bli trøtt i tastene nå…",
+      "Zzz… en liten kvil før sengetid…"
+    ],
+    "sleepy@night": [
+      "Natta… tastetoppen min dupper av…",
+      "Zzz… altfor sent for en liten tastetopp…",
+      "Sove godt… husk å pusse tastene før leggetid… zzz…"
+    ]
+  }
+}

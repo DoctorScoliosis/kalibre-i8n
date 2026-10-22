@@ -11,8 +11,9 @@
     "selection": "markering",
     "text": "tekst",
     "dim_text": "dæmpet tekst",
-    "accent": "aksent",
+    "accent": "accent",
     "typed_text": "skrevet tekst",
+    "corrected": "første rettelse",
     "mistakes": "fejl",
     "extra_letters": "ekstra bogstaver",
     "caret": "markør"
@@ -33,23 +34,23 @@
     "export_theme": "eksportér {name}",
     "delete_theme": "slet {name}",
     "copy_and_decorate": "kopiér dette tema og dekorér det",
-    "decorations_earned_zero": "Temadekorationer, som du tjener ved at spille, bruges på dine egne temaer.",
-    "decorations_earned_notice": "Du har tjent {count, plural, one {en temadekoration} other {# temadekorationer}}. De bruges på dine egne temaer, så lav en kopi af dette for at bruge {count, plural, one {den} other {dem}}.",
-    "decorations_earned_info": "Tjenes ved at spille. De følger dette tema på denne profil og kommer ikke med, når du eksporterer temaet."
+    "decorations_earned_zero": "Temadekorationer, som du optjener ved at spille, bruges på dine egne temaer.",
+    "decorations_earned_notice": "Du har optjent {count, plural, one {en temadekoration} other {# temadekorationer}}. De bruges på dine egne temaer, så lav en kopi af dette for at bruge {count, plural, one {den} other {dem}}.",
+    "decorations_earned_info": "Optjenes ved at spille. De følger dette tema på denne profil og kommer ikke med, når du eksporterer temaet."
   },
   "picker": {
     "preview": "forhåndsvisning",
-    "instructions": "hold markøren over for at forhåndsvise · klik eller tryk Enter for at bruge · Esc for at lukke",
+    "instructions": "hold markøren over for at forhåndsvise · klik eller tryk enter for at bruge · esc for at lukke",
     "close": "luk"
   },
   "decorationSlots": {
     "caret": {
       "title": "markør",
-      "hint": "omkring markøren (formen er en skriveinnstilling)"
+      "hint": "omkring markøren (formen er en skriveindstilling)"
     },
     "backdrop": {
       "title": "baggrund",
-      "hint": "et svagt mønster bak siden"
+      "hint": "et svagt mønster bag siden"
     },
     "frame": {
       "title": "ramme",
@@ -66,13 +67,13 @@
   },
   "decorations": {
     "caret-glow": {
-      "name": "mykt skær"
+      "name": "blødt skær"
     },
     "caret-halo": {
       "name": "glorie"
     },
     "caret-drop": {
-      "name": "blækdratbe"
+      "name": "blækdråbe"
     },
     "caret-trail": {
       "name": "komethale"
@@ -102,13 +103,13 @@
       "name": "mappefane"
     },
     "frame-brackets": {
-      "name": "parenteser"
+      "name": "klammer"
     },
     "keystroke-ink": {
-      "name": "blækfading"
+      "name": "udviskende blæk"
     },
     "keystroke-rise": {
-      "name": "mild hævning"
+      "name": "blid hævning"
     },
     "keystroke-bloom": {
       "name": "blomstring"
@@ -123,10 +124,10 @@
       "name": "tast"
     },
     "flourish-letter": {
-      "name": "ledsagerens bogstav"
+      "name": "din ledsagers bogstav"
     },
     "flourish-moon": {
-      "name": "matne"
+      "name": "måne"
     }
   },
   "presets": {
@@ -171,6 +172,18 @@
     },
     "contrast-night": {
       "name": "høj kontrast nat"
+    },
+    "nordic": {
+      "name": "nordisk"
+    },
+    "copper": {
+      "name": "kobber"
+    },
+    "cyber": {
+      "name": "cyber"
+    },
+    "amber": {
+      "name": "rav"
     }
   },
   "checks": {
@@ -179,20 +192,21 @@
     "textDim_bg": "dæmpet tekst på siden",
     "textDim_surface": "dæmpet tekst på paneler",
     "correct_bg": "skrevet tekst",
+    "corrected_bg": "første rettelse",
     "incorrect_bg": "fejl",
-    "correct_textDim": "skrevet tekst skiller seg fra tekst som fortsatt skal skrives",
-    "accent_bg": "aksent",
+    "correct_textDim": "skrevet tekst skiller sig ud fra tekst, der stadig mangler at blive skrevet",
+    "accent_bg": "accent",
     "caret_bg": "markør",
     "extra_bg": "ekstra bogstaver",
-    "chartWpm_bg": "diagram: wpm-linje",
-    "chartRaw_bg": "diagram: ratlinje",
-    "chartError_bg": "diagram: fejl",
+    "chartWpm_bg": "graf: wpm-linje",
+    "chartRaw_bg": "graf: rå linje",
+    "chartError_bg": "graf: fejl",
     "heat1_bg": "tastaturvarme 1",
     "heat4_bg": "tastaturvarme 4",
     "not_a_theme": "ikke et tema",
     "needs_a_name": "skal have et navn på højst 40 tegn",
-    "scheme_must_be": "skemaet skal være lyst eller mørkt",
-    "bad_hex": "farven «{token}» skal være en #rrggbb-værdi",
+    "scheme_must_be": "farveskemaet skal være lyst eller mørkt",
+    "bad_hex": "farven \"{token}\" skal være en #rrggbb-værdi",
     "not_readable": "ikke læseligt nok: {labels}"
   }
 }

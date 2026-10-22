@@ -36,10 +36,13 @@
   "modal": {
     "language_reload_title": "endre språk?",
     "language_reload_body": "kalibre lastes inn på nytt for å endre språk. lagre det du arbeider med først: en pågående test, tekst du skriver eller temaredigeringer som ikke er lagret, går tapt.",
-    "close_named": "lukk {title}"
+    "close_named": "lukk {title}",
+    "headerless_accessible_name_required": "Overskriftsløse modaler krever et tilgjengelig navn."
   },
   "translation": {
-    "not_checked_yet": "(ikke kontrollert av en morsmålsbruker ennå)"
+    "not_checked_yet": "(ikke kontrollert av en morsmålsbruker ennå)",
+    "progress": "oversettelsesprogresjon: {percent}%",
+    "remaining": "{count, plural, one {# melding fortsatt på engelsk} other {# meldinger fortsatt på engelsk}}"
   },
   "colour_picker": {
     "saturation_and_brightness": "metning og lysstyrke",

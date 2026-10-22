@@ -1,0 +1,715 @@
+{
+  "groups": {
+    "typing": "skriving",
+    "sustained": "vedvarende nøyaktighet",
+    "mistakes": "feil",
+    "learn": "blindskrift",
+    "numpad": "talltastatur",
+    "games": "spill",
+    "habits": "vaner",
+    "quests": "dagsoppdrag",
+    "texts": "dine tekster",
+    "companion": "ledsager",
+    "decorations": "temadekorasjoner",
+    "secrets": "hemmeligheter"
+  },
+  "hints": {
+    "secret_keep_playing": "en hemmelighet: fortsett å spille"
+  },
+  "rules": {
+    "level": "nå nivå {at}",
+    "tests": "{count, plural, one {fullfør # test} other {fullfør # tester}}",
+    "bestWpm": "skriv en test med {wpm} WPM",
+    "typingTime_hours": "{count, plural, one {skriv i totalt # time} other {skriv i totalt # timer}}",
+    "typingTime_minutes": "{count, plural, one {skriv i totalt # minutt} other {skriv i totalt # minutter}}",
+    "perfectTest_seconds": "fullfør en test på {seconds} sekunder eller mer med 100 % nøyaktighet",
+    "perfectTest_words": "fullfør en test på {words} ord eller mer med 100 % nøyaktighet",
+    "nightTests": "{count, plural, one {fullfør # test mellom midnatt og kl. 04.00} other {fullfør # tester mellom midnatt og kl. 04.00}}",
+    "sustainedSurvived": "{count, plural, one {hold en test i vedvarende nøyaktighet i gang i # minutt} other {hold en test i vedvarende nøyaktighet i gang i # minutter}}",
+    "sustainedTotal": "{count, plural, one {tilbring totalt # minutt i tester med vedvarende nøyaktighet} other {tilbring totalt # minutter i tester med vedvarende nøyaktighet}}",
+    "stageMastered": "mestre hver leksjon i trinn {stage}",
+    "stageStarted": "start en leksjon i trinn {stage}",
+    "allLessons": "mestre hver leksjon",
+    "lastLessonDone": "fullfør den siste leksjonen i læreplanen",
+    "stepsFinished": "{count, plural, one {fullfør # leksjonstrinn} other {fullfør # leksjonstrinn}}",
+    "lessonsStepped": "{count, plural, one {gå gjennom trinnene i # leksjon før testen} other {gå gjennom trinnene i # leksjoner før testen}}",
+    "stepsAllDoneLessons": "{count, plural, one {gå gjennom alle trinnene i en leksjon} other {gå gjennom alle trinnene i # leksjoner}}",
+    "warmupsFinished": "{count, plural, one {fullfør # oppvarming} other {fullfør # oppvarminger}}",
+    "warmupThenMastered": "mestre en leksjon på testen rett etter en oppvarming",
+    "stepsRetriedReady": "prøv et trinn på nytt til det er klart",
+    "gameScore": "oppnå en poengsum på {score} i {game}",
+    "gameRuns": "{count, plural, one {spill {game} # gang} other {spill {game} # ganger}}",
+    "gameTime": "{count, plural, one {spill {game} i totalt # minutt} other {spill {game} i totalt # minutter}}",
+    "gameLongest": "{count, plural, one {overlev i # minutt i én omgang av {game}{difficulty, select, easy { på lett} normal { på normal} hard { på vanskelig} other {}}} other {overlev i # minutter i én omgang av {game}{difficulty, select, easy { på lett} normal { på normal} hard { på vanskelig} other {}}}}",
+    "gameWin": "vinn {game}{difficulty, select, easy { på lett} normal { på normal} hard { på vanskelig} other {}}",
+    "spotFound": "{count, plural, one {finn # feil i én omgang av Spot} other {finn # feil i én omgang av Spot}}",
+    "texts": "{count, plural, one {lagre # egen tekst} other {lagre # egne tekster}}",
+    "textWords": "lagre en egen tekst på {words} ord eller mer",
+    "datasetWords": "opprett et datasett med en egen tekst på {words}+ ord",
+    "quotes": "{count, plural, one {legg til # eget sitat} other {legg til # egne sitater}}",
+    "bankMastered": "{count, plural, one {mestre # feil} other {mestre # feil}}",
+    "goalStreak": "nå dagsmålet ditt {days} dager på rad",
+    "questsDone": "{count, plural, one {fullfør # dagsoppdrag} other {fullfør # dagsoppdrag}}",
+    "challengesDone": "{count, plural, one {fullfør # dagsutfordring} other {fullfør # dagsutfordringer}}",
+    "questFullDays": "{days, plural, one {fullfør alle tre dagsoppdrag på # dag} other {fullfør alle tre dagsoppdrag på # dager}} (ikke nødvendigvis på rad)",
+    "padTests": "{count, plural, one {fullfør # test på talltastatur} other {fullfør # tester på talltastatur}}",
+    "padKsph": "fullfør en test på talltastatur med {ksph} tastetrykk i timen og 95 % nøyaktighet eller bedre",
+    "padPerfect": "fullfør en test på talltastatur på {entries} oppføringer eller mer med alle oppføringer riktige",
+    "padLessons": "{count, plural, one {mestre # leksjon for talltastatur} other {mestre # leksjoner for talltastatur}}",
+    "allPadLessons": "mestre alle leksjoner for talltastatur",
+    "padSums": "{count, plural, one {få # regnestykke riktig} other {få # regnestykker riktig}}",
+    "padSumsPerfect": "svar på {answers} regnestykker i én omgang med alle svar riktige",
+    "padSumsLevel": "nå nivå {level} i regnestykker",
+    "padTill": "betjen {served} kunder i én omgang i kassen",
+    "padKeys": "{count, plural, one {trykk på totalt # tast på talltastaturet} other {trykk på totalt # taster på talltastaturet}}",
+    "engaged": "en hemmelighet",
+    "wordsTyped": "{count, plural, one {skriv totalt # ord} other {skriv totalt # ord}}",
+    "daysTyped": "{days, plural, one {skriv på # dag} other {skriv på # dager}} (ikke nødvendigvis på rad)",
+    "drillsDone": "{count, plural, one {fullfør # øvelse på feilene dine} other {fullfør # øvelser på feilene dine}}",
+    "earlyTests": "{count, plural, one {fullfør # test mellom kl. 05.00 og 06.00} other {fullfør # tester mellom kl. 05.00 og 06.00}}",
+    "lessons": "{count, plural, one {mestre # leksjon} other {mestre # leksjoner}}",
+    "allGameRuns": "{count, plural, one {spill totalt # spill} other {spill totalt # spill}}",
+    "perfectFirstLesson": "{count, plural, one {skriv en leksjon med 100 % nøyaktighet på første forsøk} other {skriv {count} leksjoner med 100 % nøyaktighet på første forsøk}}",
+    "wardrobeUnlocked": "{count, plural, one {lås opp # garderobeplagg} other {lås opp # garderobeplagg}}",
+    "wardrobeSlots": "bruk noe i hver garderobeplass",
+    "decorationsUnlocked": "{count, plural, one {lås opp # temadekorasjon} other {lås opp # temadekorasjoner}}",
+    "decorationSlots": "lås opp en temadekorasjon av hver type",
+    "decorationsWorn": "{count, plural, one {dekorér et av temaene dine} other {gi temaet ditt {count} dekorasjoner samtidig}}",
+    "petted": "{count, plural, one {klapp ledsageren din # gang} other {klapp ledsageren din # ganger}}",
+    "poked": "{count, plural, one {dytt borti ledsageren din # gang} other {dytt borti ledsageren din # ganger}}",
+    "tickled": "{count, plural, one {kil ledsageren din # gang} other {kil ledsageren din # ganger}}",
+    "pokedTooMuch": "dytt borti ledsageren din åtte ganger i rask rekkefølge",
+    "armLifted": "løft den hengende armen på Om-siden",
+    "petsToSleep": "{count, plural, one {klapp ledsageren din i søvn igjen # gang} other {klapp ledsageren din i søvn igjen # ganger}}",
+    "earlyWakes": "{count, plural, one {vekk ledsageren din like etter at den har sovnet # gang} other {vekk ledsageren din like etter at den har sovnet # ganger}}",
+    "overnightSleep": "{hours, plural, one {la ledsageren din sove i # time over natten på Om-siden} other {la ledsageren din sove i # timer over natten på Om-siden}}",
+    "quickRestarts": "{count, plural, one {start Kalibre på nytt # gang i rask rekkefølge, og dytt eller kil ledsageren din imellom} other {start Kalibre på nytt # ganger i rask rekkefølge, og dytt eller kil ledsageren din imellom}}",
+    "racesDone": "{count, plural, one {fullfør # løp} other {fullfør # løp}}",
+    "raceWins": "vinn et {difficulty, select, easy {lett } normal {normalt } hard {vanskelig } other {}}{mode, select, sprint {sprintløp } endurance {utholdenhetsløp } grand_prix {Grand Prix-løp } other {}}{solo, select, true {på egen hånd} false {på nettverket ditt} other {}}",
+    "raceModesWon": "{count, select, 4 {vinn et nettverksløp i hver modus} other {vinn et nettverksløp i {count, plural, one {# modus} other {# moduser}}}}",
+    "booksFinished": "{count, plural, one {fullfør en hel bok i vedvarende modus} other {fullfør # hele bøker i vedvarende modus}}",
+    "spotTotalFound": "{count, plural, one {finn totalt # feil i Spot} other {finn totalt # feil i Spot}}",
+    "spaceWordBombs": "{count, plural, one {avfyr ordbomben i Space én gang} other {avfyr ordbomben i Space {count} ganger}}",
+    "unknown": "ukjent",
+    "progress_suffix": " ({have} av {need})",
+    "secret_hint": "en hemmelighet: fortsett å spille"
+  },
+  "first-test": {
+    "name": "første steg"
+  },
+  "tests-10": {
+    "name": "oppvarming"
+  },
+  "tests-100": {
+    "name": "hundre unnagjort"
+  },
+  "tests-500": {
+    "name": "fem hundre"
+  },
+  "tests-1000": {
+    "name": "tusen unnagjort"
+  },
+  "wpm-40": {
+    "name": "stødig på hånden"
+  },
+  "wpm-50": {
+    "name": "finner rytmen"
+  },
+  "wpm-60": {
+    "name": "kjappe fingre"
+  },
+  "wpm-70": {
+    "name": "friskt tempo"
+  },
+  "wpm-80": {
+    "name": "rask"
+  },
+  "wpm-90": {
+    "name": "nitti ord"
+  },
+  "wpm-100": {
+    "name": "tresifret"
+  },
+  "wpm-120": {
+    "name": "et fartsglimt"
+  },
+  "wpm-150": {
+    "name": "lynrask"
+  },
+  "perfect-30": {
+    "name": "tretti feilfrie sekunder"
+  },
+  "perfect-minute": {
+    "name": "et prikkfritt minutt"
+  },
+  "perfect-2min": {
+    "name": "to prikkfrie minutter"
+  },
+  "hours-1": {
+    "name": "den første timen"
+  },
+  "hours-10": {
+    "name": "ti timer"
+  },
+  "hours-50": {
+    "name": "femti timer"
+  },
+  "hours-100": {
+    "name": "hundre timer"
+  },
+  "words-10k": {
+    "name": "ti tusen ord"
+  },
+  "words-50k": {
+    "name": "femti tusen"
+  },
+  "words-100k": {
+    "name": "hundre tusen ord"
+  },
+  "words-1m": {
+    "name": "én million ord"
+  },
+  "days-10": {
+    "name": "ti dager med"
+  },
+  "days-50": {
+    "name": "femti dager med"
+  },
+  "days-100": {
+    "name": "hundre dager med"
+  },
+  "days-365": {
+    "name": "et helt år"
+  },
+  "sustained-1": {
+    "name": "holder koken"
+  },
+  "sustained-3": {
+    "name": "holder ut"
+  },
+  "sustained-10": {
+    "name": "utholdenhet"
+  },
+  "sustained-15": {
+    "name": "femten minutter"
+  },
+  "sustained-20": {
+    "name": "langdistanse"
+  },
+  "sustained-30": {
+    "name": "seiglivet"
+  },
+  "sustained-total-60": {
+    "name": "én time i strekk"
+  },
+  "sustained-total-300": {
+    "name": "fem timer i strekk"
+  },
+  "book-finished": {
+    "name": "til siste side"
+  },
+  "books-3": {
+    "name": "trilogi"
+  },
+  "books-5": {
+    "name": "umulig å legge fra seg"
+  },
+  "mastered-1": {
+    "name": "fikset det"
+  },
+  "mastered-5": {
+    "name": "lappet sammen"
+  },
+  "mastered-25": {
+    "name": "bøtet på"
+  },
+  "mastered-50": {
+    "name": "femti rettet"
+  },
+  "mastered-100": {
+    "name": "god som ny"
+  },
+  "mastered-250": {
+    "name": "ingenting igjen å rette"
+  },
+  "drills-1": {
+    "name": "første øvelse"
+  },
+  "drills-10": {
+    "name": "drillet"
+  },
+  "drills-25": {
+    "name": "øvelsesmester"
+  },
+  "drills-100": {
+    "name": "øvelse gjør mester"
+  },
+  "first-lesson": {
+    "name": "første leksjon"
+  },
+  "lessons-10": {
+    "name": "ti leksjoner"
+  },
+  "stage-1": {
+    "name": "hjemmerad"
+  },
+  "stage-2": {
+    "name": "øverste rad"
+  },
+  "stage-3": {
+    "name": "tre rader"
+  },
+  "stage-4": {
+    "name": "store bokstaver"
+  },
+  "stage-5": {
+    "name": "tallrekka"
+  },
+  "stage-6": {
+    "name": "flytende"
+  },
+  "all-lessons": {
+    "name": "blindskriver"
+  },
+  "stage-1-started": {
+    "name": "starter hjemmeraden"
+  },
+  "stage-2-started": {
+    "name": "starter øverste rad"
+  },
+  "stage-3-started": {
+    "name": "starter nederste rad"
+  },
+  "stage-4-started": {
+    "name": "starter store bokstaver"
+  },
+  "stage-5-started": {
+    "name": "starter tallene"
+  },
+  "stage-6-started": {
+    "name": "starter flyt"
+  },
+  "last-lesson": {
+    "name": "til siste leksjon"
+  },
+  "first-step": {
+    "name": "myk start"
+  },
+  "stepped-lesson": {
+    "name": "hvert eneste steg"
+  },
+  "stepped-10": {
+    "name": "godt innarbeidet"
+  },
+  "first-warmup": {
+    "name": "godt oppvarmet"
+  },
+  "warmup-mastery": {
+    "name": "rett igjennom"
+  },
+  "step-again": {
+    "name": "på god vei"
+  },
+  "every-game": {
+    "name": "prøvd alle"
+  },
+  "every-game-10": {
+    "name": "fast inventar"
+  },
+  "every-game-50": {
+    "name": "hengiven"
+  },
+  "games-100": {
+    "name": "spillkveld"
+  },
+  "space-2000": {
+    "name": "stjernepilot"
+  },
+  "space-5000": {
+    "name": "toppflyger"
+  },
+  "castle-normal": {
+    "name": "holder murene"
+  },
+  "castle-hard": {
+    "name": "borgvokter"
+  },
+  "spot-20": {
+    "name": "falkeblikk"
+  },
+  "spot-50": {
+    "name": "ørneblikk"
+  },
+  "feed-30": {
+    "name": "mett og god"
+  },
+  "feed-10min": {
+    "name": "en lang lunsj"
+  },
+  "hard-win": {
+    "name": "den tunge veien"
+  },
+  "castle-easy": {
+    "name": "første bresje"
+  },
+  "space-win": {
+    "name": "skroget intakt"
+  },
+  "space-hard-win": {
+    "name": "jernskrog"
+  },
+  "spot-total-100": {
+    "name": "korrekturer totalt"
+  },
+  "spot-chief": {
+    "name": "sjefskorrekturleser"
+  },
+  "buffet-host": {
+    "name": "buffévert",
+    "says": "hold en buffé i Feed åpen i 5 minutter"
+  },
+  "full-house": {
+    "name": "fullt hus",
+    "says": "fullfør totalt 50 buffébestillinger i Feed"
+  },
+  "no-hints": {
+    "name": "trenger ingen hint",
+    "says": "overlev 3 minutter som kresent matvrak i Feed uten å mate det med et hintet ord"
+  },
+  "station-down": {
+    "name": "stasjon nede",
+    "says": "ødelegg en romstasjon i Space"
+  },
+  "shrapnel-storm": {
+    "name": "splintstorm",
+    "says": "ødelegg 3 fiender med splinter fra én landmine i Space"
+  },
+  "stacked": {
+    "name": "stappfullt",
+    "says": "kjør to power-ups samtidig i Space"
+  },
+  "autopilot-ace": {
+    "name": "autopilot-ess",
+    "says": "ødelegg totalt 10 fiender med automaten i Space"
+  },
+  "dazed": {
+    "name": "ør og forvirret",
+    "says": "svim av totalt 25 angripere i Castle"
+  },
+  "spoils-of-war": {
+    "name": "krigsbytte",
+    "says": "bruk totalt 10 power-ups i Castle"
+  },
+  "clean-sweep": {
+    "name": "rent bord",
+    "says": "rett alle feil i et Spot-avsnitt uten å markere et riktig ord"
+  },
+  "race-first": {
+    "name": "klar, ferdig, gå"
+  },
+  "race-solo-win": {
+    "name": "først over målstreken"
+  },
+  "race-hard-win": {
+    "name": "frafløyet begge to"
+  },
+  "race-network-win": {
+    "name": "raskest i rommet"
+  },
+  "race-last-standing": {
+    "name": "siste bil på banen"
+  },
+  "race-every-mode": {
+    "name": "seier i hvert spor"
+  },
+  "streak-3": {
+    "name": "tre på rad"
+  },
+  "streak-7": {
+    "name": "en hel uke"
+  },
+  "streak-14": {
+    "name": "to uker i strekk"
+  },
+  "streak-30": {
+    "name": "en hel måned"
+  },
+  "streak-100": {
+    "name": "hundre dager i strekk"
+  },
+  "streak-365": {
+    "name": "et helt år i strekk"
+  },
+  "level-5": {
+    "name": "nivå 5"
+  },
+  "level-10": {
+    "name": "nivå 10"
+  },
+  "level-15": {
+    "name": "nivå 15"
+  },
+  "level-20": {
+    "name": "nivå 20"
+  },
+  "level-30": {
+    "name": "nivå 30"
+  },
+  "level-40": {
+    "name": "nivå 40"
+  },
+  "level-50": {
+    "name": "nivå 50"
+  },
+  "quests-10": {
+    "name": "på oppdrag"
+  },
+  "quests-25": {
+    "name": "oppdragssinnet"
+  },
+  "quests-100": {
+    "name": "oppdragsjeger"
+  },
+  "quests-500": {
+    "name": "et liv med oppdrag"
+  },
+  "challenges-10": {
+    "name": "klar for alt"
+  },
+  "challenges-50": {
+    "name": "utfordrer"
+  },
+  "challenges-100": {
+    "name": "gir seg aldri"
+  },
+  "full-days-7": {
+    "name": "full pott"
+  },
+  "full-days-30": {
+    "name": "tretti fulle dager"
+  },
+  "first-text": {
+    "name": "egne ord"
+  },
+  "texts-3": {
+    "name": "noen av dine egne"
+  },
+  "texts-10": {
+    "name": "et lite bibliotek"
+  },
+  "texts-25": {
+    "name": "en bokhylle"
+  },
+  "page-text": {
+    "name": "en hel side av dine egne"
+  },
+  "long-text": {
+    "name": "en lang lesing"
+  },
+  "epic-text": {
+    "name": "et epos"
+  },
+  "pets-1": {
+    "name": "hei der"
+  },
+  "pets-25": {
+    "name": "flink tastetopp"
+  },
+  "pets-100": {
+    "name": "bestevenner"
+  },
+  "pets-500": {
+    "name": "uatskillelige"
+  },
+  "pokes-1": {
+    "name": "dult"
+  },
+  "pokes-100": {
+    "name": "dult, dult, dult"
+  },
+  "tickles-1": {
+    "name": "kilevink"
+  },
+  "tickles-25": {
+    "name": "latterkrampe"
+  },
+  "tickles-250": {
+    "name": "ingen nåde"
+  },
+  "wardrobe-10": {
+    "name": "kler seg opp"
+  },
+  "wardrobe-25": {
+    "name": "full garderobe"
+  },
+  "all-slots": {
+    "name": "pyntet til fest"
+  },
+  "decorations-1": {
+    "name": "litt stil"
+  },
+  "decorations-5": {
+    "name": "dekoratør"
+  },
+  "decorations-10": {
+    "name": "interiørarkitekt"
+  },
+  "decorations-all": {
+    "name": "alle detaljer"
+  },
+  "decoration-kinds": {
+    "name": "én av hver"
+  },
+  "decorated": {
+    "name": "satte mitt preg"
+  },
+  "fully-decorated": {
+    "name": "alt tilbehør"
+  },
+  "pad-first": {
+    "name": "første strimmel"
+  },
+  "pad-tests-25": {
+    "name": "hovedbokfører"
+  },
+  "pad-speed-5000": {
+    "name": "stødig på tastene"
+  },
+  "pad-speed-8000": {
+    "name": "rask på talltastaturet"
+  },
+  "pad-speed-10000": {
+    "name": "ti tusen i timen"
+  },
+  "pad-perfect": {
+    "name": "avstemte bøker"
+  },
+  "pad-lesson-1": {
+    "name": "hjemtaster"
+  },
+  "pad-lessons-all": {
+    "name": "hele talltastaturet"
+  },
+  "pad-sums-100": {
+    "name": "god med tall"
+  },
+  "pad-sums-perfect": {
+    "name": "kalkulator overflødig"
+  },
+  "pad-sums-level-5": {
+    "name": "autorisert"
+  },
+  "pad-till-25": {
+    "name": "faste kunder"
+  },
+  "pad-till-60": {
+    "name": "køen tar aldri slutt"
+  },
+  "pad-keys-10000": {
+    "name": "ti tusen taster"
+  },
+  "night-owl": {
+    "name": "nattugle"
+  },
+  "moonlighter": {
+    "name": "nattarbeider"
+  },
+  "early-bird": {
+    "name": "morgenfugl"
+  },
+  "flawless": {
+    "name": "feilfri"
+  },
+  "marathon": {
+    "name": "maraton"
+  },
+  "first-try": {
+    "name": "på første forsøk"
+  },
+  "pets-1000": {
+    "name": "hengiven"
+  },
+  "poke-fit": {
+    "name": "nå holder det"
+  },
+  "restarts-3": {
+    "name": "déjà vu"
+  },
+  "restarts-7": {
+    "name": "en evig søndag"
+  },
+  "restarts-15": {
+    "name": "av og på igjen"
+  },
+  "arm-lift": {
+    "name": "en hjelpende hånd"
+  },
+  "word-bomb": {
+    "name": "nukleært alternativ"
+  },
+  "sweet-dreams": {
+    "name": "søte drømmer"
+  },
+  "early-wake": {
+    "name": "allerede?"
+  },
+  "overnight-sleep": {
+    "name": "i dyp søvn"
+  },
+  "siege-breaker": {
+    "name": "beleiringbryter",
+    "says": "ødelegg totalt 10 katapulter i Castle"
+  },
+  "bomb-disposal": {
+    "name": "bomberydder",
+    "says": "desarmer totalt 25 dynamittgubber i Castle"
+  },
+  "bucket-brigade": {
+    "name": "bøttebrigade",
+    "says": "slukk totalt 25 branner i Castle"
+  },
+  "giant-killer": {
+    "name": "kjempefeller",
+    "says": "fell en kjempe i Castle"
+  },
+  "reinforcements": {
+    "name": "forsterkninger",
+    "says": "send ut totalt 100 soldater i Castle"
+  },
+  "king-safe": {
+    "name": "kongen i sikkerhet",
+    "says": "vinn en klatring i Castle"
+  },
+  "off-the-wall": {
+    "name": "utenfor muren",
+    "says": "skyv totalt 20 stiger ned fra tårnet i Castle"
+  },
+  "cut-loose": {
+    "name": "gitt frie tøyler",
+    "says": "kapp løs totalt 20 klatrekroker i Castle"
+  },
+  "achievement_badges": {
+    "secret": "hemmelig",
+    "kind": "{kind}",
+    "kind_earned": "{kind}, oppnådd",
+    "kind_trophy": "trofé",
+    "kind_medal": "medalje",
+    "kind_badge": "merke"
+  },
+  "achievement_note": {
+    "see_achievements": "se prestasjoner"
+  },
+  "achievements": {
+    "doesn_t_count_towards_100": "teller ikke mot 100 %",
+    "achievements_aren_t_available_here": "Prestasjoner er ikke tilgjengelige her.",
+    "things_you_ve_done_in": "ting du har gjort i kalibre, beregnet ut fra historikken din, så alt du gjorde tidligere teller også. hemmeligheter og ekstra teller ikke mot totalen.",
+    "100_every_achievement": "100 %: alle prestasjoner.",
+    "achievements_aren_t_available_here_2": "Prestasjoner er ikke tilgjengelige her.",
+    "earned": "oppnådd",
+    "trophies": "trofeer",
+    "medals": "medaljer",
+    "badges": "merker",
+    "extras": "ekstra",
+    "sections_label": "prestasjonseksjoner"
+  }
+}
