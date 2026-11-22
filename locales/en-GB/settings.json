@@ -631,6 +631,10 @@
     },
     "numpadConfig": {
       "label": "ten-key test setup"
+    },
+    "autoDownloadUpdates": {
+      "label": "automatically download updates",
+      "description": "new versions download in the background and wait; kalibre never switches until you approve. off, they only download when you ask"
     }
   },
   "actions": {
@@ -775,6 +779,7 @@
     "training": "training",
     "accessibility": "accessibility",
     "data": "data",
+    "updates": "updates",
     "manage-data": "manage data"
   },
   "stepper": {
@@ -814,5 +819,19 @@
     "status_fail": "issue",
     "tap_to_preview": "preview",
     "reset_to_preset": "reset"
+  },
+  "updates_panel": {
+    "available": "v{version} is available. it hasn’t been downloaded, so nothing has changed.",
+    "download": "download v{version}",
+    "downloading": "downloading…",
+    "download_failed": "the download didn’t finish. nothing has changed; you can try again.",
+    "downloaded": "v{version} is downloaded and waiting. nothing changes until you update.",
+    "held": "v{version} is downloaded on this device, but kalibre keeps running v{current} until you update.",
+    "update_refused": "that version hasn’t finished downloading, so it can’t be used yet.",
+    "recovery_heading": "previous version",
+    "recovery_none": "no earlier version is stored on this device, so there is nothing to go back to.",
+    "recovery_reverted": "you went back to an earlier version. the newer one is still stored; update to it when you’re ready.",
+    "recovery_held": "kalibre is running the version you last approved. the newer one waits for your approval above.",
+    "recovery_unavailable": "kalibre can’t reach its update worker right now, so it can’t tell whether an earlier version is stored. reload the page and look again."
   }
 }

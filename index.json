@@ -17,7 +17,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 5534,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Completed Danish translations; added adaptive passage-budget settings",
       "path": "locales/da-DK/manifest.json",
@@ -36,7 +36,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4443,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Translated adaptive passage-budget settings",
       "path": "locales/de-DE/manifest.json",
@@ -50,18 +50,18 @@
       "englishName": "English (UK)",
       "dir": "ltr",
       "fallback": null,
-      "revision": 17,
-      "version": "2026-10-21",
+      "revision": 18,
+      "version": "2026-11-22",
       "reviewed": "native",
       "translationProgress": {
-        "translatedMessages": 5534,
-        "totalMessages": 5534
+        "translatedMessages": 5558,
+        "totalMessages": 5558
       },
-      "changes": "Added adaptive passage-budget settings",
+      "changes": "Added update approval, automatic downloads and the previous-version card",
       "path": "locales/en-GB/manifest.json",
       "pack": "packs/en-GB.json",
-      "sha256": "b690aa11c329c6518ee6b7ed2513e25e28f305122ac29b8c44fdd054bba12483",
-      "bytes": 381405
+      "sha256": "a9235189049aa31e76f822d769c5d4b79d48ed22a60fa69e2a5b2efefb5a0d93",
+      "bytes": 383705
     },
     {
       "id": "es-ES",
@@ -74,7 +74,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4438,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Translated adaptive passage-budget settings",
       "path": "locales/es-ES/manifest.json",
@@ -93,7 +93,7 @@
       "reviewed": "community",
       "translationProgress": {
         "translatedMessages": 4437,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Translated adaptive passage-budget settings",
       "path": "locales/fr-FR/manifest.json",
@@ -112,7 +112,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4438,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Translated adaptive passage-budget settings",
       "path": "locales/it-IT/manifest.json",
@@ -131,7 +131,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 5534,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Completed Norwegian Bokmål translations; added adaptive passage-budget settings",
       "path": "locales/nb-NO/manifest.json",
@@ -150,7 +150,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4442,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Translated adaptive passage-budget settings",
       "path": "locales/nl-NL/manifest.json",
@@ -169,7 +169,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4438,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Translated adaptive passage-budget settings",
       "path": "locales/pt-BR/manifest.json",
@@ -188,7 +188,7 @@
       "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4443,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Translated adaptive passage-budget settings",
       "path": "locales/sv-SE/manifest.json",
@@ -207,7 +207,7 @@
       "reviewed": "community",
       "translationProgress": {
         "translatedMessages": 4405,
-        "totalMessages": 5534
+        "totalMessages": 5558
       },
       "changes": "Translated adaptive passage-budget settings",
       "path": "locales/zh-CN/manifest.json",
