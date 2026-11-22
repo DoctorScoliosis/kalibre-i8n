@@ -7,9 +7,9 @@
     "fallback": null,
     "lowercaseDates": true,
     "reviewed": "native",
-    "revision": 17,
-    "version": "2026-10-21",
-    "changes": "Added adaptive passage-budget settings"
+    "revision": 18,
+    "version": "2026-11-22",
+    "changes": "Added update approval, automatic downloads and the previous-version card"
   },
   "strings": {
     "about": {
@@ -1215,7 +1215,15 @@
         "changelog_title": "changelog",
         "view_all_releases": "view full changelog",
         "view_latest_only": "view latest update only",
-        "historical_releases_count": "{count} earlier {count, plural, one {release} other {releases}}"
+        "historical_releases_count": "{count} earlier {count, plural, one {release} other {releases}}",
+        "update_ready_unknown": "an update is ready",
+        "update_available": "v{version} is available · download",
+        "updated_elsewhere": "kalibre was updated in another tab · reload",
+        "download_to": "download v{version}",
+        "update_meta_not_downloaded": "download size: ~{size} · it isn’t downloaded yet, and nothing changes until you update.",
+        "update_meta_not_downloaded_unsized": "it isn’t downloaded yet, and nothing changes until you update.",
+        "downloading": "downloading…",
+        "download_failed": "the download didn’t finish. nothing has changed."
       },
       "brand": {
         "kanary_preview_build_notice": "kanary preview build notice",
@@ -1347,7 +1355,8 @@
         "confirm_go_back_to": "yes, go back to v{version}",
         "going_back": "going back…",
         "couldn_t_go_back": "couldn’t go back: {error}",
-        "previous_version_unavailable": "the previous version is no longer available"
+        "previous_version_unavailable": "the previous version is no longer available",
+        "previous_version_missing": "the previous kalibre version (v{version}) is no longer stored on this device, so there is nothing to go back to."
       },
       "update_gate": {
         "carry_on": "carry on",
@@ -8036,6 +8045,10 @@
         },
         "numpadConfig": {
           "label": "ten-key test setup"
+        },
+        "autoDownloadUpdates": {
+          "label": "automatically download updates",
+          "description": "new versions download in the background and wait; kalibre never switches until you approve. off, they only download when you ask"
         }
       },
       "actions": {
@@ -8180,6 +8193,7 @@
         "training": "training",
         "accessibility": "accessibility",
         "data": "data",
+        "updates": "updates",
         "manage-data": "manage data"
       },
       "stepper": {
@@ -8219,6 +8233,20 @@
         "status_fail": "issue",
         "tap_to_preview": "preview",
         "reset_to_preset": "reset"
+      },
+      "updates_panel": {
+        "available": "v{version} is available. it hasn’t been downloaded, so nothing has changed.",
+        "download": "download v{version}",
+        "downloading": "downloading…",
+        "download_failed": "the download didn’t finish. nothing has changed; you can try again.",
+        "downloaded": "v{version} is downloaded and waiting. nothing changes until you update.",
+        "held": "v{version} is downloaded on this device, but kalibre keeps running v{current} until you update.",
+        "update_refused": "that version hasn’t finished downloading, so it can’t be used yet.",
+        "recovery_heading": "previous version",
+        "recovery_none": "no earlier version is stored on this device, so there is nothing to go back to.",
+        "recovery_reverted": "you went back to an earlier version. the newer one is still stored; update to it when you’re ready.",
+        "recovery_held": "kalibre is running the version you last approved. the newer one waits for your approval above.",
+        "recovery_unavailable": "kalibre can’t reach its update worker right now, so it can’t tell whether an earlier version is stored. reload the page and look again."
       }
     },
     "stats": {
