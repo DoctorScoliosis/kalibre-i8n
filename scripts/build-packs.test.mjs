@@ -156,3 +156,13 @@ test("the coverage table rounds down, so a language is never shown as complete t
   assert.match(table, /█████████░ 99% \| 5,449 \/ 5,450 \| 1 \| machine/);
   assert.match(table, /🇩🇪 Deutsch \| German \|/);
 });
+
+test("a locale whose meta omits `reviewed` is published as machine translated, never as community reviewed", () => {
+  const repo = fixture();
+  const meta = JSON.parse(repo.read("locales/xx-XX/meta.json"));
+  delete meta.reviewed;
+  repo.write("locales/xx-XX/meta.json", meta);
+  buildPacks({ rootDir: repo.rootDir });
+  const index = JSON.parse(repo.read("index.json"));
+  assert.equal(index.locales.find((item) => item.id === "xx-XX").reviewed, "machine");
+});

@@ -88,18 +88,18 @@
       "englishName": "French (France)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 10,
-      "version": "2026-10-21",
-      "reviewed": "community",
+      "revision": 11,
+      "version": "2026-11-23",
+      "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4437,
         "totalMessages": 5558
       },
-      "changes": "Translated adaptive passage-budget settings",
+      "changes": "Review status corrected from community to machine: all translations are machine authored",
       "path": "locales/fr-FR/manifest.json",
       "pack": "packs/fr-FR.json",
-      "sha256": "83fafbc82864bf42148436ad84bb4e4e15f8577426561e69d684cd15c4957ca5",
-      "bytes": 330956
+      "sha256": "3e1ae6515e62ae160faab7b043aceefa0f5b435454fe5126e478f6b4c05ffa09",
+      "bytes": 330999
     },
     {
       "id": "it-IT",
@@ -202,18 +202,18 @@
       "englishName": "Chinese (Simplified)",
       "dir": "ltr",
       "fallback": "en-GB",
-      "revision": 10,
-      "version": "2026-10-21",
-      "reviewed": "community",
+      "revision": 11,
+      "version": "2026-11-23",
+      "reviewed": "machine",
       "translationProgress": {
         "translatedMessages": 4405,
         "totalMessages": 5558
       },
-      "changes": "Translated adaptive passage-budget settings",
+      "changes": "Review status corrected from community to machine: all translations are machine authored",
       "path": "locales/zh-CN/manifest.json",
       "pack": "packs/zh-CN.json",
-      "sha256": "7f59c1a6d56aa330f2eb83a1afd2b4faabc4931c56208e6c59ccb61cc2960719",
-      "bytes": 294704
+      "sha256": "207e2573d38063012c865efff08c7b8c0c0a06530fddd1943db4c708c9267dde",
+      "bytes": 294747
     }
   ]
 }

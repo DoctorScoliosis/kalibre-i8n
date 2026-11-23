@@ -13,10 +13,10 @@
     "Microsoft YaHei",
     "sans-serif"
   ],
-  "reviewed": "community",
-  "revision": 10,
-  "version": "2026-10-21",
-  "changes": "Translated adaptive passage-budget settings",
+  "reviewed": "machine",
+  "revision": 11,
+  "version": "2026-11-23",
+  "changes": "Review status corrected from community to machine: all translations are machine authored",
   "files": {
     "about.json": "9f71539a14d5e23f192a4cac6f73ab3f6c9849fe764679b5beb9ceba275b4c73",
     "achievements.json": "7ddec973e987b6657bb9ea08350b06896c99d4b6746fb66291f1fea07be9ec56",

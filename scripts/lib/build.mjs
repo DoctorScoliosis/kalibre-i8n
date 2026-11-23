@@ -150,7 +150,7 @@ export function buildPacks({ rootDir }) {
       fallback: meta.fallback,
       revision: meta.revision || 1,
       version: meta.version || "1.0.0",
-      reviewed: meta.reviewed || "community",
+      reviewed: meta.reviewed || "machine",
       translationProgress: translationProgress(strings, canonicalKeys),
       changes: meta.changes || "",
       path: `locales/${tag}/manifest.json`,
